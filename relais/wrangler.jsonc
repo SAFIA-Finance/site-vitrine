@@ -15,10 +15,10 @@
     // Destinataire des alertes de demande de démo.
     "ALERTE_EMAIL": "hello@safia.finance",
     // Doit être un expéditeur validé dans Brevo.
-    "EXPEDITEUR_EMAIL": "hello@safia.finance",
+    "EXPEDITEUR_EMAIL": "maximebouche@safia.finance",
     // Identifiants des listes Brevo, renseignés à l'installation.
-    "LISTE_NEWSLETTER": "0",
-    "LISTE_DEMO": "0"
+    "LISTE_NEWSLETTER": "4",
+    "LISTE_DEMO": "5"
   },
 
   // 8 envois par minute par adresse IP, contre les soumissions en rafale.
