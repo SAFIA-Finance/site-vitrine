@@ -8,9 +8,9 @@ import sitemap from '@astrojs/sitemap';
 //
 //   SITE_URL    URL absolue publique, utilisée pour les canoniques et le sitemap.
 //   INDEXABLE   « true » uniquement en production. Sur la préversion, le site est
-//               en noindex : sans ça, v2.safia.finance ferait doublon avec
+//               en noindex : sans ça, sitev2.safia.finance ferait doublon avec
 //               safia.finance dans Google et pourrait le supplanter.
-const SITE_URL = process.env.SITE_URL ?? 'https://v2.safia.finance';
+const SITE_URL = process.env.SITE_URL ?? 'https://sitev2.safia.finance';
 const INDEXABLE = process.env.INDEXABLE === 'true';
 
 export default defineConfig({

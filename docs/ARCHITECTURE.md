@@ -170,7 +170,7 @@ tous délibérés.
 | 5 | Photos en base64, portrait dupliqué | fichiers dans `public/images/` | Pages plus légères, une seule photo en cache |
 | 6 | Choix cookies en `sessionStorage` | en `localStorage` | Le refus ne doit pas être redemandé à chaque visite |
 | 7 | `© SAFIA 2026` en dur | année calculée | Rien à corriger au 1ᵉʳ janvier |
-| 8 | Pas de directive d'indexation | `noindex` sur la préversion | Éviter que `v2` fasse doublon avec le site public |
+| 8 | Pas de directive d'indexation | `noindex` sur la préversion | Éviter que `sitev2` fasse doublon avec le site public |
 | 9 | Titres et descriptions dans le JavaScript | `src/data/pages.json` | Un seul endroit, alignés sur le fichier de textes V9 |
 | 10 | Pas d'icône iOS ni d'image de partage | `apple-touch-icon.png`, `og/defaut.png` | Les liens partagés affichaient un aperçu vide |
 | 11 | Message « Page non incluse dans la maquette » | « Page en cours de rédaction » | Le vocabulaire de maquette n'a plus lieu d'être en ligne |

@@ -5,7 +5,7 @@ investissement financier.
 
 | | |
 |---|---|
-| **Préversion** | https://v2.safia.finance — version en cours, en `noindex` |
+| **Préversion** | https://sitev2.safia.finance — version en cours, en `noindex` |
 | **Production** | https://safia.finance — site actuel, hors de ce dépôt pour l'instant |
 | **Technique** | [Astro](https://astro.build) 5, HTML statique, déployé par GitHub Actions sur GitHub Pages |
 | **Langue** | français, tutoiement pour les pages particuliers, vouvoiement pour les pages professionnelles |

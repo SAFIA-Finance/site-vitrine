@@ -19,7 +19,7 @@ dépôt. Ce sont des *variables*, pas des secrets : ils n'ont rien de confidenti
 
 | Variable | Préversion | Production |
 |---|---|---|
-| `SITE_URL` | `https://v2.safia.finance` | `https://safia.finance` |
+| `SITE_URL` | `https://sitev2.safia.finance` | `https://safia.finance` |
 | `INDEXABLE` | `false` | `true` |
 
 `SITE_URL` sert aux URL canoniques, aux données structurées et au sitemap.
@@ -28,7 +28,7 @@ dépôt. Ce sont des *variables*, pas des secrets : ils n'ont rien de confidenti
 `noindex, nofollow` et aucun sitemap n'est produit.
 
 > **Pourquoi la préversion est en `noindex`.**
-> `v2.safia.finance` est un duplicata du site public. Indexé, Google y verrait
+> `sitev2.safia.finance` est un duplicata du site public. Indexé, Google y verrait
 > du contenu dupliqué et pourrait le faire remonter à la place de
 > `safia.finance` — un sous-domaine peut très bien supplanter son domaine
 > parent dans les résultats. Le `noindex` et le `Disallow: /` de
@@ -67,7 +67,7 @@ qui publie.
 
 ### 4. Déclarer le domaine
 
-**Settings → Pages → Custom domain : `v2.safia.finance`**, puis *Save*.
+**Settings → Pages → Custom domain : `sitev2.safia.finance`**, puis *Save*.
 
 Le fichier `public/CNAME` contient déjà ce nom. Il est copié dans `dist/` à
 chaque construction, ce qui évite que le réglage se perde au déploiement
@@ -75,14 +75,14 @@ suivant.
 
 ### 5. Créer l'enregistrement DNS
 
-Le DNS de `safia.finance` est géré par **Cloudflare**
+Le nom `safia.finance` est acheté chez **IONOS**, mais son DNS est délégué à **Cloudflare**. Les enregistrements se créent donc chez Cloudflare : ceux saisis chez IONOS ne sont pas pris en compte. Serveurs de noms
 (`edna.ns.cloudflare.com`, `garret.ns.cloudflare.com`).
 
 **Cloudflare → safia.finance → DNS → Records → Add record :**
 
 | Type | Name | Target | Proxy status | TTL |
 |---|---|---|---|---|
-| `CNAME` | `v2` | `safia-finance.github.io` | **DNS only** (nuage gris) | Auto |
+| `CNAME` | `sitev2` | `safia-finance.github.io` | **DNS only** (nuage gris) | Auto |
 
 > **Le nuage doit être gris.** En *Proxied* (orange), Cloudflare s'interpose,
 > GitHub ne peut plus valider le domaine ni émettre le certificat HTTPS, et le
@@ -103,9 +103,9 @@ recommence pas.
 
 ### 7. Vérifier
 
-- https://v2.safia.finance répond en HTTPS
+- https://sitev2.safia.finance répond en HTTPS
 - Les quatorze pages s'ouvrent, menu et pied de page compris
-- `curl -s https://v2.safia.finance/robots.txt` renvoie `Disallow: /`
+- `curl -s https://sitev2.safia.finance/robots.txt` renvoie `Disallow: /`
 - Le code source d'une page contient `<meta name="robots" content="noindex, nofollow">`
 
 ---
@@ -191,7 +191,7 @@ AAAA  @    2606:50c0:8003::153
 
 ### 6. Rediriger l'ancien sous-domaine
 
-`v2.safia.finance` ne doit pas rester en ligne à côté de la production : ce
+`sitev2.safia.finance` ne doit pas rester en ligne à côté de la production : ce
 serait exactement le doublon qu'on voulait éviter. Soit tu supprimes
 l'enregistrement DNS, soit tu le rediriges en 301 vers `safia.finance`.
 
@@ -199,7 +199,7 @@ l'enregistrement DNS, soit tu le rediriges en 301 vers `safia.finance`.
 
 - Search Console : ajouter `safia.finance`, soumettre `sitemap-index.xml`.
 - Vérifier qu'une page prise au hasard ne contient plus `noindex`.
-- Search Console : demander la suppression de l'index de `v2.safia.finance`
+- Search Console : demander la suppression de l'index de `sitev2.safia.finance`
   s'il y avait été indexé malgré tout.
 
 ---
@@ -227,7 +227,7 @@ un historique réécrit rend les retours en arrière hasardeux.
   aucun traceur n'est chargé. C'est cohérent : le consentement est demandé avant
   d'installer quoi que ce soit. Le jour où un outil est ajouté, il devra n'être
   chargé qu'après acceptation.
-- **Pas d'environnement de recette distinct.** `v2.safia.finance` en tient lieu.
+- **Pas d'environnement de recette distinct.** `sitev2.safia.finance` en tient lieu.
   Après la bascule, prévoir un nouveau sous-domaine de préversion pour ne plus
   travailler directement sur la production.
 - **Pas de tests automatisés** au-delà de la vérification des liens.

@@ -2,7 +2,7 @@
 // Ils sont pilotés par deux variables d'environnement, définies dans
 // .github/workflows/deploy.yml. Voir docs/DEPLOIEMENT.md.
 
-export const SITE_URL = process.env.SITE_URL ?? 'https://v2.safia.finance';
+export const SITE_URL = process.env.SITE_URL ?? 'https://sitev2.safia.finance';
 
 /** Faux sur la préversion : le site est alors servi en noindex. */
 export const INDEXABLE = process.env.INDEXABLE === 'true';

@@ -1,7 +1,7 @@
 # Points ouverts
 
 Ce qui reste à traiter. Rien n'empêche la mise en ligne sur
-`v2.safia.finance`, qui est une préversion non indexée — c'est justement à ça
+`sitev2.safia.finance`, qui est une préversion non indexée — c'est justement à ça
 qu'elle sert. Tout ce qui est marqué **bloquant** doit être soldé avant la
 bascule sur `safia.finance`.
 
