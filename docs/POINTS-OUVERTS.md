@@ -15,7 +15,6 @@ est apparu pendant la migration et la mise en ligne.
 |---|---|---|
 | **Pages légales** | Les cinq liens du pied de page portent la classe `a-venir` | Documents à déposer dans `reference/pages-legales/`. La politique de confidentialité doit citer **Brevo** (newsletter, demandes de démo), **Cloudflare** (relais des formulaires) et **Google Analytics** ; la politique cookies doit décrire Google Analytics et le lien « Gestion des cookies ». |
 | **Référencement** | Titres et descriptions dans `src/data/pages.json` | Validation de la liste complète (voir plus bas). |
-| `Q-23` **Finary** | Le tableau indique « revenus sur les produits distribués » | À sourcer comme les autres chiffres du comparatif. |
 
 ---
 
@@ -40,6 +39,7 @@ est apparu pendant la migration et la mise en ligne.
 | `Q-31` | Mention d'indépendance | Formulation factuelle : « rémunérée uniquement par l'abonnement », « Conseil par abonnement » | Comparatif |
 | `Q-18` `Q-26` | Chiffres du comparatif | Vérifiés sur les pages officielles le 15/09/2026, renvois numérotés, sources en bas de page | Comparatif |
 | `Q-21` | Date du comparatif | 15 septembre 2026. **À réactualiser à chaque mise à jour des tarifs, et au moins deux fois par an** | Comparatif |
+| `Q-23` | Rémunération de Finary | « Revenus sur les produits distribués », non vérifiable, remplacé par « distribution de sa propre assurance vie » (Finary Life), sourcé | Comparatif |
 | `Q-30` | Prix de Finary | 20 € par mois ou 120 € par an ; « sans IA » retiré, invérifiable | Comparatif |
 | `Q-22` | Revolut | Carte « La néobanque » conservée sans chiffre | Comparatif |
 | `Q-24` | « La rigueur d'une banque privée » | Conservé | Comparatif |
