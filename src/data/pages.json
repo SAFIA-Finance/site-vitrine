@@ -124,5 +124,49 @@
     "ref": "E404",
     "titre": "Page introuvable · SAFIA",
     "description": "Cette page n'existe pas ou plus. Retrouvez les pages principales de SAFIA."
-  }
+  },
+  {
+    "slug": "mentions-legales",
+    "fichier": "mentions-legales.astro",
+    "route": "/mentions-legales/",
+    "libelle": "Mentions légales",
+    "ref": "LEG",
+    "titre": "Mentions légales · SAFIA",
+    "description": "Éditeur, directeur de la publication, hébergeur et statut réglementaire de SAFIA SAS, conseiller en investissements financiers."
+  },
+  {
+    "slug": "politique-de-confidentialite",
+    "fichier": "politique-de-confidentialite.astro",
+    "route": "/politique-de-confidentialite/",
+    "libelle": "Politique de confidentialité",
+    "ref": "CNF",
+    "titre": "Politique de confidentialité · SAFIA",
+    "description": "Quelles données SAFIA collecte, pourquoi, avec qui elles sont partagées, combien de temps elles sont conservées et comment exercer tes droits."
+  },
+  {
+    "slug": "cgu",
+    "fichier": "cgu.astro",
+    "route": "/cgu/",
+    "libelle": "CGU",
+    "ref": "CGU",
+    "titre": "Conditions générales d'utilisation · SAFIA",
+    "description": "Les règles d'utilisation de l'application SAFIA : accès au service, comptes, abonnements, responsabilités et résiliation."
+  },
+  {
+    "slug": "disclaimer",
+    "fichier": "disclaimer.astro",
+    "route": "/disclaimer/",
+    "libelle": "Avertissement",
+    "ref": "DIS",
+    "titre": "Avertissement · SAFIA",
+    "description": "Ce que sont et ne sont pas les analyses de SAFIA : information et pédagogie, sans conseil en investissement personnalisé automatisé."
+  },
+  {
+    "slug": "politique-cookies",
+    "fichier": "politique-cookies.astro",
+    "route": "/politique-cookies/",
+    "libelle": "Politique de cookies",
+    "ref": "COO",
+    "titre": "Politique de cookies · SAFIA",
+    "description": "Les cookies déposés par SAFIA, leur finalité, leur durée de conservation et comment modifier ton choix à tout moment."  }
 ]

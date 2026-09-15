@@ -1230,3 +1230,12 @@ footer.pied{background:var(--nuit);color:rgba(255,255,255,.78);padding:64px 0 40
 
 /* ---------- Formulaires : champ piège pour les robots ---------- */
 .pot{position:absolute!important;left:-10000px;width:1px;height:1px;overflow:hidden}
+
+/* ---------- Pages légales ---------- */
+.legal{max-width:76ch}
+.legal h2{margin:40px 0 12px;font-size:clamp(1.12rem,2.1vw,1.4rem);line-height:1.25;letter-spacing:-.01em;font-weight:600;color:var(--encre)}
+.legal h2:first-child{margin-top:0}
+.legal p{margin:0 0 14px;color:var(--encre-2)}
+.legal ul{margin:0 0 18px;padding-left:22px;display:grid;gap:7px;color:var(--encre-2)}
+.legal strong{color:var(--encre);font-weight:600}
+.legal a{color:inherit;text-decoration:underline;text-underline-offset:3px}
