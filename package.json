@@ -13,6 +13,7 @@
     "preview": "astro preview",
     "check": "astro check",
     "verifier": "node outils/verifier-liens.mjs dist",
+    "referencement": "node outils/referencement.mjs",
     "images": "node outils/generer-images.mjs"
   },
   "devDependencies": {
