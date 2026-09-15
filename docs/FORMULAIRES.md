@@ -54,9 +54,9 @@ et disposer d'une clé API Brevo.
 - **Adresses IP autorisées** : désactiver le blocage des IP inconnues pour les
   clés API. Les Workers Cloudflare n'ont pas d'adresse fixe ; avec le blocage
   actif, chaque appel du relais serait refusé.
-- **Expéditeur** : l'e-mail d'alerte part de `maximebouche@safia.finance`,
-  expéditeur déjà validé dans Brevo. Pour en utiliser un autre, le valider dans
-  Brevo (*Expéditeurs*) puis changer `EXPEDITEUR_EMAIL`.
+- **Expéditeur** : l'e-mail d'alerte part de `hello@safia.finance`, l'adresse
+  opérationnelle de SAFIA (`maximebouche@safia.finance` reste réservée aux
+  échanges personnels). Elle doit rester un expéditeur validé dans Brevo.
 - **Listes et champs** : créés par l'API à l'installation.
   - Listes, dans le dossier « Site SAFIA » : « Newsletter SAFIA » (n° 4),
     « Demandes de démo » (n° 5).
