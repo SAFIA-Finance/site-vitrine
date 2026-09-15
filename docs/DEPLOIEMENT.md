@@ -98,8 +98,19 @@ La propagation DNS prend de quelques minutes à une heure. Une fois faite,
 GitHub émet un certificat Let's Encrypt, puis **Settings → Pages → Enforce
 HTTPS** devient cochable. Coche-la.
 
-Tant que la case est grisée, le certificat n'est pas prêt : attends, ne
-recommence pas.
+Tant que la case est grisée, le certificat n'est pas prêt.
+
+> **Si rien ne bouge au bout d'une heure** alors que le DNS résout bien
+> (vérifiable avec `nslookup sitev2.safia.finance`), c'est presque toujours
+> que le domaine a été déclaré dans GitHub **avant** que l'enregistrement DNS
+> existe. GitHub tente alors d'émettre le certificat, échoue, et ne réessaie pas
+> de lui-même. Cloudflare garde en plus la réponse « introuvable » en cache
+> 30 minutes.
+>
+> Solution : **Settings → Pages → Custom domain → Remove**, attendre quelques
+> secondes, puis ressaisir le domaine et **Save**. Le certificat est en général
+> approuvé dans la minute. C'est ce qui s'est passé à la première mise en ligne,
+> le 15 septembre 2026.
 
 ### 7. Vérifier
 
