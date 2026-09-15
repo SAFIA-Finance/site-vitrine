@@ -7,11 +7,10 @@ import Footer from '../components/Footer.astro';
 import BandeauCookies from '../components/BandeauCookies.astro';
 import RetourHaut from '../components/RetourHaut.astro';
 import { SITE_URL, INDEXABLE, SOCIETE, GA_ID, RELAIS_URL } from '../config.js';
+import pages from '../data/pages.json';
 import '../styles/global.css';
 
 const {
-  titre,
-  description,
   chemin,
   faq = [],
   fil = null,
@@ -20,6 +19,13 @@ const {
   // est produite par outils/generer-images.mjs.
   image = '/og/defaut.png',
 } = Astro.props;
+
+// Le titre et la description viennent de src/data/pages.json, seule source de
+// vérité du référencement. Une page peut toujours les surcharger par ses props.
+const fiche = pages.find((p) => p.route === chemin);
+if (!fiche) throw new Error(`Page absente de src/data/pages.json : ${chemin}`);
+const titre = Astro.props.titre ?? fiche.titre;
+const description = Astro.props.description ?? fiche.description;
 
 const canonique = new URL(chemin, SITE_URL).href;
 const robots = !INDEXABLE || noindex ? 'noindex, nofollow' : 'index, follow';
