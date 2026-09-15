@@ -39,7 +39,7 @@ Get-ChildItem $src -Filter *.docx | ForEach-Object {
 3. Convertir, construire, vérifier, publier :
 
 ```powershell
-node outils\docx-en-pages.mjs "$env:TEMP\safia-docx" --complements
+node outils\docx-en-pages.mjs "$env:TEMP\safia-docx"
 npm run build
 npm run verifier
 git add -A ; git commit -m "Pages légales : mise à jour" ; git push
@@ -48,24 +48,13 @@ git add -A ; git commit -m "Pages légales : mise à jour" ; git push
 L'option `--complements` est importante : sans elle, les compléments propres au
 site ne sont pas repris et disparaissent des pages publiées.
 
-## Compléments propres au site
+## Une seule source de vérité
 
-Les documents Word décrivent **l'application**. Le site, lui, utilise des
-services que ces documents ne mentionnent pas. Ces ajouts vivent séparément,
-dans `reference/pages-legales/complements/` :
-
-| Fichier | Ce qu'il ajoute |
-|---|---|
-| `mentions-legales.md` | GitHub comme hébergeur du site, Scaleway restant celui de l'application |
-| `politique-de-confidentialite.md` | Newsletter et demandes de démonstration, sous-traitants Brevo, Cloudflare, GitHub et Google |
-| `politique-cookies.md` | Google Analytics, consentement préalable, cookies de treize mois, modification du choix |
-
-Ils sont écrits en Markdown simple : `##` et `###` pour les titres, `- ` pour
-les listes, `**gras**` et `[lien](https://…)`. Ils apparaissent en fin de page,
-après une séparation et la mention « Complément propre au site safia.finance ».
-
-Une reconversion depuis Word ne les efface pas.
-
+Tout le texte publié vient des documents Word. Aucun complément n'est ajouté du
+côté du site : quand un point technique change (mesure d'audience, prestataire,
+hébergeur), c'est le document Word qui doit être corrigé, puis reconverti.
+`outils/maj-word.mjs` montre comment modifier le texte d'un .docx sans toucher à
+sa mise en forme, et refuse d'écrire si un passage visé n'est pas retrouvé.
 ## Cohérence à tenir
 
 Ces textes engagent SAFIA. Trois points demandent une vérification à chaque
