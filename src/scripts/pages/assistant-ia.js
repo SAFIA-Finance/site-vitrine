@@ -32,15 +32,15 @@
           ["Un report de l'imposition de la plus-value, donc un capital à réinvestir plus important",
            "Un effet de levier réel : quelques dizaines de milliers d'euros d'impôt différés produisent des intérêts pendant des années",
            "Une fiscalité allégée sur les dividendes remontés des filiales, via le régime mère-fille",
-           "Un cadre qui facilite la transmission : donner les titres de la holding peut purger le report, sous conditions"]],
+           "Un cadre qui facilite la transmission : en cas de donation des titres de la holding, le report est purgé si le bénéficiaire les conserve au moins six ans"]],
          ["Ce que ça t'impose",
           ["Un report n'est pas une exonération : l'impôt reste dû, c'est une dette latente inscrite à ton nom",
-           "Si la holding revend les titres moins de trois ans après l'apport, elle doit réinvestir au moins 60 % du prix dans une activité économique éligible, sous deux ans, sinon le report tombe",
+           "Si la holding revend les titres moins de trois ans après l'apport, elle doit réinvestir au moins 70 % du prix dans une activité économique éligible, dans les trois ans, sinon le report tombe",
            "L'argent est dans la holding, pas sur ton compte : le sortir pour un usage personnel se fait en dividende ou en rémunération, et c'est imposé",
            "Une société de plus à créer, à faire vivre et à faire certifier : coûts, comptabilité, assemblées"]]],
       v:[["Le calendrier","L'apport doit précéder la cession, et le projet de vente ne doit pas être déjà ficelé. Un apport réalisé trop tard peut être requalifié par l'administration."]],
       cta:"Allons plus loin ensemble, ou contacte dès maintenant un conseiller SAFIA pour mettre en place ta holding.",
-      s:"Sources : article 150-0 B ter du code général des impôts et doctrine BOFiP associée, consultés le 15/09/2026 · Méthodologie SAFIA, opérations de cession"
+      s:"Sources : article 150-0 B ter du code général des impôts, rédaction issue de la loi de finances pour 2026, et BOI-RPPM-PVBMI-30-10-60-20, consultés le 16/09/2026 · Méthodologie SAFIA, opérations de cession"
     }
   };
 
