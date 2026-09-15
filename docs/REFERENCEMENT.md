@@ -20,8 +20,8 @@ directement, c'est un fichier texte.
 
 ### Accueil · `/`
 
-- **Titre** (57) : SAFIA · Ton conseiller privé IA pour gérer ton patrimoine
-- **Description** ⚠️ (181) : Voir, suivre, gérer, comprendre son patrimoine, profil et ADN investisseur, poser des questions à une IA explicable. Investis en autonomie comme en banque privée. Gratuit. Français.
+- **Titre** (57) : Ton conseiller privé IA pour gérer ton patrimoine · SAFIA
+- **Description** (147) : Réunis tous tes comptes, découvre ton ADN investisseur et pose tes questions à une IA qui montre ses sources. En autonomie, comme en banque privée.
 
 ### Particuliers · `/particuliers/`
 
@@ -31,7 +31,7 @@ directement, c'est un fichier texte.
 ### ADN Investisseur · `/adn-investisseur/`
 
 - **Titre** (57) : Investir selon ses valeurs : ton ADN Investisseur · SAFIA
-- **Description** (145) : Critères ESG, ISR, exclusions : découvre en quelques swipes ce qui compte pour toi dans tes placements, et vois si ton portefeuille y correspond.
+- **Description** (128) : Critères ESG, ISR, exclusions : découvre en quelques questions ce qui compte pour toi, et vois si ton portefeuille y correspond.
 
 ### Assistant IA · `/assistant-ia/`
 
@@ -40,18 +40,18 @@ directement, c'est un fichier texte.
 
 ### Cockpit stratégique · `/cockpit/`
 
-- **Titre** (55) : Ton cockpit, ta marketplace d'investissement sur mesure
+- **Titre** (53) : Ta marketplace d'investissement personnalisée · SAFIA
 - **Description** (152) : Toutes les offres du marché filtrées par ton profil réglementaire et ton ADN investisseur. Deux utilisateurs, deux résultats. Plus un audit patrimonial.
 - *Titre réécrit par Maxime. Description raccourcie par mes soins pendant la migration : elle faisait 214 caractères.*
 
 ### Conseillers · `/conseillers/`
 
-- **Titre** (51) : SAFIA pour les conseillers en gestion de patrimoine
+- **Titre** (58) : IA pour conseillers en gestion de patrimoine (CGP) · SAFIA
 - **Description** (118) : Une offre destinée aux cabinets CGP et CIF est en préparation. Programme pilote ouvert à un nombre limité de cabinets.
 
 ### Institutions · `/institutions/`
 
-- **Titre** (44) : SAFIA pour banques, cabinets et institutions
+- **Titre** (54) : IA patrimoniale en marque blanche pour banques · SAFIA
 - **Description** (77) : IA patrimoniale en marque blanche pour banques, assureurs et grands cabinets.
 
 ### Tarifs · `/tarifs/`
@@ -67,7 +67,7 @@ directement, c'est un fichier texte.
 ### Le blog · `/blog/`
 
 - **Titre** (57) : Le blog SAFIA : comprendre son argent, un sujet à la fois
-- **Description** (154) : Épargne, investissement, retraite, fiscalité, transmission : des explications écrites par un conseiller financier certifié, sans jargon, avec les sources.
+- **Description** (141) : Épargne, retraite, fiscalité, transmission : des explications d'un conseiller en gestion de patrimoine certifié AMF, sans jargon et sourcées.
 
 ### Le fondateur · `/fondateur/`
 
@@ -78,7 +78,7 @@ directement, c'est un fichier texte.
 ### Notre méthode · `/methode/`
 
 - **Titre** (52) : Notre méthode : comment SAFIA analyse ton patrimoine
-- **Description** (151) : Profil de risque, ADN investisseur, cerveau IA, experts, photo patrimoniale, réponses sourcées : voici exactement comment SAFIA construit ses analyses.
+- **Description** (140) : Profil de risque, ADN investisseur, analyse sans double comptage, réponses sourcées : comment SAFIA construit ses analyses, étape par étape.
 
 ### Sécurité et conformité · `/securite/`
 

@@ -5,8 +5,8 @@
     "route": "/",
     "libelle": "Accueil",
     "ref": "ACC",
-    "titre": "SAFIA · Ton conseiller privé IA pour gérer ton patrimoine",
-    "description": "Voir, suivre, gérer, comprendre son patrimoine, profil et ADN investisseur, poser des questions à une IA explicable. Investis en autonomie comme en banque privée. Gratuit. Français."
+    "titre": "Ton conseiller privé IA pour gérer ton patrimoine · SAFIA",
+    "description": "Réunis tous tes comptes, découvre ton ADN investisseur et pose tes questions à une IA qui montre ses sources. En autonomie, comme en banque privée."
   },
   {
     "slug": "particuliers",
@@ -24,7 +24,7 @@
     "libelle": "ADN Investisseur",
     "ref": "ADN",
     "titre": "Investir selon ses valeurs : ton ADN Investisseur · SAFIA",
-    "description": "Critères ESG, ISR, exclusions : découvre en quelques swipes ce qui compte pour toi dans tes placements, et vois si ton portefeuille y correspond."
+    "description": "Critères ESG, ISR, exclusions : découvre en quelques questions ce qui compte pour toi, et vois si ton portefeuille y correspond."
   },
   {
     "slug": "assistant-ia",
@@ -41,7 +41,7 @@
     "route": "/cockpit/",
     "libelle": "Cockpit stratégique",
     "ref": "CKP",
-    "titre": "Ton cockpit, ta marketplace d'investissement sur mesure",
+    "titre": "Ta marketplace d'investissement personnalisée · SAFIA",
     "description": "Toutes les offres du marché filtrées par ton profil réglementaire et ton ADN investisseur. Deux utilisateurs, deux résultats. Plus un audit patrimonial."
   },
   {
@@ -50,7 +50,7 @@
     "route": "/conseillers/",
     "libelle": "Conseillers",
     "ref": "CON",
-    "titre": "SAFIA pour les conseillers en gestion de patrimoine",
+    "titre": "IA pour conseillers en gestion de patrimoine (CGP) · SAFIA",
     "description": "Une offre destinée aux cabinets CGP et CIF est en préparation. Programme pilote ouvert à un nombre limité de cabinets."
   },
   {
@@ -59,7 +59,7 @@
     "route": "/institutions/",
     "libelle": "Institutions",
     "ref": "INS",
-    "titre": "SAFIA pour banques, cabinets et institutions",
+    "titre": "IA patrimoniale en marque blanche pour banques · SAFIA",
     "description": "IA patrimoniale en marque blanche pour banques, assureurs et grands cabinets."
   },
   {
@@ -87,7 +87,7 @@
     "libelle": "Le blog",
     "ref": "BLG",
     "titre": "Le blog SAFIA : comprendre son argent, un sujet à la fois",
-    "description": "Épargne, investissement, retraite, fiscalité, transmission : des explications écrites par un conseiller financier certifié, sans jargon, avec les sources."
+    "description": "Épargne, retraite, fiscalité, transmission : des explications d'un conseiller en gestion de patrimoine certifié AMF, sans jargon et sourcées."
   },
   {
     "slug": "fondateur",
@@ -105,7 +105,7 @@
     "libelle": "Notre méthode",
     "ref": "MET",
     "titre": "Notre méthode : comment SAFIA analyse ton patrimoine",
-    "description": "Profil de risque, ADN investisseur, cerveau IA, experts, photo patrimoniale, réponses sourcées : voici exactement comment SAFIA construit ses analyses."
+    "description": "Profil de risque, ADN investisseur, analyse sans double comptage, réponses sourcées : comment SAFIA construit ses analyses, étape par étape."
   },
   {
     "slug": "securite",
