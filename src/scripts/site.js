@@ -131,9 +131,12 @@ const annonce = document.getElementById('annonce');
     };
     window.gtag('js', new Date());
     // Ni signaux Google ni personnalisation publicitaire : c'est ce que promet le bandeau.
+    // Cookies limités à treize mois, durée maximale recommandée par la CNIL
+    // (Google retient deux ans par défaut).
     window.gtag('config', GA_ID, {
       allow_google_signals: false,
       allow_ad_personalization_signals: false,
+      cookie_expires: 34164000,
     });
     const script = document.createElement('script');
     script.async = true;
