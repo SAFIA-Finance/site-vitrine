@@ -22,3 +22,7 @@ desktop.ini
 # Cloudflare Workers (relais des formulaires)
 .wrangler/
 relais/.dev.vars
+
+# Secrets : ne doivent jamais être versionnés
+.brevo-key*
+*.key

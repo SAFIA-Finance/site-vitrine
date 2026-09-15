@@ -21,7 +21,7 @@ directement, c'est un fichier texte.
 ### Accueil · `/`
 
 - **Titre** (57) : SAFIA · Ton conseiller privé IA pour gérer ton patrimoine
-- **Description** ⚠️ (191) : Vois, suis, comprends tout ton patrimoine, découvre ton ADN investisseur et pose tes questions à une IA qui montre ses sources. Investis en autonomie comme en banque privée. Gratuit. Français
+- **Description** ⚠️ (181) : Voir, suivre, gérer, comprendre son patrimoine, profil et ADN investisseur, poser des questions à une IA explicable. Investis en autonomie comme en banque privée. Gratuit. Français.
 
 ### Particuliers · `/particuliers/`
 
@@ -40,9 +40,9 @@ directement, c'est un fichier texte.
 
 ### Cockpit stratégique · `/cockpit/`
 
-- **Titre** ⚠️ (62) : Cockpit stratégique : la place de marché personnalisée · SAFIA
+- **Titre** (55) : Ton cockpit, ta marketplace d'investissement sur mesure
 - **Description** (152) : Toutes les offres du marché filtrées par ton profil réglementaire et ton ADN investisseur. Deux utilisateurs, deux résultats. Plus un audit patrimonial.
-- *Titre et description raccourcis par mes soins pendant la migration : ils faisaient 71 et 214 caractères. À relire de près.*
+- *Titre réécrit par Maxime. Description raccourcie par mes soins pendant la migration : elle faisait 214 caractères.*
 
 ### Conseillers · `/conseillers/`
 
@@ -51,7 +51,7 @@ directement, c'est un fichier texte.
 
 ### Institutions · `/institutions/`
 
-- **Titre** ⚠️ (62) : SAFIA pour les banques, les professionnels et les institutions
+- **Titre** (44) : SAFIA pour banques, cabinets et institutions
 - **Description** (77) : IA patrimoniale en marque blanche pour banques, assureurs et grands cabinets.
 
 ### Tarifs · `/tarifs/`
@@ -67,7 +67,7 @@ directement, c'est un fichier texte.
 ### Le blog · `/blog/`
 
 - **Titre** (57) : Le blog SAFIA : comprendre son argent, un sujet à la fois
-- **Description** ⚠️ (162) : Épargne, investissement, retraite, fiscalité, transmission : des explications écrites par un conseiller en gestion de patrimoine, sans jargon et avec les sources.
+- **Description** (154) : Épargne, investissement, retraite, fiscalité, transmission : des explications écrites par un conseiller financier certifié, sans jargon, avec les sources.
 
 ### Le fondateur · `/fondateur/`
 
@@ -78,7 +78,7 @@ directement, c'est un fichier texte.
 ### Notre méthode · `/methode/`
 
 - **Titre** (52) : Notre méthode : comment SAFIA analyse ton patrimoine
-- **Description** ⚠️ (159) : Profil de risque prudent, ADN investisseur, photo patrimoniale sans double comptage, réponses sourcées : voici exactement comment SAFIA construit ses analyses.
+- **Description** (151) : Profil de risque, ADN investisseur, cerveau IA, experts, photo patrimoniale, réponses sourcées : voici exactement comment SAFIA construit ses analyses.
 
 ### Sécurité et conformité · `/securite/`
 
