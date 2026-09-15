@@ -1,0 +1,79 @@
+---
+import Base from '../layouts/Base.astro';
+const fil = ["Accueil","À propos","Notre méthode"];
+---
+
+<Base
+  titre={"Notre méthode : comment SAFIA analyse ton patrimoine"}
+  description={"Profil de risque prudent, ADN investisseur, photo patrimoniale sans double comptage, réponses sourcées : voici exactement comment SAFIA construit ses analyses."}
+  chemin={"/methode/"}
+  fil={fil}
+>
+<section class="hero hero-page hero-propos">
+<div class="wrap hero-page-in hero-court">
+  <p class="etiq-page">À propos</p>
+    <p class="fil-ariane" aria-label="Fil d'Ariane"><a href="/">Accueil</a> <span aria-hidden="true">/</span> À propos <span aria-hidden="true">/</span> Notre méthode</p>
+  <h1>Comment SAFIA construit ses analyses</h1>
+  <p class="chapo">Une IA qui touche à ton argent te doit des explications. Voici exactement comment on travaille.</p>
+</div>
+</section>
+
+<section class="bloc methode-bloc">
+<div class="wrap">
+  <ol class="methode">
+    <li>
+      <h2>Ton profil de risque, calculé avec prudence</h2>
+      <p>Un questionnaire réglementaire en huit blocs : identité, service attendu, objectifs, rapport au risque, situation financière, expérience, préférences de durabilité et un court test de connaissances.</p>
+      <p>Tes réponses sont traduites en plusieurs niveaux : horizon, perte acceptable, goût du risque, capacité financière, expérience. SAFIA retient <strong>le plus prudent</strong> d'entre eux, puisqu'une seule fragilité suffit à limiter le risque raisonnable. Ton profil va de 1 (prudent) à 5 (dynamique) et n'est jamais plus risqué que ce que tu déclares souhaiter. Chaque calcul est enregistré.</p>
+      <div class="schema-profil" aria-hidden="true">
+        <div><span>Horizon</span><i style="width:80%"></i><b>4</b></div>
+        <div><span>Perte acceptable</span><i style="width:60%"></i><b>3</b></div>
+        <div><span>Goût du risque</span><i style="width:80%"></i><b>4</b></div>
+        <div><span>Capacité financière</span><i style="width:100%"></i><b>5</b></div>
+        <div class="retenu"><span>Profil retenu</span><i style="width:60%"></i><b>3</b></div>
+      </div>
+    </li>
+    <li>
+      <h2>Ton ADN, construit par tes réactions</h2>
+      <p>Tes swipes sur des secteurs, des pratiques et des critères ESG sont convertis en préférences. Ton ADN devient exploitable dès 25 réponses et s'affine ensuite à chaque nouvelle réaction.</p>
+    </li>
+    <li>
+      <h2>Ta photo patrimoniale, sans double comptage</h2>
+      <p>Tes comptes connectés et les actifs que tu ajoutes forment ton patrimoine brut. Quand une enveloppe contient des placements, c'est la valeur des placements qui compte, pas deux fois le même argent. Tes dettes sont déduites pour obtenir ton patrimoine net.</p>
+    </li>
+    <li>
+      <h2>Des pistes filtrées par ton profil</h2>
+      <p>Une piste n'est proposée que si son niveau de risque est compatible avec ton profil. Elle est ensuite évaluée selon son alignement avec ton ADN. L'ordre compte : le risque d'abord, les valeurs ensuite.</p>
+    </li>
+    <li>
+      <h2>Des réponses sourcées</h2>
+      <p>L'assistant consulte ses sources dans cet ordre : tes données, puis les textes officiels (codes, doctrine fiscale, règles de l'AMF), puis la méthodologie SAFIA, puis des données de marché issues de sources autorisées. Il ne cite jamais une référence qu'il n'a pas retrouvée.</p>
+    </li>
+    <li>
+      <h2>Un humain quand il le faut</h2>
+      <p>L'assistant te propose d'échanger avec un conseiller quand l'enjeu financier ou fiscal est important, quand tes données sont incohérentes, quand un produit est complexe, ou quand tu demandes une validation juridique.</p>
+    </li>
+  </ol>
+</div>
+</section>
+
+<section class="bloc limites-bloc">
+<div class="wrap">
+  <h2 class="titre">Ce qu'il faut savoir aussi</h2>
+  <ul class="limites-m">
+    <li>Nos analyses dépendent des données disponibles : un compte non connecté reste un angle mort.</li>
+    <li>Les notations ESG reposent sur des méthodologies qui diffèrent d'un fournisseur à l'autre.</li>
+    <li>L'IA peut se tromper. C'est pour ça qu'elle montre ses sources.</li>
+    <li>Aucune analyse ne garantit un résultat futur.</li>
+  </ul>
+</div>
+</section>
+
+<section class="final">
+<div class="wrap final-simple">
+  <h2>Vois-le par toi-même.</h2>
+  <p>Gratuit pour commencer, et tu sauras toujours d'où vient la réponse.</p>
+  <a class="btn btn-primaire" href="#">Télécharger l'app</a>
+</div>
+</section>
+</Base>

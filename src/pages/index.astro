@@ -1,0 +1,303 @@
+---
+import Base from '../layouts/Base.astro';
+const faq = [
+  {
+    "q": "SAFIA, c'est quoi ?",
+    "r": "Une application mobile qui réunit ton patrimoine, identifie tes préférences d'investissement et t'aide à comprendre tes options grâce à une IA explicable. Elle est conçue en France par une société enregistrée comme conseiller en investissements financiers."
+  },
+  {
+    "q": "SAFIA gère-t-elle mon argent ?",
+    "r": "Non. SAFIA ne détient pas tes fonds et ne passe aucun ordre. Tes comptes restent où ils sont : SAFIA les lit pour t'aider à comprendre et à décider."
+  },
+  {
+    "q": "Combien ça coûte ?",
+    "r": "Starter est gratuit. Smart coûte 29,99 € par mois, ou 299 € par an avec en plus l'accompagnement d'un conseiller."
+  },
+  {
+    "q": "Mes données sont-elles en sécurité ?",
+    "r": "Elles sont hébergées dans l'Union européenne, la connexion bancaire se fait en lecture seule via Powens et les accès sensibles sont chiffrés. Tout le détail est sur la page Sécurité et conformité."
+  }
+];
+---
+
+<Base
+  titre={"SAFIA · Ton conseiller privé IA pour gérer ton patrimoine"}
+  description={"Vois, suis, comprends tout ton patrimoine, découvre ton ADN investisseur et pose tes questions à une IA qui montre ses sources. Investis en autonomie comme en banque privée. Gratuit. Français"}
+  chemin={"/"}
+  faq={faq}
+>
+<!-- ===================== HERO ===================== -->
+<section class="hero">
+<div class="wrap hero-in">
+  <div>
+    <h1>Le conseiller privé que tu n'as jamais eu.</h1>
+    <p class="chapo">SAFIA réunit tout ton patrimoine dans une seule app, apprend ce qui compte pour toi et t'explique chaque piste en langage clair, sources à l'appui. Investi comme avec un banquier privé, dans des produits de qualité qui te ressemblent.</p>
+    <div class="actions">
+      <a class="btn btn-primaire" href="#telecharger">Télécharger l'app, c'est gratuit</a>
+      <a class="btn btn-fantome" href="/adn-investisseur/">Découvrir mon ADN investisseur</a>
+    </div>
+    <ul class="garanties">
+      <li><svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8.5l3 3 7-7" stroke="#E48BEF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>Agrégation illimitée gratuite</li>
+      <li><svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8.5l3 3 7-7" stroke="#E48BEF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>Données hébergées dans l'UE. Respect de la RGPD.</li>
+      <li><svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8.5l3 3 7-7" stroke="#E48BEF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>CIF enregistré à l'ORIAS pour vous aider.</li>
+    </ul>
+  </div>
+
+  <!-- Démo : écran Mon IA, conforme à l'application -->
+  <div class="tel-app" aria-label="Exemple de conversation avec l'assistant SAFIA">
+    <div class="ecran-app">
+      <div class="statut" aria-hidden="true"><span>9:41</span><span class="encoche"></span><span>▮▮▮ <i></i></span></div>
+      <div class="app-entete"><span class="retour" aria-hidden="true">‹</span><p class="app-h">Mon IA</p><span class="rond" aria-hidden="true">+</span><span class="pts" aria-hidden="true">⋮</span></div>
+      <div class="seg" aria-hidden="true"><span class="actif">Conversation</span><span>Personnaliser mon IA</span><span class="ruban">Débloquer avec Premium</span></div>
+      <div class="conv-app">
+        <span class="heure seq" data-seq="0" aria-hidden="true">15:30</span>
+        <div class="b-user seq" data-seq="0">Dans quoi investir ?</div>
+        <div class="b-ia frappe seq" data-seq="1" aria-hidden="true"><i></i><i></i><i></i></div>
+        <div class="seq" data-seq="2">
+          <svg class="etincelle" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 2.5l1.9 5.6 5.6 1.9-5.6 1.9L12 17.5l-1.9-5.6L4.5 10l5.6-1.9L12 2.5z" fill="#fff"/></svg>
+          <div class="b-ia">
+            <p>Tu pars avec de bonnes bases : Livret A plein, épargne de précaution en place, et une assurance vie dont les placements se construisent. En revanche, pas encore de PEA ni de compte-titres.</p>
+            <p class="ss-titre">Ce que je te propose</p>
+            <ul>
+              <li>Analyser tes placements actuels : frais, profil, objectifs, valeurs</li>
+              <li>Te proposer ensuite une allocation qui te ressemble</li>
+            </ul>
+            <p class="ss-titre">À garder en tête</p>
+            <ul>
+              <li>Les frais pèsent le plus sur le long terme</li>
+              <li>Une allocation se juge sur plusieurs années, je vais te montrer</li>
+            </ul>
+            <p class="src-bulle">Sources : relevés de tes comptes connectés au 13/09/2026 · Méthodologie SAFIA, analyse de portefeuille, règlementation françaises.</p>
+          </div>
+        </div>
+      </div>
+      <div class="champ-msg" aria-hidden="true"><span class="plus">+</span><span>Tapez votre message ici</span><i class="envoi"></i></div>
+      <div class="app-bas" aria-hidden="true">
+        <span><b></b>Accueil</span><span><b></b>Patrimoine</span><span class="actif"><b></b>Mon IA</span><span><b></b>ADN</span><span><b></b>Cockpit</span>
+      </div>
+      <p class="mention-app">Exemple illustratif. Information générale, pas un conseil en investissement personnalisé.</p>
+    </div>
+  </div>
+</div>
+
+<div class="bandeau" aria-label="Ils nous accompagnent">
+  <div class="defile">
+    <ul class="marque-liste">
+      <li>Scaleway</li><li>Mistral AI</li><li>Powens</li><li>IÉSEG Incubateur</li><li>Bpifrance</li><li>Région Île-de-France</li><li>CNCGP</li><li>ANACOFI</li><li>Trail Finance</li><li>Silex</li><li>6AM</li><li>PEQAN</li><li>PAMS</li><li>CMF</li>
+    </ul>
+    <ul class="marque-liste" aria-hidden="true">
+      <li>Scaleway</li><li>Mistral AI</li><li>Powens</li><li>IÉSEG Incubateur</li><li>Bpifrance</li><li>Région Île-de-France</li><li>CNCGP</li><li>ANACOFI</li><li>Trail Finance</li><li>Silex</li><li>6AM</li><li>PEQAN</li><li>PAMS</li><li>CMF</li>
+    </ul>
+  </div>
+</div>
+
+<div class="wrap aiguillage">
+  <h2>Tu es…</h2>
+  <div class="voies">
+    <a class="voie" href="/particuliers/"><strong>Un particulier</strong><span>Comprendre et faire grandir ton patrimoine</span></a>
+    <a class="voie" href="/conseillers/"><strong>Conseiller en gestion de patrimoine</strong><span>Outiller son cabinet et servir plus de clients</span></a>
+    <a class="voie" href="/institutions/"><strong>Une banque ou une institution</strong><span>Intégrer une IA patrimoniale à sa marque</span></a>
+  </div>
+</div>
+</section>
+
+<!-- ===================== CONSTAT ===================== -->
+<section class="bloc">
+<div class="wrap constat">
+  <h2 class="titre">Comprendre, gérer son argent ne devrait pas dépendre de la taille de son compte.</h2>
+  <p>Le conseil en investissement et en gestion de patrimoine reste réservé à une élite. Les autres se débrouillent seuls, entre des produits opaques, peu performants, des vidéos trouvées au hasard et des choix que personne ne leur explique. SAFIA part d'un principe simple : chacun doit pouvoir comprendre son argent, décider en connaissance de cause, faire grandir son patrimoine tout au long de sa vie, sans y laisser une fortune en frais, et en usant des outils de défiscalisation pertinents.</p>
+</div>
+</section>
+
+<!-- ===================== VOIR COMPRENDRE DÉCIDER ===================== -->
+<section class="bloc" style="padding-top:0">
+<div class="wrap">
+  <h2 class="triade-titre"><span>Suivre.</span><span>Comprendre.</span><span>Décider.</span></h2>
+  <div class="triade">
+    <article class="pilier">
+      <div class="vignette" aria-hidden="true">
+        <div class="v-label">Patrimoine net</div>
+        <div class="v-montant">184 250 €</div>
+        <div class="barre"><i style="width:34%;background:#8F86FF"></i><i style="width:26%;background:#E48BEF"></i><i style="width:22%;background:#3CD68F"></i><i style="width:18%;background:rgba(255,255,255,.55)"></i></div>
+        <div class="legende">
+          <span><b style="background:#8F86FF"></b>Immobilier</span>
+          <span><b style="background:#E48BEF"></b>Assurance vie</span>
+          <span><b style="background:#3CD68F"></b>PEA</span>
+          <span><b style="background:rgba(255,255,255,.55)"></b>Livrets</span>
+        </div>
+        <span class="illu">Exemple illustratif</span>
+      </div>
+      <h3>Tout ton patrimoine au même endroit</h3>
+      <p>Comptes, épargne, placements, crédits, immobilier : ton patrimoine net et sa répartition en un coup d'œil.</p>
+      <a class="lien" href="/particuliers/">Voir ce que tu obtiens aujourd'hui</a>
+    </article>
+    <article class="pilier">
+      <div class="vignette" aria-hidden="true">
+        <div class="carte-fond"></div>
+        <div class="carte-swipe"><span class="cat">Secteur</span><strong>Énergies renouvelables</strong></div>
+        <div class="choix">
+          <span><svg viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="M4 4l10 10M14 4L4 14" stroke="#fff" stroke-width="2" stroke-linecap="round"/></svg></span>
+          <span><svg viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="M9 15s-6-3.6-6-8a3.2 3.2 0 016-1.6A3.2 3.2 0 0115 7c0 4.4-6 8-6 8z" fill="#fff"/></svg></span>
+        </div>
+        <span class="progression">18 réponses sur 25 pour ton premier ADN</span>
+      </div>
+      <h3>Des choix alignés avec tes valeurs</h3>
+      <p>Ton ADN investisseur capte ce qui compte pour toi : objectifs, famille, secteurs, convictions, critères environnementaux et sociaux.</p>
+      <a class="lien" href="/adn-investisseur/">Découvrir l'ADN Investisseur</a>
+    </article>
+    <article class="pilier">
+      <div class="vignette" aria-hidden="true">
+        <div class="v-reponse">Ton portefeuille est concentré à 41 % sur la tech américaine. Si ce secteur baisse, une grande partie de ton épargne baisse avec lui.</div>
+        <div class="puces"><span>Pourquoi ?</span><span>Risques</span><span>Sources</span></div>
+        <span class="illu">Exemple illustratif</span>
+      </div>
+      <h3>Une IA qui montre son raisonnement</h3>
+      <p>Chaque réponse explique le pourquoi, les risques et l'horizon, et cite ses sources. Pas de boîte noire.</p>
+      <a class="lien" href="/assistant-ia/">Découvrir l'assistant IA</a>
+    </article>
+  </div>
+</div>
+</section>
+
+<!-- ===================== ÉTAPES ===================== -->
+<section class="bloc etapes-bloc">
+<div class="wrap">
+  <h2 class="titre">Trois étapes pour commencer</h2>
+  <ol class="etapes">
+    <li><h3>Fais ton profil</h3><p>Un questionnaire réglementaire (objectifs, horizon, tolérance au risque), puis quelques swipes pour révéler ton ADN investisseur.</p></li>
+    <li><h3>Connecte tes comptes</h3><p>En lecture seule, via Powens. SAFIA ne voit jamais tes identifiants bancaires et ne peut effectuer aucune opération.</p></li>
+    <li><h3>Comprends et décide</h3><p>Ton tableau de bord, tes points d'attention et une IA pour répondre à tes questions. La décision reste la tienne.</p></li>
+  </ol>
+</div>
+</section>
+
+<!-- ===================== CONFIANCE ===================== -->
+<section class="bloc confiance" id="confiance">
+<div class="wrap">
+  <h2 class="titre">Une app financière, ça se choisit avec soin.</h2>
+  <div class="garde">
+    <div>
+      <svg viewBox="0 0 28 28" fill="none" aria-hidden="true"><path d="M14 3l9 4v6c0 5.6-3.8 10.2-9 12-5.2-1.8-9-6.4-9-12V7l9-4z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M10 14l3 3 5-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <h3>Un acteur réglementé</h3>
+      <p>SAFIA est conseiller en investissements financiers, enregistré à l'ORIAS et membre de la CNCGP (Chambre Nationale des Conseils en Gestion de Patrimoine)</p>
+    </div>
+    <div>
+      <svg viewBox="0 0 28 28" fill="none" aria-hidden="true"><circle cx="14" cy="14" r="10" stroke="currentColor" stroke-width="1.8"/><path d="M4 14h20M14 4c3 3.2 3 16.8 0 20M14 4c-3 3.2-3 16.8 0 20" stroke="currentColor" stroke-width="1.8"/></svg>
+      <h3>Tes données restent privées et confidentielles.</h3>
+      <p>Hébergement chez Scaleway, fournisseur cloud français, dans l'Union européenne.</p>
+    </div>
+    <div>
+      <svg viewBox="0 0 28 28" fill="none" aria-hidden="true"><rect x="5" y="12" width="18" height="12" rx="3" stroke="currentColor" stroke-width="1.8"/><path d="M9 12V9a5 5 0 0110 0v3" stroke="currentColor" stroke-width="1.8"/></svg>
+      <h3>Connexion bancaire en lecture seule</h3>
+      <p>Via Powens, agrégateur agréé par l'ACPR. SAFIA ne voit jamais tes identifiants et ne peut effectuer aucune opération.</p>
+    </div>
+    <div>
+      <svg viewBox="0 0 28 28" fill="none" aria-hidden="true"><circle cx="10" cy="10" r="4" stroke="currentColor" stroke-width="1.8"/><path d="M3 23c.8-4 3.6-6 7-6s6.2 2 7 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="M18 8h7M18 12h5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+      <h3>Un humain quand il le faut</h3>
+      <p>Face à une situation complexe, l'IA te le dit et te propose d'échanger avec un conseiller.</p>
+    </div>
+  </div>
+  <div class="registre">
+    <p><strong>SAFIA SAS</strong>, conseiller en investissements financiers, ORIAS n° 26008152</p>
+    <a class="lien" href="https://www.orias.fr" target="_blank" rel="noopener">Vérifier sur orias.fr</a>
+  </div>
+  <p style="margin-top:24px"><a class="lien" href="#">Tout savoir sur la sécurité et la conformité</a></p>
+</div>
+</section>
+
+<!-- ===================== OFFRES ===================== -->
+<section class="bloc" id="offres">
+<div class="wrap">
+  <h2 class="titre">Gratuit pour commencer. Smart pour aller plus loin.</h2>
+  <div class="bascule" role="group" aria-label="Période de facturation">
+    <button type="button" data-periode="mensuel" aria-pressed="false">Mensuel</button>
+    <button type="button" data-periode="annuel" aria-pressed="true">Annuel<span class="badge">2 mois offerts</span></button>
+  </div>
+  <div class="offres">
+    <article class="offre">
+      <h3>Starter</h3>
+      <p class="pour">Pour découvrir et y voir clair</p>
+      <div class="prix"><strong>0 €</strong><span>pour toujours</span></div>
+      <ul class="inclus">
+        <li><svg viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="M3.5 9.5l3.5 3.5 7.5-8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Comptes synchronisés illimités</li>
+        <li><svg viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="M3.5 9.5l3.5 3.5 7.5-8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Profil et ADN investisseur</li>
+        <li><svg viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="M3.5 9.5l3.5 3.5 7.5-8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Patrimoine et budget</li>
+        <li><svg viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="M3.5 9.5l3.5 3.5 7.5-8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Assistant IA en version découverte</li>
+      </ul>
+      <a class="btn btn-encre" href="#telecharger">Télécharger l'app</a>
+    </article>
+    <article class="offre offre-smart">
+      <h3>Smart</h3>
+      <p class="pour">Pour piloter ton patrimoine</p>
+      <div class="prix"><strong id="prix">299 €</strong><span id="periode">par an</span></div>
+      <p class="equiv" id="equiv">Soit 24,92 € par mois au lieu de 29,99 €</p>
+      <ul class="inclus">
+        <li><svg viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="M3.5 9.5l3.5 3.5 7.5-8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Tout Starter</li>
+        <li><svg viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="M3.5 9.5l3.5 3.5 7.5-8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Assistant IA complet, avec raisonnement et sources</li>
+        <li><svg viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="M3.5 9.5l3.5 3.5 7.5-8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Mémoire IA et audit patrimonial</li>
+        <li><svg viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="M3.5 9.5l3.5 3.5 7.5-8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Pistes alignées avec ton ADN</li>
+        <li class="conseiller" id="conseiller"><svg viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="M3.5 9.5l3.5 3.5 7.5-8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span><strong>L'accompagnement d'un conseiller SAFIA</strong>, inclus dans l'abonnement annuel</span></li>
+      </ul>
+      <a class="btn btn-primaire" href="#telecharger">Passer à Smart</a>
+    </article>
+  </div>
+  <p class="note-prix">Prix TTC. <a class="lien" href="#">Voir le détail des offres</a></p>
+</div>
+</section>
+
+<!-- ===================== FONDATEUR ===================== -->
+<section class="bloc" id="fondateur" style="padding-top:24px">
+<div class="wrap fondateur">
+  <img class="portrait" src="/images/fondateur-14710607.jpg" width="560" height="700" alt="Portrait de Maxime Bouché, fondateur de SAFIA">
+  <blockquote>
+    <p>« J'ai vu trop d'épargnants, de familles, d'entrepreneurs désorientés, mal conseillés, vers des placements qui rémunèrent peu et incompréhensibles… SAFIA existe pour qu'on puisse comprendre avant de décider, investir en autonomie comme avec un conseiller privé, et planifier son avenir en toute liberté. »</p>
+    <footer><strong>Maxime Bouché</strong>Fondateur de SAFIA</footer>
+    <a class="lien" href="#">Découvrir son parcours</a>
+  </blockquote>
+</div>
+</section>
+
+<!-- ===================== FAQ ===================== -->
+<section class="bloc faq-bloc">
+<div class="wrap faq-grille">
+  <h2 class="titre">Tes questions, nos réponses</h2>
+  <div class="faq">
+    <details><summary>SAFIA, c'est quoi ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Une application mobile qui réunit ton patrimoine, identifie tes préférences d'investissement et t'aide à comprendre tes options grâce à une IA explicable. Elle est conçue en France par une société enregistrée comme conseiller en investissements financiers.</p></details>
+    <details><summary>SAFIA gère-t-elle mon argent ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Non. SAFIA ne détient pas tes fonds et ne passe aucun ordre. Tes comptes restent où ils sont : SAFIA les lit pour t'aider à comprendre et à décider.</p></details>
+    <details><summary>Combien ça coûte ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Starter est gratuit. Smart coûte 29,99 € par mois, ou 299 € par an avec en plus l'accompagnement d'un conseiller.</p></details>
+    <details><summary>Mes données sont-elles en sécurité ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Elles sont hébergées dans l'Union européenne, la connexion bancaire se fait en lecture seule via Powens et les accès sensibles sont chiffrés. Tout le détail est sur la page Sécurité et conformité.</p></details>
+  </div>
+</div>
+</section>
+
+<!-- ===================== CTA FINAL ===================== -->
+<section class="final" id="telecharger">
+<div class="wrap final-grille">
+  <div>
+    <h2>Commence par comprendre.</h2>
+    <div class="actions">
+      <a class="btn btn-primaire" href="#">Télécharger l'app</a>
+      <div class="qr" aria-hidden="true">
+        <svg viewBox="0 0 21 21" shape-rendering="crispEdges" aria-hidden="true"><path fill="#130C36" d="M0 0h7v7H0zM14 0h7v7h-7zM0 14h7v7H0z"/><path fill="#fff" d="M1 1h5v5H1zM15 1h5v5h-5zM1 15h5v5H1z"/><path fill="#130C36" d="M2 2h3v3H2zM16 2h3v3h-3zM2 16h3v3H2zM8 1h1v2H8zM10 0h2v1h-2zM9 4h2v2H9zM12 3h1v3h-1zM8 8h2v1H8zM11 8h3v1h-3zM16 8h2v2h-2zM19 8h2v1h-2zM0 9h2v1H0zM3 9h3v1H3zM8 10h1v3H8zM10 10h2v2h-2zM13 10h1v1h-1zM15 11h3v1h-3zM19 11h1v3h-1zM1 11h2v2H1zM4 12h2v1H4zM11 13h3v1h-3zM15 13h1v2h-1zM17 14h2v1h-2zM8 14h2v2H8zM11 15h1v2h-1zM13 16h2v1h-2zM16 16h1v1h-1zM18 16h3v1h-3zM8 18h3v1H8zM12 18h1v3h-1zM14 18h2v2h-2zM17 18h1v3h-1zM19 19h2v2h-2zM9 20h2v1H9z"/></svg>
+        Scanne pour installer
+      </div>
+    </div>
+  </div>
+  <form class="newsletter" id="nl" novalidate>
+    <h3>Pas prêt à installer une app ?</h3>
+    <p>Reçois nos analyses patrimoine et investissement par email.</p>
+    <div class="champ">
+      <label class="sr" for="email">Adresse email</label>
+      <input id="email" type="email" placeholder="ton@email.fr" autocomplete="email" required>
+      <button class="btn btn-primaire" type="submit">Je m'inscris</button>
+    </div>
+    <p class="confirm" id="confirm" role="status" hidden></p>
+    <small>Tu peux te désinscrire à tout moment. <a class="a-venir lien-petit" href="#">Politique de confidentialité</a></small>
+  </form>
+</div>
+</section>
+</Base>
+
+<script>
+  import '../scripts/pages/accueil.js';
+</script>

@@ -1,0 +1,172 @@
+---
+// Gabarit unique du site : <head>, en-tête, pied de page et données structurées.
+// Chaque page lui passe son référencement et, si elle en a, sa FAQ et son fil d'Ariane ;
+// les JSON-LD correspondants sont alors écrits au build, pas au chargement.
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import BandeauCookies from '../components/BandeauCookies.astro';
+import RetourHaut from '../components/RetourHaut.astro';
+import { SITE_URL, INDEXABLE, SOCIETE } from '../config.js';
+import '../styles/global.css';
+
+const {
+  titre,
+  description,
+  chemin,
+  faq = [],
+  fil = null,
+  noindex = false,
+  // Visuel de partage. Une page peut en fournir un ; sinon la carte de marque
+  // est produite par outils/generer-images.mjs.
+  image = '/og/defaut.png',
+} = Astro.props;
+
+const canonique = new URL(chemin, SITE_URL).href;
+const robots = !INDEXABLE || noindex ? 'noindex, nofollow' : 'index, follow';
+const imageAbsolue = image ? new URL(image, SITE_URL).href : null;
+
+// Fiche d'identité de l'éditeur, identique sur toutes les pages.
+const organisation = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': ['Organization', 'FinancialService'],
+      '@id': `${SITE_URL}/#organisation`,
+      name: SOCIETE.nom,
+      legalName: SOCIETE.raisonSociale,
+      url: `${SITE_URL}/`,
+      description:
+        "Application de gestion de patrimoine assistée par intelligence artificielle explicable. SAFIA SAS est conseiller en investissements financiers enregistré à l'ORIAS.",
+      email: SOCIETE.email,
+      address: {
+        '@type': 'PostalAddress',
+        streetAddress: SOCIETE.rue,
+        postalCode: SOCIETE.codePostal,
+        addressLocality: SOCIETE.ville,
+        addressCountry: SOCIETE.pays,
+      },
+      foundingDate: '2025-12',
+      founder: { '@id': `${SITE_URL}/fondateur/#personne` },
+      areaServed: { '@type': 'Country', name: 'France' },
+      identifier: [
+        { '@type': 'PropertyValue', name: 'SIREN', value: SOCIETE.siren },
+        { '@type': 'PropertyValue', name: 'ORIAS', value: SOCIETE.orias },
+      ],
+      memberOf: { '@type': 'Organization', name: 'CNCGP' },
+      sameAs: [SOCIETE.linkedin],
+    },
+    {
+      '@type': 'MobileApplication',
+      '@id': `${SITE_URL}/#application`,
+      name: 'SAFIA',
+      applicationCategory: 'FinanceApplication',
+      operatingSystem: 'iOS, Android',
+      publisher: { '@id': `${SITE_URL}/#organisation` },
+      offers: [
+        { '@type': 'Offer', name: 'Starter', price: '0', priceCurrency: 'EUR' },
+        { '@type': 'Offer', name: 'Smart mensuel', price: '29.99', priceCurrency: 'EUR' },
+        { '@type': 'Offer', name: 'Smart annuel', price: '299', priceCurrency: 'EUR' },
+      ],
+    },
+    {
+      '@type': 'Person',
+      '@id': `${SITE_URL}/fondateur/#personne`,
+      name: 'Maxime Bouché',
+      jobTitle: 'Fondateur et président',
+      worksFor: { '@id': `${SITE_URL}/#organisation` },
+      alumniOf: { '@type': 'CollegeOrUniversity', name: 'IÉSEG School of Management' },
+      hasCredential: [
+        {
+          '@type': 'EducationalOccupationalCredential',
+          name: 'Certification AMF, connaissances générales',
+          recognizedBy: { '@type': 'Organization', name: 'Autorité des marchés financiers' },
+        },
+        {
+          '@type': 'EducationalOccupationalCredential',
+          name: 'Certification AMF, finance durable',
+          recognizedBy: { '@type': 'Organization', name: 'Autorité des marchés financiers' },
+        },
+      ],
+      sameAs: ['https://www.linkedin.com/in/maximebouche'],
+    },
+  ],
+};
+
+const jsonFaq = faq.length
+  ? {
+      '@context': 'https://schema.org',
+      '@type': 'FAQPage',
+      mainEntity: faq.map((x) => ({
+        '@type': 'Question',
+        name: x.q,
+        acceptedAnswer: { '@type': 'Answer', text: x.r },
+      })),
+    }
+  : null;
+
+const jsonFil = fil
+  ? {
+      '@context': 'https://schema.org',
+      '@type': 'BreadcrumbList',
+      itemListElement: fil.map((nom, i) => ({
+        '@type': 'ListItem',
+        position: i + 1,
+        name: nom,
+      })),
+    }
+  : null;
+---
+
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{titre}</title>
+    <meta name="description" content={description} />
+    <meta name="robots" content={robots} />
+    <link rel="canonical" href={canonique} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="SAFIA" />
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:title" content={titre} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonique} />
+    {imageAbsolue && <meta property="og:image" content={imageAbsolue} />}
+    {imageAbsolue && <meta property="og:image:width" content="1200" />}
+    {imageAbsolue && <meta property="og:image:height" content="630" />}
+
+    <meta name="twitter:card" content={imageAbsolue ? 'summary_large_image' : 'summary'} />
+    <meta name="twitter:title" content={titre} />
+    <meta name="twitter:description" content={description} />
+    {imageAbsolue && <meta name="twitter:image" content={imageAbsolue} />}
+
+    <script type="application/ld+json" set:html={JSON.stringify(organisation)} />
+    {jsonFaq && <script type="application/ld+json" set:html={JSON.stringify(jsonFaq)} />}
+    {jsonFil && <script type="application/ld+json" set:html={JSON.stringify(jsonFil)} />}
+  </head>
+
+  <body>
+    <a class="evitement" href="#contenu">Aller au contenu</a>
+    <Header />
+
+    <main id="contenu" tabindex="-1">
+      <slot />
+    </main>
+
+    <Footer />
+
+    <p class="annonce" id="annonce" role="status" aria-live="polite"></p>
+    <p id="note-maquette" role="status" hidden></p>
+
+    <RetourHaut />
+    <BandeauCookies />
+
+    <script>
+      import '../scripts/site.js';
+    </script>
+  </body>
+</html>

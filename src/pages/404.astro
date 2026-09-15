@@ -1,0 +1,26 @@
+---
+import Base from '../layouts/Base.astro';
+---
+
+<Base
+  titre={"Page introuvable · SAFIA"}
+  description={"Cette page n'existe pas ou plus. Retrouvez les pages principales de SAFIA."}
+  chemin={"/404"}
+  noindex
+>
+<section class="hero hero-page">
+<div class="wrap hero-page-in p404">
+  <div>
+    <p class="code" aria-hidden="true">404</p>
+    <h1>Cette page n'existe pas, ou plus.</h1>
+    <p>Le lien est peut-être ancien, ou l'adresse comporte une faute. Voici par où reprendre.</p>
+    <div class="pistes">
+      <a class="btn btn-primaire" href="/">Retour à l'accueil</a>
+      <a class="btn btn-fantome" href="/particuliers/">Particuliers</a>
+      <a class="btn btn-fantome" href="/tarifs/">Tarifs</a>
+      <a class="btn btn-fantome" href="/conseillers/">Conseillers</a>
+    </div>
+  </div>
+</div>
+</section>
+</Base>

@@ -1,0 +1,233 @@
+---
+import Base from '../layouts/Base.astro';
+const faq = [
+  {
+    "q": "C'est quoi, les critères ESG ?",
+    "r": "Trois familles de critères, environnementaux, sociaux et de gouvernance, qui permettent d'évaluer les pratiques d'une entreprise au-delà de ses chiffres financiers."
+  },
+  {
+    "q": "Quelle différence entre ESG et ISR ?",
+    "r": "L'ESG désigne les critères. L'ISR est une démarche d'investissement qui les prend en compte pour choisir ses placements."
+  },
+  {
+    "q": "Investir selon ses valeurs, ça rapporte moins ?",
+    "r": "Il n'y a pas de règle générale : les résultats varient selon les périodes et les méthodes. SAFIA ne promet aucune performance. Elle t'aide à savoir ce que tu finances."
+  },
+  {
+    "q": "Combien de temps faut-il ?",
+    "r": "Quelques minutes pour les 25 premières réponses. Tu peux t'arrêter et reprendre quand tu veux."
+  },
+  {
+    "q": "Mon ADN est-il partagé ?",
+    "r": "Non. Il sert uniquement à personnaliser tes analyses dans SAFIA."
+  },
+  {
+    "q": "Puis-je changer d'avis ?",
+    "r": "Oui, à tout moment. Ton ADN se met à jour à chaque nouveau swipe, et l'alignement de ton portefeuille est recalculé."
+  }
+];
+const fil = ["Accueil","Particuliers","ADN Investisseur"];
+---
+
+<Base
+  titre={"Investir selon ses valeurs : ton ADN Investisseur · SAFIA"}
+  description={"Critères ESG, ISR, exclusions : découvre en quelques swipes ce qui compte pour toi dans tes placements, et vois si ton portefeuille y correspond."}
+  chemin={"/adn-investisseur/"}
+  faq={faq}
+  fil={fil}
+>
+<section class="hero hero-page hero-part">
+<div class="wrap hero-page-in hero-adn">
+  <div>
+    <p class="etiq-page">Particuliers</p>
+    <p class="fil-ariane" aria-label="Fil d'Ariane"><a href="/">Accueil</a> <span aria-hidden="true">/</span> <a href="/particuliers/">Particuliers</a> <span aria-hidden="true">/</span> ADN Investisseur</p>
+    <h1>Ton ADN Investisseur : investir selon ce qui compte pour toi.</h1>
+    <p class="chapo">En quelques swipes, SAFIA apprend tes convictions et tes priorités. Combinées à ton profil de risque, tes objectifs, ton parcours, elle te montre ensuite si tes placements y correspondent vraiment.</p>
+    <div class="actions">
+      <a class="btn btn-primaire" href="#telecharger">Révéler mon ADN</a>
+      <a class="btn btn-fantome" href="#esg">Comprendre l'ESG et l'ISR</a>
+    </div>
+  </div>
+
+  <!-- Démonstration du swipe, conforme à l'écran ADN de l'application -->
+  <div class="tel-app" aria-labelledby="demo-t">
+    <div class="ecran-app">
+      <div class="statut" aria-hidden="true"><span>9:41</span><span class="encoche"></span><span>▮▮▮ <i></i></span></div>
+      <div class="app-entete"><span class="retour" aria-hidden="true">‹</span><p class="app-h" id="demo-t">ADN</p><span class="rond" aria-hidden="true">?</span><span class="pts" aria-hidden="true">⋮</span></div>
+      <div class="adn-ecran">
+        <div class="adn-pile" id="pile">
+          <article class="adn-carte" data-theme="Énergies renouvelables">
+            <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M4 15l4-5 4 3 4-7 4 4" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            <strong>Énergies renouvelables</strong>
+            <p>Solaire, éolien, hydraulique et stockage.</p>
+            <span class="apprendre" aria-hidden="true">En apprendre plus</span>
+          </article>
+          <article class="adn-carte" data-theme="Industrie française">
+            <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M3 20V9l6 4V9l6 4V6l6 3v11H3z" stroke="#fff" stroke-width="1.8" stroke-linejoin="round"/></svg></span>
+            <strong>Industrie française</strong>
+            <p>Entreprises qui produisent et emploient en France.</p>
+            <span class="apprendre" aria-hidden="true">En apprendre plus</span>
+          </article>
+          <article class="adn-carte" data-theme="Énergies fossiles">
+            <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M12 3s5 5 5 9a5 5 0 11-10 0c0-4 5-9 5-9z" stroke="#fff" stroke-width="1.8" stroke-linejoin="round"/></svg></span>
+            <strong>Extraction de charbon</strong>
+            <p>Sociétés dont une part des revenus vient du charbon.</p>
+            <span class="apprendre" aria-hidden="true">En apprendre plus</span>
+          </article>
+          <article class="adn-carte" data-theme="Égalité au travail">
+            <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><circle cx="8" cy="8" r="3" stroke="#fff" stroke-width="1.8"/><circle cx="16" cy="8" r="3" stroke="#fff" stroke-width="1.8"/><path d="M3 20c0-3 2.2-5 5-5s5 2 5 5M13 20c0-3 2.2-5 5-5s3 2 3 5" stroke="#fff" stroke-width="1.8" stroke-linecap="round"/></svg></span>
+            <strong>Égalité salariale</strong>
+            <p>Entreprises qui publient et corrigent leurs écarts.</p>
+            <span class="apprendre" aria-hidden="true">En apprendre plus</span>
+          </article>
+        </div>
+
+        <div class="adn-fin" id="resultat" hidden>
+          <p class="ss-titre">Un aperçu de ton ADN</p>
+          <ul id="res-liste"></ul>
+          <button type="button" id="rejouer">Recommencer</button>
+        </div>
+
+        <div class="adn-jauge" id="jauge">
+          <div class="tete"><div><b>Déblocage</b><div class="niv" id="niveau">Niveau de confiance : Émergent</div></div><span id="pourcent">1 %</span></div>
+          <div class="barre"><i id="barre" style="width:4%"></i></div>
+        </div>
+
+        <div class="adn-actions" id="choix">
+          <button type="button" class="non" data-avis="non" aria-label="Ça ne m'intéresse pas"><svg viewBox="0 0 20 20" fill="none"><path d="M5 5l10 10M15 5L5 15" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg></button>
+          <button type="button" class="passe" data-avis="passe" aria-label="Passer"><svg viewBox="0 0 20 20" fill="none"><path d="M12 4l-6 6 6 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+          <button type="button" class="oui" data-avis="oui" aria-label="Ça compte pour moi"><svg viewBox="0 0 20 20" fill="none"><path d="M10 17s-7-4.2-7-9.3A3.7 3.7 0 0110 5.8 3.7 3.7 0 0117 7.7c0 5.1-7 9.3-7 9.3z" fill="currentColor"/></svg></button>
+        </div>
+      </div>
+      <div class="app-bas" aria-hidden="true">
+        <span><b></b>Accueil</span><span><b></b>Patrimoine</span><span><b></b>Mon IA</span><span class="actif"><b></b>ADN</span><span><b></b>Cockpit</span>
+      </div>
+      <p class="mention-app">Essaie ici. Dans l'app, ton ADN se construit sur 25 réponses minimum.</p>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- ===== Pourquoi ===== -->
+<section class="bloc">
+<div class="wrap constat">
+  <h2 class="titre">Ton épargne finance quelque chose. Encore faut-il savoir quoi.</h2>
+  <p>Ton argent placé finance des entreprises, des États et des projets. La plupart des épargnants ne savent pas lesquels, parce que personne ne le leur montre. Ton ADN rend ce lien visible, puis te permet d'en tenir compte dans tes choix.</p>
+</div>
+</section>
+
+<!-- ===== Comment ça marche ===== -->
+<section class="bloc etapes-bloc">
+<div class="wrap">
+  <h2 class="titre">Trois temps, sans jargon</h2>
+  <ol class="etapes">
+    <li><h3>Tu swipes</h3><p>Des secteurs, des pratiques d'entreprise, des critères environnementaux et sociaux. Tu réagis, simplement.</p></li>
+    <li><h3>SAFIA construit ton profil</h3><p>Ton ADN se dessine dès 25 réponses et s'affine à chaque swipe. Tes convictions évoluent ? Il suit.</p></li>
+    <li><h3>Tu vois l'alignement</h3><p>Tes placements sont classés alignés, neutres ou non alignés avec ton ADN, exemples à l'appui.</p></li>
+  </ol>
+  <div class="garde-fou">
+    <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3l8 3.5v5C20 16.4 16.6 20.5 12 22 7.4 20.5 4 16.4 4 11.5v-5L12 3z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+    <p><strong>Le garde-fou :</strong> ton ADN ne remplace jamais ton profil de risque. Une piste n'est proposée que si son niveau de risque est compatible avec ton profil.</p>
+  </div>
+</div>
+</section>
+
+<!-- ===== ESG et ISR ===== -->
+<section class="bloc esg-bloc" id="esg">
+<div class="wrap">
+  <h2 class="titre">Critères ESG et ISR : ce qu'il faut savoir</h2>
+  <p class="intro">Les critères ESG servent à évaluer une entreprise au-delà de ses résultats financiers.</p>
+  <div class="esg">
+    <article><b>E</b><h3>Environnement</h3><p>Émissions de gaz à effet de serre, gestion des ressources, biodiversité.</p></article>
+    <article><b>S</b><h3>Social</h3><p>Conditions de travail, santé et sécurité, relations avec les clients et les fournisseurs.</p></article>
+    <article><b>G</b><h3>Gouvernance</h3><p>Indépendance des instances dirigeantes, rémunération des dirigeants, éthique des affaires.</p></article>
+  </div>
+  <div class="deux-notions">
+    <div>
+      <h3>Et l'ISR ?</h3>
+      <p>L'investissement socialement responsable consiste à intégrer ces critères dans le choix des placements. En France, le label ISR, soutenu par l'État, identifie les fonds qui respectent un cahier des charges défini.</p>
+    </div>
+    <div class="nuance">
+      <h3>Ce qu'on te dit rarement</h3>
+      <p>Les notations ESG varient d'un fournisseur à l'autre. Une même entreprise peut être bien notée par l'un et moyennement par l'autre. C'est pour ça que SAFIA part de tes priorités plutôt que d'une note unique.</p>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- ===== Questions fréquentes développées ===== -->
+<section class="bloc approf-bloc">
+<div class="wrap">
+  <h2 class="titre">Aller plus loin sur l'investissement responsable</h2>
+  <div class="approf">
+    <article>
+      <h3>Article 8, article 9 : ce que disent les étiquettes</h3>
+      <p>Le règlement européen SFDR classe les fonds selon la place qu'ils donnent à la durabilité. Un fonds dit « article 8 » promeut des caractéristiques environnementales ou sociales. Un fonds « article 9 » poursuit un objectif de durabilité comme finalité. Les autres relèvent de l'article 6.</p>
+      <p>Ces catégories décrivent une intention déclarée, pas un résultat mesuré. Deux fonds article 8 peuvent avoir des portefeuilles très différents. C'est pour ça que SAFIA regarde ce qu'un fonds contient, et pas seulement l'étiquette qu'il porte.</p>
+    </article>
+    <article>
+      <h3>Le label ISR français</h3>
+      <p>Créé par le ministère de l'Économie, le label ISR distingue les fonds qui respectent un cahier des charges précis, vérifié par un organisme indépendant. Son référentiel a été renforcé : il exclut désormais les entreprises qui développent de nouveaux projets d'exploitation d'énergies fossiles.</p>
+      <p>Un fonds labellisé n'est pas pour autant aligné avec tes convictions : le label fixe un socle commun, ton ADN dit ce qui compte pour toi.</p>
+    </article>
+    <article>
+      <h3>Exclusion, sélection, engagement</h3>
+      <p>Trois approches coexistent. L'<strong>exclusion</strong> écarte des secteurs entiers, par exemple le charbon ou l'armement controversé. La <strong>sélection</strong> retient les entreprises les mieux notées de chaque secteur. L'<strong>engagement</strong> consiste à rester actionnaire pour peser sur les décisions.</p>
+      <p>Aucune n'est supérieure aux autres. Ton ADN te situe sur ce spectre : certains veulent ne rien financer de contraire à leurs valeurs, d'autres préfèrent pouvoir influencer de l'intérieur.</p>
+    </article>
+    <article>
+      <h3>Comment repérer un discours trop beau</h3>
+      <p>Un nom de fonds qui évoque la transition ne dit rien de son contenu. Les documents réglementaires, eux, listent les principales lignes détenues. Trois réflexes : regarder les dix premières positions, vérifier si une politique d'exclusion écrite existe, et comparer les frais avec un fonds équivalent non labellisé.</p>
+      <p>SAFIA fait ce travail sur tes propres placements et te montre ce qu'elle a trouvé, ligne par ligne.</p>
+    </article>
+  </div>
+</div>
+</section>
+
+<!-- ===== Alignement ===== -->
+<section class="bloc align-bloc">
+<div class="wrap align-grille">
+  <div>
+    <h2 class="titre">Puis tu vois où tu en es.</h2>
+    <p class="intro">Une fois ton ADN construit, chaque ligne de ton portefeuille est confrontée à tes priorités. Sans note globale, sans classement : juste ce qui correspond, ce qui est neutre, et ce qui va contre.</p>
+    <a class="lien" href="#telecharger">Révéler mon ADN</a>
+  </div>
+  <div class="align-visuel" aria-hidden="true">
+    <div class="al-tete"><span>Ton portefeuille face à ton ADN</span></div>
+    <ul>
+      <li class="ok"><span class="pastille">Aligné</span><b>Fonds actions Europe ISR</b><em>Énergies renouvelables · Égalité salariale</em></li>
+      <li class="neutre"><span class="pastille">Neutre</span><b>Fonds euros</b><em>Aucun critère renseigné par l'émetteur</em></li>
+      <li class="non"><span class="pastille">Non aligné</span><b>ETF Monde</b><em>Contient des sociétés liées au charbon</em></li>
+    </ul>
+    <span class="illu-clair">Exemple illustratif</span>
+  </div>
+</div>
+</section>
+
+<!-- ===== FAQ ===== -->
+<section class="bloc faq-bloc">
+<div class="wrap faq-grille">
+  <h2 class="titre">Tes questions, nos réponses</h2>
+  <div class="faq">
+    <details><summary>C'est quoi, les critères ESG ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Trois familles de critères, environnementaux, sociaux et de gouvernance, qui permettent d'évaluer les pratiques d'une entreprise au-delà de ses chiffres financiers.</p></details>
+    <details><summary>Quelle différence entre ESG et ISR ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>L'ESG désigne les critères. L'ISR est une démarche d'investissement qui les prend en compte pour choisir ses placements.</p></details>
+    <details><summary>Investir selon ses valeurs, ça rapporte moins ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Il n'y a pas de règle générale : les résultats varient selon les périodes et les méthodes. SAFIA ne promet aucune performance. Elle t'aide à savoir ce que tu finances.</p></details>
+    <details><summary>Combien de temps faut-il ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Quelques minutes pour les 25 premières réponses. Tu peux t'arrêter et reprendre quand tu veux.</p></details>
+    <details><summary>Mon ADN est-il partagé ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Non. Il sert uniquement à personnaliser tes analyses dans SAFIA.</p></details>
+    <details><summary>Puis-je changer d'avis ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Oui, à tout moment. Ton ADN se met à jour à chaque nouveau swipe, et l'alignement de ton portefeuille est recalculé.</p></details>
+  </div>
+</div>
+</section>
+
+<section class="final" id="telecharger">
+<div class="wrap final-simple">
+  <h2>Découvre ton ADN Investisseur.</h2>
+  <p>Quelques minutes, gratuit, et tu sauras enfin ce que finance ton épargne.</p>
+  <a class="btn btn-primaire" href="#">Télécharger l'app</a>
+</div>
+</section>
+</Base>
+
+<script>
+  import '../scripts/pages/adn-investisseur.js';
+</script>

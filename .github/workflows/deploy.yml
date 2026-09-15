@@ -1,0 +1,58 @@
+name: Construire et déployer
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+# Droits requis par le déploiement GitHub Pages.
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Un seul déploiement à la fois, sans annuler celui qui est en cours.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  construire:
+    name: Construire le site
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Installer les dépendances
+        run: npm ci
+
+      - name: Construire
+        env:
+          # Définies dans Settings > Secrets and variables > Actions > Variables.
+          # Sans elles, le site se construit pour la préversion, en noindex.
+          SITE_URL: ${{ vars.SITE_URL || 'https://v2.safia.finance' }}
+          INDEXABLE: ${{ vars.INDEXABLE || 'false' }}
+        run: npm run build
+
+      - name: Vérifier les liens internes
+        run: npm run verifier
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deployer:
+    name: Déployer sur GitHub Pages
+    needs: construire
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploiement.outputs.page_url }}
+    steps:
+      - id: deploiement
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,245 @@
+---
+import Base from '../layouts/Base.astro';
+const faq = [
+  {
+    "q": "Quelle différence entre Finary et SAFIA ?",
+    "r": "Les deux agrègent vos comptes et fonctionnent par abonnement. Trois différences : chez SAFIA l'agrégation illimitée est comprise dans l'offre gratuite ; nous ne distribuons aucun produit maison ; et nous n'imposons aucun seuil de patrimoine pour accéder à un conseiller. Finary propose de son côté une offre de gestion privée réservée aux patrimoines importants."
+  },
+  {
+    "q": "Quelle différence entre un robo-advisor et SAFIA ?",
+    "r": "Un robo-advisor investit votre argent à votre place dans un portefeuille choisi selon votre profil. SAFIA ne gère pas votre argent : vos comptes restent où ils sont et vous décidez. Les deux peuvent se compléter."
+  },
+  {
+    "q": "Pourquoi un abonnement plutôt qu'un pourcentage ?",
+    "r": "Parce que le travail d'analyse ne dépend pas de la taille du patrimoine. Un pourcentage annuel croît avec votre épargne et se cumule année après année. Un abonnement reste stable, et vous savez à l'avance ce que vous paierez."
+  },
+  {
+    "q": "Comment comparer deux solutions sur les frais ?",
+    "r": "Additionnez tout : frais de l'enveloppe, frais des supports qu'elle contient, frais de gestion du prestataire, droits d'entrée et frais d'arbitrage. Comparez ensuite ce total, et non le seul taux mis en avant."
+  },
+  {
+    "q": "À partir de quel montant accède-t-on à la banque privée ?",
+    "r": "Chaque établissement fixe son propre seuil, et il évolue. Renseignez-vous directement auprès de celui qui vous intéresse. Ce qu'il faut retenir : ce seuil existe parce que le suivi d'un client coûte à peu près autant quel que soit son patrimoine."
+  },
+  {
+    "q": "Peut-on cumuler plusieurs solutions ?",
+    "r": "Oui, et c'est fréquent. L'enjeu est alors d'avoir une vue d'ensemble et de savoir ce que chaque poche vous coûte réellement."
+  }
+];
+const fil = ["Accueil","Ressources","Comparatif"];
+---
+
+<Base
+  titre={"Finary, Yomoni, Nalo, Ramify ou SAFIA : le comparatif 2026"}
+  description={"Agrégateur, gestion pilotée, banque privée : qui fait quoi, à quel coût, et comment chacun se rémunère. Comparatif daté, sources à l'appui."}
+  chemin={"/comparatif/"}
+  faq={faq}
+  fil={fil}
+>
+<section class="hero hero-page hero-part">
+<div class="wrap hero-page-in hero-court">
+  <p class="etiq-page">Ressources</p>
+  <p class="fil-ariane" aria-label="Fil d'Ariane"><a href="/">Accueil</a> <span aria-hidden="true">/</span> Ressources <span aria-hidden="true">/</span> Comparatif</p>
+  <h1>Finary, Yomoni, Nalo, Ramify, banque privée : qui fait quoi, et à quel prix ?</h1>
+  <p class="chapo">La rigueur d'une banque privée, sans son ticket d'entrée ni ses droits d'entrée. Ces solutions ne font pas le même métier : avant de comparer des tarifs, il faut savoir ce que chacune prend en charge, et surtout comment elle se rémunère.</p>
+  <p class="maj">Dernière vérification des tarifs : <time datetime="2026-09-14">14 septembre 2026</time>. <a class="lien" href="#sources">Voir les sources</a></p>
+</div>
+</section>
+
+<!-- ===== Les familles ===== -->
+<section class="bloc familles-bloc">
+<div class="wrap">
+  <h2 class="titre">Quatre métiers différents</h2>
+  <p class="intro">Comparer un agrégateur et une gestion pilotée n'a pas de sens : l'un affiche, l'autre investit. Première étape, remettre chaque acteur dans sa catégorie.</p>
+  <div class="familles">
+    <article>
+      <span class="fam-etiq">Ils gèrent à votre place</span>
+      <h3>La gestion pilotée</h3>
+      <p><b>Yomoni, Nalo, Ramify, Goodvest.</b> Vous répondez à un questionnaire, un portefeuille vous est attribué selon votre profil, et le gestionnaire l'investit et l'arbitre. Votre argent est placé sur un contrat ouvert chez leur assureur partenaire.</p>
+      <p class="fam-qui"><b>Rémunération :</b> un pourcentage annuel de l'encours, cumulant frais de mandat, frais du contrat et frais des supports.</p>
+    </article>
+    <article>
+      <span class="fam-etiq">Il affiche, puis il distribue</span>
+      <h3>L'agrégateur de patrimoine</h3>
+      <p><b>Finary.</b> Une application qui rassemble vos comptes sur un seul écran. L'agrégation complète et les outils d'analyse relèvent des formules payantes. Finary distribue par ailleurs ses propres produits d'investissement, et propose une offre de gestion privée avec conseiller dédié, réservée à partir d'un certain niveau de patrimoine.</p>
+      <p class="fam-qui"><b>Rémunération :</b> l'abonnement, et les revenus liés aux produits distribués. L'agrégateur est aussi une porte d'entrée vers ces produits.</p>
+    </article>
+    <article>
+      <span class="fam-etiq">Elle bancarise</span>
+      <h3>La néobanque</h3>
+      <p><b>Revolut, et les autres.</b> Un compte, une carte, et des briques d'investissement ajoutées au fil du temps. L'investissement est une fonction parmi d'autres, pas le cœur du service.</p>
+      <p class="fam-qui"><b>Rémunération :</b> abonnements par paliers, change, commissions sur les opérations.</p>
+    </article>
+    <article>
+      <span class="fam-etiq">Elle accompagne</span>
+      <h3>La banque privée</h3>
+      <p>Un établissement de crédit qui gère votre patrimoine avec un banquier « attitré ». L'accès dépend d'un seuil de patrimoine ou de revenus, propre à chaque établissement.</p>
+      <p class="fam-qui"><b>Rémunération :</b> des frais de dossier, des droits d'entrée pouvant atteindre 5 % du montant versé, des frais annuels sur l'encours, et des rétrocessions versées par les producteurs.</p>
+    </article>
+    <article class="fam-safia">
+      <span class="fam-etiq">Nous expliquons</span>
+      <h3>SAFIA</h3>
+      <p>Nous partons de votre situation réelle, nous analysons ce que vous détenez, nous expliquons vos options et leurs conséquences. Vos comptes restent là où ils sont, et vous décidez.</p>
+      <p class="fam-qui"><b>Rémunération :</b> un abonnement fixe. Aucune rétrocession, aucune commission sur les produits : SAFIA exerce le conseil en investissements financiers de manière indépendante et neutre.</p>
+    </article>
+  </div>
+</div>
+</section>
+
+<!-- ===== Tableau des coûts ===== -->
+<section class="bloc cout-bloc">
+<div class="wrap">
+  <h2 class="titre">Ce que ça coûte</h2>
+  <p class="intro">Deux logiques de prix coexistent. Un pourcentage annuel de votre encours, qui croît avec votre patrimoine. Ou un abonnement, qui n'en dépend pas. Sur longue période, l'écart devient considérable.</p>
+  <div class="cout-tab">
+    <div class="ct-tete"><span>Acteur</span><span>Catégorie</span><span>Mode de rémunération</span><span>Coût indicatif</span></div>
+    <div class="ct-l"><span class="nom">Yomoni</span><span>Gestion pilotée</span><span>Pourcentage de l'encours</span><span class="val">Environ 1,6 à 1,9 % par an tout compris, selon le profil</span></div>
+    <div class="ct-l"><span class="nom">Nalo</span><span>Gestion pilotée</span><span>Pourcentage de l'encours</span><span class="val">Environ 1,65 % par an tout compris</span></div>
+    <div class="ct-l"><span class="nom">Ramify</span><span>Gestion pilotée</span><span>Pourcentage de l'encours</span><span class="val">Environ 1,4 à 1,8 % par an tout compris, selon l'offre</span></div>
+    <div class="ct-l"><span class="nom">Goodvest</span><span>Gestion pilotée</span><span>Pourcentage de l'encours</span><span class="val">Environ 1,9 % par an tout compris</span></div>
+    <div class="ct-l"><span class="nom">Finary</span><span>Agrégateur, puis distributeur</span><span>Abonnement, plus revenus sur les produits distribués</span><span class="val">Version gratuite limitée à quelques comptes et quelques fonctionnalités. Formule Plus à 25 € par mois, sans IA. Offre de gestion privée sur devis, à partir d'un certain patrimoine</span></div>
+    <div class="ct-l ct-alerte"><span class="nom">Banque privée</span><span>Établissement de crédit</span><span>Droits d'entrée, encours, rétrocessions</span><span class="val"><b>Jusqu'à 5 % de droits d'entrée sur chaque versement</b>, auxquels s'ajoutent les frais annuels. Variable selon l'établissement et le mandat</span></div>
+    <div class="ct-l ct-safia"><span class="nom">SAFIA</span><span>Conseil indépendant</span><span>Abonnement seul, aucune rétrocession</span><span class="val">Starter gratuit, agrégation illimitée comprise. Smart à 29,99 € par mois, ou 299 € par an. Aucun droit d'entrée, aucun seuil de patrimoine</span></div>
+  </div>
+  <p class="note-tab">Les coûts de gestion pilotée sont des ordres de grandeur « tout compris », additionnant frais de mandat, frais du contrat d'assurance et frais moyens des supports. Ils varient selon le profil de risque, l'offre choisie et le montant investi. Vérifiez le tarif applicable à votre situation sur le site de l'acteur concerné.</p>
+
+  <div class="illustration">
+    <h3>Ce que ça donne sur 100 000 € placés</h3>
+    <div class="barres" aria-hidden="true">
+      <div class="choc"><span>5 % de droits d'entrée</span><i style="width:100%"></i><b>5 000 € prélevés avant même que le premier euro soit investi</b></div>
+      <div><span>1,9 % par an</span><i style="width:38%"></i><b>1 900 € la première année</b></div>
+      <div><span>1,65 % par an</span><i style="width:33%"></i><b>1 650 € la première année</b></div>
+      <div><span>1,4 % par an</span><i style="width:28%"></i><b>1 400 € la première année</b></div>
+      <div class="fixe"><span>Abonnement SAFIA</span><i style="width:6%"></i><b>299 € par an, quel que soit le montant. Aucun droit d'entrée</b></div>
+    </div>
+    <p class="illu-note">Illustration du seul effet du mode de tarification, à montant identique. Les droits d'entrée sont prélevés une fois, sur chaque versement. Les pourcentages annuels, eux, se répètent chaque année et croissent avec votre patrimoine. Un abonnement ne fait ni l'un ni l'autre. En contrepartie, la gestion pilotée investit et arbitre à votre place, ce que SAFIA ne fait pas.</p>
+  </div>
+</div>
+</section>
+
+<!-- ===== Face à face ===== -->
+<section class="bloc face-bloc">
+<div class="wrap">
+  <h2 class="titre">Face à face, sans complaisance</h2>
+  <p class="intro">Chacun de ces acteurs a ses forces. Les voici, avant ce qui nous distingue.</p>
+  <div class="faces">
+    <article>
+      <h3>SAFIA et Finary</h3>
+      <p class="plus"><b>Ce que Finary fait :</b> l'agrégation. Couverture très large, une interface reconnue, et une base d'utilisateurs considérable en France. Un modèle qui tend désormais vers la banque privée.</p>
+      <p class="diff"><b>Ce que nous faisons différemment :</b> chez Finary, l'agrégation complète est payante. Chez SAFIA, elle est comprise dans l'offre gratuite, comptes illimités. Surtout, leur application mène à leurs propres produits et à leur offre de gestion privée, réservée aux patrimoines importants. Nous ne distribuons aucun produit maison, nous ne percevons aucune rétrocession, et nous n'imposons aucun seuil.</p>
+    </article>
+    <article>
+      <h3>SAFIA et Yomoni</h3>
+      <p class="plus"><b>Ce que Yomoni fait :</b> il gère à votre place. C'est une société de gestion de portefeuille agréée par l'Autorité des marchés financiers, avec un historique de performance public et une allocation en ETF à coût réduit.</p>
+      <p class="diff"><b>Ce que nous faisons différemment :</b> nous ne gérons pas votre argent. Vos comptes restent où ils sont, et vous décidez. Nous pouvons d'ailleurs vous aider à comprendre ce que fait une gestion pilotée que vous détenez déjà.</p>
+    </article>
+    <article>
+      <h3>SAFIA et Nalo</h3>
+      <p class="plus"><b>Ce que Nalo fait :</b> l'allocation par projet. Chaque objectif, retraite, achat immobilier, études des enfants, reçoit son propre portefeuille et son propre horizon.</p>
+      <p class="diff"><b>Ce que nous faisons différemment :</b> le GPS patrimoine <span class="avenir">à venir</span> individualise lui aussi par projet, mais sans jamais perdre la vue d'ensemble : chaque projet est replacé dans votre patrimoine total, et vous voyez l'effet d'un objectif niche sur l'équilibre général. Une allocation par projet isolée de tout le reste ne dit rien de votre situation réelle.</p>
+    </article>
+    <article>
+      <h3>SAFIA et Ramify</h3>
+      <p class="plus"><b>Ce que Ramify fait :</b> l'étendue de son offre d'investissement déjà disponible. Assurance vie, PER, PEA, SCPI, private equity ou crypto sont accessibles depuis une même plateforme, avec une approche centrée sur l'investissement et la gestion pilotée. Deux utilisateurs peuvent avoir les mêmes recommandations.</p>
+      <p class="diff"><b>Ce que nous faisons différemment :</b> SAFIA ne part pas d'un catalogue de produits, mais de vous. Votre profil de risque, vos objectifs, votre patrimoine, vos projets et votre ADN investisseur permettent à notre IA de construire un accompagnement réellement personnalisé.</p>
+      <p class="diff">SAFIA analyse votre patrimoine dans son ensemble, identifie vos risques, vos frais, vos déséquilibres et vos opportunités, puis vous explique les actions possibles. Notre cockpit <span class="avenir">à venir</span> fonctionnera avec une architecture ouverte : les solutions proposées pourront provenir de différents acteurs du marché et seront sélectionnées selon leur pertinence pour votre situation. Deux utilisateurs SAFIA ne verront donc pas nécessairement les mêmes opportunités.</p>
+    </article>
+    <article>
+      <h3>SAFIA et Goodvest</h3>
+      <p class="plus"><b>Ce que Goodvest fait :</b> la cohérence climatique. Un positionnement assumé, une exclusion documentée des énergies fossiles, et une mesure d'impact intégrée au produit.</p>
+      <p class="diff"><b>Ce que nous faisons différemment :</b> Goodvest applique ses critères, votre ADN investisseur applique les vôtres. Vous pouvez tenir au climat, à l'industrie française, à l'égalité salariale, ou aux trois.</p>
+    </article>
+    <article>
+      <h3>SAFIA et la banque privée</h3>
+      <p class="plus"><b>Ce qu'une banque privée fait :</b> un interlocuteur qui vous connaît, l'accès au crédit, la structuration juridique, et la coordination avec un notaire ou un avocat sur les opérations importantes.</p>
+      <p class="diff"><b>Ce que nous faisons différemment :</b> aucun seuil d'entrée, aucun droit d'entrée, aucune rétrocession. Sur 100 000 €, 5 % de droits d'entrée représentent 5 000 € prélevés avant le premier euro investi : c'est l'écart le plus brutal de tout ce comparatif. Nous appliquons la même méthode qu'une banque privée, profil réglementaire, analyse patrimoniale et escalade vers un conseiller, sans le ticket d'entrée.</p>
+    </article>
+  </div>
+</div>
+</section>
+
+<!-- ===== Tableau structurel ===== -->
+<section class="bloc tableau-bloc">
+<div class="wrap">
+  <h2 class="titre">Critère par critère</h2>
+  <div class="comp-tab">
+    <div class="comp-tete"><span></span><span>Gestion pilotée</span><span>Agrégateur</span><span>Banque privée</span><span class="fort">SAFIA</span></div>
+    <div class="comp-ligne"><span class="crit">Qui décide de l'allocation</span><span>Le gestionnaire</span><span>Vous, seul</span><span>Le banquier, avec vous</span><span class="fort">Vous, avec des explications</span></div>
+    <div class="comp-ligne"><span class="crit">Où est votre argent</span><span>Chez l'assureur partenaire</span><span>Dans vos comptes actuels</span><span>Chez l'établissement</span><span class="fort">Dans vos comptes actuels</span></div>
+    <div class="comp-ligne"><span class="crit">Ticket d'entrée</span><span>Souvent 1 000 €</span><span>Aucun</span><span>Seuil propre à chaque établissement</span><span class="fort">Aucun</span></div>
+    <div class="comp-ligne"><span class="crit">Le prix suit-il votre patrimoine</span><span>Oui</span><span>Non</span><span>Oui</span><span class="fort">Non</span></div>
+    <div class="comp-ligne"><span class="crit">Rétrocessions perçues</span><span>Variable selon l'acteur</span><span>Sur les produits distribués en propre</span><span>Oui</span><span class="fort">Aucune</span></div>
+    <div class="comp-ligne"><span class="crit">Vue sur les comptes détenus ailleurs</span><span>Non</span><span>Oui</span><span>Partielle</span><span class="fort">Oui</span></div>
+    <div class="comp-ligne"><span class="crit">Agrégation illimitée de tous les comptes</span><span>Sans objet</span><span>Formule payante</span><span>Sans objet</span><span class="fort">Comprise dans l'offre gratuite</span></div>
+    <div class="comp-ligne"><span class="crit">Produits proposés</span><span>Ceux du gestionnaire</span><span>Ceux du distributeur</span><span>Ceux de l'établissement et de ses partenaires</span><span class="fort">Ceux de l'ensemble du marché, filtrés par votre profil et votre ADN</span></div>
+    <div class="comp-ligne"><span class="crit">Explication des choix</span><span>Documentation générale</span><span>Analyses chiffrées</span><span>Orale, selon le banquier</span><span class="fort">Écrite et sourcée à chaque réponse</span></div>
+    <div class="comp-ligne"><span class="crit">Prise en compte de vos valeurs</span><span>Profils dédiés chez certains acteurs</span><span>Non</span><span>Variable</span><span class="fort">ADN investisseur, sur vos propres critères</span></div>
+    <div class="comp-ligne"><span class="crit">Accès à un humain</span><span>Selon l'acteur</span><span>Support client</span><span>Un banquier attitré</span><span class="fort">Un conseiller, inclus dans l'abonnement annuel</span></div>
+  </div>
+</div>
+</section>
+
+<!-- ===== Quel cas pour quoi ===== -->
+<section class="bloc cas-bloc">
+<div class="wrap">
+  <h2 class="titre">Laquelle est faite pour vous ?</h2>
+  <div class="cas">
+    <article><h3>Vous voulez déléguer complètement</h3><p>Une gestion pilotée est faite pour ça. Vous acceptez de ne plus décider en échange du temps économisé. Regardez alors le coût total annuel, frais des supports compris : c'est ce chiffre qui compte, pas le seul taux affiché.</p></article>
+    <article><h3>Vous voulez juste y voir clair</h3><p>Un agrégateur suffira. Si les chiffres vous parlent et que vous savez quoi en faire, inutile de payer pour des explications.</p></article>
+    <article><h3>Vous voulez comprendre avant de décider</h3><p>C'est notre cas d'usage. Vous gardez la main, vos comptes ne bougent pas, et vous obtenez le raisonnement derrière chaque piste.</p></article>
+    <article><h3>Votre situation est complexe</h3><p>Cession d'entreprise, holding, démembrement, expatriation : aucun outil ne suffit. Il vous faut un professionnel. Nous vous le dirons, et nous préparerons le dossier.</p></article>
+  </div>
+  <p class="cas-note">Ces approches ne s'excluent pas. Beaucoup de personnes ont une assurance vie en gestion pilotée, un PEA en gestion libre et un livret dans leur banque. Rien n'empêche d'utiliser SAFIA pour comprendre l'ensemble.</p>
+</div>
+</section>
+
+<!-- ===== Sources ===== -->
+<section class="bloc sources-bloc" id="sources">
+<div class="wrap">
+  <h2 class="titre">Sources et méthode</h2>
+  <p class="intro">Nous comparons des catégories et des modes de rémunération, pas des qualités de service. Les chiffres proviennent des documentations publiques des acteurs cités et de relevés de marché.</p>
+  <div class="methode">
+    <article>
+      <h3>Ce que recouvre le « coût tout compris »</h3>
+      <p>Les frais de mandat du gestionnaire, les frais du contrat d'assurance prélevés par l'assureur, et les frais moyens des supports détenus dans le portefeuille. C'est le seul chiffre comparable d'un acteur à l'autre : un taux de mandat affiché seul ne dit rien du coût réel.</p>
+    </article>
+    <article>
+      <h3>Pourquoi des fourchettes</h3>
+      <p>Le coût d'une gestion pilotée dépend du profil de risque, de l'offre retenue et parfois du montant investi. Annoncer un chiffre unique serait plus lisible, mais faux pour une partie des épargnants.</p>
+    </article>
+    <article>
+      <h3>Ce que nous ne comparons pas</h3>
+      <p>Les performances passées. Elles varient selon les périodes et les profils, ne préjugent pas des performances futures, et aucune comparaison honnête ne peut en être tirée sur une page commerciale.</p>
+    </article>
+    <article>
+      <h3>Signaler une erreur</h3>
+      <p>Si vous représentez l'un des acteurs cités et qu'une information vous paraît inexacte ou périmée, écrivez-nous à <a class="lien" href="mailto:hello@safia.finance">hello@safia.finance</a>. Nous corrigeons et nous datons la correction.</p>
+    </article>
+  </div>
+  <p class="note-tab">Les tarifs et les caractéristiques évoluent. Les informations de cette page ont été vérifiées le 14 septembre 2026 et ne constituent ni un conseil en investissement, ni une recommandation d'un acteur plutôt qu'un autre. Vérifiez toujours les conditions en vigueur auprès de l'acteur concerné avant toute décision. Les marques citées appartiennent à leurs titulaires respectifs.</p>
+</div>
+</section>
+
+<!-- ===== FAQ ===== -->
+<section class="bloc faq-bloc">
+<div class="wrap faq-grille">
+  <h2 class="titre">Questions fréquentes</h2>
+  <div class="faq">
+    <details><summary>Quelle différence entre Finary et SAFIA ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Les deux agrègent vos comptes et fonctionnent par abonnement. Trois différences : chez SAFIA l'agrégation illimitée est comprise dans l'offre gratuite ; nous ne distribuons aucun produit maison ; et nous n'imposons aucun seuil de patrimoine pour accéder à un conseiller. Finary propose de son côté une offre de gestion privée réservée aux patrimoines importants.</p></details>
+    <details><summary>Quelle différence entre un robo-advisor et SAFIA ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Un robo-advisor investit votre argent à votre place dans un portefeuille choisi selon votre profil. SAFIA ne gère pas votre argent : vos comptes restent où ils sont et vous décidez. Les deux peuvent se compléter.</p></details>
+    <details><summary>Pourquoi un abonnement plutôt qu'un pourcentage ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Parce que le travail d'analyse ne dépend pas de la taille du patrimoine. Un pourcentage annuel croît avec votre épargne et se cumule année après année. Un abonnement reste stable, et vous savez à l'avance ce que vous paierez.</p></details>
+    <details><summary>Comment comparer deux solutions sur les frais ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Additionnez tout : frais de l'enveloppe, frais des supports qu'elle contient, frais de gestion du prestataire, droits d'entrée et frais d'arbitrage. Comparez ensuite ce total, et non le seul taux mis en avant.</p></details>
+    <details><summary>À partir de quel montant accède-t-on à la banque privée ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Chaque établissement fixe son propre seuil, et il évolue. Renseignez-vous directement auprès de celui qui vous intéresse. Ce qu'il faut retenir : ce seuil existe parce que le suivi d'un client coûte à peu près autant quel que soit son patrimoine.</p></details>
+    <details><summary>Peut-on cumuler plusieurs solutions ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Oui, et c'est fréquent. L'enjeu est alors d'avoir une vue d'ensemble et de savoir ce que chaque poche vous coûte réellement.</p></details>
+  </div>
+</div>
+</section>
+
+<section class="final">
+<div class="wrap final-simple">
+  <h2>Commence par comprendre ce que tu as déjà.</h2>
+  <p>Gratuit, et tes comptes restent où ils sont.</p>
+  <a class="btn btn-primaire" href="#">Télécharger l'app</a>
+</div>
+</section>
+</Base>

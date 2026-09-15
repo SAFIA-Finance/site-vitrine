@@ -1,0 +1,103 @@
+---
+import Base from '../layouts/Base.astro';
+const fil = ["Accueil","À propos","Le fondateur"];
+---
+
+<Base
+  titre={"Maxime Bouché, fondateur de SAFIA"}
+  description={"Gestionnaire de patrimoine et conseiller en investissement financier certifié AMF, passé par EY Luxembourg et la finance durable."}
+  chemin={"/fondateur/"}
+  fil={fil}
+>
+<section class="hero hero-page hero-propos">
+<div class="wrap hero-page-in hero-fond">
+  <div>
+    <p class="etiq-page">À propos</p>
+    <p class="fil-ariane" aria-label="Fil d'Ariane"><a href="/">Accueil</a> <span aria-hidden="true">/</span> À propos <span aria-hidden="true">/</span> Le fondateur</p>
+    <h1>Maxime Bouché, fondateur de SAFIA</h1>
+    <p class="chapo">Gestionnaire de patrimoine et entrepreneur. Il a fondé SAFIA avec une conviction : l'accompagnement patrimonial ne devrait pas être réservé à ceux qui ont plus d'un million d'euros sur un compte.</p>
+  </div>
+  <img class="portrait-grand" src="/images/fondateur-14710607.jpg" width="560" height="700" alt="Portrait de Maxime Bouché, fondateur de SAFIA">
+</div>
+</section>
+
+<section class="bloc histoire-bloc">
+<div class="wrap histoire">
+  <h2 class="titre">Pourquoi SAFIA</h2>
+  <div class="recit">
+    <p>Dans ma famille, nous avons vécu plusieurs décès inattendus. Et avec eux, des patrimoines transmis à des moments où personne n'était réellement préparé à les gérer. J'ai vu des décisions importantes prises dans l'urgence, un manque d'accompagnement, des conseils parfois mal adaptés et, au bout du compte, un patrimoine qui aurait pu être mieux protégé, mieux structuré et mieux transmis.</p>
+    <p>Plus tard, en travaillant dans la finance, la banque privée et la gestion de patrimoine, j'ai découvert que ce problème dépassait largement mon histoire familiale. J'ai vu des épargnants orientés vers des produits qui ne correspondaient pas toujours réellement à leurs besoins, des familles insuffisamment accompagnées dans leurs décisions patrimoniales, et des entrepreneurs dont la fiscalité, les investissements ou la transmission avaient été mal anticipés. J'ai surtout constaté un paradoxe : ceux qui ont le plus besoin de conseil n'y ont pas toujours accès, parce que leur patrimoine ne justifie pas suffisamment le temps qu'un conseiller traditionnel devrait leur consacrer.</p>
+    <p>SAFIA est née de ce constat. Je veux rendre le conseil en investissement et l'accompagnement patrimonial sur mesure accessibles au plus grand nombre, grâce à une IA qui comprend chaque personne, son patrimoine, ses projets et ses convictions, et qui explique au lieu d'imposer. Parce que gérer son patrimoine ne devrait pas consister à suivre « les 5 ETF à acheter absolument » ou reproduire le portefeuille de quelqu'un d'autre. Chacun devrait pouvoir comprendre ses choix, construire sa propre stratégie et rester maître de son avenir financier. SAFIA est là pour remettre le contrôle du patrimoine entre les mains de celui à qui il appartient.</p>
+    <p class="signature-recit">Maxime Bouché</p>
+  </div>
+</div>
+</section>
+
+<section class="bloc odd-bloc">
+<div class="wrap odd">
+  <h2 class="titre">Une ambition qui nous dépasse</h2>
+  <p>Le conseil patrimonial de qualité a longtemps été réservé à ceux qui disposaient du capital nécessaire pour accéder à la banque privée. C'est une inégalité d'accès, pas une inégalité de besoin.</p>
+  <p>SAFIA s'inscrit dans l'Objectif de développement durable n° 10 des Nations unies, qui vise à réduire les inégalités. Concrètement : l'accompagnement commence à zéro euro, sans patrimoine minimum, et le profil comme l'analyse sont les mêmes pour tous. Nous ne nous rémunérons pas sur les produits vers lesquels nous orientons, ce qui supprime l'incitation à mieux servir les patrimoines les plus élevés.</p>
+</div>
+</section>
+
+<section class="bloc parcours-bloc">
+<div class="wrap parcours-grille">
+  <div>
+    <h2 class="titre">Parcours</h2>
+    <ol class="parcours">
+      <li><span>IÉSEG School of Management</span><b>Master en finance</b></li>
+      <li><span>EY Luxembourg</span><b>Conseil en gestion de patrimoine et en stratégie auprès de banques privées et de gestionnaires de fonds</b></li>
+      <li><span>Ayming</span><b>Manager de missions en finance durable et ESG pour des groupes internationaux, cotés et des PME</b></li>
+      <li><span>Entrepreneuriat</span><b>E-commerce, deux ans à la tête d'une startup, coaching patrimoine entrepreneur, structuration de sociétés, fonde un cabinet de gestion de patrimoine indépendant</b></li>
+      <li class="actuel"><span>Décembre 2025</span><b>Fonde SAFIA</b></li>
+    </ol>
+  </div>
+  <aside class="certifs">
+    <h3>Certifications et statuts</h3>
+    <p class="certifs-note">Chaque ligne est vérifiable auprès de l'organisme correspondant.</p>
+    <ul>
+      <li><b>Certification AMF</b><span>Connaissances générales</span></li>
+      <li><b>Certification AMF</b><span>Finance durable</span></li>
+      <li><b>Conseiller en investissements financiers</b><span>SAFIA SAS, ORIAS n° 26008152 · <a href="https://www.orias.fr" target="_blank" rel="noopener">Vérifier sur orias.fr</a></span></li>
+      <li><b>Membre de la CNCGP</b><span>Association agréée par l'AMF</span></li>
+    </ul>
+  </aside>
+</div>
+</section>
+
+<section class="bloc convictions-bloc">
+<div class="wrap">
+  <h2 class="titre">Ses convictions</h2>
+  <div class="convictions">
+    <article><h3>La transparence avant les promesses</h3><p>Aucun rendement annoncé. Des explications, toujours.</p></article>
+    <article><h3>L'IA doit expliquer, pas décider</h3><p>La décision appartient à celui dont c'est l'argent.</p></article>
+    <article><h3>Le sens a sa place dans un patrimoine</h3><p>Savoir ce que finance son épargne fait partie d'une bonne décision.</p></article>
+  </div>
+</div>
+</section>
+
+<section class="bloc equipe-bloc">
+<div class="wrap">
+  <h2 class="titre">L'équipe autour de lui</h2>
+  <div class="equipe">
+    <article class="eq-principal">
+      <b>VC</b>
+      <div><h3>Valentin Carbonell</h3><span>Directeur technique</span><p>Ingénieur CentraleSupélec, expert en IA et en architecture logicielle.</p></div>
+    </article>
+    <article class="eq-board">
+      <h3>Un comité consultatif</h3>
+      <p>SAFIA s'entoure d'experts de l'intelligence artificielle, de la cybersécurité, de la gestion de patrimoine, de la distribution de produits financiers, et d'entrepreneurs.</p>
+    </article>
+  </div>
+</div>
+</section>
+
+<section class="final">
+<div class="wrap final-simple">
+  <h2>Une question, une idée, un projet ?</h2>
+  <p>Écris-nous à hello@safia.finance, ou retrouve Maxime sur LinkedIn.</p>
+  <a class="btn btn-primaire" href="mailto:hello@safia.finance">Nous écrire</a>
+</div>
+</section>
+</Base>

@@ -1,0 +1,100 @@
+---
+import Base from '../layouts/Base.astro';
+const fil = ["Accueil","Ressources","Le blog"];
+---
+
+<Base
+  titre={"Le blog SAFIA : comprendre son argent, un sujet à la fois"}
+  description={"Épargne, investissement, retraite, fiscalité, transmission : des explications écrites par un conseiller en gestion de patrimoine, sans jargon et avec les sources."}
+  chemin={"/blog/"}
+  fil={fil}
+>
+<section class="hero hero-page hero-part">
+<div class="wrap hero-page-in hero-court">
+  <p class="etiq-page">Ressources</p>
+  <p class="fil-ariane" aria-label="Fil d'Ariane"><a href="/">Accueil</a> <span aria-hidden="true">/</span> Ressources <span aria-hidden="true">/</span> Le blog</p>
+  <h1>Comprendre son argent, un sujet à la fois.</h1>
+  <p class="chapo">Des explications écrites par un conseiller en gestion de patrimoine. Sans jargon, sans promesse de rendement, et avec les sources.</p>
+  <form class="recherche" role="search">
+    <label class="sr" for="q-blog">Rechercher un article</label>
+    <input id="q-blog" type="search" placeholder="Livret A, PEA, succession, ETF…">
+    <button class="btn btn-primaire" type="submit">Rechercher</button>
+  </form>
+</div>
+</section>
+
+<!-- ===== Filtres ===== -->
+<section class="bloc blog-bloc">
+<div class="wrap">
+  <nav class="filtres" aria-label="Thématiques">
+    <button class="f-btn actif" type="button">Tout</button>
+    <button class="f-btn" type="button">Épargne</button>
+    <button class="f-btn" type="button">Investissement</button>
+    <button class="f-btn" type="button">Retraite</button>
+    <button class="f-btn" type="button">Fiscalité</button>
+    <button class="f-btn" type="button">Transmission</button>
+    <button class="f-btn" type="button">Investir selon ses valeurs</button>
+    <button class="f-btn" type="button">IA et argent</button>
+    <button class="f-btn" type="button">Dirigeants</button>
+  </nav>
+
+  <!-- Article mis en avant -->
+  <article class="une">
+    <div class="une-visuel" aria-hidden="true"><span>Visuel de l&#8217;article</span></div>
+    <div class="une-texte">
+      <p class="meta"><span class="theme">Épargne</span> · <time datetime="2026-01-01">Date de publication</time> · <span>Durée de lecture</span></p>
+      <h2>Titre de l'article mis en avant</h2>
+      <p class="chapo-art">Le chapô de l'article, deux à trois lignes qui donnent envie de lire la suite et annoncent ce que le lecteur va apprendre.</p>
+      <p class="auteur"><img class="pastille-auteur" src="/images/blog-98175c76.jpg" width="160" height="160" alt=""> Maxime Bouché · Conseiller en investissements financiers</p>
+      <a class="lien" href="#">Lire l'article</a>
+    </div>
+  </article>
+
+  <!-- Grille d'articles -->
+  <h2 class="titre titre-liste">Tous les articles</h2>
+  <div class="articles">
+    <article class="art"><div class="art-visuel" aria-hidden="true"></div><p class="meta"><span class="theme">Épargne</span> · Date</p><h3>Emplacement d'un article</h3><p>Chapô de deux lignes qui résume le sujet traité et ce que le lecteur y gagne.</p><a class="lien" href="#">Lire</a></article>
+    <article class="art"><div class="art-visuel" aria-hidden="true"></div><p class="meta"><span class="theme">Investissement</span> · Date</p><h3>Emplacement d'un article</h3><p>Chapô de deux lignes qui résume le sujet traité et ce que le lecteur y gagne.</p><a class="lien" href="#">Lire</a></article>
+    <article class="art"><div class="art-visuel" aria-hidden="true"></div><p class="meta"><span class="theme">Retraite</span> · Date</p><h3>Emplacement d'un article</h3><p>Chapô de deux lignes qui résume le sujet traité et ce que le lecteur y gagne.</p><a class="lien" href="#">Lire</a></article>
+    <article class="art"><div class="art-visuel" aria-hidden="true"></div><p class="meta"><span class="theme">Fiscalité</span> · Date</p><h3>Emplacement d'un article</h3><p>Chapô de deux lignes qui résume le sujet traité et ce que le lecteur y gagne.</p><a class="lien" href="#">Lire</a></article>
+    <article class="art"><div class="art-visuel" aria-hidden="true"></div><p class="meta"><span class="theme">Transmission</span> · Date</p><h3>Emplacement d'un article</h3><p>Chapô de deux lignes qui résume le sujet traité et ce que le lecteur y gagne.</p><a class="lien" href="#">Lire</a></article>
+    <article class="art"><div class="art-visuel" aria-hidden="true"></div><p class="meta"><span class="theme">IA et argent</span> · Date</p><h3>Emplacement d'un article</h3><p>Chapô de deux lignes qui résume le sujet traité et ce que le lecteur y gagne.</p><a class="lien" href="#">Lire</a></article>
+  </div>
+
+  <div class="pagination" aria-label="Pagination">
+    <button class="btn btn-encre" type="button">Voir plus d'articles</button>
+  </div>
+</div>
+</section>
+
+<!-- ===== Passerelles vers les pages du site ===== -->
+<section class="bloc passerelles-bloc">
+<div class="wrap">
+  <h2 class="titre">Aller plus loin</h2>
+  <div class="passerelles">
+    <a class="pass" href="/adn-investisseur/"><h3>ADN Investisseur</h3><p>Pour les articles sur l'ESG, l'ISR et l'investissement selon ses valeurs.</p></a>
+    <a class="pass" href="/assistant-ia/"><h3>Assistant IA</h3><p>Pour les articles sur l'IA appliquée à l'argent.</p></a>
+    <a class="pass" href="/cockpit/"><h3>Cockpit stratégique</h3><p>Pour les articles sur l'analyse de portefeuille et l'audit patrimonial.</p></a>
+    <a class="pass" href="/comparatif/"><h3>Comparatif</h3><p>Pour les articles qui comparent des solutions entre elles.</p></a>
+  </div>
+</div>
+</section>
+
+<section class="final">
+<div class="wrap final-simple">
+  <h2>Reçois les prochains articles.</h2>
+  <p>Nos analyses patrimoine et investissement, directement par email.</p>
+  <form class="champ champ-centre" id="nl-blog" novalidate>
+    <label class="sr" for="email-blog">Adresse email</label>
+    <input id="email-blog" type="email" placeholder="ton@email.fr" autocomplete="email" required>
+    <button class="btn btn-primaire" type="submit">Je m'inscris</button>
+  </form>
+  <p class="confirm" id="confirm-blog" role="status" hidden></p>
+  <small>Tu peux te désinscrire à tout moment.</small>
+</div>
+</section>
+</Base>
+
+<script>
+  import '../scripts/pages/blog.js';
+</script>

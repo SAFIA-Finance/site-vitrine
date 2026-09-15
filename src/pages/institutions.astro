@@ -1,0 +1,63 @@
+---
+import Base from '../layouts/Base.astro';
+const fil = ["Accueil","Professionnels","Institutions"];
+---
+
+<Base
+  titre={"SAFIA pour les banques, les professionnels et les institutions"}
+  description={"IA patrimoniale en marque blanche pour banques, assureurs et grands cabinets."}
+  chemin={"/institutions/"}
+  fil={fil}
+>
+<section class="hero hero-page hero-pro-f">
+<div class="wrap hero-page-in hero-court">
+  <p class="etiq-page">Professionnels</p>
+    <p class="fil-ariane" aria-label="Fil d'Ariane"><a href="/">Accueil</a> <span aria-hidden="true">/</span> Professionnels <span aria-hidden="true">/</span> Institutions</p>
+  <h1>L'expérience patrimoniale IA, à votre marque.</h1>
+  <p class="chapo">Offrir un accompagnement patrimonial digital à toute votre clientèle suppose une technologie que peu d'établissements souhaitent développer en interne. Nous travaillons sur ce sujet avec un nombre restreint d'établissements.</p>
+  <div class="actions">
+    <a class="btn btn-primaire" href="#contact">Rejoindre le programme pilote</a>
+  </div>
+  <p class="sous-actions">Banques · Assureurs · Groupements et grands cabinets</p>
+</div>
+</section>
+
+<section class="bloc pilote-bloc">
+<div class="wrap pilote">
+  <h2 class="titre">Notre façon de travailler</h2>
+  <p class="intro">Nous ne publions pas le détail de nos briques ni de nos modalités d'intégration. Ce que nous pouvons dire ici :</p>
+  <ul class="pilote-liste">
+    <li>Marque blanche ou co-branding, selon votre marque et vos parcours.</li>
+    <li>Hébergement dans l'Union européenne, traçabilité et contrôle humain intégrés dès la conception.</li>
+    <li>Un nombre volontairement limité de projets menés en parallèle.</li>
+  </ul>
+  <p class="pilote-note">Le reste se discute en rendez-vous, documentation à l'appui.</p>
+  <a class="btn btn-primaire" href="#contact">Rejoindre le programme pilote</a>
+</div>
+</section>
+
+<section class="final" id="contact">
+<div class="wrap demo-grille">
+  <div>
+    <h2>Rejoindre le programme pilote</h2>
+    <p class="demo-chapo">Un premier échange avec le fondateur. Nous revenons vers vous sous 48 heures ouvrées.</p>
+  </div>
+  <form class="form-demo" id="fdemo" novalidate>
+    <div class="champs">
+      <p><label for="nom">Nom et prénom</label><input id="nom" name="nom" type="text" autocomplete="name" required></p>
+      <p><label for="cabinet">Établissement</label><input id="cabinet" name="cabinet" type="text" autocomplete="organization" required></p>
+      <p><label for="fonction">Fonction</label><input id="fonction" name="fonction" type="text" autocomplete="organization-title"></p>
+      <p><label for="mail">Email professionnel</label><input id="mail" name="mail" type="email" autocomplete="email" required></p>
+      <p class="large"><label for="msg">Votre contexte en une phrase <span>facultatif</span></label><textarea id="msg" name="msg" rows="3"></textarea></p>
+    </div>
+    <button class="btn btn-primaire" type="submit">Rejoindre le programme pilote</button>
+    <p class="form-retour" id="fretour" role="status" hidden></p>
+    <small>Vos données servent uniquement à traiter votre demande. <a href="#">Politique de confidentialité</a></small>
+  </form>
+</div>
+</section>
+</Base>
+
+<script>
+  import '../scripts/pages/institutions.js';
+</script>

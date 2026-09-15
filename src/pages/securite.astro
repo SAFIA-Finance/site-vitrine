@@ -1,0 +1,92 @@
+---
+import Base from '../layouts/Base.astro';
+const fil = ["Accueil","À propos","Sécurité et conformité"];
+---
+
+<Base
+  titre={"Sécurité et conformité : où vont tes données · SAFIA"}
+  description={"Connexion bancaire en lecture seule, hébergement dans l'UE, accès chiffrés, statut CIF : tout ce qui protège ton argent et tes données sur SAFIA."}
+  chemin={"/securite/"}
+  fil={fil}
+>
+<section class="hero hero-page hero-propos">
+<div class="wrap hero-page-in hero-court">
+  <p class="etiq-page">À propos</p>
+    <p class="fil-ariane" aria-label="Fil d'Ariane"><a href="/">Accueil</a> <span aria-hidden="true">/</span> À propos <span aria-hidden="true">/</span> Sécurité et conformité</p>
+  <h1>Tes données, ta décision</h1>
+  <p class="chapo">Connecter ses comptes à une app, ça ne se fait pas à la légère. Voici ce qui se passe, concrètement.</p>
+</div>
+</section>
+
+<section class="bloc secu-bloc">
+<div class="wrap">
+  <div class="secu">
+    <article>
+      <h2>Ta connexion bancaire</h2>
+      <ul>
+        <li>La connexion passe par <strong>Powens</strong>, agrégateur agréé par l'ACPR.</li>
+        <li>Tes identifiants bancaires sont saisis dans un environnement sécurisé : SAFIA n'y a jamais accès.</li>
+        <li>L'accès est <strong>en lecture seule</strong>. SAFIA ne peut effectuer aucun virement ni aucune opération.</li>
+        <li>Tu peux déconnecter une banque à tout moment.</li>
+      </ul>
+    </article>
+    <article>
+      <h2>Où sont tes données</h2>
+      <ul>
+        <li>Chez <strong>Scaleway</strong>, fournisseur cloud français, dans des centres de données situés dans l'Union européenne.</li>
+        <li>Les environnements de test et de production sont strictement séparés : aucune donnée partagée.</li>
+      </ul>
+    </article>
+    <article>
+      <h2>Comment elles sont protégées</h2>
+      <ul>
+        <li>Échanges chiffrés de bout en bout.</li>
+        <li>Jetons de connexion bancaire chiffrés.</li>
+        <li>Authentification sécurisée et limites contre les abus.</li>
+        <li>Chaque utilisateur n'accède qu'à ses propres données.</li>
+        <li>Les échanges avec nos prestataires sont vérifiés et tracés.</li>
+      </ul>
+    </article>
+    <article>
+      <h2>L'IA et tes données</h2>
+      <ul>
+        <li>Tu sais toujours que tu échanges avec une IA.</li>
+        <li>Tes données servent à personnaliser tes analyses, et à rien d'autre.</li>
+        <li>Chaque calcul de profil et chaque source consultée sont journalisés.</li>
+      </ul>
+    </article>
+  </div>
+</div>
+</section>
+
+<section class="bloc cadre-bloc">
+<div class="wrap cadre-grille">
+  <div>
+    <h2 class="titre">Notre cadre réglementaire</h2>
+    <p class="intro">SAFIA n'est pas une application financière comme une autre : c'est une société réglementée, contrôlable, et vérifiable par n'importe qui.</p>
+  </div>
+  <ul class="cadre">
+    <li><b>Conseiller en investissements financiers</b><span>SAFIA SAS, enregistrée à l'ORIAS sous le n° 26008152 · <a href="https://www.orias.fr" target="_blank" rel="noopener">Vérifier sur orias.fr</a></span></li>
+    <li><b>Adhérent de la CNCGP</b><span>Association professionnelle agréée par l'AMF</span></li>
+    <li><b>Médiateur</b><span>Médiateur de l'Autorité des marchés financiers</span></li>
+    <li><b>Protection des données</b><span>Règlement général sur la protection des données (RGPD) et règlement européen sur l'IA</span></li>
+  </ul>
+</div>
+</section>
+
+<section class="bloc droits-bloc">
+<div class="wrap droits">
+  <h2 class="titre">Tes droits</h2>
+  <p class="intro">Tu peux accéder à tes données, les corriger ou les supprimer, à tout moment. Écris-nous à <a class="lien" href="mailto:hello@safia.finance">hello@safia.finance</a>.</p>
+  <p class="liens-legaux"><a class="lien" href="#">Mentions légales</a> · <a class="lien" href="#">Politique de confidentialité</a> · <a class="lien" href="#">CGU</a> · <a class="lien" href="#">Disclaimer</a></p>
+</div>
+</section>
+
+<section class="final">
+<div class="wrap final-simple">
+  <h2>Une question sur tes données ?</h2>
+  <p>Écris-nous, on te répond précisément.</p>
+  <a class="btn btn-primaire" href="mailto:hello@safia.finance">Nous écrire</a>
+</div>
+</section>
+</Base>

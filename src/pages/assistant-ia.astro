@@ -1,0 +1,205 @@
+---
+import Base from '../layouts/Base.astro';
+const faq = [
+  {
+    "q": "Une IA peut-elle gérer mon patrimoine ?",
+    "r": "Elle peut t'aider à l'analyser, à repérer les points d'attention et à comprendre tes options. La gestion et la décision restent les tiennes."
+  },
+  {
+    "q": "Est-ce que c'est encadré ?",
+    "r": "Oui. L'assistant fournit de l'information et de la pédagogie. Le conseil en investissement personnalisé est une activité réglementée, que nos conseillers exercent dans le cadre d'une lettre de mission. Et tu sais toujours que tu échanges avec une IA."
+  },
+  {
+    "q": "L'IA peut-elle se tromper ?",
+    "r": "Oui, comme toute source d'information. C'est pour ça qu'elle cite ses sources, sépare les faits des hypothèses et te renvoie vers un conseiller dès que l'enjeu le justifie."
+  },
+  {
+    "q": "Mes conversations sont-elles conservées ?",
+    "r": "Oui, pour assurer la continuité de tes échanges, pendant les durées indiquées dans notre politique de confidentialité."
+  },
+  {
+    "q": "Combien de questions puis-je poser ?",
+    "r": "Starter inclut un nombre limité de questions par jour, Smart un usage étendu."
+  },
+  {
+    "q": "L'IA a-t-elle accès à mes identifiants bancaires ?",
+    "r": "Non. La connexion passe par Powens et reste en lecture seule. SAFIA ne voit jamais tes identifiants et ne peut effectuer aucune opération."
+  }
+];
+const fil = ["Accueil","Particuliers","Assistant IA"];
+---
+
+<Base
+  titre={"IA et gestion de patrimoine : l'assistant SAFIA"}
+  description={"Épargne, placements, fiscalité, transmission : pose tes questions à une IA qui s'appuie sur ta situation, montre son raisonnement et cite ses sources."}
+  chemin={"/assistant-ia/"}
+  faq={faq}
+  fil={fil}
+>
+<section class="hero hero-page hero-part">
+<div class="wrap hero-page-in">
+  <p class="etiq-page">Particuliers</p>
+    <p class="fil-ariane" aria-label="Fil d'Ariane"><a href="/">Accueil</a> <span aria-hidden="true">/</span> <a href="/particuliers/">Particuliers</a> <span aria-hidden="true">/</span> Assistant IA</p>
+  <h1>Une IA pour ton patrimoine, qui montre son raisonnement.</h1>
+  <p class="chapo">Pose tes questions comme à un expert. SAFIA répond à partir de ta situation réelle, explique le pourquoi et t'oriente où il faut, quand il faut.</p>
+  <div class="actions">
+    <a class="btn btn-primaire" href="#telecharger">Poser ma première question</a>
+    <a class="btn btn-fantome" href="#regles">Voir ce qu'elle s'interdit</a>
+  </div>
+</div>
+</section>
+
+<!-- ===== Démonstration ===== -->
+<section class="bloc demo-bloc">
+<div class="wrap">
+  <h2 class="titre">Choisis une question, vois la réponse.</h2>
+  <p class="intro">Les réponses ci-dessous reprennent le format de l'application. Les chiffres sont fictifs.</p>
+
+  <div class="conv">
+    <div class="questions" role="group" aria-label="Questions d'exemple">
+      <button type="button" class="q-btn actif" data-q="livret">Mon livret A est plein, je fais quoi ?</button>
+      <button type="button" class="q-btn" data-q="per">Comment fonctionne la déduction du PER ?</button>
+      <button type="button" class="q-btn" data-q="secteur">Est-ce que je suis trop exposé à un seul secteur ?</button>
+      <button type="button" class="q-btn" data-q="holding">Je vends ma société, faut-il passer par une holding ?</button>
+    </div>
+
+    <div class="tel-app tel-large" aria-label="Écran Mon IA de l'application SAFIA">
+      <div class="ecran-app">
+        <div class="statut" aria-hidden="true"><span>9:41</span><span class="encoche"></span><span>▮▮▮ <i></i></span></div>
+        <div class="app-entete"><span class="retour" aria-hidden="true">‹</span><p class="app-h">Mon IA</p><span class="rond" aria-hidden="true">+</span><span class="pts" aria-hidden="true">⋮</span></div>
+        <div class="seg" aria-hidden="true"><span class="actif">Conversation</span><span>Personnaliser mon IA</span><span class="ruban">Débloquer avec Premium</span></div>
+        <div class="conv-app" id="fil" aria-live="polite">
+          <span class="heure" aria-hidden="true">15:30</span>
+          <div class="b-user" id="q-txt">Mon livret A est plein, je fais quoi ?</div>
+          <div id="r-txt"></div>
+        </div>
+        <div class="champ-msg" aria-hidden="true"><span class="plus">+</span><span>Tapez votre message ici</span><i class="envoi"></i></div>
+        <div class="app-bas" aria-hidden="true">
+          <span><b></b>Accueil</span><span><b></b>Patrimoine</span><span class="actif"><b></b>Mon IA</span><span><b></b>ADN</span><span><b></b>Cockpit</span>
+        </div>
+        <p class="mention-app">Exemples illustratifs. Information générale, pas un conseil en investissement personnalisé.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- ===== Deux niveaux ===== -->
+<section class="bloc niveaux-bloc">
+<div class="wrap">
+  <h2 class="titre">La réponse simple, puis le raisonnement complet.</h2>
+  <div class="niveaux">
+    <article>
+      <span class="etiquette">Starter et Smart</span>
+      <h3>La réponse simple</h3>
+      <p>La conclusion d'abord, en langage clair, avec un à trois points de vigilance : risque, frais, fiscalité, liquidité, horizon.</p>
+    </article>
+    <article class="niv-smart">
+      <span class="etiquette">Smart</span>
+      <h3>« En savoir plus »</h3>
+      <p>Le raisonnement complet, les hypothèses retenues, les données manquantes, au moins deux scénarios quand plusieurs voies existent, et les sources avec leur date de consultation.</p>
+      <a class="lien" href="/tarifs/">Voir les offres</a>
+    </article>
+  </div>
+</div>
+</section>
+
+<!-- ===== Ses règles ===== -->
+<section class="bloc regles-bloc" id="regles">
+<div class="wrap">
+  <h2 class="titre">Ce que notre IA s'interdit</h2>
+  <ul class="regles">
+    <li><p>Inventer un chiffre, un taux, un plafond ou un article de loi. Si elle ne peut pas vérifier, elle le dit.</p></li>
+    <li><p>Mélanger les faits, les hypothèses et les scénarios.</p></li>
+    <li><p>Promettre une performance.</p></li>
+    <li><p>Deviner une donnée manquante : elle te pose la question.</p></li>
+    <li><p>Traiter seule un cas complexe. Holding, démembrement, fiscalité internationale, succession délicate : elle t'explique les options possibles puis te propose d'échanger avec un conseiller SAFIA dédié et prépare la liste des documents utiles. Offert pour les abonnés Smart.</p></li>
+  </ul>
+</div>
+</section>
+
+<!-- ===== Robo-advisor ===== -->
+<section class="bloc compare-bloc">
+<div class="wrap compare-grille">
+  <div>
+    <h2 class="titre">Robo-advisor ou assistant IA : quelle différence ?</h2>
+    <p class="intro">Un robo-advisor, ou service de gestion pilotée, investit ton argent à ta place dans des portefeuilles types choisis selon ton profil. SAFIA fait autre chose : elle ne gère pas ton argent, elle t'aide à comprendre ta situation et tes options. Tu décides, et tes comptes restent là où ils sont.</p>
+    <p class="intro">Les deux approches peuvent d'ailleurs se compléter : rien n'empêche d'avoir une gestion pilotée et d'utiliser SAFIA pour comprendre ce qu'elle fait.</p>
+  </div>
+  <div class="compare-tab">
+    <div class="ct-tete"><span></span><span>Gestion pilotée</span><span class="fort">SAFIA</span></div>
+    <div class="ct-ligne"><span>Qui décide</span><span>Le gestionnaire</span><span class="fort">Toi</span></div>
+    <div class="ct-ligne"><span>Où est ton argent</span><span>Chez le prestataire</span><span class="fort">Dans tes comptes actuels</span></div>
+    <div class="ct-ligne"><span>Ce que tu obtiens</span><span>Un portefeuille géré</span><span class="fort">Des explications et des pistes</span></div>
+    <div class="ct-ligne"><span>Frais</span><span>Un pourcentage des encours</span><span class="fort">Un abonnement fixe</span></div>
+  </div>
+</div>
+</section>
+
+<!-- ===== Ce que l'IA change, et ce qu'elle ne change pas ===== -->
+<section class="bloc approf-bloc">
+<div class="wrap">
+  <h2 class="titre">Ce que l'IA change vraiment pour ton argent</h2>
+  <p class="intro">Le sujet est neuf, les promesses nombreuses. Voici où en est la réalité.</p>
+  <div class="approf">
+    <article>
+      <h3>Ce qu'une IA fait bien</h3>
+      <p>Lire vite une grande quantité d'informations, retrouver une règle fiscale et l'appliquer à un cas précis, repérer une incohérence dans un portefeuille, expliquer dix fois de suite sans se lasser. Sur ces tâches, elle est disponible en permanence, là où un rendez-vous se prend des semaines à l'avance.</p>
+    </article>
+    <article>
+      <h3>Ce qu'elle fait mal</h3>
+      <p>Anticiper les marchés, comprendre une situation familiale complexe, percevoir qu'une personne dit oui alors qu'elle n'a pas compris. Elle peut aussi produire une réponse fausse avec assurance. C'est le risque principal, et la raison pour laquelle SAFIA affiche ses sources plutôt que de demander qu'on lui fasse confiance. En plus SAFIA te laisse la possibilité de la façonner à ton image avec la fonctionnalité « Personnaliser mon IA » à découvrir en plan Smart.</p>
+    </article>
+    <article>
+      <h3>Ce que la loi autorise</h3>
+      <p>Donner de l'information financière est libre. Recommander un placement précis à une personne précise est une activité réglementée, réservée aux acteurs agréés et encadrée par un devoir de conseil. Le règlement européen sur l'IA impose en plus que l'utilisateur sache qu'il échange avec une machine.</p>
+      <p>SAFIA se situe du côté informatif. Quand un conseil personnalisé est nécessaire, un conseiller SAFIA prend le relais.</p>
+    </article>
+    <article>
+      <h3>Pourquoi les sources comptent autant</h3>
+      <p>Un modèle de langage produit un texte plausible, pas un texte vérifié. La différence entre une réponse utile et une réponse dangereuse tient à la possibilité de vérifier. C'est pourquoi chaque affirmation chiffrée de SAFIA renvoie à un texte officiel daté, et pourquoi l'assistant préfère dire qu'il ne sait pas plutôt que de combler un trou.</p>
+    </article>
+  </div>
+</div>
+</section>
+
+<!-- ===== Sur quoi elle s'appuie ===== -->
+<section class="bloc appui-bloc">
+<div class="wrap">
+  <h2 class="titre">Sur quoi elle s'appuie</h2>
+  <div class="appuis">
+    <article><h3>Tes données</h3><p>Ton profil, ton ADN investisseur et ton patrimoine connecté. C'est ce qui rend la réponse valable pour toi, et pas pour un profil moyen. A découvrir en plan Smart : personnalise ton IA à ta façon ! Contexte familial, projet d'achat et bien plus…</p></article>
+    <article><h3>Les textes officiels</h3><p>Codes, doctrine fiscale et règles de l'AMF. Chaque source citée est datée du jour de sa consultation.</p></article>
+    <article><h3>La méthodologie SAFIA</h3><p>Nos règles d'analyse, écrites et documentées, et des données de marché issues de sources autorisées.</p></article>
+  </div>
+  <p class="ordre">Elle consulte ces sources dans cet ordre, et ne cite jamais une référence qu'elle n'a pas retrouvée. <a class="lien" href="#">Voir notre méthode en détail</a></p>
+</div>
+</section>
+
+<!-- ===== FAQ ===== -->
+<section class="bloc faq-bloc">
+<div class="wrap faq-grille">
+  <h2 class="titre">Tes questions, nos réponses</h2>
+  <div class="faq">
+    <details><summary>Une IA peut-elle gérer mon patrimoine ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Elle peut t'aider à l'analyser, à repérer les points d'attention et à comprendre tes options. La gestion et la décision restent les tiennes.</p></details>
+    <details><summary>Est-ce que c'est encadré ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Oui. L'assistant fournit de l'information et de la pédagogie. Le conseil en investissement personnalisé est une activité réglementée, que nos conseillers exercent dans le cadre d'une lettre de mission. Et tu sais toujours que tu échanges avec une IA.</p></details>
+    <details><summary>L'IA peut-elle se tromper ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Oui, comme toute source d'information. C'est pour ça qu'elle cite ses sources, sépare les faits des hypothèses et te renvoie vers un conseiller dès que l'enjeu le justifie.</p></details>
+    <details><summary>Mes conversations sont-elles conservées ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Oui, pour assurer la continuité de tes échanges, pendant les durées indiquées dans notre politique de confidentialité.</p></details>
+    <details><summary>Combien de questions puis-je poser ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Starter inclut un nombre limité de questions par jour, Smart un usage étendu.</p></details>
+    <details><summary>L'IA a-t-elle accès à mes identifiants bancaires ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Non. La connexion passe par Powens et reste en lecture seule. SAFIA ne voit jamais tes identifiants et ne peut effectuer aucune opération.</p></details>
+  </div>
+</div>
+</section>
+
+<section class="final" id="telecharger">
+<div class="wrap final-simple">
+  <h2>Pose ta première question.</h2>
+  <p>Gratuit pour commencer, et tu sauras toujours d'où vient la réponse.</p>
+  <a class="btn btn-primaire" href="#">Télécharger l'app</a>
+</div>
+</section>
+</Base>
+
+<script>
+  import '../scripts/pages/assistant-ia.js';
+</script>

@@ -1,0 +1,128 @@
+[
+  {
+    "slug": "accueil",
+    "fichier": "index.astro",
+    "route": "/",
+    "libelle": "Accueil",
+    "ref": "ACC",
+    "titre": "SAFIA · Ton conseiller privé IA pour gérer ton patrimoine",
+    "description": "Vois, suis, comprends tout ton patrimoine, découvre ton ADN investisseur et pose tes questions à une IA qui montre ses sources. Investis en autonomie comme en banque privée. Gratuit. Français"
+  },
+  {
+    "slug": "particuliers",
+    "fichier": "particuliers.astro",
+    "route": "/particuliers/",
+    "libelle": "Particuliers",
+    "ref": "PAR",
+    "titre": "Gérer son patrimoine seul, avec l'IA · SAFIA",
+    "description": "Livret plein, premier placement, patrimoine éparpillé ? SAFIA t'aide à y voir clair, à comprendre tes options et à décider en connaissance de cause."
+  },
+  {
+    "slug": "adn-investisseur",
+    "fichier": "adn-investisseur.astro",
+    "route": "/adn-investisseur/",
+    "libelle": "ADN Investisseur",
+    "ref": "ADN",
+    "titre": "Investir selon ses valeurs : ton ADN Investisseur · SAFIA",
+    "description": "Critères ESG, ISR, exclusions : découvre en quelques swipes ce qui compte pour toi dans tes placements, et vois si ton portefeuille y correspond."
+  },
+  {
+    "slug": "assistant-ia",
+    "fichier": "assistant-ia.astro",
+    "route": "/assistant-ia/",
+    "libelle": "Assistant IA",
+    "ref": "IA",
+    "titre": "IA et gestion de patrimoine : l'assistant SAFIA",
+    "description": "Épargne, placements, fiscalité, transmission : pose tes questions à une IA qui s'appuie sur ta situation, montre son raisonnement et cite ses sources."
+  },
+  {
+    "slug": "cockpit",
+    "fichier": "cockpit.astro",
+    "route": "/cockpit/",
+    "libelle": "Cockpit stratégique",
+    "ref": "CKP",
+    "titre": "Cockpit stratégique : la place de marché personnalisée · SAFIA",
+    "description": "Toutes les offres du marché filtrées par ton profil réglementaire et ton ADN investisseur. Deux utilisateurs, deux résultats. Plus un audit patrimonial."
+  },
+  {
+    "slug": "conseillers",
+    "fichier": "conseillers.astro",
+    "route": "/conseillers/",
+    "libelle": "Conseillers",
+    "ref": "CON",
+    "titre": "SAFIA pour les conseillers en gestion de patrimoine",
+    "description": "Une offre destinée aux cabinets CGP et CIF est en préparation. Programme pilote ouvert à un nombre limité de cabinets."
+  },
+  {
+    "slug": "institutions",
+    "fichier": "institutions.astro",
+    "route": "/institutions/",
+    "libelle": "Institutions",
+    "ref": "INS",
+    "titre": "SAFIA pour les banques, les professionnels et les institutions",
+    "description": "IA patrimoniale en marque blanche pour banques, assureurs et grands cabinets."
+  },
+  {
+    "slug": "tarifs",
+    "fichier": "tarifs.astro",
+    "route": "/tarifs/",
+    "libelle": "Tarifs",
+    "ref": "TAR",
+    "titre": "Tarifs SAFIA : Starter gratuit, Smart à 29,99 €/mois",
+    "description": "Commence gratuitement avec Starter. Passe à Smart pour l'assistant IA complet, l'audit patrimonial et les explications sourcées."
+  },
+  {
+    "slug": "comparatif",
+    "fichier": "comparatif.astro",
+    "route": "/comparatif/",
+    "libelle": "Comparatif",
+    "ref": "CMP",
+    "titre": "Finary, Yomoni, Nalo, Ramify ou SAFIA : le comparatif 2026",
+    "description": "Agrégateur, gestion pilotée, banque privée : qui fait quoi, à quel coût, et comment chacun se rémunère. Comparatif daté, sources à l'appui."
+  },
+  {
+    "slug": "blog",
+    "fichier": "blog.astro",
+    "route": "/blog/",
+    "libelle": "Le blog",
+    "ref": "BLG",
+    "titre": "Le blog SAFIA : comprendre son argent, un sujet à la fois",
+    "description": "Épargne, investissement, retraite, fiscalité, transmission : des explications écrites par un conseiller en gestion de patrimoine, sans jargon et avec les sources."
+  },
+  {
+    "slug": "fondateur",
+    "fichier": "fondateur.astro",
+    "route": "/fondateur/",
+    "libelle": "Le fondateur",
+    "ref": "FON",
+    "titre": "Maxime Bouché, fondateur de SAFIA",
+    "description": "Gestionnaire de patrimoine et conseiller en investissement financier certifié AMF, passé par EY Luxembourg et la finance durable."
+  },
+  {
+    "slug": "methode",
+    "fichier": "methode.astro",
+    "route": "/methode/",
+    "libelle": "Notre méthode",
+    "ref": "MET",
+    "titre": "Notre méthode : comment SAFIA analyse ton patrimoine",
+    "description": "Profil de risque prudent, ADN investisseur, photo patrimoniale sans double comptage, réponses sourcées : voici exactement comment SAFIA construit ses analyses."
+  },
+  {
+    "slug": "securite",
+    "fichier": "securite.astro",
+    "route": "/securite/",
+    "libelle": "Sécurité et conformité",
+    "ref": "SEC",
+    "titre": "Sécurité et conformité : où vont tes données · SAFIA",
+    "description": "Connexion bancaire en lecture seule, hébergement dans l'UE, accès chiffrés, statut CIF : tout ce qui protège ton argent et tes données sur SAFIA."
+  },
+  {
+    "slug": "404",
+    "fichier": "404.astro",
+    "route": "/404",
+    "libelle": "Page introuvable",
+    "ref": "E404",
+    "titre": "Page introuvable · SAFIA",
+    "description": "Cette page n'existe pas ou plus. Retrouvez les pages principales de SAFIA."
+  }
+]

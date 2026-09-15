@@ -1,0 +1,11 @@
+# Préversion v2.safia.finance — NE PAS INDEXER.
+#
+# Ce sous-domaine sert de duplicata du site public. S'il était indexé, Google
+# y verrait du contenu dupliqué et pourrait le faire remonter à la place de
+# safia.finance. Chaque page est donc aussi servie en « noindex ».
+#
+# Le jour de la bascule sur safia.finance, ce fichier est remplacé par la
+# version de production décrite dans docs/DEPLOIEMENT.md.
+
+User-agent: *
+Disallow: /

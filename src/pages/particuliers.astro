@@ -1,0 +1,219 @@
+---
+import Base from '../layouts/Base.astro';
+const faq = [
+  {
+    "q": "Faut-il un patrimoine minimum ?",
+    "r": "Non. SAFIA est utile dès ton premier livret."
+  },
+  {
+    "q": "Puis-je utiliser SAFIA sans connecter mes comptes ?",
+    "r": "Oui. Tu peux commencer par ton profil et ton ADN, et ajouter certains actifs à la main, comme un bien immobilier ou des parts de SCPI."
+  },
+  {
+    "q": "Quelles banques sont compatibles ?",
+    "r": "La connexion passe par Powens, qui couvre la plupart des banques et établissements présents dans le monde entier."
+  },
+  {
+    "q": "Comment SAFIA gagne-t-elle de l'argent ?",
+    "r": "Par l'abonnement Smart et par les licences proposées aux professionnels. SAFIA ne se rémunère pas sur les produits vers lesquels elle t'oriente."
+  },
+  {
+    "q": "Est-ce un conseil en investissement ?",
+    "r": "Les analyses de l'app sont informatives et pédagogiques. Pour un conseil personnalisé, nos conseillers peuvent t'accompagner dans le cadre d'une lettre de mission."
+  }
+];
+const fil = ["Accueil","Particuliers"];
+---
+
+<Base
+  titre={"Gérer son patrimoine seul, avec l'IA · SAFIA"}
+  description={"Livret plein, premier placement, patrimoine éparpillé ? SAFIA t'aide à y voir clair, à comprendre tes options et à décider en connaissance de cause."}
+  chemin={"/particuliers/"}
+  faq={faq}
+  fil={fil}
+>
+<section class="hero hero-page hero-part">
+<div class="wrap hero-page-in hero-deux">
+  <div>
+    <p class="etiq-page">Particuliers</p>
+    <p class="fil-ariane" aria-label="Fil d'Ariane"><a href="/">Accueil</a> <span aria-hidden="true">/</span> Particuliers</p>
+    <h1>Gérer son patrimoine en autonomie, sans être seul face à ses choix.</h1>
+    <p class="chapo">Tu n'as pas besoin d'un gros patrimoine pour mériter des explications claires et des produits performants à ton image. SAFIA t'aide à voir, suivre, comprendre et investir.</p>
+    <div class="actions">
+      <a class="btn btn-primaire" href="#telecharger">Télécharger gratuitement la V1</a>
+      <a class="btn btn-fantome" href="#obtenir">En savoir plus</a>
+    </div>
+  </div>
+  <div class="tel-app" aria-label="Écran Patrimoine de l'application SAFIA">
+    <div class="ecran-app">
+      <div class="statut" aria-hidden="true"><span>9:41</span><span class="encoche"></span><span>▮▮▮ <i></i></span></div>
+      <div class="app-entete"><p class="app-h">Mon patrimoine</p></div>
+      <div class="seg" aria-hidden="true"><span class="actif">Vue globale</span><span>Budget</span><span>Actifs</span></div>
+      <div class="patri">
+        <div class="p-carte p-tot">
+          <div class="p-lab">Valorisation totale</div>
+          <div class="p-val">184 250 €</div>
+          <span class="p-delta">+1,4 % · 24 h</span>
+        </div>
+        <div class="p-duo">
+          <div class="p-carte"><div class="p-lab">Revenu annuel</div><b>4 180 €</b></div>
+          <div class="p-carte"><div class="p-lab">Rendement</div><b class="vert">3,12 %</b></div>
+        </div>
+        <div class="p-carte">
+          <div class="p-lab">Évolution · 6 mois</div>
+          <div class="p-graf" aria-hidden="true">
+            <svg viewBox="0 0 260 62" preserveAspectRatio="none">
+              <polyline points="0,48 26,44 52,47 78,38 104,40 130,30 156,33 182,22 208,25 234,14 260,10" fill="none" stroke="#3CD68F" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+              <circle cx="260" cy="10" r="3.4" fill="#fff"/>
+            </svg>
+          </div>
+        </div>
+        <div class="p-carte">
+          <div class="p-lab">Ma diversification</div>
+          <div class="p-liste">
+            <div><i style="background:#8F86FF"></i><span>Immobilier</span><b>62 400 €</b></div>
+            <div><i style="background:#E48BEF"></i><span>Assurance vie</span><b>48 900 €</b></div>
+            <div><i style="background:#3CD68F"></i><span>PEA</span><b>50 000 €</b></div>
+            <div><i style="background:rgba(255,255,255,.6)"></i><span>Livrets</span><b>22 950 €</b></div>
+          </div>
+        </div>
+      </div>
+      <div class="app-bas" aria-hidden="true">
+        <span><b></b>Accueil</span><span class="actif"><b></b>Patrimoine</span><span><b></b>Mon IA</span><span><b></b>ADN</span><span><b></b>Cockpit</span>
+      </div>
+      <p class="mention-app">Exemple illustratif. Chiffres fictifs.</p>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- ===== Tu te reconnais ? ===== -->
+<section class="bloc reconnais">
+<div class="wrap">
+  <h2 class="titre">Tu te reconnais ?</h2>
+  <ul class="phrases">
+    <li>Mon livret est plein et je ne sais pas quoi faire ensuite.</li>
+    <li>J'ai un PEA, une assurance vie, un crédit… et aucune vue d'ensemble.</li>
+    <li>Je veux investir, mais pas dans n'importe quoi.</li>
+    <li>On me propose des placements et je ne sais pas comment les évaluer.</li>
+    <li>Je n'ai pas le temps de tout suivre.</li>
+  </ul>
+  <p class="reponse-phrases">Ces questions n'ont rien d'un manque de compétence. Elles viennent d'un manque d'explications.</p>
+</div>
+</section>
+
+<!-- ===== Ce que tu obtiens ===== -->
+<section class="bloc obtenir-bloc" id="obtenir">
+<div class="wrap">
+  <h2 class="titre">Une vision claire, puis des réponses.</h2>
+  <div class="obtenir">
+    <article class="obt">
+      <div class="obt-visuel" aria-hidden="true">
+        <div class="ligne-tot"><span>Patrimoine net</span><b>184 250 €</b></div>
+        <ul class="enveloppes">
+          <li><span>Résidence principale</span><b>112 000 €</b></li>
+          <li><span>Assurance vie</span><b>38 400 €</b></li>
+          <li><span>PEA</span><b>21 900 €</b></li>
+          <li><span>Livret A et LDDS</span><b>22 950 €</b></li>
+          <li class="dette"><span>Crédit immobilier</span><b>− 11 000 €</b></li>
+        </ul>
+        <span class="illu-clair">Exemple illustratif</span>
+      </div>
+      <h3>Ta photo patrimoniale</h3>
+      <p>Patrimoine brut et net, répartition par classe d'actifs et par enveloppe (PEA, assurance vie, PER, compte-titres, immobilier), revenus passifs estimés.</p>
+    </article>
+
+    <article class="obt">
+      <div class="obt-visuel" aria-hidden="true">
+        <div class="ligne-tot"><span>Capacité d'épargne</span><b>+ 640 € / mois</b></div>
+        <div class="flux">
+          <div><span>Revenus</span><i style="width:100%"></i><b>3 020 €</b></div>
+          <div><span>Dépenses</span><i class="rose" style="width:79%"></i><b>2 380 €</b></div>
+        </div>
+        <span class="illu-clair">Exemple illustratif</span>
+      </div>
+      <h3>Ton budget, sans effort</h3>
+      <p>Revenus, dépenses et capacité d'épargne calculés à partir de tes comptes, sans saisie manuelle.</p>
+    </article>
+
+    <article class="obt">
+      <div class="obt-visuel" aria-hidden="true">
+        <div class="ligne-tot"><span>Ton profil</span><b>Équilibré · 3 sur 5</b></div>
+        <div class="jauge"><i></i><i></i><i class="on"></i><i></i><i></i></div>
+        <div class="tags"><span>Horizon 8 ans</span><span>Énergies renouvelables</span><span>Industrie française</span><span>Sans armement</span></div>
+        <span class="illu-clair">Exemple illustratif</span>
+      </div>
+      <h3>Ton profil et ton ADN</h3>
+      <p>Le niveau de risque qui te correspond, et ce qui compte pour toi dans tes placements.</p>
+    </article>
+
+    <article class="obt">
+      <div class="obt-visuel" aria-hidden="true">
+        <div class="q">Est-ce que je suis trop exposé à un seul secteur ?</div>
+        <div class="r">Oui : 41 % de ton portefeuille est sur la tech américaine.<em>Sources : ton portefeuille au 10/09/2026 · Méthodologie SAFIA, diversification</em></div>
+        <span class="illu-clair">Exemple illustratif</span>
+      </div>
+      <h3>Tes réponses, expliquées</h3>
+      <p>Une IA disponible à tout moment pour tes questions d'épargne, d'investissement, de fiscalité ou de transmission.</p>
+    </article>
+  </div>
+</div>
+</section>
+
+<!-- ===== Ce qui change ===== -->
+<section class="bloc change">
+<div class="wrap">
+  <h2 class="titre">Pas une app de plus. Une autre façon de faire.</h2>
+  <div class="tableau" role="table" aria-label="Comparaison des approches">
+    <div class="tr entete" role="row"><div role="columnheader">Ce que tu as souvent aujourd'hui</div><div role="columnheader">Ce que fait SAFIA</div></div>
+    <div class="tr" role="row">
+      <div role="cell">Une app de suivi te montre tes chiffres.</div>
+      <div role="cell">SAFIA te les explique et te dit à quoi faire attention.</div>
+    </div>
+    <div class="tr" role="row">
+      <div role="cell">Une gestion pilotée investit à ta place dans des portefeuilles types.</div>
+      <div role="cell">SAFIA part de ton profil et de tes valeurs. Tu décides, tu restes dans ta banque.</div>
+    </div>
+    <div class="tr" role="row">
+      <div role="cell">Un accompagnement en cabinet commence souvent à partir d'un certain patrimoine.</div>
+      <div role="cell">SAFIA commence gratuitement, quel que soit ton patrimoine.</div>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- ===== Ce que SAFIA ne fait pas ===== -->
+<section class="bloc ne-fait-pas">
+<div class="wrap">
+  <h2 class="titre">Ce que SAFIA ne fait pas</h2>
+  <ul class="limites">
+    <li><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/><path d="M6 18L18 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><p>Elle ne détient pas ton argent et ne passe aucun ordre.</p></li>
+    <li><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/><path d="M6 18L18 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><p>Elle ne te promet aucun rendement.</p></li>
+    <li><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/><path d="M6 18L18 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><p>Elle ne remplace pas un conseiller dans les situations complexes : elle te le signale et t'oriente (notaires, avocats, autres).</p></li>
+  </ul>
+</div>
+</section>
+
+<!-- ===== FAQ ===== -->
+<section class="bloc faq-bloc">
+<div class="wrap faq-grille">
+  <h2 class="titre">Tes questions, nos réponses</h2>
+  <div class="faq">
+    <details><summary>Faut-il un patrimoine minimum ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Non. SAFIA est utile dès ton premier livret.</p></details>
+    <details><summary>Puis-je utiliser SAFIA sans connecter mes comptes ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Oui. Tu peux commencer par ton profil et ton ADN, et ajouter certains actifs à la main, comme un bien immobilier ou des parts de SCPI.</p></details>
+    <details><summary>Quelles banques sont compatibles ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>La connexion passe par Powens, qui couvre la plupart des banques et établissements présents dans le monde entier.</p></details>
+    <details><summary>Comment SAFIA gagne-t-elle de l'argent ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Par l'abonnement Smart et par les licences proposées aux professionnels. SAFIA ne se rémunère pas sur les produits vers lesquels elle t'oriente.</p></details>
+    <details><summary>Est-ce un conseil en investissement ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Les analyses de l'app sont informatives et pédagogiques. Pour un conseil personnalisé, nos conseillers peuvent t'accompagner dans le cadre d'une lettre de mission.</p></details>
+  </div>
+</div>
+</section>
+
+<!-- ===== CTA ===== -->
+<section class="final" id="telecharger">
+<div class="wrap final-simple">
+  <h2>Commence par comprendre.</h2>
+  <p>Gratuit, sans engagement, et tes comptes restent où ils sont.</p>
+  <a class="btn btn-primaire" href="#">Télécharger l'app</a>
+</div>
+</section>
+</Base>

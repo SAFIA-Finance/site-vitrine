@@ -1,0 +1,65 @@
+---
+import Base from '../layouts/Base.astro';
+const fil = ["Accueil","Professionnels","Conseillers"];
+---
+
+<Base
+  titre={"SAFIA pour les conseillers en gestion de patrimoine"}
+  description={"Une offre destinée aux cabinets CGP et CIF est en préparation. Programme pilote ouvert à un nombre limité de cabinets."}
+  chemin={"/conseillers/"}
+  fil={fil}
+>
+<section class="hero hero-page hero-pro-f">
+<div class="wrap hero-page-in hero-court">
+  <p class="etiq-page">Professionnels</p>
+    <p class="fil-ariane" aria-label="Fil d'Ariane"><a href="/">Accueil</a> <span aria-hidden="true">/</span> Professionnels <span aria-hidden="true">/</span> Conseillers</p>
+  <h1>Nous construisons SAFIA pour les cabinets. Avec quelques cabinets.</h1>
+  <p class="chapo">Une offre destinée aux conseillers en gestion de patrimoine est en préparation. Nous ouvrons un nombre limité de places dans le programme pilote.</p>
+  <div class="actions">
+    <a class="btn btn-primaire" href="#contact">Rejoindre le programme pilote</a>
+  </div>
+  <p class="sous-actions">SAFIA est un cabinet CIF membre de la CNCGP, fondé par un conseiller en gestion de patrimoine.</p>
+</div>
+</section>
+
+<section class="bloc pilote-bloc" id="pilote">
+<div class="wrap pilote">
+  <h2 class="titre">Le programme pilote</h2>
+  <p class="intro">Nous préférons construire avec un petit nombre de cabinets plutôt que d'annoncer une feuille de route. Concrètement :</p>
+  <ul class="pilote-liste">
+    <li>Un premier échange de trente minutes, pour comprendre votre façon de travailler.</li>
+    <li>Un accès anticipé, sur vos propres dossiers.</li>
+    <li>Vos retours orientent ce que nous développons ensuite.</li>
+  </ul>
+  <p class="pilote-note">Nous vous dirons précisément ce qui existe aujourd'hui et ce qui n'existe pas encore. Et nous ne prenons aucune commission sur les produits que vous conseillez.</p>
+  <a class="btn btn-primaire" href="#contact">Rejoindre le programme pilote</a>
+</div>
+</section>
+
+<section class="final" id="contact">
+<div class="wrap demo-grille">
+  <div>
+    <h2>Rejoindre le programme pilote</h2>
+    <p class="demo-chapo">Trente minutes en visio, avec un conseiller de l'équipe. Nous revenons vers vous sous 48 heures ouvrées.</p>
+  </div>
+  <form class="form-demo" id="fdemo" novalidate>
+    <div class="champs">
+      <p><label for="nom">Nom et prénom</label><input id="nom" name="nom" type="text" autocomplete="name" required></p>
+      <p><label for="cabinet">Cabinet</label><input id="cabinet" name="cabinet" type="text" autocomplete="organization" required></p>
+      <p><label for="clients">Nombre de clients suivis</label>
+        <select id="clients" name="clients"><option>Moins de 50</option><option>50 à 150</option><option>150 à 400</option><option>Plus de 400</option></select>
+      </p>
+      <p><label for="mail">Email professionnel</label><input id="mail" name="mail" type="email" autocomplete="email" required></p>
+      <p class="large"><label for="msg">Votre contexte en une phrase <span>facultatif</span></label><textarea id="msg" name="msg" rows="3"></textarea></p>
+    </div>
+    <button class="btn btn-primaire" type="submit">Rejoindre le programme pilote</button>
+    <p class="form-retour" id="fretour" role="status" hidden></p>
+    <small>Vos données servent uniquement à traiter votre demande. <a href="#">Politique de confidentialité</a></small>
+  </form>
+</div>
+</section>
+</Base>
+
+<script>
+  import '../scripts/pages/conseillers.js';
+</script>

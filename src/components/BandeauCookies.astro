@@ -1,0 +1,18 @@
+---
+// Bandeau de mesure d'audience. Le choix est mémorisé côté navigateur ;
+// aucun traceur n'est chargé tant que rien n'est accepté.
+---
+
+<div class="cookies" id="cookies" role="dialog" aria-labelledby="ck-t" aria-describedby="ck-d" hidden>
+  <h2 id="ck-t">Mesure d'audience</h2>
+  <p id="ck-d">
+    Nous aimerions mesurer la fréquentation du site pour l'améliorer. Ces cookies ne sont pas
+    nécessaires à son fonctionnement et ne servent ni à la publicité ni au profilage. Tu peux refuser
+    sans conséquence.
+  </p>
+  <div class="choix-c">
+    <button class="btn btn-primaire" type="button" data-ck="refus">Refuser</button>
+    <button class="btn btn-fantome" type="button" data-ck="accord">Accepter</button>
+    <a class="lien" href="/securite/">En savoir plus</a>
+  </div>
+</div>

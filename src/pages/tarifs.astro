@@ -1,0 +1,174 @@
+---
+import Base from '../layouts/Base.astro';
+const faq = [
+  {
+    "q": "Smart est-il sans engagement ?",
+    "r": "Tu peux résilier quand tu veux. Smart reste alors actif jusqu'à la fin de la période déjà payée."
+  },
+  {
+    "q": "Pourquoi l'offre annuelle est-elle moins chère ?",
+    "r": "299 € par an au lieu de 359,88 € en mensuel, soit l'équivalent de deux mois offerts. C'est aussi la seule formule qui inclut l'accompagnement d'un conseiller."
+  },
+  {
+    "q": "Comment se passe l'accompagnement par un conseiller ?",
+    "r": "Avec Smart annuel, tu peux échanger avec un conseiller SAFIA sur ta situation. Si tu souhaites un conseil en investissement personnalisé, il est formalisé par une lettre de mission."
+  },
+  {
+    "q": "Comment payer ?",
+    "r": "Par l'App Store sur iPhone, ou par carte bancaire."
+  },
+  {
+    "q": "SAFIA se rémunère-t-elle sur mes placements ?",
+    "r": "Non. Notre revenu vient de l'abonnement et des licences professionnelles. Nous ne touchons aucune commission sur les produits vers lesquels nous t'orientons."
+  },
+  {
+    "q": "Je suis un professionnel, quels sont vos tarifs ?",
+    "r": "Les licences pour les cabinets sont établies sur devis, selon la taille du cabinet et le nombre de clients suivis. Rendez-vous sur notre page Conseillers."
+  }
+];
+const fil = ["Accueil","Tarifs"];
+---
+
+<Base
+  titre={"Tarifs SAFIA : Starter gratuit, Smart à 29,99 €/mois"}
+  description={"Commence gratuitement avec Starter. Passe à Smart pour l'assistant IA complet, l'audit patrimonial et les explications sourcées."}
+  chemin={"/tarifs/"}
+  faq={faq}
+  fil={fil}
+>
+<section class="hero hero-page hero-part">
+<div class="wrap hero-page-in hero-court">
+  <p class="etiq-page">Particuliers</p>
+    <p class="fil-ariane" aria-label="Fil d'Ariane"><a href="/">Accueil</a> <span aria-hidden="true">/</span> Tarifs</p>
+  <h1>Commence gratuitement. Passe à Smart quand tu veux aller plus loin.</h1>
+  <p class="chapo">Un abonnement fixe, pas un pourcentage de ton patrimoine. Aucun droit d'entrée, aucune commission sur les produits vers lesquels on t'oriente. Et l'agrégation de tous tes comptes est comprise dans l'offre gratuite, sans limite de nombre.</p>
+</div>
+</section>
+
+<section class="bloc tarifs-bloc">
+<div class="wrap">
+  <h2 class="sr">Nos offres</h2>
+  <div class="bascule" role="group" aria-label="Période de facturation">
+    <button type="button" data-periode="mensuel" aria-pressed="false">Mensuel</button>
+    <button type="button" data-periode="annuel" aria-pressed="true">Annuel<span class="badge">2 mois offerts</span></button>
+  </div>
+  <div class="offres">
+    <article class="offre">
+      <h3>Starter</h3>
+      <p class="pour">Pour découvrir et y voir clair</p>
+      <div class="prix"><strong>0 €</strong><span>pour toujours</span></div>
+      <p class="equiv equiv-clair">Aucune carte bancaire demandée.</p>
+      <ul class="inclus">
+        <li><svg viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="M3.5 9.5l3.5 3.5 7.5-8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span><strong>Agrégation illimitée de tous tes comptes</strong>, sans supplément</span></li>
+        <li><svg viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="M3.5 9.5l3.5 3.5 7.5-8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Profil et ADN investisseur</li>
+        <li><svg viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="M3.5 9.5l3.5 3.5 7.5-8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Patrimoine et budget</li>
+        <li><svg viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="M3.5 9.5l3.5 3.5 7.5-8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Assistant IA en version découverte</li>
+      </ul>
+      <a class="btn btn-encre" href="#telecharger">Télécharger l'app</a>
+    </article>
+    <article class="offre offre-smart">
+      <h3>Smart</h3>
+      <p class="pour">Pour piloter ton patrimoine</p>
+      <div class="prix"><strong id="prix">299 €</strong><span id="periode">par an</span></div>
+      <p class="equiv" id="equiv">Soit 24,92 € par mois au lieu de 29,99 €</p>
+      <ul class="inclus">
+        <li><svg viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="M3.5 9.5l3.5 3.5 7.5-8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Tout Starter</li>
+        <li><svg viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="M3.5 9.5l3.5 3.5 7.5-8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Assistant IA complet, avec raisonnement et sources</li>
+        <li><svg viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="M3.5 9.5l3.5 3.5 7.5-8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Mémoire IA et audit patrimonial</li>
+        <li><svg viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="M3.5 9.5l3.5 3.5 7.5-8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Pistes alignées avec ton ADN</li>
+        <li><svg viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="M3.5 9.5l3.5 3.5 7.5-8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Export de tes données</li>
+        <li class="conseiller" id="conseiller"><svg viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="M3.5 9.5l3.5 3.5 7.5-8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span><strong>L'accompagnement d'un conseiller SAFIA</strong>, inclus dans l'abonnement annuel</span></li>
+      </ul>
+      <a class="btn btn-primaire" href="#telecharger">Passer à Smart</a>
+    </article>
+  </div>
+  <p class="note-prix">Prix TTC. Tu peux revenir à Starter à tout moment : ton profil, ton ADN et tes comptes restent en place.</p>
+</div>
+</section>
+
+<section class="bloc detail-bloc">
+<div class="wrap">
+  <h2 class="titre">Le détail, ligne par ligne</h2>
+  <div class="tab-prix">
+    <div class="tp-tete"><span></span><span>Starter</span><span class="fort">Smart</span></div>
+    <div class="tp-ligne"><span>Agrégation de tes comptes</span><span>Illimitée</span><span class="fort">Illimitée</span></div>
+    <div class="tp-ligne"><span>Profil et ADN investisseur</span><span>Inclus</span><span class="fort">Inclus</span></div>
+    <div class="tp-ligne"><span>Patrimoine et budget</span><span>Inclus</span><span class="fort">Inclus</span></div>
+    <div class="tp-ligne"><span>Assistant IA</span><span>Limité</span><span class="fort">Étendu</span></div>
+    <div class="tp-ligne"><span>Explications détaillées et sources</span><span>—</span><span class="fort">Inclus</span></div>
+    <div class="tp-ligne"><span>Mémoire IA</span><span>—</span><span class="fort">Inclus</span></div>
+    <div class="tp-ligne"><span>Audit patrimonial</span><span>—</span><span class="fort">Inclus</span></div>
+    <div class="tp-ligne"><span>Pistes alignées avec ton ADN</span><span>Aperçu</span><span class="fort">Inclus</span></div>
+    <div class="tp-ligne"><span>Export de tes données</span><span>—</span><span class="fort">Inclus</span></div>
+    <div class="tp-ligne"><span>Accompagnement par un conseiller</span><span>—</span><span class="fort">Abonnement annuel</span></div>
+  </div>
+</div>
+</section>
+
+<section class="bloc bientot-bloc">
+<div class="wrap">
+  <h2 class="titre">Ce qui arrive</h2>
+  <p class="intro">Inclus dans Smart, sans supplément, au fur et à mesure de leur sortie.</p>
+  <div class="bientot">
+    <article><span class="coin-avenir sombre" aria-hidden="true">À venir</span><h3>GPS patrimoine</h3><p>Suivre ta trajectoire vers tes objectifs, année après année.</p></article>
+    <article><span class="coin-avenir sombre" aria-hidden="true">À venir</span><h3>Santé patrimoniale</h3><p>Un diagnostic de ta diversification et de tes points faibles.</p></article>
+    <article><span class="coin-avenir sombre" aria-hidden="true">À venir</span><h3>Suivi d'impact</h3><p>Ce que financent concrètement tes placements.</p></article>
+  </div>
+</div>
+</section>
+
+<section class="bloc approf-bloc">
+<div class="wrap">
+  <h2 class="titre">Un abonnement plutôt qu'un pourcentage</h2>
+  <p class="intro">La façon dont un acteur se rémunère détermine ce qu'il a intérêt à te conseiller. Voici la nôtre, et ce qu'elle implique.</p>
+  <div class="approf">
+    <article>
+      <h3>Les frais sur encours</h3>
+      <p>La plupart des acteurs prélèvent un pourcentage annuel de la somme que tu leur confies. Le montant suit ton patrimoine : plus il grandit, plus tu paies, pour un travail qui n'augmente pas dans les mêmes proportions.</p>
+      <p>Sur un horizon long, ce prélèvement annuel se cumule et pèse lourdement sur le résultat final. C'est le premier poste que nous regardons quand nous analysons un portefeuille.</p>
+    </article>
+    <article>
+      <h3>Les rétrocessions</h3>
+      <p>Un distributeur peut aussi être rémunéré par le fournisseur du produit qu'il place. Ce n'est pas illégal, et cela doit être signalé, mais cela crée une tension : un produit peut être mieux rémunérateur pour celui qui le vend que pour celui qui le détient.</p>
+      <p>SAFIA ne perçoit aucune rétrocession. Notre revenu vient de l'abonnement et des licences professionnelles, ce qui rend cette tension impossible.</p>
+    </article>
+    <article>
+      <h3>Ce qu'un abonnement change</h3>
+      <p>Le prix ne dépend pas de ton patrimoine. Tu paies la même chose avec 10 000 € ou avec 500 000 €, et tu sais à l'avance ce que tu paieras l'année prochaine.</p>
+      <p>Conséquence directe : nous n'avons aucun intérêt à ce que tu places ton argent chez un partenaire plutôt qu'un autre. Notre seul intérêt est que l'abonnement te soit utile assez longtemps pour que tu le gardes.</p>
+    </article>
+    <article>
+      <h3>Ce que tu paies ailleurs</h3>
+      <p>Avant de comparer avec SAFIA, regarde ce que tu paies déjà : frais de gestion de ton assurance vie, frais des fonds qu'elle contient, frais d'arbitrage, droits d'entrée. Ces lignes sont rarement mises côte à côte.</p>
+      <p>L'application les rassemble, support par support, et les met en face de ce que ça représente sur dix ans.</p>
+    </article>
+  </div>
+</div>
+</section>
+
+<section class="bloc faq-bloc">
+<div class="wrap faq-grille">
+  <h2 class="titre">Tes questions, nos réponses</h2>
+  <div class="faq">
+    <details><summary>Smart est-il sans engagement ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Tu peux résilier quand tu veux. Smart reste alors actif jusqu'à la fin de la période déjà payée.</p></details>
+    <details><summary>Pourquoi l'offre annuelle est-elle moins chère ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>299 € par an au lieu de 359,88 € en mensuel, soit l'équivalent de deux mois offerts. C'est aussi la seule formule qui inclut l'accompagnement d'un conseiller.</p></details>
+    <details><summary>Comment se passe l'accompagnement par un conseiller ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Avec Smart annuel, tu peux échanger avec un conseiller SAFIA sur ta situation. Si tu souhaites un conseil en investissement personnalisé, il est formalisé par une lettre de mission.</p></details>
+    <details><summary>Comment payer ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Par l'App Store sur iPhone, ou par carte bancaire.</p></details>
+    <details><summary>SAFIA se rémunère-t-elle sur mes placements ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Non. Notre revenu vient de l'abonnement et des licences professionnelles. Nous ne touchons aucune commission sur les produits vers lesquels nous t'orientons.</p></details>
+    <details><summary>Je suis un professionnel, quels sont vos tarifs ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Les licences pour les cabinets sont établies sur devis, selon la taille du cabinet et le nombre de clients suivis. Rendez-vous sur notre page Conseillers.</p></details>
+  </div>
+</div>
+</section>
+
+<section class="final" id="telecharger">
+<div class="wrap final-simple">
+  <h2>Commence par Starter.</h2>
+  <p>Gratuit, sans carte bancaire, et tu passes à Smart quand tu veux.</p>
+  <a class="btn btn-primaire" href="#">Télécharger l'app</a>
+</div>
+</section>
+</Base>
+
+<script>
+  import '../scripts/pages/tarifs.js';
+</script>
