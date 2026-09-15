@@ -77,7 +77,7 @@ function contenu(xml, liens) {
  */
 function estTitre(nu, precedent) {
   if (!nu || nu.length > 90) return false;
-  if (/^\d+(\.\d+)*\.?\s+\S/.test(nu)) return true;
+  if (/^\d+(\.\d+)*\.\s+\S/.test(nu)) return true;
   if (/[.;:,]$/.test(nu)) return false;
   if (/^\d/.test(nu)) return false;
   if (nu.includes(':')) return false;
