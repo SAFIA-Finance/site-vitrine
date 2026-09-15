@@ -45,9 +45,6 @@ npm run verifier
 git add -A ; git commit -m "Pages légales : mise à jour" ; git push
 ```
 
-L'option `--complements` est importante : sans elle, les compléments propres au
-site ne sont pas repris et disparaissent des pages publiées.
-
 ## Une seule source de vérité
 
 Tout le texte publié vient des documents Word. Aucun complément n'est ajouté du
@@ -55,6 +52,7 @@ côté du site : quand un point technique change (mesure d'audience, prestataire
 hébergeur), c'est le document Word qui doit être corrigé, puis reconverti.
 `outils/maj-word.mjs` montre comment modifier le texte d'un .docx sans toucher à
 sa mise en forme, et refuse d'écrire si un passage visé n'est pas retrouvé.
+
 ## Cohérence à tenir
 
 Ces textes engagent SAFIA. Trois points demandent une vérification à chaque
