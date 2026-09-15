@@ -34,7 +34,7 @@ est apparu pendant la migration et la mise en ligne.
 | `Q-25` | Statut MIF 2 | Sans objet : « MIF 2 » n'apparaît plus sur le site | — |
 | `Q-27` | Démo holding | Mise à jour selon la loi de finances pour 2026 : réinvestissement de 70 % dans les trois ans, purge du report par donation si le bénéficiaire conserve les titres six ans. Sources : article 150-0 B ter du CGI et BOFiP | Assistant IA |
 | `Q-17` | « En savoir plus » | Section « La réponse simple, puis le raisonnement complet » supprimée | Assistant IA |
-| `Q-20` | Cockpit | Recommandations d'entreprises et audit patrimonial disponibles ; la place de marché reste « à venir » | Cockpit, Comparatif |
+| `Q-20` | Cockpit | Recommandations d'entreprises et audit patrimonial disponibles ; la marketplace reste « à venir » | Cockpit, Comparatif |
 | `Q-01` | Numéro CNCGP | Non affiché : le numéro ORIAS suffit | — |
 | `Q-31` | Mention d'indépendance | Formulation factuelle : « rémunérée uniquement par l'abonnement », « Conseil par abonnement » | Comparatif |
 | `Q-18` `Q-26` | Chiffres du comparatif | Vérifiés sur les pages officielles le 15/09/2026, renvois numérotés, sources en bas de page | Comparatif |
@@ -45,7 +45,7 @@ est apparu pendant la migration et la mise en ligne.
 | `Q-24` | « La rigueur d'une banque privée » | Conservé | Comparatif |
 | `Q-06` | Powens | Formulation et logo validés par Powens | Accueil, Sécurité |
 | `Q-29` | Couverture de Powens | « En France et en Europe » | Particuliers |
-| `Q-07` | Bandeau de logos | ANACOFI retiré. Bandeau : partenaires effectifs. Partenaires de la place de marché déplacés dans un bloc dédié | Accueil, Cockpit |
+| `Q-07` | Bandeau de logos | ANACOFI retiré. Bandeau : partenaires effectifs. Partenaires de la marketplace déplacés dans un bloc dédié | Accueil, Cockpit |
 | `Q-32` | Logos du parcours | IÉSEG et EY ajoutés, en gris ; Ayming en texte seul, faute d'autorisation | Fondateur |
 | `Q-09` | Comité consultatif | Phrase générique conservée | Fondateur |
 | `Q-14` | Bleu principal | **Indigo `#3B2CF2`**, déjà celui du site. L'azur de l'app ne passe pas le contraste sur fond clair | — |
