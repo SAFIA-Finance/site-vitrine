@@ -7,6 +7,9 @@ export const SITE_URL = process.env.SITE_URL ?? 'https://sitev2.safia.finance';
 /** Faux sur la préversion : le site est alors servi en noindex. */
 export const INDEXABLE = process.env.INDEXABLE === 'true';
 
+/** Google Analytics 4. Chargé seulement après accord dans le bandeau cookies. */
+export const GA_ID = process.env.GA_ID ?? 'G-7MMLBMMHQS';
+
 /** Coordonnées légales, reprises dans le JSON-LD et le pied de page. */
 export const SOCIETE = {
   nom: 'SAFIA',

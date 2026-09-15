@@ -90,33 +90,94 @@ const annonce = document.getElementById('annonce');
   });
 })();
 
-// ---- Bandeau de mesure d'audience ----
+// ---- Mesure d'audience : Google Analytics, chargé seulement après accord ----
+// Aucun script Google n'est demandé tant que le visiteur n'a pas cliqué « Accepter ».
+// Le choix est redemandé au bout de 13 mois, durée maximale recommandée par la CNIL.
 (function () {
   const boite = document.getElementById('cookies');
   if (!boite) return;
 
-  let choix = null;
-  try {
-    choix = window.localStorage.getItem('safia-cookies');
-  } catch (e) {
-    /* navigation privée ou stockage bloqué : on redemandera */
+  const CLE = 'safia-cookies';
+  const DUREE_MAX = 395 * 24 * 3600 * 1000;
+  const GA_ID = document.querySelector('meta[name="safia-ga"]')?.content;
+  const enLocal = ['localhost', '127.0.0.1'].includes(location.hostname);
+
+  function lireChoix() {
+    try {
+      const brut = window.localStorage.getItem(CLE);
+      if (!brut) return null;
+      const { choix, date } = JSON.parse(brut);
+      return Date.now() - date < DUREE_MAX ? choix : null;
+    } catch (e) {
+      return null; // stockage bloqué ou ancien format : on redemande
+    }
   }
 
+  function enregistrerChoix(choix) {
+    try {
+      window.localStorage.setItem(CLE, JSON.stringify({ choix, date: Date.now() }));
+    } catch (e) {
+      /* le choix reste valable pour la page en cours */
+    }
+  }
+
+  function chargerAnalytics() {
+    if (!GA_ID || enLocal || window.__safiaGa) return;
+    window.__safiaGa = true;
+    window[`ga-disable-${GA_ID}`] = false;
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = function () {
+      window.dataLayer.push(arguments);
+    };
+    window.gtag('js', new Date());
+    // Ni signaux Google ni personnalisation publicitaire : c'est ce que promet le bandeau.
+    window.gtag('config', GA_ID, {
+      allow_google_signals: false,
+      allow_ad_personalization_signals: false,
+    });
+    const script = document.createElement('script');
+    script.async = true;
+    script.src = `https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(GA_ID)}`;
+    document.head.appendChild(script);
+  }
+
+  function couperAnalytics() {
+    if (GA_ID) window[`ga-disable-${GA_ID}`] = true;
+    const domaine = location.hostname.split('.').slice(-2).join('.');
+    document.cookie
+      .split(';')
+      .map((c) => c.split('=')[0].trim())
+      .filter((nom) => nom.startsWith('_ga'))
+      .forEach((nom) => {
+        document.cookie = `${nom}=; Max-Age=0; path=/`;
+        document.cookie = `${nom}=; Max-Age=0; path=/; domain=.${domaine}`;
+      });
+  }
+
+  const choix = lireChoix();
+  if (choix === 'accord') chargerAnalytics();
   if (!choix) setTimeout(() => (boite.hidden = false), 900);
 
   boite.addEventListener('click', (e) => {
     const b = e.target.closest('[data-ck]');
     if (!b) return;
-    try {
-      window.localStorage.setItem('safia-cookies', b.dataset.ck);
-    } catch (e) {
-      /* le refus reste valable pour la session en cours */
-    }
+    enregistrerChoix(b.dataset.ck);
+    if (b.dataset.ck === 'accord') chargerAnalytics();
+    else couperAnalytics();
     boite.hidden = true;
     if (annonce) {
       annonce.textContent =
         b.dataset.ck === 'accord' ? "Mesure d'audience acceptée." : "Mesure d'audience refusée.";
     }
+  });
+
+  // « Gestion des cookies » dans le pied de page : rouvre le bandeau pour changer d'avis.
+  document.querySelectorAll('[data-ouvrir-cookies]').forEach((lien) => {
+    lien.addEventListener('click', (e) => {
+      e.preventDefault();
+      boite.hidden = false;
+      boite.querySelector('[data-ck]')?.focus();
+    });
   });
 })();
 

@@ -6,7 +6,7 @@ import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import BandeauCookies from '../components/BandeauCookies.astro';
 import RetourHaut from '../components/RetourHaut.astro';
-import { SITE_URL, INDEXABLE, SOCIETE } from '../config.js';
+import { SITE_URL, INDEXABLE, SOCIETE, GA_ID } from '../config.js';
 import '../styles/global.css';
 
 const {
@@ -125,6 +125,7 @@ const jsonFil = fil
     <title>{titre}</title>
     <meta name="description" content={description} />
     <meta name="robots" content={robots} />
+    <meta name="safia-ga" content={GA_ID} />
     <link rel="canonical" href={canonique} />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
