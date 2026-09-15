@@ -1227,3 +1227,6 @@ footer.pied{background:var(--nuit);color:rgba(255,255,255,.78);padding:64px 0 40
 /* ---------- Parcours : logos des écoles et employeurs ---------- */
 .parcours span:has(.parcours-logo){display:flex;align-items:center;gap:10px}
 .parcours-logo{height:22px;width:auto;filter:grayscale(1);mix-blend-mode:multiply;opacity:.8}
+
+/* ---------- Formulaires : champ piège pour les robots ---------- */
+.pot{position:absolute!important;left:-10000px;width:1px;height:1px;overflow:hidden}

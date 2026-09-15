@@ -18,3 +18,7 @@ desktop.ini
 .vscode/*
 !.vscode/extensions.json
 .idea/
+
+# Cloudflare Workers (relais des formulaires)
+.wrangler/
+relais/.dev.vars

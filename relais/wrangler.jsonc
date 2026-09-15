@@ -1,0 +1,28 @@
+// Relais des formulaires vers Brevo. Déploiement : voir docs/FORMULAIRES.md.
+// La clé Brevo n'est jamais ici : elle est stockée comme secret Cloudflare
+// (npx wrangler secret put BREVO_API_KEY).
+{
+  "$schema": "../node_modules/wrangler/config-schema.json",
+  "name": "safia-formulaires",
+  "main": "src/index.js",
+  "compatibility_date": "2026-09-01",
+  "workers_dev": true,
+  "observability": { "enabled": true },
+
+  "vars": {
+    // Sites autorisés à appeler le relais.
+    "ORIGINES": "https://sitev2.safia.finance,https://safia.finance,http://localhost:4321",
+    // Destinataire des alertes de demande de démo.
+    "ALERTE_EMAIL": "hello@safia.finance",
+    // Doit être un expéditeur validé dans Brevo.
+    "EXPEDITEUR_EMAIL": "hello@safia.finance",
+    // Identifiants des listes Brevo, renseignés à l'installation.
+    "LISTE_NEWSLETTER": "0",
+    "LISTE_DEMO": "0"
+  },
+
+  // 8 envois par minute par adresse IP, contre les soumissions en rafale.
+  "ratelimits": [
+    { "name": "LIMITE", "namespace_id": "1001", "simple": { "limit": 8, "period": 60 } }
+  ]
+}

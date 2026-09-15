@@ -1,3 +1,5 @@
+import { envoyer, emailValide } from '../formulaires.js';
+
 (function(){
   var reduit = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
@@ -20,18 +22,26 @@
       var annuel=b.dataset.periode==='annuel';
       prix.textContent=annuel?'299 €':'29,99 €';
       periode.textContent=annuel?'par an':'par mois';
-      equiv.textContent=annuel?'Soit 24,92 € par mois au lieu de 29,99 €':'Sans conseiller. Passe à l\u2019annuel pour l\u2019ajouter.';
+      equiv.textContent=annuel?'Soit 24,92 € par mois au lieu de 29,99 €':'Sans conseiller. Passe à l’annuel pour l’ajouter.';
       conseiller.hidden=!annuel;
     });
   });
 
-
-  // Newsletter (maquette : pas d'envoi réel)
-  document.getElementById('nl').addEventListener('submit',function(e){
+  // Newsletter : inscription dans Brevo, via le relais
+  var nl=document.getElementById('nl');
+  nl.addEventListener('submit',async function(e){
     e.preventDefault();
-    var email=document.getElementById('email'), c=document.getElementById('confirm');
+    var email=document.getElementById('email'), c=document.getElementById('confirm'), bouton=nl.querySelector('button[type="submit"]');
     c.hidden=false;
-    if(!email.value || !/^\S+@\S+\.\S+$/.test(email.value)){c.style.color='#FFD1DC';c.textContent='Saisis une adresse email valide, par exemple ton@email.fr.';email.focus();return;}
-    c.style.color='';c.textContent='Inscription enregistrée. Premier email bientôt.';email.value='';
+    if(!emailValide(email.value)){c.style.color='#FFD1DC';c.textContent='Saisis une adresse email valide, par exemple ton@email.fr.';email.focus();return;}
+    bouton.disabled=true; c.style.color=''; c.textContent='Inscription en cours…';
+    try{
+      await envoyer('newsletter',{email:email.value, site:nl.elements.site.value});
+      c.textContent='Inscription enregistrée. Premier email bientôt.'; email.value='';
+    }catch(err){
+      c.style.color='#FFD1DC'; c.textContent=err.message;
+    }finally{
+      bouton.disabled=false;
+    }
   });
 })();

@@ -23,3 +23,6 @@ export const SOCIETE = {
   orias: '26008152',
   linkedin: 'https://www.linkedin.com/company/safia-finance',
 };
+
+/** Relais des formulaires vers Brevo (dossier relais/). */
+export const RELAIS_URL = process.env.RELAIS_URL ?? 'https://safia-formulaires.safia-finance.workers.dev';
