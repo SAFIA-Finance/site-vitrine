@@ -75,23 +75,22 @@ suivant.
 
 ### 5. Créer l'enregistrement DNS
 
-Chez le registrar qui gère `safia.finance` :
+Le DNS de `safia.finance` est géré par **Cloudflare**
+(`edna.ns.cloudflare.com`, `garret.ns.cloudflare.com`).
 
-| Type | Nom | Valeur | TTL |
-|---|---|---|---|
-| `CNAME` | `v2` | `<organisation>.github.io.` | 3600 |
+**Cloudflare → safia.finance → DNS → Records → Add record :**
 
-`<organisation>` est le nom de l'organisation GitHub en minuscules. Le point
-final est requis par certains registrars (OVH), interdit par d'autres
-(Cloudflare) — suis ce que propose le tien.
+| Type | Name | Target | Proxy status | TTL |
+|---|---|---|---|---|
+| `CNAME` | `v2` | `safia-finance.github.io` | **DNS only** (nuage gris) | Auto |
 
-> **Ne touche pas aux enregistrements du domaine nu.** Les `A` de
-> `safia.finance` font tourner le site actuel. Tu ajoutes un enregistrement,
+> **Le nuage doit être gris.** En *Proxied* (orange), Cloudflare s'interpose,
+> GitHub ne peut plus valider le domaine ni émettre le certificat HTTPS, et le
+> site reste inaccessible ou en erreur de certificat.
+
+> **Ne touche pas aux enregistrements existants.** Le `A` de `safia.finance`
+> et ceux de `www` font tourner le site actuel. Tu ajoutes un enregistrement,
 > tu n'en modifies aucun.
-
-> Sur Cloudflare, mets l'enregistrement en **DNS only** (nuage gris), pas en
-> *Proxied*. Le proxy empêche GitHub de valider le domaine et d'émettre le
-> certificat.
 
 ### 6. Activer HTTPS
 
@@ -158,11 +157,14 @@ Sitemap: https://safia.finance/sitemap-index.xml
 
 ### 5. Déplacer le domaine
 
-L'ordre compte, pour éviter que les deux dépôts revendiquent le même nom :
+Le site actuel **n'est pas sur GitHub Pages** : au 15 septembre 2026,
+`safia.finance` pointe vers `185.226.172.12`, un autre hébergeur, et
+`www.safia.finance` passe par le proxy Cloudflare. La bascule se fait donc
+entièrement dans Cloudflare, sans rien à retirer côté GitHub.
 
-1. Dans le dépôt de l'**ancien** site : Settings → Pages → retirer le custom domain.
-2. Dans **ce** dépôt : Settings → Pages → custom domain `safia.finance`.
-3. DNS : faire pointer les `A` de l'apex vers GitHub.
+1. Dans **ce** dépôt : Settings → Pages → custom domain `safia.finance`.
+2. Cloudflare → DNS : **remplacer** le `A` de l'apex (`185.226.172.12`) par les
+   adresses GitHub, toutes en **DNS only** :
 
 ```
 A     @    185.199.108.153
@@ -175,8 +177,13 @@ AAAA  @    2606:50c0:8002::153
 AAAA  @    2606:50c0:8003::153
 ```
 
-Ajoute aussi `CNAME www → <organisation>.github.io` si `www.safia.finance` doit
-répondre.
+3. `www` : remplacer ses enregistrements actuels par
+   `CNAME www → safia-finance.github.io`, en DNS only.
+
+> **Avant de toucher au DNS**, note les enregistrements actuels de l'apex et
+> de `www` : c'est ton retour arrière si la bascule tourne mal. Vérifie aussi
+> auprès de l'hébergeur actuel qu'aucun autre service (e-mail, sous-domaines)
+> ne dépend de ces adresses.
 
 > Ces adresses sont celles publiées par GitHub. Vérifie-les le jour J sur
 > [la documentation GitHub Pages](https://docs.github.com/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site) :
