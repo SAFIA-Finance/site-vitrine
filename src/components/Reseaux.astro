@@ -1,0 +1,62 @@
+---
+// Liens vers des comptes sociaux, avec leur icône.
+//
+// Un seul composant pour SAFIA et pour le fondateur : les deux listes vivent
+// dans src/config.js, et c'est là qu'on ajoute ou retire un compte. Le nom du
+// titulaire est demandé parce qu'il entre dans le libellé d'accessibilité :
+// « SAFIA sur LinkedIn » et « Maxime Bouché sur LinkedIn » ne mènent pas au même
+// endroit, et un lecteur d'écran qui annoncerait deux fois « LinkedIn » ne
+// permettrait pas de les distinguer.
+//
+// Les icônes sont dessinées ici, au trait, à partir de formes simples : un
+// rectangle arrondi, un cercle, deux traits. Aucune image, aucune police
+// d'icônes, rien à charger — et elles prennent la couleur du texte autour.
+
+interface Compte {
+  /** Identifiant du réseau, qui choisit l'icône. */
+  reseau: string;
+  /** Nom affiché dans le libellé d'accessibilité. */
+  nom: string;
+  url: string;
+}
+
+interface Props {
+  comptes: Compte[];
+  /** À qui appartiennent ces comptes ; repris dans l'aria-label. */
+  proprietaire: string;
+  /** Classe supplémentaire, pour ajuster l'espacement selon l'emplacement. */
+  classe?: string;
+}
+
+const { comptes, proprietaire, classe = '' } = Astro.props;
+---
+
+<ul class:list={['reseaux', classe]}>
+  {comptes.map((c) => (
+    <li>
+      <a
+        href={c.url}
+        target="_blank"
+        rel="noopener"
+        aria-label={`${proprietaire} sur ${c.nom}`}
+      >
+        {c.reseau === 'linkedin' && (
+          <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.7">
+            <rect x="2.6" y="2.6" width="18.8" height="18.8" rx="4.2" />
+            <circle cx="7.4" cy="7.6" r="1.05" fill="currentColor" stroke="none" />
+            <path d="M7.4 10.6v6.5" stroke-linecap="round" />
+            <path d="M11.4 17.1v-6.5" stroke-linecap="round" />
+            <path d="M11.4 13.6c0-1.7 1.2-3 2.8-3s2.8 1.3 2.8 3v3.5" stroke-linecap="round" />
+          </svg>
+        )}
+        {c.reseau === 'instagram' && (
+          <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.7">
+            <rect x="2.6" y="2.6" width="18.8" height="18.8" rx="5.4" />
+            <circle cx="12" cy="12" r="4.1" />
+            <circle cx="17.2" cy="6.8" r="1.1" fill="currentColor" stroke="none" />
+          </svg>
+        )}
+      </a>
+    </li>
+  ))}
+</ul>

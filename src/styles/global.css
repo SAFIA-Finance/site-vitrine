@@ -344,6 +344,18 @@ footer.pied{background:var(--nuit);color:rgba(255,255,255,.78);padding:64px 0 40
 .pied a:hover{color:var(--blanc);text-decoration:underline}
 .pied .logo{color:var(--blanc)}
 .pied .signature{margin-top:12px;font-size:14px;max-width:26ch}
+/* Réseaux sociaux (components/Reseaux.astro).
+   Le composant ne sert que sur fond sombre — le pied de page et le bloc final
+   de la page du fondateur : les couleurs sont donc du blanc translucide, jamais
+   un jeton clair. Le sélecteur porte « ul » à dessein : « .pied ul » plus haut
+   impose une colonne à toutes les listes du pied de page, et une classe seule
+   perdrait contre lui. À poids égal, c'est la règle la plus basse qui gagne :
+   ce bloc doit rester APRÈS celles du pied de page. */
+ul.reseaux{list-style:none;display:flex;flex-direction:row;gap:10px;margin-top:18px;padding:0}
+.reseaux a{display:grid;place-items:center;width:40px;height:40px;padding:0;border-radius:999px;border:1px solid rgba(255,255,255,.22);color:rgba(255,255,255,.82);transition:background .15s,border-color .15s,color .15s}
+.reseaux a:hover{background:rgba(255,255,255,.1);border-color:rgba(255,255,255,.45);color:var(--blanc);text-decoration:none}
+.reseaux svg{display:block;width:19px;height:19px}
+.reseaux-centre{justify-content:center;margin-top:22px}
 .reglementaire{margin-top:48px;padding-top:24px;border-top:1px solid rgba(255,255,255,.12);font-size:13px;line-height:1.65;color:rgba(255,255,255,.72);max-width:110ch}
 
 /* ---------- Responsive ---------- */
@@ -1530,7 +1542,7 @@ a.sim-choix-carte:hover{background:var(--lavande)}
   .sim-choix-carte{padding:22px}
 }
 @media (prefers-reduced-motion:reduce){
-  .sim-choix-carte,.pied-outils summary svg{transition:none}
+  .sim-choix-carte,.pied-outils summary svg,.reseaux a{transition:none}
 }
 
 

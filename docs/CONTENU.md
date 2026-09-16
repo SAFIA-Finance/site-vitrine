@@ -12,6 +12,7 @@
 | Une couleur, un espacement | `src/styles/global.css` |
 | Le texte du bandeau cookies | `src/components/BandeauCookies.astro` |
 | Les liens vers l'App Store et Google Play | `src/config.js` |
+| Les comptes sociaux, de SAFIA et du fondateur | `src/config.js` |
 
 Les quinze pages publiques. S'y ajoutent les cinq pages légales, produites à
 partir des documents Word — voir [PAGES-LEGALES.md](PAGES-LEGALES.md) — et les

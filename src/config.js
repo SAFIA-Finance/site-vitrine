@@ -21,8 +21,35 @@ export const SOCIETE = {
   pays: 'FR',
   siren: '994877850',
   orias: '26008152',
-  linkedin: 'https://www.linkedin.com/company/safia-finance',
 };
+
+/**
+ * Comptes sociaux de SAFIA.
+ *
+ * Une seule liste, lue à deux endroits : le pied de page les affiche, et
+ * Base.astro les donne à Google en `sameAs`, ce qui rattache ces comptes à
+ * l'entreprise dans le graphe de connaissances. Ajouter un réseau ici suffit
+ * donc pour les deux — à condition que `reseau` corresponde à une icône
+ * dessinée dans components/Reseaux.astro, sans quoi le lien s'afficherait vide.
+ */
+export const RESEAUX = [
+  { reseau: 'linkedin', nom: 'LinkedIn', url: 'https://www.linkedin.com/company/safia-finance/' },
+  { reseau: 'instagram', nom: 'Instagram', url: 'https://www.instagram.com/safia.finance/' },
+];
+
+/**
+ * Comptes personnels du fondateur : page /fondateur/ et `sameAs` de sa fiche.
+ *
+ * L'adresse LinkedIn contient un accent (« maximebouché »). Il est écrit ici
+ * sous sa forme encodée `%C3%A9` : c'est la même adresse, mais elle reste
+ * valide partout — dans un href, dans le JSON-LD, et dans un courriel qui la
+ * recopierait. Ne pas la « corriger » en retirant l'accent, ce serait une autre
+ * URL, qui ne mène à rien.
+ */
+export const RESEAUX_FONDATEUR = [
+  { reseau: 'linkedin', nom: 'LinkedIn', url: 'https://www.linkedin.com/in/maximebouch%C3%A9/' },
+  { reseau: 'instagram', nom: 'Instagram', url: 'https://www.instagram.com/maxime_bche/' },
+];
 
 /**
  * Fiches de l'application dans les magasins.

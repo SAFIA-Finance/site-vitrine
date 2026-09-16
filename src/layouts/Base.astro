@@ -7,7 +7,7 @@ import Footer from '../components/Footer.astro';
 import BandeauCookies from '../components/BandeauCookies.astro';
 import RetourHaut from '../components/RetourHaut.astro';
 import ModaleTelechargement from '../components/ModaleTelechargement.astro';
-import { SITE_URL, INDEXABLE, SOCIETE, GA_ID, RELAIS_URL, APPLICATION } from '../config.js';
+import { SITE_URL, INDEXABLE, SOCIETE, GA_ID, RELAIS_URL, APPLICATION, RESEAUX, RESEAUX_FONDATEUR } from '../config.js';
 import pages from '../data/pages.json';
 import '../styles/global.css';
 
@@ -71,7 +71,10 @@ const organisation = {
         { '@type': 'PropertyValue', name: 'ORIAS', value: SOCIETE.orias },
       ],
       memberOf: { '@type': 'Organization', name: 'CNCGP' },
-      sameAs: [SOCIETE.linkedin],
+      // « sameAs » : les comptes que Google doit rattacher à cette entreprise.
+      // La liste est celle du pied de page, pour qu'aucun compte affiché ne
+      // manque ici, et inversement.
+      sameAs: RESEAUX.map((r) => r.url),
     },
     {
       '@type': 'MobileApplication',
@@ -105,7 +108,7 @@ const organisation = {
           recognizedBy: { '@type': 'Organization', name: 'Autorité des marchés financiers' },
         },
       ],
-      sameAs: ['https://www.linkedin.com/in/maximebouche'],
+      sameAs: RESEAUX_FONDATEUR.map((r) => r.url),
     },
   ],
 };

@@ -1,5 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
+import Reseaux from '../components/Reseaux.astro';
+import { RESEAUX_FONDATEUR } from '../config.js';
 const fil = ["Accueil","À propos","Le fondateur"];
 ---
 
@@ -94,8 +96,9 @@ const fil = ["Accueil","À propos","Le fondateur"];
 <section class="final">
 <div class="wrap final-simple">
   <h2>Une question, une idée, un projet ?</h2>
-  <p>Écris-nous à hello@safia.finance, ou retrouve Maxime sur LinkedIn.</p>
+  <p>Écris-nous à hello@safia.finance, ou suis Maxime sur LinkedIn et Instagram.</p>
   <a class="btn btn-primaire" href="mailto:hello@safia.finance">Nous écrire</a>
+  <Reseaux comptes={RESEAUX_FONDATEUR} proprietaire="Maxime Bouché" classe="reseaux-centre" />
 </div>
 </section>
 </Base>
