@@ -173,14 +173,21 @@ sur un design déjà validé. À faire plus tard, pas au moment de déployer.
 > du `<header>`**, et doit y rester. La même précaution vaut pour tout futur
 > élément fixe : bandeau, fenêtre, info-bulle.
 
-> **Et pourquoi la barre est `fixed`, pas `sticky`.** Le même `backdrop-filter`
-> oblige le navigateur à ré-échantillonner ce qui passe derrière la barre à
-> chaque image. Tant que la bande partenaire défile, le compositeur la remet à
-> jour en décalage avec le défilement : la barre flotte visiblement. En
-> `position: fixed`, elle a sa propre couche et ne suit plus le contenu. Le
+> **Une classe, un seul rôle.** `site.js` ajoute la classe `defile` à la barre
+> dès qu'on descend de 40 px, pour changer son fond. La piste de la bande
+> partenaire portait **la même classe**, avec `width: max-content` et une
+> animation de translation de 48 s. La barre en héritait : rétrécie à la largeur
+> de son contenu, elle dérivait vers la gauche pendant la lecture. La piste
+> s'appelle désormais `bandeau-piste`. Dans une feuille globale de 2 900 règles,
+> un nom de classe est un identifiant : il ne doit désigner qu'une seule chose.
+> Le défaut venait de la maquette, où les deux classes cohabitaient déjà.
+
+> **Et pourquoi la barre est `fixed`, pas `sticky`.** Les deux la tiennent en
+> haut. `fixed` la sort du flux pour de bon : elle reste atteignable quand le
+> menu mobile est ouvert et que le défilement de la page est bloqué. Le
 > changement est neutre pour la mise en page : avec `margin-bottom: -68px`, la
 > barre n'occupait déjà aucune hauteur dans le flux. `scroll-padding-top` sur
-> `html` évite que les ancres amènent un titre sous la barre.
+> `html` évite que les ancres amènent un titre sous elle.
 
 ## Les images
 
@@ -202,8 +209,8 @@ logo par `npm run images`.
 
 ## Ce qui a changé par rapport à la maquette
 
-Le rendu et les textes sont identiques. Ces seize points sont les seuls écarts,
-tous délibérés.
+Le rendu et les textes sont identiques. Ces dix-sept points sont les seuls
+écarts, tous délibérés.
 
 | | Maquette | Site | Pourquoi |
 |---|---|---|---|
@@ -222,7 +229,8 @@ tous délibérés.
 | 13 | Panneau du menu mobile dans le `<header>` | hors du `<header>` | Il s'ouvrait sans hauteur : le menu était inutilisable sur téléphone |
 | 14 | Boutons « Télécharger l'app » sans destination | `/telecharger/`, puis le magasin de l'appareil | Le premier appel à l'action du site ne menait nulle part |
 | 15 | QR code dessiné, décoratif | QR code réel vers `/telecharger/` | Il était scannable et ne menait nulle part |
-| 16 | Barre de navigation `sticky` | `fixed`, avec `scroll-padding-top` | Son flou la faisait flotter pendant le défilement |
+| 16 | Barre de navigation `sticky` | `fixed`, avec `scroll-padding-top` | Hors du flux pour de bon, et ancres dégagées de la barre |
+| 17 | Piste de la bande partenaire en `.defile` | `.bandeau-piste` | Même classe que l'état défilé de la barre, qui héritait de l'animation et dérivait |
 
 Quatre méta-descriptions dépassaient la longueur affichée par Google. Deux ont
 été raccourcies, ce qui demande ta relecture : voir
