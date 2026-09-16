@@ -10,6 +10,31 @@ git push  →  GitHub Actions  →  npm ci  →  npm run build  →  npm run ver
 Si `npm run verifier` trouve un lien interne mort, le déploiement s'arrête et
 le site en ligne n'est pas touché.
 
+## Le second workflow : la note des magasins
+
+`.github/workflows/notes.yml` tourne **chaque lundi à 6 h UTC**, et se lance
+aussi à la demande depuis l'onglet Actions.
+
+```
+lundi 6 h  →  npm run notes  →  la note a bougé ?
+                                  non → rien, l'exécution s'arrête
+                                  oui → commit, puis déploiement
+```
+
+Deux points méritent d'être connus.
+
+**Le déploiement est appelé explicitement.** Une poussée faite avec le
+`GITHUB_TOKEN` ne déclenche aucun autre workflow — GitHub l'empêche pour éviter
+les boucles. `notes.yml` appelle donc `deploy.yml`, qui accepte `workflow_call`
+en plus de `push`.
+
+**Rien n'est publié quand rien ne change.** Le job de publication est
+conditionné à une modification réelle de `src/config.js`. Essai du 16 septembre
+2026 : note inchangée, job de publication sauté.
+
+Google Play n'est pas relevé automatiquement : sa fiche ne contient plus de
+donnée structurée lisible. Sa note se saisit à la main dans `src/config.js`.
+
 ---
 
 ## Les deux réglages qui gouvernent tout
