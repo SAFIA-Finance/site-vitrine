@@ -156,7 +156,7 @@ un dessin décoratif, qui ne menait nulle part.
 
 ## Le blog
 
-134 des 154 pages du site sont des pages de blog. Elles ne sont pas écrites à la
+134 des 157 pages du site sont des pages de blog. Elles ne sont pas écrites à la
 main : elles viennent d'une collection de contenu.
 
 ```
