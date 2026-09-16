@@ -83,6 +83,19 @@ visiteur compare à son budget mensuel.
 an » en secondaire, en gardant la bascule. La mention « 2 mois offerts » reste
 l'argument de l'annuel.
 
+> **Fait le 16 septembre 2026**, arbitré par Maxime. Le chiffre en grand est
+> désormais mensuel dans les deux états : **24,92 € par mois** en annuel, avec
+> « Facturé 299 € par an, soit 2 mois offerts » dessous, et **29,99 € par mois**
+> en mensuel. Le total annuel reste donc toujours visible.
+>
+> Le piège ici n'était pas le HTML mais sa cohabitation avec le script : le
+> balisage donne l'état initial, `accueil.js` et `tarifs.js` réécrivent les
+> mêmes éléments au clic. Modifier l'un sans l'autre donnait une page juste au
+> chargement et fausse au premier clic. La bascule a donc été **exercée** dans
+> un navigateur sur les deux pages, dans les trois états : 28 contrôles, tous
+> au vert, y compris la puce « accompagnement d'un conseiller » qui disparaît
+> en mensuel.
+
 **4. Sur mobile, `/telecharger/` demande de choisir un magasin que l'appareil
 connaît déjà.**
 Le script redirige déjà les boutons du site, mais un visiteur venu du QR code ou

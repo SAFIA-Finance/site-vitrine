@@ -6,9 +6,11 @@
     b.addEventListener('click',function(){
       boutons.forEach(function(x){x.setAttribute('aria-pressed',String(x===b));});
       var annuel=b.dataset.periode==='annuel';
-      prix.textContent=annuel?'299 €':'29,99 €';
-      periode.textContent=annuel?'par an':'par mois';
-      equiv.textContent=annuel?'Soit 24,92 € par mois au lieu de 29,99 €':'Sans conseiller. Passe à l\u2019annuel pour l\u2019ajouter.';
+      // Le chiffre mis en avant est toujours mensuel : c'est celui auquel un
+      // visiteur compare son budget. Le total annuel reste affiché dessous.
+      prix.textContent=annuel?'24,92 €':'29,99 €';
+      periode.textContent='par mois';
+      equiv.textContent=annuel?'Facturé 299 € par an, soit 2 mois offerts':'Sans conseiller. Passe à l\u2019annuel pour l\u2019ajouter.';
       conseiller.hidden=!annuel;
     });
   });
