@@ -136,10 +136,25 @@ du hero et sans logos. La rapprocher des boutons aurait plus d'effet.
 > avis**, là où la moyenne des moyennes afficherait 4,8. L'effectif total est
 > toujours affiché avec la note, et un magasin sans avis est ignoré.
 >
-> Chaque magasin est renseigné à la main dans `PREUVES.notes`, `src/config.js`,
-> et `noteConsolidee()` fait le calcul au build. Google Play reste à compléter :
-> sa fiche est rendue en JavaScript et ne se lit pas automatiquement, la valeur
-> vient de la Play Console → Qualité → Notes.
+> Chaque magasin est renseigné dans `PREUVES.notes`, `src/config.js`, et
+> `noteConsolidee()` fait le calcul au build. Au 16 septembre 2026 : 5,0 sur
+> 3 avis côté Apple, 5,0 sur 1 avis côté Google, soit **5,0 sur 4 avis**.
+>
+> **Relève automatique, arbitrée le 16 septembre : Apple oui, Google non.**
+> `npm run notes` interroge l'API publique d'Apple — sans clé, sans compte,
+> sans dépendance — et met à jour la ligne App Store. Google Play reste saisi à
+> la main : sa fiche est rendue en JavaScript et ne contient plus aucune donnée
+> structurée (vérifié : ni `ratingValue`, ni `ratingCount`, ni
+> `aggregateRating`). La lire demanderait soit l'API Play Developer, donc un
+> compte de service Google Cloud et un secret à gérer, soit un extracteur non
+> officiel qui devine la position de la note dans les blocs de données de la
+> page — et qui renverrait un jour une valeur fausse sans prévenir. Sur le site
+> d'un CIF, une note silencieusement fausse est pire qu'une note saisie à la
+> main. À reconsidérer quand Android aura assez d'avis pour que ça compte.
+>
+> Dans tous les cas, la valeur atterrit **dans un commit**, jamais dans un appel
+> invisible au moment du build : une affirmation publique doit rester visible
+> dans l'historique et réversible.
 >
 > Tout vit dans `PREUVES`, dans `src/config.js` : chiffres, note et mention de
 > bêta se mettent à jour ou se retirent à un seul endroit. L'avantage est borné

@@ -37,6 +37,7 @@ npm run dev     # http://localhost:4321
 | `npm run referencement` | Reporte `docs/REFERENCEMENT.md` dans `src/data/pages.json` |
 | `npm run qr` | Régénère le QR code de téléchargement (à relancer si `SITE_URL` change) |
 | `npm run blog` | Découpe les fichiers de `Blog/` en articles dans `src/content/blog/` |
+| `npm run notes` | Relève la note de l'App Store et la reporte dans `src/config.js` |
 
 `npm run build` puis `npm run verifier` est la vérification à faire avant de
 pousser. La même paire tourne automatiquement dans GitHub Actions et bloque le

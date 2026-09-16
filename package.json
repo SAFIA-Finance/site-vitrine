@@ -16,7 +16,8 @@
     "referencement": "node outils/referencement.mjs",
     "images": "node outils/generer-images.mjs",
     "qr": "node outils/generer-qr.mjs",
-    "blog": "node outils/blog-en-articles.mjs"
+    "blog": "node outils/blog-en-articles.mjs",
+    "notes": "node outils/relever-notes.mjs"
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.4",
