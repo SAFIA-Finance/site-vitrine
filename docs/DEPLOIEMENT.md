@@ -205,10 +205,23 @@ d'envoyer les visiteurs vers `sitev2.safia.finance`.
 
 ### 5. Déplacer le domaine
 
-Le site actuel **n'est pas sur GitHub Pages** : au 15 septembre 2026,
-`safia.finance` pointe vers `185.226.172.12`, un autre hébergeur, et
-`www.safia.finance` passe par le proxy Cloudflare. La bascule se fait donc
-entièrement dans Cloudflare, sans rien à retirer côté GitHub.
+Le site actuel **n'est pas sur GitHub Pages**. Relevé le 16 septembre 2026 :
+
+| | |
+|---|---|
+| `safia.finance` | `185.226.172.12`, sans proxy Cloudflare |
+| Propriétaire du bloc | **OneProvider** (`ONEPROVIDER-DE-FRA`), Francfort, Allemagne — **pas Scaleway** |
+| Serveur | `nginx/1.18.0 (Ubuntu)`, fichier HTML statique de 87 Ko |
+| Dernière modification | 7 juin 2026 |
+| `www.safia.finance` | `188.114.96.2`, `2a06:98c1::` — proxy Cloudflare |
+
+À ne pas confondre avec l'hébergement de l'**application**, qui est chez
+Scaleway, à Paris et Francfort, comme l'indiquent les mentions légales. Ce sont
+deux choses distinctes.
+
+La bascule se fait donc entièrement dans Cloudflare, sans rien à retirer côté
+GitHub. Pense à prévenir OneProvider si cette machine n'a plus d'usage après la
+bascule : elle continuerait d'être facturée.
 
 1. Dans **ce** dépôt : Settings → Pages → custom domain `safia.finance`.
 2. Cloudflare → DNS : **remplacer** le `A` de l'apex (`185.226.172.12`) par les
