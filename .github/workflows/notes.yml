@@ -1,0 +1,73 @@
+name: Relever la note des magasins
+
+# La note de l'App Store est relevée toute seule et, si elle a bougé, enregistrée
+# dans src/config.js puis publiée. Google Play reste saisi à la main : sa fiche
+# ne contient plus de donnée structurée lisible (voir outils/relever-notes.mjs).
+#
+# Une poussée faite avec le GITHUB_TOKEN ne déclenche pas d'autre workflow —
+# GitHub l'empêche pour éviter les boucles. Le déploiement est donc appelé
+# explicitement ici, et seulement si la note a changé.
+
+on:
+  schedule:
+    # Lundi, 6 h UTC. Une note bouge rarement : une fois par semaine suffit et
+    # laisse l'historique lisible. Changer cette ligne suffit à l'accélérer.
+    - cron: '0 6 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: notes
+  cancel-in-progress: false
+
+jobs:
+  relever:
+    name: Relever la note App Store
+    runs-on: ubuntu-latest
+    outputs:
+      modifie: ${{ steps.releve.outputs.modifie }}
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Installer les dépendances
+        run: npm ci
+
+      # Le script s'arrête de lui-même en cas de doute : identifiant introuvable,
+      # réponse inattendue, note hors échelle, zéro avis. L'étape échoue alors,
+      # et rien n'est publié.
+      - name: Relever la note
+        id: releve
+        run: |
+          npm run notes
+          if git diff --quiet -- src/config.js; then
+            echo "modifie=false" >> "$GITHUB_OUTPUT"
+            echo "Note inchangée : rien à publier."
+          else
+            echo "modifie=true" >> "$GITHUB_OUTPUT"
+            git diff -- src/config.js
+          fi
+
+      - name: Enregistrer la nouvelle note
+        if: steps.releve.outputs.modifie == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Note des magasins : relevé automatique de l'App Store" -- src/config.js
+          git push
+
+  publier:
+    name: Publier le site
+    needs: relever
+    if: needs.relever.outputs.modifie == 'true'
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    uses: ./.github/workflows/deploy.yml

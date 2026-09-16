@@ -4,6 +4,10 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  # Appelé par .github/workflows/notes.yml : une poussée faite avec le
+  # GITHUB_TOKEN ne déclenche pas d'autre workflow, le déploiement doit donc
+  # être demandé explicitement.
+  workflow_call:
 
 # Droits requis par le déploiement GitHub Pages.
 permissions:
