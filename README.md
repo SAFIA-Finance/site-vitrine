@@ -76,6 +76,7 @@ docs/                          Documentation du projet
 | [docs/REFERENCEMENT.md](docs/REFERENCEMENT.md) | Les titres et descriptions affichés par Google, à relire |
 | [docs/FORMULAIRES.md](docs/FORMULAIRES.md) | Newsletter et demandes de démonstration : le relais vers Brevo |
 | [docs/PAGES-LEGALES.md](docs/PAGES-LEGALES.md) | Les cinq pages produites à partir des documents Word |
+| [docs/AUDIT-UX.md](docs/AUDIT-UX.md) | Audit d'interface et de conversion, et propositions à arbitrer |
 
 ---
 

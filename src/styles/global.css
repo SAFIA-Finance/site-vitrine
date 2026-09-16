@@ -74,7 +74,7 @@ body.bloque{overflow:hidden}
   .panneau.ouvert{display:block}
   .panneau h3{font-size:13px;font-weight:500;color:rgba(255,255,255,.55);margin:20px 0 6px}
   .panneau a{display:block;padding:10px 0;font-size:20px;text-decoration:none;border-bottom:1px solid rgba(255,255,255,.08)}
-  .panneau .btn{margin-top:28px;width:100%;justify-content:center;border:0}
+  .panneau .btn{display:flex;align-items:center;justify-content:center;width:100%;margin-top:28px;padding:14px 22px;font-size:16px;border:0}
 }
 
 /* ---------- Hero ---------- */
@@ -263,7 +263,7 @@ blockquote footer strong{color:var(--encre);display:block;font-size:18px}
 /* ---------- Téléchargement de l'application ---------- */
 .qr img{width:64px;height:64px;border-radius:10px;background:var(--blanc);padding:6px;flex:none}
 
-.modale{width:min(460px,calc(100% - 32px));padding:26px;border:0;border-radius:24px;background:var(--nuit);color:var(--blanc);box-shadow:0 30px 80px rgba(10,5,40,.55)}
+.modale{width:min(460px,calc(100% - 32px));margin:auto;padding:26px;border:0;border-radius:24px;background:var(--nuit);color:var(--blanc);box-shadow:0 30px 80px rgba(10,5,40,.55)}
 .modale::backdrop{background:rgba(10,5,40,.62)}
 .modale form{display:flex;justify-content:flex-end;margin:-8px -6px 0 0}
 .modale-x{background:none;border:0;cursor:pointer;color:rgba(255,255,255,.7);padding:6px;line-height:0;border-radius:999px}
@@ -295,7 +295,7 @@ blockquote footer strong{color:var(--encre);display:block;font-size:18px}
 /* Scanner un QR code avec l'appareil qui l'affiche n'a pas de sens. */
 @media (max-width:760px){
   .tele{grid-template-columns:1fr;gap:32px}
-  .tele-qr,.final .qr{display:none}
+  .tele-qr,.tele-note,.final .qr{display:none}
 }
 
 .newsletter{padding:28px;border-radius:var(--r-l);background:rgba(19,12,54,.45);box-shadow:inset 0 0 0 1px rgba(255,255,255,.18)}
