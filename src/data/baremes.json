@@ -14,7 +14,13 @@
       { "plafond": 181917, "taux": 0.41 },
       { "plafond": null, "taux": 0.45 }
     ],
-    "plafondDemiPart": 1807,
+    "plafonnementQf": {
+      "commentaire": "Double liquidation. On calcule l'impôt aux parts réelles, puis l'impôt aux « parts de base » (1 si seul, 2 si couple) diminué des plafonds d'avantage. L'impôt retenu est le PLUS ÉLEVÉ des deux : l'avantage tiré des demi-parts supplémentaires ne peut pas dépasser le plafond. L'avantage du quotient conjugal, lui, n'est jamais plafonné.",
+      "demiPart": 1807,
+      "partEntiereParentIsole": 4262,
+      "veuf": 2011,
+      "personneSeuleAyantEleveUnEnfant": 1079
+    },
     "decote": {
       "commentaire": "Décote = forfait − 45,25 % de l'impôt brut, si l'impôt brut reste sous le seuil.",
       "forfaitSeul": 897,

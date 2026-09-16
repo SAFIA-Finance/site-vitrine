@@ -1,0 +1,211 @@
+---
+// Simulateur d'impôt sur le revenu, barème 2026 sur les revenus 2025.
+//
+// Le parti pris : montrer les ÉTAPES, pas seulement le montant. Le plafonnement
+// du quotient familial et la décote n'apparaissent nulle part sur une feuille
+// d'impôt, et ce sont pourtant eux qui expliquent la plupart des surprises.
+//
+// Périmètre assumé : salaires et revenus déjà nets imposables. Ni pensions avec
+// leur abattement propre, ni revenus fonciers au réel, ni prélèvement
+// forfaitaire unique. C'est écrit sur la page plutôt que sous-entendu.
+import Base from '../../layouts/Base.astro';
+import baremes from '../../data/baremes.json';
+
+const fil = ['Accueil', 'Outils', 'Impôt sur le revenu'];
+const ir = baremes.ir;
+const qf = ir.plafonnementQf;
+
+// Le script du navigateur reçoit le bloc « ir » entier : il fait tourner le
+// même moteur que celui utilisé au build, sur les mêmes chiffres.
+const faq = [
+  {
+    q: 'Quel barème ce simulateur applique-t-il ?',
+    r: `Le barème 2026, qui porte sur les revenus de 2025 : ${ir.tranches
+      .filter((t) => t.taux > 0)
+      .map((t) => `${Math.round(t.taux * 100)} %`)
+      .join(', ')} et 0 % jusqu'à ${ir.tranches[0].plafond.toLocaleString('fr-FR')} € par part. Il a été revalorisé de 0,9 % par la loi de finances pour 2026.`,
+  },
+  {
+    q: 'Qu’est-ce que le plafonnement du quotient familial ?',
+    r: `Les enfants font baisser l'impôt, mais pas indéfiniment : l'avantage est plafonné à ${qf.demiPart.toLocaleString('fr-FR')} € par demi-part supplémentaire. L'administration calcule l'impôt deux fois — avec le vrai nombre de parts, puis avec les seules parts de base diminuées du plafond — et retient le plus élevé. Ce simulateur fait la même chose et te le montre.`,
+  },
+  {
+    q: 'Être dans la tranche à 30 %, est-ce payer 30 % de ses revenus ?',
+    r: "Non, et c'est la confusion la plus répandue. Seule la fraction de revenu qui dépasse le seuil de la tranche est taxée à ce taux. C'est pourquoi le taux moyen affiché est toujours nettement inférieur à la tranche marginale. Le détail par tranche le montre ligne par ligne.",
+  },
+  {
+    q: 'Le résultat correspond-il exactement à mon avis d’imposition ?',
+    r: "Pas nécessairement. Ce simulateur couvre les salaires et les revenus déjà nets imposables. Il ne traite ni les pensions avec leur abattement propre, ni les revenus fonciers au réel, ni le prélèvement forfaitaire unique, ni les situations particulières comme le veuvage ou l'invalidité. Pour un calcul officiel, utilise le simulateur de la DGFiP.",
+  },
+];
+---
+
+<Base chemin={'/outils/impot-revenu/'} fil={fil} faq={faq}>
+<section class="hero hero-page hero-court">
+<div class="wrap hero-page-in">
+  <p class="etiq-page">Outils</p>
+  <p class="fil-ariane" aria-label="Fil d'Ariane">
+    <a href="/">Accueil</a> <span aria-hidden="true">/</span>
+    <a href="/outils/">Outils</a> <span aria-hidden="true">/</span> Impôt sur le revenu
+  </p>
+  <h1>Ton impôt, étape par étape.</h1>
+  <p class="chapo">
+    Barème 2026 sur les revenus 2025. Le simulateur ne te donne pas seulement un montant :
+    il montre le calcul, y compris le plafonnement du quotient familial et la décote,
+    que ta feuille d'impôt ne détaille jamais.
+  </p>
+</div>
+</section>
+
+<section class="bloc">
+<div class="wrap">
+  <script type="application/json" id="sim-donnees" set:html={JSON.stringify(ir)} />
+
+  <div class="sim">
+    <form class="sim-form" id="sim" novalidate>
+      <h2 class="sim-titre">Ton foyer</h2>
+
+      <div class="sim-champ">
+        <label for="situation">Situation</label>
+        <select id="situation">
+          <option value="seul">Célibataire, divorcé</option>
+          <option value="couple">Marié ou pacsé</option>
+        </select>
+      </div>
+
+      <div class="sim-champ" data-duo="enfants">
+        <label for="enfants-n">Enfants à charge</label>
+        <div class="sim-duo">
+          <input type="range" id="enfants" min="0" max="6" step="1" value="0" aria-hidden="true" tabindex="-1" />
+          <input type="number" id="enfants-n" min="0" max="6" step="1" value="0" inputmode="numeric" />
+          <span class="sim-unite">enf.</span>
+        </div>
+        <p class="sim-aide">Une demi-part pour chacun des deux premiers, une part entière à partir du troisième.</p>
+      </div>
+
+      <div class="sim-option" id="bloc-isole" hidden>
+        <input type="checkbox" id="parent-isole" />
+        <label for="parent-isole">J'élève seul mes enfants (case T)</label>
+      </div>
+
+      <h2 class="sim-titre sim-titre-suite">Tes revenus 2025</h2>
+
+      <div class="sim-champ" data-duo="salaires">
+        <label for="salaires-n">Salaires nets imposables</label>
+        <div class="sim-duo">
+          <input type="range" id="salaires" min="0" max="200000" step="500" value="35000" aria-hidden="true" tabindex="-1" />
+          <input type="number" id="salaires-n" min="0" max="200000" step="500" value="35000" inputmode="decimal" />
+          <span class="sim-unite">€</span>
+        </div>
+        <p class="sim-aide">Le montant de ta fiche de paie de décembre, avant l'abattement de 10 % que le simulateur applique.</p>
+      </div>
+
+      <!-- L'abattement de 10 % se plafonne PAR PERSONNE : additionner les deux
+           salaires dans un seul champ surestimerait l'impôt des couples aisés. -->
+      <div class="sim-champ" id="bloc-conjoint" data-duo="salaires-conjoint" hidden>
+        <label for="salaires-conjoint-n">Salaires nets imposables du conjoint</label>
+        <div class="sim-duo">
+          <input type="range" id="salaires-conjoint" min="0" max="200000" step="500" value="0" aria-hidden="true" tabindex="-1" />
+          <input type="number" id="salaires-conjoint-n" min="0" max="200000" step="500" value="0" inputmode="decimal" />
+          <span class="sim-unite">€</span>
+        </div>
+      </div>
+
+      <div class="sim-champ sim-champ-mince" data-duo="autres">
+        <label for="autres-n">Autres revenus déjà nets imposables</label>
+        <div class="sim-duo">
+          <input type="range" id="autres" min="0" max="200000" step="500" value="0" aria-hidden="true" tabindex="-1" />
+          <input type="number" id="autres-n" min="0" max="200000" step="500" value="0" inputmode="decimal" />
+          <span class="sim-unite">€</span>
+        </div>
+        <p class="sim-aide">Aucun abattement n'est appliqué à ce montant : saisis-le déjà net imposable.</p>
+      </div>
+
+      <div class="sim-champ sim-champ-mince" data-duo="reductions">
+        <label for="reductions-n">Réductions et crédits d'impôt</label>
+        <div class="sim-duo">
+          <input type="range" id="reductions" min="0" max="20000" step="100" value="0" aria-hidden="true" tabindex="-1" />
+          <input type="number" id="reductions-n" min="0" max="20000" step="100" value="0" inputmode="decimal" />
+          <span class="sim-unite">€</span>
+        </div>
+        <p class="sim-aide">Dons, emploi à domicile, garde d'enfants : le total, si tu le connais.</p>
+      </div>
+    </form>
+
+    <div class="sim-resultat">
+      <p class="sim-resultat-etiq">Impôt estimé</p>
+      <p class="sim-chiffre" id="r-impot">—</p>
+      <p class="sim-reel-ligne">Soit <strong id="r-mensuel">—</strong> par mois.</p>
+
+      <dl class="sim-detail">
+        <div><dt>Tranche marginale</dt><dd id="r-tmi">—</dd></div>
+        <div><dt>Taux moyen</dt><dd id="r-taux-moyen">—</dd></div>
+        <div><dt>Parts</dt><dd id="r-parts">—</dd></div>
+      </dl>
+
+      <div class="sim-etapes">
+        <h3>Le calcul, dans l'ordre</h3>
+        <dl>
+          <div><dt>Revenu net imposable</dt><dd id="r-imposable">—</dd></div>
+          <div><dt>Impôt au barème</dt><dd id="e-bareme">—</dd></div>
+          <div id="e-plafonnement-ligne" hidden>
+            <dt>Plafonnement du quotient familial</dt><dd id="e-plafonnement">—</dd>
+          </div>
+          <div id="e-decote-ligne" hidden><dt>Décote</dt><dd id="e-decote">—</dd></div>
+          <div id="e-reductions-ligne" hidden><dt>Réductions et crédits</dt><dd id="e-reductions">—</dd></div>
+        </dl>
+        <p class="sim-aide" id="e-plafonnement-note"></p>
+      </div>
+
+      <div class="sim-tableau-boite">
+        <table class="sim-tranches">
+          <caption>Ce que chaque tranche te coûte</caption>
+          <thead><tr><th scope="col">Taux</th><th scope="col">Revenu concerné</th><th scope="col">Impôt</th></tr></thead>
+          <tbody id="sim-tranches-corps"></tbody>
+        </table>
+      </div>
+
+      <p class="sim-synthese" id="sim-synthese" role="status"></p>
+    </div>
+  </div>
+
+  <div class="sim-notes">
+    <h2>Ce que ce calcul ne dit pas</h2>
+    <ul>
+      <li>Il couvre les <strong>salaires</strong> et les revenus que tu saisis déjà nets imposables. Les <strong>pensions</strong> ont un abattement de 10 % aux plancher et plafond différents, qui n'est pas appliqué ici.</li>
+      <li>Il ne traite ni les <strong>revenus fonciers au réel</strong>, ni le <strong>prélèvement forfaitaire unique</strong> sur les revenus de capitaux, ni les <strong>frais réels</strong> à la place de l'abattement.</li>
+      <li>Il ne gère pas les situations à demi-part spécifique : <strong>veuvage</strong> ({qf.veuf.toLocaleString('fr-FR')} € de plafond), invalidité, ancien combattant, ou personne seule ayant élevé un enfant ({qf.personneSeuleAyantEleveUnEnfant.toLocaleString('fr-FR')} €).</li>
+      <li>Il ignore la <strong>contribution exceptionnelle sur les hauts revenus</strong> et le seuil en dessous duquel l'impôt n'est pas mis en recouvrement.</li>
+      <li>Pour un calcul officiel, le simulateur de la DGFiP fait foi.
+        <a class="lien-petit" href="https://simulateur-ir-ifi.impots.gouv.fr/calcul_impot/2026/complet/index.htm" rel="noopener">Simulateur officiel</a>
+      </li>
+    </ul>
+    <p class="sim-source">
+      Barème, quotient familial et plafonnement : <a class="lien-petit" href={ir.sources[0].url} rel="noopener">service-public.gouv.fr</a> ·
+      Décote : <a class="lien-petit" href={ir.sources[1].url} rel="noopener">BOFiP</a> ·
+      Abattement de 10 % : <a class="lien-petit" href={ir.sources[2].url} rel="noopener">BOFiP</a>.
+      Chiffres vérifiés le 16 septembre 2026.
+    </p>
+    <p class="sim-avertissement">
+      Cet outil a une vocation informative et pédagogique. Il ne constitue pas un conseil fiscal ni un conseil
+      en investissement personnalisé au sens de l'article L. 541-1 du Code monétaire et financier. Seule
+      l'administration fiscale établit l'impôt dû.
+      <a class="lien-petit" href="/disclaimer/">Avertissement complet</a>
+    </p>
+  </div>
+</div>
+</section>
+
+<section class="final">
+<div class="wrap final-simple">
+  <h2>Et si tu payais moins ?</h2>
+  <p>Connaître sa tranche marginale, c'est le point de départ. SAFIA regarde ta situation réelle et te dit quels leviers s'y appliquent.</p>
+  <a class="btn btn-primaire" href="/telecharger/" data-app>Télécharger l'app</a>
+  <a class="lien" href="/outils/">Voir les autres outils</a>
+</div>
+</section>
+</Base>
+
+<script>
+  import '../../scripts/outils/impot-revenu.js';
+</script>

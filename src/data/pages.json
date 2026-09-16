@@ -126,6 +126,15 @@
     "description": "Projette ton épargne ou pars de ton objectif. Taux des livrets réglementés à jour, résultat corrigé de l'inflation."
   },
   {
+    "slug": "outils-impot-revenu",
+    "fichier": "outils/impot-revenu.astro",
+    "route": "/outils/impot-revenu/",
+    "libelle": "Impôt sur le revenu",
+    "ref": "OIR",
+    "titre": "Simulateur d'impôt sur le revenu 2026 · SAFIA",
+    "description": "Calcule ton impôt 2026 sur les revenus 2025 : tranche marginale, taux moyen, plafonnement du quotient familial et décote, étape par étape."
+  },
+  {
     "slug": "fondateur",
     "fichier": "fondateur.astro",
     "route": "/fondateur/",

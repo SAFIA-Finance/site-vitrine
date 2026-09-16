@@ -27,7 +27,7 @@ export const OUTILS = [
     nom: 'Impôt sur le revenu',
     route: '/outils/impot-revenu/',
     resume: 'Ton impôt, ta tranche marginale et ton taux moyen, barème 2026.',
-    publie: false,
+    publie: true,
   },
   {
     cle: 'per',

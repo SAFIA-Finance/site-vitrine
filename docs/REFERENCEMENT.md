@@ -21,7 +21,7 @@ directement, c'est un fichier texte.
 
 ---
 
-## Les 18 pages publiques
+## Les 19 pages publiques
 
 ### Accueil · `/`
 
@@ -115,6 +115,11 @@ directement, c'est un fichier texte.
 
 - **Titre** (36) : Simulateur d'épargne gratuit · SAFIA
 - **Description** (115) : Projette ton épargne ou pars de ton objectif. Taux des livrets réglementés à jour, résultat corrigé de l'inflation.
+
+### Impôt sur le revenu · `/outils/impot-revenu/`
+
+- **Titre** (45) : Simulateur d'impôt sur le revenu 2026 · SAFIA
+- **Description** (138) : Calcule ton impôt 2026 sur les revenus 2025 : tranche marginale, taux moyen, plafonnement du quotient familial et décote, étape par étape.
 
 ---
 

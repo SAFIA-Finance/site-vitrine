@@ -29,8 +29,8 @@ passer son `publie` à `true` et créer sa page. Aucune autre liste à mettre à
 |---|---|
 | Intérêts composés | En ligne |
 | Simulateur d'épargne | En ligne |
-| Impôt sur le revenu | À faire — barème prêt dans `baremes.json` |
-| Simulateur PER | À faire — dépend du moteur d'impôt sur le revenu |
+| Impôt sur le revenu | En ligne |
+| Simulateur PER | À faire — le moteur d'impôt dont il dépend existe désormais |
 | Le coût de tes frais | À faire — `ecartDeFrais()` est déjà écrit |
 | Simulateur IFI | À faire — barème prêt |
 | Succession et donation | À faire — barème à collecter |
@@ -39,8 +39,42 @@ passer son `publie` à `true` et créer sa page. Aucune autre liste à mettre à
 
 L'ordre de construction n'est pas libre : **le PER dépend du moteur d'impôt sur
 le revenu**, puisque l'économie d'impôt qu'il affiche est la différence entre
-deux calculs d'IR. Le simulateur d'impôt vient donc d'abord, et il se vérifie
-contre le simulateur officiel de la DGFiP.
+deux calculs d'IR. Le simulateur d'impôt est donc venu d'abord.
+
+## Le moteur d'impôt et sa validation
+
+`src/calculs/impot-revenu.js` applique l'ordre imposé par le code général des
+impôts : revenu net imposable, quotient familial, barème, **plafonnement**,
+**décote**, puis réductions et crédits. Le BOFiP est formel sur ce point : la
+décote intervient après le plafonnement et avant les réductions.
+
+Le plafonnement se fait par **double liquidation**. On calcule l'impôt aux parts
+réelles, puis l'impôt aux seules parts de base (1 si seul, 2 si couple) diminué
+du plafond d'avantage, et **on retient le plus élevé des deux**. L'avantage du
+quotient conjugal n'est jamais plafonné, ce qui est précisément la raison pour
+laquelle les parts de base valent 2 pour un couple.
+
+Le moteur a été validé contre un **exemple officiel du BOFiP**
+(BOI-IR-LIQ-20-20-20). Le test ne vit pas dans le dépôt — l'outillage de test
+reste hors du projet — mais ses cas doivent pouvoir être rejoués :
+
+| Cas | Attendu |
+|---|---|
+| Couple, 4 enfants, 130 000 €, **barème des revenus 2024**, plafond 1 791 € | impôt à 2 parts 25 331 €, à 5 parts 7 977 €, plafond 10 746 €, **impôt retenu 14 585 €** |
+| Parent isolé, 2 enfants | 2,5 parts, plafond 4 262 € + 1 807 € = **6 069 €** |
+| Couple, 2 enfants | plafond 2 × 1 807 € = 3 614 € |
+| Couple sans enfant | aucun plafonnement |
+| Célibataire, 20 000 € de salaires | imposable 18 000 €, décote = 897 − 45,25 % de l'impôt |
+| Couple, deux salaires de 160 000 € | l'abattement de 10 % est plafonné **par personne**, soit 2 × 14 555 € |
+
+Ce premier cas a servi à trancher une ambiguïté : le résumé de la page BOFiP
+énonçait la bonne règle puis concluait l'inverse sur son propre exemple. C'est
+l'arithmétique qui a tranché, pas le texte du résumé. **Refaire le calcul à la
+main reste la seule façon fiable de valider un moteur fiscal.**
+
+Périmètre assumé du simulateur : salaires et revenus déjà nets imposables. Ni
+pensions avec leur abattement propre, ni foncier au réel, ni PFU, ni veuvage ou
+invalidité. C'est écrit sur la page, pas seulement ici.
 
 ## Deux partis pris de calcul
 

@@ -1532,3 +1532,25 @@ a.sim-choix-carte:hover{background:var(--lavande)}
 @media (prefers-reduced-motion:reduce){
   .sim-choix-carte,.pied-outils summary svg{transition:none}
 }
+
+
+/* ---------- Simulateur d’impôt : étapes et tranches ---------- */
+/* Le calcul se lit comme une feuille d'impôt : une ligne par étape, dans
+   l'ordre où l'administration les applique. Les lignes qui n'ont pas joué
+   restent masquées plutôt que d'afficher « 0 € ». */
+.sim-titre-suite{margin-top:30px;padding-top:24px;border-top:1px solid var(--ligne)}
+.sim-etapes{margin-top:24px;padding-top:22px;border-top:1px solid rgba(255,255,255,.16)}
+.sim-etapes h3{font-size:12.5px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:rgba(255,255,255,.66);margin-bottom:14px}
+.sim-etapes dl{display:grid;gap:9px}
+.sim-etapes dl > div{display:flex;justify-content:space-between;align-items:baseline;gap:18px;font-size:14.5px}
+.sim-etapes dt{color:rgba(255,255,255,.78)}
+.sim-etapes dd{font-weight:600;font-variant-numeric:tabular-nums;white-space:nowrap}
+.sim-etapes .sim-aide{color:rgba(255,255,255,.62);margin-top:12px}
+.sim-etapes .sim-aide:empty{display:none}
+
+.sim-tranches{width:100%;border-collapse:collapse;margin-top:24px;font-size:14px;font-variant-numeric:tabular-nums}
+.sim-tranches caption{text-align:left;font-size:12.5px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:rgba(255,255,255,.66);padding-bottom:12px}
+.sim-tranches th,.sim-tranches td{padding:8px 10px;text-align:right;white-space:nowrap;border-bottom:1px solid rgba(255,255,255,.12)}
+.sim-tranches thead th{font-size:12.5px;font-weight:600;color:rgba(255,255,255,.66)}
+.sim-tranches tbody th{text-align:left;font-weight:600;color:var(--blanc)}
+.sim-tranches td[colspan]{text-align:left;color:rgba(255,255,255,.7);white-space:normal}
