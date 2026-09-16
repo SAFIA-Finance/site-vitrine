@@ -15,7 +15,8 @@
     "verifier": "node outils/verifier-liens.mjs dist",
     "referencement": "node outils/referencement.mjs",
     "images": "node outils/generer-images.mjs",
-    "qr": "node outils/generer-qr.mjs"
+    "qr": "node outils/generer-qr.mjs",
+    "blog": "node outils/blog-en-articles.mjs"
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.4",

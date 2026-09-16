@@ -1,6 +1,18 @@
 ---
+// Sommaire du blog. Les cartes sont produites à partir des articles réels :
+// la maquette affichait six emplacements et sept liens sans destination.
+import { getCollection } from 'astro:content';
 import Base from '../layouts/Base.astro';
-const fil = ["Accueil","Ressources","Le blog"];
+import { slugCategorie, dateFr, dateIso, parDate } from '../blog.js';
+
+const fil = ['Accueil', 'Ressources', 'Le blog'];
+
+const articles = (await getCollection('blog', ({ data }) => !data.brouillon)).sort(parDate);
+const [une, ...suite] = articles;
+
+// L'ordre des thèmes suit le plan éditorial, pas l'alphabet.
+const categories = [...new Set(articles.map((a) => a.data.categorie))];
+const compte = (c) => articles.filter((a) => a.data.categorie === c).length;
 ---
 
 <Base
@@ -12,55 +24,56 @@ const fil = ["Accueil","Ressources","Le blog"];
   <p class="etiq-page">Ressources</p>
   <p class="fil-ariane" aria-label="Fil d'Ariane"><a href="/">Accueil</a> <span aria-hidden="true">/</span> Ressources <span aria-hidden="true">/</span> Le blog</p>
   <h1>Comprendre son argent, un sujet à la fois.</h1>
-  <p class="chapo">Des explications écrites par un conseiller en gestion de patrimoine. Sans jargon, sans promesse de rendement, et avec les sources.</p>
-  <form class="recherche" role="search">
+  <p class="chapo">{articles.length} articles écrits par un conseiller en gestion de patrimoine. Sans jargon, sans promesse de rendement, et avec les sources.</p>
+  <form class="recherche" role="search" id="recherche-blog">
     <label class="sr" for="q-blog">Rechercher un article</label>
-    <input id="q-blog" type="search" placeholder="Livret A, PEA, succession, ETF…">
+    <input id="q-blog" type="search" placeholder="Livret A, PEA, succession, ETF…" autocomplete="off">
     <button class="btn btn-primaire" type="submit">Rechercher</button>
   </form>
 </div>
 </section>
 
-<!-- ===== Filtres ===== -->
 <section class="bloc blog-bloc">
 <div class="wrap">
   <nav class="filtres" aria-label="Thématiques">
-    <button class="f-btn actif" type="button">Tout</button>
-    <button class="f-btn" type="button">Épargne</button>
-    <button class="f-btn" type="button">Investissement</button>
-    <button class="f-btn" type="button">Retraite</button>
-    <button class="f-btn" type="button">Fiscalité</button>
-    <button class="f-btn" type="button">Transmission</button>
-    <button class="f-btn" type="button">Investir selon ses valeurs</button>
-    <button class="f-btn" type="button">IA et argent</button>
-    <button class="f-btn" type="button">Dirigeants</button>
+    <a class="f-btn actif" href="/blog/" aria-current="page">Tout <span class="f-nb">{articles.length}</span></a>
+    {categories.map((c) => (
+      <a class="f-btn" href={`/blog/categorie/${slugCategorie(c)}/`}>{c} <span class="f-nb">{compte(c)}</span></a>
+    ))}
   </nav>
 
-  <!-- Article mis en avant -->
   <article class="une">
-    <div class="une-visuel" aria-hidden="true"><span>Visuel de l&#8217;article</span></div>
+    <div class="une-visuel" aria-hidden="true"><span>{une.data.categorie}</span></div>
     <div class="une-texte">
-      <p class="meta"><span class="theme">Épargne</span> · <time datetime="2026-01-01">Date de publication</time> · <span>Durée de lecture</span></p>
-      <h2>Titre de l'article mis en avant</h2>
-      <p class="chapo-art">Le chapô de l'article, deux à trois lignes qui donnent envie de lire la suite et annoncent ce que le lecteur va apprendre.</p>
+      <p class="meta">
+        <span class="theme">{une.data.categorie}</span>
+        <span aria-hidden="true"> · </span>
+        <time datetime={dateIso(une.data.date)}>{dateFr(une.data.date)}</time>
+        <span aria-hidden="true"> · </span>{une.data.lecture} min de lecture
+      </p>
+      <h2><a class="art-titre" href={`/blog/${une.id}/`}>{une.data.titre}</a></h2>
+      <p class="chapo-art">{une.data.description}</p>
       <p class="auteur"><img class="pastille-auteur" src="/images/blog-98175c76.jpg" width="160" height="160" alt=""> Maxime Bouché · Conseiller en investissements financiers</p>
-      <a class="lien" href="#">Lire l'article</a>
+      <a class="lien" href={`/blog/${une.id}/`}>Lire l'article</a>
     </div>
   </article>
 
-  <!-- Grille d'articles -->
   <h2 class="titre titre-liste">Tous les articles</h2>
-  <div class="articles">
-    <article class="art"><div class="art-visuel" aria-hidden="true"></div><p class="meta"><span class="theme">Épargne</span> · Date</p><h3>Emplacement d'un article</h3><p>Chapô de deux lignes qui résume le sujet traité et ce que le lecteur y gagne.</p><a class="lien" href="#">Lire</a></article>
-    <article class="art"><div class="art-visuel" aria-hidden="true"></div><p class="meta"><span class="theme">Investissement</span> · Date</p><h3>Emplacement d'un article</h3><p>Chapô de deux lignes qui résume le sujet traité et ce que le lecteur y gagne.</p><a class="lien" href="#">Lire</a></article>
-    <article class="art"><div class="art-visuel" aria-hidden="true"></div><p class="meta"><span class="theme">Retraite</span> · Date</p><h3>Emplacement d'un article</h3><p>Chapô de deux lignes qui résume le sujet traité et ce que le lecteur y gagne.</p><a class="lien" href="#">Lire</a></article>
-    <article class="art"><div class="art-visuel" aria-hidden="true"></div><p class="meta"><span class="theme">Fiscalité</span> · Date</p><h3>Emplacement d'un article</h3><p>Chapô de deux lignes qui résume le sujet traité et ce que le lecteur y gagne.</p><a class="lien" href="#">Lire</a></article>
-    <article class="art"><div class="art-visuel" aria-hidden="true"></div><p class="meta"><span class="theme">Transmission</span> · Date</p><h3>Emplacement d'un article</h3><p>Chapô de deux lignes qui résume le sujet traité et ce que le lecteur y gagne.</p><a class="lien" href="#">Lire</a></article>
-    <article class="art"><div class="art-visuel" aria-hidden="true"></div><p class="meta"><span class="theme">IA et argent</span> · Date</p><h3>Emplacement d'un article</h3><p>Chapô de deux lignes qui résume le sujet traité et ce que le lecteur y gagne.</p><a class="lien" href="#">Lire</a></article>
-  </div>
-
-  <div class="pagination" aria-label="Pagination">
-    <button class="btn btn-encre" type="button">Voir plus d'articles</button>
+  <p class="resultat-recherche" id="resultat-recherche" role="status" hidden></p>
+  <div class="articles" id="liste-articles">
+    {suite.map((a) => (
+      <article class="art" data-titre={`${a.data.titre} ${a.data.description} ${a.data.categorie}`}>
+        <div class="art-visuel" aria-hidden="true"></div>
+        <p class="meta">
+          <span class="theme">{a.data.categorie}</span>
+          <span aria-hidden="true"> · </span>
+          <time datetime={dateIso(a.data.date)}>{dateFr(a.data.date)}</time>
+          <span aria-hidden="true"> · </span>{a.data.lecture} min
+        </p>
+        <h3><a class="art-titre" href={`/blog/${a.id}/`}>{a.data.titre}</a></h3>
+        <p>{a.data.description}</p>
+      </article>
+    ))}
   </div>
 </div>
 </section>

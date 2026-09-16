@@ -115,7 +115,8 @@ Tant que la case est grisée, le certificat n'est pas prêt.
 ### 7. Vérifier
 
 - https://sitev2.safia.finance répond en HTTPS
-- Les vingt pages s'ouvrent, menu et pied de page compris
+- Les pages s'ouvrent, menu et pied de page compris : 83 au total, dont 20 pages
+  fixes, 55 articles de blog et 8 pages de thématique
 - `curl -s https://sitev2.safia.finance/robots.txt` renvoie `Disallow: /`
 - Le code source d'une page contient `<meta name="robots" content="noindex, nofollow">`
 

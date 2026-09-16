@@ -10,7 +10,8 @@ investissement financier.
 | **Technique** | [Astro](https://astro.build) 5, HTML statique, déployé par GitHub Actions sur GitHub Pages |
 | **Langue** | français, tutoiement pour les pages particuliers, vouvoiement pour les pages professionnelles |
 
-Le site est **entièrement statique** : 20 pages HTML pré-construites, aucun
+Le site est **entièrement statique** : 83 pages HTML pré-construites — 20 pages
+fixes, 55 articles de blog et 8 pages de thématique —, aucun
 serveur, aucune base de données. Le JavaScript se limite aux quelques
 interactions de la page où il sert (démonstrations, bascule de tarifs, menu).
 
@@ -35,6 +36,7 @@ npm run dev     # http://localhost:4321
 | `npm run images` | Régénère l'icône iOS et l'image de partage depuis le logo |
 | `npm run referencement` | Reporte `docs/REFERENCEMENT.md` dans `src/data/pages.json` |
 | `npm run qr` | Régénère le QR code de téléchargement (à relancer si `SITE_URL` change) |
+| `npm run blog` | Découpe les fichiers de `Blog/` en articles dans `src/content/blog/` |
 
 `npm run build` puis `npm run verifier` est la vérification à faire avant de
 pousser. La même paire tourne automatiquement dans GitHub Actions et bloque le
@@ -49,7 +51,9 @@ déploiement si un lien est cassé.
 astro.config.mjs               URL du site, indexation, sitemap
 src/
   config.js                    Réglages de build et coordonnées légales
-  data/pages.json              Les 20 pages : URL, titre, méta-description
+  data/pages.json              Les 20 pages fixes : URL, titre, méta-description
+  content/blog/                Les 55 articles, produits depuis Blog/
+  content.config.ts            Le schéma auquel tout article doit se conformer
   layouts/Base.astro           <head>, en-tête, pied de page, données structurées
   components/                  En-tête, pied de page, bandeau cookies, retour en haut
   pages/                       Une page = un fichier .astro
@@ -77,6 +81,7 @@ docs/                          Documentation du projet
 | [docs/FORMULAIRES.md](docs/FORMULAIRES.md) | Newsletter et demandes de démonstration : le relais vers Brevo |
 | [docs/PAGES-LEGALES.md](docs/PAGES-LEGALES.md) | Les cinq pages produites à partir des documents Word |
 | [docs/AUDIT-UX.md](docs/AUDIT-UX.md) | Audit d'interface et de conversion, et propositions à arbitrer |
+| [docs/BLOG.md](docs/BLOG.md) | Écrire un article, le convertir, le publier |
 
 ---
 

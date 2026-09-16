@@ -105,6 +105,12 @@ démontre l'inverse.
 *Proposition* : soit publier les premiers articles, soit retirer la page du menu
 jusqu'à leur publication. Un blog vide coûte plus qu'un blog absent.
 
+> **Fait le 16 septembre 2026**, arbitré par Maxime : publication. Les 55
+> articles du plan éditorial sont en ligne, avec une page par article, huit
+> pages de thématique, une recherche qui filtre réellement, et les données
+> structurées `BlogPosting` et `FAQPage`. Plus aucun lien sans destination.
+> Voir [BLOG.md](BLOG.md).
+
 **7. Trois fonctions « À venir » sur la page Tarifs** (GPS patrimoine, Santé
 patrimoniale, Suivi d'impact) sans date ni ordre.
 *Proposition* : soit un trimestre annoncé, soit les retirer. Une promesse non

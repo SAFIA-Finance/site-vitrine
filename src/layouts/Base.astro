@@ -16,17 +16,28 @@ const {
   faq = [],
   fil = null,
   noindex = false,
+  // Article de blog : produit un bloc BlogPosting en plus du reste.
+  article = null,
   // Visuel de partage. Une page peut en fournir un ; sinon la carte de marque
   // est produite par outils/generer-images.mjs.
   image = '/og/defaut.png',
 } = Astro.props;
 
-// Le titre et la description viennent de src/data/pages.json, seule source de
-// vérité du référencement. Une page peut toujours les surcharger par ses props.
+// Le titre et la description des pages fixes viennent de src/data/pages.json,
+// seule source de vérité de leur référencement.
+//
+// Les pages du blog font exception : elles sont produites à partir des articles,
+// dont l'en-tête porte déjà le titre et la description. Les inscrire en double
+// dans pages.json créerait deux vérités pour un même texte. Elles les passent
+// donc en props — mais aucune page, fixe ou non, ne peut partir sans les deux.
 const fiche = pages.find((p) => p.route === chemin);
-if (!fiche) throw new Error(`Page absente de src/data/pages.json : ${chemin}`);
-const titre = Astro.props.titre ?? fiche.titre;
-const description = Astro.props.description ?? fiche.description;
+const titre = Astro.props.titre ?? fiche?.titre;
+const description = Astro.props.description ?? fiche?.description;
+if (!titre || !description) {
+  throw new Error(
+    `Référencement absent pour ${chemin} : ajoute la page à src/data/pages.json, ou passe-lui « titre » et « description ».`,
+  );
+}
 
 const canonique = new URL(chemin, SITE_URL).href;
 const robots = !INDEXABLE || noindex ? 'noindex, nofollow' : 'index, follow';
@@ -111,6 +122,24 @@ const jsonFaq = faq.length
     }
   : null;
 
+// Article de blog : l'auteur et l'éditeur renvoient aux fiches déjà décrites
+// plus haut, plutôt que d'être redéclarés.
+const jsonArticle = article
+  ? {
+      '@context': 'https://schema.org',
+      '@type': 'BlogPosting',
+      headline: article.titre,
+      description,
+      inLanguage: 'fr-FR',
+      datePublished: article.date,
+      dateModified: article.maj ?? article.date,
+      articleSection: article.categorie,
+      mainEntityOfPage: canonique,
+      author: { '@id': `${SITE_URL}/fondateur/#personne` },
+      publisher: { '@id': `${SITE_URL}/#organisation` },
+    }
+  : null;
+
 const jsonFil = fil
   ? {
       '@context': 'https://schema.org',
@@ -158,6 +187,7 @@ const jsonFil = fil
     <script type="application/ld+json" set:html={JSON.stringify(organisation)} />
     {jsonFaq && <script type="application/ld+json" set:html={JSON.stringify(jsonFaq)} />}
     {jsonFil && <script type="application/ld+json" set:html={JSON.stringify(jsonFil)} />}
+    {jsonArticle && <script type="application/ld+json" set:html={JSON.stringify(jsonArticle)} />}
   </head>
 
   <body>

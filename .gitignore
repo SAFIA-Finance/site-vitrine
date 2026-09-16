@@ -26,3 +26,8 @@ relais/.dev.vars
 # Secrets : ne doivent jamais être versionnés
 .brevo-key*
 *.key
+
+# Blog : les fichiers « territoire » sont versionnés, leur contenu ayant
+# vocation à être publié. L'étude d'acquisition, non : le dépôt est public.
+Blog/Resources et étude de marché SEO/
+*.xlsx

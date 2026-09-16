@@ -1286,10 +1286,60 @@ footer.pied{background:var(--nuit);color:rgba(255,255,255,.78);padding:64px 0 40
 .pot{position:absolute!important;left:-10000px;width:1px;height:1px;overflow:hidden}
 
 /* ---------- Pages légales ---------- */
-.legal{max-width:76ch}
-.legal h2{margin:40px 0 12px;font-size:clamp(1.12rem,2.1vw,1.4rem);line-height:1.25;letter-spacing:-.01em;font-weight:600;color:var(--encre)}
-.legal h2:first-child{margin-top:0}
-.legal p{margin:0 0 14px;color:var(--encre-2)}
-.legal ul{margin:0 0 18px;padding-left:22px;display:grid;gap:7px;color:var(--encre-2)}
-.legal strong{color:var(--encre);font-weight:600}
-.legal a{color:inherit;text-decoration:underline;text-underline-offset:3px}
+.legal,.article{max-width:76ch}
+.legal h2,.article h2{margin:40px 0 12px;font-size:clamp(1.12rem,2.1vw,1.4rem);line-height:1.25;letter-spacing:-.01em;font-weight:600;color:var(--encre)}
+.legal h2:first-child,.article h2:first-child{margin-top:0}
+.legal p,.article p{margin:0 0 14px;color:var(--encre-2)}
+.legal ul,.article ul{margin:0 0 18px;padding-left:22px;display:grid;gap:7px;color:var(--encre-2)}
+.legal strong,.article strong{color:var(--encre);font-weight:600}
+.legal a,.article a{color:inherit;text-decoration:underline;text-underline-offset:3px}
+
+/* ---------- Article de blog ---------- */
+.article{margin-top:32px}
+.article ol{margin:0 0 18px;padding-left:22px;display:grid;gap:7px;color:var(--encre-2)}
+.article h2{margin-top:44px}
+
+/* L'essentiel : le bloc que les moteurs génératifs reprennent en premier. */
+.essentiel{max-width:76ch;padding:26px 28px;border-radius:var(--r-l);background:var(--lavande);box-shadow:inset 0 0 0 1px var(--ligne)}
+.essentiel h2{font-size:15px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--indigo)}
+.essentiel ul{list-style:none;margin-top:14px;display:grid;gap:10px}
+.essentiel li{position:relative;padding-left:26px;color:var(--encre);line-height:1.55}
+.essentiel li::before{content:"";position:absolute;left:0;top:9px;width:10px;height:6px;border-left:2px solid var(--indigo);border-bottom:2px solid var(--indigo);transform:rotate(-45deg)}
+.essentiel strong{font-weight:600}
+
+.article-faq{max-width:76ch;margin-top:56px}
+.article-faq h2{font-size:clamp(1.3rem,2.6vw,1.7rem);font-weight:600;letter-spacing:-.02em;margin-bottom:18px}
+
+.article-sources{max-width:76ch;margin-top:56px;padding:24px 26px;border-radius:var(--r-l);box-shadow:inset 0 0 0 1px var(--ligne)}
+.article-sources h2{font-size:14px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--encre-2)}
+.article-sources p{margin-top:10px;font-size:14.5px;line-height:1.6;color:var(--encre-2)}
+.article-date{font-style:italic}
+
+.article-auteur{display:flex;gap:18px;align-items:flex-start;max-width:76ch;margin-top:40px;padding-top:32px;border-top:1px solid var(--ligne)}
+.article-auteur img{width:72px;height:72px;border-radius:50%;object-fit:cover;flex:none}
+.article-auteur p{font-size:15px;line-height:1.6;color:var(--encre-2)}
+.article-auteur-nom{font-size:17px;font-weight:600;color:var(--encre)!important;margin-bottom:4px}
+.article-auteur .lien{display:inline-block;margin-top:10px;font-size:15px}
+
+.article-avertissement{max-width:76ch;margin-top:28px;font-size:13.5px;line-height:1.6;color:var(--encre-2)}
+
+.article-suite{margin-top:64px}
+.article-suite h2{font-size:clamp(1.3rem,2.6vw,1.7rem);font-weight:600;letter-spacing:-.02em;margin-bottom:20px}
+.suite-liens{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--ligne);border-radius:var(--r-l);overflow:hidden}
+.suite-liens .pass h3{font-size:17px}
+
+/* Sommaire : titres cliquables, compteurs, retour de recherche. */
+.art-titre{color:inherit;text-decoration:none}
+.art-titre:hover{text-decoration:underline;text-underline-offset:4px}
+.f-nb{opacity:.55;font-variant-numeric:tabular-nums}
+.resultat-recherche{margin-top:18px;font-size:15px;color:var(--encre-2)}
+.art[hidden]{display:none}
+
+@media (max-width:900px){
+  .suite-liens{grid-template-columns:1fr}
+}
+@media (max-width:760px){
+  .essentiel{padding:20px 22px}
+  .article-auteur{gap:14px}
+  .article-auteur img{width:56px;height:56px}
+}

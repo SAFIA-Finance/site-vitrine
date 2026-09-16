@@ -1,0 +1,129 @@
+---
+// Une page par article. Le contenu vient de src/content/blog/, produit à partir
+// des fichiers « territoire » par outils/blog-en-articles.mjs.
+//
+// Le corps de l'article est du Markdown rendu par Astro. Tout ce qui est
+// structuré dans l'en-tête — l'essentiel, la FAQ, les sources, les liens — est
+// rendu ici, pour que le site en fasse des composants plutôt que du texte.
+import { getCollection, render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import { slugCategorie, dateFr, dateIso, enrichir, parDate } from '../../blog.js';
+import { SOCIETE } from '../../config.js';
+
+export async function getStaticPaths() {
+  const articles = (await getCollection('blog', ({ data }) => !data.brouillon)).sort(parDate);
+  return articles.map((article) => ({
+    params: { slug: article.id },
+    props: { article, tous: articles },
+  }));
+}
+
+const { article, tous } = Astro.props;
+const { data } = article;
+const { Content } = await render(article);
+
+const lies = data.articlesLies
+  .map((id) => tous.find((a) => a.id === id))
+  .filter(Boolean);
+
+const fil = ['Accueil', 'Le blog', data.titre];
+const categorieUrl = `/blog/categorie/${slugCategorie(data.categorie)}/`;
+---
+
+<Base
+  chemin={`/blog/${article.id}/`}
+  titre={data.titreSeo}
+  description={data.description}
+  faq={data.faq}
+  fil={fil}
+  article={{ titre: data.titre, categorie: data.categorie, date: dateIso(data.date) }}
+>
+<section class="hero hero-page hero-part">
+<div class="wrap hero-page-in hero-court">
+  <p class="etiq-page">{data.categorie}</p>
+  <p class="fil-ariane" aria-label="Fil d'Ariane">
+    <a href="/">Accueil</a> <span aria-hidden="true">/</span>
+    <a href="/blog/">Le blog</a> <span aria-hidden="true">/</span> {data.categorie}
+  </p>
+  <h1>{data.titre}</h1>
+  <p class="maj">
+    <time datetime={dateIso(data.date)}>{dateFr(data.date)}</time>
+    <span aria-hidden="true"> · </span>{data.lecture} min de lecture
+    <span aria-hidden="true"> · </span><a class="lien" href={categorieUrl}>{data.categorie}</a>
+  </p>
+</div>
+</section>
+
+<section class="bloc">
+<div class="wrap">
+  <aside class="essentiel" aria-labelledby="essentiel-t">
+    <h2 id="essentiel-t">L'essentiel</h2>
+    <ul>
+      {data.essentiel.map((point) => <li set:html={enrichir(point)} />)}
+    </ul>
+  </aside>
+
+  <div class="article">
+    <Content />
+  </div>
+
+  {data.faq.length > 0 && (
+    <div class="article-faq">
+      <h2>Questions fréquentes</h2>
+      <div class="faq">
+        {data.faq.map((q) => (
+          <details>
+            <summary>{q.q}<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary>
+            <p>{q.r}</p>
+          </details>
+        ))}
+      </div>
+    </div>
+  )}
+
+  <div class="article-sources">
+    <h2>Sources</h2>
+    <p>{data.sources}</p>
+    <p class="article-date">Chiffres et textes vérifiés au {dateFr(data.date)}. Les taux et seuils évoluent : cet article sera daté à nouveau s'il est mis à jour.</p>
+  </div>
+
+  <div class="article-auteur">
+    <img src="/images/fondateur-14710607.jpg" width="72" height="72" alt="" />
+    <div>
+      <p class="article-auteur-nom">Maxime Bouché</p>
+      <p>Conseiller en investissements financiers, immatriculé à l'ORIAS sous le n° {SOCIETE.orias}, membre de la CNCGP. Fondateur de SAFIA.</p>
+      <a class="lien" href="/fondateur/">Découvrir son parcours</a>
+    </div>
+  </div>
+
+  <p class="article-avertissement">
+    Cet article a une vocation informative et pédagogique. Il ne constitue pas un conseil en
+    investissement personnalisé au sens de l'article L. 541-1 du Code monétaire et financier, ni une
+    incitation à souscrire un produit. Les taux et seuils cités sont ceux en vigueur à la date de
+    publication et peuvent évoluer. <a class="lien-petit" href="/disclaimer/">Avertissement complet</a>
+  </p>
+
+  {(data.pages.length > 0 || lies.length > 0) && (
+    <div class="article-suite">
+      <h2>Pour aller plus loin</h2>
+      <div class="suite-liens">
+        {data.pages.map((p) => (
+          <a class="pass" href={p.url}><h3>{p.nom}</h3><p>La page du site sur ce sujet.</p></a>
+        ))}
+        {lies.map((a) => (
+          <a class="pass" href={`/blog/${a.id}/`}><h3>{a.data.titre}</h3><p>{a.data.categorie} · {a.data.lecture} min</p></a>
+        ))}
+      </div>
+    </div>
+  )}
+</div>
+</section>
+
+<section class="final">
+<div class="wrap final-simple">
+  <h2>Applique-le à ta situation.</h2>
+  <p>SAFIA réunit tes comptes et répond à tes questions à partir de tes chiffres, pas de cas généraux.</p>
+  <a class="btn btn-primaire" href="/telecharger/" data-app>Télécharger l'app</a>
+</div>
+</section>
+</Base>

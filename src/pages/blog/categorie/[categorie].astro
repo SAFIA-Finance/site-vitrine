@@ -1,0 +1,90 @@
+---
+// Une page par territoire du plan éditorial. Elle donne à chaque thème une
+// vraie adresse, indexable et partageable, plutôt qu'un filtre côté navigateur.
+import { getCollection } from 'astro:content';
+import Base from '../../../layouts/Base.astro';
+import { slugCategorie, dateFr, dateIso, parDate } from '../../../blog.js';
+
+export async function getStaticPaths() {
+  const articles = (await getCollection('blog', ({ data }) => !data.brouillon)).sort(parDate);
+  const categories = [...new Set(articles.map((a) => a.data.categorie))];
+
+  return categories.map((categorie) => ({
+    params: { categorie: slugCategorie(categorie) },
+    props: {
+      categorie,
+      articles: articles.filter((a) => a.data.categorie === categorie),
+      categories,
+    },
+  }));
+}
+
+const { categorie, articles, categories } = Astro.props;
+const fil = ['Accueil', 'Le blog', categorie];
+---
+
+<Base
+  chemin={`/blog/categorie/${slugCategorie(categorie)}/`}
+  titre={`${categorie} : nos articles · SAFIA`}
+  description={`Tous les articles SAFIA sur le thème « ${categorie} », écrits par un conseiller en gestion de patrimoine certifié AMF, sans jargon et avec les sources.`}
+  fil={fil}
+>
+<section class="hero hero-page hero-part">
+<div class="wrap hero-page-in hero-court">
+  <p class="etiq-page">Le blog</p>
+  <p class="fil-ariane" aria-label="Fil d'Ariane">
+    <a href="/">Accueil</a> <span aria-hidden="true">/</span>
+    <a href="/blog/">Le blog</a> <span aria-hidden="true">/</span> {categorie}
+  </p>
+  <h1>{categorie}</h1>
+  <p class="chapo">{articles.length} article{articles.length > 1 ? 's' : ''} sur ce thème.</p>
+</div>
+</section>
+
+<section class="bloc blog-bloc">
+<div class="wrap">
+  <nav class="filtres" aria-label="Thématiques">
+    <a class="f-btn" href="/blog/">Tout</a>
+    {categories.map((c) => (
+      <a class={`f-btn${c === categorie ? ' actif' : ''}`} href={`/blog/categorie/${slugCategorie(c)}/`}
+         aria-current={c === categorie ? 'page' : undefined}>{c}</a>
+    ))}
+  </nav>
+
+  <div class="articles">
+    {articles.map((a) => (
+      <article class="art">
+        <div class="art-visuel" aria-hidden="true"></div>
+        <p class="meta">
+          <span class="theme">{a.data.categorie}</span>
+          <span aria-hidden="true"> · </span>
+          <time datetime={dateIso(a.data.date)}>{dateFr(a.data.date)}</time>
+          <span aria-hidden="true"> · </span>{a.data.lecture} min
+        </p>
+        <h2><a class="art-titre" href={`/blog/${a.id}/`}>{a.data.titre}</a></h2>
+        <p>{a.data.description}</p>
+      </article>
+    ))}
+  </div>
+</div>
+</section>
+
+<section class="final">
+<div class="wrap final-simple">
+  <h2>Reçois les prochains articles.</h2>
+  <p>Nos analyses patrimoine et investissement, une fois par mois, directement par email.</p>
+  <form class="champ champ-centre" id="nl-blog" novalidate>
+    <p class="pot" aria-hidden="true"><label for="site-blog">Laisser vide</label><input id="site-blog" name="site" type="text" tabindex="-1" autocomplete="off"></p>
+    <label class="sr" for="email-blog">Adresse email</label>
+    <input id="email-blog" type="email" placeholder="ton@email.fr" autocomplete="email" required>
+    <button class="btn btn-primaire" type="submit">Je m'inscris</button>
+  </form>
+  <p class="confirm" id="confirm-blog" role="status" hidden></p>
+  <small>Tu peux te désinscrire à tout moment.</small>
+</div>
+</section>
+</Base>
+
+<script>
+  import '../../../scripts/pages/blog.js';
+</script>

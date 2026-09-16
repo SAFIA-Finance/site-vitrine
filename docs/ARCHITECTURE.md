@@ -154,6 +154,38 @@ Le QR code est un vrai fichier, `public/images/qr-telecharger.svg`, produit par
 régénérer le jour de la bascule sur `safia.finance`**. La maquette en affichait
 un dessin décoratif, qui ne menait nulle part.
 
+## Le blog
+
+63 des 83 pages du site sont des pages de blog. Elles ne sont pas écrites à la
+main : elles viennent d'une collection de contenu.
+
+```
+Blog/*.md                 Les fichiers « territoire », sept à huit articles chacun
+  │  npm run blog         outils/blog-en-articles.mjs
+  ▼
+src/content/blog/*.md     Un fichier par article, en-tête structuré
+  │  build                src/content.config.ts valide chaque en-tête
+  ▼
+/blog/<article>/          55 pages d'article
+/blog/categorie/<thème>/   8 pages de thématique
+```
+
+Deux choix méritent d'être expliqués.
+
+**L'en-tête porte plus que le texte.** L'essentiel, la FAQ, les sources et les
+liens internes ne sont pas rédigés dans le corps mais extraits en données. Le
+site en fait alors des composants : l'encadré de résumé, le bloc dépliant, le
+bloc de sources daté, les cartes « Pour aller plus loin ». Surtout, la FAQ
+alimente le même JSON-LD `FAQPage` que les autres pages, sans double saisie.
+
+**Le référencement des articles ne passe pas par `pages.json`.** C'est la seule
+exception à la règle. Inscrire 63 titres dans le fichier alors qu'ils vivent
+déjà dans l'en-tête des articles créerait deux vérités pour un même texte. Le
+gabarit accepte donc `titre` et `description` en props — mais il refuse toujours
+de construire une page qui n'a ni l'un ni l'autre.
+
+Le détail d'écriture est dans [BLOG.md](BLOG.md).
+
 ## Le CSS
 
 `src/styles/global.css` est la feuille de style de la maquette, déplacée telle
@@ -245,6 +277,7 @@ Quatre méta-descriptions dépassaient la longueur affichée par Google. Deux on
 | `generer-qr.mjs` | **Courant.** Lancé par `npm run qr` si `SITE_URL` change |
 | `referencement.mjs` | **Courant.** Lancé par `npm run referencement` après relecture des titres |
 | `docx-en-pages.mjs` | **Courant.** Reconstruit les cinq pages légales depuis les documents Word |
+| `blog-en-articles.mjs` | **Courant.** Lancé par `npm run blog` après chaque écriture d'article |
 | `maj-word.mjs` | **Ponctuel.** A corrigé le texte des documents Word eux-mêmes |
 | `extraire-maquette.mjs` | **Migration, usage unique.** A découpé la maquette en arborescence Astro |
 | `extraire-images.mjs` | **Migration, usage unique.** A sorti les images base64 en fichiers |
