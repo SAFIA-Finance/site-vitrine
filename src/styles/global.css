@@ -1100,6 +1100,23 @@ footer.pied{background:var(--nuit);color:rgba(255,255,255,.78);padding:64px 0 40
 .schema-profil .retenu span,.schema-profil .retenu b{color:var(--indigo);font-weight:600}
 .schema-profil .retenu i::after{opacity:1}
 
+/* Parcours en six étapes, au-dessus du détail rédigé. Chaque case est un lien
+   vers son étape : la page se comprend sans être lue en entier. */
+.parcours-intro{margin-top:4px;color:var(--encre-2);font-size:16.5px}
+.parcours{list-style:none;display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:20px 0 56px;max-width:76ch}
+.parcours a{display:flex;flex-direction:column;align-items:flex-start;gap:7px;height:100%;padding:18px 20px;border-radius:var(--r-m);background:var(--blanc);box-shadow:inset 0 0 0 1px var(--ligne);text-decoration:none;color:inherit;transition:box-shadow .15s ease,transform .15s ease}
+.parcours a:hover{box-shadow:inset 0 0 0 2px var(--indigo);transform:translateY(-2px)}
+.parcours a:focus-visible{outline:2px solid var(--indigo);outline-offset:3px}
+.parcours .p-num{width:30px;height:30px;border-radius:50%;display:grid;place-items:center;font-size:14px;font-weight:700;color:var(--blanc);background:var(--encre);flex:none}
+.parcours .p-titre{font-size:16.5px;font-weight:600;letter-spacing:-.01em;line-height:1.25}
+.parcours .p-gist{font-size:14px;color:var(--encre-2);line-height:1.45}
+@media (max-width:760px){
+  .parcours{grid-template-columns:1fr 1fr;gap:10px;margin-bottom:44px}
+  .parcours a{padding:15px 16px}
+}
+@media (max-width:460px){.parcours{grid-template-columns:1fr}}
+@media (prefers-reduced-motion:reduce){.parcours a{transition:none}.parcours a:hover{transform:none}}
+
 .limites-bloc{background:var(--nuit);color:var(--blanc)}
 .limites-bloc .titre{color:var(--blanc)}
 .limites-m{list-style:none;margin-top:40px;border-top:1px solid rgba(255,255,255,.14);max-width:72ch}
@@ -1160,11 +1177,15 @@ footer.pied{background:var(--nuit);color:rgba(255,255,255,.78);padding:64px 0 40
 .fam-safia b{color:var(--blanc)}
 .fam-safia .fam-qui{border-top-color:rgba(255,255,255,.2)}
 
-/* Tableau des coûts */
+/* Tableau des coûts.
+   ATTENTION : .ct-tete sert AUSSI le tableau d'/assistant-ia/ (voir plus haut,
+   .compare-tab), qui n'a que trois colonnes. Les règles ci-dessous sont donc
+   rattachées à .cout-tab. Ne les en détache pas : les titres de colonnes de
+   l'autre tableau se décaleraient de nouveau. */
 .cout-bloc .intro{margin-top:18px;max-width:72ch}
 .cout-tab{margin-top:40px;border-radius:var(--r-l);overflow:hidden;background:var(--blanc);box-shadow:inset 0 0 0 1px var(--ligne)}
-.ct-tete,.ct-l{display:grid;grid-template-columns:.75fr .85fr 1.1fr 1.6fr;gap:18px;padding:18px 24px;align-items:baseline}
-.ct-tete{background:var(--lavande-2);font-size:14px;font-weight:700;color:var(--encre-2)}
+.cout-tab .ct-tete,.ct-l{display:grid;grid-template-columns:.75fr .85fr 1.1fr 1.6fr;gap:18px;padding:18px 24px;align-items:baseline}
+.cout-tab .ct-tete{background:var(--lavande-2);font-size:14px;font-weight:700;color:var(--encre-2)}
 .ct-l{border-top:1px solid var(--ligne);font-size:15.5px;line-height:1.45;color:var(--encre-2)}
 .ct-l .nom{font-size:17px;font-weight:600;color:var(--encre)}
 .ct-l .val{color:var(--encre)}
@@ -1218,14 +1239,18 @@ footer.pied{background:var(--nuit);color:rgba(255,255,255,.78);padding:64px 0 40
 /* Sources */
 .sources-bloc{background:var(--lavande)}
 .sources-bloc .intro{margin-top:18px;max-width:74ch}
-.methode{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:40px}
-.methode article{padding:28px;border-radius:var(--r-l);background:var(--blanc);box-shadow:inset 0 0 0 1px var(--ligne)}
-.methode h3{font-size:19px;font-weight:600}
-.methode p{margin-top:8px;color:var(--encre-2);line-height:1.6}
+/* ATTENTION : .methode désigne AUSSI la liste numérotée de /methode/ (voir
+   plus haut, « css_methode.css »). Ces règles-ci sont rattachées à
+   .sources-bloc pour ne pas l'atteindre. Ne les en détache pas : les six
+   étapes repasseraient en deux colonnes. */
+.sources-bloc .methode{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:40px}
+.sources-bloc .methode article{padding:28px;border-radius:var(--r-l);background:var(--blanc);box-shadow:inset 0 0 0 1px var(--ligne)}
+.sources-bloc .methode h3{font-size:19px;font-weight:600}
+.sources-bloc .methode p{margin-top:8px;color:var(--encre-2);line-height:1.6}
 
 @media (max-width:980px){
-  .familles,.faces,.cas,.methode{grid-template-columns:1fr}
-  .ct-tete{display:none}
+  .familles,.faces,.cas,.sources-bloc .methode{grid-template-columns:1fr}
+  .cout-tab .ct-tete{display:none}
   .ct-l{grid-template-columns:1fr;gap:4px;padding:20px 22px}
   .ct-l > span:nth-child(2)::before{content:"Catégorie : "}
   .ct-l > span:nth-child(3)::before{content:"Rémunération : "}
@@ -1320,7 +1345,7 @@ footer.pied{background:var(--nuit);color:rgba(255,255,255,.78);padding:64px 0 40
 .sources-liste{margin:16px 0 28px;padding-left:22px;display:grid;gap:8px;max-width:80ch;font-size:15px;line-height:1.5;color:var(--encre-2)}
 .sources-liste a{color:inherit;text-decoration:underline;text-underline-offset:3px}
 .ct-l sup{margin-left:2px;font-size:.68em;opacity:.75}
-.methode + .sources-titre{margin-top:40px}
+.sources-bloc .methode + .sources-titre{margin-top:40px}
 
 /* ---------- Parcours : logos des écoles et employeurs ---------- */
 .parcours span:has(.parcours-logo){display:flex;align-items:center;gap:10px}

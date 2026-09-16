@@ -1,6 +1,18 @@
 ---
 import Base from '../layouts/Base.astro';
 const fil = ["Accueil","À propos","Notre méthode"];
+
+// Le parcours en six étapes, affiché en schéma avant le détail rédigé.
+// Ce n'est pas un décor : chaque case mène à l'étape correspondante, et le
+// texte complet reste dessous. Les intitulés reprennent les h2 de la liste.
+const etapes = [
+  { id: 'etape-1', titre: 'Profil de risque', gist: "Huit blocs réglementaires. Le niveau le plus prudent l'emporte." },
+  { id: 'etape-2', titre: 'ADN investisseur', gist: 'Tes réactions deviennent des préférences, dès 25 réponses.' },
+  { id: 'etape-3', titre: 'Photo patrimoniale', gist: 'Comptes connectés et actifs ajoutés, dettes déduites.' },
+  { id: 'etape-4', titre: 'Recommandations filtrées', gist: "Le risque d'abord, tes valeurs ensuite." },
+  { id: 'etape-5', titre: 'Réponses sourcées', gist: 'Tes données, les textes officiels, puis le marché.' },
+  { id: 'etape-6', titre: 'Un humain si besoin', gist: 'Enjeu important, donnée incohérente, produit complexe.' },
+];
 ---
 
 <Base
@@ -12,14 +24,27 @@ const fil = ["Accueil","À propos","Notre méthode"];
   <p class="etiq-page">À propos</p>
     <p class="fil-ariane" aria-label="Fil d'Ariane"><a href="/">Accueil</a> <span aria-hidden="true">/</span> À propos <span aria-hidden="true">/</span> Notre méthode</p>
   <h1>Comment SAFIA construit ses analyses</h1>
-  <p class="chapo">Une IA qui touche à ton argent te doit des explications. Voici exactement comment on travaille.</p>
+  <p class="chapo">Une IA qui te conseille sur ton argent te doit des explications. Voici exactement comment on travaille.</p>
 </div>
 </section>
 
 <section class="bloc methode-bloc">
 <div class="wrap">
+  <p class="parcours-intro">Six étapes, dans cet ordre. Va directement à celle qui t'intéresse.</p>
+  <ol class="parcours">
+    {etapes.map((e, i) => (
+      <li>
+        <a href={`#${e.id}`}>
+          <span class="p-num" aria-hidden="true">{i + 1}</span>
+          <span class="p-titre">{e.titre}</span>
+          <span class="p-gist">{e.gist}</span>
+        </a>
+      </li>
+    ))}
+  </ol>
+
   <ol class="methode">
-    <li>
+    <li id="etape-1">
       <h2>Ton profil de risque, calculé avec prudence</h2>
       <p>Un questionnaire réglementaire en huit blocs : identité, service attendu, objectifs, rapport au risque, situation financière, expérience, préférences de durabilité et un court test de connaissances.</p>
       <p>Tes réponses sont traduites en plusieurs niveaux : horizon, perte acceptable, goût du risque, capacité financière, expérience. SAFIA retient <strong>le plus prudent</strong> d'entre eux, puisqu'une seule fragilité suffit à limiter le risque raisonnable. Ton profil va de 1 (prudent) à 5 (dynamique) et n'est jamais plus risqué que ce que tu déclares souhaiter. Chaque calcul est enregistré.</p>
@@ -31,23 +56,23 @@ const fil = ["Accueil","À propos","Notre méthode"];
         <div class="retenu"><span>Profil retenu</span><i style="width:60%"></i><b>3</b></div>
       </div>
     </li>
-    <li>
+    <li id="etape-2">
       <h2>Ton ADN, construit par tes réactions</h2>
       <p>Tes swipes sur des secteurs, des pratiques et des critères ESG sont convertis en préférences. Ton ADN devient exploitable dès 25 réponses et s'affine ensuite à chaque nouvelle réaction.</p>
     </li>
-    <li>
-      <h2>Ta photo patrimoniale, sans double comptage</h2>
+    <li id="etape-3">
+      <h2>Ta photo patrimoniale</h2>
       <p>Tes comptes connectés et les actifs que tu ajoutes forment ton patrimoine brut. Quand une enveloppe contient des placements, c'est la valeur des placements qui compte, pas deux fois le même argent. Tes dettes sont déduites pour obtenir ton patrimoine net.</p>
     </li>
-    <li>
+    <li id="etape-4">
       <h2>Des recommandations filtrées par ton profil</h2>
       <p>Une recommandation n'est proposée que si son niveau de risque est compatible avec ton profil. Elle est ensuite évaluée selon son alignement avec ton ADN. L'ordre compte : le risque d'abord, les valeurs ensuite.</p>
     </li>
-    <li>
+    <li id="etape-5">
       <h2>Des réponses sourcées</h2>
       <p>L'assistant consulte ses sources dans cet ordre : tes données, puis les textes officiels (codes, doctrine fiscale, règles de l'AMF), puis la méthodologie SAFIA, puis des données de marché issues de sources autorisées. Il ne cite jamais une référence qu'il n'a pas retrouvée.</p>
     </li>
-    <li>
+    <li id="etape-6">
       <h2>Un humain quand il le faut</h2>
       <p>L'assistant te propose d'échanger avec un conseiller quand l'enjeu financier ou fiscal est important, quand tes données sont incohérentes, quand un produit est complexe, ou quand tu demandes une validation juridique.</p>
     </li>
@@ -60,9 +85,9 @@ const fil = ["Accueil","À propos","Notre méthode"];
   <h2 class="titre">Ce qu'il faut savoir aussi</h2>
   <ul class="limites-m">
     <li>Nos analyses dépendent des données disponibles : un compte non connecté reste un angle mort.</li>
-    <li>Les notations ESG reposent sur des méthodologies qui diffèrent d'un fournisseur à l'autre.</li>
+    <li>Les notations ESG reposent sur des méthodologies qui diffèrent d'un fournisseur à l'autre. SAFIA n'en ajoute pas une de plus : ce sont <strong>tes</strong> valeurs qui servent de critère.</li>
     <li>L'IA peut se tromper. C'est pour ça qu'elle montre ses sources.</li>
-    <li>Aucune analyse ne garantit un résultat futur.</li>
+    <li>Aucune analyse ne garantit un résultat futur. Tout investissement comporte un risque de perte en capital.</li>
   </ul>
 </div>
 </section>
