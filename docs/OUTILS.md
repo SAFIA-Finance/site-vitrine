@@ -30,7 +30,7 @@ passer son `publie` à `true` et créer sa page. Aucune autre liste à mettre à
 | Intérêts composés | En ligne |
 | Simulateur d'épargne | En ligne |
 | Impôt sur le revenu | En ligne |
-| Simulateur PER | À faire — le moteur d'impôt dont il dépend existe désormais |
+| Simulateur PER | En ligne |
 | Le coût de tes frais | À faire — `ecartDeFrais()` est déjà écrit |
 | Simulateur IFI | À faire — barème prêt |
 | Succession et donation | À faire — barème à collecter |
@@ -75,6 +75,65 @@ main reste la seule façon fiable de valider un moteur fiscal.**
 Périmètre assumé du simulateur : salaires et revenus déjà nets imposables. Ni
 pensions avec leur abattement propre, ni foncier au réel, ni PFU, ni veuvage ou
 invalidité. C'est écrit sur la page, pas seulement ici.
+
+## Le PER, et la règle éditoriale qui le gouverne
+
+**Ne jamais afficher l'économie d'impôt sans le coût de sortie.** La déduction
+n'est pas un gain acquis, c'est un report d'imposition : ce qui est déduit
+aujourd'hui sera imposé au barème le jour de la sortie. Le PER est un pari sur
+une tranche marginale plus basse à la retraite, et la page montre les deux côtés
+du pari. C'est ce que la plupart des simulateurs concurrents omettent.
+
+L'économie est la **différence entre deux calculs d'impôt complets**, avec et
+sans versement. Il n'existe pas de raccourci « versement × tranche marginale » :
+le plafonnement du quotient familial et la décote ne sont pas linéaires, et un
+versement peut faire changer de tranche.
+
+Le versement s'impute comme une **charge déductible du revenu global**
+(`deduction` dans `calculerIR`), après l'abattement de 10 % et surtout pas sur
+les salaires eux-mêmes, ce qui fausserait cet abattement. **Défaut trouvé à la
+relecture et corrigé** : la première version passait `deduction` à un moteur qui
+ne connaissait pas ce champ. La clé était ignorée sans erreur, les deux
+liquidations rendaient le même impôt, et le simulateur affichait **0 € d'économie
+en toutes circonstances**. Un cas de test l'interdit désormais.
+
+Périmètre : **sortie en capital uniquement**. La rente relève du régime des
+pensions, avec un abattement dont le montant 2026 n'est pas sourcé ici.
+
+### Le prélèvement forfaitaire n'est plus à 30 %
+
+**Depuis le 1er janvier 2026, le PFU est à 31,4 %** : 12,8 % d'impôt et **18,6 %**
+de prélèvements sociaux, la CSG ayant augmenté de 1,4 point (code de la sécurité
+sociale, article L. 136-8). Tout chiffre à 30 % ou à 17,2 % vu ailleurs est
+antérieur à cette date. Le bloc `prelevements` de `baremes.json` fait foi, et il
+servira aussi aux outils assurance-vie et PEA.
+
+### Le report des plafonds : deux lectures officielles
+
+Le BOFiP et impots.gouv.fr énoncent un report « au cours des **trois** années
+précédentes ». La fiche service-public du PER individuel décrit un report de
+**cinq** ans pour les plafonds de 2026 et suivants, ceux de 2024 et 2025 restant
+reportables trois ans. Choix retenu avec Maxime : **afficher trois ans en citant
+le BOFiP**, et revoir après la loi de finances.
+
+**Aucun calcul n'en dépend**, et c'est délibéré : le montant reportable est
+pré-imprimé sur l'avis d'imposition, rubrique « Plafond épargne retraite ». Le
+simulateur le demande en saisie plutôt que de le reconstituer. Une durée
+contestée ne doit jamais produire des euros.
+
+### Cas de test du PER
+
+| Cas | Attendu |
+|---|---|
+| Revenus nuls | plafond au plancher, 4 710 € |
+| 40 000 € de revenus | le plancher l'emporte sur les 10 % |
+| 80 000 € de revenus | 8 000 € |
+| 8 PASS ou plus | écrêté à 37 680 € |
+| Couple, 110 000 € de salaires, 5 000 € versés | économie **1 500 €**, soit 5 000 × 30 % |
+| Foyer non imposable | économie nulle, jamais négative |
+| Versement au-delà du plafond | la part excédentaire ne produit aucune économie |
+| Sortie : 100 000 € dont 60 000 € de versements déduits, tranche 30 % | 18 000 € au barème + 12 560 € de PFU |
+| Tranche de sortie basse contre haute | le solde du pari est meilleur quand la tranche baisse |
 
 ## Deux partis pris de calcul
 

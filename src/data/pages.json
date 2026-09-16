@@ -135,6 +135,15 @@
     "description": "Calcule ton impôt 2026 sur les revenus 2025 : tranche marginale, taux moyen, plafonnement du quotient familial et décote, étape par étape."
   },
   {
+    "slug": "outils-per",
+    "fichier": "outils/per.astro",
+    "route": "/outils/per/",
+    "libelle": "Simulateur PER",
+    "ref": "OPE",
+    "titre": "Simulateur PER : économie d'impôt · SAFIA",
+    "description": "Ce qu'un versement sur un PER te fait économiser, ton plafond de déduction, et surtout ce que la sortie en capital te coûtera vraiment."
+  },
+  {
     "slug": "fondateur",
     "fichier": "fondateur.astro",
     "route": "/fondateur/",

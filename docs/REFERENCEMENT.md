@@ -21,7 +21,7 @@ directement, c'est un fichier texte.
 
 ---
 
-## Les 19 pages publiques
+## Les 20 pages publiques
 
 ### Accueil · `/`
 
@@ -120,6 +120,11 @@ directement, c'est un fichier texte.
 
 - **Titre** (45) : Simulateur d'impôt sur le revenu 2026 · SAFIA
 - **Description** (138) : Calcule ton impôt 2026 sur les revenus 2025 : tranche marginale, taux moyen, plafonnement du quotient familial et décote, étape par étape.
+
+### Simulateur PER · `/outils/per/`
+
+- **Titre** (41) : Simulateur PER : économie d'impôt · SAFIA
+- **Description** (135) : Ce qu'un versement sur un PER te fait économiser, ton plafond de déduction, et surtout ce que la sortie en capital te coûtera vraiment.
 
 ---
 

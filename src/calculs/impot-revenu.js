@@ -180,6 +180,7 @@ export function abattreSalaires(salaire, { taux, minimum, plafond }) {
  * @param {number} foyer.salaires          Salaires nets imposables du déclarant.
  * @param {number} foyer.salairesConjoint  Salaires nets imposables du conjoint.
  * @param {number} foyer.autresRevenus     Revenus déjà nets imposables, sans abattement.
+ * @param {number} foyer.deduction         Charges déductibles du revenu global (versement sur un PER…).
  * @param {number} foyer.reductions        Réductions et crédits d'impôt.
  * @param {object} ir                      Le bloc « ir » de baremes.json.
  */
@@ -192,14 +193,21 @@ export function calculerIR(foyer, ir) {
     salairesConjoint = 0,
     autresRevenus = 0,
     reductions = 0,
+    deduction = 0,
   } = foyer;
 
   const couple = situation === 'couple';
 
-  const revenuImposable =
+  const revenuBrutGlobal =
     abattreSalaires(salaires, ir.abattementSalaires) +
     (couple ? abattreSalaires(salairesConjoint, ir.abattementSalaires) : 0) +
     Math.max(0, autresRevenus);
+
+  // Charges déductibles du revenu global : c'est par là qu'agit un versement
+  // sur un PER. Elles s'imputent APRÈS l'abattement de 10 % et ne peuvent pas
+  // rendre le revenu imposable négatif.
+  const deductionRetenue = Math.min(Math.max(0, deduction), revenuBrutGlobal);
+  const revenuImposable = revenuBrutGlobal - deductionRetenue;
 
   const { parts, partsBase, isole } = nombreDeParts({ situation, enfants, parentIsole });
   const bareme = impotBareme(revenuImposable, parts, ir.tranches);
@@ -219,6 +227,8 @@ export function calculerIR(foyer, ir) {
   const impotNet = Math.max(0, apresDecote - Math.max(0, reductions));
 
   return {
+    revenuBrutGlobal,
+    deduction: deductionRetenue,
     revenuImposable,
     parts,
     partsBase,

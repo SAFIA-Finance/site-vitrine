@@ -1,0 +1,261 @@
+---
+// Simulateur PER.
+//
+// La règle de cette page : ne jamais afficher l'économie d'impôt sans le coût
+// de sortie. La déduction est un report d'imposition, pas un gain acquis, et
+// c'est la seule chose que la plupart des simulateurs de PER omettent.
+//
+// Périmètre : sortie en CAPITAL uniquement. La rente relève du régime des
+// pensions, dont l'abattement 2026 n'est pas sourcé ici — on ne l'invente pas.
+import Base from '../../layouts/Base.astro';
+import baremes from '../../data/baremes.json';
+
+const fil = ['Accueil', 'Outils', 'Simulateur PER'];
+const per = baremes.per;
+const prelevements = baremes.prelevements;
+
+// Le script reçoit les trois blocs dont le moteur a besoin, et rien d'autre.
+const donnees = { ir: baremes.ir, per, prelevements };
+
+const faq = [
+  {
+    q: 'Combien puis-je déduire ?',
+    r: `Le plus élevé entre 10 % de tes revenus professionnels de l'année précédente, retenus dans la limite de huit fois le plafond de la Sécurité sociale, et 10 % de ce plafond. Pour les versements de 2026, la référence est le plafond de 2025 (${per.passReference.toLocaleString('fr-FR')} €), soit un minimum de ${per.plancher.toLocaleString('fr-FR')} € et un maximum de ${per.plafond.toLocaleString('fr-FR')} €.`,
+  },
+  {
+    q: 'L’économie d’impôt est-elle définitive ?',
+    r: "Non, et c'est le point le plus important. Ce que tu déduis aujourd'hui sera imposé au barème le jour où tu récupéreras ton capital. Le PER est un pari : il est gagnant si ta tranche marginale à la retraite est plus basse qu'aujourd'hui. Ce simulateur calcule les deux côtés du pari.",
+  },
+  {
+    q: 'Comment est imposée la sortie en capital ?',
+    r: `La part correspondant à tes versements déduits est imposée au barème, dans la catégorie des pensions, sans l'abattement de 10 % et sans prélèvements sociaux. La part correspondant aux gains subit le prélèvement forfaitaire unique, qui est passé à ${(prelevements.pfuTotal * 100).toLocaleString('fr-FR')} % au 1er janvier 2026 (${(prelevements.pfuImpot * 100).toLocaleString('fr-FR')} % d'impôt et ${(prelevements.prelevementsSociaux * 100).toLocaleString('fr-FR')} % de prélèvements sociaux, la CSG ayant augmenté de 1,4 point).`,
+  },
+  {
+    q: 'Et les plafonds que je n’ai pas utilisés les années passées ?',
+    r: "Ils s'ajoutent à ton plafond de l'année. Le simulateur ne les devine pas : le montant exact est pré-imprimé sur ton avis d'imposition, rubrique « Plafond épargne retraite ». Saisis-le tel quel.",
+  },
+];
+---
+
+<Base chemin={'/outils/per/'} fil={fil} faq={faq}>
+<section class="hero hero-page hero-court">
+<div class="wrap hero-page-in">
+  <p class="etiq-page">Outils</p>
+  <p class="fil-ariane" aria-label="Fil d'Ariane">
+    <a href="/">Accueil</a> <span aria-hidden="true">/</span>
+    <a href="/outils/">Outils</a> <span aria-hidden="true">/</span> Simulateur PER
+  </p>
+  <h1>Le PER, les deux côtés du pari.</h1>
+  <p class="chapo">
+    Ce qu'un versement te fait économiser cette année, et ce que la sortie en capital te coûtera.
+    Déduire n'est pas gagner : c'est reporter l'impôt. Le PER est gagnant si ta tranche est plus
+    basse à la retraite qu'aujourd'hui.
+  </p>
+</div>
+</section>
+
+<section class="bloc">
+<div class="wrap">
+  <script type="application/json" id="sim-donnees" set:html={JSON.stringify(donnees)} />
+
+  <div class="sim">
+    <form class="sim-form" id="sim" novalidate>
+      <h2 class="sim-titre">Ta situation</h2>
+
+      <div class="sim-champ">
+        <label for="situation">Situation</label>
+        <select id="situation">
+          <option value="seul">Célibataire, divorcé</option>
+          <option value="couple">Marié ou pacsé</option>
+        </select>
+      </div>
+
+      <div class="sim-champ" data-duo="enfants">
+        <label for="enfants-n">Enfants à charge</label>
+        <div class="sim-duo">
+          <input type="range" id="enfants" min="0" max="6" step="1" value="0" aria-hidden="true" tabindex="-1" />
+          <input type="number" id="enfants-n" min="0" max="6" step="1" value="0" inputmode="numeric" />
+          <span class="sim-unite">enf.</span>
+        </div>
+      </div>
+
+      <div class="sim-champ" data-duo="salaires">
+        <label for="salaires-n">Tes salaires nets imposables</label>
+        <div class="sim-duo">
+          <input type="range" id="salaires" min="0" max="250000" step="500" value="60000" aria-hidden="true" tabindex="-1" />
+          <input type="number" id="salaires-n" min="0" max="250000" step="500" value="60000" inputmode="decimal" />
+          <span class="sim-unite">€</span>
+        </div>
+        <p class="sim-aide">Sert à la fois au calcul de ton impôt et à celui de ton plafond de déduction.</p>
+      </div>
+
+      <div class="sim-champ" id="bloc-conjoint" data-duo="salaires-conjoint" hidden>
+        <label for="salaires-conjoint-n">Salaires nets imposables du conjoint</label>
+        <div class="sim-duo">
+          <input type="range" id="salaires-conjoint" min="0" max="250000" step="500" value="0" aria-hidden="true" tabindex="-1" />
+          <input type="number" id="salaires-conjoint-n" min="0" max="250000" step="500" value="0" inputmode="decimal" />
+          <span class="sim-unite">€</span>
+        </div>
+      </div>
+
+      <h2 class="sim-titre sim-titre-suite">Ton versement</h2>
+
+      <div class="sim-champ" data-duo="versement">
+        <label for="versement-n">Versement volontaire cette année</label>
+        <div class="sim-duo">
+          <input type="range" id="versement" min="0" max="40000" step="100" value="4000" aria-hidden="true" tabindex="-1" />
+          <input type="number" id="versement-n" min="0" max="40000" step="100" value="4000" inputmode="decimal" />
+          <span class="sim-unite">€</span>
+        </div>
+      </div>
+
+      <div class="sim-champ sim-champ-mince" data-duo="reports">
+        <label for="reports-n">Plafonds non utilisés, reportés</label>
+        <div class="sim-duo">
+          <input type="range" id="reports" min="0" max="100000" step="500" value="0" aria-hidden="true" tabindex="-1" />
+          <input type="number" id="reports-n" min="0" max="100000" step="500" value="0" inputmode="decimal" />
+          <span class="sim-unite">€</span>
+        </div>
+        <p class="sim-aide">
+          Le montant figure sur ton avis d'imposition, rubrique « Plafond épargne retraite ».
+          Le simulateur ne le devine pas.
+        </p>
+      </div>
+
+      <div class="sim-champ sim-champ-mince" data-duo="entreprise">
+        <label for="entreprise-n">Épargne retraite d'entreprise l'an dernier</label>
+        <div class="sim-duo">
+          <input type="range" id="entreprise" min="0" max="40000" step="100" value="0" aria-hidden="true" tabindex="-1" />
+          <input type="number" id="entreprise-n" min="0" max="40000" step="100" value="0" inputmode="decimal" />
+          <span class="sim-unite">€</span>
+        </div>
+        <p class="sim-aide">Abondement et versements obligatoires : ils viennent en diminution de ton plafond.</p>
+      </div>
+
+      <h2 class="sim-titre sim-titre-suite">Jusqu'à la retraite</h2>
+
+      <div class="sim-champ" data-duo="annees">
+        <label for="annees-n">Années restantes</label>
+        <div class="sim-duo">
+          <input type="range" id="annees" min="1" max="40" step="1" value="20" aria-hidden="true" tabindex="-1" />
+          <input type="number" id="annees-n" min="1" max="40" step="1" value="20" inputmode="numeric" />
+          <span class="sim-unite">ans</span>
+        </div>
+      </div>
+
+      <div class="sim-champ" data-duo="rendement">
+        <label for="rendement-n">Rendement annuel net attendu</label>
+        <div class="sim-duo">
+          <input type="range" id="rendement" min="0" max="10" step="0.1" value="4" aria-hidden="true" tabindex="-1" />
+          <input type="number" id="rendement-n" min="0" max="10" step="0.1" value="4" inputmode="decimal" />
+          <span class="sim-unite">%</span>
+        </div>
+        <p class="sim-aide">Hypothèse. Aucun rendement n'est garanti et le capital peut baisser.</p>
+      </div>
+
+      <div class="sim-champ">
+        <label for="tmi-sortie">Ta tranche marginale à la retraite</label>
+        <select id="tmi-sortie">
+          <option value="0">0 % — non imposable</option>
+          <option value="0.11" selected>11 %</option>
+          <option value="0.3">30 %</option>
+          <option value="0.41">41 %</option>
+          <option value="0.45">45 %</option>
+        </select>
+        <p class="sim-aide">
+          C'est l'hypothèse qui décide du pari. La plupart des retraités descendent d'une tranche,
+          mais personne ne peut te le garantir.
+        </p>
+      </div>
+    </form>
+
+    <div class="sim-resultat">
+      <p class="sim-resultat-etiq">Économie d'impôt cette année</p>
+      <p class="sim-chiffre" id="r-economie">—</p>
+      <p class="sim-reel-ligne">
+        Soit <strong id="r-taux-economie">—</strong> du montant déduit. Ta tranche actuelle est de
+        <strong id="r-tmi">—</strong>.
+      </p>
+
+      <dl class="sim-detail">
+        <div><dt>Plafond disponible</dt><dd id="r-plafond">—</dd></div>
+        <div><dt>Part déductible</dt><dd id="r-deductible">—</dd></div>
+        <div><dt>Capital projeté</dt><dd id="r-sortie-capital">—</dd></div>
+      </dl>
+
+      <p class="sim-aide" id="note-plafond"></p>
+      <p class="sim-alerte" id="alerte-plafond" role="status" hidden></p>
+
+      <div class="sim-pari">
+        <h3>Les deux côtés du pari</h3>
+        <div class="sim-pari-cotes">
+          <div>
+            <p class="sim-pari-etiq">Économisé à l'entrée</p>
+            <p class="sim-pari-chiffre" id="r-cumul">—</p>
+            <p class="sim-aide">Cumul sur toute la période, à versement constant.</p>
+          </div>
+          <div>
+            <p class="sim-pari-etiq">Payé à la sortie</p>
+            <p class="sim-pari-chiffre" id="r-sortie-impot">—</p>
+            <p class="sim-aide">
+              Dont <span id="r-sortie-versements">—</span> au barème sur les versements
+              et <span id="r-sortie-produits">—</span> de prélèvement forfaitaire sur les gains.
+            </p>
+          </div>
+        </div>
+        <p class="sim-solde" id="bloc-solde">
+          Solde du pari : <strong id="r-solde">—</strong>
+        </p>
+        <p class="sim-aide">Capital net perçu après impôt : <span id="r-sortie-net">—</span>.</p>
+      </div>
+
+      <p class="sim-synthese" id="sim-synthese" role="status"></p>
+    </div>
+  </div>
+
+  <div class="sim-notes">
+    <h2>Ce que ce calcul ne dit pas</h2>
+    <ul>
+      <li>La <strong>tranche à la retraite est une hypothèse</strong>, pas une donnée. C'est elle qui décide si le PER est gagnant, et personne ne la connaît à l'avance.</li>
+      <li>Il ne traite que la <strong>sortie en capital</strong>. La sortie en rente relève du régime des pensions, avec un abattement et des prélèvements sociaux sur une fraction variable selon l'âge.</li>
+      <li>Le plafond est calculé sur <strong>tes seuls revenus</strong> de déclarant. Le plafond du conjoint et la mutualisation entre époux ne sont pas modélisés.</li>
+      <li>Les sommes placées sur un PER sont <strong>bloquées jusqu'à la retraite</strong>, sauf cas de déblocage anticipé — dont l'achat de la résidence principale.</li>
+      <li>
+        Report des plafonds non utilisés : l'administration énonce <strong>trois ans</strong>, et la
+        fiche du PER individuel décrit un report de cinq ans pour les plafonds de 2026 et suivants.
+        Aucun calcul de cette page n'en dépend, puisque tu saisis toi-même le montant reporté.
+        <a class="lien-petit" href={per.report.urlAutreLecture} rel="noopener">L'autre lecture</a>
+      </li>
+    </ul>
+    <p class="sim-source">
+      Plafonds et report : <a class="lien-petit" href={per.sources[1].url} rel="noopener">impots.gouv.fr</a> et
+      <a class="lien-petit" href={per.sources[0].url} rel="noopener">BOFiP</a> ·
+      Régime de sortie : <a class="lien-petit" href={per.sources[2].url} rel="noopener">BOFiP</a> ·
+      Prélèvement forfaitaire à {(prelevements.pfuTotal * 100).toLocaleString('fr-FR')} % depuis le 1<sup>er</sup> janvier 2026 :
+      <a class="lien-petit" href={prelevements.sources[0].url} rel="noopener">service-public.gouv.fr</a> ·
+      PASS 2025 : <a class="lien-petit" href={per.sources[3].url} rel="noopener">Légifrance</a>.
+      Chiffres vérifiés le 16 septembre 2026.
+    </p>
+    <p class="sim-avertissement">
+      Cet outil a une vocation informative et pédagogique. Il ne constitue pas un conseil fiscal ni un conseil
+      en investissement personnalisé au sens de l'article L. 541-1 du Code monétaire et financier. Tout
+      investissement comporte un risque de perte en capital.
+      <a class="lien-petit" href="/disclaimer/">Avertissement complet</a>
+    </p>
+  </div>
+</div>
+</section>
+
+<section class="final">
+<div class="wrap final-simple">
+  <h2>Le PER est-il fait pour toi ?</h2>
+  <p>Ça dépend de ta tranche, de ton horizon et de ce que tu as déjà. SAFIA regarde ta situation réelle plutôt qu'un cas général.</p>
+  <a class="btn btn-primaire" href="/telecharger/" data-app>Télécharger l'app</a>
+  <a class="lien" href="/outils/">Voir les autres outils</a>
+</div>
+</section>
+</Base>
+
+<script>
+  import '../../scripts/outils/per.js';
+</script>

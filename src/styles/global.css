@@ -1554,3 +1554,25 @@ a.sim-choix-carte:hover{background:var(--lavande)}
 .sim-tranches thead th{font-size:12.5px;font-weight:600;color:rgba(255,255,255,.66)}
 .sim-tranches tbody th{text-align:left;font-weight:600;color:var(--blanc)}
 .sim-tranches td[colspan]{text-align:left;color:rgba(255,255,255,.7);white-space:normal}
+
+
+/* ---------- Simulateur PER : les deux côtés du pari ---------- */
+/* Économie à l'entrée et impôt à la sortie sont montrés côte à côte, jamais
+   l'un sans l'autre : c'est tout le propos de la page. */
+.sim-pari{margin-top:24px;padding-top:22px;border-top:1px solid rgba(255,255,255,.16)}
+.sim-pari h3{font-size:12.5px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:rgba(255,255,255,.66);margin-bottom:14px}
+.sim-pari-cotes{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.sim-pari-etiq{font-size:13px;color:rgba(255,255,255,.66);margin-bottom:6px}
+.sim-pari-chiffre{font-size:26px;font-weight:600;line-height:1.1;font-variant-numeric:tabular-nums}
+.sim-pari .sim-aide{color:rgba(255,255,255,.6);margin-top:8px}
+.sim-solde{margin-top:18px;padding:13px 16px;border-radius:var(--r-m);background:rgba(60,214,143,.14);box-shadow:inset 0 0 0 1px rgba(60,214,143,.4);font-size:15px}
+.sim-solde strong{font-variant-numeric:tabular-nums}
+/* Un solde négatif veut dire que le pari est perdant : la couleur le dit,
+   le texte aussi, pour qui ne distingue pas les teintes. */
+.sim-solde-negatif{background:rgba(228,139,239,.16);box-shadow:inset 0 0 0 1px rgba(228,139,239,.42)}
+.sim-resultat > .sim-aide{color:rgba(255,255,255,.62);margin-top:12px}
+.sim-resultat > .sim-aide:empty{display:none}
+
+@media (max-width:720px){
+  .sim-pari-cotes{grid-template-columns:1fr;gap:16px}
+}

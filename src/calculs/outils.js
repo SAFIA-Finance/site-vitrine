@@ -34,7 +34,7 @@ export const OUTILS = [
     nom: 'Simulateur PER',
     route: '/outils/per/',
     resume: "Ce qu'un versement sur un PER te fait vraiment économiser, et ce qu'il coûte à la sortie.",
-    publie: false,
+    publie: true,
   },
   {
     cle: 'frais',
