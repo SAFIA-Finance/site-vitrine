@@ -380,6 +380,19 @@ footer.pied{background:var(--nuit);color:rgba(255,255,255,.78);padding:64px 0 40
 .cookies .btn{padding:12px 20px;font-size:15px;min-height:44px}
 .cookies .lien{color:var(--blanc);font-size:14px;align-self:center}
 
+/* Bandeau cookies compact sur mobile : il recouvrait les boutons du hero.
+   Titre, finalité en une phrase, deux boutons. Le détail passe derrière
+   « En savoir plus ». Voir docs/AUDIT-UX.md, proposition 1. */
+@media (max-width:760px){
+  .cookies{left:12px;right:12px;bottom:12px;padding:16px 18px;border-radius:20px}
+  .cookies h2{font-size:17px}
+  .cookies p{margin-top:6px;font-size:14.5px;line-height:1.45}
+  .ck-detail{display:none}
+  .cookies .choix-c{gap:8px;margin-top:14px}
+  .cookies .btn{flex:1 1 0;justify-content:center;padding:11px 16px;font-size:14.5px}
+  .cookies .lien{flex-basis:100%;text-align:center;font-size:13.5px;align-self:auto}
+}
+
 /* Retour en haut */
 .haut{position:fixed;right:20px;bottom:20px;z-index:60;width:48px;height:48px;border-radius:50%;border:0;cursor:pointer;background:var(--encre);color:var(--blanc);display:grid;place-items:center;opacity:0;visibility:hidden;transform:translateY(10px);transition:opacity .2s,transform .2s,visibility .2s}
 .haut.visible{opacity:1;visibility:visible;transform:none}

@@ -5,10 +5,14 @@
 
 <div class="cookies" id="cookies" role="dialog" aria-labelledby="ck-t" aria-describedby="ck-d" hidden>
   <h2 id="ck-t">Mesure d'audience</h2>
+  <!-- La première phrase énonce la finalité : elle reste visible partout.
+       Le détail est masqué sous 760 px, où le bandeau recouvrait les boutons
+       du hero ; il reste lu par les lecteurs d'écran sur grand écran, et la
+       version complète vit dans la politique de cookies. -->
   <p id="ck-d">
-    Nous aimerions mesurer la fréquentation du site avec Google Analytics pour l'améliorer. Ces cookies ne sont pas
-    nécessaires à son fonctionnement et ne servent ni à la publicité ni au profilage. Tu peux refuser
-    sans conséquence.
+    Nous aimerions mesurer la fréquentation du site avec Google Analytics pour l'améliorer.<span class="ck-detail">
+    Ces cookies ne sont pas nécessaires à son fonctionnement et ne servent ni à la publicité ni au
+    profilage. Tu peux refuser sans conséquence.</span>
   </p>
   <div class="choix-c">
     <button class="btn btn-fantome" type="button" data-ck="refus">Refuser</button>

@@ -60,6 +60,13 @@ ligne, texte explicatif replié derrière « En savoir plus ». Le consentement
 reste valide : ce qui compte juridiquement est le refus aussi accessible que
 l'acceptation, pas la longueur du texte affiché d'emblée.
 
+> **Fait le 16 septembre 2026**, arbitré par Maxime. Mesuré sous 760 px : le
+> bandeau passe de ~330 px à **202 px**, soit 23 % de la hauteur au lieu de
+> 40 %, et **les deux boutons du hero ne sont plus recouverts**. « Refuser » et
+> « Accepter » ont exactement la même largeur (171 px) et 45 px de hauteur
+> tactile. Le détail du texte reste affiché au-dessus de 760 px, où rien ne
+> change, et la version complète vit dans la politique de cookies.
+
 **2. Aucune preuve sociale nulle part.**
 Ni note de magasin, ni nombre d'utilisateurs, ni témoignage, ni logo de presse.
 Sur un produit financier, la preuve par les pairs pèse autant que l'argumentaire.
