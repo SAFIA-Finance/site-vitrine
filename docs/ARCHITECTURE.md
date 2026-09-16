@@ -173,6 +173,15 @@ sur un design déjà validé. À faire plus tard, pas au moment de déployer.
 > du `<header>`**, et doit y rester. La même précaution vaut pour tout futur
 > élément fixe : bandeau, fenêtre, info-bulle.
 
+> **Et pourquoi la barre est `fixed`, pas `sticky`.** Le même `backdrop-filter`
+> oblige le navigateur à ré-échantillonner ce qui passe derrière la barre à
+> chaque image. Tant que la bande partenaire défile, le compositeur la remet à
+> jour en décalage avec le défilement : la barre flotte visiblement. En
+> `position: fixed`, elle a sa propre couche et ne suit plus le contenu. Le
+> changement est neutre pour la mise en page : avec `margin-bottom: -68px`, la
+> barre n'occupait déjà aucune hauteur dans le flux. `scroll-padding-top` sur
+> `html` évite que les ancres amènent un titre sous la barre.
+
 ## Les images
 
 La maquette embarquait ses photos en base64 dans le HTML. Le portrait du
@@ -193,7 +202,7 @@ logo par `npm run images`.
 
 ## Ce qui a changé par rapport à la maquette
 
-Le rendu et les textes sont identiques. Ces quinze points sont les seuls écarts,
+Le rendu et les textes sont identiques. Ces seize points sont les seuls écarts,
 tous délibérés.
 
 | | Maquette | Site | Pourquoi |
@@ -213,6 +222,7 @@ tous délibérés.
 | 13 | Panneau du menu mobile dans le `<header>` | hors du `<header>` | Il s'ouvrait sans hauteur : le menu était inutilisable sur téléphone |
 | 14 | Boutons « Télécharger l'app » sans destination | `/telecharger/`, puis le magasin de l'appareil | Le premier appel à l'action du site ne menait nulle part |
 | 15 | QR code dessiné, décoratif | QR code réel vers `/telecharger/` | Il était scannable et ne menait nulle part |
+| 16 | Barre de navigation `sticky` | `fixed`, avec `scroll-padding-top` | Son flou la faisait flotter pendant le défilement |
 
 Quatre méta-descriptions dépassaient la longueur affichée par Google. Deux ont
 été raccourcies, ce qui demande ta relecture : voir
