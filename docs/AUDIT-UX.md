@@ -78,8 +78,35 @@ l'acceptation, pas la longueur du texte affiché d'emblée.
 > bandeau passe de ~330 px à **202 px**, soit 23 % de la hauteur au lieu de
 > 40 %, et **les deux boutons du hero ne sont plus recouverts**. « Refuser » et
 > « Accepter » ont exactement la même largeur (171 px) et 45 px de hauteur
-> tactile. Le détail du texte reste affiché au-dessus de 760 px, où rien ne
-> change, et la version complète vit dans la politique de cookies.
+> tactile.
+>
+> **Étendu à l'ordinateur le même jour**, après mesure : le bandeau y recouvrait
+> encore les boutons du hero et le bloc de chiffres. Le détail du texte est
+> désormais masqué **à toutes les tailles** — la phrase qui énonce la finalité
+> reste affichée partout, et le détail vit dans la politique de cookies, vers
+> laquelle mène « En savoir plus ». Sur grand écran, la carte est élargie à
+> 720 px pour ramener cette phrase sur une seule ligne, ce qui est le vrai
+> levier : le bandeau passe de **244 px à 157 px**, soit 17 % de la hauteur au
+> lieu de 27 %, et **les deux boutons du hero sont libres**. « Refuser » et
+> « Accepter » y ont aussi la même largeur, et 48 px de hauteur tactile.
+>
+> **Ce qui n'est pas réglé, et pourquoi on s'arrête là** : le bloc de chiffres
+> d'usage et la mention de bêta, situés sous les boutons, restent recouverts au
+> premier affichage. Aucune carte ancrée en bas de l'écran ne peut libérer les
+> deux à la fois : entre un bandeau calé en bas et un hero haut, tout gain
+> vertical pour un élément est une perte pour celui qui le suit.
+>
+> Remonter les chiffres au-dessus des boutons a été essayé et mesuré : cela
+> libère les chiffres, mais pousse les boutons d'une soixantaine de pixels vers
+> le bas, **dans** le bandeau — dans les trois contextes. L'échange est perdant,
+> et il défaisait l'objectif même de cette proposition. Arbitrage de Maxime :
+> on revient à l'ordre initial, les boutons priment. Un commentaire dans
+> `index.astro` garde la trace de la mesure, pour que le déplacement ne soit pas
+> refait de bonne foi.
+>
+> La seule disposition qui libérerait tout est une carte de consentement ancrée
+> **en coin** sur grand écran, qui gagne sur l'axe horizontal. Écartée deux fois
+> à ce stade ; elle reste disponible si le sujet revient.
 
 **2. Aucune preuve sociale nulle part.**
 Ni note de magasin, ni nombre d'utilisateurs, ni témoignage, ni logo de presse.

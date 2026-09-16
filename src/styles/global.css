@@ -395,11 +395,23 @@ footer.pied{background:var(--nuit);color:rgba(255,255,255,.78);padding:64px 0 40
 .annonce{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 
 /* Bandeau cookies */
-.cookies{position:fixed;left:16px;right:16px;bottom:16px;z-index:95;max-width:560px;margin:0 auto;padding:24px 26px;border-radius:var(--r-l);background:var(--nuit);color:var(--blanc);box-shadow:0 24px 60px rgba(10,5,40,.5)}
+.cookies{position:fixed;left:16px;right:16px;bottom:16px;z-index:95;max-width:560px;margin:0 auto;padding:20px 24px;border-radius:var(--r-l);background:var(--nuit);color:var(--blanc);box-shadow:0 24px 60px rgba(10,5,40,.5)}
 .cookies[hidden]{display:none}
+.ck-detail{display:none}
+
+/* Bandeau cookies, ordinateur : il recouvrait les boutons du hero. Une seule
+   ligne de texte et des marges resserrées le font passer sous 140 px, ce qui
+   les libère. Voir docs/AUDIT-UX.md, propositions 1 et 2. */
+@media (min-width:761px){
+  .cookies{max-width:720px;padding:16px 22px}
+  .cookies h2{font-size:16px}
+  .cookies p{margin-top:5px;font-size:14.5px;line-height:1.45}
+  .cookies .choix-c{margin-top:12px}
+  .cookies .btn{min-width:132px;justify-content:center}
+}
 .cookies h2{font-size:19px;font-weight:600}
 .cookies p{margin-top:8px;font-size:15px;color:rgba(255,255,255,.82);line-height:1.5}
-.cookies .choix-c{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}
+.cookies .choix-c{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px}
 .cookies .btn{padding:12px 20px;font-size:15px;min-height:44px}
 .cookies .lien{color:var(--blanc);font-size:14px;align-self:center}
 
@@ -410,7 +422,6 @@ footer.pied{background:var(--nuit);color:rgba(255,255,255,.78);padding:64px 0 40
   .cookies{left:12px;right:12px;bottom:12px;padding:16px 18px;border-radius:20px}
   .cookies h2{font-size:17px}
   .cookies p{margin-top:6px;font-size:14.5px;line-height:1.45}
-  .ck-detail{display:none}
   .cookies .choix-c{gap:8px;margin-top:14px}
   .cookies .btn{flex:1 1 0;justify-content:center;padding:11px 16px;font-size:14.5px}
   .cookies .lien{flex-basis:100%;text-align:center;font-size:13.5px;align-self:auto}

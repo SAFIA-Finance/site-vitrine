@@ -35,6 +35,11 @@ const faq = [
       <a class="btn btn-primaire" href="/telecharger/" data-app>Télécharger l'app, c'est gratuit</a>
       <a class="btn btn-fantome" href="/adn-investisseur/">Découvrir mon ADN investisseur</a>
     </div>
+    <!-- Les chiffres restent SOUS les boutons, à dessein. Les remonter a été
+         essayé et mesuré le 16 septembre 2026 : cela pousse les boutons d'une
+         soixantaine de pixels vers le bas, donc dans la zone que le bandeau
+         cookies recouvre tant que le visiteur n'a pas répondu. L'échange est
+         perdant — ce sont les boutons qui font télécharger. -->
     <ul class="preuves" aria-label="Chiffres d'usage">
       <li><b>{PREUVES.telechargements}</b><span>téléchargements</span></li>
       <li><b>{PREUVES.patrimoine}</b><span>de patrimoine agrégé</span></li>
