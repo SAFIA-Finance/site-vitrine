@@ -1,5 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
+import { PREUVES } from '../config.js';
 const faq = [
   {
     "q": "SAFIA, c'est quoi ?",
@@ -34,6 +35,14 @@ const faq = [
       <a class="btn btn-primaire" href="/telecharger/" data-app>Télécharger l'app, c'est gratuit</a>
       <a class="btn btn-fantome" href="/adn-investisseur/">Découvrir mon ADN investisseur</a>
     </div>
+    <ul class="preuves" aria-label="Chiffres d'usage">
+      <li><b>{PREUVES.telechargements}</b><span>téléchargements</span></li>
+      <li><b>{PREUVES.patrimoine}</b><span>de patrimoine agrégé</span></li>
+      {PREUVES.note && (
+        <li><b>{PREUVES.note.valeur} <span class="preuves-etoile" aria-hidden="true">★</span></b><span>sur {PREUVES.note.avis} avis {PREUVES.note.magasin}</span></li>
+      )}
+    </ul>
+    {PREUVES.beta && <p class="beta">{PREUVES.beta}</p>}
     <ul class="garanties">
       <li><svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8.5l3 3 7-7" stroke="#E48BEF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>Agrégation illimitée gratuite</li>
       <li><svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8.5l3 3 7-7" stroke="#E48BEF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>Données hébergées dans l'UE. Respect de la RGPD.</li>

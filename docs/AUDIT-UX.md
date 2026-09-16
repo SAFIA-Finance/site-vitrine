@@ -30,18 +30,32 @@ des conclusions tirées de mesures d'audience.
 | Fenêtre de téléchargement collée en haut à gauche | `*{margin:0}` annulait le `margin:auto` que le navigateur applique à un `<dialog>` modal | `global.css` |
 | « Scanne le code » affiché sans QR code sur mobile | Note non masquée avec le QR sous 760 px | `global.css` |
 | Boutons de téléchargement sans destination | Liens `href="#"` hérités de la maquette | 8 pages |
+| Débordement horizontal de 20 px sur mobile, **sur toutes les pages** | Pied de page en trois colonnes sous 980 px : la plus longue étiquette empêche les colonnes de rétrécir | `global.css` |
 
 **Les trois défauts de spécificité et de positionnement ont la même racine** :
 une feuille de style globale de 2 900 règles où un sélecteur d'élément peut
 écraser un composant. C'est le risque structurel du site aujourd'hui.
 
-## 2. Ce que le balayage automatique ne signale pas
+## 2. Ce que le balayage automatique dit, et ce qu'il a d'abord manqué
 
-Sur les 20 pages, dans les deux formats : **aucun débordement horizontal**,
-**aucun bouton dévié** de son style de composant, **aucune image sans `alt`**,
-**un seul `h1` par page**. Les 12 liens du menu mobile dépassent tous 44 px.
+> **Correction du 16 septembre.** La première version de ce paragraphe affirmait
+> qu'aucune page ne débordait horizontalement. C'était faux, et la faute venait
+> de l'instrument : il comparait la largeur des éléments à `window.innerWidth`,
+> qui inclut la gouttière de défilement et dépasse de 20 px la largeur utile en
+> émulation mobile. Tout débordement de cet ordre lui échappait — précisément
+> celui du pied de page, présent sur **toutes** les pages. L'audit compare
+> désormais à `documentElement.clientWidth`, et ignore les éléments fixés, qui
+> occupent légitimement la fenêtre entière.
 
-Un seul faux positif, levé : le schéma du Cockpit (812 px) vit dans un conteneur
+État après correction, mesuré sur **23 pages dans les deux formats, soit 46
+contrôles** : **aucun débordement horizontal**, **aucun bouton dévié** de son
+style de composant, **aucune image sans `alt`**, **un seul `h1` par page**. Les
+12 liens du menu mobile dépassent tous 44 px.
+
+Il ne reste que des cibles tactiles comprises entre 17 et 32 px sur huit pages,
+qui font l'objet de la proposition 9.
+
+Un faux positif, levé : le schéma du Cockpit (812 px) vit dans un conteneur
 `overflow-x:auto` de 342 px. La page ne déborde pas — mais voir la proposition 8.
 
 ---
@@ -75,6 +89,29 @@ et Google Play près des boutons de téléchargement. En attendant, ne rien
 inventer : la bande « Ils nous accompagnent » (Scaleway, Mistral AI, Powens,
 Bpifrance, CNCGP) est déjà de la preuve institutionnelle, mais elle est en bas
 du hero et sans logos. La rapprocher des boutons aurait plus d'effet.
+
+> **Fait le 16 septembre 2026**, arbitré par Maxime : la bande reste où elle
+> est, et un bloc de chiffres d'usage arrive **sous les boutons du hero**, là où
+> se prend la décision. Trois chiffres : 100+ téléchargements, 10 M€+ de
+> patrimoine agrégé, et la note des magasins. S'y ajoute la mention de bêta,
+> avec un mois de Smart offert aux premiers utilisateurs.
+>
+> **La note est réelle** : 5,0 sur 3 avis, relevée le 16 septembre via l'API
+> publique d'Apple, et toujours affichée **avec son effectif** — une note sans
+> son nombre d'avis se retourne contre nous tant qu'il est faible. Une note
+> inventée avait été envisagée puis écartée : sur le site d'un CIF, c'est une
+> pratique commerciale trompeuse. Google Play n'expose pas de note lisible
+> automatiquement ; à compléter depuis la Play Console.
+>
+> Tout vit dans `PREUVES`, dans `src/config.js` : chiffres, note et mention de
+> bêta se mettent à jour ou se retirent à un seul endroit. L'avantage est borné
+> à la durée de la bêta, ce qui permet d'y mettre fin sans se dédire.
+>
+> **Réserve mesurée** : tant que le visiteur n'a pas répondu au bandeau cookies,
+> celui-ci recouvre ce bloc — sur mobile comme sur ordinateur, où il recouvre
+> aussi les deux boutons du hero, ce qui était déjà le cas avant. Tout redevient
+> libre dès que le choix est fait. Étendre le bandeau compact à l'ordinateur
+> réglerait ce dernier point : à arbitrer.
 
 **3. Le prix affiché est le prix annuel, pas le prix mensuel.**
 « 299 € » en gros, « par an » en petit. Le montant qui décide est celui que le
