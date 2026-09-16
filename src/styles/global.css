@@ -54,7 +54,9 @@ button,input{font:inherit;color:inherit}
 .nav.defile{background:rgba(15,9,44,.94);border-bottom-color:rgba(255,255,255,.12);box-shadow:0 8px 30px rgba(10,5,40,.35)}
 
 .nav-in{display:flex;align-items:center;justify-content:space-between;height:68px;gap:24px}
-.logo{display:inline-flex;align-items:center;text-decoration:none;color:var(--blanc)}
+/* min-height : la cible tactile du logo faisait 41 px, trois de moins que
+   les 44 px du niveau AAA. L'image ne bouge pas, seul le lien s'étend. */
+.logo{display:inline-flex;align-items:center;min-height:44px;text-decoration:none;color:var(--blanc)}
 .logo svg{width:104px;height:auto;display:block}
 .pied .logo svg{width:116px}
 .menu{display:flex;align-items:center;gap:4px;list-style:none}

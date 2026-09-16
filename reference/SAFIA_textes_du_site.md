@@ -1200,7 +1200,7 @@ Cinq points appellent une décision de ta part, détaillés dans ma réponse et 
 | Réf. | Rôle | Texte actuel | Ta version |
 |---|---|---|---|
 | MET-SEO1 | Balise title (52 car.) | Notre méthode : comment SAFIA analyse ton patrimoine | |
-| MET-SEO2 | Meta description (159 car.) | Profil de risque prudent, ADN investisseur, photo patrimoniale sans double comptage, réponses sourcées : voici exactement comment SAFIA construit ses analyses. | |
+| MET-SEO2 | Meta description (138 car.) | Profil de risque prudent, ADN investisseur, photo patrimoniale, réponses sourcées : voici exactement comment SAFIA construit ses analyses. | |
 
 ### Contenu de la page
 
@@ -1225,8 +1225,8 @@ Cinq points appellent une décision de ta part, détaillés dans ma réponse et 
 | MET-09 | Élément de liste | Ton ADN, construit par tes réactions Tes swipes sur des secteurs, des pratiques et des critères ESG sont convertis en préférences. Ton ADN devient exploitable dès 25 réponses et s'affine ensuite à chaque nouvelle réaction. | |
 | MET-10 | Titre de section | Ton ADN, construit par tes réactions | |
 | MET-11 | Paragraphe | Tes swipes sur des secteurs, des pratiques et des critères ESG sont convertis en préférences. Ton ADN devient exploitable dès 25 réponses et s'affine ensuite à chaque nouvelle réaction. | |
-| MET-12 | Élément de liste | Ta photo patrimoniale, sans double comptage Tes comptes connectés et les actifs que tu ajoutes forment ton patrimoine brut. Quand une enveloppe contient des placements, c'est la valeur des placements qui compte, pas deux fois le même argent. Tes dettes sont déduites pour obtenir ton patrimoine net. | |
-| MET-13 | Titre de section | Ta photo patrimoniale, sans double comptage | |
+| MET-12 | Élément de liste | Ta photo patrimoniale Tes comptes connectés et les actifs que tu ajoutes forment ton patrimoine brut. Quand une enveloppe contient des placements, c'est la valeur des placements qui compte, pas deux fois le même argent. Tes dettes sont déduites pour obtenir ton patrimoine net. | |
+| MET-13 | Titre de section | Ta photo patrimoniale | |
 | MET-14 | Paragraphe | Tes comptes connectés et les actifs que tu ajoutes forment ton patrimoine brut. Quand une enveloppe contient des placements, c'est la valeur des placements qui compte, pas deux fois le même argent. Tes dettes sont déduites pour obtenir ton patrimoine net. | |
 | MET-15 | Élément de liste | Des pistes filtrées par ton profil Une piste n'est proposée que si son niveau de risque est compatible avec ton profil. Elle est ensuite évaluée selon son alignement avec ton ADN. L'ordre compte : le risque d'abord, les valeurs ensuite. | |
 | MET-16 | Titre de section | Des pistes filtrées par ton profil | |

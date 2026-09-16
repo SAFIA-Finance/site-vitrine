@@ -89,7 +89,7 @@ directement, c'est un fichier texte.
 ### Notre méthode · `/methode/`
 
 - **Titre** (52) : Notre méthode : comment SAFIA analyse ton patrimoine
-- **Description** (140) : Profil de risque, ADN investisseur, analyse sans double comptage, réponses sourcées : comment SAFIA construit ses analyses, étape par étape.
+- **Description** (130) : Profil de risque, ADN investisseur, photo patrimoniale, réponses sourcées : comment SAFIA construit ses analyses, étape par étape.
 
 ### Sécurité et conformité · `/securite/`
 
