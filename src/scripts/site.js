@@ -39,6 +39,7 @@ const annonce = document.getElementById('annonce');
     const panneau = document.getElementById('panneau');
     if (panneau && panneau.classList.contains('ouvert')) {
       panneau.classList.remove('ouvert');
+      document.body.classList.remove('bloque');
       document.querySelector('.burger').setAttribute('aria-expanded', 'false');
     }
   });
@@ -58,11 +59,14 @@ const annonce = document.getElementById('annonce');
     const ouvert = panneau.classList.toggle('ouvert');
     burger.setAttribute('aria-expanded', String(ouvert));
     burger.setAttribute('aria-label', ouvert ? 'Fermer le menu' : 'Ouvrir le menu');
+    // Le panneau couvre l'écran : sans cela, la page défile derrière lui.
+    document.body.classList.toggle('bloque', ouvert);
   });
 
   panneau.querySelectorAll('a').forEach((a) => {
     a.addEventListener('click', () => {
       panneau.classList.remove('ouvert');
+      document.body.classList.remove('bloque');
       burger.setAttribute('aria-expanded', 'false');
     });
   });
@@ -181,6 +185,66 @@ const annonce = document.getElementById('annonce');
       boite.hidden = false;
       boite.querySelector('[data-ck]')?.focus();
     });
+  });
+})();
+
+// ---- Boutons de téléchargement de l'application ----
+// Sur téléphone, le bouton mène droit au magasin de l'appareil : un appui suffit.
+// Ailleurs, il ouvre la fenêtre de choix. Sans JavaScript, il reste un lien vers
+// /telecharger/, qui présente les deux magasins.
+(function () {
+  const boutons = Array.from(document.querySelectorAll('a[data-app]'));
+  if (!boutons.length) return;
+
+  const IOS = document.querySelector('meta[name="safia-app-ios"]')?.content;
+  const ANDROID = document.querySelector('meta[name="safia-app-android"]')?.content;
+
+  // iPadOS 13 et suivants se présentent comme un Mac : seul le tactile les trahit.
+  const ua = navigator.userAgent;
+  const pomme = /iPhone|iPad|iPod/i.test(ua) || (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1);
+  const android = /Android/i.test(ua);
+  const magasin = pomme ? IOS : android ? ANDROID : null;
+
+  // gtag n'existe qu'après acceptation du bandeau : rien n'est mesuré sans accord.
+  function mesurer(nom) {
+    if (typeof window.gtag === 'function') window.gtag('event', 'telechargement_app', { magasin: nom });
+  }
+
+  if (magasin) {
+    boutons.forEach((b) => {
+      b.href = magasin;
+      b.rel = 'noopener';
+      b.addEventListener('click', () => mesurer(pomme ? 'app-store' : 'google-play'));
+    });
+    return;
+  }
+
+  const modale = document.getElementById('modale-app');
+  if (!modale || typeof modale.showModal !== 'function') return; // le lien vers /telecharger/ prend le relais
+
+  let declencheur = null;
+
+  boutons.forEach((b) => {
+    b.addEventListener('click', (e) => {
+      e.preventDefault();
+      declencheur = b;
+      modale.showModal();
+      document.body.classList.add('bloque');
+    });
+  });
+
+  // Clic sur le fond : la cible est alors le <dialog> lui-même, pas son contenu.
+  modale.addEventListener('click', (e) => {
+    if (e.target === modale) modale.close();
+  });
+
+  modale.addEventListener('close', () => {
+    document.body.classList.remove('bloque');
+    declencheur?.focus();
+  });
+
+  modale.querySelectorAll('.magasin').forEach((a) => {
+    a.addEventListener('click', () => mesurer(a.dataset.magasin));
   });
 })();
 

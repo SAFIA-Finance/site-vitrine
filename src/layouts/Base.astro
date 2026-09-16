@@ -6,7 +6,8 @@ import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import BandeauCookies from '../components/BandeauCookies.astro';
 import RetourHaut from '../components/RetourHaut.astro';
-import { SITE_URL, INDEXABLE, SOCIETE, GA_ID, RELAIS_URL } from '../config.js';
+import ModaleTelechargement from '../components/ModaleTelechargement.astro';
+import { SITE_URL, INDEXABLE, SOCIETE, GA_ID, RELAIS_URL, APPLICATION } from '../config.js';
 import pages from '../data/pages.json';
 import '../styles/global.css';
 
@@ -133,6 +134,8 @@ const jsonFil = fil
     <meta name="robots" content={robots} />
     <meta name="safia-ga" content={GA_ID} />
     <meta name="safia-relais" content={RELAIS_URL} />
+    <meta name="safia-app-ios" content={APPLICATION.ios} />
+    <meta name="safia-app-android" content={APPLICATION.android} />
     <link rel="canonical" href={canonique} />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
@@ -172,6 +175,7 @@ const jsonFil = fil
 
     <RetourHaut />
     <BandeauCookies />
+    <ModaleTelechargement />
 
     <script>
       import '../scripts/site.js';

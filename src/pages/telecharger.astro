@@ -1,0 +1,50 @@
+---
+// Point d'arrivée unique des boutons de téléchargement : c'est la page que
+// visent le QR code, les liens sans JavaScript et les visiteurs sur ordinateur.
+// Sur téléphone, site.js envoie directement au magasin sans passer par ici.
+import Base from '../layouts/Base.astro';
+import { APPLICATION } from '../config.js';
+const fil = ['Accueil', "Télécharger l'app"];
+---
+
+<Base chemin={"/telecharger/"} fil={fil}>
+<section class="hero hero-page hero-propos">
+<div class="wrap hero-page-in hero-court">
+  <p class="etiq-page">Application mobile</p>
+  <p class="fil-ariane" aria-label="Fil d'Ariane"><a href="/">Accueil</a> <span aria-hidden="true">/</span> Télécharger l'app</p>
+  <h1>Télécharger SAFIA</h1>
+  <p class="chapo">Gratuit, sans carte bancaire. Tu réunis tes comptes, tu découvres ton ADN investisseur et tu poses tes questions à l'assistant IA.</p>
+</div>
+</section>
+
+<section class="bloc">
+<div class="wrap tele">
+  <div class="tele-choix">
+    <h2>Choisis ton magasin</h2>
+    <div class="magasins">
+      <a class="magasin" href={APPLICATION.ios} data-magasin="app-store" target="_blank" rel="noopener">
+        <span class="magasin-quoi">App Store</span>
+        <span class="magasin-qui">iPhone et iPad</span>
+      </a>
+      <a class="magasin" href={APPLICATION.android} data-magasin="google-play" target="_blank" rel="noopener">
+        <span class="magasin-quoi">Google Play</span>
+        <span class="magasin-qui">Android</span>
+      </a>
+    </div>
+    <p class="tele-note">Tu es sur un ordinateur ? Scanne le code : il mène à cette page, qui enverra ton téléphone vers le bon magasin.</p>
+  </div>
+  <figure class="tele-qr">
+    <img src="/images/qr-telecharger.svg" width="180" height="180" alt="QR code menant à la page de téléchargement de SAFIA" />
+    <figcaption>Scanne pour installer</figcaption>
+  </figure>
+</div>
+</section>
+
+<section class="final">
+<div class="wrap final-simple">
+  <h2>Starter est gratuit.</h2>
+  <p>Tu passes à Smart quand tu veux, et tu peux revenir à Starter à tout moment : ton profil, ton ADN et tes comptes restent en place.</p>
+  <a class="btn btn-primaire" href="/tarifs/">Voir les tarifs</a>
+</div>
+</section>
+</Base>

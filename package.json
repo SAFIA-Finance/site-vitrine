@@ -14,12 +14,14 @@
     "check": "astro check",
     "verifier": "node outils/verifier-liens.mjs dist",
     "referencement": "node outils/referencement.mjs",
-    "images": "node outils/generer-images.mjs"
+    "images": "node outils/generer-images.mjs",
+    "qr": "node outils/generer-qr.mjs"
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.4",
     "@astrojs/sitemap": "^3.2.1",
     "astro": "^5.1.1",
+    "qrcode": "^1.5.4",
     "typescript": "^5.7.2"
   },
   "allowScripts": {

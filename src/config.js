@@ -24,5 +24,15 @@ export const SOCIETE = {
   linkedin: 'https://www.linkedin.com/company/safia-finance',
 };
 
+/**
+ * Fiches de l'application dans les magasins.
+ * Le site ne sait pas installer une app : tous les boutons de téléchargement
+ * mènent ici, directement sur mobile, par la fenêtre de choix sur ordinateur.
+ */
+export const APPLICATION = {
+  ios: 'https://apps.apple.com/fr/app/safia-conseiller-financier-ia/id6783805288',
+  android: 'https://play.google.com/store/apps/details?id=com.safia.finance&hl=fr',
+};
+
 /** Relais des formulaires vers Brevo (dossier relais/). */
 export const RELAIS_URL = process.env.RELAIS_URL ?? 'https://safia-formulaires.safia-finance.workers.dev';

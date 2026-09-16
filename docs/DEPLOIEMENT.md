@@ -115,7 +115,7 @@ Tant que la case est grisée, le certificat n'est pas prêt.
 ### 7. Vérifier
 
 - https://sitev2.safia.finance répond en HTTPS
-- Les quatorze pages s'ouvrent, menu et pied de page compris
+- Les vingt pages s'ouvrent, menu et pied de page compris
 - `curl -s https://sitev2.safia.finance/robots.txt` renvoie `Disallow: /`
 - Le code source d'une page contient `<meta name="robots" content="noindex, nofollow">`
 
@@ -132,18 +132,20 @@ d'indépendance MIF 2 et les autorisations de logos ne sont pas des détails de
 confort : ce sont des engagements pris par un conseiller en investissements
 financiers sur son site public.
 
-### 2. Publier les pages légales
+### 2. Vérifier les pages légales
 
-Mentions légales, politique de confidentialité, CGU, disclaimer, gestion des
-cookies. Elles sont rédigées mais pas intégrées : les liens du pied de page
-portent la classe `a-venir` et n'aboutissent nulle part. Un site de CIF sans
-mentions légales accessibles n'est pas conforme.
+Fait le 16 septembre 2026 : les cinq pages sont en ligne et liées depuis le pied
+de page. À contrôler le jour J, parce qu'elles engagent un CIF : la politique de
+cookies doit décrire l'outil de mesure d'audience réellement chargé, et la
+politique de confidentialité la liste réelle des sous-traitants
+— voir [PAGES-LEGALES.md](PAGES-LEGALES.md).
 
-### 3. Brancher les formulaires
+### 3. Vérifier les formulaires
 
-Newsletter, demande de démonstration, contact. Ils valident la saisie et
-affichent une confirmation **sans rien envoyer**. Laisser ça en production, ce
-serait perdre silencieusement chaque demande reçue.
+Fait le 16 septembre 2026 : newsletter et demandes de démonstration passent par
+le relais Cloudflare vers Brevo. À contrôler le jour J, car le relais n'est
+**pas** redéployé par un `git push` et sa liste d'origines autorisées devra
+accepter `safia.finance` — voir [FORMULAIRES.md](FORMULAIRES.md).
 
 ### 4. Basculer les réglages
 
@@ -165,6 +167,15 @@ Allow: /
 
 Sitemap: https://safia.finance/sitemap-index.xml
 ```
+
+- le QR code, qui encode l'adresse du site :
+
+```bash
+SITE_URL=https://safia.finance npm run qr
+```
+
+Sans cela, le QR code affiché sur l'accueil et sur `/telecharger/` continuerait
+d'envoyer les visiteurs vers `sitev2.safia.finance`.
 
 ### 5. Déplacer le domaine
 
@@ -234,10 +245,11 @@ un historique réécrit rend les retours en arrière hasardeux.
 
 ## Ce que le déploiement ne couvre pas
 
-- **Pas de mesure d'audience.** Le bandeau cookies recueille un choix, mais
-  aucun traceur n'est chargé. C'est cohérent : le consentement est demandé avant
-  d'installer quoi que ce soit. Le jour où un outil est ajouté, il devra n'être
-  chargé qu'après acceptation.
+- **Le relais des formulaires.** `relais/` se déploie à part, par
+  `npx wrangler deploy` : un `git push` ne le met pas à jour.
+- **La mesure d'audience** est en place (Google Analytics 4, chargé seulement
+  après acceptation du bandeau), mais la propriété Analytics elle-même se règle
+  chez Google, hors de ce dépôt.
 - **Pas d'environnement de recette distinct.** `sitev2.safia.finance` en tient lieu.
   Après la bascule, prévoir un nouveau sous-domaine de préversion pour ne plus
   travailler directement sur la production.

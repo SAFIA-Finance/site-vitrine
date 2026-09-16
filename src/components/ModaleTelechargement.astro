@@ -1,0 +1,33 @@
+---
+// Fenêtre de choix du magasin, ouverte depuis un ordinateur seulement :
+// sur téléphone, le bouton mène directement au bon magasin (voir site.js).
+// <dialog> est natif : il apporte le fond, le piège de focus et la touche Échap.
+import { APPLICATION } from '../config.js';
+---
+
+<dialog class="modale" id="modale-app" aria-labelledby="ma-t">
+  <form method="dialog">
+    <button class="modale-x" type="submit" aria-label="Fermer">
+      <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M5 5l10 10M15 5L5 15" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+    </button>
+  </form>
+
+  <h2 id="ma-t">Installer SAFIA</h2>
+  <p>L'application est gratuite, sur iPhone et sur Android.</p>
+
+  <div class="magasins">
+    <a class="magasin" href={APPLICATION.ios} data-magasin="app-store" target="_blank" rel="noopener">
+      <span class="magasin-quoi">App Store</span>
+      <span class="magasin-qui">iPhone et iPad</span>
+    </a>
+    <a class="magasin" href={APPLICATION.android} data-magasin="google-play" target="_blank" rel="noopener">
+      <span class="magasin-quoi">Google Play</span>
+      <span class="magasin-qui">Android</span>
+    </a>
+  </div>
+
+  <div class="modale-qr">
+    <img src="/images/qr-telecharger.svg" width="104" height="104" alt="" />
+    <p>Ou scanne ce code avec ton téléphone : il t'enverra vers le magasin qui correspond à ton appareil.</p>
+  </div>
+</dialog>

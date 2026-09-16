@@ -72,6 +72,15 @@
     "description": "Commence gratuitement avec Starter. Passe à Smart pour l'assistant IA complet, l'audit patrimonial et les explications sourcées."
   },
   {
+    "slug": "telecharger",
+    "fichier": "telecharger.astro",
+    "route": "/telecharger/",
+    "libelle": "Télécharger l'app",
+    "ref": "TEL",
+    "titre": "Télécharger l'app SAFIA sur iPhone et Android",
+    "description": "L'application SAFIA est gratuite sur l'App Store et sur Google Play. Réunis tes comptes, découvre ton ADN investisseur et interroge l'assistant IA."
+  },
+  {
     "slug": "comparatif",
     "fichier": "comparatif.astro",
     "route": "/comparatif/",
@@ -168,5 +177,6 @@
     "libelle": "Politique de cookies",
     "ref": "COO",
     "titre": "Politique de cookies · SAFIA",
-    "description": "Les cookies déposés par SAFIA, leur finalité, leur durée de conservation et comment modifier ton choix à tout moment."  }
+    "description": "Les cookies déposés par SAFIA, leur finalité, leur durée de conservation et comment modifier ton choix à tout moment."
+  }
 ]

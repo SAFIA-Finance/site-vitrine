@@ -44,12 +44,19 @@ const actif = (href) => (href.replace(/\/+$/, '') || '/') === chemin ? 'lien-act
         </li>
       </ul>
     </nav>
-    <a class="btn btn-primaire btn-nav" href="/tarifs/">Télécharger l'app</a>
+    <a class="btn btn-primaire btn-nav" href="/telecharger/" data-app>Télécharger l'app</a>
     <button class="burger" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="panneau">
       <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 7h18M3 12h18M3 17h18" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
     </button>
   </div>
-  <div class="panneau" id="panneau">
+</header>
+
+<!-- Le panneau mobile vit hors du <header> à dessein : la barre porte un
+     backdrop-filter, et un élément filtré devient le bloc conteneur de ses
+     descendants en position fixed. À l'intérieur, « inset:68px 0 0 0 » se
+     calculait dans les 68 px de la barre — le panneau s'ouvrait sans hauteur,
+     donc invisible. -->
+<div class="panneau" id="panneau">
     <h3>Particuliers</h3>
     <a href="/particuliers/" class={actif("/particuliers/")}>Particuliers</a><a href="/adn-investisseur/" class={actif("/adn-investisseur/")}>ADN Investisseur</a><a href="/assistant-ia/" class={actif("/assistant-ia/")}>Assistant IA</a><a href="/cockpit/" class={actif("/cockpit/")}>Cockpit stratégique</a>
     <h3>Professionnels</h3>
@@ -58,6 +65,5 @@ const actif = (href) => (href.replace(/\/+$/, '') || '/') === chemin ? 'lien-act
     <a href="/comparatif/" class={actif("/comparatif/")}>Comparatif</a><a href="/blog/" class={actif("/blog/")}>Le blog</a>
     <h3>SAFIA</h3>
     <a href="/tarifs/" class={actif("/tarifs/")}>Tarifs</a><a href="/fondateur/" class={actif("/fondateur/")}>Le fondateur</a><a href="/methode/" class={actif("/methode/")}>Notre méthode</a><a href="/securite/" class={actif("/securite/")}>Sécurité et conformité</a>
-    <a class="btn btn-primaire" href="/tarifs/">Télécharger l'app</a>
-  </div>
-</header>
+  <a class="btn btn-primaire" href="/telecharger/" data-app>Télécharger l'app</a>
+</div>

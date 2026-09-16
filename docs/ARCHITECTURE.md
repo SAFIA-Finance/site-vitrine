@@ -32,7 +32,7 @@ sait servir, sans serveur ni exécution.
 Ce qu'il apporte ici, et qui manquait :
 
 - **Des gabarits.** L'en-tête et le pied de page sont écrits une fois
-  (`src/components/`) et rendus dans les quatorze pages au moment du build.
+  (`src/components/`) et rendus dans les vingt pages au moment du build.
   Modifier une entrée de menu, c'est modifier un fichier.
 - **Zéro JavaScript par défaut.** Astro n'envoie au navigateur que le script
   qu'une page importe explicitement. La page Sécurité ne télécharge pas le code
@@ -99,7 +99,8 @@ Il est réduit au strict nécessaire et découpé en deux.
 
 **`src/scripts/site.js`**, chargé par toutes les pages — menus déroulants, menu
 mobile, barre de navigation au défilement, bouton de retour en haut, bandeau de
-mesure d'audience, liens vers des pages non encore publiées.
+mesure d'audience, boutons de téléchargement, liens vers des pages non encore
+publiées.
 
 **`src/scripts/pages/*.js`**, chargés par sept pages seulement :
 
@@ -123,10 +124,35 @@ var document = { getElementById: (id) => racine.querySelector('#' + id), … };
 Chaque page ayant maintenant son propre document, cette cale a disparu et les
 scripts utilisent le vrai `document`.
 
-**Les formulaires ne sont pas connectés.** Newsletter, demande de démonstration,
-contact : ils valident la saisie et affichent une confirmation, sans rien
-envoyer. C'est repris tel quel de la maquette et c'est à brancher avant la mise
-en production — voir [POINTS-OUVERTS.md](POINTS-OUVERTS.md).
+**Les formulaires sont connectés** depuis le 16 septembre 2026. Ils passent par
+un relais Cloudflare Worker (`relais/`) qui appelle Brevo, afin que la clé d'API
+ne soit jamais dans le site — voir [FORMULAIRES.md](FORMULAIRES.md).
+
+## Le téléchargement de l'application
+
+Le site ne peut pas installer une application : il ne peut qu'envoyer vers le
+bon magasin. Trois chemins, un seul point d'arrivée.
+
+Tout bouton de téléchargement porte `data-app` et pointe vers `/telecharger/`.
+C'est cette page qui reste affichée **sans JavaScript**, et c'est elle que vise
+le QR code. Ensuite, `site.js` adapte :
+
+| Appareil | Ce qui se passe |
+|---|---|
+| iPhone, iPad | Le lien est réécrit vers l'App Store : un appui, pas deux |
+| Android | Le lien est réécrit vers Google Play |
+| Ordinateur | Le clic ouvre `<dialog>`, qui propose les deux magasins et le QR code |
+
+Les deux adresses de magasin vivent dans `src/config.js`, exposées au script par
+deux `<meta>` du gabarit — le même procédé que pour l'identifiant Analytics.
+
+iPadOS 13 et suivants se présentent comme un Mac : le tactile est le seul indice
+qui les distingue, d'où le test sur `navigator.maxTouchPoints`.
+
+Le QR code est un vrai fichier, `public/images/qr-telecharger.svg`, produit par
+`npm run qr` et versionné. Il encode `SITE_URL + /telecharger/` : **il est donc à
+régénérer le jour de la bascule sur `safia.finance`**. La maquette en affichait
+un dessin décoratif, qui ne menait nulle part.
 
 ## Le CSS
 
@@ -137,6 +163,15 @@ le gabarit, donc traitée et minifiée une fois par Astro pour tout le site.
 Elle n'a pas été découpée par page. Ce serait un gain réel, mais il demande de
 vérifier règle par règle ce qui sert où, avec un risque de régression visuelle
 sur un design déjà validé. À faire plus tard, pas au moment de déployer.
+
+> **Un piège à connaître : `backdrop-filter` et `position: fixed`.** La barre de
+> navigation est floutée (`.nav { backdrop-filter: blur(14px) }`). Un élément
+> filtré devient le **bloc conteneur** de ses descendants en `position: fixed` :
+> ceux-ci se positionnent alors par rapport à lui, plus par rapport à l'écran.
+> Le panneau du menu mobile, en `inset: 68px 0 0 0`, se calculait donc dans les
+> 68 px de la barre — hauteur nulle, panneau invisible. Il vit désormais **hors
+> du `<header>`**, et doit y rester. La même précaution vaut pour tout futur
+> élément fixe : bandeau, fenêtre, info-bulle.
 
 ## Les images
 
@@ -158,7 +193,7 @@ logo par `npm run images`.
 
 ## Ce qui a changé par rapport à la maquette
 
-Le rendu et les textes sont identiques. Ces douze points sont les seuls écarts,
+Le rendu et les textes sont identiques. Ces quinze points sont les seuls écarts,
 tous délibérés.
 
 | | Maquette | Site | Pourquoi |
@@ -175,6 +210,9 @@ tous délibérés.
 | 10 | Pas d'icône iOS ni d'image de partage | `apple-touch-icon.png`, `og/defaut.png` | Les liens partagés affichaient un aperçu vide |
 | 11 | Message « Page non incluse dans la maquette » | « Page en cours de rédaction » | Le vocabulaire de maquette n'a plus lieu d'être en ligne |
 | 12 | Contenu dans un `<div id="contenu">` | dans un `<main id="contenu">` | Repère de structure attendu par les lecteurs d'écran |
+| 13 | Panneau du menu mobile dans le `<header>` | hors du `<header>` | Il s'ouvrait sans hauteur : le menu était inutilisable sur téléphone |
+| 14 | Boutons « Télécharger l'app » sans destination | `/telecharger/`, puis le magasin de l'appareil | Le premier appel à l'action du site ne menait nulle part |
+| 15 | QR code dessiné, décoratif | QR code réel vers `/telecharger/` | Il était scannable et ne menait nulle part |
 
 Quatre méta-descriptions dépassaient la longueur affichée par Google. Deux ont
 été raccourcies, ce qui demande ta relecture : voir
@@ -186,6 +224,10 @@ Quatre méta-descriptions dépassaient la longueur affichée par Google. Deux on
 |---|---|
 | `verifier-liens.mjs` | **Courant.** Lancé par `npm run verifier` et par la CI |
 | `generer-images.mjs` | **Courant.** Lancé par `npm run images` si le logo change |
+| `generer-qr.mjs` | **Courant.** Lancé par `npm run qr` si `SITE_URL` change |
+| `referencement.mjs` | **Courant.** Lancé par `npm run referencement` après relecture des titres |
+| `docx-en-pages.mjs` | **Courant.** Reconstruit les cinq pages légales depuis les documents Word |
+| `maj-word.mjs` | **Ponctuel.** A corrigé le texte des documents Word eux-mêmes |
 | `extraire-maquette.mjs` | **Migration, usage unique.** A découpé la maquette en arborescence Astro |
 | `extraire-images.mjs` | **Migration, usage unique.** A sorti les images base64 en fichiers |
 

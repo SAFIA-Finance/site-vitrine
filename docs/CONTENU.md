@@ -11,8 +11,10 @@
 | L'adresse, le numéro ORIAS, le SIREN | `src/config.js` |
 | Une couleur, un espacement | `src/styles/global.css` |
 | Le texte du bandeau cookies | `src/components/BandeauCookies.astro` |
+| Les liens vers l'App Store et Google Play | `src/config.js` |
 
-Les quatorze pages :
+Les quinze pages publiques. S'y ajoutent les cinq pages légales, qui ne
+s'écrivent pas à la main : voir [PAGES-LEGALES.md](PAGES-LEGALES.md).
 
 | Page | URL | Fichier |
 |---|---|---|
@@ -24,6 +26,7 @@ Les quatorze pages :
 | Conseillers | `/conseillers/` | `conseillers.astro` |
 | Institutions | `/institutions/` | `institutions.astro` |
 | Tarifs | `/tarifs/` | `tarifs.astro` |
+| Télécharger l'app | `/telecharger/` | `telecharger.astro` |
 | Comparatif | `/comparatif/` | `comparatif.astro` |
 | Le blog | `/blog/` | `blog.astro` |
 | Le fondateur | `/fondateur/` | `fondateur.astro` |

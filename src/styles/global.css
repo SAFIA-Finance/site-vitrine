@@ -64,6 +64,8 @@ button,input{font:inherit;color:inherit}
 .burger{display:none;background:none;border:0;cursor:pointer;padding:10px;color:var(--blanc)}
 .burger svg{width:24px;height:24px}
 .panneau{display:none}
+/* Panneau mobile et fenêtre de téléchargement : la page ne défile pas dessous. */
+body.bloque{overflow:hidden}
 
 @media (max-width:980px){
   .menu,.nav .btn-nav{display:none}
@@ -257,6 +259,45 @@ blockquote footer strong{color:var(--encre);display:block;font-size:18px}
 .final .actions{display:flex;align-items:center;gap:20px;margin-top:30px;flex-wrap:wrap}
 .qr{display:flex;align-items:center;gap:12px;font-size:14px;color:rgba(255,255,255,.75)}
 .qr svg{width:64px;height:64px;border-radius:10px;background:var(--blanc);padding:6px}
+
+/* ---------- Téléchargement de l'application ---------- */
+.qr img{width:64px;height:64px;border-radius:10px;background:var(--blanc);padding:6px;flex:none}
+
+.modale{width:min(460px,calc(100% - 32px));padding:26px;border:0;border-radius:24px;background:var(--nuit);color:var(--blanc);box-shadow:0 30px 80px rgba(10,5,40,.55)}
+.modale::backdrop{background:rgba(10,5,40,.62)}
+.modale form{display:flex;justify-content:flex-end;margin:-8px -6px 0 0}
+.modale-x{background:none;border:0;cursor:pointer;color:rgba(255,255,255,.7);padding:6px;line-height:0;border-radius:999px}
+.modale-x:hover{color:var(--blanc);background:rgba(255,255,255,.1)}
+.modale-x svg{width:20px;height:20px}
+.modale h2{font-size:24px;font-weight:600;letter-spacing:-.02em}
+.modale > p{margin-top:8px;font-size:15px;color:rgba(255,255,255,.8);line-height:1.5}
+.modale-qr{display:flex;align-items:center;gap:16px;margin-top:24px;padding-top:20px;border-top:1px solid rgba(255,255,255,.14)}
+.modale-qr img{width:104px;height:104px;flex:none;border-radius:14px;background:var(--blanc);padding:7px}
+.modale-qr p{font-size:13.5px;line-height:1.5;color:rgba(255,255,255,.72)}
+
+.magasins{display:flex;flex-wrap:wrap;gap:12px;margin-top:22px}
+.magasin{flex:1 1 168px;display:flex;flex-direction:column;gap:2px;min-height:44px;padding:13px 18px;border-radius:16px;
+  background:var(--blanc);color:var(--nuit);text-decoration:none;transition:background .15s ease,transform .15s ease}
+.magasin:hover{background:#EDE9FF}
+.magasin:active{transform:scale(.98)}
+.magasin-quoi{font-size:17px;font-weight:600}
+.magasin-qui{font-size:13px;color:var(--encre-2)}
+
+.tele{display:grid;grid-template-columns:1.15fr .85fr;gap:56px;align-items:center}
+.tele h2{font-size:28px;font-weight:600;letter-spacing:-.02em}
+.tele .magasin{background:var(--lavande);color:var(--nuit);box-shadow:inset 0 0 0 1px rgba(28,22,68,.1)}
+.tele .magasin:hover{background:#E7E2FA}
+.tele-note{margin-top:20px;font-size:14.5px;line-height:1.55;color:var(--encre-2)}
+.tele-qr{text-align:center}
+.tele-qr img{width:180px;height:180px;border-radius:18px;background:var(--blanc);padding:10px;box-shadow:0 14px 34px rgba(19,12,54,.14)}
+.tele-qr figcaption{margin-top:12px;font-size:13.5px;color:var(--encre-2)}
+
+/* Scanner un QR code avec l'appareil qui l'affiche n'a pas de sens. */
+@media (max-width:760px){
+  .tele{grid-template-columns:1fr;gap:32px}
+  .tele-qr,.final .qr{display:none}
+}
+
 .newsletter{padding:28px;border-radius:var(--r-l);background:rgba(19,12,54,.45);box-shadow:inset 0 0 0 1px rgba(255,255,255,.18)}
 .newsletter h3{font-size:20px;font-weight:600}
 .newsletter p{color:rgba(255,255,255,.75);margin-top:4px;font-size:15.5px}
