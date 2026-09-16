@@ -40,6 +40,15 @@ button,input{font:inherit;color:inherit}
 .lien{display:inline-block;min-height:24px;padding:3px 0;font-weight:600;text-decoration:underline;text-decoration-thickness:1.5px;text-underline-offset:5px}
 .lien:hover{text-decoration-color:var(--violet)}
 
+/* Liens-boutons : un lien seul dans son bloc est une cible tactile, pas du
+   texte. 44 px de hauteur utile, comme le recommandent Apple et Google.
+   Les liens en cours de phrase gardent leur taille : les grossir décalerait
+   l'interlignage. Voir docs/AUDIT-UX.md, proposition 9. */
+.pilier .lien,.fondateur .lien,.une .lien,.art .lien,.article-auteur .lien,
+.align-grille .lien,.niv-smart .lien,.registre .lien,.lien-seul{
+  min-height:44px;padding:10px 0
+}
+
 /* ---------- Navigation ---------- */
 .nav{position:fixed;top:0;left:0;right:0;z-index:50;background:rgba(19,12,54,.55);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);color:var(--blanc);border-bottom:1px solid rgba(255,255,255,.06);transition:background .25s ease,border-color .25s ease,box-shadow .25s ease}
 .nav.defile{background:rgba(15,9,44,.94);border-bottom-color:rgba(255,255,255,.12);box-shadow:0 8px 30px rgba(10,5,40,.35)}

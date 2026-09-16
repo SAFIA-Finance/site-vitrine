@@ -167,10 +167,22 @@ d'un lien direct voit les deux.
 *Proposition* : mettre en avant le magasin de l'appareil et reléguer l'autre en
 lien secondaire.
 
+> **Arbitré le 16 septembre 2026 : ne rien changer.** La page garde les deux
+> magasins côte à côte. Voir l'application présente sur les deux plateformes est
+> en soi un signal de sérieux pour une application jeune, et la page reste
+> lisible et neutre. Le coût assumé est d'un appui supplémentaire — les boutons
+> du reste du site, eux, redirigent déjà seuls vers le bon magasin.
+
 **5. Le hero mobile ne montre pas le produit.**
 Sur ordinateur, la maquette du téléphone occupe la moitié de l'écran. Sur mobile,
 elle disparaît sous le pli : le visiteur lit une promesse sans voir l'application.
 *Proposition* : une capture recadrée, courte, juste sous les boutons.
+
+> **Arbitré le 16 septembre 2026 : ne rien changer.** Le premier écran mobile
+> reste centré sur la promesse et les deux boutons, et l'application apparaît au
+> premier défilement. Parti pris assumé : rien ne s'interpose entre l'accroche
+> et les appels à l'action — et, accessoirement, zéro risque de repousser les
+> boutons dans la zone du bandeau cookies.
 
 ### Priorité 2 — clarté et confiance
 
@@ -193,10 +205,20 @@ patrimoniale, Suivi d'impact) sans date ni ordre.
 *Proposition* : soit un trimestre annoncé, soit les retirer. Une promesse non
 datée sur une page de prix crée l'attente d'un produit incomplet.
 
+> **Arbitré le 16 septembre 2026 : ne rien changer.** Les trois cartes gardent
+> leur mention « À venir » et la formule « au fur et à mesure de leur sortie ».
+> L'engagement implicite est assumé : ces fonctions sont au programme. À
+> reconsidérer si l'une d'elles devait être abandonnée — la page Tarifs est lue
+> par des gens qui paient, et une promesse retirée sans un mot se remarque.
+
 **8. Le schéma du Cockpit se fait défiler sans le dire.**
 812 px de contenu dans 342 px visibles, sans aucun indice.
 *Proposition* : un dégradé sur le bord droit et une mention « fais glisser »,
 ou une version verticale sous 760 px.
+
+> **Arbitré le 16 septembre 2026 : ne rien changer.** Le schéma reste glissable
+> sans indice. Il est tenu pour un complément, pas pour un passage obligé : le
+> texte qui l'entoure porte déjà l'essentiel du propos.
 
 **9. Des appels à l'action secondaires trop petits au doigt.**
 Mesuré : « Lire » (blog) 31 px, « Voir le détail des offres » 28 px, « Découvrir
@@ -204,6 +226,22 @@ l'ADN Investisseur » 31 px, les liens de sources 17 à 19 px. La norme WCAG 2.5
 (24 px) est respectée, mais Apple et Google recommandent 44 px.
 *Proposition* : porter `.lien` à 44 px de hauteur utile quand il sert d'appel à
 l'action autonome, en gardant les liens en cours de phrase tels quels.
+
+> **Fait le 16 septembre 2026**, arbitré par Maxime. Les liens seuls dans leur
+> bloc passent à **44 px** : « Lire » sur les cartes du blog, « Voir ce que tu
+> obtiens », « Découvrir l'ADN Investisseur », « Découvrir l'assistant IA »,
+> « Découvrir son parcours », « Révéler mon ADN », « Vérifier sur orias.fr » de
+> l'accueil. Après mesure, la page `/blog/` sort entièrement de la liste des
+> signalements, et l'accueil passe de cinq cibles à deux.
+>
+> **Le ciblage se fait par conteneur**, pas par une règle globale sur `.lien` :
+> un lien en cours de phrase ne doit pas grandir, sous peine de décaler
+> l'interlignage du texte qui l'entoure. Restent donc volontairement inchangés
+> « Prix TTC. Voir le détail des offres », la ligne de méta d'un article, les
+> sources du comparatif, les « Politique de confidentialité » sous les
+> formulaires et le « Vérifier sur orias.fr » de la page Fondateur, qui est au
+> milieu d'une phrase. Tous relèvent de l'exception explicite du critère WCAG
+> 2.5.8 : le site reste conforme.
 
 **10. Deux formulaires professionnels aux champs différents** (Conseillers
 demande le nombre de clients, Institutions la fonction) mais au même intitulé de
@@ -222,6 +260,31 @@ Les scripts utilisés ici vivent dans un dossier temporaire. Les installer en
 `outils/audit-interface.mjs` avec `npm run audit` permettrait de rejouer ce
 contrôle avant chaque mise en ligne. Coût : une dépendance de développement
 (Playwright, ~120 Mo, jamais envoyée au visiteur).
+
+> **Arbitré le 16 septembre 2026 : ne rien installer.** Le dépôt garde ses
+> quatre dépendances de développement et n'envoie aucun code tiers au visiteur ;
+> c'est une de ses qualités. Les scripts disparaîtront avec la session.
+>
+> Pour qu'un futur audit ne reparte pas de zéro, voici la **méthode** et les
+> deux pièges qui ont coûté du temps aujourd'hui.
+>
+> Ce qui se mesure, sur chaque page et dans les deux formats : débordement
+> horizontal, styles calculés de tous les `.btn` (un composant qui perd son
+> `display:flex` ou ses marges intérieures a été écrasé par un sélecteur plus
+> spécifique), hauteur des cibles tactiles, `alt` des images, nombre de `h1`.
+> Et surtout les **états ouverts** — menu mobile déplié, fenêtre de
+> téléchargement — qu'un balayage du visible ignore, alors que c'est là qu'était
+> le défaut signalé par Maxime.
+>
+> **Piège 1 — la référence de largeur.** Comparer à `window.innerWidth` et non à
+> `documentElement.clientWidth` : les deux diffèrent de 20 px en émulation
+> mobile, ce qui masque exactement un débordement de cette ampleur. Ignorer au
+> passage les éléments en `position: fixed`, qui occupent légitimement la
+> fenêtre entière.
+>
+> **Piège 2 — le recouvrement.** Tester le croisement sur les **deux** axes. Ne
+> comparer que les hauteurs fait passer un bandeau centré en bas pour un
+> élément qui recouvre un bouton situé à gauche.
 
 ---
 
