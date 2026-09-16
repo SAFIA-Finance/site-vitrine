@@ -4,7 +4,7 @@
 // synchroniser un curseur avec son champ chiffré, et dessiner une aire.
 // Pas de framework : ces pages doivent rester aussi légères que le reste du site.
 
-import { lireNombre, borner } from '../../calculs/format.js';
+import { lireNombre, borner, euros, pourcent } from '../../calculs/format.js';
 
 /**
  * Apparie chaque curseur avec son champ chiffré.
@@ -164,6 +164,57 @@ export function dessinerComparaison(svg, hautes, basses, { etiquette }) {
     <line class="sim-base" x1="${MARGE.gauche}" y1="${y(0)}" x2="${L - MARGE.droite}" y2="${y(0)}" />
     ${graduations}
   `;
+}
+
+/**
+ * Arrondit une colonne de montants pour que sa somme affichée égale le total.
+ *
+ * Sans cela, arrondir chaque ligne à l'euro produit une colonne dont la somme
+ * diffère du total d'un ou deux euros — 404 + 404 + 573 + 16 814 = 18 195
+ * quand le total dit 18 194. Le calcul, lui, est exact : c'est l'affichage qui
+ * ment. Sur des pages dont tout l'argument est de MONTRER le calcul, un lecteur
+ * qui additionne la colonne doit retomber sur le total.
+ *
+ * L'écart est reporté sur la dernière ligne, comme le fait l'administration
+ * elle-même : c'est la tranche la plus élevée, celle où un euro se remarque le
+ * moins.
+ */
+export function arrondirLignes(montants, total) {
+  const arrondis = montants.map((m) => Math.round(m));
+  if (!arrondis.length) return arrondis;
+
+  const ecart = Math.round(total) - arrondis.reduce((s, n) => s + n, 0);
+  arrondis[arrondis.length - 1] += ecart;
+  return arrondis;
+}
+
+/**
+ * Rend les lignes d'un tableau par tranches, colonne d'impôt équilibrée.
+ *
+ * Les trois outils à barème — impôt sur le revenu, IFI, succession — affichent
+ * la même table. La factoriser ici garantit qu'ils corrigent tous les trois
+ * l'arrondi, et de la même façon.
+ *
+ * `champ` : les moteurs nomment le montant « impot » (impôt sur le revenu) ou
+ * « montant » (bareme.js). `decimalesTaux` : l'IFI a des taux à deux décimales,
+ * les autres non.
+ */
+export function lignesTranches(detail, total, { champ = 'montant', decimalesTaux = 0, vide = '' } = {}) {
+  if (!Array.isArray(detail) || !detail.length) {
+    return vide ? `<tr><td colspan="3">${vide}</td></tr>` : '';
+  }
+
+  const montants = arrondirLignes(
+    detail.map((t) => t[champ]),
+    total,
+  );
+
+  return detail
+    .map(
+      (t, i) =>
+        `<tr><th scope="row">${pourcent(t.taux, decimalesTaux)}</th><td>${euros(t.assiette)}</td><td>${euros(montants[i])}</td></tr>`,
+    )
+    .join('');
 }
 
 /**

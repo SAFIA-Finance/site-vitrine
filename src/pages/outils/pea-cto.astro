@@ -6,6 +6,7 @@
 // le compte-titres supporte en plus l'imposition annuelle des dividendes, que
 // ce calcul n'intègre pas et qui creuse encore l'écart en faveur du PEA.
 import Base from '../../layouts/Base.astro';
+import ContactOutil from '../../components/ContactOutil.astro';
 import baremes from '../../data/baremes.json';
 
 const fil = ['Accueil', 'Outils', 'PEA ou compte-titres'];
@@ -154,6 +155,8 @@ const faq = [
   </div>
 </div>
 </section>
+
+<ContactOutil outil="PEA ou compte-titres" />
 
 <section class="final">
 <div class="wrap final-simple">

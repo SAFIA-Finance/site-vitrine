@@ -9,6 +9,7 @@
 // leur abattement propre, ni revenus fonciers au réel, ni prélèvement
 // forfaitaire unique. C'est écrit sur la page plutôt que sous-entendu.
 import Base from '../../layouts/Base.astro';
+import ContactOutil from '../../components/ContactOutil.astro';
 import baremes from '../../data/baremes.json';
 
 const fil = ['Accueil', 'Outils', 'Impôt sur le revenu'];
@@ -195,6 +196,8 @@ const faq = [
   </div>
 </div>
 </section>
+
+<ContactOutil outil="Impôt sur le revenu" />
 
 <section class="final">
 <div class="wrap final-simple">

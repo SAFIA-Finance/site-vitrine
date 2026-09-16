@@ -7,6 +7,7 @@
 // défaut : mettre « 7 % » dans un menu déroulant sur le site d'un CIF,
 // c'est suggérer un rendement. Le visiteur pose lui-même son hypothèse.
 import Base from '../../layouts/Base.astro';
+import ContactOutil from '../../components/ContactOutil.astro';
 import baremes from '../../data/baremes.json';
 
 const fil = ['Accueil', 'Outils', "Simulateur d'épargne"];
@@ -213,6 +214,8 @@ const faq = [
   </div>
 </div>
 </section>
+
+<ContactOutil outil="Simulateur d'épargne" />
 
 <section class="final">
 <div class="wrap final-simple">

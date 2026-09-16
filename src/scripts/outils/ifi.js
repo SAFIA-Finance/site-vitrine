@@ -7,7 +7,7 @@
 
 import { calculerIFI } from '../../calculs/ifi.js';
 import { euros, pourcent } from '../../calculs/format.js';
-import { lierDuos, valeur, ecrire } from './commun.js';
+import { lierDuos, valeur, ecrire, lignesTranches } from './commun.js';
 
 (function () {
   const form = document.getElementById('sim');
@@ -56,14 +56,10 @@ import { lierDuos, valeur, ecrire } from './commun.js';
     ecrire('e-bareme', euros(r.impotBareme));
 
     if (corpsTranches) {
-      corpsTranches.innerHTML = r.detail.length
-        ? r.detail
-            .map(
-              (t) =>
-                `<tr><th scope="row">${pourcent(t.taux, 2)}</th><td>${euros(t.assiette)}</td><td>${euros(t.montant)}</td></tr>`,
-            )
-            .join('')
-        : '<tr><td colspan="3">Le barème ne s\'applique pas : le patrimoine est sous le seuil.</td></tr>';
+      corpsTranches.innerHTML = lignesTranches(r.detail, r.impotBareme, {
+        decimalesTaux: 2,
+        vide: "Le barème ne s'applique pas : le patrimoine est sous le seuil.",
+      });
     }
 
     if (annonce) {

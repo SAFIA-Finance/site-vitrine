@@ -1585,3 +1585,23 @@ a.sim-choix-carte:hover{background:var(--lavande)}
 .sim-aire-ecart{fill:rgba(228,139,239,.42)}
 .sim-courbe-haute{fill:none;stroke:var(--rose);stroke-width:2.5;stroke-linejoin:round}
 .sim-courbe-basse{fill:none;stroke:rgba(255,255,255,.8);stroke-width:2.5;stroke-linejoin:round}
+
+
+/* ---------- Bloc de contact sous les simulateurs ---------- */
+/* Posé sur le fond lavande clair, entre les réserves et l'appel final. Il ne
+   crie pas : c'est une porte de sortie pour qui ne trouve pas sa réponse, pas
+   une relance commerciale. */
+.sim-contact{display:flex;align-items:center;justify-content:space-between;gap:26px;flex-wrap:wrap;max-width:76ch;margin-top:26px;padding:26px 28px;border-radius:var(--r-l);background:var(--lavande-2);box-shadow:inset 0 0 0 1px var(--ligne)}
+.sim-contact h2{font-size:19px;font-weight:600;line-height:1.3;max-width:34ch}
+.sim-contact p{margin-top:8px;font-size:15px;line-height:1.55;color:var(--encre-2);max-width:56ch}
+.sim-contact-actions{display:flex;gap:12px;flex-wrap:wrap;flex:none}
+/* Variante claire du bouton fantôme : celui du site est prévu pour un fond
+   sombre et deviendrait illisible ici. */
+.btn-fantome-clair{background:var(--blanc);color:var(--encre);box-shadow:inset 0 0 0 1px var(--ligne)}
+.btn-fantome-clair:hover{background:var(--lavande)}
+
+@media (max-width:720px){
+  .sim-contact{padding:22px;gap:18px}
+  .sim-contact-actions{width:100%}
+  .sim-contact-actions .btn{flex:1;justify-content:center}
+}

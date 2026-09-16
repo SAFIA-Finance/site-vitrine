@@ -8,6 +8,7 @@
 // Périmètre : sortie en CAPITAL uniquement. La rente relève du régime des
 // pensions, dont l'abattement 2026 n'est pas sourcé ici — on ne l'invente pas.
 import Base from '../../layouts/Base.astro';
+import ContactOutil from '../../components/ContactOutil.astro';
 import baremes from '../../data/baremes.json';
 
 const fil = ['Accueil', 'Outils', 'Simulateur PER'];
@@ -245,6 +246,8 @@ const faq = [
   </div>
 </div>
 </section>
+
+<ContactOutil outil="Simulateur PER" />
 
 <section class="final">
 <div class="wrap final-simple">

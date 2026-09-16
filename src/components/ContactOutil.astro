@@ -1,0 +1,44 @@
+---
+// Bloc de contact, sous chaque simulateur.
+//
+// Un simulateur part d'une poignée de chiffres saisis ; une situation réelle en
+// compte des dizaines. Ce bloc dit exactement cela, et propose les deux suites
+// possibles : écrire à un conseiller, ou passer par l'application.
+//
+// Pas de formulaire ici. Le seul formulaire du site vise les professionnels et
+// passe par le relais Brevo ; en ouvrir un second pour les particuliers
+// signifierait collecter des données patrimoniales, ce qui ne se fait pas à la
+// légère. Un lien mailto suffit, et n'expose rien.
+import { SOCIETE } from '../config.js';
+
+interface Props {
+  /** Nom de l'outil, repris dans l'objet du message pour situer la demande. */
+  outil: string;
+}
+
+const { outil } = Astro.props;
+const sujet = encodeURIComponent(`Question après le simulateur : ${outil}`);
+---
+
+<!-- Le composant porte sa propre section et son propre « wrap ». Il est inséré
+     ENTRE deux sections, donc hors de tout conteneur : sans cela il se colle au
+     bord gauche de l'écran, hors de la gouttière, et rompt l'alignement avec le
+     cadre des réserves qui le précède. La section n'a pas de classe à dessein —
+     « bloc » ajouterait 96 px de remplissage vertical de chaque côté. -->
+<section>
+  <div class="wrap">
+    <aside class="sim-contact" aria-labelledby="contact-outil-t">
+      <div>
+        <h2 id="contact-outil-t">Ce simulateur ne répond pas à ta situation ?</h2>
+        <p>
+          C'est normal : il part des quelques chiffres que tu lui donnes, quand une situation réelle en
+          compte des dizaines. Écris-nous, ou laisse SAFIA regarder l'ensemble de ton patrimoine.
+        </p>
+      </div>
+      <div class="sim-contact-actions">
+        <a class="btn btn-encre" href={`mailto:${SOCIETE.email}?subject=${sujet}`}>Nous écrire</a>
+        <a class="btn btn-fantome-clair" href="/telecharger/" data-app>Télécharger l'app</a>
+      </div>
+    </aside>
+  </div>
+</section>

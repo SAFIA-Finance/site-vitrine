@@ -8,7 +8,7 @@
 
 import { calculerIR } from '../../calculs/impot-revenu.js';
 import { euros, pourcent, nombre } from '../../calculs/format.js';
-import { lierDuos, valeur, ecrire } from './commun.js';
+import { lierDuos, valeur, ecrire, lignesTranches } from './commun.js';
 
 (function () {
   const form = document.getElementById('sim');
@@ -96,14 +96,10 @@ import { lierDuos, valeur, ecrire } from './commun.js';
     // Le détail par tranche : c'est lui qui fait comprendre qu'être « dans la
     // tranche à 30 % » ne veut pas dire payer 30 % de ses revenus.
     if (corpsTranches) {
-      corpsTranches.innerHTML = r.tranches.length
-        ? r.tranches
-            .map(
-              (t) =>
-                `<tr><th scope="row">${pourcent(t.taux, 0)}</th><td>${euros(t.assiette)}</td><td>${euros(t.impot)}</td></tr>`,
-            )
-            .join('')
-        : '<tr><td colspan="3">Aucun revenu imposable : le barème ne s\'applique pas.</td></tr>';
+      corpsTranches.innerHTML = lignesTranches(r.tranches, r.impotBareme, {
+        champ: 'impot',
+        vide: "Aucun revenu imposable : le barème ne s'applique pas.",
+      });
     }
 
     if (annonce) {

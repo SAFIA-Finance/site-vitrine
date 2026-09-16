@@ -5,6 +5,7 @@
 //   — le calcul se fait PAR HÉRITIER, chacun avec son abattement et son barème ;
 //   — le conjoint survivant et le partenaire de Pacs sont totalement exonérés.
 import Base from '../../layouts/Base.astro';
+import ContactOutil from '../../components/ContactOutil.astro';
 import baremes from '../../data/baremes.json';
 
 const fil = ['Accueil', 'Outils', 'Succession et donation'];
@@ -153,6 +154,8 @@ const faq = [
   </div>
 </div>
 </section>
+
+<ContactOutil outil="Succession et donation" />
 
 <section class="final">
 <div class="wrap final-simple">

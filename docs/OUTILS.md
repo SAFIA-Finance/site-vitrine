@@ -106,9 +106,24 @@ pensions, avec un abattement dont le montant 2026 n'est pas sourcé ici.
 
 **Depuis le 1er janvier 2026, le PFU est à 31,4 %** : 12,8 % d'impôt et **18,6 %**
 de prélèvements sociaux, la CSG ayant augmenté de 1,4 point (code de la sécurité
-sociale, article L. 136-8). Tout chiffre à 30 % ou à 17,2 % vu ailleurs est
-antérieur à cette date. Le bloc `prelevements` de `baremes.json` fait foi, et il
-servira aussi aux outils assurance-vie et PEA.
+sociale, article L. 136-8). Le bloc `prelevements` de `baremes.json` porte ce
+taux général, utilisé par le PER et le PEA.
+
+### Mais l'assurance-vie reste à 17,2 %
+
+**Deux taux coexistent, et les confondre est une erreur qui a été commise ici.**
+La hausse de la CSG de 2026 ne s'applique pas aux produits des bons ou contrats
+de capitalisation et d'assurance-vie, qui restent à 9,2 % de CSG, soit **17,2 %**
+au total. Même exception pour les revenus fonciers, les plus-values immobilières
+et les PEL, CEL et PEP.
+
+Le simulateur de rachat a été publié le 16 septembre 2026 avec 18,6 %, puis
+corrigé le jour même après que Maxime a demandé une revérification de toutes les
+sources. **Leçon** : un taux « général » n'est jamais général — avant de le
+réutiliser d'un outil à l'autre, vérifier la catégorie de revenu concernée sur
+[service-public F2329](https://www.service-public.gouv.fr/particuliers/vosdroits/F2329),
+qui donne le tableau par catégorie. Le bloc `assuranceVie` de `baremes.json`
+porte donc son propre taux, et un commentaire explique pourquoi il diffère.
 
 ### Le report des plafonds : deux lectures officielles
 
@@ -222,21 +237,40 @@ sans rapport, la règle la plus tardive l'emportant sur une page qu'elle n'étai
 pas censée toucher. Une famille entière de composants ne s'ajoute pas sans
 préfixe.
 
-## Un artefact d'affichage connu, non corrigé
+## Le bloc de contact
+
+`src/components/ContactOutil.astro` est posé sous les neuf simulateurs, entre les
+réserves et l'appel final. Il prend un `outil` en propriété, repris dans l'objet
+du courriel : le conseiller sait d'où vient la question avant de l'avoir lue.
+
+**Pas de formulaire, à dessein.** Le seul formulaire du site vise les
+professionnels et passe par le relais Brevo ; en ouvrir un second pour les
+particuliers signifierait collecter des données patrimoniales, ce qui ne se
+décide pas au détour d'un simulateur. Un lien `mailto` n'expose rien.
+
+Le composant **porte sa propre `<section>` et son propre `.wrap`**, parce qu'il
+est inséré entre deux sections, donc hors de tout conteneur. Sans cela il se
+colle au bord gauche de l'écran et rompt l'alignement — défaut effectivement
+introduit puis corrigé le 16 septembre 2026. La section reste sans classe :
+`bloc` ajouterait 96 px de remplissage vertical.
+
+## L'artefact d'arrondi, corrigé
 
 Dans les tableaux par tranches — impôt sur le revenu, IFI, succession — chaque
-ligne est arrondie à l'euro pour l'affichage. La somme des lignes peut donc
-différer du total d'un ou deux euros : sur une succession de 400 000 € partagée
-entre deux enfants, la colonne affiche 404 + 404 + 573 + 16 814 = 18 195 € quand
-le total annoncé est 18 194 €.
+ligne est arrondie à l'euro pour l'affichage. Arrondir chaque ligne
+indépendamment produisait une colonne dont la somme différait du total : sur une
+succession de 400 000 € partagée entre deux enfants, elle affichait
+404 + 404 + 573 + 16 814 = 18 195 € quand le total annoncé était 18 194 €.
 
-Le calcul, lui, est exact : rien n'est arrondi en cours de route, l'arrondi est
-purement une affaire d'affichage. Mais sur des pages dont tout l'argument est de
-**montrer le calcul**, un lecteur qui additionne la colonne verra l'écart.
+Le calcul était exact — rien n'est arrondi en cours de route — mais sur des pages
+dont tout l'argument est de **montrer le calcul**, un lecteur qui additionne la
+colonne doit retomber sur le total.
 
-La correction propre consiste à afficher la dernière ligne comme la différence
-entre le total et la somme des précédentes, dans les trois outils. **Soumis à
-Maxime le 16 septembre 2026, non tranché.**
+**Corrigé le 16 septembre 2026**, sur décision de Maxime. `arrondirLignes()` et
+`lignesTranches()`, dans `src/scripts/outils/commun.js`, reportent l'écart sur la
+**dernière ligne** — la tranche la plus élevée, celle où un euro se remarque le
+moins. Les trois outils à barème passent par cette fonction commune, ce qui
+garantit qu'ils se comportent tous de la même façon.
 
 ## La mise à jour annuelle
 

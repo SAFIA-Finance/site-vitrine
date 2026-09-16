@@ -7,6 +7,7 @@
 //
 // Périmètre : primes versées depuis le 27 septembre 2017.
 import Base from '../../layouts/Base.astro';
+import ContactOutil from '../../components/ContactOutil.astro';
 import baremes from '../../data/baremes.json';
 
 const fil = ['Accueil', 'Outils', 'Rachat en assurance-vie'];
@@ -25,7 +26,11 @@ const faq = [
   },
   {
     q: 'L’abattement dispense-t-il des prélèvements sociaux ?',
-    r: `Non, et c'est l'erreur la plus répandue. L'abattement ne joue que pour l'impôt sur le revenu. Les prélèvements sociaux, à ${pc(av.prelevementsSociaux)} depuis le 1er janvier 2026, frappent la totalité des gains, abattement ou pas.`,
+    r: `Non, et c'est l'erreur la plus répandue. L'abattement ne joue que pour l'impôt sur le revenu. Les prélèvements sociaux, à ${pc(av.prelevementsSociaux)}, frappent la totalité des gains, abattement ou pas.`,
+  },
+  {
+    q: 'Pourquoi 17,2 % et non 18,6 % comme ailleurs ?',
+    r: "Parce que l'assurance-vie échappe à la hausse de la CSG. La loi de financement de la sécurité sociale pour 2026 a relevé la CSG sur les revenus du capital de 1,4 point, portant les prélèvements sociaux de 17,2 % à 18,6 % — mais les produits des contrats d'assurance-vie et de capitalisation en sont exclus et restent à 9,2 % de CSG. Même exception pour les revenus fonciers, les plus-values immobilières et les PEL, CEL et PEP.",
   },
   {
     q: 'Ce calcul vaut-il pour tous les contrats ?',
@@ -147,8 +152,9 @@ const faq = [
     <p class="sim-source">
       Taux, abattements et seuil de {euros(av.seuilPrimes)} :
       <a class="lien-petit" href={av.sources[0].url} rel="noopener">service-public.gouv.fr</a> ·
-      Prélèvements sociaux à {pc(av.prelevementsSociaux)} depuis le 1<sup>er</sup> janvier 2026 :
-      <a class="lien-petit" href={baremes.prelevements.sources[0].url} rel="noopener">service-public.gouv.fr</a>.
+      Prélèvements sociaux à {pc(av.prelevementsSociaux)} — l'assurance-vie est exclue de la hausse
+      de la CSG de 2026, qui porte les autres placements à 18,6 % :
+      <a class="lien-petit" href="https://www.service-public.gouv.fr/particuliers/vosdroits/F2329" rel="noopener">service-public.gouv.fr</a>.
       Chiffres vérifiés le 16 septembre 2026.
     </p>
     <p class="sim-avertissement">
@@ -159,6 +165,8 @@ const faq = [
   </div>
 </div>
 </section>
+
+<ContactOutil outil="Rachat en assurance-vie" />
 
 <section class="final">
 <div class="wrap final-simple">

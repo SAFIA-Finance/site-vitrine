@@ -9,6 +9,7 @@
 // fourchettes citées sont sourcées à l'AMF et à l'ASPIM, et les valeurs par
 // défaut restent modifiables.
 import Base from '../../layouts/Base.astro';
+import ContactOutil from '../../components/ContactOutil.astro';
 
 const fil = ['Accueil', 'Outils', 'Le coût de tes frais'];
 
@@ -180,6 +181,8 @@ const faq = [
   </div>
 </div>
 </section>
+
+<ContactOutil outil="Le coût de tes frais" />
 
 <section class="final">
 <div class="wrap final-simple">

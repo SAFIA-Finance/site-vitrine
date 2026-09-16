@@ -7,7 +7,7 @@
 
 import { calculerSuccession } from '../../calculs/succession.js';
 import { euros, pourcent, nombre } from '../../calculs/format.js';
-import { lierDuos, valeur, ecrire } from './commun.js';
+import { lierDuos, valeur, ecrire, lignesTranches } from './commun.js';
 
 (function () {
   const form = document.getElementById('sim');
@@ -36,7 +36,16 @@ import { lierDuos, valeur, ecrire } from './commun.js';
     ecrire('r-net-total', euros(r.netTotal));
     ecrire('r-taux', pourcent(r.tauxMoyen, 1));
     ecrire('r-part', euros(r.parPersonne));
-    ecrire('r-abattement', euros(part?.abattement ?? 0));
+    // Quand l'abattement handicap se cumule avec celui du lien, on affiche la
+    // COMPOSITION et non le seul total : « 259 325 € » sans explication se lit
+    // comme une erreur, alors que c'est 100 000 € + 159 325 €.
+    const cumul = Boolean(handicap && handicap.checked) && !part?.exonere && (part?.lien?.abattement ?? 0) > 0;
+    ecrire(
+      'r-abattement',
+      cumul
+        ? `${euros(part.lien.abattement)} + ${euros(succ.abattementHandicap)}`
+        : euros(part?.abattement ?? 0),
+    );
     ecrire('r-taxable', euros(part?.taxable ?? 0));
     ecrire('r-droits-part', euros(part?.droits ?? 0));
     ecrire('r-net-part', euros(part?.net ?? 0));
@@ -48,14 +57,11 @@ import { lierDuos, valeur, ecrire } from './commun.js';
     if (chiffres) chiffres.hidden = Boolean(part?.exonere);
 
     if (corpsTranches) {
-      corpsTranches.innerHTML = part && part.detail.length
-        ? part.detail
-            .map(
-              (t) =>
-                `<tr><th scope="row">${pourcent(t.taux, 0)}</th><td>${euros(t.assiette)}</td><td>${euros(t.montant)}</td></tr>`,
-            )
-            .join('')
-        : `<tr><td colspan="3">${part?.exonere ? "Aucun droit : le conjoint survivant et le partenaire de Pacs sont exonérés." : "Aucun droit : la part reçue ne dépasse pas l'abattement."}</td></tr>`;
+      corpsTranches.innerHTML = lignesTranches(part?.detail ?? [], part?.droits ?? 0, {
+        vide: part?.exonere
+          ? 'Aucun droit : le conjoint survivant et le partenaire de Pacs sont exonérés.'
+          : "Aucun droit : la part reçue ne dépasse pas l'abattement.",
+      });
     }
 
     if (annonce) {

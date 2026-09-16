@@ -5,6 +5,7 @@
 // calculé depuis 800 000 €, et décote pour amortir. C'est contre-intuitif, et
 // aucune plaquette ne l'explique.
 import Base from '../../layouts/Base.astro';
+import ContactOutil from '../../components/ContactOutil.astro';
 import baremes from '../../data/baremes.json';
 
 const fil = ['Accueil', 'Outils', 'Simulateur IFI'];
@@ -160,6 +161,8 @@ const faq = [
   </div>
 </div>
 </section>
+
+<ContactOutil outil="Simulateur IFI" />
 
 <section class="final">
 <div class="wrap final-simple">

@@ -142,7 +142,7 @@
 
   "prelevements": {
     "libelle": "Prélèvement forfaitaire unique",
-    "commentaire": "ATTENTION : le PFU n'est plus à 30 %. La CSG a augmenté de 1,4 point au 1er janvier 2026, portant les prélèvements sociaux sur les revenus du patrimoine de 17,2 % à 18,6 %, et le PFU de 30 % à 31,4 %. Tout chiffre à 30 % vu ailleurs est antérieur à cette date.",
+    "commentaire": "TAUX GÉNÉRAL SEULEMENT. La CSG a augmenté de 1,4 point au 1er janvier 2026, portant les prélèvements sociaux de 17,2 % à 18,6 % et le PFU de 30 % à 31,4 % : c'est ce qui s'applique au PEA, au compte-titres, au PER et aux livrets fiscalisés. MAIS plusieurs catégories sont EXCLUES de cette hausse et restent à 17,2 % — assurance-vie et contrats de capitalisation, revenus fonciers, plus-values immobilières, PEL, CEL et PEP. Ne jamais réutiliser ce bloc sans vérifier la catégorie de revenu concernée : voir le tableau de service-public F2329, et le bloc « assuranceVie » qui porte son propre taux.",
     "depuis": "2026-01-01",
     "pfuImpot": 0.128,
     "prelevementsSociaux": 0.186,
@@ -207,7 +207,8 @@
     "tauxAvantHuitAns": 0.128,
     "tauxApresHuitAnsSousSeuil": 0.075,
     "tauxApresHuitAnsAuDessus": 0.128,
-    "prelevementsSociaux": 0.186,
+    "commentairePrelevementsSociaux": "17,2 % ET NON 18,6 %. La loi de financement de la sécurité sociale pour 2026 a relevé la CSG de 1,4 point sur les revenus du capital, MAIS les produits des bons ou contrats de capitalisation et d'assurance-vie en sont exclus et restent à 9,2 % de CSG, soit 17,2 % au total. Même exception pour les revenus fonciers, les plus-values immobilières et les PEL, CEL et PEP. Le taux général de 18,6 % du bloc « prelevements » ne s'applique donc PAS ici.",
+    "prelevementsSociaux": 0.172,
     "sources": [
       {
         "quoi": "Imposition des produits en cas de rachat",

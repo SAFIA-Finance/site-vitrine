@@ -4,6 +4,7 @@
 // lisible avant que le moindre script ne s'exécute. Le JavaScript ne fait que
 // remplacer des valeurs, jamais construire la page.
 import Base from '../../layouts/Base.astro';
+import ContactOutil from '../../components/ContactOutil.astro';
 import baremes from '../../data/baremes.json';
 
 const fil = ['Accueil', 'Outils', 'Intérêts composés'];
@@ -163,6 +164,8 @@ const faq = [
   </div>
 </div>
 </section>
+
+<ContactOutil outil="Intérêts composés" />
 
 <section class="final">
 <div class="wrap final-simple">
