@@ -1,13 +1,13 @@
 // Le contrat auquel tout article du blog doit se conformer.
 //
 // Les fichiers de src/content/blog/ sont produits par outils/blog-en-articles.mjs
-// à partir des fichiers « territoire » de Blog/. Ce schéma est le garde-fou :
-// une catégorie mal orthographiée, une description trop longue ou une date
-// absente arrête le build au lieu de partir en ligne.
+// à partir des fichiers « territoire » de Blog/Articles/. Ce schéma est le
+// garde-fou : une catégorie mal orthographiée, une description trop longue ou
+// une date absente arrête le build au lieu de partir en ligne.
 import { defineCollection, z } from 'astro:content';
 import { glob } from 'astro/loaders';
 
-/** Les huit territoires du plan éditorial. Toute autre valeur est une faute. */
+/** Les onze territoires du plan éditorial. Toute autre valeur est une faute. */
 export const CATEGORIES = [
   'Épargne réglementée',
   'Assurance-vie',
@@ -17,13 +17,16 @@ export const CATEGORIES = [
   'IA et méthode',
   'ESG et impact',
   'Professionnels',
+  'Expatriation',
+  "Produits d'investissement",
+  'Outre-mer',
 ] as const;
 
 const blog = defineCollection({
   loader: glob({ pattern: '**/*.md', base: './src/content/blog' }),
   schema: z.object({
-    /** Référence du plan éditorial : A1, B3, G12… */
-    code: z.string().regex(/^[A-H]\d+$/),
+    /** Référence du plan éditorial : A1, B3, G12, I26, J22, K9… */
+    code: z.string().regex(/^[A-K]\d+$/),
     /** Le H1 de l'article et le titre de sa carte. */
     titre: z.string().min(10),
     /** Le titre affiché par Google. Au-delà de 60 signes, il est tronqué. */
@@ -43,6 +46,14 @@ const blog = defineCollection({
     /** Autres articles cités, par leur identifiant de fichier. */
     articlesLies: z.array(z.string()).default([]),
     sources: z.string().min(10),
+    /**
+     * Vrai quand le titre SEO et la description ont été DÉDUITS du titre et de
+     * « L'essentiel », faute de blocs **Title** et **Meta** dans le fichier
+     * territoire. Ce sont des résumés fidèles du contenu, pas des affirmations
+     * nouvelles — mais ils méritent une relecture éditoriale.
+     * `npm run blog` en dresse la liste à chaque exécution.
+     */
+    seoDerive: z.boolean().default(false),
     /** Un article en brouillon n'est pas construit. */
     brouillon: z.boolean().default(false),
   }),

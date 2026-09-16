@@ -156,18 +156,18 @@ un dessin décoratif, qui ne menait nulle part.
 
 ## Le blog
 
-63 des 83 pages du site sont des pages de blog. Elles ne sont pas écrites à la
+134 des 154 pages du site sont des pages de blog. Elles ne sont pas écrites à la
 main : elles viennent d'une collection de contenu.
 
 ```
-Blog/*.md                 Les fichiers « territoire », sept à huit articles chacun
+Blog/Articles/*.md        Les fichiers « territoire », cinq à onze articles chacun
   │  npm run blog         outils/blog-en-articles.mjs
   ▼
 src/content/blog/*.md     Un fichier par article, en-tête structuré
   │  build                src/content.config.ts valide chaque en-tête
   ▼
-/blog/<article>/          55 pages d'article
-/blog/categorie/<thème>/   8 pages de thématique
+/blog/<article>/          123 pages d'article
+/blog/categorie/<thème>/   11 pages de thématique
 ```
 
 Deux choix méritent d'être expliqués.
@@ -179,7 +179,7 @@ bloc de sources daté, les cartes « Pour aller plus loin ». Surtout, la FAQ
 alimente le même JSON-LD `FAQPage` que les autres pages, sans double saisie.
 
 **Le référencement des articles ne passe pas par `pages.json`.** C'est la seule
-exception à la règle. Inscrire 63 titres dans le fichier alors qu'ils vivent
+exception à la règle. Inscrire 123 titres dans le fichier alors qu'ils vivent
 déjà dans l'en-tête des articles créerait deux vérités pour un même texte. Le
 gabarit accepte donc `titre` et `description` en props — mais il refuse toujours
 de construire une page qui n'a ni l'un ni l'autre.

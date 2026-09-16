@@ -9,7 +9,7 @@ lecture: 2
 essentiel:
   - "Le LEP sert **2,50 %** net, taux maintenu jusqu'au 31 janvier 2027."
   - "Le plafond de versement est de **10 000 €**."
-  - "L'accès dépend du **revenu fiscal de référence**, révisé chaque année, autour de 23 000 € pour une part."
+  - "L'accès dépend du **revenu fiscal de référence** : **23 028 € pour une part** en 2026, révisé chaque année."
   - "Environ **12,3 millions** de LEP sont ouverts pour près de **30 millions d'ayants droit** estimés : c'est le placement le plus sous-utilisé de France."
 faq:
   - q: "Le LEP est-il cumulable avec le livret A ?"
@@ -39,7 +39,9 @@ Ce niveau n'est pas le produit mécanique de la formule de calcul. Celle-ci mena
 
 Deux conditions cumulatives : être fiscalement domicilié en France, et ne pas dépasser un plafond de revenu fiscal de référence.
 
-Ce plafond dépend du nombre de parts du foyer et il est revalorisé chaque année. Pour une personne seule, il se situe autour de 23 000 € en 2026. Les montants précis publiés varient selon l'année de référence retenue, aussi le seul réflexe fiable est de **vérifier ton revenu fiscal de référence sur ton dernier avis d'imposition** et de le comparer au barème en vigueur sur service-public.fr.
+Ce plafond dépend du nombre de parts du foyer et il est revalorisé chaque année. Pour une personne seule, il est de **23 028 € en 2026**, après une revalorisation de 0,9 %.
+
+Attention à l'année de référence, qui explique la plupart des chiffres contradictoires qu'on lit ailleurs : ta banque ne regarde pas tes revenus de l'année en cours, mais le revenu fiscal de référence de ton avis d'imposition 2025, établi sur tes revenus 2024. Le réflexe fiable reste de **vérifier ce montant sur ton dernier avis** et de le comparer au barème en vigueur sur service-public.fr.
 
 Le contrôle est automatisé : ta banque interroge directement l'administration fiscale, sans que tu aies à fournir ton avis. Si tu deviens inéligible, tu conserves le livret encore un an, puis il est transformé.
 

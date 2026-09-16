@@ -24,12 +24,16 @@ const compte = (c) => articles.filter((a) => a.data.categorie === c).length;
   <p class="etiq-page">Ressources</p>
   <p class="fil-ariane" aria-label="Fil d'Ariane"><a href="/">Accueil</a> <span aria-hidden="true">/</span> Ressources <span aria-hidden="true">/</span> Le blog</p>
   <h1>Comprendre son argent, un sujet à la fois.</h1>
-  <p class="chapo">{articles.length} articles écrits par un conseiller en gestion de patrimoine. Sans jargon, sans promesse de rendement, et avec les sources.</p>
+  <p class="chapo">Des articles par un conseiller en gestion de patrimoine. Sans jargon, sans promesse de rendement, et avec les sources. Apprenez ce que vous voulez, simplement.</p>
   <form class="recherche" role="search" id="recherche-blog">
     <label class="sr" for="q-blog">Rechercher un article</label>
     <input id="q-blog" type="search" placeholder="Livret A, PEA, succession, ETF…" autocomplete="off">
     <button class="btn btn-primaire" type="submit">Rechercher</button>
   </form>
+  <!-- Le retour doit être ICI, sous le champ : la liste filtrée commence près
+       de 1 000 px plus bas, hors de l'écran. Sans ce compteur, la recherche
+       paraissait sans effet. -->
+  <p class="recherche-retour" id="recherche-retour" role="status" hidden></p>
 </div>
 </section>
 
@@ -42,8 +46,7 @@ const compte = (c) => articles.filter((a) => a.data.categorie === c).length;
     ))}
   </nav>
 
-  <article class="une">
-    <div class="une-visuel" aria-hidden="true"><span>{une.data.categorie}</span></div>
+  <article class="une" data-titre={`${une.data.titre} ${une.data.description} ${une.data.categorie}`}>
     <div class="une-texte">
       <p class="meta">
         <span class="theme">{une.data.categorie}</span>
@@ -63,7 +66,6 @@ const compte = (c) => articles.filter((a) => a.data.categorie === c).length;
   <div class="articles" id="liste-articles">
     {suite.map((a) => (
       <article class="art" data-titre={`${a.data.titre} ${a.data.description} ${a.data.categorie}`}>
-        <div class="art-visuel" aria-hidden="true"></div>
         <p class="meta">
           <span class="theme">{a.data.categorie}</span>
           <span aria-hidden="true"> · </span>

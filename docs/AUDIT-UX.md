@@ -225,6 +225,12 @@ jusqu'à leur publication. Un blog vide coûte plus qu'un blog absent.
 > pages de thématique, une recherche qui filtre réellement, et les données
 > structurées `BlogPosting` et `FAQPage`. Plus aucun lien sans destination.
 > Voir [BLOG.md](BLOG.md).
+>
+> **Étendu le même jour à 123 articles** et onze pages de thématique, avec les
+> territoires Expatriation, Produits d'investissement et Outre-mer. Les aplats
+> dégradés des cartes ont été retirés — ils occupaient de la place sans rien
+> montrer — et la recherche corrigée : elle indexe désormais l'article « à la
+> une » et affiche son compteur sous le champ, où on le voit.
 
 **7. Trois fonctions « À venir » sur la page Tarifs** (GPS patrimoine, Santé
 patrimoniale, Suivi d'impact) sans date ni ordre.

@@ -1168,8 +1168,12 @@ footer.pied{background:var(--nuit);color:rgba(255,255,255,.78);padding:64px 0 40
 .ct-l{border-top:1px solid var(--ligne);font-size:15.5px;line-height:1.45;color:var(--encre-2)}
 .ct-l .nom{font-size:17px;font-weight:600;color:var(--encre)}
 .ct-l .val{color:var(--encre)}
-.ct-safia{background:var(--lavande)}
-.ct-safia .nom,.ct-safia .val{color:var(--indigo)}
+.ct-safia{position:relative;background:linear-gradient(90deg,rgba(59,44,242,.11),rgba(59,44,242,.04));
+  box-shadow:inset 4px 0 0 var(--indigo),inset 0 0 0 1px rgba(59,44,242,.2)}
+.ct-safia .nom{color:var(--indigo);font-size:18.5px;font-weight:700;letter-spacing:-.01em}
+.ct-safia > span:nth-child(2),.ct-safia > span:nth-child(3){color:var(--encre-2)}
+.ct-safia .val{color:var(--encre);font-weight:500}
+.ct-safia .val b,.ct-safia .val strong{color:var(--indigo)}
 .note-tab{margin-top:22px;font-size:14.5px;color:var(--encre-2);max-width:86ch;line-height:1.6}
 
 /* Illustration */
@@ -1258,12 +1262,10 @@ footer.pied{background:var(--nuit);color:rgba(255,255,255,.78);padding:64px 0 40
 .f-btn.actif{background:var(--encre);color:var(--blanc);box-shadow:none;font-weight:600}
 
 /* Une */
-.une{display:grid;grid-template-columns:1fr 1fr;gap:36px;align-items:center;margin-top:40px;padding:32px;border-radius:var(--r-l);background:var(--blanc);box-shadow:inset 0 0 0 1px var(--ligne)}
-.une-visuel{aspect-ratio:16/10;border-radius:var(--r-m);display:grid;place-items:center;font-size:14px;color:rgba(255,255,255,.95);text-shadow:0 1px 6px rgba(0,0,0,.45);
-  background:radial-gradient(80% 80% at 20% 20%,rgba(228,139,239,.7),rgba(228,139,239,0) 65%),linear-gradient(150deg,var(--indigo),var(--nuit))}
+.une{margin-top:40px;padding:32px;border-radius:var(--r-l);background:var(--blanc);box-shadow:inset 0 0 0 1px var(--ligne)}
 .meta{font-size:14px;color:var(--encre-2)}
 .theme{font-weight:600;color:var(--violet)}
-.une h2{font-size:clamp(1.6rem,3vw,2.2rem);line-height:1.15;letter-spacing:-.02em;font-weight:600;margin-top:8px;max-width:22ch}
+.une h2{font-size:clamp(1.6rem,3vw,2.2rem);line-height:1.15;letter-spacing:-.02em;font-weight:600;margin-top:8px;max-width:28ch}
 .chapo-art{margin-top:12px;color:var(--encre-2);line-height:1.6;max-width:48ch}
 .auteur{display:flex;align-items:center;gap:10px;margin-top:18px;font-size:14.5px;color:var(--encre-2)}
 .pastille-auteur{width:36px;height:36px;border-radius:50%;object-fit:cover;flex:none;display:block}
@@ -1273,7 +1275,6 @@ footer.pied{background:var(--nuit);color:rgba(255,255,255,.78);padding:64px 0 40
 .titre-liste{margin-top:64px;font-size:clamp(1.5rem,3vw,2.1rem)!important}
 .articles{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;margin-top:28px}
 .art{display:flex;flex-direction:column}
-.art-visuel{aspect-ratio:16/10;border-radius:var(--r-m);margin-bottom:16px;background:linear-gradient(150deg,var(--lavande-2),var(--ligne))}
 .art h3{font-size:20px;font-weight:600;letter-spacing:-.01em;margin-top:6px;max-width:24ch}
 .art p:last-of-type{margin-top:8px;color:var(--encre-2);line-height:1.55}
 .art .lien{margin-top:12px;align-self:flex-start;font-size:15.5px}
@@ -1292,7 +1293,7 @@ footer.pied{background:var(--nuit);color:rgba(255,255,255,.78);padding:64px 0 40
 .final-simple small{font-size:13px;color:rgba(255,255,255,.75)}
 
 @media (max-width:980px){
-  .une{grid-template-columns:1fr;gap:24px}
+  .une{padding:24px}
   .articles{grid-template-columns:1fr 1fr}
   .passerelles{grid-template-columns:1fr 1fr}
 }
@@ -1376,6 +1377,10 @@ footer.pied{background:var(--nuit);color:rgba(255,255,255,.78);padding:64px 0 40
 .art-titre:hover{text-decoration:underline;text-underline-offset:4px}
 .f-nb{opacity:.55;font-variant-numeric:tabular-nums}
 .resultat-recherche{margin-top:18px;font-size:15px;color:var(--encre-2)}
+/* Le même retour, mais sous le champ de recherche, dans le hero sombre. */
+.recherche-retour{margin-top:14px;font-size:15px;font-weight:600;color:rgba(255,255,255,.88)}
+.recherche-retour[hidden]{display:none}
+.titre-liste[hidden]{display:none}
 .art[hidden]{display:none}
 
 @media (max-width:900px){
