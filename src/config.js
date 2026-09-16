@@ -66,7 +66,7 @@ export const PREUVES = {
    */
   notes: [
     { magasin: 'App Store', valeur: 5, avis: 3 },
-    // { magasin: 'Google Play', valeur: 0, avis: 0 },
+    { magasin: 'Google Play', valeur: 5, avis: 1 },
   ],
   /**
    * Mention de la bêta et avantage consenti aux premiers utilisateurs.
