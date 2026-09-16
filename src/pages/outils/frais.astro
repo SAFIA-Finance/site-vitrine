@@ -1,0 +1,196 @@
+---
+// Le coût des frais.
+//
+// Aucun des trente-neuf outils de Cleerly ne fait celui-ci, et c'est logique :
+// il se retourne contre la plupart des distributeurs. C'est précisément
+// l'argument de la page /comparatif/, rendu calculable.
+//
+// Aucun chiffre de frais n'est présenté comme « le » niveau du marché : les
+// fourchettes citées sont sourcées à l'AMF et à l'ASPIM, et les valeurs par
+// défaut restent modifiables.
+import Base from '../../layouts/Base.astro';
+
+const fil = ['Accueil', 'Outils', 'Le coût de tes frais'];
+
+const faq = [
+  {
+    q: 'Pourquoi un point de frais coûte-t-il autant ?',
+    r: "Parce qu'il se prélève chaque année sur la totalité de l'encours, y compris sur les gains des années précédentes. Ce n'est pas un pourcentage de ton gain, c'est un pourcentage de tout ce que tu possèdes, tous les ans. Sur vingt ans, l'effet est le même que celui des intérêts composés, mais à l'envers.",
+  },
+  {
+    q: 'Quels frais dois-je saisir ?',
+    r: "Les frais de gestion annuels du contrat, auxquels il faut ajouter ceux des supports eux-mêmes : un contrat à 0,8 % investi dans un fonds qui prélève 1,5 % coûte 2,3 % par an. Les frais d'entrée, eux, se prélèvent sur chaque versement.",
+  },
+  {
+    q: 'Où trouver mes frais réels ?',
+    r: "Sur le relevé annuel de ton contrat, qui doit détailler les frais prélevés en euros depuis 2022. Pour un fonds, le document d'informations clés indique les frais courants.",
+  },
+  {
+    q: 'Le rendement saisi est-il net ou brut ?',
+    r: "Brut de frais. C'est tout l'intérêt de cet outil : il applique lui-même les frais que tu saisis, pour que tu voies ce qu'ils retirent. Saisir un rendement déjà net les compterait deux fois.",
+  },
+];
+---
+
+<Base chemin={'/outils/frais/'} fil={fil} faq={faq}>
+<section class="hero hero-page hero-court">
+<div class="wrap hero-page-in">
+  <p class="etiq-page">Outils</p>
+  <p class="fil-ariane" aria-label="Fil d'Ariane">
+    <a href="/">Accueil</a> <span aria-hidden="true">/</span>
+    <a href="/outils/">Outils</a> <span aria-hidden="true">/</span> Le coût de tes frais
+  </p>
+  <h1>Ce qu'un point de frais te coûte.</h1>
+  <p class="chapo">
+    Deux épargnes identiques — même versement, même rendement, même durée — et seulement
+    des frais différents. La surface entre les deux courbes, c'est ce que tu paies.
+  </p>
+</div>
+</section>
+
+<section class="bloc">
+<div class="wrap">
+  <div class="sim">
+    <form class="sim-form" id="sim" novalidate>
+      <h2 class="sim-titre">Ton épargne</h2>
+
+      <div class="sim-champ" data-duo="capital">
+        <label for="capital-n">Capital de départ</label>
+        <div class="sim-duo">
+          <input type="range" id="capital" min="0" max="500000" step="1000" value="10000" aria-hidden="true" tabindex="-1" />
+          <input type="number" id="capital-n" min="0" max="500000" step="1000" value="10000" inputmode="decimal" />
+          <span class="sim-unite">€</span>
+        </div>
+      </div>
+
+      <div class="sim-champ" data-duo="versement">
+        <label for="versement-n">Versement chaque mois</label>
+        <div class="sim-duo">
+          <input type="range" id="versement" min="0" max="3000" step="10" value="200" aria-hidden="true" tabindex="-1" />
+          <input type="number" id="versement-n" min="0" max="3000" step="10" value="200" inputmode="decimal" />
+          <span class="sim-unite">€</span>
+        </div>
+      </div>
+
+      <div class="sim-champ" data-duo="duree">
+        <label for="duree-n">Pendant</label>
+        <div class="sim-duo">
+          <input type="range" id="duree" min="1" max="40" step="1" value="20" aria-hidden="true" tabindex="-1" />
+          <input type="number" id="duree-n" min="1" max="40" step="1" value="20" inputmode="numeric" />
+          <span class="sim-unite">ans</span>
+        </div>
+      </div>
+
+      <div class="sim-champ" data-duo="rendement">
+        <label for="rendement-n">Rendement annuel brut</label>
+        <div class="sim-duo">
+          <input type="range" id="rendement" min="0" max="12" step="0.1" value="6" aria-hidden="true" tabindex="-1" />
+          <input type="number" id="rendement-n" min="0" max="12" step="0.1" value="6" inputmode="decimal" />
+          <span class="sim-unite">%</span>
+        </div>
+        <p class="sim-aide">Avant frais : l'outil les retire lui-même. Aucun rendement n'est garanti.</p>
+      </div>
+
+      <h2 class="sim-titre sim-titre-suite">Tes frais actuels</h2>
+
+      <div class="sim-champ" data-duo="frais-gestion">
+        <label for="frais-gestion-n">Frais de gestion annuels</label>
+        <div class="sim-duo">
+          <input type="range" id="frais-gestion" min="0" max="5" step="0.05" value="2" aria-hidden="true" tabindex="-1" />
+          <input type="number" id="frais-gestion-n" min="0" max="5" step="0.05" value="2" inputmode="decimal" />
+          <span class="sim-unite">%</span>
+        </div>
+        <p class="sim-aide">Frais du contrat et frais des supports cumulés. Ils se prélèvent chaque année sur tout l'encours.</p>
+      </div>
+
+      <div class="sim-champ" data-duo="frais-entree">
+        <label for="frais-entree-n">Frais d'entrée sur chaque versement</label>
+        <div class="sim-duo">
+          <input type="range" id="frais-entree" min="0" max="5" step="0.1" value="3" aria-hidden="true" tabindex="-1" />
+          <input type="number" id="frais-entree-n" min="0" max="5" step="0.1" value="3" inputmode="decimal" />
+          <span class="sim-unite">%</span>
+        </div>
+      </div>
+
+      <h2 class="sim-titre sim-titre-suite">Comparé à</h2>
+
+      <div class="sim-champ" data-duo="frais-cible">
+        <label for="frais-cible-n">Frais de gestion annuels, sans frais d'entrée</label>
+        <div class="sim-duo">
+          <input type="range" id="frais-cible" min="0" max="5" step="0.05" value="0.5" aria-hidden="true" tabindex="-1" />
+          <input type="number" id="frais-cible-n" min="0" max="5" step="0.05" value="0.5" inputmode="decimal" />
+          <span class="sim-unite">%</span>
+        </div>
+        <p class="sim-aide">Le scénario de référence. À toi de le fixer : ce n'est pas une offre, c'est une comparaison.</p>
+      </div>
+    </form>
+
+    <div class="sim-resultat">
+      <p class="sim-resultat-etiq">Ce que les frais te coûtent</p>
+      <p class="sim-chiffre" id="r-ecart">—</p>
+      <p class="sim-reel-ligne" id="r-phrase" hidden>
+        Soit l'équivalent de <strong id="r-annees-perdues">—</strong> de versements.
+      </p>
+
+      <dl class="sim-detail">
+        <div><dt>Avec tes frais</dt><dd id="r-capital-actuel">—</dd></div>
+        <div><dt>Avec les frais réduits</dt><dd id="r-capital-reduit">—</dd></div>
+        <div><dt>Part du capital perdue</dt><dd id="r-ecart-part">—</dd></div>
+      </dl>
+
+      <svg class="sim-graphe" id="sim-graphe" role="img" viewBox="0 0 600 260" aria-label="Écart entre deux niveaux de frais"></svg>
+      <p class="sim-legende">
+        <span class="sim-cle sim-cle-capital"></span> Ce que les frais retirent
+        <span class="sim-cle sim-cle-verse"></span> Ce qu'il te reste
+      </p>
+
+      <p class="sim-synthese" id="sim-synthese" role="status"></p>
+
+      <details class="sim-tableau">
+        <summary>Voir le détail année par année, avec tes frais</summary>
+        <div class="sim-tableau-boite">
+          <table>
+            <thead><tr><th scope="col">Année</th><th scope="col">Versé</th><th scope="col">Gains</th><th scope="col">Capital</th></tr></thead>
+            <tbody id="sim-tableau-corps"></tbody>
+          </table>
+        </div>
+      </details>
+    </div>
+  </div>
+
+  <div class="sim-notes">
+    <h2>Ce que ce calcul ne dit pas</h2>
+    <ul>
+      <li>Il compare <strong>deux niveaux de frais</strong>, pas deux produits. Des frais plus élevés peuvent financer un service réel : encore faut-il savoir combien ils coûtent pour juger s'il les vaut.</li>
+      <li>Il applique un <strong>rendement constant</strong>, identique dans les deux scénarios. Les frais, eux, sont bien réels et prélevés quoi qu'il arrive — c'est leur asymétrie avec le rendement.</li>
+      <li>Il ignore les <strong>frais d'arbitrage</strong>, les frais sur versement programmé et la fiscalité, qui s'ajoutent selon l'enveloppe.</li>
+      <li>Les frais réellement prélevés sur ton contrat figurent en euros sur ton <strong>relevé annuel</strong> depuis 2022. C'est le chiffre à saisir, pas celui de la plaquette.</li>
+    </ul>
+    <p class="sim-source">
+      SAFIA est rémunérée par abonnement et ne perçoit aucune commission sur les produits.
+      <a class="lien-petit" href="/comparatif/">Voir qui se rémunère comment</a> ·
+      <a class="lien-petit" href="/tarifs/">Nos tarifs</a>
+    </p>
+    <p class="sim-avertissement">
+      Cet outil a une vocation informative et pédagogique. Il ne constitue pas un conseil en investissement
+      personnalisé au sens de l'article L. 541-1 du Code monétaire et financier. Tout investissement comporte
+      un risque de perte en capital. Les performances passées ne préjugent pas des performances futures.
+      <a class="lien-petit" href="/disclaimer/">Avertissement complet</a>
+    </p>
+  </div>
+</div>
+</section>
+
+<section class="final">
+<div class="wrap final-simple">
+  <h2>Combien paies-tu vraiment ?</h2>
+  <p>SAFIA lit tes contrats et te dit ce que tes frais te coûtent réellement, contrat par contrat, au lieu d'une hypothèse.</p>
+  <a class="btn btn-primaire" href="/telecharger/" data-app>Télécharger l'app</a>
+  <a class="lien" href="/outils/">Voir les autres outils</a>
+</div>
+</section>
+</Base>
+
+<script>
+  import '../../scripts/outils/frais.js';
+</script>

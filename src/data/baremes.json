@@ -157,6 +157,82 @@
     ]
   },
 
+  "succession": {
+    "libelle": "Droits de succession",
+    "annee": 2026,
+    "commentaire": "La loi de finances pour 2026 n'a pas modifié ces barèmes. L'abattement joue PAR HÉRITIER et par parent décédé. Il est diminué des donations reçues du défunt depuis moins de quinze ans, que ce simulateur ne modélise pas : c'est écrit sur la page.",
+    "abattementHandicap": 159325,
+    "liens": [
+      { "cle": "enfant", "nom": "Enfant", "abattement": 100000, "bareme": "ligneDirecte" },
+      { "cle": "ascendant", "nom": "Père ou mère", "abattement": 100000, "bareme": "ligneDirecte" },
+      { "cle": "conjoint", "nom": "Conjoint ou partenaire de Pacs", "abattement": 0, "exonere": true, "bareme": "ligneDirecte" },
+      { "cle": "petit-enfant", "nom": "Petit-enfant", "abattement": 1594, "bareme": "ligneDirecte" },
+      { "cle": "frere-soeur", "nom": "Frère ou sœur", "abattement": 15932, "bareme": "freresSoeurs" },
+      { "cle": "neveu", "nom": "Neveu ou nièce", "abattement": 7967, "bareme": "quatriemeDegre" },
+      { "cle": "autre", "nom": "Autre personne", "abattement": 1594, "bareme": "autres" }
+    ],
+    "baremes": {
+      "ligneDirecte": [
+        { "plafond": 8072, "taux": 0.05 },
+        { "plafond": 12109, "taux": 0.1 },
+        { "plafond": 15932, "taux": 0.15 },
+        { "plafond": 552324, "taux": 0.2 },
+        { "plafond": 902838, "taux": 0.3 },
+        { "plafond": 1805677, "taux": 0.4 },
+        { "plafond": null, "taux": 0.45 }
+      ],
+      "freresSoeurs": [
+        { "plafond": 24430, "taux": 0.35 },
+        { "plafond": null, "taux": 0.45 }
+      ],
+      "quatriemeDegre": [{ "plafond": null, "taux": 0.55 }],
+      "autres": [{ "plafond": null, "taux": 0.6 }]
+    },
+    "sources": [
+      {
+        "quoi": "Abattements et barèmes selon le lien de parenté",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F35794",
+        "verifie": "2026-09-16"
+      }
+    ]
+  },
+
+  "assuranceVie": {
+    "libelle": "Rachat sur un contrat d'assurance-vie",
+    "commentaire": "Régime des primes versées DEPUIS le 27 septembre 2017. Les primes antérieures relèvent d'un régime différent, non modélisé. Seuls les PRODUITS compris dans le rachat sont imposés : la part correspondant au capital versé ressort en franchise d'impôt. L'abattement de 4 600 / 9 200 € ne s'applique qu'après huit ans.",
+    "abattementSeul": 4600,
+    "abattementCouple": 9200,
+    "dureeAbattement": 8,
+    "seuilPrimes": 150000,
+    "tauxAvantHuitAns": 0.128,
+    "tauxApresHuitAnsSousSeuil": 0.075,
+    "tauxApresHuitAnsAuDessus": 0.128,
+    "prelevementsSociaux": 0.186,
+    "sources": [
+      {
+        "quoi": "Imposition des produits en cas de rachat",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F35006/0_0",
+        "verifie": "2026-09-16"
+      }
+    ]
+  },
+
+  "pea": {
+    "libelle": "Plan d'épargne en actions",
+    "commentaire": "Après cinq ans, les gains échappent à l'impôt sur le revenu mais PAS aux prélèvements sociaux. Avant cinq ans, ils subissent le prélèvement forfaitaire complet. Un retrait total ferme le plan ; un retrait partiel après cinq ans ne le ferme pas et les versements restent possibles.",
+    "plafondVersements": 150000,
+    "dureeExoneration": 5,
+    "avantCinqAns": { "impot": 0.128, "prelevementsSociaux": 0.186 },
+    "apresCinqAns": { "impot": 0, "prelevementsSociaux": 0.186 },
+    "sources": [
+      {
+        "quoi": "Imposition des retraits",
+        "url": "https://www.impots.gouv.fr/particulier/questions/jai-un-plan-depargne-en-actions-pea-les-retraits-sont-ils-imposables",
+        "verifie": "2026-09-16"
+      }
+    ]
+  },
+
   "epargneReglementee": {
     "libelle": "Épargne réglementée",
     "commentaire": "Taux en vigueur depuis le 1er août 2026. Intérêts exonérés d'impôt sur le revenu et de prélèvements sociaux. Les plafonds s'entendent hors capitalisation des intérêts.",

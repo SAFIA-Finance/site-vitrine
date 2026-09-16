@@ -1,0 +1,169 @@
+---
+// Droits de succession.
+//
+// Deux idées que la page doit faire passer, parce qu'elles décident de tout :
+//   — le calcul se fait PAR HÉRITIER, chacun avec son abattement et son barème ;
+//   — le conjoint survivant et le partenaire de Pacs sont totalement exonérés.
+import Base from '../../layouts/Base.astro';
+import baremes from '../../data/baremes.json';
+
+const fil = ['Accueil', 'Outils', 'Succession et donation'];
+const succ = baremes.succession;
+const euros = (n) => `${n.toLocaleString('fr-FR')} €`;
+
+const faq = [
+  {
+    q: 'Les droits se calculent-ils sur la succession entière ?',
+    r: "Non, et c'est la source d'erreur la plus fréquente. Chaque héritier est imposé séparément sur sa part, avec son propre abattement et son propre barème. C'est pourquoi transmettre à trois enfants coûte bien moins cher qu'à un seul, à patrimoine identique.",
+  },
+  {
+    q: 'Le conjoint paie-t-il des droits ?',
+    r: "Non. Le conjoint survivant et le partenaire de Pacs sont totalement exonérés de droits de succession, quel que soit le montant. Attention, cela ne vaut pas pour une donation de son vivant, ni pour un concubin, qui relève du taux de 60 %.",
+  },
+  {
+    q: 'Quel est l’abattement selon le lien de parenté ?',
+    r: succ.liens
+      .filter((l) => !l.exonere)
+      .map((l) => `${l.nom} : ${euros(l.abattement)}`)
+      .join(' · ') + `. Une personne handicapée bénéficie en plus d'un abattement de ${euros(succ.abattementHandicap)}, cumulable avec celui de son lien.`,
+  },
+  {
+    q: 'Les donations passées comptent-elles ?',
+    r: "Oui. Les donations reçues du défunt depuis moins de quinze ans viennent en diminution de l'abattement disponible. Ce simulateur ne les modélise pas : il suppose un abattement entier.",
+  },
+];
+---
+
+<Base chemin={'/outils/succession/'} fil={fil} faq={faq}>
+<section class="hero hero-page hero-court">
+<div class="wrap hero-page-in">
+  <p class="etiq-page">Outils</p>
+  <p class="fil-ariane" aria-label="Fil d'Ariane">
+    <a href="/">Accueil</a> <span aria-hidden="true">/</span>
+    <a href="/outils/">Outils</a> <span aria-hidden="true">/</span> Succession et donation
+  </p>
+  <h1>Qui paie quoi, et combien.</h1>
+  <p class="chapo">
+    Les droits ne se calculent pas sur la succession, mais sur la part de chaque héritier — chacun
+    avec son abattement, chacun repartant au bas du barème. C'est ce qui change tout.
+  </p>
+</div>
+</section>
+
+<section class="bloc">
+<div class="wrap">
+  <script type="application/json" id="sim-donnees" set:html={JSON.stringify(succ)} />
+
+  <div class="sim">
+    <form class="sim-form" id="sim" novalidate>
+      <h2 class="sim-titre">La transmission</h2>
+
+      <div class="sim-champ" data-duo="patrimoine">
+        <label for="patrimoine-n">Patrimoine transmis</label>
+        <div class="sim-duo">
+          <input type="range" id="patrimoine" min="0" max="3000000" step="10000" value="400000" aria-hidden="true" tabindex="-1" />
+          <input type="number" id="patrimoine-n" min="0" max="3000000" step="10000" value="400000" inputmode="decimal" />
+          <span class="sim-unite">€</span>
+        </div>
+        <p class="sim-aide">Montant net, après règlement du passif de la succession.</p>
+      </div>
+
+      <div class="sim-champ">
+        <label for="lien">Lien de parenté des héritiers</label>
+        <select id="lien">
+          {succ.liens.map((l) => <option value={l.cle} selected={l.cle === 'enfant'}>{l.nom}</option>)}
+        </select>
+      </div>
+
+      <div class="sim-champ" data-duo="heritiers">
+        <label for="heritiers-n">Nombre d'héritiers</label>
+        <div class="sim-duo">
+          <input type="range" id="heritiers" min="1" max="8" step="1" value="2" aria-hidden="true" tabindex="-1" />
+          <input type="number" id="heritiers-n" min="1" max="8" step="1" value="2" inputmode="numeric" />
+          <span class="sim-unite">pers.</span>
+        </div>
+        <p class="sim-aide">Le partage est supposé égal entre eux. Fais varier ce nombre : l'effet est spectaculaire.</p>
+      </div>
+
+      <div class="sim-option">
+        <input type="checkbox" id="handicap" />
+        <label for="handicap">Héritier en situation de handicap</label>
+      </div>
+    </form>
+
+    <div class="sim-resultat">
+      <p class="sim-resultat-etiq">Droits de succession, au total</p>
+      <p class="sim-chiffre" id="r-droits">—</p>
+
+      <p class="sim-alerte" id="bloc-exonere" role="status" hidden>
+        Le conjoint survivant et le partenaire de Pacs sont totalement exonérés de droits de succession,
+        quel que soit le montant transmis. Attention : cette exonération ne vaut pas pour une donation
+        de son vivant.
+      </p>
+
+      <div id="bloc-chiffres">
+        <p class="sim-reel-ligne">Il reste <strong id="r-net-total">—</strong> aux héritiers, soit <span id="r-taux">—</span> de droits.</p>
+
+        <dl class="sim-detail">
+          <div><dt>Part de chacun</dt><dd id="r-part">—</dd></div>
+          <div><dt>Abattement</dt><dd id="r-abattement">—</dd></div>
+          <div><dt>Part taxable</dt><dd id="r-taxable">—</dd></div>
+        </dl>
+
+        <div class="sim-etapes">
+          <h3>Pour un héritier</h3>
+          <dl>
+            <div><dt>Droits à payer</dt><dd id="r-droits-part">—</dd></div>
+            <div><dt>Ce qu'il lui reste</dt><dd id="r-net-part">—</dd></div>
+          </dl>
+        </div>
+
+        <div class="sim-tableau-boite">
+          <table class="sim-tranches">
+            <caption>Le barème appliqué à une part</caption>
+            <thead><tr><th scope="col">Taux</th><th scope="col">Part concernée</th><th scope="col">Droits</th></tr></thead>
+            <tbody id="sim-tranches-corps"></tbody>
+          </table>
+        </div>
+      </div>
+
+      <p class="sim-synthese" id="sim-synthese" role="status"></p>
+    </div>
+  </div>
+
+  <div class="sim-notes">
+    <h2>Ce que ce calcul ne dit pas</h2>
+    <ul>
+      <li>Il suppose un <strong>partage égal</strong> entre héritiers de même lien. La réserve héréditaire, la quotité disponible et les legs particuliers relèvent du notaire.</li>
+      <li>Il suppose l'<strong>abattement entier</strong>. Les donations reçues du défunt depuis moins de quinze ans viennent le réduire.</li>
+      <li>Il ignore l'<strong>assurance-vie</strong>, qui se transmet hors succession avec ses propres abattements, et les régimes de faveur comme le pacte Dutreil.</li>
+      <li>Une <strong>donation</strong> n'obéit pas aux mêmes règles qu'une succession : le conjoint, exonéré en succession, ne l'est pas en donation.</li>
+    </ul>
+    <p class="sim-source">
+      Abattements et barèmes par lien de parenté :
+      <a class="lien-petit" href={succ.sources[0].url} rel="noopener">service-public.gouv.fr</a>.
+      La loi de finances pour 2026 n'a pas modifié ces barèmes. Chiffres vérifiés le 16 septembre 2026.
+    </p>
+    <p class="sim-avertissement">
+      Cet outil a une vocation informative et pédagogique. Il ne constitue pas un conseil fiscal, patrimonial
+      ou successoral, ni un conseil en investissement personnalisé au sens de l'article L. 541-1 du Code
+      monétaire et financier. Une succession se règle avec un notaire.
+      <a class="lien-petit" href="/disclaimer/">Avertissement complet</a>
+    </p>
+  </div>
+</div>
+</section>
+
+<section class="final">
+<div class="wrap final-simple">
+  <h2>Anticiper vaut mieux que subir.</h2>
+  <p>Les leviers de transmission se préparent des années à l'avance. SAFIA regarde ta situation et te dit lesquels s'y appliquent.</p>
+  <a class="btn btn-primaire" href="/telecharger/" data-app>Télécharger l'app</a>
+  <a class="lien" href="/outils/">Voir les autres outils</a>
+</div>
+</section>
+</Base>
+
+<script>
+  import '../../scripts/outils/succession.js';
+</script>

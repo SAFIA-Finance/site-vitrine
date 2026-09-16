@@ -144,6 +144,51 @@
     "description": "Ce qu'un versement sur un PER te fait économiser, ton plafond de déduction, et surtout ce que la sortie en capital te coûtera vraiment."
   },
   {
+    "slug": "outils-frais",
+    "fichier": "outils/frais.astro",
+    "route": "/outils/frais/",
+    "libelle": "Le coût de tes frais",
+    "ref": "OFR",
+    "titre": "Ce que tes frais de gestion te coûtent · SAFIA",
+    "description": "Compare deux niveaux de frais sur la même épargne et vois combien un point de frais annuel retire à ton capital sur vingt ans."
+  },
+  {
+    "slug": "outils-ifi",
+    "fichier": "outils/ifi.astro",
+    "route": "/outils/ifi/",
+    "libelle": "Simulateur IFI",
+    "ref": "OIF",
+    "titre": "Simulateur IFI 2026 : seuil et barème · SAFIA",
+    "description": "Calcule ton impôt sur la fortune immobilière : seuil de 1 300 000 €, barème par tranches depuis 800 000 €, décote et abattement."
+  },
+  {
+    "slug": "outils-succession",
+    "fichier": "outils/succession.astro",
+    "route": "/outils/succession/",
+    "libelle": "Succession et donation",
+    "ref": "OSU",
+    "titre": "Simulateur de droits de succession · SAFIA",
+    "description": "Abattements et barème selon le lien de parenté. Vois pourquoi partager entre plusieurs héritiers réduit fortement les droits."
+  },
+  {
+    "slug": "outils-assurance-vie-rachat",
+    "fichier": "outils/assurance-vie-rachat.astro",
+    "route": "/outils/assurance-vie-rachat/",
+    "libelle": "Rachat en assurance-vie",
+    "ref": "OAV",
+    "titre": "Rachat en assurance-vie : ce qu'il coûte · SAFIA",
+    "description": "Un rachat n'est imposé que sur sa part de gains. Calcule le coût réel d'un retrait, avant et après huit ans."
+  },
+  {
+    "slug": "outils-pea-cto",
+    "fichier": "outils/pea-cto.astro",
+    "route": "/outils/pea-cto/",
+    "libelle": "PEA ou compte-titres",
+    "ref": "OPC",
+    "titre": "PEA ou compte-titres : quelle enveloppe ? · SAFIA",
+    "description": "La même épargne dans les deux enveloppes, et ce qu'il te reste après impôt. L'écart tient dans la part impôt du prélèvement forfaitaire."
+  },
+  {
     "slug": "fondateur",
     "fichier": "fondateur.astro",
     "route": "/fondateur/",

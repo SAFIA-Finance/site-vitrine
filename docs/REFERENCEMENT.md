@@ -21,7 +21,7 @@ directement, c'est un fichier texte.
 
 ---
 
-## Les 20 pages publiques
+## Les 25 pages publiques
 
 ### Accueil · `/`
 
@@ -125,6 +125,31 @@ directement, c'est un fichier texte.
 
 - **Titre** (41) : Simulateur PER : économie d'impôt · SAFIA
 - **Description** (135) : Ce qu'un versement sur un PER te fait économiser, ton plafond de déduction, et surtout ce que la sortie en capital te coûtera vraiment.
+
+### Le coût de tes frais · `/outils/frais/`
+
+- **Titre** (46) : Ce que tes frais de gestion te coûtent · SAFIA
+- **Description** (126) : Compare deux niveaux de frais sur la même épargne et vois combien un point de frais annuel retire à ton capital sur vingt ans.
+
+### Simulateur IFI · `/outils/ifi/`
+
+- **Titre** (45) : Simulateur IFI 2026 : seuil et barème · SAFIA
+- **Description** (128) : Calcule ton impôt sur la fortune immobilière : seuil de 1 300 000 €, barème par tranches depuis 800 000 €, décote et abattement.
+
+### Succession et donation · `/outils/succession/`
+
+- **Titre** (42) : Simulateur de droits de succession · SAFIA
+- **Description** (125) : Abattements et barème selon le lien de parenté. Vois pourquoi partager entre plusieurs héritiers réduit fortement les droits.
+
+### Rachat en assurance-vie · `/outils/assurance-vie-rachat/`
+
+- **Titre** (48) : Rachat en assurance-vie : ce qu'il coûte · SAFIA
+- **Description** (108) : Un rachat n'est imposé que sur sa part de gains. Calcule le coût réel d'un retrait, avant et après huit ans.
+
+### PEA ou compte-titres · `/outils/pea-cto/`
+
+- **Titre** (49) : PEA ou compte-titres : quelle enveloppe ? · SAFIA
+- **Description** (136) : La même épargne dans les deux enveloppes, et ce qu'il te reste après impôt. L'écart tient dans la part impôt du prélèvement forfaitaire.
 
 ---
 

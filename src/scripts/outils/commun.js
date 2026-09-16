@@ -113,6 +113,60 @@ export function dessinerAire(svg, lignes, { etiquette }) {
 }
 
 /**
+ * Dessine deux trajectoires et, entre elles, l'écart.
+ *
+ * C'est le dessin du simulateur de frais : une courbe haute (ce que deviendrait
+ * l'épargne avec des frais réduits), une courbe basse (avec les frais actuels),
+ * et la surface entre les deux — qui EST le coût des frais. Montrer les deux
+ * courbes seules ne dirait rien ; c'est l'écart qui se creuse qui parle.
+ */
+export function dessinerComparaison(svg, hautes, basses, { etiquette }) {
+  if (!svg || hautes.length < 2 || hautes.length !== basses.length) return;
+
+  const L = 600;
+  const H = 260;
+  const MARGE = { haut: 18, bas: 30, gauche: 8, droite: 8 };
+  const largeur = L - MARGE.gauche - MARGE.droite;
+  const hauteur = H - MARGE.haut - MARGE.bas;
+
+  const max = Math.max(...hautes.map((l) => l.capital), 1);
+  const dernier = hautes.length - 1;
+
+  const x = (i) => MARGE.gauche + (i / dernier) * largeur;
+  const y = (v) => MARGE.haut + hauteur - (v / max) * hauteur;
+
+  const trace = (lignes, inverse = false) => {
+    const points = inverse ? [...lignes].reverse() : lignes;
+    return points
+      .map((l, rang) => {
+        const i = inverse ? dernier - rang : rang;
+        return `${rang === 0 ? 'M' : 'L'}${x(i).toFixed(1)},${y(l.capital).toFixed(1)}`;
+      })
+      .join(' ');
+  };
+
+  // La surface de l'écart : la courbe haute à l'aller, la basse au retour.
+  const ecart = `${trace(hautes)} ${trace(basses, true).replace(/^M/, 'L')} Z`;
+
+  const graduations = [0, dernier]
+    .map(
+      (i) =>
+        `<text class="sim-graphe-x" x="${x(i).toFixed(1)}" y="${H - 8}" text-anchor="${i === 0 ? 'start' : 'end'}">${hautes[i].annee === 0 ? "aujourd'hui" : `${hautes[i].annee} ans`}</text>`,
+    )
+    .join('');
+
+  svg.setAttribute('viewBox', `0 0 ${L} ${H}`);
+  svg.innerHTML = `
+    <title>${etiquette}</title>
+    <path class="sim-aire-ecart" d="${ecart}" />
+    <path class="sim-courbe-haute" d="${trace(hautes)}" />
+    <path class="sim-courbe-basse" d="${trace(basses)}" />
+    <line class="sim-base" x1="${MARGE.gauche}" y1="${y(0)}" x2="${L - MARGE.droite}" y2="${y(0)}" />
+    ${graduations}
+  `;
+}
+
+/**
  * Remplit le tableau année par année.
  * Il vit dans un <details> replié : c'est la preuve du calcul, pas le calcul.
  */

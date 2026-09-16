@@ -1,0 +1,175 @@
+---
+// Rachat sur un contrat d'assurance-vie.
+//
+// Le malentendu que cette page corrige : un rachat n'est pas imposé sur son
+// montant, mais sur la part de gains qu'il contient. Beaucoup d'épargnants
+// renoncent à un retrait en croyant le contraire.
+//
+// Périmètre : primes versées depuis le 27 septembre 2017.
+import Base from '../../layouts/Base.astro';
+import baremes from '../../data/baremes.json';
+
+const fil = ['Accueil', 'Outils', 'Rachat en assurance-vie'];
+const av = baremes.assuranceVie;
+const euros = (n) => `${n.toLocaleString('fr-FR')} €`;
+const pc = (t) => `${(t * 100).toLocaleString('fr-FR')} %`;
+
+const faq = [
+  {
+    q: 'Un rachat est-il imposé sur tout son montant ?',
+    r: "Non. Seule la part de gains qu'il contient est imposable. Si ton contrat vaut 100 000 € pour 70 000 € versés, il contient 30 % de gains : un rachat de 20 000 € ne génère que 6 000 € d'assiette imposable, le reste étant du capital que tu récupères en franchise d'impôt.",
+  },
+  {
+    q: 'Que change la barre des huit ans ?',
+    r: `Deux choses. Tu obtiens un abattement annuel de ${euros(av.abattementSeul)}, doublé à ${euros(av.abattementCouple)} pour un couple soumis à imposition commune. Et le taux d'impôt tombe de ${pc(av.tauxAvantHuitAns)} à ${pc(av.tauxApresHuitAnsSousSeuil)}, tant que les primes versées sur le contrat ne dépassent pas ${euros(av.seuilPrimes)}.`,
+  },
+  {
+    q: 'L’abattement dispense-t-il des prélèvements sociaux ?',
+    r: `Non, et c'est l'erreur la plus répandue. L'abattement ne joue que pour l'impôt sur le revenu. Les prélèvements sociaux, à ${pc(av.prelevementsSociaux)} depuis le 1er janvier 2026, frappent la totalité des gains, abattement ou pas.`,
+  },
+  {
+    q: 'Ce calcul vaut-il pour tous les contrats ?',
+    r: "Il porte sur les primes versées depuis le 27 septembre 2017. Les primes antérieures relèvent d'un régime différent, souvent plus favorable, que ce simulateur ne traite pas.",
+  },
+];
+---
+
+<Base chemin={'/outils/assurance-vie-rachat/'} fil={fil} faq={faq}>
+<section class="hero hero-page hero-court">
+<div class="wrap hero-page-in">
+  <p class="etiq-page">Outils</p>
+  <p class="fil-ariane" aria-label="Fil d'Ariane">
+    <a href="/">Accueil</a> <span aria-hidden="true">/</span>
+    <a href="/outils/">Outils</a> <span aria-hidden="true">/</span> Rachat en assurance-vie
+  </p>
+  <h1>Retirer coûte moins cher qu'on croit.</h1>
+  <p class="chapo">
+    Un rachat n'est pas imposé sur son montant, mais seulement sur la part de gains qu'il contient.
+    Le capital que tu as versé ressort toujours en franchise d'impôt.
+  </p>
+</div>
+</section>
+
+<section class="bloc">
+<div class="wrap">
+  <script type="application/json" id="sim-donnees" set:html={JSON.stringify(av)} />
+
+  <div class="sim">
+    <form class="sim-form" id="sim" novalidate>
+      <h2 class="sim-titre">Ton contrat</h2>
+
+      <div class="sim-champ" data-duo="valeur">
+        <label for="valeur-n">Valeur actuelle du contrat</label>
+        <div class="sim-duo">
+          <input type="range" id="valeur" min="0" max="1000000" step="1000" value="100000" aria-hidden="true" tabindex="-1" />
+          <input type="number" id="valeur-n" min="0" max="1000000" step="1000" value="100000" inputmode="decimal" />
+          <span class="sim-unite">€</span>
+        </div>
+      </div>
+
+      <div class="sim-champ" data-duo="versements">
+        <label for="versements-n">Total des primes versées</label>
+        <div class="sim-duo">
+          <input type="range" id="versements" min="0" max="1000000" step="1000" value="70000" aria-hidden="true" tabindex="-1" />
+          <input type="number" id="versements-n" min="0" max="1000000" step="1000" value="70000" inputmode="decimal" />
+          <span class="sim-unite">€</span>
+        </div>
+        <p class="sim-aide">La différence avec la valeur du contrat, ce sont tes gains. Les deux figurent sur ton relevé annuel.</p>
+      </div>
+
+      <div class="sim-champ" data-duo="anciennete">
+        <label for="anciennete-n">Âge du contrat</label>
+        <div class="sim-duo">
+          <input type="range" id="anciennete" min="0" max="30" step="1" value="10" aria-hidden="true" tabindex="-1" />
+          <input type="number" id="anciennete-n" min="0" max="30" step="1" value="10" inputmode="numeric" />
+          <span class="sim-unite">ans</span>
+        </div>
+        <p class="sim-aide">Depuis sa date d'ouverture, pas depuis le dernier versement.</p>
+      </div>
+
+      <h2 class="sim-titre sim-titre-suite">Ton retrait</h2>
+
+      <div class="sim-champ" data-duo="rachat">
+        <label for="rachat-n">Montant que tu veux retirer</label>
+        <div class="sim-duo">
+          <input type="range" id="rachat" min="0" max="1000000" step="500" value="20000" aria-hidden="true" tabindex="-1" />
+          <input type="number" id="rachat-n" min="0" max="1000000" step="500" value="20000" inputmode="decimal" />
+          <span class="sim-unite">€</span>
+        </div>
+      </div>
+
+      <div class="sim-option">
+        <input type="checkbox" id="couple" />
+        <label for="couple">Marié ou pacsé, imposition commune</label>
+      </div>
+    </form>
+
+    <div class="sim-resultat">
+      <p class="sim-resultat-etiq">Ce que le rachat te coûte</p>
+      <p class="sim-chiffre" id="r-total">—</p>
+      <p class="sim-reel-ligne">
+        Tu perçois <strong id="r-net">—</strong>, soit un coût réel de <span id="r-taux-reel">—</span> du montant retiré.
+      </p>
+
+      <dl class="sim-detail">
+        <div><dt>Part de gains du contrat</dt><dd id="r-part-gains">—</dd></div>
+        <div><dt>Gains imposables</dt><dd id="r-produits">—</dd></div>
+        <div><dt>Capital récupéré</dt><dd id="r-capital">—</dd></div>
+      </dl>
+
+      <p class="sim-alerte" id="bloc-attente" role="status" hidden></p>
+
+      <div class="sim-etapes">
+        <h3>Le calcul, dans l'ordre</h3>
+        <dl>
+          <div><dt>Gains compris dans le rachat</dt><dd id="r-produits-2">—</dd></div>
+          <div id="e-abattement-ligne" hidden><dt>Abattement annuel</dt><dd id="e-abattement">—</dd></div>
+          <div><dt>Impôt sur le revenu, à <span id="r-taux-impot">—</span></dt><dd id="r-impot">—</dd></div>
+          <div><dt>Prélèvements sociaux</dt><dd id="r-ps">—</dd></div>
+        </dl>
+        <p class="sim-aide">
+          Les prélèvements sociaux frappent la totalité des gains : l'abattement ne vaut que pour l'impôt sur le revenu.
+        </p>
+      </div>
+
+      <p class="sim-synthese" id="sim-synthese" role="status"></p>
+    </div>
+  </div>
+
+  <div class="sim-notes">
+    <h2>Ce que ce calcul ne dit pas</h2>
+    <ul>
+      <li>Il porte sur les <strong>primes versées depuis le 27 septembre 2017</strong>. Les primes antérieures relèvent d'un régime différent, souvent plus favorable.</li>
+      <li>L'abattement de {euros(av.abattementSeul)} est <strong>annuel</strong> : il se reconstitue chaque année civile, ce qui permet d'étaler un retrait important sur deux exercices.</li>
+      <li>Il suppose l'<strong>option pour le prélèvement forfaitaire</strong>. Le barème progressif peut être plus avantageux si ta tranche est basse : c'est une option globale, à choisir au moment de la déclaration.</li>
+      <li>Il ignore les <strong>cas d'exonération</strong> — licenciement, liquidation judiciaire, invalidité, mise à la retraite anticipée — qui effacent l'impôt sur le revenu.</li>
+    </ul>
+    <p class="sim-source">
+      Taux, abattements et seuil de {euros(av.seuilPrimes)} :
+      <a class="lien-petit" href={av.sources[0].url} rel="noopener">service-public.gouv.fr</a> ·
+      Prélèvements sociaux à {pc(av.prelevementsSociaux)} depuis le 1<sup>er</sup> janvier 2026 :
+      <a class="lien-petit" href={baremes.prelevements.sources[0].url} rel="noopener">service-public.gouv.fr</a>.
+      Chiffres vérifiés le 16 septembre 2026.
+    </p>
+    <p class="sim-avertissement">
+      Cet outil a une vocation informative et pédagogique. Il ne constitue pas un conseil fiscal ni un conseil
+      en investissement personnalisé au sens de l'article L. 541-1 du Code monétaire et financier.
+      <a class="lien-petit" href="/disclaimer/">Avertissement complet</a>
+    </p>
+  </div>
+</div>
+</section>
+
+<section class="final">
+<div class="wrap final-simple">
+  <h2>Ton contrat, tes vrais chiffres.</h2>
+  <p>SAFIA lit tes contrats, calcule ta part de gains réelle et te dit ce qu'un retrait coûterait vraiment.</p>
+  <a class="btn btn-primaire" href="/telecharger/" data-app>Télécharger l'app</a>
+  <a class="lien" href="/outils/">Voir les autres outils</a>
+</div>
+</section>
+</Base>
+
+<script>
+  import '../../scripts/outils/assurance-vie-rachat.js';
+</script>

@@ -1,0 +1,176 @@
+---
+// Simulateur d'IFI.
+//
+// Le sujet de la page est la marche d'escalier : seuil à 1 300 000 €, barème
+// calculé depuis 800 000 €, et décote pour amortir. C'est contre-intuitif, et
+// aucune plaquette ne l'explique.
+import Base from '../../layouts/Base.astro';
+import baremes from '../../data/baremes.json';
+
+const fil = ['Accueil', 'Outils', 'Simulateur IFI'];
+const ifi = baremes.ifi;
+const euros = (n) => `${n.toLocaleString('fr-FR')} €`;
+
+const faq = [
+  {
+    q: 'À partir de quand est-on redevable de l’IFI ?',
+    r: `Au-delà de ${euros(ifi.seuil)} de patrimoine immobilier net taxable au 1er janvier. En dessous, il n'y a ni impôt ni déclaration.`,
+  },
+  {
+    q: 'Pourquoi le barème commence-t-il à 800 000 € si le seuil est à 1 300 000 € ?',
+    r: `Parce que ce sont deux choses différentes. Le seuil décide si l'on est redevable ; le barème, lui, s'applique dès ${euros(800000)} une fois qu'on l'est. Un patrimoine de ${euros(1299999)} ne paie rien, un patrimoine de ${euros(1300001)} est taxé sur tout ce qui dépasse ${euros(800000)}. Une décote atténue cette marche entre ${euros(ifi.decote.borneBasse)} et ${euros(ifi.decote.borneHaute)}.`,
+  },
+  {
+    q: 'Comment est traitée ma résidence principale ?',
+    r: `Elle entre dans le calcul, mais après un abattement de ${Math.round(ifi.abattementResidencePrincipale * 100)} % sur sa valeur vénale. Un bien estimé à ${euros(1000000)} ne compte donc que pour ${euros(700000)}.`,
+  },
+  {
+    q: 'Quelles dettes puis-je déduire ?',
+    r: "Le capital restant dû des emprunts immobiliers, les travaux engagés, et les impôts liés aux biens — taxe foncière notamment. Les dettes doivent exister au 1er janvier et se rapporter à des biens imposables.",
+  },
+];
+---
+
+<Base chemin={'/outils/ifi/'} fil={fil} faq={faq}>
+<section class="hero hero-page hero-court">
+<div class="wrap hero-page-in">
+  <p class="etiq-page">Outils</p>
+  <p class="fil-ariane" aria-label="Fil d'Ariane">
+    <a href="/">Accueil</a> <span aria-hidden="true">/</span>
+    <a href="/outils/">Outils</a> <span aria-hidden="true">/</span> Simulateur IFI
+  </p>
+  <h1>L'IFI, seuil et barème.</h1>
+  <p class="chapo">
+    On devient redevable au-delà de {euros(ifi.seuil)}, mais le barème se calcule à partir de
+    {euros(800000)}. Cette marche surprend tout le monde : le simulateur la montre, décote comprise.
+  </p>
+</div>
+</section>
+
+<section class="bloc">
+<div class="wrap">
+  <script type="application/json" id="sim-donnees" set:html={JSON.stringify(ifi)} />
+
+  <div class="sim">
+    <form class="sim-form" id="sim" novalidate>
+      <h2 class="sim-titre">Ton patrimoine immobilier</h2>
+
+      <div class="sim-champ" data-duo="rp">
+        <label for="rp-n">Résidence principale</label>
+        <div class="sim-duo">
+          <input type="range" id="rp" min="0" max="5000000" step="10000" value="900000" aria-hidden="true" tabindex="-1" />
+          <input type="number" id="rp-n" min="0" max="5000000" step="10000" value="900000" inputmode="decimal" />
+          <span class="sim-unite">€</span>
+        </div>
+        <p class="sim-aide">Valeur vénale. L'abattement de {Math.round(ifi.abattementResidencePrincipale * 100)} % est appliqué automatiquement.</p>
+      </div>
+
+      <div class="sim-champ" data-duo="autres">
+        <label for="autres-n">Autres biens immobiliers</label>
+        <div class="sim-duo">
+          <!-- Valeur de départ choisie pour que la page s'ouvre sur un cas
+               PARLANT : 630 000 + 900 000 − 200 000 = 1 330 000 €, soit juste
+               au-dessus du seuil, dans la bande où joue la décote. Le visiteur
+               voit ainsi d'emblée le barème par tranches ET la décote. Un
+               simulateur qui s'ouvre sur « 0 € » ne montre pas ce qu'il fait. -->
+          <input type="range" id="autres" min="0" max="10000000" step="10000" value="900000" aria-hidden="true" tabindex="-1" />
+          <input type="number" id="autres-n" min="0" max="10000000" step="10000" value="900000" inputmode="decimal" />
+          <span class="sim-unite">€</span>
+        </div>
+        <p class="sim-aide">Locatifs, résidences secondaires, terrains.</p>
+      </div>
+
+      <div class="sim-champ" data-duo="parts">
+        <label for="parts-n">Parts de SCPI, OPCI ou SCI</label>
+        <div class="sim-duo">
+          <input type="range" id="parts" min="0" max="5000000" step="5000" value="0" aria-hidden="true" tabindex="-1" />
+          <input type="number" id="parts-n" min="0" max="5000000" step="5000" value="0" inputmode="decimal" />
+          <span class="sim-unite">€</span>
+        </div>
+        <p class="sim-aide">À hauteur de leur fraction immobilière, indiquée chaque année par la société de gestion.</p>
+      </div>
+
+      <div class="sim-champ" data-duo="dettes">
+        <label for="dettes-n">Dettes déductibles</label>
+        <div class="sim-duo">
+          <input type="range" id="dettes" min="0" max="5000000" step="10000" value="200000" aria-hidden="true" tabindex="-1" />
+          <input type="number" id="dettes-n" min="0" max="5000000" step="10000" value="200000" inputmode="decimal" />
+          <span class="sim-unite">€</span>
+        </div>
+        <p class="sim-aide">Capital restant dû des emprunts, travaux engagés, impôts liés aux biens.</p>
+      </div>
+    </form>
+
+    <div class="sim-resultat">
+      <p class="sim-resultat-etiq">IFI estimé</p>
+      <p class="sim-chiffre" id="r-du">—</p>
+
+      <p class="sim-alerte" id="bloc-sous-seuil" role="status" hidden><span id="r-manque"></span></p>
+
+      <div id="bloc-chiffres">
+        <p class="sim-reel-ligne">Soit <strong id="r-mensuel">—</strong> par mois.</p>
+        <dl class="sim-detail">
+          <div><dt>Patrimoine net taxable</dt><dd id="r-net">—</dd></div>
+          <div><dt>Taux effectif</dt><dd id="r-taux">—</dd></div>
+          <div><dt>Tranche marginale</dt><dd id="r-tmi">—</dd></div>
+        </dl>
+      </div>
+
+      <div class="sim-etapes">
+        <h3>Le calcul, dans l'ordre</h3>
+        <dl>
+          <div><dt>Abattement sur la résidence principale</dt><dd id="r-abattement-rp">—</dd></div>
+          <div><dt>Impôt au barème</dt><dd id="e-bareme">—</dd></div>
+          <div id="e-decote-ligne" hidden><dt>Décote</dt><dd id="e-decote">—</dd></div>
+        </dl>
+      </div>
+
+      <div class="sim-tableau-boite">
+        <table class="sim-tranches">
+          <caption>Ce que chaque tranche coûte</caption>
+          <thead><tr><th scope="col">Taux</th><th scope="col">Patrimoine concerné</th><th scope="col">Impôt</th></tr></thead>
+          <tbody id="sim-tranches-corps"></tbody>
+        </table>
+      </div>
+
+      <p class="sim-synthese" id="sim-synthese" role="status"></p>
+    </div>
+  </div>
+
+  <div class="sim-notes">
+    <h2>Ce que ce calcul ne dit pas</h2>
+    <ul>
+      <li>Il ne traite que l'<strong>immobilier non professionnel</strong>. Les biens affectés à l'activité professionnelle en sont exclus, sous conditions.</li>
+      <li>Il ignore les <strong>réductions pour dons</strong> et le <strong>plafonnement</strong> de l'IFI en fonction des revenus, qui bénéficie aux patrimoines élevés à faibles revenus.</li>
+      <li>L'évaluation des biens est <strong>ta responsabilité</strong> et se fait au 1<sup>er</sup> janvier. C'est elle, plus que le barème, qui décide du montant.</li>
+      <li>Les règles de déduction des dettes comportent des <strong>limites propres aux gros patrimoines</strong>, non modélisées ici.</li>
+    </ul>
+    <p class="sim-source">
+      Seuil, barème, décote et abattement :
+      <a class="lien-petit" href={ifi.sources[0].url} rel="noopener">service-public.gouv.fr</a> et
+      <a class="lien-petit" href={ifi.sources[1].url} rel="noopener">impots.gouv.fr</a>.
+      Chiffres vérifiés le 16 septembre 2026.
+    </p>
+    <p class="sim-avertissement">
+      Cet outil a une vocation informative et pédagogique. Il ne constitue pas un conseil fiscal ni un conseil
+      en investissement personnalisé au sens de l'article L. 541-1 du Code monétaire et financier. Seule
+      l'administration fiscale établit l'impôt dû.
+      <a class="lien-petit" href="/disclaimer/">Avertissement complet</a>
+    </p>
+  </div>
+</div>
+</section>
+
+<section class="final">
+<div class="wrap final-simple">
+  <h2>Ton patrimoine, dans son ensemble.</h2>
+  <p>L'IFI ne regarde que l'immobilier. SAFIA réunit tout le reste et te dit où tu en es vraiment.</p>
+  <a class="btn btn-primaire" href="/telecharger/" data-app>Télécharger l'app</a>
+  <a class="lien" href="/outils/">Voir les autres outils</a>
+</div>
+</section>
+</Base>
+
+<script>
+  import '../../scripts/outils/ifi.js';
+</script>

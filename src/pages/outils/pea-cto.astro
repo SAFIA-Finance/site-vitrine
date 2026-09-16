@@ -1,0 +1,170 @@
+---
+// PEA ou compte-titres.
+//
+// Une comparaison honnête doit dire les deux limites, qui jouent en sens
+// contraire : le PEA est plafonné et restreint aux actions européennes, mais
+// le compte-titres supporte en plus l'imposition annuelle des dividendes, que
+// ce calcul n'intègre pas et qui creuse encore l'écart en faveur du PEA.
+import Base from '../../layouts/Base.astro';
+import baremes from '../../data/baremes.json';
+
+const fil = ['Accueil', 'Outils', 'PEA ou compte-titres'];
+const pea = baremes.pea;
+const prelevements = baremes.prelevements;
+const donnees = { pea, prelevements };
+const euros = (n) => `${n.toLocaleString('fr-FR')} €`;
+const pc = (t) => `${(t * 100).toLocaleString('fr-FR')} %`;
+
+const faq = [
+  {
+    q: 'Quelle est la différence fiscale exacte ?',
+    r: `Après ${pea.dureeExoneration} ans, les gains d'un PEA échappent à l'impôt sur le revenu mais restent soumis aux prélèvements sociaux de ${pc(pea.apresCinqAns.prelevementsSociaux)}. Sur un compte-titres, ils subissent le prélèvement forfaitaire complet de ${pc(prelevements.pfuTotal)}. L'écart est donc exactement la part impôt, soit ${pc(prelevements.pfuImpot)} des gains.`,
+  },
+  {
+    q: 'Et avant cinq ans ?',
+    r: `Le PEA n'a alors aucun avantage : un retrait est imposé au prélèvement forfaitaire de ${pc(prelevements.pfuTotal)}, comme sur un compte-titres. L'avantage du PEA se mérite par la durée.`,
+  },
+  {
+    q: 'Quelles sont les contreparties du PEA ?',
+    r: `Les versements sont plafonnés à ${euros(pea.plafondVersements)}, et les titres éligibles sont pour l'essentiel des actions européennes. Un compte-titres n'a ni plafond ni restriction géographique : il donne accès au monde entier, et à des supports que le PEA n'accepte pas.`,
+  },
+  {
+    q: 'Un retrait ferme-t-il le plan ?',
+    r: `Un retrait total ferme le PEA définitivement. Après ${pea.dureeExoneration} ans, un retrait partiel ne le ferme pas et tu peux continuer à verser, dans la limite du plafond.`,
+  },
+];
+---
+
+<Base chemin={'/outils/pea-cto/'} fil={fil} faq={faq}>
+<section class="hero hero-page hero-court">
+<div class="wrap hero-page-in">
+  <p class="etiq-page">Outils</p>
+  <p class="fil-ariane" aria-label="Fil d'Ariane">
+    <a href="/">Accueil</a> <span aria-hidden="true">/</span>
+    <a href="/outils/">Outils</a> <span aria-hidden="true">/</span> PEA ou compte-titres
+  </p>
+  <h1>La même somme, les deux enveloppes.</h1>
+  <p class="chapo">
+    Après cinq ans, le PEA échappe à l'impôt sur le revenu mais pas aux prélèvements sociaux.
+    L'écart avec un compte-titres tient tout entier dans cette différence.
+  </p>
+</div>
+</section>
+
+<section class="bloc">
+<div class="wrap">
+  <script type="application/json" id="sim-donnees" set:html={JSON.stringify(donnees)} />
+
+  <div class="sim">
+    <form class="sim-form" id="sim" novalidate>
+      <h2 class="sim-titre">Ton investissement</h2>
+
+      <div class="sim-champ" data-duo="capital">
+        <label for="capital-n">Capital de départ</label>
+        <div class="sim-duo">
+          <input type="range" id="capital" min="0" max="150000" step="1000" value="10000" aria-hidden="true" tabindex="-1" />
+          <input type="number" id="capital-n" min="0" max="150000" step="1000" value="10000" inputmode="decimal" />
+          <span class="sim-unite">€</span>
+        </div>
+      </div>
+
+      <div class="sim-champ" data-duo="versement">
+        <label for="versement-n">Versement chaque mois</label>
+        <div class="sim-duo">
+          <input type="range" id="versement" min="0" max="3000" step="10" value="300" aria-hidden="true" tabindex="-1" />
+          <input type="number" id="versement-n" min="0" max="3000" step="10" value="300" inputmode="decimal" />
+          <span class="sim-unite">€</span>
+        </div>
+      </div>
+
+      <div class="sim-champ" data-duo="duree">
+        <label for="duree-n">Pendant</label>
+        <div class="sim-duo">
+          <input type="range" id="duree" min="1" max="40" step="1" value="15" aria-hidden="true" tabindex="-1" />
+          <input type="number" id="duree-n" min="1" max="40" step="1" value="15" inputmode="numeric" />
+          <span class="sim-unite">ans</span>
+        </div>
+      </div>
+
+      <div class="sim-champ" data-duo="rendement">
+        <label for="rendement-n">Rendement annuel net de frais</label>
+        <div class="sim-duo">
+          <input type="range" id="rendement" min="0" max="12" step="0.1" value="6" aria-hidden="true" tabindex="-1" />
+          <input type="number" id="rendement-n" min="0" max="12" step="0.1" value="6" inputmode="decimal" />
+          <span class="sim-unite">%</span>
+        </div>
+        <p class="sim-aide">Identique dans les deux enveloppes : seule la fiscalité les sépare ici. Aucun rendement n'est garanti.</p>
+      </div>
+    </form>
+
+    <div class="sim-resultat">
+      <p class="sim-resultat-etiq">Ce que le PEA fait gagner</p>
+      <p class="sim-chiffre" id="r-ecart">—</p>
+
+      <dl class="sim-detail">
+        <div><dt>Capital avant impôt</dt><dd id="r-capital">—</dd></div>
+        <div><dt>Dont versé</dt><dd id="r-verse">—</dd></div>
+        <div><dt>Dont gains</dt><dd id="r-gains">—</dd></div>
+      </dl>
+
+      <p class="sim-alerte" id="alerte-duree" role="status" hidden></p>
+      <p class="sim-alerte" id="alerte-plafond" role="status" hidden></p>
+
+      <div class="sim-pari">
+        <h3>Après impôt</h3>
+        <div class="sim-pari-cotes">
+          <div>
+            <p class="sim-pari-etiq">Avec un PEA</p>
+            <p class="sim-pari-chiffre" id="r-pea-net">—</p>
+            <p class="sim-aide">Impôt et prélèvements : <span id="r-pea-impot">—</span></p>
+          </div>
+          <div>
+            <p class="sim-pari-etiq">Avec un compte-titres</p>
+            <p class="sim-pari-chiffre" id="r-cto-net">—</p>
+            <p class="sim-aide">Impôt et prélèvements : <span id="r-cto-impot">—</span></p>
+          </div>
+        </div>
+      </div>
+
+      <p class="sim-synthese" id="sim-synthese" role="status"></p>
+    </div>
+  </div>
+
+  <div class="sim-notes">
+    <h2>Ce que ce calcul ne dit pas</h2>
+    <ul>
+      <li>Il <strong>sous-estime l'écart</strong>. Sur un compte-titres, les dividendes sont imposés chaque année, ce qui ampute le capital qui travaille. Ce calcul l'ignore : l'avantage réel du PEA est donc supérieur.</li>
+      <li>Le PEA est <strong>plafonné à {euros(pea.plafondVersements)}</strong> et limité pour l'essentiel aux actions européennes. Un compte-titres n'a ni plafond ni restriction, et donne accès à des supports que le PEA refuse.</li>
+      <li>Il suppose une <strong>liquidation totale au terme</strong>, et un plan ouvert depuis plus de cinq ans à ce moment-là.</li>
+      <li>Il applique le même <strong>rendement</strong> aux deux enveloppes. Dans la réalité, l'univers d'investissement diffère, et c'est souvent ce qui décide — pas la fiscalité.</li>
+    </ul>
+    <p class="sim-source">
+      Régime des retraits et plafond :
+      <a class="lien-petit" href={pea.sources[0].url} rel="noopener">impots.gouv.fr</a> ·
+      Prélèvement forfaitaire à {pc(prelevements.pfuTotal)} depuis le 1<sup>er</sup> janvier 2026 :
+      <a class="lien-petit" href={prelevements.sources[0].url} rel="noopener">service-public.gouv.fr</a>.
+      Chiffres vérifiés le 16 septembre 2026.
+    </p>
+    <p class="sim-avertissement">
+      Cet outil a une vocation informative et pédagogique. Il ne constitue pas un conseil en investissement
+      personnalisé au sens de l'article L. 541-1 du Code monétaire et financier. Tout investissement comporte
+      un risque de perte en capital. Les performances passées ne préjugent pas des performances futures.
+      <a class="lien-petit" href="/disclaimer/">Avertissement complet</a>
+    </p>
+  </div>
+</div>
+</section>
+
+<section class="final">
+<div class="wrap final-simple">
+  <h2>La bonne enveloppe dépend de toi.</h2>
+  <p>Horizon, fiscalité, supports visés : SAFIA regarde ta situation réelle plutôt qu'une comparaison générale.</p>
+  <a class="btn btn-primaire" href="/telecharger/" data-app>Télécharger l'app</a>
+  <a class="lien" href="/outils/">Voir les autres outils</a>
+</div>
+</section>
+</Base>
+
+<script>
+  import '../../scripts/outils/pea-cto.js';
+</script>

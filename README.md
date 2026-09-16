@@ -10,8 +10,8 @@ investissement financier.
 | **Technique** | [Astro](https://astro.build) 5, HTML statique, déployé par GitHub Actions sur GitHub Pages |
 | **Langue** | français, tutoiement pour les pages particuliers, vouvoiement pour les pages professionnelles |
 
-Le site est **entièrement statique** : 159 pages HTML pré-construites — 20 pages
-fixes, 5 pages d'outils de calcul, 123 articles de blog et 11 pages de
+Le site est **entièrement statique** : 164 pages HTML pré-construites — 20 pages
+fixes, 10 pages d'outils de calcul, 123 articles de blog et 11 pages de
 thématique —, aucun serveur, aucune base de données. Le JavaScript se limite aux quelques
 interactions de la page où il sert (démonstrations, bascule de tarifs, menu).
 

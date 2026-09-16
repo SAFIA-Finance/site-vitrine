@@ -31,11 +31,13 @@ passer son `publie` à `true` et créer sa page. Aucune autre liste à mettre à
 | Simulateur d'épargne | En ligne |
 | Impôt sur le revenu | En ligne |
 | Simulateur PER | En ligne |
-| Le coût de tes frais | À faire — `ecartDeFrais()` est déjà écrit |
-| Simulateur IFI | À faire — barème prêt |
-| Succession et donation | À faire — barème à collecter |
-| Rachat en assurance-vie | À faire — barème à collecter |
-| PEA ou compte-titres | À faire — barème à collecter |
+| Le coût de tes frais | En ligne |
+| Simulateur IFI | En ligne |
+| Succession et donation | En ligne |
+| Rachat en assurance-vie | En ligne |
+| PEA ou compte-titres | En ligne |
+
+**Les neuf outils sont en ligne depuis le 16 septembre 2026.**
 
 L'ordre de construction n'est pas libre : **le PER dépend du moteur d'impôt sur
 le revenu**, puisque l'économie d'impôt qu'il affiche est la différence entre
@@ -135,6 +137,52 @@ contestée ne doit jamais produire des euros.
 | Sortie : 100 000 € dont 60 000 € de versements déduits, tranche 30 % | 18 000 € au barème + 12 560 € de PFU |
 | Tranche de sortie basse contre haute | le solde du pari est meilleur quand la tranche baisse |
 
+## Les quatre derniers moteurs
+
+`src/calculs/bareme.js` factorise l'application d'un barème par tranches, que
+l'IFI et les successions partagent. L'impôt sur le revenu garde sa propre
+fonction, car il divise d'abord par le nombre de parts.
+
+**IFI** — le sujet de la page est la marche d'escalier : on devient redevable
+au-delà de 1 300 000 €, mais le barème se calcule depuis 800 000 €. Un
+patrimoine de 1 299 999 € ne paie rien ; à 1 300 001 €, l'impôt porte sur tout
+ce qui dépasse 800 000 €. La décote amortit la marche entre 1,3 et 1,4 M€. Sous
+le seuil, la page n'affiche pas « 0 € » mais la distance qui reste à parcourir.
+
+**Succession** — le calcul se fait **héritier par héritier**, chacun avec son
+abattement et son propre départ au bas du barème. C'est ce qui explique que
+partager coûte beaucoup moins cher, et c'est la démonstration que porte la page.
+Le conjoint et le partenaire de Pacs sont totalement exonérés.
+
+**Assurance-vie** — un rachat n'est imposé que sur **sa part de gains** :
+`produits = rachat × (1 − versements ÷ valeur du contrat)`. Beaucoup d'épargnants
+renoncent à un retrait en croyant qu'il sera taxé sur son montant entier. Piège à
+ne jamais perdre de vue : **l'abattement de 4 600 / 9 200 € ne vaut que pour
+l'impôt sur le revenu**, les prélèvements sociaux frappent la totalité des gains.
+
+**PEA contre compte-titres** — l'écart se réduit à la part « impôt sur le
+revenu » du prélèvement forfaitaire, les prélèvements sociaux étant dus des deux
+côtés. Le calcul **sous-estime volontairement** l'avantage du PEA, faute
+d'intégrer l'imposition annuelle des dividendes sur un compte-titres : c'est
+écrit sur la page.
+
+### Cas de test des quatre moteurs
+
+| Cas | Attendu |
+|---|---|
+| Barème : 15 000 € en ligne directe | 8 072 × 5 % + 4 037 × 10 % + 2 891 × 15 % |
+| Barème : un euro de plus au passage d'un seuil | +0,15 €, pas un retarifage |
+| IFI : RP 900 000 €, autres 800 000 €, dettes 200 000 € | net 1 230 000 €, **non redevable** |
+| IFI : 1 500 000 € | 2 500 + 1 400 = **3 900 €**, pas de décote |
+| IFI : 1 350 000 € | barème 2 850 €, décote 625 €, dû **2 225 €** |
+| Succession : un enfant sur 300 000 € | **38 194,35 €** |
+| Succession : conjoint | exonéré |
+| Succession : 400 000 € à deux enfants contre un seul | 36 388,70 € contre 58 194,35 € |
+| Assurance-vie : contrat 100 000 € / 70 000 € versés, rachat 20 000 €, 10 ans | 6 000 € de produits, impôt 105 €, PS 1 116 € |
+| Assurance-vie : primes > 150 000 € | 12,8 % au lieu de 7,5 % |
+| PEA contre CTO | écart = **gains × 12,8 %**, exactement |
+| PEA avant 5 ans | écart nul |
+
 ## Deux partis pris de calcul
 
 Ils expliquent les écarts avec les calculettes concurrentes, et ils sont
@@ -173,6 +221,22 @@ unique — `.defile`, `.ct-tete`, `.methode` — où un nom nu décrivait deux o
 sans rapport, la règle la plus tardive l'emportant sur une page qu'elle n'était
 pas censée toucher. Une famille entière de composants ne s'ajoute pas sans
 préfixe.
+
+## Un artefact d'affichage connu, non corrigé
+
+Dans les tableaux par tranches — impôt sur le revenu, IFI, succession — chaque
+ligne est arrondie à l'euro pour l'affichage. La somme des lignes peut donc
+différer du total d'un ou deux euros : sur une succession de 400 000 € partagée
+entre deux enfants, la colonne affiche 404 + 404 + 573 + 16 814 = 18 195 € quand
+le total annoncé est 18 194 €.
+
+Le calcul, lui, est exact : rien n'est arrondi en cours de route, l'arrondi est
+purement une affaire d'affichage. Mais sur des pages dont tout l'argument est de
+**montrer le calcul**, un lecteur qui additionne la colonne verra l'écart.
+
+La correction propre consiste à afficher la dernière ligne comme la différence
+entre le total et la somme des précédentes, dans les trois outils. **Soumis à
+Maxime le 16 septembre 2026, non tranché.**
 
 ## La mise à jour annuelle
 
