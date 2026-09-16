@@ -52,10 +52,22 @@ export const PREUVES = {
   maj: '16 septembre 2026',
   telechargements: '100+',
   patrimoine: '10 M€+',
-  // Relevé le 16 septembre 2026 via l'API publique d'Apple (itunes.apple.com).
-  // Google Play n'expose pas de note lisible automatiquement : à compléter
-  // depuis la Play Console quand elle en aura une.
-  note: { valeur: '5,0', avis: 3, magasin: 'App Store' },
+  /**
+   * Notes des magasins, relevées à la main, magasin par magasin.
+   * Le site n'en affiche qu'une seule, consolidée : voir noteConsolidee().
+   *
+   * App Store : relevé le 16 septembre 2026 via l'API publique d'Apple
+   * (itunes.apple.com/lookup), pour la boutique française.
+   * Google Play : sa fiche ne se lit pas automatiquement, elle est rendue en
+   * JavaScript. La valeur vient de la Play Console → Qualité → Notes.
+   *
+   * Retirer une ligne suffit à l'exclure du calcul ; vider le tableau retire
+   * l'emplacement du site.
+   */
+  notes: [
+    { magasin: 'App Store', valeur: 5, avis: 3 },
+    // { magasin: 'Google Play', valeur: 0, avis: 0 },
+  ],
   /**
    * Mention de la bêta et avantage consenti aux premiers utilisateurs.
    *
@@ -66,6 +78,31 @@ export const PREUVES = {
    */
   beta: 'Bêta publique : un mois de Smart offert aux premiers utilisateurs, pendant toute la durée de la bêta.',
 };
+
+/**
+ * Note unique à partir des notes de chaque magasin.
+ *
+ * La moyenne est **pondérée par le nombre d'avis**, jamais la moyenne des
+ * moyennes : 5,0 sur 3 avis et 4,5 sur 60 ne donnent pas 4,75, mais 4,52. Un
+ * magasin de trois avis ne pèse pas autant qu'un magasin de soixante.
+ *
+ * L'effectif total est toujours renvoyé avec la note, pour être affiché avec
+ * elle : une note sans son nombre d'avis ne veut rien dire tant qu'il est
+ * faible, et l'omettre serait trompeur.
+ */
+export function noteConsolidee(notes = PREUVES.notes) {
+  const retenues = notes.filter((n) => n && n.avis > 0);
+  if (!retenues.length) return null;
+
+  const avis = retenues.reduce((total, n) => total + n.avis, 0);
+  const somme = retenues.reduce((total, n) => total + n.valeur * n.avis, 0);
+
+  return {
+    valeur: (somme / avis).toFixed(1).replace('.', ','),
+    avis,
+    magasins: retenues.map((n) => n.magasin),
+  };
+}
 
 /** Relais des formulaires vers Brevo (dossier relais/). */
 export const RELAIS_URL = process.env.RELAIS_URL ?? 'https://safia-formulaires.safia-finance.workers.dev';

@@ -127,8 +127,19 @@ du hero et sans logos. La rapprocher des boutons aurait plus d'effet.
 > publique d'Apple, et toujours affichée **avec son effectif** — une note sans
 > son nombre d'avis se retourne contre nous tant qu'il est faible. Une note
 > inventée avait été envisagée puis écartée : sur le site d'un CIF, c'est une
-> pratique commerciale trompeuse. Google Play n'expose pas de note lisible
-> automatiquement ; à compléter depuis la Play Console.
+> pratique commerciale trompeuse.
+>
+> **Une seule note, consolidée.** Le site n'affiche pas deux notes séparées mais
+> une moyenne des magasins, **pondérée par le nombre d'avis** — jamais la
+> moyenne des moyennes, qui donnerait le même poids à trois avis qu'à soixante.
+> Vérifié sur cinq cas : 5,0 sur 3 avis et 4,5 sur 60 donnent **4,5 sur 63
+> avis**, là où la moyenne des moyennes afficherait 4,8. L'effectif total est
+> toujours affiché avec la note, et un magasin sans avis est ignoré.
+>
+> Chaque magasin est renseigné à la main dans `PREUVES.notes`, `src/config.js`,
+> et `noteConsolidee()` fait le calcul au build. Google Play reste à compléter :
+> sa fiche est rendue en JavaScript et ne se lit pas automatiquement, la valeur
+> vient de la Play Console → Qualité → Notes.
 >
 > Tout vit dans `PREUVES`, dans `src/config.js` : chiffres, note et mention de
 > bêta se mettent à jour ou se retirent à un seul endroit. L'avantage est borné

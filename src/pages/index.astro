@@ -1,6 +1,10 @@
 ---
 import Base from '../layouts/Base.astro';
-import { PREUVES } from '../config.js';
+import { PREUVES, noteConsolidee } from '../config.js';
+
+// Une seule note affichée, pondérée par le nombre d'avis de chaque magasin.
+const note = noteConsolidee();
+
 const faq = [
   {
     "q": "SAFIA, c'est quoi ?",
@@ -43,8 +47,8 @@ const faq = [
     <ul class="preuves" aria-label="Chiffres d'usage">
       <li><b>{PREUVES.telechargements}</b><span>téléchargements</span></li>
       <li><b>{PREUVES.patrimoine}</b><span>de patrimoine agrégé</span></li>
-      {PREUVES.note && (
-        <li><b>{PREUVES.note.valeur} <span class="preuves-etoile" aria-hidden="true">★</span></b><span>sur {PREUVES.note.avis} avis {PREUVES.note.magasin}</span></li>
+      {note && (
+        <li><b>{note.valeur} <span class="preuves-etoile" aria-hidden="true">★</span></b><span>sur {note.avis} avis {note.magasins.join(' et ')}</span></li>
       )}
     </ul>
     {PREUVES.beta && <p class="beta">{PREUVES.beta}</p>}
