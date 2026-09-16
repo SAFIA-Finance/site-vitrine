@@ -1,6 +1,7 @@
 ---
 // Pied de page commun. Les liens légaux portent la classe « a-venir »
 // tant que les pages correspondantes ne sont pas publiées (voir docs/POINTS-OUVERTS.md).
+import { OUTILS_PUBLIES } from '../calculs/outils.js';
 const annee = new Date().getFullYear();
 ---
 
@@ -13,7 +14,19 @@ const annee = new Date().getFullYear();
       </div>
       <div><h3>SAFIA</h3><ul><li><a href="/particuliers/">Particuliers</a></li><li><a href="/adn-investisseur/">ADN Investisseur</a></li><li><a href="/assistant-ia/">Assistant IA</a></li><li><a href="/cockpit/">Cockpit stratégique</a></li><li><a href="/tarifs/">Tarifs</a></li></ul></div>
       <div><h3>Professionnels</h3><ul><li><a href="/conseillers/">Conseillers</a></li><li><a href="/institutions/">Institutions</a></li><li><a href="/conseillers/">Demander une démo</a></li></ul></div>
-      <div><h3>Ressources</h3><ul><li><a href="/comparatif/">Comparatif</a></li><li><a href="/blog/">Le blog</a></li></ul></div>
+      <div><h3>Ressources</h3><ul>
+        <li>
+          <!-- Menu dépliant natif : un <details> s'ouvre sans JavaScript, reste
+               accessible au clavier et ne dépend d'aucun script de page. -->
+          <details class="pied-outils">
+            <summary>Outils<svg viewBox="0 0 10 10" aria-hidden="true"><path d="M1 3l4 4 4-4" stroke="currentColor" stroke-width="1.6" fill="none"/></svg></summary>
+            <ul>
+              {OUTILS_PUBLIES.map((o) => <li><a href={o.route}>{o.nom}</a></li>)}
+              <li><a href="/outils/">Tous les outils</a></li>
+            </ul>
+          </details>
+        </li>
+        <li><a href="/comparatif/">Comparatif</a></li><li><a href="/blog/">Le blog</a></li></ul></div>
       <div><h3>À propos</h3><ul><li><a href="/fondateur/">Le fondateur</a></li><li><a href="/methode/">Notre méthode</a></li><li><a href="/securite/">Sécurité et conformité</a></li><li><a href="mailto:hello@safia.finance">hello@safia.finance</a></li></ul></div>
       <div><h3>Légal</h3><ul><li><a href="/mentions-legales/">Mentions légales</a></li><li><a href="/politique-de-confidentialite/">Politique de confidentialité</a></li><li><a href="/cgu/">CGU</a></li><li><a href="/disclaimer/">Avertissement</a></li><li><a href="/politique-cookies/">Politique de cookies</a></li><li><a href="#cookies" data-ouvrir-cookies>Gestion des cookies</a></li></ul></div>
     </div>

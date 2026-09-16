@@ -1,0 +1,229 @@
+---
+// Simulateur d'épargne : deux modes, et des enveloppes dont le taux est sourcé.
+//
+// Les taux proposés viennent de src/data/baremes.json, avec leur source. Les
+// livrets réglementés y ont un taux OFFICIEL ; le fonds euros est une moyenne
+// constatée, et c'est écrit. Aucun taux d'unités de compte n'est proposé par
+// défaut : mettre « 7 % » dans un menu déroulant sur le site d'un CIF,
+// c'est suggérer un rendement. Le visiteur pose lui-même son hypothèse.
+import Base from '../../layouts/Base.astro';
+import baremes from '../../data/baremes.json';
+
+const fil = ['Accueil', 'Outils', "Simulateur d'épargne"];
+const reglementee = baremes.epargneReglementee;
+const fondsEuros = baremes.hypotheses.fondsEuros;
+const inflation = baremes.hypotheses.inflation;
+
+// Ce que le script du navigateur a besoin de connaître, et rien de plus.
+const enveloppes = [
+  ...reglementee.produits.map((p) => ({
+    cle: p.cle,
+    nom: p.nom,
+    taux: p.taux,
+    plafond: p.plafond,
+    note: `Taux officiel en vigueur depuis le 1er août 2026. Plafond de versements : ${p.plafond.toLocaleString('fr-FR')} €, intérêts exonérés d'impôt.`,
+  })),
+  {
+    cle: 'fonds-euros',
+    nom: 'Fonds euros',
+    taux: fondsEuros.valeur,
+    plafond: null,
+    note: fondsEuros.precision,
+  },
+  { cle: 'libre', nom: 'Taux personnalisé', taux: 0.05, plafond: null, note: 'Taux libre : à toi de poser ton hypothèse.' },
+];
+
+const faq = [
+  {
+    q: 'Quel rendement faut-il saisir ?',
+    r: "Un taux net de frais et d'impôt. Pour un livret réglementé, le taux officiel suffit puisque les intérêts sont exonérés. Pour une assurance-vie, retire les frais de gestion du contrat et de l'unité de compte.",
+  },
+  {
+    q: 'Que veut dire « en euros d’aujourd’hui » ?',
+    r: "C'est le capital corrigé de l'inflation : ce que la somme permettra réellement d'acheter au terme. Sur vingt ans, c'est la seule lecture honnête d'une projection.",
+  },
+  {
+    q: 'Pourquoi l’outil m’avertit-il d’un dépassement de plafond ?',
+    r: `Parce qu'un livret réglementé cesse d'accepter des versements au-delà de son plafond : ${reglementee.produits.map((p) => `${p.nom} ${p.plafond.toLocaleString('fr-FR')} €`).join(', ')}. Au-delà, le taux affiché ne s'applique plus au surplus et la projection devient optimiste.`,
+  },
+  {
+    q: 'Ce simulateur remplace-t-il un conseil ?',
+    r: "Non. Il calcule ce que tu lui demandes de calculer. Le choix d'une enveloppe dépend de ta situation, de ton horizon et de ta fiscalité, qu'un simulateur ne connaît pas.",
+  },
+];
+---
+
+<Base chemin={'/outils/simulateur-epargne/'} fil={fil} faq={faq}>
+<section class="hero hero-page hero-court">
+<div class="wrap hero-page-in">
+  <p class="etiq-page">Outils</p>
+  <p class="fil-ariane" aria-label="Fil d'Ariane">
+    <a href="/">Accueil</a> <span aria-hidden="true">/</span>
+    <a href="/outils/">Outils</a> <span aria-hidden="true">/</span> Simulateur d'épargne
+  </p>
+  <h1>Où sera ton épargne dans dix ans ?</h1>
+  <p class="chapo">
+    Projette ce que tu mets de côté, ou pars de ton objectif et vois ce qu'il demande chaque mois.
+    Les taux des livrets réglementés sont ceux en vigueur, avec leur source.
+  </p>
+</div>
+</section>
+
+<section class="bloc">
+<div class="wrap">
+  <script type="application/json" id="sim-donnees" set:html={JSON.stringify({ enveloppes })} />
+
+  <div class="sim">
+    <form class="sim-form" id="sim" novalidate>
+      <div class="sim-modes" role="group" aria-label="Que veux-tu calculer ?">
+        <button type="button" data-mode="projection" aria-pressed="true">Je projette</button>
+        <button type="button" data-mode="objectif" aria-pressed="false">J'ai un objectif</button>
+      </div>
+
+      <div class="sim-champ">
+        <label for="enveloppe">Support</label>
+        <select id="enveloppe">
+          {enveloppes.map((e) => <option value={e.cle} selected={e.cle === 'livret-a'}>{e.nom}</option>)}
+        </select>
+        <p class="sim-aide" id="enveloppe-note"></p>
+      </div>
+
+      <div class="sim-champ" data-duo="capital">
+        <label for="capital-n">Déjà de côté</label>
+        <div class="sim-duo">
+          <input type="range" id="capital" min="0" max="200000" step="500" value="3000" aria-hidden="true" tabindex="-1" />
+          <input type="number" id="capital-n" min="0" max="200000" step="500" value="3000" inputmode="decimal" />
+          <span class="sim-unite">€</span>
+        </div>
+      </div>
+
+      <div class="sim-champ" data-duo="versement" data-visible-si="projection">
+        <label for="versement-n">Versement chaque mois</label>
+        <div class="sim-duo">
+          <input type="range" id="versement" min="0" max="3000" step="10" value="150" aria-hidden="true" tabindex="-1" />
+          <input type="number" id="versement-n" min="0" max="3000" step="10" value="150" inputmode="decimal" />
+          <span class="sim-unite">€</span>
+        </div>
+      </div>
+
+      <div class="sim-champ" data-duo="objectif" data-visible-si="objectif" hidden>
+        <label for="objectif-n">Somme à atteindre</label>
+        <div class="sim-duo">
+          <input type="range" id="objectif" min="1000" max="500000" step="1000" value="50000" aria-hidden="true" tabindex="-1" />
+          <input type="number" id="objectif-n" min="1000" max="500000" step="1000" value="50000" inputmode="decimal" />
+          <span class="sim-unite">€</span>
+        </div>
+      </div>
+
+      <div class="sim-champ" data-duo="duree">
+        <label for="duree-n">Horizon</label>
+        <div class="sim-duo">
+          <input type="range" id="duree" min="1" max="40" step="1" value="10" aria-hidden="true" tabindex="-1" />
+          <input type="number" id="duree-n" min="1" max="40" step="1" value="10" inputmode="numeric" />
+          <span class="sim-unite">ans</span>
+        </div>
+      </div>
+
+      <div class="sim-champ" data-duo="taux">
+        <label for="taux-n">Rendement annuel net</label>
+        <div class="sim-duo">
+          <input type="range" id="taux" min="0" max="12" step="0.1" value="1.7" aria-hidden="true" tabindex="-1" />
+          <input type="number" id="taux-n" min="0" max="12" step="0.1" value="1.7" inputmode="decimal" />
+          <span class="sim-unite">%</span>
+        </div>
+      </div>
+
+      <div class="sim-champ sim-champ-mince" data-duo="indexation" data-visible-si="projection">
+        <label for="indexation-n">Augmentation du versement chaque année</label>
+        <div class="sim-duo">
+          <input type="range" id="indexation" min="0" max="10" step="0.5" value="0" aria-hidden="true" tabindex="-1" />
+          <input type="number" id="indexation-n" min="0" max="10" step="0.5" value="0" inputmode="decimal" />
+          <span class="sim-unite">%</span>
+        </div>
+      </div>
+
+      <div class="sim-champ sim-champ-mince" data-duo="inflation">
+        <label for="inflation-n">Inflation retenue</label>
+        <div class="sim-duo">
+          <input type="range" id="inflation" min="0" max="6" step="0.1" value="2" aria-hidden="true" tabindex="-1" />
+          <input type="number" id="inflation-n" min="0" max="6" step="0.1" value="2" inputmode="decimal" />
+          <span class="sim-unite">%</span>
+        </div>
+      </div>
+    </form>
+
+    <div class="sim-resultat">
+      <div data-visible-si="objectif" hidden>
+        <p class="sim-resultat-etiq">À mettre de côté chaque mois</p>
+        <p class="sim-chiffre" id="r-mensualite">—</p>
+      </div>
+
+      <p class="sim-resultat-etiq">Capital au terme</p>
+      <p class="sim-chiffre" id="r-capital">—</p>
+      <p class="sim-reel-ligne">Soit <strong id="r-reel">—</strong> en euros d'aujourd'hui.</p>
+
+      <dl class="sim-detail">
+        <div><dt>Total versé</dt><dd id="r-verse">—</dd></div>
+        <div><dt>Intérêts gagnés</dt><dd id="r-interets">—</dd></div>
+        <div><dt>Part des intérêts</dt><dd id="r-part">—</dd></div>
+      </dl>
+
+      <p class="sim-alerte" id="alerte-plafond" role="status" hidden></p>
+
+      <svg class="sim-graphe" id="sim-graphe" role="img" viewBox="0 0 600 260" aria-label="Évolution de l'épargne"></svg>
+      <p class="sim-legende">
+        <span class="sim-cle sim-cle-verse"></span> Ce que tu verses
+        <span class="sim-cle sim-cle-capital"></span> Ce que les intérêts ajoutent
+      </p>
+
+      <p class="sim-synthese" id="sim-synthese" role="status"></p>
+
+      <details class="sim-tableau">
+        <summary>Voir le détail année par année</summary>
+        <div class="sim-tableau-boite">
+          <table>
+            <thead><tr><th scope="col">Année</th><th scope="col">Versé</th><th scope="col">Intérêts</th><th scope="col">Capital</th></tr></thead>
+            <tbody id="sim-tableau-corps"></tbody>
+          </table>
+        </div>
+      </details>
+    </div>
+  </div>
+
+  <div class="sim-notes">
+    <h2>Ce que ce calcul ne dit pas</h2>
+    <ul>
+      <li>Le rendement est <strong>constant</strong> : c'est vrai pour un livret réglementé tant que son taux ne bouge pas, faux pour tout le reste.</li>
+      <li>Les taux des livrets sont <strong>révisés deux fois par an</strong> par l'État. Une projection à dix ans à taux figé est donc une convention, pas une prévision.</li>
+      <li>Le fonds euros affiché est une <strong>moyenne de marché</strong>, pas le taux de ton contrat. Les écarts entre contrats sont importants.</li>
+      <li>Rien ici n'intègre l'impôt hors livrets réglementés, ni les frais d'entrée ou d'arbitrage.</li>
+    </ul>
+    <p class="sim-source">
+      Taux des livrets réglementés en vigueur depuis le 1<sup>er</sup> août 2026, vérifiés le 16 septembre 2026.
+      <a class="lien-petit" href={reglementee.sources[0].url} rel="noopener">Source</a> ·
+      Fonds euros : <a class="lien-petit" href={fondsEuros.url} rel="noopener">source</a> ·
+      Inflation : <a class="lien-petit" href={inflation.url} rel="noopener">source</a>
+    </p>
+    <p class="sim-avertissement">
+      Cet outil a une vocation informative et pédagogique. Il ne constitue pas un conseil en investissement
+      personnalisé au sens de l'article L. 541-1 du Code monétaire et financier. Tout investissement comporte
+      un risque de perte en capital. Les performances passées ne préjugent pas des performances futures.
+      <a class="lien-petit" href="/disclaimer/">Avertissement complet</a>
+    </p>
+  </div>
+</div>
+</section>
+
+<section class="final">
+<div class="wrap final-simple">
+  <h2>Ton épargne réelle, pas une hypothèse.</h2>
+  <p>SAFIA réunit tes comptes et part de tes montants réels, avec les frais que tu paies vraiment.</p>
+  <a class="btn btn-primaire" href="/telecharger/" data-app>Télécharger l'app</a>
+  <a class="lien" href="/outils/">Voir les autres outils</a>
+</div>
+</section>
+</Base>
+
+<script>
+  import '../../scripts/outils/simulateur-epargne.js';
+</script>

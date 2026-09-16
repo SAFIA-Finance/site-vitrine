@@ -1,0 +1,145 @@
+{
+  "maj": "2026-09-16",
+  "lisezMoi": "Source unique des paramètres chiffrés des simulateurs. Chaque bloc porte sa source officielle et la date à laquelle il a été vérifié. Un simulateur ne code JAMAIS un barème en dur : il lit ce fichier. Voir docs/OUTILS.md pour la procédure de mise à jour annuelle.",
+
+  "ir": {
+    "libelle": "Impôt sur le revenu",
+    "anneeRevenus": 2025,
+    "anneeImposition": 2026,
+    "commentaire": "Barème revalorisé de 0,9 % par la loi de finances pour 2026. Les plafonds sont les limites hautes de chaque tranche, par part de quotient familial.",
+    "tranches": [
+      { "plafond": 11600, "taux": 0 },
+      { "plafond": 29579, "taux": 0.11 },
+      { "plafond": 84577, "taux": 0.3 },
+      { "plafond": 181917, "taux": 0.41 },
+      { "plafond": null, "taux": 0.45 }
+    ],
+    "plafondDemiPart": 1807,
+    "decote": {
+      "commentaire": "Décote = forfait − 45,25 % de l'impôt brut, si l'impôt brut reste sous le seuil.",
+      "forfaitSeul": 897,
+      "forfaitCouple": 1483,
+      "taux": 0.4525,
+      "seuilSeul": 1982,
+      "seuilCouple": 3277
+    },
+    "abattementSalaires": {
+      "commentaire": "Déduction forfaitaire de 10 % sur les salaires et pensions, appliquée par personne.",
+      "taux": 0.1,
+      "minimum": 509,
+      "plafond": 14555
+    },
+    "sources": [
+      {
+        "quoi": "Barème et quotient familial",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1419",
+        "verifie": "2026-09-16"
+      },
+      {
+        "quoi": "Décote",
+        "url": "https://bofip.impots.gouv.fr/bofip/2495-PGP.html/identifiant=BOI-IR-LIQ-20-20-30-20260407",
+        "verifie": "2026-09-16"
+      },
+      {
+        "quoi": "Déduction forfaitaire de 10 %",
+        "url": "https://bofip.impots.gouv.fr/bofip/10855-PGP.html/identifiant=BOI-BAREME-000035-20260217",
+        "verifie": "2026-09-16"
+      }
+    ]
+  },
+
+  "ifi": {
+    "libelle": "Impôt sur la fortune immobilière",
+    "annee": 2026,
+    "commentaire": "Le seuil d'assujettissement est 1 300 000 €, mais le barème se calcule à partir de 800 000 € : un patrimoine de 1 299 999 € ne paie rien, un patrimoine de 1 300 001 € est taxé depuis 800 000 €. D'où la décote, qui amortit la marche.",
+    "seuil": 1300000,
+    "tranches": [
+      { "plafond": 800000, "taux": 0 },
+      { "plafond": 1300000, "taux": 0.005 },
+      { "plafond": 2570000, "taux": 0.007 },
+      { "plafond": 5000000, "taux": 0.01 },
+      { "plafond": 10000000, "taux": 0.0125 },
+      { "plafond": null, "taux": 0.015 }
+    ],
+    "decote": {
+      "commentaire": "Décote = 17 500 − 1,25 % du patrimoine net taxable, entre 1,3 et 1,4 M€.",
+      "forfait": 17500,
+      "taux": 0.0125,
+      "borneBasse": 1300000,
+      "borneHaute": 1400000
+    },
+    "abattementResidencePrincipale": 0.3,
+    "sources": [
+      {
+        "quoi": "Barème, seuil et décote",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F138",
+        "verifie": "2026-09-16"
+      },
+      {
+        "quoi": "Barème, confirmation",
+        "url": "https://www.impots.gouv.fr/particulier/calcul-de-lifi",
+        "verifie": "2026-09-16"
+      }
+    ]
+  },
+
+  "per": {
+    "libelle": "Plan d'épargne retraite",
+    "anneeVersements": 2026,
+    "commentaire": "Plafond de déduction = le plus élevé entre 10 % des revenus professionnels de N-1 (retenus dans la limite de 8 PASS) et 10 % du PASS de N-1, diminué de l'épargne retraite d'entreprise de N-1. Le PASS de référence pour les versements de 2026 est celui de 2025.",
+    "passReference": 47100,
+    "anneePassReference": 2025,
+    "tauxDeduction": 0.1,
+    "plafondEnPass": 8,
+    "plancher": 4710,
+    "plafond": 37680,
+    "reportAnnees": 3,
+    "mutualisationConjoints": true,
+    "aVerifier": "Des sources secondaires annoncent pour 2026 un report porté à cinq ans et une fin de déductibilité après 70 ans. Le BOFiP à jour du 17/02/2026 mentionne trois ans. À trancher sur le texte de la loi de finances avant de publier le simulateur PER.",
+    "sources": [
+      {
+        "quoi": "Limites de déduction",
+        "url": "https://bofip.impots.gouv.fr/bofip/1124-PGP.html/identifiant=BOI-IR-BASE-20-50-20-20260217",
+        "verifie": "2026-09-16"
+      }
+    ]
+  },
+
+  "epargneReglementee": {
+    "libelle": "Épargne réglementée",
+    "commentaire": "Taux en vigueur depuis le 1er août 2026. Intérêts exonérés d'impôt sur le revenu et de prélèvements sociaux. Les plafonds s'entendent hors capitalisation des intérêts.",
+    "depuis": "2026-08-01",
+    "produits": [
+      { "cle": "livret-a", "nom": "Livret A", "taux": 0.017, "plafond": 22950 },
+      { "cle": "ldds", "nom": "LDDS", "taux": 0.017, "plafond": 12000 },
+      { "cle": "lep", "nom": "LEP", "taux": 0.025, "plafond": 10000 }
+    ],
+    "sources": [
+      {
+        "quoi": "Taux et plafonds",
+        "url": "https://www.economie.gouv.fr/actualites/epargne-reglementee-de-nouveaux-taux-pour-le-livret-et-le-lep-au-1er-fevrier-2026",
+        "verifie": "2026-09-16"
+      }
+    ]
+  },
+
+  "hypotheses": {
+    "libelle": "Hypothèses de rendement",
+    "commentaire": "Ce ne sont PAS des promesses de rendement, et le site doit le dire à chaque fois qu'il les affiche. Le fonds euros est une moyenne constatée sur le passé ; les unités de compte n'ont aucun rendement garanti et peuvent perdre de la valeur. Toute valeur proposée par défaut doit rester modifiable par le visiteur.",
+    "fondsEuros": {
+      "valeur": 0.026,
+      "libelle": "Fonds euros en assurance-vie",
+      "precision": "Moyenne 2025 servie début 2026, nette de frais de gestion. L'ACPR publie 2,63 % à 2,65 % selon le périmètre retenu, bonifications comprises : un contrat sans bonification sert moins.",
+      "url": "https://www.moneyvox.fr/assurance-vie/actualites/108096/le-taux-moyen-reste-a-2-63-en-2025-comme-en-2024-selon-acpr",
+      "verifie": "2026-09-16"
+    },
+    "inflation": {
+      "valeur": 0.02,
+      "libelle": "Inflation retenue par défaut",
+      "precision": "2 % est une hypothèse de long terme, pas une mesure. Dernier relevé connu : +2,4 % sur un an en août 2026 (INSEE). Un seul mois ne fait pas une hypothèse de projection sur vingt ans, d'où l'écart assumé.",
+      "dernierReleve": { "valeur": 0.024, "mois": "août 2026" },
+      "url": "https://www.insee.fr/fr/statistiques/9051406",
+      "verifie": "2026-09-16"
+    }
+  }
+}

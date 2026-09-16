@@ -1,0 +1,179 @@
+---
+// Simulateur d'intérêts composés.
+// Le formulaire et les résultats sont rendus au build : la page est complète et
+// lisible avant que le moindre script ne s'exécute. Le JavaScript ne fait que
+// remplacer des valeurs, jamais construire la page.
+import Base from '../../layouts/Base.astro';
+import baremes from '../../data/baremes.json';
+
+const fil = ['Accueil', 'Outils', 'Intérêts composés'];
+const inflation = baremes.hypotheses.inflation;
+
+const faq = [
+  {
+    q: "Qu'est-ce qu'un intérêt composé ?",
+    r: "C'est un intérêt qui rapporte à son tour. La première année, tu gagnes des intérêts sur ce que tu as versé. La deuxième, tu en gagnes sur ce que tu as versé et sur les intérêts déjà acquis. Plus l'horizon est long, plus cette seconde part pèse.",
+  },
+  {
+    q: 'Pourquoi mon résultat diffère-t-il d’une autre calculette ?',
+    r: "Beaucoup de calculettes divisent le taux annuel par douze : 6 % par an y deviennent 0,5 % par mois, soit 6,17 % réels sur l'année. Nous utilisons le taux mensuel équivalent, pour que 6 % saisis donnent exactement 6 % par an.",
+  },
+  {
+    q: 'Ce calcul tient-il compte de l’impôt et des frais ?',
+    r: "Non. Le taux que tu saisis est un taux net de frais et d'impôt : c'est à toi de le poser. Un fonds euros à 2,6 % brut avec 0,6 % de frais de gestion ne rapporte pas 2,6 %.",
+  },
+  {
+    q: 'Un rendement passé garantit-il un rendement futur ?',
+    r: "Non. Cette projection applique un taux constant, ce qui n'arrive jamais sur les marchés. Elle donne un ordre de grandeur, pas une prévision. Tout investissement comporte un risque de perte en capital.",
+  },
+];
+---
+
+<Base chemin={'/outils/interets-composes/'} fil={fil} faq={faq}>
+<section class="hero hero-page hero-court">
+<div class="wrap hero-page-in">
+  <p class="etiq-page">Outils</p>
+  <p class="fil-ariane" aria-label="Fil d'Ariane">
+    <a href="/">Accueil</a> <span aria-hidden="true">/</span>
+    <a href="/outils/">Outils</a> <span aria-hidden="true">/</span> Intérêts composés
+  </p>
+  <h1>L'effet boule de neige, chiffré.</h1>
+  <p class="chapo">
+    Règle la durée et le rendement, et regarde la part des intérêts grossir dans le total.
+    C'est elle qui fait l'essentiel du travail sur un horizon long.
+  </p>
+</div>
+</section>
+
+<section class="bloc">
+<div class="wrap">
+  <div class="sim">
+    <form class="sim-form" id="sim" novalidate>
+      <h2 class="sim-titre">Tes hypothèses</h2>
+
+      <div class="sim-champ" data-duo="capital">
+        <label for="capital-n">Capital de départ</label>
+        <div class="sim-duo">
+          <input type="range" id="capital" min="0" max="200000" step="500" value="5000" aria-hidden="true" tabindex="-1" />
+          <input type="number" id="capital-n" min="0" max="200000" step="500" value="5000" inputmode="decimal" />
+          <span class="sim-unite">€</span>
+        </div>
+      </div>
+
+      <div class="sim-champ" data-duo="versement">
+        <label for="versement-n">Versement chaque mois</label>
+        <div class="sim-duo">
+          <input type="range" id="versement" min="0" max="3000" step="10" value="200" aria-hidden="true" tabindex="-1" />
+          <input type="number" id="versement-n" min="0" max="3000" step="10" value="200" inputmode="decimal" />
+          <span class="sim-unite">€</span>
+        </div>
+      </div>
+
+      <div class="sim-champ" data-duo="duree">
+        <label for="duree-n">Pendant</label>
+        <div class="sim-duo">
+          <input type="range" id="duree" min="1" max="40" step="1" value="20" aria-hidden="true" tabindex="-1" />
+          <input type="number" id="duree-n" min="1" max="40" step="1" value="20" inputmode="numeric" />
+          <span class="sim-unite">ans</span>
+        </div>
+      </div>
+
+      <div class="sim-champ" data-duo="taux">
+        <label for="taux-n">Rendement annuel net</label>
+        <div class="sim-duo">
+          <input type="range" id="taux" min="0" max="12" step="0.1" value="5" aria-hidden="true" tabindex="-1" />
+          <input type="number" id="taux-n" min="0" max="12" step="0.1" value="5" inputmode="decimal" />
+          <span class="sim-unite">%</span>
+        </div>
+        <p class="sim-aide">Net de frais et d'impôt. Aucun rendement n'est garanti.</p>
+      </div>
+
+      <div class="sim-option">
+        <input type="checkbox" id="reel" />
+        <label for="reel">Afficher aussi le résultat en euros d'aujourd'hui</label>
+      </div>
+
+      <!-- Ce champ ne sert qu'à la conversion en euros d'aujourd'hui : il reste
+           masqué tant que la case ci-dessus n'est pas cochée. Le détail de
+           l'hypothèse est donné une seule fois, dans le bloc des sources. -->
+      <div class="sim-champ sim-champ-mince" id="bloc-inflation" data-duo="inflation" hidden>
+        <label for="inflation-n">Inflation retenue</label>
+        <div class="sim-duo">
+          <input type="range" id="inflation" min="0" max="6" step="0.1" value="2" aria-hidden="true" tabindex="-1" />
+          <input type="number" id="inflation-n" min="0" max="6" step="0.1" value="2" inputmode="decimal" />
+          <span class="sim-unite">%</span>
+        </div>
+        <p class="sim-aide">Sert uniquement à convertir le résultat en euros d'aujourd'hui.</p>
+      </div>
+    </form>
+
+    <div class="sim-resultat">
+      <p class="sim-resultat-etiq">Capital au terme</p>
+      <p class="sim-chiffre" id="r-capital">—</p>
+
+      <div class="sim-reel" id="r-reel-bloc" hidden>
+        <p>Soit <strong id="r-reel">—</strong> en euros d'aujourd'hui.</p>
+        <p class="sim-aide">L'inflation en retire <span id="r-reel-perte">—</span> de pouvoir d'achat.</p>
+      </div>
+
+      <dl class="sim-detail">
+        <div><dt>Total versé</dt><dd id="r-verse">—</dd></div>
+        <div><dt>Intérêts gagnés</dt><dd id="r-interets">—</dd></div>
+        <div><dt>Part des intérêts</dt><dd id="r-part">—</dd></div>
+      </dl>
+
+      <svg class="sim-graphe" id="sim-graphe" role="img" viewBox="0 0 600 260" aria-label="Évolution du capital"></svg>
+      <p class="sim-legende">
+        <span class="sim-cle sim-cle-verse"></span> Ce que tu verses
+        <span class="sim-cle sim-cle-capital"></span> Ce que les intérêts ajoutent
+      </p>
+
+      <p class="sim-synthese" id="sim-synthese" role="status"></p>
+
+      <details class="sim-tableau">
+        <summary>Voir le détail année par année</summary>
+        <div class="sim-tableau-boite">
+          <table>
+            <thead><tr><th scope="col">Année</th><th scope="col">Versé</th><th scope="col">Intérêts</th><th scope="col">Capital</th></tr></thead>
+            <tbody id="sim-tableau-corps"></tbody>
+          </table>
+        </div>
+      </details>
+    </div>
+  </div>
+
+  <div class="sim-notes">
+    <h2>Ce que ce calcul ne dit pas</h2>
+    <ul>
+      <li>Il applique un rendement <strong>constant</strong>. Aucun placement ne se comporte ainsi : une année à +12 % et une à −8 % ne donnent pas le même résultat que deux années à +2 %.</li>
+      <li>Il ignore <strong>l'impôt et les frais</strong>, qui sont censés être déjà retirés du taux que tu saisis.</li>
+      <li>Il suppose que tu ne retires rien en cours de route, et que le versement mensuel est tenu jusqu'au bout.</li>
+      <li>Les intérêts d'un livret réglementé sont exonérés, ceux d'un compte-titres non. Le même taux n'a pas la même valeur selon l'enveloppe.</li>
+    </ul>
+    <p class="sim-source">
+      Hypothèse d'inflation par défaut : {inflation.precision}
+      <a class="lien-petit" href={inflation.url} rel="noopener">Source</a>
+    </p>
+    <p class="sim-avertissement">
+      Cet outil a une vocation informative et pédagogique. Il ne constitue pas un conseil en investissement
+      personnalisé au sens de l'article L. 541-1 du Code monétaire et financier. Tout investissement comporte
+      un risque de perte en capital. Les performances passées ne préjugent pas des performances futures.
+      <a class="lien-petit" href="/disclaimer/">Avertissement complet</a>
+    </p>
+  </div>
+</div>
+</section>
+
+<section class="final">
+<div class="wrap final-simple">
+  <h2>Applique-le à ton épargne.</h2>
+  <p>SAFIA réunit tes comptes et te dit où tu en es vraiment, au lieu de partir d'un chiffre que tu tapes.</p>
+  <a class="btn btn-primaire" href="/telecharger/" data-app>Télécharger l'app</a>
+  <a class="lien" href="/outils/">Voir les autres outils</a>
+</div>
+</section>
+</Base>
+
+<script>
+  import '../../scripts/outils/interets-composes.js';
+</script>

@@ -21,7 +21,7 @@ directement, c'est un fichier texte.
 
 ---
 
-## Les 15 pages publiques
+## Les 18 pages publiques
 
 ### Accueil · `/`
 
@@ -100,6 +100,21 @@ directement, c'est un fichier texte.
 
 - **Titre** (24) : Page introuvable · SAFIA
 - **Description** (74) : Cette page n'existe pas ou plus. Retrouvez les pages principales de SAFIA.
+
+### Outils · `/outils/`
+
+- **Titre** (48) : Simulateurs et outils de calcul gratuits · SAFIA
+- **Description** (126) : Intérêts composés, épargne, impôt, PER, IFI : des simulateurs gratuits, sans inscription. Tout se calcule dans ton navigateur.
+
+### Intérêts composés · `/outils/interets-composes/`
+
+- **Titre** (39) : Calculateur d'intérêts composés · SAFIA
+- **Description** (132) : Capital de départ, versement mensuel, durée, rendement : vois ce que les intérêts ajoutent à ton épargne, et en euros d'aujourd'hui.
+
+### Simulateur d'épargne · `/outils/simulateur-epargne/`
+
+- **Titre** (36) : Simulateur d'épargne gratuit · SAFIA
+- **Description** (115) : Projette ton épargne ou pars de ton objectif. Taux des livrets réglementés à jour, résultat corrigé de l'inflation.
 
 ---
 

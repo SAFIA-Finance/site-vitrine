@@ -1418,3 +1418,117 @@ footer.pied{background:var(--nuit);color:rgba(255,255,255,.78);padding:64px 0 40
   .article-auteur{gap:14px}
   .article-auteur img{width:56px;height:56px}
 }
+
+/* ---------- Simulateurs (/outils/) ---------- */
+/* Toutes les classes sont préfixées « sim- » à dessein. Trois bugs de ce site
+   viennent de classes homonymes dans cette feuille unique (.defile, .ct-tete,
+   .methode) : une famille entière de composants ne peut pas être ajoutée sans
+   préfixe. Voir docs/OUTILS.md. */
+
+.sim{display:grid;grid-template-columns:1fr 1.1fr;gap:26px;align-items:start}
+.sim [hidden]{display:none!important}
+
+/* ---- Le formulaire ---- */
+.sim-form{background:var(--blanc);border-radius:var(--r-l);padding:28px;box-shadow:inset 0 0 0 1px var(--ligne)}
+.sim-titre{font-size:15px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--indigo);margin-bottom:22px}
+.sim-champ{margin-bottom:22px}
+.sim-champ > label{display:block;font-size:15px;font-weight:600;color:var(--encre);margin-bottom:9px}
+.sim-duo{display:grid;grid-template-columns:1fr auto;align-items:center;gap:10px 10px}
+.sim-duo input[type="number"]{width:100%;min-height:44px;padding:11px 14px;border:1px solid var(--ligne);border-radius:var(--r-s);background:var(--blanc);color:var(--encre);font-size:19px;font-weight:600;font-variant-numeric:tabular-nums}
+.sim-duo input[type="number"]:disabled{background:var(--lavande);color:var(--encre-2)}
+.sim-unite{font-size:16px;font-weight:600;color:var(--encre-2);min-width:2.5ch}
+.sim-duo input[type="range"]{grid-column:1/-1;width:100%;appearance:none;-webkit-appearance:none;height:5px;border-radius:999px;background:var(--lavande-2);cursor:pointer}
+.sim-duo input[type="range"]:disabled{opacity:.45;cursor:default}
+/* La pastille fait 26 px : c'est la cible tactile du curseur, au-dessus du
+   minimum WCAG de 24 px. Les deux moteurs ont besoin de leur propre règle. */
+.sim-duo input[type="range"]::-webkit-slider-thumb{appearance:none;-webkit-appearance:none;width:26px;height:26px;border-radius:50%;background:var(--indigo);border:3px solid var(--blanc);box-shadow:0 2px 8px rgba(28,22,68,.28)}
+.sim-duo input[type="range"]::-moz-range-thumb{width:20px;height:20px;border-radius:50%;background:var(--indigo);border:3px solid var(--blanc);box-shadow:0 2px 8px rgba(28,22,68,.28)}
+.sim-aide{margin-top:9px;font-size:13.5px;line-height:1.5;color:var(--encre-2)}
+.sim-champ-mince > label{font-weight:400;color:var(--encre-2)}
+.sim-champ select{width:100%;min-height:44px;padding:11px 14px;border:1px solid var(--ligne);border-radius:var(--r-s);background:var(--blanc);color:var(--encre);font-size:16px;font-weight:600}
+.sim-option{display:flex;align-items:center;gap:11px;min-height:44px;margin-bottom:8px}
+.sim-option input{width:24px;height:24px;accent-color:var(--indigo);flex:none}
+.sim-option label{font-size:15px;color:var(--encre)}
+
+/* ---- Le sélecteur de mode ---- */
+.sim-modes{display:flex;gap:8px;margin-bottom:24px;padding:5px;background:var(--lavande);border-radius:999px}
+.sim-modes button{flex:1;min-height:44px;padding:10px 14px;border:0;border-radius:999px;background:transparent;color:var(--encre-2);font-size:15px;font-weight:600;cursor:pointer}
+.sim-modes button[aria-pressed="true"]{background:var(--indigo);color:var(--blanc)}
+
+/* ---- Le résultat ---- */
+.sim-resultat{position:sticky;top:96px;background:var(--nuit);color:var(--blanc);border-radius:var(--r-l);padding:30px}
+.sim-resultat-etiq{font-size:12.5px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:rgba(255,255,255,.66);margin-bottom:8px}
+.sim-chiffre{font-size:clamp(2.1rem,5vw,3.2rem);line-height:1;letter-spacing:-.03em;font-weight:600;font-variant-numeric:tabular-nums}
+.sim-reel,.sim-reel-ligne{margin-top:12px;font-size:15px;color:rgba(255,255,255,.82)}
+.sim-reel .sim-aide{color:rgba(255,255,255,.6)}
+.sim-detail{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:24px;padding-top:22px;border-top:1px solid rgba(255,255,255,.16)}
+.sim-detail dt{font-size:13px;color:rgba(255,255,255,.66);margin-bottom:5px}
+.sim-detail dd{font-size:20px;font-weight:600;font-variant-numeric:tabular-nums}
+
+.sim-alerte{margin-top:20px;padding:14px 16px;border-radius:var(--r-m);background:rgba(228,139,239,.16);box-shadow:inset 0 0 0 1px rgba(228,139,239,.42);font-size:14px;line-height:1.55;color:var(--blanc)}
+
+/* ---- Le graphique ---- */
+.sim-graphe{width:100%;height:auto;margin-top:24px;overflow:visible}
+.sim-aire-capital{fill:rgba(228,139,239,.42)}
+.sim-aire-verse{fill:rgba(255,255,255,.26)}
+.sim-courbe{fill:none;stroke:var(--rose);stroke-width:2.5;stroke-linejoin:round}
+.sim-base{stroke:rgba(255,255,255,.3);stroke-width:1}
+.sim-graphe-x{fill:rgba(255,255,255,.66);font-size:13px;font-family:inherit}
+.sim-legende{display:flex;align-items:center;flex-wrap:wrap;gap:8px 16px;margin-top:12px;font-size:13px;color:rgba(255,255,255,.72)}
+.sim-cle{width:11px;height:11px;border-radius:3px;display:inline-block;margin-right:-6px}
+.sim-cle-verse{background:rgba(255,255,255,.4)}
+.sim-cle-capital{background:var(--rose)}
+.sim-synthese{margin-top:18px;padding-top:16px;border-top:1px solid rgba(255,255,255,.16);font-size:14.5px;line-height:1.55;color:rgba(255,255,255,.84)}
+.sim-synthese:empty{display:none}
+
+/* ---- Le tableau, replié ---- */
+.sim-tableau{margin-top:16px}
+.sim-tableau summary{display:flex;align-items:center;min-height:44px;font-size:14.5px;font-weight:600;color:var(--blanc);cursor:pointer}
+.sim-tableau-boite{overflow-x:auto;margin-top:10px}
+.sim-tableau table{width:100%;border-collapse:collapse;font-size:14px;font-variant-numeric:tabular-nums}
+.sim-tableau th,.sim-tableau td{padding:8px 10px;text-align:right;white-space:nowrap;border-bottom:1px solid rgba(255,255,255,.12)}
+.sim-tableau thead th{text-align:right;font-size:12.5px;font-weight:600;color:rgba(255,255,255,.66)}
+.sim-tableau tbody th{text-align:left;font-weight:600;color:rgba(255,255,255,.82)}
+
+/* ---- Les réserves, sous le simulateur ---- */
+.sim-notes{max-width:76ch;margin-top:30px;padding:28px;border-radius:var(--r-l);background:var(--blanc);box-shadow:inset 0 0 0 1px var(--ligne)}
+.sim-notes h2{font-size:15px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--indigo)}
+.sim-notes ul{list-style:none;margin-top:16px;display:grid;gap:11px}
+.sim-notes li{position:relative;padding-left:26px;line-height:1.55;font-size:16px}
+.sim-notes li::before{content:"";position:absolute;left:0;top:10px;width:9px;height:9px;border-radius:50%;box-shadow:inset 0 0 0 2px var(--indigo)}
+.sim-source,.sim-avertissement{margin-top:18px;font-size:13.5px;line-height:1.6;color:var(--encre-2)}
+.sim-avertissement{padding-top:16px;border-top:1px solid var(--ligne)}
+
+/* ---- La page de choix ---- */
+.sim-choix{list-style:none;display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--ligne);border-radius:var(--r-l);overflow:hidden}
+.sim-choix-carte{display:flex;flex-direction:column;gap:8px;height:100%;padding:28px;background:var(--blanc);text-decoration:none;transition:background .15s}
+a.sim-choix-carte:hover{background:var(--lavande)}
+.sim-choix-carte h2{font-size:19px;font-weight:600;line-height:1.25}
+.sim-choix-carte p{color:var(--encre-2);font-size:15.5px;line-height:1.5}
+.sim-choix-fleche{margin-top:auto;padding-top:10px;font-size:20px;color:var(--indigo)}
+.sim-choix-attente{background:#FAF9FE}
+.sim-choix-attente h2,.sim-choix-attente p{color:var(--encre-2)}
+.sim-choix-bientot{margin-top:auto;padding-top:10px;font-size:11.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--encre-2)}
+.sim-choix-note{max-width:76ch;margin-top:26px;font-size:14px;line-height:1.6;color:var(--encre-2)}
+
+/* ---- Le menu « Outils » du pied de page ---- */
+.pied-outils summary{display:inline-flex;align-items:center;gap:7px;min-height:24px;padding:3px 0;cursor:pointer;list-style:none}
+.pied-outils summary::-webkit-details-marker{display:none}
+.pied-outils summary svg{width:10px;height:10px;transition:transform .15s}
+.pied-outils[open] summary svg{transform:rotate(180deg)}
+.pied-outils ul{margin:6px 0 4px 14px;display:grid;gap:2px;padding-left:10px;border-left:1px solid rgba(255,255,255,.22)}
+
+@media (max-width:980px){
+  .sim{grid-template-columns:1fr}
+  .sim-resultat{position:static}
+  .sim-choix{grid-template-columns:repeat(2,1fr)}
+}
+@media (max-width:720px){
+  .sim-form,.sim-resultat,.sim-notes{padding:22px}
+  .sim-detail{grid-template-columns:1fr;gap:14px}
+  .sim-choix{grid-template-columns:1fr}
+  .sim-choix-carte{padding:22px}
+}
+@media (prefers-reduced-motion:reduce){
+  .sim-choix-carte,.pied-outils summary svg{transition:none}
+}

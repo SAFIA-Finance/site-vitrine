@@ -1,0 +1,65 @@
+---
+// Page de choix des outils : on la parcourt des yeux, on ne la lit pas.
+// Une carte par outil, un nom, une ligne. Les outils pas encore publiés sont
+// montrés mais ne sont pas cliquables : annoncer ce qui arrive est honnête,
+// faire cliquer vers une page inexistante ne l'est pas.
+import Base from '../../layouts/Base.astro';
+import { OUTILS } from '../../calculs/outils.js';
+
+const fil = ['Accueil', 'Ressources', 'Outils'];
+---
+
+<Base chemin={'/outils/'} fil={fil}>
+<section class="hero hero-page hero-court">
+<div class="wrap hero-page-in">
+  <p class="etiq-page">Outils</p>
+  <p class="fil-ariane" aria-label="Fil d'Ariane">
+    <a href="/">Accueil</a> <span aria-hidden="true">/</span> Ressources
+    <span aria-hidden="true">/</span> Outils
+  </p>
+  <h1>Calcule avant de décider.</h1>
+  <p class="chapo">
+    Des simulateurs gratuits, sans inscription et sans email. Tout se calcule dans ton navigateur :
+    aucun chiffre que tu saisis ne part sur un serveur, pas même le nôtre.
+  </p>
+</div>
+</section>
+
+<section class="bloc">
+<div class="wrap">
+  <ul class="sim-choix">
+    {OUTILS.map((o) => (
+      <li>
+        {o.publie ? (
+          <a class="sim-choix-carte" href={o.route}>
+            <h2>{o.nom}</h2>
+            <p>{o.resume}</p>
+            <span class="sim-choix-fleche" aria-hidden="true">→</span>
+          </a>
+        ) : (
+          <div class="sim-choix-carte sim-choix-attente">
+            <h2>{o.nom}</h2>
+            <p>{o.resume}</p>
+            <span class="sim-choix-bientot">Bientôt</span>
+          </div>
+        )}
+      </li>
+    ))}
+  </ul>
+
+  <p class="sim-choix-note">
+    Ces outils donnent un ordre de grandeur à partir des chiffres que tu saisis. Ils ne constituent pas
+    un conseil en investissement personnalisé au sens de l'article L. 541-1 du Code monétaire et financier.
+    <a class="lien-petit" href="/disclaimer/">Avertissement complet</a>
+  </p>
+</div>
+</section>
+
+<section class="final">
+<div class="wrap final-simple">
+  <h2>Et sur ta vraie situation ?</h2>
+  <p>Un simulateur part de ce que tu tapes. SAFIA part de tes comptes réunis, et répond à partir de tes chiffres.</p>
+  <a class="btn btn-primaire" href="/telecharger/" data-app>Télécharger l'app</a>
+</div>
+</section>
+</Base>

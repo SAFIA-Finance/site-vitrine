@@ -99,6 +99,33 @@
     "description": "Épargne, retraite, fiscalité, transmission : des explications d'un conseiller en gestion de patrimoine certifié AMF, sans jargon et sourcées."
   },
   {
+    "slug": "outils",
+    "fichier": "outils/index.astro",
+    "route": "/outils/",
+    "libelle": "Outils",
+    "ref": "OUT",
+    "titre": "Simulateurs et outils de calcul gratuits · SAFIA",
+    "description": "Intérêts composés, épargne, impôt, PER, IFI : des simulateurs gratuits, sans inscription. Tout se calcule dans ton navigateur."
+  },
+  {
+    "slug": "outils-interets-composes",
+    "fichier": "outils/interets-composes.astro",
+    "route": "/outils/interets-composes/",
+    "libelle": "Intérêts composés",
+    "ref": "OIC",
+    "titre": "Calculateur d'intérêts composés · SAFIA",
+    "description": "Capital de départ, versement mensuel, durée, rendement : vois ce que les intérêts ajoutent à ton épargne, et en euros d'aujourd'hui."
+  },
+  {
+    "slug": "outils-simulateur-epargne",
+    "fichier": "outils/simulateur-epargne.astro",
+    "route": "/outils/simulateur-epargne/",
+    "libelle": "Simulateur d'épargne",
+    "ref": "OSE",
+    "titre": "Simulateur d'épargne gratuit · SAFIA",
+    "description": "Projette ton épargne ou pars de ton objectif. Taux des livrets réglementés à jour, résultat corrigé de l'inflation."
+  },
+  {
     "slug": "fondateur",
     "fichier": "fondateur.astro",
     "route": "/fondateur/",

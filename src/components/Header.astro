@@ -30,6 +30,7 @@ const actif = (href) => (href.replace(/\/+$/, '') || '/') === chemin ? 'lien-act
         <li>
           <button aria-haspopup="true">Ressources <svg class="chevron" viewBox="0 0 10 10" aria-hidden="true"><path d="M1 3l4 4 4-4" stroke="currentColor" stroke-width="1.6" fill="none"/></svg></button>
           <ul class="sous">
+            <li><a href="/outils/" class={actif("/outils/")}><strong>Outils</strong><span>Simulateurs gratuits, calculés dans ton navigateur</span></a></li>
             <li><a href="/comparatif/" class={actif("/comparatif/")}><strong>Comparatif</strong><span>Banque privée, gestion pilotée, agrégateur</span></a></li>
             <li><a href="/blog/" class={actif("/blog/")}><strong>Le blog</strong><span>Comprendre son argent, un sujet à la fois</span></a></li>
           </ul>
@@ -62,7 +63,7 @@ const actif = (href) => (href.replace(/\/+$/, '') || '/') === chemin ? 'lien-act
     <h3>Professionnels</h3>
     <a href="/conseillers/" class={actif("/conseillers/")}>Conseillers</a><a href="/institutions/" class={actif("/institutions/")}>Institutions</a>
     <h3>Ressources</h3>
-    <a href="/comparatif/" class={actif("/comparatif/")}>Comparatif</a><a href="/blog/" class={actif("/blog/")}>Le blog</a>
+    <a href="/outils/" class={actif("/outils/")}>Outils</a><a href="/comparatif/" class={actif("/comparatif/")}>Comparatif</a><a href="/blog/" class={actif("/blog/")}>Le blog</a>
     <h3>SAFIA</h3>
     <a href="/tarifs/" class={actif("/tarifs/")}>Tarifs</a><a href="/fondateur/" class={actif("/fondateur/")}>Le fondateur</a><a href="/methode/" class={actif("/methode/")}>Notre méthode</a><a href="/securite/" class={actif("/securite/")}>Sécurité et conformité</a>
   <a class="btn btn-primaire" href="/telecharger/" data-app>Télécharger l'app</a>
