@@ -29,6 +29,35 @@ const faq = [
   chemin={"/"}
   faq={faq}
 >
+<!-- ===================== LE FIL =====================
+     Un trait unique qui traverse toute la page et se dessine à mesure qu'on
+     descend. Il reprend le geste du ∫ du logo, sans en tracer le glyphe : le
+     logo est une forme PLEINE et fermée, l'animer au trait en dessinerait le
+     contour avant de le remplir — un effet bâtard.
+
+     preserveAspectRatio="none" laisse le tracé s'étirer sur toute la hauteur de
+     la page, quelle qu'elle soit : aucune position n'est écrite en dur.
+     Le dévoilement se fait par rognage du conteneur, pas par pointillé : voir
+     le commentaire de « .fil path » dans global.css.
+
+     Décoratif : aria-hidden, et hors du flux. Sans JavaScript, il est
+     entièrement tracé — l'état par défaut est l'état final. -->
+<div class="fil" aria-hidden="true">
+  <svg viewBox="0 0 100 1000" preserveAspectRatio="none" focusable="false">
+    <defs>
+      <linearGradient id="fil-degrade" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#3B2CF2" />
+        <stop offset="45%" stop-color="#8A3CF0" />
+        <stop offset="100%" stop-color="#E48BEF" />
+      </linearGradient>
+    </defs>
+    <path
+      pathLength="1"
+      d="M50 0 C 18 110, 82 230, 50 350 S 14 580, 50 700 S 88 860, 50 1000"
+    />
+  </svg>
+</div>
+
 <!-- ===================== HERO ===================== -->
 <section class="hero">
 <div class="wrap hero-in">

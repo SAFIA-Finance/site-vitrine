@@ -1667,3 +1667,43 @@ a.sim-choix-carte:hover{box-shadow:inset 0 0 0 1px var(--violet)}
   .etapes li::before{transition:none}
   .etapes.anime li::before{background:var(--encre);color:var(--blanc)}
 }
+
+/* Le fil ------------------------------------------------------------------
+   Un trait unique qui traverse la page et se dessine au defilement.
+
+   Il vit dans la GOUTTIERE, a gauche du contenu : .wrap fait au plus 1160 px
+   centres, donc sur un ecran de 1440 il reste 140 px de chaque cote. Le fil
+   occupe 112 px de cette marge, avec 16 px de garde avant le texte.
+
+   Sous 1440 px cette marge n'existe plus : le fil est retire, plutot que de
+   passer sous le contenu. C'est un ornement de grand ecran, assume comme tel.
+
+   vector-effect:non-scaling-stroke est INDISPENSABLE : avec
+   preserveAspectRatio="none", l'etirement vertical transformerait sinon le
+   trait de 2 px en une bavure de plusieurs dizaines de pixels.
+
+   Etat par defaut : stroke-dashoffset 0, donc trace ENTIER. La classe .anime
+   n'est posee que si le JavaScript prend la main. */
+main:has(.fil){position:relative}
+/* z-index:2 et NON 0. Les sections sont positionnees (hero, confiance, bloc
+   final, toutes celles qui portent un ::before) et, a z-index automatique,
+   c'est l'ordre du document qui tranche : elles recouvraient le fil, qui
+   n'apparaissait que dans les interstices. Un z-index positif le fait passer
+   au-dessus des FONDS de section — il vit dans la gouttiere, ou il n'y a
+   aucun texte a masquer, et reste sous la barre de navigation (z-index 50)
+   et sous le bandeau cookies (95). */
+.fil{position:absolute;top:0;bottom:0;left:calc(50% - var(--max) / 2 - 128px);width:112px;z-index:2;pointer-events:none}
+.fil svg{display:block;width:100%;height:100%}
+/* PAS DE POINTILLE. pathLength="1" normalise la longueur en unites de
+   viewBox, mais avec vector-effect:non-scaling-stroke le pointille est
+   resolu en espace ECRAN : stroke-dasharray:1 donnait 1 px de trait et 1 px
+   de vide sur un chemin de plusieurs milliers de pixels. Le fil etait un
+   semis de points d'un pixel, visible ou non selon le rendu sous-pixel.
+   Le devoilement passe donc par un ROGNAGE, insensible a l'echelle. */
+.fil path{fill:none;stroke:url(#fil-degrade);stroke-width:2;stroke-linecap:round;vector-effect:non-scaling-stroke;opacity:.85}
+/* --fil-reste : la part du fil encore masquee, de 100 % a 0 %. Valeur par
+   defaut 100 % pour que la premiere image ne montre rien avant que le
+   script ne calcule, et JAMAIS de rognage sans la classe .anime. */
+.fil.anime{clip-path:inset(0 0 var(--fil-reste,100%) 0)}
+@media (max-width:1439px){.fil{display:none}}
+@media (prefers-reduced-motion:reduce){.fil.anime{clip-path:none}}

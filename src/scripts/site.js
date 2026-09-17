@@ -310,7 +310,23 @@ document.addEventListener('keydown', (e) => {
   }
 });
 
-window.addEventListener('scroll', etatDefilement, { passive: true });
+// Un seul écouteur pour tout ce qui dépend du défilement, limité à une image :
+// le fil lit sa position par getBoundingClientRect, qui force un calcul de mise
+// en page — le faire à chaque événement de défilement serait coûteux.
+let defilementEnAttente = false;
+window.addEventListener(
+  'scroll',
+  () => {
+    if (defilementEnAttente) return;
+    defilementEnAttente = true;
+    requestAnimationFrame(() => {
+      defilementEnAttente = false;
+      etatDefilement();
+      filAuDefilement();
+    });
+  },
+  { passive: true },
+);
 
 // ---- Liens dont la page n'est pas encore publiée ----
 document.addEventListener('click', (e) => {
@@ -325,6 +341,39 @@ document.addEventListener('click', (e) => {
   clearTimeout(note._t);
   note._t = setTimeout(() => (note.hidden = true), 2600);
 });
+
+// ---- Le fil se dessine à mesure qu'on descend ----
+// L'écouteur de défilement est posé UNE SEULE FOIS sur `window`, plus bas, et
+// retrouve le fil à chaque appel. Le poser ici en créerait un nouveau à chaque
+// retour sur l'accueil, chacun pointant vers un élément déjà remplacé.
+//
+// La progression est celle du bas de l'écran dans la page : le fil finit de se
+// tracer un peu avant le bas, pour que le dernier tronçon ne reste pas suspendu.
+function filAuDefilement() {
+  const fil = document.querySelector('.fil.anime');
+  if (!fil) return;
+  const zone = fil.getBoundingClientRect();
+  const hauteur = window.innerHeight;
+  const parcouru = hauteur - zone.top;
+  const total = zone.height + hauteur * 0.15;
+  const progression = Math.min(1, Math.max(0, parcouru / total));
+  // Le dévoilement se fait par rognage, et non par pointillé : « --fil-reste »
+  // est la part encore masquée, du bas vers le haut. Voir le commentaire de
+  // « .fil path » dans global.css — un pointillé exprimé en unités de viewBox
+  // se retrouve résolu en pixels d'écran, ce qui donnait un semis de points.
+  fil.style.setProperty('--fil-reste', ((1 - progression) * 100).toFixed(2) + '%');
+}
+
+function filProgressif() {
+  const fil = document.querySelector('.fil');
+  if (!fil) return;
+  // Sans JavaScript, sans mouvement, le fil reste entièrement tracé : on ne
+  // pose « anime » que si l'on prend effectivement la main dessus.
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  if (!lier(fil, 'Fil')) return;
+  fil.classList.add('anime');
+  filAuDefilement();
+}
 
 // ---- Les pastilles des étapes se remplissent à mesure qu'on descend ----
 // Présent sur l'accueil et sur ADN Investisseur, d'où sa place ici plutôt que
@@ -368,6 +417,7 @@ function demarrer() {
   reouvrirCookies();
   boutonsTelechargement();
   etapesProgressives();
+  filProgressif();
 }
 
 demarrer();
