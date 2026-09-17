@@ -13,14 +13,57 @@ function demarrerPage() {
 (function(){
   var reduit = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-  // Séquence d'ouverture de la conversation (un seul moment animé)
-  var el = function(i){return document.querySelector('[data-seq="'+i+'"]');};
+  // Séquence de la conversation : la question, l'attente, la réponse, puis les
+  // sources. Quatre temps, rejoués trois fois, puis repos sur l'état final.
+  //
+  // Pourquoi pas une boucle sans fin : une animation perpétuelle dans un hero
+  // détourne l'œil des deux boutons, qui sont ce qui fait télécharger. Trois
+  // passages suffisent à ce qu'un visiteur arrivé en cours de route comprenne.
+  //
+  // Les sources ont leur propre temps, en dernier : c'est le différenciateur de
+  // SAFIA, il est mis en scène plutôt que noyé au bas de la bulle.
+  var tous = function(i){return [].slice.call(document.querySelectorAll('[data-seq="'+i+'"]'));};
+  var frappe = document.querySelector('.frappe');
+
   if(reduit){
-    el(1).style.display='none'; document.querySelectorAll('[data-seq="0"],[data-seq="2"]').forEach(function(x){x.classList.add('vu');});
+    // Tout est là d'emblée, et l'indicateur de frappe n'a plus lieu d'être.
+    if(frappe) frappe.style.display='none';
+    [0,2,3].forEach(function(i){tous(i).forEach(function(x){x.classList.add('vu');});});
   } else {
-    setTimeout(function(){document.querySelectorAll('[data-seq="0"]').forEach(function(x){x.classList.add('vu');});},500);
-    setTimeout(function(){el(1).classList.add('vu');},1200);
-    setTimeout(function(){el(1).style.display='none';document.querySelectorAll('[data-seq="2"]').forEach(function(x){x.classList.add('vu');});},2600);
+    // demarrerPage() est appelée deux fois au premier chargement : sans ce
+    // garde-fou, deux séquences se superposeraient et les minuteries
+    // s'empileraient — c'est exactement ce qui avait faussé les compteurs.
+    var scene = document.querySelector('.conv-app');
+    if(scene && !scene.dataset.joue){
+      scene.dataset.joue='1';
+      var minuteries=[];
+      var TEMPS=[[0,500],[1,1300],[2,2700],[3,3600]];   // question, frappe, réponse, sources
+      var REPOS=4200, CYCLES=3;
+
+      var reinitialiser=function(){
+        [0,2,3].forEach(function(i){tous(i).forEach(function(x){x.classList.remove('vu');});});
+        if(frappe){frappe.style.display=''; frappe.classList.remove('vu');}
+      };
+      var jouer=function(cycle){
+        TEMPS.forEach(function(t){
+          minuteries.push(setTimeout(function(){
+            if(t[0]===1){ if(frappe) frappe.classList.add('vu'); return; }
+            if(t[0]===2 && frappe) frappe.style.display='none';
+            tous(t[0]).forEach(function(x){x.classList.add('vu');});
+          },t[1]));
+        });
+        if(cycle+1<CYCLES){
+          minuteries.push(setTimeout(function(){reinitialiser();jouer(cycle+1);},TEMPS[3][1]+REPOS));
+        }
+      };
+      jouer(0);
+
+      // Une navigation sans rechargement remplace le DOM : les minuteries
+      // encore en vol viseraient des éléments disparus.
+      document.addEventListener('astro:before-swap',function(){
+        minuteries.forEach(clearTimeout);
+      },{once:true});
+    }
   }
 
   // Les chiffres d'usage s'écrivent à l'arrivée.

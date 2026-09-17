@@ -100,19 +100,22 @@ const faq = [
         <div class="b-ia frappe seq" data-seq="1" aria-hidden="true"><i></i><i></i><i></i></div>
         <div class="seq" data-seq="2">
           <svg class="etincelle" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 2.5l1.9 5.6 5.6 1.9-5.6 1.9L12 17.5l-1.9-5.6L4.5 10l5.6-1.9L12 2.5z" fill="#fff"/></svg>
+          <!-- Réponse volontairement courte. La version précédente tenait en deux
+               paragraphes, deux sous-titres et quatre puces : l'écran du téléphone
+               n'ayant aucune hauteur maximale, ce contenu le faisait grandir jusqu'à
+               dominer le hero, et personne ne lit un pavé dans une démonstration de
+               huit secondes. -->
           <div class="b-ia">
-            <p>Tu pars avec de bonnes bases : Livret A plein, épargne de précaution en place, et une assurance vie dont les placements se construisent. En revanche, pas encore de PEA ni de compte-titres.</p>
+            <p>Livret A plein, épargne de précaution en place. En revanche, pas encore de PEA.</p>
             <p class="ss-titre">Ce que je te propose</p>
             <ul>
-              <li>Analyser tes placements actuels : frais, profil, objectifs, valeurs</li>
-              <li>Te proposer ensuite une allocation qui te ressemble</li>
+              <li>Analyser tes placements : frais, risque, valeurs</li>
+              <li>Puis construire une allocation qui te ressemble</li>
             </ul>
-            <p class="ss-titre">À garder en tête</p>
-            <ul>
-              <li>Les frais pèsent le plus sur le long terme</li>
-              <li>Une allocation se juge sur plusieurs années, je vais te montrer</li>
-            </ul>
-            <p class="src-bulle">Sources : relevés de tes comptes connectés au 13/09/2026 · Méthodologie SAFIA, analyse de portefeuille, règlementation françaises.</p>
+            <!-- Les sources ont leur propre temps dans la séquence : elles
+                 arrivent APRÈS la réponse. C'est le différenciateur de SAFIA,
+                 il est mis en scène au lieu d'être noyé en bas de bulle. -->
+            <p class="src-bulle seq" data-seq="3">Sources : tes comptes connectés au 13/09/2026 · Méthodologie SAFIA · Réglementation française.</p>
           </div>
         </div>
       </div>

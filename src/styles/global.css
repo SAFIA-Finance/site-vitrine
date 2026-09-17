@@ -542,7 +542,21 @@ ul.reseaux{list-style:none;display:flex;flex-direction:row;gap:10px;margin-top:1
 .champ-msg .envoi::after{content:"";position:absolute;left:10px;top:10px;border-left:10px solid #fff;border-top:5.5px solid transparent;border-bottom:5.5px solid transparent}
 
 /* --- Conversation --- */
-.conv-app{flex:1;padding:0 16px 6px;display:flex;flex-direction:column;gap:9px}
+/* --- Hauteur de l'ecran ---------------------------------------------
+   .ecran-app n'avait NI hauteur minimale NI maximale : sa taille suivait
+   la longueur de la bulle de reponse, et le telephone finissait par
+   dominer le hero. Le contenu a ete raccourci, mais une borne reste
+   necessaire — sans elle, la prochaine phrase ajoutee le fera regrandir.
+   justify-content:flex-end : la conversation se colle au bas, comme dans
+   une vraie messagerie. Ce qui deborde est donc l'ANCIEN message, coupe en
+   haut, jamais la reponse qu'on vient de lire. */
+/* 680 et non 600 : a 600, le contenu debordait et c'est la QUESTION, en haut,
+   qui etait rognee — plus la barre basse et la mention reglementaire.
+   Mesure a l'appui, 680 laisse la conversation entiere. La bulle de reponse
+   a ete raccourcie en meme temps : la borne protege de la prochaine phrase
+   ajoutee, elle ne remplace pas un contenu tenu court. */
+.ecran-app{max-height:min(680px,82vh)}
+.conv-app{flex:1;min-height:0;overflow:hidden;padding:0 16px 6px;display:flex;flex-direction:column;justify-content:flex-end;gap:9px}
 .heure{align-self:flex-end;font-size:12px;color:rgba(255,255,255,.75)}
 .b-user{align-self:flex-end;max-width:86%;padding:11px 15px;border-radius:18px 18px 6px 18px;background:rgba(255,255,255,.16);box-shadow:inset 0 0 0 1px var(--app-bord);font-size:13.5px;line-height:1.4}
 .etincelle{width:22px;height:22px;margin-bottom:-4px;opacity:.9}
