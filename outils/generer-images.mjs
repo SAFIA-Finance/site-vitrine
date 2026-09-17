@@ -1,11 +1,28 @@
-// Produit les images dérivées du logo : icône iOS et image de partage par défaut.
-// À relancer seulement si le logo change. Usage : node outils/generer-images.mjs
+// Produit les images dérivées du logo : icône iOS, carte de partage par défaut,
+// et une carte de partage par page fixe.
+// À relancer si le logo change, ou si un libellé de page change.
+// Usage : node outils/generer-images.mjs
 import fs from 'node:fs';
 import path from 'node:path';
 import sharp from 'sharp';
 
 const PUBLIC = path.join(process.cwd(), 'public');
 const ENCRE = '#130C36';
+
+// ---------------------------------------------------------------------------
+// LA POLICE : Helvetica, et non Space Grotesk. Arbitrage de Maxime, pris après
+// mesure — sharp rend le SVG via librsvg, qui résout les polices par le SYSTÈME
+// et IGNORE un « @font-face » embarqué en base64. Vérifié : deux rendus, l'un
+// demandant Space Grotesk, l'autre une famille inexistante, donnent des images
+// identiques octet pour octet. La police du site ne peut donc pas être utilisée
+// ici sans convertir le texte en tracés, ce qui demanderait une cinquième
+// dépendance de développement — ce dépôt en compte quatre, à dessein.
+//
+// Conséquence assumée : les cartes de partage ne portent pas la typographie du
+// site. Ne pas « corriger » cela en ajoutant un @font-face : il sera ignoré en
+// silence, et le rendu paraîtra correct.
+// ---------------------------------------------------------------------------
+const POLICE = 'Helvetica, Arial, sans-serif';
 
 // Le « S » stylisé, seul élément du logo utilisable en petite taille.
 const VAGUE =
@@ -32,16 +49,85 @@ const icone = `<svg xmlns="http://www.w3.org/2000/svg" width="180" height="180" 
   <g transform="translate(52 17) scale(0.59)" fill="#fff"><path d="${VAGUE}"/></g>
 </svg>`;
 
-// ---- Image de partage 1200×630 : le mot « SAFIA » centré sur le fond de marque.
-const partage = `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+// ---- Image de partage par défaut 1200×630 : le mot « SAFIA » centré.
+// Elle sert aux 123 articles du blog et à toute page sans carte propre.
+const partage = `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630">
   <rect width="1200" height="630" fill="${ENCRE}"/>
   <g transform="translate(342 180) scale(1.6)" fill="#fff">${MOT}${POLY}</g>
   <text x="600" y="470" text-anchor="middle" fill="#ffffff" fill-opacity="0.72"
-        font-family="Helvetica, Arial, sans-serif" font-size="29">
+        font-family="${POLICE}" font-size="29">
     Ton conseiller privé IA pour gérer ton patrimoine
   </text>
 </svg>`;
 
+// ---------------------------------------------------------------------------
+// Cartes par page.
+// ---------------------------------------------------------------------------
+
+/** Un « & » ou un « < » non échappé casse le SVG, donc l'image entière. */
+function echapper(s) {
+  return String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&apos;' })[c]);
+}
+
+/**
+ * Découpe un texte en lignes.
+ * SVG ne sait pas faire passer un texte à la ligne : il faut le découper
+ * soi-même. La largeur d'un caractère est estimée à 0,52 fois la taille de
+ * police, ce qui est la moyenne d'Helvetica en bas de casse — approximatif, mais
+ * l'écart se voit seulement sur des titres tout en capitales, qu'on n'a pas.
+ */
+function enLignes(texte, taille, largeurMax, maxLignes = 3) {
+  const parCaractere = taille * 0.52;
+  const parLigne = Math.floor(largeurMax / parCaractere);
+  const lignes = [];
+  let courante = '';
+  for (const mot of texte.split(' ')) {
+    const essai = courante ? `${courante} ${mot}` : mot;
+    if (essai.length > parLigne && courante) {
+      lignes.push(courante);
+      courante = mot;
+      if (lignes.length === maxLignes) break;
+    } else {
+      courante = essai;
+    }
+  }
+  if (lignes.length < maxLignes && courante) lignes.push(courante);
+  return lignes;
+}
+
+/**
+ * Carte d'une page.
+ * On compose sur le LIBELLÉ, pas sur le titre SEO : celui-ci va jusqu'à
+ * soixante signes et finit par « · SAFIA », ce qui donnerait une carte illisible
+ * et redondante avec le logo.
+ */
+function cartePage(libelle) {
+  const taille = 64;
+  const lignes = enLignes(libelle, taille, 900, 3);
+  const departY = 330 - ((lignes.length - 1) * taille * 1.18) / 2;
+  const texte = lignes
+    .map((l, i) => `<tspan x="100" y="${Math.round(departY + i * taille * 1.18)}">${echapper(l)}</tspan>`)
+    .join('');
+
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630">
+  <defs>
+    <linearGradient id="f" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3B2CF2"/>
+      <stop offset="55%" stop-color="#2A1670"/>
+      <stop offset="100%" stop-color="${ENCRE}"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#f)"/>
+  <g transform="translate(100 92) scale(0.52)" fill="#ffffff" opacity="0.95">${MOT}${POLY}</g>
+  <text font-family="${POLICE}" font-size="${taille}" font-weight="bold" fill="#ffffff">${texte}</text>
+  <rect x="100" y="470" width="120" height="4" fill="#E48BEF"/>
+  <text x="100" y="536" font-family="${POLICE}" font-size="26" fill="#ffffff" fill-opacity="0.75">
+    safia.finance
+  </text>
+</svg>`;
+}
+
+// ---------------------------------------------------------------------------
 fs.mkdirSync(path.join(PUBLIC, 'og'), { recursive: true });
 
 await sharp(Buffer.from(icone)).png().toFile(path.join(PUBLIC, 'apple-touch-icon.png'));
@@ -49,3 +135,15 @@ console.log('  écrit public/apple-touch-icon.png (180×180)');
 
 await sharp(Buffer.from(partage)).png().toFile(path.join(PUBLIC, 'og', 'defaut.png'));
 console.log('  écrit public/og/defaut.png (1200×630)');
+
+// Une carte par page fixe. Les 123 articles du blog gardent la carte par
+// défaut : arbitrage de Maxime — le dépôt est public, et 123 images de plus y
+// entreraient définitivement pour un gain marginal, un article se partageant
+// surtout par son titre.
+const pages = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'src', 'data', 'pages.json'), 'utf8'));
+let n = 0;
+for (const p of pages) {
+  await sharp(Buffer.from(cartePage(p.libelle))).png().toFile(path.join(PUBLIC, 'og', `${p.slug}.png`));
+  n++;
+}
+console.log(`  écrit ${n} cartes de partage dans public/og/ (1200×630)`);
