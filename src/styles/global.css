@@ -136,12 +136,13 @@ body.bloque{overflow:hidden}
    comparaison des captures avant / apres. La maquette reellement affichee est
    decrite plus bas : classes prefixees « app- », « b- » et « ecran-app ». */
 
-/* ATTENTION — cette regle est un vestige de la meme maquette, mais elle n'est
-   PAS morte : « fil » est aussi le nom du trait decoratif du site (voir tout
-   en bas). Elle lui applique un display:flex et un padding qu'il ne demande
-   pas. A traiter separement, pour ne pas melanger deux causes dans une meme
-   comparaison de captures. */
-.fil{flex:1;padding:6px 14px 14px;display:flex;flex-direction:column;gap:10px}
+/* La derniere regle de ce bloc, « .fil », a ete retiree le 2026-09-18. Elle
+   n'etait pas morte, contrairement aux autres : « fil » nomme AUSSI le trait
+   decoratif du site, et cette regle de maquette lui imposait un display:flex
+   et un padding qu'il ne demandait pas. Sa geometrie a ete reportee telle
+   quelle dans la regle du trait, tout en bas de cette feuille. Cinquieme
+   collision de nom de classe de ce projet, et la seule qui pilotait encore un
+   element vivant. */
 .frappe{display:inline-flex;gap:4px;padding:12px 14px}
 .frappe i{width:6px;height:6px;border-radius:50%;background:rgba(255,255,255,.7);animation:p 1s infinite}
 .frappe i:nth-child(2){animation-delay:.15s}.frappe i:nth-child(3){animation-delay:.3s}
@@ -1658,7 +1659,18 @@ a.sim-choix-carte:hover{box-shadow:inset 0 0 0 1px var(--violet)}
 
    Il vit dans la GOUTTIERE, a gauche du contenu : .wrap fait au plus 1160 px
    centres, donc sur un ecran de 1440 il reste 140 px de chaque cote. Le fil
-   occupe 112 px de cette marge, avec 16 px de garde avant le texte.
+   occupe 84 px de cette marge, et il reste environ 49 px de garde entre le
+   trace et le texte.
+
+   CES VALEURS SONT EXPLICITES DEPUIS LE 2026-09-18, et elles ne l'etaient pas
+   avant. Le couloir etait declare a 112 px pose a -128, mais une regle
+   homonyme heritee de la maquette telephone — « .fil », le conteneur de
+   bulles — imposait ici un display:flex et un padding de 6/14/14 : le couloir
+   reel tombait a 84 px pose a -114, et le commentaire ci-dessus decrivait donc
+   une intention que le rendu contredisait. La regle parasite a ete supprimee
+   et sa geometrie reportee ici, A L'IDENTIQUE AU PIXEL PRES — la translation
+   etant constante, l'equivalence tient a toutes les largeurs d'ecran, et elle
+   a ete verifiee par comparaison de 64 captures avant / apres.
 
    Sous 1440 px cette marge n'existe plus : le fil est retire, plutot que de
    passer sous le contenu. C'est un ornement de grand ecran, assume comme tel.
@@ -1677,7 +1689,7 @@ main:has(.fil){position:relative}
    au-dessus des FONDS de section — il vit dans la gouttiere, ou il n'y a
    aucun texte a masquer, et reste sous la barre de navigation (z-index 50)
    et sous le bandeau cookies (95). */
-.fil{position:absolute;top:0;bottom:0;left:calc(50% - var(--max) / 2 - 128px);width:112px;z-index:2;pointer-events:none}
+.fil{position:absolute;top:6px;bottom:14px;left:calc(50% - var(--max) / 2 - 114px);width:84px;z-index:2;pointer-events:none}
 .fil svg{display:block;width:100%;height:100%}
 /* PAS DE POINTILLE. pathLength="1" normalise la longueur en unites de
    viewBox, mais avec vector-effect:non-scaling-stroke le pointille est
