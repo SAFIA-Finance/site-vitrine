@@ -167,7 +167,7 @@ body.bloque{overflow:hidden}
 .aiguillage{position:relative;z-index:1;padding-bottom:56px}
 .aiguillage h2{font-size:15px;font-weight:500;color:rgba(255,255,255,.7);margin-bottom:12px}
 .voies{display:grid;grid-template-columns:repeat(3,1fr);border-radius:var(--r-m);overflow:hidden;background:rgba(255,255,255,.1);gap:1px;box-shadow:inset 0 0 0 1px rgba(255,255,255,.16)}
-.voie{display:block;padding:20px 22px;text-decoration:none;background:rgba(19,12,54,.35);transition:background .15s}
+.voie{display:block;padding:20px 22px;text-decoration:none;background:rgba(19,12,54,.35);transition:background .15s ease,transform .15s ease,box-shadow .15s ease}
 .voie:hover{background:rgba(255,255,255,.1)}
 .voie strong{display:block;font-size:17.5px;font-weight:600}
 .voie span{display:block;font-size:14.5px;color:rgba(255,255,255,.72);margin-top:2px}
@@ -819,13 +819,13 @@ ul.reseaux{list-style:none;display:flex;flex-direction:row;gap:10px;margin-top:1
 .esg-bloc .intro{margin-top:18px}
 .esg-bloc .titre{max-width:22ch}
 
-.approf-bloc{background:var(--blanc)}
-.approf{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin-top:44px}
-.approf article{padding:30px;border-radius:var(--r-l);background:var(--lavande)}
-.approf h3{font-size:21px;font-weight:600;letter-spacing:-.01em;max-width:26ch}
-.approf p{margin-top:12px;color:var(--encre-2);line-height:1.6}
+/* Le bloc « approfondir » était défini TROIS FOIS dans cette feuille, vestige
+   des trois anciens fichiers qu'on a concaténés. Les deux premières copies ne
+   servaient à rien : la troisième, plus bas, les recouvrait entièrement sur les
+   trois pages concernées (/assistant-ia/, /adn-investisseur/, /tarifs/), qui
+   affichaient donc toutes le même rendu. Seule cette règle-ci était unique à la
+   première copie, d'où sa conservation ici. */
 .approf strong{color:var(--encre)}
-@media (max-width:980px){.approf{grid-template-columns:1fr;gap:20px}}
 
 /* ===== css_ia.css ===== */
 .demo-bloc .intro{margin-top:16px}
@@ -892,13 +892,7 @@ ul.reseaux{list-style:none;display:flex;flex-direction:row;gap:10px;margin-top:1
   .ct-ligne > span:nth-child(3)::before{content:"SAFIA : ";color:var(--encre-2);font-weight:400}
 }
 
-.approf-bloc{background:var(--blanc)}
-.approf-bloc .intro{margin-top:18px}
-.approf{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin-top:44px}
-.approf article{padding:30px;border-radius:var(--r-l);background:var(--lavande)}
-.approf h3{font-size:21px;font-weight:600;letter-spacing:-.01em;max-width:26ch}
-.approf p{margin-top:12px;color:var(--encre-2);line-height:1.6}
-@media (max-width:980px){.approf{grid-template-columns:1fr;gap:20px}}
+/* (Deuxième copie du bloc « approfondir » retirée : voir plus haut.) */
 
 /* ===== css_cockpit.css ===== */
 .app-chapo{padding:0 20px 14px;font-size:12.5px;line-height:1.45;color:rgba(255,255,255,.82)}
@@ -1148,22 +1142,35 @@ ul.reseaux{list-style:none;display:flex;flex-direction:row;gap:10px;margin-top:1
 .schema-profil .retenu span,.schema-profil .retenu b{color:var(--indigo);font-weight:600}
 .schema-profil .retenu i::after{opacity:1}
 
-/* Parcours en six étapes, au-dessus du détail rédigé. Chaque case est un lien
-   vers son étape : la page se comprend sans être lue en entier. */
-.parcours-intro{margin-top:4px;color:var(--encre-2);font-size:16.5px}
-.parcours{list-style:none;display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:20px 0 56px;max-width:76ch}
-.parcours a{display:flex;flex-direction:column;align-items:flex-start;gap:7px;height:100%;padding:18px 20px;border-radius:var(--r-m);background:var(--blanc);box-shadow:inset 0 0 0 1px var(--ligne);text-decoration:none;color:inherit;transition:box-shadow .15s ease,transform .15s ease}
-.parcours a:hover{box-shadow:inset 0 0 0 2px var(--indigo);transform:translateY(-2px)}
-.parcours a:focus-visible{outline:2px solid var(--indigo);outline-offset:3px}
-.parcours .p-num{width:30px;height:30px;border-radius:50%;display:grid;place-items:center;font-size:14px;font-weight:700;color:var(--blanc);background:var(--encre);flex:none}
-.parcours .p-titre{font-size:16.5px;font-weight:600;letter-spacing:-.01em;line-height:1.25}
-.parcours .p-gist{font-size:14px;color:var(--encre-2);line-height:1.45}
+/* Sommaire des six étapes, au-dessus du détail rédigé. Chaque case est un lien
+   vers son étape : la page se comprend sans être lue en entier.
+
+   CE BLOC S'APPELAIT « .parcours », comme la frise du fondateur. Deux règles
+   .parcours se disputaient donc la feuille, à la même spécificité, et celle-ci
+   — la plus basse dans le fichier — l'emportait sur LES DEUX pages :
+     — /fondateur/ recevait cette grille de trois colonnes à la place de sa
+       frise chronologique, son trait dégradé ne reliant plus rien et ses
+       pastilles retombant au milieu du texte voisin ;
+     — /methode/ recevait en retour « position:relative », « padding-left:26px »
+       et les pseudo-éléments de la frise, que cette règle ne redéfinissait pas :
+       un trait vertical parasite, des pastilles fantômes sur le bord des cartes,
+       et 26 px de décalage par rapport au reste de la page.
+   Le nom est désormais préfixé par sa page : aucune autre règle ne peut plus
+   l'atteindre par hasard. */
+.methode-sommaire-intro{margin-top:4px;color:var(--encre-2);font-size:16.5px}
+.methode-sommaire{list-style:none;display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:20px 0 56px;max-width:76ch}
+.methode-sommaire a{display:flex;flex-direction:column;align-items:flex-start;gap:7px;height:100%;padding:18px 20px;border-radius:var(--r-m);background:var(--blanc);box-shadow:inset 0 0 0 1px var(--ligne);text-decoration:none;color:inherit;transition:box-shadow .15s ease,transform .15s ease}
+.methode-sommaire a:hover{box-shadow:inset 0 0 0 2px var(--indigo);transform:translateY(-2px)}
+.methode-sommaire a:focus-visible{outline:2px solid var(--indigo);outline-offset:3px}
+.methode-sommaire .p-num{width:30px;height:30px;border-radius:50%;display:grid;place-items:center;font-size:14px;font-weight:700;color:var(--blanc);background:var(--encre);flex:none}
+.methode-sommaire .p-titre{font-size:16.5px;font-weight:600;letter-spacing:-.01em;line-height:1.25}
+.methode-sommaire .p-gist{font-size:14px;color:var(--encre-2);line-height:1.45}
 @media (max-width:760px){
-  .parcours{grid-template-columns:1fr 1fr;gap:10px;margin-bottom:44px}
-  .parcours a{padding:15px 16px}
+  .methode-sommaire{grid-template-columns:1fr 1fr;gap:10px;margin-bottom:44px}
+  .methode-sommaire a{padding:15px 16px}
 }
-@media (max-width:460px){.parcours{grid-template-columns:1fr}}
-@media (prefers-reduced-motion:reduce){.parcours a{transition:none}.parcours a:hover{transform:none}}
+@media (max-width:460px){.methode-sommaire{grid-template-columns:1fr}}
+@media (prefers-reduced-motion:reduce){.methode-sommaire a{transition:none}.methode-sommaire a:hover{transform:none}}
 
 .limites-bloc{background:var(--nuit);color:var(--blanc)}
 .limites-bloc .titre{color:var(--blanc)}
@@ -1391,6 +1398,10 @@ ul.reseaux{list-style:none;display:flex;flex-direction:row;gap:10px;margin-top:1
 .sources-titre{margin:0;font-size:13px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--encre-2)}
 .sources-bloc .sources-titre + .sources-liste{margin-top:16px}
 .sources-liste{margin:16px 0 28px;padding-left:22px;display:grid;gap:8px;max-width:80ch;font-size:15px;line-height:1.5;color:var(--encre-2)}
+/* Les 28 px du bas séparent la liste de ce qui la suit. Quand elle termine la
+   section, ils s'ajoutent au rembourrage de 96 px et creusent la jonction pour
+   rien : sur /adn-investisseur/, 220 px au lieu des 192 px du rythme. */
+.sources-liste:last-child{margin-bottom:0}
 .sources-liste a{color:inherit;text-decoration:underline;text-underline-offset:3px}
 .ct-l sup{margin-left:2px;font-size:.68em;opacity:.75}
 .sources-bloc .methode + .sources-titre{margin-top:40px}
@@ -1664,11 +1675,11 @@ a.sim-choix-carte:hover{background:var(--lavande)}
    Ce qui se souleve au survol doit etre CLIQUABLE. Les cartes du blog, les
    offres et la fiche d'equipe n'en sont pas : les faire reagir promettrait un
    clic qui n'existe pas. Ne restent donc que .voie et les cartes d'outils, qui
-   sont de vrais liens. Meme geste que .parcours a:hover, deja en place. */
-.voie,a.sim-choix-carte{transition:background .15s ease,transform .15s ease,box-shadow .15s ease}
+   sont de vrais liens. Meme geste que .methode-sommaire a:hover, deja en
+   place. */
+a.sim-choix-carte{transition:background .15s ease,transform .15s ease,box-shadow .15s ease}
 .voie:hover,a.sim-choix-carte:hover{transform:translateY(-2px)}
 a.sim-choix-carte:hover{box-shadow:inset 0 0 0 1px var(--violet)}
-.btn:active{transform:scale(.97)}
 
 /* Les chiffres d'usage s'ecrivent a l'arrivee : sans chasse fixe, la largeur
    changerait a chaque image et la ligne tremblerait. */
