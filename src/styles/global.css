@@ -1082,6 +1082,12 @@ ul.reseaux{list-style:none;display:flex;flex-direction:row;gap:10px;margin-top:1
 .eq-principal h3{font-size:20px;font-weight:600}
 .eq-principal span{display:block;font-size:14.5px;color:var(--encre-2)}
 .eq-principal p{margin-top:10px;color:var(--encre-2)}
+/* Le logo de l'école est traité comme ceux du parcours — en niveaux de gris,
+   pour qu'aucun logo tiers ne vienne concurrencer les couleurs de la marque.
+   Il lui faut 54 px de haut, contre 22 pour les logos du parcours : celui-ci est
+   empilé, le mot est SOUS le symbole et n'occupe qu'un tiers de la hauteur
+   totale. Essayé à 36 px : le symbole passait, le mot devenait une bavure. */
+.eq-logo{display:block;margin-top:18px;height:54px;width:auto;filter:grayscale(1);mix-blend-mode:multiply;opacity:.75}
 .eq-board{padding:28px;border-radius:var(--r-l);box-shadow:inset 0 0 0 1px var(--ligne)}
 .eq-board h3{font-size:20px;font-weight:600}
 .eq-board ul{list-style:none;margin-top:18px;display:grid;grid-template-columns:1fr 1fr;gap:16px}
@@ -1603,7 +1609,15 @@ a.sim-choix-carte:hover{background:var(--lavande)}
 /* Posé sur le fond lavande clair, entre les réserves et l'appel final. Il ne
    crie pas : c'est une porte de sortie pour qui ne trouve pas sa réponse, pas
    une relance commerciale. */
-.sim-contact{display:flex;align-items:center;justify-content:space-between;gap:26px;flex-wrap:wrap;max-width:76ch;margin-top:26px;padding:26px 28px;border-radius:var(--r-l);background:var(--lavande-2);box-shadow:inset 0 0 0 1px var(--ligne)}
+/* Le bloc de contact est posé entre la section du simulateur et le bloc final.
+   Il n'a pas de remplissage à lui : sans les deux règles ci-dessous, il héritait
+   des 96 px de bas de la section précédente PLUS ses 26 px de marge — soit
+   122 px de vide au-dessus — et se retrouvait collé au bloc final, 0 px en
+   dessous. On supprime la marge et on rend le même écart en bas, pour que le
+   bloc respire autant des deux côtés et suive le rythme vertical du site. */
+.sim-apres{padding-bottom:96px}
+@media (max-width:720px){.sim-apres{padding-bottom:72px}}
+.sim-contact{display:flex;align-items:center;justify-content:space-between;gap:26px;flex-wrap:wrap;max-width:76ch;margin-top:0;padding:26px 28px;border-radius:var(--r-l);background:var(--lavande-2);box-shadow:inset 0 0 0 1px var(--ligne)}
 .sim-contact h2{font-size:19px;font-weight:600;line-height:1.3;max-width:34ch}
 .sim-contact p{margin-top:8px;font-size:15px;line-height:1.55;color:var(--encre-2);max-width:56ch}
 .sim-contact-actions{display:flex;gap:12px;flex-wrap:wrap;flex:none}

@@ -23,9 +23,11 @@ const sujet = encodeURIComponent(`Question après le simulateur : ${outil}`);
 <!-- Le composant porte sa propre section et son propre « wrap ». Il est inséré
      ENTRE deux sections, donc hors de tout conteneur : sans cela il se colle au
      bord gauche de l'écran, hors de la gouttière, et rompt l'alignement avec le
-     cadre des réserves qui le précède. La section n'a pas de classe à dessein —
-     « bloc » ajouterait 96 px de remplissage vertical de chaque côté. -->
-<section>
+     cadre des réserves qui le précède.
+     La classe « sim-apres » ne porte qu'un remplissage BAS : le haut est déjà
+     donné par la section du simulateur, qui finit par 96 px. « bloc » en
+     ajouterait 96 de plus en haut et creuserait le vide qu'on vient de combler. -->
+<section class="sim-apres">
   <div class="wrap">
     <aside class="sim-contact" aria-labelledby="contact-outil-t">
       <div>

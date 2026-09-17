@@ -83,7 +83,14 @@ const fil = ["Accueil","À propos","Le fondateur"];
   <div class="equipe">
     <article class="eq-principal">
       <b>VC</b>
-      <div><h3>Valentin Carbonell</h3><span>Directeur technique</span><p>Ingénieur CentraleSupélec, expert en IA et en architecture logicielle.</p></div>
+      <div>
+        <h3>Valentin Carbonell</h3><span>Directeur technique</span>
+        <p>Ingénieur CentraleSupélec, expert en IA et en architecture logicielle.</p>
+        <!-- Le logo est en appui du texte, pas à sa place : d'où l'alt vide,
+             qui évite à un lecteur d'écran d'annoncer « CentraleSupélec » une
+             seconde fois. Le mot est déjà dans la phrase au-dessus. -->
+        <img class="eq-logo" src="/images/logos/centralesupelec.svg" alt="" width="106" height="54" loading="lazy" />
+      </div>
     </article>
     <article class="eq-board">
       <h3>Un comité consultatif</h3>
