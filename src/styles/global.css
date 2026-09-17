@@ -559,8 +559,11 @@ ul.reseaux{list-style:none;display:flex;flex-direction:row;gap:10px;margin-top:1
    Particuliers de 107 px et Cockpit de 115 px — en coupant « mention-app »,
    l'avertissement reglementaire. Les cinq pages portent « .ecran-app » ; seul
    le hero de l'accueil a besoin d'etre contenu. */
-.hero-in .ecran-app{max-height:min(680px,82vh)}
-.conv-app{flex:1;min-height:0;overflow:hidden;padding:0 16px 6px;display:flex;flex-direction:column;justify-content:flex-end;gap:9px}
+/* PAS DE BORNE DE HAUTEUR ICI. Une max-height en « vh » se resserre sur les
+   fenetres courtes : a 700 px de haut, elle coupait 101 px et la question du
+   visiteur disparaissait. Le contenu de la bulle a ete raccourci, c'est lui
+   qui donne sa taille au telephone — identique pour tout le monde. */
+.conv-app{flex:1;padding:0 16px 6px;display:flex;flex-direction:column;gap:9px}
 .heure{align-self:flex-end;font-size:12px;color:rgba(255,255,255,.75)}
 .b-user{align-self:flex-end;max-width:86%;padding:11px 15px;border-radius:18px 18px 6px 18px;background:rgba(255,255,255,.16);box-shadow:inset 0 0 0 1px var(--app-bord);font-size:13.5px;line-height:1.4}
 .etincelle{width:22px;height:22px;margin-bottom:-4px;opacity:.9}
