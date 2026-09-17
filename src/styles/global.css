@@ -1760,3 +1760,27 @@ main:has(.fil){position:relative}
 @media (prefers-reduced-motion:reduce){
   .vie-liste.anime li{opacity:1;transform:none;transition:none}
 }
+
+/* L'origine ---------------------------------------------------------------
+   Pas d'image, pas de fond, pas de carte : une phrase, un nom, un filet. Le
+   budget d'une vraie serie photographique n'est pas la, et une photo de banque
+   d'images sur le registre du deuil et de la transmission couterait plus cher
+   en credibilite qu'elle ne rapporterait.
+
+   Le filet vertical reprend le degrade de marque, comme le rail de la frise :
+   la page garde un seul langage. Classes prefixees « origine- ».
+
+   Padding-top a zero : ce bloc tombe juste apres le hero et n'a pas besoin des
+   96 px habituels, la citation doit arriver vite. */
+.origine-bloc{padding-top:0}
+.origine-cit{max-width:620px;margin:0;padding-left:26px;border-left:3px solid transparent;border-image:linear-gradient(180deg,var(--indigo),var(--rose)) 1}
+.origine-cit blockquote{margin:0}
+.origine-cit blockquote p{font-size:clamp(1.5rem,2.6vw,2.05rem);line-height:1.32;letter-spacing:-.02em;font-weight:500;text-wrap:balance}
+.origine-cit figcaption{margin-top:18px;display:flex;flex-direction:column;gap:1px}
+.origine-nom{font-size:16px;font-weight:600}
+.origine-role{font-size:14.5px;color:var(--encre-2)}
+.origine-suite{margin-top:26px;font-size:19px;font-weight:600;color:var(--indigo)}
+@media (max-width:760px){
+  .origine-cit{max-width:none;padding-left:18px}
+  .origine-cit blockquote p{font-size:1.32rem}
+}
