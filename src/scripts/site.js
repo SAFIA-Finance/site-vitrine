@@ -326,6 +326,38 @@ document.addEventListener('click', (e) => {
   note._t = setTimeout(() => (note.hidden = true), 2600);
 });
 
+// ---- Les pastilles des étapes se remplissent à mesure qu'on descend ----
+// Présent sur l'accueil et sur ADN Investisseur, d'où sa place ici plutôt que
+// dans un script de page.
+//
+// L'état PLEIN est l'état par défaut : la classe « anime » n'est posée que si
+// ce code tourne. Sans JavaScript, sans IntersectionObserver ou en mouvement
+// réduit, les pastilles restent pleines — rien ne se dégrade.
+function etapesProgressives() {
+  const listes = document.querySelectorAll('.etapes');
+  if (!listes.length) return;
+  if (!('IntersectionObserver' in window)) return;
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+  listes.forEach((liste) => {
+    if (!lier(liste, 'Etapes')) return;
+    liste.classList.add('anime');
+    const observateur = new IntersectionObserver(
+      (entrees) => {
+        entrees.forEach((e) => {
+          if (!e.isIntersecting) return;
+          e.target.classList.add('etape-vue');
+          observateur.unobserve(e.target); // une étape franchie le reste
+        });
+      },
+      // On ne compte l'étape que lorsqu'elle est franchement entrée dans
+      // l'écran, pas dès que son premier pixel affleure.
+      { rootMargin: '0px 0px -25% 0px' },
+    );
+    liste.querySelectorAll('li').forEach((li) => observateur.observe(li));
+  });
+}
+
 // ---------------------------------------------------------------------------
 function demarrer() {
   menusDeroulants();
@@ -335,6 +367,7 @@ function demarrer() {
   bandeauCookies();
   reouvrirCookies();
   boutonsTelechargement();
+  etapesProgressives();
 }
 
 demarrer();

@@ -23,6 +23,55 @@ function demarrerPage() {
     setTimeout(function(){el(1).style.display='none';document.querySelectorAll('[data-seq="2"]').forEach(function(x){x.classList.add('vu');});},2600);
   }
 
+  // Les chiffres d'usage s'écrivent à l'arrivée.
+  //
+  // Deux précautions. La note (« 5,0 ★ ») porte une étoile dans un <span> : on
+  // n'anime que les <b> SANS élément enfant, sinon réécrire le texte
+  // détruirait le balisage. Et en mouvement réduit on ne touche à rien : la
+  // valeur finale est déjà dans le HTML, elle reste simplement affichée.
+  // RÈGLE : une affirmation publique ne dépend jamais d'une animation.
+  //
+  // La première version calculait la valeur finale image par image. Une seule
+  // image manquée — et la cadence peut être bridée — laissait « 0+ »
+  // et « 0 M€+ » affichés. Sur le site d'un CIF, c'est un chiffre faux.
+  //
+  // D'où ces deux garde-fous : la chaîne d'origine est mémorisée et RÉÉCRITE
+  // TELLE QUELLE à la fin (jamais reformatée, donc jamais « 100 » au lieu de
+  // « 100+ »), et un filet de sécurité la rétablit quoi qu'il arrive.
+  if(!reduit && typeof requestAnimationFrame==='function'){
+    [].slice.call(document.querySelectorAll('.preuves b'))
+      .filter(function(b){return !b.children.length;})
+      .forEach(function(b){
+        // NE JAMAIS RELIRE UN TEXTE QU'ON A SOI-MÊME MODIFIÉ.
+        // demarrerPage() est appelée deux fois au premier chargement : tout de
+        // suite, puis par « astro:page-load ». La version précédente relisait
+        // b.textContent au second passage, y trouvait le « 0+ » posé par le
+        // premier, et prenait ce zéro pour la valeur d'arrivée. Le filet de
+        // sécurité rétablissait alors fidèlement… zéro. La valeur d'origine est
+        // donc mémorisée, et c'est la seule source de vérité.
+        if(!b.dataset.valeur) b.dataset.valeur=b.textContent;
+        var fin=b.dataset.valeur;
+        if(b.dataset.compte==='1') return;          // une seule animation par élément
+        var m=fin.trim().match(/^(\d+(?:[.,]\d+)?)([\s\S]*)$/);
+        if(!m) return;
+        b.dataset.compte='1';
+        var cible=parseFloat(m[1].replace(',','.')), suffixe=m[2], depart=null, arrive=false;
+        var poser=function(){ if(!arrive){ arrive=true; b.textContent=fin; b.dataset.compte='0'; } };
+        b.textContent='0'+suffixe;
+        setTimeout(poser,1100);                    // filet : la valeur est écrite même sans animation
+        var pas=function(t){
+          if(arrive) return;
+          if(depart===null) depart=t;
+          var p=Math.min(1,(t-depart)/900);
+          if(p>=1){ poser(); return; }
+          var v=cible*(1-Math.pow(1-p,3));         // départ franc, arrivée douce
+          b.textContent=(Number.isInteger(cible)?Math.round(v).toLocaleString('fr-FR'):v.toFixed(1).replace('.',','))+suffixe;
+          requestAnimationFrame(pas);
+        };
+        requestAnimationFrame(pas);
+      });
+  }
+
   // Mensuel / Annuel
   var boutons=document.querySelectorAll('.bascule button');
   var prix=document.getElementById('prix'), periode=document.getElementById('periode'), equiv=document.getElementById('equiv'), conseiller=document.getElementById('conseiller');
