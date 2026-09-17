@@ -69,6 +69,15 @@ button,input{font:inherit;color:inherit}
 .menu > li > button[aria-expanded="true"] .chevron{transform:rotate(180deg)}
 .sous a{display:block;padding:12px;border-radius:10px;text-decoration:none;min-height:44px}
 .sous a:hover{background:var(--lavande)}
+/* La page courante, dans le panneau BLANC du menu deroulant.
+   La regle generale .lien-actif force « color:var(--blanc) !important ». C'est
+   juste sur la barre sombre et dans le panneau mobile, tous deux sur fond
+   nuit — mais ici le panneau est blanc, et le titre devenait blanc sur blanc :
+   il disparaissait, tandis que sa description, qui porte sa propre couleur,
+   restait lisible. On ne vise donc QUE le deroulant, avec une specificite
+   superieure, et l'etat « tu es ici » se distingue du survol par la couleur du
+   texte et non par le seul fond. */
+.sous a.lien-actif{color:var(--indigo)!important;background:var(--lavande)!important}
 .sous strong{display:block;font-size:15px;font-weight:600}
 .sous span{display:block;font-size:13.5px;color:var(--encre-2);line-height:1.4}
 .nav .btn{padding:10px 18px;font-size:15px}
