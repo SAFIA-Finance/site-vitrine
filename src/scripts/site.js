@@ -383,7 +383,11 @@ function filProgressif() {
 // ce code tourne. Sans JavaScript, sans IntersectionObserver ou en mouvement
 // réduit, les pastilles restent pleines — rien ne se dégrade.
 function etapesProgressives() {
-  const listes = document.querySelectorAll('.etapes');
+  // Deux listes partagent ce comportement : « Trois étapes pour commencer » et
+  // la frise de vie. Un seul observateur pour les deux — en écrire un second
+  // reviendrait à maintenir deux fois la même logique, et à oublier l'une des
+  // deux le jour où la règle change.
+  const listes = document.querySelectorAll('.etapes, .vie-liste');
   if (!listes.length) return;
   if (!('IntersectionObserver' in window)) return;
   if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;

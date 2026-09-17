@@ -1721,3 +1721,42 @@ main:has(.fil){position:relative}
 .fil.anime{clip-path:inset(0 0 var(--fil-reste,100%) 0)}
 @media (max-width:1439px){.fil{display:none}}
 @media (prefers-reduced-motion:reduce){.fil.anime{clip-path:none}}
+
+/* La frise de vie ---------------------------------------------------------
+   Toutes les classes sont prefixees « vie- », y compris la liste : ce site a
+   trois collisions de noms de classes a son historique, toutes nees d'un nom
+   nu decrivant deux objets differents.
+
+   Le rail et les pastilles reprennent le vocabulaire visuel de « .etapes »,
+   pour que la page garde un seul langage — mais en vertical, six moments ne
+   tenant pas sur une ligne.
+
+   L'etat REVELE est l'etat par defaut : la classe .anime n'est posee que si le
+   JavaScript tourne. Sans lui, sans IntersectionObserver ou en mouvement
+   reduit, les six moments sont simplement la. */
+.vie-bloc{background:var(--blanc)}
+.vie-etiquette{font-size:14px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--indigo);margin-bottom:12px}
+.vie-chapo{margin-top:14px;max-width:64ch;color:var(--encre-2);font-size:17.5px}
+.vie-liste{list-style:none;margin-top:46px;position:relative}
+.vie-liste::before{content:"";position:absolute;left:11px;top:8px;bottom:8px;width:2px;background:linear-gradient(180deg,var(--indigo),var(--violet),var(--rose))}
+.vie-liste li{position:relative;padding:0 0 34px 46px}
+.vie-liste li:last-child{padding-bottom:0}
+.vie-liste li::before{content:"";position:absolute;left:4px;top:5px;width:16px;height:16px;border-radius:50%;background:var(--encre);box-shadow:0 0 0 5px var(--blanc)}
+.vie-moment{display:block;font-size:13.5px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;color:var(--encre-2)}
+.vie-question{margin-top:5px;font-size:20.5px;font-weight:600;letter-spacing:-.012em;max-width:36ch;line-height:1.3}
+.vie-reponse{margin-top:7px;color:var(--encre-2);max-width:56ch}
+.vie-liste .lien{margin-top:9px}
+.vie-suite{margin-top:46px;padding:30px 32px;border-radius:var(--r-l);background:var(--lavande);display:flex;align-items:center;justify-content:space-between;gap:30px;flex-wrap:wrap}
+.vie-suite h3{font-size:20px;font-weight:600}
+.vie-suite p{margin-top:8px;color:var(--encre-2);max-width:66ch;line-height:1.6}
+.vie-suite .btn{flex:none}
+.vie-liste.anime li{opacity:0;transform:translateY(10px);transition:opacity .5s ease,transform .5s ease}
+.vie-liste.anime li.etape-vue{opacity:1;transform:none}
+@media (max-width:760px){
+  .vie-suite{padding:24px;flex-direction:column;align-items:flex-start}
+  .vie-suite .btn{width:100%;justify-content:center}
+  .vie-question{font-size:19px}
+}
+@media (prefers-reduced-motion:reduce){
+  .vie-liste.anime li{opacity:1;transform:none;transition:none}
+}
