@@ -8,6 +8,16 @@ import { simulerPER } from '../../calculs/per.js';
 import { euros, pourcent, nombre } from '../../calculs/format.js';
 import { lierDuos, valeur, ecrire } from './commun.js';
 
+// Rejoue apres chaque navigation sans rechargement : les transitions de page
+// remplacent le corps du document, et tout ecouteur pose sur un element part
+// avec lui. Le corps n'est volontairement pas reindente — ces fichiers
+// contiennent des chaines litterales multilignes.
+const CHEMIN_PAGE = location.pathname;
+function demarrerPage() {
+  // Ce script n'appartient qu'a cette page : on ne le rejoue que lorsqu'on y
+  // revient. Sans cette garde, il s'executerait sur toutes les autres.
+  if (location.pathname !== CHEMIN_PAGE) return;
+
 (function () {
   const form = document.getElementById('sim');
   if (!form) return;
@@ -108,3 +118,7 @@ import { lierDuos, valeur, ecrire } from './commun.js';
 
   calculer(true);
 })();
+}
+
+demarrerPage();
+document.addEventListener('astro:page-load', demarrerPage);

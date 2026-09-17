@@ -1,3 +1,14 @@
+
+// Rejoue apres chaque navigation sans rechargement : les transitions de page
+// remplacent le corps du document, et tout ecouteur pose sur un element part
+// avec lui. Le corps n'est volontairement pas reindente — ces fichiers
+// contiennent des chaines litterales multilignes.
+const CHEMIN_PAGE = location.pathname;
+function demarrerPage() {
+  // Ce script n'appartient qu'a cette page : on ne le rejoue que lorsqu'on y
+  // revient. Sans cette garde, il s'executerait sur toutes les autres.
+  if (location.pathname !== CHEMIN_PAGE) return;
+
 (function(){
   var boutons=document.querySelectorAll('.bascule button');
   var prix=document.getElementById('prix'), periode=document.getElementById('periode'), equiv=document.getElementById('equiv'), conseiller=document.getElementById('conseiller');
@@ -15,3 +26,7 @@
     });
   });
 })();
+}
+
+demarrerPage();
+document.addEventListener('astro:page-load', demarrerPage);

@@ -3,6 +3,15 @@
 // diffèrent (nombre de clients suivis d'un côté, fonction de l'autre).
 import { envoyer, emailValide } from './formulaires.js';
 
+// Rejoue apres chaque navigation sans rechargement : les transitions de page
+// remplacent le corps du document, et tout ecouteur pose sur un element part
+// avec lui. Le corps n'est volontairement pas reindente — ces fichiers
+// contiennent des chaines litterales multilignes.
+function demarrerPage() {
+  // Ce script sert plusieurs pages : la garde porte sur un element, pas sur
+  // une URL, qui serait fausse ici.
+  if (!document.getElementById('fdemo')) return;
+
 const formulaire = document.getElementById('fdemo');
 const retour = document.getElementById('fretour');
 const champ = (id) => document.getElementById(id);
@@ -54,3 +63,7 @@ formulaire?.addEventListener('submit', async (e) => {
     bouton.disabled = false;
   }
 });
+}
+
+demarrerPage();
+document.addEventListener('astro:page-load', demarrerPage);

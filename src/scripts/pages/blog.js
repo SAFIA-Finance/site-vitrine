@@ -1,5 +1,14 @@
 import { envoyer, emailValide } from '../formulaires.js';
 
+// Rejoue apres chaque navigation sans rechargement : les transitions de page
+// remplacent le corps du document, et tout ecouteur pose sur un element part
+// avec lui. Le corps n'est volontairement pas reindente — ces fichiers
+// contiennent des chaines litterales multilignes.
+function demarrerPage() {
+  // Ce script sert plusieurs pages : la garde porte sur un element, pas sur
+  // une URL, qui serait fausse ici.
+  if (!document.getElementById('recherche-blog')) return;
+
 // ---- Recherche : filtre les cartes déjà présentes dans la page ----
 // Les thématiques, elles, sont de vrais liens vers les pages de catégorie :
 // elles fonctionnent sans JavaScript et ont chacune leur adresse.
@@ -101,3 +110,7 @@ import { envoyer, emailValide } from '../formulaires.js';
     }
   });
 })();
+}
+
+demarrerPage();
+document.addEventListener('astro:page-load', demarrerPage);

@@ -7,6 +7,12 @@ import Footer from '../components/Footer.astro';
 import BandeauCookies from '../components/BandeauCookies.astro';
 import RetourHaut from '../components/RetourHaut.astro';
 import ModaleTelechargement from '../components/ModaleTelechargement.astro';
+// Transitions de page : la navigation se fait sans recharger, avec un fondu
+// court. Conséquence à connaître — le corps du document est REMPLACÉ à chaque
+// navigation, donc tout écouteur posé sur un élément disparaît avec lui.
+// site.js se rebranche sur « astro:page-load » ; les scripts de page portent
+// « data-astro-rerun », qui les rejoue. Voir les commentaires de site.js.
+import { ClientRouter } from 'astro:transitions';
 import { SITE_URL, INDEXABLE, SOCIETE, GA_ID, RELAIS_URL, APPLICATION, RESEAUX, RESEAUX_FONDATEUR } from '../config.js';
 import pages from '../data/pages.json';
 import '../styles/global.css';
@@ -191,6 +197,8 @@ const jsonFil = fil
     {jsonFaq && <script type="application/ld+json" set:html={JSON.stringify(jsonFaq)} />}
     {jsonFil && <script type="application/ld+json" set:html={JSON.stringify(jsonFil)} />}
     {jsonArticle && <script type="application/ld+json" set:html={JSON.stringify(jsonArticle)} />}
+
+    <ClientRouter />
   </head>
 
   <body>
