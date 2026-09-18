@@ -1,7 +1,7 @@
 ---
 code: "E1"
 titre: "Robo-advisor : ce que c'est, ce que ça fait, ce que ça ne fait pas"
-titreSeo: "Robo-advisor : définition, fonctionnement, limites | SAFIA"
+titreSeo: "Robo-advisor : définition, fonctionnement, limites"
 description: "Un robo-advisor gère un portefeuille selon un profil, via un mandat. Comment il fonctionne réellement, ce qu'il coûte, et dans quels cas il convient."
 categorie: "Comparaison et décision"
 date: 2026-09-14

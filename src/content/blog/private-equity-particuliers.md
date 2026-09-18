@@ -1,7 +1,7 @@
 ---
 code: "J14"
 titre: "Private equity et FCPR : ce que l'ouverture aux particuliers change"
-titreSeo: "Private equity et FCPR | SAFIA"
+titreSeo: "Private equity et FCPR ouverts aux particuliers"
 description: "Le capital-investissement finance des entreprises non cotées, sur des durées de huit à douze ans. Le capital est bloqué : c'est la contrepartie centrale"
 categorie: "Produits d'investissement"
 date: 2026-09-16

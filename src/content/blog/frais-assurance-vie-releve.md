@@ -1,7 +1,7 @@
 ---
 code: "B7"
 titre: "Frais d'assurance-vie : les retrouver sur ton relevé annuel"
-titreSeo: "Frais d'assurance-vie : les repérer sur son relevé | SAFIA"
+titreSeo: "Frais d'assurance-vie : les repérer sur son relevé"
 description: "Frais d'entrée, de gestion, d'arbitrage, frais internes des fonds : les quatre couches de frais d'une assurance-vie et où les lire réellement."
 categorie: "Assurance-vie"
 date: 2026-09-14

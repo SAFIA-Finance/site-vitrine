@@ -1,7 +1,7 @@
 ---
 code: "C5"
 titre: "Combien épargner chaque mois pour compléter sa retraite"
-titreSeo: "Combien épargner par mois pour sa retraite ? | SAFIA"
+titreSeo: "Combien épargner par mois pour sa retraite ?"
 description: "La méthode en quatre étapes pour chiffrer l'effort mensuel réel, avec un tableau par âge de départ et les hypothèses posées explicitement."
 categorie: "Retraite"
 date: 2026-09-14

@@ -1,8 +1,8 @@
 ---
 code: "I5"
 titre: "Conventions fiscales : comment lire celle de votre pays"
-titreSeo: "Lire une convention fiscale : mode d'emploi | SAFIA"
-description: "Une convention fiscale se lit dans un ordre précis. Les six articles qui décident de tout, et la méthode pour trouver la réponse à votre situation en vingt minutes."
+titreSeo: "Lire une convention fiscale : mode d'emploi"
+description: "Une convention fiscale se lit dans un ordre précis. Les six articles qui décident de tout, et la méthode pour trouver votre réponse en vingt minutes."
 categorie: "Expatriation"
 date: 2026-09-16
 lecture: 4

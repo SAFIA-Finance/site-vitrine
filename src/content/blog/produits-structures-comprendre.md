@@ -1,7 +1,7 @@
 ---
 code: "J15"
 titre: "Produits structurés : comprendre la formule avant de signer"
-titreSeo: "Produits structurés | SAFIA"
+titreSeo: "Produits structurés : comprendre la formule avant de signer"
 description: "Un produit structuré combine une composante obligataire et des options, pour produire une formule de remboursement conditionnelle."
 categorie: "Produits d'investissement"
 date: 2026-09-16

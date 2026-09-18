@@ -1,7 +1,7 @@
 ---
 code: "C6"
 titre: "Décote, surcote, trimestres : le vocabulaire qui change le montant"
-titreSeo: "Décote et surcote : le vocabulaire de la retraite | SAFIA"
+titreSeo: "Décote et surcote : le vocabulaire de la retraite"
 description: "Taux plein, décote, surcote, trimestres cotisés ou assimilés : les termes qui déterminent le montant de ta pension, expliqués sans jargon."
 categorie: "Retraite"
 date: 2026-09-14

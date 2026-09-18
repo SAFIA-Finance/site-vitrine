@@ -1,7 +1,7 @@
 ---
 code: "F1"
 titre: "Une IA peut-elle remplacer un conseiller en gestion de patrimoine ?"
-titreSeo: "L'IA peut-elle remplacer un conseiller patrimonial ? | SAFIA"
+titreSeo: "L'IA peut-elle remplacer un conseiller patrimonial ?"
 description: "Ce qu'une IA fait mieux qu'un humain, ce qu'elle ne peut pas faire, et pourquoi le conseil en investissement reste une activité réglementée en France."
 categorie: "IA et méthode"
 date: 2026-09-14

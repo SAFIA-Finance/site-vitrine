@@ -1,7 +1,7 @@
 ---
 code: "K5"
 titre: "Polynésie française"
-titreSeo: "Polynésie française | SAFIA"
+titreSeo: "Polynésie française : fiscalité propre et autonomie"
 description: "La Polynésie française est une collectivité d'outre-mer dotée de l'autonomie, régie par l'article 74 de la Constitution et par sa loi organique statutaire."
 categorie: "Outre-mer"
 date: 2026-09-16

@@ -1,7 +1,7 @@
 ---
 code: "I15"
 titre: "Andorre : fiscalité de l'expatriation"
-titreSeo: "Andorre : fiscalité de l'expatriation | SAFIA"
+titreSeo: "Andorre : fiscalité de l'expatriation"
 description: "Andorre combine un impôt sur le revenu plafonné à 10 %, l'absence d'impôt sur la fortune et l'absence de droits de succession."
 categorie: "Expatriation"
 date: 2026-09-16

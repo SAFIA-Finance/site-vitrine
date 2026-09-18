@@ -1,7 +1,7 @@
 ---
 code: "I3"
 titre: "Que devient votre patrimoine français quand vous partez"
-titreSeo: "Fiscalité du patrimoine français d'un non-résident | SAFIA"
+titreSeo: "Fiscalité du patrimoine français d'un non-résident"
 description: "Loyers, plus-values immobilières, IFI, dividendes, comptes bancaires : ce qui reste imposable en France après le départ, et à quel taux."
 categorie: "Expatriation"
 date: 2026-09-16

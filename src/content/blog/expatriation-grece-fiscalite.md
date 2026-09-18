@@ -1,7 +1,7 @@
 ---
 code: "I9"
 titre: "Grèce : fiscalité de l'expatriation"
-titreSeo: "Grèce : fiscalité de l'expatriation | SAFIA"
+titreSeo: "Grèce : fiscalité de l'expatriation"
 description: "La Grèce est, depuis 2020, la destination européenne la plus favorable aux retraités disposant de revenus étrangers."
 categorie: "Expatriation"
 date: 2026-09-16

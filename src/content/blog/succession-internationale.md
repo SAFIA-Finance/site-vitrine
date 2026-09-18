@@ -1,7 +1,7 @@
 ---
 code: "D17"
 titre: "Succession internationale : quel droit s'applique à vos biens"
-titreSeo: "Succession internationale | SAFIA"
+titreSeo: "Succession internationale : quel droit s'applique"
 description: "Depuis le règlement européen « Successions », la loi applicable est celle de la résidence habituelle du défunt au jour du décès, pour l'ensemble de la"
 categorie: "Donation et succession"
 date: 2026-09-16

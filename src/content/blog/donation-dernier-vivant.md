@@ -1,7 +1,7 @@
 ---
 code: "D18"
 titre: "Protéger son conjoint : donation au dernier vivant et quotité disponible"
-titreSeo: "Protéger son conjoint | SAFIA"
+titreSeo: "Donation au dernier vivant : protéger son conjoint"
 description: "Sans disposition, le conjoint survivant hérite selon des règles légales qui dépendent de la présence d'enfants communs ou non."
 categorie: "Donation et succession"
 date: 2026-09-16

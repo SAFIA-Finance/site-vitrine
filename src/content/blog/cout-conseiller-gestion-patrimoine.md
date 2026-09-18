@@ -1,8 +1,8 @@
 ---
 code: "E5"
 titre: "Conseiller en gestion de patrimoine : combien ça coûte, et à partir de quel patrimoine"
-titreSeo: "Prix d'un conseiller en gestion de patrimoine 2026 | SAFIA"
-description: "Honoraires, rétrocessions, frais sur encours : les trois modes de rémunération d'un CGP, leurs conséquences, et le seuil de patrimoine à partir duquel on est servi."
+titreSeo: "Prix d'un conseiller en gestion de patrimoine 2026"
+description: "Honoraires, rétrocessions, frais sur encours : les trois modes de rémunération d'un CGP, et le seuil de patrimoine à partir duquel on est servi."
 categorie: "Comparaison et décision"
 date: 2026-09-14
 lecture: 3

@@ -1,8 +1,8 @@
 ---
 code: "C4"
 titre: "Sortie du PER en capital ou en rente : la fiscalité comparée"
-titreSeo: "PER : sortir en capital ou en rente ? Comparatif | SAFIA"
-description: "Capital en une fois, capital fractionné ou rente viagère : trois sorties, trois fiscalités. Le comparatif chiffré et les critères non fiscaux qui tranchent."
+titreSeo: "PER : sortir en capital ou en rente ? Comparatif"
+description: "Capital en une fois, fractionné ou rente viagère : trois sorties, trois fiscalités. Le comparatif chiffré et les critères non fiscaux."
 categorie: "Retraite"
 date: 2026-09-14
 lecture: 3

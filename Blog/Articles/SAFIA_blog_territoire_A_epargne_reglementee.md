@@ -14,8 +14,8 @@ Chaque article se termine par le bloc auteur et l'avertissement réglementaire, 
 ## A1 — Livret A en 2026 : plafond, taux et fonctionnement
 
 **URL** : /blog/livret-a-plafond-taux
-**Title** : Livret A 2026 : taux de 1,70 %, plafond 22 950 € | SAFIA
-**Meta** : Le taux du livret A est passé à 1,70 % le 1er août 2026. Plafond, calcul des intérêts par quinzaine, fiscalité : le fonctionnement expliqué avec des exemples chiffrés.
+**Title** : Livret A 2026 : taux de 1,70 %, plafond 22 950 €
+**Meta** : Le taux du livret A est passé à 1,70 % le 1er août 2026. Plafond, calcul par quinzaine, fiscalité : le fonctionnement avec des exemples chiffrés.
 
 ### L'essentiel
 
@@ -93,7 +93,7 @@ Page **Particuliers** · articles **A5** (épargne de précaution) et **A2** (li
 ## A2 — Livret A au plafond : où placer la suite de son épargne
 
 **URL** : /blog/livret-a-plein-que-faire
-**Title** : Livret A plein : où placer son épargne ensuite ? | SAFIA
+**Title** : Livret A plein : où placer son épargne ensuite ?
 **Meta** : 22 950 € atteints sur le livret A. LDDS, LEP, assurance-vie, PEA : comment choisir la suite selon ton horizon, avec les taux et la fiscalité de 2026.
 
 ### L'essentiel
@@ -160,7 +160,7 @@ Page **Cockpit stratégique** · articles **A4** (LEP) et **B1** (fiscalité de 
 ## A3 — Livret A ou LDDS : la différence est plus mince qu'on croit
 
 **URL** : /blog/livret-a-ou-ldds
-**Title** : Livret A ou LDDS : quelle différence réelle en 2026 ? | SAFIA
+**Title** : Livret A ou LDDS : quelle différence réelle en 2026 ?
 **Meta** : Même taux de 1,70 %, même fiscalité nulle, même disponibilité. Ce qui sépare vraiment le livret A du LDDS, et pourquoi la question du choix ne se pose pas.
 
 ### L'essentiel
@@ -224,7 +224,7 @@ Page **Particuliers** · articles **A1** (livret A) et **A5** (épargne de préc
 ## A4 — LEP : conditions, plafond, et pourquoi la moitié des ayants droit passent à côté
 
 **URL** : /blog/lep-conditions-plafond
-**Title** : LEP 2026 : 2,50 %, conditions de revenus et plafond | SAFIA
+**Title** : LEP 2026 : 2,50 %, conditions de revenus et plafond
 **Meta** : Le LEP rapporte 2,50 % net en 2026, soit 0,80 point de plus que le livret A. Conditions de revenus, plafond de 10 000 €, ouverture : le mode d'emploi.
 
 ### L'essentiel
@@ -296,8 +296,8 @@ Page **Particuliers** · articles **A2** (livret A au plafond) et **A5** (éparg
 ## A5 — Combien garder sur son livret A ? La règle de l'épargne de précaution
 
 **URL** : /blog/epargne-de-precaution-combien
-**Title** : Épargne de précaution : combien garder en 2026 ? | SAFIA
-**Meta** : Trois à six mois de dépenses, dit la règle. Comment calculer ton montant réel, et pourquoi l'excès d'épargne de précaution coûte plus cher qu'on ne le croit.
+**Title** : Épargne de précaution : combien garder en 2026 ?
+**Meta** : Trois à six mois de dépenses, dit la règle. Comment calculer ton montant réel, et pourquoi l'excès d'épargne de précaution coûte cher.
 
 ### L'essentiel
 
@@ -365,7 +365,7 @@ Page **Cockpit stratégique** · articles **A2** (livret A au plafond) et **C5**
 ## A6 — Comment le taux du livret A est calculé
 
 **URL** : /blog/calcul-taux-livret-a
-**Title** : Calcul du taux du livret A : la formule expliquée | SAFIA
+**Title** : Calcul du taux du livret A : la formule expliquée
 **Meta** : Inflation, €STR, révision semestrielle, coup de pouce politique : comment se fixe le taux du livret A, et comment anticiper la révision de février 2027.
 
 ### L'essentiel
@@ -434,7 +434,7 @@ Page **Particuliers** · articles **A1** (livret A) et **A4** (LEP).
 ## A7 — PEL, CEL, livret jeune : ce qu'il reste de l'épargne réglementée
 
 **URL** : /blog/pel-cel-livret-jeune
-**Title** : PEL, CEL, livret jeune : que valent-ils en 2026 ? | SAFIA
+**Title** : PEL, CEL, livret jeune : que valent-ils en 2026 ?
 **Meta** : PEL à 2 % brut mais fiscalisé, CEL à 1,25 %, livret jeune en voie de disparition : l'état réel des produits d'épargne réglementée oubliés.
 
 ### L'essentiel

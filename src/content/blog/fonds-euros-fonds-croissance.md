@@ -1,7 +1,7 @@
 ---
 code: "J19"
 titre: "Fonds euros et fonds croissance"
-titreSeo: "Fonds euros et fonds croissance | SAFIA"
+titreSeo: "Fonds euros et fonds croissance"
 description: "Le fonds en euros garantit le capital net de frais d'entrée et produit un rendement connu après coup. Sa performance dépend d'un portefeuille obligataire"
 categorie: "Produits d'investissement"
 date: 2026-09-16

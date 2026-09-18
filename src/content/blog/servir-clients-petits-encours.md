@@ -1,8 +1,8 @@
 ---
 code: "G8"
 titre: "Servir les clients sous 250 000 € sans y perdre d'argent"
-titreSeo: "Clients à faible encours : rentabilité en cabinet CGP | SAFIA"
-description: "Le seuil de rentabilité d'un client se calcule. Comment segmenter une clientèle, industrialiser ce qui peut l'être, et décider quoi faire des dossiers sous le seuil."
+titreSeo: "Clients à faible encours : rentabilité en cabinet CGP"
+description: "Le seuil de rentabilité d'un client se calcule. Comment segmenter, industrialiser ce qui peut l'être, et traiter les dossiers sous le seuil."
 categorie: "Professionnels"
 date: 2026-09-14
 lecture: 3

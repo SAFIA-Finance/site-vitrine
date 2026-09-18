@@ -1,7 +1,7 @@
 ---
 code: "K7"
 titre: "Wallis-et-Futuna et Saint-Pierre-et-Miquelon"
-titreSeo: "Wallis-et-Futuna et Saint-Pierre-et-Miquelon | SAFIA"
+titreSeo: "Wallis-et-Futuna et Saint-Pierre-et-Miquelon"
 description: "Les deux collectivités relèvent de l'article 74 de la Constitution et disposent d'une fiscalité propre. Wallis-et-Futuna repose très largement sur la"
 categorie: "Outre-mer"
 date: 2026-09-16

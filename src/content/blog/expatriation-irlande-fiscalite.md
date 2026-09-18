@@ -1,7 +1,7 @@
 ---
 code: "I18"
 titre: "Irlande : fiscalité de l'expatriation"
-titreSeo: "Irlande : fiscalité de l'expatriation | SAFIA"
+titreSeo: "Irlande : fiscalité de l'expatriation"
 description: "L'Irlande applique, comme Malte et le Royaume-Uni historiquement, le principe de remittance aux résidents non domiciliés."
 categorie: "Expatriation"
 date: 2026-09-16

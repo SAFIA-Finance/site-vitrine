@@ -1,7 +1,7 @@
 ---
 code: "E4"
 titre: "Frais de gestion : l'effet réel de 1 % sur vingt ans"
-titreSeo: "Frais de gestion : l'effet de 1 % sur 20 ans | SAFIA"
+titreSeo: "Frais de gestion : l'effet de 1 % sur 20 ans"
 description: "Un point de frais annuel paraît anodin. Sur vingt ans, il absorbe une fraction considérable du capital final. Le calcul complet, sans hypothèse optimiste."
 categorie: "Comparaison et décision"
 date: 2026-09-14

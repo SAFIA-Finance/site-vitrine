@@ -1,8 +1,8 @@
 ---
 code: "G6"
 titre: "Ce que l'AI Act change pour un cabinet qui utilise l'IA"
-titreSeo: "AI Act : ce qui change pour un cabinet de CGP | SAFIA"
-description: "Transparence, supervision humaine, documentation : les obligations qui concernent réellement un cabinet utilisateur d'IA, et celles qui pèsent sur ses fournisseurs."
+titreSeo: "AI Act : ce qui change pour un cabinet de CGP"
+description: "Transparence, supervision humaine, documentation : les obligations qui visent un cabinet utilisateur d'IA, et celles qui pèsent sur ses fournisseurs."
 categorie: "Professionnels"
 date: 2026-09-14
 lecture: 3

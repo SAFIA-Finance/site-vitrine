@@ -1,7 +1,7 @@
 ---
 code: "I23"
 titre: "Thaïlande : fiscalité de l'expatriation"
-titreSeo: "Thaïlande : fiscalité de l'expatriation | SAFIA"
+titreSeo: "Thaïlande : fiscalité de l'expatriation"
 description: "La Thaïlande appliquait une règle très favorable : les revenus étrangers n'étaient imposés que s'ils étaient rapatriés dans l'année de leur perception."
 categorie: "Expatriation"
 date: 2026-09-16

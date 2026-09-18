@@ -1,8 +1,8 @@
 ---
 code: "H5"
 titre: "Greenwashing : cinq signaux repérables sur une fiche de fonds"
-titreSeo: "Greenwashing : 5 signaux à repérer sur un fonds | SAFIA"
-description: "Vocabulaire flou, absence de seuil chiffré, exclusions cosmétiques : cinq vérifications concrètes pour repérer un fonds dont la promesse verte est surtout marketing."
+titreSeo: "Greenwashing : 5 signaux à repérer sur un fonds"
+description: "Vocabulaire flou, absence de seuil chiffré, exclusions cosmétiques : cinq vérifications pour repérer un fonds dont la promesse verte est du marketing."
 categorie: "ESG et impact"
 date: 2026-09-14
 lecture: 3

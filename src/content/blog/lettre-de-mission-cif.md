@@ -1,8 +1,8 @@
 ---
 code: "G4"
 titre: "La lettre de mission CIF : ce qu'elle doit contenir"
-titreSeo: "Lettre de mission CIF : contenu obligatoire | SAFIA"
-description: "Objet, étendue, rémunération, durée : les mentions attendues dans une lettre de mission de conseiller en investissements financiers, et les formulations à éviter."
+titreSeo: "Lettre de mission CIF : contenu obligatoire"
+description: "Objet, étendue, rémunération, durée : les mentions attendues dans une lettre de mission CIF, et les formulations à éviter."
 categorie: "Professionnels"
 date: 2026-09-14
 lecture: 2

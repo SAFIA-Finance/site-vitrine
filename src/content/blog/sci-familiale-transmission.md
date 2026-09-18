@@ -1,7 +1,7 @@
 ---
 code: "D12"
 titre: "La SCI familiale : ce qu'elle règle et ce qu'elle complique"
-titreSeo: "La SCI familiale | SAFIA"
+titreSeo: "La SCI familiale : ce qu'elle règle et ce qu'elle complique"
 description: "La SCI transforme un bien indivisible en parts divisibles, ce qui facilite la transmission progressive. Elle organise la gouvernance : le gérant décide"
 categorie: "Donation et succession"
 date: 2026-09-16

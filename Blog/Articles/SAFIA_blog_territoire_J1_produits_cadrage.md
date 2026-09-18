@@ -16,6 +16,7 @@ Auteur : Maxime Bouché, CIF · Rédigés le 16 septembre 2026
 ## J1 — Enveloppe et support : la distinction que presque personne ne fait
 
 **URL** : /blog/enveloppe-ou-support · **Mot-clé** : enveloppe fiscale placement · **Page liée** : ADN Investisseur
+**Title** : Enveloppe et support : comprendre la distinction
 
 ### L'essentiel
 
@@ -102,6 +103,7 @@ AMF, guides de l'épargnant sur les risques et la diversification · Documents d
 ## J3 — Liquidité, risque, horizon : le triangle qui range tous les produits
 
 **URL** : /blog/liquidite-risque-horizon · **Mot-clé** : risque liquidité placement · **Page liée** : ADN Investisseur
+**Title** : Liquidité, risque, horizon : situer tout placement
 
 ### L'essentiel
 
@@ -190,6 +192,7 @@ Règlement (UE) n° 1286/2014 dit PRIIPs et ses règlements délégués sur le f
 ## J5 — Produits complexes : les six questions à poser avant de signer
 
 **URL** : /blog/produits-complexes-questions · **Mot-clé** : placement complexe · **Page liée** : Notre méthode
+**Title** : Produits complexes : six questions avant de signer
 
 ### L'essentiel
 
@@ -467,6 +470,7 @@ Code monétaire et financier, articles L. 214-86 et suivants sur les SCPI · AMF
 ## J11 — OPCI et SCI de rendement
 
 **URL** : /blog/opci-sci-rendement · **Mot-clé** : opci · **Page liée** : Cockpit stratégique
+**Title** : OPCI et SCI de rendement : la différence avec la SCPI
 
 ### L'essentiel
 

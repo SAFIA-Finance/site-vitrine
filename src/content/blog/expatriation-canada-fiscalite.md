@@ -1,7 +1,7 @@
 ---
 code: "I25"
 titre: "Canada : fiscalité de l'expatriation"
-titreSeo: "Canada : fiscalité de l'expatriation | SAFIA"
+titreSeo: "Canada : fiscalité de l'expatriation"
 description: "Le Canada n'est pas une destination d'optimisation : il impose les revenus mondiaux de ses résidents. Il n'a pas de droits de succession, mais une"
 categorie: "Expatriation"
 date: 2026-09-16

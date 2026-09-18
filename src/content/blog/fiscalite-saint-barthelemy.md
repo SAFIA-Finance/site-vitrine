@@ -1,7 +1,7 @@
 ---
 code: "K2"
 titre: "Saint-Barthélemy : autonomie fiscale et règle des cinq ans"
-titreSeo: "Saint-Barthélemy | SAFIA"
+titreSeo: "Saint-Barthélemy : autonomie fiscale et règle des cinq ans"
 description: "Saint-Barthélemy dispose de sa propre compétence fiscale depuis 2007 : le Code général des impôts ne s'y applique pas, sauf mention expresse."
 categorie: "Outre-mer"
 date: 2026-09-16

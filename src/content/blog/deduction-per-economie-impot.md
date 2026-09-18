@@ -1,8 +1,8 @@
 ---
 code: "C3"
 titre: "Déduction PER : calculer son économie d'impôt réelle"
-titreSeo: "Déduction PER : calculer son économie d'impôt réelle | SAFIA"
-description: "L'économie d'impôt d'un versement PER dépend de ta tranche marginale. Le calcul exact, les effets de seuil, et pourquoi l'avantage affiché est souvent surestimé."
+titreSeo: "Déduction PER : calculer son économie d'impôt réelle"
+description: "L'économie d'impôt d'un versement PER dépend de ta tranche marginale. Le calcul exact, les effets de seuil, et pourquoi l'avantage est surestimé."
 categorie: "Retraite"
 date: 2026-09-14
 lecture: 3

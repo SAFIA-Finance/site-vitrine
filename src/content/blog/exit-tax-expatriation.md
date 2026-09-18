@@ -1,8 +1,8 @@
 ---
 code: "I2"
 titre: "Exit tax : seuils, taux de 31,4 %, sursis et dégrèvement"
-titreSeo: "Exit tax 2026 : seuils, taux et sursis de paiement | SAFIA"
-description: "L'exit tax impose vos plus-values latentes au départ de France, à 31,4 % en 2026. Conditions de déclenchement, sursis automatique ou sur garanties, dégrèvement après 2 ou 5 ans."
+titreSeo: "Exit tax 2026 : seuils, taux et sursis de paiement"
+description: "L'exit tax impose vos plus-values latentes au départ de France, à 31,4 % en 2026. Déclenchement, sursis, dégrèvement après 2 ou 5 ans."
 categorie: "Expatriation"
 date: 2026-09-16
 lecture: 5

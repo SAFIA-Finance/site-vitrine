@@ -1,7 +1,7 @@
 ---
 code: "G2"
 titre: "Digitaliser un cabinet de gestion de patrimoine : par où commencer"
-titreSeo: "Digitaliser son cabinet de CGP : par où commencer | SAFIA"
+titreSeo: "Digitaliser son cabinet de CGP : par où commencer"
 description: "Une méthode en quatre chantiers, ordonnés par rapport effort/valeur, pour digitaliser un cabinet sans interrompre l'activité ni dégrader la conformité."
 categorie: "Professionnels"
 date: 2026-09-14

@@ -1,7 +1,7 @@
 ---
 code: "D13"
 titre: "Enfant handicapé : les dispositifs de protection et de transmission"
-titreSeo: "Enfant handicapé | SAFIA"
+titreSeo: "Enfant handicapé : protection et transmission"
 description: "Un abattement spécifique de 159 325 € s'applique, cumulable avec l'abattement de parenté. Un enfant handicapé recevant d'un parent bénéficie donc de 259"
 categorie: "Donation et succession"
 date: 2026-09-16

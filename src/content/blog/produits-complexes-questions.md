@@ -1,7 +1,7 @@
 ---
 code: "J5"
 titre: "Produits complexes : les six questions à poser avant de signer"
-titreSeo: "Produits complexes | SAFIA"
+titreSeo: "Produits complexes : six questions avant de signer"
 description: "Un produit complexe n'est pas nécessairement mauvais : il est difficile à évaluer, ce qui est différent. Six questions suffisent à faire apparaître ce qui"
 categorie: "Produits d'investissement"
 date: 2026-09-16

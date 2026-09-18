@@ -1,7 +1,7 @@
 ---
 code: "B8"
 titre: "PER ou assurance-vie : le choix dépend de ta tranche marginale"
-titreSeo: "PER ou assurance-vie : comment trancher en 2026 | SAFIA"
+titreSeo: "PER ou assurance-vie : comment trancher en 2026"
 description: "Le PER déduit à l'entrée et impose à la sortie, l'assurance-vie fait l'inverse. Comment choisir selon ta tranche marginale, avec un exemple chiffré."
 categorie: "Assurance-vie"
 date: 2026-09-14

@@ -1,7 +1,7 @@
 ---
 code: "D7"
 titre: "Assurance-vie après 70 ans : ce que change l'article 757 B"
-titreSeo: "Assurance-vie après 70 ans : le régime de l'article 757 B | SAFIA"
+titreSeo: "Assurance-vie après 70 ans : le régime de l'article 757 B"
 description: "Après 70 ans, l'abattement tombe à 30 500 € global, mais seules les primes sont taxées, pas les gains. Pourquoi ce régime reste souvent intéressant."
 categorie: "Donation et succession"
 date: 2026-09-14

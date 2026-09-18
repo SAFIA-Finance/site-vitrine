@@ -1,7 +1,7 @@
 ---
 code: "I26"
 titre: "États-Unis : fiscalité de l'expatriation"
-titreSeo: "États-Unis : fiscalité de l'expatriation | SAFIA"
+titreSeo: "États-Unis : fiscalité de l'expatriation"
 description: "Les États-Unis imposent leurs citoyens et détenteurs de carte verte sur leurs revenus mondiaux, même s'ils vivent ailleurs."
 categorie: "Expatriation"
 date: 2026-09-16

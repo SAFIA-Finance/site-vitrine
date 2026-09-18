@@ -1,7 +1,7 @@
 ---
 code: "J4"
 titre: "Comment lire un DIC en cinq minutes"
-titreSeo: "Comment lire un DIC en cinq minutes | SAFIA"
+titreSeo: "Comment lire un DIC en cinq minutes"
 description: "Le document d'informations clés est obligatoire, normalisé et court : c'est la seule pièce réellement comparable d'un produit à l'autre."
 categorie: "Produits d'investissement"
 date: 2026-09-16

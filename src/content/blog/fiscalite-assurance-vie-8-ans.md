@@ -1,7 +1,7 @@
 ---
 code: "B1"
 titre: "Fiscalité de l'assurance-vie : ce que change vraiment le cap des huit ans"
-titreSeo: "Fiscalité assurance-vie 2026 : avant et après 8 ans | SAFIA"
+titreSeo: "Fiscalité assurance-vie 2026 : avant et après 8 ans"
 description: "Avant 8 ans, 30 % sur les gains. Après, un abattement de 4 600 € et un taux de 24,7 %. Le calcul complet, avec les chiffres 2026 et un exemple détaillé."
 categorie: "Assurance-vie"
 date: 2026-09-14

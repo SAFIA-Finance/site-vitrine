@@ -1,7 +1,7 @@
 ---
 code: "J20"
 titre: "Or et métaux précieux"
-titreSeo: "Or et métaux précieux | SAFIA"
+titreSeo: "Or et métaux précieux : fiscalité et rôle réel"
 description: "L'or ne produit ni intérêt ni dividende : sa performance vient uniquement de la variation de son prix. Il est traditionnellement détenu comme"
 categorie: "Produits d'investissement"
 date: 2026-09-16

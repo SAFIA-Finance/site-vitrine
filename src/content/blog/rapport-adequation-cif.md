@@ -1,8 +1,8 @@
 ---
 code: "G5"
 titre: "Rapport d'adéquation : le produire plus vite sans perdre en qualité"
-titreSeo: "Déclaration d'adéquation : contenu et méthode | SAFIA"
-description: "Le rapport d'adéquation doit expliquer pourquoi la recommandation convient à ce client. Structure, mentions attendues et méthode pour le produire efficacement."
+titreSeo: "Déclaration d'adéquation : contenu et méthode"
+description: "Le rapport d'adéquation doit expliquer pourquoi la recommandation convient à ce client. Structure, mentions attendues et méthode de production."
 categorie: "Professionnels"
 date: 2026-09-14
 lecture: 2

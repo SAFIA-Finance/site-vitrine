@@ -14,7 +14,7 @@ Bloc auteur et avertissement repris en fin de chaque article :
 ## E1 — Robo-advisor : ce que c'est, ce que ça fait, ce que ça ne fait pas
 
 **URL** : /blog/robo-advisor-definition
-**Title** : Robo-advisor : définition, fonctionnement, limites | SAFIA
+**Title** : Robo-advisor : définition, fonctionnement, limites
 **Meta** : Un robo-advisor gère un portefeuille selon un profil, via un mandat. Comment il fonctionne réellement, ce qu'il coûte, et dans quels cas il convient.
 
 ### L'essentiel
@@ -92,7 +92,7 @@ Page **Assistant IA** · articles **E2** (gestion pilotée ou libre) et **E4** (
 ## E2 — Gestion pilotée ou gestion libre : la question n'est pas le rendement
 
 **URL** : /blog/gestion-pilotee-ou-libre
-**Title** : Gestion pilotée ou gestion libre : comment choisir | SAFIA
+**Title** : Gestion pilotée ou gestion libre : comment choisir
 **Meta** : Déléguer ou décider soi-même : le choix se joue sur le temps, la discipline et le coût, pas sur une supposée supériorité de performance.
 
 ### L'essentiel
@@ -177,7 +177,7 @@ Page **Assistant IA** · articles **E1** (robo-advisor) et **E4** (effet des fra
 ## E3 — Agrégateur de comptes : comment la DSP2 a rendu ça possible
 
 **URL** : /blog/agregateur-de-comptes-dsp2
-**Title** : Agrégateur de comptes : fonctionnement et sécurité | SAFIA
+**Title** : Agrégateur de comptes : fonctionnement et sécurité
 **Meta** : Depuis la DSP2, tes banques doivent ouvrir un accès sécurisé à tes données. Comment fonctionne un agrégateur, ce qu'il voit, et ce qu'il ne peut pas faire.
 
 ### L'essentiel
@@ -259,7 +259,7 @@ Page **Sécurité et conformité** · articles **F4** (bilan patrimonial) et **A
 ## E4 — Frais de gestion : l'effet réel de 1 % sur vingt ans
 
 **URL** : /blog/frais-de-gestion-effet-20-ans
-**Title** : Frais de gestion : l'effet de 1 % sur 20 ans | SAFIA
+**Title** : Frais de gestion : l'effet de 1 % sur 20 ans
 **Meta** : Un point de frais annuel paraît anodin. Sur vingt ans, il absorbe une fraction considérable du capital final. Le calcul complet, sans hypothèse optimiste.
 
 ### L'essentiel
@@ -343,8 +343,8 @@ Page **Tarifs** · articles **B7** (frais d'assurance-vie) et **E2** (gestion pi
 ## E5 — Conseiller en gestion de patrimoine : combien ça coûte, et à partir de quel patrimoine
 
 **URL** : /blog/cout-conseiller-gestion-patrimoine
-**Title** : Prix d'un conseiller en gestion de patrimoine 2026 | SAFIA
-**Meta** : Honoraires, rétrocessions, frais sur encours : les trois modes de rémunération d'un CGP, leurs conséquences, et le seuil de patrimoine à partir duquel on est servi.
+**Title** : Prix d'un conseiller en gestion de patrimoine 2026
+**Meta** : Honoraires, rétrocessions, frais sur encours : les trois modes de rémunération d'un CGP, et le seuil de patrimoine à partir duquel on est servi.
 
 ### L'essentiel
 

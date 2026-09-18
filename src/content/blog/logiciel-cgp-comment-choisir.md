@@ -1,8 +1,8 @@
 ---
 code: "G1"
 titre: "Logiciel CGP : les huit fonctions qui font réellement la différence"
-titreSeo: "Logiciel CGP : les 8 fonctions qui comptent | SAFIA"
-description: "Agrégation, conformité, reporting, GRC : la grille de sélection d'un outil métier pour un cabinet de gestion de patrimoine, et les pièges du changement d'outil."
+titreSeo: "Logiciel CGP : les 8 fonctions qui comptent"
+description: "Agrégation, conformité, reporting, GRC : la grille de sélection d'un outil métier pour un cabinet, et les pièges du changement d'outil."
 categorie: "Professionnels"
 date: 2026-09-14
 lecture: 3

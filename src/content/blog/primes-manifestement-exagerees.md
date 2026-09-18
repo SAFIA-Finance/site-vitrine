@@ -1,7 +1,7 @@
 ---
 code: "D16"
 titre: "Assurance-vie contestée : les primes manifestement exagérées"
-titreSeo: "Assurance-vie contestée | SAFIA"
+titreSeo: "Assurance-vie contestée : les primes manifestement exagérées"
 description: "L'assurance-vie échappe en principe aux règles du rapport et de la réduction : elle est hors succession. Sauf si les primes versées sont jugées"
 categorie: "Donation et succession"
 date: 2026-09-16

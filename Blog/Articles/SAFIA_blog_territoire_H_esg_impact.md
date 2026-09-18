@@ -16,8 +16,8 @@ Bloc auteur et avertissement repris en fin de chaque article :
 ## H1 — Investir selon ses valeurs : par où commencer concrètement
 
 **URL** : /blog/investir-selon-ses-valeurs
-**Title** : Investir selon ses valeurs : par où commencer | SAFIA
-**Meta** : Exclure, sélectionner ou financer : trois approches distinctes de l'investissement responsable, et comment identifier celle qui correspond à ce que tu veux vraiment.
+**Title** : Investir selon ses valeurs : par où commencer
+**Meta** : Exclure, sélectionner ou financer : trois approches de l'investissement responsable, et comment identifier celle qui te correspond vraiment.
 
 ### L'essentiel
 
@@ -92,7 +92,7 @@ Page **ADN Investisseur** · articles **H2** (labels) et **H5** (greenwashing).
 ## H2 — ISR, Greenfin, Finansol : ce que les labels garantissent vraiment
 
 **URL** : /blog/labels-isr-greenfin-finansol
-**Title** : Labels ISR, Greenfin, Finansol : que valent-ils ? | SAFIA
+**Title** : Labels ISR, Greenfin, Finansol : que valent-ils ?
 **Meta** : Trois labels français, trois promesses différentes. Ce que chacun exige réellement, ce qu'il n'exige pas, et comment les utiliser sans se tromper.
 
 ### L'essentiel
@@ -174,7 +174,7 @@ Page **ADN Investisseur** · articles **H3** (SFDR) et **H5** (greenwashing).
 ## H3 — Article 8, article 9 : décoder la classification SFDR
 
 **URL** : /blog/sfdr-article-8-article-9
-**Title** : SFDR articles 6, 8 et 9 : ce que ça veut dire | SAFIA
+**Title** : SFDR articles 6, 8 et 9 : ce que ça veut dire
 **Meta** : La classification SFDR est auto-déclarée et va être remplacée. Ce que recouvrent réellement les articles 8 et 9, et ce qui change avec la réforme en cours.
 
 ### L'essentiel
@@ -254,8 +254,8 @@ Page **ADN Investisseur** · articles **H2** (labels) et **H4** (notation ESG).
 ## H4 — Notation ESG : pourquoi deux agences donnent deux notes opposées
 
 **URL** : /blog/notation-esg-divergence-agences
-**Title** : Notation ESG : pourquoi les agences se contredisent | SAFIA
-**Meta** : Une même entreprise peut être bien notée par une agence et mal par une autre. Les trois causes de cette divergence, et comment lire une note ESG sans se tromper.
+**Title** : Notation ESG : pourquoi les agences se contredisent
+**Meta** : Une entreprise peut être bien notée par une agence et mal par une autre. Les trois causes de cette divergence, et comment lire une note ESG.
 
 ### L'essentiel
 
@@ -332,8 +332,8 @@ Page **Notre méthode** · articles **H3** (SFDR) et **H5** (greenwashing).
 ## H5 — Greenwashing : cinq signaux repérables sur une fiche de fonds
 
 **URL** : /blog/greenwashing-signaux-fonds
-**Title** : Greenwashing : 5 signaux à repérer sur un fonds | SAFIA
-**Meta** : Vocabulaire flou, absence de seuil chiffré, exclusions cosmétiques : cinq vérifications concrètes pour repérer un fonds dont la promesse verte est surtout marketing.
+**Title** : Greenwashing : 5 signaux à repérer sur un fonds
+**Meta** : Vocabulaire flou, absence de seuil chiffré, exclusions cosmétiques : cinq vérifications pour repérer un fonds dont la promesse verte est du marketing.
 
 ### L'essentiel
 

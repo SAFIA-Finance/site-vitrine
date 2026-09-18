@@ -1,7 +1,7 @@
 ---
 code: "G3"
 titre: "Questionnaire de connaissance client : obligations et pratiques"
-titreSeo: "Recueil client MiFID II : obligations du CIF | SAFIA"
+titreSeo: "Recueil client MiFID II : obligations du CIF"
 description: "Les cinq blocs obligatoires du recueil d'informations, les exigences de mise à jour, et les faiblesses les plus fréquemment relevées en contrôle."
 categorie: "Professionnels"
 date: 2026-09-14

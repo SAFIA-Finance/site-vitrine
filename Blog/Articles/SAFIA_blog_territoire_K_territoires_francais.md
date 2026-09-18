@@ -16,6 +16,7 @@
 ## K1 — DROM, COM, Nouvelle-Calédonie : qui applique quelle fiscalité
 
 **URL** : /blog/fiscalite-outre-mer-panorama · **Mot-clé** : fiscalité outre-mer · **Page liée** : Cockpit stratégique
+**Title** : DROM, COM, Nouvelle-Calédonie : quelle fiscalité
 **Vérifié le 16 septembre 2026**
 
 ### Le tableau de synthèse
@@ -262,6 +263,7 @@ Code général des impôts, article 197, I, 3 · BOFiP, BOI-IR-LIQ-20-30-10, mod
 ## K5 — Polynésie française
 
 **URL** : /blog/fiscalite-polynesie-francaise · **Mot-clé** : fiscalité polynésie française · **Page liée** : Cockpit stratégique
+**Title** : Polynésie française : fiscalité propre et autonomie
 **Vérifié le 16 septembre 2026**
 
 ### L'essentiel
@@ -306,6 +308,7 @@ Constitution du 4 octobre 1958, article 74 · Loi organique n° 2004-192 du 27 f
 ## K6 — Nouvelle-Calédonie
 
 **URL** : /blog/fiscalite-nouvelle-caledonie · **Mot-clé** : fiscalité nouvelle-calédonie · **Page liée** : Cockpit stratégique
+**Title** : Nouvelle-Calédonie : fiscalité locale et convention
 **Vérifié le 16 septembre 2026**
 
 ### L'essentiel

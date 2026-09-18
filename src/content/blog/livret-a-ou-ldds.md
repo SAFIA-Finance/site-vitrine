@@ -1,7 +1,7 @@
 ---
 code: "A3"
 titre: "Livret A ou LDDS : la différence est plus mince qu'on croit"
-titreSeo: "Livret A ou LDDS : quelle différence réelle en 2026 ? | SAFIA"
+titreSeo: "Livret A ou LDDS : quelle différence réelle en 2026 ?"
 description: "Même taux de 1,70 %, même fiscalité nulle, même disponibilité. Ce qui sépare vraiment le livret A du LDDS, et pourquoi la question du choix ne se pose pas."
 categorie: "Épargne réglementée"
 date: 2026-09-14

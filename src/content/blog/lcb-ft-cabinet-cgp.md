@@ -1,7 +1,7 @@
 ---
 code: "G10"
 titre: "LCB-FT en cabinet : les obligations qui tombent vraiment sur vous"
-titreSeo: "LCB-FT : les obligations d'un cabinet de CGP | SAFIA"
+titreSeo: "LCB-FT : les obligations d'un cabinet de CGP"
 description: "Classification des risques, vigilance, conservation, déclaration de soupçon : ce que la lutte contre le blanchiment impose concrètement à un cabinet."
 categorie: "Professionnels"
 date: 2026-09-14

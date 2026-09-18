@@ -1,7 +1,7 @@
 ---
 code: "B6"
 titre: "Clause bénéficiaire : cinq formulations et ce qu'elles produisent"
-titreSeo: "Clause bénéficiaire : erreurs fréquentes et rédaction | SAFIA"
+titreSeo: "Clause bénéficiaire : erreurs fréquentes et rédaction"
 description: "Une ligne mal rédigée peut annuler des années d'optimisation. Cinq formulations de clause bénéficiaire et leurs conséquences concrètes."
 categorie: "Assurance-vie"
 date: 2026-09-14

@@ -1,8 +1,8 @@
 ---
 code: "D1"
 titre: "Droits de succession : barème, abattements et calcul pas à pas"
-titreSeo: "Droits de succession 2026 : barème et abattements | SAFIA"
-description: "Abattement de 100 000 € par enfant, barème de 5 % à 45 %, exonération du conjoint : le calcul complet des droits de succession, avec trois exemples chiffrés."
+titreSeo: "Droits de succession 2026 : barème et abattements"
+description: "Abattement de 100 000 € par enfant, barème de 5 % à 45 %, exonération du conjoint : le calcul des droits de succession, avec trois exemples."
 categorie: "Donation et succession"
 date: 2026-09-14
 lecture: 3

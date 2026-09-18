@@ -1,7 +1,7 @@
 ---
 code: "D10"
 titre: "Transmettre une entreprise : le pacte Dutreil après la réforme 2026"
-titreSeo: "Transmettre une entreprise | SAFIA"
+titreSeo: "Pacte Dutreil 2026 : transmettre son entreprise"
 description: "Le pacte Dutreil permet une exonération de 75 % de la valeur des titres transmis, sous engagements de conservation."
 categorie: "Donation et succession"
 date: 2026-09-16

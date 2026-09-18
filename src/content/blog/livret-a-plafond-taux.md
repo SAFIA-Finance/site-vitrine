@@ -1,8 +1,8 @@
 ---
 code: "A1"
 titre: "Livret A en 2026 : plafond, taux et fonctionnement"
-titreSeo: "Livret A 2026 : taux de 1,70 %, plafond 22 950 € | SAFIA"
-description: "Le taux du livret A est passé à 1,70 % le 1er août 2026. Plafond, calcul des intérêts par quinzaine, fiscalité : le fonctionnement expliqué avec des exemples chiffrés."
+titreSeo: "Livret A 2026 : taux de 1,70 %, plafond 22 950 €"
+description: "Le taux du livret A est passé à 1,70 % le 1er août 2026. Plafond, calcul par quinzaine, fiscalité : le fonctionnement avec des exemples chiffrés."
 categorie: "Épargne réglementée"
 date: 2026-09-14
 lecture: 3

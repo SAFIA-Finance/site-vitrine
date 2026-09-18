@@ -1,8 +1,8 @@
 ---
 code: "I4"
 titre: "Assurance-vie et PEA quand on s'expatrie : ce qui change vraiment"
-titreSeo: "Assurance-vie et PEA en expatriation : ce qui change | SAFIA"
-description: "Faut-il clôturer son assurance-vie ou son PEA avant de partir ? Ce que change la non-résidence sur la fiscalité des rachats, des dividendes et de la transmission."
+titreSeo: "Assurance-vie et PEA en expatriation : ce qui change"
+description: "Faut-il clôturer son assurance-vie ou son PEA avant de partir ? Ce que la non-résidence change sur les rachats, dividendes et transmission."
 categorie: "Expatriation"
 date: 2026-09-16
 lecture: 4

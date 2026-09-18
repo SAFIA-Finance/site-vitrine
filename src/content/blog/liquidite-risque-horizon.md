@@ -1,7 +1,7 @@
 ---
 code: "J3"
 titre: "Liquidité, risque, horizon : le triangle qui range tous les produits"
-titreSeo: "Liquidité, risque, horizon | SAFIA"
+titreSeo: "Liquidité, risque, horizon : situer tout placement"
 description: "Trois paramètres suffisent à situer n'importe quel placement : disponibilité, risque de perte, horizon minimal."
 categorie: "Produits d'investissement"
 date: 2026-09-16

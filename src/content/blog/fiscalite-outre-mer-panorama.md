@@ -1,7 +1,7 @@
 ---
 code: "K1"
 titre: "DROM, COM, Nouvelle-Calédonie : qui applique quelle fiscalité"
-titreSeo: "DROM, COM, Nouvelle-Calédonie | SAFIA"
+titreSeo: "DROM, COM, Nouvelle-Calédonie : quelle fiscalité"
 description: "Les DROM appliquent le Code général des impôts. Ce ne sont pas des territoires à fiscalité dérogatoire : ce sont des départements avec des aménagements."
 categorie: "Outre-mer"
 date: 2026-09-16

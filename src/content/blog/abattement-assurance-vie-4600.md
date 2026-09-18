@@ -1,7 +1,7 @@
 ---
 code: "B2"
 titre: "L'abattement de 4 600 € : comment il s'applique réellement"
-titreSeo: "Abattement de 4 600 € en assurance-vie : mode d'emploi | SAFIA"
+titreSeo: "Abattement de 4 600 € en assurance-vie : mode d'emploi"
 description: "L'abattement annuel de 4 600 € ou 9 200 € ne s'applique qu'à l'impôt sur le revenu, pas aux prélèvements sociaux. Calcul, pièges et exemple chiffré."
 categorie: "Assurance-vie"
 date: 2026-09-14

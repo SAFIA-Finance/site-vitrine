@@ -1,7 +1,7 @@
 ---
 code: "J8"
 titre: "Fonds obligataires et fonds datés"
-titreSeo: "Fonds obligataires et fonds datés | SAFIA"
+titreSeo: "Fonds obligataires et fonds datés"
 description: "Le prix d'une obligation baisse quand les taux montent : c'est le mécanisme que beaucoup d'épargnants ont découvert en 2022."
 categorie: "Produits d'investissement"
 date: 2026-09-16

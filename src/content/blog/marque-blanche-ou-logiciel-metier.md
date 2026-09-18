@@ -1,8 +1,8 @@
 ---
 code: "G11"
 titre: "Marque blanche ou logiciel métier : ce que le choix engage"
-titreSeo: "Marque blanche ou logiciel métier : quelles différences | SAFIA"
-description: "Deux modèles d'équipement technologique, deux répartitions de responsabilité. Ce que la marque blanche change juridiquement, commercialement et contractuellement."
+titreSeo: "Marque blanche ou logiciel métier : quelles différences"
+description: "Deux modèles d'équipement, deux répartitions de responsabilité. Ce que la marque blanche change juridiquement, commercialement et contractuellement."
 categorie: "Professionnels"
 date: 2026-09-14
 lecture: 3

@@ -1,7 +1,7 @@
 ---
 code: "K6"
 titre: "Nouvelle-Calédonie"
-titreSeo: "Nouvelle-Calédonie | SAFIA"
+titreSeo: "Nouvelle-Calédonie : fiscalité locale et convention"
 description: "La Nouvelle-Calédonie relève d'un statut propre, inscrit au titre XIII de la Constitution et issu de l'accord de Nouméa."
 categorie: "Outre-mer"
 date: 2026-09-16

@@ -1,7 +1,7 @@
 ---
 code: "C7"
 titre: "Préparer sa retraite à 30, 40 et 50 ans : trois stratégies distinctes"
-titreSeo: "Préparer sa retraite à 30, 40 ou 50 ans | SAFIA"
+titreSeo: "Préparer sa retraite à 30, 40 ou 50 ans"
 description: "L'horizon change tout : l'effort, les supports, les priorités. Trois stratégies distinctes selon l'âge, avec les montants et les arbitrages correspondants."
 categorie: "Retraite"
 date: 2026-09-14

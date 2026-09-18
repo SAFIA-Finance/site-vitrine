@@ -1,7 +1,7 @@
 ---
 code: "J16"
 titre: "Crowdfunding immobilier"
-titreSeo: "Crowdfunding immobilier | SAFIA"
+titreSeo: "Crowdfunding immobilier : rendement, risque, défauts"
 description: "Tu prêtes à un promoteur pour financer une opération, contre un intérêt annuel affiché souvent entre 8 % et 12 %."
 categorie: "Produits d'investissement"
 date: 2026-09-16

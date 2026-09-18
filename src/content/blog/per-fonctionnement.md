@@ -1,8 +1,8 @@
 ---
 code: "C2"
 titre: "PER : fonctionnement, déduction, déblocage, sortie"
-titreSeo: "PER : fonctionnement complet et fiscalité 2026 | SAFIA"
-description: "Versements déductibles, blocage jusqu'à la retraite, sortie en capital ou en rente : le PER expliqué, avec les plafonds 2026 et les nouveautés de la loi de finances."
+titreSeo: "PER : fonctionnement complet et fiscalité 2026"
+description: "Versements déductibles, blocage, sortie en capital ou en rente : le PER expliqué, avec les plafonds 2026 et les nouveautés de la loi de finances."
 categorie: "Retraite"
 date: 2026-09-14
 lecture: 3

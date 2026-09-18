@@ -1,7 +1,7 @@
 ---
 code: "D15"
 titre: "Indivision successorale : sortir du blocage"
-titreSeo: "Indivision successorale : sortir du blocage | SAFIA"
+titreSeo: "Indivision successorale : sortir du blocage"
 description: "L'indivision naît automatiquement au décès et dure jusqu'au partage : elle n'a pas de durée légale. Les décisions les plus lourdes, dont la vente, exigent"
 categorie: "Donation et succession"
 date: 2026-09-16

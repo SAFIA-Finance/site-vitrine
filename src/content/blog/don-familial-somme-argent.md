@@ -1,7 +1,7 @@
 ---
 code: "D3"
 titre: "Don familial de somme d'argent : les 31 865 € qui se cumulent"
-titreSeo: "Don familial de 31 865 € : conditions et cumul | SAFIA"
+titreSeo: "Don familial de 31 865 € : conditions et cumul"
 description: "L'article 790 G permet de donner 31 865 € en argent, exonérés, en plus de l'abattement de 100 000 €. Conditions d'âge, bénéficiaires, déclaration."
 categorie: "Donation et succession"
 date: 2026-09-14

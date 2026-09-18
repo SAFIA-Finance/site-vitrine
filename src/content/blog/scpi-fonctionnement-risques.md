@@ -1,7 +1,7 @@
 ---
 code: "J10"
 titre: "SCPI : rendement, liquidité, fiscalité"
-titreSeo: "SCPI : rendement, liquidité, fiscalité | SAFIA"
+titreSeo: "SCPI : rendement, liquidité, fiscalité"
 description: "Une SCPI détient un patrimoine immobilier locatif et te reverse une quote-part des loyers. Le rendement affiché est un rendement brut avant impôt : la"
 categorie: "Produits d'investissement"
 date: 2026-09-16

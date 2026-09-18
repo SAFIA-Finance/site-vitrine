@@ -308,8 +308,22 @@ for (const chemin of fichiers) {
     const seoDerive = !titreSeo || !description;
 
     if (!titreSeo) {
-      const court = titre.length > 48 ? titre.split(/\s+[:—]\s+/)[0] : titre;
-      titreSeo = `${couper(court, 51)} | SAFIA`;
+      // Plus de suffixe « | SAFIA » : il coûtait 8 des 60 signes que Google
+      // affiche, alors que le nom du site figure déjà sur la ligne du domaine,
+      // juste au-dessus du titre dans les résultats.
+      //
+      // Plus de troncature au « : » non plus. L'ancienne règle ne gardait que
+      // le segment avant le deux-points dès que le titre dépassait 48 signes,
+      // et fabriquait des étiquettes muettes : « Testament » pour « Testament :
+      // olographe, authentique, international », « DROM » pour « DROM : la
+      // réfaction d'impôt de 30 % et 40 %, et son plafond ». Les deux nombres
+      // étaient calibrés sur le budget d'alors (51 + 8 de suffixe) ; le suffixe
+      // retiré, le titre éditorial tient désormais entier dans les 60 signes.
+      //
+      // Les articles dont le H1 dépasse 60 signes, ou n'est lui-même qu'une
+      // étiquette, ont reçu un **Title** écrit dans leur fichier territoire :
+      // aucun titre n'est donc plus coupé ici.
+      titreSeo = couper(titre, 60);
     }
     if (!description) {
       // Les puces de « L'essentiel » résument déjà l'article dans les mots de

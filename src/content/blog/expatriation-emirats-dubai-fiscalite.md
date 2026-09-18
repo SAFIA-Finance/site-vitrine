@@ -1,7 +1,7 @@
 ---
 code: "I20"
 titre: "Émirats arabes unis : fiscalité de l'expatriation"
-titreSeo: "Émirats arabes unis | SAFIA"
+titreSeo: "Émirats arabes unis : fiscalité de l'expatriation"
 description: "Les Émirats n'imposent pas les revenus des personnes physiques : c'est la réalité, et c'est ce qui explique l'attractivité."
 categorie: "Expatriation"
 date: 2026-09-16

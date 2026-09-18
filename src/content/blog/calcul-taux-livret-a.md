@@ -1,7 +1,7 @@
 ---
 code: "A6"
 titre: "Comment le taux du livret A est calculé"
-titreSeo: "Calcul du taux du livret A : la formule expliquée | SAFIA"
+titreSeo: "Calcul du taux du livret A : la formule expliquée"
 description: "Inflation, €STR, révision semestrielle, coup de pouce politique : comment se fixe le taux du livret A, et comment anticiper la révision de février 2027."
 categorie: "Épargne réglementée"
 date: 2026-09-14

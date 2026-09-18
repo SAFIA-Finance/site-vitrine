@@ -1,7 +1,7 @@
 ---
 code: "I19"
 titre: "Royaume-Uni : fiscalité de l'expatriation"
-titreSeo: "Royaume-Uni : fiscalité de l'expatriation | SAFIA"
+titreSeo: "Royaume-Uni : fiscalité de l'expatriation"
 description: "Le régime historique du non-dom a été supprimé, à compter d'avril 2025. Toute page qui le présente comme accessible est périmée."
 categorie: "Expatriation"
 date: 2026-09-16

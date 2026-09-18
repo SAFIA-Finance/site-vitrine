@@ -1,8 +1,8 @@
 ---
 code: "I1"
 titre: "Devenir non-résident fiscal : les quatre critères de l'article 4 B"
-titreSeo: "Résidence fiscale : devenir non-résident français | SAFIA"
-description: "Foyer, séjour principal, activité professionnelle, centre des intérêts économiques : les quatre critères qui déterminent votre résidence fiscale, et comment un départ se conteste."
+titreSeo: "Résidence fiscale : devenir non-résident français"
+description: "Foyer, séjour, activité, intérêts économiques : les quatre critères qui déterminent votre résidence fiscale, et comment un départ se conteste."
 categorie: "Expatriation"
 date: 2026-09-16
 lecture: 4

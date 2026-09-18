@@ -1,8 +1,8 @@
 ---
 code: "H1"
 titre: "Investir selon ses valeurs : par où commencer concrètement"
-titreSeo: "Investir selon ses valeurs : par où commencer | SAFIA"
-description: "Exclure, sélectionner ou financer : trois approches distinctes de l'investissement responsable, et comment identifier celle qui correspond à ce que tu veux vraiment."
+titreSeo: "Investir selon ses valeurs : par où commencer"
+description: "Exclure, sélectionner ou financer : trois approches de l'investissement responsable, et comment identifier celle qui te correspond vraiment."
 categorie: "ESG et impact"
 date: 2026-09-14
 lecture: 3

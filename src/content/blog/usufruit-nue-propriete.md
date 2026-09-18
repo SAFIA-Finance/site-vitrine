@@ -1,7 +1,7 @@
 ---
 code: "D4"
 titre: "Usufruit et nue-propriété : le démembrement expliqué simplement"
-titreSeo: "Usufruit et nue-propriété : comprendre le démembrement | SAFIA"
+titreSeo: "Usufruit et nue-propriété : comprendre le démembrement"
 description: "Donner la nue-propriété en gardant l'usufruit réduit la base taxable selon l'âge. Le barème de l'article 669, expliqué avec un exemple chiffré."
 categorie: "Donation et succession"
 date: 2026-09-14

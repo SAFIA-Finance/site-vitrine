@@ -1,7 +1,7 @@
 ---
 code: "D5"
 titre: "Une succession, étape par étape : ce qui se passe vraiment"
-titreSeo: "Les étapes d'une succession : le déroulé réel | SAFIA"
+titreSeo: "Les étapes d'une succession : le déroulé réel"
 description: "Du décès au partage, six mois de démarches et une chronologie précise. Ce qui se passe concrètement, dans quel ordre, et où se produisent les blocages."
 categorie: "Donation et succession"
 date: 2026-09-14

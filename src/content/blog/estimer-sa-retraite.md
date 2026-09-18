@@ -1,7 +1,7 @@
 ---
 code: "C1"
 titre: "Estimer sa retraite : les trois chiffres à sortir avant tout calcul"
-titreSeo: "Estimer sa retraite : les 3 chiffres à connaître | SAFIA"
+titreSeo: "Estimer sa retraite : les 3 chiffres à connaître"
 description: "Avant toute simulation, trois données commandent le résultat : trimestres acquis, salaire annuel moyen, points de retraite complémentaire. Où les trouver."
 categorie: "Retraite"
 date: 2026-09-14

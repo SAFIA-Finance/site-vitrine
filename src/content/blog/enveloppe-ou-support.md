@@ -1,7 +1,7 @@
 ---
 code: "J1"
 titre: "Enveloppe et support : la distinction que presque personne ne fait"
-titreSeo: "Enveloppe et support | SAFIA"
+titreSeo: "Enveloppe et support : comprendre la distinction"
 description: "Une enveloppe est un contenant fiscal : assurance-vie, PEA, PER, compte-titres, PEE. Un support est ce que l'on met dedans : fonds euros, ETF, OPCVM"
 categorie: "Produits d'investissement"
 date: 2026-09-16

@@ -1,7 +1,7 @@
 ---
 code: "G9"
 titre: "Devenir CIF : statut, ORIAS, association agréée, capacité professionnelle"
-titreSeo: "Devenir CIF : conditions et démarches | SAFIA"
+titreSeo: "Devenir CIF : conditions et démarches"
 description: "Capacité professionnelle, adhésion à une association agréée, immatriculation ORIAS, assurance RC pro : le parcours réel pour exercer comme CIF."
 categorie: "Professionnels"
 date: 2026-09-14

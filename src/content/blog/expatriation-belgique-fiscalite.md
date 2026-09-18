@@ -1,7 +1,7 @@
 ---
 code: "I11"
 titre: "Belgique : fiscalité de l'expatriation"
-titreSeo: "Belgique : fiscalité de l'expatriation | SAFIA"
+titreSeo: "Belgique : fiscalité de l'expatriation"
 description: "L'attrait belge n'a jamais porté sur l'impôt sur le revenu, élevé, mais sur le traitement des plus-values privées."
 categorie: "Expatriation"
 date: 2026-09-16

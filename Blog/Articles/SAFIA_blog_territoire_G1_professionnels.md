@@ -16,8 +16,8 @@ Bloc auteur et avertissement repris en fin de chaque article :
 ## G1 — Logiciel CGP : les huit fonctions qui font réellement la différence
 
 **URL** : /blog/logiciel-cgp-comment-choisir
-**Title** : Logiciel CGP : les 8 fonctions qui comptent | SAFIA
-**Meta** : Agrégation, conformité, reporting, GRC : la grille de sélection d'un outil métier pour un cabinet de gestion de patrimoine, et les pièges du changement d'outil.
+**Title** : Logiciel CGP : les 8 fonctions qui comptent
+**Meta** : Agrégation, conformité, reporting, GRC : la grille de sélection d'un outil métier pour un cabinet, et les pièges du changement d'outil.
 
 ### L'essentiel
 
@@ -89,7 +89,7 @@ Page **Conseillers** · articles **G2** (digitalisation) et **G7** (agrégation 
 ## G2 — Digitaliser un cabinet de gestion de patrimoine : par où commencer
 
 **URL** : /blog/digitaliser-cabinet-gestion-patrimoine
-**Title** : Digitaliser son cabinet de CGP : par où commencer | SAFIA
+**Title** : Digitaliser son cabinet de CGP : par où commencer
 **Meta** : Une méthode en quatre chantiers, ordonnés par rapport effort/valeur, pour digitaliser un cabinet sans interrompre l'activité ni dégrader la conformité.
 
 ### L'essentiel
@@ -166,7 +166,7 @@ Page **Conseillers** · articles **G1** (logiciel CGP) et **G12** (onboarding cl
 ## G3 — Questionnaire de connaissance client : obligations et pratiques
 
 **URL** : /blog/questionnaire-connaissance-client-cif
-**Title** : Recueil client MiFID II : obligations du CIF | SAFIA
+**Title** : Recueil client MiFID II : obligations du CIF
 **Meta** : Les cinq blocs obligatoires du recueil d'informations, les exigences de mise à jour, et les faiblesses les plus fréquemment relevées en contrôle.
 
 ### L'essentiel
@@ -231,8 +231,8 @@ Page **Conseillers** · articles **G5** (rapport d'adéquation) et **G4** (lettr
 ## G4 — La lettre de mission CIF : ce qu'elle doit contenir
 
 **URL** : /blog/lettre-de-mission-cif
-**Title** : Lettre de mission CIF : contenu obligatoire | SAFIA
-**Meta** : Objet, étendue, rémunération, durée : les mentions attendues dans une lettre de mission de conseiller en investissements financiers, et les formulations à éviter.
+**Title** : Lettre de mission CIF : contenu obligatoire
+**Meta** : Objet, étendue, rémunération, durée : les mentions attendues dans une lettre de mission CIF, et les formulations à éviter.
 
 ### L'essentiel
 
@@ -296,8 +296,8 @@ Page **Conseillers** · articles **G3** (recueil client) et **G5** (rapport d'ad
 ## G5 — Rapport d'adéquation : le produire plus vite sans perdre en qualité
 
 **URL** : /blog/rapport-adequation-cif
-**Title** : Déclaration d'adéquation : contenu et méthode | SAFIA
-**Meta** : Le rapport d'adéquation doit expliquer pourquoi la recommandation convient à ce client. Structure, mentions attendues et méthode pour le produire efficacement.
+**Title** : Déclaration d'adéquation : contenu et méthode
+**Meta** : Le rapport d'adéquation doit expliquer pourquoi la recommandation convient à ce client. Structure, mentions attendues et méthode de production.
 
 ### L'essentiel
 
@@ -363,8 +363,8 @@ Page **Conseillers** · articles **G3** (recueil client) et **G4** (lettre de mi
 ## G6 — Ce que l'AI Act change pour un cabinet qui utilise l'IA
 
 **URL** : /blog/ai-act-conseiller-financier
-**Title** : AI Act : ce qui change pour un cabinet de CGP | SAFIA
-**Meta** : Transparence, supervision humaine, documentation : les obligations qui concernent réellement un cabinet utilisateur d'IA, et celles qui pèsent sur ses fournisseurs.
+**Title** : AI Act : ce qui change pour un cabinet de CGP
+**Meta** : Transparence, supervision humaine, documentation : les obligations qui visent un cabinet utilisateur d'IA, et celles qui pèsent sur ses fournisseurs.
 
 ### L'essentiel
 

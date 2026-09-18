@@ -1,7 +1,7 @@
 ---
 code: "I8"
 titre: "Italie : fiscalité de l'expatriation"
-titreSeo: "Italie : fiscalité de l'expatriation | SAFIA"
+titreSeo: "Italie : fiscalité de l'expatriation"
 description: "L'Italie propose quatre régimes distincts, chacun visant un profil précis : c'est l'offre la plus complète d'Europe."
 categorie: "Expatriation"
 date: 2026-09-16

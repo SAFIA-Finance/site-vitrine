@@ -16,6 +16,7 @@ Les sept articles D1 à D7 couvrent les mécanismes. Ceux-ci couvrent les **situ
 ## D8 — Famille recomposée : protéger son conjoint sans léser ses enfants
 
 **URL** : /blog/succession-famille-recomposee · **Mot-clé** : succession famille recomposée
+**Title** : Famille recomposée : protéger son conjoint et ses enfants
 
 ### L'essentiel
 
@@ -122,6 +123,7 @@ Code civil, articles 515-1 et suivants (PACS), 731 et suivants (ordre des hérit
 ## D10 — Transmettre une entreprise : le pacte Dutreil après la réforme 2026
 
 **URL** : /blog/pacte-dutreil-2026 · **Mot-clé** : pacte dutreil
+**Title** : Pacte Dutreil 2026 : transmettre son entreprise
 
 ### L'essentiel
 
@@ -177,6 +179,7 @@ Code général des impôts, article 787 B · Loi de finances pour 2026, disposit
 ## D11 — Transmettre un bien immobilier : donation, SCI ou démembrement
 
 **URL** : /blog/transmettre-bien-immobilier · **Mot-clé** : donation immobilier
+**Title** : Bien immobilier : donation, SCI ou démembrement
 
 ### L'essentiel
 
@@ -261,6 +264,7 @@ Code civil, articles 1832 et suivants, et 1857 sur la responsabilité des associ
 ## D13 — Enfant handicapé : les dispositifs de protection et de transmission
 
 **URL** : /blog/transmission-enfant-handicape · **Mot-clé** : succession enfant handicapé
+**Title** : Enfant handicapé : protection et transmission
 
 ### L'essentiel
 
@@ -453,6 +457,7 @@ Code des assurances, articles L. 132-13 et L. 132-12 · Jurisprudence constante 
 ## D17 — Succession internationale : quel droit s'applique à vos biens
 
 **URL** : /blog/succession-internationale · **Mot-clé** : succession internationale
+**Title** : Succession internationale : quel droit s'applique
 
 ### L'essentiel
 
@@ -506,6 +511,7 @@ Règlement (UE) n° 650/2012 du 4 juillet 2012 relatif aux successions et au cer
 ## D18 — Protéger son conjoint : donation au dernier vivant et quotité disponible
 
 **URL** : /blog/donation-dernier-vivant · **Mot-clé** : donation au dernier vivant
+**Title** : Donation au dernier vivant : protéger son conjoint
 
 ### L'essentiel
 

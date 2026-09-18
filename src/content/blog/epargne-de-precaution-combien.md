@@ -1,8 +1,8 @@
 ---
 code: "A5"
 titre: "Combien garder sur son livret A ? La règle de l'épargne de précaution"
-titreSeo: "Épargne de précaution : combien garder en 2026 ? | SAFIA"
-description: "Trois à six mois de dépenses, dit la règle. Comment calculer ton montant réel, et pourquoi l'excès d'épargne de précaution coûte plus cher qu'on ne le croit."
+titreSeo: "Épargne de précaution : combien garder en 2026 ?"
+description: "Trois à six mois de dépenses, dit la règle. Comment calculer ton montant réel, et pourquoi l'excès d'épargne de précaution coûte cher."
 categorie: "Épargne réglementée"
 date: 2026-09-14
 lecture: 2

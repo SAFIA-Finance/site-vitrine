@@ -1,7 +1,7 @@
 ---
 code: "D8"
 titre: "Famille recomposée : protéger son conjoint sans léser ses enfants"
-titreSeo: "Famille recomposée | SAFIA"
+titreSeo: "Famille recomposée : protéger son conjoint et ses enfants"
 description: "L'enfant du conjoint n'est pas héritier : sans adoption, il est fiscalement un tiers, taxé à 60 % après un abattement de 1 594 €."
 categorie: "Donation et succession"
 date: 2026-09-16

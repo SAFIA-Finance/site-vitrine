@@ -1,7 +1,7 @@
 ---
 code: "I17"
 titre: "Chypre : fiscalité de l'expatriation"
-titreSeo: "Chypre : fiscalité de l'expatriation | SAFIA"
+titreSeo: "Chypre : fiscalité de l'expatriation"
 description: "Le statut de non-domicilié chypriote dure jusqu'à dix-sept ans, soit la durée la plus longue d'Europe. Il exonère d'impôt sur le revenu les dividendes et"
 categorie: "Expatriation"
 date: 2026-09-16

@@ -62,6 +62,7 @@ Code général des impôts, articles 14 à 33 quinquies (revenus fonciers), 50-0
 ## J13 — Investir en nue-propriété
 
 **URL** : /blog/investir-en-nue-propriete · **Mot-clé** : nue-propriété investissement · **Page liée** : Cockpit stratégique
+**Title** : Investir en nue-propriété : décote, IFI et horizon
 
 ### L'essentiel
 
@@ -106,6 +107,7 @@ Code civil, articles 578 à 624 et 606 · Code général des impôts, article 66
 ## J14 — Private equity et FCPR : ce que l'ouverture aux particuliers change
 
 **URL** : /blog/private-equity-particuliers · **Mot-clé** : private equity particulier · **Page liée** : ADN Investisseur
+**Title** : Private equity et FCPR ouverts aux particuliers
 
 ### L'essentiel
 
@@ -210,6 +212,7 @@ Règlement (UE) n° 1286/2014 (PRIIPs) et documents d'informations clés · AMF,
 ## J16 — Crowdfunding immobilier
 
 **URL** : /blog/crowdfunding-immobilier · **Mot-clé** : crowdfunding immobilier · **Page liée** : ADN Investisseur
+**Title** : Crowdfunding immobilier : rendement, risque, défauts
 
 ### L'essentiel
 
@@ -401,6 +404,7 @@ Code des assurances, articles L. 132-1 et suivants, et dispositions relatives à
 ## J20 — Or et métaux précieux
 
 **URL** : /blog/investir-or-metaux · **Mot-clé** : investir dans l'or · **Page liée** : ADN Investisseur
+**Title** : Or et métaux précieux : fiscalité et rôle réel
 
 ### L'essentiel
 

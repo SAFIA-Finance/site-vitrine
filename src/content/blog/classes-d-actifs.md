@@ -1,7 +1,7 @@
 ---
 code: "J2"
 titre: "Les classes d'actifs expliquées par ce qu'elles font"
-titreSeo: "Les classes d'actifs expliquées par ce qu'elles | SAFIA"
+titreSeo: "Les classes d'actifs expliquées par ce qu'elles font"
 description: "Quatre grandes familles : liquidités, obligations, actions, actifs réels. Tout le reste en dérive. Chaque famille se définit par la nature du droit"
 categorie: "Produits d'investissement"
 date: 2026-09-16

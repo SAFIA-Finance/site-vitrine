@@ -12,7 +12,7 @@ Bloc auteur et avertissement repris en fin de chaque article :
 ## G7 — Agrégation bancaire en cabinet : gagner la collecte de données
 
 **URL** : /blog/agregation-bancaire-cabinet-cgp
-**Title** : Agrégation bancaire en cabinet CGP : ce qu'il faut savoir | SAFIA
+**Title** : Agrégation bancaire en cabinet CGP : ce qu'il faut savoir
 **Meta** : Ce que la DSP2 permet réellement, ce que l'agrégation fait gagner à un cabinet, et les erreurs de classification qui produisent des chiffres faux.
 
 ### L'essentiel
@@ -79,8 +79,8 @@ Page **Conseillers** · articles **G1** (logiciel CGP) et **E3** (agrégateur de
 ## G8 — Servir les clients sous 250 000 € sans y perdre d'argent
 
 **URL** : /blog/servir-clients-petits-encours
-**Title** : Clients à faible encours : rentabilité en cabinet CGP | SAFIA
-**Meta** : Le seuil de rentabilité d'un client se calcule. Comment segmenter une clientèle, industrialiser ce qui peut l'être, et décider quoi faire des dossiers sous le seuil.
+**Title** : Clients à faible encours : rentabilité en cabinet CGP
+**Meta** : Le seuil de rentabilité d'un client se calcule. Comment segmenter, industrialiser ce qui peut l'être, et traiter les dossiers sous le seuil.
 
 ### L'essentiel
 
@@ -144,7 +144,7 @@ Page **Conseillers** · articles **G2** (digitalisation) et **E5** (coût d'un c
 ## G9 — Devenir CIF : statut, ORIAS, association agréée, capacité professionnelle
 
 **URL** : /blog/devenir-cif-statut-orias
-**Title** : Devenir CIF : conditions et démarches | SAFIA
+**Title** : Devenir CIF : conditions et démarches
 **Meta** : Capacité professionnelle, adhésion à une association agréée, immatriculation ORIAS, assurance RC pro : le parcours réel pour exercer comme CIF.
 
 ### L'essentiel
@@ -214,7 +214,7 @@ Page **Conseillers** · articles **G10** (LCB-FT) et **G4** (lettre de mission).
 ## G10 — LCB-FT en cabinet : les obligations qui tombent vraiment sur vous
 
 **URL** : /blog/lcb-ft-cabinet-cgp
-**Title** : LCB-FT : les obligations d'un cabinet de CGP | SAFIA
+**Title** : LCB-FT : les obligations d'un cabinet de CGP
 **Meta** : Classification des risques, vigilance, conservation, déclaration de soupçon : ce que la lutte contre le blanchiment impose concrètement à un cabinet.
 
 ### L'essentiel
@@ -285,8 +285,8 @@ Page **Sécurité et conformité** · articles **G9** (devenir CIF) et **G12** (
 ## G11 — Marque blanche ou logiciel métier : ce que le choix engage
 
 **URL** : /blog/marque-blanche-ou-logiciel-metier
-**Title** : Marque blanche ou logiciel métier : quelles différences | SAFIA
-**Meta** : Deux modèles d'équipement technologique, deux répartitions de responsabilité. Ce que la marque blanche change juridiquement, commercialement et contractuellement.
+**Title** : Marque blanche ou logiciel métier : quelles différences
+**Meta** : Deux modèles d'équipement, deux répartitions de responsabilité. Ce que la marque blanche change juridiquement, commercialement et contractuellement.
 
 ### L'essentiel
 
@@ -352,8 +352,8 @@ Page **Institutions** · articles **G6** (AI Act) et **G1** (logiciel CGP).
 ## G12 — Onboarding client digital : raccourcir le délai avant le premier rendez-vous
 
 **URL** : /blog/onboarding-client-digital-cgp
-**Title** : Onboarding client digital en cabinet CGP | SAFIA
-**Meta** : Réduire le délai entre le premier contact et le premier rendez-vous utile, sans dégrader la conformité. Les cinq étapes et les points de friction à traiter.
+**Title** : Onboarding client digital en cabinet CGP
+**Meta** : Réduire le délai entre le premier contact et le rendez-vous utile, sans dégrader la conformité. Les cinq étapes et les points de friction.
 
 ### L'essentiel
 

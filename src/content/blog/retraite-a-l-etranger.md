@@ -1,8 +1,8 @@
 ---
 code: "I6"
 titre: "Retraite à l'étranger : pension, CSG, couverture santé"
-titreSeo: "Prendre sa retraite à l'étranger : ce qu'il faut savoir | SAFIA"
-description: "Versement de la pension, imposition selon la convention, CSG, couverture maladie et certificat de vie : les quatre questions à régler avant de partir à la retraite."
+titreSeo: "Prendre sa retraite à l'étranger : ce qu'il faut savoir"
+description: "Versement de la pension, imposition, CSG, couverture maladie : les quatre questions à régler avant de partir à la retraite."
 categorie: "Expatriation"
 date: 2026-09-16
 lecture: 4

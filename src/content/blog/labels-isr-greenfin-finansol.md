@@ -1,7 +1,7 @@
 ---
 code: "H2"
 titre: "ISR, Greenfin, Finansol : ce que les labels garantissent vraiment"
-titreSeo: "Labels ISR, Greenfin, Finansol : que valent-ils ? | SAFIA"
+titreSeo: "Labels ISR, Greenfin, Finansol : que valent-ils ?"
 description: "Trois labels français, trois promesses différentes. Ce que chacun exige réellement, ce qu'il n'exige pas, et comment les utiliser sans se tromper."
 categorie: "ESG et impact"
 date: 2026-09-14

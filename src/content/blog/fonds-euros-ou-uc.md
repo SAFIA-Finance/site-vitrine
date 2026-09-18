@@ -1,7 +1,7 @@
 ---
 code: "B4"
 titre: "Fonds en euros ou unités de compte : arbitrer selon l'horizon"
-titreSeo: "Fonds euros ou unités de compte : comment choisir | SAFIA"
+titreSeo: "Fonds euros ou unités de compte : comment choisir"
 description: "Capital garanti contre espérance de rendement : la répartition entre fonds euros et unités de compte dépend de ton horizon, pas des performances passées."
 categorie: "Assurance-vie"
 date: 2026-09-14

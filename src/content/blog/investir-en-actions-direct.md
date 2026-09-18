@@ -1,7 +1,7 @@
 ---
 code: "J9"
 titre: "Actions en direct : diversification, biais domestique, PEA"
-titreSeo: "Actions en direct | SAFIA"
+titreSeo: "Actions en direct : diversification, biais domestique, PEA"
 description: "Détenir des actions en direct supprime les frais de gestion d'un fonds, mais transfère sur toi tout le travail et tout le risque de concentration."
 categorie: "Produits d'investissement"
 date: 2026-09-16

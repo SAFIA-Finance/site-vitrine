@@ -1,7 +1,7 @@
 ---
 code: "J21"
 titre: "Crypto-actifs : cadre MiCA et fiscalité"
-titreSeo: "Crypto-actifs : cadre MiCA et fiscalité | SAFIA"
+titreSeo: "Crypto-actifs : cadre MiCA et fiscalité"
 description: "Le règlement européen MiCA encadre désormais les prestataires de services sur crypto-actifs : il régule les intermédiaires, pas le risque du sous-jacent."
 categorie: "Produits d'investissement"
 date: 2026-09-16

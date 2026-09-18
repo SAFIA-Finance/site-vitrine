@@ -1,7 +1,7 @@
 ---
 code: "E2"
 titre: "Gestion pilotée ou gestion libre : la question n'est pas le rendement"
-titreSeo: "Gestion pilotée ou gestion libre : comment choisir | SAFIA"
+titreSeo: "Gestion pilotée ou gestion libre : comment choisir"
 description: "Déléguer ou décider soi-même : le choix se joue sur le temps, la discipline et le coût, pas sur une supposée supériorité de performance."
 categorie: "Comparaison et décision"
 date: 2026-09-14

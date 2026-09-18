@@ -1,7 +1,7 @@
 ---
 code: "B5"
 titre: "Assurance-vie et succession : l'abattement de 152 500 €"
-titreSeo: "Assurance-vie et succession : 152 500 € par bénéficiaire | SAFIA"
+titreSeo: "Assurance-vie et succession : 152 500 € par bénéficiaire"
 description: "Hors succession, 152 500 € exonérés par bénéficiaire, puis 20 % : le régime de l'article 990 I expliqué avec un exemple de transmission chiffré."
 categorie: "Assurance-vie"
 date: 2026-09-14

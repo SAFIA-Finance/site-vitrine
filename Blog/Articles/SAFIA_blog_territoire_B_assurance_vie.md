@@ -14,7 +14,7 @@ Bloc auteur et avertissement repris à l'identique en fin de chaque article :
 ## B1 — Fiscalité de l'assurance-vie : ce que change vraiment le cap des huit ans
 
 **URL** : /blog/fiscalite-assurance-vie-8-ans
-**Title** : Fiscalité assurance-vie 2026 : avant et après 8 ans | SAFIA
+**Title** : Fiscalité assurance-vie 2026 : avant et après 8 ans
 **Meta** : Avant 8 ans, 30 % sur les gains. Après, un abattement de 4 600 € et un taux de 24,7 %. Le calcul complet, avec les chiffres 2026 et un exemple détaillé.
 
 ### L'essentiel
@@ -105,7 +105,7 @@ Page **Cockpit stratégique** · articles **B3** (rachat partiel) et **B2** (aba
 ## B2 — L'abattement de 4 600 € : comment il s'applique réellement
 
 **URL** : /blog/abattement-assurance-vie-4600
-**Title** : Abattement de 4 600 € en assurance-vie : mode d'emploi | SAFIA
+**Title** : Abattement de 4 600 € en assurance-vie : mode d'emploi
 **Meta** : L'abattement annuel de 4 600 € ou 9 200 € ne s'applique qu'à l'impôt sur le revenu, pas aux prélèvements sociaux. Calcul, pièges et exemple chiffré.
 
 ### L'essentiel
@@ -188,7 +188,7 @@ Page **Cockpit stratégique** · articles **B1** (fiscalité après 8 ans) et **
 ## B3 — Rachat partiel : calculer l'impôt pas à pas
 
 **URL** : /blog/rachat-partiel-assurance-vie
-**Title** : Rachat partiel assurance-vie : calcul de l'impôt 2026 | SAFIA
+**Title** : Rachat partiel assurance-vie : calcul de l'impôt 2026
 **Meta** : La formule du rachat partiel, la part de gains, le taux applicable : trois exemples chiffrés pour savoir exactement ce que coûtera ton retrait.
 
 ### L'essentiel
@@ -271,7 +271,7 @@ Page **Cockpit stratégique** · articles **B2** (abattement) et **B7** (frais).
 ## B4 — Fonds en euros ou unités de compte : arbitrer selon l'horizon
 
 **URL** : /blog/fonds-euros-ou-uc
-**Title** : Fonds euros ou unités de compte : comment choisir | SAFIA
+**Title** : Fonds euros ou unités de compte : comment choisir
 **Meta** : Capital garanti contre espérance de rendement : la répartition entre fonds euros et unités de compte dépend de ton horizon, pas des performances passées.
 
 ### L'essentiel
@@ -347,7 +347,7 @@ Page **ADN Investisseur** · articles **B7** (frais) et **E4** (effet des frais 
 ## B5 — Assurance-vie et succession : l'abattement de 152 500 €
 
 **URL** : /blog/assurance-vie-succession-152500
-**Title** : Assurance-vie et succession : 152 500 € par bénéficiaire | SAFIA
+**Title** : Assurance-vie et succession : 152 500 € par bénéficiaire
 **Meta** : Hors succession, 152 500 € exonérés par bénéficiaire, puis 20 % : le régime de l'article 990 I expliqué avec un exemple de transmission chiffré.
 
 ### L'essentiel
@@ -420,7 +420,7 @@ Page **Cockpit stratégique** · articles **B6** (clause bénéficiaire) et **D7
 ## B6 — Clause bénéficiaire : cinq formulations et ce qu'elles produisent
 
 **URL** : /blog/clause-beneficiaire-erreurs
-**Title** : Clause bénéficiaire : erreurs fréquentes et rédaction | SAFIA
+**Title** : Clause bénéficiaire : erreurs fréquentes et rédaction
 **Meta** : Une ligne mal rédigée peut annuler des années d'optimisation. Cinq formulations de clause bénéficiaire et leurs conséquences concrètes.
 
 ### L'essentiel
@@ -506,7 +506,7 @@ Page **Cockpit stratégique** · articles **B5** (succession) et **D5** (étapes
 ## B7 — Frais d'assurance-vie : les retrouver sur ton relevé annuel
 
 **URL** : /blog/frais-assurance-vie-releve
-**Title** : Frais d'assurance-vie : les repérer sur son relevé | SAFIA
+**Title** : Frais d'assurance-vie : les repérer sur son relevé
 **Meta** : Frais d'entrée, de gestion, d'arbitrage, frais internes des fonds : les quatre couches de frais d'une assurance-vie et où les lire réellement.
 
 ### L'essentiel
@@ -576,7 +576,7 @@ Page **Tarifs** · articles **E4** (frais sur vingt ans) et **B4** (fonds euros 
 ## B8 — PER ou assurance-vie : le choix dépend de ta tranche marginale
 
 **URL** : /blog/per-ou-assurance-vie
-**Title** : PER ou assurance-vie : comment trancher en 2026 | SAFIA
+**Title** : PER ou assurance-vie : comment trancher en 2026
 **Meta** : Le PER déduit à l'entrée et impose à la sortie, l'assurance-vie fait l'inverse. Comment choisir selon ta tranche marginale, avec un exemple chiffré.
 
 ### L'essentiel

@@ -16,7 +16,7 @@ Bloc auteur et avertissement repris en fin de chaque article :
 ## F1 — Une IA peut-elle remplacer un conseiller en gestion de patrimoine ?
 
 **URL** : /blog/ia-remplacer-conseiller-patrimoine
-**Title** : L'IA peut-elle remplacer un conseiller patrimonial ? | SAFIA
+**Title** : L'IA peut-elle remplacer un conseiller patrimonial ?
 **Meta** : Ce qu'une IA fait mieux qu'un humain, ce qu'elle ne peut pas faire, et pourquoi le conseil en investissement reste une activité réglementée en France.
 
 ### L'essentiel
@@ -86,7 +86,7 @@ Page **Assistant IA** · articles **F2** (IA explicable) et **F4** (bilan patrim
 ## F2 — IA explicable en finance : pourquoi une réponse sans source ne vaut rien
 
 **URL** : /blog/ia-explicable-finance
-**Title** : IA explicable en finance : pourquoi les sources comptent | SAFIA
+**Title** : IA explicable en finance : pourquoi les sources comptent
 **Meta** : Une réponse financière non sourcée est invérifiable, donc inutilisable. Ce qu'est l'explicabilité, comment la tester, et ce que la réglementation impose.
 
 ### L'essentiel
@@ -168,7 +168,7 @@ Page **Notre méthode** · articles **F1** (IA et conseiller) et **F3** (profil 
 ## F3 — Le questionnaire MiFID II : à quoi sert vraiment ton profil de risque
 
 **URL** : /blog/questionnaire-profil-de-risque-mifid
-**Title** : Profil de risque MiFID II : à quoi sert le questionnaire | SAFIA
+**Title** : Profil de risque MiFID II : à quoi sert le questionnaire
 **Meta** : Le questionnaire n'est pas une formalité administrative : il conditionne ce qu'on a le droit de te proposer. Ce qu'il mesure, et pourquoi il mesure mal.
 
 ### L'essentiel
@@ -250,8 +250,8 @@ Page **ADN Investisseur** · articles **F4** (bilan patrimonial) et **H1** (inve
 ## F4 — Bilan patrimonial : ce qu'il contient et ce qu'il ne peut pas te dire
 
 **URL** : /blog/bilan-patrimonial-contenu
-**Title** : Bilan patrimonial : contenu réel et limites | SAFIA
-**Meta** : Inventaire, flux, fiscalité, transmission : les quatre volets d'un bilan patrimonial, ce qu'il apporte vraiment, et la différence avec une lettre de mission.
+**Title** : Bilan patrimonial : contenu réel et limites
+**Meta** : Inventaire, flux, fiscalité, transmission : les quatre volets d'un bilan patrimonial, et la différence avec une lettre de mission.
 
 ### L'essentiel
 

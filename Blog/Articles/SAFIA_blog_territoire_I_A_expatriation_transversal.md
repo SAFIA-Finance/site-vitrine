@@ -14,8 +14,8 @@ Bloc auteur, avertissement et rappel de prudence repris en fin de chaque article
 ## I1 — Devenir non-résident fiscal : les quatre critères de l'article 4 B
 
 **URL** : /blog/residence-fiscale-non-resident
-**Title** : Résidence fiscale : devenir non-résident français | SAFIA
-**Meta** : Foyer, séjour principal, activité professionnelle, centre des intérêts économiques : les quatre critères qui déterminent votre résidence fiscale, et comment un départ se conteste.
+**Title** : Résidence fiscale : devenir non-résident français
+**Meta** : Foyer, séjour, activité, intérêts économiques : les quatre critères qui déterminent votre résidence fiscale, et comment un départ se conteste.
 
 ### Le tableau de synthèse
 
@@ -109,8 +109,8 @@ Page **Cockpit stratégique** · articles **I2** (exit tax) et **I5** (conventio
 ## I2 — Exit tax : seuils, taux de 31,4 %, sursis et dégrèvement
 
 **URL** : /blog/exit-tax-expatriation
-**Title** : Exit tax 2026 : seuils, taux et sursis de paiement | SAFIA
-**Meta** : L'exit tax impose vos plus-values latentes au départ de France, à 31,4 % en 2026. Conditions de déclenchement, sursis automatique ou sur garanties, dégrèvement après 2 ou 5 ans.
+**Title** : Exit tax 2026 : seuils, taux et sursis de paiement
+**Meta** : L'exit tax impose vos plus-values latentes au départ de France, à 31,4 % en 2026. Déclenchement, sursis, dégrèvement après 2 ou 5 ans.
 
 ### Le tableau de synthèse
 
@@ -213,7 +213,7 @@ Page **Cockpit stratégique** · articles **I1** (résidence fiscale) et **I3** 
 ## I3 — Que devient votre patrimoine français quand vous partez
 
 **URL** : /blog/patrimoine-francais-non-resident
-**Title** : Fiscalité du patrimoine français d'un non-résident | SAFIA
+**Title** : Fiscalité du patrimoine français d'un non-résident
 **Meta** : Loyers, plus-values immobilières, IFI, dividendes, comptes bancaires : ce qui reste imposable en France après le départ, et à quel taux.
 
 ### Le tableau de synthèse
@@ -312,8 +312,8 @@ Page **Cockpit stratégique** · articles **I4** (assurance-vie et PEA) et **I5*
 ## I4 — Assurance-vie et PEA quand on s'expatrie : ce qui change vraiment
 
 **URL** : /blog/assurance-vie-pea-expatriation
-**Title** : Assurance-vie et PEA en expatriation : ce qui change | SAFIA
-**Meta** : Faut-il clôturer son assurance-vie ou son PEA avant de partir ? Ce que change la non-résidence sur la fiscalité des rachats, des dividendes et de la transmission.
+**Title** : Assurance-vie et PEA en expatriation : ce qui change
+**Meta** : Faut-il clôturer son assurance-vie ou son PEA avant de partir ? Ce que la non-résidence change sur les rachats, dividendes et transmission.
 
 ### Le tableau de synthèse
 
@@ -402,8 +402,8 @@ Page **Cockpit stratégique** · articles **I3** (patrimoine français) et **B1*
 ## I5 — Conventions fiscales : comment lire celle de votre pays
 
 **URL** : /blog/convention-fiscale-mode-emploi
-**Title** : Lire une convention fiscale : mode d'emploi | SAFIA
-**Meta** : Une convention fiscale se lit dans un ordre précis. Les six articles qui décident de tout, et la méthode pour trouver la réponse à votre situation en vingt minutes.
+**Title** : Lire une convention fiscale : mode d'emploi
+**Meta** : Une convention fiscale se lit dans un ordre précis. Les six articles qui décident de tout, et la méthode pour trouver votre réponse en vingt minutes.
 
 ### L'essentiel
 
@@ -481,8 +481,8 @@ Page **Notre méthode** · articles **I1** (résidence fiscale) et **I6** (retra
 ## I6 — Retraite à l'étranger : pension, CSG, couverture santé
 
 **URL** : /blog/retraite-a-l-etranger
-**Title** : Prendre sa retraite à l'étranger : ce qu'il faut savoir | SAFIA
-**Meta** : Versement de la pension, imposition selon la convention, CSG, couverture maladie et certificat de vie : les quatre questions à régler avant de partir à la retraite.
+**Title** : Prendre sa retraite à l'étranger : ce qu'il faut savoir
+**Meta** : Versement de la pension, imposition, CSG, couverture maladie : les quatre questions à régler avant de partir à la retraite.
 
 ### Le tableau de synthèse
 

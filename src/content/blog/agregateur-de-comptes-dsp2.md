@@ -1,7 +1,7 @@
 ---
 code: "E3"
 titre: "Agrégateur de comptes : comment la DSP2 a rendu ça possible"
-titreSeo: "Agrégateur de comptes : fonctionnement et sécurité | SAFIA"
+titreSeo: "Agrégateur de comptes : fonctionnement et sécurité"
 description: "Depuis la DSP2, tes banques doivent ouvrir un accès sécurisé à tes données. Comment fonctionne un agrégateur, ce qu'il voit, et ce qu'il ne peut pas faire."
 categorie: "Comparaison et décision"
 date: 2026-09-14

@@ -1,7 +1,7 @@
 ---
 code: "I10"
 titre: "Espagne : fiscalité de l'expatriation"
-titreSeo: "Espagne : fiscalité de l'expatriation | SAFIA"
+titreSeo: "Espagne : fiscalité de l'expatriation"
 description: "Le régime dit Beckham vise les salariés et dirigeants qui s'installent en Espagne pour y travailler. La fiscalité espagnole est fortement régionalisée"
 categorie: "Expatriation"
 date: 2026-09-16

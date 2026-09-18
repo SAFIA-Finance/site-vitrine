@@ -1,7 +1,7 @@
 ---
 code: "J7"
 titre: "OPCVM, SICAV, FCP : le vocabulaire et les frais réels"
-titreSeo: "OPCVM, SICAV, FCP | SAFIA"
+titreSeo: "OPCVM, SICAV, FCP : le vocabulaire et les frais réels"
 description: "OPCVM est la catégorie ; SICAV et FCP sont deux formes juridiques qui ne changent presque rien pour l'épargnant."
 categorie: "Produits d'investissement"
 date: 2026-09-16

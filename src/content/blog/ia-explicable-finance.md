@@ -1,7 +1,7 @@
 ---
 code: "F2"
 titre: "IA explicable en finance : pourquoi une réponse sans source ne vaut rien"
-titreSeo: "IA explicable en finance : pourquoi les sources comptent | SAFIA"
+titreSeo: "IA explicable en finance : pourquoi les sources comptent"
 description: "Une réponse financière non sourcée est invérifiable, donc inutilisable. Ce qu'est l'explicabilité, comment la tester, et ce que la réglementation impose."
 categorie: "IA et méthode"
 date: 2026-09-14

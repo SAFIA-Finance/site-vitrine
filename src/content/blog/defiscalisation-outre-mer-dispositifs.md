@@ -1,7 +1,7 @@
 ---
 code: "K8"
 titre: "Investir outre-mer : les dispositifs de réduction d'impôt"
-titreSeo: "Investir outre-mer | SAFIA"
+titreSeo: "Investir outre-mer : les dispositifs de réduction d'impôt"
 description: "Les dispositifs outre-mer figurent parmi les rares niches à plafond majoré du droit fiscal français. Les principaux reposent sur les articles 199 undecies"
 categorie: "Outre-mer"
 date: 2026-09-16

@@ -1,7 +1,7 @@
 ---
 code: "D11"
 titre: "Transmettre un bien immobilier : donation, SCI ou démembrement"
-titreSeo: "Transmettre un bien immobilier | SAFIA"
+titreSeo: "Bien immobilier : donation, SCI ou démembrement"
 description: "Trois voies : la donation en pleine propriété, la donation de la nue-propriété, ou l'apport à une SCI dont on donne les parts progressivement."
 categorie: "Donation et succession"
 date: 2026-09-16

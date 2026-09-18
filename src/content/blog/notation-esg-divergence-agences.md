@@ -1,8 +1,8 @@
 ---
 code: "H4"
 titre: "Notation ESG : pourquoi deux agences donnent deux notes opposées"
-titreSeo: "Notation ESG : pourquoi les agences se contredisent | SAFIA"
-description: "Une même entreprise peut être bien notée par une agence et mal par une autre. Les trois causes de cette divergence, et comment lire une note ESG sans se tromper."
+titreSeo: "Notation ESG : pourquoi les agences se contredisent"
+description: "Une entreprise peut être bien notée par une agence et mal par une autre. Les trois causes de cette divergence, et comment lire une note ESG."
 categorie: "ESG et impact"
 date: 2026-09-14
 lecture: 3

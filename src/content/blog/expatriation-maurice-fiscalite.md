@@ -1,7 +1,7 @@
 ---
 code: "I21"
 titre: "Maurice : fiscalité de l'expatriation"
-titreSeo: "Maurice : fiscalité de l'expatriation | SAFIA"
+titreSeo: "Maurice : fiscalité de l'expatriation"
 description: "Maurice combine un impôt sur le revenu modéré, l'absence d'imposition des plus-values et l'absence de droits de succession."
 categorie: "Expatriation"
 date: 2026-09-16

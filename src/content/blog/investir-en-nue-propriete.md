@@ -1,7 +1,7 @@
 ---
 code: "J13"
 titre: "Investir en nue-propriété"
-titreSeo: "Investir en nue-propriété | SAFIA"
+titreSeo: "Investir en nue-propriété : décote, IFI et horizon"
 description: "Tu achètes un bien avec une décote, en échange de l'abandon des revenus pendant une durée fixée, souvent quinze à vingt ans."
 categorie: "Produits d'investissement"
 date: 2026-09-16

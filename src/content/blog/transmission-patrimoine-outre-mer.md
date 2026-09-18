@@ -1,7 +1,7 @@
 ---
 code: "K9"
 titre: "Transmettre un patrimoine situé outre-mer"
-titreSeo: "Transmettre un patrimoine situé outre-mer | SAFIA"
+titreSeo: "Transmettre un patrimoine situé outre-mer"
 description: "Dans les DROM, les droits de mutation à titre gratuit sont ceux du Code général des impôts : mêmes abattements, même barème qu'en métropole."
 categorie: "Outre-mer"
 date: 2026-09-16

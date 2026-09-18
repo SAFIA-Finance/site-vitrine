@@ -1,7 +1,7 @@
 ---
 code: "K4"
 titre: "DROM : la réfaction d'impôt de 30 % et 40 %, et son plafond"
-titreSeo: "DROM | SAFIA"
+titreSeo: "DROM : la réfaction d'impôt de 30 % et 40 %, et son plafond"
 description: "La réfaction porte sur le montant de l'impôt, pas sur le revenu imposable. C'est la confusion la plus répandue."
 categorie: "Outre-mer"
 date: 2026-09-16
