@@ -1,0 +1,199 @@
+---
+// Page de requête « gestion de patrimoine IA ». Lot 3 du chantier SEO.
+//
+// Trois frontières à tenir, sans quoi cette page se disputerait sa requête
+// avec des pages déjà en place :
+//   /assistant-ia/            vend l'assistant. Ici, on explique la catégorie.
+//   /conseil-financier-ia/    porte la distinction information, recommandation,
+//                             conseil, et la question de qui a le droit de
+//                             conseiller. On y renvoie plutôt que de la refaire.
+//   /methode/                 décrit comment SAFIA construit ses analyses.
+//
+// MISE EN PAGE, deux règles tirées de deux erreurs mesurées.
+//
+// 1. Chaque section est un « .bloc », soit 96 px de marge en haut et en bas :
+//    deux sections voisines en cumulent 192, et 144 sur téléphone. Tant que les
+//    fonds alternent, cette marge se lit comme une respiration ; dès que deux
+//    sections voisines partagent le même fond, elle se lit comme un trou. D'où
+//    l'alternance stricte ci-dessous, et pas de section pour ce qui tient dans
+//    un paragraphe.
+//    Ordre des fonds : nuit, lavande, blanc, lavande, nuit, lavande, blanc, nuit.
+//
+// 2. Les paragraphes suivis vivent dans « .prose ». Sans elle, ils sortent à
+//    margin 0 et se collent : la version précédente de cette page était un mur
+//    de texte. Les intertitres h3 y découpent le propos.
+import Base from '../layouts/Base.astro';
+
+const faq = [
+  {
+    "q": "Une IA peut-elle gérer mon patrimoine à ma place ?",
+    "r": "Non, et aucune application sérieuse ne le prétend. Une IA analyse, explique et prépare une décision. Elle ne détient pas ton argent et ne passe aucun ordre. La décision reste celle de celui à qui appartient le patrimoine."
+  },
+  {
+    "q": "Est-ce réservé aux gros patrimoines ?",
+    "r": "C'est l'inverse de son intérêt. Le conseil en gestion de patrimoine humain coûte cher parce qu'il prend du temps, ce qui le réserve de fait à ceux qui ont déjà beaucoup. Une IA fait tomber ce coût d'entrée : SAFIA est utile dès le premier livret."
+  },
+  {
+    "q": "Mes données servent-elles à entraîner l'IA ?",
+    "r": "Chez SAFIA, non. Tes données servent à personnaliser tes analyses, et à rien d'autre : elles n'entraînent pas les modèles de Mistral AI. C'est une question à poser à tout éditeur avant de connecter un compte."
+  },
+  {
+    "q": "Comment savoir si une réponse est fiable ?",
+    "r": "Demande sa source et sa date. Une réponse patrimoniale sans référence datée n'est pas vérifiable, parce que les taux, plafonds et barèmes changent chaque année, parfois en cours d'année."
+  },
+  {
+    "q": "Quelle différence avec un robo-advisor ?",
+    "r": "Un robo-advisor investit à ta place dans des portefeuilles types, et se rémunère sur les encours. Un assistant patrimonial t'explique ta situation et tes options, sans détenir ton argent ni passer d'ordre."
+  },
+  {
+    "q": "Faut-il encore un conseiller en gestion de patrimoine ?",
+    "r": "Oui, et pas seulement pour la forme. Les situations complexes, les arbitrages entre objectifs contradictoires et tout ce qui engage juridiquement demandent un humain. C'est le principe de l'humain dans la boucle."
+  }
+];
+
+const fil = ["Accueil", "Ressources", "Gestion de patrimoine et IA"];
+---
+
+<Base
+  chemin={"/gestion-de-patrimoine-ia/"}
+  faq={faq}
+  fil={fil}
+>
+
+<section class="hero hero-page hero-part">
+<div class="wrap hero-page-in hero-court">
+  <p class="etiq-page">Comprendre</p>
+  <p class="fil-ariane" aria-label="Fil d'Ariane"><a href="/">Accueil</a> <span aria-hidden="true">/</span> Ressources <span aria-hidden="true">/</span> Gestion de patrimoine et IA</p>
+  <h1>La gestion de patrimoine par IA, concrètement</h1>
+  {/* Définition autonome dès le chapô : c'est ce qu'un moteur génératif extrait
+      et ce qu'un lecteur pressé retient. */}
+  <p class="chapo">On appelle gestion de patrimoine par intelligence artificielle l'usage d'une IA pour réunir tes comptes, analyser ce que tu détiens, expliquer tes options et préparer tes décisions. Elle ne détient pas ton argent, ne passe aucun ordre, et ne décide à ta place sur rien.</p>
+</div>
+</section>
+
+<section class="bloc">
+<div class="wrap">
+  <h2 class="titre">Ce que l'intelligence artificielle apporte vraiment à un patrimoine</h2>
+  <div class="prose">
+    <p class="intro">Pendant longtemps, la gestion de patrimoine a fonctionné comme un métier de rendez-vous : on voyait un conseiller une ou deux fois par an, on repartait avec des documents, et entre-temps il ne se passait rien. Ce rythme n'avait rien d'un choix, il tenait au coût du temps humain. C'est précisément ce que l'intelligence artificielle déplace.</p>
+
+    <h3>Réunir ce qui est éparpillé</h3>
+    <p>Un livret dans une banque, une assurance vie chez un assureur, un PEA dans une troisième maison, un crédit ailleurs encore. La première difficulté de l'épargnant français n'est pas de choisir un placement, c'est de savoir ce qu'il possède. Une IA agrège ces comptes et en tire une photo patrimoniale à jour, sans saisie manuelle et sans tableur à tenir.</p>
+
+    <h3>Analyser là où l'œil ne voit rien</h3>
+    <p>Sur un relevé, une concentration excessive ne se voit pas. Des frais de gestion d'un point et demi ne se voient pas non plus, alors qu'ils amputent le capital final de façon considérable sur vingt ans. Une enveloppe mal utilisée, un PEA laissé en liquidités, une assurance vie chargée en fonds euros quand l'horizon est long : ce sont des constats que la machine établit en quelques secondes, parce qu'elle lit vite et qu'elle ne se lasse pas.</p>
+
+    <h3>Expliquer, autant de fois qu'il le faut</h3>
+    <p>C'est peut-être le changement le plus profond. Un épargnant n'ose pas toujours redemander ce qu'est un abattement, pourquoi huit ans changent la fiscalité d'un contrat, ou ce que signifie une unité de compte. Face à une intelligence artificielle, la question ne coûte rien, ne se répète pas devant témoin, et la réponse arrive à toute heure.</p>
+
+    <h3>Suivre ce qui bouge</h3>
+    <p>Les taux des livrets réglementés changent, les plafonds évoluent, un versement déséquilibre une allocation. Un suivi continu signale ces mouvements quand ils arrivent, et non l'année suivante au moment du bilan.</p>
+
+    <p>Aucune de ces quatre capacités ne relève de la prouesse technique. Elles reviennent toutes à la même chose : rendre accessible, à un coût qui ne dépend plus du temps humain, un accompagnement patrimonial que seuls les gros patrimoines pouvaient s'offrir.</p>
+  </div>
+</div>
+</section>
+
+<section class="bloc appui-bloc">
+<div class="wrap">
+  <h2 class="titre">Ce qu'une IA fait mal, et pourquoi il faut le savoir</h2>
+  <p class="intro">Une intelligence artificielle généraliste, celle que tout le monde a essayée, présente cinq défauts qui deviennent sérieux dès qu'il s'agit d'argent.</p>
+  <ul class="phrases">
+    <li>Elle invente quand elle ignore, et le fait dans une phrase parfaitement tournée.</li>
+    <li>Elle cite des règles périmées, parce qu'un barème de l'an dernier ressemble beaucoup à celui de cette année.</li>
+    <li>Elle raisonne sur un cas moyen, faute de connaître ta situation, tes contrats et tes projets.</li>
+    <li>Elle oublie tout d'une conversation à l'autre, et te fait recommencer ton explication à chaque fois.</li>
+    <li>Elle n'a aucune idée de ce qui compte pour toi, sauf si on le lui demande sérieusement.</li>
+  </ul>
+  <p class="reponse-phrases">Ces cinq défauts ne sont pas une fatalité de l'intelligence artificielle. Ils viennent de l'architecture : un modèle généraliste répond de mémoire, sans source et sans contexte. Un assistant patrimonial se construit autrement.</p>
+</div>
+</section>
+
+<section class="bloc">
+<div class="wrap">
+  <h2 class="titre">Comment SAFIA répond à chacun de ces défauts</h2>
+  <p class="intro">Voici, défaut par défaut, le mécanisme opposé. Ce sont des choix d'architecture, vérifiables, pas des intentions.</p>
+  <div class="tableau" role="table" aria-label="Chaque défaut et le mécanisme qui y répond">
+    <div class="tr entete" role="row"><div role="columnheader">Le défaut</div><div role="columnheader">Le mécanisme qui y répond</div></div>
+    <div class="tr" role="row">
+      <div role="cell">Elle invente quand elle ignore.</div>
+      <div role="cell">Des règles explicites le lui interdisent : inventer un chiffre, un taux, un plafond ou un article de loi. <b>Si elle ne peut pas vérifier, elle le dit.</b> Face à une donnée manquante, elle ne devine pas : elle te pose la question.</div>
+    </div>
+    <div class="tr" role="row">
+      <div role="cell">Ses données datent.</div>
+      <div role="cell">Elle consulte des bases documentaires officielles avant de répondre, codes, doctrine fiscale du BOFiP et règles de l'AMF. <b>Chaque source citée est datée du jour de sa consultation</b>, et elle ne cite jamais une référence qu'elle n'a pas retrouvée.</div>
+    </div>
+    <div class="tr" role="row">
+      <div role="cell">Elle ne connaît pas ta situation.</div>
+      <div role="cell">Ton profil de risque, ton <a class="lien" href="/adn-investisseur/">ADN investisseur</a> et ton patrimoine connecté entrent dans le raisonnement. La réponse vaut pour toi, pas pour un profil moyen.</div>
+    </div>
+    <div class="tr" role="row">
+      <div role="cell">Elle oublie d'une fois sur l'autre.</div>
+      <div role="cell">La <b>Mémoire IA</b>, incluse au plan Smart, conserve ton contexte d'une conversation à la suivante : tu n'as pas à réexpliquer ta situation à chaque question.</div>
+    </div>
+    <div class="tr" role="row">
+      <div role="cell">Elle ignore ce qui compte pour toi.</div>
+      <div role="cell">C'est l'objet de l'ADN investisseur : ce que tu veux financer, ce que tu refuses, ton horizon. Deux personnes au même patrimoine n'obtiennent pas les mêmes propositions.</div>
+    </div>
+  </div>
+  <p class="note-tab">Le modèle employé vient d'un fournisseur français, Mistral AI, entraîné pour la gestion de patrimoine et le conseil en investissement. Le détail du raisonnement est sur <a class="lien" href="/methode/">notre méthode</a>, et ce que l'assistant s'interdit sur la page <a class="lien" href="/assistant-ia/">Assistant IA</a>.</p>
+</div>
+</section>
+
+<section class="bloc ne-fait-pas">
+<div class="wrap">
+  <h2 class="titre">Six critères pour évaluer une solution</h2>
+  <ul class="limites">
+    <li><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/><path d="M12 7v6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="currentColor"/></svg><p><b>Les sources sont-elles citées et datées ?</b> Sans cela, rien n'est vérifiable.</p></li>
+    <li><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/><path d="M12 7v6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="currentColor"/></svg><p><b>Quel est le statut réglementaire de l'éditeur ?</b> Vérifiable au registre de l'ORIAS, en quelques secondes.</p></li>
+    <li><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/><path d="M12 7v6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="currentColor"/></svg><p><b>Où sont hébergées tes données, et servent-elles à l'entraînement ?</b> Deux questions distinctes, deux réponses à exiger.</p></li>
+    <li><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/><path d="M12 7v6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="currentColor"/></svg><p><b>Comment l'éditeur gagne-t-il de l'argent ?</b> Une rémunération assise sur les produits distribués n'oriente pas les réponses comme un abonnement.</p></li>
+    <li><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/><path d="M12 7v6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="currentColor"/></svg><p><b>Un humain intervient-il, et à quel moment ?</b> Une solution qui ne prévoit aucun relais humain te laisse seul sur les cas qui comptent.</p></li>
+    <li><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/><path d="M12 7v6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="currentColor"/></svg><p><b>Peux-tu partir avec tes données ?</b> La réversibilité se vérifie avant de s'engager, pas le jour où l'on veut s'en aller.</p></li>
+  </ul>
+</div>
+</section>
+
+<section class="bloc">
+<div class="wrap">
+  <h2 class="titre">IA ou conseiller en gestion de patrimoine : la question est mal posée</h2>
+  <div class="prose">
+    <p class="intro">Demander si une intelligence artificielle remplace un conseiller revient à demander si une calculatrice remplace un comptable. Les deux ne font pas le même métier, et c'est leur combinaison qui produit un accompagnement de qualité.</p>
+
+    <h3>Ce que la machine fait mieux</h3>
+    <p>Le volume et la constance. Elle traite des centaines de lignes d'opérations sans fatiguer, applique une règle fiscale à un cas précis sans approximation, reste disponible à trois heures du matin, et garde la trace de tout ce qui a été dit. Un conseiller humain ne peut ni ne doit faire cela : ce serait gâcher ce pour quoi il est irremplaçable.</p>
+
+    <h3>Ce que le conseiller fait mieux</h3>
+    <p>Il comprend une situation familiale, entend ce qui n'est pas dit dans un rendez-vous, arbitre entre des objectifs qui se contredisent, aide à trancher quand aucune option n'est bonne. Il engage sa responsabilité professionnelle, ce qu'aucun logiciel ne fait, et coordonne un notaire ou un avocat quand le dossier le demande.</p>
+
+    <h3>L'humain dans la boucle</h3>
+    <p>C'est pourquoi SAFIA fait travailler les deux ensemble plutôt que de les opposer. L'assistant te propose d'échanger avec un conseiller quand l'enjeu financier ou fiscal est important, quand tes données sont incohérentes, quand un produit est complexe, ou quand tu demandes une validation juridique. Il ne t'attend pas : il te le signale. C'est notre principe de l'humain dans la boucle, le <em>human-in-the-loop</em>.</p>
+
+    <p>Sur ce que la réglementation française autorise exactement, et sur la différence entre informer et conseiller, la page <a class="lien" href="/conseil-financier-ia/">peut-on demander un conseil financier à une IA</a> traite la question en détail. Deux articles creusent les points techniques : <a class="lien" href="/blog/ia-explicable-finance/">pourquoi une réponse sans source ne vaut rien</a> et <a class="lien" href="/blog/ia-remplacer-conseiller-patrimoine/">une IA peut-elle remplacer un conseiller en gestion de patrimoine</a>. Pour comparer les familles d'outils, leurs tarifs et leur modèle de rémunération, le <a class="lien" href="/comparatif/">comparatif</a> est daté et sourcé, et les limites de ce que l'application produit sont détaillées dans notre <a class="lien" href="/disclaimer/">avertissement</a>.</p>
+  </div>
+</div>
+</section>
+
+<section class="bloc faq-bloc">
+<div class="wrap faq-grille">
+  <h2 class="titre">Tes questions, nos réponses</h2>
+  <div class="faq">
+    <details><summary>Une IA peut-elle gérer mon patrimoine à ma place ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Non, et aucune application sérieuse ne le prétend. Une IA analyse, explique et prépare une décision. Elle ne détient pas ton argent et ne passe aucun ordre. La décision reste celle de celui à qui appartient le patrimoine.</p></details>
+    <details><summary>Est-ce réservé aux gros patrimoines ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>C'est l'inverse de son intérêt. Le conseil en gestion de patrimoine humain coûte cher parce qu'il prend du temps, ce qui le réserve de fait à ceux qui ont déjà beaucoup. Une IA fait tomber ce coût d'entrée : SAFIA est utile dès le premier livret.</p></details>
+    <details><summary>Mes données servent-elles à entraîner l'IA ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Chez SAFIA, non. Tes données servent à personnaliser tes analyses, et à rien d'autre : elles n'entraînent pas les modèles de Mistral AI. C'est une question à poser à tout éditeur avant de connecter un compte.</p></details>
+    <details><summary>Comment savoir si une réponse est fiable ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Demande sa source et sa date. Une réponse patrimoniale sans référence datée n'est pas vérifiable, parce que les taux, plafonds et barèmes changent chaque année, parfois en cours d'année.</p></details>
+    <details><summary>Quelle différence avec un robo-advisor ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Un robo-advisor investit à ta place dans des portefeuilles types, et se rémunère sur les encours. Un assistant patrimonial t'explique ta situation et tes options, sans détenir ton argent ni passer d'ordre.</p></details>
+    <details><summary>Faut-il encore un conseiller en gestion de patrimoine ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Oui, et pas seulement pour la forme. Les situations complexes, les arbitrages entre objectifs contradictoires et tout ce qui engage juridiquement demandent un humain. C'est le principe de l'humain dans la boucle.</p></details>
+  </div>
+</div>
+</section>
+
+<section class="final">
+<div class="wrap final-simple">
+  <h2>Vois ce que ça donne sur ton patrimoine.</h2>
+  <p>Gratuit pour commencer, sans engagement, et tes comptes restent où ils sont.</p>
+  <a class="btn btn-primaire" href="/telecharger/" data-app>Télécharger l'app</a>
+</div>
+</section>
+
+</Base>

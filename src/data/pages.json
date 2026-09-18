@@ -90,6 +90,15 @@
     "description": "Agrégateur, gestion pilotée, banque privée : qui fait quoi, à quel coût, et comment chacun se rémunère. Comparatif daté, sources à l'appui."
   },
   {
+    "slug": "gestion-de-patrimoine-ia",
+    "fichier": "gestion-de-patrimoine-ia.astro",
+    "route": "/gestion-de-patrimoine-ia/",
+    "libelle": "Gestion de patrimoine et IA",
+    "ref": "GPI",
+    "titre": "Gestion de patrimoine par IA : ce qu'elle change",
+    "description": "Réunir tes comptes, analyser ce que tu détiens, expliquer tes options : ce qu'une IA fait bien en patrimoine, ce qu'elle fait mal, et comment la juger."
+  },
+  {
     "slug": "conseil-financier-ia",
     "fichier": "conseil-financier-ia.astro",
     "route": "/conseil-financier-ia/",

@@ -1040,6 +1040,23 @@ ul.reseaux{list-style:none;display:flex;flex-direction:row;gap:10px;margin-top:1
 .recit p:first-child::first-letter{float:left;font-size:64px;line-height:.82;font-weight:600;margin:6px 12px 0 0;color:var(--violet)}
 .signature-recit{margin-top:28px!important;font-size:16px!important;color:var(--encre-2)}
 
+/* Prose suivie des pages de requête (lot 3 du chantier SEO).
+   Aucune page du site n'empilait de simples <p> dans une section : rien ne les
+   espaçait, et mesure faite le 19/09/2026, ils sortaient tous à margin 0, donc
+   collés les uns aux autres. La première version de /gestion-de-patrimoine-ia/
+   se lisait en mur de texte.
+   « .recit » fait exactement ce travail, mais pose une lettrine violette de
+   64 px sur son premier paragraphe, propre au récit du fondateur. D'où cette
+   classe plutôt qu'un emprunt.
+   Elle est ADDITIVE et porte un nom qui n'existe nulle part ailleurs : elle ne
+   peut rien changer aux autres pages, contrairement à la retouche d'un
+   sélecteur déjà en service, qui est le risque décrit dans docs/AUDIT-UX.md. */
+.prose{max-width:66ch}
+.prose p + p{margin-top:22px}
+.prose h3{margin-top:38px;font-size:22px;font-weight:600;letter-spacing:-.01em}
+.prose h3 + p{margin-top:12px}
+.prose .intro + h3{margin-top:30px}
+
 /* ODD */
 .odd-bloc{background:var(--nuit);color:var(--blanc)}
 .odd .titre,.odd p{max-width:70ch}

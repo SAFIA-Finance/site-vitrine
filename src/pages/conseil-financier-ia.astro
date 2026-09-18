@@ -11,6 +11,19 @@
 // Toutes les formulations engageant le statut de CIF sont reprises telles
 // quelles du pied de page et de /assistant-ia/, pour qu'une seule version
 // existe sur le site.
+//
+// MISE EN PAGE, deux règles tirées de deux erreurs mesurées le 19/09/2026.
+//
+// 1. Chaque section est un « .bloc », soit 96 px de marge en haut et en bas :
+//    deux sections voisines en cumulent 192, et 144 sur téléphone. Tant que les
+//    fonds alternent, cette marge se lit comme une respiration ; dès que deux
+//    sections voisines partagent le même fond, elle se lit comme un trou. La
+//    première version enchaînait quatre paires de même fond et isolait un
+//    « Pour aller plus loin » de deux paragraphes au milieu de 192 px de vide.
+//    Ordre des fonds : nuit, lavande, blanc, lavande, nuit, lavande, blanc, nuit.
+//
+// 2. Les paragraphes suivis vivent dans « .prose ». Sans elle, ils sortent à
+//    margin 0 et se collent les uns aux autres.
 import Base from '../layouts/Base.astro';
 
 // La FAQ vit à deux endroits : ici pour les données structurées FAQPage, et
@@ -57,9 +70,8 @@ const fil = ["Accueil", "Ressources", "Conseil financier et IA"];
   <p class="fil-ariane" aria-label="Fil d'Ariane"><a href="/">Accueil</a> <span aria-hidden="true">/</span> Ressources <span aria-hidden="true">/</span> Conseil financier et IA</p>
   {/* Espace insécable avant le point d'interrogation : sans elle, le titre se
       coupait après « IA » et laissait le « ? » seul sur une troisième ligne à
-      1440 px. Le rendu le montrait, aucune mesure ne pouvait le voir.
-      U+00A0 et non U+202F : l'espace fine, essayée d'abord, rendait « IA? »
-      presque collé à cette taille d'affichage. */}
+      1440 px. U+00A0 et non U+202F : l'espace fine, essayée d'abord, rendait
+      « IA? » presque collé à cette taille d'affichage. */}
   <h1>Peut-on demander un conseil financier à une IA&#160;?</h1>
   {/* La réponse est donnée dès le chapô, en une phrase autonome : c'est ce
       qu'un moteur génératif extrait, et ce qu'un lecteur pressé retient. */}
@@ -70,7 +82,7 @@ const fil = ["Accueil", "Ressources", "Conseil financier et IA"];
 <section class="bloc">
 <div class="wrap">
   <h2 class="titre">Information, recommandation, conseil : trois choses différentes</h2>
-  <p class="intro">La confusion entre ces trois mots explique la plupart des malentendus sur l'IA en finance. Ils ne recouvrent ni le même contenu, ni la même responsabilité.</p>
+  <p class="intro">La confusion entre ces trois mots explique la plupart des malentendus sur l'intelligence artificielle en finance. Ils ne recouvrent ni le même contenu, ni la même responsabilité.</p>
   <div class="tableau" role="table" aria-label="Information, recommandation et conseil">
     <div class="tr entete" role="row"><div role="columnheader">Ce que c'est</div><div role="columnheader">Ce que ça engage</div></div>
     <div class="tr" role="row">
@@ -86,16 +98,14 @@ const fil = ["Accueil", "Ressources", "Conseil financier et IA"];
       <div role="cell">Un statut réglementé, une responsabilité professionnelle, une assurance, et une formalisation écrite. Ce n'est pas une question de vocabulaire, c'est la loi.</div>
     </div>
   </div>
-  <p>Une IA travaille très bien dans les deux premières colonnes. La troisième n'est pas une limite technique : c'est une limite juridique, et elle protège l'épargnant.</p>
+  <p class="note-tab">Une intelligence artificielle travaille très bien dans les deux premières colonnes. La troisième n'est pas une limite technique : c'est une limite juridique, et elle protège l'épargnant.</p>
 </div>
 </section>
 
-<section class="bloc reconnais">
+<section class="bloc appui-bloc">
 <div class="wrap">
-  {/* « intelligence artificielle » en toutes lettres, et pas seulement le
-      sigle : l'audit du 18/09/2026 n'en trouvait aucune occurrence dans un
-      titre, un h1 ou un h2 sur les 164 pages du site. */}
   <h2 class="titre">Ce qu'une intelligence artificielle généraliste fait de dangereux</h2>
+  <p class="intro">Cinq défauts, sans gravité pour rédiger un courrier, sérieux dès qu'il s'agit d'argent.</p>
   <ul class="phrases">
     <li>Elle invente avec aplomb. Faute de connaître un chiffre, elle en produit un plausible, dans une phrase parfaitement rédigée.</li>
     <li>Elle cite des règles périmées. Un taux de livret, un plafond, un barème changent chaque année, parfois en cours d'année.</li>
@@ -110,8 +120,7 @@ const fil = ["Accueil", "Ressources", "Conseil financier et IA"];
 <section class="bloc">
 <div class="wrap">
   <h2 class="titre">Ce qu'une IA spécialisée change, mécanisme par mécanisme</h2>
-  <p class="intro">Les quatre défauts ci-dessus se corrigent, mais pas par de meilleures réponses : par une architecture différente. Voici comment SAFIA traite chacun, et ce qui reste hors de portée.</p>
-
+  <p class="intro">Les défauts ci-dessus se corrigent, mais pas par de meilleures réponses : par une architecture différente. Voici comment SAFIA traite chacun.</p>
   <div class="tableau" role="table" aria-label="Les défauts d'une IA généraliste et les réponses apportées">
     <div class="tr entete" role="row"><div role="columnheader">Le défaut</div><div role="columnheader">Le mécanisme qui y répond</div></div>
     <div class="tr" role="row">
@@ -124,56 +133,19 @@ const fil = ["Accueil", "Ressources", "Conseil financier et IA"];
     </div>
     <div class="tr" role="row">
       <div role="cell">Elle ne connaît pas ta vie.</div>
-      <div role="cell">Ton profil de risque, ton ADN investisseur et ton patrimoine connecté entrent dans le raisonnement. La <b>Mémoire IA</b>, incluse au plan Smart, conserve ton contexte d'une conversation à l'autre : tu n'as pas à réexpliquer ta situation à chaque question.</div>
+      <div role="cell">Ton profil de risque, ton <a class="lien" href="/adn-investisseur/">ADN investisseur</a> et ton patrimoine connecté entrent dans le raisonnement. La <b>Mémoire IA</b>, incluse au plan Smart, conserve ton contexte d'une conversation à l'autre : tu n'as pas à réexpliquer ta situation à chaque question.</div>
     </div>
     <div class="tr" role="row">
       <div role="cell">Elle n'engage personne.</div>
       <div role="cell">SAFIA SAS est un conseiller en investissements financiers enregistré à l'ORIAS, adhérent d'une association agréée par l'AMF. Quand un conseil personnalisé est nécessaire, ou quand l'IA l'identifie elle-même, il est délivré par un conseiller humain : c'est notre principe de l'humain dans la boucle, le <em>human-in-the-loop</em>, qui valide les recommandations avant qu'elles engagent une décision.</div>
     </div>
   </div>
-
-  <p>Le modèle employé est celui d'un fournisseur français, Mistral AI, entraîné pour la gestion de patrimoine et le conseil en investissement. Le détail du raisonnement est décrit sur <a class="lien" href="/methode/">notre méthode</a>, et ce que l'assistant s'interdit sur la page <a class="lien" href="/assistant-ia/">Assistant IA</a>.</p>
-</div>
-</section>
-
-<section class="bloc">
-<div class="wrap">
-  <h2 class="titre">Qui a le droit de conseiller en France</h2>
-  <p>Le conseil en investissement financier est une activité réservée. Pour l'exercer, il faut être enregistré, ici au registre de l'ORIAS, adhérer à une association professionnelle agréée par l'Autorité des marchés financiers, justifier d'une compétence, et être couvert par une assurance de responsabilité civile professionnelle.</p>
-  <p><b>Aucun agent conversationnel n'a ce statut à ce jour.</b> Un logiciel ne s'enregistre pas et ne s'assure pas : c'est l'entreprise qui l'exploite qui porte le statut, et elle seule. C'est pourquoi la question utile n'est pas « cette IA est-elle bonne ? » mais « qui répond de ce qu'elle dit ? ».</p>
-  <p>L'AMF suit de près les outils d'aide à la décision qui s'approchent du conseil, en particulier le risque qu'un algorithme reproduise un biais à grande échelle. C'est une raison de plus pour qu'une réponse automatisée soit traçable, datée et vérifiable.</p>
-</div>
-</section>
-
-<section class="bloc change">
-<div class="wrap">
-  <h2 class="titre">Le conseil hybride : la machine prépare, l'humain engage</h2>
-  <p class="intro">Opposer l'IA et le conseiller est un faux débat. Chacun est meilleur là où l'autre est faible, et c'est leur combinaison qui rend un accompagnement de qualité accessible sans patrimoine minimum.</p>
-  <div class="tableau" role="table" aria-label="Ce que fait l'IA et ce que fait le conseiller">
-    <div class="tr entete" role="row"><div role="columnheader">Ce que l'IA fait mieux</div><div role="columnheader">Ce que le conseiller fait mieux</div></div>
-    <div class="tr" role="row">
-      <div role="cell">Lire vite une grande quantité d'informations, retrouver une règle et l'appliquer à un cas précis, repérer une incohérence dans un portefeuille.</div>
-      <div role="cell">Comprendre une situation familiale, entendre ce qui n'est pas dit, arbitrer entre des objectifs qui se contredisent.</div>
-    </div>
-    <div class="tr" role="row">
-      <div role="cell">Être disponible à toute heure, expliquer dix fois de suite sans se lasser, et garder la trace de ce qui a été dit.</div>
-      <div role="cell">Engager sa responsabilité, formaliser un conseil par écrit, et coordonner un notaire ou un avocat quand il le faut.</div>
-    </div>
-  </div>
-  <p>C'est la raison d'être de ce que nous appelons l'humain dans la boucle. L'assistant te propose d'échanger avec un conseiller quand l'enjeu financier ou fiscal est important, quand tes données sont incohérentes, quand un produit est complexe, ou quand tu demandes une validation juridique. Il n'attend pas que tu le demandes : il le signale.</p>
-  <p>Concrètement, un cas complexe (holding, démembrement, fiscalité internationale, succession délicate) n'est pas traité seul par la machine. Elle t'explique les options possibles, prépare la liste des documents utiles, puis te propose un échange avec un conseiller SAFIA dédié, offert aux abonnés Smart.</p>
+  <p class="note-tab">Le modèle employé est celui d'un fournisseur français, Mistral AI, entraîné pour la gestion de patrimoine et le conseil en investissement. Le détail du raisonnement est décrit sur <a class="lien" href="/methode/">notre méthode</a>, et ce que l'assistant s'interdit sur la page <a class="lien" href="/assistant-ia/">Assistant IA</a>.</p>
 </div>
 </section>
 
 <section class="bloc ne-fait-pas">
 <div class="wrap">
-  {/* Six et non cinq, à dessein. « .limites » est une grille de trois colonnes
-      fixes au-dessus de 900 px : cinq items y laissaient une cellule vide en
-      seconde rangée, visible à la capture. Six en remplissent deux exactement.
-      La page Particuliers en compte trois, soit une rangée pleine, ce qui
-      masquait le piège. Corrigé par le contenu plutôt que par une règle
-      ajoutée à global.css, dont la portée globale est le risque structurel
-      déjà documenté dans docs/AUDIT-UX.md. */}
   <h2 class="titre">Six questions à poser avant de suivre un conseil d'IA</h2>
   <ul class="limites">
     <li><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/><path d="M12 7v6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="currentColor"/></svg><p><b>D'où vient ce chiffre, et de quand date-t-il ?</b> Une réponse financière sans source datée n'est pas vérifiable.</p></li>
@@ -188,9 +160,23 @@ const fil = ["Accueil", "Ressources", "Conseil financier et IA"];
 
 <section class="bloc">
 <div class="wrap">
-  <h2 class="titre">Pour aller plus loin</h2>
-  <p>Deux articles développent les points les plus techniques de cette page : <a class="lien" href="/blog/ia-explicable-finance/">pourquoi une réponse sans source ne vaut rien</a>, et <a class="lien" href="/blog/ia-remplacer-conseiller-patrimoine/">une IA peut-elle remplacer un conseiller en gestion de patrimoine</a>.</p>
-  <p>Les limites de ce que l'application produit sont détaillées dans notre <a class="lien" href="/disclaimer/">avertissement</a>.</p>
+  <h2 class="titre">Qui a le droit de conseiller, et pourquoi l'humain reste dans la boucle</h2>
+  <div class="prose">
+    <p class="intro">Le conseil en investissement financier n'est pas un service comme un autre : c'est une activité réservée, encadrée, et cet encadrement explique la place que garde le conseiller humain quand une intelligence artificielle entre dans le processus.</p>
+
+    <h3>Une activité réservée</h3>
+    <p>Pour l'exercer, il faut être enregistré, ici au registre de l'ORIAS, adhérer à une association professionnelle agréée par l'Autorité des marchés financiers, justifier d'une compétence, et être couvert par une assurance de responsabilité civile professionnelle. Ce ne sont pas des formalités : ce sont les contreparties d'un droit à recommander un placement à quelqu'un.</p>
+
+    <h3>Aucun agent conversationnel n'a ce statut</h3>
+    <p>Un logiciel ne s'enregistre pas et ne s'assure pas. C'est l'entreprise qui l'exploite qui porte le statut, et elle seule. La question utile n'est donc pas «&#160;cette IA est-elle bonne&#160;?&#160;» mais «&#160;qui répond de ce qu'elle dit&#160;?&#160;». L'AMF suit de près les outils d'aide à la décision qui s'approchent du conseil, en particulier le risque qu'un algorithme reproduise un biais à grande échelle. C'est une raison de plus pour qu'une réponse automatisée soit traçable, datée et vérifiable.</p>
+
+    <h3>Le conseil hybride, plutôt qu'un faux débat</h3>
+    <p>Opposer l'intelligence artificielle et le conseiller n'a pas de sens : chacun est meilleur là où l'autre est faible. La machine lit vite une grande quantité d'informations, retrouve une règle et l'applique à un cas précis, repère une incohérence dans un portefeuille, reste disponible à toute heure et garde la trace de ce qui a été dit. Le conseiller, lui, comprend une situation familiale, entend ce qui n'est pas dit, arbitre entre des objectifs qui se contredisent, engage sa responsabilité et coordonne un notaire ou un avocat quand il le faut.</p>
+
+    <p>C'est la raison d'être de l'humain dans la boucle. L'assistant te propose d'échanger avec un conseiller quand l'enjeu financier ou fiscal est important, quand tes données sont incohérentes, quand un produit est complexe, ou quand tu demandes une validation juridique. Il n'attend pas que tu le demandes : il le signale. Un cas complexe, holding, démembrement, fiscalité internationale ou succession délicate, n'est jamais traité seul par la machine : elle t'explique les options possibles, prépare la liste des documents utiles, puis te propose un échange avec un conseiller SAFIA dédié, offert aux abonnés Smart.</p>
+
+    <p>Pour comprendre ce que l'intelligence artificielle apporte à un patrimoine au-delà de cette question, la page <a class="lien" href="/gestion-de-patrimoine-ia/">gestion de patrimoine par IA</a> traite le sujet en entier. Deux articles développent les points techniques : <a class="lien" href="/blog/ia-explicable-finance/">pourquoi une réponse sans source ne vaut rien</a> et <a class="lien" href="/blog/ia-remplacer-conseiller-patrimoine/">une IA peut-elle remplacer un conseiller en gestion de patrimoine</a>. Les limites de ce que l'application produit sont détaillées dans notre <a class="lien" href="/disclaimer/">avertissement</a>.</p>
+  </div>
 </div>
 </section>
 
