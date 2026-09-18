@@ -1,7 +1,7 @@
 ---
 code: "K7"
 titre: "Wallis-et-Futuna et Saint-Pierre-et-Miquelon"
-titreSeo: "Wallis-et-Futuna et Saint-Pierre-et-Miquelon"
+titreSeo: "Wallis-et-Futuna et Saint-Pierre-et-Miquelon : fiscalité"
 description: "Deux collectivités de l'article 74 à fiscalité propre : Wallis-et-Futuna sans impôt sur le revenu, Saint-Pierre-et-Miquelon avec son code local."
 categorie: "Outre-mer"
 date: 2026-09-16
@@ -14,7 +14,6 @@ essentiel:
 pages:
   - nom: "Cockpit stratégique"
     url: "/cockpit/"
-seoDerive: true
 sources: "Constitution du 4 octobre 1958, article 74 · Loi n° 61-814 du 29 juillet 1961 conférant aux îles Wallis et Futuna le statut de territoire d'outre-mer · Loi n° 85-595 du 11 juin 1985 relative au statut de l'archipel de Saint-Pierre-et-Miquelon et textes statutaires ultérieurs · Codes locaux des impôts et services fiscaux des deux collectivités · Convention fiscale franco-canadienne."
 ---
 

@@ -331,6 +331,7 @@ Directive 2009/65/CE (OPCVM) et directive 2011/61/UE (AIFM) · AMF, doctrine sur
 ## J8 — Fonds obligataires et fonds datés
 
 **URL** : /blog/fonds-obligataires-fonds-dates · **Mot-clé** : fonds obligataire daté · **Page liée** : ADN Investisseur
+**Title** : Fonds obligataires : l'effet des taux et le fonds daté
 **Meta** : Le prix d'une obligation baisse quand les taux montent. La duration mesure cette sensibilité, et le fonds daté rend le rendement plus prévisible.
 
 ### L'essentiel

@@ -359,6 +359,7 @@ Constitution du 4 octobre 1958, titre XIII · Loi organique n° 99-209 du 19 mar
 ## K7 — Wallis-et-Futuna et Saint-Pierre-et-Miquelon
 
 **URL** : /blog/fiscalite-wallis-futuna-saint-pierre-miquelon · **Mot-clé** : fiscalité wallis et futuna · **Page liée** : Cockpit stratégique
+**Title** : Wallis-et-Futuna et Saint-Pierre-et-Miquelon : fiscalité
 **Meta** : Deux collectivités de l'article 74 à fiscalité propre : Wallis-et-Futuna sans impôt sur le revenu, Saint-Pierre-et-Miquelon avec son code local.
 **Vérifié le 16 septembre 2026**
 

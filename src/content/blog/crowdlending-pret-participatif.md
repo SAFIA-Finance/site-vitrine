@@ -1,7 +1,7 @@
 ---
 code: "J17"
 titre: "Crowdlending et prêt participatif"
-titreSeo: "Crowdlending et prêt participatif"
+titreSeo: "Crowdlending : le rendement dépend du taux de défaut"
 description: "Le rendement net dépend du taux de défaut, jamais du taux affiché. Les pertes en capital ne compensent pas automatiquement les intérêts imposés."
 categorie: "Produits d'investissement"
 date: 2026-09-16
@@ -14,7 +14,6 @@ essentiel:
 pages:
   - nom: "ADN Investisseur"
     url: "/adn-investisseur/"
-seoDerive: true
 sources: "Règlement (UE) 2020/1503 · Code général des impôts, article 125-00 A sur l'imputation des pertes sur prêts participatifs · Registres AMF et ACPR des prestataires agréés · Statistiques publiées par les plateformes."
 ---
 

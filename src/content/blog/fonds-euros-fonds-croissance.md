@@ -1,7 +1,7 @@
 ---
 code: "J19"
 titre: "Fonds euros et fonds croissance"
-titreSeo: "Fonds euros et fonds croissance"
+titreSeo: "Fonds euros : pourquoi le rendement réagit avec retard"
 description: "Le fonds en euros réagit avec retard aux taux, car son portefeuille obligataire se constitue lentement. Ce que les fonds croissance changent."
 categorie: "Produits d'investissement"
 date: 2026-09-16
@@ -14,7 +14,6 @@ essentiel:
 pages:
   - nom: "ADN Investisseur"
     url: "/adn-investisseur/"
-seoDerive: true
 sources: "Code des assurances, articles L. 132-1 et suivants, et dispositions relatives à la provision pour participation aux bénéfices · ACPR, publications sur les fonds en euros et les taux de revalorisation · France Assureurs, statistiques de rendement."
 ---
 

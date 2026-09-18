@@ -1,7 +1,7 @@
 ---
 code: "J22"
 titre: "Actifs de passion et actifs réels"
-titreSeo: "Actifs de passion et actifs réels"
+titreSeo: "Forêts, vignes, art : ce que ces actifs coûtent vraiment"
 description: "Forêts, vignes, art, collection : une logique patrimoniale, pas de rendement. Les performances publiées surestiment, et le coût de détention s'oublie."
 categorie: "Produits d'investissement"
 date: 2026-09-16
@@ -14,7 +14,6 @@ essentiel:
 pages:
   - nom: "ADN Investisseur"
     url: "/adn-investisseur/"
-seoDerive: true
 sources: "Code général des impôts, articles 793, 976 et suivants (régimes forestiers et viticoles, IFI), 150 VI à 150 VM (biens meubles et objets d'art) · BOFiP, groupements forestiers et groupements fonciers viticoles · Travaux académiques sur le biais de sélection dans les indices de marché de l'art."
 ---
 

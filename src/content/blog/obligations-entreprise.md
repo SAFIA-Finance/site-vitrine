@@ -1,7 +1,7 @@
 ---
 code: "J18"
 titre: "Obligations d'entreprise en direct"
-titreSeo: "Obligations d'entreprise en direct"
+titreSeo: "Obligations d'entreprise : coupon, défaut et revente"
 description: "Prêter à une entreprise identifiée, pour une durée et un coupon connus. Deux risques : le défaut de l'émetteur, et le prix si tu revends avant terme."
 categorie: "Produits d'investissement"
 date: 2026-09-16
@@ -14,7 +14,6 @@ essentiel:
 pages:
   - nom: "ADN Investisseur"
     url: "/adn-investisseur/"
-seoDerive: true
 sources: "Règlement (UE) 2017/1129 sur le prospectus · Prospectus et termes définitifs de chaque émission · Publications des agences de notation sur les taux de défaut historiques · AMF, mises en garde sur les titres subordonnés."
 ---
 

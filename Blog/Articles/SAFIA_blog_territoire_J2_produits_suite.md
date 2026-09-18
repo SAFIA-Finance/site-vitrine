@@ -271,6 +271,7 @@ Règlement (UE) 2020/1503 relatif aux prestataires européens de services de fin
 ## J17 — Crowdlending et prêt participatif
 
 **URL** : /blog/crowdlending-pret-participatif · **Mot-clé** : crowdlending · **Page liée** : ADN Investisseur
+**Title** : Crowdlending : le rendement dépend du taux de défaut
 **Meta** : Le rendement net dépend du taux de défaut, jamais du taux affiché. Les pertes en capital ne compensent pas automatiquement les intérêts imposés.
 
 ### L'essentiel
@@ -322,6 +323,7 @@ Règlement (UE) 2020/1503 · Code général des impôts, article 125-00 A sur l'
 ## J18 — Obligations d'entreprise en direct
 
 **URL** : /blog/obligations-entreprise · **Mot-clé** : obligation entreprise · **Page liée** : ADN Investisseur
+**Title** : Obligations d'entreprise : coupon, défaut et revente
 **Meta** : Prêter à une entreprise identifiée, pour une durée et un coupon connus. Deux risques : le défaut de l'émetteur, et le prix si tu revends avant terme.
 
 ### L'essentiel
@@ -366,6 +368,7 @@ Règlement (UE) 2017/1129 sur le prospectus · Prospectus et termes définitifs 
 ## J19 — Fonds euros et fonds croissance
 
 **URL** : /blog/fonds-euros-fonds-croissance · **Mot-clé** : fonds euros · **Page liée** : ADN Investisseur
+**Title** : Fonds euros : pourquoi le rendement réagit avec retard
 **Meta** : Le fonds en euros réagit avec retard aux taux, car son portefeuille obligataire se constitue lentement. Ce que les fonds croissance changent.
 
 ### L'essentiel
@@ -505,6 +508,7 @@ Règlement (UE) 2023/1114 dit MiCA · Code général des impôts, articles 150 V
 ## J22 — Actifs de passion et actifs réels
 
 **URL** : /blog/actifs-de-passion · **Mot-clé** : investissement passion · **Page liée** : ADN Investisseur
+**Title** : Forêts, vignes, art : ce que ces actifs coûtent vraiment
 **Meta** : Forêts, vignes, art, collection : une logique patrimoniale, pas de rendement. Les performances publiées surestiment, et le coût de détention s'oublie.
 
 ### L'essentiel

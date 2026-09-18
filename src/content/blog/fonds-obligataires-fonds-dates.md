@@ -1,7 +1,7 @@
 ---
 code: "J8"
 titre: "Fonds obligataires et fonds datés"
-titreSeo: "Fonds obligataires et fonds datés"
+titreSeo: "Fonds obligataires : l'effet des taux et le fonds daté"
 description: "Le prix d'une obligation baisse quand les taux montent. La duration mesure cette sensibilité, et le fonds daté rend le rendement plus prévisible."
 categorie: "Produits d'investissement"
 date: 2026-09-16
@@ -14,7 +14,6 @@ essentiel:
 pages:
   - nom: "ADN Investisseur"
     url: "/adn-investisseur/"
-seoDerive: true
 sources: "AMF, guide sur les fonds obligataires et les fonds à échéance · Documents d'informations clés, indicateur de risque et scénarios · Publications des agences de notation sur les taux de défaut historiques par catégorie."
 ---
 
