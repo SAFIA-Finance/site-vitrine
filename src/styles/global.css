@@ -1415,6 +1415,14 @@ ul.reseaux{list-style:none;display:flex;flex-direction:row;gap:10px;margin-top:1
 .article-suite{margin-top:64px}
 .article-suite h2{font-size:clamp(1.3rem,2.6vw,1.7rem);font-weight:600;letter-spacing:-.02em;margin-bottom:20px}
 .suite-liens{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--ligne);border-radius:var(--r-l);overflow:hidden}
+/* Quatre cartes sur trois colonnes laissent une rangee a trou : une carte
+   blanche a gauche et deux tiers d'aplat lavande, qui se lit comme une carte
+   manquante plutot que comme un choix. Le vide existe deja sur les articles a
+   une seule carte, mais il saute bien plus aux yeux quand il suit une rangee
+   pleine. Deux colonnes donnent deux rangees pleines. Trois cartes restent sur
+   trois colonnes, et une carte seule garde sa rangee, comme avant. */
+.suite-liens[data-cartes="2"],
+.suite-liens[data-cartes="4"]{grid-template-columns:repeat(2,1fr)}
 .suite-liens .pass h3{font-size:17px}
 
 /* Sommaire : titres cliquables, compteurs, retour de recherche. */
@@ -1429,7 +1437,12 @@ ul.reseaux{list-style:none;display:flex;flex-direction:row;gap:10px;margin-top:1
 .art[hidden]{display:none}
 
 @media (max-width:900px){
-  .suite-liens{grid-template-columns:1fr}
+  /* Le selecteur porte l'attribut pour tenir la MEME specificite que la regle
+     [data-cartes] plus haut : un attribut pese autant qu'une classe, donc
+     .suite-liens seul (0,1,0) perdait contre .suite-liens[data-cartes="4"]
+     (0,2,0) et laissait deux colonnes sur un telephone. A specificite egale,
+     c'est l'ordre qui tranche, et cette regle vient apres. */
+  .suite-liens[data-cartes]{grid-template-columns:1fr}
 }
 @media (max-width:760px){
   .essentiel{padding:20px 22px}

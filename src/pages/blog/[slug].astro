@@ -115,7 +115,7 @@ const categorieUrl = `/blog/categorie/${slugCategorie(data.categorie)}/`;
   {(data.outils.length > 0 || data.pages.length > 0 || lies.length > 0) && (
     <div class="article-suite">
       <h2>Pour aller plus loin</h2>
-      <div class="suite-liens">
+      <div class="suite-liens" data-cartes={data.outils.length + data.pages.length + lies.length}>
         {/* Le simulateur d'abord : c'est la seule carte du bloc qui propose de
             FAIRE quelque chose plutôt que de lire. Son texte vient du catalogue
             des outils, jamais de la phrase générique des pages. */}
