@@ -1,0 +1,184 @@
+---
+// Page de requête « conseil en investissement financier IA ». Lot 3.
+//
+// FRONTIÈRE AVEC /conseil-financier-ia/, redéfinie en cours de route. Le plan
+// initial ouvrait sur « ce qu'est le conseil en investissement financier » et
+// « pourquoi aucune IA n'est CIF ». Ces deux sujets ont été absorbés par la
+// page « conseil financier » quand j'y ai fusionné deux sections pour corriger
+// sa mise en page. Les y reprendre aurait créé deux pages sur la même requête.
+//
+// Cette page traite donc ce que l'autre ne traite pas : le CADRE qui s'impose
+// quand une IA intervient dans une activité réglementée, texte par texte, et
+// ce qui en découle pour un cabinet comme pour un établissement. C'est le pont
+// vers /conseillers/ et /institutions/, qui font 223 et 183 mots et ne se
+// classeront jamais seules.
+//
+// Les textes cités sont nommés sans être interprétés au-delà de ce qu'ils
+// disent. Page signée par un conseiller en investissements financiers.
+//
+// MISE EN PAGE : fonds alternés, paragraphes suivis dans « .prose », grille
+// « .limites » à 6 items. Voir les commentaires des pages sœurs.
+import Base from '../layouts/Base.astro';
+
+const faq = [
+  {
+    "q": "Une intelligence artificielle peut-elle être enregistrée comme CIF ?",
+    "r": "Non. Le statut est porté par une personne morale ou physique, qui s'enregistre, adhère à une association agréée et s'assure. Un logiciel ne fait rien de tout cela : c'est l'entreprise qui l'exploite qui répond de ce qu'il produit."
+  },
+  {
+    "q": "Qui est responsable d'une recommandation produite par une IA ?",
+    "r": "Le professionnel qui la délivre. L'automatisation ne déplace pas la responsabilité : elle la laisse là où elle était, chez celui qui exerce l'activité réglementée."
+  },
+  {
+    "q": "Le règlement européen sur l'IA s'applique-t-il à la gestion de patrimoine ?",
+    "r": "Il classe les systèmes par niveau de risque et impose, selon les cas, transparence, documentation et supervision humaine. L'usage financier n'est pas hors champ, et la qualification dépend de ce que le système fait précisément."
+  },
+  {
+    "q": "Que faut-il pouvoir tracer ?",
+    "r": "Ce qui a été recommandé, à qui, sur la base de quelles informations, à quelle date, et ce qui fondait la recommandation. C'est vrai avec ou sans IA ; l'automatisation rend seulement la trace plus facile à produire."
+  },
+  {
+    "q": "Un cabinet peut-il utiliser l'IA avec ses clients ?",
+    "r": "Oui, et beaucoup le font déjà pour préparer, analyser et documenter. Ce qui ne se délègue pas, c'est la recommandation elle-même et la responsabilité qui l'accompagne."
+  },
+  {
+    "q": "Comment vérifier le statut d'un acteur ?",
+    "r": "Par le registre de l'ORIAS, public et gratuit. Un acteur qui met en avant une technologie sans mentionner son statut réglementaire mérite cette vérification avant tout le reste."
+  }
+];
+
+const fil = ["Accueil", "Ressources", "Conseil en investissement et IA"];
+---
+
+<Base
+  chemin={"/conseil-investissement-ia/"}
+  faq={faq}
+  fil={fil}
+>
+
+<section class="hero hero-page hero-part">
+<div class="wrap hero-page-in hero-court">
+  <p class="etiq-page">Comprendre</p>
+  <p class="fil-ariane" aria-label="Fil d'Ariane"><a href="/">Accueil</a> <span aria-hidden="true">/</span> Ressources <span aria-hidden="true">/</span> Conseil en investissement et IA</p>
+  <h1>Conseil en investissement et IA : ce que le cadre impose</h1>
+  <p class="chapo">L'intelligence artificielle entre dans une activité déjà très encadrée. Elle n'en modifie ni les obligations ni la responsabilité : elle change la façon de les honorer. Ce que cela implique concrètement, pour un épargnant comme pour un cabinet.</p>
+</div>
+</section>
+
+<section class="bloc">
+<div class="wrap">
+  <h2 class="titre">Ce que l'IA peut faire à l'intérieur d'un cadre réglementé</h2>
+  <div class="prose">
+    <p class="intro">La question n'est pas de savoir si une machine a le droit de conseiller, elle ne l'a pas, et la page <a class="lien" href="/conseil-financier-ia/">peut-on demander un conseil financier à une IA</a> explique pourquoi. La question est de savoir ce qu'elle peut faire en amont, et ce que cela change à la qualité du conseil délivré ensuite.</p>
+
+    <h3>Préparer</h3>
+    <p>Recueillir les informations, repérer ce qui manque au dossier, calculer une capacité d'épargne, projeter une fiscalité, simuler plusieurs hypothèses. Ce travail prend des heures à un conseiller et conditionne la pertinence de ce qu'il proposera. L'automatiser libère du temps pour ce qui demande un jugement.</p>
+
+    <h3>Documenter</h3>
+    <p>Produire la trace de ce qui a été examiné, avec les sources et leur date. Une recommandation se justifie au regard d'une situation à un instant donné : une IA qui cite systématiquement ses références produit cette justification sans effort supplémentaire.</p>
+
+    <h3>Surveiller</h3>
+    <p>Repérer qu'un plafond a changé, qu'une allocation a dérivé, qu'un profil de risque n'a pas été revu depuis trop longtemps. La vigilance continue est précisément ce qu'un humain ne peut pas tenir sur des centaines de dossiers.</p>
+
+    <p>Ce que l'IA ne fait dans aucun de ces trois cas, c'est décider à la place du professionnel. Elle prépare, il tranche, et c'est lui qui répond de sa recommandation.</p>
+  </div>
+</div>
+</section>
+
+<section class="bloc appui-bloc">
+<div class="wrap">
+  <h2 class="titre">Les textes qui s'appliquent, et ce qu'ils exigent</h2>
+  <p class="intro">Quatre corpus se superposent. Aucun n'est propre à l'IA, sauf le premier, et tous s'appliquaient déjà au conseil avant elle.</p>
+  <div class="tableau" role="table" aria-label="Les textes applicables et leurs exigences">
+    <div class="tr entete" role="row"><div role="columnheader">Le texte</div><div role="columnheader">Ce qu'il exige</div></div>
+    <div class="tr" role="row">
+      <div role="cell"><b>Le règlement européen sur l'intelligence artificielle.</b></div>
+      <div role="cell">Une classification par niveau de risque, et selon les cas de la transparence sur le caractère automatisé de l'échange, de la documentation technique, et une supervision humaine effective.</div>
+    </div>
+    <div class="tr" role="row">
+      <div role="cell"><b>La directive sur les marchés d'instruments financiers, dite MIF 2.</b></div>
+      <div role="cell">Une évaluation de l'adéquation avant toute recommandation personnalisée, une information claire sur les coûts et les incitations, et la conservation des échanges.</div>
+    </div>
+    <div class="tr" role="row">
+      <div role="cell"><b>Le règlement européen sur la résilience opérationnelle numérique, dit DORA.</b></div>
+      <div role="cell">La maîtrise du risque informatique, y compris celui des prestataires, et la capacité à continuer de fonctionner en cas d'incident.</div>
+    </div>
+    <div class="tr" role="row">
+      <div role="cell"><b>Le règlement général sur la protection des données.</b></div>
+      <div role="cell">Une finalité déterminée pour chaque donnée traitée, la minimisation, et des droits effectifs, dont celui de ne pas subir une décision entièrement automatisée ayant un effet significatif.</div>
+    </div>
+  </div>
+  <p class="note-tab">Ces textes sont nommés ici sans être interprétés au-delà de ce qu'ils disent : leur application dépend de ce que fait précisément chaque système. L'article <a class="lien" href="/blog/ai-act-conseiller-financier/">ce que l'AI Act change pour un cabinet</a> entre dans le détail.</p>
+</div>
+</section>
+
+<section class="bloc">
+<div class="wrap">
+  <h2 class="titre">La traçabilité n'est pas un confort, c'est la preuve</h2>
+  <div class="prose">
+    <p class="intro">Le point commun de ces quatre corpus tient en un mot : il faut pouvoir montrer. Montrer ce qui a été recueilli, ce qui a été recommandé, et sur quelle base.</p>
+
+    <p>C'est là que l'automatisation apporte davantage qu'un gain de temps. Un conseiller qui travaille de mémoire produit une trace lacunaire, non par négligence mais parce que la trace n'est pas le travail. Un système qui cite ses sources et les date produit la preuve en même temps que l'analyse, sans étape supplémentaire.</p>
+
+    <p>Le revers existe, et il est sérieux. Un système qui ne sait pas dire d'où vient une affirmation rend la preuve impossible à reconstituer, et transfère au professionnel la charge de vérifier chaque ligne. C'est la raison pour laquelle une IA qui invente est bien pire qu'une IA qui se tait : elle fabrique une trace fausse. C'est pourquoi celle de SAFIA a l'interdiction explicite d'inventer un chiffre, un taux, un plafond ou un article de loi, et pose la question plutôt que de deviner.</p>
+  </div>
+</div>
+</section>
+
+<section class="bloc ne-fait-pas">
+<div class="wrap">
+  <h2 class="titre">Six exigences à vérifier sur un outil professionnel</h2>
+  <ul class="limites">
+    <li><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/><path d="M12 7v6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="currentColor"/></svg><p><b>L'utilisateur sait-il qu'il échange avec une IA ?</b> La transparence est la première exigence, et la plus simple à constater.</p></li>
+    <li><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/><path d="M12 7v6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="currentColor"/></svg><p><b>Chaque réponse est-elle sourcée et datée ?</b> Sans cela, aucune preuve ne peut être reconstituée.</p></li>
+    <li><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/><path d="M12 7v6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="currentColor"/></svg><p><b>Un humain valide-t-il avant que la recommandation engage ?</b> La supervision doit être effective, pas déclarative.</p></li>
+    <li><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/><path d="M12 7v6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="currentColor"/></svg><p><b>Les échanges sont-ils conservés et exportables ?</b> Y compris le jour où l'on change d'outil.</p></li>
+    <li><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/><path d="M12 7v6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="currentColor"/></svg><p><b>Où sont hébergées les données des clients ?</b> Et sous quel droit, en cas de litige.</p></li>
+    <li><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/><path d="M12 7v6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="currentColor"/></svg><p><b>Que se passe-t-il si le prestataire s'arrête ?</b> La continuité fait partie des obligations, pas des options.</p></li>
+  </ul>
+</div>
+</section>
+
+<section class="bloc">
+<div class="wrap">
+  <h2 class="titre">Ce que ça change, pour un épargnant et pour un cabinet</h2>
+  <div class="prose">
+    <p class="intro">Les mêmes mécanismes produisent deux effets différents selon le côté où l'on se trouve.</p>
+
+    <h3>Pour un épargnant</h3>
+    <p>Le conseil devient accessible sans seuil d'entrée. Ce qui coûtait cher n'était pas la recommandation elle-même, c'était le temps nécessaire pour l'établir. Quand ce temps tombe, l'accompagnement cesse d'être réservé à ceux qui ont déjà beaucoup. La contrepartie est qu'il faut savoir vérifier ce qu'on nous dit : c'est l'objet des six questions de la page <a class="lien" href="/conseil-financier-ia/">conseil financier et IA</a>.</p>
+
+    <h3>Pour un cabinet</h3>
+    <p>La charge documentaire baisse et la qualité de la trace monte, ce qui est exactement l'inverse de ce que beaucoup redoutent. Le métier ne disparaît pas : il se concentre sur ce qui demandait déjà un jugement, l'arbitrage, la relation et la responsabilité. Deux articles traitent ce basculement : <a class="lien" href="/blog/digitaliser-cabinet-gestion-patrimoine/">digitaliser un cabinet</a> et <a class="lien" href="/blog/logiciel-cgp-comment-choisir/">choisir un logiciel de gestion de patrimoine</a>.</p>
+
+    <p>SAFIA construit son offre professionnelle avec un petit nombre de cabinets plutôt qu'en annonçant une feuille de route, et travaille séparément avec des établissements sur des parcours en marque blanche. Le détail est sur les pages <a class="lien" href="/conseillers/">Conseillers</a> et <a class="lien" href="/institutions/">Institutions</a>. Ce que l'application produit, et ses limites, sont décrits dans notre <a class="lien" href="/disclaimer/">avertissement</a>.</p>
+  </div>
+</div>
+</section>
+
+<section class="bloc faq-bloc">
+<div class="wrap faq-grille">
+  <h2 class="titre">Tes questions, nos réponses</h2>
+  <div class="faq">
+    <details><summary>Une intelligence artificielle peut-elle être enregistrée comme CIF ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Non. Le statut est porté par une personne morale ou physique, qui s'enregistre, adhère à une association agréée et s'assure. Un logiciel ne fait rien de tout cela : c'est l'entreprise qui l'exploite qui répond de ce qu'il produit.</p></details>
+    <details><summary>Qui est responsable d'une recommandation produite par une IA ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Le professionnel qui la délivre. L'automatisation ne déplace pas la responsabilité : elle la laisse là où elle était, chez celui qui exerce l'activité réglementée.</p></details>
+    <details><summary>Le règlement européen sur l'IA s'applique-t-il à la gestion de patrimoine ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Il classe les systèmes par niveau de risque et impose, selon les cas, transparence, documentation et supervision humaine. L'usage financier n'est pas hors champ, et la qualification dépend de ce que le système fait précisément.</p></details>
+    <details><summary>Que faut-il pouvoir tracer ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Ce qui a été recommandé, à qui, sur la base de quelles informations, à quelle date, et ce qui fondait la recommandation. C'est vrai avec ou sans IA ; l'automatisation rend seulement la trace plus facile à produire.</p></details>
+    <details><summary>Un cabinet peut-il utiliser l'IA avec ses clients ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Oui, et beaucoup le font déjà pour préparer, analyser et documenter. Ce qui ne se délègue pas, c'est la recommandation elle-même et la responsabilité qui l'accompagne.</p></details>
+    <details><summary>Comment vérifier le statut d'un acteur ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Par le registre de l'ORIAS, public et gratuit. Un acteur qui met en avant une technologie sans mentionner son statut réglementaire mérite cette vérification avant tout le reste.</p></details>
+  </div>
+</div>
+</section>
+
+<section class="final">
+<div class="wrap final-simple">
+  <h2>Un cabinet, un établissement, un projet ?</h2>
+  <p>Nous construisons avec un nombre limité de partenaires, et nous disons ce qui existe et ce qui n'existe pas encore.</p>
+  <div class="actions actions-centre">
+    <a class="btn btn-primaire" href="/conseillers/">Programme pilote</a>
+    <a class="btn btn-fantome" href="/institutions/">Institutions</a>
+  </div>
+</div>
+</section>
+
+</Base>

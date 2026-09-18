@@ -90,6 +90,33 @@
     "description": "Agrégateur, gestion pilotée, banque privée : qui fait quoi, à quel coût, et comment chacun se rémunère. Comparatif daté, sources à l'appui."
   },
   {
+    "slug": "application-gestion-patrimoine",
+    "fichier": "application-gestion-patrimoine.astro",
+    "route": "/application-gestion-patrimoine/",
+    "libelle": "Applications de gestion de patrimoine",
+    "ref": "AGP",
+    "titre": "Choisir une application de gestion de patrimoine",
+    "description": "Ce qu'une application fait de tes comptes, ce qu'il faut vérifier avant de les connecter, et comment son éditeur gagne sa vie. Six vérifications."
+  },
+  {
+    "slug": "conseil-investissement-ia",
+    "fichier": "conseil-investissement-ia.astro",
+    "route": "/conseil-investissement-ia/",
+    "libelle": "Conseil en investissement et IA",
+    "ref": "CII",
+    "titre": "Conseil en investissement et IA : ce que le cadre impose",
+    "description": "AI Act, MIF 2, DORA, RGPD : ce que la réglementation exige quand une IA intervient dans le conseil, et ce que ça change pour un cabinet."
+  },
+  {
+    "slug": "histoire-gestion-de-patrimoine",
+    "fichier": "histoire-gestion-de-patrimoine.astro",
+    "route": "/histoire-gestion-de-patrimoine/",
+    "libelle": "Une histoire de la gestion de patrimoine",
+    "ref": "HGP",
+    "titre": "Du conseiller de famille à l'intelligence artificielle",
+    "description": "Deux histoires avancent séparément, celle d'un métier réservé à quelques-uns et celle d'une discipline née en 1956. Elles se croisent aujourd'hui."
+  },
+  {
     "slug": "gestion-de-patrimoine-ia",
     "fichier": "gestion-de-patrimoine-ia.astro",
     "route": "/gestion-de-patrimoine-ia/",

@@ -1,0 +1,172 @@
+---
+// Page 5, proposée par Maxime : l'histoire de la gestion de patrimoine, celle
+// de l'intelligence artificielle, et la thèse de SAFIA comme point de
+// rencontre des deux.
+//
+// GENRE DIFFÉRENT DES QUATRE AUTRES. Ce n'est pas une page de requête : elle ne
+// vise pas une expression précise mais l'autorité et la citation par les
+// moteurs génératifs, ce qui relève du lot 7 du chantier. D'où une narration
+// suivie plutôt que des tableaux.
+//
+// RÈGLE QUE JE ME SUIS FIXÉE ICI : la thèse n'est pas inventée, elle est
+// reprise de ce qui est déjà publié sous la signature de Maxime, page
+// /fondateur/ pour le récit et l'objectif de développement durable n° 10, page
+// /methode/ pour la façon de travailler. Les dates historiques sont réduites
+// aux plus établies, et signalées à Maxime pour validation : une page de
+// marque signée par un conseiller en investissements financiers n'est pas le
+// lieu d'une approximation datée.
+//
+// MISE EN PAGE : fonds alternés, paragraphes suivis dans « .prose », grille
+// « .limites » à 6 items. Voir les commentaires des pages sœurs.
+import Base from '../layouts/Base.astro';
+
+const faq = [
+  {
+    "q": "Pourquoi le conseil patrimonial a-t-il longtemps été réservé aux grandes fortunes ?",
+    "r": "Parce qu'il reposait sur du temps humain. Étudier une situation, la suivre et la réviser coûte des heures, et ces heures se facturent. En dessous d'un certain patrimoine, le calcul ne tombait pas juste pour le cabinet."
+  },
+  {
+    "q": "L'intelligence artificielle est-elle une invention récente ?",
+    "r": "Non. Le terme date de 1956 et la discipline a connu plusieurs décennies d'espoirs et d'abandons. Ce qui est récent, c'est le moment où ses résultats sont devenus assez fiables et assez accessibles pour sortir des laboratoires."
+  },
+  {
+    "q": "Qu'est-ce qui change vraiment avec l'IA en gestion de patrimoine ?",
+    "r": "Le coût d'entrée. Quand l'analyse, l'explication et le suivi ne dépendent plus du temps disponible d'un conseiller, l'accompagnement cesse d'être réservé à ceux qui ont déjà beaucoup."
+  },
+  {
+    "q": "Cela veut-il dire que les conseillers vont disparaître ?",
+    "r": "Non, leur métier se déplace. Ce qui demande un jugement, un arbitrage entre objectifs contradictoires ou une responsabilité engagée ne s'automatise pas. Ce qui demandait des heures de préparation, si."
+  },
+  {
+    "q": "Quelle est la thèse de SAFIA, en une phrase ?",
+    "r": "Que l'accès au conseil patrimonial est une inégalité d'accès et non une inégalité de besoin, et que la technologie permet aujourd'hui de la réduire sans abaisser la qualité."
+  },
+  {
+    "q": "Pourquoi ne pas se rémunérer sur les produits ?",
+    "r": "Parce qu'une rémunération assise sur les produits distribués crée une incitation à mieux servir les patrimoines les plus élevés. L'abonnement supprime cette incitation, ce qui est la condition pour que le service reste le même pour tous."
+  }
+];
+
+const fil = ["Accueil", "À propos", "Une histoire de la gestion de patrimoine"];
+---
+
+<Base
+  chemin={"/histoire-gestion-de-patrimoine/"}
+  faq={faq}
+  fil={fil}
+>
+
+<section class="hero hero-page hero-propos">
+<div class="wrap hero-page-in hero-court">
+  <p class="etiq-page">À propos</p>
+  <p class="fil-ariane" aria-label="Fil d'Ariane"><a href="/">Accueil</a> <span aria-hidden="true">/</span> À propos <span aria-hidden="true">/</span> Une histoire de la gestion de patrimoine</p>
+  <h1>Du conseiller de famille à l'intelligence artificielle</h1>
+  <p class="chapo">Deux histoires avancent séparément pendant des décennies. L'une est celle d'un métier réservé à quelques-uns faute de pouvoir coûter moins cher. L'autre est celle d'une discipline qui a mis soixante ans à tenir ses promesses. Elles se croisent maintenant, et c'est de ce croisement que SAFIA est née.</p>
+</div>
+</section>
+
+<section class="bloc">
+<div class="wrap">
+  <h2 class="titre">Un métier construit autour d'une rareté</h2>
+  <div class="prose">
+    <p class="intro">La gestion de patrimoine n'a pas commencé comme un service financier. Elle a commencé comme une relation de confiance entre une famille qui possédait et un homme qui savait.</p>
+
+    <h3>Le conseiller de famille</h3>
+    <p>Notaire, banquier privé, homme de loi : pendant longtemps, celui qui conseillait connaissait la famille, son histoire, ses querelles et ses projets. Ce savoir ne se transmettait pas, il s'accumulait au fil des années. Il était précieux, et par construction, il ne pouvait servir qu'à un petit nombre de familles à la fois.</p>
+
+    <h3>L'épargne devient un marché</h3>
+    <p>Puis l'épargne s'est démocratisée sans que le conseil suive. Les livrets réglementés, l'assurance vie, les plans d'épargne en actions ont mis des produits financiers entre les mains de millions de Français. Mais l'accompagnement, lui, est resté organisé comme avant : des rendez-vous, du temps humain, et un coût qui ne se justifiait qu'au-delà d'un certain encours.</p>
+
+    <h3>La réglementation encadre, sans changer l'économie</h3>
+    <p>La loi de sécurité financière de 2003 crée le statut de conseiller en investissements financiers, l'inscription à un registre, l'adhésion à une association agréée, l'obligation d'assurance. Le cadre protège l'épargnant et professionnalise le métier, ce qui était nécessaire. Mais il ne touche pas au problème de fond : conseiller coûte du temps, et le temps se facture.</p>
+
+    <p>Le résultat est une situation que tout le monde connaît sans la nommer. Ceux qui ont le plus besoin d'être accompagnés, parce qu'ils ont peu et que chaque décision compte, sont ceux qu'aucun modèle économique ne permet d'accompagner correctement.</p>
+  </div>
+</div>
+</section>
+
+<section class="bloc appui-bloc">
+<div class="wrap">
+  <h2 class="titre">L'autre histoire, celle de l'intelligence artificielle</h2>
+  <div class="prose">
+    <p class="intro">Pendant que ce métier se structurait, une discipline née en 1956 traversait ses propres cycles, avec une régularité presque comique : une promesse, un enthousiasme, une déception, un abandon, puis une reprise.</p>
+
+    <h3>Soixante ans de promesses tenues trop tard</h3>
+    <p>Les premiers chercheurs annonçaient des machines pensantes en une génération. Suivirent des décennies où les résultats ne venaient pas, les financements s'arrêtaient, et le sujet devenait peu fréquentable. Ce n'est pas une anecdote : c'est ce qui explique la prudence de ceux qui ont vu passer plusieurs de ces vagues.</p>
+
+    <h3>Le moment où les résultats arrivent</h3>
+    <p>Les progrès récents ne viennent pas d'une idée nouvelle mais de la rencontre de trois choses : des masses de données, une puissance de calcul devenue abordable, et des architectures capables d'en tirer parti. La conséquence pratique est arrivée dans le grand public à la fin de 2022, quand des millions de personnes ont pu, pour la première fois, poser une question en langage ordinaire et recevoir une réponse utile.</p>
+
+    <h3>Et les défauts qui viennent avec</h3>
+    <p>Cette même vague a rendu visible ce qu'une machine de langage fait mal. Elle invente quand elle ignore. Elle cite des règles périmées. Elle raisonne sur un cas moyen. Pour écrire un courrier, ces défauts sont sans conséquence. Pour parler d'argent, ils sont disqualifiants, et c'est exactement pourquoi un assistant patrimonial ne peut pas être un modèle généraliste auquel on aurait donné du vocabulaire financier.</p>
+  </div>
+</div>
+</section>
+
+<section class="bloc">
+<div class="wrap">
+  <h2 class="titre">Le point de rencontre</h2>
+  <div class="prose">
+    <p class="intro">Les deux histoires se croisent sur une seule question : qu'est-ce qui coûtait cher, au juste, dans le conseil patrimonial ?</p>
+
+    <p>Ce n'était pas la recommandation. Une fois la situation connue, la règle applicable trouvée et les options posées, la conclusion demande du jugement, pas des heures. Ce qui coûtait, c'était tout ce qui précède : réunir les informations, les mettre à jour, retrouver un texte, refaire un calcul, suivre ce qui change, expliquer une deuxième puis une dixième fois.</p>
+
+    <p>Or c'est précisément ce travail que la machine fait bien. Non pas mieux qu'un humain sur le fond, mais sans fatigue, à toute heure, et à un coût qui ne dépend plus du nombre de dossiers. Quand cette part du travail cesse d'être le facteur limitant, le seuil d'entrée du conseil s'effondre, et la question n'est plus « avez-vous assez pour mériter un accompagnement ? » mais « qu'est-ce qui compte pour vous ? ».</p>
+
+    <p>Reste ce que la machine ne fera pas : comprendre une situation familiale, entendre ce qui n'est pas dit, arbitrer entre des objectifs contradictoires, engager une responsabilité professionnelle. C'est pourquoi l'humain reste dans la boucle, non par prudence d'affichage, mais parce que c'est là qu'il est irremplaçable.</p>
+  </div>
+</div>
+</section>
+
+<section class="bloc ne-fait-pas">
+<div class="wrap">
+  <h2 class="titre">Notre thèse, en six points</h2>
+  <ul class="limites">
+    <li><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/><path d="M12 7v6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="currentColor"/></svg><p><b>C'est une inégalité d'accès, pas de besoin.</b> Le besoin de comprendre son patrimoine ne dépend pas de sa taille.</p></li>
+    <li><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/><path d="M12 7v6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="currentColor"/></svg><p><b>Ce qui coûtait cher n'était pas le conseil.</b> C'était le travail qui le précède, et c'est lui qui s'automatise.</p></li>
+    <li><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/><path d="M12 7v6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="currentColor"/></svg><p><b>Une IA doit expliquer, pas décider.</b> La décision appartient à celui dont c'est l'argent.</p></li>
+    <li><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/><path d="M12 7v6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="currentColor"/></svg><p><b>Sans source datée, une réponse ne vaut rien.</b> La transparence passe avant la promesse.</p></li>
+    <li><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/><path d="M12 7v6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="currentColor"/></svg><p><b>Se rémunérer sur les produits fausse le conseil.</b> L'abonnement supprime l'incitation à mieux servir les gros patrimoines.</p></li>
+    <li><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/><path d="M12 7v6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="currentColor"/></svg><p><b>Le sens a sa place dans un patrimoine.</b> Savoir ce que finance son épargne fait partie d'une bonne décision.</p></li>
+  </ul>
+</div>
+</section>
+
+<section class="bloc">
+<div class="wrap">
+  <h2 class="titre">Ce que nous en faisons</h2>
+  <div class="prose">
+    <p class="intro">Une thèse ne vaut que par ce qu'elle engage. Voici ce qu'elle nous impose, concrètement.</p>
+
+    <p>L'accompagnement commence à zéro euro, sans patrimoine minimum, et le profil comme l'analyse sont les mêmes pour tous. SAFIA s'inscrit à ce titre dans l'objectif de développement durable n° 10 des Nations unies, qui vise à réduire les inégalités. Nous ne nous rémunérons pas sur les produits vers lesquels nous orientons, ce qui supprime l'incitation à mieux servir les patrimoines les plus élevés.</p>
+
+    <p>L'assistant cite ses sources et les date, s'interdit d'inventer un chiffre ou un article de loi, et pose la question plutôt que de deviner. Quand l'enjeu le justifie, il propose d'échanger avec un conseiller humain, qui valide les recommandations avant qu'elles engagent une décision.</p>
+
+    <p>Cette histoire a un point de départ personnel, raconté par <a class="lien" href="/fondateur/">Maxime Bouché</a> sur sa page. La façon dont les analyses sont construites est détaillée sur <a class="lien" href="/methode/">notre méthode</a>. Ce que l'intelligence artificielle apporte au quotidien est traité sur <a class="lien" href="/gestion-de-patrimoine-ia/">gestion de patrimoine par IA</a>, et le cadre réglementaire sur <a class="lien" href="/conseil-investissement-ia/">conseil en investissement et IA</a>.</p>
+  </div>
+</div>
+</section>
+
+<section class="bloc faq-bloc">
+<div class="wrap faq-grille">
+  <h2 class="titre">Tes questions, nos réponses</h2>
+  <div class="faq">
+    <details><summary>Pourquoi le conseil patrimonial a-t-il longtemps été réservé aux grandes fortunes ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Parce qu'il reposait sur du temps humain. Étudier une situation, la suivre et la réviser coûte des heures, et ces heures se facturent. En dessous d'un certain patrimoine, le calcul ne tombait pas juste pour le cabinet.</p></details>
+    <details><summary>L'intelligence artificielle est-elle une invention récente ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Non. Le terme date de 1956 et la discipline a connu plusieurs décennies d'espoirs et d'abandons. Ce qui est récent, c'est le moment où ses résultats sont devenus assez fiables et assez accessibles pour sortir des laboratoires.</p></details>
+    <details><summary>Qu'est-ce qui change vraiment avec l'IA en gestion de patrimoine ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Le coût d'entrée. Quand l'analyse, l'explication et le suivi ne dépendent plus du temps disponible d'un conseiller, l'accompagnement cesse d'être réservé à ceux qui ont déjà beaucoup.</p></details>
+    <details><summary>Cela veut-il dire que les conseillers vont disparaître ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Non, leur métier se déplace. Ce qui demande un jugement, un arbitrage entre objectifs contradictoires ou une responsabilité engagée ne s'automatise pas. Ce qui demandait des heures de préparation, si.</p></details>
+    <details><summary>Quelle est la thèse de SAFIA, en une phrase ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Que l'accès au conseil patrimonial est une inégalité d'accès et non une inégalité de besoin, et que la technologie permet aujourd'hui de la réduire sans abaisser la qualité.</p></details>
+    <details><summary>Pourquoi ne pas se rémunérer sur les produits ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Parce qu'une rémunération assise sur les produits distribués crée une incitation à mieux servir les patrimoines les plus élevés. L'abonnement supprime cette incitation, ce qui est la condition pour que le service reste le même pour tous.</p></details>
+  </div>
+</div>
+</section>
+
+<section class="final">
+<div class="wrap final-simple">
+  <h2>Une histoire qui commence à ton premier euro.</h2>
+  <p>Gratuit pour commencer, sans engagement, et tes comptes restent où ils sont.</p>
+  <a class="btn btn-primaire" href="/telecharger/" data-app>Télécharger l'app</a>
+</div>
+</section>
+
+</Base>

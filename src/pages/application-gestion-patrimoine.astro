@@ -1,0 +1,181 @@
+---
+// Page de requête « application de gestion de patrimoine IA ». Lot 3.
+//
+// FRONTIÈRE AVEC /comparatif/, resserrée en cours de route. Le comparatif
+// nomme Finary, Yomoni, Nalo et Ramify, donne leurs tarifs, et porte déjà
+// « Quatre métiers différents » et « Laquelle est faite pour toi ? ». Le plan
+// initial de cette page refaisait ces deux sections : elles se seraient
+// disputé la même requête. Cette page traite donc ce que le comparatif ne
+// traite pas, à savoir ce qu'une application fait concrètement de tes comptes,
+// ce qu'il faut vérifier avant de les connecter, et comment son éditeur gagne
+// sa vie. Elle renvoie au comparatif pour les noms et les prix.
+//
+// MISE EN PAGE : fonds alternés, nuit, lavande, blanc, lavande, nuit, lavande,
+// blanc, nuit. Deux sections voisines de même fond cumulent 192 px de marge
+// sans rien pour les séparer, et se lisent comme un trou. Paragraphes suivis
+// dans « .prose », faute de quoi ils sortent à marge 0 et se collent. Grille
+// « .limites » à 3 ou 6 items, jamais 5 : elle fait trois colonnes fixes.
+import Base from '../layouts/Base.astro';
+
+const faq = [
+  {
+    "q": "Est-ce risqué de connecter mes comptes bancaires ?",
+    "r": "La connexion se fait en lecture seule et par un intermédiaire agréé, dans le cadre européen de la DSP2. L'application voit les soldes et les opérations que ta banque met à disposition. Elle ne peut ni virer, ni acheter, ni vendre."
+  },
+  {
+    "q": "Que voit exactement l'application ?",
+    "r": "Les comptes que tu as explicitement connectés, leurs soldes et l'historique des opérations transmis par l'établissement. Rien d'autre, et rien tant que tu n'as pas donné ton accord compte par compte."
+  },
+  {
+    "q": "Faut-il un patrimoine important pour que ce soit utile ?",
+    "r": "Non. L'intérêt d'une application est justement de rendre l'analyse accessible sans seuil d'entrée. SAFIA est utile dès le premier livret, et l'agrégation est gratuite."
+  },
+  {
+    "q": "Gratuit, cela veut dire quoi au juste ?",
+    "r": "Cela dépend du modèle. Un service gratuit se paie soit par la publicité, soit par la distribution de produits sur lesquels l'éditeur touche une commission, soit par une formule payante qui finance l'ensemble. La question à poser est simple : comment gagnez-vous de l'argent ?"
+  },
+  {
+    "q": "Mes données sont-elles revendues ?",
+    "r": "Chez SAFIA, non. Elles servent à personnaliser tes analyses, et à rien d'autre : elles n'entraînent pas les modèles de Mistral AI. C'est une question à poser à tout éditeur avant de connecter un compte."
+  },
+  {
+    "q": "Puis-je partir avec mes données ?",
+    "r": "Le règlement européen t'en donne le droit, mais la facilité réelle varie. Vérifie avant de t'engager que l'export existe, dans un format lisible, et que la suppression du compte efface bien les données."
+  }
+];
+
+const fil = ["Accueil", "Ressources", "Applications de gestion de patrimoine"];
+---
+
+<Base
+  chemin={"/application-gestion-patrimoine/"}
+  faq={faq}
+  fil={fil}
+>
+
+<section class="hero hero-page hero-part">
+<div class="wrap hero-page-in hero-court">
+  <p class="etiq-page">Comprendre</p>
+  <p class="fil-ariane" aria-label="Fil d'Ariane"><a href="/">Accueil</a> <span aria-hidden="true">/</span> Ressources <span aria-hidden="true">/</span> Applications de gestion de patrimoine</p>
+  <h1>Choisir une application de gestion de patrimoine</h1>
+  <p class="chapo">Une application de gestion de patrimoine réunit tes comptes, calcule ce que tu possèdes vraiment, et t'aide à comprendre tes options. Toutes ne font pas la même chose, et surtout, toutes ne gagnent pas leur vie de la même manière. C'est ce second point qui mérite le plus d'attention.</p>
+</div>
+</section>
+
+<section class="bloc">
+<div class="wrap">
+  <h2 class="titre">Ce qu'une application fait de tes comptes, et ce qu'elle ne peut pas faire</h2>
+  <div class="prose">
+    <p class="intro">Avant de comparer des offres, il faut savoir ce que recouvre le mot « application » dans ce domaine. La mécanique est la même chez tous : une connexion bancaire, une lecture, un calcul. Ce qui change vient après.</p>
+
+    <h3>La connexion se fait en lecture seule</h3>
+    <p>Depuis la directive européenne sur les services de paiement, un intermédiaire agréé peut accéder à tes comptes avec ton accord, et uniquement en lecture. Il voit les soldes et les opérations que ton établissement met à disposition. Il ne peut ni déclencher un virement, ni passer un ordre, ni modifier quoi que ce soit. SAFIA passe par Powens, qui couvre la plupart des banques françaises et européennes.</p>
+
+    <h3>L'agrégation produit une photo, pas une analyse</h3>
+    <p>Une fois les comptes reliés, l'application additionne. Elle sait dire combien tu possèdes, réparti entre livrets, assurance vie, PEA, immobilier et crédits. C'est utile et c'est le point de départ, mais cela reste un état des lieux : un tableau de chiffres ne dit pas ce qu'il faut en penser.</p>
+
+    <h3>Ce qu'aucune application ne fait</h3>
+    <p>Aucune ne détient ton argent, sauf si elle est aussi distributeur, ce qui change tout et doit t'être dit clairement. Aucune ne décide à ta place. Et aucune ne délivre de conseil en investissement personnalisé par le seul jeu de son algorithme : c'est une activité réglementée, traitée en détail sur la page <a class="lien" href="/conseil-financier-ia/">peut-on demander un conseil financier à une IA</a>.</p>
+  </div>
+</div>
+</section>
+
+<section class="bloc appui-bloc">
+<div class="wrap">
+  <h2 class="titre">Voir ne suffit pas</h2>
+  <p class="intro">La plupart des utilisateurs abandonnent une application patrimoniale pour la même raison : elle leur montre des chiffres sans leur dire quoi en faire. Voici ce qu'un simple tableau de bord laisse sans réponse.</p>
+  <ul class="phrases">
+    <li>Mon épargne de précaution est-elle au bon niveau, ou est-ce que je dors sur trop de liquidités ?</li>
+    <li>Suis-je trop concentré sur un secteur, une zone géographique, un seul employeur ?</li>
+    <li>Combien mes frais me coûtent-ils réellement d'ici ma retraite ?</li>
+    <li>Ce placement qu'on me propose correspond-il à ma situation, ou seulement au catalogue du vendeur ?</li>
+    <li>Dans quel ordre dois-je remplir mes enveloppes, et pourquoi celle-là avant les autres ?</li>
+  </ul>
+  <p class="reponse-phrases">Répondre à ces questions demande autre chose que de l'agrégation : une analyse qui connaît ta situation, s'appuie sur des textes à jour, et explique son raisonnement. C'est la différence entre voir et comprendre.</p>
+</div>
+</section>
+
+<section class="bloc">
+<div class="wrap">
+  <h2 class="titre">Comment l'éditeur gagne sa vie, et pourquoi ça t'importe</h2>
+  <p class="intro">C'est la question la plus utile et la moins posée. Le modèle de rémunération détermine ce que l'application a intérêt à te montrer.</p>
+  <div class="tableau" role="table" aria-label="Les modèles de rémunération et leurs effets">
+    <div class="tr entete" role="row"><div role="columnheader">Le modèle</div><div role="columnheader">Ce qu'il implique pour toi</div></div>
+    <div class="tr" role="row">
+      <div role="cell"><b>La commission sur les produits.</b> L'éditeur distribue des placements et touche une part des frais.</div>
+      <div role="cell">Le service peut être gratuit, mais ce qui t'est proposé vient d'un catalogue. Un produit sans commission a peu de chances d'apparaître, même s'il te convient mieux.</div>
+    </div>
+    <div class="tr" role="row">
+      <div role="cell"><b>Le pourcentage des encours.</b> L'éditeur gère ton argent et prélève un pourcentage annuel.</div>
+      <div role="cell">Les intérêts sont mieux alignés, mais le coût court tant que tu restes investi, et il se compose. Un point de frais annuel pèse lourd sur vingt ans.</div>
+    </div>
+    <div class="tr" role="row">
+      <div role="cell"><b>L'abonnement.</b> Tu paies le service, pas les produits.</div>
+      <div role="cell">Ce que tu paies est visible et borné. L'éditeur n'a aucun intérêt à t'orienter vers un placement plutôt qu'un autre, puisqu'il ne touche rien dessus.</div>
+    </div>
+    <div class="tr" role="row">
+      <div role="cell"><b>La revente de données.</b> Le service est gratuit et se finance ailleurs.</div>
+      <div role="cell">À écarter en patrimoine. Tes données financières disent où tu habites, ce que tu gagnes, ce que tu crains et ce que tu prépares.</div>
+    </div>
+  </div>
+  <p class="note-tab">SAFIA relève du troisième modèle : l'abonnement Smart et les licences aux professionnels. Elle ne se rémunère pas sur les produits vers lesquels elle t'oriente. Les tarifs sont sur la page <a class="lien" href="/tarifs/">Tarifs</a>, et l'effet des frais dans le temps se calcule avec le <a class="lien" href="/outils/frais/">simulateur de frais</a>.</p>
+</div>
+</section>
+
+<section class="bloc ne-fait-pas">
+<div class="wrap">
+  <h2 class="titre">Six vérifications avant de connecter tes comptes</h2>
+  <ul class="limites">
+    <li><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/><path d="M12 7v6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="currentColor"/></svg><p><b>La connexion est-elle en lecture seule ?</b> Elle doit l'être, et l'intermédiaire doit être agréé.</p></li>
+    <li><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/><path d="M12 7v6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="currentColor"/></svg><p><b>Où sont hébergées les données ?</b> Dans l'Union européenne, ou ailleurs, et sous quel droit.</p></li>
+    <li><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/><path d="M12 7v6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="currentColor"/></svg><p><b>Servent-elles à entraîner des modèles ?</b> Question distincte de l'hébergement, et qui mérite une réponse écrite.</p></li>
+    <li><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/><path d="M12 7v6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="currentColor"/></svg><p><b>Quel est le statut réglementaire de l'éditeur ?</b> Vérifiable au registre de l'ORIAS en quelques secondes.</p></li>
+    <li><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/><path d="M12 7v6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="currentColor"/></svg><p><b>Comment gagne-t-il de l'argent ?</b> S'il faut chercher la réponse, c'est déjà une réponse.</p></li>
+    <li><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/><path d="M12 7v6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="currentColor"/></svg><p><b>Peux-tu récupérer tes données et fermer ton compte ?</b> À vérifier avant de s'engager, pas le jour du départ.</p></li>
+  </ul>
+</div>
+</section>
+
+<section class="bloc">
+<div class="wrap">
+  <h2 class="titre">Quelle application pour quelle situation</h2>
+  <div class="prose">
+    <p class="intro">Le bon outil dépend moins de ton patrimoine que de ce que tu cherches à régler.</p>
+
+    <h3>Tu veux d'abord y voir clair</h3>
+    <p>Si tes comptes sont dispersés et que tu n'as pas de vue d'ensemble, commence par l'agrégation. C'est gratuit chez SAFIA, cela ne t'engage à rien, et cela suffit souvent à faire apparaître deux ou trois évidences : trop de liquidités, une enveloppe oubliée, des frais que tu ne soupçonnais pas.</p>
+
+    <h3>Tu veux comprendre avant de décider</h3>
+    <p>Si tu sais ce que tu possèdes mais que tu ignores quoi en faire, ce sont les explications qui comptent, et la capacité à les vérifier. Demande à voir les sources et leur date. C'est ce que fait l'<a class="lien" href="/assistant-ia/">assistant IA</a>, dont le raisonnement est décrit sur <a class="lien" href="/methode/">notre méthode</a>.</p>
+
+    <h3>Tu veux déléguer</h3>
+    <p>Si tu préfères que quelqu'un investisse à ta place, tu ne cherches pas une application patrimoniale mais une gestion pilotée, un autre métier, avec un autre modèle de rémunération. L'article <a class="lien" href="/blog/robo-advisor-definition/">ce qu'est un robo-advisor</a> détaille la différence.</p>
+
+    <p>Pour les noms, les tarifs et le détail critère par critère, le <a class="lien" href="/comparatif/">comparatif</a> est daté et sourcé. Deux articles complètent ce qui précède : <a class="lien" href="/blog/agregateur-de-comptes-dsp2/">ce que voit vraiment un agrégateur de comptes</a> et <a class="lien" href="/blog/frais-de-gestion-effet-20-ans/">l'effet des frais de gestion sur vingt ans</a>. Les limites de ce que l'application produit sont détaillées dans notre <a class="lien" href="/disclaimer/">avertissement</a>.</p>
+  </div>
+</div>
+</section>
+
+<section class="bloc faq-bloc">
+<div class="wrap faq-grille">
+  <h2 class="titre">Tes questions, nos réponses</h2>
+  <div class="faq">
+    <details><summary>Est-ce risqué de connecter mes comptes bancaires ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>La connexion se fait en lecture seule et par un intermédiaire agréé, dans le cadre européen de la DSP2. L'application voit les soldes et les opérations que ta banque met à disposition. Elle ne peut ni virer, ni acheter, ni vendre.</p></details>
+    <details><summary>Que voit exactement l'application ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Les comptes que tu as explicitement connectés, leurs soldes et l'historique des opérations transmis par l'établissement. Rien d'autre, et rien tant que tu n'as pas donné ton accord compte par compte.</p></details>
+    <details><summary>Faut-il un patrimoine important pour que ce soit utile ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Non. L'intérêt d'une application est justement de rendre l'analyse accessible sans seuil d'entrée. SAFIA est utile dès le premier livret, et l'agrégation est gratuite.</p></details>
+    <details><summary>Gratuit, cela veut dire quoi au juste ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Cela dépend du modèle. Un service gratuit se paie soit par la publicité, soit par la distribution de produits sur lesquels l'éditeur touche une commission, soit par une formule payante qui finance l'ensemble. La question à poser est simple : comment gagnez-vous de l'argent ?</p></details>
+    <details><summary>Mes données sont-elles revendues ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Chez SAFIA, non. Elles servent à personnaliser tes analyses, et à rien d'autre : elles n'entraînent pas les modèles de Mistral AI. C'est une question à poser à tout éditeur avant de connecter un compte.</p></details>
+    <details><summary>Puis-je partir avec mes données ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Le règlement européen t'en donne le droit, mais la facilité réelle varie. Vérifie avant de t'engager que l'export existe, dans un format lisible, et que la suppression du compte efface bien les données.</p></details>
+  </div>
+</div>
+</section>
+
+<section class="final">
+<div class="wrap final-simple">
+  <h2>Commence par voir ce que tu possèdes.</h2>
+  <p>L'agrégation est gratuite, sans engagement, et tes comptes restent où ils sont.</p>
+  <a class="btn btn-primaire" href="/telecharger/" data-app>Télécharger l'app</a>
+</div>
+</section>
+
+</Base>
