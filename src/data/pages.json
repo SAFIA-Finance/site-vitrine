@@ -90,6 +90,15 @@
     "description": "Agrégateur, gestion pilotée, banque privée : qui fait quoi, à quel coût, et comment chacun se rémunère. Comparatif daté, sources à l'appui."
   },
   {
+    "slug": "conseil-financier-ia",
+    "fichier": "conseil-financier-ia.astro",
+    "route": "/conseil-financier-ia/",
+    "libelle": "Conseil financier et IA",
+    "ref": "CFI",
+    "titre": "Conseil financier par IA : ce qu'on peut lui demander",
+    "description": "Une IA peut informer, expliquer et préparer ta décision. Elle ne peut pas délivrer de conseil personnalisé : c'est une activité réglementée."
+  },
+  {
     "slug": "blog",
     "fichier": "blog.astro",
     "route": "/blog/",
