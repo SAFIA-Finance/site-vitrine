@@ -1331,6 +1331,36 @@ ul.reseaux{list-style:none;display:flex;flex-direction:row;gap:10px;margin-top:1
 .champ-centre{justify-content:center;max-width:480px;margin-inline:auto}
 .final-simple small{font-size:13px;color:rgba(255,255,255,.75)}
 
+/* ---------- Prise de rendez-vous avec le fondateur ----------
+   L'encart d'appel occupe la place que prendra le calendrier, pour que le bloc
+   ne saute pas violemment quand le visiteur le deplie. La hauteur exacte reste
+   celle de l'iframe, posee par le script : on ne fixe ici qu'un plancher. */
+/* Le bloc porte le blanc, comme .parcours-bloc et .equipe-bloc : sans fond
+   declare, une section herite du lavande du body et ne se detache pas de sa
+   voisine. L'encart prend alors le lavande, l'inverse rendrait les deux
+   indistinguables. */
+.rdv-bloc{background:var(--blanc)}
+.rdv{max-width:900px;margin:0 auto;text-align:center}
+.rdv .intro{margin-top:14px;color:var(--encre-2);font-size:17px;line-height:1.6;max-width:62ch;margin-left:auto;margin-right:auto}
+.rdv-zone{margin-top:36px}
+.rdv-appel{padding:34px 28px;border-radius:var(--r-l);background:var(--lavande);box-shadow:inset 0 0 0 1px var(--ligne);display:flex;flex-direction:column;align-items:center;gap:18px}
+.rdv-appel p{max-width:62ch;font-size:15px;line-height:1.6;color:var(--encre-2)}
+.rdv-repli{font-size:14px}
+/* HAUTEUR : mesure, pas devine. Calendly pose height="100%" sur son iframe et
+   annonce la hauteur reelle de son contenu par un message page_height, releve
+   a 923 px. Or « 100% » ne se resout que si le PARENT a une hauteur definie :
+   un simple min-height ne suffit pas, et l'iframe retombait alors sur sa
+   hauteur intrinseque de 150 px, coupant le titre de l'evenement. D'ou une
+   hauteur ferme, et un plancher plus genereux sur mobile ou le calendrier
+   s'empile. Le script ajuste ensuite au pixel selon ce que Calendly annonce. */
+.rdv-calendrier{height:960px;border-radius:var(--r-l);overflow:hidden}
+.rdv-calendrier iframe{display:block;width:100%;height:100%;border:0}
+.rdv-calendrier:focus{outline:none}
+@media (max-width:760px){
+  .rdv-appel{padding:26px 20px}
+  .rdv-calendrier{min-height:900px}
+}
+
 @media (max-width:980px){
   .une{padding:24px}
   .articles{grid-template-columns:1fr 1fr}

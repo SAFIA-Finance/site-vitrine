@@ -144,5 +144,29 @@ export function noteConsolidee(notes = PREUVES.notes) {
   };
 }
 
+/**
+ * Prise de rendez-vous avec le fondateur, sur Calendly.
+ *
+ * Le calendrier n'est PAS chargé à l'ouverture de la page : son script dépose
+ * des cookies tiers, et le bandeau du site ne demande d'accord que pour la
+ * mesure d'audience. S'en servir pour charger Calendly donnerait un
+ * consentement ni spécifique ni éclairé, et rendrait fausse la promesse
+ * « tu peux refuser sans conséquence » puisqu'un refus empêcherait de prendre
+ * rendez-vous. Le script n'est donc demandé qu'au clic du visiteur, qui vaut
+ * accord pour cette seule finalité.
+ *
+ * Mettre à null retire le bloc de la page du fondateur.
+ */
+export const RENDEZ_VOUS = {
+  url: 'https://calendly.com/maximebouche-safia/30min',
+  duree: '30 minutes',
+  // À TENIR IDENTIQUE au nom de l'événement dans Calendly, que le visiteur lit
+  // dès que le calendrier s'affiche. Il s'intitule aujourd'hui « Premier
+  // rendez-vous - Gestion de patrimoine - Maxime Bouché » : annoncer autre
+  // chose au-dessus, « Rendez-vous découverte » par exemple, fait douter au
+  // moment de réserver. Renommer l'événement demande de corriger ici aussi.
+  intitule: 'Premier rendez-vous',
+};
+
 /** Relais des formulaires vers Brevo (dossier relais/). */
 export const RELAIS_URL = process.env.RELAIS_URL ?? 'https://safia-formulaires.safia-finance.workers.dev';

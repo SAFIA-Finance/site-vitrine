@@ -1,7 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import Reseaux from '../components/Reseaux.astro';
-import { RESEAUX_FONDATEUR } from '../config.js';
+import { RESEAUX_FONDATEUR, RENDEZ_VOUS } from '../config.js';
 const fil = ["Accueil","À propos","Le fondateur"];
 ---
 
@@ -16,6 +16,16 @@ const fil = ["Accueil","À propos","Le fondateur"];
     <p class="fil-ariane" aria-label="Fil d'Ariane"><a href="/">Accueil</a> <span aria-hidden="true">/</span> À propos <span aria-hidden="true">/</span> Le fondateur</p>
     <h1>Maxime Bouché, fondateur de SAFIA</h1>
     <p class="chapo">Gestionnaire de patrimoine et entrepreneur. Il a fondé SAFIA avec une conviction : l'accompagnement patrimonial ne devrait pas être réservé à ceux qui ont plus d'un million d'euros sur un compte.</p>
+    {RENDEZ_VOUS && (
+      <div class="actions">
+        {/* Ancre plutôt que lien sortant : le calendrier vit en bas de cette
+            page. Le script de page intercepte ce clic pour déplier le
+            calendrier en même temps qu'il y amène, ce qui évite au visiteur un
+            second clic une fois arrivé. Sans JavaScript, l'ancre fonctionne
+            seule et l'encart du bas garde son propre bouton. */}
+        <a class="btn btn-primaire" href="#rendez-vous" data-rdv-ancre>Prendre un rendez-vous</a>
+      </div>
+    )}
   </div>
   <img class="portrait-grand" src="/images/fondateur-14710607.jpg" width="560" height="700" alt="Portrait de Maxime Bouché, fondateur de SAFIA">
 </div>
@@ -100,6 +110,31 @@ const fil = ["Accueil","À propos","Le fondateur"];
 </div>
 </section>
 
+{RENDEZ_VOUS && (
+<section class="bloc rdv-bloc" id="rendez-vous">
+<div class="wrap rdv">
+  <h2 class="titre">Parler à Maxime, {RENDEZ_VOUS.duree}</h2>
+  <p class="intro">{RENDEZ_VOUS.intitule} : ta situation, tes questions, et ce que SAFIA peut faire pour toi. Sans engagement, et sans préparation à prévoir.</p>
+
+  {/* RIEN N'EST CHARGÉ TANT QUE LE VISITEUR N'A PAS CLIQUÉ. Le script de
+      Calendly dépose des cookies tiers : le demander à l'ouverture de la page
+      reviendrait à le faire sans accord, et le bandeau du site ne couvre que
+      la mesure d'audience. Le clic vaut accord pour cette seule finalité.
+      L'attribut data-rdv-url porte l'adresse, pour que le script n'ait rien
+      d'écrit en dur. */}
+  <div class="rdv-zone" data-rdv-url={RENDEZ_VOUS.url}>
+    <div class="rdv-appel">
+      <p><b>Le calendrier est fourni par Calendly.</b> Il n'est pas chargé tant que tu ne le demandes pas : l'afficher transmet à Calendly ta visite, puis le nom, l'adresse email et le créneau que tu choisiras.</p>
+      <button class="btn btn-primaire" type="button" data-rdv-charger>Afficher le calendrier</button>
+      {/* Repli : si le script ne se charge pas, ou si le visiteur préfère ne
+          rien afficher ici, le lien direct reste disponible. */}
+      <p class="rdv-repli"><a class="lien" href={RENDEZ_VOUS.url} target="_blank" rel="noopener">Ouvrir le calendrier sur Calendly</a></p>
+    </div>
+  </div>
+</div>
+</section>
+)}
+
 <section class="final">
 <div class="wrap final-simple">
   <h2>Une question, une idée, un projet ?</h2>
@@ -108,4 +143,8 @@ const fil = ["Accueil","À propos","Le fondateur"];
   <Reseaux comptes={RESEAUX_FONDATEUR} proprietaire="Maxime Bouché" classe="reseaux-centre" />
 </div>
 </section>
+
+<script>
+  import '../scripts/pages/fondateur.js';
+</script>
 </Base>
