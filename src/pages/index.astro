@@ -5,6 +5,31 @@ import { PREUVES, noteConsolidee } from '../config.js';
 // Une seule note affichée, pondérée par le nombre d'avis de chaque magasin.
 const note = noteConsolidee();
 
+// Le bandeau défile en boucle : sa liste est donc affichée deux fois, la
+// seconde masquée aux lecteurs d'écran. Une seule source ici évite que les
+// deux copies divergent à la première correction.
+//
+// Les dimensions sont celles de l'affichage, calculées sur le rapport natif
+// de chaque fichier : elles réservent la place avant le chargement et
+// rattrapent les écarts de poids optique, un logo à deux lignes ayant besoin
+// de plus de hauteur qu'un mot seul.
+//
+// L'IÉSEG et la CNCGP restent en toutes lettres : leur logo officiel embarque
+// un cartouche blanc opaque, qui sur le fond nuit du bandeau donne un
+// rectangle plein. Voir docs/POINTS-OUVERTS.md.
+const partenaires = [
+  { nom: 'Scaleway', logo: '/images/logos/scaleway.svg', l: 135, h: 26 },
+  { nom: 'Mistral AI', logo: '/images/logos/mistral.svg', l: 115, h: 26 },
+  { nom: 'Powens', logo: '/images/logos/powens.svg', l: 116, h: 22 },
+  { nom: 'IÉSEG Incubateur' },
+  // Plus haut que ses voisins à dessein : « bpifrance » s'écrit tout en bas
+  // de casse, sans capitale ni hampe, et pesait deux fois moins à hauteur
+  // égale. La mesure était pourtant conforme, seul le rendu le montrait.
+  { nom: 'Bpifrance', logo: '/images/logos/bpifrance.svg', l: 105, h: 30 },
+  { nom: 'Région Île-de-France', logo: '/images/logos/region-idf.svg', l: 125, h: 30 },
+  { nom: 'CNCGP' },
+];
+
 const faq = [
   {
     "q": "SAFIA, c'est quoi ?",
@@ -130,12 +155,17 @@ const faq = [
 
 <div class="bandeau" aria-label="Ils nous accompagnent">
   <div class="bandeau-piste">
-    <ul class="marque-liste">
-      <li>Scaleway</li><li>Mistral AI</li><li>Powens</li><li>IÉSEG Incubateur</li><li>Bpifrance</li><li>Région Île-de-France</li><li>CNCGP</li>
-    </ul>
-    <ul class="marque-liste" aria-hidden="true">
-      <li>Scaleway</li><li>Mistral AI</li><li>Powens</li><li>IÉSEG Incubateur</li><li>Bpifrance</li><li>Région Île-de-France</li><li>CNCGP</li>
-    </ul>
+    {[false, true].map((copie) => (
+      <ul class="marque-liste" aria-hidden={copie ? 'true' : undefined}>
+        {partenaires.map((p) => (
+          <li>
+            {p.logo
+              ? <img class="marque-logo" src={p.logo} width={p.l} height={p.h} alt={copie ? '' : p.nom} />
+              : p.nom}
+          </li>
+        ))}
+      </ul>
+    ))}
   </div>
 </div>
 

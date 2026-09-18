@@ -654,6 +654,17 @@ ul.reseaux{list-style:none;display:flex;flex-direction:row;gap:10px;margin-top:1
 .marque-liste{display:flex;align-items:center;gap:56px;padding:0 28px;list-style:none}
 .marque-liste li{font-size:19px;font-weight:500;letter-spacing:.01em;color:rgba(255,255,255,.62);white-space:nowrap;transition:color .2s}
 .marque-liste li:hover{color:var(--blanc)}
+/* Les logos arrivent dans leurs couleurs de marque, pensées pour un fond
+   clair : sur la nuit du bandeau, le brun de Bpifrance et l'encre de Powens
+   et de Mistral deviennent illisibles. Le filtre les ramène au blanc pur,
+   soit la déclinaison monochrome que leurs chartes prévoient justement pour
+   les fonds sombres. Scaleway et la Région Île-de-France sont déjà blancs,
+   le filtre les laisse intacts.
+   Il ne convient qu'à un tracé sans fond : un logo livré dans un cartouche
+   blanc opaque en ressort en rectangle plein, ce qui écarte pour l'instant
+   l'IÉSEG et la CNCGP. */
+.marque-logo{display:block;filter:brightness(0) invert(1);opacity:.62;transition:opacity .2s}
+.marque-liste li:hover .marque-logo{opacity:1}
 
 
 
