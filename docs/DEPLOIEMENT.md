@@ -224,6 +224,37 @@ GitHub. Pense à prévenir OneProvider si cette machine n'a plus d'usage après 
 bascule : elle continuerait d'être facturée.
 
 1. Dans **ce** dépôt : Settings → Pages → custom domain `safia.finance`.
+
+> **Cette étape est indispensable, et `public/CNAME` ne la remplace pas.**
+> Le site est publié par GitHub Actions (`build_type: workflow`) : dans ce
+> mode, le domaine personnalisé est un **réglage du dépôt**, pas un contenu de
+> l'artefact. Le fichier `public/CNAME` empêche le réglage de se perdre, il ne
+> le crée jamais. Oublier ce point le 18 septembre 2026 a coûté treize minutes
+> de coupure : le DNS était basculé, la construction réussie en 40 s, et le
+> domaine renvoyait quand même 404 parce que GitHub visait toujours
+> `sitev2.safia.finance`.
+>
+> **Fais-la APRÈS que le DNS résout**, sinon l'émission du certificat échoue
+> et GitHub ne réessaie pas. En ligne de commande :
+>
+> ```bash
+> gh api --method PUT repos/SAFIA-Finance/site-vitrine/pages -f cname=safia.finance
+> gh api repos/SAFIA-Finance/site-vitrine/pages   # vérifier cname et le certificat
+> ```
+>
+> Le certificat passe alors `authorization_created` → `issued` → `approved` en
+> moins de deux minutes, et couvre `safia.finance` **et** `www.safia.finance`.
+> Attention : ce `PUT` remet `https_enforced` à `false`. Une fois le certificat
+> approuvé, le rétablir avec `-F https_enforced=true`.
+>
+> **Deux répliques à prévoir.** Le cache de GitHub garde le 404 servi pendant
+> que le domaine n'était pas déclaré : tous les chemins redirigent vers HTTPS
+> sauf `/`, qui reste cassé en HTTP simple jusqu'à expiration (`X-Cache: HIT`
+> et un `Age` qui correspond à la fenêtre de panne). Aucun moyen de purger, et
+> une chaîne de contournement dans l'URL n'y change rien. Et surtout, la
+> préversion devient un **doublon indexable** dès `INDEXABLE=true`, puisqu'elle
+> sert la même construction sans `noindex` : son enregistrement DNS doit être
+> retiré tout de suite, à l'étape 6, et non « plus tard ».
 2. Cloudflare → DNS : **remplacer** le `A` de l'apex (`185.226.172.12`) par les
    adresses GitHub, toutes en **DNS only** :
 
