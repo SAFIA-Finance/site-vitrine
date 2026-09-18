@@ -75,7 +75,7 @@ const faq = [
          perdant : ce sont les boutons qui font télécharger. -->
     <ul class="preuves" aria-label="Chiffres d'usage">
       <li><b>{PREUVES.telechargements}</b><span>téléchargements</span></li>
-      <li><b>{PREUVES.patrimoine}</b><span>de patrimoine agrégé</span></li>
+      <li><b data-vers={PREUVES.patrimoineAnime} data-unite=" €">{PREUVES.patrimoine}</b><span>de patrimoine agrégé</span></li>
       {note && (
         <li><b>{note.valeur} <span class="preuves-etoile" aria-hidden="true">★</span></b><span>sur {note.avis} avis {note.magasins.join(' et ')}</span></li>
       )}

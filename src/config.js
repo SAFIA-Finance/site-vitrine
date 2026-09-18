@@ -80,6 +80,19 @@ export const PREUVES = {
   telechargements: '100+',
   patrimoine: '10 M€+',
   /**
+   * Valeur que le compteur de l'accueil fait défiler, et elle seule.
+   *
+   * CE NOMBRE N'EST JAMAIS PUBLIÉ TEL QUEL : le site affiche `patrimoine`,
+   * c'est à dire « 10 M€+ », dont le « + » signifie « plus de ». L'animation
+   * a besoin d'un nombre pour traverser les ordres de grandeur, parce que la
+   * chaîne abrégée n'en porte aucun : un compteur qui lirait « 10 M€+ » ne
+   * compterait que jusqu'à dix, sur deux caractères, sans aucun effet.
+   *
+   * À tenir cohérent avec `patrimoine` : les deux disent la même chose, l'un
+   * pour l'œil pendant une seconde, l'autre pour de bon.
+   */
+  patrimoineAnime: 10000000,
+  /**
    * Notes des magasins, relevées à la main, magasin par magasin.
    * Le site n'en affiche qu'une seule, consolidée : voir noteConsolidee().
    *

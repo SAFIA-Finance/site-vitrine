@@ -95,19 +95,60 @@ function demarrerPage() {
         if(!b.dataset.valeur) b.dataset.valeur=b.textContent;
         var fin=b.dataset.valeur;
         if(b.dataset.compte==='1') return;          // une seule animation par élément
-        var m=fin.trim().match(/^(\d+(?:[.,]\d+)?)([\s\S]*)$/);
-        if(!m) return;
+
+        // DEUX FAÇONS DE CONNAÎTRE LA VALEUR D'ARRIVÉE.
+        //
+        // Par défaut elle est LUE dans le texte affiché : « 100+ » donne 100,
+        // et le compteur écrit un, puis deux, puis trois chiffres. L'effet de
+        // masse vient de là, du nombre qui s'allonge.
+        //
+        // Mais « 10 M€+ » ne donne que 10 : deux caractères qui ne bougent pas
+        // en largeur, alors que c'est le chiffre le plus impressionnant des
+        // trois. D'où « data-vers », qui porte la valeur réelle à faire défiler
+        // quand le texte affiché est un ordre de grandeur abrégé.
+        //
+        // L'AFFICHAGE RESTE LA CHAÎNE D'ORIGINE : on anime 10 000 000, on
+        // publie « 10 M€+ ». Le « + » veut dire « plus de », et le retirer
+        // transformerait un ordre de grandeur en montant exact annoncé par un
+        // conseiller en investissements financiers.
+        var vers=parseFloat(b.dataset.vers||'');
+        var etendu=!isNaN(vers)&&vers>0;
+        var cible, suffixe;
+        if(etendu){
+          cible=vers;
+          suffixe=b.dataset.unite||'';
+        } else {
+          var m=fin.trim().match(/^(\d+(?:[.,]\d+)?)([\s\S]*)$/);
+          if(!m) return;
+          cible=parseFloat(m[1].replace(',','.'));
+          suffixe=m[2];
+        }
+
         b.dataset.compte='1';
-        var cible=parseFloat(m[1].replace(',','.')), suffixe=m[2], depart=null, arrive=false;
+        var depart=null, arrive=false;
+        // Traverser sept ordres de grandeur demande plus de temps que d'en
+        // traverser trois. LE FILET SUIT LA DURÉE : laissé à 1 100 ms, il
+        // poserait la valeur finale avant la fin et couperait l'animation.
+        var DUREE=etendu?1400:900;
         var poser=function(){ if(!arrive){ arrive=true; b.textContent=fin; b.dataset.compte='0'; } };
         b.textContent='0'+suffixe;
-        setTimeout(poser,1100);                    // filet : la valeur est écrite même sans animation
+        setTimeout(poser,DUREE+200);               // filet : la valeur est écrite même sans animation
         var pas=function(t){
           if(arrive) return;
           if(depart===null) depart=t;
-          var p=Math.min(1,(t-depart)/900);
+          var p=Math.min(1,(t-depart)/DUREE);
           if(p>=1){ poser(); return; }
-          var v=cible*(1-Math.pow(1-p,3));         // départ franc, arrivée douce
+          var v;
+          if(etendu){
+            // Progression EXPONENTIELLE, et c'est tout l'effet recherché : à
+            // vitesse constante sur les puissances de dix, le nombre gagne un
+            // chiffre à intervalle régulier — 1, 10, 100, 1 000, et ainsi de
+            // suite. Une progression linéaire, elle, atteindrait les millions
+            // dès les premières images et ne montrerait aucune accumulation.
+            v=Math.pow(10,p*Math.log(cible)/Math.LN10);
+          } else {
+            v=cible*(1-Math.pow(1-p,3));           // départ franc, arrivée douce
+          }
           b.textContent=(Number.isInteger(cible)?Math.round(v).toLocaleString('fr-FR'):v.toFixed(1).replace('.',','))+suffixe;
           requestAnimationFrame(pas);
         };
