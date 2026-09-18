@@ -59,8 +59,28 @@ dépôt. Ce sont des *variables*, pas des secrets : ils n'ont rien de confidenti
 > parent dans les résultats. Le `noindex` et le `Disallow: /` de
 > `public/robots.txt` sont là pour ça. **Ne les retire pas avant la bascule.**
 
-Si les variables ne sont pas définies, le site se construit pour la préversion.
-C'est délibéré : l'oubli va vers le réglage le plus prudent.
+> **Si les variables ne sont pas définies**, le déploiement se rabat désormais
+> sur la **production** : `https://safia.finance`, et indexable.
+>
+> Ce n'était pas le cas avant le 18 septembre 2026. Les deux replis visaient
+> alors la préversion, pour que l'oubli aille vers le réglage le plus prudent.
+> Du temps où deux sites coexistaient, c'était la bonne prudence : un duplicata
+> indexé pouvait supplanter le vrai site dans Google.
+>
+> Il n'y a plus qu'un site, et ces replis signifiaient donc l'inverse de ce
+> qu'ils protégeaient : une variable effacée aurait publié toutes les
+> canoniques vers un domaine supprimé, et retiré `safia.finance` de Google au
+> déploiement suivant. La panne aurait été **silencieuse** : déploiement vert,
+> site normal pour un visiteur, trafic de recherche éteint en une à deux
+> semaines.
+>
+> **Décision de Maxime, 18 septembre 2026**, entre trois options présentées :
+> indexer quand même. Le repli d'`INDEXABLE` est passé de `false` à `true`.
+>
+> **Conséquence à ne jamais perdre de vue.** Si une préversion est recréée un
+> jour, elle sera **indexée par défaut** et fera doublon avec le site public.
+> Il faudra lui poser explicitement `INDEXABLE = false` dans ses variables,
+> comme le faisait `sitev2.safia.finance`.
 
 ---
 

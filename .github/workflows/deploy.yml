@@ -45,12 +45,22 @@ jobs:
           # canoniques vers un domaine mort, sans qu'aucune étape n'échoue.
           # Il n'existe plus qu'un domaine : le repli le désigne.
           SITE_URL: ${{ vars.SITE_URL || 'https://safia.finance' }}
-          # INDEXABLE reste à « false » par défaut, donc le site partirait en
-          # noindex si la variable disparaissait. C'était la bonne prudence du
-          # temps de la préversion ; ça ne l'est plus, puisqu'il n'y a plus
-          # qu'un site, et qu'un noindex silencieux le retirerait de Google.
-          # À trancher avec Maxime avant d'inverser ce repli.
-          INDEXABLE: ${{ vars.INDEXABLE || 'false' }}
+          # Le repli d'INDEXABLE valait « false » jusqu'au 18 septembre 2026 :
+          # dans le doute, ne pas indexer. C'était la bonne prudence du temps de
+          # la préversion, qui ne devait pas concurrencer le vrai site dans
+          # Google. Il n'y a plus qu'un site, et ce repli signifiait donc
+          # désormais : dans le doute, retirer safia.finance de Google. La
+          # panne aurait été silencieuse : déploiement vert, site normal pour un
+          # visiteur, trafic de recherche éteint en une à deux semaines.
+          #
+          # DÉCISION DE MAXIME, 18 septembre 2026, entre trois options qui lui
+          # ont été présentées : indexer quand même. Si la variable disparaît,
+          # le site reste indexé et continue de se déployer.
+          #
+          # CONSÉQUENCE À CONNAÎTRE : si une préversion est recréée un jour,
+          # elle sera indexée par défaut. Il faudra lui poser explicitement
+          # INDEXABLE à « false », sans quoi elle fera doublon avec le site.
+          INDEXABLE: ${{ vars.INDEXABLE || 'true' }}
         run: npm run build
 
       - name: Vérifier les liens internes
