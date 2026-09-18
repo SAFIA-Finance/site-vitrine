@@ -39,7 +39,7 @@ Le dispositif reste extrêmement puissant. Mais il exige désormais une visibili
 
 **Exemple.** Une société familiale valorisée 4 000 000 €, transmise par donation à deux enfants, à parts égales.
 
-*Sans Dutreil.* Part de chaque enfant : 2 000 000 €. Après abattement de 100 000 € : 1 900 000 €. Droits de l'ordre de **660 000 € par enfant**, soit environ 1 320 000 € au total. Une somme que les enfants ne peuvent généralement acquitter qu'en vendant une partie de l'entreprise — ce que le dispositif cherche précisément à éviter.
+*Sans Dutreil.* Part de chaque enfant : 2 000 000 €. Après abattement de 100 000 € : 1 900 000 €. Droits de l'ordre de **660 000 € par enfant**, soit environ 1 320 000 € au total. Une somme que les enfants ne peuvent généralement acquitter qu'en vendant une partie de l'entreprise, ce que le dispositif cherche précisément à éviter.
 
 *Avec Dutreil.* Base exonérée à 75 % : chaque part est retenue pour 500 000 €. Après abattement de 100 000 € : 400 000 €. Droits de l'ordre de **78 000 € par enfant**.
 

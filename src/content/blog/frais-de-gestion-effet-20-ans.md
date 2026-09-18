@@ -39,7 +39,7 @@ Et l'effet se compose : l'argent prélevé cette année ne produira jamais de re
 
 | Frais annuels totaux | Capital au bout de 20 ans | Écart avec 0,5 % |
 |---|---|---|
-| 0,5 % | 120 500 € | — |
+| 0,5 % | 120 500 € | - |
 | 1,0 % | 109 600 € | −10 900 € |
 | 1,5 % | 99 600 € | −20 900 € |
 | 2,0 % | 90 500 € | −30 000 € |

@@ -44,7 +44,7 @@ Bloc auteur et avertissement repris en fin de chaque article :
 
 ### Ce que dit le droit français
 
-Le conseil en investissement, défini à l'article L. 321-1 du Code monétaire et financier, consiste à formuler une **recommandation personnalisée** portant sur une ou plusieurs transactions sur instruments financiers. L'exercer à titre habituel suppose un statut — conseiller en investissements financiers, entreprise d'investissement ou établissement de crédit — une immatriculation à l'ORIAS, l'adhésion à une association professionnelle agréée par l'AMF, une assurance de responsabilité civile professionnelle et une capacité professionnelle.
+Le conseil en investissement, défini à l'article L. 321-1 du Code monétaire et financier, consiste à formuler une **recommandation personnalisée** portant sur une ou plusieurs transactions sur instruments financiers. L'exercer à titre habituel suppose un statut (conseiller en investissements financiers, entreprise d'investissement ou établissement de crédit), une immatriculation à l'ORIAS, l'adhésion à une association professionnelle agréée par l'AMF, une assurance de responsabilité civile professionnelle et une capacité professionnelle.
 
 Une information générale, une simulation ou un contenu pédagogique ne constituent pas un conseil en investissement. La frontière tient à la **personnalisation** et à la **présentation comme adaptée** à la situation d'une personne déterminée.
 
@@ -58,7 +58,7 @@ Le règlement européen sur l'intelligence artificielle ajoute une exigence ind�
 
 *Ce que l'outil fait.* Consolider les six lignes, calculer sa capacité d'épargne réelle sur douze mois, estimer l'impôt d'un rachat sur son contrat de neuf ans, montrer l'effet de 200 € mensuels supplémentaires sur son PER selon sa tranche marginale, et lui expliquer chaque calcul.
 
-*Ce que le professionnel fait.* Vérifier que ces éléments sont complets et exacts, intégrer ce que Camille n'a pas dit — un parent vieillissant, un projet de séparation, une clause bénéficiaire inadaptée —, formuler une recommandation écrite, et en répondre.
+*Ce que le professionnel fait.* Vérifier que ces éléments sont complets et exacts, intégrer ce que Camille n'a pas dit (un parent vieillissant, un projet de séparation, une clause bénéficiaire inadaptée), formuler une recommandation écrite, et en répondre.
 
 Camille arrive au rendez-vous avec un dossier prêt plutôt qu'avec un carton de relevés. Le temps du professionnel passe de la saisie à l'analyse. C'est le déplacement réel que la technologie produit, et il est plus intéressant que la question du remplacement.
 
@@ -120,17 +120,17 @@ Sur la plupart des sujets, cela suffit. En matière fiscale, non, pour trois rai
 
 **Exemple.** Tu veux évaluer un assistant financier. Pose-lui ces trois questions.
 
-*Question 1 — une question dont la réponse a changé récemment.* « Quel est le taux des prélèvements sociaux sur un PEA ? » Une réponse à 17,2 % sans mention de la loi de financement pour 2026 indique une base de connaissance périmée.
+*Question 1. Une question dont la réponse a changé récemment.* « Quel est le taux des prélèvements sociaux sur un PEA ? » Une réponse à 17,2 % sans mention de la loi de financement pour 2026 indique une base de connaissance périmée.
 
-*Question 2 — une question piège sur une exception.* « L'abattement de 4 600 € réduit-il les prélèvements sociaux ? » La bonne réponse est non. C'est l'erreur la plus fréquente sur le sujet, y compris dans des contenus professionnels.
+*Question 2. Une question piège sur une exception.* « L'abattement de 4 600 € réduit-il les prélèvements sociaux ? » La bonne réponse est non. C'est l'erreur la plus fréquente sur le sujet, y compris dans des contenus professionnels.
 
-*Question 3 — une question insoluble sans information supplémentaire.* « Dois-je verser sur un PER ou sur une assurance-vie ? » Une réponse tranchée sans avoir demandé la tranche marginale d'imposition est disqualifiante. La bonne réponse commence par une question.
+*Question 3. Une question insoluble sans information supplémentaire.* « Dois-je verser sur un PER ou sur une assurance-vie ? » Une réponse tranchée sans avoir demandé la tranche marginale d'imposition est disqualifiante. La bonne réponse commence par une question.
 
 Trois minutes suffisent à savoir si tu as affaire à un outil utilisable.
 
 ### Ce que la réglementation impose
 
-Le règlement européen sur l'intelligence artificielle impose une obligation de transparence : une personne qui interagit avec un système d'IA doit en être informée. C'est pourquoi les interfaces conversationnelles affichent désormais une mention explicite, qui doit être lisible — un texte gris clair sur fond clair ne remplit pas l'obligation.
+Le règlement européen sur l'intelligence artificielle impose une obligation de transparence : une personne qui interagit avec un système d'IA doit en être informée. C'est pourquoi les interfaces conversationnelles affichent désormais une mention explicite, qui doit être lisible : un texte gris clair sur fond clair ne remplit pas l'obligation.
 
 Le règlement prévoit par ailleurs un régime renforcé pour certains usages considérés comme à haut risque, avec des exigences de documentation, de traçabilité et de supervision humaine. Le calendrier d'application a fait l'objet d'ajustements depuis l'adoption du texte, et la qualification exacte d'un usage donné suppose une analyse au cas par cas.
 
@@ -200,13 +200,13 @@ Le profil n'est pas un classement : c'est une **limite opposable**.
 
 Si tu es profilé prudent et qu'un intermédiaire te recommande un produit structuré complexe, la recommandation est irrégulière. Ce document est la première pièce examinée en cas de litige, devant le médiateur de l'AMF ou devant un tribunal.
 
-C'est pourquoi remplir le questionnaire à la légère — ou accepter qu'un commercial le remplisse « comme d'habitude » — revient à renoncer à sa propre protection.
+C'est pourquoi remplir le questionnaire à la légère, ou accepter qu'un commercial le remplisse « comme d'habitude », revient à renoncer à sa propre protection.
 
 ### Les deux limites connues
 
 **Il mesure ce que tu dis, pas ce que tu fais.** Répondre « je supporterais une baisse de 20 % » dans un bureau calme, et vivre une baisse de 20 % sur son écran, sont deux expériences sans rapport. La finance comportementale documente de longue date l'écart entre la tolérance déclarée et le comportement observé en période de stress, marqué notamment par une aversion aux pertes très supérieure à l'attrait pour un gain équivalent.
 
-**Il est souvent traité comme une formalité.** Rempli en cinq minutes, à la fin d'un rendez-vous, avec des questions abstraites — « quelle est votre appétence au risque sur une échelle de 1 à 10 ? » — auxquelles personne ne peut répondre de façon fiable.
+**Il est souvent traité comme une formalité.** Rempli en cinq minutes, à la fin d'un rendez-vous, avec des questions abstraites (« quelle est votre appétence au risque sur une échelle de 1 à 10 ? ») auxquelles personne ne peut répondre de façon fiable.
 
 ### Comment le remplir sérieusement
 
@@ -262,15 +262,15 @@ Page **ADN Investisseur** · articles **F4** (bilan patrimonial) et **H1** (inve
 
 ### Les quatre volets
 
-**Volet 1 — L'inventaire.** Tout ce que tu possèdes et tout ce que tu dois : comptes, livrets, contrats d'assurance-vie avec leur date d'ouverture, PEA, PER, immobilier, parts de sociétés, crédits en cours avec leur taux et leur durée résiduelle.
+**Volet 1. L'inventaire.** Tout ce que tu possèdes et tout ce que tu dois : comptes, livrets, contrats d'assurance-vie avec leur date d'ouverture, PEA, PER, immobilier, parts de sociétés, crédits en cours avec leur taux et leur durée résiduelle.
 
 La date d'ouverture des contrats d'assurance-vie mérite une attention particulière : elle commande toute la fiscalité des rachats, et c'est l'information la plus fréquemment absente des dossiers.
 
-**Volet 2 — Les flux.** Revenus, charges fixes, capacité d'épargne réelle constatée sur douze mois. Constatée, pas estimée : l'écart entre l'épargne que les gens croient dégager et celle qu'ils dégagent effectivement est considérable.
+**Volet 2. Les flux.** Revenus, charges fixes, capacité d'épargne réelle constatée sur douze mois. Constatée, pas estimée : l'écart entre l'épargne que les gens croient dégager et celle qu'ils dégagent effectivement est considérable.
 
-**Volet 3 — La fiscalité.** Tranche marginale d'imposition, revenu fiscal de référence, plafonds de déduction disponibles et reports des trois années précédentes pour le PER, prélèvements sociaux applicables selon les enveloppes — un point qui a changé au 1er janvier 2026 avec la coexistence de deux taux.
+**Volet 3. La fiscalité.** Tranche marginale d'imposition, revenu fiscal de référence, plafonds de déduction disponibles et reports des trois années précédentes pour le PER, prélèvements sociaux applicables selon les enveloppes, un point qui a changé au 1er janvier 2026 avec la coexistence de deux taux.
 
-**Volet 4 — La transmission.** Situation matrimoniale, régime, donations déjà réalisées avec leur date, clauses bénéficiaires en vigueur, âge auquel les primes d'assurance-vie ont été versées.
+**Volet 4. La transmission.** Situation matrimoniale, régime, donations déjà réalisées avec leur date, clauses bénéficiaires en vigueur, âge auquel les primes d'assurance-vie ont été versées.
 
 ### Ce qu'un bilan révèle presque toujours
 
@@ -298,7 +298,7 @@ C'est le point qui prête le plus à confusion.
 
 Un outil qui consolide automatiquement ton patrimoine et te montre ta situation produit un **état des lieux**. Il n'engage aucune responsabilité professionnelle et ne donne lieu à aucun document contractuel.
 
-Une prestation de conseil délivrée par un professionnel réglementé suppose une **lettre de mission** — qui précise l'étendue du travail, les honoraires, les modalités de rémunération et les éventuels liens avec des producteurs — et débouche sur une recommandation écrite et motivée.
+Une prestation de conseil délivrée par un professionnel réglementé suppose une **lettre de mission** (qui précise l'étendue du travail, les honoraires, les modalités de rémunération et les éventuels liens avec des producteurs) et débouche sur une recommandation écrite et motivée.
 
 Les deux sont utiles, et ils ne se substituent pas. Confondre l'un avec l'autre expose l'épargnant à croire qu'il est conseillé alors qu'il est seulement informé.
 
@@ -306,7 +306,7 @@ Les deux sont utiles, et ils ne se substituent pas. Confondre l'un avec l'autre 
 
 **Exemple.** Rachid, 49 ans, pense avoir une situation simple : un contrat d'assurance-vie, un PEA, un crédit immobilier.
 
-L'inventaire complet fait apparaître un second contrat ouvert il y a dix-neuf ans chez un ancien employeur, oublié, d'une valeur de 24 000 €. Ce contrat a l'antériorité fiscale la plus forte de tout son patrimoine — c'est celui sur lequel il faudrait verser en priorité, et celui sur lequel racheter coûte le moins cher.
+L'inventaire complet fait apparaître un second contrat ouvert il y a dix-neuf ans chez un ancien employeur, oublié, d'une valeur de 24 000 €. Ce contrat a l'antériorité fiscale la plus forte de tout son patrimoine : c'est celui sur lequel il faudrait verser en priorité, et celui sur lequel racheter coûte le moins cher.
 
 Sans inventaire, cette information n'existe pas. Avec elle, plusieurs décisions changent. C'est la valeur réelle d'un bilan : elle est rarement dans l'analyse, elle est presque toujours dans l'exhaustivité.
 

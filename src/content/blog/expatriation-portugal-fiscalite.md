@@ -22,7 +22,7 @@ sources: "Lei n.º 82/2023 de 29 de dezembro, article 263 créant l'article 58.�
 
 | | |
 |---|---|
-| Régime pour nouveaux résidents | **IFICI** — 20 % sur les revenus portugais d'activités éligibles, 10 ans |
+| Régime pour nouveaux résidents | **IFICI** : 20 % sur les revenus portugais d'activités éligibles, 10 ans |
 | Revenus étrangers | Majoritairement exonérés sous IFICI, à déclarer malgré tout |
 | Retraités | **Plus d'avantage** : barème progressif, jusqu'à 48 % |
 | Barème général | Progressif, 9 tranches, sommet à 48 % |
@@ -33,7 +33,7 @@ sources: "Lei n.º 82/2023 de 29 de dezembro, article 263 créant l'article 58.�
 
 Créé par la loi de finances portugaise n° 82/2023 du 29 décembre, l'IFICI accorde un taux forfaitaire de 20 % sur les revenus de source portugaise tirés d'activités éligibles, pendant dix ans, assorti d'une exonération de la plupart des revenus de source étrangère.
 
-Les conditions sont strictes : ne pas avoir été résident fiscal portugais au cours des cinq années précédentes, et exercer une activité relevant des secteurs visés — recherche scientifique, enseignement supérieur, technologies de l'information, startups certifiées, certaines fonctions dans des sociétés qualifiées.
+Les conditions sont strictes : ne pas avoir été résident fiscal portugais au cours des cinq années précédentes, et exercer une activité relevant des secteurs visés : recherche scientifique, enseignement supérieur, technologies de l'information, startups certifiées, certaines fonctions dans des sociétés qualifiées.
 
 Un consultant senior en technologie ou un cadre international dans un secteur éligible peut y prétendre. Un rentier, un retraité ou un dirigeant en cession définitive sans nouvelle activité, non.
 
@@ -51,4 +51,4 @@ La revalidation annuelle de l'IFICI est une contrainte réelle : une année mal 
 
 L'exonération des revenus étrangers suppose de les déclarer.
 
-Le Portugal étant membre de l'Union européenne, l'exit tax française bénéficie du sursis automatique — un avantage administratif considérable par rapport à une destination hors liste.
+Le Portugal étant membre de l'Union européenne, l'exit tax française bénéficie du sursis automatique, un avantage administratif considérable par rapport à une destination hors liste.

@@ -76,7 +76,7 @@ Mais le législateur a dressé une liste limitative d'exceptions, et **l'assuran
 
 Conséquence : sur les seuls prélèvements sociaux, l'assurance-vie bénéficie désormais d'un avantage de 1,4 point. Le PFU de droit commun est passé à 31,4 %, celui de l'assurance-vie avant huit ans reste à 30 %.
 
-Cela ne fait pas de l'assurance-vie « le meilleur placement » — la formule n'a aucun sens hors d'une situation donnée. Cela déplace un curseur, et mérite d'être intégré dans un arbitrage entre enveloppes.
+Cela ne fait pas de l'assurance-vie « le meilleur placement » : la formule n'a aucun sens hors d'une situation donnée. Cela déplace un curseur, et mérite d'être intégré dans un arbitrage entre enveloppes.
 
 ### Questions fréquentes
 
@@ -208,21 +208,21 @@ Plus ton contrat est ancien et performant, plus la proportion de gains est élev
 
 ### Trois cas chiffrés
 
-**Cas 1 — Contrat jeune, personne seule.**
+**Cas 1. Contrat jeune, personne seule.**
 Léo, contrat de quatre ans. Versé 30 000 €, valeur 33 000 €. Il retire 6 000 €.
 Gains totaux : 3 000 €. Part de gains : 6 000 × (3 000 ÷ 33 000) = **545 €**.
 Contrat de moins de huit ans : PFU à 30 %, sans abattement.
 Impôt : 545 × 30 % = **164 €**.
 Léo récupère 5 836 €.
 
-**Cas 2 — Contrat mûr, couple marié.**
+**Cas 2. Contrat mûr, couple marié.**
 Fatou et Jean, contrat de treize ans. Versé 100 000 €, valeur 160 000 €. Ils retirent 25 000 €.
 Gains totaux : 60 000 €. Part de gains : 25 000 × (60 000 ÷ 160 000) = **3 906 €**.
 Abattement de 9 200 € : la totalité est couverte, impôt sur le revenu **0 €**.
 Prélèvements sociaux : 3 906 × 17,2 % = **672 €**.
 Ils récupèrent 24 328 €, pour un coût de 2,7 %.
 
-**Cas 3 — Au-delà du seuil de 150 000 €.**
+**Cas 3. Au-delà du seuil de 150 000 €.**
 Hélène, célibataire, contrat de quinze ans. Versé 220 000 €, valeur 300 000 €. Elle retire 40 000 €.
 Gains totaux : 80 000 €. Part de gains : 40 000 × (80 000 ÷ 300 000) = **10 666 €**.
 Après abattement : 10 666 − 4 600 = 6 066 € imposables.
@@ -289,7 +289,7 @@ Les unités de compte sont des parts de fonds : actions, obligations d'entrepris
 
 ### L'horizon commande, pas le rendement affiché
 
-La volatilité d'un placement en actions ne disparaît pas avec le temps, mais la probabilité d'un résultat négatif diminue nettement à mesure que l'horizon s'allonge. Sur un an, une poche actions peut perdre 30 %. Sur quinze ans, historiquement, les périodes de perte sont devenues rares — sans que cela constitue une garantie pour l'avenir.
+La volatilité d'un placement en actions ne disparaît pas avec le temps, mais la probabilité d'un résultat négatif diminue nettement à mesure que l'horizon s'allonge. Sur un an, une poche actions peut perdre 30 %. Sur quinze ans, historiquement, les périodes de perte sont devenues rares, sans que cela constitue une garantie pour l'avenir.
 
 Une grille de lecture simple, à ajuster à ta situation :
 
@@ -432,7 +432,7 @@ Page **Cockpit stratégique** · articles **B6** (clause bénéficiaire) et **D7
 
 ### Pourquoi cette ligne pèse autant
 
-Tout ce qui précède — l'abattement de 152 500 €, l'exonération du conjoint, la transmission hors succession — ne se déclenche que par la désignation d'un bénéficiaire. Sans désignation valable, le capital réintègre la succession et perd son régime propre.
+Tout ce qui précède (l'abattement de 152 500 €, l'exonération du conjoint, la transmission hors succession) ne se déclenche que par la désignation d'un bénéficiaire. Sans désignation valable, le capital réintègre la succession et perd son régime propre.
 
 C'est une ligne de texte, modifiable à tout moment par simple courrier à l'assureur, et que la plupart des souscripteurs n'ont pas relue depuis la signature.
 
@@ -468,7 +468,7 @@ Elle laisse au conjoint le soin de décider, au moment du décès, quelle fracti
 
 *Clause « mon conjoint pour 40 %, mes enfants pour 60 % ».* Le conjoint reçoit 320 000 € exonérés. Chaque enfant reçoit 240 000 €, dont 152 500 € exonérés, soit 87 500 € taxés à 20 % = **17 500 € par enfant**.
 
-Coût immédiat : 35 000 €. Mais 305 000 € ont définitivement quitté l'assiette taxable au second décès. Selon la situation, l'opération est gagnante ou perdante — et c'est précisément pourquoi elle mérite un calcul, pas une clause type.
+Coût immédiat : 35 000 €. Mais 305 000 € ont définitivement quitté l'assiette taxable au second décès. Selon la situation, l'opération est gagnante ou perdante, et c'est précisément pourquoi elle mérite un calcul, pas une clause type.
 
 ### Les cinq réflexes de relecture
 
@@ -520,7 +520,7 @@ Page **Cockpit stratégique** · articles **B5** (succession) et **D5** (étapes
 
 **1. Les frais sur versement.** Prélevés à chaque dépôt, de 0 % à 5 % selon les contrats. Ils sont devenus rares en ligne, encore courants en réseau bancaire. Sur 10 000 € versés à 3 %, 300 € ne sont jamais investis.
 
-**2. Les frais de gestion annuels du contrat.** Prélevés chaque année sur l'encours, généralement entre 0,5 % et 1 % — parfois plus sur les unités de compte que sur le fonds en euros. Ce sont eux qui pèsent le plus lourd sur longue durée, parce qu'ils s'appliquent au capital total, chaque année, y compris les années de baisse.
+**2. Les frais de gestion annuels du contrat.** Prélevés chaque année sur l'encours, généralement entre 0,5 % et 1 %, parfois plus sur les unités de compte que sur le fonds en euros. Ce sont eux qui pèsent le plus lourd sur longue durée, parce qu'ils s'appliquent au capital total, chaque année, y compris les années de baisse.
 
 **3. Les frais d'arbitrage.** Facturés lors d'un changement de répartition entre supports, en pourcentage ou forfaitairement. Souvent gratuits sur les contrats en ligne.
 
@@ -598,7 +598,7 @@ Le PER n'est donc pas « plus avantageux » ou « moins avantageux ». Il dépla
 
 L'avantage du PER est égal à l'écart entre ta **tranche marginale d'imposition au moment du versement** et ta **tranche marginale au moment de la sortie**.
 
-Si tu es à 41 % aujourd'hui et que tu seras à 30 % à la retraite, le PER te fait gagner 11 points sur chaque euro versé. Si tu es à 11 % aujourd'hui et que tu seras à 11 % à la retraite, le PER ne t'apporte presque rien — et te coûte la disponibilité de ton épargne pendant vingt ans.
+Si tu es à 41 % aujourd'hui et que tu seras à 30 % à la retraite, le PER te fait gagner 11 points sur chaque euro versé. Si tu es à 11 % aujourd'hui et que tu seras à 11 % à la retraite, le PER ne t'apporte presque rien, et te coûte la disponibilité de ton épargne pendant vingt ans.
 
 C'est pourquoi la réponse usuelle est : **le PER devient intéressant à partir de la tranche à 30 %**, et franchement intéressant à 41 % ou 45 %. En dessous, l'assurance-vie l'emporte presque toujours.
 
@@ -606,11 +606,11 @@ C'est pourquoi la réponse usuelle est : **le PER devient intéressant à partir
 
 **Exemple.** Olivier, 45 ans, tranche marginale à 41 %, verse 10 000 € par an pendant vingt ans. Il anticipe une tranche à 30 % à la retraite.
 
-*Sur un PER.* Chaque versement lui fait économiser 4 100 € d'impôt, soit 82 000 € sur vingt ans. Son effort d'épargne réel n'est que de 118 000 € pour 200 000 € placés. À la sortie en capital, la part correspondant aux versements sera imposée à 30 % — un coût d'environ 60 000 € si elle est étalée, plus la fiscalité sur les gains.
+*Sur un PER.* Chaque versement lui fait économiser 4 100 € d'impôt, soit 82 000 € sur vingt ans. Son effort d'épargne réel n'est que de 118 000 € pour 200 000 € placés. À la sortie en capital, la part correspondant aux versements sera imposée à 30 %, soit un coût d'environ 60 000 € si elle est étalée, plus la fiscalité sur les gains.
 
 *Sur une assurance-vie.* Aucune économie à l'entrée. 200 000 € placés pour 200 000 € d'effort. À la sortie, après huit ans, seuls les gains sont imposés, avec abattement annuel et taux de 7,5 %.
 
-Sur ce profil, le PER ressort gagnant, principalement grâce à l'écart de onze points de tranche. Change un seul paramètre — une tranche à 30 % aujourd'hui et 30 % demain — et l'avantage disparaît presque entièrement.
+Sur ce profil, le PER ressort gagnant, principalement grâce à l'écart de onze points de tranche. Change un seul paramètre (une tranche à 30 % aujourd'hui et 30 % demain) et l'avantage disparaît presque entièrement.
 
 ### Les trois facteurs non fiscaux qui tranchent souvent
 

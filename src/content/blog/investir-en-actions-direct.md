@@ -8,7 +8,7 @@ date: 2026-09-16
 lecture: 2
 essentiel:
   - "Détenir des actions en direct supprime les frais de gestion d'un fonds, mais transfère sur toi tout le travail et tout le risque de concentration."
-  - "Le **biais domestique** — surpondérer les entreprises de son propre pays — est l'erreur la plus documentée de l'épargnant particulier."
+  - "Le **biais domestique**, surpondérer les entreprises de son propre pays, est l'erreur la plus documentée de l'épargnant particulier."
   - "Une diversification correcte suppose un nombre de lignes et une répartition sectorielle que peu de portefeuilles individuels atteignent."
   - "Le **PEA** offre le meilleur cadre fiscal pour les actions européennes après cinq ans."
 pages:
@@ -34,11 +34,11 @@ Le contrôle exact de ce que tu détiens. L'absence de frais de gestion récurre
 
 La France représente une fraction modeste de la capitalisation boursière mondiale. Pourtant, les portefeuilles individuels français y sont très largement concentrés.
 
-Conséquence : une exposition forte à une seule économie, à un seul régime fiscal, à un petit nombre de secteurs. Le portefeuille varie alors avec le pays où l'épargnant a aussi son emploi et son immobilier — trois expositions au même cycle.
+Conséquence : une exposition forte à une seule économie, à un seul régime fiscal, à un petit nombre de secteurs. Le portefeuille varie alors avec le pays où l'épargnant a aussi son emploi et son immobilier : trois expositions au même cycle.
 
 ## Le cadre fiscal
 
-Le **PEA** exonère d'impôt sur le revenu les gains après cinq ans, seuls les prélèvements sociaux restant dus — passés à 18,6 % au 1er janvier 2026. Il est limité aux actions et fonds européens éligibles, et plafonné en versements.
+Le **PEA** exonère d'impôt sur le revenu les gains après cinq ans, seuls les prélèvements sociaux restant dus, passés à 18,6 % au 1er janvier 2026. Il est limité aux actions et fonds européens éligibles, et plafonné en versements.
 
 Le **compte-titres** n'a aucune limite mais applique le PFU de 31,4 % à chaque cession en plus-value.
 

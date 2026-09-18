@@ -26,7 +26,7 @@ sources: "Règlement (UE) n° 1286/2014 dit PRIIPs et ses règlements délégué
 
 **3. Les scénarios de performance.** Tensions, défavorable, intermédiaire, favorable. Regarde le **scénario de tensions** en priorité : c'est celui qui dit ce que tu peux perdre.
 
-**4. Les coûts.** Coûts d'entrée, de sortie, récurrents, et coûts de transaction. La rubrique donne aussi l'incidence annuelle des coûts sur le rendement — le chiffre le plus utile du document, et celui que personne ne lit.
+**4. Les coûts.** Coûts d'entrée, de sortie, récurrents, et coûts de transaction. La rubrique donne aussi l'incidence annuelle des coûts sur le rendement, le chiffre le plus utile du document, et celui que personne ne lit.
 
 **5. L'alerte de compréhension.** Certains produits portent une mention signalant qu'ils sont difficiles à comprendre. Cette mention n'est pas une formalité juridique : elle est un avertissement, et elle doit conduire à ne pas souscrire tant que le mécanisme n'est pas compris.
 

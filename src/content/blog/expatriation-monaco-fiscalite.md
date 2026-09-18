@@ -7,7 +7,7 @@ categorie: "Expatriation"
 date: 2026-09-16
 lecture: 2
 essentiel:
-  - "Monaco n'impose pas les revenus de ses résidents — **mais la convention de 1963 exclut les Français** de ce bénéfice."
+  - "Monaco n'impose pas les revenus de ses résidents, **mais la convention de 1963 exclut les Français** de ce bénéfice."
   - "Un Français qui s'installe à Monaco reste, sauf exception historique, imposable en France sur l'ensemble de ses revenus."
   - "L'exception vise les personnes justifiant d'une résidence monégasque habituelle depuis avant le 13 octobre 1957."
   - "Monaco reste en revanche attractif pour les **non-Français** et sur le terrain de la **transmission** en ligne directe."
@@ -22,7 +22,7 @@ sources: "Convention fiscale franco-monégasque du 18 mai 1963 et ses avenants �
 
 | | |
 |---|---|
-| Impôt sur le revenu | Aucun pour les résidents — **sauf les Français** |
+| Impôt sur le revenu | Aucun pour les résidents, **sauf les Français** |
 | Régime des Français | Convention de 1963 : imposition en France sur les revenus mondiaux, sauf résidence monégasque antérieure à 1957 |
 | Droits de succession | Très favorables en ligne directe |
 | Convention avec la France | Convention fiscale du 18 mai 1963 |

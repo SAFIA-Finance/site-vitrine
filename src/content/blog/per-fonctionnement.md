@@ -74,6 +74,6 @@ Elle dépend du choix fait à l'entrée.
 
 **Versements déduits.** À la sortie en capital, la part correspondant aux versements est imposée au **barème de l'impôt sur le revenu**, et les gains au prélèvement forfaitaire. Depuis 2026, les prélèvements sociaux applicables aux gains du PER sont de 18,6 %.
 
-**Versements non déduits.** Si tu as renoncé à la déduction à l'entrée — ce qui est pertinent quand tu n'es pas ou peu imposable —, la part correspondant aux versements ressort en franchise d'impôt, seuls les gains étant taxés.
+**Versements non déduits.** Si tu as renoncé à la déduction à l'entrée (ce qui est pertinent quand tu n'es pas ou peu imposable), la part correspondant aux versements ressort en franchise d'impôt, seuls les gains étant taxés.
 
 **En rente**, la fiscalité suit le régime des pensions ou celui des rentes viagères à titre onéreux, selon que les versements ont été déduits ou non.

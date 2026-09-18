@@ -38,7 +38,7 @@ L'assureur tient cette distinction dans ses registres. Au décès, il déclare s
 
 ## L'exonération des gains, l'avantage qu'on oublie
 
-C'est le point décisif, et il est systématiquement sous-estimé : sous le régime de l'article 757 B, **seules les primes versées sont taxables**. Tout ce que le contrat a produit — intérêts, plus-values — est transmis en totale exonération, quel que soit le montant.
+C'est le point décisif, et il est systématiquement sous-estimé : sous le régime de l'article 757 B, **seules les primes versées sont taxables**. Tout ce que le contrat a produit (intérêts, plus-values) est transmis en totale exonération, quel que soit le montant.
 
 **Exemple.** Denise verse 200 000 € sur un contrat à 72 ans. Elle décède à 89 ans. Le contrat vaut alors 340 000 €. Elle a désigné ses deux enfants.
 
@@ -46,7 +46,7 @@ C'est le point décisif, et il est systématiquement sous-estimé : sous le rég
 *Les 140 000 € de gains sont exonérés.*
 *Répartition :* 84 750 € pour chaque enfant, soumis au barème des droits de succession.
 
-Si aucun abattement successoral n'a déjà été consommé, ces 84 750 € entrent dans la part globale de chaque enfant et bénéficient de l'abattement de 100 000 € — ils peuvent donc ne rien coûter du tout.
+Si aucun abattement successoral n'a déjà été consommé, ces 84 750 € entrent dans la part globale de chaque enfant et bénéficient de l'abattement de 100 000 € : ils peuvent donc ne rien coûter du tout.
 
 Plus le contrat vit longtemps et produit, plus la part exonérée grandit.
 

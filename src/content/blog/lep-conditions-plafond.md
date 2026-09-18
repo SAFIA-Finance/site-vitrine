@@ -60,6 +60,6 @@ Trois raisons reviennent.
 
 La méconnaissance, d'abord : beaucoup pensent que le LEP est réservé aux minima sociaux, alors qu'il couvre largement les classes moyennes basses.
 
-L'effet de nom, ensuite. « Épargne populaire » est perçu comme stigmatisant, et les banques n'en font pas la promotion — le produit leur rapporte peu.
+L'effet de nom, ensuite. « Épargne populaire » est perçu comme stigmatisant, et les banques n'en font pas la promotion : le produit leur rapporte peu.
 
 L'auto-exclusion, enfin. Ne pars pas du principe que tu n'y as pas droit : vérifie. Un couple avec deux parts fiscales peut y prétendre avec un revenu de référence nettement plus élevé.

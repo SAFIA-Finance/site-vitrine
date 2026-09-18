@@ -46,7 +46,7 @@ Et cette qualification n'est pas déclarative. Vous pouvez remplir un formulaire
 
 ## Les quatre critères, en détail
 
-**Le foyer.** C'est le lieu où réside habituellement votre famille — conjoint et enfants mineurs — indépendamment de vos propres déplacements. C'est le critère le plus puissant et le plus mal anticipé. Un dirigeant qui s'installe à Dubaï en laissant sa famille à Paris reste, en principe, résident fiscal français. Le fait qu'il passe onze mois par an à l'étranger n'y change rien.
+**Le foyer.** C'est le lieu où réside habituellement votre famille (conjoint et enfants mineurs), indépendamment de vos propres déplacements. C'est le critère le plus puissant et le plus mal anticipé. Un dirigeant qui s'installe à Dubaï en laissant sa famille à Paris reste, en principe, résident fiscal français. Le fait qu'il passe onze mois par an à l'étranger n'y change rien.
 
 **Le lieu de séjour principal.** Il n'intervient qu'à défaut de foyer. On retient alors le lieu où vous séjournez le plus, en pratique apprécié à partir d'un seuil de 183 jours, mais l'administration peut retenir la France même sous ce seuil si vous y séjournez plus que dans tout autre pays.
 
@@ -68,7 +68,7 @@ Il arrive que deux États vous considèrent l'un et l'autre comme résident. C'e
 
 La convention bilatérale tranche alors par une **cascade de critères**, généralement dans cet ordre : foyer d'habitation permanent, puis centre des intérêts vitaux, puis séjour habituel, puis nationalité, puis accord amiable entre administrations.
 
-Cette cascade prime sur le droit interne. Un contribuable qualifié de résident par l'article 4 B peut donc être conventionnellement résident de l'autre État — mais cela suppose d'invoquer la convention, de la documenter, et parfois de contester.
+Cette cascade prime sur le droit interne. Un contribuable qualifié de résident par l'article 4 B peut donc être conventionnellement résident de l'autre État, mais cela suppose d'invoquer la convention, de la documenter, et parfois de contester.
 
 ## L'exemple chiffré
 
@@ -82,7 +82,7 @@ Cette cascade prime sur le droit interne. Un contribuable qualifié de résident
 
 ## La déclaration de départ
 
-Elle s'effectue auprès du service des impôts des particuliers dont vous dépendiez, en signalant votre nouvelle adresse. L'année du départ, vous déposez une déclaration mentionnant les revenus perçus avant le départ — imposés au barème — et, séparément, ceux perçus après, de source française.
+Elle s'effectue auprès du service des impôts des particuliers dont vous dépendiez, en signalant votre nouvelle adresse. L'année du départ, vous déposez une déclaration mentionnant les revenus perçus avant le départ (imposés au barème) et, séparément, ceux perçus après, de source française.
 
 Vous relèverez ensuite du service des impôts des particuliers non-résidents pour vos revenus de source française.
 

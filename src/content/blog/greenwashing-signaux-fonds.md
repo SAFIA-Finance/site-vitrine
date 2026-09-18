@@ -5,7 +5,7 @@ titreSeo: "Greenwashing : 5 signaux à repérer sur un fonds"
 description: "Vocabulaire flou, absence de seuil chiffré, exclusions cosmétiques : cinq vérifications pour repérer un fonds dont la promesse verte est du marketing."
 categorie: "ESG et impact"
 date: 2026-09-14
-lecture: 3
+lecture: 2
 essentiel:
   - "Le greenwashing n'est presque jamais un mensonge : c'est le plus souvent une **promesse vague** qui laisse croire plus qu'elle n'engage."
   - "Cinq signaux se repèrent en quelques minutes, documents en main."
@@ -27,7 +27,7 @@ articlesLies:
 sources: "ESMA, orientations sur les dénominations de fonds utilisant des termes ESG ou liés à la durabilité · AMF, doctrine relative aux informations extra-financières des placements collectifs · Règlement (UE) 2019/2088, annexes précontractuelles · Référentiel du label ISR, mars 2024 · Code de la consommation, articles L. 121-2 et suivants."
 ---
 
-## Signal 1 — Le vocabulaire sans définition
+## Signal 1. Le vocabulaire sans définition
 
 « Durable », « responsable », « vert », « à impact » : aucun de ces mots n'a de définition contraignante dans un nom de fonds. Ils relèvent du marketing tant qu'un référentiel ne les adosse pas à des critères.
 
@@ -35,7 +35,7 @@ L'ESMA a publié des orientations encadrant l'usage de termes liés à la durabi
 
 **Le réflexe** : ignore le nom du fonds. Va directement à l'annexe précontractuelle.
 
-## Signal 2 — L'absence de seuil chiffré
+## Signal 2. L'absence de seuil chiffré
 
 Une promesse sans chiffre n'est pas un engagement.
 
@@ -43,13 +43,13 @@ Cherche, dans l'annexe précontractuelle SFDR, la ligne indiquant la **part mini
 
 **Le réflexe** : compare cette ligne entre deux fonds concurrents. L'écart est souvent spectaculaire.
 
-## Signal 3 — Des exclusions cosmétiques
+## Signal 3. Des exclusions cosmétiques
 
 Beaucoup de fonds affichent des exclusions qui ne retirent presque rien de leur univers d'investissement. Exclure les armes controversées, par exemple, écarte une poignée de titres dans un indice mondial.
 
 **Le réflexe** : demande-toi combien de lignes l'exclusion retire réellement. Une exclusion crédible est une exclusion qui coûte quelque chose au gérant en termes de diversification.
 
-## Signal 4 — La composition qui contredit l'intitulé
+## Signal 4. La composition qui contredit l'intitulé
 
 C'est le test décisif, et il est à la portée de tout le monde.
 
@@ -57,11 +57,11 @@ Ouvre le rapport de composition périodique, regarde les vingt premières lignes
 
 **Exemple.** Un fonds intitulé « transition énergétique » dont les cinq premières positions sont des valeurs technologiques américaines n'est pas nécessairement malhonnête : les grandes capitalisations technologiques sont souvent bien notées sur l'intensité carbone, mécaniquement, parce qu'elles produisent peu. Mais si ton intention était de financer la production d'énergie renouvelable, ce fonds ne le fait pas.
 
-## Signal 5 — L'écart entre le discours et les frais
+## Signal 5. L'écart entre le discours et les frais
 
 Un fonds qui met en avant la sélection extra-financière, le dialogue actionnarial et l'engagement auprès des entreprises facture souvent ce travail. C'est légitime si le travail existe.
 
-**Le réflexe** : vérifie que le rapport annuel documente cet engagement — nombre de résolutions votées, dialogues engagés, résultats obtenus. Des frais élevés sans trace d'activité d'engagement signalent un supplément de prix sans contrepartie.
+**Le réflexe** : vérifie que le rapport annuel documente cet engagement : nombre de résolutions votées, dialogues engagés, résultats obtenus. Des frais élevés sans trace d'activité d'engagement signalent un supplément de prix sans contrepartie.
 
 ## La méthode complète, en dix minutes
 
@@ -71,4 +71,4 @@ Un fonds qui met en avant la sélection extra-financière, le dialogue actionnar
 4. Ouvrir le rapport de composition et lire les vingt premières lignes.
 5. Relever les frais courants et les comparer à un fonds indiciel équivalent.
 
-Si les cinq points sont cohérents, le fonds tient probablement sa promesse. Si l'un d'eux détonne, ce n'est pas une preuve de tromperie — mais c'est la question à poser à ton intermédiaire.
+Si les cinq points sont cohérents, le fonds tient probablement sa promesse. Si l'un d'eux détonne, ce n'est pas une preuve de tromperie, mais c'est la question à poser à ton intermédiaire.

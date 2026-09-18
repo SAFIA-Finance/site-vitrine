@@ -28,7 +28,7 @@ sources: "Constitution du 4 octobre 1958, article 74 · Loi organique n° 2004-1
 
 Le point structurant n'est pas un taux, c'est une architecture.
 
-La Polynésie française n'applique pas un impôt sur le revenu progressif calqué sur le modèle métropolitain. Son système repose sur une combinaison de prélèvements indirects — dont une taxe sur la valeur ajoutée locale et des droits à l'importation — et de contributions assises sur certains revenus, notamment les traitements et salaires ainsi que certaines activités.
+La Polynésie française n'applique pas un impôt sur le revenu progressif calqué sur le modèle métropolitain. Son système repose sur une combinaison de prélèvements indirects (dont une taxe sur la valeur ajoutée locale et des droits à l'importation) et de contributions assises sur certains revenus, notamment les traitements et salaires ainsi que certaines activités.
 
 Les taux, seuils et assiettes résultent du code des impôts polynésien et des délibérations de l'Assemblée de la Polynésie française. Ils évoluent régulièrement et ne figurent pas sur Légifrance.
 

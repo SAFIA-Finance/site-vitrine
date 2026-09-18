@@ -19,7 +19,7 @@ sources: "Code civil, articles 578 à 624 et 606 · Code général des impôts, 
 
 ## Le mécanisme
 
-Un investisseur acquiert la nue-propriété, un bailleur — souvent un opérateur social ou institutionnel — acquiert l'usufruit temporaire et perçoit les loyers pendant la durée convenue, en assumant l'entretien courant.
+Un investisseur acquiert la nue-propriété, un bailleur (souvent un opérateur social ou institutionnel) acquiert l'usufruit temporaire et perçoit les loyers pendant la durée convenue, en assumant l'entretien courant.
 
 La décote reflète la valeur de l'usufruit cédé. Sur une durée de quinze à vingt ans, elle se situe fréquemment entre 30 % et 45 % de la valeur en pleine propriété, selon la durée et le marché.
 
@@ -30,7 +30,7 @@ Au terme, l'investisseur détient la pleine propriété. Si le bien vaut alors 3
 
 ## Ce que ce produit fait bien
 
-Il convient précisément à un profil : fortement imposé, sans besoin de revenus complémentaires immédiats, avec un horizon long — typiquement un actif à dix ou quinze ans de la retraite.
+Il convient précisément à un profil : fortement imposé, sans besoin de revenus complémentaires immédiats, avec un horizon long, typiquement un actif à dix ou quinze ans de la retraite.
 
 Il supprime aussi tout souci de gestion : pas de locataire, pas d'impayé, pas de travaux courants.
 

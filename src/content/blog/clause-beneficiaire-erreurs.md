@@ -29,7 +29,7 @@ sources: "Code des assurances, articles L. 132-8, L. 132-9 et L. 132-25 · Code 
 
 ## Pourquoi cette ligne pèse autant
 
-Tout ce qui précède — l'abattement de 152 500 €, l'exonération du conjoint, la transmission hors succession — ne se déclenche que par la désignation d'un bénéficiaire. Sans désignation valable, le capital réintègre la succession et perd son régime propre.
+Tout ce qui précède (l'abattement de 152 500 €, l'exonération du conjoint, la transmission hors succession) ne se déclenche que par la désignation d'un bénéficiaire. Sans désignation valable, le capital réintègre la succession et perd son régime propre.
 
 C'est une ligne de texte, modifiable à tout moment par simple courrier à l'assureur, et que la plupart des souscripteurs n'ont pas relue depuis la signature.
 
@@ -65,7 +65,7 @@ Elle laisse au conjoint le soin de décider, au moment du décès, quelle fracti
 
 *Clause « mon conjoint pour 40 %, mes enfants pour 60 % ».* Le conjoint reçoit 320 000 € exonérés. Chaque enfant reçoit 240 000 €, dont 152 500 € exonérés, soit 87 500 € taxés à 20 % = **17 500 € par enfant**.
 
-Coût immédiat : 35 000 €. Mais 305 000 € ont définitivement quitté l'assiette taxable au second décès. Selon la situation, l'opération est gagnante ou perdante — et c'est précisément pourquoi elle mérite un calcul, pas une clause type.
+Coût immédiat : 35 000 €. Mais 305 000 € ont définitivement quitté l'assiette taxable au second décès. Selon la situation, l'opération est gagnante ou perdante, et c'est précisément pourquoi elle mérite un calcul, pas une clause type.
 
 ## Les cinq réflexes de relecture
 

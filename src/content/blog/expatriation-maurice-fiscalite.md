@@ -2,7 +2,7 @@
 code: "I21"
 titre: "Maurice : fiscalité de l'expatriation"
 titreSeo: "Maurice : fiscalité de l'expatriation"
-description: "Impôt modéré, ni plus-values ni succession — mais une résidence à prix d'entrée, souvent immobilier, et aucun sursis automatique d'exit tax."
+description: "Impôt modéré, ni plus-values ni succession, mais une résidence à prix d'entrée, souvent immobilier, et aucun sursis automatique d'exit tax."
 categorie: "Expatriation"
 date: 2026-09-16
 lecture: 2

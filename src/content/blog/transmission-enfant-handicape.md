@@ -27,7 +27,7 @@ L'abattement n'est pas réservé aux enfants : il bénéficie à tout bénéfici
 
 ## Les deux contrats dédiés
 
-**Le contrat de rente survie.** Souscrit par un parent, il verse une rente viagère à l'enfant handicapé au décès du souscripteur. Les primes ouvrent droit à une réduction d'impôt sous conditions, et la rente n'est pas prise en compte pour le calcul de certaines prestations sociales — c'est le point essentiel.
+**Le contrat de rente survie.** Souscrit par un parent, il verse une rente viagère à l'enfant handicapé au décès du souscripteur. Les primes ouvrent droit à une réduction d'impôt sous conditions, et la rente n'est pas prise en compte pour le calcul de certaines prestations sociales : c'est le point essentiel.
 
 **Le contrat d'épargne handicap.** Souscrit par la personne handicapée elle-même, d'une durée minimale, il ouvre droit à une réduction d'impôt sur les primes versées, dans une limite annuelle.
 
@@ -39,4 +39,4 @@ Transmettre un capital à une personne bénéficiaire de prestations sociales so
 
 C'est pourquoi les dispositifs spécifiques existent : ils permettent de transmettre sans déclencher cet effet. Et c'est pourquoi ce sujet ne se traite jamais par la seule optimisation fiscale.
 
-Deux outils juridiques complémentaires méritent d'être examinés avec un notaire : la **libéralité graduelle ou résiduelle**, qui organise la transmission en deux temps — à l'enfant handicapé puis, à son décès, à un autre bénéficiaire désigné — et le **mandat de protection future**, qui permet d'organiser à l'avance la protection de la personne et de ses biens.
+Deux outils juridiques complémentaires méritent d'être examinés avec un notaire : la **libéralité graduelle ou résiduelle**, qui organise la transmission en deux temps (à l'enfant handicapé puis, à son décès, à un autre bénéficiaire désigné), et le **mandat de protection future**, qui permet d'organiser à l'avance la protection de la personne et de ses biens.

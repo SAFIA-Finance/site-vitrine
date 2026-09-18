@@ -47,9 +47,9 @@ Signalez votre changement d'adresse à **chacune** de vos caisses : base et comp
 
 ## L'imposition, et la distinction qui change tout
 
-**Les pensions privées** — régime général, Agirc-Arrco, retraites supplémentaires d'entreprise — relèvent en général de l'article 18 de la convention et sont imposables dans **l'État de résidence**.
+**Les pensions privées** (régime général, Agirc-Arrco, retraites supplémentaires d'entreprise) relèvent en général de l'article 18 de la convention et sont imposables dans **l'État de résidence**.
 
-**Les pensions publiques** — versées au titre de services rendus à l'État ou à une collectivité — relèvent en général de l'article 19 et restent imposables dans **l'État qui les verse**, donc en France.
+**Les pensions publiques** (versées au titre de services rendus à l'État ou à une collectivité) relèvent en général de l'article 19 et restent imposables dans **l'État qui les verse**, donc en France.
 
 Un fonctionnaire retraité partant à l'étranger reste donc, le plus souvent, imposé en France sur sa pension, quelle que soit sa destination. Un salarié du privé ne l'est généralement pas. Deux voisins à la retraite dans le même pays peuvent avoir deux situations fiscales opposées.
 
@@ -81,7 +81,7 @@ La Caisse des Français de l'étranger propose une adhésion volontaire à un r�
 
 *Santé.* La Grèce relevant de la coordination européenne, sa prise en charge est organisée. C'est ce qui rend l'équation tenable.
 
-*Ce qu'il faut vérifier avant de conclure.* La durée du régime grec et ses conditions d'accès, le coût réel de la vie sur place, la disponibilité des soins dans la région envisagée, et le sort de son patrimoine français — traité dans **Que devient votre patrimoine français quand vous partez**.
+*Ce qu'il faut vérifier avant de conclure.* La durée du régime grec et ses conditions d'accès, le coût réel de la vie sur place, la disponibilité des soins dans la région envisagée, et le sort de son patrimoine français, traité dans **Que devient votre patrimoine français quand vous partez**.
 
 Le calcul fiscal n'est jamais le calcul complet.
 

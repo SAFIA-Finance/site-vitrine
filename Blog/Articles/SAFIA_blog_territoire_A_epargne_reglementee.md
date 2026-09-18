@@ -188,11 +188,11 @@ La garantie. Les sommes sont garanties par l'État sur le livret A, et couvertes
 
 **L'accès.** Le livret A est ouvert à tous, y compris aux mineurs dès la naissance et aux personnes morales dans certains cas. Le LDDS est réservé aux personnes majeures fiscalement domiciliées en France, à raison d'un par contribuable, donc deux par foyer fiscal.
 
-**La destination des fonds.** Les dépôts du livret A financent majoritairement le logement social et la politique de la ville via la Caisse des dépôts. Le LDDS oriente une partie de sa collecte vers la transition écologique, l'économie sociale et solidaire et le financement des PME. Il offre aussi un mécanisme de don à une entreprise de l'économie sociale et solidaire, proposé chaque année par ta banque — souvent sous la forme d'un message dans l'espace client que personne ne lit.
+**La destination des fonds.** Les dépôts du livret A financent majoritairement le logement social et la politique de la ville via la Caisse des dépôts. Le LDDS oriente une partie de sa collecte vers la transition écologique, l'économie sociale et solidaire et le financement des PME. Il offre aussi un mécanisme de don à une entreprise de l'économie sociale et solidaire, proposé chaque année par ta banque, souvent sous la forme d'un message dans l'espace client que personne ne lit.
 
 Si l'usage de ton épargne compte pour toi, c'est la seule différence qui porte du sens. Mais sois lucide sur son ampleur : ton épargne réglementée finance des projets fléchés, elle ne choisit pas des entreprises.
 
-**Exemple.** Léa dispose de 30 000 € d'épargne de précaution. Le débat « livret A ou LDDS » n'a pas lieu d'être : elle remplit son livret A à 22 950 €, place les 7 050 € restants sur son LDDS, et perçoit exactement les mêmes intérêts que si la répartition était inverse — 510 € sur l'année à 1,70 %.
+**Exemple.** Léa dispose de 30 000 € d'épargne de précaution. Le débat « livret A ou LDDS » n'a pas lieu d'être : elle remplit son livret A à 22 950 €, place les 7 050 € restants sur son LDDS, et perçoit exactement les mêmes intérêts que si la répartition était inverse : 510 € sur l'année à 1,70 %.
 
 ### Alors pourquoi la question revient sans arrêt ?
 
@@ -265,7 +265,7 @@ Trois raisons reviennent.
 
 La méconnaissance, d'abord : beaucoup pensent que le LEP est réservé aux minima sociaux, alors qu'il couvre largement les classes moyennes basses.
 
-L'effet de nom, ensuite. « Épargne populaire » est perçu comme stigmatisant, et les banques n'en font pas la promotion — le produit leur rapporte peu.
+L'effet de nom, ensuite. « Épargne populaire » est perçu comme stigmatisant, et les banques n'en font pas la promotion : le produit leur rapporte peu.
 
 L'auto-exclusion, enfin. Ne pars pas du principe que tu n'y as pas droit : vérifie. Un couple avec deux parts fiscales peut y prétendre avec un revenu de référence nettement plus élevé.
 
@@ -333,7 +333,7 @@ Reprenons les 30 700 € de Thomas et Sarah, sur quinze ans.
 * Laissés sur un livret à 1,70 % : environ **39 500 €**.
 * Placés sur un support diversifié dont on retient une hypothèse de 4,5 % annuels nets : environ **59 400 €**.
 
-L'écart approche 20 000 €. Ce n'est pas une promesse : aucun rendement n'est garanti, un placement de marché peut baisser, et 4,5 % est une hypothèse de travail, pas un engagement. Mais l'ordre de grandeur montre que le coût d'une épargne de précaution surdimensionnée n'est pas nul — il est simplement invisible, parce qu'il ne se matérialise jamais sur un relevé.
+L'écart approche 20 000 €. Ce n'est pas une promesse : aucun rendement n'est garanti, un placement de marché peut baisser, et 4,5 % est une hypothèse de travail, pas un engagement. Mais l'ordre de grandeur montre que le coût d'une épargne de précaution surdimensionnée n'est pas nul ; il est simplement invisible, parce qu'il ne se matérialise jamais sur un relevé.
 
 ### Où la placer
 
@@ -454,7 +454,7 @@ Le calcul net donne donc 2 % × 0,70 = **1,40 % net environ**, contre 1,70 % net
 
 Ce qui peut encore justifier un PEL, c'est le **droit à prêt**, à un taux connu d'avance. Sa valeur dépend entièrement du niveau des taux immobiliers au moment où tu emprunteras. Si les taux de marché sont plus bas que ton droit à prêt, ce droit ne vaut rien.
 
-**Exemple.** Julien ouvre un PEL en 2026 et y verse 540 € par an pendant quatre ans, soit 2 160 €. Les intérêts nets cumulés approchent 110 €. Sur un livret A, la même somme versée au même rythme aurait produit environ 135 € — sans blocage ni engagement de versement.
+**Exemple.** Julien ouvre un PEL en 2026 et y verse 540 € par an pendant quatre ans, soit 2 160 €. Les intérêts nets cumulés approchent 110 €. Sur un livret A, la même somme versée au même rythme aurait produit environ 135 €, sans blocage ni engagement de versement.
 
 ### Le CEL : peu d'arguments
 

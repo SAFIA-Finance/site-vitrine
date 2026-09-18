@@ -20,7 +20,7 @@ articlesLies:
 sources: "Code monétaire et financier, articles L. 561-1 et suivants, notamment L. 561-5, L. 561-10-2, L. 561-12 et L. 561-15 · Règlement général de l'AMF, livre III · Lignes directrices de l'AMF et de Tracfin relatives à la déclaration de soupçon · Règlement (UE) 2016/679 (RGPD), article 5 sur la limitation de conservation."
 ---
 
-## Bloc 1 — La classification des risques
+## Bloc 1. La classification des risques
 
 C'est le document que les cabinets omettent le plus souvent, et celui par lequel tout contrôle commence.
 
@@ -30,7 +30,7 @@ De cette classification découle le niveau de vigilance appliqué à chaque rela
 
 Le document doit être écrit, daté et actualisé.
 
-## Bloc 2 — La vigilance
+## Bloc 2. La vigilance
 
 **À l'entrée en relation.** Identification du client et vérification de son identité sur pièce probante ; identification du **bénéficiaire effectif** lorsque le client est une personne morale ; recueil d'informations sur l'objet et la nature de la relation d'affaires ; vérification du statut de **personne politiquement exposée**.
 
@@ -40,13 +40,13 @@ Le document doit être écrit, daté et actualisé.
 
 **L'origine des fonds** est un point récurrent : pour un versement significatif, la traçabilité doit être documentée, pas supposée.
 
-## Bloc 3 — La conservation
+## Bloc 3. La conservation
 
 Les documents d'identification et les pièces relatives aux opérations se conservent **cinq ans** à compter de la fin de la relation d'affaires ou de l'exécution de l'opération.
 
 Cette durée coexiste avec d'autres obligations de conservation issues du droit financier et avec les principes de limitation du RGPD. Documentez la durée retenue pour chaque catégorie de pièce : c'est la seule façon de tenir les deux exigences ensemble.
 
-## Bloc 4 — La déclaration de soupçon
+## Bloc 4. La déclaration de soupçon
 
 Elle est adressée à **Tracfin** lorsque vous savez, soupçonnez ou avez de bonnes raisons de soupçonner que des sommes proviennent d'une infraction passible d'une peine privative de liberté supérieure à un an ou participent au financement du terrorisme.
 
@@ -60,7 +60,7 @@ Le déclarant de bonne foi bénéficie d'une **exonération de responsabilité**
 
 ## L'organisation minimale
 
-Désignez un **responsable** de la mise en œuvre du dispositif et un **déclarant** auprès de Tracfin — dans un petit cabinet, ce sera souvent le dirigeant, mais la désignation doit être formalisée.
+Désignez un **responsable** de la mise en œuvre du dispositif et un **déclarant** auprès de Tracfin : dans un petit cabinet, ce sera souvent le dirigeant, mais la désignation doit être formalisée.
 
 Formez les collaborateurs, et conservez la preuve de la formation.
 

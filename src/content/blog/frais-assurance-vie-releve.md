@@ -31,7 +31,7 @@ sources: "Code des assurances, article L. 522-5 sur l'information précontractue
 
 **1. Les frais sur versement.** Prélevés à chaque dépôt, de 0 % à 5 % selon les contrats. Ils sont devenus rares en ligne, encore courants en réseau bancaire. Sur 10 000 € versés à 3 %, 300 € ne sont jamais investis.
 
-**2. Les frais de gestion annuels du contrat.** Prélevés chaque année sur l'encours, généralement entre 0,5 % et 1 % — parfois plus sur les unités de compte que sur le fonds en euros. Ce sont eux qui pèsent le plus lourd sur longue durée, parce qu'ils s'appliquent au capital total, chaque année, y compris les années de baisse.
+**2. Les frais de gestion annuels du contrat.** Prélevés chaque année sur l'encours, généralement entre 0,5 % et 1 %, parfois plus sur les unités de compte que sur le fonds en euros. Ce sont eux qui pèsent le plus lourd sur longue durée, parce qu'ils s'appliquent au capital total, chaque année, y compris les années de baisse.
 
 **3. Les frais d'arbitrage.** Facturés lors d'un changement de répartition entre supports, en pourcentage ou forfaitairement. Souvent gratuits sur les contrats en ligne.
 

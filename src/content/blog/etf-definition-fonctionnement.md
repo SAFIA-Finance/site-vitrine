@@ -28,7 +28,7 @@ Un ETF suit un indice. Il ne cherche pas à sélectionner les bonnes valeurs : i
 
 ## Les trois chiffres à regarder
 
-**Les frais courants**, de l'ordre de 0,05 % à 0,50 % sur les grands indices — sensiblement davantage sur les ETF thématiques ou à gestion active, l'AMF relevant une moyenne de 0,84 % tous ETF confondus en 2023.
+**Les frais courants**, de l'ordre de 0,05 % à 0,50 % sur les grands indices, sensiblement davantage sur les ETF thématiques ou à gestion active, l'AMF relevant une moyenne de 0,84 % tous ETF confondus en 2023.
 
 **L'écart de suivi**, c'est-à-dire la différence entre la performance du fonds et celle de l'indice. C'est la mesure de qualité réelle du gérant, et elle est plus informative que les frais affichés.
 

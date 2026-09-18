@@ -66,4 +66,4 @@ Un parcours entièrement digital n'est pas interdit ; un parcours digital sans d
 
 Avec réservation en ligne, questionnaire et pièces collectés en amont, le premier rendez-vous devient utile immédiatement. Le délai tombe autour de **8 jours**, et un rendez-vous est économisé par dossier.
 
-Sur quarante entrées en relation par an, cela représente quarante rendez-vous libérés — et une probabilité de conclusion sensiblement meilleure.
+Sur quarante entrées en relation par an, cela représente quarante rendez-vous libérés, et une probabilité de conclusion sensiblement meilleure.

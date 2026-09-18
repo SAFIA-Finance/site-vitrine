@@ -32,7 +32,7 @@ Un cabinet qui utilise un outil du marché est déployeur. Attention toutefois :
 
 ## Les obligations qui vous concernent en pratique
 
-**La transparence à l'égard des personnes.** Une personne qui interagit avec un système d'IA doit en être informée. Concrètement : si un assistant conversationnel est accessible à vos clients, la mention doit être présente et **lisible**. Un texte à faible contraste ou en très petits caractères ne remplit pas l'obligation — c'est un défaut fréquent et facile à corriger.
+**La transparence à l'égard des personnes.** Une personne qui interagit avec un système d'IA doit en être informée. Concrètement : si un assistant conversationnel est accessible à vos clients, la mention doit être présente et **lisible**. Un texte à faible contraste ou en très petits caractères ne remplit pas l'obligation : c'est un défaut fréquent et facile à corriger.
 
 **La compétence des utilisateurs.** Le règlement prévoit que les acteurs veillent à un niveau suffisant de maîtrise de l'IA chez les personnes qui l'utilisent pour leur compte. Pour un cabinet, cela se traduit par une formation documentée des collaborateurs : ce que l'outil fait, ce qu'il ne fait pas, comment vérifier une sortie.
 

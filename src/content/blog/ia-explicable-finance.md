@@ -51,17 +51,17 @@ Sur la plupart des sujets, cela suffit. En matière fiscale, non, pour trois rai
 
 **Exemple.** Tu veux évaluer un assistant financier. Pose-lui ces trois questions.
 
-*Question 1 — une question dont la réponse a changé récemment.* « Quel est le taux des prélèvements sociaux sur un PEA ? » Une réponse à 17,2 % sans mention de la loi de financement pour 2026 indique une base de connaissance périmée.
+*Question 1. Une question dont la réponse a changé récemment.* « Quel est le taux des prélèvements sociaux sur un PEA ? » Une réponse à 17,2 % sans mention de la loi de financement pour 2026 indique une base de connaissance périmée.
 
-*Question 2 — une question piège sur une exception.* « L'abattement de 4 600 € réduit-il les prélèvements sociaux ? » La bonne réponse est non. C'est l'erreur la plus fréquente sur le sujet, y compris dans des contenus professionnels.
+*Question 2. Une question piège sur une exception.* « L'abattement de 4 600 € réduit-il les prélèvements sociaux ? » La bonne réponse est non. C'est l'erreur la plus fréquente sur le sujet, y compris dans des contenus professionnels.
 
-*Question 3 — une question insoluble sans information supplémentaire.* « Dois-je verser sur un PER ou sur une assurance-vie ? » Une réponse tranchée sans avoir demandé la tranche marginale d'imposition est disqualifiante. La bonne réponse commence par une question.
+*Question 3. Une question insoluble sans information supplémentaire.* « Dois-je verser sur un PER ou sur une assurance-vie ? » Une réponse tranchée sans avoir demandé la tranche marginale d'imposition est disqualifiante. La bonne réponse commence par une question.
 
 Trois minutes suffisent à savoir si tu as affaire à un outil utilisable.
 
 ## Ce que la réglementation impose
 
-Le règlement européen sur l'intelligence artificielle impose une obligation de transparence : une personne qui interagit avec un système d'IA doit en être informée. C'est pourquoi les interfaces conversationnelles affichent désormais une mention explicite, qui doit être lisible — un texte gris clair sur fond clair ne remplit pas l'obligation.
+Le règlement européen sur l'intelligence artificielle impose une obligation de transparence : une personne qui interagit avec un système d'IA doit en être informée. C'est pourquoi les interfaces conversationnelles affichent désormais une mention explicite, qui doit être lisible : un texte gris clair sur fond clair ne remplit pas l'obligation.
 
 Le règlement prévoit par ailleurs un régime renforcé pour certains usages considérés comme à haut risque, avec des exigences de documentation, de traçabilité et de supervision humaine. Le calendrier d'application a fait l'objet d'ajustements depuis l'adoption du texte, et la qualification exacte d'un usage donné suppose une analyse au cas par cas.
 

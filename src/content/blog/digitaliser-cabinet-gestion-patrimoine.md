@@ -30,9 +30,9 @@ Avant tout achat, chiffrez trois choses sur un mois.
 
 **Le délai entre la demande d'un client et votre réponse.**
 
-Ces trois chiffres constituent votre référence. Sans eux, vous ne pourrez jamais démontrer — ni à vous-même, ni à un investisseur, ni à un contrôleur — que l'investissement a produit un effet.
+Ces trois chiffres constituent votre référence. Sans eux, vous ne pourrez jamais démontrer (ni à vous-même, ni à un investisseur, ni à un contrôleur) que l'investissement a produit un effet.
 
-## Chantier 1 — La conformité documentaire
+## Chantier 1. La conformité documentaire
 
 C'est le premier parce que c'est le seul dont l'absence vous expose directement.
 
@@ -40,7 +40,7 @@ Centralisez les dossiers clients dans un espace unique, avec une arborescence id
 
 Ce chantier ne demande pas d'outil sophistiqué. Il demande une décision et une discipline. Il produit un effet mesurable en quelques semaines sur le taux de complétude.
 
-## Chantier 2 — Le recueil et la mise à jour du profil
+## Chantier 2. Le recueil et la mise à jour du profil
 
 Le recueil d'informations client est l'obligation la plus contrôlée et la plus souvent défaillante. Un recueil réalisé sur papier, non daté, non actualisé, ne vous protège pas.
 
@@ -48,7 +48,7 @@ Passez à un recueil structuré, horodaté, conservé, et prévoyez un mécanism
 
 C'est aussi le chantier qui prépare le suivant, car un profil structuré est exploitable par un outil, alors qu'un questionnaire papier ne l'est pas.
 
-## Chantier 3 — L'agrégation et la valorisation
+## Chantier 3. L'agrégation et la valorisation
 
 C'est le chantier qui libère le plus de temps, et c'est pourquoi il vient en troisième et non en premier : il suppose que les deux précédents soient en place, faute de quoi vous automatiserez le désordre.
 
@@ -56,7 +56,7 @@ Le gain typique se mesure en heures par dossier et par an. Sur un portefeuille d
 
 Point de vigilance : l'agrégation produit des données qu'il faut **classer correctement**. Un mouvement de capital n'est pas un revenu, un virement interne n'est ni une dépense ni une recette. Un outil qui ne fait pas cette distinction affichera des chiffres faux avec autorité, ce qui est pire que pas de chiffres du tout.
 
-## Chantier 4 — La relation et le reporting
+## Chantier 4. La relation et le reporting
 
 Espace client, reporting périodique automatisé, signature électronique, prise de rendez-vous en ligne.
 

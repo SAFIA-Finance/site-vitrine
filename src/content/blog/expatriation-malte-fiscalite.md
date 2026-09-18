@@ -32,7 +32,7 @@ sources: "Income Tax Act maltais, dispositions relatives à la résidence, au do
 
 Le système distingue la résidence et le domicile, notion héritée du droit britannique. Un résident non domicilié à Malte est imposé sur ses revenus de source maltaise et sur ses revenus étrangers **rapatriés** à Malte, mais pas sur ses revenus étrangers laissés à l'extérieur.
 
-Les plus-values de source étrangère ne sont en principe pas imposées, même rapatriées — c'est la particularité la plus notable du système.
+Les plus-values de source étrangère ne sont en principe pas imposées, même rapatriées : c'est la particularité la plus notable du système.
 
 En pratique, cela suppose une discipline de flux : séparer les comptes, tracer ce qui entre sur l'île, et documenter l'origine des sommes rapatriées. C'est un régime de gestion, pas un régime passif.
 

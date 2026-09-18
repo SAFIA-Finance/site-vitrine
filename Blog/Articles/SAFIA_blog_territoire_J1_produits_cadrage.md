@@ -74,7 +74,7 @@ Code monétaire et financier, articles L. 221-30 et suivants (PEA), L. 224-1 et 
 
 **Les liquidités.** Tu prêtes à très court terme, avec une quasi-certitude de récupérer ton capital. Livrets, fonds monétaires, comptes à terme. Fonction : disponibilité. Risque principal : l'inflation.
 
-**Les obligations.** Tu prêtes à un État ou à une entreprise, contre un intérêt et un remboursement à l'échéance. Fonction : revenu et amortisseur. Risques : défaut de l'émetteur, et surtout **taux** — quand les taux montent, le prix des obligations existantes baisse.
+**Les obligations.** Tu prêtes à un État ou à une entreprise, contre un intérêt et un remboursement à l'échéance. Fonction : revenu et amortisseur. Risques : défaut de l'émetteur, et surtout **taux** : quand les taux montent, le prix des obligations existantes baisse.
 
 **Les actions.** Tu deviens copropriétaire d'une entreprise. Fonction : croissance à long terme. Risque : volatilité élevée et perte possible en capital.
 
@@ -92,7 +92,7 @@ Code monétaire et financier, articles L. 221-30 et suivants (PEA), L. 224-1 et 
 
 Détenir dix fonds actions monde, ce n'est pas se diversifier : c'est détenir dix fois la même chose avec dix couches de frais.
 
-Se diversifier, c'est combiner des actifs dont les moteurs de performance diffèrent. Et c'est accepter qu'à tout moment, une partie du portefeuille aille mal — sans quoi on n'est pas diversifié, on est concentré sur ce qui marche.
+Se diversifier, c'est combiner des actifs dont les moteurs de performance diffèrent. Et c'est accepter qu'à tout moment, une partie du portefeuille aille mal, sans quoi on n'est pas diversifié, on est concentré sur ce qui marche.
 
 Dernière mise en garde : les corrélations ne sont pas stables. En 2022, actions et obligations ont baissé ensemble, ce que trente ans de statistiques rendaient improbable. Une allocation ne se construit pas sur la seule histoire.
 
@@ -169,7 +169,7 @@ AMF, publications sur la liquidité des fonds et la gestion des rachats · ESMA,
 
 **3. Les scénarios de performance.** Tensions, défavorable, intermédiaire, favorable. Regarde le **scénario de tensions** en priorité : c'est celui qui dit ce que tu peux perdre.
 
-**4. Les coûts.** Coûts d'entrée, de sortie, récurrents, et coûts de transaction. La rubrique donne aussi l'incidence annuelle des coûts sur le rendement — le chiffre le plus utile du document, et celui que personne ne lit.
+**4. Les coûts.** Coûts d'entrée, de sortie, récurrents, et coûts de transaction. La rubrique donne aussi l'incidence annuelle des coûts sur le rendement, le chiffre le plus utile du document, et celui que personne ne lit.
 
 **5. L'alerte de compréhension.** Certains produits portent une mention signalant qu'ils sont difficiles à comprendre. Cette mention n'est pas une formalité juridique : elle est un avertissement, et elle doit conduire à ne pas souscrire tant que le mécanisme n'est pas compris.
 
@@ -216,7 +216,7 @@ Règlement (UE) n° 1286/2014 dit PRIIPs et ses règlements délégués sur le f
 
 **4. Qui porte le risque de contrepartie ?** Dans beaucoup de produits structurés, la promesse dépend de la solvabilité d'une banque émettrice. Si elle fait défaut, la formule ne s'applique pas.
 
-**5. Comment celui qui me le vend est-il rémunéré sur ce produit ?** C'est la question décisive. Une rémunération assise sur le produit crée une incitation qu'il faut connaître — sans en déduire une faute, mais sans l'ignorer non plus.
+**5. Comment celui qui me le vend est-il rémunéré sur ce produit ?** C'est la question décisive. Une rémunération assise sur le produit crée une incitation qu'il faut connaître, sans en déduire une faute, mais sans l'ignorer non plus.
 
 **6. Quelle est l'alternative simple, et pourquoi ce produit fait-il mieux ?** Si un portefeuille de deux fonds indiciels atteint le même objectif à moindre coût, la complexité n'apporte rien.
 
@@ -256,7 +256,7 @@ Un ETF suit un indice. Il ne cherche pas à sélectionner les bonnes valeurs : i
 
 ### Les trois chiffres à regarder
 
-**Les frais courants**, de l'ordre de 0,05 % à 0,50 % sur les grands indices — sensiblement davantage sur les ETF thématiques ou à gestion active, l'AMF relevant une moyenne de 0,84 % tous ETF confondus en 2023.
+**Les frais courants**, de l'ordre de 0,05 % à 0,50 % sur les grands indices, sensiblement davantage sur les ETF thématiques ou à gestion active, l'AMF relevant une moyenne de 0,84 % tous ETF confondus en 2023.
 
 **L'écart de suivi**, c'est-à-dire la différence entre la performance du fonds et celle de l'indice. C'est la mesure de qualité réelle du gérant, et elle est plus informative que les frais affichés.
 
@@ -304,7 +304,7 @@ La **SICAV** est une société : tu es actionnaire. Le **FCP** est une copropri�
 
 **Les droits d'entrée**, jusqu'à 5 % sur certains fonds distribués en réseau.
 
-**Les frais courants**, de l'ordre de **1,5 % en moyenne** pour un fonds actions géré activement — l'AMF mesure un total de frais sur encours de 1,47 % en 2023, et plus de 2 % sur certains fonds — contre 0,2 % à 0,4 % pour un fonds indiciel.
+**Les frais courants**, de l'ordre de **1,5 % en moyenne** pour un fonds actions géré activement (l'AMF mesure un total de frais sur encours de 1,47 % en 2023, et plus de 2 % sur certains fonds), contre 0,2 % à 0,4 % pour un fonds indiciel.
 
 **La commission de surperformance**, prélevée lorsque le fonds dépasse un seuil défini. Vérifie l'existence d'un mécanisme de rattrapage des sous-performances passées : sans lui, le gérant est rémunéré sur une reprise après une baisse qu'il a lui-même subie.
 
@@ -383,7 +383,7 @@ AMF, guide sur les fonds obligataires et les fonds à échéance · Documents d'
 ### L'essentiel
 
 - Détenir des actions en direct supprime les frais de gestion d'un fonds, mais transfère sur toi tout le travail et tout le risque de concentration.
-- Le **biais domestique** — surpondérer les entreprises de son propre pays — est l'erreur la plus documentée de l'épargnant particulier.
+- Le **biais domestique**, surpondérer les entreprises de son propre pays, est l'erreur la plus documentée de l'épargnant particulier.
 - Une diversification correcte suppose un nombre de lignes et une répartition sectorielle que peu de portefeuilles individuels atteignent.
 - Le **PEA** offre le meilleur cadre fiscal pour les actions européennes après cinq ans.
 
@@ -403,11 +403,11 @@ Le contrôle exact de ce que tu détiens. L'absence de frais de gestion récurre
 
 La France représente une fraction modeste de la capitalisation boursière mondiale. Pourtant, les portefeuilles individuels français y sont très largement concentrés.
 
-Conséquence : une exposition forte à une seule économie, à un seul régime fiscal, à un petit nombre de secteurs. Le portefeuille varie alors avec le pays où l'épargnant a aussi son emploi et son immobilier — trois expositions au même cycle.
+Conséquence : une exposition forte à une seule économie, à un seul régime fiscal, à un petit nombre de secteurs. Le portefeuille varie alors avec le pays où l'épargnant a aussi son emploi et son immobilier : trois expositions au même cycle.
 
 ### Le cadre fiscal
 
-Le **PEA** exonère d'impôt sur le revenu les gains après cinq ans, seuls les prélèvements sociaux restant dus — passés à 18,6 % au 1er janvier 2026. Il est limité aux actions et fonds européens éligibles, et plafonné en versements.
+Le **PEA** exonère d'impôt sur le revenu les gains après cinq ans, seuls les prélèvements sociaux restant dus, passés à 18,6 % au 1er janvier 2026. Il est limité aux actions et fonds européens éligibles, et plafonné en versements.
 
 Le **compte-titres** n'a aucune limite mais applique le PFU de 31,4 % à chaque cession en plus-value.
 
@@ -441,7 +441,7 @@ Code monétaire et financier, articles L. 221-30 et suivants sur le PEA · Loi d
 
 ### Comment ça marche
 
-Tu achètes des parts. La société de gestion acquiert des immeubles — bureaux, commerces, santé, logistique, résidentiel — les loue, et te distribue les loyers nets de frais, au prorata de tes parts.
+Tu achètes des parts. La société de gestion acquiert des immeubles (bureaux, commerces, santé, logistique, résidentiel), les loue, et te distribue les loyers nets de frais, au prorata de tes parts.
 
 Le **taux de distribution** rapporte les revenus versés au prix de la part. C'est le chiffre mis en avant, et c'est un chiffre **brut d'impôt**.
 
@@ -456,7 +456,7 @@ Prélèvements sociaux : 5 000 × 17,2 % = 860 €.
 
 À tranche marginale de 41 %, le net tombe autour de 2,09 %.
 
-Deux alternatives modifient ce calcul : détenir les parts **dans une assurance-vie**, ce qui substitue la fiscalité du contrat à celle des revenus fonciers, au prix des frais du contrat ; ou acquérir en **nue-propriété** temporaire, ce qui supprime le revenu — et donc l'impôt — pendant la durée du démembrement.
+Deux alternatives modifient ce calcul : détenir les parts **dans une assurance-vie**, ce qui substitue la fiscalité du contrat à celle des revenus fonciers, au prix des frais du contrat ; ou acquérir en **nue-propriété** temporaire, ce qui supprime le revenu, et donc l'impôt, pendant la durée du démembrement.
 
 ### Ce que ce produit fait mal
 

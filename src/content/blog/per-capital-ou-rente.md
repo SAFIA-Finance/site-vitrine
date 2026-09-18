@@ -46,7 +46,7 @@ Pour les **versements qui ont été déduits** à l'entrée :
 
 Pour les **versements non déduits**, la part versements ressort en franchise d'impôt sur le revenu ; seuls les gains sont taxés.
 
-En **rente**, le régime dépend là encore du choix d'entrée : régime des pensions avec abattement pour les versements déduits, régime des rentes viagères à titre onéreux — avec une fraction imposable variable selon l'âge au premier versement — pour les versements non déduits.
+En **rente**, le régime dépend là encore du choix d'entrée : régime des pensions avec abattement pour les versements déduits, régime des rentes viagères à titre onéreux (avec une fraction imposable variable selon l'âge au premier versement) pour les versements non déduits.
 
 ## Pourquoi le fractionnement change tout
 
@@ -66,7 +66,7 @@ Ces montants sont des ordres de grandeur, dépendants du barème applicable et d
 
 **Elle coûte** la disponibilité et la transmission : le capital est aliéné, et sauf option de réversion, il ne va pas à tes héritiers. Les options de réversion ou d'annuités garanties existent, mais elles réduisent le montant de la rente.
 
-Le **taux de conversion** — le montant de rente obtenu pour 100 000 € de capital — dépend de l'âge à la liquidation, des tables de mortalité et du taux technique. Demande-le par écrit, et compare-le entre assureurs : les écarts sont significatifs.
+Le **taux de conversion** (le montant de rente obtenu pour 100 000 € de capital) dépend de l'âge à la liquidation, des tables de mortalité et du taux technique. Demande-le par écrit, et compare-le entre assureurs : les écarts sont significatifs.
 
 ## La question non fiscale à se poser
 
@@ -75,4 +75,4 @@ As-tu d'autres revenus garantis à vie suffisants pour couvrir tes dépenses inc
 Si oui, le capital fractionné offre plus de souplesse.
 Si non, une part de rente sécurise le socle, et le reste peut rester en capital.
 
-Ce raisonnement — sécuriser d'abord les dépenses incompressibles, gérer le reste librement — est plus utile que le débat général sur la supériorité d'une modalité.
+Ce raisonnement (sécuriser d'abord les dépenses incompressibles, gérer le reste librement) est plus utile que le débat général sur la supériorité d'une modalité.

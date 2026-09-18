@@ -22,7 +22,7 @@ sources: "AMF, guides de l'épargnant sur les risques et la diversification · D
 
 **Les liquidités.** Tu prêtes à très court terme, avec une quasi-certitude de récupérer ton capital. Livrets, fonds monétaires, comptes à terme. Fonction : disponibilité. Risque principal : l'inflation.
 
-**Les obligations.** Tu prêtes à un État ou à une entreprise, contre un intérêt et un remboursement à l'échéance. Fonction : revenu et amortisseur. Risques : défaut de l'émetteur, et surtout **taux** — quand les taux montent, le prix des obligations existantes baisse.
+**Les obligations.** Tu prêtes à un État ou à une entreprise, contre un intérêt et un remboursement à l'échéance. Fonction : revenu et amortisseur. Risques : défaut de l'émetteur, et surtout **taux** : quand les taux montent, le prix des obligations existantes baisse.
 
 **Les actions.** Tu deviens copropriétaire d'une entreprise. Fonction : croissance à long terme. Risque : volatilité élevée et perte possible en capital.
 
@@ -40,6 +40,6 @@ sources: "AMF, guides de l'épargnant sur les risques et la diversification · D
 
 Détenir dix fonds actions monde, ce n'est pas se diversifier : c'est détenir dix fois la même chose avec dix couches de frais.
 
-Se diversifier, c'est combiner des actifs dont les moteurs de performance diffèrent. Et c'est accepter qu'à tout moment, une partie du portefeuille aille mal — sans quoi on n'est pas diversifié, on est concentré sur ce qui marche.
+Se diversifier, c'est combiner des actifs dont les moteurs de performance diffèrent. Et c'est accepter qu'à tout moment, une partie du portefeuille aille mal, sans quoi on n'est pas diversifié, on est concentré sur ce qui marche.
 
 Dernière mise en garde : les corrélations ne sont pas stables. En 2022, actions et obligations ont baissé ensemble, ce que trente ans de statistiques rendaient improbable. Une allocation ne se construit pas sur la seule histoire.

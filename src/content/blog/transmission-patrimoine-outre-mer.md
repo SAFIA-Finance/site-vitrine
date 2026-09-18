@@ -10,7 +10,7 @@ essentiel:
   - "Dans les **DROM**, les droits de mutation à titre gratuit sont ceux du Code général des impôts : mêmes abattements, même barème qu'en métropole."
   - "Dans les **COM à fiscalité propre** et en Nouvelle-Calédonie, la matière relève du droit local et des conventions internes."
   - "L'article **750 ter du CGI** demeure la clé de lecture côté français : il retient trois rattachements alternatifs."
-  - "Le troisième rattachement — la résidence de **l'héritier** — est celui qui produit les surprises les plus fréquentes."
+  - "Le troisième rattachement, la résidence de **l'héritier**, est celui qui produit les surprises les plus fréquentes."
 pages:
   - nom: "Cockpit stratégique"
     url: "/cockpit/"
@@ -35,7 +35,7 @@ La réfaction d'impôt de 30 % ou 40 %, décrite dans **DROM : la réfaction d'i
 
 À Saint-Barthélemy, à Saint-Martin, en Polynésie française, en Nouvelle-Calédonie, la matière des mutations à titre gratuit relève de la compétence locale, dans les conditions fixées par le statut de chaque collectivité et par la convention interne.
 
-Cela signifie que les abattements, le barème et les exonérations peuvent différer de ceux du CGI — voire ne pas exister sous la même forme. Là encore, ce blog renvoie au code local plutôt que de publier des chiffres non vérifiés.
+Cela signifie que les abattements, le barème et les exonérations peuvent différer de ceux du CGI, voire ne pas exister sous la même forme. Là encore, ce blog renvoie au code local plutôt que de publier des chiffres non vérifiés.
 
 ## L'article 750 ter, qu'il faut avoir en tête
 
@@ -47,7 +47,7 @@ ou l'**héritier** est domicilié en France et l'a été pendant au moins six de
 
 Ce troisième cas est le plus méconnu. Un héritier installé en métropole peut se voir réclamer des droits français sur des biens situés dans une collectivité à fiscalité propre ou à l'étranger, reçus d'un défunt non domicilié en France.
 
-La convention interne applicable, ou le mécanisme de crédit d'impôt prévu par le statut, permet d'éviter la double imposition — encore faut-il l'invoquer et le documenter.
+La convention interne applicable, ou le mécanisme de crédit d'impôt prévu par le statut, permet d'éviter la double imposition, encore faut-il l'invoquer et le documenter.
 
 ## Le cas de l'assurance-vie
 

@@ -2,7 +2,7 @@
 code: "I24"
 titre: "Singapour : fiscalité de l'expatriation"
 titreSeo: "Singapour : fiscalité de l'expatriation"
-description: "Imposition territoriale, pas de plus-values ni de droits de succession — mais un coût du logement qui absorbe une large part de l'avantage fiscal."
+description: "Imposition territoriale, pas de plus-values ni de droits de succession, mais un coût du logement qui absorbe une large part de l'avantage fiscal."
 categorie: "Expatriation"
 date: 2026-09-16
 lecture: 1

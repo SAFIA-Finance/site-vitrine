@@ -46,7 +46,7 @@ sources: "Legge di Bilancio 199/2025, relèvement du forfait à compter du 1er j
 
 **Cadre qualifié, 90 000 €.** Sous impatriati, la moitié du revenu échappe à l'impôt, ce qui ramène le taux effectif nettement en dessous du barème italien, lui-même atteignant 43 % dès 50 000 €.
 
-**Retraité, 30 000 € de pension.** Sous le régime du Sud, 7 %, soit 2 100 €, sous réserve de s'installer effectivement dans une commune éligible — condition géographique contraignante qui doit être acceptée pour ce qu'elle est.
+**Retraité, 30 000 € de pension.** Sous le régime du Sud, 7 %, soit 2 100 €, sous réserve de s'installer effectivement dans une commune éligible, condition géographique contraignante qui doit être acceptée pour ce qu'elle est.
 
 ## Points de vigilance
 

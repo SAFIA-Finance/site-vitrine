@@ -9,7 +9,7 @@ lecture: 3
 essentiel:
   - "Trois données suffisent pour une première estimation : **trimestres validés**, **salaire annuel moyen**, **points de retraite complémentaire**."
   - "Elles figurent toutes sur ton **relevé de carrière**, accessible gratuitement en ligne."
-  - "Le taux de remplacement — la part de ton dernier revenu que tu conserveras — est le seul indicateur qui compte vraiment."
+  - "Le taux de remplacement, la part de ton dernier revenu que tu conserveras, est le seul indicateur qui compte vraiment."
   - "Une estimation officielle est **non contractuelle** et se dégrade à mesure que l'horizon s'éloigne."
 faq:
   - q: "Le relevé de carrière est-il payant ?"
@@ -33,11 +33,11 @@ Le portail public de l'assurance retraite met à disposition ton **relevé de ca
 
 Trois choses à y vérifier, dans cet ordre.
 
-**Les trimestres validés.** Ils déterminent si tu partiras à taux plein. Les périodes de chômage indemnisé, de maladie, de service national ou de maternité peuvent en valider — vérifie qu'elles apparaissent bien.
+**Les trimestres validés.** Ils déterminent si tu partiras à taux plein. Les périodes de chômage indemnisé, de maladie, de service national ou de maternité peuvent en valider : vérifie qu'elles apparaissent bien.
 
 **Les revenus reportés année par année.** C'est sur eux que sera calculé ton salaire annuel moyen. Les oublis existent, notamment pour les premières années de carrière, les emplois courts et les périodes à l'étranger.
 
-**Les points de retraite complémentaire.** Pour un salarié du privé, la retraite complémentaire représente une part importante de la pension totale — souvent près d'un tiers pour un non-cadre et davantage pour un cadre. Une estimation qui l'ignore n'a aucune valeur.
+**Les points de retraite complémentaire.** Pour un salarié du privé, la retraite complémentaire représente une part importante de la pension totale, souvent près d'un tiers pour un non-cadre et davantage pour un cadre. Une estimation qui l'ignore n'a aucune valeur.
 
 ## Le calcul, dans ses grandes lignes
 
@@ -45,7 +45,7 @@ La pension de base d'un salarié du privé se calcule à partir de trois éléme
 
 S'y ajoute la retraite complémentaire, calculée en multipliant le nombre de points acquis par la valeur du point à la date de liquidation.
 
-Le détail des paramètres — âge légal, nombre de trimestres requis, valeur du point — dépend de ta génération et évolue. Les valeurs applicables à ta situation figurent sur le portail officiel, et c'est la seule source à utiliser.
+Le détail des paramètres (âge légal, nombre de trimestres requis, valeur du point) dépend de ta génération et évolue. Les valeurs applicables à ta situation figurent sur le portail officiel, et c'est la seule source à utiliser.
 
 ## Le seul indicateur utile : le taux de remplacement
 

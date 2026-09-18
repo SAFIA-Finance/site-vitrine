@@ -33,7 +33,7 @@ sources: "Internal Revenue Code, dispositions relatives à l'imposition des cito
 
 C'est le point que ce territoire doit faire connaître, car il concerne des milliers de Français qui n'ont aucune intention de s'expatrier.
 
-Un non-résident détenant des actifs américains — actions de sociétés américaines, immobilier situé aux États-Unis — peut se voir appliquer, au décès, des droits de succession fédéraux américains avec un abattement très inférieur à celui dont bénéficient les citoyens et résidents américains.
+Un non-résident détenant des actifs américains (actions de sociétés américaines, immobilier situé aux États-Unis) peut se voir appliquer, au décès, des droits de succession fédéraux américains avec un abattement très inférieur à celui dont bénéficient les citoyens et résidents américains.
 
 La convention franco-américaine en matière de successions atténue ce traitement, mais elle doit être invoquée et ses conditions respectées.
 
@@ -49,7 +49,7 @@ L'abandon de la nationalité est possible, encadré, et peut déclencher un rég
 
 ## La comparaison sur trois profils
 
-**Cadre en mobilité.** Fiscalité fédérale et étatique, avec des écarts considérables entre États — certains n'ont pas d'impôt sur le revenu.
+**Cadre en mobilité.** Fiscalité fédérale et étatique, avec des écarts considérables entre États : certains n'ont pas d'impôt sur le revenu.
 
 **Dirigeant après cession.** Les plus-values sont imposées ; il n'y a pas d'avantage de ce côté.
 

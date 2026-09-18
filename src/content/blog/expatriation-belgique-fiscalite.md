@@ -22,7 +22,7 @@ sources: "Code des impôts sur les revenus belge et sa doctrine sur la gestion n
 
 | | |
 |---|---|
-| Plus-values privées sur titres | Historiquement non imposées dans le cadre de la gestion normale d'un patrimoine privé — **régime en évolution** |
+| Plus-values privées sur titres | Historiquement non imposées dans le cadre de la gestion normale d'un patrimoine privé, **régime en évolution** |
 | Barème de l'impôt sur le revenu | Élevé, avec additionnels communaux |
 | Droits de succession | **Régionaux** : Flandre, Wallonie, Bruxelles, barèmes différents |
 | Convention avec la France | Oui, y compris en matière de successions |
@@ -32,7 +32,7 @@ sources: "Code des impôts sur les revenus belge et sa doctrine sur la gestion n
 
 Pendant des décennies, la Belgique a attiré des dirigeants français en cession parce que les plus-values réalisées dans le cadre de la gestion normale d'un patrimoine privé n'y étaient pas imposées comme telles.
 
-Ce traitement a toujours comporté des limites — spéculation caractérisée, cession de participations importantes dans certaines conditions — et il fait l'objet d'évolutions législatives régulières. C'est précisément le genre de sujet où une information datée conduit à une décision coûteuse.
+Ce traitement a toujours comporté des limites (spéculation caractérisée, cession de participations importantes dans certaines conditions) et il fait l'objet d'évolutions législatives régulières. C'est précisément le genre de sujet où une information datée conduit à une décision coûteuse.
 
 La règle de méthode est donc simple : sur la Belgique, **aucune décision sans vérification de l'état du droit à la date exacte de l'opération envisagée**, auprès d'un conseil belge.
 

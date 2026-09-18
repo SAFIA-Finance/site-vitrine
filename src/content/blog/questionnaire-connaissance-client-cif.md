@@ -28,7 +28,7 @@ Cinq blocs en découlent.
 
 **Connaissance et expérience.** Types de services et d'instruments familiers au client, nature et fréquence des transactions passées, niveau d'études et profession.
 
-**Situation financière.** Source et importance des revenus réguliers, actifs, engagements financiers, et — point souvent traité trop légèrement — **capacité à subir des pertes**.
+**Situation financière.** Source et importance des revenus réguliers, actifs, engagements financiers, et (point souvent traité trop légèrement) **capacité à subir des pertes**.
 
 **Objectifs d'investissement.** Durée de placement souhaitée, préférences de risque, finalité.
 
@@ -40,7 +40,7 @@ Cinq blocs en découlent.
 
 **Le recueil non daté.** Sans date, vous ne pouvez pas démontrer que l'information était à jour au moment de la recommandation.
 
-**Les questions auto-évaluatives non exploitables.** « Quelle est votre appétence au risque de 1 à 10 ? » n'a pas de valeur probante. Une question portant sur une situation concrète — une baisse chiffrée en euros et la décision qui en découle — en a davantage.
+**Les questions auto-évaluatives non exploitables.** « Quelle est votre appétence au risque de 1 à 10 ? » n'a pas de valeur probante. Une question portant sur une situation concrète (une baisse chiffrée en euros et la décision qui en découle) en a davantage.
 
 **La confusion capacité/tolérance.** Un client peut avoir la capacité financière d'absorber une perte et l'incapacité comportementale de la traverser. Les deux doivent être recueillies séparément, et **la contrainte la plus prudente doit l'emporter**.
 

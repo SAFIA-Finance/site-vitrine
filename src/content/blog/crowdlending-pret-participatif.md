@@ -34,7 +34,7 @@ C'est le calcul que les simulateurs de plateformes ne présentent jamais.
 
 **L'agrément**, vérifiable sur les registres publics.
 
-**Les statistiques historiques** : taux de défaut par millésime et par classe de risque, taux de recouvrement effectif, rendement net réalisé par les prêteurs — et non le taux moyen des projets proposés.
+**Les statistiques historiques** : taux de défaut par millésime et par classe de risque, taux de recouvrement effectif, rendement net réalisé par les prêteurs, et non le taux moyen des projets proposés.
 
 **L'alignement d'intérêts** : la plateforme investit-elle ses propres fonds ? Est-elle rémunérée à la levée ou au remboursement ? Une plateforme rémunérée uniquement à la levée n'a pas d'intérêt direct au bon dénouement.
 

@@ -67,7 +67,7 @@ La **donation-partage** fige les valeurs au jour de l'acte, à condition que tou
 
 ## Les formalités depuis 2026
 
-Le don manuel — argent, titres, bijoux remis directement — doit être **déclaré**, systématiquement. Depuis le 1er janvier 2026, cette déclaration se fait en ligne sur impots.gouv.fr, dans la rubrique de déclaration des dons.
+Le don manuel (argent, titres, bijoux remis directement) doit être **déclaré**, systématiquement. Depuis le 1er janvier 2026, cette déclaration se fait en ligne sur impots.gouv.fr, dans la rubrique de déclaration des dons.
 
 L'absence de déclaration ne fait courir aucun délai de quinze ans. Autrement dit, un don non déclaré ne commence jamais à « vieillir » fiscalement, et il sera réintégré intégralement au décès.
 

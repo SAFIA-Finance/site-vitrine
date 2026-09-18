@@ -21,7 +21,7 @@ sources: "Code général des impôts, articles 150 VI à 150 VM (taxe sur les m�
 
 **L'or physique** : lingots et pièces d'investissement. Il faut le stocker et l'assurer, ce qui a un coût, et l'écart entre prix d'achat et de revente est réel.
 
-**Les produits cotés adossés à l'or**, qui suivent le cours sans détention physique par l'épargnant. Pratiques et liquides, ils n'ont pas la même nature juridique ni le même traitement fiscal que l'or physique — un point à vérifier produit par produit.
+**Les produits cotés adossés à l'or**, qui suivent le cours sans détention physique par l'épargnant. Pratiques et liquides, ils n'ont pas la même nature juridique ni le même traitement fiscal que l'or physique, un point à vérifier produit par produit.
 
 **Les actions de sociétés minières**, qui ne sont pas de l'or : ce sont des actions, avec un risque d'entreprise et un effet de levier sur le cours du métal.
 

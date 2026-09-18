@@ -49,13 +49,13 @@ Le profil n'est pas un classement : c'est une **limite opposable**.
 
 Si tu es profilé prudent et qu'un intermédiaire te recommande un produit structuré complexe, la recommandation est irrégulière. Ce document est la première pièce examinée en cas de litige, devant le médiateur de l'AMF ou devant un tribunal.
 
-C'est pourquoi remplir le questionnaire à la légère — ou accepter qu'un commercial le remplisse « comme d'habitude » — revient à renoncer à sa propre protection.
+C'est pourquoi remplir le questionnaire à la légère, ou accepter qu'un commercial le remplisse « comme d'habitude », revient à renoncer à sa propre protection.
 
 ## Les deux limites connues
 
 **Il mesure ce que tu dis, pas ce que tu fais.** Répondre « je supporterais une baisse de 20 % » dans un bureau calme, et vivre une baisse de 20 % sur son écran, sont deux expériences sans rapport. La finance comportementale documente de longue date l'écart entre la tolérance déclarée et le comportement observé en période de stress, marqué notamment par une aversion aux pertes très supérieure à l'attrait pour un gain équivalent.
 
-**Il est souvent traité comme une formalité.** Rempli en cinq minutes, à la fin d'un rendez-vous, avec des questions abstraites — « quelle est votre appétence au risque sur une échelle de 1 à 10 ? » — auxquelles personne ne peut répondre de façon fiable.
+**Il est souvent traité comme une formalité.** Rempli en cinq minutes, à la fin d'un rendez-vous, avec des questions abstraites (« quelle est votre appétence au risque sur une échelle de 1 à 10 ? ») auxquelles personne ne peut répondre de façon fiable.
 
 ## Comment le remplir sérieusement
 

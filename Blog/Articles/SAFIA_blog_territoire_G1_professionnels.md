@@ -109,9 +109,9 @@ Avant tout achat, chiffrez trois choses sur un mois.
 
 **Le délai entre la demande d'un client et votre réponse.**
 
-Ces trois chiffres constituent votre référence. Sans eux, vous ne pourrez jamais démontrer — ni à vous-même, ni à un investisseur, ni à un contrôleur — que l'investissement a produit un effet.
+Ces trois chiffres constituent votre référence. Sans eux, vous ne pourrez jamais démontrer (ni à vous-même, ni à un investisseur, ni à un contrôleur) que l'investissement a produit un effet.
 
-### Chantier 1 — La conformité documentaire
+### Chantier 1. La conformité documentaire
 
 C'est le premier parce que c'est le seul dont l'absence vous expose directement.
 
@@ -119,7 +119,7 @@ Centralisez les dossiers clients dans un espace unique, avec une arborescence id
 
 Ce chantier ne demande pas d'outil sophistiqué. Il demande une décision et une discipline. Il produit un effet mesurable en quelques semaines sur le taux de complétude.
 
-### Chantier 2 — Le recueil et la mise à jour du profil
+### Chantier 2. Le recueil et la mise à jour du profil
 
 Le recueil d'informations client est l'obligation la plus contrôlée et la plus souvent défaillante. Un recueil réalisé sur papier, non daté, non actualisé, ne vous protège pas.
 
@@ -127,7 +127,7 @@ Passez à un recueil structuré, horodaté, conservé, et prévoyez un mécanism
 
 C'est aussi le chantier qui prépare le suivant, car un profil structuré est exploitable par un outil, alors qu'un questionnaire papier ne l'est pas.
 
-### Chantier 3 — L'agrégation et la valorisation
+### Chantier 3. L'agrégation et la valorisation
 
 C'est le chantier qui libère le plus de temps, et c'est pourquoi il vient en troisième et non en premier : il suppose que les deux précédents soient en place, faute de quoi vous automatiserez le désordre.
 
@@ -135,7 +135,7 @@ Le gain typique se mesure en heures par dossier et par an. Sur un portefeuille d
 
 Point de vigilance : l'agrégation produit des données qu'il faut **classer correctement**. Un mouvement de capital n'est pas un revenu, un virement interne n'est ni une dépense ni une recette. Un outil qui ne fait pas cette distinction affichera des chiffres faux avec autorité, ce qui est pire que pas de chiffres du tout.
 
-### Chantier 4 — La relation et le reporting
+### Chantier 4. La relation et le reporting
 
 Espace client, reporting périodique automatisé, signature électronique, prise de rendez-vous en ligne.
 
@@ -184,7 +184,7 @@ Cinq blocs en découlent.
 
 **Connaissance et expérience.** Types de services et d'instruments familiers au client, nature et fréquence des transactions passées, niveau d'études et profession.
 
-**Situation financière.** Source et importance des revenus réguliers, actifs, engagements financiers, et — point souvent traité trop légèrement — **capacité à subir des pertes**.
+**Situation financière.** Source et importance des revenus réguliers, actifs, engagements financiers, et (point souvent traité trop légèrement) **capacité à subir des pertes**.
 
 **Objectifs d'investissement.** Durée de placement souhaitée, préférences de risque, finalité.
 
@@ -196,7 +196,7 @@ Cinq blocs en découlent.
 
 **Le recueil non daté.** Sans date, vous ne pouvez pas démontrer que l'information était à jour au moment de la recommandation.
 
-**Les questions auto-évaluatives non exploitables.** « Quelle est votre appétence au risque de 1 à 10 ? » n'a pas de valeur probante. Une question portant sur une situation concrète — une baisse chiffrée en euros et la décision qui en découle — en a davantage.
+**Les questions auto-évaluatives non exploitables.** « Quelle est votre appétence au risque de 1 à 10 ? » n'a pas de valeur probante. Une question portant sur une situation concrète (une baisse chiffrée en euros et la décision qui en découle) en a davantage.
 
 **La confusion capacité/tolérance.** Un client peut avoir la capacité financière d'absorber une perte et l'incapacité comportementale de la traverser. Les deux doivent être recueillies séparément, et **la contrainte la plus prudente doit l'emporter**.
 
@@ -385,7 +385,7 @@ Un cabinet qui utilise un outil du marché est déployeur. Attention toutefois :
 
 ### Les obligations qui vous concernent en pratique
 
-**La transparence à l'égard des personnes.** Une personne qui interagit avec un système d'IA doit en être informée. Concrètement : si un assistant conversationnel est accessible à vos clients, la mention doit être présente et **lisible**. Un texte à faible contraste ou en très petits caractères ne remplit pas l'obligation — c'est un défaut fréquent et facile à corriger.
+**La transparence à l'égard des personnes.** Une personne qui interagit avec un système d'IA doit en être informée. Concrètement : si un assistant conversationnel est accessible à vos clients, la mention doit être présente et **lisible**. Un texte à faible contraste ou en très petits caractères ne remplit pas l'obligation : c'est un défaut fréquent et facile à corriger.
 
 **La compétence des utilisateurs.** Le règlement prévoit que les acteurs veillent à un niveau suffisant de maîtrise de l'IA chez les personnes qui l'utilisent pour leur compte. Pour un cabinet, cela se traduit par une formation documentée des collaborateurs : ce que l'outil fait, ce qu'il ne fait pas, comment vérifier une sortie.
 

@@ -43,7 +43,7 @@ Elle impose aux banques de mettre à disposition une interface dédiée permetta
 
 **Il ne peut pas** déplacer ton argent au titre de l'accès en consultation. L'initiation de paiement est un service distinct, soumis à un agrément distinct et à une validation explicite pour chaque opération.
 
-Le consentement est **limité dans le temps** : la réglementation impose un renouvellement périodique de l'autorisation d'accès. C'est la raison pour laquelle les applications de suivi demandent régulièrement de reconnecter les comptes — ce n'est pas un défaut technique, c'est une obligation.
+Le consentement est **limité dans le temps** : la réglementation impose un renouvellement périodique de l'autorisation d'accès. C'est la raison pour laquelle les applications de suivi demandent régulièrement de reconnecter les comptes : ce n'est pas un défaut technique, c'est une obligation.
 
 ## Ce que l'agrégation permet concrètement
 

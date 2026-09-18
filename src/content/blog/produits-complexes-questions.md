@@ -27,7 +27,7 @@ sources: "Directive 2014/65/UE, articles 24 et 25, information sur les coûts et
 
 **4. Qui porte le risque de contrepartie ?** Dans beaucoup de produits structurés, la promesse dépend de la solvabilité d'une banque émettrice. Si elle fait défaut, la formule ne s'applique pas.
 
-**5. Comment celui qui me le vend est-il rémunéré sur ce produit ?** C'est la question décisive. Une rémunération assise sur le produit crée une incitation qu'il faut connaître — sans en déduire une faute, mais sans l'ignorer non plus.
+**5. Comment celui qui me le vend est-il rémunéré sur ce produit ?** C'est la question décisive. Une rémunération assise sur le produit crée une incitation qu'il faut connaître, sans en déduire une faute, mais sans l'ignorer non plus.
 
 **6. Quelle est l'alternative simple, et pourquoi ce produit fait-il mieux ?** Si un portefeuille de deux fonds indiciels atteint le même objectif à moindre coût, la complexité n'apporte rien.
 

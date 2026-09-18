@@ -16,7 +16,7 @@ Même règle et même avertissement que la partie 1.
 
 ### L'essentiel
 
-- Le **rendement brut** — loyer annuel divisé par le prix — ne veut rien dire. Seul le rendement **net net** compte.
+- Le **rendement brut**, loyer annuel divisé par le prix, ne veut rien dire. Seul le rendement **net net** compte.
 - Six postes se soustraient : charges non récupérables, taxe foncière, assurance, gestion, travaux, vacance.
 - La fiscalité achève le calcul : au régime réel ou au micro-foncier, au barème plus 17,2 % de prélèvements sociaux.
 - Le **LMNP** modifie l'équation en permettant l'amortissement du bien, mais il impose des obligations comptables réelles.
@@ -34,7 +34,7 @@ Total : **4 022 €**.
 
 *La fiscalité, au régime réel, pour une tranche marginale de 30 %.* Après déduction des charges déductibles et, le cas échéant, des intérêts d'emprunt, l'impôt sur le revenu et les 17,2 % de prélèvements sociaux réduisent encore le résultat. Sur ce cas, sans crédit, le net net se situe autour de **1,7 % à 1,9 %**.
 
-Le passage de 4,8 % à moins de 2 % n'est pas un cas pathologique : c'est le cas normal. Ce qui rend l'immobilier locatif intéressant n'est pas le rendement courant, c'est l'**effet de levier du crédit** et la valorisation éventuelle du bien — deux éléments qui ne sont ni garantis ni gratuits.
+Le passage de 4,8 % à moins de 2 % n'est pas un cas pathologique : c'est le cas normal. Ce qui rend l'immobilier locatif intéressant n'est pas le rendement courant, c'est l'**effet de levier du crédit** et la valorisation éventuelle du bien, deux éléments qui ne sont ni garantis ni gratuits.
 
 ### Les régimes fiscaux
 
@@ -75,7 +75,7 @@ Code général des impôts, articles 14 à 33 quinquies (revenus fonciers), 50-0
 
 ### Le mécanisme
 
-Un investisseur acquiert la nue-propriété, un bailleur — souvent un opérateur social ou institutionnel — acquiert l'usufruit temporaire et perçoit les loyers pendant la durée convenue, en assumant l'entretien courant.
+Un investisseur acquiert la nue-propriété, un bailleur (souvent un opérateur social ou institutionnel) acquiert l'usufruit temporaire et perçoit les loyers pendant la durée convenue, en assumant l'entretien courant.
 
 La décote reflète la valeur de l'usufruit cédé. Sur une durée de quinze à vingt ans, elle se situe fréquemment entre 30 % et 45 % de la valeur en pleine propriété, selon la durée et le marché.
 
@@ -86,7 +86,7 @@ Au terme, l'investisseur détient la pleine propriété. Si le bien vaut alors 3
 
 ### Ce que ce produit fait bien
 
-Il convient précisément à un profil : fortement imposé, sans besoin de revenus complémentaires immédiats, avec un horizon long — typiquement un actif à dix ou quinze ans de la retraite.
+Il convient précisément à un profil : fortement imposé, sans besoin de revenus complémentaires immédiats, avec un horizon long, typiquement un actif à dix ou quinze ans de la retraite.
 
 Il supprime aussi tout souci de gestion : pas de locataire, pas d'impayé, pas de travaux courants.
 
@@ -117,7 +117,7 @@ Code civil, articles 578 à 624 et 606 · Code général des impôts, article 66
 - Le capital-investissement finance des entreprises **non cotées**, sur des durées de huit à douze ans.
 - Le capital est **bloqué** : c'est la contrepartie centrale, et elle n'est pas négociable.
 - La **courbe en J** décrit le phénomène normal : la valeur baisse les premières années avant de remonter.
-- L'ouverture aux particuliers, accélérée par la loi Industrie Verte, rend le produit accessible — pas nécessairement adapté.
+- L'ouverture aux particuliers, accélérée par la loi Industrie Verte, rend le produit accessible, pas nécessairement adapté.
 
 ### Comment ça fonctionne
 
@@ -298,7 +298,7 @@ C'est le calcul que les simulateurs de plateformes ne présentent jamais.
 
 **L'agrément**, vérifiable sur les registres publics.
 
-**Les statistiques historiques** : taux de défaut par millésime et par classe de risque, taux de recouvrement effectif, rendement net réalisé par les prêteurs — et non le taux moyen des projets proposés.
+**Les statistiques historiques** : taux de défaut par millésime et par classe de risque, taux de recouvrement effectif, rendement net réalisé par les prêteurs, et non le taux moyen des projets proposés.
 
 **L'alignement d'intérêts** : la plateforme investit-elle ses propres fonds ? Est-elle rémunérée à la levée ou au remboursement ? Une plateforme rémunérée uniquement à la levée n'a pas d'intérêt direct au bon dénouement.
 
@@ -429,7 +429,7 @@ Code des assurances, articles L. 132-1 et suivants, et dispositions relatives à
 
 **L'or physique** : lingots et pièces d'investissement. Il faut le stocker et l'assurer, ce qui a un coût, et l'écart entre prix d'achat et de revente est réel.
 
-**Les produits cotés adossés à l'or**, qui suivent le cours sans détention physique par l'épargnant. Pratiques et liquides, ils n'ont pas la même nature juridique ni le même traitement fiscal que l'or physique — un point à vérifier produit par produit.
+**Les produits cotés adossés à l'or**, qui suivent le cours sans détention physique par l'épargnant. Pratiques et liquides, ils n'ont pas la même nature juridique ni le même traitement fiscal que l'or physique, un point à vérifier produit par produit.
 
 **Les actions de sociétés minières**, qui ne sont pas de l'or : ce sont des actions, avec un risque d'entreprise et un effet de levier sur le cours du métal.
 
@@ -516,7 +516,7 @@ Règlement (UE) 2023/1114 dit MiCA · Code général des impôts, articles 150 V
 - Forêts, vignes, art, voitures de collection, montres : ces actifs relèvent d'une logique **patrimoniale**, pas de rendement.
 - Certains bénéficient de **régimes fiscaux spécifiques**, notamment en matière de transmission et d'IFI.
 - Les performances publiées reposent sur des indices reconstitués à partir de **transactions sélectionnées** : elles surestiment presque toujours la réalité.
-- Le coût de détention — stockage, assurance, entretien, gestion — est le poste le plus systématiquement oublié.
+- Le coût de détention (stockage, assurance, entretien, gestion) est le poste le plus systématiquement oublié.
 
 ### Les principaux actifs et leur logique
 

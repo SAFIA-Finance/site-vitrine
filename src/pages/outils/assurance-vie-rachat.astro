@@ -111,15 +111,15 @@ const faq = [
 
     <div class="sim-resultat">
       <p class="sim-resultat-etiq">Ce que le rachat te coûte</p>
-      <p class="sim-chiffre" id="r-total">—</p>
+      <p class="sim-chiffre" id="r-total">-</p>
       <p class="sim-reel-ligne">
-        Tu perçois <strong id="r-net">—</strong>, soit un coût réel de <span id="r-taux-reel">—</span> du montant retiré.
+        Tu perçois <strong id="r-net">-</strong>, soit un coût réel de <span id="r-taux-reel">-</span> du montant retiré.
       </p>
 
       <dl class="sim-detail">
-        <div><dt>Part de gains du contrat</dt><dd id="r-part-gains">—</dd></div>
-        <div><dt>Gains imposables</dt><dd id="r-produits">—</dd></div>
-        <div><dt>Capital récupéré</dt><dd id="r-capital">—</dd></div>
+        <div><dt>Part de gains du contrat</dt><dd id="r-part-gains">-</dd></div>
+        <div><dt>Gains imposables</dt><dd id="r-produits">-</dd></div>
+        <div><dt>Capital récupéré</dt><dd id="r-capital">-</dd></div>
       </dl>
 
       <p class="sim-alerte" id="bloc-attente" role="status" hidden></p>
@@ -127,10 +127,10 @@ const faq = [
       <div class="sim-etapes">
         <h3>Le calcul, dans l'ordre</h3>
         <dl>
-          <div><dt>Gains compris dans le rachat</dt><dd id="r-produits-2">—</dd></div>
-          <div id="e-abattement-ligne" hidden><dt>Abattement annuel</dt><dd id="e-abattement">—</dd></div>
-          <div><dt>Impôt sur le revenu, à <span id="r-taux-impot">—</span></dt><dd id="r-impot">—</dd></div>
-          <div><dt>Prélèvements sociaux</dt><dd id="r-ps">—</dd></div>
+          <div><dt>Gains compris dans le rachat</dt><dd id="r-produits-2">-</dd></div>
+          <div id="e-abattement-ligne" hidden><dt>Abattement annuel</dt><dd id="e-abattement">-</dd></div>
+          <div><dt>Impôt sur le revenu, à <span id="r-taux-impot">-</span></dt><dd id="r-impot">-</dd></div>
+          <div><dt>Prélèvements sociaux</dt><dd id="r-ps">-</dd></div>
         </dl>
         <p class="sim-aide">
           Les prélèvements sociaux frappent la totalité des gains : l'abattement ne vaut que pour l'impôt sur le revenu.
@@ -147,12 +147,12 @@ const faq = [
       <li>Il porte sur les <strong>primes versées depuis le 27 septembre 2017</strong>. Les primes antérieures relèvent d'un régime différent, souvent plus favorable.</li>
       <li>L'abattement de {euros(av.abattementSeul)} est <strong>annuel</strong> : il se reconstitue chaque année civile, ce qui permet d'étaler un retrait important sur deux exercices.</li>
       <li>Il suppose l'<strong>option pour le prélèvement forfaitaire</strong>. Le barème progressif peut être plus avantageux si ta tranche est basse : c'est une option globale, à choisir au moment de la déclaration.</li>
-      <li>Il ignore les <strong>cas d'exonération</strong> — licenciement, liquidation judiciaire, invalidité, mise à la retraite anticipée — qui effacent l'impôt sur le revenu.</li>
+      <li>Il ignore les <strong>cas d'exonération</strong> (licenciement, liquidation judiciaire, invalidité, mise à la retraite anticipée) qui effacent l'impôt sur le revenu.</li>
     </ul>
     <p class="sim-source">
       Taux, abattements et seuil de {euros(av.seuilPrimes)} :
       <a class="lien-petit" href={av.sources[0].url} rel="noopener">service-public.gouv.fr</a> ·
-      Prélèvements sociaux à {pc(av.prelevementsSociaux)} — l'assurance-vie est exclue de la hausse
+      Prélèvements sociaux à {pc(av.prelevementsSociaux)} : l'assurance-vie est exclue de la hausse
       de la CSG de 2026, qui porte les autres placements à 18,6 % :
       <a class="lien-petit" href="https://www.service-public.gouv.fr/particuliers/vosdroits/F2329" rel="noopener">service-public.gouv.fr</a>.
       Chiffres vérifiés le 16 septembre 2026.

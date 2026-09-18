@@ -18,7 +18,7 @@ Auteur : Maxime Bouché, CIF · Rédigés le 16 septembre 2026
 
 | | |
 |---|---|
-| Régime pour nouveaux résidents | **IFICI** — 20 % sur les revenus portugais d'activités éligibles, 10 ans |
+| Régime pour nouveaux résidents | **IFICI** : 20 % sur les revenus portugais d'activités éligibles, 10 ans |
 | Revenus étrangers | Majoritairement exonérés sous IFICI, à déclarer malgré tout |
 | Retraités | **Plus d'avantage** : barème progressif, jusqu'à 48 % |
 | Barème général | Progressif, 9 tranches, sommet à 48 % |
@@ -36,7 +36,7 @@ Auteur : Maxime Bouché, CIF · Rédigés le 16 septembre 2026
 
 Créé par la loi de finances portugaise n° 82/2023 du 29 décembre, l'IFICI accorde un taux forfaitaire de 20 % sur les revenus de source portugaise tirés d'activités éligibles, pendant dix ans, assorti d'une exonération de la plupart des revenus de source étrangère.
 
-Les conditions sont strictes : ne pas avoir été résident fiscal portugais au cours des cinq années précédentes, et exercer une activité relevant des secteurs visés — recherche scientifique, enseignement supérieur, technologies de l'information, startups certifiées, certaines fonctions dans des sociétés qualifiées.
+Les conditions sont strictes : ne pas avoir été résident fiscal portugais au cours des cinq années précédentes, et exercer une activité relevant des secteurs visés : recherche scientifique, enseignement supérieur, technologies de l'information, startups certifiées, certaines fonctions dans des sociétés qualifiées.
 
 Un consultant senior en technologie ou un cadre international dans un secteur éligible peut y prétendre. Un rentier, un retraité ou un dirigeant en cession définitive sans nouvelle activité, non.
 
@@ -54,7 +54,7 @@ La revalidation annuelle de l'IFICI est une contrainte réelle : une année mal 
 
 L'exonération des revenus étrangers suppose de les déclarer.
 
-Le Portugal étant membre de l'Union européenne, l'exit tax française bénéficie du sursis automatique — un avantage administratif considérable par rapport à une destination hors liste.
+Le Portugal étant membre de l'Union européenne, l'exit tax française bénéficie du sursis automatique, un avantage administratif considérable par rapport à une destination hors liste.
 
 ### Sources
 
@@ -100,7 +100,7 @@ Lei n.º 82/2023 de 29 de dezembro, article 263 créant l'article 58.º-A du Est
 
 **Cadre qualifié, 90 000 €.** Sous impatriati, la moitié du revenu échappe à l'impôt, ce qui ramène le taux effectif nettement en dessous du barème italien, lui-même atteignant 43 % dès 50 000 €.
 
-**Retraité, 30 000 € de pension.** Sous le régime du Sud, 7 %, soit 2 100 €, sous réserve de s'installer effectivement dans une commune éligible — condition géographique contraignante qui doit être acceptée pour ce qu'elle est.
+**Retraité, 30 000 € de pension.** Sous le régime du Sud, 7 %, soit 2 100 €, sous réserve de s'installer effectivement dans une commune éligible, condition géographique contraignante qui doit être acceptée pour ce qu'elle est.
 
 ### Points de vigilance
 
@@ -175,7 +175,7 @@ Législation fiscale grecque instituant le régime des retraités étrangers (20
 
 | | |
 |---|---|
-| Régime pour impatriés | **Régime Beckham** — taux réduit sur les revenus du travail espagnols, durée limitée |
+| Régime pour impatriés | **Régime Beckham** : taux réduit sur les revenus du travail espagnols, durée limitée |
 | Revenus étrangers | Hors champ du régime pour l'essentiel, sauf revenus du travail |
 | Impôt sur la fortune | Oui, **variable selon la communauté autonome**, avec un impôt de solidarité national |
 | Succession | Barèmes **régionaux**, écarts considérables d'une communauté à l'autre |
@@ -192,7 +192,7 @@ Législation fiscale grecque instituant le régime des retraités étrangers (20
 
 C'est la spécificité espagnole, et elle est mal comprise depuis la France.
 
-L'impôt sur la fortune et les droits de succession relèvent largement des communautés autonomes, qui disposent d'un pouvoir de modulation étendu. Certaines appliquent des abattements très importants en ligne directe, d'autres non. Certaines ont neutralisé l'impôt sur la fortune, d'autres l'appliquent pleinement — l'État ayant répliqué par un impôt de solidarité national pour les patrimoines les plus élevés.
+L'impôt sur la fortune et les droits de succession relèvent largement des communautés autonomes, qui disposent d'un pouvoir de modulation étendu. Certaines appliquent des abattements très importants en ligne directe, d'autres non. Certaines ont neutralisé l'impôt sur la fortune, d'autres l'appliquent pleinement, l'État ayant répliqué par un impôt de solidarité national pour les patrimoines les plus élevés.
 
 Conséquence pratique : un patrimoine identique, transmis dans deux communautés autonomes différentes, peut supporter des droits sans commune mesure. La région de résidence doit donc être choisie **avant** de comparer l'Espagne à la France, et non l'inverse.
 
@@ -225,7 +225,7 @@ Ley del Impuesto sobre la Renta de las Personas Físicas, régime spécial des t
 
 | | |
 |---|---|
-| Plus-values privées sur titres | Historiquement non imposées dans le cadre de la gestion normale d'un patrimoine privé — **régime en évolution** |
+| Plus-values privées sur titres | Historiquement non imposées dans le cadre de la gestion normale d'un patrimoine privé, **régime en évolution** |
 | Barème de l'impôt sur le revenu | Élevé, avec additionnels communaux |
 | Droits de succession | **Régionaux** : Flandre, Wallonie, Bruxelles, barèmes différents |
 | Convention avec la France | Oui, y compris en matière de successions |
@@ -242,7 +242,7 @@ Ley del Impuesto sobre la Renta de las Personas Físicas, régime spécial des t
 
 Pendant des décennies, la Belgique a attiré des dirigeants français en cession parce que les plus-values réalisées dans le cadre de la gestion normale d'un patrimoine privé n'y étaient pas imposées comme telles.
 
-Ce traitement a toujours comporté des limites — spéculation caractérisée, cession de participations importantes dans certaines conditions — et il fait l'objet d'évolutions législatives régulières. C'est précisément le genre de sujet où une information datée conduit à une décision coûteuse.
+Ce traitement a toujours comporté des limites (spéculation caractérisée, cession de participations importantes dans certaines conditions) et il fait l'objet d'évolutions législatives régulières. C'est précisément le genre de sujet où une information datée conduit à une décision coûteuse.
 
 La règle de méthode est donc simple : sur la Belgique, **aucune décision sans vérification de l'état du droit à la date exacte de l'opération envisagée**, auprès d'un conseil belge.
 
@@ -279,7 +279,7 @@ Code des impôts sur les revenus belge et sa doctrine sur la gestion normale d'u
 | Plus-values privées mobilières | En principe non imposées au niveau fédéral pour les particuliers |
 | Impôt sur la fortune | Oui, cantonal et communal |
 | **Exit tax française** | **Pas de sursis automatique** : déclaration à J-90, représentant fiscal, garanties |
-| Convention avec la France | Oui, y compris en matière de successions — à examiner de près |
+| Convention avec la France | Oui, y compris en matière de successions, à examiner de près |
 
 ### L'essentiel
 
@@ -296,7 +296,7 @@ Ce n'est pas rédhibitoire, mais cela change le calendrier et le coût du dépar
 
 ### Le forfait fiscal
 
-L'imposition d'après la dépense assoit l'impôt sur le train de vie et non sur les revenus réels. Elle est réservée aux personnes qui n'exercent pas d'activité lucrative en Suisse, suppose une négociation avec l'autorité cantonale, et n'est pas ouverte dans tous les cantons — plusieurs l'ont supprimée par votation.
+L'imposition d'après la dépense assoit l'impôt sur le train de vie et non sur les revenus réels. Elle est réservée aux personnes qui n'exercent pas d'activité lucrative en Suisse, suppose une négociation avec l'autorité cantonale, et n'est pas ouverte dans tous les cantons : plusieurs l'ont supprimée par votation.
 
 Le montant minimal et les modalités varient. Le régime n'est pas accessible aux ressortissants suisses résidant en Suisse.
 
@@ -381,14 +381,14 @@ Loi luxembourgeoise concernant l'impôt sur le revenu · Commissariat aux Assura
 
 | | |
 |---|---|
-| Impôt sur le revenu | Aucun pour les résidents — **sauf les Français** |
+| Impôt sur le revenu | Aucun pour les résidents, **sauf les Français** |
 | Régime des Français | Convention de 1963 : imposition en France sur les revenus mondiaux, sauf résidence monégasque antérieure à 1957 |
 | Droits de succession | Très favorables en ligne directe |
 | Convention avec la France | Convention fiscale du 18 mai 1963 |
 
 ### L'essentiel
 
-- Monaco n'impose pas les revenus de ses résidents — **mais la convention de 1963 exclut les Français** de ce bénéfice.
+- Monaco n'impose pas les revenus de ses résidents, **mais la convention de 1963 exclut les Français** de ce bénéfice.
 - Un Français qui s'installe à Monaco reste, sauf exception historique, imposable en France sur l'ensemble de ses revenus.
 - L'exception vise les personnes justifiant d'une résidence monégasque habituelle depuis avant le 13 octobre 1957.
 - Monaco reste en revanche attractif pour les **non-Français** et sur le terrain de la **transmission** en ligne directe.
@@ -428,7 +428,7 @@ Convention fiscale franco-monégasque du 18 mai 1963 et ses avenants · Code gé
 ## I15 — Andorre
 
 **URL** : /blog/expatriation-andorre-fiscalite · **Vérifié le 16 septembre 2026**
-**Meta** : Impôt sur le revenu plafonné à 10 %, ni fortune ni succession — mais des obligations de résidence réelles et pas de sursis automatique d'exit tax.
+**Meta** : Impôt sur le revenu plafonné à 10 %, ni fortune ni succession, mais des obligations de résidence réelles et pas de sursis automatique d'exit tax.
 
 | | |
 |---|---|
@@ -500,7 +500,7 @@ Llei de l'impost sobre la renda de les persones físiques (Andorre) · Conventio
 
 Le système distingue la résidence et le domicile, notion héritée du droit britannique. Un résident non domicilié à Malte est imposé sur ses revenus de source maltaise et sur ses revenus étrangers **rapatriés** à Malte, mais pas sur ses revenus étrangers laissés à l'extérieur.
 
-Les plus-values de source étrangère ne sont en principe pas imposées, même rapatriées — c'est la particularité la plus notable du système.
+Les plus-values de source étrangère ne sont en principe pas imposées, même rapatriées : c'est la particularité la plus notable du système.
 
 En pratique, cela suppose une discipline de flux : séparer les comptes, tracer ce qui entre sur l'île, et documenter l'origine des sommes rapatriées. C'est un régime de gestion, pas un régime passif.
 

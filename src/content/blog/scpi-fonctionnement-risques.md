@@ -20,7 +20,7 @@ sources: "Code monétaire et financier, articles L. 214-86 et suivants sur les S
 
 ## Comment ça marche
 
-Tu achètes des parts. La société de gestion acquiert des immeubles — bureaux, commerces, santé, logistique, résidentiel — les loue, et te distribue les loyers nets de frais, au prorata de tes parts.
+Tu achètes des parts. La société de gestion acquiert des immeubles (bureaux, commerces, santé, logistique, résidentiel), les loue, et te distribue les loyers nets de frais, au prorata de tes parts.
 
 Le **taux de distribution** rapporte les revenus versés au prix de la part. C'est le chiffre mis en avant, et c'est un chiffre **brut d'impôt**.
 
@@ -35,7 +35,7 @@ Prélèvements sociaux : 5 000 × 17,2 % = 860 €.
 
 À tranche marginale de 41 %, le net tombe autour de 2,09 %.
 
-Deux alternatives modifient ce calcul : détenir les parts **dans une assurance-vie**, ce qui substitue la fiscalité du contrat à celle des revenus fonciers, au prix des frais du contrat ; ou acquérir en **nue-propriété** temporaire, ce qui supprime le revenu — et donc l'impôt — pendant la durée du démembrement.
+Deux alternatives modifient ce calcul : détenir les parts **dans une assurance-vie**, ce qui substitue la fiscalité du contrat à celle des revenus fonciers, au prix des frais du contrat ; ou acquérir en **nue-propriété** temporaire, ce qui supprime le revenu, et donc l'impôt, pendant la durée du démembrement.
 
 ## Ce que ce produit fait mal
 

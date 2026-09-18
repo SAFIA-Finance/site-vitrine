@@ -10,7 +10,7 @@ essentiel:
   - "Forêts, vignes, art, voitures de collection, montres : ces actifs relèvent d'une logique **patrimoniale**, pas de rendement."
   - "Certains bénéficient de **régimes fiscaux spécifiques**, notamment en matière de transmission et d'IFI."
   - "Les performances publiées reposent sur des indices reconstitués à partir de **transactions sélectionnées** : elles surestiment presque toujours la réalité."
-  - "Le coût de détention — stockage, assurance, entretien, gestion — est le poste le plus systématiquement oublié."
+  - "Le coût de détention (stockage, assurance, entretien, gestion) est le poste le plus systématiquement oublié."
 pages:
   - nom: "ADN Investisseur"
     url: "/adn-investisseur/"

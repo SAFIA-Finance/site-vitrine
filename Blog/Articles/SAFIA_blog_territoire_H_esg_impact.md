@@ -28,7 +28,7 @@ Bloc auteur et avertissement repris en fin de chaque article :
 
 ### Trois démarches que tout le monde confond
 
-**L'exclusion.** Tu décides de ne pas financer certains secteurs : armement, tabac, charbon, jeux d'argent. C'est la démarche la plus lisible et la plus vérifiable. Son effet direct sur les entreprises concernées est limité — ton refus d'acheter une action sur le marché secondaire ne prive l'entreprise d'aucun capital — mais son effet sur la cohérence de ton propre patrimoine est immédiat et réel.
+**L'exclusion.** Tu décides de ne pas financer certains secteurs : armement, tabac, charbon, jeux d'argent. C'est la démarche la plus lisible et la plus vérifiable. Son effet direct sur les entreprises concernées est limité (ton refus d'acheter une action sur le marché secondaire ne prive l'entreprise d'aucun capital), mais son effet sur la cohérence de ton propre patrimoine est immédiat et réel.
 
 **La sélection des meilleurs profils, dite best-in-class.** Tu gardes tous les secteurs, mais tu retiens dans chacun les entreprises les mieux notées sur les critères environnementaux, sociaux et de gouvernance. C'est l'approche dominante des fonds labellisés en France. Elle a une conséquence contre-intuitive qu'il faut assumer : un fonds best-in-class peut détenir une compagnie pétrolière, au motif qu'elle est la mieux notée de son secteur.
 
@@ -48,7 +48,7 @@ Cette étape paraît accessoire. Elle ne l'est pas : c'est elle qui rend possibl
 
 **Exemple.** Inès, 31 ans, déclare vouloir exclure les énergies fossiles. Elle détient 15 000 € sur un fonds « actions monde » classé article 8 dans son assurance-vie.
 
-Elle ouvre le document d'informations clés, puis le rapport de composition trimestriel. Elle y trouve trois producteurs d'hydrocarbures parmi les cinquante premières lignes, représentant environ 4 % de l'actif du fonds — soit **600 € de son épargne**.
+Elle ouvre le document d'informations clés, puis le rapport de composition trimestriel. Elle y trouve trois producteurs d'hydrocarbures parmi les cinquante premières lignes, représentant environ 4 % de l'actif du fonds, soit **600 € de son épargne**.
 
 Rien d'illégal ni de trompeur : le fonds promeut des caractéristiques environnementales, ce qui n'implique aucune exclusion sectorielle. Le décalage vient de ce qu'Inès a lu une étiquette et non un contenu.
 
@@ -106,7 +106,7 @@ Page **ADN Investisseur** · articles **H2** (labels) et **H5** (greenwashing).
 
 C'est la distinction la plus utile de tout ce sujet.
 
-La classification SFDR — article 6, 8 ou 9 — est **choisie par la société de gestion elle-même**, sans audit externe systématique. Elle relève d'une obligation de transparence, pas d'une certification.
+La classification SFDR (article 6, 8 ou 9) est **choisie par la société de gestion elle-même**, sans audit externe systématique. Elle relève d'une obligation de transparence, pas d'une certification.
 
 Un label est attribué après **contrôle par un organisme tiers indépendant**, sur la base d'un référentiel public, avec des audits de suivi et une possibilité de retrait. Cette différence de nature explique pourquoi un label reste, pour un épargnant, un repère plus solide qu'une étiquette réglementaire.
 
@@ -116,13 +116,13 @@ Les deux coexistent : un fonds peut être classé article 9 et porter le label I
 
 **Le label ISR.** Créé par le ministère de l'Économie en 2016, c'est le plus répandu. Sa réforme, entrée en vigueur en mars 2024, a durci les exigences : exclusion des entreprises développant de nouveaux projets d'exploration ou d'exploitation d'énergies fossiles, renforcement des obligations de transparence, seuils d'exclusion plus larges.
 
-L'effet a été mesurable : environ **330 fonds ont perdu leur label**, l'offre labellisée passant d'environ 1 340 à 970 fonds. C'est le signe d'un référentiel qui mord réellement — un label que personne ne perd ne garantit rien.
+L'effet a été mesurable : environ **330 fonds ont perdu leur label**, l'offre labellisée passant d'environ 1 340 à 970 fonds. C'est le signe d'un référentiel qui mord réellement : un label que personne ne perd ne garantit rien.
 
 **Le label Greenfin.** Porté par le ministère de la Transition écologique, il est centré exclusivement sur l'environnement, sans dimension sociale. Il est plus exigeant que l'ISR sur le périmètre d'exclusion, puisqu'il écarte à la fois les énergies fossiles **et la filière nucléaire**. Cette exclusion du nucléaire est un choix contesté en France, et il faut le savoir : elle peut ne pas correspondre à tes convictions.
 
 L'offre labellisée Greenfin reste nettement plus étroite que l'offre ISR.
 
-**Le label Finansol.** Il ne certifie pas une performance environnementale mais la **solidarité** du placement : une part de l'encours finance des activités à forte utilité sociale — logement très social, insertion par l'activité économique, microcrédit, agriculture biologique.
+**Le label Finansol.** Il ne certifie pas une performance environnementale mais la **solidarité** du placement : une part de l'encours finance des activités à forte utilité sociale : logement très social, insertion par l'activité économique, microcrédit, agriculture biologique.
 
 C'est le seul des trois qui garantisse un financement direct plutôt qu'une sélection de titres cotés.
 
@@ -276,7 +276,7 @@ Ce n'est pas un scandale, c'est une conséquence méthodologique. Mais cela chan
 
 **Le périmètre.** Les agences ne mesurent pas les mêmes choses. L'une intègre la biodiversité, l'autre non. L'une évalue la politique fiscale, l'autre l'ignore. Avant même de mesurer, elles ont choisi des objets différents.
 
-**La mesure.** Pour un même enjeu — les émissions de gaz à effet de serre, par exemple — l'une retiendra les émissions déclarées, l'autre une estimation sectorielle, l'une intégrera les émissions indirectes de la chaîne de valeur, l'autre s'arrêtera aux émissions directes.
+**La mesure.** Pour un même enjeu (les émissions de gaz à effet de serre, par exemple), l'une retiendra les émissions déclarées, l'autre une estimation sectorielle, l'une intégrera les émissions indirectes de la chaîne de valeur, l'autre s'arrêtera aux émissions directes.
 
 **La pondération.** Une fois les indicateurs mesurés, il faut les agréger. Une agence pondérera lourdement la gouvernance, une autre l'environnement. Deux ensembles d'indicateurs identiques peuvent produire deux notes opposées selon les poids.
 
@@ -342,7 +342,7 @@ Page **Notre méthode** · articles **H3** (SFDR) et **H5** (greenwashing).
 - Le seul élément réellement contraignant est la **part minimale d'investissements durables** publiée en annexe précontractuelle.
 - Les autorités européennes ont encadré les **dénominations** de fonds pour limiter ces pratiques.
 
-### Signal 1 — Le vocabulaire sans définition
+### Signal 1. Le vocabulaire sans définition
 
 « Durable », « responsable », « vert », « à impact » : aucun de ces mots n'a de définition contraignante dans un nom de fonds. Ils relèvent du marketing tant qu'un référentiel ne les adosse pas à des critères.
 
@@ -350,7 +350,7 @@ L'ESMA a publié des orientations encadrant l'usage de termes liés à la durabi
 
 **Le réflexe** : ignore le nom du fonds. Va directement à l'annexe précontractuelle.
 
-### Signal 2 — L'absence de seuil chiffré
+### Signal 2. L'absence de seuil chiffré
 
 Une promesse sans chiffre n'est pas un engagement.
 
@@ -358,13 +358,13 @@ Cherche, dans l'annexe précontractuelle SFDR, la ligne indiquant la **part mini
 
 **Le réflexe** : compare cette ligne entre deux fonds concurrents. L'écart est souvent spectaculaire.
 
-### Signal 3 — Des exclusions cosmétiques
+### Signal 3. Des exclusions cosmétiques
 
 Beaucoup de fonds affichent des exclusions qui ne retirent presque rien de leur univers d'investissement. Exclure les armes controversées, par exemple, écarte une poignée de titres dans un indice mondial.
 
 **Le réflexe** : demande-toi combien de lignes l'exclusion retire réellement. Une exclusion crédible est une exclusion qui coûte quelque chose au gérant en termes de diversification.
 
-### Signal 4 — La composition qui contredit l'intitulé
+### Signal 4. La composition qui contredit l'intitulé
 
 C'est le test décisif, et il est à la portée de tout le monde.
 
@@ -372,11 +372,11 @@ Ouvre le rapport de composition périodique, regarde les vingt premières lignes
 
 **Exemple.** Un fonds intitulé « transition énergétique » dont les cinq premières positions sont des valeurs technologiques américaines n'est pas nécessairement malhonnête : les grandes capitalisations technologiques sont souvent bien notées sur l'intensité carbone, mécaniquement, parce qu'elles produisent peu. Mais si ton intention était de financer la production d'énergie renouvelable, ce fonds ne le fait pas.
 
-### Signal 5 — L'écart entre le discours et les frais
+### Signal 5. L'écart entre le discours et les frais
 
 Un fonds qui met en avant la sélection extra-financière, le dialogue actionnarial et l'engagement auprès des entreprises facture souvent ce travail. C'est légitime si le travail existe.
 
-**Le réflexe** : vérifie que le rapport annuel documente cet engagement — nombre de résolutions votées, dialogues engagés, résultats obtenus. Des frais élevés sans trace d'activité d'engagement signalent un supplément de prix sans contrepartie.
+**Le réflexe** : vérifie que le rapport annuel documente cet engagement : nombre de résolutions votées, dialogues engagés, résultats obtenus. Des frais élevés sans trace d'activité d'engagement signalent un supplément de prix sans contrepartie.
 
 ### La méthode complète, en dix minutes
 
@@ -386,7 +386,7 @@ Un fonds qui met en avant la sélection extra-financière, le dialogue actionnar
 4. Ouvrir le rapport de composition et lire les vingt premières lignes.
 5. Relever les frais courants et les comparer à un fonds indiciel équivalent.
 
-Si les cinq points sont cohérents, le fonds tient probablement sa promesse. Si l'un d'eux détonne, ce n'est pas une preuve de tromperie — mais c'est la question à poser à ton intermédiaire.
+Si les cinq points sont cohérents, le fonds tient probablement sa promesse. Si l'un d'eux détonne, ce n'est pas une preuve de tromperie, mais c'est la question à poser à ton intermédiaire.
 
 ### Questions fréquentes
 

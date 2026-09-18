@@ -37,21 +37,21 @@ Plus ton contrat est ancien et performant, plus la proportion de gains est élev
 
 ## Trois cas chiffrés
 
-**Cas 1 — Contrat jeune, personne seule.**
+**Cas 1. Contrat jeune, personne seule.**
 Léo, contrat de quatre ans. Versé 30 000 €, valeur 33 000 €. Il retire 6 000 €.
 Gains totaux : 3 000 €. Part de gains : 6 000 × (3 000 ÷ 33 000) = **545 €**.
 Contrat de moins de huit ans : PFU à 30 %, sans abattement.
 Impôt : 545 × 30 % = **164 €**.
 Léo récupère 5 836 €.
 
-**Cas 2 — Contrat mûr, couple marié.**
+**Cas 2. Contrat mûr, couple marié.**
 Fatou et Jean, contrat de treize ans. Versé 100 000 €, valeur 160 000 €. Ils retirent 25 000 €.
 Gains totaux : 60 000 €. Part de gains : 25 000 × (60 000 ÷ 160 000) = **3 906 €**.
 Abattement de 9 200 € : la totalité est couverte, impôt sur le revenu **0 €**.
 Prélèvements sociaux : 3 906 × 17,2 % = **672 €**.
 Ils récupèrent 24 328 €, pour un coût de 2,7 %.
 
-**Cas 3 — Au-delà du seuil de 150 000 €.**
+**Cas 3. Au-delà du seuil de 150 000 €.**
 Hélène, célibataire, contrat de quinze ans. Versé 220 000 €, valeur 300 000 €. Elle retire 40 000 €.
 Gains totaux : 80 000 €. Part de gains : 40 000 × (80 000 ÷ 300 000) = **10 666 €**.
 Après abattement : 10 666 − 4 600 = 6 066 € imposables.

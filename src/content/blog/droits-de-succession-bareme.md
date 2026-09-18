@@ -33,11 +33,11 @@ sources: "Code général des impôts, articles 777, 779, 788 et 796-0 bis · BOF
 
 L'administration ne taxe pas la succession globalement. Elle calcule les droits **héritier par héritier**.
 
-**Étape 1 — déterminer l'actif net taxable.** On additionne les biens du défunt, on retranche les dettes et les frais funéraires dans une certaine limite. Les capitaux d'assurance-vie en sont exclus, ils relèvent d'un régime distinct.
+**Étape 1. déterminer l'actif net taxable.** On additionne les biens du défunt, on retranche les dettes et les frais funéraires dans une certaine limite. Les capitaux d'assurance-vie en sont exclus, ils relèvent d'un régime distinct.
 
-**Étape 2 — répartir et appliquer l'abattement.** On détermine la part revenant à chaque héritier, puis on retire l'abattement correspondant à son lien de parenté.
+**Étape 2. répartir et appliquer l'abattement.** On détermine la part revenant à chaque héritier, puis on retire l'abattement correspondant à son lien de parenté.
 
-**Étape 3 — appliquer le barème** à ce qui reste, tranche par tranche.
+**Étape 3. appliquer le barème** à ce qui reste, tranche par tranche.
 
 ## Les abattements selon le lien de parenté
 
@@ -67,18 +67,18 @@ Ce barème est **inchangé depuis 2012**. Il n'est pas indexé sur l'inflation :
 
 ## Trois exemples chiffrés
 
-**Exemple 1 — Deux enfants, 300 000 € de patrimoine.**
+**Exemple 1. Deux enfants, 300 000 € de patrimoine.**
 Part de chaque enfant : 150 000 €. Après abattement : 50 000 €.
 Droits : (8 072 × 5 %) + (4 037 × 10 %) + (3 823 × 15 %) + (34 068 × 20 %) = 404 + 404 + 573 + 6 814 = **8 195 € par enfant**.
 Total : 16 390 €, soit 5,5 % de la succession.
 
-**Exemple 2 — Un enfant unique, 600 000 €.**
+**Exemple 2. Un enfant unique, 600 000 €.**
 Après abattement : 500 000 €.
 Droits : 404 + 404 + 573 + (484 068 × 20 %) = **98 195 €**, soit 16,4 % de la succession.
 
 L'écart avec l'exemple 1 illustre le double effet du nombre d'héritiers : les abattements se multiplient, et chaque part reste dans les tranches basses.
 
-**Exemple 3 — Un neveu, 100 000 €.**
+**Exemple 3. Un neveu, 100 000 €.**
 Après abattement de 7 967 € : 92 033 €.
 Taux unique de 55 % : **50 618 €**.
 Le neveu conserve moins de la moitié de ce qu'il reçoit. C'est ce cas qui justifie le recours à l'assurance-vie, dont le régime successoral ne dépend pas du lien de parenté.

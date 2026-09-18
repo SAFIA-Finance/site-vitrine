@@ -33,7 +33,7 @@ sources: "Code civil, articles 768 à 807 sur l'option successorale · Code gén
 
 **Semaines 1 à 4.** Choix du notaire, réunion des documents : livret de famille, contrat de mariage, titres de propriété, relevés bancaires, contrats d'assurance-vie. Le notaire interroge le fichier central des dispositions de dernières volontés pour vérifier l'existence d'un testament.
 
-**Mois 1 à 3.** Établissement de l'acte de notoriété, qui identifie les héritiers. Inventaire de l'actif et du passif. Évaluation des biens immobiliers — un point de friction fréquent, car une évaluation haute augmente les droits, tandis qu'une évaluation basse expose à un redressement et complique une revente.
+**Mois 1 à 3.** Établissement de l'acte de notoriété, qui identifie les héritiers. Inventaire de l'actif et du passif. Évaluation des biens immobiliers, un point de friction fréquent, car une évaluation haute augmente les droits, tandis qu'une évaluation basse expose à un redressement et complique une revente.
 
 **Mois 3 à 6.** Rédaction et dépôt de la **déclaration de succession** auprès de l'administration fiscale, accompagnée du paiement des droits. Le délai est de six mois pour un décès en France, un an s'il est survenu à l'étranger.
 

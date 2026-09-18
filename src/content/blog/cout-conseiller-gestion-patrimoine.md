@@ -31,9 +31,9 @@ sources: "Code monétaire et financier, articles L. 541-1 et suivants · Règlem
 
 **Les honoraires.** Le client paie directement, au temps passé ou au forfait. Les ordres de grandeur observés pour un bilan patrimonial complet vont de quelques centaines à plusieurs milliers d'euros selon la complexité. L'avantage est la clarté : le conseiller n'a pas d'intérêt au produit retenu. L'inconvénient est que le coût est visible et immédiat, ce qui le rend psychologiquement plus lourd que des frais prélevés silencieusement.
 
-**Les rétrocessions.** Le conseiller est rémunéré par le producteur du produit souscrit, sur les frais d'entrée et sur une part des frais de gestion. Le client ne paie rien en apparence. Le coût existe pourtant : il est inclus dans les frais du contrat. Cette structure crée une incitation à orienter vers les produits les mieux rémunérés — ce qui ne signifie pas que tous les conseillers y cèdent, mais l'incitation existe et doit être connue.
+**Les rétrocessions.** Le conseiller est rémunéré par le producteur du produit souscrit, sur les frais d'entrée et sur une part des frais de gestion. Le client ne paie rien en apparence. Le coût existe pourtant : il est inclus dans les frais du contrat. Cette structure crée une incitation à orienter vers les produits les mieux rémunérés, ce qui ne signifie pas que tous les conseillers y cèdent, mais l'incitation existe et doit être connue.
 
-**Le pourcentage des encours.** Le conseiller perçoit une fraction annuelle du patrimoine suivi, souvent entre 0,5 % et 1,5 %. L'incitation est alignée sur la croissance du patrimoine, mais elle décourage les recommandations qui font sortir des actifs du périmètre — rembourser un crédit, acheter un bien immobilier, faire une donation.
+**Le pourcentage des encours.** Le conseiller perçoit une fraction annuelle du patrimoine suivi, souvent entre 0,5 % et 1,5 %. L'incitation est alignée sur la croissance du patrimoine, mais elle décourage les recommandations qui font sortir des actifs du périmètre : rembourser un crédit, acheter un bien immobilier, faire une donation.
 
 Beaucoup de cabinets combinent deux de ces modes.
 
@@ -49,11 +49,11 @@ Ces documents ne sont pas des formalités : ce sont tes éléments de preuve en 
 
 Aucun texte ne fixe de montant minimal. Le seuil résulte d'une arithmétique simple.
 
-**Exemple.** Un cabinet rémunéré à 1 % des encours perçoit 1 000 € par an pour un client détenant 100 000 €. Un suivi sérieux — bilan initial, point annuel, veille réglementaire, gestion administrative, obligations de conformité — mobilise plusieurs heures par an. À ce niveau de revenu, le suivi n'est pas rentable, et le cabinet arbitre.
+**Exemple.** Un cabinet rémunéré à 1 % des encours perçoit 1 000 € par an pour un client détenant 100 000 €. Un suivi sérieux (bilan initial, point annuel, veille réglementaire, gestion administrative, obligations de conformité) mobilise plusieurs heures par an. À ce niveau de revenu, le suivi n'est pas rentable, et le cabinet arbitre.
 
 Avec 250 000 €, le même client génère 2 500 € par an, ce qui rend l'accompagnement viable.
 
-C'est ainsi que se forme un seuil de fait : non par refus explicite, mais par sélection économique. Il explique pourquoi une part importante des épargnants français n'a jamais eu accès à un conseil patrimonial individualisé, alors même que leur situation en justifierait un — un premier achat immobilier, une transmission à préparer, un choix entre PER et assurance-vie sont des décisions qui engagent des montants significatifs quel que soit le patrimoine de départ.
+C'est ainsi que se forme un seuil de fait : non par refus explicite, mais par sélection économique. Il explique pourquoi une part importante des épargnants français n'a jamais eu accès à un conseil patrimonial individualisé, alors même que leur situation en justifierait un : un premier achat immobilier, une transmission à préparer, un choix entre PER et assurance-vie sont des décisions qui engagent des montants significatifs quel que soit le patrimoine de départ.
 
 ## Quelles options en dessous du seuil
 

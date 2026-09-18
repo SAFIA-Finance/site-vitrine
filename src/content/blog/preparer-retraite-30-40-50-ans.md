@@ -27,7 +27,7 @@ articlesLies:
 sources: "Code général des impôts, article 163 quatervicies · Loi n° 2026-103 du 19 février 2026, article 9 · Portail info-retraite.fr · Hypothèses de rendement retenues à titre illustratif, sans valeur d'engagement."
 ---
 
-## À 30 ans — prendre date sans se contraindre
+## À 30 ans : prendre date sans se contraindre
 
 À cet âge, la retraite est à trente-cinq ans de distance. L'estimation officielle n'a qu'une valeur indicative, et les paramètres auront changé.
 
@@ -37,9 +37,9 @@ sources: "Code général des impôts, article 163 quatervicies · Loi n° 2026-1
 
 **L'effort.** Cent euros par mois à partir de 30 ans, avec une hypothèse de 4 % nets, approchent **115 000 €** à 65 ans, pour 42 000 € versés. Le temps fait plus de la moitié du travail.
 
-**Le support.** L'horizon très long autorise une part importante d'unités de compte — à condition de ne pas vendre dans les baisses, ce qui est la vraie difficulté à cet âge, la première correction de marché étant souvent la première expérience.
+**Le support.** L'horizon très long autorise une part importante d'unités de compte, à condition de ne pas vendre dans les baisses, ce qui est la vraie difficulté à cet âge, la première correction de marché étant souvent la première expérience.
 
-## À 40 ans — la décennie décisive
+## À 40 ans : la décennie décisive
 
 Les revenus sont généralement à leur plus haut, les charges familiales encore lourdes mais le crédit immobilier engagé. L'horizon reste de vingt-cinq ans, ce qui laisse le temps de travailler.
 
@@ -51,7 +51,7 @@ Les revenus sont généralement à leur plus haut, les charges familiales encore
 
 **Le point de vigilance.** C'est l'âge où les revenus augmentent et où les dépenses suivent mécaniquement. Indexer le versement d'épargne sur chaque augmentation est le moyen le plus simple d'accroître l'effort sans le ressentir.
 
-## À 50 ans — sécuriser et arbitrer
+## À 50 ans : sécuriser et arbitrer
 
 Quinze ans d'horizon. C'est encore long, mais la marge d'erreur se réduit.
 

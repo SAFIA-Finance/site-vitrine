@@ -53,13 +53,13 @@ Le plafond est atteint dès que l'impôt brut dépasse un certain montant, par s
 
 Au-delà, l'avantage reste figé en valeur absolue. Un contribuable payant 30 000 € d'impôt brut à La Réunion bénéficie du même gain de 2 450 € qu'un contribuable en payant 9 000 €.
 
-En ordre de grandeur, le plafond commence à mordre autour de 55 000 € de revenu imposable pour un célibataire d'une part — donnée à recalculer selon le barème et la composition du foyer.
+En ordre de grandeur, le plafond commence à mordre autour de 55 000 € de revenu imposable pour un célibataire d'une part, donnée à recalculer selon le barème et la composition du foyer.
 
 ## Les quatre limites à connaître
 
 **La règle du 31 décembre.** Un contribuable qui quitte un DROM pour la métropole en cours d'année perd la réfaction pour l'année entière si son domicile au 31 décembre est en métropole, même après dix mois de résidence outre-mer. Symétriquement, une arrivée en décembre ouvre droit à la réfaction sur l'année entière. C'est une règle sèche, et elle se pilote.
 
-**Le PFU n'est pas concerné.** La réfaction ne s'applique qu'à l'impôt calculé au barème progressif. Des dividendes ou plus-values laissés au prélèvement forfaitaire n'en bénéficient pas. Opter pour le barème peut donc, dans certaines configurations, devenir plus intéressant outre-mer qu'en métropole — c'est un calcul à faire, pas une règle générale.
+**Le PFU n'est pas concerné.** La réfaction ne s'applique qu'à l'impôt calculé au barème progressif. Des dividendes ou plus-values laissés au prélèvement forfaitaire n'en bénéficient pas. Opter pour le barème peut donc, dans certaines configurations, devenir plus intéressant outre-mer qu'en métropole : c'est un calcul à faire, pas une règle générale.
 
 **Les prélèvements sociaux ne sont pas réduits.** La CSG et la CRDS s'appliquent aux mêmes taux qu'en métropole.
 

@@ -39,7 +39,7 @@ Ce n'est pas un scandale, c'est une conséquence méthodologique. Mais cela chan
 
 **Le périmètre.** Les agences ne mesurent pas les mêmes choses. L'une intègre la biodiversité, l'autre non. L'une évalue la politique fiscale, l'autre l'ignore. Avant même de mesurer, elles ont choisi des objets différents.
 
-**La mesure.** Pour un même enjeu — les émissions de gaz à effet de serre, par exemple — l'une retiendra les émissions déclarées, l'autre une estimation sectorielle, l'une intégrera les émissions indirectes de la chaîne de valeur, l'autre s'arrêtera aux émissions directes.
+**La mesure.** Pour un même enjeu (les émissions de gaz à effet de serre, par exemple), l'une retiendra les émissions déclarées, l'autre une estimation sectorielle, l'une intégrera les émissions indirectes de la chaîne de valeur, l'autre s'arrêtera aux émissions directes.
 
 **La pondération.** Une fois les indicateurs mesurés, il faut les agréger. Une agence pondérera lourdement la gouvernance, une autre l'environnement. Deux ensembles d'indicateurs identiques peuvent produire deux notes opposées selon les poids.
 

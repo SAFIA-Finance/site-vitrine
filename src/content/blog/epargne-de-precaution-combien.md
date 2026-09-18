@@ -54,7 +54,7 @@ Reprenons les 30 700 € de Thomas et Sarah, sur quinze ans.
 * Laissés sur un livret à 1,70 % : environ **39 500 €**.
 * Placés sur un support diversifié dont on retient une hypothèse de 4,5 % annuels nets : environ **59 400 €**.
 
-L'écart approche 20 000 €. Ce n'est pas une promesse : aucun rendement n'est garanti, un placement de marché peut baisser, et 4,5 % est une hypothèse de travail, pas un engagement. Mais l'ordre de grandeur montre que le coût d'une épargne de précaution surdimensionnée n'est pas nul — il est simplement invisible, parce qu'il ne se matérialise jamais sur un relevé.
+L'écart approche 20 000 €. Ce n'est pas une promesse : aucun rendement n'est garanti, un placement de marché peut baisser, et 4,5 % est une hypothèse de travail, pas un engagement. Mais l'ordre de grandeur montre que le coût d'une épargne de précaution surdimensionnée n'est pas nul ; il est simplement invisible, parce qu'il ne se matérialise jamais sur un relevé.
 
 ## Où la placer
 

@@ -40,7 +40,7 @@ Sa lecture obéit à la même méthode que celle décrite dans **Conventions fis
 
 **Le métropolitain installé en Nouvelle-Calédonie**, qui conserve des revenus de source métropolitaine : loyers, valeurs mobilières, parfois une activité. La convention détermine où chacun est imposé.
 
-**Le résident calédonien détenant un patrimoine en métropole**, qui doit anticiper la fiscalité française de ces biens — notamment l'IFI sur l'immobilier français et le régime des plus-values immobilières.
+**Le résident calédonien détenant un patrimoine en métropole**, qui doit anticiper la fiscalité française de ces biens, notamment l'IFI sur l'immobilier français et le régime des plus-values immobilières.
 
 **Le retour en métropole**, qui suppose de vérifier le traitement des revenus de l'année de transition et la reprise éventuelle d'obligations déclaratives françaises.
 

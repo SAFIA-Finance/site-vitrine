@@ -31,7 +31,7 @@ sources: "Code de la sécurité sociale, articles L. 351-1 et suivants et R. 351
 
 La pension de base se calcule en appliquant un taux au salaire annuel moyen. Ce taux atteint son maximum, dit taux plein, lorsque l'une de deux conditions est remplie : avoir la durée d'assurance requise pour sa génération, ou avoir atteint l'âge d'annulation de la décote.
 
-Les paramètres — âge légal de départ, durée requise, âge du taux plein automatique — dépendent de l'année de naissance et ont évolué avec les réformes successives. Les valeurs applicables à ta génération figurent sur le portail officiel de l'assurance retraite ; toute source secondaire risque d'être périmée.
+Les paramètres (âge légal de départ, durée requise, âge du taux plein automatique) dépendent de l'année de naissance et ont évolué avec les réformes successives. Les valeurs applicables à ta génération figurent sur le portail officiel de l'assurance retraite ; toute source secondaire risque d'être périmée.
 
 ## La décote
 
@@ -49,7 +49,7 @@ Elle se cumule avec le **coefficient de proratisation**, qui réduit déjà la p
 
 La surcote est souvent sous-évaluée dans les décisions de départ. Elle est elle aussi **définitive** et s'applique à vie. Sur une espérance de vie de vingt-cinq ans après le départ, quelques trimestres supplémentaires peuvent représenter un montant cumulé considérable.
 
-**Exemple.** Un assuré peut partir avec une pension de 1 600 €. En travaillant quatre trimestres de plus, sa pension passe à environ 1 680 €, soit 80 € de plus par mois, versés pendant vingt-cinq ans. Le cumul dépasse **24 000 €** — à comparer à une année de travail supplémentaire. Le calcul ne tranche pas seul, mais il mérite d'être posé avant de décider.
+**Exemple.** Un assuré peut partir avec une pension de 1 600 €. En travaillant quatre trimestres de plus, sa pension passe à environ 1 680 €, soit 80 € de plus par mois, versés pendant vingt-cinq ans. Le cumul dépasse **24 000 €**, à comparer à une année de travail supplémentaire. Le calcul ne tranche pas seul, mais il mérite d'être posé avant de décider.
 
 ## Ce qu'est vraiment un trimestre
 

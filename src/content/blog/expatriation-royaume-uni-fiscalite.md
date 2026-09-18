@@ -38,7 +38,7 @@ Les conséquences sur la fiscalité successorale britannique ont également ét�
 
 ## Le Statutory Residence Test
 
-C'est un atout de méthode. Le droit britannique définit la résidence par un ensemble de tests chiffrés : nombre de jours passés, combinaison de liens avec le pays — logement, travail, famille, présence l'année précédente.
+C'est un atout de méthode. Le droit britannique définit la résidence par un ensemble de tests chiffrés : nombre de jours passés, combinaison de liens avec le pays : logement, travail, famille, présence l'année précédente.
 
 Un contribuable peut donc savoir **à l'avance et avec certitude** s'il sera résident, ce qui est rarement le cas en France. Pour une mobilité organisée, cette prévisibilité vaut beaucoup.
 

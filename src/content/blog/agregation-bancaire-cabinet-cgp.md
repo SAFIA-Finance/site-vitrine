@@ -42,7 +42,7 @@ C'est le point technique que la plupart des présentations commerciales passent 
 
 **Un virement interne n'est ni une dépense ni un revenu.** Un mouvement du compte courant vers le livret A du même client apparaît deux fois si rien ne l'apparie : une sortie et une entrée. Les totaux de revenus et de dépenses sont alors faux tous les deux.
 
-**Un mouvement de capital n'est pas un revenu.** Le produit de la vente de titres sur un compte-titres génère un flux entrant qui n'a rien d'un revenu patrimonial. Un agrégat qui additionne naïvement les entrées d'un compte d'investissement peut afficher un revenu patrimonial sans rapport avec la réalité — l'écart peut atteindre plusieurs dizaines de fois le montant exact.
+**Un mouvement de capital n'est pas un revenu.** Le produit de la vente de titres sur un compte-titres génère un flux entrant qui n'a rien d'un revenu patrimonial. Un agrégat qui additionne naïvement les entrées d'un compte d'investissement peut afficher un revenu patrimonial sans rapport avec la réalité : l'écart peut atteindre plusieurs dizaines de fois le montant exact.
 
 **Les intérêts et dividendes doivent être identifiés comme tels**, ce qui suppose un typage des opérations et non une simple lecture des libellés.
 

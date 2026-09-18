@@ -138,7 +138,7 @@ Les conséquences sur la fiscalité successorale britannique ont également ét�
 
 ### Le Statutory Residence Test
 
-C'est un atout de méthode. Le droit britannique définit la résidence par un ensemble de tests chiffrés : nombre de jours passés, combinaison de liens avec le pays — logement, travail, famille, présence l'année précédente.
+C'est un atout de méthode. Le droit britannique définit la résidence par un ensemble de tests chiffrés : nombre de jours passés, combinaison de liens avec le pays : logement, travail, famille, présence l'année précédente.
 
 Un contribuable peut donc savoir **à l'avance et avec certitude** s'il sera résident, ce qui est rarement le cas en France. Pour une mobilité organisée, cette prévisibilité vaut beaucoup.
 
@@ -225,7 +225,7 @@ Législation fédérale émirienne relative à l'impôt sur les sociétés (2023
 ## I21 — Maurice
 
 **URL** : /blog/expatriation-maurice-fiscalite · **Vérifié le 16 septembre 2026**
-**Meta** : Impôt modéré, ni plus-values ni succession — mais une résidence à prix d'entrée, souvent immobilier, et aucun sursis automatique d'exit tax.
+**Meta** : Impôt modéré, ni plus-values ni succession, mais une résidence à prix d'entrée, souvent immobilier, et aucun sursis automatique d'exit tax.
 
 | | |
 |---|---|
@@ -281,7 +281,7 @@ Income Tax Act mauricien · Textes relatifs aux permis de résidence et aux prog
 | Pensions étrangères | Abattement significatif, avec réduction supplémentaire en cas de transfert des fonds en dirhams non convertibles |
 | Barème général | Progressif |
 | Convention avec la France | Oui, ancienne et structurante |
-| Exit tax française | Le Maroc figure parmi les États ouvrant le sursis automatique dans la notice relative aux transferts récents — **à vérifier pour l'année du départ** |
+| Exit tax française | Le Maroc figure parmi les États ouvrant le sursis automatique dans la notice relative aux transferts récents, **à vérifier pour l'année du départ** |
 
 ### L'essentiel
 
@@ -376,7 +376,7 @@ Revenue Department thaïlandais, instructions relatives à l'imposition des reve
 ## I24 — Singapour
 
 **URL** : /blog/expatriation-singapour-fiscalite · **Vérifié le 16 septembre 2026**
-**Meta** : Imposition territoriale, pas de plus-values ni de droits de succession — mais un coût du logement qui absorbe une large part de l'avantage fiscal.
+**Meta** : Imposition territoriale, pas de plus-values ni de droits de succession, mais un coût du logement qui absorbe une large part de l'avantage fiscal.
 
 | | |
 |---|---|
@@ -433,7 +433,7 @@ Income Tax Act singapourien, principe de territorialité · Inland Revenue Autho
 | Niveaux d'imposition | Fédéral **et** provincial : l'écart entre provinces est significatif |
 | Succession | Pas de droits de succession, mais **présomption de disposition** au décès : les plus-values latentes sont imposées |
 | Convention avec la France | Oui |
-| Exit tax française | Sursis non automatique en principe — à vérifier selon la notice applicable |
+| Exit tax française | Sursis non automatique en principe, à vérifier selon la notice applicable |
 
 ### L'essentiel
 
@@ -499,7 +499,7 @@ Loi de l'impôt sur le revenu canadienne, dispositions relatives à la résidenc
 
 C'est le point que ce territoire doit faire connaître, car il concerne des milliers de Français qui n'ont aucune intention de s'expatrier.
 
-Un non-résident détenant des actifs américains — actions de sociétés américaines, immobilier situé aux États-Unis — peut se voir appliquer, au décès, des droits de succession fédéraux américains avec un abattement très inférieur à celui dont bénéficient les citoyens et résidents américains.
+Un non-résident détenant des actifs américains (actions de sociétés américaines, immobilier situé aux États-Unis) peut se voir appliquer, au décès, des droits de succession fédéraux américains avec un abattement très inférieur à celui dont bénéficient les citoyens et résidents américains.
 
 La convention franco-américaine en matière de successions atténue ce traitement, mais elle doit être invoquée et ses conditions respectées.
 
@@ -515,7 +515,7 @@ L'abandon de la nationalité est possible, encadré, et peut déclencher un rég
 
 ### La comparaison sur trois profils
 
-**Cadre en mobilité.** Fiscalité fédérale et étatique, avec des écarts considérables entre États — certains n'ont pas d'impôt sur le revenu.
+**Cadre en mobilité.** Fiscalité fédérale et étatique, avec des écarts considérables entre États : certains n'ont pas d'impôt sur le revenu.
 
 **Dirigeant après cession.** Les plus-values sont imposées ; il n'y a pas d'avantage de ce côté.
 

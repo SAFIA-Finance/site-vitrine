@@ -45,7 +45,7 @@ sources: "Code monétaire et financier, articles L. 321-1, L. 541-1 et suivants 
 
 ## Ce que dit le droit français
 
-Le conseil en investissement, défini à l'article L. 321-1 du Code monétaire et financier, consiste à formuler une **recommandation personnalisée** portant sur une ou plusieurs transactions sur instruments financiers. L'exercer à titre habituel suppose un statut — conseiller en investissements financiers, entreprise d'investissement ou établissement de crédit — une immatriculation à l'ORIAS, l'adhésion à une association professionnelle agréée par l'AMF, une assurance de responsabilité civile professionnelle et une capacité professionnelle.
+Le conseil en investissement, défini à l'article L. 321-1 du Code monétaire et financier, consiste à formuler une **recommandation personnalisée** portant sur une ou plusieurs transactions sur instruments financiers. L'exercer à titre habituel suppose un statut (conseiller en investissements financiers, entreprise d'investissement ou établissement de crédit), une immatriculation à l'ORIAS, l'adhésion à une association professionnelle agréée par l'AMF, une assurance de responsabilité civile professionnelle et une capacité professionnelle.
 
 Une information générale, une simulation ou un contenu pédagogique ne constituent pas un conseil en investissement. La frontière tient à la **personnalisation** et à la **présentation comme adaptée** à la situation d'une personne déterminée.
 
@@ -59,6 +59,6 @@ Le règlement européen sur l'intelligence artificielle ajoute une exigence ind�
 
 *Ce que l'outil fait.* Consolider les six lignes, calculer sa capacité d'épargne réelle sur douze mois, estimer l'impôt d'un rachat sur son contrat de neuf ans, montrer l'effet de 200 € mensuels supplémentaires sur son PER selon sa tranche marginale, et lui expliquer chaque calcul.
 
-*Ce que le professionnel fait.* Vérifier que ces éléments sont complets et exacts, intégrer ce que Camille n'a pas dit — un parent vieillissant, un projet de séparation, une clause bénéficiaire inadaptée —, formuler une recommandation écrite, et en répondre.
+*Ce que le professionnel fait.* Vérifier que ces éléments sont complets et exacts, intégrer ce que Camille n'a pas dit (un parent vieillissant, un projet de séparation, une clause bénéficiaire inadaptée), formuler une recommandation écrite, et en répondre.
 
 Camille arrive au rendez-vous avec un dossier prêt plutôt qu'avec un carton de relevés. Le temps du professionnel passe de la saisie à l'analyse. C'est le déplacement réel que la technologie produit, et il est plus intéressant que la question du remplacement.

@@ -34,7 +34,7 @@ Le droit accorde au conjoint survivant des droits importants, et aux enfants une
 
 ### Les outils disponibles
 
-**L'assurance-vie.** C'est l'instrument le plus efficace, parce qu'elle est hors succession et permet de désigner librement. Un contrat alimenté avant 70 ans transmet 152 500 € par bénéficiaire, y compris à l'enfant du conjoint, qui bénéficie ainsi du même abattement qu'un enfant biologique — au lieu des 1 594 € du droit commun.
+**L'assurance-vie.** C'est l'instrument le plus efficace, parce qu'elle est hors succession et permet de désigner librement. Un contrat alimenté avant 70 ans transmet 152 500 € par bénéficiaire, y compris à l'enfant du conjoint, qui bénéficie ainsi du même abattement qu'un enfant biologique, au lieu des 1 594 € du droit commun.
 
 **La donation-partage**, incluant le cas échéant les enfants non communs, sous les conditions prévues par le Code civil. Elle fige les valeurs et prévient les contestations.
 
@@ -157,7 +157,7 @@ Le dispositif reste extrêmement puissant. Mais il exige désormais une visibili
 
 **Exemple.** Une société familiale valorisée 4 000 000 €, transmise par donation à deux enfants, à parts égales.
 
-*Sans Dutreil.* Part de chaque enfant : 2 000 000 €. Après abattement de 100 000 € : 1 900 000 €. Droits de l'ordre de **660 000 € par enfant**, soit environ 1 320 000 € au total. Une somme que les enfants ne peuvent généralement acquitter qu'en vendant une partie de l'entreprise — ce que le dispositif cherche précisément à éviter.
+*Sans Dutreil.* Part de chaque enfant : 2 000 000 €. Après abattement de 100 000 € : 1 900 000 €. Droits de l'ordre de **660 000 € par enfant**, soit environ 1 320 000 € au total. Une somme que les enfants ne peuvent généralement acquitter qu'en vendant une partie de l'entreprise, ce que le dispositif cherche précisément à éviter.
 
 *Avec Dutreil.* Base exonérée à 75 % : chaque part est retenue pour 500 000 €. Après abattement de 100 000 € : 400 000 €. Droits de l'ordre de **78 000 € par enfant**.
 
@@ -289,7 +289,7 @@ L'abattement n'est pas réservé aux enfants : il bénéficie à tout bénéfici
 
 ### Les deux contrats dédiés
 
-**Le contrat de rente survie.** Souscrit par un parent, il verse une rente viagère à l'enfant handicapé au décès du souscripteur. Les primes ouvrent droit à une réduction d'impôt sous conditions, et la rente n'est pas prise en compte pour le calcul de certaines prestations sociales — c'est le point essentiel.
+**Le contrat de rente survie.** Souscrit par un parent, il verse une rente viagère à l'enfant handicapé au décès du souscripteur. Les primes ouvrent droit à une réduction d'impôt sous conditions, et la rente n'est pas prise en compte pour le calcul de certaines prestations sociales : c'est le point essentiel.
 
 **Le contrat d'épargne handicap.** Souscrit par la personne handicapée elle-même, d'une durée minimale, il ouvre droit à une réduction d'impôt sur les primes versées, dans une limite annuelle.
 
@@ -301,7 +301,7 @@ Transmettre un capital à une personne bénéficiaire de prestations sociales so
 
 C'est pourquoi les dispositifs spécifiques existent : ils permettent de transmettre sans déclencher cet effet. Et c'est pourquoi ce sujet ne se traite jamais par la seule optimisation fiscale.
 
-Deux outils juridiques complémentaires méritent d'être examinés avec un notaire : la **libéralité graduelle ou résiduelle**, qui organise la transmission en deux temps — à l'enfant handicapé puis, à son décès, à un autre bénéficiaire désigné — et le **mandat de protection future**, qui permet d'organiser à l'avance la protection de la personne et de ses biens.
+Deux outils juridiques complémentaires méritent d'être examinés avec un notaire : la **libéralité graduelle ou résiduelle**, qui organise la transmission en deux temps (à l'enfant handicapé puis, à son décès, à un autre bénéficiaire désigné), et le **mandat de protection future**, qui permet d'organiser à l'avance la protection de la personne et de ses biens.
 
 ### Sources
 
@@ -316,7 +316,7 @@ Code général des impôts, articles 779, II, 199 septies et 199 septies 1° bis
 
 ### L'essentiel
 
-- Le testament **olographe** est gratuit et libre, mais il doit être **entièrement écrit à la main, daté et signé** — sinon il est nul.
+- Le testament **olographe** est gratuit et libre, mais il doit être **entièrement écrit à la main, daté et signé** : sinon il est nul.
 - Le testament **authentique**, reçu par notaire, est plus sûr et plus difficile à contester.
 - Le testament **international** répond à un besoin précis : la validité de forme dans plusieurs pays.
 - Dans tous les cas, faire **inscrire** le testament au fichier central évite qu'il ne soit jamais retrouvé.
@@ -443,7 +443,7 @@ Aucun de ces critères n'est déterminant à lui seul. Les juges apprécient glo
 
 ### Ce qui se passe en cas de requalification
 
-Les primes jugées excessives sont réintégrées dans la masse successorale. Elles deviennent soumises au rapport et à la réduction, donc aux droits de succession selon le lien de parenté du bénéficiaire — qui peut être un tiers taxé à 60 %.
+Les primes jugées excessives sont réintégrées dans la masse successorale. Elles deviennent soumises au rapport et à la réduction, donc aux droits de succession selon le lien de parenté du bénéficiaire, qui peut être un tiers taxé à 60 %.
 
 L'écart entre le traitement attendu et le traitement obtenu est alors considérable.
 
@@ -478,7 +478,7 @@ Code des assurances, articles L. 132-13 et L. 132-12 · Jurisprudence constante 
 
 ### La loi civile
 
-Le règlement (UE) n° 650/2012 a unifié les règles de conflit de lois entre les États membres participants. La loi applicable à l'ensemble de la succession — meubles et immeubles, où qu'ils se trouvent — est celle de l'État de la **résidence habituelle** du défunt au moment du décès.
+Le règlement (UE) n° 650/2012 a unifié les règles de conflit de lois entre les États membres participants. La loi applicable à l'ensemble de la succession (meubles et immeubles, où qu'ils se trouvent) est celle de l'État de la **résidence habituelle** du défunt au moment du décès.
 
 Une exception permet de retenir la loi d'un autre État avec lequel le défunt présentait des liens manifestement plus étroits.
 
@@ -486,7 +486,7 @@ Et une **professio juris** permet de choisir, par une disposition à cause de mo
 
 ### Le piège : la loi fiscale est une autre question
 
-Le règlement européen règle la loi **civile** — qui hérite, dans quelles proportions, avec quelle réserve.
+Le règlement européen règle la loi **civile** : qui hérite, dans quelles proportions, avec quelle réserve.
 
 Il ne règle **rien** en matière fiscale. Les droits de mutation à titre gratuit relèvent du droit interne de chaque État et des conventions fiscales bilatérales, qui sont bien moins nombreuses en matière successorale qu'en matière d'impôt sur le revenu.
 
@@ -500,7 +500,7 @@ Ce troisième critère est le plus méconnu : un héritier résidant en France p
 
 ### Le certificat successoral européen
 
-Il permet à un héritier de prouver sa qualité dans les États membres participants, sans avoir à refaire une procédure dans chacun. Délivré par l'autorité compétente — en France, le notaire — il simplifie considérablement le règlement des successions transfrontalières.
+Il permet à un héritier de prouver sa qualité dans les États membres participants, sans avoir à refaire une procédure dans chacun. Délivré par l'autorité compétente (en France, le notaire), il simplifie considérablement le règlement des successions transfrontalières.
 
 ### Ce qu'il faut faire, en pratique
 
@@ -508,7 +508,7 @@ Déterminer la **résidence habituelle** probable au décès, notion de fait qui
 
 Examiner l'opportunité d'une **professio juris**, et la formaliser si elle est retenue.
 
-Recenser les **biens par pays** et vérifier l'existence d'une convention fiscale en matière successorale — la France n'en a signé qu'un nombre limité.
+Recenser les **biens par pays** et vérifier l'existence d'une convention fiscale en matière successorale : la France n'en a signé qu'un nombre limité.
 
 Vérifier le sort des **contrats d'assurance-vie**, dont le traitement en droit international privé et en fiscalité obéit à des règles propres.
 
@@ -549,7 +549,7 @@ Elle élargit la quotité dont le conjoint peut bénéficier et, surtout, elle l
 - **le quart en pleine propriété et les trois quarts en usufruit** ;
 - **la quotité disponible en pleine propriété**, soit la moitié avec un enfant, le tiers avec deux, le quart avec trois ou plus.
 
-L'intérêt majeur est là : le choix se fait **au moment du décès**, en fonction de la situation réelle du survivant — son âge, ses besoins, la composition du patrimoine, ses relations avec les enfants. Aucune décision prise vingt ans plus tôt ne peut être aussi bien calibrée.
+L'intérêt majeur est là : le choix se fait **au moment du décès**, en fonction de la situation réelle du survivant : son âge, ses besoins, la composition du patrimoine, ses relations avec les enfants. Aucune décision prise vingt ans plus tôt ne peut être aussi bien calibrée.
 
 Elle est révocable unilatéralement et sans avoir à en informer le conjoint, sauf lorsqu'elle est insérée dans un contrat de mariage.
 
@@ -561,7 +561,7 @@ Elle est révocable unilatéralement et sans avoir à en informer le conjoint, s
 
 *Avec donation entre époux.* Elle peut opter pour le quart en pleine propriété et les trois quarts en usufruit, ce qui lui assure la pleine disposition d'une partie du patrimoine **et** l'usage du reste sa vie durant.
 
-*L'arbitrage réel.* L'usufruit total protège le cadre de vie mais ne donne aucune liquidité en pleine propriété. La pleine propriété donne de la liquidité mais réduit l'étendue du contrôle. À 68 ans, l'usufruit est valorisé à 40 % selon le barème de l'article 669 — une donnée qui compte dans le calcul des droits des enfants.
+*L'arbitrage réel.* L'usufruit total protège le cadre de vie mais ne donne aucune liquidité en pleine propriété. La pleine propriété donne de la liquidité mais réduit l'étendue du contrôle. À 68 ans, l'usufruit est valorisé à 40 % selon le barème de l'article 669, une donnée qui compte dans le calcul des droits des enfants.
 
 Dans tous les cas, le conjoint est exonéré de droits de succession.
 

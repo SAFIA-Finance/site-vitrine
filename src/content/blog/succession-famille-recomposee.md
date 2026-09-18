@@ -25,7 +25,7 @@ Le droit accorde au conjoint survivant des droits importants, et aux enfants une
 
 ## Les outils disponibles
 
-**L'assurance-vie.** C'est l'instrument le plus efficace, parce qu'elle est hors succession et permet de désigner librement. Un contrat alimenté avant 70 ans transmet 152 500 € par bénéficiaire, y compris à l'enfant du conjoint, qui bénéficie ainsi du même abattement qu'un enfant biologique — au lieu des 1 594 € du droit commun.
+**L'assurance-vie.** C'est l'instrument le plus efficace, parce qu'elle est hors succession et permet de désigner librement. Un contrat alimenté avant 70 ans transmet 152 500 € par bénéficiaire, y compris à l'enfant du conjoint, qui bénéficie ainsi du même abattement qu'un enfant biologique, au lieu des 1 594 € du droit commun.
 
 **La donation-partage**, incluant le cas échéant les enfants non communs, sous les conditions prévues par le Code civil. Elle fige les valeurs et prévient les contestations.
 

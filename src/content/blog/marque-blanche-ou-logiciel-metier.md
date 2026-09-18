@@ -26,11 +26,11 @@ sources: "Règlement (UE) 2016/679 (RGPD), articles 26 et 28 · Règlement (UE) 
 
 **La marque blanche.** Le service est diffusé sous votre identité visuelle et votre nom. Le client final ignore, le plus souvent, l'identité du prestataire technique. Vous achetez une extension de votre offre.
 
-Un modèle intermédiaire existe, la **marque grise**, où les deux marques coexistent — « propulsé par ». Il réduit l'ambiguïté sans renoncer à l'intégration.
+Un modèle intermédiaire existe, la **marque grise**, où les deux marques coexistent : « propulsé par ». Il réduit l'ambiguïté sans renoncer à l'intégration.
 
 ## Ce que la marque blanche change juridiquement
 
-**Vous devenez l'interlocuteur unique du client final.** Toute défaillance du prestataire — indisponibilité, erreur de calcul, incident de sécurité — est perçue comme la vôtre, et vous en répondez contractuellement devant le client.
+**Vous devenez l'interlocuteur unique du client final.** Toute défaillance du prestataire (indisponibilité, erreur de calcul, incident de sécurité) est perçue comme la vôtre, et vous en répondez contractuellement devant le client.
 
 **La répartition des responsabilités doit être écrite.** Le contrat doit préciser qui répond de quoi, quels engagements de niveau de service s'appliquent, quelles pénalités en découlent, et comment les incidents sont traités.
 
@@ -56,7 +56,7 @@ La **propriété des données** et la garantie qu'elles ne seront pas utilisées
 
 Le **sort du contrat en cas de changement de contrôle** du prestataire.
 
-L'**exclusivité** éventuelle : sectorielle, géographique, ou absence d'exclusivité — sachant que son absence signifie que vos concurrents peuvent distribuer le même service sous leur propre marque.
+L'**exclusivité** éventuelle : sectorielle, géographique, ou absence d'exclusivité, sachant que son absence signifie que vos concurrents peuvent distribuer le même service sous leur propre marque.
 
 ## La question préalable
 

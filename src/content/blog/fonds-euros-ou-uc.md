@@ -35,7 +35,7 @@ Les unités de compte sont des parts de fonds : actions, obligations d'entrepris
 
 ## L'horizon commande, pas le rendement affiché
 
-La volatilité d'un placement en actions ne disparaît pas avec le temps, mais la probabilité d'un résultat négatif diminue nettement à mesure que l'horizon s'allonge. Sur un an, une poche actions peut perdre 30 %. Sur quinze ans, historiquement, les périodes de perte sont devenues rares — sans que cela constitue une garantie pour l'avenir.
+La volatilité d'un placement en actions ne disparaît pas avec le temps, mais la probabilité d'un résultat négatif diminue nettement à mesure que l'horizon s'allonge. Sur un an, une poche actions peut perdre 30 %. Sur quinze ans, historiquement, les périodes de perte sont devenues rares, sans que cela constitue une garantie pour l'avenir.
 
 Une grille de lecture simple, à ajuster à ta situation :
 

@@ -26,7 +26,7 @@ sources: "Loi fédérale sur l'impôt fédéral direct et lois cantonales, impos
 | Plus-values privées mobilières | En principe non imposées au niveau fédéral pour les particuliers |
 | Impôt sur la fortune | Oui, cantonal et communal |
 | **Exit tax française** | **Pas de sursis automatique** : déclaration à J-90, représentant fiscal, garanties |
-| Convention avec la France | Oui, y compris en matière de successions — à examiner de près |
+| Convention avec la France | Oui, y compris en matière de successions, à examiner de près |
 
 ## Le point administratif décisif
 
@@ -36,7 +36,7 @@ Ce n'est pas rédhibitoire, mais cela change le calendrier et le coût du dépar
 
 ## Le forfait fiscal
 
-L'imposition d'après la dépense assoit l'impôt sur le train de vie et non sur les revenus réels. Elle est réservée aux personnes qui n'exercent pas d'activité lucrative en Suisse, suppose une négociation avec l'autorité cantonale, et n'est pas ouverte dans tous les cantons — plusieurs l'ont supprimée par votation.
+L'imposition d'après la dépense assoit l'impôt sur le train de vie et non sur les revenus réels. Elle est réservée aux personnes qui n'exercent pas d'activité lucrative en Suisse, suppose une négociation avec l'autorité cantonale, et n'est pas ouverte dans tous les cantons : plusieurs l'ont supprimée par votation.
 
 Le montant minimal et les modalités varient. Le régime n'est pas accessible aux ressortissants suisses résidant en Suisse.
 

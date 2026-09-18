@@ -42,7 +42,7 @@ Aucun de ces critères n'est déterminant à lui seul. Les juges apprécient glo
 
 ## Ce qui se passe en cas de requalification
 
-Les primes jugées excessives sont réintégrées dans la masse successorale. Elles deviennent soumises au rapport et à la réduction, donc aux droits de succession selon le lien de parenté du bénéficiaire — qui peut être un tiers taxé à 60 %.
+Les primes jugées excessives sont réintégrées dans la masse successorale. Elles deviennent soumises au rapport et à la réduction, donc aux droits de succession selon le lien de parenté du bénéficiaire, qui peut être un tiers taxé à 60 %.
 
 L'écart entre le traitement attendu et le traitement obtenu est alors considérable.
 

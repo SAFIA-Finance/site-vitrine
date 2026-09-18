@@ -157,7 +157,7 @@ const faq = [
       <div class="sim-champ">
         <label for="tmi-sortie">Ta tranche marginale à la retraite</label>
         <select id="tmi-sortie">
-          <option value="0">0 % — non imposable</option>
+          <option value="0">0 % (non imposable)</option>
           <option value="0.11" selected>11 %</option>
           <option value="0.3">30 %</option>
           <option value="0.41">41 %</option>
@@ -172,16 +172,16 @@ const faq = [
 
     <div class="sim-resultat">
       <p class="sim-resultat-etiq">Économie d'impôt cette année</p>
-      <p class="sim-chiffre" id="r-economie">—</p>
+      <p class="sim-chiffre" id="r-economie">-</p>
       <p class="sim-reel-ligne">
-        Soit <strong id="r-taux-economie">—</strong> du montant déduit. Ta tranche actuelle est de
-        <strong id="r-tmi">—</strong>.
+        Soit <strong id="r-taux-economie">-</strong> du montant déduit. Ta tranche actuelle est de
+        <strong id="r-tmi">-</strong>.
       </p>
 
       <dl class="sim-detail">
-        <div><dt>Plafond disponible</dt><dd id="r-plafond">—</dd></div>
-        <div><dt>Part déductible</dt><dd id="r-deductible">—</dd></div>
-        <div><dt>Capital projeté</dt><dd id="r-sortie-capital">—</dd></div>
+        <div><dt>Plafond disponible</dt><dd id="r-plafond">-</dd></div>
+        <div><dt>Part déductible</dt><dd id="r-deductible">-</dd></div>
+        <div><dt>Capital projeté</dt><dd id="r-sortie-capital">-</dd></div>
       </dl>
 
       <p class="sim-aide" id="note-plafond"></p>
@@ -192,22 +192,22 @@ const faq = [
         <div class="sim-pari-cotes">
           <div>
             <p class="sim-pari-etiq">Économisé à l'entrée</p>
-            <p class="sim-pari-chiffre" id="r-cumul">—</p>
+            <p class="sim-pari-chiffre" id="r-cumul">-</p>
             <p class="sim-aide">Cumul sur toute la période, à versement constant.</p>
           </div>
           <div>
             <p class="sim-pari-etiq">Payé à la sortie</p>
-            <p class="sim-pari-chiffre" id="r-sortie-impot">—</p>
+            <p class="sim-pari-chiffre" id="r-sortie-impot">-</p>
             <p class="sim-aide">
-              Dont <span id="r-sortie-versements">—</span> au barème sur les versements
-              et <span id="r-sortie-produits">—</span> de prélèvement forfaitaire sur les gains.
+              Dont <span id="r-sortie-versements">-</span> au barème sur les versements
+              et <span id="r-sortie-produits">-</span> de prélèvement forfaitaire sur les gains.
             </p>
           </div>
         </div>
         <p class="sim-solde" id="bloc-solde">
-          Solde du pari : <strong id="r-solde">—</strong>
+          Solde du pari : <strong id="r-solde">-</strong>
         </p>
-        <p class="sim-aide">Capital net perçu après impôt : <span id="r-sortie-net">—</span>.</p>
+        <p class="sim-aide">Capital net perçu après impôt : <span id="r-sortie-net">-</span>.</p>
       </div>
 
       <p class="sim-synthese" id="sim-synthese" role="status"></p>
@@ -220,7 +220,7 @@ const faq = [
       <li>La <strong>tranche à la retraite est une hypothèse</strong>, pas une donnée. C'est elle qui décide si le PER est gagnant, et personne ne la connaît à l'avance.</li>
       <li>Il ne traite que la <strong>sortie en capital</strong>. La sortie en rente relève du régime des pensions, avec un abattement et des prélèvements sociaux sur une fraction variable selon l'âge.</li>
       <li>Le plafond est calculé sur <strong>tes seuls revenus</strong> de déclarant. Le plafond du conjoint et la mutualisation entre époux ne sont pas modélisés.</li>
-      <li>Les sommes placées sur un PER sont <strong>bloquées jusqu'à la retraite</strong>, sauf cas de déblocage anticipé — dont l'achat de la résidence principale.</li>
+      <li>Les sommes placées sur un PER sont <strong>bloquées jusqu'à la retraite</strong>, sauf cas de déblocage anticipé, dont l'achat de la résidence principale.</li>
       <li>
         Report des plafonds non utilisés : l'administration énonce <strong>trois ans</strong>, et la
         fiche du PER individuel décrit un report de cinq ans pour les plafonds de 2026 et suivants.

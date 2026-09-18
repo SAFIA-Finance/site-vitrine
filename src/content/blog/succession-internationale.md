@@ -19,7 +19,7 @@ sources: "Règlement (UE) n° 650/2012 du 4 juillet 2012 relatif aux successions
 
 ## La loi civile
 
-Le règlement (UE) n° 650/2012 a unifié les règles de conflit de lois entre les États membres participants. La loi applicable à l'ensemble de la succession — meubles et immeubles, où qu'ils se trouvent — est celle de l'État de la **résidence habituelle** du défunt au moment du décès.
+Le règlement (UE) n° 650/2012 a unifié les règles de conflit de lois entre les États membres participants. La loi applicable à l'ensemble de la succession (meubles et immeubles, où qu'ils se trouvent) est celle de l'État de la **résidence habituelle** du défunt au moment du décès.
 
 Une exception permet de retenir la loi d'un autre État avec lequel le défunt présentait des liens manifestement plus étroits.
 
@@ -27,7 +27,7 @@ Et une **professio juris** permet de choisir, par une disposition à cause de mo
 
 ## Le piège : la loi fiscale est une autre question
 
-Le règlement européen règle la loi **civile** — qui hérite, dans quelles proportions, avec quelle réserve.
+Le règlement européen règle la loi **civile** : qui hérite, dans quelles proportions, avec quelle réserve.
 
 Il ne règle **rien** en matière fiscale. Les droits de mutation à titre gratuit relèvent du droit interne de chaque État et des conventions fiscales bilatérales, qui sont bien moins nombreuses en matière successorale qu'en matière d'impôt sur le revenu.
 
@@ -41,7 +41,7 @@ Ce troisième critère est le plus méconnu : un héritier résidant en France p
 
 ## Le certificat successoral européen
 
-Il permet à un héritier de prouver sa qualité dans les États membres participants, sans avoir à refaire une procédure dans chacun. Délivré par l'autorité compétente — en France, le notaire — il simplifie considérablement le règlement des successions transfrontalières.
+Il permet à un héritier de prouver sa qualité dans les États membres participants, sans avoir à refaire une procédure dans chacun. Délivré par l'autorité compétente (en France, le notaire), il simplifie considérablement le règlement des successions transfrontalières.
 
 ## Ce qu'il faut faire, en pratique
 
@@ -49,6 +49,6 @@ Déterminer la **résidence habituelle** probable au décès, notion de fait qui
 
 Examiner l'opportunité d'une **professio juris**, et la formaliser si elle est retenue.
 
-Recenser les **biens par pays** et vérifier l'existence d'une convention fiscale en matière successorale — la France n'en a signé qu'un nombre limité.
+Recenser les **biens par pays** et vérifier l'existence d'une convention fiscale en matière successorale : la France n'en a signé qu'un nombre limité.
 
 Vérifier le sort des **contrats d'assurance-vie**, dont le traitement en droit international privé et en fiscalité obéit à des règles propres.

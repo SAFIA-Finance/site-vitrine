@@ -26,23 +26,23 @@ Elle **ne fait pas** naître d'imposition. Aucune convention n'a jamais créé u
 
 Elle **répartit** le droit d'imposer chaque catégorie de revenu entre l'État de la source et l'État de résidence, et prévoit le mécanisme d'élimination de la double imposition lorsque les deux conservent un droit.
 
-Elle **prime** sur le droit interne. Si l'article 4 B du CGI fait de vous un résident français mais que la convention vous attribue à l'autre État, c'est la convention qui l'emporte — sous réserve de l'invoquer et de le prouver.
+Elle **prime** sur le droit interne. Si l'article 4 B du CGI fait de vous un résident français mais que la convention vous attribue à l'autre État, c'est la convention qui l'emporte, sous réserve de l'invoquer et de le prouver.
 
 ## Les six articles à lire, dans l'ordre
 
-**Article 4 — Résidence.** Il contient la cascade de critères qui tranche les doubles résidences : foyer d'habitation permanent, centre des intérêts vitaux, séjour habituel, nationalité, procédure amiable. C'est le premier à lire, parce qu'il conditionne l'application de tous les autres.
+**Article 4. Résidence.** Il contient la cascade de critères qui tranche les doubles résidences : foyer d'habitation permanent, centre des intérêts vitaux, séjour habituel, nationalité, procédure amiable. C'est le premier à lire, parce qu'il conditionne l'application de tous les autres.
 
-**Article 6 — Revenus immobiliers.** Règle quasi universelle : ils sont imposables dans l'État où le bien est situé. Un appartement à Paris reste imposable en France, quelle que soit votre résidence.
+**Article 6. Revenus immobiliers.** Règle quasi universelle : ils sont imposables dans l'État où le bien est situé. Un appartement à Paris reste imposable en France, quelle que soit votre résidence.
 
-**Article 10 — Dividendes.** L'État de résidence impose, mais l'État de la source conserve un droit de retenue plafonné, souvent à 15 %. C'est ce plafond conventionnel qui réduit la retenue française.
+**Article 10. Dividendes.** L'État de résidence impose, mais l'État de la source conserve un droit de retenue plafonné, souvent à 15 %. C'est ce plafond conventionnel qui réduit la retenue française.
 
-**Article 11 — Intérêts.** Même logique, avec un plafond souvent plus bas, parfois nul.
+**Article 11. Intérêts.** Même logique, avec un plafond souvent plus bas, parfois nul.
 
-**Article 13 — Gains en capital.** L'article le plus décisif pour un dirigeant. Il détermine qui impose les plus-values de cession de titres. Certaines conventions comportent des clauses spécifiques pour les sociétés à prépondérance immobilière et des clauses dites de participation substantielle qui réservent à l'État de la source le droit d'imposer certaines cessions.
+**Article 13. Gains en capital.** L'article le plus décisif pour un dirigeant. Il détermine qui impose les plus-values de cession de titres. Certaines conventions comportent des clauses spécifiques pour les sociétés à prépondérance immobilière et des clauses dites de participation substantielle qui réservent à l'État de la source le droit d'imposer certaines cessions.
 
-**Articles 23 A / 23 B — Élimination de la double imposition.** Deux méthodes existent : l'**exemption**, où l'État de résidence renonce à imposer, et l'**imputation**, où il impose mais déduit l'impôt payé à l'étranger. La méthode retenue change radicalement le résultat final.
+**Articles 23 A / 23 B. Élimination de la double imposition.** Deux méthodes existent : l'**exemption**, où l'État de résidence renonce à imposer, et l'**imputation**, où il impose mais déduit l'impôt payé à l'étranger. La méthode retenue change radicalement le résultat final.
 
-Ajoutez, selon votre situation : l'article 18 sur les **pensions**, l'article 19 sur les **rémunérations publiques**, et les éventuelles clauses relatives à la **fortune** et aux **successions** — toutes les conventions n'en comportent pas, et c'est précisément leur absence qui crée les difficultés les plus lourdes en transmission.
+Ajoutez, selon votre situation : l'article 18 sur les **pensions**, l'article 19 sur les **rémunérations publiques**, et les éventuelles clauses relatives à la **fortune** et aux **successions** : toutes les conventions n'en comportent pas, et c'est précisément leur absence qui crée les difficultés les plus lourdes en transmission.
 
 ## La méthode en vingt minutes
 
@@ -62,7 +62,7 @@ Ajoutez, selon votre situation : l'article 18 sur les **pensions**, l'article 19
 
 *Article 4.* Résident conventionnel du Portugal, s'il y a son foyer permanent.
 
-*Article 18.* Les pensions privées sont, selon la plupart des conventions, imposables **dans l'État de résidence** — donc au Portugal. Depuis la fermeture du régime NHR, elles y relèvent du barème progressif portugais, ce qui a considérablement modifié l'attrait de cette destination pour les retraités.
+*Article 18.* Les pensions privées sont, selon la plupart des conventions, imposables **dans l'État de résidence**, donc au Portugal. Depuis la fermeture du régime NHR, elles y relèvent du barème progressif portugais, ce qui a considérablement modifié l'attrait de cette destination pour les retraités.
 
 *Article 10.* Les dividendes français supportent une retenue à la source française plafonnée par la convention, et sont imposés au Portugal avec imputation de la retenue française.
 

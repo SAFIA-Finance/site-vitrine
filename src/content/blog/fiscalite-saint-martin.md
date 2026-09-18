@@ -44,7 +44,7 @@ Les services fiscaux de la collectivité rappellent eux-mêmes que la portée de
 
 **La situation économique et sociale**, très différente, qui se traduit dans les priorités fiscales des deux collectivités.
 
-**Le partage de l'île.** La frontière avec Sint Maarten, territoire autonome du Royaume des Pays-Bas, crée des situations transfrontalières quotidiennes — travail, résidence, biens — qui n'ont pas d'équivalent à Saint-Barthélemy.
+**Le partage de l'île.** La frontière avec Sint Maarten, territoire autonome du Royaume des Pays-Bas, crée des situations transfrontalières quotidiennes (travail, résidence, biens) qui n'ont pas d'équivalent à Saint-Barthélemy.
 
 ## Le point de vigilance transfrontalier
 

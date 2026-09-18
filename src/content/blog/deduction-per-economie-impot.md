@@ -53,7 +53,7 @@ Ce calcul par fraction est la source de déception la plus fréquente : l'éparg
 
 Reprenons le cas de Claire. Elle a placé 8 000 € et récupéré 2 730 € d'impôt. Son **effort d'épargne net** est de 5 270 €.
 
-C'est le chiffre à comparer avec un versement de 8 000 € sur une assurance-vie, qui coûte 8 000 €. Le PER lui permet donc de placer davantage à effort constant — à condition d'utiliser réellement l'économie d'impôt pour épargner, et non pour consommer. C'est l'hypothèse implicite de toutes les démonstrations commerciales sur le PER, et elle n'est pas toujours vérifiée dans les faits.
+C'est le chiffre à comparer avec un versement de 8 000 € sur une assurance-vie, qui coûte 8 000 €. Le PER lui permet donc de placer davantage à effort constant, à condition d'utiliser réellement l'économie d'impôt pour épargner, et non pour consommer. C'est l'hypothèse implicite de toutes les démonstrations commerciales sur le PER, et elle n'est pas toujours vérifiée dans les faits.
 
 ## Ce que l'économie n'est pas
 

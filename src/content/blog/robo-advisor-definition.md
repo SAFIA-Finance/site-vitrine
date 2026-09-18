@@ -31,7 +31,7 @@ sources: "Code monétaire et financier, articles L. 321-1 et L. 533-13 sur la ge
 
 Un robo-advisor propose un service de gestion : tu lui confies une somme, il l'investit selon une allocation correspondant à ton profil, puis il la surveille et la réajuste.
 
-Juridiquement, cela suppose un mandat, donc un cadre réglementé — mandat d'arbitrage en assurance-vie, ou gestion sous mandat sur un compte-titres, selon la structure. Ce n'est pas un service d'information : c'est une délégation de décision.
+Juridiquement, cela suppose un mandat, donc un cadre réglementé : mandat d'arbitrage en assurance-vie, ou gestion sous mandat sur un compte-titres, selon la structure. Ce n'est pas un service d'information : c'est une délégation de décision.
 
 Le terme est régulièrement employé à tort pour désigner des outils qui n'ont rien à voir. Trois catégories se distinguent nettement.
 

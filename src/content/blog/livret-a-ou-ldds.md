@@ -45,11 +45,11 @@ La garantie. Les sommes sont garanties par l'État sur le livret A, et couvertes
 
 **L'accès.** Le livret A est ouvert à tous, y compris aux mineurs dès la naissance et aux personnes morales dans certains cas. Le LDDS est réservé aux personnes majeures fiscalement domiciliées en France, à raison d'un par contribuable, donc deux par foyer fiscal.
 
-**La destination des fonds.** Les dépôts du livret A financent majoritairement le logement social et la politique de la ville via la Caisse des dépôts. Le LDDS oriente une partie de sa collecte vers la transition écologique, l'économie sociale et solidaire et le financement des PME. Il offre aussi un mécanisme de don à une entreprise de l'économie sociale et solidaire, proposé chaque année par ta banque — souvent sous la forme d'un message dans l'espace client que personne ne lit.
+**La destination des fonds.** Les dépôts du livret A financent majoritairement le logement social et la politique de la ville via la Caisse des dépôts. Le LDDS oriente une partie de sa collecte vers la transition écologique, l'économie sociale et solidaire et le financement des PME. Il offre aussi un mécanisme de don à une entreprise de l'économie sociale et solidaire, proposé chaque année par ta banque, souvent sous la forme d'un message dans l'espace client que personne ne lit.
 
 Si l'usage de ton épargne compte pour toi, c'est la seule différence qui porte du sens. Mais sois lucide sur son ampleur : ton épargne réglementée finance des projets fléchés, elle ne choisit pas des entreprises.
 
-**Exemple.** Léa dispose de 30 000 € d'épargne de précaution. Le débat « livret A ou LDDS » n'a pas lieu d'être : elle remplit son livret A à 22 950 €, place les 7 050 € restants sur son LDDS, et perçoit exactement les mêmes intérêts que si la répartition était inverse — 510 € sur l'année à 1,70 %.
+**Exemple.** Léa dispose de 30 000 € d'épargne de précaution. Le débat « livret A ou LDDS » n'a pas lieu d'être : elle remplit son livret A à 22 950 €, place les 7 050 € restants sur son LDDS, et perçoit exactement les mêmes intérêts que si la répartition était inverse : 510 € sur l'année à 1,70 %.
 
 ## Alors pourquoi la question revient sans arrêt ?
 

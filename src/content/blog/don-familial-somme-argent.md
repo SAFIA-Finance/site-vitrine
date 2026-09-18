@@ -53,7 +53,7 @@ Le plafond s'apprécie **par couple donateur-bénéficiaire**. Quatre grands-par
 - Don familial de l'article 790 G : 31 865 € × 2 parents = **63 730 €**
 - **Total transmis sans aucun droit : 263 730 €**
 
-Et l'ensemble se reconstitue quinze ans plus tard, quand ils auront 83 ans — à l'exception du don familial, puisqu'ils auront dépassé 80 ans. C'est la raison pour laquelle le don familial doit être utilisé **avant** l'abattement classique quand le donateur approche de la limite d'âge : l'un a une date de péremption, l'autre non.
+Et l'ensemble se reconstitue quinze ans plus tard, quand ils auront 83 ans, à l'exception du don familial, puisqu'ils auront dépassé 80 ans. C'est la raison pour laquelle le don familial doit être utilisé **avant** l'abattement classique quand le donateur approche de la limite d'âge : l'un a une date de péremption, l'autre non.
 
 ## Le point de vigilance sur l'âge
 

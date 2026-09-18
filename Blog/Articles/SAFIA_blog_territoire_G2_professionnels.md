@@ -44,7 +44,7 @@ C'est le point technique que la plupart des présentations commerciales passent 
 
 **Un virement interne n'est ni une dépense ni un revenu.** Un mouvement du compte courant vers le livret A du même client apparaît deux fois si rien ne l'apparie : une sortie et une entrée. Les totaux de revenus et de dépenses sont alors faux tous les deux.
 
-**Un mouvement de capital n'est pas un revenu.** Le produit de la vente de titres sur un compte-titres génère un flux entrant qui n'a rien d'un revenu patrimonial. Un agrégat qui additionne naïvement les entrées d'un compte d'investissement peut afficher un revenu patrimonial sans rapport avec la réalité — l'écart peut atteindre plusieurs dizaines de fois le montant exact.
+**Un mouvement de capital n'est pas un revenu.** Le produit de la vente de titres sur un compte-titres génère un flux entrant qui n'a rien d'un revenu patrimonial. Un agrégat qui additionne naïvement les entrées d'un compte d'investissement peut afficher un revenu patrimonial sans rapport avec la réalité : l'écart peut atteindre plusieurs dizaines de fois le montant exact.
 
 **Les intérêts et dividendes doivent être identifiés comme tels**, ce qui suppose un typage des opérations et non une simple lecture des libellés.
 
@@ -87,11 +87,11 @@ Page **Conseillers** · articles **G1** (logiciel CGP) et **E3** (agrégateur de
 - Le seuil de 250 000 € n'est pas une règle : c'est le **résultat d'un calcul** de coût de service.
 - Le coût complet d'un suivi annuel se chiffre, et la plupart des cabinets ne l'ont jamais fait.
 - Trois leviers existent : **réduire le coût de service**, **changer de mode de rémunération**, ou **assumer une offre différenciée**.
-- Le renoncement silencieux — garder le client et ne plus le suivre — est la pire option, y compris sur le plan du risque.
+- Le renoncement silencieux, garder le client et ne plus le suivre, est la pire option, y compris sur le plan du risque.
 
 ### Posez d'abord le calcul
 
-**Exemple.** Un cabinet dont le coût de revient horaire complet est de 90 € — rémunération, charges, locaux, outils, conformité, formation.
+**Exemple.** Un cabinet dont le coût de revient horaire complet est de 90 € : rémunération, charges, locaux, outils, conformité, formation.
 
 Un suivi annuel standard mobilise : préparation 2 h, rendez-vous 1 h 30, formalisation et mise à jour documentaire 1 h 30, gestion administrative et conformité 1 h. Soit **6 heures**, environ **540 €** par an.
 
@@ -99,7 +99,7 @@ Un suivi annuel standard mobilise : préparation 2 h, rendez-vous 1 h 30, formal
 
 En intégrant l'amortissement de l'acquisition et du bilan initial sur quelques années, on retrouve mécaniquement des seuils compris entre 150 000 € et 300 000 €. C'est de là que vient le « seuil de 250 000 € », que personne n'a décrété.
 
-### Levier 1 — Réduire le coût de service
+### Levier 1. Réduire le coût de service
 
 C'est le levier le plus efficace, parce qu'il joue sur les 6 heures plutôt que sur le tarif.
 
@@ -107,13 +107,13 @@ La préparation est la ligne la plus compressible : la collecte automatisée en 
 
 Si les 6 heures passent à 3 h 30, le coût annuel tombe à 315 € et le seuil d'équilibre à 1 % descend à 31 500 €. Le même client devient rentable sans que rien n'ait changé dans son dossier.
 
-### Levier 2 — Changer de mode de rémunération
+### Levier 2. Changer de mode de rémunération
 
 Un bilan patrimonial facturé en honoraires, sans engagement de suivi, rend économiquement viable une intervention sur un patrimoine modeste. Le client paie la valeur reçue, vous n'assumez pas un suivi non financé.
 
 Cette approche suppose deux choses : une **lettre de mission** bornant strictement le périmètre, et un discours assumé sur le prix. Beaucoup de cabinets hésitent à facturer des honoraires visibles alors qu'ils prélèvent depuis toujours des frais invisibles nettement supérieurs.
 
-### Levier 3 — Assumer une offre différenciée
+### Levier 3. Assumer une offre différenciée
 
 Segmentez explicitement. Un suivi annuel complet pour un segment, un point tous les deux ans plus un accès à des ressources pour un autre, une intervention ponctuelle à la demande pour un troisième.
 
@@ -127,7 +127,7 @@ Si un dossier n'est plus servi, deux issues propres existent : une offre allég�
 
 ### La dimension qui dépasse le cabinet
 
-Ce calcul explique une réalité collective : une part importante des épargnants français n'a jamais accès à un conseil individualisé, non par refus mais par arithmétique. Or ces ménages prennent les mêmes décisions structurantes que les autres — arbitrage entre enveloppes, préparation d'une transmission, choix d'un horizon — avec des enjeux proportionnellement identiques.
+Ce calcul explique une réalité collective : une part importante des épargnants français n'a jamais accès à un conseil individualisé, non par refus mais par arithmétique. Or ces ménages prennent les mêmes décisions structurantes que les autres (arbitrage entre enveloppes, préparation d'une transmission, choix d'un horizon) avec des enjeux proportionnellement identiques.
 
 Toute baisse durable du coût de service déplace ce seuil. C'est le sens des chantiers d'automatisation décrits dans **Logiciel CGP : les huit fonctions qui font réellement la différence** et **Digitaliser un cabinet de gestion de patrimoine : par où commencer**.
 
@@ -156,7 +156,7 @@ Page **Conseillers** · articles **G2** (digitalisation), **E5** (coût d'un con
 
 ### Les quatre conditions
 
-**La capacité professionnelle.** Elle s'établit par un diplôme de niveau adéquat dans une discipline juridique, économique ou de gestion, par une expérience professionnelle d'une durée déterminée dans des fonctions pertinentes, ou par une formation professionnelle adaptée. Les modalités précises sont fixées par le règlement général de l'AMF, et votre future association vous confirmera l'éligibilité de votre parcours — c'est d'ailleurs la première démarche utile.
+**La capacité professionnelle.** Elle s'établit par un diplôme de niveau adéquat dans une discipline juridique, économique ou de gestion, par une expérience professionnelle d'une durée déterminée dans des fonctions pertinentes, ou par une formation professionnelle adaptée. Les modalités précises sont fixées par le règlement général de l'AMF, et votre future association vous confirmera l'éligibilité de votre parcours : c'est d'ailleurs la première démarche utile.
 
 **L'honorabilité.** Absence de condamnations et d'incapacités prévues par le Code monétaire et financier, vérifiée à l'immatriculation.
 
@@ -168,15 +168,15 @@ Page **Conseillers** · articles **G2** (digitalisation), **E5** (coût d'un con
 
 Elle surprend souvent ceux qui découvrent le parcours, car elle ne commence pas par l'ORIAS.
 
-**Étape 1 — Choisir et contacter une association agréée.** C'est elle qui instruit votre dossier de capacité professionnelle. Commencer par là évite de construire un projet sur une hypothèse d'éligibilité fausse.
+**Étape 1. Choisir et contacter une association agréée.** C'est elle qui instruit votre dossier de capacité professionnelle. Commencer par là évite de construire un projet sur une hypothèse d'éligibilité fausse.
 
-**Étape 2 — Constituer le dossier d'adhésion** : justificatifs de capacité, honorabilité, projet d'activité, procédures internes.
+**Étape 2. Constituer le dossier d'adhésion** : justificatifs de capacité, honorabilité, projet d'activité, procédures internes.
 
-**Étape 3 — Souscrire l'assurance RC professionnelle**, dont l'attestation est requise.
+**Étape 3. Souscrire l'assurance RC professionnelle**, dont l'attestation est requise.
 
-**Étape 4 — S'immatriculer à l'ORIAS**, au registre unique des intermédiaires. L'immatriculation est **annuelle** : son renouvellement suppose de justifier chaque année du maintien des conditions.
+**Étape 4. S'immatriculer à l'ORIAS**, au registre unique des intermédiaires. L'immatriculation est **annuelle** : son renouvellement suppose de justifier chaque année du maintien des conditions.
 
-**Étape 5 — Mettre en place les obligations permanentes** : procédures de lutte contre le blanchiment, dispositif de traitement des réclamations, désignation d'un médiateur, documents d'information clients, registre des conservations.
+**Étape 5. Mettre en place les obligations permanentes** : procédures de lutte contre le blanchiment, dispositif de traitement des réclamations, désignation d'un médiateur, documents d'information clients, registre des conservations.
 
 ### Les statuts adjacents, et pourquoi ils comptent
 
@@ -224,7 +224,7 @@ Page **Conseillers** · articles **G10** (LCB-FT) et **G4** (lettre de mission).
 - La **classification des risques** du cabinet est le document fondateur : sans elle, rien de ce qui suit n'est justifiable.
 - L'obligation de déclaration s'apprécie sur un **soupçon**, pas sur une certitude, et elle est couverte par la confidentialité.
 
-### Bloc 1 — La classification des risques
+### Bloc 1. La classification des risques
 
 C'est le document que les cabinets omettent le plus souvent, et celui par lequel tout contrôle commence.
 
@@ -234,7 +234,7 @@ De cette classification découle le niveau de vigilance appliqué à chaque rela
 
 Le document doit être écrit, daté et actualisé.
 
-### Bloc 2 — La vigilance
+### Bloc 2. La vigilance
 
 **À l'entrée en relation.** Identification du client et vérification de son identité sur pièce probante ; identification du **bénéficiaire effectif** lorsque le client est une personne morale ; recueil d'informations sur l'objet et la nature de la relation d'affaires ; vérification du statut de **personne politiquement exposée**.
 
@@ -244,13 +244,13 @@ Le document doit être écrit, daté et actualisé.
 
 **L'origine des fonds** est un point récurrent : pour un versement significatif, la traçabilité doit être documentée, pas supposée.
 
-### Bloc 3 — La conservation
+### Bloc 3. La conservation
 
 Les documents d'identification et les pièces relatives aux opérations se conservent **cinq ans** à compter de la fin de la relation d'affaires ou de l'exécution de l'opération.
 
 Cette durée coexiste avec d'autres obligations de conservation issues du droit financier et avec les principes de limitation du RGPD. Documentez la durée retenue pour chaque catégorie de pièce : c'est la seule façon de tenir les deux exigences ensemble.
 
-### Bloc 4 — La déclaration de soupçon
+### Bloc 4. La déclaration de soupçon
 
 Elle est adressée à **Tracfin** lorsque vous savez, soupçonnez ou avez de bonnes raisons de soupçonner que des sommes proviennent d'une infraction passible d'une peine privative de liberté supérieure à un an ou participent au financement du terrorisme.
 
@@ -264,7 +264,7 @@ Le déclarant de bonne foi bénéficie d'une **exonération de responsabilité**
 
 ### L'organisation minimale
 
-Désignez un **responsable** de la mise en œuvre du dispositif et un **déclarant** auprès de Tracfin — dans un petit cabinet, ce sera souvent le dirigeant, mais la désignation doit être formalisée.
+Désignez un **responsable** de la mise en œuvre du dispositif et un **déclarant** auprès de Tracfin : dans un petit cabinet, ce sera souvent le dirigeant, mais la désignation doit être formalisée.
 
 Formez les collaborateurs, et conservez la preuve de la formation.
 
@@ -301,11 +301,11 @@ Page **Sécurité et conformité** · articles **G9** (devenir CIF) et **G12** (
 
 **La marque blanche.** Le service est diffusé sous votre identité visuelle et votre nom. Le client final ignore, le plus souvent, l'identité du prestataire technique. Vous achetez une extension de votre offre.
 
-Un modèle intermédiaire existe, la **marque grise**, où les deux marques coexistent — « propulsé par ». Il réduit l'ambiguïté sans renoncer à l'intégration.
+Un modèle intermédiaire existe, la **marque grise**, où les deux marques coexistent : « propulsé par ». Il réduit l'ambiguïté sans renoncer à l'intégration.
 
 ### Ce que la marque blanche change juridiquement
 
-**Vous devenez l'interlocuteur unique du client final.** Toute défaillance du prestataire — indisponibilité, erreur de calcul, incident de sécurité — est perçue comme la vôtre, et vous en répondez contractuellement devant le client.
+**Vous devenez l'interlocuteur unique du client final.** Toute défaillance du prestataire (indisponibilité, erreur de calcul, incident de sécurité) est perçue comme la vôtre, et vous en répondez contractuellement devant le client.
 
 **La répartition des responsabilités doit être écrite.** Le contrat doit préciser qui répond de quoi, quels engagements de niveau de service s'appliquent, quelles pénalités en découlent, et comment les incidents sont traités.
 
@@ -331,7 +331,7 @@ La **propriété des données** et la garantie qu'elles ne seront pas utilisées
 
 Le **sort du contrat en cas de changement de contrôle** du prestataire.
 
-L'**exclusivité** éventuelle : sectorielle, géographique, ou absence d'exclusivité — sachant que son absence signifie que vos concurrents peuvent distribuer le même service sous leur propre marque.
+L'**exclusivité** éventuelle : sectorielle, géographique, ou absence d'exclusivité, sachant que son absence signifie que vos concurrents peuvent distribuer le même service sous leur propre marque.
 
 ### La question préalable
 
@@ -408,7 +408,7 @@ Un parcours entièrement digital n'est pas interdit ; un parcours digital sans d
 
 Avec réservation en ligne, questionnaire et pièces collectés en amont, le premier rendez-vous devient utile immédiatement. Le délai tombe autour de **8 jours**, et un rendez-vous est économisé par dossier.
 
-Sur quarante entrées en relation par an, cela représente quarante rendez-vous libérés — et une probabilité de conclusion sensiblement meilleure.
+Sur quarante entrées en relation par an, cela représente quarante rendez-vous libérés, et une probabilité de conclusion sensiblement meilleure.
 
 ### Sources
 

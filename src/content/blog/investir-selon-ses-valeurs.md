@@ -29,7 +29,7 @@ sources: "Règlement (UE) 2019/2088 dit SFDR · Référentiel du label ISR, vers
 
 ## Trois démarches que tout le monde confond
 
-**L'exclusion.** Tu décides de ne pas financer certains secteurs : armement, tabac, charbon, jeux d'argent. C'est la démarche la plus lisible et la plus vérifiable. Son effet direct sur les entreprises concernées est limité — ton refus d'acheter une action sur le marché secondaire ne prive l'entreprise d'aucun capital — mais son effet sur la cohérence de ton propre patrimoine est immédiat et réel.
+**L'exclusion.** Tu décides de ne pas financer certains secteurs : armement, tabac, charbon, jeux d'argent. C'est la démarche la plus lisible et la plus vérifiable. Son effet direct sur les entreprises concernées est limité (ton refus d'acheter une action sur le marché secondaire ne prive l'entreprise d'aucun capital), mais son effet sur la cohérence de ton propre patrimoine est immédiat et réel.
 
 **La sélection des meilleurs profils, dite best-in-class.** Tu gardes tous les secteurs, mais tu retiens dans chacun les entreprises les mieux notées sur les critères environnementaux, sociaux et de gouvernance. C'est l'approche dominante des fonds labellisés en France. Elle a une conséquence contre-intuitive qu'il faut assumer : un fonds best-in-class peut détenir une compagnie pétrolière, au motif qu'elle est la mieux notée de son secteur.
 
@@ -49,7 +49,7 @@ Cette étape paraît accessoire. Elle ne l'est pas : c'est elle qui rend possibl
 
 **Exemple.** Inès, 31 ans, déclare vouloir exclure les énergies fossiles. Elle détient 15 000 € sur un fonds « actions monde » classé article 8 dans son assurance-vie.
 
-Elle ouvre le document d'informations clés, puis le rapport de composition trimestriel. Elle y trouve trois producteurs d'hydrocarbures parmi les cinquante premières lignes, représentant environ 4 % de l'actif du fonds — soit **600 € de son épargne**.
+Elle ouvre le document d'informations clés, puis le rapport de composition trimestriel. Elle y trouve trois producteurs d'hydrocarbures parmi les cinquante premières lignes, représentant environ 4 % de l'actif du fonds, soit **600 € de son épargne**.
 
 Rien d'illégal ni de trompeur : le fonds promeut des caractéristiques environnementales, ce qui n'implique aucune exclusion sectorielle. Le décalage vient de ce qu'Inès a lu une étiquette et non un contenu.
 

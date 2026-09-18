@@ -81,4 +81,4 @@ Mais le législateur a dressé une liste limitative d'exceptions, et **l'assuran
 
 Conséquence : sur les seuls prélèvements sociaux, l'assurance-vie bénéficie désormais d'un avantage de 1,4 point. Le PFU de droit commun est passé à 31,4 %, celui de l'assurance-vie avant huit ans reste à 30 %.
 
-Cela ne fait pas de l'assurance-vie « le meilleur placement » — la formule n'a aucun sens hors d'une situation donnée. Cela déplace un curseur, et mérite d'être intégré dans un arbitrage entre enveloppes.
+Cela ne fait pas de l'assurance-vie « le meilleur placement » : la formule n'a aucun sens hors d'une situation donnée. Cela déplace un curseur, et mérite d'être intégré dans un arbitrage entre enveloppes.

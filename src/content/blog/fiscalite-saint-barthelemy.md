@@ -32,8 +32,8 @@ sources: "Code général des collectivités territoriales, article LO 6214-4, mo
 | Statut | Collectivité d'outre-mer dotée de l'autonomie, article 74 de la Constitution, loi n° 2007-223 du 21 février 2007 |
 | Compétence fiscale | Propre, exercée par délibérations, réunies dans un **Code de contributions** |
 | Application du CGI | **Non**, sauf mention expresse |
-| Condition de résidence — personnes physiques | **5 ans au moins** (art. LO 6214-4, I, 1° du CGCT) |
-| Condition de résidence — personnes morales | Siège de direction effective depuis **5 ans**, ou siège de direction effective et contrôle par des personnes physiques résidentes depuis 5 ans |
+| Condition de résidence, personnes physiques | **5 ans au moins** (art. LO 6214-4, I, 1° du CGCT) |
+| Condition de résidence, personnes morales | Siège de direction effective depuis **5 ans**, ou siège de direction effective et contrôle par des personnes physiques résidentes depuis 5 ans |
 | Critères de résidence retenus localement | Alignés sur ceux de l'article 4 B du CGI |
 | Échange d'informations avec l'État | Prévu par l'article LO 6214-4 du CGCT |
 
@@ -45,13 +45,13 @@ Pour les personnes morales, la même disposition exige soit l'installation du si
 
 Ces conditions sont reprises dans le Code de contributions local.
 
-La portée de cette restriction a été précisée par un avis du Conseil d'État du 20 novembre 2013, n° 369796, rendu pour l'application du statut de Saint-Barthélemy — avis dont les services de Saint-Martin relèvent qu'il vaut également pour leur collectivité, les textes étant rédigés dans les mêmes termes.
+La portée de cette restriction a été précisée par un avis du Conseil d'État du 20 novembre 2013, n° 369796, rendu pour l'application du statut de Saint-Barthélemy, avis dont les services de Saint-Martin relèvent qu'il vaut également pour leur collectivité, les textes étant rédigés dans les mêmes termes.
 
 ## Ce que cela signifie concrètement
 
 **Pendant les cinq premières années**, une personne physique arrivant d'un département métropolitain ou d'outre-mer reste fiscalement domiciliée en France. Elle relève du Code général des impôts, déclare ses revenus mondiaux à l'administration française, et n'accède pas au régime local.
 
-**Après cinq ans**, et sous réserve de remplir les critères de résidence — que le code local aligne sur ceux de l'article 4 B du CGI — elle devient fiscalement domiciliée à Saint-Barthélemy et relève du code local.
+**Après cinq ans**, et sous réserve de remplir les critères de résidence (que le code local aligne sur ceux de l'article 4 B du CGI), elle devient fiscalement domiciliée à Saint-Barthélemy et relève du code local.
 
 Le délai court à compter de la résidence effective, ce qui suppose de pouvoir la démontrer. Comme pour toute question de résidence, ce sont les faits qui comptent : logement, présence, vie quotidienne, scolarisation.
 
@@ -73,7 +73,7 @@ Le Code de contributions organise une fiscalité sensiblement différente de cel
 
 **Anticiper le bénéfice du régime local dès l'installation.** Cinq ans, c'est cinq ans.
 
-**Structurer une société locale sans vérifier la condition des cinq ans**, qui s'applique aussi aux personnes morales et conditionne, notamment, l'appartenance à un groupe d'intégration fiscale — l'administration a publié un rescrit sur ce point.
+**Structurer une société locale sans vérifier la condition des cinq ans**, qui s'applique aussi aux personnes morales et conditionne, notamment, l'appartenance à un groupe d'intégration fiscale : l'administration a publié un rescrit sur ce point.
 
 **Oublier l'exit tax.** Un transfert de domicile fiscal vers Saint-Barthélemy pose la question du champ de l'article 167 bis du CGI, qui doit être examinée spécifiquement au regard du statut de la collectivité.
 

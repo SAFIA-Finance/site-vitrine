@@ -43,7 +43,7 @@ Le contenu en ligne est **quasi inexistant**, ce qui rend le positionnement faci
 
 Les résidents et les personnes qui y ont des attaches patrimoniales n'ont aucune ressource pédagogique fiable.
 
-Et les questions qu'ils se posent — où suis-je imposé, que devient mon patrimoine métropolitain, comment se règle une succession — sont exactement celles auxquelles ce blog répond ailleurs.
+Et les questions qu'ils se posent (où suis-je imposé, que devient mon patrimoine métropolitain, comment se règle une succession) sont exactement celles auxquelles ce blog répond ailleurs.
 
 ## Le point de méthode
 

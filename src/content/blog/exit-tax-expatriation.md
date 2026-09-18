@@ -62,7 +62,7 @@ L'immobilier est hors champ : il suit son propre régime, celui des plus-values 
 *Plus-value latente :* 1 500 000 − 900 000 = **600 000 €**.
 *Exit tax théorique :* 600 000 × 31,4 % = **188 400 €**.
 
-Ce montant est figé au jour du départ. Il ne bougera plus, même si la valeur des titres évolue ensuite — et c'est un point favorable au contribuable lorsque les marchés montent après le départ, défavorable lorsqu'ils baissent, auquel cas un mécanisme de révision à la baisse peut jouer lors de la cession effective.
+Ce montant est figé au jour du départ. Il ne bougera plus, même si la valeur des titres évolue ensuite, et c'est un point favorable au contribuable lorsque les marchés montent après le départ, défavorable lorsqu'ils baissent, auquel cas un mécanisme de révision à la baisse peut jouer lors de la cession effective.
 
 Si les revenus de Claire dépassent les seuils de la contribution exceptionnelle sur les hauts revenus, une majoration de 3 % ou 4 % s'ajoute.
 
@@ -74,7 +74,7 @@ Dans la plupart des cas, l'exit tax n'est pas décaissée. Encore faut-il savoir
 
 La liste applicable est celle publiée par l'administration **au jour du transfert**. Pour les départs 2026, le Royaume-Uni y figure. La Suisse et les Émirats arabes unis n'y figurent pas.
 
-**Le sursis sur option.** Pour les autres destinations, il faut une déclaration déposée dans les quatre-vingt-dix jours précédant le transfert, la désignation d'un représentant fiscal établi en France, et la constitution de garanties — caution bancaire, nantissement de titres — couvrant l'impôt dû.
+**Le sursis sur option.** Pour les autres destinations, il faut une déclaration déposée dans les quatre-vingt-dix jours précédant le transfert, la désignation d'un représentant fiscal établi en France, et la constitution de garanties (caution bancaire, nantissement de titres) couvrant l'impôt dû.
 
 L'écart de contrainte entre les deux régimes est considérable, et il constitue à lui seul un paramètre de décision sur la destination. Vérifiez la liste applicable avant d'arrêter un pays, pas après.
 
@@ -84,7 +84,7 @@ C'est le point qui rend le dispositif supportable : si vous conservez vos titres
 
 Le délai est de **deux ans** lorsque la valeur globale des titres au départ n'excède pas 2 570 000 €, et de **cinq ans** au-delà.
 
-Pendant ce délai, vous devez déposer chaque année le formulaire de suivi 2074-ETSL. L'omission de cette déclaration annuelle peut mettre fin au sursis et rendre l'impôt exigible — c'est la cause la plus fréquente de sinistre sur ce dispositif, et elle est entièrement évitable.
+Pendant ce délai, vous devez déposer chaque année le formulaire de suivi 2074-ETSL. L'omission de cette déclaration annuelle peut mettre fin au sursis et rendre l'impôt exigible : c'est la cause la plus fréquente de sinistre sur ce dispositif, et elle est entièrement évitable.
 
 Le sursis prend également fin en cas de cession, rachat, remboursement ou annulation des titres, ainsi que dans les autres cas prévus par le texte.
 

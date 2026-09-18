@@ -31,7 +31,7 @@ sources: "Référentiel du label ISR, version applicable depuis mars 2024, minis
 
 C'est la distinction la plus utile de tout ce sujet.
 
-La classification SFDR — article 6, 8 ou 9 — est **choisie par la société de gestion elle-même**, sans audit externe systématique. Elle relève d'une obligation de transparence, pas d'une certification.
+La classification SFDR (article 6, 8 ou 9) est **choisie par la société de gestion elle-même**, sans audit externe systématique. Elle relève d'une obligation de transparence, pas d'une certification.
 
 Un label est attribué après **contrôle par un organisme tiers indépendant**, sur la base d'un référentiel public, avec des audits de suivi et une possibilité de retrait. Cette différence de nature explique pourquoi un label reste, pour un épargnant, un repère plus solide qu'une étiquette réglementaire.
 
@@ -41,13 +41,13 @@ Les deux coexistent : un fonds peut être classé article 9 et porter le label I
 
 **Le label ISR.** Créé par le ministère de l'Économie en 2016, c'est le plus répandu. Sa réforme, entrée en vigueur en mars 2024, a durci les exigences : exclusion des entreprises développant de nouveaux projets d'exploration ou d'exploitation d'énergies fossiles, renforcement des obligations de transparence, seuils d'exclusion plus larges.
 
-L'effet a été mesurable : environ **330 fonds ont perdu leur label**, l'offre labellisée passant d'environ 1 340 à 970 fonds. C'est le signe d'un référentiel qui mord réellement — un label que personne ne perd ne garantit rien.
+L'effet a été mesurable : environ **330 fonds ont perdu leur label**, l'offre labellisée passant d'environ 1 340 à 970 fonds. C'est le signe d'un référentiel qui mord réellement : un label que personne ne perd ne garantit rien.
 
 **Le label Greenfin.** Porté par le ministère de la Transition écologique, il est centré exclusivement sur l'environnement, sans dimension sociale. Il est plus exigeant que l'ISR sur le périmètre d'exclusion, puisqu'il écarte à la fois les énergies fossiles **et la filière nucléaire**. Cette exclusion du nucléaire est un choix contesté en France, et il faut le savoir : elle peut ne pas correspondre à tes convictions.
 
 L'offre labellisée Greenfin reste nettement plus étroite que l'offre ISR.
 
-**Le label Finansol.** Il ne certifie pas une performance environnementale mais la **solidarité** du placement : une part de l'encours finance des activités à forte utilité sociale — logement très social, insertion par l'activité économique, microcrédit, agriculture biologique.
+**Le label Finansol.** Il ne certifie pas une performance environnementale mais la **solidarité** du placement : une part de l'encours finance des activités à forte utilité sociale : logement très social, insertion par l'activité économique, microcrédit, agriculture biologique.
 
 C'est le seul des trois qui garantisse un financement direct plutôt qu'une sélection de titres cotés.
 

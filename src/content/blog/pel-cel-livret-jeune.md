@@ -37,7 +37,7 @@ Le calcul net donne donc 2 % × 0,70 = **1,40 % net environ**, contre 1,70 % net
 
 Ce qui peut encore justifier un PEL, c'est le **droit à prêt**, à un taux connu d'avance. Sa valeur dépend entièrement du niveau des taux immobiliers au moment où tu emprunteras. Si les taux de marché sont plus bas que ton droit à prêt, ce droit ne vaut rien.
 
-**Exemple.** Julien ouvre un PEL en 2026 et y verse 540 € par an pendant quatre ans, soit 2 160 €. Les intérêts nets cumulés approchent 110 €. Sur un livret A, la même somme versée au même rythme aurait produit environ 135 € — sans blocage ni engagement de versement.
+**Exemple.** Julien ouvre un PEL en 2026 et y verse 540 € par an pendant quatre ans, soit 2 160 €. Les intérêts nets cumulés approchent 110 €. Sur un livret A, la même somme versée au même rythme aurait produit environ 135 €, sans blocage ni engagement de versement.
 
 ## Le CEL : peu d'arguments
 

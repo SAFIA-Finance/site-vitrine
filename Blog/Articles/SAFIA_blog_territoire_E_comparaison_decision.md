@@ -28,7 +28,7 @@ Bloc auteur et avertissement repris en fin de chaque article :
 
 Un robo-advisor propose un service de gestion : tu lui confies une somme, il l'investit selon une allocation correspondant à ton profil, puis il la surveille et la réajuste.
 
-Juridiquement, cela suppose un mandat, donc un cadre réglementé — mandat d'arbitrage en assurance-vie, ou gestion sous mandat sur un compte-titres, selon la structure. Ce n'est pas un service d'information : c'est une délégation de décision.
+Juridiquement, cela suppose un mandat, donc un cadre réglementé : mandat d'arbitrage en assurance-vie, ou gestion sous mandat sur un compte-titres, selon la structure. Ce n'est pas un service d'information : c'est une délégation de décision.
 
 Le terme est régulièrement employé à tort pour désigner des outils qui n'ont rien à voir. Trois catégories se distinguent nettement.
 
@@ -203,7 +203,7 @@ Elle impose aux banques de mettre à disposition une interface dédiée permetta
 
 **Il ne peut pas** déplacer ton argent au titre de l'accès en consultation. L'initiation de paiement est un service distinct, soumis à un agrément distinct et à une validation explicite pour chaque opération.
 
-Le consentement est **limité dans le temps** : la réglementation impose un renouvellement périodique de l'autorisation d'accès. C'est la raison pour laquelle les applications de suivi demandent régulièrement de reconnecter les comptes — ce n'est pas un défaut technique, c'est une obligation.
+Le consentement est **limité dans le temps** : la réglementation impose un renouvellement périodique de l'autorisation d'accès. C'est la raison pour laquelle les applications de suivi demandent régulièrement de reconnecter les comptes : ce n'est pas un défaut technique, c'est une obligation.
 
 ### Ce que l'agrégation permet concrètement
 
@@ -281,7 +281,7 @@ Et l'effet se compose : l'argent prélevé cette année ne produira jamais de re
 
 | Frais annuels totaux | Capital au bout de 20 ans | Écart avec 0,5 % |
 |---|---|---|
-| 0,5 % | 120 500 € | — |
+| 0,5 % | 120 500 € | - |
 | 1,0 % | 109 600 € | −10 900 € |
 | 1,5 % | 99 600 € | −20 900 € |
 | 2,0 % | 90 500 € | −30 000 € |
@@ -357,9 +357,9 @@ Page **Tarifs** · articles **B7** (frais d'assurance-vie) et **E2** (gestion pi
 
 **Les honoraires.** Le client paie directement, au temps passé ou au forfait. Les ordres de grandeur observés pour un bilan patrimonial complet vont de quelques centaines à plusieurs milliers d'euros selon la complexité. L'avantage est la clarté : le conseiller n'a pas d'intérêt au produit retenu. L'inconvénient est que le coût est visible et immédiat, ce qui le rend psychologiquement plus lourd que des frais prélevés silencieusement.
 
-**Les rétrocessions.** Le conseiller est rémunéré par le producteur du produit souscrit, sur les frais d'entrée et sur une part des frais de gestion. Le client ne paie rien en apparence. Le coût existe pourtant : il est inclus dans les frais du contrat. Cette structure crée une incitation à orienter vers les produits les mieux rémunérés — ce qui ne signifie pas que tous les conseillers y cèdent, mais l'incitation existe et doit être connue.
+**Les rétrocessions.** Le conseiller est rémunéré par le producteur du produit souscrit, sur les frais d'entrée et sur une part des frais de gestion. Le client ne paie rien en apparence. Le coût existe pourtant : il est inclus dans les frais du contrat. Cette structure crée une incitation à orienter vers les produits les mieux rémunérés, ce qui ne signifie pas que tous les conseillers y cèdent, mais l'incitation existe et doit être connue.
 
-**Le pourcentage des encours.** Le conseiller perçoit une fraction annuelle du patrimoine suivi, souvent entre 0,5 % et 1,5 %. L'incitation est alignée sur la croissance du patrimoine, mais elle décourage les recommandations qui font sortir des actifs du périmètre — rembourser un crédit, acheter un bien immobilier, faire une donation.
+**Le pourcentage des encours.** Le conseiller perçoit une fraction annuelle du patrimoine suivi, souvent entre 0,5 % et 1,5 %. L'incitation est alignée sur la croissance du patrimoine, mais elle décourage les recommandations qui font sortir des actifs du périmètre : rembourser un crédit, acheter un bien immobilier, faire une donation.
 
 Beaucoup de cabinets combinent deux de ces modes.
 
@@ -375,11 +375,11 @@ Ces documents ne sont pas des formalités : ce sont tes éléments de preuve en 
 
 Aucun texte ne fixe de montant minimal. Le seuil résulte d'une arithmétique simple.
 
-**Exemple.** Un cabinet rémunéré à 1 % des encours perçoit 1 000 € par an pour un client détenant 100 000 €. Un suivi sérieux — bilan initial, point annuel, veille réglementaire, gestion administrative, obligations de conformité — mobilise plusieurs heures par an. À ce niveau de revenu, le suivi n'est pas rentable, et le cabinet arbitre.
+**Exemple.** Un cabinet rémunéré à 1 % des encours perçoit 1 000 € par an pour un client détenant 100 000 €. Un suivi sérieux (bilan initial, point annuel, veille réglementaire, gestion administrative, obligations de conformité) mobilise plusieurs heures par an. À ce niveau de revenu, le suivi n'est pas rentable, et le cabinet arbitre.
 
 Avec 250 000 €, le même client génère 2 500 € par an, ce qui rend l'accompagnement viable.
 
-C'est ainsi que se forme un seuil de fait : non par refus explicite, mais par sélection économique. Il explique pourquoi une part importante des épargnants français n'a jamais eu accès à un conseil patrimonial individualisé, alors même que leur situation en justifierait un — un premier achat immobilier, une transmission à préparer, un choix entre PER et assurance-vie sont des décisions qui engagent des montants significatifs quel que soit le patrimoine de départ.
+C'est ainsi que se forme un seuil de fait : non par refus explicite, mais par sélection économique. Il explique pourquoi une part importante des épargnants français n'a jamais eu accès à un conseil patrimonial individualisé, alors même que leur situation en justifierait un : un premier achat immobilier, une transmission à préparer, un choix entre PER et assurance-vie sont des décisions qui engagent des montants significatifs quel que soit le patrimoine de départ.
 
 ### Quelles options en dessous du seuil
 

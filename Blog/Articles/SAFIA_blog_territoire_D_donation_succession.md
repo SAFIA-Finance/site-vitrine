@@ -30,11 +30,11 @@ Bloc auteur et avertissement repris en fin de chaque article :
 
 L'administration ne taxe pas la succession globalement. Elle calcule les droits **héritier par héritier**.
 
-**Étape 1 — déterminer l'actif net taxable.** On additionne les biens du défunt, on retranche les dettes et les frais funéraires dans une certaine limite. Les capitaux d'assurance-vie en sont exclus, ils relèvent d'un régime distinct.
+**Étape 1. déterminer l'actif net taxable.** On additionne les biens du défunt, on retranche les dettes et les frais funéraires dans une certaine limite. Les capitaux d'assurance-vie en sont exclus, ils relèvent d'un régime distinct.
 
-**Étape 2 — répartir et appliquer l'abattement.** On détermine la part revenant à chaque héritier, puis on retire l'abattement correspondant à son lien de parenté.
+**Étape 2. répartir et appliquer l'abattement.** On détermine la part revenant à chaque héritier, puis on retire l'abattement correspondant à son lien de parenté.
 
-**Étape 3 — appliquer le barème** à ce qui reste, tranche par tranche.
+**Étape 3. appliquer le barème** à ce qui reste, tranche par tranche.
 
 ### Les abattements selon le lien de parenté
 
@@ -64,18 +64,18 @@ Ce barème est **inchangé depuis 2012**. Il n'est pas indexé sur l'inflation :
 
 ### Trois exemples chiffrés
 
-**Exemple 1 — Deux enfants, 300 000 € de patrimoine.**
+**Exemple 1. Deux enfants, 300 000 € de patrimoine.**
 Part de chaque enfant : 150 000 €. Après abattement : 50 000 €.
 Droits : (8 072 × 5 %) + (4 037 × 10 %) + (3 823 × 15 %) + (34 068 × 20 %) = 404 + 404 + 573 + 6 814 = **8 195 € par enfant**.
 Total : 16 390 €, soit 5,5 % de la succession.
 
-**Exemple 2 — Un enfant unique, 600 000 €.**
+**Exemple 2. Un enfant unique, 600 000 €.**
 Après abattement : 500 000 €.
 Droits : 404 + 404 + 573 + (484 068 × 20 %) = **98 195 €**, soit 16,4 % de la succession.
 
 L'écart avec l'exemple 1 illustre le double effet du nombre d'héritiers : les abattements se multiplient, et chaque part reste dans les tranches basses.
 
-**Exemple 3 — Un neveu, 100 000 €.**
+**Exemple 3. Un neveu, 100 000 €.**
 Après abattement de 7 967 € : 92 033 €.
 Taux unique de 55 % : **50 618 €**.
 Le neveu conserve moins de la moitié de ce qu'il reçoit. C'est ce cas qui justifie le recours à l'assurance-vie, dont le régime successoral ne dépend pas du lien de parenté.
@@ -167,7 +167,7 @@ La **donation-partage** fige les valeurs au jour de l'acte, à condition que tou
 
 ### Les formalités depuis 2026
 
-Le don manuel — argent, titres, bijoux remis directement — doit être **déclaré**, systématiquement. Depuis le 1er janvier 2026, cette déclaration se fait en ligne sur impots.gouv.fr, dans la rubrique de déclaration des dons.
+Le don manuel (argent, titres, bijoux remis directement) doit être **déclaré**, systématiquement. Depuis le 1er janvier 2026, cette déclaration se fait en ligne sur impots.gouv.fr, dans la rubrique de déclaration des dons.
 
 L'absence de déclaration ne fait courir aucun délai de quinze ans. Autrement dit, un don non déclaré ne commence jamais à « vieillir » fiscalement, et il sera réintégré intégralement au décès.
 
@@ -231,7 +231,7 @@ Le plafond s'apprécie **par couple donateur-bénéficiaire**. Quatre grands-par
 - Don familial de l'article 790 G : 31 865 € × 2 parents = **63 730 €**
 - **Total transmis sans aucun droit : 263 730 €**
 
-Et l'ensemble se reconstitue quinze ans plus tard, quand ils auront 83 ans — à l'exception du don familial, puisqu'ils auront dépassé 80 ans. C'est la raison pour laquelle le don familial doit être utilisé **avant** l'abattement classique quand le donateur approche de la limite d'âge : l'un a une date de péremption, l'autre non.
+Et l'ensemble se reconstitue quinze ans plus tard, quand ils auront 83 ans, à l'exception du don familial, puisqu'ils auront dépassé 80 ans. C'est la raison pour laquelle le don familial doit être utilisé **avant** l'abattement classique quand le donateur approche de la limite d'âge : l'un a une date de péremption, l'autre non.
 
 ### Le point de vigilance sur l'âge
 
@@ -377,7 +377,7 @@ Page **Cockpit stratégique** · articles **D2** (donation aux enfants) et **B6*
 
 **Semaines 1 à 4.** Choix du notaire, réunion des documents : livret de famille, contrat de mariage, titres de propriété, relevés bancaires, contrats d'assurance-vie. Le notaire interroge le fichier central des dispositions de dernières volontés pour vérifier l'existence d'un testament.
 
-**Mois 1 à 3.** Établissement de l'acte de notoriété, qui identifie les héritiers. Inventaire de l'actif et du passif. Évaluation des biens immobiliers — un point de friction fréquent, car une évaluation haute augmente les droits, tandis qu'une évaluation basse expose à un redressement et complique une revente.
+**Mois 1 à 3.** Établissement de l'acte de notoriété, qui identifie les héritiers. Inventaire de l'actif et du passif. Évaluation des biens immobiliers, un point de friction fréquent, car une évaluation haute augmente les droits, tandis qu'une évaluation basse expose à un redressement et complique une revente.
 
 **Mois 3 à 6.** Rédaction et dépôt de la **déclaration de succession** auprès de l'administration fiscale, accompagnée du paiement des droits. Le délai est de six mois pour un décès en France, un an s'il est survenu à l'étranger.
 
@@ -458,13 +458,13 @@ L'argument est d'autant plus fort que les enfants sont eux-mêmes établis et n'
 
 L'argument inverse existe et doit être dit : donner à un petit-enfant diminue la part de son parent. Quand les enfants ont des situations inégales, l'opération peut créer un déséquilibre durable. Elle se discute en famille, pas seulement avec un fiscaliste.
 
-### Outil 1 — L'abattement de donation
+### Outil 1. L'abattement de donation
 
 Chaque grand-parent peut donner **31 865 €** à chaque petit-enfant en franchise de droits, renouvelable tous les quinze ans. Il s'applique à toute nature de bien.
 
 Avec quatre grands-parents et trois petits-enfants, le potentiel atteint 382 380 € par cycle de quinze ans.
 
-### Outil 2 — Le don familial de sommes d'argent
+### Outil 2. Le don familial de sommes d'argent
 
 Il s'y ajoute, sous conditions : grand-parent de moins de 80 ans, petit-enfant majeur, et somme d'argent uniquement.
 
@@ -476,7 +476,7 @@ Il s'y ajoute, sous conditions : grand-parent de moins de 80 ans, petit-enfant m
 
 Si sa femme fait de même, le petit-fils reçoit **127 460 €**.
 
-### Outil 3 — L'assurance-vie
+### Outil 3. L'assurance-vie
 
 Désigner ses petits-enfants comme bénéficiaires d'un contrat alimenté avant 70 ans leur ouvre l'abattement de 152 500 € **chacun**, indépendamment du lien de parenté et en dehors de la succession.
 
@@ -486,7 +486,7 @@ C'est, de loin, le vecteur le plus puissant pour cette génération. Il présent
 
 Les enfants sont **héritiers réservataires** : la loi leur garantit une fraction minimale du patrimoine, qui dépend de leur nombre. Un grand-parent ne peut pas transmettre l'intégralité de ses biens à ses petits-enfants en déshéritant ses enfants.
 
-La quotité disponible — la part dont on dispose librement — est de la moitié du patrimoine avec un enfant, du tiers avec deux, du quart avec trois ou plus.
+La quotité disponible, la part dont on dispose librement, est de la moitié du patrimoine avec un enfant, du tiers avec deux, du quart avec trois ou plus.
 
 Les capitaux d'assurance-vie échappent en principe à cette règle, sauf primes manifestement exagérées.
 
@@ -541,7 +541,7 @@ L'assureur tient cette distinction dans ses registres. Au décès, il déclare s
 
 ### L'exonération des gains, l'avantage qu'on oublie
 
-C'est le point décisif, et il est systématiquement sous-estimé : sous le régime de l'article 757 B, **seules les primes versées sont taxables**. Tout ce que le contrat a produit — intérêts, plus-values — est transmis en totale exonération, quel que soit le montant.
+C'est le point décisif, et il est systématiquement sous-estimé : sous le régime de l'article 757 B, **seules les primes versées sont taxables**. Tout ce que le contrat a produit (intérêts, plus-values) est transmis en totale exonération, quel que soit le montant.
 
 **Exemple.** Denise verse 200 000 € sur un contrat à 72 ans. Elle décède à 89 ans. Le contrat vaut alors 340 000 €. Elle a désigné ses deux enfants.
 
@@ -549,7 +549,7 @@ C'est le point décisif, et il est systématiquement sous-estimé : sous le rég
 *Les 140 000 € de gains sont exonérés.*
 *Répartition :* 84 750 € pour chaque enfant, soumis au barème des droits de succession.
 
-Si aucun abattement successoral n'a déjà été consommé, ces 84 750 € entrent dans la part globale de chaque enfant et bénéficient de l'abattement de 100 000 € — ils peuvent donc ne rien coûter du tout.
+Si aucun abattement successoral n'a déjà été consommé, ces 84 750 € entrent dans la part globale de chaque enfant et bénéficient de l'abattement de 100 000 € : ils peuvent donc ne rien coûter du tout.
 
 Plus le contrat vit longtemps et produit, plus la part exonérée grandit.
 

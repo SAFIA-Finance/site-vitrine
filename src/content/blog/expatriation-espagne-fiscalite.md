@@ -22,7 +22,7 @@ sources: "Ley del Impuesto sobre la Renta de las Personas Físicas, régime spé
 
 | | |
 |---|---|
-| Régime pour impatriés | **Régime Beckham** — taux réduit sur les revenus du travail espagnols, durée limitée |
+| Régime pour impatriés | **Régime Beckham** : taux réduit sur les revenus du travail espagnols, durée limitée |
 | Revenus étrangers | Hors champ du régime pour l'essentiel, sauf revenus du travail |
 | Impôt sur la fortune | Oui, **variable selon la communauté autonome**, avec un impôt de solidarité national |
 | Succession | Barèmes **régionaux**, écarts considérables d'une communauté à l'autre |
@@ -32,7 +32,7 @@ sources: "Ley del Impuesto sobre la Renta de las Personas Físicas, régime spé
 
 C'est la spécificité espagnole, et elle est mal comprise depuis la France.
 
-L'impôt sur la fortune et les droits de succession relèvent largement des communautés autonomes, qui disposent d'un pouvoir de modulation étendu. Certaines appliquent des abattements très importants en ligne directe, d'autres non. Certaines ont neutralisé l'impôt sur la fortune, d'autres l'appliquent pleinement — l'État ayant répliqué par un impôt de solidarité national pour les patrimoines les plus élevés.
+L'impôt sur la fortune et les droits de succession relèvent largement des communautés autonomes, qui disposent d'un pouvoir de modulation étendu. Certaines appliquent des abattements très importants en ligne directe, d'autres non. Certaines ont neutralisé l'impôt sur la fortune, d'autres l'appliquent pleinement, l'État ayant répliqué par un impôt de solidarité national pour les patrimoines les plus élevés.
 
 Conséquence pratique : un patrimoine identique, transmis dans deux communautés autonomes différentes, peut supporter des droits sans commune mesure. La région de résidence doit donc être choisie **avant** de comparer l'Espagne à la France, et non l'inverse.
 

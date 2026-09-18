@@ -26,7 +26,7 @@ sources: "Loi de l'impôt sur le revenu canadienne, dispositions relatives à la
 | Niveaux d'imposition | Fédéral **et** provincial : l'écart entre provinces est significatif |
 | Succession | Pas de droits de succession, mais **présomption de disposition** au décès : les plus-values latentes sont imposées |
 | Convention avec la France | Oui |
-| Exit tax française | Sursis non automatique en principe — à vérifier selon la notice applicable |
+| Exit tax française | Sursis non automatique en principe, à vérifier selon la notice applicable |
 
 ## Le point le plus mal compris : la fiscalité au décès
 

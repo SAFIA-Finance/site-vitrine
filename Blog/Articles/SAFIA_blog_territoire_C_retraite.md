@@ -23,7 +23,7 @@ Bloc auteur et avertissement repris en fin de chaque article :
 
 - Trois données suffisent pour une première estimation : **trimestres validés**, **salaire annuel moyen**, **points de retraite complémentaire**.
 - Elles figurent toutes sur ton **relevé de carrière**, accessible gratuitement en ligne.
-- Le taux de remplacement — la part de ton dernier revenu que tu conserveras — est le seul indicateur qui compte vraiment.
+- Le taux de remplacement, la part de ton dernier revenu que tu conserveras, est le seul indicateur qui compte vraiment.
 - Une estimation officielle est **non contractuelle** et se dégrade à mesure que l'horizon s'éloigne.
 
 ### Où trouver tes données
@@ -32,11 +32,11 @@ Le portail public de l'assurance retraite met à disposition ton **relevé de ca
 
 Trois choses à y vérifier, dans cet ordre.
 
-**Les trimestres validés.** Ils déterminent si tu partiras à taux plein. Les périodes de chômage indemnisé, de maladie, de service national ou de maternité peuvent en valider — vérifie qu'elles apparaissent bien.
+**Les trimestres validés.** Ils déterminent si tu partiras à taux plein. Les périodes de chômage indemnisé, de maladie, de service national ou de maternité peuvent en valider : vérifie qu'elles apparaissent bien.
 
 **Les revenus reportés année par année.** C'est sur eux que sera calculé ton salaire annuel moyen. Les oublis existent, notamment pour les premières années de carrière, les emplois courts et les périodes à l'étranger.
 
-**Les points de retraite complémentaire.** Pour un salarié du privé, la retraite complémentaire représente une part importante de la pension totale — souvent près d'un tiers pour un non-cadre et davantage pour un cadre. Une estimation qui l'ignore n'a aucune valeur.
+**Les points de retraite complémentaire.** Pour un salarié du privé, la retraite complémentaire représente une part importante de la pension totale, souvent près d'un tiers pour un non-cadre et davantage pour un cadre. Une estimation qui l'ignore n'a aucune valeur.
 
 ### Le calcul, dans ses grandes lignes
 
@@ -44,7 +44,7 @@ La pension de base d'un salarié du privé se calcule à partir de trois éléme
 
 S'y ajoute la retraite complémentaire, calculée en multipliant le nombre de points acquis par la valeur du point à la date de liquidation.
 
-Le détail des paramètres — âge légal, nombre de trimestres requis, valeur du point — dépend de ta génération et évolue. Les valeurs applicables à ta situation figurent sur le portail officiel, et c'est la seule source à utiliser.
+Le détail des paramètres (âge légal, nombre de trimestres requis, valeur du point) dépend de ta génération et évolue. Les valeurs applicables à ta situation figurent sur le portail officiel, et c'est la seule source à utiliser.
 
 ### Le seul indicateur utile : le taux de remplacement
 
@@ -154,7 +154,7 @@ Elle dépend du choix fait à l'entrée.
 
 **Versements déduits.** À la sortie en capital, la part correspondant aux versements est imposée au **barème de l'impôt sur le revenu**, et les gains au prélèvement forfaitaire. Depuis 2026, les prélèvements sociaux applicables aux gains du PER sont de 18,6 %.
 
-**Versements non déduits.** Si tu as renoncé à la déduction à l'entrée — ce qui est pertinent quand tu n'es pas ou peu imposable —, la part correspondant aux versements ressort en franchise d'impôt, seuls les gains étant taxés.
+**Versements non déduits.** Si tu as renoncé à la déduction à l'entrée (ce qui est pertinent quand tu n'es pas ou peu imposable), la part correspondant aux versements ressort en franchise d'impôt, seuls les gains étant taxés.
 
 **En rente**, la fiscalité suit le régime des pensions ou celui des rentes viagères à titre onéreux, selon que les versements ont été déduits ou non.
 
@@ -218,7 +218,7 @@ Ce calcul par fraction est la source de déception la plus fréquente : l'éparg
 
 Reprenons le cas de Claire. Elle a placé 8 000 € et récupéré 2 730 € d'impôt. Son **effort d'épargne net** est de 5 270 €.
 
-C'est le chiffre à comparer avec un versement de 8 000 € sur une assurance-vie, qui coûte 8 000 €. Le PER lui permet donc de placer davantage à effort constant — à condition d'utiliser réellement l'économie d'impôt pour épargner, et non pour consommer. C'est l'hypothèse implicite de toutes les démonstrations commerciales sur le PER, et elle n'est pas toujours vérifiée dans les faits.
+C'est le chiffre à comparer avec un versement de 8 000 € sur une assurance-vie, qui coûte 8 000 €. Le PER lui permet donc de placer davantage à effort constant, à condition d'utiliser réellement l'économie d'impôt pour épargner, et non pour consommer. C'est l'hypothèse implicite de toutes les démonstrations commerciales sur le PER, et elle n'est pas toujours vérifiée dans les faits.
 
 ### Ce que l'économie n'est pas
 
@@ -291,7 +291,7 @@ Pour les **versements qui ont été déduits** à l'entrée :
 
 Pour les **versements non déduits**, la part versements ressort en franchise d'impôt sur le revenu ; seuls les gains sont taxés.
 
-En **rente**, le régime dépend là encore du choix d'entrée : régime des pensions avec abattement pour les versements déduits, régime des rentes viagères à titre onéreux — avec une fraction imposable variable selon l'âge au premier versement — pour les versements non déduits.
+En **rente**, le régime dépend là encore du choix d'entrée : régime des pensions avec abattement pour les versements déduits, régime des rentes viagères à titre onéreux (avec une fraction imposable variable selon l'âge au premier versement) pour les versements non déduits.
 
 ### Pourquoi le fractionnement change tout
 
@@ -311,7 +311,7 @@ Ces montants sont des ordres de grandeur, dépendants du barème applicable et d
 
 **Elle coûte** la disponibilité et la transmission : le capital est aliéné, et sauf option de réversion, il ne va pas à tes héritiers. Les options de réversion ou d'annuités garanties existent, mais elles réduisent le montant de la rente.
 
-Le **taux de conversion** — le montant de rente obtenu pour 100 000 € de capital — dépend de l'âge à la liquidation, des tables de mortalité et du taux technique. Demande-le par écrit, et compare-le entre assureurs : les écarts sont significatifs.
+Le **taux de conversion** (le montant de rente obtenu pour 100 000 € de capital) dépend de l'âge à la liquidation, des tables de mortalité et du taux technique. Demande-le par écrit, et compare-le entre assureurs : les écarts sont significatifs.
 
 ### La question non fiscale à se poser
 
@@ -320,7 +320,7 @@ As-tu d'autres revenus garantis à vie suffisants pour couvrir tes dépenses inc
 Si oui, le capital fractionné offre plus de souplesse.
 Si non, une part de rente sécurise le socle, et le reste peut rester en capital.
 
-Ce raisonnement — sécuriser d'abord les dépenses incompressibles, gérer le reste librement — est plus utile que le débat général sur la supériorité d'une modalité.
+Ce raisonnement (sécuriser d'abord les dépenses incompressibles, gérer le reste librement) est plus utile que le débat général sur la supériorité d'une modalité.
 
 ### Questions fréquentes
 
@@ -358,13 +358,13 @@ Page **Cockpit stratégique** · articles **C2** (PER) et **C7** (préparer sa r
 
 ### La méthode en quatre étapes
 
-**Étape 1 — Chiffrer le besoin réel.** Ce n'est pas la perte de revenu, c'est l'écart entre la pension attendue et les dépenses prévues à la retraite. Retire les charges qui disparaîtront : crédit immobilier remboursé, enfants autonomes, frais professionnels. Ajoute celles qui apparaîtront : santé, mutuelle senior, éventuellement aide à domicile.
+**Étape 1. Chiffrer le besoin réel.** Ce n'est pas la perte de revenu, c'est l'écart entre la pension attendue et les dépenses prévues à la retraite. Retire les charges qui disparaîtront : crédit immobilier remboursé, enfants autonomes, frais professionnels. Ajoute celles qui apparaîtront : santé, mutuelle senior, éventuellement aide à domicile.
 
-**Étape 2 — Convertir en capital.** Une règle de travail répandue consiste à retenir qu'un capital permet de servir environ 4 % par an sur une longue période sans s'épuiser trop vite. Pour 500 € de complément mensuel, soit 6 000 € par an, il faut donc de l'ordre de **150 000 €**. Cette règle est une convention, pas une loi : elle dépend du rendement réel, de l'inflation et de la durée.
+**Étape 2. Convertir en capital.** Une règle de travail répandue consiste à retenir qu'un capital permet de servir environ 4 % par an sur une longue période sans s'épuiser trop vite. Pour 500 € de complément mensuel, soit 6 000 € par an, il faut donc de l'ordre de **150 000 €**. Cette règle est une convention, pas une loi : elle dépend du rendement réel, de l'inflation et de la durée.
 
-**Étape 3 — Retirer l'existant.** Déduis le capital déjà constitué, en tenant compte de sa croissance probable jusqu'à l'échéance.
+**Étape 3. Retirer l'existant.** Déduis le capital déjà constitué, en tenant compte de sa croissance probable jusqu'à l'échéance.
 
-**Étape 4 — Calculer la mensualité.** Le montant à verser chaque mois pour atteindre l'objectif, selon l'horizon et le rendement retenu.
+**Étape 4. Calculer la mensualité.** Le montant à verser chaque mois pour atteindre l'objectif, selon l'horizon et le rendement retenu.
 
 ### Le tableau qui montre le poids de l'horizon
 
@@ -378,7 +378,7 @@ Objectif : **150 000 €**. Hypothèse de rendement : **4 % nets par an**.
 | 25 ans | 290 € | 87 000 € |
 | 30 ans | 215 € | 77 400 € |
 
-Lecture : entre vingt et trente ans d'épargne, l'effort mensuel est presque divisé par deux, et le total versé baisse de 21 000 € — la différence étant produite par les intérêts composés.
+Lecture : entre vingt et trente ans d'épargne, l'effort mensuel est presque divisé par deux, et le total versé baisse de 21 000 €, la différence étant produite par les intérêts composés.
 
 **L'hypothèse de 4 % nets est une hypothèse de calcul**, retenue pour illustrer la mécanique. Elle n'est pas garantie. Un placement en unités de compte peut perdre de la valeur, et un placement sans risque servira probablement moins.
 
@@ -441,7 +441,7 @@ Page **Assistant IA** · articles **C1** (estimer sa retraite), **C7** (prépare
 
 La pension de base se calcule en appliquant un taux au salaire annuel moyen. Ce taux atteint son maximum, dit taux plein, lorsque l'une de deux conditions est remplie : avoir la durée d'assurance requise pour sa génération, ou avoir atteint l'âge d'annulation de la décote.
 
-Les paramètres — âge légal de départ, durée requise, âge du taux plein automatique — dépendent de l'année de naissance et ont évolué avec les réformes successives. Les valeurs applicables à ta génération figurent sur le portail officiel de l'assurance retraite ; toute source secondaire risque d'être périmée.
+Les paramètres (âge légal de départ, durée requise, âge du taux plein automatique) dépendent de l'année de naissance et ont évolué avec les réformes successives. Les valeurs applicables à ta génération figurent sur le portail officiel de l'assurance retraite ; toute source secondaire risque d'être périmée.
 
 ### La décote
 
@@ -459,7 +459,7 @@ Elle se cumule avec le **coefficient de proratisation**, qui réduit déjà la p
 
 La surcote est souvent sous-évaluée dans les décisions de départ. Elle est elle aussi **définitive** et s'applique à vie. Sur une espérance de vie de vingt-cinq ans après le départ, quelques trimestres supplémentaires peuvent représenter un montant cumulé considérable.
 
-**Exemple.** Un assuré peut partir avec une pension de 1 600 €. En travaillant quatre trimestres de plus, sa pension passe à environ 1 680 €, soit 80 € de plus par mois, versés pendant vingt-cinq ans. Le cumul dépasse **24 000 €** — à comparer à une année de travail supplémentaire. Le calcul ne tranche pas seul, mais il mérite d'être posé avant de décider.
+**Exemple.** Un assuré peut partir avec une pension de 1 600 €. En travaillant quatre trimestres de plus, sa pension passe à environ 1 680 €, soit 80 € de plus par mois, versés pendant vingt-cinq ans. Le cumul dépasse **24 000 €**, à comparer à une année de travail supplémentaire. Le calcul ne tranche pas seul, mais il mérite d'être posé avant de décider.
 
 ### Ce qu'est vraiment un trimestre
 
@@ -519,7 +519,7 @@ Page **Cockpit stratégique** · articles **C1** (estimer sa retraite) et **C7**
 - À **50 ans**, l'horizon se raccourcit : la fiscalité, la sécurisation progressive et les leviers de carrière prennent le pas.
 - Une constante aux trois âges : **l'effort régulier bat l'effort intense et intermittent**.
 
-### À 30 ans — prendre date sans se contraindre
+### À 30 ans : prendre date sans se contraindre
 
 À cet âge, la retraite est à trente-cinq ans de distance. L'estimation officielle n'a qu'une valeur indicative, et les paramètres auront changé.
 
@@ -529,9 +529,9 @@ Page **Cockpit stratégique** · articles **C1** (estimer sa retraite) et **C7**
 
 **L'effort.** Cent euros par mois à partir de 30 ans, avec une hypothèse de 4 % nets, approchent **115 000 €** à 65 ans, pour 42 000 € versés. Le temps fait plus de la moitié du travail.
 
-**Le support.** L'horizon très long autorise une part importante d'unités de compte — à condition de ne pas vendre dans les baisses, ce qui est la vraie difficulté à cet âge, la première correction de marché étant souvent la première expérience.
+**Le support.** L'horizon très long autorise une part importante d'unités de compte, à condition de ne pas vendre dans les baisses, ce qui est la vraie difficulté à cet âge, la première correction de marché étant souvent la première expérience.
 
-### À 40 ans — la décennie décisive
+### À 40 ans : la décennie décisive
 
 Les revenus sont généralement à leur plus haut, les charges familiales encore lourdes mais le crédit immobilier engagé. L'horizon reste de vingt-cinq ans, ce qui laisse le temps de travailler.
 
@@ -543,7 +543,7 @@ Les revenus sont généralement à leur plus haut, les charges familiales encore
 
 **Le point de vigilance.** C'est l'âge où les revenus augmentent et où les dépenses suivent mécaniquement. Indexer le versement d'épargne sur chaque augmentation est le moyen le plus simple d'accroître l'effort sans le ressentir.
 
-### À 50 ans — sécuriser et arbitrer
+### À 50 ans : sécuriser et arbitrer
 
 Quinze ans d'horizon. C'est encore long, mais la marge d'erreur se réduit.
 

@@ -35,7 +35,7 @@ Elle élargit la quotité dont le conjoint peut bénéficier et, surtout, elle l
 - **le quart en pleine propriété et les trois quarts en usufruit** ;
 - **la quotité disponible en pleine propriété**, soit la moitié avec un enfant, le tiers avec deux, le quart avec trois ou plus.
 
-L'intérêt majeur est là : le choix se fait **au moment du décès**, en fonction de la situation réelle du survivant — son âge, ses besoins, la composition du patrimoine, ses relations avec les enfants. Aucune décision prise vingt ans plus tôt ne peut être aussi bien calibrée.
+L'intérêt majeur est là : le choix se fait **au moment du décès**, en fonction de la situation réelle du survivant : son âge, ses besoins, la composition du patrimoine, ses relations avec les enfants. Aucune décision prise vingt ans plus tôt ne peut être aussi bien calibrée.
 
 Elle est révocable unilatéralement et sans avoir à en informer le conjoint, sauf lorsqu'elle est insérée dans un contrat de mariage.
 
@@ -47,7 +47,7 @@ Elle est révocable unilatéralement et sans avoir à en informer le conjoint, s
 
 *Avec donation entre époux.* Elle peut opter pour le quart en pleine propriété et les trois quarts en usufruit, ce qui lui assure la pleine disposition d'une partie du patrimoine **et** l'usage du reste sa vie durant.
 
-*L'arbitrage réel.* L'usufruit total protège le cadre de vie mais ne donne aucune liquidité en pleine propriété. La pleine propriété donne de la liquidité mais réduit l'étendue du contrôle. À 68 ans, l'usufruit est valorisé à 40 % selon le barème de l'article 669 — une donnée qui compte dans le calcul des droits des enfants.
+*L'arbitrage réel.* L'usufruit total protège le cadre de vie mais ne donne aucune liquidité en pleine propriété. La pleine propriété donne de la liquidité mais réduit l'étendue du contrôle. À 68 ans, l'usufruit est valorisé à 40 % selon le barème de l'article 669, une donnée qui compte dans le calcul des droits des enfants.
 
 Dans tous les cas, le conjoint est exonéré de droits de succession.
 

@@ -89,8 +89,8 @@ Page **Cockpit stratégique** · articles **K4** (réfaction d'impôt) et **K9**
 | Statut | Collectivité d'outre-mer dotée de l'autonomie, article 74 de la Constitution, loi n° 2007-223 du 21 février 2007 |
 | Compétence fiscale | Propre, exercée par délibérations, réunies dans un **Code de contributions** |
 | Application du CGI | **Non**, sauf mention expresse |
-| Condition de résidence — personnes physiques | **5 ans au moins** (art. LO 6214-4, I, 1° du CGCT) |
-| Condition de résidence — personnes morales | Siège de direction effective depuis **5 ans**, ou siège de direction effective et contrôle par des personnes physiques résidentes depuis 5 ans |
+| Condition de résidence, personnes physiques | **5 ans au moins** (art. LO 6214-4, I, 1° du CGCT) |
+| Condition de résidence, personnes morales | Siège de direction effective depuis **5 ans**, ou siège de direction effective et contrôle par des personnes physiques résidentes depuis 5 ans |
 | Critères de résidence retenus localement | Alignés sur ceux de l'article 4 B du CGI |
 | Échange d'informations avec l'État | Prévu par l'article LO 6214-4 du CGCT |
 
@@ -109,13 +109,13 @@ Pour les personnes morales, la même disposition exige soit l'installation du si
 
 Ces conditions sont reprises dans le Code de contributions local.
 
-La portée de cette restriction a été précisée par un avis du Conseil d'État du 20 novembre 2013, n° 369796, rendu pour l'application du statut de Saint-Barthélemy — avis dont les services de Saint-Martin relèvent qu'il vaut également pour leur collectivité, les textes étant rédigés dans les mêmes termes.
+La portée de cette restriction a été précisée par un avis du Conseil d'État du 20 novembre 2013, n° 369796, rendu pour l'application du statut de Saint-Barthélemy, avis dont les services de Saint-Martin relèvent qu'il vaut également pour leur collectivité, les textes étant rédigés dans les mêmes termes.
 
 ### Ce que cela signifie concrètement
 
 **Pendant les cinq premières années**, une personne physique arrivant d'un département métropolitain ou d'outre-mer reste fiscalement domiciliée en France. Elle relève du Code général des impôts, déclare ses revenus mondiaux à l'administration française, et n'accède pas au régime local.
 
-**Après cinq ans**, et sous réserve de remplir les critères de résidence — que le code local aligne sur ceux de l'article 4 B du CGI — elle devient fiscalement domiciliée à Saint-Barthélemy et relève du code local.
+**Après cinq ans**, et sous réserve de remplir les critères de résidence (que le code local aligne sur ceux de l'article 4 B du CGI), elle devient fiscalement domiciliée à Saint-Barthélemy et relève du code local.
 
 Le délai court à compter de la résidence effective, ce qui suppose de pouvoir la démontrer. Comme pour toute question de résidence, ce sont les faits qui comptent : logement, présence, vie quotidienne, scolarisation.
 
@@ -137,7 +137,7 @@ Le Code de contributions organise une fiscalité sensiblement différente de cel
 
 **Anticiper le bénéfice du régime local dès l'installation.** Cinq ans, c'est cinq ans.
 
-**Structurer une société locale sans vérifier la condition des cinq ans**, qui s'applique aussi aux personnes morales et conditionne, notamment, l'appartenance à un groupe d'intégration fiscale — l'administration a publié un rescrit sur ce point.
+**Structurer une société locale sans vérifier la condition des cinq ans**, qui s'applique aussi aux personnes morales et conditionne, notamment, l'appartenance à un groupe d'intégration fiscale : l'administration a publié un rescrit sur ce point.
 
 **Oublier l'exit tax.** Un transfert de domicile fiscal vers Saint-Barthélemy pose la question du champ de l'article 167 bis du CGI, qui doit être examinée spécifiquement au regard du statut de la collectivité.
 
@@ -188,7 +188,7 @@ Les services fiscaux de la collectivité rappellent eux-mêmes que la portée de
 
 **La situation économique et sociale**, très différente, qui se traduit dans les priorités fiscales des deux collectivités.
 
-**Le partage de l'île.** La frontière avec Sint Maarten, territoire autonome du Royaume des Pays-Bas, crée des situations transfrontalières quotidiennes — travail, résidence, biens — qui n'ont pas d'équivalent à Saint-Barthélemy.
+**Le partage de l'île.** La frontière avec Sint Maarten, territoire autonome du Royaume des Pays-Bas, crée des situations transfrontalières quotidiennes (travail, résidence, biens) qui n'ont pas d'équivalent à Saint-Barthélemy.
 
 ### Le point de vigilance transfrontalier
 
@@ -246,13 +246,13 @@ Le plafond est atteint dès que l'impôt brut dépasse un certain montant, par s
 
 Au-delà, l'avantage reste figé en valeur absolue. Un contribuable payant 30 000 € d'impôt brut à La Réunion bénéficie du même gain de 2 450 € qu'un contribuable en payant 9 000 €.
 
-En ordre de grandeur, le plafond commence à mordre autour de 55 000 € de revenu imposable pour un célibataire d'une part — donnée à recalculer selon le barème et la composition du foyer.
+En ordre de grandeur, le plafond commence à mordre autour de 55 000 € de revenu imposable pour un célibataire d'une part, donnée à recalculer selon le barème et la composition du foyer.
 
 ### Les quatre limites à connaître
 
 **La règle du 31 décembre.** Un contribuable qui quitte un DROM pour la métropole en cours d'année perd la réfaction pour l'année entière si son domicile au 31 décembre est en métropole, même après dix mois de résidence outre-mer. Symétriquement, une arrivée en décembre ouvre droit à la réfaction sur l'année entière. C'est une règle sèche, et elle se pilote.
 
-**Le PFU n'est pas concerné.** La réfaction ne s'applique qu'à l'impôt calculé au barème progressif. Des dividendes ou plus-values laissés au prélèvement forfaitaire n'en bénéficient pas. Opter pour le barème peut donc, dans certaines configurations, devenir plus intéressant outre-mer qu'en métropole — c'est un calcul à faire, pas une règle générale.
+**Le PFU n'est pas concerné.** La réfaction ne s'applique qu'à l'impôt calculé au barème progressif. Des dividendes ou plus-values laissés au prélèvement forfaitaire n'en bénéficient pas. Opter pour le barème peut donc, dans certaines configurations, devenir plus intéressant outre-mer qu'en métropole : c'est un calcul à faire, pas une règle générale.
 
 **Les prélèvements sociaux ne sont pas réduits.** La CSG et la CRDS s'appliquent aux mêmes taux qu'en métropole.
 
@@ -290,7 +290,7 @@ Code général des impôts, article 197, I, 3 · BOFiP, BOI-IR-LIQ-20-30-10, mod
 
 Le point structurant n'est pas un taux, c'est une architecture.
 
-La Polynésie française n'applique pas un impôt sur le revenu progressif calqué sur le modèle métropolitain. Son système repose sur une combinaison de prélèvements indirects — dont une taxe sur la valeur ajoutée locale et des droits à l'importation — et de contributions assises sur certains revenus, notamment les traitements et salaires ainsi que certaines activités.
+La Polynésie française n'applique pas un impôt sur le revenu progressif calqué sur le modèle métropolitain. Son système repose sur une combinaison de prélèvements indirects (dont une taxe sur la valeur ajoutée locale et des droits à l'importation) et de contributions assises sur certains revenus, notamment les traitements et salaires ainsi que certaines activités.
 
 Les taux, seuils et assiettes résultent du code des impôts polynésien et des délibérations de l'Assemblée de la Polynésie française. Ils évoluent régulièrement et ne figurent pas sur Légifrance.
 
@@ -352,7 +352,7 @@ Sa lecture obéit à la même méthode que celle décrite dans **Conventions fis
 
 **Le métropolitain installé en Nouvelle-Calédonie**, qui conserve des revenus de source métropolitaine : loyers, valeurs mobilières, parfois une activité. La convention détermine où chacun est imposé.
 
-**Le résident calédonien détenant un patrimoine en métropole**, qui doit anticiper la fiscalité française de ces biens — notamment l'IFI sur l'immobilier français et le régime des plus-values immobilières.
+**Le résident calédonien détenant un patrimoine en métropole**, qui doit anticiper la fiscalité française de ces biens, notamment l'IFI sur l'immobilier français et le régime des plus-values immobilières.
 
 **Le retour en métropole**, qui suppose de vérifier le traitement des revenus de l'année de transition et la reprise éventuelle d'obligations déclaratives françaises.
 
@@ -408,7 +408,7 @@ Le contenu en ligne est **quasi inexistant**, ce qui rend le positionnement faci
 
 Les résidents et les personnes qui y ont des attaches patrimoniales n'ont aucune ressource pédagogique fiable.
 
-Et les questions qu'ils se posent — où suis-je imposé, que devient mon patrimoine métropolitain, comment se règle une succession — sont exactement celles auxquelles ce blog répond ailleurs.
+Et les questions qu'ils se posent (où suis-je imposé, que devient mon patrimoine métropolitain, comment se règle une succession) sont exactement celles auxquelles ce blog répond ailleurs.
 
 ### Le point de méthode
 
@@ -435,7 +435,7 @@ Constitution du 4 octobre 1958, article 74 · Loi n° 61-814 du 29 juillet 1961 
 
 ### La logique des dispositifs
 
-Le principe est constant : l'État accorde une réduction d'impôt à un contribuable métropolitain en contrepartie du financement d'un investissement outre-mer — matériel productif, logement social, énergie.
+Le principe est constant : l'État accorde une réduction d'impôt à un contribuable métropolitain en contrepartie du financement d'un investissement outre-mer : matériel productif, logement social, énergie.
 
 Deux familles se distinguent.
 
@@ -459,7 +459,7 @@ Les taux, plafonds, conditions d'agrément et secteurs éligibles sont détaill�
 
 C'est ce qu'aucune plaquette commerciale ne met en avant, et c'est le seul critère qui compte.
 
-La réduction d'impôt est acquise **sous conditions** : nature du bien, secteur, exploitation effective, durée de conservation, agrément le cas échéant. Si une condition n'est pas respectée — le plus souvent parce que l'exploitant ultramarin cesse son activité ou ne maintient pas le bien en exploitation pendant la durée requise — l'administration peut **reprendre** la réduction d'impôt auprès de l'investisseur.
+La réduction d'impôt est acquise **sous conditions** : nature du bien, secteur, exploitation effective, durée de conservation, agrément le cas échéant. Si une condition n'est pas respectée (le plus souvent parce que l'exploitant ultramarin cesse son activité ou ne maintient pas le bien en exploitation pendant la durée requise), l'administration peut **reprendre** la réduction d'impôt auprès de l'investisseur.
 
 L'investisseur se retrouve alors à devoir rembourser une réduction dont il a bénéficié des années plus tôt, majorée des intérêts de retard, sans recours utile contre un opérateur souvent défaillant.
 
@@ -479,7 +479,7 @@ Cette configuration s'est produite à grande échelle sur certains montages. Ell
 
 ### La question à se poser en premier
 
-Un investissement dont le seul intérêt est fiscal n'est pas un investissement : c'est un pari sur la solidité d'un montage. Si l'opération n'a pas de logique économique propre, l'avantage fiscal ne la rend pas bonne — il la rend seulement attrayante.
+Un investissement dont le seul intérêt est fiscal n'est pas un investissement : c'est un pari sur la solidité d'un montage. Si l'opération n'a pas de logique économique propre, l'avantage fiscal ne la rend pas bonne ; il la rend seulement attrayante.
 
 ### Sources
 
@@ -498,7 +498,7 @@ Code général des impôts, articles 199 undecies B, 199 undecies C, 217 undecie
 - Dans les **DROM**, les droits de mutation à titre gratuit sont ceux du Code général des impôts : mêmes abattements, même barème qu'en métropole.
 - Dans les **COM à fiscalité propre** et en Nouvelle-Calédonie, la matière relève du droit local et des conventions internes.
 - L'article **750 ter du CGI** demeure la clé de lecture côté français : il retient trois rattachements alternatifs.
-- Le troisième rattachement — la résidence de **l'héritier** — est celui qui produit les surprises les plus fréquentes.
+- Le troisième rattachement, la résidence de **l'héritier**, est celui qui produit les surprises les plus fréquentes.
 
 ### Les DROM : rien de particulier
 
@@ -510,7 +510,7 @@ La réfaction d'impôt de 30 % ou 40 %, décrite dans **DROM : la réfaction d'i
 
 À Saint-Barthélemy, à Saint-Martin, en Polynésie française, en Nouvelle-Calédonie, la matière des mutations à titre gratuit relève de la compétence locale, dans les conditions fixées par le statut de chaque collectivité et par la convention interne.
 
-Cela signifie que les abattements, le barème et les exonérations peuvent différer de ceux du CGI — voire ne pas exister sous la même forme. Là encore, ce blog renvoie au code local plutôt que de publier des chiffres non vérifiés.
+Cela signifie que les abattements, le barème et les exonérations peuvent différer de ceux du CGI, voire ne pas exister sous la même forme. Là encore, ce blog renvoie au code local plutôt que de publier des chiffres non vérifiés.
 
 ### L'article 750 ter, qu'il faut avoir en tête
 
@@ -522,7 +522,7 @@ ou l'**héritier** est domicilié en France et l'a été pendant au moins six de
 
 Ce troisième cas est le plus méconnu. Un héritier installé en métropole peut se voir réclamer des droits français sur des biens situés dans une collectivité à fiscalité propre ou à l'étranger, reçus d'un défunt non domicilié en France.
 
-La convention interne applicable, ou le mécanisme de crédit d'impôt prévu par le statut, permet d'éviter la double imposition — encore faut-il l'invoquer et le documenter.
+La convention interne applicable, ou le mécanisme de crédit d'impôt prévu par le statut, permet d'éviter la double imposition, encore faut-il l'invoquer et le documenter.
 
 ### Le cas de l'assurance-vie
 

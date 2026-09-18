@@ -30,7 +30,7 @@ La **SICAV** est une société : tu es actionnaire. Le **FCP** est une copropri�
 
 **Les droits d'entrée**, jusqu'à 5 % sur certains fonds distribués en réseau.
 
-**Les frais courants**, de l'ordre de **1,5 % en moyenne** pour un fonds actions géré activement — l'AMF mesure un total de frais sur encours de 1,47 % en 2023, et plus de 2 % sur certains fonds — contre 0,2 % à 0,4 % pour un fonds indiciel.
+**Les frais courants**, de l'ordre de **1,5 % en moyenne** pour un fonds actions géré activement (l'AMF mesure un total de frais sur encours de 1,47 % en 2023, et plus de 2 % sur certains fonds), contre 0,2 % à 0,4 % pour un fonds indiciel.
 
 **La commission de surperformance**, prélevée lorsque le fonds dépasse un seuil défini. Vérifie l'existence d'un mécanisme de rattrapage des sous-performances passées : sans lui, le gérant est rémunéré sur une reprise après une baisse qu'il a lui-même subie.
 

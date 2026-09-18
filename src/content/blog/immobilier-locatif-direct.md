@@ -7,7 +7,7 @@ categorie: "Produits d'investissement"
 date: 2026-09-16
 lecture: 2
 essentiel:
-  - "Le **rendement brut** — loyer annuel divisé par le prix — ne veut rien dire. Seul le rendement **net net** compte."
+  - "Le **rendement brut**, loyer annuel divisé par le prix, ne veut rien dire. Seul le rendement **net net** compte."
   - "Six postes se soustraient : charges non récupérables, taxe foncière, assurance, gestion, travaux, vacance."
   - "La fiscalité achève le calcul : au régime réel ou au micro-foncier, au barème plus 17,2 % de prélèvements sociaux."
   - "Le **LMNP** modifie l'équation en permettant l'amortissement du bien, mais il impose des obligations comptables réelles."
@@ -31,7 +31,7 @@ Total : **4 022 €**.
 
 *La fiscalité, au régime réel, pour une tranche marginale de 30 %.* Après déduction des charges déductibles et, le cas échéant, des intérêts d'emprunt, l'impôt sur le revenu et les 17,2 % de prélèvements sociaux réduisent encore le résultat. Sur ce cas, sans crédit, le net net se situe autour de **1,7 % à 1,9 %**.
 
-Le passage de 4,8 % à moins de 2 % n'est pas un cas pathologique : c'est le cas normal. Ce qui rend l'immobilier locatif intéressant n'est pas le rendement courant, c'est l'**effet de levier du crédit** et la valorisation éventuelle du bien — deux éléments qui ne sont ni garantis ni gratuits.
+Le passage de 4,8 % à moins de 2 % n'est pas un cas pathologique : c'est le cas normal. Ce qui rend l'immobilier locatif intéressant n'est pas le rendement courant, c'est l'**effet de levier du crédit** et la valorisation éventuelle du bien, deux éléments qui ne sont ni garantis ni gratuits.
 
 ## Les régimes fiscaux
 

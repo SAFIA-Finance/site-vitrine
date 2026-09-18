@@ -24,7 +24,7 @@ sources: "Code général des impôts, articles 199 undecies B, 199 undecies C, 2
 
 ## La logique des dispositifs
 
-Le principe est constant : l'État accorde une réduction d'impôt à un contribuable métropolitain en contrepartie du financement d'un investissement outre-mer — matériel productif, logement social, énergie.
+Le principe est constant : l'État accorde une réduction d'impôt à un contribuable métropolitain en contrepartie du financement d'un investissement outre-mer : matériel productif, logement social, énergie.
 
 Deux familles se distinguent.
 
@@ -48,7 +48,7 @@ Les taux, plafonds, conditions d'agrément et secteurs éligibles sont détaill�
 
 C'est ce qu'aucune plaquette commerciale ne met en avant, et c'est le seul critère qui compte.
 
-La réduction d'impôt est acquise **sous conditions** : nature du bien, secteur, exploitation effective, durée de conservation, agrément le cas échéant. Si une condition n'est pas respectée — le plus souvent parce que l'exploitant ultramarin cesse son activité ou ne maintient pas le bien en exploitation pendant la durée requise — l'administration peut **reprendre** la réduction d'impôt auprès de l'investisseur.
+La réduction d'impôt est acquise **sous conditions** : nature du bien, secteur, exploitation effective, durée de conservation, agrément le cas échéant. Si une condition n'est pas respectée (le plus souvent parce que l'exploitant ultramarin cesse son activité ou ne maintient pas le bien en exploitation pendant la durée requise), l'administration peut **reprendre** la réduction d'impôt auprès de l'investisseur.
 
 L'investisseur se retrouve alors à devoir rembourser une réduction dont il a bénéficié des années plus tôt, majorée des intérêts de retard, sans recours utile contre un opérateur souvent défaillant.
 
@@ -68,4 +68,4 @@ Cette configuration s'est produite à grande échelle sur certains montages. Ell
 
 ## La question à se poser en premier
 
-Un investissement dont le seul intérêt est fiscal n'est pas un investissement : c'est un pari sur la solidité d'un montage. Si l'opération n'a pas de logique économique propre, l'avantage fiscal ne la rend pas bonne — il la rend seulement attrayante.
+Un investissement dont le seul intérêt est fiscal n'est pas un investissement : c'est un pari sur la solidité d'un montage. Si l'opération n'a pas de logique économique propre, l'avantage fiscal ne la rend pas bonne ; il la rend seulement attrayante.

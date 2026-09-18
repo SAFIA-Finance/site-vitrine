@@ -35,13 +35,13 @@ L'argument est d'autant plus fort que les enfants sont eux-mêmes établis et n'
 
 L'argument inverse existe et doit être dit : donner à un petit-enfant diminue la part de son parent. Quand les enfants ont des situations inégales, l'opération peut créer un déséquilibre durable. Elle se discute en famille, pas seulement avec un fiscaliste.
 
-## Outil 1 — L'abattement de donation
+## Outil 1. L'abattement de donation
 
 Chaque grand-parent peut donner **31 865 €** à chaque petit-enfant en franchise de droits, renouvelable tous les quinze ans. Il s'applique à toute nature de bien.
 
 Avec quatre grands-parents et trois petits-enfants, le potentiel atteint 382 380 € par cycle de quinze ans.
 
-## Outil 2 — Le don familial de sommes d'argent
+## Outil 2. Le don familial de sommes d'argent
 
 Il s'y ajoute, sous conditions : grand-parent de moins de 80 ans, petit-enfant majeur, et somme d'argent uniquement.
 
@@ -53,7 +53,7 @@ Il s'y ajoute, sous conditions : grand-parent de moins de 80 ans, petit-enfant m
 
 Si sa femme fait de même, le petit-fils reçoit **127 460 €**.
 
-## Outil 3 — L'assurance-vie
+## Outil 3. L'assurance-vie
 
 Désigner ses petits-enfants comme bénéficiaires d'un contrat alimenté avant 70 ans leur ouvre l'abattement de 152 500 € **chacun**, indépendamment du lien de parenté et en dehors de la succession.
 
@@ -63,7 +63,7 @@ C'est, de loin, le vecteur le plus puissant pour cette génération. Il présent
 
 Les enfants sont **héritiers réservataires** : la loi leur garantit une fraction minimale du patrimoine, qui dépend de leur nombre. Un grand-parent ne peut pas transmettre l'intégralité de ses biens à ses petits-enfants en déshéritant ses enfants.
 
-La quotité disponible — la part dont on dispose librement — est de la moitié du patrimoine avec un enfant, du tiers avec deux, du quart avec trois ou plus.
+La quotité disponible, la part dont on dispose librement, est de la moitié du patrimoine avec un enfant, du tiers avec deux, du quart avec trois ou plus.
 
 Les capitaux d'assurance-vie échappent en principe à cette règle, sauf primes manifestement exagérées.
 

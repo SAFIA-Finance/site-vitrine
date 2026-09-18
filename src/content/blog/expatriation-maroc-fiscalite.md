@@ -25,7 +25,7 @@ sources: "Code général des impôts marocain, dispositions relatives aux pensio
 | Pensions étrangères | Abattement significatif, avec réduction supplémentaire en cas de transfert des fonds en dirhams non convertibles |
 | Barème général | Progressif |
 | Convention avec la France | Oui, ancienne et structurante |
-| Exit tax française | Le Maroc figure parmi les États ouvrant le sursis automatique dans la notice relative aux transferts récents — **à vérifier pour l'année du départ** |
+| Exit tax française | Le Maroc figure parmi les États ouvrant le sursis automatique dans la notice relative aux transferts récents, **à vérifier pour l'année du départ** |
 
 ## Le régime des pensions
 

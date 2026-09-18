@@ -10,7 +10,7 @@ essentiel:
   - "Le capital-investissement finance des entreprises **non cotées**, sur des durées de huit à douze ans."
   - "Le capital est **bloqué** : c'est la contrepartie centrale, et elle n'est pas négociable."
   - "La **courbe en J** décrit le phénomène normal : la valeur baisse les premières années avant de remonter."
-  - "L'ouverture aux particuliers, accélérée par la loi Industrie Verte, rend le produit accessible — pas nécessairement adapté."
+  - "L'ouverture aux particuliers, accélérée par la loi Industrie Verte, rend le produit accessible, pas nécessairement adapté."
 pages:
   - nom: "ADN Investisseur"
     url: "/adn-investisseur/"

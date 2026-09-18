@@ -7,7 +7,7 @@ categorie: "Donation et succession"
 date: 2026-09-16
 lecture: 2
 essentiel:
-  - "Le testament **olographe** est gratuit et libre, mais il doit être **entièrement écrit à la main, daté et signé** — sinon il est nul."
+  - "Le testament **olographe** est gratuit et libre, mais il doit être **entièrement écrit à la main, daté et signé** : sinon il est nul."
   - "Le testament **authentique**, reçu par notaire, est plus sûr et plus difficile à contester."
   - "Le testament **international** répond à un besoin précis : la validité de forme dans plusieurs pays."
   - "Dans tous les cas, faire **inscrire** le testament au fichier central évite qu'il ne soit jamais retrouvé."

@@ -39,7 +39,7 @@ Le PER n'est donc pas « plus avantageux » ou « moins avantageux ». Il dépla
 
 L'avantage du PER est égal à l'écart entre ta **tranche marginale d'imposition au moment du versement** et ta **tranche marginale au moment de la sortie**.
 
-Si tu es à 41 % aujourd'hui et que tu seras à 30 % à la retraite, le PER te fait gagner 11 points sur chaque euro versé. Si tu es à 11 % aujourd'hui et que tu seras à 11 % à la retraite, le PER ne t'apporte presque rien — et te coûte la disponibilité de ton épargne pendant vingt ans.
+Si tu es à 41 % aujourd'hui et que tu seras à 30 % à la retraite, le PER te fait gagner 11 points sur chaque euro versé. Si tu es à 11 % aujourd'hui et que tu seras à 11 % à la retraite, le PER ne t'apporte presque rien, et te coûte la disponibilité de ton épargne pendant vingt ans.
 
 C'est pourquoi la réponse usuelle est : **le PER devient intéressant à partir de la tranche à 30 %**, et franchement intéressant à 41 % ou 45 %. En dessous, l'assurance-vie l'emporte presque toujours.
 
@@ -47,11 +47,11 @@ C'est pourquoi la réponse usuelle est : **le PER devient intéressant à partir
 
 **Exemple.** Olivier, 45 ans, tranche marginale à 41 %, verse 10 000 € par an pendant vingt ans. Il anticipe une tranche à 30 % à la retraite.
 
-*Sur un PER.* Chaque versement lui fait économiser 4 100 € d'impôt, soit 82 000 € sur vingt ans. Son effort d'épargne réel n'est que de 118 000 € pour 200 000 € placés. À la sortie en capital, la part correspondant aux versements sera imposée à 30 % — un coût d'environ 60 000 € si elle est étalée, plus la fiscalité sur les gains.
+*Sur un PER.* Chaque versement lui fait économiser 4 100 € d'impôt, soit 82 000 € sur vingt ans. Son effort d'épargne réel n'est que de 118 000 € pour 200 000 € placés. À la sortie en capital, la part correspondant aux versements sera imposée à 30 %, soit un coût d'environ 60 000 € si elle est étalée, plus la fiscalité sur les gains.
 
 *Sur une assurance-vie.* Aucune économie à l'entrée. 200 000 € placés pour 200 000 € d'effort. À la sortie, après huit ans, seuls les gains sont imposés, avec abattement annuel et taux de 7,5 %.
 
-Sur ce profil, le PER ressort gagnant, principalement grâce à l'écart de onze points de tranche. Change un seul paramètre — une tranche à 30 % aujourd'hui et 30 % demain — et l'avantage disparaît presque entièrement.
+Sur ce profil, le PER ressort gagnant, principalement grâce à l'écart de onze points de tranche. Change un seul paramètre (une tranche à 30 % aujourd'hui et 30 % demain) et l'avantage disparaît presque entièrement.
 
 ## Les trois facteurs non fiscaux qui tranchent souvent
 

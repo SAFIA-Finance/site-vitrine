@@ -52,7 +52,7 @@ sources: "Code général des impôts, articles 125-0 A, 990 I, 757 B et 244 bis 
 
 **Il se conserve.** Le transfert de résidence à l'étranger n'entraîne pas la clôture, sauf installation dans un État ou territoire non coopératif.
 
-**Les gains restent exonérés d'impôt sur le revenu français** après cinq ans, et le non-résident n'est en principe pas redevable des prélèvements sociaux — ceux-là mêmes qui sont passés à 18,6 % pour les résidents depuis le 1er janvier 2026.
+**Les gains restent exonérés d'impôt sur le revenu français** après cinq ans, et le non-résident n'est en principe pas redevable des prélèvements sociaux, ceux-là mêmes qui sont passés à 18,6 % pour les résidents depuis le 1er janvier 2026.
 
 **Mais l'État de résidence a son mot à dire.** Le PEA est une enveloppe française ; il n'existe pas dans les autres droits fiscaux. Un État de résidence peut parfaitement imposer les gains réalisés à l'intérieur, selon ses propres règles, sans reconnaître l'exonération française. C'est le cas le plus fréquent, et c'est la vraie limite du PEA en expatriation.
 
