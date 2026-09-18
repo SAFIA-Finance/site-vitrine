@@ -72,7 +72,7 @@ function demarrerPage() {
     }
     if(d.v && d.v.length){
       s+='<p class="ss-titre">À garder en tête</p><ul>';
-      d.v.forEach(function(v){s+='<li><b>'+v[0]+'</b> — '+v[1]+'</li>';});
+      d.v.forEach(function(v){s+='<li><b>'+v[0]+'</b> : '+v[1]+'</li>';});
       s+='</ul>';
     }
     if(d.cta){ s+='<p class="cta-bulle">'+d.cta+'</p>'; }

@@ -79,8 +79,8 @@ function demarrerPage() {
       if (r.nonDeductible > 0) {
         alerte.textContent =
           `${euros(r.nonDeductible)} de ton versement dépassent ton plafond de déduction ` +
-          `(${euros(r.plafond.total)}). Cette part reste investie, mais elle ne réduit pas ton impôt ` +
-          `— et elle ne sera pas réimposée à la sortie.`;
+          `(${euros(r.plafond.total)}). Cette part reste investie, mais elle ne réduit pas ton impôt, ` +
+          `et elle ne sera pas réimposée à la sortie.`;
       }
     }
 

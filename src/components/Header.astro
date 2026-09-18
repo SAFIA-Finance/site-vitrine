@@ -55,7 +55,7 @@ const actif = (href) => (href.replace(/\/+$/, '') || '/') === chemin ? 'lien-act
 <!-- Le panneau mobile vit hors du <header> à dessein : la barre porte un
      backdrop-filter, et un élément filtré devient le bloc conteneur de ses
      descendants en position fixed. À l'intérieur, « inset:68px 0 0 0 » se
-     calculait dans les 68 px de la barre — le panneau s'ouvrait sans hauteur,
+     calculait dans les 68 px de la barre : le panneau s'ouvrait sans hauteur,
      donc invisible. -->
 <div class="panneau" id="panneau">
     <h3>Particuliers</h3>

@@ -65,7 +65,7 @@ function demarrerPage() {
       if (apres && gain > 1) {
         attente.textContent =
           `Ce contrat a moins de huit ans. Le même rachat après huit ans coûterait ${euros(apres.total)}, ` +
-          `soit ${euros(gain)} de moins — grâce à l'abattement annuel et au taux réduit.`;
+          `soit ${euros(gain)} de moins, grâce à l'abattement annuel et au taux réduit.`;
       }
     }
 

@@ -58,7 +58,7 @@ function demarrerPage() {
     // L'écart rapporté à l'effort d'épargne annuel : la conversion qui parle.
     const versementAnnuel = versementMensuel * 12;
     const anneesPerdues = versementAnnuel > 0 ? ecart / versementAnnuel : 0;
-    ecrire('r-annees-perdues', anneesPerdues > 0 ? `${nombre(anneesPerdues, 1)} ans` : '—');
+    ecrire('r-annees-perdues', anneesPerdues > 0 ? `${nombre(anneesPerdues, 1)} ans` : '-');
 
     const phrase = document.getElementById('r-phrase');
     if (phrase) {
