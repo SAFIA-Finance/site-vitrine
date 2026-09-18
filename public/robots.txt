@@ -1,11 +1,11 @@
-# Préversion sitev2.safia.finance : NE PAS INDEXER.
+# safia.finance, site public de SAFIA.
 #
-# Ce sous-domaine sert de duplicata du site public. S'il était indexé, Google
-# y verrait du contenu dupliqué et pourrait le faire remonter à la place de
-# safia.finance. Chaque page est donc aussi servie en « noindex ».
-#
-# Le jour de la bascule sur safia.finance, ce fichier est remplacé par la
-# version de production décrite dans docs/DEPLOIEMENT.md.
+# La préversion sitev2.safia.finance interdisait toute exploration, pour qu'un
+# duplicata du site ne vienne pas concurrencer ce domaine dans les résultats de
+# recherche. La bascule faite, cette interdiction n'a plus lieu d'être : c'est
+# ce domaine qui doit être indexé.
 
 User-agent: *
-Disallow: /
+Allow: /
+
+Sitemap: https://safia.finance/sitemap-index.xml
