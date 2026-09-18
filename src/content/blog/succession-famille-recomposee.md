@@ -14,6 +14,10 @@ essentiel:
 pages:
   - nom: "Cockpit stratégique"
     url: "/cockpit/"
+outils:
+  - nom: "Succession et donation"
+    url: "/outils/succession/"
+    resume: "Abattements et droits à payer selon le lien de parenté."
 sources: "Code civil, articles 757 et suivants (droits du conjoint survivant), 912 et suivants (réserve), 1094-1 (donation entre époux), 1527 (action en retranchement) · Code général des impôts, articles 777, 788 et 990 I."
 ---
 

@@ -23,6 +23,10 @@ faq:
 pages:
   - nom: "Particuliers"
     url: "/particuliers/"
+outils:
+  - nom: "Simulateur d'épargne"
+    url: "/outils/simulateur-epargne/"
+    resume: "Où sera ton épargne dans dix ans, et combien mettre de côté pour un objectif."
 articlesLies:
   - "epargne-de-precaution-combien"
   - "livret-a-plein-que-faire"

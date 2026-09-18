@@ -21,6 +21,10 @@ faq:
 pages:
   - nom: "Cockpit stratégique"
     url: "/cockpit/"
+outils:
+  - nom: "Simulateur d'épargne"
+    url: "/outils/simulateur-epargne/"
+    resume: "Où sera ton épargne dans dix ans, et combien mettre de côté pour un objectif."
 articlesLies:
   - "combien-epargner-retraite"
   - "decote-surcote-trimestres"

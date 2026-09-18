@@ -15,7 +15,7 @@ Bloc auteur et avertissement repris en fin de chaque article :
 
 ## D1 — Droits de succession : barème, abattements et calcul pas à pas
 
-**URL** : /blog/droits-de-succession-bareme
+**URL** : /blog/droits-de-succession-bareme · **Outil** : Succession et donation
 **Title** : Droits de succession 2026 : barème et abattements
 **Meta** : Abattement de 100 000 € par enfant, barème de 5 % à 45 %, exonération du conjoint : le calcul des droits de succession, avec trois exemples.
 
@@ -116,7 +116,7 @@ Page **Cockpit stratégique** · articles **D2** (donation aux enfants) et **B5*
 
 ## D2 — Donner 100 000 € à son enfant : le mécanisme des quinze ans
 
-**URL** : /blog/donation-enfant-100000-euros
+**URL** : /blog/donation-enfant-100000-euros · **Outil** : Succession et donation
 **Title** : Donation aux enfants : 100 000 € tous les 15 ans
 **Meta** : L'abattement de 100 000 € par parent et par enfant se renouvelle tous les 15 ans. Comment il fonctionne, comment il se cumule, et pourquoi l'âge compte.
 
@@ -196,7 +196,7 @@ Page **Cockpit stratégique** · articles **D3** (don familial) et **D4** (déme
 
 ## D3 — Don familial de somme d'argent : les 31 865 € qui se cumulent
 
-**URL** : /blog/don-familial-somme-argent
+**URL** : /blog/don-familial-somme-argent · **Outil** : Succession et donation
 **Title** : Don familial de 31 865 € : conditions et cumul
 **Meta** : L'article 790 G permet de donner 31 865 € en argent, exonérés, en plus de l'abattement de 100 000 €. Conditions d'âge, bénéficiaires, déclaration.
 
@@ -439,7 +439,7 @@ Page **Cockpit stratégique** · articles **D1** (barème) et **B6** (clause bé
 
 ## D6 — Transmettre à ses petits-enfants : les trois outils disponibles
 
-**URL** : /blog/transmettre-petits-enfants
+**URL** : /blog/transmettre-petits-enfants · **Outil** : Succession et donation
 **Title** : Transmettre à ses petits-enfants : 3 outils en 2026
 **Meta** : Abattement de 31 865 €, don familial, assurance-vie : comment un grand-parent transmet sans droits, et pourquoi sauter une génération a un intérêt fiscal.
 

@@ -311,7 +311,7 @@ Page **Cockpit stratégique** · articles **I4** (assurance-vie et PEA) et **I5*
 
 ## I4 — Assurance-vie et PEA quand on s'expatrie : ce qui change vraiment
 
-**URL** : /blog/assurance-vie-pea-expatriation
+**URL** : /blog/assurance-vie-pea-expatriation · **Outil** : PEA ou compte-titres
 **Title** : Assurance-vie et PEA en expatriation : ce qui change
 **Meta** : Faut-il clôturer son assurance-vie ou son PEA avant de partir ? Ce que la non-résidence change sur les rachats, dividendes et transmission.
 

@@ -14,6 +14,10 @@ essentiel:
 pages:
   - nom: "ADN Investisseur"
     url: "/adn-investisseur/"
+outils:
+  - nom: "Le coût de tes frais"
+    url: "/outils/frais/"
+    resume: "Ce qu’un point de frais annuel retire à ton capital sur vingt ans."
 seoDerive: true
 sources: "Directive OPCVM et règlements applicables aux fonds indiciels cotés · AMF, guide sur les ETF · Documents d'informations clés et rapports d'écart de suivi des émetteurs · Code monétaire et financier, éligibilité au PEA · AMF, Lettre de l'Observatoire de l'épargne n° 65, avril 2026, frais moyens des placements financiers."
 ---

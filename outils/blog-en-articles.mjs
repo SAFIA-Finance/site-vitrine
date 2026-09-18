@@ -11,6 +11,12 @@
 //   - « Sources »              → bloc de sources daté
 //   - « Liens internes »       → vrais liens vers les pages et les autres articles
 //
+// Le chapeau porte en outre un champ facultatif « **Outil** : Nom », qui
+// propose un simulateur en fin d'article quand la question posée se calcule.
+// Un seul par article, et seulement si l'outil répond vraiment à la question :
+// un lien vers un calcul qui ne traite pas le cas apprend au lecteur que le
+// bloc « Pour aller plus loin » ne mérite pas son clic.
+//
 // Comme outils/maj-word.mjs, il refuse d'écrire si un article est incomplet :
 // mieux vaut un échec bruyant qu'un article publié amputé.
 //
@@ -31,6 +37,13 @@
 
 import fs from 'node:fs';
 import path from 'node:path';
+
+// Le catalogue des simulateurs, celui-là même que lisent la page /outils/, le
+// menu « Ressources » et le pied de page. L'importer plutôt que recopier ses
+// routes ici garantit deux choses : un outil dépublié cesse d'être lié au lieu
+// de laisser un lien mort dans les articles, et son résumé reste écrit à un
+// seul endroit.
+import { OUTILS_PUBLIES } from '../src/calculs/outils.js';
 
 const RACINE = process.cwd();
 const SOURCE = path.join(RACINE, 'Blog');
@@ -284,7 +297,11 @@ for (const chemin of fichiers) {
     const preambule = corps
       .slice(0, finEntete)
       .split('\n')
-      .filter((l) => !/^\*\*(URL|Title|Meta)\*\*\s*:/.test(l.trim()))
+      // « Outil » est filtré ici pour la même raison que les trois autres, et
+      // c'est indispensable : ce qui survit à ce filtre est PUBLIÉ, sous le
+      // titre « Le tableau de synthèse ». Une métadonnée laissée passer devient
+      // du texte que le lecteur voit, comme les codes d'articles autrefois.
+      .filter((l) => !/^\*\*(URL|Title|Meta|Outil)\*\*\s*:/.test(l.trim()))
       .join('\n')
       .trim();
 
@@ -366,6 +383,25 @@ for (const chemin of fichiers) {
       else if (nom) console.log(`  note ${ou} : page liée inconnue → ${nom}`);
     }
 
+    // --- Le simulateur, quand l'article pose une question qui se calcule ----
+    //
+    // Déclaré au chapeau par « **Outil** : Nom », sur la ligne de l'URL comme
+    // « Mot-clé » et « Page liée ». Un seul par article, par choix éditorial :
+    // le bloc de fin porte déjà une page et deux articles, et deux calculs
+    // concurrents ne donnent pas une action claire au lecteur.
+    //
+    // Résolu dans le CATALOGUE des simulateurs, jamais dans une table locale.
+    // Deux conséquences qui valent l'import : un outil dépublié cesse d'être
+    // lié au lieu de laisser un lien mort dans 12 articles, et son résumé
+    // reste écrit à un seul endroit.
+    const outils = [];
+    const nomOutil = champ('Outil');
+    if (nomOutil) {
+      const trouve = OUTILS_PUBLIES.find((x) => x.nom === nomOutil);
+      if (trouve) outils.push({ nom: trouve.nom, url: trouve.route, resume: trouve.resume });
+      else console.log(`  note ${ou} : outil inconnu ou non publié → ${nomOutil}`);
+    }
+
     articles.push({
       code: a.code,
       slug,
@@ -378,6 +414,7 @@ for (const chemin of fichiers) {
       faq: questions ? faq(questions.contenu) : [],
       sources: sources.contenu.replace(/\s*\n\s*/g, ' ').trim(),
       pages: lies.pages,
+      outils,
       articlesLies: lies.articles,
       lecture: lecture(corpsArticle),
       corps: corpsArticle,
@@ -438,6 +475,12 @@ for (const a of articles) {
   if (a.pages.length) {
     entete.push('pages:');
     for (const p of a.pages) entete.push(`  - nom: ${yaml(p.nom)}`, `    url: ${yaml(p.url)}`);
+  }
+  if (a.outils.length) {
+    entete.push('outils:');
+    for (const o of a.outils) {
+      entete.push(`  - nom: ${yaml(o.nom)}`, `    url: ${yaml(o.url)}`, `    resume: ${yaml(o.resume)}`);
+    }
   }
   if (a.articlesLies.length) {
     entete.push('articlesLies:');

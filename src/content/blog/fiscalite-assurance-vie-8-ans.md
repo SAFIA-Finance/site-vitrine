@@ -23,6 +23,10 @@ faq:
 pages:
   - nom: "Cockpit stratégique"
     url: "/cockpit/"
+outils:
+  - nom: "Rachat en assurance-vie"
+    url: "/outils/assurance-vie-rachat/"
+    resume: "Ce que l'impôt prend sur un retrait, avant et après huit ans."
 articlesLies:
   - "rachat-partiel-assurance-vie"
   - "abattement-assurance-vie-4600"

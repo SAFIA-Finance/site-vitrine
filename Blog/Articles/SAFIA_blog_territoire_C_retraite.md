@@ -15,7 +15,7 @@ Bloc auteur et avertissement repris en fin de chaque article :
 
 ## C1 — Estimer sa retraite : les trois chiffres à sortir avant tout calcul
 
-**URL** : /blog/estimer-sa-retraite
+**URL** : /blog/estimer-sa-retraite · **Outil** : Simulateur d'épargne
 **Title** : Estimer sa retraite : les 3 chiffres à connaître
 **Meta** : Avant toute simulation, trois données commandent le résultat : trimestres acquis, salaire annuel moyen, points de retraite complémentaire. Où les trouver.
 
@@ -97,7 +97,7 @@ Page **Cockpit stratégique** · articles **C5** (combien épargner) et **C6** (
 
 ## C2 — PER : fonctionnement, déduction, déblocage, sortie
 
-**URL** : /blog/per-fonctionnement
+**URL** : /blog/per-fonctionnement · **Outil** : Simulateur PER
 **Title** : PER : fonctionnement complet et fiscalité 2026
 **Meta** : Versements déductibles, blocage, sortie en capital ou en rente : le PER expliqué, avec les plafonds 2026 et les nouveautés de la loi de finances.
 
@@ -181,7 +181,7 @@ Page **Cockpit stratégique** · articles **C3** (économie d'impôt), **C4** (c
 
 ## C3 — Déduction PER : calculer son économie d'impôt réelle
 
-**URL** : /blog/deduction-per-economie-impot
+**URL** : /blog/deduction-per-economie-impot · **Outil** : Simulateur PER
 **Title** : Déduction PER : calculer son économie d'impôt réelle
 **Meta** : L'économie d'impôt d'un versement PER dépend de ta tranche marginale. Le calcul exact, les effets de seuil, et pourquoi l'avantage est surestimé.
 
@@ -261,7 +261,7 @@ Page **Cockpit stratégique** · articles **C2** (PER) et **B8** (PER ou assuran
 
 ## C4 — Sortie du PER en capital ou en rente : la fiscalité comparée
 
-**URL** : /blog/per-capital-ou-rente
+**URL** : /blog/per-capital-ou-rente · **Outil** : Simulateur PER
 **Title** : PER : sortir en capital ou en rente ? Comparatif
 **Meta** : Capital en une fois, fractionné ou rente viagère : trois sorties, trois fiscalités. Le comparatif chiffré et les critères non fiscaux.
 
@@ -345,7 +345,7 @@ Page **Cockpit stratégique** · articles **C2** (PER) et **C7** (préparer sa r
 
 ## C5 — Combien épargner chaque mois pour compléter sa retraite
 
-**URL** : /blog/combien-epargner-retraite
+**URL** : /blog/combien-epargner-retraite · **Outil** : Simulateur d'épargne
 **Title** : Combien épargner par mois pour sa retraite ?
 **Meta** : La méthode en quatre étapes pour chiffrer l'effort mensuel réel, avec un tableau par âge de départ et les hypothèses posées explicitement.
 
@@ -508,7 +508,7 @@ Page **Cockpit stratégique** · articles **C1** (estimer sa retraite) et **C7**
 
 ## C7 — Préparer sa retraite à 30, 40 et 50 ans : trois stratégies distinctes
 
-**URL** : /blog/preparer-retraite-30-40-50-ans
+**URL** : /blog/preparer-retraite-30-40-50-ans · **Outil** : Simulateur d'épargne
 **Title** : Préparer sa retraite à 30, 40 ou 50 ans
 **Meta** : L'horizon change tout : l'effort, les supports, les priorités. Trois stratégies distinctes selon l'âge, avec les montants et les arbitrages correspondants.
 

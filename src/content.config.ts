@@ -43,6 +43,15 @@ const blog = defineCollection({
     faq: z.array(z.object({ q: z.string(), r: z.string() })).default([]),
     /** Pages du site vers lesquelles l'article renvoie. */
     pages: z.array(z.object({ nom: z.string(), url: z.string() })).default([]),
+    /**
+     * Simulateur proposé en fin d'article, quand il répond littéralement à la
+     * question posée. Champ distinct de `pages` à dessein : ce n'est pas une
+     * page à lire mais un calcul à faire, et le `resume` vient du catalogue
+     * src/calculs/outils.js, donc un outil dépublié ne peut pas être lié.
+     */
+    outils: z
+      .array(z.object({ nom: z.string(), url: z.string(), resume: z.string() }))
+      .default([]),
     /** Autres articles cités, par leur identifiant de fichier. */
     articlesLies: z.array(z.string()).default([]),
     sources: z.string().min(10),

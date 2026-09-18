@@ -258,7 +258,7 @@ Page **Sécurité et conformité** · articles **F4** (bilan patrimonial) et **A
 
 ## E4 — Frais de gestion : l'effet réel de 1 % sur vingt ans
 
-**URL** : /blog/frais-de-gestion-effet-20-ans
+**URL** : /blog/frais-de-gestion-effet-20-ans · **Outil** : Le coût de tes frais
 **Title** : Frais de gestion : l'effet de 1 % sur 20 ans
 **Meta** : Un point de frais annuel paraît anodin. Sur vingt ans, il absorbe une fraction considérable du capital final. Le calcul complet, sans hypothèse optimiste.
 
@@ -342,7 +342,7 @@ Page **Tarifs** · articles **B7** (frais d'assurance-vie) et **E2** (gestion pi
 
 ## E5 — Conseiller en gestion de patrimoine : combien ça coûte, et à partir de quel patrimoine
 
-**URL** : /blog/cout-conseiller-gestion-patrimoine
+**URL** : /blog/cout-conseiller-gestion-patrimoine · **Outil** : Le coût de tes frais
 **Title** : Prix d'un conseiller en gestion de patrimoine 2026
 **Meta** : Honoraires, rétrocessions, frais sur encours : les trois modes de rémunération d'un CGP, et le seuil de patrimoine à partir duquel on est servi.
 

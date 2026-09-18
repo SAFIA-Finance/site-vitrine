@@ -15,7 +15,7 @@ Les sept articles D1 à D7 couvrent les mécanismes. Ceux-ci couvrent les **situ
 
 ## D8 — Famille recomposée : protéger son conjoint sans léser ses enfants
 
-**URL** : /blog/succession-famille-recomposee · **Mot-clé** : succession famille recomposée
+**URL** : /blog/succession-famille-recomposee · **Mot-clé** : succession famille recomposée · **Outil** : Succession et donation
 **Title** : Famille recomposée : protéger son conjoint et ses enfants
 **Meta** : L'enfant du conjoint n'est pas héritier et reste taxé à 60 %. Comment protéger le survivant sans entamer la réserve des enfants d'un premier lit.
 
@@ -68,7 +68,7 @@ Code civil, articles 757 et suivants (droits du conjoint survivant), 912 et suiv
 
 ## D9 — Concubin, PACS, mariage : trois régimes très inégaux
 
-**URL** : /blog/transmission-concubin-pacs-mariage · **Mot-clé** : succession concubin
+**URL** : /blog/transmission-concubin-pacs-mariage · **Mot-clé** : succession concubin · **Outil** : Succession et donation
 **Meta** : Concubin taxé à 60 %, partenaire de PACS exonéré mais non héritier, conjoint marié protégé : trois statuts, trois résultats très différents.
 
 ### L'essentiel
@@ -181,7 +181,7 @@ Code général des impôts, article 787 B · Loi de finances pour 2026, disposit
 
 ## D11 — Transmettre un bien immobilier : donation, SCI ou démembrement
 
-**URL** : /blog/transmettre-bien-immobilier · **Mot-clé** : donation immobilier
+**URL** : /blog/transmettre-bien-immobilier · **Mot-clé** : donation immobilier · **Outil** : Succession et donation
 **Title** : Bien immobilier : donation, SCI ou démembrement
 **Meta** : Donation en pleine propriété, donation de la nue-propriété ou apport à une SCI : les trois voies comparées, et leur effet sur la base taxable.
 
@@ -268,7 +268,7 @@ Code civil, articles 1832 et suivants, et 1857 sur la responsabilité des associ
 
 ## D13 — Enfant handicapé : les dispositifs de protection et de transmission
 
-**URL** : /blog/transmission-enfant-handicape · **Mot-clé** : succession enfant handicapé
+**URL** : /blog/transmission-enfant-handicape · **Mot-clé** : succession enfant handicapé · **Outil** : Succession et donation
 **Title** : Enfant handicapé : protection et transmission
 **Meta** : Un abattement spécifique de 159 325 €, cumulable avec celui de parenté : un enfant handicapé reçoit donc 259 325 € par parent avant barème.
 
@@ -520,7 +520,7 @@ Règlement (UE) n° 650/2012 du 4 juillet 2012 relatif aux successions et au cer
 
 ## D18 — Protéger son conjoint : donation au dernier vivant et quotité disponible
 
-**URL** : /blog/donation-dernier-vivant · **Mot-clé** : donation au dernier vivant
+**URL** : /blog/donation-dernier-vivant · **Mot-clé** : donation au dernier vivant · **Outil** : Succession et donation
 **Title** : Donation au dernier vivant : protéger son conjoint
 **Meta** : La donation au dernier vivant élargit les droits du conjoint au-delà du minimum légal et lui laisse le choix entre trois options au décès.
 

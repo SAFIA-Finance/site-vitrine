@@ -21,6 +21,10 @@ faq:
 pages:
   - nom: "Cockpit stratégique"
     url: "/cockpit/"
+outils:
+  - nom: "PEA ou compte-titres"
+    url: "/outils/pea-cto/"
+    resume: "La même somme, les deux enveloppes, et ce qu’il te reste à la fin."
 articlesLies:
   - "patrimoine-francais-non-resident"
   - "fiscalite-assurance-vie-8-ans"

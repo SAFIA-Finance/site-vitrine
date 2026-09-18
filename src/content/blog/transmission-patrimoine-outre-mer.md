@@ -14,6 +14,10 @@ essentiel:
 pages:
   - nom: "Cockpit stratégique"
     url: "/cockpit/"
+outils:
+  - nom: "Succession et donation"
+    url: "/outils/succession/"
+    resume: "Abattements et droits à payer selon le lien de parenté."
 articlesLies:
   - "abattement-impot-outre-mer-drom"
   - "fiscalite-outre-mer-panorama"

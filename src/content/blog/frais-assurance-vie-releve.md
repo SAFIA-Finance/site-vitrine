@@ -21,6 +21,10 @@ faq:
 pages:
   - nom: "Tarifs"
     url: "/tarifs/"
+outils:
+  - nom: "Le coût de tes frais"
+    url: "/outils/frais/"
+    resume: "Ce qu’un point de frais annuel retire à ton capital sur vingt ans."
 articlesLies:
   - "frais-de-gestion-effet-20-ans"
   - "fonds-euros-ou-uc"

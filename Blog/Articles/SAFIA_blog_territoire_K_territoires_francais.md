@@ -204,7 +204,7 @@ Code général des collectivités territoriales, article LO 6314-4, I, 1° et 1�
 
 ## K4 — DROM : la réfaction d'impôt de 30 % et 40 %, et son plafond
 
-**URL** : /blog/abattement-impot-outre-mer-drom · **Mot-clé** : abattement impôt outre-mer · **Page liée** : Cockpit stratégique
+**URL** : /blog/abattement-impot-outre-mer-drom · **Mot-clé** : abattement impôt outre-mer · **Page liée** : Cockpit stratégique · **Outil** : Impôt sur le revenu
 **Meta** : La réfaction porte sur le montant de l'impôt, pas sur le revenu imposable. Son plafond, son exclusion du PFU, et la date qui fixe la domiciliation.
 **Vérifié le 16 septembre 2026**
 
@@ -422,7 +422,7 @@ Constitution du 4 octobre 1958, article 74 · Loi n° 61-814 du 29 juillet 1961 
 
 ## K8 — Investir outre-mer : les dispositifs de réduction d'impôt
 
-**URL** : /blog/defiscalisation-outre-mer-dispositifs · **Mot-clé** : défiscalisation outre-mer · **Page liée** : Cockpit stratégique
+**URL** : /blog/defiscalisation-outre-mer-dispositifs · **Mot-clé** : défiscalisation outre-mer · **Page liée** : Cockpit stratégique · **Outil** : Impôt sur le revenu
 **Meta** : Articles 199 undecies B et C : des niches à plafond majoré, ouvertes jusqu'en 2029 pour les investissements productifs. Et le risque de reprise.
 **Vérifié le 16 septembre 2026**
 
@@ -489,7 +489,7 @@ Code général des impôts, articles 199 undecies B, 199 undecies C, 217 undecie
 
 ## K9 — Transmettre un patrimoine situé outre-mer
 
-**URL** : /blog/transmission-patrimoine-outre-mer · **Mot-clé** : succession outre-mer · **Page liée** : Cockpit stratégique
+**URL** : /blog/transmission-patrimoine-outre-mer · **Mot-clé** : succession outre-mer · **Page liée** : Cockpit stratégique · **Outil** : Succession et donation
 **Meta** : Dans les DROM, mêmes abattements et même barème qu'en métropole. Ailleurs, droit local. L'article 750 ter et le piège de la résidence de l'héritier.
 **Vérifié le 16 septembre 2026**
 

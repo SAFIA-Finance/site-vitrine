@@ -236,7 +236,7 @@ Directive 2014/65/UE, articles 24 et 25, information sur les coûts et les incit
 
 ## J6 — ETF : réplication, frais, écarts de suivi
 
-**URL** : /blog/etf-definition-fonctionnement · **Mot-clé** : etf · **Page liée** : ADN Investisseur
+**URL** : /blog/etf-definition-fonctionnement · **Mot-clé** : etf · **Page liée** : ADN Investisseur · **Outil** : Le coût de tes frais
 **Meta** : Un ETF réplique un indice au lieu de le battre. Son avantage tient aux frais, et la réplication synthétique loge des indices mondiaux dans un PEA.
 
 ### L'essentiel
@@ -282,7 +282,7 @@ Directive OPCVM et règlements applicables aux fonds indiciels cotés · AMF, gu
 
 ## J7 — OPCVM, SICAV, FCP : le vocabulaire et les frais réels
 
-**URL** : /blog/opcvm-sicav-fcp · **Mot-clé** : opcvm · **Page liée** : ADN Investisseur
+**URL** : /blog/opcvm-sicav-fcp · **Mot-clé** : opcvm · **Page liée** : ADN Investisseur · **Outil** : Le coût de tes frais
 **Meta** : SICAV et FCP ne changent presque rien pour l'épargnant. La vraie ligne de partage est entre gestion active et gestion indicielle, et leurs frais.
 
 ### L'essentiel
@@ -377,7 +377,7 @@ AMF, guide sur les fonds obligataires et les fonds à échéance · Documents d'
 
 ## J9 — Actions en direct : diversification, biais domestique, PEA
 
-**URL** : /blog/investir-en-actions-direct · **Mot-clé** : investir en actions · **Page liée** : ADN Investisseur
+**URL** : /blog/investir-en-actions-direct · **Mot-clé** : investir en actions · **Page liée** : ADN Investisseur · **Outil** : PEA ou compte-titres
 **Meta** : Détenir en direct supprime les frais de gestion mais transfère le risque de concentration. Le biais domestique, et le PEA après cinq ans.
 
 ### L'essentiel

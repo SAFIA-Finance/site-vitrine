@@ -14,6 +14,10 @@ essentiel:
 pages:
   - nom: "Cockpit stratégique"
     url: "/cockpit/"
+outils:
+  - nom: "Succession et donation"
+    url: "/outils/succession/"
+    resume: "Abattements et droits à payer selon le lien de parenté."
 sources: "Code général des impôts, articles 779, II, 199 septies et 199 septies 1° bis · Code civil, articles 1048 et suivants (libéralités graduelles et résiduelles), 477 et suivants (mandat de protection future) · Code de l'action sociale et des familles, conditions de ressources des prestations."
 ---
 

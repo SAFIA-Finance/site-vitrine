@@ -21,6 +21,10 @@ faq:
 pages:
   - nom: "Assistant IA"
     url: "/assistant-ia/"
+outils:
+  - nom: "Simulateur d'épargne"
+    url: "/outils/simulateur-epargne/"
+    resume: "Où sera ton épargne dans dix ans, et combien mettre de côté pour un objectif."
 articlesLies:
   - "estimer-sa-retraite"
   - "preparer-retraite-30-40-50-ans"

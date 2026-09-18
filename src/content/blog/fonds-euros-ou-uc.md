@@ -21,6 +21,10 @@ faq:
 pages:
   - nom: "ADN Investisseur"
     url: "/adn-investisseur/"
+outils:
+  - nom: "Intérêts composés"
+    url: "/outils/interets-composes/"
+    resume: "Ce que ton épargne devient quand les intérêts produisent des intérêts."
 articlesLies:
   - "frais-assurance-vie-releve"
   - "frais-de-gestion-effet-20-ans"

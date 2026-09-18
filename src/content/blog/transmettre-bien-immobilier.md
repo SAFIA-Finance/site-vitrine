@@ -14,6 +14,10 @@ essentiel:
 pages:
   - nom: "Cockpit stratégique"
     url: "/cockpit/"
+outils:
+  - nom: "Succession et donation"
+    url: "/outils/succession/"
+    resume: "Abattements et droits à payer selon le lien de parenté."
 sources: "Code général des impôts, articles 669, 779 et 784 · Code civil, articles 843, 860 et 1078 sur le rapport et la donation-partage · BOFiP, évaluation de l'usufruit et de la nue-propriété."
 ---
 

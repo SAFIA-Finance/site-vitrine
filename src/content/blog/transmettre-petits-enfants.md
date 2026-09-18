@@ -21,6 +21,10 @@ faq:
 pages:
   - nom: "Cockpit stratégique"
     url: "/cockpit/"
+outils:
+  - nom: "Succession et donation"
+    url: "/outils/succession/"
+    resume: "Abattements et droits à payer selon le lien de parenté."
 articlesLies:
   - "don-familial-somme-argent"
   - "assurance-vie-succession-152500"

@@ -14,6 +14,10 @@ essentiel:
 pages:
   - nom: "ADN Investisseur"
     url: "/adn-investisseur/"
+outils:
+  - nom: "PEA ou compte-titres"
+    url: "/outils/pea-cto/"
+    resume: "La même somme, les deux enveloppes, et ce qu’il te reste à la fin."
 seoDerive: true
 sources: "Code monétaire et financier, articles L. 221-30 et suivants sur le PEA · Loi de financement de la Sécurité sociale pour 2026 · AMF, études sur le comportement des investisseurs particuliers · Travaux académiques sur le biais domestique."
 ---

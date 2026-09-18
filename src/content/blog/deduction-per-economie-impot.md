@@ -21,6 +21,10 @@ faq:
 pages:
   - nom: "Cockpit stratégique"
     url: "/cockpit/"
+outils:
+  - nom: "Simulateur PER"
+    url: "/outils/per/"
+    resume: "Ce qu'un versement sur un PER te fait vraiment économiser, et ce qu'il coûte à la sortie."
 articlesLies:
   - "per-fonctionnement"
   - "per-ou-assurance-vie"

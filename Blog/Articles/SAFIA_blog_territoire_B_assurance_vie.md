@@ -13,7 +13,7 @@ Bloc auteur et avertissement repris à l'identique en fin de chaque article :
 
 ## B1 — Fiscalité de l'assurance-vie : ce que change vraiment le cap des huit ans
 
-**URL** : /blog/fiscalite-assurance-vie-8-ans
+**URL** : /blog/fiscalite-assurance-vie-8-ans · **Outil** : Rachat en assurance-vie
 **Title** : Fiscalité assurance-vie 2026 : avant et après 8 ans
 **Meta** : Avant 8 ans, 30 % sur les gains. Après, un abattement de 4 600 € et un taux de 24,7 %. Le calcul complet, avec les chiffres 2026 et un exemple détaillé.
 
@@ -104,7 +104,7 @@ Page **Cockpit stratégique** · articles **B3** (rachat partiel) et **B2** (aba
 
 ## B2 — L'abattement de 4 600 € : comment il s'applique réellement
 
-**URL** : /blog/abattement-assurance-vie-4600
+**URL** : /blog/abattement-assurance-vie-4600 · **Outil** : Rachat en assurance-vie
 **Title** : Abattement de 4 600 € en assurance-vie : mode d'emploi
 **Meta** : L'abattement annuel de 4 600 € ou 9 200 € ne s'applique qu'à l'impôt sur le revenu, pas aux prélèvements sociaux. Calcul, pièges et exemple chiffré.
 
@@ -187,7 +187,7 @@ Page **Cockpit stratégique** · articles **B1** (fiscalité après 8 ans) et **
 
 ## B3 — Rachat partiel : calculer l'impôt pas à pas
 
-**URL** : /blog/rachat-partiel-assurance-vie
+**URL** : /blog/rachat-partiel-assurance-vie · **Outil** : Rachat en assurance-vie
 **Title** : Rachat partiel assurance-vie : calcul de l'impôt 2026
 **Meta** : La formule du rachat partiel, la part de gains, le taux applicable : trois exemples chiffrés pour savoir exactement ce que coûtera ton retrait.
 
@@ -270,7 +270,7 @@ Page **Cockpit stratégique** · articles **B2** (abattement) et **B7** (frais).
 
 ## B4 — Fonds en euros ou unités de compte : arbitrer selon l'horizon
 
-**URL** : /blog/fonds-euros-ou-uc
+**URL** : /blog/fonds-euros-ou-uc · **Outil** : Intérêts composés
 **Title** : Fonds euros ou unités de compte : comment choisir
 **Meta** : Capital garanti contre espérance de rendement : la répartition entre fonds euros et unités de compte dépend de ton horizon, pas des performances passées.
 
@@ -505,7 +505,7 @@ Page **Cockpit stratégique** · articles **B5** (succession) et **D5** (étapes
 
 ## B7 — Frais d'assurance-vie : les retrouver sur ton relevé annuel
 
-**URL** : /blog/frais-assurance-vie-releve
+**URL** : /blog/frais-assurance-vie-releve · **Outil** : Le coût de tes frais
 **Title** : Frais d'assurance-vie : les repérer sur son relevé
 **Meta** : Frais d'entrée, de gestion, d'arbitrage, frais internes des fonds : les quatre couches de frais d'une assurance-vie et où les lire réellement.
 
@@ -575,7 +575,7 @@ Page **Tarifs** · articles **E4** (frais sur vingt ans) et **B4** (fonds euros 
 
 ## B8 — PER ou assurance-vie : le choix dépend de ta tranche marginale
 
-**URL** : /blog/per-ou-assurance-vie
+**URL** : /blog/per-ou-assurance-vie · **Outil** : Simulateur PER
 **Title** : PER ou assurance-vie : comment trancher en 2026
 **Meta** : Le PER déduit à l'entrée et impose à la sortie, l'assurance-vie fait l'inverse. Comment choisir selon ta tranche marginale, avec un exemple chiffré.
 
