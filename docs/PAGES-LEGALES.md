@@ -45,6 +45,37 @@ npm run verifier
 git add -A ; git commit -m "Pages légales : mise à jour" ; git push
 ```
 
+## Corriger un document sans ouvrir Word
+
+L'extraction ci-dessus ne fait que lire. Pour **réécrire** un `.docx`, le mode
+`Update` de `ZipFile` remplace une entrée en place, sans reconstruire l'archive
+ni toucher aux styles, à la numérotation, aux polices ni aux relations :
+
+```powershell
+$zip = [IO.Compression.ZipFile]::Open($chemin, 'Update')
+$e = $zip.Entries | Where-Object { $_.FullName -eq 'word/document.xml' }
+$flux = $e.Open()
+$flux.SetLength(0)
+$ecrivain = New-Object IO.StreamWriter($flux, (New-Object Text.UTF8Encoding($false)))
+$ecrivain.Write($xml)
+$ecrivain.Flush() ; $ecrivain.Dispose() ; $flux.Dispose() ; $zip.Dispose()
+```
+
+`SetLength(0)` est obligatoire : sans lui, un texte plus court laisse la queue
+de l'ancien contenu derrière lui. L'encodage doit être **UTF-8 sans BOM**, que
+Word exige pour `word/document.xml`.
+
+Trois précautions, toutes payées sur le terrain :
+
+- **Copier les `.docx` avant d'y toucher.** Le dossier `originaux-2026-09-16/`
+  garde l'état d'avant les premiers patches, pas l'état courant : une
+  restauration depuis ce dossier ferait perdre les corrections ultérieures.
+- **Contrôler l'archive après écriture**, en comparant la liste de ses entrées
+  à celle de la sauvegarde et en vérifiant que le XML commence par `<?xml` et
+  finit par `</w:document>`. Une archive corrompue ne s'ouvre plus dans Word.
+- **Comparer les pages reconverties aux précédentes.** La conversion régénère
+  les cinq pages : le diff doit ne montrer que ce qu'on a voulu changer.
+
 ## Une seule source de vérité
 
 Tout le texte publié vient des documents Word. Aucun complément n'est ajouté du
@@ -52,6 +83,17 @@ côté du site : quand un point technique change (mesure d'audience, prestataire
 hébergeur), c'est le document Word qui doit être corrigé, puis reconverti.
 `outils/maj-word.mjs` montre comment modifier le texte d'un .docx sans toucher à
 sa mise en forme, et refuse d'écrire si un passage visé n'est pas retrouvé.
+
+**Attention à sa portée** : il travaille au niveau du **paragraphe**, qu'il
+remplace par un paragraphe reconstruit en **un seul run**. C'est sans risque
+pour un paragraphe uniforme, mais cela **aplatit la mise en forme** d'un
+paragraphe qui mélange plusieurs runs. Le paragraphe du Médiateur de l'AMF, dans
+les mentions légales, est de ceux-là : le nom de l'organisme y est en gras et
+l'adresse ne l'est pas. Pour une retouche qui ne concerne que quelques
+caractères, remplacer le texte à l'intérieur du `<w:t>` visé est plus sûr, et ne
+touche à aucune balise. Ses patches sont par ailleurs **codés en dur pour les
+corrections du 16 septembre 2026** : le relancer tel quel échouerait désormais,
+ces passages n'existant plus dans leur forme d'origine.
 
 ## Cohérence à tenir
 
