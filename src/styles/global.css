@@ -1347,6 +1347,12 @@ ul.reseaux{list-style:none;display:flex;flex-direction:row;gap:10px;margin-top:1
 .rdv .intro{margin-top:14px}
 .rdv-tiers{margin-top:26px;max-width:58ch;font-size:15px;line-height:1.6;color:var(--encre-2)}
 .rdv-bouton{margin-top:24px}
+/* Lien sous le recit du fondateur : il prolonge la signature, d'ou l'espace
+   plus resserre au-dessus qu'entre deux paragraphes. */
+.recit-rdv{margin-top:18px;font-size:16px}
+/* Le bloc final centre ses enfants en colonne : un conteneur .actions y
+   remettrait ses boutons a gauche, d'ou ce recentrage explicite. */
+.actions-centre{justify-content:center}
 
 @media (max-width:980px){
   .une{padding:24px}

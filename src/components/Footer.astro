@@ -2,7 +2,7 @@
 // Pied de page commun. Les liens légaux portent la classe « a-venir »
 // tant que les pages correspondantes ne sont pas publiées (voir docs/POINTS-OUVERTS.md).
 import { OUTILS_PUBLIES } from '../calculs/outils.js';
-import { RESEAUX } from '../config.js';
+import { RESEAUX, RENDEZ_VOUS } from '../config.js';
 import Reseaux from './Reseaux.astro';
 const annee = new Date().getFullYear();
 ---
@@ -30,7 +30,7 @@ const annee = new Date().getFullYear();
           </details>
         </li>
         <li><a href="/comparatif/">Comparatif</a></li><li><a href="/blog/">Le blog</a></li></ul></div>
-      <div><h3>À propos</h3><ul><li><a href="/fondateur/">Le fondateur</a></li><li><a href="/methode/">Notre méthode</a></li><li><a href="/securite/">Sécurité et conformité</a></li><li><a href="mailto:hello@safia.finance">hello@safia.finance</a></li></ul></div>
+      <div><h3>À propos</h3><ul><li><a href="/fondateur/">Le fondateur</a></li>{RENDEZ_VOUS && <li><a href="/fondateur/#rendez-vous">Prendre rendez-vous</a></li>}<li><a href="/methode/">Notre méthode</a></li><li><a href="/securite/">Sécurité et conformité</a></li><li><a href="mailto:hello@safia.finance">hello@safia.finance</a></li></ul></div>
       <div><h3>Légal</h3><ul><li><a href="/mentions-legales/">Mentions légales</a></li><li><a href="/politique-de-confidentialite/">Politique de confidentialité</a></li><li><a href="/cgu/">CGU</a></li><li><a href="/disclaimer/">Avertissement</a></li><li><a href="/politique-cookies/">Politique de cookies</a></li><li><a href="#cookies" data-ouvrir-cookies>Gestion des cookies</a></li></ul></div>
     </div>
     <p class="reglementaire">SAFIA SAS au capital de 10 000 € · RCS Paris 994 877 850 · 22 rue du Colisée, 75008 Paris. Conseiller en investissements financiers (CIF) enregistré à l'ORIAS sous le n° 26008152 (orias.fr), adhérent de la CNCGP, association agréée par l'AMF. Les analyses, simulations et contenus de l'application ont une visée informative et pédagogique et ne constituent pas un conseil en investissement personnalisé. Le conseil en investissement est délivré par nos conseillers dans le cadre d'une lettre de mission. Tout investissement comporte un risque de perte en capital. Les performances passées ne préjugent pas des performances futures. Médiateur : Médiateur de l'AMF. © SAFIA {annee}</p>

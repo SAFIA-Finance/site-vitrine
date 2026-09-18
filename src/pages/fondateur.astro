@@ -37,6 +37,13 @@ const fil = ["Accueil","À propos","Le fondateur"];
     <p>Plus tard, en travaillant dans la finance, la banque privée et la gestion de patrimoine, j'ai découvert que ce problème dépassait largement mon histoire familiale. J'ai vu des épargnants orientés vers des produits qui ne correspondaient pas toujours réellement à leurs besoins, des familles insuffisamment accompagnées dans leurs décisions patrimoniales, et des entrepreneurs dont la fiscalité, les investissements ou la transmission avaient été mal anticipés. J'ai surtout constaté un paradoxe : ceux qui ont le plus besoin de conseil n'y ont pas toujours accès, parce que leur patrimoine ne justifie pas suffisamment le temps qu'un conseiller traditionnel devrait leur consacrer.</p>
     <p>SAFIA est née de ce constat. Je veux rendre le conseil en investissement et l'accompagnement patrimonial sur mesure accessibles au plus grand nombre, grâce à une IA qui comprend chaque personne, son patrimoine, ses projets et ses convictions, et qui explique au lieu d'imposer. Parce que gérer son patrimoine ne devrait pas consister à suivre « les 5 ETF à acheter absolument » ou reproduire le portefeuille de quelqu'un d'autre. Chacun devrait pouvoir comprendre ses choix, construire sa propre stratégie et rester maître de son avenir financier. SAFIA est là pour remettre le contrôle du patrimoine entre les mains de celui à qui il appartient.</p>
     <p class="signature-recit">Maxime Bouché</p>
+    {/* Lien discret et non bouton : quelqu'un qui vient de lire ce récit est
+        dans le bon état d'esprit pour en parler, mais le vrai appel à l'action
+        reste le bloc du bas. Deux boutons pour la même chose sur une page en
+        affaibliraient un. */}
+    {RENDEZ_VOUS && (
+      <p class="recit-rdv"><a class="lien" href="#rendez-vous">Prendre rendez-vous avec Maxime</a></p>
+    )}
   </div>
 </div>
 </section>
@@ -137,8 +144,13 @@ const fil = ["Accueil","À propos","Le fondateur"];
 <section class="final">
 <div class="wrap final-simple">
   <h2>Une question, une idée, un projet ?</h2>
-  <p>Écris-nous à hello@safia.finance, ou suis Maxime sur LinkedIn et Instagram.</p>
-  <a class="btn btn-primaire" href="mailto:hello@safia.finance">Nous écrire</a>
+  <p>Prends rendez-vous, écris-nous à hello@safia.finance, ou suis Maxime sur LinkedIn et Instagram.</p>
+  {/* Le rendez-vous passe devant l'email : il engage moins le visiteur, qui
+      choisit un créneau au lieu de devoir rédiger, et il aboutit plus souvent. */}
+  <div class="actions actions-centre">
+    {RENDEZ_VOUS && <a class="btn btn-primaire" href="#rendez-vous">Prendre rendez-vous</a>}
+    <a class="btn btn-fantome" href="mailto:hello@safia.finance">Nous écrire</a>
+  </div>
   <Reseaux comptes={RESEAUX_FONDATEUR} proprietaire="Maxime Bouché" classe="reseaux-centre" />
 </div>
 </section>
