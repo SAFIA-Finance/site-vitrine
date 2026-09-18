@@ -1,4 +1,4 @@
-# Préversion sitev2.safia.finance — NE PAS INDEXER.
+# Préversion sitev2.safia.finance : NE PAS INDEXER.
 #
 # Ce sous-domaine sert de duplicata du site public. S'il était indexé, Google
 # y verrait du contenu dupliqué et pourrait le faire remonter à la place de
