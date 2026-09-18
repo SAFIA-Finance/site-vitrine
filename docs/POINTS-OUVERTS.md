@@ -102,7 +102,8 @@ quand ils divergeaient de ceux de la maquette.
 
 Aucun de ces points n'est bloquant.
 
-- **Le CSS n'est pas découpé.** `src/styles/global.css` (138 Ko) est chargé par
+- **Le CSS n'est pas découpé.** `src/styles/global.css` (174 Ko, dont 54 Ko de
+  polices en base64) est chargé par
   toutes les pages. À découper après la bascule, règle par règle.
 - **Le blog a son moteur depuis le 16 septembre 2026**, et cette ligne le
   décrivait encore comme dépourvu. Les 123 articles sont générés par

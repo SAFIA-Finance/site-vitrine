@@ -73,6 +73,25 @@ const organisation = {
   '@context': 'https://schema.org',
   '@graph': [
     {
+      // Le site lui-même, et la recherche qu'il expose. Le gabarit du blog lit
+      // « ?q= » depuis l'adresse : cette action décrit donc un comportement
+      // réel, et non une intention.
+      '@type': 'WebSite',
+      '@id': `${SITE_URL}/#site`,
+      url: `${SITE_URL}/`,
+      name: 'SAFIA',
+      inLanguage: 'fr-FR',
+      publisher: { '@id': `${SITE_URL}/#organisation` },
+      potentialAction: {
+        '@type': 'SearchAction',
+        target: {
+          '@type': 'EntryPoint',
+          urlTemplate: `${SITE_URL}/blog/?q={search_term_string}`,
+        },
+        'query-input': 'required name=search_term_string',
+      },
+    },
+    {
       '@type': ['Organization', 'FinancialService'],
       '@id': `${SITE_URL}/#organisation`,
       name: SOCIETE.nom,
@@ -173,17 +192,41 @@ const jsonArticle = article
     }
   : null;
 
-const jsonFil = fil
-  ? {
-      '@context': 'https://schema.org',
-      '@type': 'BreadcrumbList',
-      itemListElement: fil.map((nom, i) => ({
-        '@type': 'ListItem',
-        position: i + 1,
-        name: nom,
-      })),
-    }
-  : null;
+// Le fil d'Ariane visible est une suite de libellés. Google, lui, attend une
+// adresse — « item » — sur chaque échelon : sans elle, il ignore le bloc et
+// n'affiche aucun chemin sous le résultat. C'était le cas sur les 164 pages.
+//
+// Trois libellés intermédiaires sont des rubriques de menu, sans page à elles :
+// « Professionnels », « Ressources » et « À propos ». On ne peut pas leur
+// inventer une adresse, et un échelon sans « item » rendrait le bloc inutile.
+// Ils sont donc retirés du JSON-LD, qui décrit ainsi un chemin entièrement
+// cliquable, pendant que le fil AFFICHÉ reste inchangé.
+const ADRESSES_DU_FIL = {
+  Accueil: '/',
+  Particuliers: '/particuliers/',
+  Outils: '/outils/',
+  'Le blog': '/blog/',
+};
+
+const jsonFil = (() => {
+  if (!fil) return null;
+  const echelons = fil
+    // Le dernier échelon est la page courante : son adresse est déjà connue.
+    .map((nom, i) => ({ nom, url: i === fil.length - 1 ? chemin : ADRESSES_DU_FIL[nom] }))
+    .filter((e) => e.url);
+  // Un fil d'un seul échelon ne décrit aucun chemin.
+  if (echelons.length < 2) return null;
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: echelons.map((e, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      name: e.nom,
+      item: new URL(e.url, SITE_URL).href,
+    })),
+  };
+})();
 ---
 
 <!DOCTYPE html>
@@ -199,10 +242,19 @@ const jsonFil = fil
     <meta name="safia-app-ios" content={APPLICATION.ios} />
     <meta name="safia-app-android" content={APPLICATION.android} />
     <link rel="canonical" href={canonique} />
+    {/* La couleur de la barre du navigateur sur mobile, reprise du fond
+        sombre de l'en-tête pour que la barre et la page ne se démarquent pas. */}
+    <meta name="theme-color" content="#130C36" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 
-    <meta property="og:type" content="website" />
+    {/* Les 123 articles se déclaraient « website », donc comme des pages
+        d'accueil, aux réseaux sociaux comme aux agrégateurs. */}
+    <meta property="og:type" content={article ? 'article' : 'website'} />
+    {article && <meta property="article:published_time" content={article.date} />}
+    {article && <meta property="article:modified_time" content={article.maj ?? article.date} />}
+    {article && <meta property="article:section" content={article.categorie} />}
+    {article && <meta property="article:author" content="Maxime Bouché" />}
     <meta property="og:site_name" content="SAFIA" />
     <meta property="og:locale" content="fr_FR" />
     <meta property="og:title" content={titre} />

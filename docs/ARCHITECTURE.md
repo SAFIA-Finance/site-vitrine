@@ -189,7 +189,8 @@ Le détail d'écriture est dans [BLOG.md](BLOG.md).
 ## Le CSS
 
 `src/styles/global.css` est la feuille de style de la maquette, déplacée telle
-quelle : 138 Ko, environ 2 900 règles, aucune modification. Elle est importée par
+quelle : 174 Ko dont 54 Ko de polices en base64, environ 2 900 règles, aucune
+modification. Elle est importée par
 le gabarit, donc traitée et minifiée une fois par Astro pour tout le site.
 
 Elle n'a pas été découpée par page. Ce serait un gain réel, mais il demande de

@@ -70,6 +70,15 @@ function demarrerPage() {
     if (titreListe) titreListe.hidden = mots.length > 0;
   }
 
+  // Une recherche doit pouvoir s'ouvrir telle quelle : « /blog/?q=per »
+  // pré-remplit le champ et filtre d'emblée. C'est aussi ce que déclare le bloc
+  // SearchAction du gabarit, qui décrirait sinon une action inexistante.
+  const saisieUrl = new URLSearchParams(location.search).get('q');
+  if (saisieUrl) {
+    champ.value = saisieUrl;
+    filtrer();
+  }
+
   champ.addEventListener('input', filtrer);
   form.addEventListener('submit', (e) => {
     e.preventDefault();

@@ -16,7 +16,7 @@
 
 Les quinze pages publiques. S'y ajoutent les cinq pages légales, produites à
 partir des documents Word — voir [PAGES-LEGALES.md](PAGES-LEGALES.md) — et les
-63 pages du blog, produites à partir des fichiers de `Blog/` — voir
+123 pages du blog, produites à partir des fichiers de `Blog/` — voir
 [BLOG.md](BLOG.md). Ces deux familles ne s'écrivent pas à la main.
 
 | Page | URL | Fichier |

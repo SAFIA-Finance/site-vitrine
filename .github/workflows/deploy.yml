@@ -38,8 +38,18 @@ jobs:
       - name: Construire
         env:
           # Définies dans Settings > Secrets and variables > Actions > Variables.
-          # Sans elles, le site se construit pour la préversion, en noindex.
-          SITE_URL: ${{ vars.SITE_URL || 'https://sitev2.safia.finance' }}
+          #
+          # Le repli de SITE_URL désignait « sitev2.safia.finance » jusqu'au
+          # 18 septembre 2026, un sous-domaine depuis supprimé. La variable
+          # effacée, le déploiement serait parti en production avec toutes ses
+          # canoniques vers un domaine mort, sans qu'aucune étape n'échoue.
+          # Il n'existe plus qu'un domaine : le repli le désigne.
+          SITE_URL: ${{ vars.SITE_URL || 'https://safia.finance' }}
+          # INDEXABLE reste à « false » par défaut, donc le site partirait en
+          # noindex si la variable disparaissait. C'était la bonne prudence du
+          # temps de la préversion ; ça ne l'est plus, puisqu'il n'y a plus
+          # qu'un site, et qu'un noindex silencieux le retirerait de Google.
+          # À trancher avec Maxime avant d'inverser ce repli.
           INDEXABLE: ${{ vars.INDEXABLE || 'false' }}
         run: npm run build
 

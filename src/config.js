@@ -2,7 +2,13 @@
 // Ils sont pilotés par deux variables d'environnement, définies dans
 // .github/workflows/deploy.yml. Voir docs/DEPLOIEMENT.md.
 
-export const SITE_URL = process.env.SITE_URL ?? 'https://sitev2.safia.finance';
+// La valeur par défaut est le domaine de production. Elle valait
+// « sitev2.safia.finance » jusqu'au 18 septembre 2026, un sous-domaine depuis
+// supprimé : c'est d'ici que sortent les canoniques, les URL Open Graph, les
+// identifiants JSON-LD, le fil d'Ariane et l'action de recherche. Le jour où la
+// variable d'environnement manque, tout cela désigne un domaine mort, et aucun
+// test n'échoue. Le même piège existait dans astro.config.mjs pour le sitemap.
+export const SITE_URL = process.env.SITE_URL ?? 'https://safia.finance';
 
 /** Faux sur la préversion : le site est alors servi en noindex. */
 export const INDEXABLE = process.env.INDEXABLE === 'true';

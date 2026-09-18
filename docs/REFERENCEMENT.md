@@ -14,14 +14,14 @@ extrait de la page. Les dépassements sont signalés ci-dessous par ⚠️.
 « Blog → description : … ». Tu peux aussi modifier `src/data/pages.json`
 directement, c'est un fichier texte.
 
-> **Les 63 pages du blog ne sont pas listées ici.** Leur titre et leur
+> **Les 123 pages du blog ne sont pas listées ici.** Leur titre et leur
 > description vivent dans l'en-tête de chaque article, champs `Title` et `Meta`
 > des fichiers de `Blog/`. Les recopier ici créerait deux vérités pour un même
 > texte. Voir [BLOG.md](BLOG.md).
 
 ---
 
-## Les 25 pages publiques
+## Les 29 pages publiques
 
 ### Accueil · `/`
 
