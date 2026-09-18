@@ -189,8 +189,9 @@ Le détail d'écriture est dans [BLOG.md](BLOG.md).
 ## Le CSS
 
 `src/styles/global.css` est la feuille de style de la maquette, déplacée telle
-quelle : 174 Ko dont 54 Ko de polices en base64, environ 2 900 règles, aucune
-modification. Elle est importée par
+quelle : 120 Ko, environ 2 900 règles. Les deux jeux de Space Grotesk y vivaient
+en base64, soit 54 Ko : ils sont sortis dans `public/fonts/` le 18/09/2026, pour
+être mis en cache indépendamment de la feuille. Elle est importée par
 le gabarit, donc traitée et minifiée une fois par Astro pour tout le site.
 
 Elle n'a pas été découpée par page. Ce serait un gain réel, mais il demande de
