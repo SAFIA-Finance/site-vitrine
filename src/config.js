@@ -147,13 +147,16 @@ export function noteConsolidee(notes = PREUVES.notes) {
 /**
  * Prise de rendez-vous avec le fondateur, sur Calendly.
  *
- * Le calendrier n'est PAS chargé à l'ouverture de la page : son script dépose
- * des cookies tiers, et le bandeau du site ne demande d'accord que pour la
- * mesure d'audience. S'en servir pour charger Calendly donnerait un
- * consentement ni spécifique ni éclairé, et rendrait fausse la promesse
- * « tu peux refuser sans conséquence » puisqu'un refus empêcherait de prendre
- * rendez-vous. Le script n'est donc demandé qu'au clic du visiteur, qui vaut
- * accord pour cette seule finalité.
+ * LIEN SORTANT, JAMAIS DE WIDGET INTÉGRÉ. Mesuré le 2026-09-18 : afficher le
+ * calendrier dans la page contactait TREIZE domaines tiers — Calendly, mais
+ * aussi Stripe, Google reCAPTCHA, OneTrust et Airbrake — et faisait apparaître
+ * le bandeau de consentement de Calendly, qui annonce des enregistrements
+ * d'écran et un usage marketing, sous celui du site qui promet l'inverse. Deux
+ * bandeaux contradictoires sur la page d'un conseiller en investissements
+ * financiers, pour un calendrier que Calendly sert très bien lui-même.
+ *
+ * Le lien sortant ne dépose rien sur safia.finance : la responsabilité passe à
+ * Calendly quand le visiteur s'y rend, et le bloc l'en avertit avant.
  *
  * Mettre à null retire le bloc de la page du fondateur.
  */

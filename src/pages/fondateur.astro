@@ -18,12 +18,10 @@ const fil = ["Accueil","À propos","Le fondateur"];
     <p class="chapo">Gestionnaire de patrimoine et entrepreneur. Il a fondé SAFIA avec une conviction : l'accompagnement patrimonial ne devrait pas être réservé à ceux qui ont plus d'un million d'euros sur un compte.</p>
     {RENDEZ_VOUS && (
       <div class="actions">
-        {/* Ancre plutôt que lien sortant : le calendrier vit en bas de cette
-            page. Le script de page intercepte ce clic pour déplier le
-            calendrier en même temps qu'il y amène, ce qui évite au visiteur un
-            second clic une fois arrivé. Sans JavaScript, l'ancre fonctionne
-            seule et l'encart du bas garde son propre bouton. */}
-        <a class="btn btn-primaire" href="#rendez-vous" data-rdv-ancre>Prendre un rendez-vous</a>
+        {/* Ancre vers le bloc du bas plutôt que lien sortant direct : le
+            visiteur y lit ce que le rendez-vous recouvre et à qui ses données
+            seront transmises avant de quitter le site. */}
+        <a class="btn btn-primaire" href="#rendez-vous">Prendre un rendez-vous</a>
       </div>
     )}
   </div>
@@ -116,21 +114,18 @@ const fil = ["Accueil","À propos","Le fondateur"];
   <h2 class="titre">Parler à Maxime, {RENDEZ_VOUS.duree}</h2>
   <p class="intro">{RENDEZ_VOUS.intitule} : ta situation, tes questions, et ce que SAFIA peut faire pour toi. Sans engagement, et sans préparation à prévoir.</p>
 
-  {/* RIEN N'EST CHARGÉ TANT QUE LE VISITEUR N'A PAS CLIQUÉ. Le script de
-      Calendly dépose des cookies tiers : le demander à l'ouverture de la page
-      reviendrait à le faire sans accord, et le bandeau du site ne couvre que
-      la mesure d'audience. Le clic vaut accord pour cette seule finalité.
-      L'attribut data-rdv-url porte l'adresse, pour que le script n'ait rien
-      d'écrit en dur. */}
-  <div class="rdv-zone" data-rdv-url={RENDEZ_VOUS.url}>
-    <div class="rdv-appel">
-      <p><b>Le calendrier est fourni par Calendly.</b> Il n'est pas chargé tant que tu ne le demandes pas : l'afficher transmet à Calendly ta visite, puis le nom, l'adresse email et le créneau que tu choisiras.</p>
-      <button class="btn btn-primaire" type="button" data-rdv-charger>Afficher le calendrier</button>
-      {/* Repli : si le script ne se charge pas, ou si le visiteur préfère ne
-          rien afficher ici, le lien direct reste disponible. */}
-      <p class="rdv-repli"><a class="lien" href={RENDEZ_VOUS.url} target="_blank" rel="noopener">Ouvrir le calendrier sur Calendly</a></p>
-    </div>
-  </div>
+  {/* AUCUN SCRIPT TIERS SUR CETTE PAGE, et c'est un choix mesuré. Le widget
+      Calendly intégré contactait TREIZE domaines tiers : Calendly, mais aussi
+      Stripe, Google reCAPTCHA, OneTrust et Airbrake. Il affichait en outre son
+      propre bandeau de consentement, annonçant des enregistrements d'écran et
+      un usage marketing, sous celui du site qui promet l'inverse. Deux
+      bandeaux qui se contredisent sur la page d'un conseiller en
+      investissements financiers, pour un calendrier que Calendly sert très
+      bien lui-même.
+      Le lien sortant ne dépose rien ici, et la responsabilité passe à Calendly
+      au moment où le visiteur s'y rend, en connaissance de cause. */}
+  <p class="rdv-tiers">Le rendez-vous se prend sur <b>Calendly</b>, qui recueillera ton nom, ton adresse email et le créneau retenu.</p>
+  <a class="btn btn-primaire rdv-bouton" href={RENDEZ_VOUS.url} target="_blank" rel="noopener">Choisir un créneau sur Calendly</a>
 </div>
 </section>
 )}
@@ -144,7 +139,4 @@ const fil = ["Accueil","À propos","Le fondateur"];
 </div>
 </section>
 
-<script>
-  import '../scripts/pages/fondateur.js';
-</script>
 </Base>
