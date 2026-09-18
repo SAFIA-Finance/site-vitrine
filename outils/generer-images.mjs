@@ -95,15 +95,26 @@ function enLignes(texte, taille, largeurMax, maxLignes = 3) {
   return lignes;
 }
 
+/** Le titre SEO privé de son suffixe, qui répète le logo juste au-dessus. */
+const sansSuffixe = (titre) => String(titre).replace(/\s*·\s*SAFIA\s*$/, '');
+
 /**
  * Carte d'une page.
- * On compose sur le LIBELLÉ, pas sur le titre SEO : celui-ci va jusqu'à
- * soixante signes et finit par « · SAFIA », ce qui donnerait une carte illisible
- * et redondante avec le logo.
+ *
+ * On compose sur le TITRE privé de « · SAFIA », et non sur le libellé de
+ * navigation. Le libellé donnait des cartes qui annonçaient « PER » ou
+ * « Outils » : une étiquette de menu n'est pas un message, et personne ne
+ * clique sur « Accueil ». Le titre, lui, dit le sujet.
+ *
+ * La taille est de 52 px et non de 64. MESURÉ sur les 123 titres du blog et les
+ * 30 pages : à 64 px, deux titres demandent une quatrième ligne et le découpage
+ * ci-dessus JETTE le surplus sans rien dire, ce qui publierait une carte
+ * interrompue en plein milieu. À 52 px, aucun ne dépasse trois lignes, le plus
+ * long faisant 86 signes. Ne pas remonter cette valeur sans refaire la mesure.
  */
-function cartePage(libelle) {
-  const taille = 64;
-  const lignes = enLignes(libelle, taille, 900, 3);
+function cartePage(titre) {
+  const taille = 52;
+  const lignes = enLignes(sansSuffixe(titre), taille, 900, 3);
   const departY = 330 - ((lignes.length - 1) * taille * 1.18) / 2;
   const texte = lignes
     .map((l, i) => `<tspan x="100" y="${Math.round(departY + i * taille * 1.18)}">${echapper(l)}</tspan>`)
@@ -136,14 +147,32 @@ console.log('  écrit public/apple-touch-icon.png (180×180)');
 await sharp(Buffer.from(partage)).png().toFile(path.join(PUBLIC, 'og', 'defaut.png'));
 console.log('  écrit public/og/defaut.png (1200×630)');
 
-// Une carte par page fixe. Les 123 articles du blog gardent la carte par
-// défaut : arbitrage de Maxime — le dépôt est public, et 123 images de plus y
-// entreraient définitivement pour un gain marginal, un article se partageant
-// surtout par son titre.
+// Une carte propre aux SEULS simulateurs. Arbitrage de Maxime du 18/09/2026 :
+// les pages de présentation se partagent pour la marque et retombent donc sur
+// la carte de marque, tandis qu'une page qu'on partage pour son sujet doit dire
+// son sujet. Cela vise les dix routes sous /outils/, et les 123 articles, dont
+// les cartes sont produites à la construction par generer-og-articles.mjs.
+//
+// Les vingt cartes des autres pages ont été retirées du dépôt : elles
+// affichaient leur libellé de navigation, ce qui donnait « Accueil », « Tarifs »
+// ou « Blog » en très gros, sans rien dire au lecteur.
 const pages = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'src', 'data', 'pages.json'), 'utf8'));
-let n = 0;
-for (const p of pages) {
-  await sharp(Buffer.from(cartePage(p.libelle))).png().toFile(path.join(PUBLIC, 'og', `${p.slug}.png`));
-  n++;
+const aSaCarte = pages.filter((p) => p.route.startsWith('/outils/'));
+
+for (const p of aSaCarte) {
+  await sharp(Buffer.from(cartePage(p.titre))).png().toFile(path.join(PUBLIC, 'og', `${p.slug}.png`));
 }
-console.log(`  écrit ${n} cartes de partage dans public/og/ (1200×630)`);
+console.log(`  écrit ${aSaCarte.length} cartes de simulateur dans public/og/ (1200×630)`);
+
+// Les cartes des pages qui n'en ont plus sont supprimées, sinon elles
+// resteraient dans le dépôt sans que rien ne les serve.
+let retirees = 0;
+for (const p of pages) {
+  if (aSaCarte.includes(p)) continue;
+  const f = path.join(PUBLIC, 'og', `${p.slug}.png`);
+  if (fs.existsSync(f)) {
+    fs.unlinkSync(f);
+    retirees++;
+  }
+}
+if (retirees) console.log(`  retiré ${retirees} carte(s) devenue(s) inutile(s)`);

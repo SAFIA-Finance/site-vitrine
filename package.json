@@ -9,7 +9,7 @@
   },
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
+    "build": "astro build && node outils/generer-og-articles.mjs",
     "preview": "astro preview",
     "check": "astro check",
     "verifier": "node outils/verifier-liens.mjs dist",

@@ -46,6 +46,7 @@ const categorieUrl = `/blog/categorie/${slugCategorie(data.categorie)}/`;
   faq={data.faq}
   fil={fil}
   article={{ titre: data.titre, categorie: data.categorie, date: dateIso(data.date) }}
+  image={`/og/blog/${article.id}.png`}
 >
 <section class="hero hero-page hero-part">
 <div class="wrap hero-page-in hero-court">

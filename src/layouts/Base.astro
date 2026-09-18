@@ -49,18 +49,22 @@ if (!titre || !description) {
 const canonique = new URL(chemin, SITE_URL).href;
 const robots = !INDEXABLE || noindex ? 'noindex, nofollow' : 'index, follow';
 
-// Carte de partage : chaque page fixe a la sienne, dérivée de son slug.
+// Carte de partage.
 //
-// Elle est DÉDUITE ici plutôt que passée par chacune des trente pages : la
-// fiche de pages.json est déjà trouvée plus haut, son slug suffit, et aucun
-// fichier de page n'a à connaître le chemin de son image. Une page qui fournit
-// explicitement « image » garde la priorité, et les articles du blog — qui
-// n'ont pas de fiche ici — retombent sur la carte de marque.
+// Seuls les SIMULATEURS ont une carte à leur nom, et les articles du blog la
+// leur, passée en prop. Toutes les autres pages retombent sur la carte de
+// marque : leur carte affichait auparavant leur libellé de navigation, donc
+// « Accueil », « Tarifs » ou « Blog » en très gros, ce qui n'annonce rien.
+// Une page de présentation se partage pour la marque ; une page qu'on partage
+// pour son sujet doit dire son sujet.
 //
-// Les cartes sont produites par `npm run images`. Si le fichier n'existe pas,
-// le partage affiche un lien sans visuel : relancer le générateur après avoir
-// ajouté une page.
-const carteDeLaPage = fiche?.slug ? `/og/${fiche.slug}.png` : null;
+// La carte est DÉDUITE ici plutôt que passée par chaque page : la fiche de
+// pages.json est déjà trouvée plus haut et son slug suffit. Une page qui
+// fournit explicitement « image » garde la priorité.
+//
+// Les cartes des simulateurs sont produites par `npm run images`, celles des
+// articles à la construction par outils/generer-og-articles.mjs.
+const carteDeLaPage = fiche?.slug && chemin.startsWith('/outils/') ? `/og/${fiche.slug}.png` : null;
 const visuel = Astro.props.image ?? carteDeLaPage ?? image;
 const imageAbsolue = visuel ? new URL(visuel, SITE_URL).href : null;
 
