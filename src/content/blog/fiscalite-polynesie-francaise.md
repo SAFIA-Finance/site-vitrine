@@ -5,7 +5,7 @@ titreSeo: "Polynésie française : fiscalité propre et autonomie"
 description: "Collectivité autonome de l'article 74 : le Code général des impôts ne s'y applique pas. Fiscalité indirecte dominante et convention avec l'État."
 categorie: "Outre-mer"
 date: 2026-09-16
-lecture: 1
+lecture: 2
 essentiel:
   - "La Polynésie française est une **collectivité d'outre-mer dotée de l'autonomie**, régie par l'article 74 de la Constitution et par sa loi organique statutaire."
   - "Elle exerce une **compétence fiscale propre** : le Code général des impôts ne s'y applique pas."
@@ -14,6 +14,9 @@ essentiel:
 pages:
   - nom: "Cockpit stratégique"
     url: "/cockpit/"
+articlesLies:
+  - "convention-fiscale-mode-emploi"
+  - "transmission-patrimoine-outre-mer"
 sources: "Constitution du 4 octobre 1958, article 74 · Loi organique n° 2004-192 du 27 février 2004 portant statut d'autonomie de la Polynésie française · Code des impôts de la Polynésie française et délibérations de l'Assemblée de la Polynésie française · Convention fiscale entre l'État et la Polynésie française · Direction des impôts et des contributions publiques de la Polynésie française."
 ---
 
@@ -37,9 +40,9 @@ Trois sujets, dans cet ordre.
 
 **La résidence.** Qui est résident fiscal polynésien, selon quels critères, et comment s'articule cette qualification avec l'article 4 B du Code général des impôts ? C'est la convention interne qui tranche.
 
-**Les revenus de source métropolitaine.** Un résident polynésien percevant des loyers, dividendes ou pensions de source française voit leur traitement déterminé par la convention, selon une logique proche de celle des conventions internationales décrite dans l'article **I5**.
+**Les revenus de source métropolitaine.** Un résident polynésien percevant des loyers, dividendes ou pensions de source française voit leur traitement déterminé par la convention, selon une logique proche de celle des conventions internationales décrite dans **Conventions fiscales : comment lire celle de votre pays**.
 
-**La transmission.** Elle obéit à des règles distinctes, traitées dans l'article **K9**.
+**La transmission.** Elle obéit à des règles distinctes, traitées dans **Transmettre un patrimoine situé outre-mer**.
 
 ## Le point de vigilance
 

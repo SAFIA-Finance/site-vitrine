@@ -15,6 +15,7 @@ import ModaleTelechargement from '../components/ModaleTelechargement.astro';
 import { ClientRouter } from 'astro:transitions';
 import { SITE_URL, INDEXABLE, SOCIETE, GA_ID, RELAIS_URL, APPLICATION, RESEAUX, RESEAUX_FONDATEUR } from '../config.js';
 import pages from '../data/pages.json';
+import { depouiller } from '../blog.js';
 import '../styles/global.css';
 
 const {
@@ -137,10 +138,15 @@ const jsonFaq = faq.length
   ? {
       '@context': 'https://schema.org',
       '@type': 'FAQPage',
+      // Les données structurées attendent du TEXTE, pas du balisage. Sans ce
+      // dépouillement, « **au sein du même assureur** » partirait vers Google
+      // avec ses astérisques, dans la réponse même affichée en résultat de
+      // recherche. Les questions n'en portent aucun aujourd'hui, mais ne
+      // protéger que les réponses laisserait le piège ouvert de leur côté.
       mainEntity: faq.map((x) => ({
         '@type': 'Question',
-        name: x.q,
-        acceptedAnswer: { '@type': 'Answer', text: x.r },
+        name: depouiller(x.q),
+        acceptedAnswer: { '@type': 'Answer', text: depouiller(x.r) },
       })),
     }
   : null;

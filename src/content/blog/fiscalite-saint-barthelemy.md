@@ -14,6 +14,9 @@ essentiel:
 pages:
   - nom: "Cockpit stratégique"
     url: "/cockpit/"
+articlesLies:
+  - "transmission-patrimoine-outre-mer"
+  - "fiscalite-outre-mer-panorama"
 seoDerive: true
 sources: "Code général des collectivités territoriales, article LO 6214-4, modifié par la loi n° 2015-1485 du 17 novembre 2015, article 7 · Loi n° 2007-223 du 21 février 2007 portant dispositions statutaires et institutionnelles relatives à l'outre-mer · Code de contributions de Saint-Barthélemy, articles 2 et 4 · Conseil d'État, avis du 20 novembre 2013, n° 369796 · Rescrit publié au BOFiP le 23 octobre 2024 relatif à l'intégration fiscale des sociétés établies à Saint-Barthélemy · Services fiscaux de la collectivité de Saint-Barthélemy."
 ---
@@ -74,4 +77,4 @@ Le Code de contributions organise une fiscalité sensiblement différente de cel
 
 **Oublier l'exit tax.** Un transfert de domicile fiscal vers Saint-Barthélemy pose la question du champ de l'article 167 bis du CGI, qui doit être examinée spécifiquement au regard du statut de la collectivité.
 
-**Négliger la transmission.** Les règles applicables aux mutations à titre gratuit doivent être examinées à part : voir l'article **K9**.
+**Négliger la transmission.** Les règles applicables aux mutations à titre gratuit doivent être examinées à part : voir **Transmettre un patrimoine situé outre-mer**.

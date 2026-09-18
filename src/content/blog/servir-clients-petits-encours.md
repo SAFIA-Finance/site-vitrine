@@ -17,6 +17,7 @@ pages:
 articlesLies:
   - "digitaliser-cabinet-gestion-patrimoine"
   - "cout-conseiller-gestion-patrimoine"
+  - "logiciel-cgp-comment-choisir"
 sources: "Code monétaire et financier, articles L. 541-1 et suivants · Règlement général de l'AMF, livre III · Directive 2014/65/UE, article 24 sur l'information relative aux coûts et aux incitations · Calculs de coût de revient établis à titre illustratif."
 ---
 
@@ -60,4 +61,4 @@ Si un dossier n'est plus servi, deux issues propres existent : une offre allég�
 
 Ce calcul explique une réalité collective : une part importante des épargnants français n'a jamais accès à un conseil individualisé, non par refus mais par arithmétique. Or ces ménages prennent les mêmes décisions structurantes que les autres — arbitrage entre enveloppes, préparation d'une transmission, choix d'un horizon — avec des enjeux proportionnellement identiques.
 
-Toute baisse durable du coût de service déplace ce seuil. C'est le sens des chantiers d'automatisation décrits dans les articles **G1** et **G2**.
+Toute baisse durable du coût de service déplace ce seuil. C'est le sens des chantiers d'automatisation décrits dans **Logiciel CGP : les huit fonctions qui font réellement la différence** et **Digitaliser un cabinet de gestion de patrimoine : par où commencer**.

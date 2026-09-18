@@ -57,7 +57,7 @@ L'article 790 G du CGI permet de donner **31 865 € supplémentaires en argent*
 
 Un parent de moins de 80 ans peut donc transmettre **131 865 €** à un enfant majeur en une seule fois, sans droit. Pour un couple : **263 730 €** par enfant.
 
-Ce don familial se renouvelle lui aussi tous les quinze ans, et il fait l'objet d'un article dédié, **D3**.
+Ce don familial se renouvelle lui aussi tous les quinze ans, et il fait l'objet d'un article dédié : **Don familial de somme d'argent : les 31 865 € qui se cumulent**.
 
 ## Donation simple ou donation-partage
 

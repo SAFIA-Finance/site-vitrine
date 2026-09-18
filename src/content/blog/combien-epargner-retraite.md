@@ -13,7 +13,7 @@ essentiel:
   - "Toute projection repose sur une hypothèse de rendement, qui n'est **jamais garantie**."
 faq:
   - q: "Faut-il privilégier le PER ou l'assurance-vie ?"
-    r: "Cela dépend de ta tranche marginale. Voir l'article **B8**."
+    r: "Cela dépend de ta tranche marginale. Voir « PER ou assurance-vie : le choix dépend de ta tranche marginale »."
   - q: "Que faire si je démarre à 55 ans ?"
     r: "L'effort mensuel sera élevé et le rendement attendu plus faible, l'horizon court imposant de la prudence. D'autres leviers deviennent alors déterminants : le rachat de trimestres, le report du départ, la réduction des charges."
   - q: "Faut-il indexer ses versements ?"
@@ -24,6 +24,7 @@ pages:
 articlesLies:
   - "estimer-sa-retraite"
   - "preparer-retraite-30-40-50-ans"
+  - "per-ou-assurance-vie"
 sources: "Portail info-retraite.fr, estimation indicative globale · INSEE, données sur l'évolution des dépenses des ménages selon l'âge · Hypothèses de rendement retenues à titre illustratif, sans valeur d'engagement."
 ---
 

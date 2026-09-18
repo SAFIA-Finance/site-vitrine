@@ -81,7 +81,7 @@ La Caisse des Français de l'étranger propose une adhésion volontaire à un r�
 
 *Santé.* La Grèce relevant de la coordination européenne, sa prise en charge est organisée. C'est ce qui rend l'équation tenable.
 
-*Ce qu'il faut vérifier avant de conclure.* La durée du régime grec et ses conditions d'accès, le coût réel de la vie sur place, la disponibilité des soins dans la région envisagée, et le sort de son patrimoine français — traité dans l'article **I3**.
+*Ce qu'il faut vérifier avant de conclure.* La durée du régime grec et ses conditions d'accès, le coût réel de la vie sur place, la disponibilité des soins dans la région envisagée, et le sort de son patrimoine français — traité dans **Que devient votre patrimoine français quand vous partez**.
 
 Le calcul fiscal n'est jamais le calcul complet.
 

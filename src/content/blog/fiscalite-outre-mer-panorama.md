@@ -14,6 +14,9 @@ essentiel:
 pages:
   - nom: "Cockpit stratégique"
     url: "/cockpit/"
+articlesLies:
+  - "abattement-impot-outre-mer-drom"
+  - "transmission-patrimoine-outre-mer"
 sources: "Constitution du 4 octobre 1958, articles 73, 74 et titre XIII · Code général des collectivités territoriales, articles LO 6214-4 (Saint-Barthélemy) et LO 6314-4 (Saint-Martin) · Code général des impôts, article 197, I, 3 · impots.gouv.fr, rubriques relatives à l'outre-mer."
 ---
 
@@ -38,7 +41,7 @@ sources: "Constitution du 4 octobre 1958, articles 73, 74 et titre XIII · Code 
 
 Elle tient à un article de la Constitution.
 
-**L'article 73** régit les départements et régions d'outre-mer. Le principe est celui de l'**identité législative** : les lois françaises s'y appliquent, sauf adaptations. Le Code général des impôts s'y applique donc pleinement, avec des aménagements que l'article **K4** détaille.
+**L'article 73** régit les départements et régions d'outre-mer. Le principe est celui de l'**identité législative** : les lois françaises s'y appliquent, sauf adaptations. Le Code général des impôts s'y applique donc pleinement, avec des aménagements que détaille **DROM : la réfaction d'impôt de 30 % et 40 %, et son plafond**.
 
 **L'article 74** régit les collectivités d'outre-mer. Le principe est celui de la **spécialité législative** : les lois françaises ne s'y appliquent que si elles le prévoient expressément. Les collectivités qui disposent de la compétence fiscale légifèrent elles-mêmes.
 

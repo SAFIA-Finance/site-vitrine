@@ -15,7 +15,7 @@ faq:
   - q: "Un robo-advisor est-il un conseiller ?"
     r: "Les acteurs de gestion pilotée opèrent sous un statut réglementé, avec un mandat. Ce n'est pas la même chose qu'un assistant qui informe."
   - q: "Une IA peut-elle se tromper sur un point fiscal ?"
-    r: "Oui, et c'est pourquoi la traçabilité des sources est déterminante. Voir l'article **F2**."
+    r: "Oui, et c'est pourquoi la traçabilité des sources est déterminante. Voir « IA explicable en finance : pourquoi une réponse sans source ne vaut rien »."
   - q: "Faut-il un conseiller quand on a un patrimoine modeste ?"
     r: "L'accès au conseil humain reste, en pratique, corrélé au montant du patrimoine. C'est précisément le déséquilibre que les outils cherchent à réduire."
 pages:

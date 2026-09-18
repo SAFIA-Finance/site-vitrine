@@ -14,6 +14,9 @@ essentiel:
 pages:
   - nom: "Cockpit stratégique"
     url: "/cockpit/"
+articlesLies:
+  - "abattement-impot-outre-mer-drom"
+  - "fiscalite-outre-mer-panorama"
 seoDerive: true
 sources: "Code général des impôts, article 750 ter, et articles 779, 990 I et 757 B · Code général des collectivités territoriales, articles LO 6214-4 et LO 6314-4 · Conventions fiscales internes entre l'État et les collectivités concernées · BOFiP, territorialité des droits de mutation à titre gratuit · Codes locaux des collectivités à fiscalité propre."
 ---
@@ -26,7 +29,7 @@ sources: "Code général des impôts, article 750 ter, et articles 779, 990 I et
 
 Guadeloupe, Martinique, Guyane, La Réunion et Mayotte appliquent le Code général des impôts. Les abattements de 100 000 € par parent et par enfant, le barème en ligne directe, l'exonération du conjoint, le régime de l'assurance-vie des articles 990 I et 757 B : tout est identique à la métropole.
 
-La réfaction d'impôt de 30 % ou 40 % décrite dans l'article **K4** porte sur l'**impôt sur le revenu**, pas sur les droits de mutation. Elle ne réduit en rien les droits de succession.
+La réfaction d'impôt de 30 % ou 40 %, décrite dans **DROM : la réfaction d'impôt de 30 % et 40 %, et son plafond**, porte sur l'**impôt sur le revenu**, pas sur les droits de mutation. Elle ne réduit en rien les droits de succession.
 
 ## Les collectivités à fiscalité propre : le droit local
 

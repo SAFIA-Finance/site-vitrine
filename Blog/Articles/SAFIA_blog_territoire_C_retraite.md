@@ -167,7 +167,7 @@ Oui, et les transférer. Vérifie les frais de transfert avant.
 Le capital est transmis aux bénéficiaires désignés, avec un régime qui dépend de l'âge au décès.
 
 **Le PER est-il adapté à une tranche à 11 % ?**
-Rarement. L'avantage à l'entrée est trop faible pour compenser le blocage. Voir l'article **B8**.
+Rarement. L'avantage à l'entrée est trop faible pour compenser le blocage. Voir « PER ou assurance-vie : le choix dépend de ta tranche marginale ».
 
 ### Sources
 
@@ -175,7 +175,7 @@ Code monétaire et financier, articles L. 224-1 et suivants · Code général de
 
 ### Liens internes
 
-Page **Cockpit stratégique** · articles **C3** (économie d'impôt) et **C4** (capital ou rente).
+Page **Cockpit stratégique** · articles **C3** (économie d'impôt), **C4** (capital ou rente) et **B8** (PER ou assurance-vie).
 
 ---
 
@@ -406,7 +406,7 @@ Cent trente-cinq euros. C'est le chiffre qui compte, et il n'a rien à voir avec
 ### Questions fréquentes
 
 **Faut-il privilégier le PER ou l'assurance-vie ?**
-Cela dépend de ta tranche marginale. Voir l'article **B8**.
+Cela dépend de ta tranche marginale. Voir « PER ou assurance-vie : le choix dépend de ta tranche marginale ».
 
 **Que faire si je démarre à 55 ans ?**
 L'effort mensuel sera élevé et le rendement attendu plus faible, l'horizon court imposant de la prudence. D'autres leviers deviennent alors déterminants : le rachat de trimestres, le report du départ, la réduction des charges.
@@ -420,7 +420,7 @@ Portail info-retraite.fr, estimation indicative globale · INSEE, données sur l
 
 ### Liens internes
 
-Page **Assistant IA** · articles **C1** (estimer sa retraite) et **C7** (préparer à 30, 40, 50 ans).
+Page **Assistant IA** · articles **C1** (estimer sa retraite), **C7** (préparer à 30, 40, 50 ans) et **B8** (PER ou assurance-vie).
 
 ---
 

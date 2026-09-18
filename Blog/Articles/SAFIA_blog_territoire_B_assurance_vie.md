@@ -394,7 +394,7 @@ Conséquence pratique : désigner le conjoint comme bénéficiaire unique n'util
 
 Il ne protège pas des primes « manifestement exagérées ». Si les versements sont hors de proportion avec les facultés de l'assuré, les héritiers peuvent demander leur réintégration à la succession. La jurisprudence apprécie au cas par cas selon l'âge, le patrimoine et l'utilité de l'opération.
 
-Il ne s'applique pas aux primes versées après 70 ans, qui relèvent d'un régime distinct, traité dans l'article **D7**.
+Il ne s'applique pas aux primes versées après 70 ans, qui relèvent d'un régime distinct, traité dans **Assurance-vie après 70 ans : ce que change l'article 757 B**.
 
 ### Questions fréquentes
 

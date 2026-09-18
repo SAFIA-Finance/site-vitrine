@@ -5,7 +5,7 @@ titreSeo: "Nouvelle-Calédonie : fiscalité locale et convention"
 description: "Statut propre issu de l'accord de Nouméa et compétence fiscale pleine : impôts locaux sur le revenu et les sociétés, convention avec l'État."
 categorie: "Outre-mer"
 date: 2026-09-16
-lecture: 1
+lecture: 2
 essentiel:
   - "La Nouvelle-Calédonie relève d'un statut **propre**, inscrit au titre XIII de la Constitution et issu de l'accord de Nouméa."
   - "Elle exerce une **compétence fiscale pleine** : impôt sur le revenu local, impôt sur les sociétés local, fiscalité indirecte locale."
@@ -14,6 +14,9 @@ essentiel:
 pages:
   - nom: "Cockpit stratégique"
     url: "/cockpit/"
+articlesLies:
+  - "convention-fiscale-mode-emploi"
+  - "fiscalite-outre-mer-panorama"
 sources: "Constitution du 4 octobre 1958, titre XIII · Loi organique n° 99-209 du 19 mars 1999 relative à la Nouvelle-Calédonie · Code des impôts de la Nouvelle-Calédonie et délibérations du Congrès · Convention fiscale entre l'État et la Nouvelle-Calédonie · Direction des services fiscaux de la Nouvelle-Calédonie."
 ---
 
@@ -31,7 +34,7 @@ Le Code général des impôts français ne s'y applique pas. Un résident néo-c
 
 Elle joue le rôle d'une convention internationale : elle définit la résidence, répartit le droit d'imposer par catégorie de revenus, et organise l'élimination de la double imposition.
 
-Sa lecture obéit à la même méthode que celle décrite dans l'article **I5** : identifier la résidence, puis suivre chaque catégorie de revenu, puis vérifier la méthode d'élimination retenue.
+Sa lecture obéit à la même méthode que celle décrite dans **Conventions fiscales : comment lire celle de votre pays** : identifier la résidence, puis suivre chaque catégorie de revenu, puis vérifier la méthode d'élimination retenue.
 
 ## Les trois situations les plus fréquentes
 

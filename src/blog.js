@@ -35,6 +35,19 @@ export function enrichir(texte) {
     .replace(/\[(.+?)\]\((https?:\/\/[^\s)]+)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>');
 }
 
+/**
+ * Le même fragment, débarrassé de son balisage plutôt qu'enrichi.
+ * Les données structurées attendent du texte : envoyer « **au sein du même
+ * assureur** » à Google mettrait les astérisques dans la réponse affichée en
+ * résultat de recherche. `enrichir` pour ce qu'on rend, `depouiller` pour ce
+ * qu'on déclare.
+ */
+export function depouiller(texte) {
+  return String(texte)
+    .replace(/\*\*(.+?)\*\*/g, '$1')
+    .replace(/\[(.+?)\]\([^)]+\)/g, '$1');
+}
+
 /** Ordre d'affichage : le plus récent d'abord, puis l'ordre du plan éditorial. */
 export const parDate = (a, b) =>
   b.data.date - a.data.date ||

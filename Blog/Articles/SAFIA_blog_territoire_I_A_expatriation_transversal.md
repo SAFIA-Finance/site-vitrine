@@ -224,7 +224,7 @@ Page **Cockpit stratégique** · articles **I1** (résidence fiscale) et **I3** 
 | Plus-value immobilière | Régime des non-résidents, avec exonération spécifique sous conditions sur l'ancienne résidence principale |
 | Immobilier détenu (valeur nette > 1,3 M€) | IFI, limité aux **biens situés en France** |
 | Dividendes et intérêts français | Retenue à la source, plafonnée par la convention |
-| Assurance-vie | Voir article **I4** |
+| Assurance-vie | Voir **Assurance-vie et PEA quand on s'expatrie** |
 | Comptes bancaires étrangers | Obligation déclarative française levée, sous conditions, une fois non-résident |
 
 ### L'essentiel
@@ -266,7 +266,7 @@ Attention toutefois à certaines conventions, qui peuvent attribuer différemmen
 
 Les dividendes de sociétés françaises supportent une retenue à la source, dont le taux de droit interne est réduit par la plupart des conventions, souvent à 15 %. Les intérêts et les plus-values mobilières suivent des règles propres, généralement favorables au non-résident.
 
-Le PEA et le compte-titres méritent un examen distinct, traité dans l'article **I4**.
+Le PEA et le compte-titres méritent un examen distinct, traité dans **Assurance-vie et PEA quand on s'expatrie : ce qui change vraiment**.
 
 ### Ce qui disparaît
 
@@ -545,7 +545,7 @@ La Caisse des Français de l'étranger propose une adhésion volontaire à un r�
 
 *Santé.* La Grèce relevant de la coordination européenne, sa prise en charge est organisée. C'est ce qui rend l'équation tenable.
 
-*Ce qu'il faut vérifier avant de conclure.* La durée du régime grec et ses conditions d'accès, le coût réel de la vie sur place, la disponibilité des soins dans la région envisagée, et le sort de son patrimoine français — traité dans l'article **I3**.
+*Ce qu'il faut vérifier avant de conclure.* La durée du régime grec et ses conditions d'accès, le coût réel de la vie sur place, la disponibilité des soins dans la région envisagée, et le sort de son patrimoine français — traité dans **Que devient votre patrimoine français quand vous partez**.
 
 Le calcul fiscal n'est jamais le calcul complet.
 

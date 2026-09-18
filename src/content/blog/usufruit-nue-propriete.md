@@ -78,6 +78,6 @@ Trois contreparties, à peser sérieusement.
 
 ## Où on le rencontre aussi
 
-Le démembrement ne concerne pas que l'immobilier. Il s'applique aux parts de SCPI, aux portefeuilles de titres, et il existe des **clauses bénéficiaires démembrées** en assurance-vie, traitées dans l'article **B6**.
+Le démembrement ne concerne pas que l'immobilier. Il s'applique aux parts de SCPI, aux portefeuilles de titres, et il existe des **clauses bénéficiaires démembrées** en assurance-vie, traitées dans **Clause bénéficiaire : cinq formulations et ce qu'elles produisent**.
 
 Il se rencontre également en sens inverse : l'achat en nue-propriété d'un bien immobilier, avec un usufruit temporaire cédé à un bailleur social pendant quinze à vingt ans.

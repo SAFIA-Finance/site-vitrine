@@ -17,13 +17,14 @@ faq:
   - q: "Que devient le PER au décès ?"
     r: "Le capital est transmis aux bénéficiaires désignés, avec un régime qui dépend de l'âge au décès."
   - q: "Le PER est-il adapté à une tranche à 11 % ?"
-    r: "Rarement. L'avantage à l'entrée est trop faible pour compenser le blocage. Voir l'article **B8**."
+    r: "Rarement. L'avantage à l'entrée est trop faible pour compenser le blocage. Voir « PER ou assurance-vie : le choix dépend de ta tranche marginale »."
 pages:
   - nom: "Cockpit stratégique"
     url: "/cockpit/"
 articlesLies:
   - "deduction-per-economie-impot"
   - "per-capital-ou-rente"
+  - "per-ou-assurance-vie"
 sources: "Code monétaire et financier, articles L. 224-1 et suivants · Code général des impôts, article 163 quatervicies · Loi n° 2026-103 du 19 février 2026 de finances pour 2026, article 9 · Loi de financement de la Sécurité sociale pour 2026 · Loi Pacte du 22 mai 2019 · Avis d'impôt, rubrique « plafond épargne retraite »."
 ---
 

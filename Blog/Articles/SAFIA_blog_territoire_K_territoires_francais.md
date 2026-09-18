@@ -44,7 +44,7 @@
 
 Elle tient à un article de la Constitution.
 
-**L'article 73** régit les départements et régions d'outre-mer. Le principe est celui de l'**identité législative** : les lois françaises s'y appliquent, sauf adaptations. Le Code général des impôts s'y applique donc pleinement, avec des aménagements que l'article **K4** détaille.
+**L'article 73** régit les départements et régions d'outre-mer. Le principe est celui de l'**identité législative** : les lois françaises s'y appliquent, sauf adaptations. Le Code général des impôts s'y applique donc pleinement, avec des aménagements que détaille **DROM : la réfaction d'impôt de 30 % et 40 %, et son plafond**.
 
 **L'article 74** régit les collectivités d'outre-mer. Le principe est celui de la **spécialité législative** : les lois françaises ne s'y appliquent que si elles le prévoient expressément. Les collectivités qui disposent de la compétence fiscale légifèrent elles-mêmes.
 
@@ -69,6 +69,10 @@ Elles existent notamment avec la Nouvelle-Calédonie, la Polynésie française e
 ### Sources
 
 Constitution du 4 octobre 1958, articles 73, 74 et titre XIII · Code général des collectivités territoriales, articles LO 6214-4 (Saint-Barthélemy) et LO 6314-4 (Saint-Martin) · Code général des impôts, article 197, I, 3 · impots.gouv.fr, rubriques relatives à l'outre-mer.
+
+### Liens internes
+
+Page **Cockpit stratégique** · articles **K4** (réfaction d'impôt) et **K9** (transmission outre-mer).
 
 ---
 
@@ -137,11 +141,15 @@ Le Code de contributions organise une fiscalité sensiblement différente de cel
 
 **Oublier l'exit tax.** Un transfert de domicile fiscal vers Saint-Barthélemy pose la question du champ de l'article 167 bis du CGI, qui doit être examinée spécifiquement au regard du statut de la collectivité.
 
-**Négliger la transmission.** Les règles applicables aux mutations à titre gratuit doivent être examinées à part : voir l'article **K9**.
+**Négliger la transmission.** Les règles applicables aux mutations à titre gratuit doivent être examinées à part : voir **Transmettre un patrimoine situé outre-mer**.
 
 ### Sources
 
 Code général des collectivités territoriales, article LO 6214-4, modifié par la loi n° 2015-1485 du 17 novembre 2015, article 7 · Loi n° 2007-223 du 21 février 2007 portant dispositions statutaires et institutionnelles relatives à l'outre-mer · Code de contributions de Saint-Barthélemy, articles 2 et 4 · Conseil d'État, avis du 20 novembre 2013, n° 369796 · Rescrit publié au BOFiP le 23 octobre 2024 relatif à l'intégration fiscale des sociétés établies à Saint-Barthélemy · Services fiscaux de la collectivité de Saint-Barthélemy.
+
+### Liens internes
+
+Page **Cockpit stratégique** · articles **K9** (transmission outre-mer) et **K1** (panorama outre-mer).
 
 ---
 
@@ -294,9 +302,9 @@ Trois sujets, dans cet ordre.
 
 **La résidence.** Qui est résident fiscal polynésien, selon quels critères, et comment s'articule cette qualification avec l'article 4 B du Code général des impôts ? C'est la convention interne qui tranche.
 
-**Les revenus de source métropolitaine.** Un résident polynésien percevant des loyers, dividendes ou pensions de source française voit leur traitement déterminé par la convention, selon une logique proche de celle des conventions internationales décrite dans l'article **I5**.
+**Les revenus de source métropolitaine.** Un résident polynésien percevant des loyers, dividendes ou pensions de source française voit leur traitement déterminé par la convention, selon une logique proche de celle des conventions internationales décrite dans **Conventions fiscales : comment lire celle de votre pays**.
 
-**La transmission.** Elle obéit à des règles distinctes, traitées dans l'article **K9**.
+**La transmission.** Elle obéit à des règles distinctes, traitées dans **Transmettre un patrimoine situé outre-mer**.
 
 ### Le point de vigilance
 
@@ -307,6 +315,10 @@ Et comme pour toute collectivité à fiscalité propre, la règle est la même :
 ### Sources
 
 Constitution du 4 octobre 1958, article 74 · Loi organique n° 2004-192 du 27 février 2004 portant statut d'autonomie de la Polynésie française · Code des impôts de la Polynésie française et délibérations de l'Assemblée de la Polynésie française · Convention fiscale entre l'État et la Polynésie française · Direction des impôts et des contributions publiques de la Polynésie française.
+
+### Liens internes
+
+Page **Cockpit stratégique** · articles **I5** (conventions fiscales) et **K9** (transmission outre-mer).
 
 ---
 
@@ -334,7 +346,7 @@ Le Code général des impôts français ne s'y applique pas. Un résident néo-c
 
 Elle joue le rôle d'une convention internationale : elle définit la résidence, répartit le droit d'imposer par catégorie de revenus, et organise l'élimination de la double imposition.
 
-Sa lecture obéit à la même méthode que celle décrite dans l'article **I5** : identifier la résidence, puis suivre chaque catégorie de revenu, puis vérifier la méthode d'élimination retenue.
+Sa lecture obéit à la même méthode que celle décrite dans **Conventions fiscales : comment lire celle de votre pays** : identifier la résidence, puis suivre chaque catégorie de revenu, puis vérifier la méthode d'élimination retenue.
 
 ### Les trois situations les plus fréquentes
 
@@ -353,6 +365,10 @@ Comme ailleurs dans ce territoire, ce blog ne publie pas de barème local non v�
 ### Sources
 
 Constitution du 4 octobre 1958, titre XIII · Loi organique n° 99-209 du 19 mars 1999 relative à la Nouvelle-Calédonie · Code des impôts de la Nouvelle-Calédonie et délibérations du Congrès · Convention fiscale entre l'État et la Nouvelle-Calédonie · Direction des services fiscaux de la Nouvelle-Calédonie.
+
+### Liens internes
+
+Page **Cockpit stratégique** · articles **I5** (conventions fiscales) et **K1** (panorama outre-mer).
 
 ---
 
@@ -488,7 +504,7 @@ Code général des impôts, articles 199 undecies B, 199 undecies C, 217 undecie
 
 Guadeloupe, Martinique, Guyane, La Réunion et Mayotte appliquent le Code général des impôts. Les abattements de 100 000 € par parent et par enfant, le barème en ligne directe, l'exonération du conjoint, le régime de l'assurance-vie des articles 990 I et 757 B : tout est identique à la métropole.
 
-La réfaction d'impôt de 30 % ou 40 % décrite dans l'article **K4** porte sur l'**impôt sur le revenu**, pas sur les droits de mutation. Elle ne réduit en rien les droits de succession.
+La réfaction d'impôt de 30 % ou 40 %, décrite dans **DROM : la réfaction d'impôt de 30 % et 40 %, et son plafond**, porte sur l'**impôt sur le revenu**, pas sur les droits de mutation. Elle ne réduit en rien les droits de succession.
 
 ### Les collectivités à fiscalité propre : le droit local
 
@@ -527,3 +543,7 @@ Une transmission impliquant une collectivité à fiscalité propre appelle donc 
 ### Sources
 
 Code général des impôts, article 750 ter, et articles 779, 990 I et 757 B · Code général des collectivités territoriales, articles LO 6214-4 et LO 6314-4 · Conventions fiscales internes entre l'État et les collectivités concernées · BOFiP, territorialité des droits de mutation à titre gratuit · Codes locaux des collectivités à fiscalité propre.
+
+### Liens internes
+
+Page **Cockpit stratégique** · articles **K4** (réfaction d'impôt) et **K1** (panorama outre-mer).

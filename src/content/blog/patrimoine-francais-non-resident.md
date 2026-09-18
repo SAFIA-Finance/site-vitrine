@@ -35,7 +35,7 @@ sources: "Code général des impôts, articles 164 A à 197 A, 244 bis A, 964 et
 | Plus-value immobilière | Régime des non-résidents, avec exonération spécifique sous conditions sur l'ancienne résidence principale |
 | Immobilier détenu (valeur nette > 1,3 M€) | IFI, limité aux **biens situés en France** |
 | Dividendes et intérêts français | Retenue à la source, plafonnée par la convention |
-| Assurance-vie | Voir article **I4** |
+| Assurance-vie | Voir **Assurance-vie et PEA quand on s'expatrie** |
 | Comptes bancaires étrangers | Obligation déclarative française levée, sous conditions, une fois non-résident |
 
 ## Les revenus fonciers
@@ -70,7 +70,7 @@ Attention toutefois à certaines conventions, qui peuvent attribuer différemmen
 
 Les dividendes de sociétés françaises supportent une retenue à la source, dont le taux de droit interne est réduit par la plupart des conventions, souvent à 15 %. Les intérêts et les plus-values mobilières suivent des règles propres, généralement favorables au non-résident.
 
-Le PEA et le compte-titres méritent un examen distinct, traité dans l'article **I4**.
+Le PEA et le compte-titres méritent un examen distinct, traité dans **Assurance-vie et PEA quand on s'expatrie : ce qui change vraiment**.
 
 ## Ce qui disparaît
 

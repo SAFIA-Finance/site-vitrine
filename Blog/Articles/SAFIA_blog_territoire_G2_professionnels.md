@@ -129,7 +129,7 @@ Si un dossier n'est plus servi, deux issues propres existent : une offre allég�
 
 Ce calcul explique une réalité collective : une part importante des épargnants français n'a jamais accès à un conseil individualisé, non par refus mais par arithmétique. Or ces ménages prennent les mêmes décisions structurantes que les autres — arbitrage entre enveloppes, préparation d'une transmission, choix d'un horizon — avec des enjeux proportionnellement identiques.
 
-Toute baisse durable du coût de service déplace ce seuil. C'est le sens des chantiers d'automatisation décrits dans les articles **G1** et **G2**.
+Toute baisse durable du coût de service déplace ce seuil. C'est le sens des chantiers d'automatisation décrits dans **Logiciel CGP : les huit fonctions qui font réellement la différence** et **Digitaliser un cabinet de gestion de patrimoine : par où commencer**.
 
 ### Sources
 
@@ -137,7 +137,7 @@ Code monétaire et financier, articles L. 541-1 et suivants · Règlement géné
 
 ### Liens internes
 
-Page **Conseillers** · articles **G2** (digitalisation) et **E5** (coût d'un conseiller).
+Page **Conseillers** · articles **G2** (digitalisation), **E5** (coût d'un conseiller) et **G1** (logiciel CGP).
 
 ---
 
