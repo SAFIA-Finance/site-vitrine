@@ -360,6 +360,10 @@ ul.reseaux{list-style:none;display:flex;flex-direction:row;gap:10px;margin-top:1
 .reseaux a:hover{background:rgba(255,255,255,.1);border-color:rgba(255,255,255,.45);color:var(--blanc);text-decoration:none}
 .reseaux svg{display:block;width:19px;height:19px}
 .reseaux-centre{justify-content:center;margin-top:22px}
+/* Bpifrance dans le pied : même fond nuit que le bandeau, donc même
+   traitement. Le filtre le ramène au blanc, seule déclinaison lisible ici,
+   et l'opacité l'aligne sur les icônes de réseaux juste au-dessus. */
+.pied-soutien{display:block;margin-top:24px;filter:brightness(0) invert(1);opacity:.62}
 .reglementaire{margin-top:48px;padding-top:24px;border-top:1px solid rgba(255,255,255,.12);font-size:13px;line-height:1.65;color:rgba(255,255,255,.72);max-width:110ch}
 
 /* ---------- Responsive ---------- */
@@ -1087,6 +1091,10 @@ ul.reseaux{list-style:none;display:flex;flex-direction:row;gap:10px;margin-top:1
 .eq-board p{margin-top:10px;color:var(--encre-2);line-height:1.6;max-width:46ch}
 .eq-board li b{display:block;font-size:16px;font-weight:600}
 .eq-board li span{display:block;font-size:14px;color:var(--encre-2);margin-top:1px}
+/* Bpifrance sous le bloc : fond clair, donc le logo garde ses couleurs. Ni le
+   filtre blanc du pied, qui l'effacerait, ni le niveau de gris des logos
+   d'école juste au-dessus, qui éteindrait son point jaune. */
+.equipe-soutien{display:block;margin-top:34px;height:30px;width:auto}
 
 @media (max-width:980px){
   .hero-fond,.parcours-grille,.equipe{grid-template-columns:1fr;gap:36px}
