@@ -2,7 +2,7 @@
 code: "D11"
 titre: "Transmettre un bien immobilier : donation, SCI ou démembrement"
 titreSeo: "Bien immobilier : donation, SCI ou démembrement"
-description: "Trois voies : la donation en pleine propriété, la donation de la nue-propriété, ou l'apport à une SCI dont on donne les parts progressivement."
+description: "Donation en pleine propriété, donation de la nue-propriété ou apport à une SCI : les trois voies comparées, et leur effet sur la base taxable."
 categorie: "Donation et succession"
 date: 2026-09-16
 lecture: 2
@@ -14,7 +14,6 @@ essentiel:
 pages:
   - nom: "Cockpit stratégique"
     url: "/cockpit/"
-seoDerive: true
 sources: "Code général des impôts, articles 669, 779 et 784 · Code civil, articles 843, 860 et 1078 sur le rapport et la donation-partage · BOFiP, évaluation de l'usufruit et de la nue-propriété."
 ---
 

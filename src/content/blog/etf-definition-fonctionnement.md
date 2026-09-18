@@ -2,7 +2,7 @@
 code: "J6"
 titre: "ETF : réplication, frais, écarts de suivi"
 titreSeo: "ETF : réplication, frais, écarts de suivi"
-description: "Un ETF est un fonds coté en bourse qui réplique un indice, au lieu de chercher à le battre. Son avantage principal n'est pas la performance : ce sont les"
+description: "Un ETF réplique un indice au lieu de le battre. Son avantage tient aux frais, et la réplication synthétique loge des indices mondiaux dans un PEA."
 categorie: "Produits d'investissement"
 date: 2026-09-16
 lecture: 2

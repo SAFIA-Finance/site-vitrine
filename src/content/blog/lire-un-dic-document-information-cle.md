@@ -2,7 +2,7 @@
 code: "J4"
 titre: "Comment lire un DIC en cinq minutes"
 titreSeo: "Comment lire un DIC en cinq minutes"
-description: "Le document d'informations clés est obligatoire, normalisé et court : c'est la seule pièce réellement comparable d'un produit à l'autre."
+description: "Le document d'informations clés est la seule pièce comparable d'un produit à l'autre. Les cinq rubriques utiles, et l'indicateur de risque de 1 à 7."
 categorie: "Produits d'investissement"
 date: 2026-09-16
 lecture: 1

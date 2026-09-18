@@ -2,7 +2,7 @@
 code: "I16"
 titre: "Malte : fiscalité de l'expatriation"
 titreSeo: "Malte : fiscalité de l'expatriation"
-description: "Malte applique le principe de remittance : un résident non domicilié n'est imposé sur ses revenus étrangers que s'il les rapatrie sur l'île."
+description: "Le principe de remittance : les revenus étrangers non rapatriés échappent à l'impôt maltais. Impôt minimum, substance exigée et sursis d'exit tax."
 categorie: "Expatriation"
 date: 2026-09-16
 lecture: 1

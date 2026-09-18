@@ -2,7 +2,7 @@
 code: "J9"
 titre: "Actions en direct : diversification, biais domestique, PEA"
 titreSeo: "Actions en direct : diversification, biais domestique, PEA"
-description: "Détenir des actions en direct supprime les frais de gestion d'un fonds, mais transfère sur toi tout le travail et tout le risque de concentration."
+description: "Détenir en direct supprime les frais de gestion mais transfère le risque de concentration. Le biais domestique, et le PEA après cinq ans."
 categorie: "Produits d'investissement"
 date: 2026-09-16
 lecture: 2

@@ -2,7 +2,7 @@
 code: "I13"
 titre: "Luxembourg : fiscalité de l'expatriation"
 titreSeo: "Luxembourg : fiscalité de l'expatriation"
-description: "Le Luxembourg n'est pas une destination à régime dérogatoire pour nouveaux résidents : il n'y a pas d'équivalent de l'IFICI ou du forfait italien."
+description: "Pas de régime dérogatoire pour nouveaux résidents, mais une fiscalité mobilière favorable et la place de référence de l'assurance-vie internationale."
 categorie: "Expatriation"
 date: 2026-09-16
 lecture: 1

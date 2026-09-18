@@ -2,7 +2,7 @@
 code: "I22"
 titre: "Maroc : fiscalité de l'expatriation"
 titreSeo: "Maroc : fiscalité de l'expatriation"
-description: "Le Maroc reste l'une des destinations les plus favorables aux retraités français, grâce à un abattement sur les pensions de source étrangère."
+description: "Un abattement substantiel sur les pensions de source étrangère, majoré en dirhams non convertibles : la destination la plus favorable aux retraités."
 categorie: "Expatriation"
 date: 2026-09-16
 lecture: 2

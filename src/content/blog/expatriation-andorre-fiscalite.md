@@ -2,7 +2,7 @@
 code: "I15"
 titre: "Andorre : fiscalité de l'expatriation"
 titreSeo: "Andorre : fiscalité de l'expatriation"
-description: "Andorre combine un impôt sur le revenu plafonné à 10 %, l'absence d'impôt sur la fortune et l'absence de droits de succession."
+description: "Impôt sur le revenu plafonné à 10 %, ni fortune ni succession — mais des obligations de résidence réelles et pas de sursis automatique d'exit tax."
 categorie: "Expatriation"
 date: 2026-09-16
 lecture: 1

@@ -2,7 +2,7 @@
 code: "J11"
 titre: "OPCI et SCI de rendement"
 titreSeo: "OPCI et SCI de rendement : la différence avec la SCPI"
-description: "L'OPCI combine une poche immobilière et une poche financière liquide, ce qui le rend plus facile à racheter qu'une SCPI."
+description: "L'OPCI se rachète plus vite qu'une SCPI grâce à sa poche liquide, mais il fluctue avec les marchés. Les SCI de rendement passent par un contrat."
 categorie: "Produits d'investissement"
 date: 2026-09-16
 lecture: 1
@@ -14,7 +14,6 @@ essentiel:
 pages:
   - nom: "Cockpit stratégique"
     url: "/cockpit/"
-seoDerive: true
 sources: "Code monétaire et financier, articles L. 214-33 et suivants sur les OPCI · AMF, documents d'information des véhicules · Code des assurances, unités de compte immobilières · ESMA, orientations sur les outils de gestion de la liquidité."
 ---
 

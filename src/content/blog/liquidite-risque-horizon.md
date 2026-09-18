@@ -2,7 +2,7 @@
 code: "J3"
 titre: "Liquidité, risque, horizon : le triangle qui range tous les produits"
 titreSeo: "Liquidité, risque, horizon : situer tout placement"
-description: "Trois paramètres suffisent à situer n'importe quel placement : disponibilité, risque de perte, horizon minimal."
+description: "Disponibilité, risque de perte, horizon minimal : trois paramètres situent tout placement. Aucun produit n'est bon sur les trois à la fois."
 categorie: "Produits d'investissement"
 date: 2026-09-16
 lecture: 2
@@ -14,7 +14,6 @@ essentiel:
 pages:
   - nom: "ADN Investisseur"
     url: "/adn-investisseur/"
-seoDerive: true
 sources: "AMF, publications sur la liquidité des fonds et la gestion des rachats · ESMA, orientations sur les outils de gestion de la liquidité · Documents d'informations clés, indicateur synthétique de risque et horizon recommandé."
 ---
 

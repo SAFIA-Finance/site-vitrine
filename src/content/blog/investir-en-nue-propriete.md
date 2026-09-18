@@ -2,7 +2,7 @@
 code: "J13"
 titre: "Investir en nue-propriété"
 titreSeo: "Investir en nue-propriété : décote, IFI et horizon"
-description: "Tu achètes un bien avec une décote, en échange de l'abandon des revenus pendant une durée fixée, souvent quinze à vingt ans."
+description: "Une décote contre l'abandon des revenus pendant quinze à vingt ans : aucune imposition, hors assiette IFI, et un rendement entièrement différé."
 categorie: "Produits d'investissement"
 date: 2026-09-16
 lecture: 2
@@ -14,7 +14,6 @@ essentiel:
 pages:
   - nom: "Cockpit stratégique"
     url: "/cockpit/"
-seoDerive: true
 sources: "Code civil, articles 578 à 624 et 606 · Code général des impôts, article 669 (barème de l'usufruit) et dispositions relatives à l'IFI · BOFiP, démembrement de propriété."
 ---
 

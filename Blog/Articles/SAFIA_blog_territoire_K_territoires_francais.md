@@ -17,6 +17,7 @@
 
 **URL** : /blog/fiscalite-outre-mer-panorama · **Mot-clé** : fiscalité outre-mer · **Page liée** : Cockpit stratégique
 **Title** : DROM, COM, Nouvelle-Calédonie : quelle fiscalité
+**Meta** : Les DROM appliquent le Code général des impôts ; les COM à autonomie fiscale ont le leur. Qui relève de quoi, et la règle des cinq ans de résidence.
 **Vérifié le 16 septembre 2026**
 
 ### Le tableau de synthèse
@@ -74,6 +75,7 @@ Constitution du 4 octobre 1958, articles 73, 74 et titre XIII · Code général 
 ## K2 — Saint-Barthélemy : autonomie fiscale et règle des cinq ans
 
 **URL** : /blog/fiscalite-saint-barthelemy · **Mot-clé** : fiscalité saint barthélemy · **Page liée** : Cockpit stratégique
+**Meta** : Compétence fiscale propre depuis 2007, mais domicile fiscal local reconnu seulement après cinq ans de résidence. La règle découverte trop tard.
 **Vérifié le 16 septembre 2026**
 
 ### Le tableau de synthèse
@@ -146,6 +148,7 @@ Code général des collectivités territoriales, article LO 6214-4, modifié par
 ## K3 — Saint-Martin : fiscalité propre et règle des cinq ans
 
 **URL** : /blog/fiscalite-saint-martin · **Mot-clé** : fiscalité saint martin · **Page liée** : Cockpit stratégique
+**Meta** : Compétence fiscale propre depuis 2007 et même règle des cinq ans qu'à Saint-Barthélemy. Un code local proche du CGI, mais pas identique.
 **Vérifié le 16 septembre 2026**
 
 ### Le tableau de synthèse
@@ -194,6 +197,7 @@ Code général des collectivités territoriales, article LO 6314-4, I, 1° et 1�
 ## K4 — DROM : la réfaction d'impôt de 30 % et 40 %, et son plafond
 
 **URL** : /blog/abattement-impot-outre-mer-drom · **Mot-clé** : abattement impôt outre-mer · **Page liée** : Cockpit stratégique
+**Meta** : La réfaction porte sur le montant de l'impôt, pas sur le revenu imposable. Son plafond, son exclusion du PFU, et la date qui fixe la domiciliation.
 **Vérifié le 16 septembre 2026**
 
 ### Le tableau de synthèse
@@ -264,6 +268,7 @@ Code général des impôts, article 197, I, 3 · BOFiP, BOI-IR-LIQ-20-30-10, mod
 
 **URL** : /blog/fiscalite-polynesie-francaise · **Mot-clé** : fiscalité polynésie française · **Page liée** : Cockpit stratégique
 **Title** : Polynésie française : fiscalité propre et autonomie
+**Meta** : Collectivité autonome de l'article 74 : le Code général des impôts ne s'y applique pas. Fiscalité indirecte dominante et convention avec l'État.
 **Vérifié le 16 septembre 2026**
 
 ### L'essentiel
@@ -309,6 +314,7 @@ Constitution du 4 octobre 1958, article 74 · Loi organique n° 2004-192 du 27 f
 
 **URL** : /blog/fiscalite-nouvelle-caledonie · **Mot-clé** : fiscalité nouvelle-calédonie · **Page liée** : Cockpit stratégique
 **Title** : Nouvelle-Calédonie : fiscalité locale et convention
+**Meta** : Statut propre issu de l'accord de Nouméa et compétence fiscale pleine : impôts locaux sur le revenu et les sociétés, convention avec l'État.
 **Vérifié le 16 septembre 2026**
 
 ### L'essentiel
@@ -353,6 +359,7 @@ Constitution du 4 octobre 1958, titre XIII · Loi organique n° 99-209 du 19 mar
 ## K7 — Wallis-et-Futuna et Saint-Pierre-et-Miquelon
 
 **URL** : /blog/fiscalite-wallis-futuna-saint-pierre-miquelon · **Mot-clé** : fiscalité wallis et futuna · **Page liée** : Cockpit stratégique
+**Meta** : Deux collectivités de l'article 74 à fiscalité propre : Wallis-et-Futuna sans impôt sur le revenu, Saint-Pierre-et-Miquelon avec son code local.
 **Vérifié le 16 septembre 2026**
 
 ### L'essentiel
@@ -399,6 +406,7 @@ Constitution du 4 octobre 1958, article 74 · Loi n° 61-814 du 29 juillet 1961 
 ## K8 — Investir outre-mer : les dispositifs de réduction d'impôt
 
 **URL** : /blog/defiscalisation-outre-mer-dispositifs · **Mot-clé** : défiscalisation outre-mer · **Page liée** : Cockpit stratégique
+**Meta** : Articles 199 undecies B et C : des niches à plafond majoré, ouvertes jusqu'en 2029 pour les investissements productifs. Et le risque de reprise.
 **Vérifié le 16 septembre 2026**
 
 ### L'essentiel
@@ -465,6 +473,7 @@ Code général des impôts, articles 199 undecies B, 199 undecies C, 217 undecie
 ## K9 — Transmettre un patrimoine situé outre-mer
 
 **URL** : /blog/transmission-patrimoine-outre-mer · **Mot-clé** : succession outre-mer · **Page liée** : Cockpit stratégique
+**Meta** : Dans les DROM, mêmes abattements et même barème qu'en métropole. Ailleurs, droit local. L'article 750 ter et le piège de la résidence de l'héritier.
 **Vérifié le 16 septembre 2026**
 
 ### L'essentiel

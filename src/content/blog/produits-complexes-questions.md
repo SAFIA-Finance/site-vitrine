@@ -2,7 +2,7 @@
 code: "J5"
 titre: "Produits complexes : les six questions à poser avant de signer"
 titreSeo: "Produits complexes : six questions avant de signer"
-description: "Un produit complexe n'est pas nécessairement mauvais : il est difficile à évaluer, ce qui est différent. Six questions suffisent à faire apparaître ce qui"
+description: "Six questions à poser avant de signer, dont celle sur la rémunération de ton interlocuteur. Sans réponse écrite aux six, la réponse est non."
 categorie: "Produits d'investissement"
 date: 2026-09-16
 lecture: 1
@@ -14,7 +14,6 @@ essentiel:
 pages:
   - nom: "Notre méthode"
     url: "/methode/"
-seoDerive: true
 sources: "Directive 2014/65/UE, articles 24 et 25, information sur les coûts et les incitations · Règlement délégué (UE) 2017/565 · Règlement (UE) n° 1286/2014 (PRIIPs) · AMF, mises en garde sur les produits complexes."
 ---
 

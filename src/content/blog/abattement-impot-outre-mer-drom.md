@@ -2,7 +2,7 @@
 code: "K4"
 titre: "DROM : la réfaction d'impôt de 30 % et 40 %, et son plafond"
 titreSeo: "DROM : la réfaction d'impôt de 30 % et 40 %, et son plafond"
-description: "La réfaction porte sur le montant de l'impôt, pas sur le revenu imposable. C'est la confusion la plus répandue."
+description: "La réfaction porte sur le montant de l'impôt, pas sur le revenu imposable. Son plafond, son exclusion du PFU, et la date qui fixe la domiciliation."
 categorie: "Outre-mer"
 date: 2026-09-16
 lecture: 3

@@ -2,7 +2,7 @@
 code: "I26"
 titre: "États-Unis : fiscalité de l'expatriation"
 titreSeo: "États-Unis : fiscalité de l'expatriation"
-description: "Les États-Unis imposent leurs citoyens et détenteurs de carte verte sur leurs revenus mondiaux, même s'ils vivent ailleurs."
+description: "Imposition sur la nationalité, obligations FATCA, et un abattement successoral très faible pour le non-résident détenant des actifs américains."
 categorie: "Expatriation"
 date: 2026-09-16
 lecture: 2

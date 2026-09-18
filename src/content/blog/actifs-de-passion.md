@@ -2,7 +2,7 @@
 code: "J22"
 titre: "Actifs de passion et actifs réels"
 titreSeo: "Actifs de passion et actifs réels"
-description: "Forêts, vignes, art, voitures de collection, montres : ces actifs relèvent d'une logique patrimoniale, pas de rendement."
+description: "Forêts, vignes, art, collection : une logique patrimoniale, pas de rendement. Les performances publiées surestiment, et le coût de détention s'oublie."
 categorie: "Produits d'investissement"
 date: 2026-09-16
 lecture: 2

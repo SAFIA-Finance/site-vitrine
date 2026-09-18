@@ -2,7 +2,7 @@
 code: "D13"
 titre: "Enfant handicapé : les dispositifs de protection et de transmission"
 titreSeo: "Enfant handicapé : protection et transmission"
-description: "Un abattement spécifique de 159 325 € s'applique, cumulable avec l'abattement de parenté. Un enfant handicapé recevant d'un parent bénéficie donc de 259"
+description: "Un abattement spécifique de 159 325 €, cumulable avec celui de parenté : un enfant handicapé reçoit donc 259 325 € par parent avant barème."
 categorie: "Donation et succession"
 date: 2026-09-16
 lecture: 2
@@ -14,7 +14,6 @@ essentiel:
 pages:
   - nom: "Cockpit stratégique"
     url: "/cockpit/"
-seoDerive: true
 sources: "Code général des impôts, articles 779, II, 199 septies et 199 septies 1° bis · Code civil, articles 1048 et suivants (libéralités graduelles et résiduelles), 477 et suivants (mandat de protection future) · Code de l'action sociale et des familles, conditions de ressources des prestations."
 ---
 

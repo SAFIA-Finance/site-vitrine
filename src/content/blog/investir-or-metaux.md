@@ -2,7 +2,7 @@
 code: "J20"
 titre: "Or et métaux précieux"
 titreSeo: "Or et métaux précieux : fiscalité et rôle réel"
-description: "L'or ne produit ni intérêt ni dividende : sa performance vient uniquement de la variation de son prix. Il est traditionnellement détenu comme"
+description: "L'or ne produit ni intérêt ni dividende : il diversifie, il ne rapporte pas. Deux fiscalités coexistent, et le support choisi change l'imposition."
 categorie: "Produits d'investissement"
 date: 2026-09-16
 lecture: 1
@@ -14,7 +14,6 @@ essentiel:
 pages:
   - nom: "ADN Investisseur"
     url: "/adn-investisseur/"
-seoDerive: true
 sources: "Code général des impôts, articles 150 VI à 150 VM (taxe sur les métaux précieux) et 150 UA (plus-values sur biens meubles) · BOFiP, régime des métaux précieux · Documents d'information des produits cotés adossés aux matières premières."
 ---
 

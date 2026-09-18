@@ -2,7 +2,7 @@
 code: "K2"
 titre: "Saint-Barthélemy : autonomie fiscale et règle des cinq ans"
 titreSeo: "Saint-Barthélemy : autonomie fiscale et règle des cinq ans"
-description: "Saint-Barthélemy dispose de sa propre compétence fiscale depuis 2007 : le Code général des impôts ne s'y applique pas, sauf mention expresse."
+description: "Compétence fiscale propre depuis 2007, mais domicile fiscal local reconnu seulement après cinq ans de résidence. La règle découverte trop tard."
 categorie: "Outre-mer"
 date: 2026-09-16
 lecture: 4

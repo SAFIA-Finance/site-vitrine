@@ -2,7 +2,7 @@
 code: "J1"
 titre: "Enveloppe et support : la distinction que presque personne ne fait"
 titreSeo: "Enveloppe et support : comprendre la distinction"
-description: "Une enveloppe est un contenant fiscal : assurance-vie, PEA, PER, compte-titres, PEE. Un support est ce que l'on met dedans : fonds euros, ETF, OPCVM"
+description: "L'enveloppe porte la fiscalité, le support porte la performance. Confondre les deux produit les erreurs de placement les plus coûteuses."
 categorie: "Produits d'investissement"
 date: 2026-09-16
 lecture: 1
@@ -14,7 +14,6 @@ essentiel:
 pages:
   - nom: "ADN Investisseur"
     url: "/adn-investisseur/"
-seoDerive: true
 sources: "Code monétaire et financier, articles L. 221-30 et suivants (PEA), L. 224-1 et suivants (PER) · Code général des impôts, articles 125-0 A et 150-0 A · Loi de financement de la Sécurité sociale pour 2026."
 ---
 

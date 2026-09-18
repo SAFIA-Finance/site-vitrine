@@ -17,6 +17,7 @@ Les sept articles D1 à D7 couvrent les mécanismes. Ceux-ci couvrent les **situ
 
 **URL** : /blog/succession-famille-recomposee · **Mot-clé** : succession famille recomposée
 **Title** : Famille recomposée : protéger son conjoint et ses enfants
+**Meta** : L'enfant du conjoint n'est pas héritier et reste taxé à 60 %. Comment protéger le survivant sans entamer la réserve des enfants d'un premier lit.
 
 ### L'essentiel
 
@@ -68,6 +69,7 @@ Code civil, articles 757 et suivants (droits du conjoint survivant), 912 et suiv
 ## D9 — Concubin, PACS, mariage : trois régimes très inégaux
 
 **URL** : /blog/transmission-concubin-pacs-mariage · **Mot-clé** : succession concubin
+**Meta** : Concubin taxé à 60 %, partenaire de PACS exonéré mais non héritier, conjoint marié protégé : trois statuts, trois résultats très différents.
 
 ### L'essentiel
 
@@ -124,6 +126,7 @@ Code civil, articles 515-1 et suivants (PACS), 731 et suivants (ordre des hérit
 
 **URL** : /blog/pacte-dutreil-2026 · **Mot-clé** : pacte dutreil
 **Title** : Pacte Dutreil 2026 : transmettre son entreprise
+**Meta** : Une exonération de 75 % sur les titres transmis, contre huit ans de conservation depuis la réforme 2026. Conditions, cumuls et pièges du pacte Dutreil.
 
 ### L'essentiel
 
@@ -180,6 +183,7 @@ Code général des impôts, article 787 B · Loi de finances pour 2026, disposit
 
 **URL** : /blog/transmettre-bien-immobilier · **Mot-clé** : donation immobilier
 **Title** : Bien immobilier : donation, SCI ou démembrement
+**Meta** : Donation en pleine propriété, donation de la nue-propriété ou apport à une SCI : les trois voies comparées, et leur effet sur la base taxable.
 
 ### L'essentiel
 
@@ -223,6 +227,7 @@ Code général des impôts, articles 669, 779 et 784 · Code civil, articles 843
 ## D12 — La SCI familiale : ce qu'elle règle et ce qu'elle complique
 
 **URL** : /blog/sci-familiale-transmission · **Mot-clé** : sci familiale
+**Meta** : La SCI rend un bien divisible et évite l'indivision, mais impose comptabilité et assemblées. Ce qu'elle règle vraiment, et ce qu'elle complique.
 
 ### L'essentiel
 
@@ -265,6 +270,7 @@ Code civil, articles 1832 et suivants, et 1857 sur la responsabilité des associ
 
 **URL** : /blog/transmission-enfant-handicape · **Mot-clé** : succession enfant handicapé
 **Title** : Enfant handicapé : protection et transmission
+**Meta** : Un abattement spécifique de 159 325 €, cumulable avec celui de parenté : un enfant handicapé reçoit donc 259 325 € par parent avant barème.
 
 ### L'essentiel
 
@@ -306,6 +312,7 @@ Code général des impôts, articles 779, II, 199 septies et 199 septies 1° bis
 ## D14 — Testament : olographe, authentique, international
 
 **URL** : /blog/testament-quel-type-choisir · **Mot-clé** : rédiger un testament
+**Meta** : Olographe, authentique ou international : ce que chaque forme garantit, ses causes de nullité, et pourquoi l'inscrire au fichier central.
 
 ### L'essentiel
 
@@ -351,6 +358,7 @@ Code civil, articles 967 à 1001 (formes des testaments), 912 et suivants (rése
 ## D15 — Indivision successorale : sortir du blocage
 
 **URL** : /blog/sortir-indivision-succession · **Mot-clé** : indivision succession
+**Meta** : L'indivision naît au décès et n'a pas de durée légale. Ce qui exige l'unanimité, ce qui passe aux deux tiers, et comment provoquer le partage.
 
 ### L'essentiel
 
@@ -402,6 +410,7 @@ Code civil, articles 815 et suivants, notamment 815, 815-3, 815-5-1 et 815-9 · 
 ## D16 — Assurance-vie contestée : les primes manifestement exagérées
 
 **URL** : /blog/primes-manifestement-exagerees · **Mot-clé** : assurance vie primes exagérées
+**Meta** : L'assurance-vie est hors succession, sauf primes manifestement exagérées. Les critères d'appréciation et les effets d'une réintégration.
 
 ### L'essentiel
 
@@ -458,6 +467,7 @@ Code des assurances, articles L. 132-13 et L. 132-12 · Jurisprudence constante 
 
 **URL** : /blog/succession-internationale · **Mot-clé** : succession internationale
 **Title** : Succession internationale : quel droit s'applique
+**Meta** : La loi applicable est celle de la résidence habituelle du défunt. L'option pour la loi nationale, et la confusion entre loi civile et loi fiscale.
 
 ### L'essentiel
 
@@ -512,6 +522,7 @@ Règlement (UE) n° 650/2012 du 4 juillet 2012 relatif aux successions et au cer
 
 **URL** : /blog/donation-dernier-vivant · **Mot-clé** : donation au dernier vivant
 **Title** : Donation au dernier vivant : protéger son conjoint
+**Meta** : La donation au dernier vivant élargit les droits du conjoint au-delà du minimum légal et lui laisse le choix entre trois options au décès.
 
 ### L'essentiel
 

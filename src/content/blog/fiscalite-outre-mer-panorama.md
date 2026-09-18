@@ -2,7 +2,7 @@
 code: "K1"
 titre: "DROM, COM, Nouvelle-Calédonie : qui applique quelle fiscalité"
 titreSeo: "DROM, COM, Nouvelle-Calédonie : quelle fiscalité"
-description: "Les DROM appliquent le Code général des impôts. Ce ne sont pas des territoires à fiscalité dérogatoire : ce sont des départements avec des aménagements."
+description: "Les DROM appliquent le Code général des impôts ; les COM à autonomie fiscale ont le leur. Qui relève de quoi, et la règle des cinq ans de résidence."
 categorie: "Outre-mer"
 date: 2026-09-16
 lecture: 2
@@ -14,7 +14,6 @@ essentiel:
 pages:
   - nom: "Cockpit stratégique"
     url: "/cockpit/"
-seoDerive: true
 sources: "Constitution du 4 octobre 1958, articles 73, 74 et titre XIII · Code général des collectivités territoriales, articles LO 6214-4 (Saint-Barthélemy) et LO 6314-4 (Saint-Martin) · Code général des impôts, article 197, I, 3 · impots.gouv.fr, rubriques relatives à l'outre-mer."
 ---
 

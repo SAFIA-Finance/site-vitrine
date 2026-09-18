@@ -2,7 +2,7 @@
 code: "I8"
 titre: "Italie : fiscalité de l'expatriation"
 titreSeo: "Italie : fiscalité de l'expatriation"
-description: "L'Italie propose quatre régimes distincts, chacun visant un profil précis : c'est l'offre la plus complète d'Europe."
+description: "Forfait à 300 000 €, flat tax de 7 % pour retraités, impatriati : les quatre régimes italiens, et la taxe sur les actifs détenus hors d'Italie."
 categorie: "Expatriation"
 date: 2026-09-16
 lecture: 3

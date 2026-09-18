@@ -2,7 +2,7 @@
 code: "K3"
 titre: "Saint-Martin : fiscalité propre et règle des cinq ans"
 titreSeo: "Saint-Martin : fiscalité propre et règle des cinq ans"
-description: "Saint-Martin exerce une compétence fiscale propre depuis 2007, comme Saint-Barthélemy. La même condition de cinq ans de résidence s'applique aux personnes"
+description: "Compétence fiscale propre depuis 2007 et même règle des cinq ans qu'à Saint-Barthélemy. Un code local proche du CGI, mais pas identique."
 categorie: "Outre-mer"
 date: 2026-09-16
 lecture: 2

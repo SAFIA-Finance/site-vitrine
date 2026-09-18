@@ -2,7 +2,7 @@
 code: "K9"
 titre: "Transmettre un patrimoine situé outre-mer"
 titreSeo: "Transmettre un patrimoine situé outre-mer"
-description: "Dans les DROM, les droits de mutation à titre gratuit sont ceux du Code général des impôts : mêmes abattements, même barème qu'en métropole."
+description: "Dans les DROM, mêmes abattements et même barème qu'en métropole. Ailleurs, droit local. L'article 750 ter et le piège de la résidence de l'héritier."
 categorie: "Outre-mer"
 date: 2026-09-16
 lecture: 2

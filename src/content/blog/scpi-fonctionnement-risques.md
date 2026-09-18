@@ -2,7 +2,7 @@
 code: "J10"
 titre: "SCPI : rendement, liquidité, fiscalité"
 titreSeo: "SCPI : rendement, liquidité, fiscalité"
-description: "Une SCPI détient un patrimoine immobilier locatif et te reverse une quote-part des loyers. Le rendement affiché est un rendement brut avant impôt : la"
+description: "Le taux de distribution est un rendement brut d'impôt. Le prix des parts peut baisser, et la liquidité disparaît quand tout le monde veut sortir."
 categorie: "Produits d'investissement"
 date: 2026-09-16
 lecture: 2

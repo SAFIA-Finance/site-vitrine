@@ -2,7 +2,7 @@
 code: "I25"
 titre: "Canada : fiscalité de l'expatriation"
 titreSeo: "Canada : fiscalité de l'expatriation"
-description: "Le Canada n'est pas une destination d'optimisation : il impose les revenus mondiaux de ses résidents. Il n'a pas de droits de succession, mais une"
+description: "Pas de droits de succession, mais une présomption de disposition au décès qui impose les plus-values latentes : l'effet économique peut être proche."
 categorie: "Expatriation"
 date: 2026-09-16
 lecture: 2

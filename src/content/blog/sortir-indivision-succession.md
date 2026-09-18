@@ -2,7 +2,7 @@
 code: "D15"
 titre: "Indivision successorale : sortir du blocage"
 titreSeo: "Indivision successorale : sortir du blocage"
-description: "L'indivision naît automatiquement au décès et dure jusqu'au partage : elle n'a pas de durée légale. Les décisions les plus lourdes, dont la vente, exigent"
+description: "L'indivision naît au décès et n'a pas de durée légale. Ce qui exige l'unanimité, ce qui passe aux deux tiers, et comment provoquer le partage."
 categorie: "Donation et succession"
 date: 2026-09-16
 lecture: 2

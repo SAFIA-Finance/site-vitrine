@@ -2,7 +2,7 @@
 code: "I20"
 titre: "Émirats arabes unis : fiscalité de l'expatriation"
 titreSeo: "Émirats arabes unis : fiscalité de l'expatriation"
-description: "Les Émirats n'imposent pas les revenus des personnes physiques : c'est la réalité, et c'est ce qui explique l'attractivité."
+description: "Aucun impôt sur le revenu des personnes physiques, mais pas de sursis automatique d'exit tax et une résidence française fréquemment contestée."
 categorie: "Expatriation"
 date: 2026-09-16
 lecture: 2

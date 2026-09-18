@@ -17,6 +17,7 @@ Auteur : Maxime Bouché, CIF · Rédigés le 16 septembre 2026
 
 **URL** : /blog/enveloppe-ou-support · **Mot-clé** : enveloppe fiscale placement · **Page liée** : ADN Investisseur
 **Title** : Enveloppe et support : comprendre la distinction
+**Meta** : L'enveloppe porte la fiscalité, le support porte la performance. Confondre les deux produit les erreurs de placement les plus coûteuses.
 
 ### L'essentiel
 
@@ -60,6 +61,7 @@ Code monétaire et financier, articles L. 221-30 et suivants (PEA), L. 224-1 et 
 ## J2 — Les classes d'actifs expliquées par ce qu'elles font
 
 **URL** : /blog/classes-d-actifs · **Mot-clé** : classes d'actifs · **Page liée** : ADN Investisseur
+**Meta** : Liquidités, obligations, actions, actifs réels : quatre familles définies par le droit qu'elles confèrent, et ce que diversifier veut dire.
 
 ### L'essentiel
 
@@ -104,6 +106,7 @@ AMF, guides de l'épargnant sur les risques et la diversification · Documents d
 
 **URL** : /blog/liquidite-risque-horizon · **Mot-clé** : risque liquidité placement · **Page liée** : ADN Investisseur
 **Title** : Liquidité, risque, horizon : situer tout placement
+**Meta** : Disponibilité, risque de perte, horizon minimal : trois paramètres situent tout placement. Aucun produit n'est bon sur les trois à la fois.
 
 ### L'essentiel
 
@@ -149,6 +152,7 @@ AMF, publications sur la liquidité des fonds et la gestion des rachats · ESMA,
 ## J4 — Comment lire un DIC en cinq minutes
 
 **URL** : /blog/lire-un-dic-document-information-cle · **Mot-clé** : document d'informations clés · **Page liée** : Notre méthode
+**Meta** : Le document d'informations clés est la seule pièce comparable d'un produit à l'autre. Les cinq rubriques utiles, et l'indicateur de risque de 1 à 7.
 
 ### L'essentiel
 
@@ -193,6 +197,7 @@ Règlement (UE) n° 1286/2014 dit PRIIPs et ses règlements délégués sur le f
 
 **URL** : /blog/produits-complexes-questions · **Mot-clé** : placement complexe · **Page liée** : Notre méthode
 **Title** : Produits complexes : six questions avant de signer
+**Meta** : Six questions à poser avant de signer, dont celle sur la rémunération de ton interlocuteur. Sans réponse écrite aux six, la réponse est non.
 
 ### L'essentiel
 
@@ -232,6 +237,7 @@ Directive 2014/65/UE, articles 24 et 25, information sur les coûts et les incit
 ## J6 — ETF : réplication, frais, écarts de suivi
 
 **URL** : /blog/etf-definition-fonctionnement · **Mot-clé** : etf · **Page liée** : ADN Investisseur
+**Meta** : Un ETF réplique un indice au lieu de le battre. Son avantage tient aux frais, et la réplication synthétique loge des indices mondiaux dans un PEA.
 
 ### L'essentiel
 
@@ -277,6 +283,7 @@ Directive OPCVM et règlements applicables aux fonds indiciels cotés · AMF, gu
 ## J7 — OPCVM, SICAV, FCP : le vocabulaire et les frais réels
 
 **URL** : /blog/opcvm-sicav-fcp · **Mot-clé** : opcvm · **Page liée** : ADN Investisseur
+**Meta** : SICAV et FCP ne changent presque rien pour l'épargnant. La vraie ligne de partage est entre gestion active et gestion indicielle, et leurs frais.
 
 ### L'essentiel
 
@@ -324,6 +331,7 @@ Directive 2009/65/CE (OPCVM) et directive 2011/61/UE (AIFM) · AMF, doctrine sur
 ## J8 — Fonds obligataires et fonds datés
 
 **URL** : /blog/fonds-obligataires-fonds-dates · **Mot-clé** : fonds obligataire daté · **Page liée** : ADN Investisseur
+**Meta** : Le prix d'une obligation baisse quand les taux montent. La duration mesure cette sensibilité, et le fonds daté rend le rendement plus prévisible.
 
 ### L'essentiel
 
@@ -369,6 +377,7 @@ AMF, guide sur les fonds obligataires et les fonds à échéance · Documents d'
 ## J9 — Actions en direct : diversification, biais domestique, PEA
 
 **URL** : /blog/investir-en-actions-direct · **Mot-clé** : investir en actions · **Page liée** : ADN Investisseur
+**Meta** : Détenir en direct supprime les frais de gestion mais transfère le risque de concentration. Le biais domestique, et le PEA après cinq ans.
 
 ### L'essentiel
 
@@ -420,6 +429,7 @@ Code monétaire et financier, articles L. 221-30 et suivants sur le PEA · Loi d
 ## J10 — SCPI : rendement, liquidité, fiscalité
 
 **URL** : /blog/scpi-fonctionnement-risques · **Mot-clé** : scpi · **Page liée** : Cockpit stratégique
+**Meta** : Le taux de distribution est un rendement brut d'impôt. Le prix des parts peut baisser, et la liquidité disparaît quand tout le monde veut sortir.
 
 ### L'essentiel
 
@@ -471,6 +481,7 @@ Code monétaire et financier, articles L. 214-86 et suivants sur les SCPI · AMF
 
 **URL** : /blog/opci-sci-rendement · **Mot-clé** : opci · **Page liée** : Cockpit stratégique
 **Title** : OPCI et SCI de rendement : la différence avec la SCPI
+**Meta** : L'OPCI se rachète plus vite qu'une SCPI grâce à sa poche liquide, mais il fluctue avec les marchés. Les SCI de rendement passent par un contrat.
 
 ### L'essentiel
 

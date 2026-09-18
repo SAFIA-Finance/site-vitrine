@@ -2,7 +2,7 @@
 code: "J12"
 titre: "Immobilier locatif en direct : le rendement net réel"
 titreSeo: "Immobilier locatif en direct : le rendement net réel"
-description: "Le rendement brut — loyer annuel divisé par le prix — ne veut rien dire. Seul le rendement net net compte. Six postes se soustraient : charges non"
+description: "Le rendement brut ne veut rien dire : six postes se soustraient avant la fiscalité. Le calcul du net net, et ce que le LMNP change à l'équation."
 categorie: "Produits d'investissement"
 date: 2026-09-16
 lecture: 2

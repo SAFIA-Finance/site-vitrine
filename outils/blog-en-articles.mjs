@@ -306,6 +306,11 @@ for (const chemin of fichiers) {
     let titreSeo = champ('Title');
     let description = champ('Meta');
     const seoDerive = !titreSeo || !description;
+    // Lequel des deux manque, et pas seulement « l'un des deux » : depuis que
+    // des **Title** et des **Meta** sont écrits article par article, les deux
+    // champs ne sont plus absents ensemble, et le récapitulatif doit nommer
+    // celui qui manque vraiment.
+    const manque = [!titreSeo && 'Title', !description && 'Meta'].filter(Boolean);
 
     if (!titreSeo) {
       // Plus de suffixe « | SAFIA » : il coûtait 8 des 60 signes que Google
@@ -345,7 +350,7 @@ for (const chemin of fichiers) {
       );
       return;
     }
-    if (seoDerive) deduits.push(`${a.code} ${slug}`);
+    if (seoDerive) deduits.push({ ou: `${a.code} ${slug}`, manque });
 
     // --- Pages et articles liés -------------------------------------------
     const lies = internes ? liens(internes.contenu) : { pages: [], articles: [], inconnus: [] };
@@ -458,7 +463,22 @@ console.log(`\nFAQ : ${articles.filter((a) => a.faq.length).length} article(s) s
 console.log(`Lecture moyenne : ${Math.round(articles.reduce((s, a) => s + a.lecture, 0) / articles.length)} min`);
 
 if (deduits.length) {
-  console.log(`\n${deduits.length} article(s) sans **Title** ni **Meta** dans le fichier territoire.`);
-  console.log('Titre SEO et description déduits du titre et de « L\'essentiel » — à relire :');
-  for (const d of deduits) console.log(`  · ${d}`);
+  // Ce récapitulatif annonçait « sans **Title** ni **Meta** » dans tous les
+  // cas. C'était vrai tant que les deux champs manquaient toujours ensemble ;
+  // ce n'est plus le cas depuis que les 62 descriptions ont été écrites. Un
+  // message de build qui affirme un manque inexistant envoie la relecture
+  // suivante chercher un problème réglé.
+  const sansTitre = deduits.filter((d) => d.manque.includes('Title'));
+  const sansMeta = deduits.filter((d) => d.manque.includes('Meta'));
+
+  if (sansTitre.length) {
+    console.log(`\n${sansTitre.length} article(s) sans **Title** : le titre SEO est déduit du titre éditorial, coupé à 60 signes.`);
+    console.log('À relire quand le titre éditorial est long ou trop vague pour Google :');
+    for (const d of sansTitre) console.log(`  · ${d.ou}`);
+  }
+  if (sansMeta.length) {
+    console.log(`\n${sansMeta.length} article(s) sans **Meta** : la description est déduite de « L'essentiel », puis coupée à 155 signes.`);
+    console.log('La coupe tombe où elle tombe — à relire :');
+    for (const d of sansMeta) console.log(`  · ${d.ou}`);
+  }
 }

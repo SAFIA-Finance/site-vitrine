@@ -2,7 +2,7 @@
 code: "K8"
 titre: "Investir outre-mer : les dispositifs de réduction d'impôt"
 titreSeo: "Investir outre-mer : les dispositifs de réduction d'impôt"
-description: "Les dispositifs outre-mer figurent parmi les rares niches à plafond majoré du droit fiscal français. Les principaux reposent sur les articles 199 undecies"
+description: "Articles 199 undecies B et C : des niches à plafond majoré, ouvertes jusqu'en 2029 pour les investissements productifs. Et le risque de reprise."
 categorie: "Outre-mer"
 date: 2026-09-16
 lecture: 3

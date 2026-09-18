@@ -2,7 +2,7 @@
 code: "J21"
 titre: "Crypto-actifs : cadre MiCA et fiscalité"
 titreSeo: "Crypto-actifs : cadre MiCA et fiscalité"
-description: "Le règlement européen MiCA encadre désormais les prestataires de services sur crypto-actifs : il régule les intermédiaires, pas le risque du sous-jacent."
+description: "MiCA régule les intermédiaires, pas le risque du sous-jacent. Cessions contre euros au PFU, échanges entre cryptos non imposables, comptes à déclarer."
 categorie: "Produits d'investissement"
 date: 2026-09-16
 lecture: 2

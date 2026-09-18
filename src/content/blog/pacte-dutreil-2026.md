@@ -2,7 +2,7 @@
 code: "D10"
 titre: "Transmettre une entreprise : le pacte Dutreil après la réforme 2026"
 titreSeo: "Pacte Dutreil 2026 : transmettre son entreprise"
-description: "Le pacte Dutreil permet une exonération de 75 % de la valeur des titres transmis, sous engagements de conservation."
+description: "Une exonération de 75 % sur les titres transmis, contre huit ans de conservation depuis la réforme 2026. Conditions, cumuls et pièges du pacte Dutreil."
 categorie: "Donation et succession"
 date: 2026-09-16
 lecture: 2
@@ -14,7 +14,6 @@ essentiel:
 pages:
   - nom: "Cockpit stratégique"
     url: "/cockpit/"
-seoDerive: true
 sources: "Code général des impôts, article 787 B · Loi de finances pour 2026, dispositions portant l'engagement individuel de conservation de quatre à six ans · BOFiP, exonération partielle des transmissions d'entreprises · Jurisprudence sur la notion d'activité opérationnelle des holdings animatrices."
 ---
 

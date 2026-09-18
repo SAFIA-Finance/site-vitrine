@@ -2,7 +2,7 @@
 code: "D9"
 titre: "Concubin, PACS, mariage : trois régimes très inégaux"
 titreSeo: "Concubin, PACS, mariage : trois régimes très inégaux"
-description: "Le concubin n'est pas héritier et est taxé à 60 % après 1 594 € d'abattement : c'est le pire traitement du droit français."
+description: "Concubin taxé à 60 %, partenaire de PACS exonéré mais non héritier, conjoint marié protégé : trois statuts, trois résultats très différents."
 categorie: "Donation et succession"
 date: 2026-09-16
 lecture: 2

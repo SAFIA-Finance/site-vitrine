@@ -2,7 +2,7 @@
 code: "K7"
 titre: "Wallis-et-Futuna et Saint-Pierre-et-Miquelon"
 titreSeo: "Wallis-et-Futuna et Saint-Pierre-et-Miquelon"
-description: "Les deux collectivités relèvent de l'article 74 de la Constitution et disposent d'une fiscalité propre. Wallis-et-Futuna repose très largement sur la"
+description: "Deux collectivités de l'article 74 à fiscalité propre : Wallis-et-Futuna sans impôt sur le revenu, Saint-Pierre-et-Miquelon avec son code local."
 categorie: "Outre-mer"
 date: 2026-09-16
 lecture: 1

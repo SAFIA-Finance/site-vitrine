@@ -2,7 +2,7 @@
 code: "D14"
 titre: "Testament : olographe, authentique, international"
 titreSeo: "Testament : olographe, authentique, international"
-description: "Le testament olographe est gratuit et libre, mais il doit être entièrement écrit à la main, daté et signé — sinon il est nul."
+description: "Olographe, authentique ou international : ce que chaque forme garantit, ses causes de nullité, et pourquoi l'inscrire au fichier central."
 categorie: "Donation et succession"
 date: 2026-09-16
 lecture: 2

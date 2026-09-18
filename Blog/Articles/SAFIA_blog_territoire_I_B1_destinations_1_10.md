@@ -14,6 +14,7 @@ Auteur : Maxime Bouché, CIF · Rédigés le 16 septembre 2026
 ## I7 — Portugal
 
 **URL** : /blog/expatriation-portugal-fiscalite · **Vérifié le 16 septembre 2026**
+**Meta** : Le régime NHR est fermé depuis le 1er janvier 2024. Ce que l'IFICI couvre réellement, et pourquoi les retraités ont perdu l'avantage portugais.
 
 | | |
 |---|---|
@@ -64,6 +65,7 @@ Lei n.º 82/2023 de 29 de dezembro, article 263 créant l'article 58.º-A du Est
 ## I8 — Italie
 
 **URL** : /blog/expatriation-italie-fiscalite · **Vérifié le 16 septembre 2026**
+**Meta** : Forfait à 300 000 €, flat tax de 7 % pour retraités, impatriati : les quatre régimes italiens, et la taxe sur les actifs détenus hors d'Italie.
 
 | | |
 |---|---|
@@ -119,6 +121,7 @@ Legge di Bilancio 199/2025, relèvement du forfait à compter du 1er janvier 202
 ## I9 — Grèce
 
 **URL** : /blog/expatriation-grece-fiscalite · **Vérifié le 16 septembre 2026**
+**Meta** : Un prélèvement forfaitaire de 7 % sur tous les revenus étrangers, pension comprise, depuis 2020. Le régime non-dom et le sursis d'exit tax.
 
 | | |
 |---|---|
@@ -168,6 +171,7 @@ Législation fiscale grecque instituant le régime des retraités étrangers (20
 ## I10 — Espagne
 
 **URL** : /blog/expatriation-espagne-fiscalite · **Vérifié le 16 septembre 2026**
+**Meta** : Régime Beckham, fortune et succession régionalisées : pourquoi le choix de la communauté autonome pèse plus lourd que le régime lui-même.
 
 | | |
 |---|---|
@@ -217,6 +221,7 @@ Ley del Impuesto sobre la Renta de las Personas Físicas, régime spécial des t
 ## I11 — Belgique
 
 **URL** : /blog/expatriation-belgique-fiscalite · **Vérifié le 16 septembre 2026**
+**Meta** : L'attrait belge tient aux plus-values privées, pas à l'impôt sur le revenu. Un point mouvant, et un risque élevé de contestation de la résidence.
 
 | | |
 |---|---|
@@ -266,6 +271,7 @@ Code des impôts sur les revenus belge et sa doctrine sur la gestion normale d'u
 ## I12 — Suisse
 
 **URL** : /blog/expatriation-suisse-fiscalite · **Vérifié le 16 septembre 2026**
+**Meta** : Forfait négocié canton par canton, impôt sur la fortune, et surtout : hors sursis automatique d'exit tax, ce qui alourdit la préparation du départ.
 
 | | |
 |---|---|
@@ -319,6 +325,7 @@ Loi fédérale sur l'impôt fédéral direct et lois cantonales, imposition d'ap
 ## I13 — Luxembourg
 
 **URL** : /blog/expatriation-luxembourg-fiscalite · **Vérifié le 16 septembre 2026**
+**Meta** : Pas de régime dérogatoire pour nouveaux résidents, mais une fiscalité mobilière favorable et la place de référence de l'assurance-vie internationale.
 
 | | |
 |---|---|
@@ -370,6 +377,7 @@ Loi luxembourgeoise concernant l'impôt sur le revenu · Commissariat aux Assura
 ## I14 — Monaco
 
 **URL** : /blog/expatriation-monaco-fiscalite · **Vérifié le 16 septembre 2026**
+**Meta** : Monaco n'impose pas ses résidents, mais la convention de 1963 exclut les Français : ils restent imposables en France. L'exception et ses conditions.
 
 | | |
 |---|---|
@@ -420,6 +428,7 @@ Convention fiscale franco-monégasque du 18 mai 1963 et ses avenants · Code gé
 ## I15 — Andorre
 
 **URL** : /blog/expatriation-andorre-fiscalite · **Vérifié le 16 septembre 2026**
+**Meta** : Impôt sur le revenu plafonné à 10 %, ni fortune ni succession — mais des obligations de résidence réelles et pas de sursis automatique d'exit tax.
 
 | | |
 |---|---|
@@ -470,6 +479,7 @@ Llei de l'impost sobre la renda de les persones físiques (Andorre) · Conventio
 ## I16 — Malte
 
 **URL** : /blog/expatriation-malte-fiscalite · **Vérifié le 16 septembre 2026**
+**Meta** : Le principe de remittance : les revenus étrangers non rapatriés échappent à l'impôt maltais. Impôt minimum, substance exigée et sursis d'exit tax.
 
 | | |
 |---|---|

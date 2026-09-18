@@ -12,6 +12,7 @@ Même règle et même avertissement que la partie 1.
 ## J12 — Immobilier locatif en direct : le rendement net réel
 
 **URL** : /blog/immobilier-locatif-direct · **Mot-clé** : rendement locatif · **Page liée** : Cockpit stratégique
+**Meta** : Le rendement brut ne veut rien dire : six postes se soustraient avant la fiscalité. Le calcul du net net, et ce que le LMNP change à l'équation.
 
 ### L'essentiel
 
@@ -63,6 +64,7 @@ Code général des impôts, articles 14 à 33 quinquies (revenus fonciers), 50-0
 
 **URL** : /blog/investir-en-nue-propriete · **Mot-clé** : nue-propriété investissement · **Page liée** : Cockpit stratégique
 **Title** : Investir en nue-propriété : décote, IFI et horizon
+**Meta** : Une décote contre l'abandon des revenus pendant quinze à vingt ans : aucune imposition, hors assiette IFI, et un rendement entièrement différé.
 
 ### L'essentiel
 
@@ -108,6 +110,7 @@ Code civil, articles 578 à 624 et 606 · Code général des impôts, article 66
 
 **URL** : /blog/private-equity-particuliers · **Mot-clé** : private equity particulier · **Page liée** : ADN Investisseur
 **Title** : Private equity et FCPR ouverts aux particuliers
+**Meta** : Huit à douze ans de capital bloqué, une courbe en J normale les premières années : ce que l'ouverture aux particuliers rend accessible, pas adapté.
 
 ### L'essentiel
 
@@ -159,6 +162,7 @@ Code monétaire et financier, articles L. 214-28 et suivants (FCPR, FCPI, FIP) �
 ## J15 — Produits structurés : comprendre la formule avant de signer
 
 **URL** : /blog/produits-structures-comprendre · **Mot-clé** : produit structuré · **Page liée** : Notre méthode
+**Meta** : Sous-jacent, barrières, risque de contrepartie : les trois éléments qui décident. La protection annoncée est conditionnelle, le rendement plafonné.
 
 ### L'essentiel
 
@@ -213,6 +217,7 @@ Règlement (UE) n° 1286/2014 (PRIIPs) et documents d'informations clés · AMF,
 
 **URL** : /blog/crowdfunding-immobilier · **Mot-clé** : crowdfunding immobilier · **Page liée** : ADN Investisseur
 **Title** : Crowdfunding immobilier : rendement, risque, défauts
+**Meta** : Un intérêt de 8 à 12 % qui rémunère un risque réel : retard, dépassement, défaillance du promoteur. Les défauts ont augmenté depuis 2023.
 
 ### L'essentiel
 
@@ -266,6 +271,7 @@ Règlement (UE) 2020/1503 relatif aux prestataires européens de services de fin
 ## J17 — Crowdlending et prêt participatif
 
 **URL** : /blog/crowdlending-pret-participatif · **Mot-clé** : crowdlending · **Page liée** : ADN Investisseur
+**Meta** : Le rendement net dépend du taux de défaut, jamais du taux affiché. Les pertes en capital ne compensent pas automatiquement les intérêts imposés.
 
 ### L'essentiel
 
@@ -316,6 +322,7 @@ Règlement (UE) 2020/1503 · Code général des impôts, article 125-00 A sur l'
 ## J18 — Obligations d'entreprise en direct
 
 **URL** : /blog/obligations-entreprise · **Mot-clé** : obligation entreprise · **Page liée** : ADN Investisseur
+**Meta** : Prêter à une entreprise identifiée, pour une durée et un coupon connus. Deux risques : le défaut de l'émetteur, et le prix si tu revends avant terme.
 
 ### L'essentiel
 
@@ -359,6 +366,7 @@ Règlement (UE) 2017/1129 sur le prospectus · Prospectus et termes définitifs 
 ## J19 — Fonds euros et fonds croissance
 
 **URL** : /blog/fonds-euros-fonds-croissance · **Mot-clé** : fonds euros · **Page liée** : ADN Investisseur
+**Meta** : Le fonds en euros réagit avec retard aux taux, car son portefeuille obligataire se constitue lentement. Ce que les fonds croissance changent.
 
 ### L'essentiel
 
@@ -405,6 +413,7 @@ Code des assurances, articles L. 132-1 et suivants, et dispositions relatives à
 
 **URL** : /blog/investir-or-metaux · **Mot-clé** : investir dans l'or · **Page liée** : ADN Investisseur
 **Title** : Or et métaux précieux : fiscalité et rôle réel
+**Meta** : L'or ne produit ni intérêt ni dividende : il diversifie, il ne rapporte pas. Deux fiscalités coexistent, et le support choisi change l'imposition.
 
 ### L'essentiel
 
@@ -450,6 +459,7 @@ Code général des impôts, articles 150 VI à 150 VM (taxe sur les métaux pré
 ## J21 — Crypto-actifs : cadre MiCA et fiscalité
 
 **URL** : /blog/crypto-actifs-fiscalite · **Mot-clé** : fiscalité crypto · **Page liée** : Sécurité et conformité
+**Meta** : MiCA régule les intermédiaires, pas le risque du sous-jacent. Cessions contre euros au PFU, échanges entre cryptos non imposables, comptes à déclarer.
 
 ### L'essentiel
 
@@ -495,6 +505,7 @@ Règlement (UE) 2023/1114 dit MiCA · Code général des impôts, articles 150 V
 ## J22 — Actifs de passion et actifs réels
 
 **URL** : /blog/actifs-de-passion · **Mot-clé** : investissement passion · **Page liée** : ADN Investisseur
+**Meta** : Forêts, vignes, art, collection : une logique patrimoniale, pas de rendement. Les performances publiées surestiment, et le coût de détention s'oublie.
 
 ### L'essentiel
 

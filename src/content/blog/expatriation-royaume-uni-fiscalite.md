@@ -2,7 +2,7 @@
 code: "I19"
 titre: "Royaume-Uni : fiscalité de l'expatriation"
 titreSeo: "Royaume-Uni : fiscalité de l'expatriation"
-description: "Le régime historique du non-dom a été supprimé, à compter d'avril 2025. Toute page qui le présente comme accessible est périmée."
+description: "Le régime non-dom est supprimé depuis avril 2025. Ce qui le remplace pour les nouveaux arrivants, et le Statutory Residence Test, chiffré et prévisible."
 categorie: "Expatriation"
 date: 2026-09-16
 lecture: 2

@@ -2,7 +2,7 @@
 code: "J14"
 titre: "Private equity et FCPR : ce que l'ouverture aux particuliers change"
 titreSeo: "Private equity et FCPR ouverts aux particuliers"
-description: "Le capital-investissement finance des entreprises non cotées, sur des durées de huit à douze ans. Le capital est bloqué : c'est la contrepartie centrale"
+description: "Huit à douze ans de capital bloqué, une courbe en J normale les premières années : ce que l'ouverture aux particuliers rend accessible, pas adapté."
 categorie: "Produits d'investissement"
 date: 2026-09-16
 lecture: 2
@@ -14,7 +14,6 @@ essentiel:
 pages:
   - nom: "ADN Investisseur"
     url: "/adn-investisseur/"
-seoDerive: true
 sources: "Code monétaire et financier, articles L. 214-28 et suivants (FCPR, FCPI, FIP) · Loi Industrie Verte et ses dispositions relatives aux actifs non cotés dans les gestions pilotées · AMF, guide sur le capital-investissement pour les particuliers · Documents d'informations clés des fonds."
 ---
 

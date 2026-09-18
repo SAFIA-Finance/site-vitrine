@@ -2,7 +2,7 @@
 code: "I9"
 titre: "Grèce : fiscalité de l'expatriation"
 titreSeo: "Grèce : fiscalité de l'expatriation"
-description: "La Grèce est, depuis 2020, la destination européenne la plus favorable aux retraités disposant de revenus étrangers."
+description: "Un prélèvement forfaitaire de 7 % sur tous les revenus étrangers, pension comprise, depuis 2020. Le régime non-dom et le sursis d'exit tax."
 categorie: "Expatriation"
 date: 2026-09-16
 lecture: 2

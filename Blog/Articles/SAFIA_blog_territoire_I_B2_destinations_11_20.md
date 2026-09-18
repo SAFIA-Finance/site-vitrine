@@ -12,6 +12,7 @@ Même structure et même avertissement que la partie B1.
 ## I17 — Chypre
 
 **URL** : /blog/expatriation-chypre-fiscalite · **Vérifié le 16 septembre 2026**
+**Meta** : Le non-dom chypriote dure jusqu'à dix-sept ans et exonère dividendes et intérêts. Membre de l'Union, Chypre ouvre le sursis automatique d'exit tax.
 
 | | |
 |---|---|
@@ -64,6 +65,7 @@ Income Tax Law chypriote et législation sur la contribution spéciale à la dé
 ## I18 — Irlande
 
 **URL** : /blog/expatriation-irlande-fiscalite · **Vérifié le 16 septembre 2026**
+**Meta** : La remittance protège les revenus étrangers non rapatriés, mais le barème local est élevé : une destination pour qui a des revenus étrangers.
 
 | | |
 |---|---|
@@ -109,6 +111,7 @@ Taxes Consolidation Act irlandais, dispositions relatives à la résidence, au d
 ## I19 — Royaume-Uni
 
 **URL** : /blog/expatriation-royaume-uni-fiscalite · **Vérifié le 16 septembre 2026**
+**Meta** : Le régime non-dom est supprimé depuis avril 2025. Ce qui le remplace pour les nouveaux arrivants, et le Statutory Residence Test, chiffré et prévisible.
 
 | | |
 |---|---|
@@ -164,6 +167,7 @@ Finance Act britannique portant suppression du régime des non-domiciliés à co
 ## I20 — Émirats arabes unis
 
 **URL** : /blog/expatriation-emirats-dubai-fiscalite · **Vérifié le 16 septembre 2026**
+**Meta** : Aucun impôt sur le revenu des personnes physiques, mais pas de sursis automatique d'exit tax et une résidence française fréquemment contestée.
 
 | | |
 |---|---|
@@ -221,6 +225,7 @@ Législation fédérale émirienne relative à l'impôt sur les sociétés (2023
 ## I21 — Maurice
 
 **URL** : /blog/expatriation-maurice-fiscalite · **Vérifié le 16 septembre 2026**
+**Meta** : Impôt modéré, ni plus-values ni succession — mais une résidence à prix d'entrée, souvent immobilier, et aucun sursis automatique d'exit tax.
 
 | | |
 |---|---|
@@ -269,6 +274,7 @@ Income Tax Act mauricien · Textes relatifs aux permis de résidence et aux prog
 ## I22 — Maroc
 
 **URL** : /blog/expatriation-maroc-fiscalite · **Vérifié le 16 septembre 2026**
+**Meta** : Un abattement substantiel sur les pensions de source étrangère, majoré en dirhams non convertibles : la destination la plus favorable aux retraités.
 
 | | |
 |---|---|
@@ -317,6 +323,7 @@ Code général des impôts marocain, dispositions relatives aux pensions de sour
 ## I23 — Thaïlande
 
 **URL** : /blog/expatriation-thailande-fiscalite · **Vérifié le 16 septembre 2026**
+**Meta** : La règle du non-rapatriement a été durcie en 2024 : un revenu étranger rapatrié plus tard devient imposable. L'attrait fiscal en est très réduit.
 
 | | |
 |---|---|
@@ -369,6 +376,7 @@ Revenue Department thaïlandais, instructions relatives à l'imposition des reve
 ## I24 — Singapour
 
 **URL** : /blog/expatriation-singapour-fiscalite · **Vérifié le 16 septembre 2026**
+**Meta** : Imposition territoriale, pas de plus-values ni de droits de succession — mais un coût du logement qui absorbe une large part de l'avantage fiscal.
 
 | | |
 |---|---|
@@ -417,6 +425,7 @@ Income Tax Act singapourien, principe de territorialité · Inland Revenue Autho
 ## I25 — Canada
 
 **URL** : /blog/expatriation-canada-fiscalite · **Vérifié le 16 septembre 2026**
+**Meta** : Pas de droits de succession, mais une présomption de disposition au décès qui impose les plus-values latentes : l'effet économique peut être proche.
 
 | | |
 |---|---|
@@ -468,6 +477,7 @@ Loi de l'impôt sur le revenu canadienne, dispositions relatives à la résidenc
 ## I26 — États-Unis
 
 **URL** : /blog/expatriation-etats-unis-fiscalite · **Vérifié le 16 septembre 2026**
+**Meta** : Imposition sur la nationalité, obligations FATCA, et un abattement successoral très faible pour le non-résident détenant des actifs américains.
 
 | | |
 |---|---|

@@ -2,7 +2,7 @@
 code: "D17"
 titre: "Succession internationale : quel droit s'applique à vos biens"
 titreSeo: "Succession internationale : quel droit s'applique"
-description: "Depuis le règlement européen « Successions », la loi applicable est celle de la résidence habituelle du défunt au jour du décès, pour l'ensemble de la"
+description: "La loi applicable est celle de la résidence habituelle du défunt. L'option pour la loi nationale, et la confusion entre loi civile et loi fiscale."
 categorie: "Donation et succession"
 date: 2026-09-16
 lecture: 2
@@ -14,7 +14,6 @@ essentiel:
 pages:
   - nom: "Cockpit stratégique"
     url: "/cockpit/"
-seoDerive: true
 sources: "Règlement (UE) n° 650/2012 du 4 juillet 2012 relatif aux successions et au certificat successoral européen · Code général des impôts, article 750 ter · Conventions fiscales bilatérales françaises en matière de successions · BOFiP, territorialité des droits de mutation à titre gratuit."
 ---
 

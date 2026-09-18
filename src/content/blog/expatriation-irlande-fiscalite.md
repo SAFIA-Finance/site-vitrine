@@ -2,7 +2,7 @@
 code: "I18"
 titre: "Irlande : fiscalité de l'expatriation"
 titreSeo: "Irlande : fiscalité de l'expatriation"
-description: "L'Irlande applique, comme Malte et le Royaume-Uni historiquement, le principe de remittance aux résidents non domiciliés."
+description: "La remittance protège les revenus étrangers non rapatriés, mais le barème local est élevé : une destination pour qui a des revenus étrangers."
 categorie: "Expatriation"
 date: 2026-09-16
 lecture: 1

@@ -2,7 +2,7 @@
 code: "K6"
 titre: "Nouvelle-Calédonie"
 titreSeo: "Nouvelle-Calédonie : fiscalité locale et convention"
-description: "La Nouvelle-Calédonie relève d'un statut propre, inscrit au titre XIII de la Constitution et issu de l'accord de Nouméa."
+description: "Statut propre issu de l'accord de Nouméa et compétence fiscale pleine : impôts locaux sur le revenu et les sociétés, convention avec l'État."
 categorie: "Outre-mer"
 date: 2026-09-16
 lecture: 1
@@ -14,7 +14,6 @@ essentiel:
 pages:
   - nom: "Cockpit stratégique"
     url: "/cockpit/"
-seoDerive: true
 sources: "Constitution du 4 octobre 1958, titre XIII · Loi organique n° 99-209 du 19 mars 1999 relative à la Nouvelle-Calédonie · Code des impôts de la Nouvelle-Calédonie et délibérations du Congrès · Convention fiscale entre l'État et la Nouvelle-Calédonie · Direction des services fiscaux de la Nouvelle-Calédonie."
 ---
 

@@ -2,7 +2,7 @@
 code: "J16"
 titre: "Crowdfunding immobilier"
 titreSeo: "Crowdfunding immobilier : rendement, risque, défauts"
-description: "Tu prêtes à un promoteur pour financer une opération, contre un intérêt annuel affiché souvent entre 8 % et 12 %."
+description: "Un intérêt de 8 à 12 % qui rémunère un risque réel : retard, dépassement, défaillance du promoteur. Les défauts ont augmenté depuis 2023."
 categorie: "Produits d'investissement"
 date: 2026-09-16
 lecture: 2
@@ -14,7 +14,6 @@ essentiel:
 pages:
   - nom: "ADN Investisseur"
     url: "/adn-investisseur/"
-seoDerive: true
 sources: "Règlement (UE) 2020/1503 relatif aux prestataires européens de services de financement participatif · AMF et ACPR, registres des prestataires agréés · Statistiques annuelles publiées par les plateformes et les baromètres sectoriels."
 ---
 

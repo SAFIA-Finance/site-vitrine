@@ -2,7 +2,7 @@
 code: "I24"
 titre: "Singapour : fiscalité de l'expatriation"
 titreSeo: "Singapour : fiscalité de l'expatriation"
-description: "Singapour applique une imposition territoriale : les revenus de source étrangère échappent en principe à l'impôt local."
+description: "Imposition territoriale, pas de plus-values ni de droits de succession — mais un coût du logement qui absorbe une large part de l'avantage fiscal."
 categorie: "Expatriation"
 date: 2026-09-16
 lecture: 1

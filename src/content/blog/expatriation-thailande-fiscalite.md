@@ -2,7 +2,7 @@
 code: "I23"
 titre: "Thaïlande : fiscalité de l'expatriation"
 titreSeo: "Thaïlande : fiscalité de l'expatriation"
-description: "La Thaïlande appliquait une règle très favorable : les revenus étrangers n'étaient imposés que s'ils étaient rapatriés dans l'année de leur perception."
+description: "La règle du non-rapatriement a été durcie en 2024 : un revenu étranger rapatrié plus tard devient imposable. L'attrait fiscal en est très réduit."
 categorie: "Expatriation"
 date: 2026-09-16
 lecture: 2

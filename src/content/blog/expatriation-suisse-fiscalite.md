@@ -2,7 +2,7 @@
 code: "I12"
 titre: "Suisse : fiscalité de l'expatriation"
 titreSeo: "Suisse : fiscalité de l'expatriation"
-description: "La Suisse conserve un attrait réel, mais elle est hors de la liste ouvrant le sursis automatique d'exit tax, ce qui change considérablement la préparation"
+description: "Forfait négocié canton par canton, impôt sur la fortune, et surtout : hors sursis automatique d'exit tax, ce qui alourdit la préparation du départ."
 categorie: "Expatriation"
 date: 2026-09-16
 lecture: 2

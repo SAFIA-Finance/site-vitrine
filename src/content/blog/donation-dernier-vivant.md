@@ -2,7 +2,7 @@
 code: "D18"
 titre: "Protéger son conjoint : donation au dernier vivant et quotité disponible"
 titreSeo: "Donation au dernier vivant : protéger son conjoint"
-description: "Sans disposition, le conjoint survivant hérite selon des règles légales qui dépendent de la présence d'enfants communs ou non."
+description: "La donation au dernier vivant élargit les droits du conjoint au-delà du minimum légal et lui laisse le choix entre trois options au décès."
 categorie: "Donation et succession"
 date: 2026-09-16
 lecture: 2
@@ -14,7 +14,6 @@ essentiel:
 pages:
   - nom: "Cockpit stratégique"
     url: "/cockpit/"
-seoDerive: true
 sources: "Code civil, articles 757 et suivants, 764 et 765-1 (droit viager au logement), 1094-1 et 1096 (donation entre époux) · Code général des impôts, articles 669 et 796-0 bis."
 ---
 

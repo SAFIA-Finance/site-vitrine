@@ -2,7 +2,7 @@
 code: "J17"
 titre: "Crowdlending et prêt participatif"
 titreSeo: "Crowdlending et prêt participatif"
-description: "Tu prêtes à des entreprises, en direct ou via une plateforme agréée, contre un intérêt. Le rendement net dépend entièrement du taux de défaut réel, jamais"
+description: "Le rendement net dépend du taux de défaut, jamais du taux affiché. Les pertes en capital ne compensent pas automatiquement les intérêts imposés."
 categorie: "Produits d'investissement"
 date: 2026-09-16
 lecture: 1

@@ -2,7 +2,7 @@
 code: "D8"
 titre: "Famille recomposée : protéger son conjoint sans léser ses enfants"
 titreSeo: "Famille recomposée : protéger son conjoint et ses enfants"
-description: "L'enfant du conjoint n'est pas héritier : sans adoption, il est fiscalement un tiers, taxé à 60 % après un abattement de 1 594 €."
+description: "L'enfant du conjoint n'est pas héritier et reste taxé à 60 %. Comment protéger le survivant sans entamer la réserve des enfants d'un premier lit."
 categorie: "Donation et succession"
 date: 2026-09-16
 lecture: 2
@@ -14,7 +14,6 @@ essentiel:
 pages:
   - nom: "Cockpit stratégique"
     url: "/cockpit/"
-seoDerive: true
 sources: "Code civil, articles 757 et suivants (droits du conjoint survivant), 912 et suivants (réserve), 1094-1 (donation entre époux), 1527 (action en retranchement) · Code général des impôts, articles 777, 788 et 990 I."
 ---
 

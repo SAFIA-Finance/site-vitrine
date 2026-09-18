@@ -2,7 +2,7 @@
 code: "I11"
 titre: "Belgique : fiscalité de l'expatriation"
 titreSeo: "Belgique : fiscalité de l'expatriation"
-description: "L'attrait belge n'a jamais porté sur l'impôt sur le revenu, élevé, mais sur le traitement des plus-values privées."
+description: "L'attrait belge tient aux plus-values privées, pas à l'impôt sur le revenu. Un point mouvant, et un risque élevé de contestation de la résidence."
 categorie: "Expatriation"
 date: 2026-09-16
 lecture: 2

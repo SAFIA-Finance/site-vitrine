@@ -2,7 +2,7 @@
 code: "I14"
 titre: "Monaco : fiscalité de l'expatriation"
 titreSeo: "Monaco : fiscalité de l'expatriation"
-description: "Monaco n'impose pas les revenus de ses résidents — mais la convention de 1963 exclut les Français de ce bénéfice."
+description: "Monaco n'impose pas ses résidents, mais la convention de 1963 exclut les Français : ils restent imposables en France. L'exception et ses conditions."
 categorie: "Expatriation"
 date: 2026-09-16
 lecture: 2

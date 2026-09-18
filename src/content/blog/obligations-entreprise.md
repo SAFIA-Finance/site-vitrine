@@ -2,7 +2,7 @@
 code: "J18"
 titre: "Obligations d'entreprise en direct"
 titreSeo: "Obligations d'entreprise en direct"
-description: "Acheter une obligation en direct, c'est prêter à une entreprise identifiée, pour une durée et un coupon connus."
+description: "Prêter à une entreprise identifiée, pour une durée et un coupon connus. Deux risques : le défaut de l'émetteur, et le prix si tu revends avant terme."
 categorie: "Produits d'investissement"
 date: 2026-09-16
 lecture: 1
