@@ -125,7 +125,11 @@ const fil = ["Accueil","À propos","Le fondateur"];
       Le lien sortant ne dépose rien ici, et la responsabilité passe à Calendly
       au moment où le visiteur s'y rend, en connaissance de cause. */}
   <p class="rdv-tiers">Le rendez-vous se prend sur <b>Calendly</b>, qui recueillera ton nom, ton adresse email et le créneau retenu.</p>
-  <a class="btn btn-primaire rdv-bouton" href={RENDEZ_VOUS.url} target="_blank" rel="noopener">Choisir un créneau sur Calendly</a>
+  {/* btn-encre et non btn-primaire : ce dernier a un fond BLANC, parce qu'il
+      est fait pour les fonds sombres du hero et du bloc final. Sur ce bloc,
+      qui est blanc, il ne laissait voir que son texte. Mesure : fond, padding
+      et rayon étaient corrects, seul le contraste manquait. */}
+  <a class="btn btn-encre rdv-bouton" href={RENDEZ_VOUS.url} target="_blank" rel="noopener">Choisir un créneau sur Calendly</a>
 </div>
 </section>
 )}
