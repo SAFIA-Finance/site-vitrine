@@ -242,6 +242,18 @@ const jsonFil = (() => {
     <meta name="safia-app-ios" content={APPLICATION.ios} />
     <meta name="safia-app-android" content={APPLICATION.android} />
     <link rel="canonical" href={canonique} />
+    {/* Le latin seul est préchargé : c'est le jeu dont chaque page a besoin.
+        Les deux jeux de la famille vivaient en base64 dans la feuille de
+        style, soit 54 Ko de son poids, téléchargés ensemble sur toutes les
+        pages et réinvalidés à la moindre correction de style. Sortis en
+        fichiers, ils sont mis en cache à part et demandés séparément.
+        Le second jeu, dit latin étendu, n'est pas inutile en français : la
+        ligature « œ » (U+0153) est déclarée dans les DEUX plages, et c'est la
+        seconde qui l'emporte puisqu'elle est déclarée en dernier. Une page qui
+        contient un « œ » télécharge donc les deux fichiers. Mesuré sur le
+        build : onze pages sur 164 sont dans ce cas, les 153 autres ne prennent
+        que le latin. */}
+    <link rel="preload" href="/fonts/space-grotesk-latin.woff2" as="font" type="font/woff2" crossorigin />
     {/* La couleur de la barre du navigateur sur mobile, reprise du fond
         sombre de l'en-tête pour que la barre et la page ne se démarquent pas. */}
     <meta name="theme-color" content="#130C36" />
