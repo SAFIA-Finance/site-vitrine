@@ -26,7 +26,7 @@ Les deux points qui figuraient ici sont faits, et la bascule a eu lieu.
 | Sujet | Ce qu'il faut |
 |---|---|
 | **Plus aucune préversion** | `sitev2` supprimé : **tout ce qui part sur `main` va directement en production**, sans endroit où vérifier avant. Remettre un sous-domaine de recette demande une variable d'Actions et un enregistrement DNS. C'est le seul risque créé par la bascule. |
-| **Cartes de partage** | Le rendu d'un lien partagé sur LinkedIn est jugé trop pauvre (constaté le 18/09 sur l'accueil). À reprendre : voir la ligne « Images de partage » plus bas. |
+| **Calendly absent des politiques** | Le bloc de rendez-vous de `/fondateur/` renvoie vers Calendly par un **lien sortant** : aucun cookie ni script tiers sur `safia.finance`, et le visiteur est averti de ce que Calendly recueillera avant de partir. Rien n'est donc à ajouter à la politique de **cookies**. En revanche Calendly traite ces données pour le compte de SAFIA et **ne figure pas parmi les sous-traitants** de l'article 9 de la politique de confidentialité, ni dans les durées de l'article 11. Écarté comme non prioritaire le 18/09/2026 ; à reprendre le jour où l'on retouche les `.docx`. **Ne pas intégrer le calendrier dans la page sans rouvrir ce point** : le widget contactait treize domaines tiers, dont Stripe, Google reCAPTCHA et OneTrust, et affichait son propre bandeau de consentement sous celui du site. |
 | **Blog, chiffres à trier** | Six articles citent « 1,5 % » alors que le Livret A est à 1,7 % depuis le 1ᵉʳ août. Tous ne parlent pas du Livret A, plusieurs parlent de frais : à trier à la lecture, jamais par remplacement en masse. **Ces articles sont désormais indexables et publics sous la signature d'un CIF.** |
 | **Blog, longueur** | Médiane de 320 à 600 mots contre les 1 200 que la ligne éditoriale s'impose. À arbitrer : enrichir, ou réviser la règle. |
 | **Blog, vérifications de fond** | 17 des 20 fiches destination et les articles K5 à K7 n'ont pas été vérifiés. Le non-cumul du régime italien des *impatriati* avec le forfait, à compter du 1ᵉʳ janvier 2027, manque dans I8. |
@@ -74,7 +74,7 @@ Les deux points qui figuraient ici sont faits, et la bascule a eu lieu.
 | `Q-12` | Newsletter | Une fois par mois | Accueil, Blog |
 | — | Formulaires | En service : relais Cloudflare vers Brevo, alertes depuis `hello@safia.finance`. Voir [FORMULAIRES.md](FORMULAIRES.md) | Accueil, Blog, Conseillers, Institutions |
 | — | Mesure d'audience | Google Analytics `G-7MMLBMMHQS`, chargé seulement après accord, choix redemandé au bout de 13 mois | `src/scripts/site.js` |
-| — | Images de partage | 16 cartes existent, une par page fixe, toutes en 1200×630 et servies en 200. **Mais leur contenu est à reprendre, voir plus haut** | `public/og/` |
+| — | Images de partage | **Refondues le 18/09/2026.** Elles annonçaient le libellé de navigation, donc « Accueil » ou « Tarifs » en très gros, ce qui ne dit rien. Trois régimes désormais : les pages de présentation portent la carte de marque, les dix routes `/outils/` leur titre, et les 123 articles le leur, produits à la construction dans `dist/og/blog/` et jamais commités. `public/og/` est passé de 31 fichiers et 2,01 Mo à 11 fichiers et 0,77 Mo | `outils/generer-images.mjs`, `outils/generer-og-articles.mjs` |
 
 ---
 
