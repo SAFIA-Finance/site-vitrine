@@ -1,10 +1,67 @@
 ---
 import Base from '../layouts/Base.astro';
+
+// Lot 4, page 4 sur 7. La page faisait 366 mots et ne portait aucune FAQ,
+// alors qu'elle est citée par presque toutes les autres pages du site.
+//
+// CE QUI N'EST PAS TOUCHÉ : le hero, le bloc des quatre volets « .secu », le
+// cadre réglementaire et le bloc des droits. Quatre sections sont ajoutées
+// entre les existantes, et l'alternance des fonds est recalculée en entier :
+// nuit, lavande, blanc, nuit, lavande, blanc, nuit, blanc, nuit.
+//
+// UNE SEULE MODIFICATION DANS L'EXISTANT : le numéro CIB de Powens, ajouté au
+// volet de la connexion bancaire. La page invite déjà à vérifier SAFIA sur
+// l'ORIAS ; elle permet désormais d'en faire autant pour notre agrégateur.
+//
+// SOURCES DES AJOUTS, toutes vérifiables :
+//   - Powens SAS, établissement de paiement, SIREN 749 867 206, agréé et
+//     réglementé par l'ACPR sous le numéro CIB 16948 (regafi.fr), certifié
+//     ISO 27001, plus de 1 800 banques couvertes en Europe. Source : pages
+//     légales et institutionnelles de powens.com.
+//   - Règlement délégué (UE) 2022/2360, applicable depuis le 25 juillet 2023,
+//     qui porte de 90 à 180 jours la durée pendant laquelle l'accès aux
+//     informations de compte se poursuit sans nouvelle authentification forte.
+//
+// ATTRIBUTION : la certification ISO 27001 est celle de POWENS, pas celle de
+// SAFIA. Elle est nommée comme telle. Ne jamais laisser croire l'inverse.
+//
+// GRILLES : « .secu » est à deux colonnes, donc son nombre d'articles reste
+// pair ; « .limites » est à trois colonnes, donc six items.
+//
+// REGISTRE : tutoiement, comme la page depuis l'origine.
+const faq = [
+  {
+    "q": "SAFIA peut-elle faire un virement depuis mes comptes ?",
+    "r": "Non, jamais. L'accès est en lecture seule : SAFIA voit les soldes et les opérations des comptes que tu as connectés, et ne peut initier aucune opération. Déplacer de l'argent relève d'un autre service, soumis à un autre agrément, que nous n'exerçons pas."
+  },
+  {
+    "q": "SAFIA voit-elle mes identifiants bancaires ?",
+    "r": "Non. Tu t'authentifies directement auprès de ta banque, avec ses propres moyens de sécurité. Ni SAFIA ni personne chez SAFIA ne voit tes identifiants à aucun moment. Méfie-toi de toute application qui te les demanderait directement."
+  },
+  {
+    "q": "Pourquoi dois-je reconnecter mes comptes régulièrement ?",
+    "r": "Parce que la réglementation l'impose. Depuis le 25 juillet 2023, le règlement délégué européen 2022/2360 fixe à 180 jours la durée pendant laquelle l'accès peut se poursuivre sans nouvelle authentification forte, contre 90 auparavant. Ce n'est pas un défaut technique, c'est une protection."
+  },
+  {
+    "q": "Mes données servent-elles à entraîner une intelligence artificielle ?",
+    "r": "Non. Elles servent à personnaliser tes analyses, et à rien d'autre. Elles n'entraînent pas les modèles de Mistral AI, notre fournisseur, et ne sont ni vendues ni cédées à des tiers à des fins commerciales."
+  },
+  {
+    "q": "Où sont hébergées mes données ?",
+    "r": "Chez Scaleway, fournisseur cloud français, dans des centres de données situés dans l'Union européenne. Les environnements de test et de production sont strictement séparés : aucune donnée réelle ne circule dans les environnements de test."
+  },
+  {
+    "q": "Comment supprimer mes données ?",
+    "r": "Tu peux déconnecter une banque à tout moment depuis l'application, et demander la suppression de ton compte et de tes données en écrivant à hello@safia.finance. Les durées de conservation figurent dans notre politique de confidentialité."
+  }
+];
+
 const fil = ["Accueil","À propos","Sécurité et conformité"];
 ---
 
 <Base
   chemin={"/securite/"}
+  faq={faq}
   fil={fil}
 >
 <section class="hero hero-page hero-propos">
@@ -22,7 +79,7 @@ const fil = ["Accueil","À propos","Sécurité et conformité"];
     <article>
       <h2>Ta connexion bancaire</h2>
       <ul>
-        <li>La connexion passe par <strong>Powens</strong>, agrégateur agréé par l'ACPR.</li>
+        <li>La connexion passe par <strong>Powens</strong>, agrégateur agréé par l'ACPR sous le numéro CIB 16948 · <a href="https://www.regafi.fr" target="_blank" rel="noopener">Vérifier sur regafi.fr</a></li>
         <li>Tes identifiants bancaires sont saisis dans un environnement sécurisé : SAFIA n'y a jamais accès.</li>
         <li>L'accès est <strong>en lecture seule</strong>. SAFIA ne peut effectuer aucun virement ni aucune opération.</li>
         <li>Tu peux déconnecter une banque à tout moment.</li>
@@ -59,6 +116,24 @@ const fil = ["Accueil","À propos","Sécurité et conformité"];
 </div>
 </section>
 
+<section class="bloc appui-bloc">
+<div class="wrap">
+  <h2 class="titre">Ce qui se passe quand tu connectes une banque</h2>
+  <div class="prose">
+    <p class="intro">L'agrégation de comptes n'est pas un bricolage toléré : c'est un service réglementé, encadré par une directive européenne, et rendu possible par elle. Comprendre le mécanisme aide à distinguer une application sérieuse d'une application qui ne l'est pas.</p>
+
+    <h3>La deuxième directive sur les services de paiement a changé les règles</h3>
+    <p>Avant elle, réunir ses comptes supposait de confier ses identifiants bancaires à un tiers qui se connectait à ta place. La DSP2, applicable depuis 2018, a mis fin à cette pratique en créant deux statuts distincts : celui qui consulte les informations de compte, et celui qui initie un paiement. Elle oblige les banques à ouvrir une interface dédiée, et impose que tu valides l'accès directement auprès de ta banque, par son authentification forte. SAFIA n'utilise que le premier volet, la consultation. L'article <a class="lien" href="/blog/agregateur-de-comptes-dsp2/">comment la DSP2 a rendu l'agrégation possible</a> détaille le mécanisme.</p>
+
+    <h3>Qui est Powens, et ce qu'il fait exactement</h3>
+    <p>Powens est un établissement de paiement français, agréé et supervisé par l'Autorité de contrôle prudentiel et de résolution sous le numéro CIB 16948, vérifiable par n'importe qui sur le registre public des agents financiers. Il est certifié ISO 27001, couvre plus de 1&#160;800 banques en Europe, et c'est lui, et non SAFIA, qui établit la liaison technique avec ton établissement. Cette séparation est volontaire : elle fait que tes identifiants ne transitent jamais par nos systèmes.</p>
+
+    <h3>Pourquoi il faut reconnecter tes comptes de temps en temps</h3>
+    <p>Parce que ton autorisation est bornée dans le temps, et c'est une protection. Depuis le 25 juillet 2023, le règlement délégué européen 2022/2360 fixe à 180 jours la durée pendant laquelle l'accès peut se poursuivre sans que tu te réauthentifies, là où la limite précédente était de 90 jours. Passé ce délai, ta banque redemande une authentification forte. Une application qui n'aurait jamais besoin de cette confirmation devrait t'inquiéter, pas te rassurer.</p>
+  </div>
+</div>
+</section>
+
 <section class="bloc cadre-bloc">
 <div class="wrap cadre-grille">
   <div>
@@ -74,11 +149,56 @@ const fil = ["Accueil","À propos","Sécurité et conformité"];
 </div>
 </section>
 
+<section class="bloc">
+<div class="wrap">
+  <h2 class="titre">Ce que nous ne faisons jamais de tes données</h2>
+  <div class="prose">
+    <p class="intro">Une politique de confidentialité dit ce qui est permis. Voici, en clair, ce que nous nous interdisons, et pourquoi c'est vérifiable plutôt que déclaratif.</p>
+
+    <p><b>Nous ne les vendons pas, et nous ne les cédons pas.</b> Ni à un courtier, ni à un annonceur, ni à un producteur de placements. Notre modèle économique repose sur l'abonnement et sur les licences professionnelles, ce qui est une garantie plus solide qu'une promesse : nous n'avons rien à gagner à revendre quoi que ce soit. Le détail figure dans notre <a class="lien" href="/politique-de-confidentialite/">politique de confidentialité</a>.</p>
+
+    <p><b>Elles n'entraînent aucun modèle.</b> L'assistant repose sur un modèle de Mistral AI que nous avons entraîné pour la gestion de patrimoine, mais tes données à toi ne repartent pas dans cet entraînement. Elles servent à personnaliser tes analyses pendant que tu les utilises, et c'est tout.</p>
+
+    <p><b>Nous ne devinons pas ce que nous ignorons.</b> L'IA de SAFIA a l'interdiction explicite d'inventer un chiffre, un taux, un plafond ou un article de loi : quand l'information manque, elle pose la question plutôt que de combler le trou. Chaque calcul de profil et chaque source consultée sont journalisés, ce qui rend l'analyse reconstituable après coup. C'est le sujet de <a class="lien" href="/methode/">notre méthode</a>.</p>
+
+    <p><b>Nous ne décidons pas à ta place.</b> SAFIA ne détient pas ton argent, ne passe aucun ordre et ne te promet aucun rendement. Les analyses de l'application ont une visée informative et pédagogique ; quand un conseil personnalisé est nécessaire, un conseiller humain prend le relais et valide avant que quoi que ce soit engage une décision. Les limites exactes sont dans notre <a class="lien" href="/disclaimer/">avertissement</a>.</p>
+  </div>
+</div>
+</section>
+
 <section class="bloc droits-bloc">
 <div class="wrap droits">
   <h2 class="titre">Tes droits</h2>
   <p class="intro">Tu peux accéder à tes données, les corriger ou les supprimer, à tout moment. Écris-nous à <a class="lien" href="mailto:hello@safia.finance">hello@safia.finance</a>.</p>
   <p class="liens-legaux"><a class="lien" href="/mentions-legales/">Mentions légales</a> · <a class="lien" href="/politique-de-confidentialite/">Politique de confidentialité</a> · <a class="lien" href="/cgu/">CGU</a> · <a class="lien" href="/disclaimer/">Avertissement</a> · <a class="lien" href="/politique-cookies/">Politique de cookies</a></p>
+</div>
+</section>
+
+<section class="bloc ne-fait-pas">
+<div class="wrap">
+  <h2 class="titre">Six réflexes avant de connecter une application à ta banque</h2>
+  <ul class="limites">
+    <li><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/><path d="M12 7v6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="currentColor"/></svg><p><b>Te demande-t-elle tes identifiants&#160;?</b> Si oui, arrête-toi là. L'authentification doit se faire chez ta banque.</p></li>
+    <li><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/><path d="M12 7v6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="currentColor"/></svg><p><b>L'agrégateur est-il agréé&#160;?</b> Le registre public des agents financiers permet de le vérifier en une minute.</p></li>
+    <li><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/><path d="M12 7v6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="currentColor"/></svg><p><b>L'accès est-il en lecture seule&#160;?</b> Consulter et déplacer de l'argent sont deux agréments distincts.</p></li>
+    <li><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/><path d="M12 7v6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="currentColor"/></svg><p><b>Où sont hébergées les données&#160;?</b> Et sous quel droit, le jour où quelque chose se passe mal.</p></li>
+    <li><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/><path d="M12 7v6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="currentColor"/></svg><p><b>Comment gagne-t-elle de l'argent&#160;?</b> Si le service est gratuit sans explication, la réponse est ailleurs.</p></li>
+    <li><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/><path d="M12 7v6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="currentColor"/></svg><p><b>Peux-tu partir&#160;?</b> Déconnexion immédiate, suppression du compte, effacement des données.</p></li>
+  </ul>
+</div>
+</section>
+
+<section class="bloc faq-bloc">
+<div class="wrap faq-grille">
+  <h2 class="titre">Tes questions, nos réponses</h2>
+  <div class="faq">
+    <details><summary>SAFIA peut-elle faire un virement depuis mes comptes ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Non, jamais. L'accès est en lecture seule : SAFIA voit les soldes et les opérations des comptes que tu as connectés, et ne peut initier aucune opération. Déplacer de l'argent relève d'un autre service, soumis à un autre agrément, que nous n'exerçons pas.</p></details>
+    <details><summary>SAFIA voit-elle mes identifiants bancaires ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Non. Tu t'authentifies directement auprès de ta banque, avec ses propres moyens de sécurité. Ni SAFIA ni personne chez SAFIA ne voit tes identifiants à aucun moment. Méfie-toi de toute application qui te les demanderait directement.</p></details>
+    <details><summary>Pourquoi dois-je reconnecter mes comptes régulièrement ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Parce que la réglementation l'impose. Depuis le 25 juillet 2023, le règlement délégué européen 2022/2360 fixe à 180 jours la durée pendant laquelle l'accès peut se poursuivre sans nouvelle authentification forte, contre 90 auparavant. Ce n'est pas un défaut technique, c'est une protection.</p></details>
+    <details><summary>Mes données servent-elles à entraîner une intelligence artificielle ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Non. Elles servent à personnaliser tes analyses, et à rien d'autre. Elles n'entraînent pas les modèles de Mistral AI, notre fournisseur, et ne sont ni vendues ni cédées à des tiers à des fins commerciales.</p></details>
+    <details><summary>Où sont hébergées mes données ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Chez Scaleway, fournisseur cloud français, dans des centres de données situés dans l'Union européenne. Les environnements de test et de production sont strictement séparés : aucune donnée réelle ne circule dans les environnements de test.</p></details>
+    <details><summary>Comment supprimer mes données ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Tu peux déconnecter une banque à tout moment depuis l'application, et demander la suppression de ton compte et de tes données en écrivant à <a class="lien" href="mailto:hello@safia.finance">hello@safia.finance</a>. Les durées de conservation figurent dans notre politique de confidentialité.</p></details>
+  </div>
 </div>
 </section>
 
