@@ -13,10 +13,47 @@ const etapes = [
   { id: 'etape-5', titre: 'Réponses sourcées', gist: 'Tes données, les textes officiels, puis le marché.' },
   { id: 'etape-6', titre: 'Un humain si besoin', gist: 'Enjeu important, donnée incohérente, produit complexe.' },
 ];
+
+// FAQ ajoutée au lot 4 du chantier SEO. Cette page n'en avait aucune, comme
+// quatre autres piliers, alors que le mécanisme FAQPage existe déjà et que
+// c'est ce que les moteurs génératifs citent le plus volontiers.
+//
+// Elle est placée en section BLANCHE entre « limites-bloc » et « final », tous
+// deux sur fond nuit. Mesuré le 19/09/2026 : ces deux sections voisines
+// partageaient leur fond et cumulaient 192 px de marge sans rien pour les
+// séparer, ce qui se lit comme un trou. L'insertion corrige l'adjacence et
+// comble le manque d'un même geste.
+const faq = [
+  {
+    "q": "Mon profil de risque peut-il changer ?",
+    "r": "Oui, et il le doit. Un changement de situation, un projet nouveau ou simplement le temps qui passe modifient ton horizon et ta capacité à encaisser une baisse. Le questionnaire se refait, et chaque calcul reste enregistré."
+  },
+  {
+    "q": "Pourquoi retenir le niveau le plus prudent ?",
+    "r": "Parce qu'une seule fragilité suffit à limiter le risque raisonnable. Quelqu'un qui accepte l'idée d'une perte mais dont l'horizon est court n'est pas un profil dynamique : c'est un profil contraint par son horizon."
+  },
+  {
+    "q": "Que se passe-t-il si aucune recommandation ne correspond ?",
+    "r": "Rien ne s'affiche. Une recommandation n'apparaît que si son niveau de risque est compatible avec ton profil. Un catalogue vide est une réponse honnête, un catalogue rempli de force ne l'est pas."
+  },
+  {
+    "q": "L'IA peut-elle se tromper ?",
+    "r": "Oui. C'est précisément pour cela qu'elle montre ses sources et les date, qu'elle s'interdit d'inventer un chiffre ou un article de loi, et qu'elle pose la question plutôt que de deviner une donnée manquante."
+  },
+  {
+    "q": "Mes données servent-elles à entraîner l'IA ?",
+    "r": "Non. Elles servent à personnaliser tes analyses, et à rien d'autre : elles n'entraînent pas les modèles de Mistral AI. Chaque calcul de profil et chaque source consultée sont journalisés."
+  },
+  {
+    "q": "Qui décide au final ?",
+    "r": "Toi. SAFIA explique, compare et documente. La décision appartient à celui dont c'est l'argent, et quand l'enjeu le justifie, un conseiller humain valide les recommandations avant qu'elles engagent une décision."
+  }
+];
 ---
 
 <Base
   chemin={"/methode/"}
+  faq={faq}
   fil={fil}
 >
 <section class="hero hero-page hero-propos">
@@ -24,7 +61,7 @@ const etapes = [
   <p class="etiq-page">À propos</p>
     <p class="fil-ariane" aria-label="Fil d'Ariane"><a href="/">Accueil</a> <span aria-hidden="true">/</span> À propos <span aria-hidden="true">/</span> Notre méthode</p>
   <h1>Comment SAFIA construit ses analyses</h1>
-  <p class="chapo">Une IA qui te conseille sur ton argent te doit des explications. Voici exactement comment on travaille.</p>
+  <p class="chapo">Une intelligence artificielle qui parle de ton argent te doit des explications sur sa façon de travailler. Voici les six étapes, dans l'ordre où elles s'enchaînent, et ce que chacune produit exactement.</p>
 </div>
 </section>
 
@@ -48,6 +85,7 @@ const etapes = [
       <h2>Ton profil de risque, calculé avec prudence</h2>
       <p>Un questionnaire réglementaire en huit blocs : identité, service attendu, objectifs, rapport au risque, situation financière, expérience, préférences de durabilité et un court test de connaissances.</p>
       <p>Tes réponses sont traduites en plusieurs niveaux : horizon, perte acceptable, goût du risque, capacité financière, expérience. SAFIA retient <strong>le plus prudent</strong> d'entre eux, puisqu'une seule fragilité suffit à limiter le risque raisonnable. Ton profil va de 1 (prudent) à 5 (dynamique) et n'est jamais plus risqué que ce que tu déclares souhaiter. Chaque calcul est enregistré.</p>
+      <p>Cette règle du plus prudent a une conséquence concrète, et elle surprend parfois. Quelqu'un qui se dit à l'aise avec les variations de marché mais dont l'épargne de précaution est mince ne ressortira pas en profil dynamique : sa capacité financière le contraint, indépendamment de son tempérament. À l'inverse, un horizon long ne suffit pas à lui seul à ouvrir les placements les plus volatils.</p>
       <div class="schema-profil" aria-hidden="true">
         <div><span>Horizon</span><i style="width:80%"></i><b>4</b></div>
         <div><span>Perte acceptable</span><i style="width:60%"></i><b>3</b></div>
@@ -59,22 +97,32 @@ const etapes = [
     <li id="etape-2">
       <h2>Ton ADN, construit par tes réactions</h2>
       <p>Tes swipes sur des secteurs, des pratiques et des critères ESG sont convertis en préférences. Ton ADN devient exploitable dès 25 réponses et s'affine ensuite à chaque nouvelle réaction.</p>
+      <p>Le procédé est volontairement différent d'un questionnaire déclaratif. Demander à quelqu'un s'il est attaché à l'environnement produit presque toujours un oui ; lui faire trancher entre deux situations concrètes produit une préférence utilisable. C'est cette préférence-là qui sert ensuite de filtre, et elle t'appartient : elle n'est comparée à aucune moyenne et ne te range dans aucune catégorie.</p>
+      <p>Ce que l'ADN ne fait pas non plus mérite d'être dit. Il ne note pas les produits à ta place et n'ajoute pas une méthodologie extra-financière de plus à celles qui existent déjà. Le détail de ce qu'il recouvre est sur la page <a class="lien" href="/adn-investisseur/">ADN Investisseur</a>.</p>
     </li>
     <li id="etape-3">
       <h2>Ta photo patrimoniale</h2>
       <p>Tes comptes connectés et les actifs que tu ajoutes forment ton patrimoine brut. Quand une enveloppe contient des placements, c'est la valeur des placements qui compte, pas deux fois le même argent. Tes dettes sont déduites pour obtenir ton patrimoine net.</p>
+      <p>Ce point du double comptage paraît technique et ne l'est pas : c'est la première source d'erreur des tableurs tenus à la main, où une assurance vie se retrouve additionnée avec les fonds qu'elle contient. La connexion bancaire évite aussi la seconde source d'erreur, celle des chiffres jamais mis à jour.</p>
+      <p>La limite est symétrique. Un compte que tu ne connectes pas reste un angle mort, et une analyse fondée sur une photo incomplète est incomplète elle aussi. Ce que voit exactement une connexion bancaire est décrit sur la page <a class="lien" href="/application-gestion-patrimoine/">choisir une application de gestion de patrimoine</a>.</p>
     </li>
     <li id="etape-4">
       <h2>Des recommandations filtrées par ton profil</h2>
       <p>Une recommandation n'est proposée que si son niveau de risque est compatible avec ton profil. Elle est ensuite évaluée selon son alignement avec ton ADN. L'ordre compte : le risque d'abord, les valeurs ensuite.</p>
+      <p>Inverser cet ordre reviendrait à proposer un placement conforme à tes convictions mais trop risqué pour ta situation, ce qui serait une faute. Les valeurs affinent un ensemble déjà compatible ; elles ne l'élargissent jamais.</p>
+      <p>Il arrive donc que peu de choses s'affichent, voire rien. C'est un résultat, pas une panne : un catalogue rempli de force serait moins honnête qu'un catalogue vide. Le fonctionnement complet de cette sélection est décrit sur la page <a class="lien" href="/cockpit/">Cockpit stratégique</a>.</p>
     </li>
     <li id="etape-5">
       <h2>Des réponses sourcées</h2>
       <p>L'assistant consulte ses sources dans cet ordre : tes données, puis les textes officiels (codes, doctrine fiscale, règles de l'AMF), puis la méthodologie SAFIA, puis des données de marché issues de sources autorisées. Il ne cite jamais une référence qu'il n'a pas retrouvée.</p>
+      <p>Chaque source citée est datée du jour de sa consultation. Cette date n'est pas un ornement : un taux de livret, un plafond ou un barème changent chaque année, parfois en cours d'année, et une réponse juste en mars peut être fausse en août. Une réponse patrimoniale sans référence datée n'est pas vérifiable.</p>
+      <p>Il lui est également interdit d'inventer un chiffre, un taux, un plafond ou un article de loi. Face à une donnée manquante, il ne devine pas : il te pose la question. Pourquoi ce principe est décisif est développé sur la page <a class="lien" href="/gestion-de-patrimoine-ia/">gestion de patrimoine par IA</a>.</p>
     </li>
     <li id="etape-6">
       <h2>Un humain quand il le faut</h2>
       <p>L'assistant te propose d'échanger avec un conseiller quand l'enjeu financier ou fiscal est important, quand tes données sont incohérentes, quand un produit est complexe, ou quand tu demandes une validation juridique.</p>
+      <p>Il n'attend pas que tu le demandes : il le signale. Une holding, un démembrement, une fiscalité internationale ou une succession délicate ne sont jamais traités seuls par la machine, qui t'explique les options possibles, prépare la liste des documents utiles, puis propose l'échange.</p>
+      <p>C'est notre principe de l'humain dans la boucle, et il n'est pas une précaution d'affichage : c'est ce qui rend le conseil juridiquement viable. Le cadre exact est détaillé sur les pages <a class="lien" href="/conseil-financier-ia/">conseil financier et IA</a> et <a class="lien" href="/conseil-investissement-ia/">conseil en investissement et IA</a>.</p>
     </li>
   </ol>
 </div>
@@ -89,6 +137,20 @@ const etapes = [
     <li>L'IA peut se tromper. C'est pour ça qu'elle montre ses sources.</li>
     <li>Aucune analyse ne garantit un résultat futur. Tout investissement comporte un risque de perte en capital.</li>
   </ul>
+</div>
+</section>
+
+<section class="bloc faq-bloc">
+<div class="wrap faq-grille">
+  <h2 class="titre">Tes questions, nos réponses</h2>
+  <div class="faq">
+    <details><summary>Mon profil de risque peut-il changer ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Oui, et il le doit. Un changement de situation, un projet nouveau ou simplement le temps qui passe modifient ton horizon et ta capacité à encaisser une baisse. Le questionnaire se refait, et chaque calcul reste enregistré.</p></details>
+    <details><summary>Pourquoi retenir le niveau le plus prudent ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Parce qu'une seule fragilité suffit à limiter le risque raisonnable. Quelqu'un qui accepte l'idée d'une perte mais dont l'horizon est court n'est pas un profil dynamique : c'est un profil contraint par son horizon.</p></details>
+    <details><summary>Que se passe-t-il si aucune recommandation ne correspond ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Rien ne s'affiche. Une recommandation n'apparaît que si son niveau de risque est compatible avec ton profil. Un catalogue vide est une réponse honnête, un catalogue rempli de force ne l'est pas.</p></details>
+    <details><summary>L'IA peut-elle se tromper ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Oui. C'est précisément pour cela qu'elle montre ses sources et les date, qu'elle s'interdit d'inventer un chiffre ou un article de loi, et qu'elle pose la question plutôt que de deviner une donnée manquante.</p></details>
+    <details><summary>Mes données servent-elles à entraîner l'IA ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Non. Elles servent à personnaliser tes analyses, et à rien d'autre : elles n'entraînent pas les modèles de Mistral AI. Chaque calcul de profil et chaque source consultée sont journalisés.</p></details>
+    <details><summary>Qui décide au final ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Toi. SAFIA explique, compare et documente. La décision appartient à celui dont c'est l'argent, et quand l'enjeu le justifie, un conseiller humain valide les recommandations avant qu'elles engagent une décision.</p></details>
+  </div>
 </div>
 </section>
 
