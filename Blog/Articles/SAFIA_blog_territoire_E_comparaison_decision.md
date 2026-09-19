@@ -60,6 +60,18 @@ Le total observé sur le marché de la gestion pilotée en ligne se situe souven
 
 Comme toujours, c'est le total qui compte, pas la ligne mise en avant.
 
+### Ce que le questionnaire de profil ne capte pas
+
+Toute l'architecture repose sur une dizaine de questions. C'est peu, et trois angles morts en découlent.
+
+**Il mesure une tolérance déclarée, pas une tolérance réelle.** Répondre « je supporterais une baisse de 30 % » un dimanche après-midi, sur un formulaire, n'engage à rien. Le comportement effectif se révèle lors de la première correction sérieuse, et il diverge souvent de la déclaration. C'est une limite connue, que la réglementation tente de corriger en distinguant la tolérance au risque, qui est psychologique, de la capacité à subir une perte, qui se mesure objectivement sur la situation financière.
+
+**Il suppose un objectif unique et un horizon unique.** Or un même épargnant poursuit généralement plusieurs objectifs à des échéances différentes : un apport immobilier à cinq ans, la retraite à vingt-cinq ans, un capital pour les enfants sans échéance déterminée. Ces trois poches n'appellent pas la même allocation. Un profil global unique moyenne ces situations, et la moyenne ne convient exactement à aucune d'elles.
+
+**Il ne voit que ce qui lui est confié.** Le service alloue les sommes présentes sur son contrat, en ignorant le reste : l'immobilier détenu, l'épargne de précaution placée ailleurs, les actions de l'entreprise reçues au titre de la participation, la pension future. Un profil « équilibré » appliqué à 20 000 € chez un épargnant dont le patrimoine est à 90 % immobilier n'a pas le même sens que chez un locataire dont c'est le seul actif financier.
+
+Aucun de ces angles morts ne disqualifie le service. Ils indiquent à quel niveau il opère : celui de la poche qui lui est confiée, pas celui du patrimoine.
+
 ### À qui cela convient
 
 **Cela convient** si tu n'as ni le temps ni l'envie de suivre une allocation, si tu sais que tu auras tendance à vendre dans une baisse, et si la discipline automatique vaut à tes yeux son coût annuel.
@@ -67,6 +79,18 @@ Comme toujours, c'est le total qui compte, pas la ligne mise en avant.
 **Cela convient moins** si ta situation comporte des dimensions que l'allocation ne traite pas : une transmission à organiser, une entreprise à céder, une fiscalité particulière. Un robo-advisor optimise un portefeuille, pas un patrimoine.
 
 **Exemple.** Sur 40 000 € investis pendant quinze ans avec une hypothèse de performance brute de 5 % par an, un total de frais de 1,5 % laisse environ **66 700 €**, contre environ **74 500 €** à 0,7 % de frais. L'écart de 0,8 point de frais représente ici près de 7 800 €. Ce n'est ni une promesse ni un jugement : c'est l'ordre de grandeur du service, à mettre en face de ce qu'il t'apporte.
+
+### Les quatre questions à poser avant de signer
+
+**Quel est le total, toutes couches confondues ?** Mandat, contrat et supports. Un tarif affiché qui ne mentionne qu'une des trois couches n'est pas un tarif.
+
+**Quelle est l'allocation cible exacte de mon profil ?** Elle doit être communicable, par classe d'actifs et en pourcentage. Un profil décrit par un adjectif et une couleur n'est pas une allocation.
+
+**Selon quelle règle le rééquilibrage se déclenche-t-il ?** À date fixe, ou au franchissement d'un seuil de dérive ? La réponse détermine le nombre d'opérations réalisées chaque année, donc les frais d'arbitrage éventuels.
+
+**Que se passe-t-il si je veux sortir ?** Délai, coût, et surtout possibilité de conserver l'enveloppe en basculant en gestion libre plutôt que de la clôturer, ce qui préserve l'antériorité fiscale acquise.
+
+Un prestataire sérieux répond aux quatre par écrit, et ces réponses figurent en principe dans la documentation contractuelle remise avant la souscription.
 
 ### Questions fréquentes
 
@@ -78,6 +102,12 @@ En principe oui, selon les règles de l'enveloppe utilisée, avec la fiscalité 
 
 **Le robo-advisor est-il responsable de ses choix ?**
 Il est tenu de respecter le mandat et le profil. Il n'est pas responsable de la performance des marchés.
+
+**Un robo-advisor convient-il pour un PER ?**
+Le principe est le même et beaucoup d'acteurs en proposent. Deux choses changent : l'horizon est connu à l'avance, ce qui justifie une désensibilisation progressive automatique à mesure que la retraite approche, et le blocage rend la discipline du mandat moins déterminante, puisque tu ne peux de toute façon pas vendre dans la panique.
+
+**Que se passe-t-il si le prestataire cesse son activité ?**
+Les actifs ne sont pas détenus par le prestataire mais par l'assureur ou le teneur de compte, qui reste tenu de ses engagements. Le mandat s'interrompt, la gestion redevient libre, et la suite t'appartient. C'est une raison de vérifier qui porte réellement le contrat : l'information figure dans la documentation précontractuelle, et le nom commercial de l'application ne la révèle pas toujours.
 
 ### Sources
 
@@ -109,6 +139,18 @@ En **gestion libre**, tu sélectionnes les supports de ton contrat ou de ton com
 En **gestion pilotée**, tu signes un mandat. Un professionnel décide des supports et des arbitrages, dans les limites du profil retenu. Tu reçois un compte rendu périodique.
 
 Une position intermédiaire existe : la **gestion conseillée**, où un professionnel te recommande des opérations que tu exécutes toi-même. Elle suppose un conseil en investissement, avec la formalisation qui va avec.
+
+### Ce que « piloté » recouvre réellement
+
+Le terme désigne des réalités très différentes, et la différence se lit dans le contrat, pas dans la brochure.
+
+**La gestion profilée.** Ton épargne suit une allocation type correspondant à un profil, rééquilibrée périodiquement. C'est la forme la plus répandue et la plus simple. Le profil ne bouge pas tout seul : tu restes « équilibré » à 40 ans comme à 62 ans, sauf demande expresse de ta part.
+
+**La gestion à horizon.** L'allocation se désensibilise automatiquement à mesure que l'échéance approche : la part actions décroît selon une trajectoire définie à l'avance. C'est le mode par défaut des plans d'épargne retraite, et il corrige précisément l'angle mort du mode précédent.
+
+**La gestion sous mandat active.** Un gérant prend des décisions discrétionnaires dans les limites du mandat, y compris tactiques. C'est la forme la plus chère, et celle dont la valeur ajoutée est la plus difficile à démontrer sur longue période.
+
+Cette distinction compte davantage que le choix entre piloté et libre. Payer un tarif de gestion active pour recevoir en réalité une allocation profilée rééquilibrée deux fois par an est le cas le plus fréquent de frais mal employés. La question à poser est donc factuelle et vérifiable : combien d'arbitrages ont été réalisés sur ce profil au cours des trois dernières années, et pour quels motifs ?
 
 ### Pourquoi la performance ne tranche pas
 
@@ -143,6 +185,24 @@ Cet écart ne condamne pas la gestion pilotée. Il chiffre ce qu'elle doit appor
 
 Rappel nécessaire : 5 % est une hypothèse de calcul destinée à isoler l'effet des frais. Aucun rendement n'est garanti.
 
+### La troisième voie : la gestion libre outillée
+
+Entre déléguer et improviser, il existe une position que peu de brochures décrivent, parce qu'elle ne se vend pas : la gestion libre encadrée par des règles écrites à l'avance.
+
+Elle tient en quatre décisions, prises une seule fois.
+
+**Une allocation cible chiffrée**, par exemple 60 % actions et 40 % fonds en euros, écrite noir sur blanc avec sa justification.
+
+**Des versements programmés automatiques**, qui investissent sans arbitrage émotionnel et lissent les points d'entrée.
+
+**Une règle de rééquilibrage datée** : une fois par an, à date fixe, les poches sont ramenées à la cible. Pas quand on y pense, pas quand les marchés inquiètent.
+
+**Une règle de non-intervention** : aucune décision en dehors de ces rendez-vous, sauf changement de situation personnelle.
+
+Ces quatre règles reproduisent l'essentiel de ce que fait une gestion profilée, pour le seul coût des supports. Leur difficulté n'est pas technique, elle est comportementale : une règle ne vaut que si elle est écrite avant la tempête, et relue pendant.
+
+C'est d'ailleurs le bon test pour trancher entre les deux modes. Si tu es capable d'écrire ces quatre règles et de t'y tenir, la gestion pilotée te vendra une discipline que tu possèdes déjà. Si l'exercice te paraît irréaliste, elle te vend quelque chose de réel, et son coût annuel s'apprécie à cette aune.
+
 ### Les questions à poser avant de signer un mandat
 
 Quel est le **total** des frais, mandat plus contrat plus supports ?
@@ -163,6 +223,12 @@ Non. Elle respecte un profil, elle ne prédit pas les marchés.
 
 **Peut-on changer d'avis ?**
 Oui, le passage d'un mode à l'autre est généralement possible, parfois avec des frais d'arbitrage.
+
+**La gestion pilotée est-elle plus performante en période de crise ?**
+Rien ne le garantit. Un mandat respecte un profil, il ne prédit pas les marchés : un profil dynamique baisse en même temps que les marchés actions, piloté ou non. Ce qu'un mandat apporte en période de crise n'est pas une meilleure performance, c'est l'absence de décision impulsive de ta part.
+
+**Les frais de gestion pilotée sont-ils négociables ?**
+Rarement sur les contrats en ligne, où le tarif est standardisé et affiché. Plus souvent en banque privée, ou au-delà de certains encours.
 
 ### Sources
 
@@ -205,6 +271,23 @@ Elle impose aux banques de mettre à disposition une interface dédiée permetta
 
 Le consentement est **limité dans le temps** : la réglementation impose un renouvellement périodique de l'autorisation d'accès. C'est la raison pour laquelle les applications de suivi demandent régulièrement de reconnecter les comptes : ce n'est pas un défaut technique, c'est une obligation.
 
+### Le périmètre réel : ce que la DSP2 couvre, et ce qu'elle ne couvre pas
+
+C'est le point le plus mal compris du sujet, et il explique la plupart des déceptions à l'usage.
+
+La directive impose l'ouverture d'un accès aux **comptes de paiement** accessibles en ligne : comptes courants, et selon les cas certains comptes d'épargne. Elle ne couvre pas l'ensemble des avoirs financiers.
+
+Restent donc hors du dispositif obligatoire :
+
+- les **contrats d'assurance-vie** et les plans d'épargne retraite, qui ne sont pas des comptes de paiement ;
+- les **comptes-titres et PEA** chez une partie des établissements ;
+- l'**épargne salariale**, souvent tenue par des teneurs de compte spécialisés ;
+- l'**immobilier**, par nature.
+
+Les agrégateurs atteignent une partie de ces avoirs par d'autres voies : accords avec les établissements, connecteurs spécifiques, ou saisie manuelle par l'utilisateur. Ces voies fonctionnent, mais elles ne bénéficient pas de la même obligation légale de disponibilité : elles cassent plus souvent, et se rétablissent moins vite.
+
+La conséquence pratique est nette : un tableau de bord patrimonial complet n'est jamais entièrement automatique. La part agrégée automatiquement couvre les flux et les liquidités, c'est-à-dire ce qui bouge ; la part patrimoniale la plus lourde, contrats et immobilier, demande au minimum une mise à jour périodique. Un service qui promet une vision exhaustive sans aucune saisie décrit une situation qui n'existe pas.
+
 ### Ce que l'agrégation permet concrètement
 
 **Voir l'ensemble.** Répartition réelle du patrimoine entre liquidités, épargne réglementée, placements financiers et immobilier. La plupart des gens la découvrent en la voyant.
@@ -224,6 +307,20 @@ Elles existent et il vaut mieux les connaître.
 **Les mouvements de capital ne sont pas des revenus.** La vente de titres sur un compte-titres génère un flux entrant qui n'est pas un revenu du patrimoine. Une consolidation qui ne distingue pas les deux affiche des chiffres sans rapport avec la réalité.
 
 Ce dernier point n'est pas théorique : c'est l'erreur de classification la plus fréquente dans les outils de suivi, et elle peut produire des écarts d'un facteur considérable sur un indicateur de revenus patrimoniaux.
+
+### Ce que l'agrégation ne remplace pas
+
+Voir n'est pas décider. La consolidation résout un problème d'information, pas un problème d'arbitrage.
+
+**Elle ne valorise pas ce qui n'a pas de cours.** Un bien immobilier, des parts de société non cotée, une collection : la valeur affichée est celle que tu as saisie, à la date où tu l'as saisie.
+
+**Elle ignore les clauses.** La clause bénéficiaire d'une assurance-vie, le régime matrimonial, un démembrement de propriété, une donation antérieure : autant d'éléments qui déterminent ce qui se passera réellement, et qu'aucun solde bancaire ne révèle.
+
+**Elle ne connaît pas ta situation fiscale.** Plafond d'épargne retraite disponible, plus-values latentes, abattement déjà consommé lors d'une donation il y a huit ans : ces données conditionnent la plupart des décisions, et ne figurent sur aucun relevé.
+
+**Elle n'a pas d'objectif.** Un tableau de bord montre une répartition. Il ne dit pas si elle est adaptée, faute de savoir ce que tu prépares et à quelle échéance.
+
+L'agrégation est donc un point de départ d'excellente qualité, et c'est déjà beaucoup : la plupart des décisions patrimoniales se prennent sans même connaître les chiffres de départ. Elle ne constitue pas pour autant une analyse.
 
 ### Les précautions à prendre
 
@@ -245,6 +342,15 @@ Oui, à tout moment, depuis le service ou depuis ta banque.
 
 **Ma banque peut-elle refuser ?**
 Elle doit mettre à disposition un accès conforme à la réglementation.
+
+**Quelle profondeur d'historique est disponible ?**
+Elle varie selon l'établissement, qui met à disposition les opérations dans les conditions prévues par la réglementation. Pour calculer une capacité d'épargne fiable, douze mois glissants constituent le minimum utile, et c'est un point à vérifier avant de se fier à un chiffre.
+
+**Que deviennent mes données si je ferme mon compte ?**
+Le prestataire doit indiquer sa durée de conservation et sa procédure de suppression. Cela se vérifie avant de connecter ses comptes, pas après.
+
+**L'agrégation présente-t-elle un risque de sécurité ?**
+Le risque principal n'est pas l'accès en lecture, qui est encadré et révocable, mais l'hameçonnage qui imite ces services. Un agrégateur conforme ne te demande jamais tes identifiants bancaires : il te redirige vers l'authentification de ta propre banque.
 
 ### Sources
 
@@ -290,6 +396,24 @@ Entre le premier et le dernier cas, l'écart atteint **38 300 €**, soit plus d
 
 Précision indispensable : 5 % est une hypothèse de calcul, retenue pour isoler l'effet des frais. Elle ne constitue ni une prévision ni un engagement, et un placement en unités de compte peut perdre de la valeur.
 
+### Le même calcul avec des versements réguliers
+
+Le tableau précédent porte sur une somme placée en une fois. La plupart des épargnants versent plutôt chaque mois, et l'effet des frais s'y exprime différemment : chaque versement les subit pendant une durée décroissante, mais le nombre de versements augmente.
+
+**Exemple.** 300 € par mois pendant vingt ans, soit 72 000 € versés, avec la même hypothèse de performance brute de 5 % par an.
+
+| Frais annuels totaux | Capital au bout de 20 ans | Écart avec 0,5 % |
+|---|---|---|
+| 0,5 % | 116 400 € | - |
+| 1,0 % | 110 000 € | −6 400 € |
+| 1,5 % | 104 100 € | −12 300 € |
+| 2,0 % | 98 500 € | −17 900 € |
+| 2,5 % | 93 300 € | −23 100 € |
+
+L'écart maximal, 23 100 €, représente près d'un tiers des sommes versées. Il est en valeur absolue inférieur à celui du tableau précédent, et la raison est mécanique : le capital n'est pas exposé aux frais pendant toute la durée, puisque les derniers versements ne les subissent que quelques mois.
+
+Un enseignement pratique en découle. Plus une somme est versée tôt dans la vie du contrat, plus elle supporte de frais au total. Sur un contrat alimenté principalement pendant ses dix premières années, l'écart se rapproche de celui du versement unique, et la négociation des conditions à l'entrée devient d'autant plus rentable.
+
 ### Où se cachent les frais
 
 **Sur le versement.** Prélevés à l'entrée, de 0 % à 5 %. Ils réduisent le capital investi avant même le premier jour.
@@ -301,6 +425,20 @@ Précision indispensable : 5 % est une hypothèse de calcul, retenue pour isoler
 **Sur les opérations.** Frais d'arbitrage, courtage, droits d'entrée sur certains supports.
 
 Le total réel est la somme des trois premières lignes au minimum. C'est ce total qu'il faut comparer, jamais une ligne isolée.
+
+### Les frais d'entrée, qu'on oublie de convertir
+
+Des frais de 3 % sur versement paraissent secondaires à côté d'un débat sur 0,2 point de frais annuels. C'est l'inverse qui est vrai à court et moyen terme, et la conversion le montre.
+
+Trois pour cent prélevés à l'entrée équivalent, sur un contrat facturé 0,8 % par an, à près de **quatre années** de frais de gestion payées d'avance. Sur un placement destiné à être conservé huit ans, cela représente environ un tiers du coût total de détention, concentré au premier jour.
+
+Deux conséquences pratiques.
+
+**C'est la seule ligne qui se négocie vraiment.** Les frais de gestion sont fixés par le contrat et bougent rarement ; les frais d'entrée sont une marge de distribution, réductible et souvent nulle chez les acteurs en ligne. En demander la suppression est une question légitime, et un refus catégorique renseigne sur la relation commerciale autant que sur le produit.
+
+**Ils déplacent le point mort d'une réorientation.** Transférer 50 000 € vers un contrat moins chargé coûte 1 500 € si les frais d'entrée sont de 3 %. Si le gain annuel attendu est de 0,4 point, soit 200 € la première année, il faut plus de sept ans pour amortir l'opération. Le calcul mérite d'être posé avant, pas après.
+
+Vérifie enfin sur quelle base ils s'appliquent : un prélèvement de 3 % sur un versement de 10 000 € laisse 9 700 € investis, et ces 300 € manquants ne produiront aucun rendement pendant toute la durée du contrat.
 
 ### Ce qui justifie des frais élevés
 
@@ -328,6 +466,15 @@ Parfois, sur les gros encours, par palier.
 
 **Peut-on changer de contrat sans perdre l'antériorité fiscale ?**
 Depuis la loi Pacte, le transfert est possible au sein du même assureur, pas vers un autre.
+
+**Comment comparer deux contrats dont les frais ne sont pas présentés de la même façon ?**
+Le tableau standardisé publié par les assureurs depuis 2022 ramène les frais à un format commun, couche par couche. À défaut, ramène tout à un pourcentage annuel total, puis ajoute les frais d'entrée convertis en années de gestion. Deux contrats ne se comparent jamais ligne à ligne, seulement sur leur total.
+
+**Les frais sont-ils prélevés même en cas de baisse ?**
+Oui, et c'est leur caractéristique la plus coûteuse. Ils s'appliquent à l'encours, quelle que soit la performance de l'année. Une année à −15 % assortie de 2 % de frais laisse un encours réduit de 16,7 %.
+
+**Un support plus cher peut-il rester le bon choix ?**
+Oui, lorsque ce qu'il apporte n'existe pas ailleurs : l'accès à une classe d'actifs sans équivalent indiciel, une garantie, ou un accompagnement dont tu te sers réellement. Le test tient en une phrase : nomme ce que les frais supplémentaires achètent, et vérifie que tu l'as reçu cette année. Si tu n'y parviens pas, la réponse est non.
 
 ### Sources
 
@@ -370,6 +517,22 @@ Il doit également formaliser sa mission dans une **lettre de mission** signée,
 
 Ces documents ne sont pas des formalités : ce sont tes éléments de preuve en cas de litige, et leur absence est en soi un signal.
 
+### « Indépendant » : un mot qui a un sens juridique précis
+
+Le terme est employé couramment pour signifier « non salarié d'une banque ». Ce n'est pas ce qu'il désigne dans la réglementation, et la confusion a des conséquences directes sur ta facture.
+
+Depuis la transposition de la directive sur les marchés d'instruments financiers, un professionnel doit indiquer s'il fournit son conseil **de manière indépendante ou non indépendante**. Ce choix n'est pas cosmétique.
+
+**Le conseil indépendant** suppose deux obligations cumulatives : analyser un éventail suffisamment large de produits émanant de producteurs différents, et **ne pas conserver les rétrocessions** versées par ces producteurs. Les incitations perçues doivent être restituées au client. La rémunération passe donc par des honoraires.
+
+**Le conseil non indépendant** autorise la perception et la conservation des rétrocessions, à condition qu'elles améliorent la qualité du service rendu et qu'elles soient intégralement communiquées au client.
+
+Un même cabinet peut exercer sous les deux régimes, à condition de distinguer clairement les prestations concernées.
+
+La question à poser lors du premier rendez-vous est donc précise, et elle appelle une réponse écrite : **fournissez-vous ce conseil sur une base indépendante au sens de la réglementation ?** Une réponse évasive, ou une réponse qui ramène la question au seul fait de ne pas appartenir à un réseau bancaire, indique que la distinction n'est pas maîtrisée, ou qu'on préfère ne pas l'expliciter.
+
+Aucun des deux régimes n'est supérieur en soi. Un conseil non indépendant bien mené peut être excellent, et c'est lui qui rend le service accessible à des patrimoines qui ne paieraient pas d'honoraires. Mais tu dois savoir lequel s'applique, parce qu'il détermine qui paie, combien, et quelles incitations pèsent sur la recommandation que tu reçois.
+
 ### Le seuil de 250 000 €, et pourquoi il existe
 
 Aucun texte ne fixe de montant minimal. Le seuil résulte d'une arithmétique simple.
@@ -410,6 +573,15 @@ Dans certains cas limités liés aux revenus fonciers ou professionnels. La règ
 
 **Comment vérifier qu'un conseiller est enregistré ?**
 Le registre de l'ORIAS est public et consultable en ligne.
+
+**Un conseiller peut-il refuser un client ?**
+Oui, et il le doit dans certains cas : s'il estime ne pas disposer des compétences requises pour la situation présentée, ou si les informations nécessaires à l'évaluation de l'adéquation ne lui sont pas fournies, il ne peut pas formuler de recommandation personnalisée.
+
+**Que vaut un premier rendez-vous gratuit ?**
+C'est une pratique courante et légitime, destinée à qualifier le besoin. Elle n'a pas la valeur d'un conseil : une recommandation personnalisée suppose un recueil d'informations complet et une déclaration d'adéquation écrite.
+
+**Comment savoir si le conseil reçu était personnalisé au sens réglementaire ?**
+Par la présence d'une déclaration d'adéquation écrite, qui motive la recommandation au regard de ta situation, de tes objectifs et de ta connaissance des produits. Sans ce document, il s'agit d'information, pas de conseil.
 
 ### Sources
 

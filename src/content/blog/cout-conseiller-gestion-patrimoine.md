@@ -5,7 +5,7 @@ titreSeo: "Prix d'un conseiller en gestion de patrimoine 2026"
 description: "Honoraires, rétrocessions, frais sur encours : les trois modes de rémunération d'un CGP, et le seuil de patrimoine à partir duquel on est servi."
 categorie: "Comparaison et décision"
 date: 2026-09-14
-lecture: 3
+lecture: 5
 essentiel:
   - "Trois modes de rémunération coexistent : **honoraires**, **rétrocessions sur les produits**, ou **pourcentage des encours**."
   - "Chacun crée une structure d'incitation différente, et **tu dois savoir laquelle s'applique** : l'information est obligatoire."
@@ -18,6 +18,12 @@ faq:
     r: "Dans certains cas limités liés aux revenus fonciers ou professionnels. La règle générale est la non-déductibilité pour un particulier."
   - q: "Comment vérifier qu'un conseiller est enregistré ?"
     r: "Le registre de l'ORIAS est public et consultable en ligne."
+  - q: "Un conseiller peut-il refuser un client ?"
+    r: "Oui, et il le doit dans certains cas : s'il estime ne pas disposer des compétences requises pour la situation présentée, ou si les informations nécessaires à l'évaluation de l'adéquation ne lui sont pas fournies, il ne peut pas formuler de recommandation personnalisée."
+  - q: "Que vaut un premier rendez-vous gratuit ?"
+    r: "C'est une pratique courante et légitime, destinée à qualifier le besoin. Elle n'a pas la valeur d'un conseil : une recommandation personnalisée suppose un recueil d'informations complet et une déclaration d'adéquation écrite."
+  - q: "Comment savoir si le conseil reçu était personnalisé au sens réglementaire ?"
+    r: "Par la présence d'une déclaration d'adéquation écrite, qui motive la recommandation au regard de ta situation, de tes objectifs et de ta connaissance des produits. Sans ce document, il s'agit d'information, pas de conseil."
 pages:
   - nom: "Tarifs"
     url: "/tarifs/"
@@ -48,6 +54,22 @@ Un conseiller en investissements financiers doit remettre, **avant toute prestat
 Il doit également formaliser sa mission dans une **lettre de mission** signée, et remettre une **déclaration d'adéquation** écrite motivant sa recommandation au regard du profil du client.
 
 Ces documents ne sont pas des formalités : ce sont tes éléments de preuve en cas de litige, et leur absence est en soi un signal.
+
+## « Indépendant » : un mot qui a un sens juridique précis
+
+Le terme est employé couramment pour signifier « non salarié d'une banque ». Ce n'est pas ce qu'il désigne dans la réglementation, et la confusion a des conséquences directes sur ta facture.
+
+Depuis la transposition de la directive sur les marchés d'instruments financiers, un professionnel doit indiquer s'il fournit son conseil **de manière indépendante ou non indépendante**. Ce choix n'est pas cosmétique.
+
+**Le conseil indépendant** suppose deux obligations cumulatives : analyser un éventail suffisamment large de produits émanant de producteurs différents, et **ne pas conserver les rétrocessions** versées par ces producteurs. Les incitations perçues doivent être restituées au client. La rémunération passe donc par des honoraires.
+
+**Le conseil non indépendant** autorise la perception et la conservation des rétrocessions, à condition qu'elles améliorent la qualité du service rendu et qu'elles soient intégralement communiquées au client.
+
+Un même cabinet peut exercer sous les deux régimes, à condition de distinguer clairement les prestations concernées.
+
+La question à poser lors du premier rendez-vous est donc précise, et elle appelle une réponse écrite : **fournissez-vous ce conseil sur une base indépendante au sens de la réglementation ?** Une réponse évasive, ou une réponse qui ramène la question au seul fait de ne pas appartenir à un réseau bancaire, indique que la distinction n'est pas maîtrisée, ou qu'on préfère ne pas l'expliciter.
+
+Aucun des deux régimes n'est supérieur en soi. Un conseil non indépendant bien mené peut être excellent, et c'est lui qui rend le service accessible à des patrimoines qui ne paieraient pas d'honoraires. Mais tu dois savoir lequel s'applique, parce qu'il détermine qui paie, combien, et quelles incitations pèsent sur la recommandation que tu reçois.
 
 ## Le seuil de 250 000 €, et pourquoi il existe
 
