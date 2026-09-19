@@ -76,6 +76,40 @@ D'abord la **centralisation des dossiers clients** et des pièces, qui règle un
 
 Tenter les cinq simultanément est la façon la plus sûre de ne rien déployer.
 
+### Le calendrier réaliste d'un changement d'outil
+
+Les projets échouent rarement sur le choix de la solution. Ils échouent sur le calendrier, parce que la phase de reprise est systématiquement sous-estimée.
+
+**Semaines 1 à 4 : cadrage et nettoyage.** Avant toute migration, l'état réel de vos données doit être établi : doublons de fiches clients, contrats clos restés actifs, valorisations périmées, pièces manquantes. Ce travail se fait sur l'ancien outil ou sur vos fichiers, jamais pendant la reprise. Une base sale migrée reste une base sale, avec un coût de correction multiplié.
+
+**Semaines 4 à 10 : reprise et recette.** L'éditeur importe, vous contrôlez. La recette suppose de prendre un échantillon de dossiers représentatifs et de vérifier ligne à ligne : positions, historiques, pièces, droits d'accès. Prévoyez explicitement qui réalise ce contrôle et sur quel temps.
+
+**Semaines 10 à 14 : double saisie.** Période inconfortable mais nécessaire sur les dossiers actifs, le temps de valider que le nouvel outil produit les mêmes résultats. La supprimer pour gagner trois semaines est le raccourci qui coûte le plus cher.
+
+**À partir de la semaine 14 : bascule et arrêt de l'ancien contrat.** Vérifiez avant résiliation que l'export complet est en votre possession, dans un format lisible sans l'outil d'origine.
+
+Deux règles de conduite. Ne lancez jamais une migration pendant une période de forte charge, campagne déclarative ou clôture. Et désignez une personne responsable du projet dans le cabinet : un projet porté par tout le monde n'est porté par personne.
+
+### Questions fréquentes
+
+**Un cabinet individuel a-t-il besoin d'un outil métier ?**
+La question n'est pas la taille mais le nombre de dossiers et le niveau d'exigence documentaire. En dessous d'une cinquantaine de clients, un espace de stockage structuré, un modèle de dossier unique et une discipline de classement couvrent l'essentiel du risque. Au-delà, la production documentaire manuelle devient le point faible, et c'est elle qui justifie l'investissement avant l'agrégation.
+
+**Combien coûte réellement un changement d'outil ?**
+La licence est rarement le poste principal. Comptez la reprise de données, facturée ou réalisée en interne, plusieurs semaines de productivité réduite pendant l'appropriation, et le temps de recette. Demandez systématiquement un devis de reprise distinct de l'abonnement : un éditeur qui refuse de le chiffrer vous transfère un risque non provisionné.
+
+**Que vérifier sur l'hébergement des données ?**
+La localisation, le régime juridique applicable, les sous-traitances ultérieures autorisées, la durée de conservation et la procédure de notification en cas de violation. Vous restez responsable de traitement pour les données de vos clients : le contrat doit être conforme aux exigences applicables à la sous-traitance, et la chaîne complète des sous-traitants doit vous être communiquée.
+
+**Peut-on faire cohabiter deux outils ?**
+Temporairement oui, pendant une migration. Durablement, c'est une mauvaise idée : la double saisie se dégrade toujours, et vous vous retrouvez avec deux vérités partielles. Si deux outils sont réellement nécessaires, l'interopérabilité doit être vérifiée avant l'achat, pas espérée après.
+
+**Suite intégrée ou outils spécialisés ?**
+La suite intégrée supprime les ruptures de flux et centralise la piste d'audit, au prix d'un niveau moyen sur chaque fonction et d'une dépendance forte à un éditeur unique. Les outils spécialisés offrent le meilleur sur chaque brique, mais l'intégration devient votre problème, et c'est un travail permanent. Pour un cabinet sans ressource technique interne, la suite intégrée l'emporte presque toujours : le coût d'intégration est invisible à l'achat et très visible ensuite.
+
+**Comment juger un éditeur récent ?**
+Sur trois éléments vérifiables plutôt que sur la démonstration : l'existence de clients comparables au vôtre depuis plus d'un an, que vous appelez ; la clarté de sa réponse écrite sur la réversibilité et l'hébergement ; et sa trajectoire financière. Un produit jeune peut être excellent, mais adossez-y une clause de réversibilité solide : c'est votre assurance si l'éditeur disparaît ou change de stratégie.
+
 ### Sources
 
 Règlement général de l'AMF, livre III, obligations des conseillers en investissements financiers · [Directive 2014/65/UE](https://eur-lex.europa.eu/eli/dir/2014/65/oj), articles 16 et 25 · [Règlement (UE) 2016/679](https://eur-lex.europa.eu/eli/reg/2016/679/oj) (RGPD), articles 28 et 32 sur la sous-traitance et la sécurité · [Règlement (UE) 2022/2554](https://eur-lex.europa.eu/eli/reg/2022/2554/oj) (DORA) pour les prestataires concernés.
@@ -152,6 +186,44 @@ C'est le chantier le plus visible commercialement et le moins urgent. Il produit
 
 Elle ne remplacera pas une doctrine d'investissement, ni une politique de sélection de produits, ni la qualité d'un entretien client. Elle libère du temps et réduit un risque. Ce que vous faites du temps libéré reste la vraie question.
 
+### Les indicateurs à suivre après le déploiement
+
+Les trois chiffres mesurés au départ servent de référence. Encore faut-il les reprendre, ce que presque personne ne fait, si bien que le bénéfice réel du projet reste une impression.
+
+**Le taux de complétude des dossiers**, mesuré sur le même échantillon de vingt dossiers tirés au hasard, au même trimestre chaque année. C'est l'indicateur de risque, et il doit tendre vers 100 %. Un taux qui stagne signale que l'outil n'a pas modifié les pratiques, seulement le lieu de stockage.
+
+**Le temps de préparation d'un rendez-vous**, chronométré sur cinq dossiers réels et non estimé de mémoire. C'est l'indicateur de productivité.
+
+**Le délai de réponse à une demande client**, mesuré du message entrant à la réponse de fond.
+
+Ajoutez-en deux, propres à la phase post-déploiement.
+
+**Le taux d'utilisation effective.** Combien de collaborateurs utilisent réellement les fonctions déployées, et lesquelles restent inemployées ? Une fonction payée et non utilisée est soit inutile, soit mal expliquée : dans les deux cas la question se pose.
+
+**Le nombre d'exceptions.** Combien de dossiers continuent d'être traités hors de l'outil, sur tableur ou sur traitement de texte ? Chaque exception est un futur trou dans la piste d'audit, et leur nombre est le meilleur révélateur d'un déploiement incomplet.
+
+Fixez une revue à six mois, calendrier en main. Un projet qu'on ne mesure pas se juge à l'enthousiasme du moment, qui est un mauvais indicateur.
+
+### Questions fréquentes
+
+**Par quel chantier commencer si le temps manque ?**
+Par la conformité documentaire, toujours. C'est le seul dont l'absence vous expose directement, et il ne demande pas d'outil sophistiqué : une arborescence unique, une liste de pièces obligatoires par dossier et une revue des dossiers incomplets. L'effet est mesurable en quelques semaines.
+
+**Combien de temps avant de constater un gain ?**
+Sur la conformité documentaire, quelques semaines. Sur l'agrégation, trois à six mois, le temps que les connexions soient établies et les données fiabilisées. Sur le reporting et la relation client, une année, puisque le bénéfice se juge sur un cycle complet de points annuels.
+
+**Faut-il former les collaborateurs avant ou après la bascule ?**
+Les deux, et différemment. Avant, sur le processus cible et les raisons du changement. Après, sur l'usage concret, une fois que les questions réelles sont apparues. Une formation unique livrée le jour de la bascule est celle dont on retient le moins.
+
+**La digitalisation réduit-elle le besoin de collaborateurs ?**
+Elle déplace le contenu du travail plutôt qu'elle n'en supprime. La saisie et la collecte reculent, l'analyse et le suivi client augmentent. Le gain se matérialise en capacité de suivi supplémentaire à effectif constant, pas en réduction d'effectif, sauf à renoncer à en faire quelque chose.
+
+**Comment embarquer une équipe réticente ?**
+En commençant par le chantier qui soulage, pas par celui qui contrôle. La centralisation documentaire fait gagner du temps à tout le monde dès la première semaine ; un outil perçu d'abord comme un instrument de suivi d'activité rencontre une résistance durable. Associez un collaborateur à la recette, faites-en le référent interne, et mesurez avec l'équipe plutôt que sur elle.
+
+**Faut-il un budget dédié ?**
+Oui, et il doit inclure trois lignes que les cabinets oublient : le temps interne consacré au projet, qui est le poste le plus lourd et le moins visible, la formation initiale et de rattrapage, et une provision pour la période de productivité réduite. Budgéter la seule licence garantit de découvrir les deux tiers du coût en cours de route.
+
 ### Sources
 
 Règlement général de l'AMF, livre III · [Directive 2014/65/UE](https://eur-lex.europa.eu/eli/dir/2014/65/oj), article 16 sur les exigences organisationnelles · [Règlement délégué (UE) 2017/565](https://eur-lex.europa.eu/eli/reg_del/2017/565/oj), articles 72 à 76 sur la conservation des enregistrements · [Règlement (UE) 2016/679](https://eur-lex.europa.eu/eli/reg/2016/679/oj) (RGPD).
@@ -216,6 +288,43 @@ Vous ne pouvez pas fournir de conseil en investissement. La règle est sèche, e
 
 Documentez le refus. Un dossier qui mentionne explicitement que le client a refusé de communiquer certaines informations et que le conseil n'a pas été fourni est défendable ; un dossier silencieux ne l'est pas.
 
+### La preuve : ce qui fait la différence en contrôle
+
+Un recueil conforme sur le fond mais impossible à établir dans le temps ne vous protège pas. Quatre éléments font la différence, et ils tiennent tous à la traçabilité.
+
+**L'horodatage de la collecte**, distinct de la date du rendez-vous. Il établit que l'information était disponible avant la recommandation, ce qui est précisément la séquence exigée.
+
+**La conservation des versions successives.** Un profil mis à jour écrase rarement proprement le précédent. Conserver l'historique permet de démontrer qu'une recommandation ancienne reposait sur les informations alors valables, ce qui est la seule défense utile lorsqu'un client conteste plusieurs années plus tard en invoquant sa situation actuelle.
+
+**La trace des échanges.** Les précisions obtenues oralement en rendez-vous et jamais consignées n'existent pas dans le dossier. Une note datée, même brève, versée au dossier après l'entretien, vaut mieux qu'un souvenir précis.
+
+**La cohérence entre les documents.** Le recueil, la déclaration d'adéquation et les opérations réalisées doivent raconter la même histoire. L'incohérence la plus fréquemment relevée est celle d'un profil prudent associé à des opérations qui ne le sont pas, sans motivation écrite du changement.
+
+Une pratique simple règle l'essentiel : à chaque événement significatif, une entrée datée au dossier. Ce n'est pas du formalisme, c'est ce qui rend le dossier lisible par un tiers, des années après, quand votre mémoire ne sera plus une source.
+
+### Questions fréquentes
+
+**À quelle fréquence faut-il actualiser le recueil ?**
+Aucune durée fixe n'est imposée, mais l'information doit être exacte au moment de chaque recommandation. En pratique, prévoyez un réexamen à échéance régulière et systématiquement lors d'un événement significatif : changement de situation matrimoniale ou professionnelle, naissance, héritage, cession d'entreprise. Une procédure écrite et appliquée vaut mieux qu'une mise à jour au fil de l'eau sans traçabilité.
+
+**Peut-on conseiller un client qui refuse de répondre ?**
+Non. Sans les informations nécessaires, le conseil en investissement ne peut pas être fourni. La règle protège autant le client que le cabinet. Ce qui se documente alors, c'est le refus lui-même et l'abstention qui en découle.
+
+**Comment distinguer capacité à subir des pertes et tolérance au risque ?**
+La capacité est financière et objective : quelle perte le client peut-il absorber sans compromettre ses projets ? La tolérance est comportementale et subjective : quelle perte peut-il traverser sans vendre ? Les deux se recueillent séparément, et lorsqu'elles divergent, c'est la contrainte la plus prudente qui s'impose.
+
+**Un profil unique suffit-il pour plusieurs objectifs ?**
+Non, et c'est une faiblesse fréquente. Un horizon de deux ans sur un projet et de vingt-cinq ans sur la retraite n'appellent pas la même allocation. Un profil global unique produit des recommandations médiocres sur les deux, et il est difficile à défendre si l'un des deux objectifs tourne mal.
+
+**Le client peut-il remplir le recueil seul, en amont du rendez-vous ?**
+Oui, et c'est même recommandé pour la partie factuelle : situation, revenus, actifs, engagements. En revanche, l'examen de cohérence vous incombe et ne s'automatise pas. Un client qui déclare une tolérance élevée au risque et une capacité de perte nulle a produit deux réponses contradictoires : la relever et la traiter en séance fait partie de l'obligation, et la trace de cet échange a plus de valeur que le questionnaire lui-même.
+
+**Quelles pièces conserver à l'appui du recueil ?**
+Le questionnaire daté et signé ou horodaté, les justificatifs des éléments déterminants de la situation financière, la trace des échanges ayant précisé ou corrigé une réponse, et l'historique des versions successives du profil. Ce dernier point est le plus négligé : sans historique, vous ne pourrez pas démontrer qu'une recommandation ancienne reposait sur les informations alors valables, ce qui est précisément la défense utile lorsqu'un client conteste plusieurs années plus tard.
+
+**Faut-il refaire le recueil à chaque opération ?**
+Non, mais il faut pouvoir établir qu'il était exact au moment de la recommandation. En pratique, une confirmation datée que la situation n'a pas changé, consignée au dossier, suffit entre deux réexamens complets. Ce qui ne suffit pas, c'est le silence : un dossier dans lequel rien n'atteste que le profil a été vérifié depuis trois ans laisse supposer qu'il ne l'a pas été.
+
 ### Sources
 
 [Directive 2014/65/UE](https://eur-lex.europa.eu/eli/dir/2014/65/oj), article 25 · [Règlement délégué (UE) 2017/565](https://eur-lex.europa.eu/eli/reg_del/2017/565/oj), articles 54 et 55 · [Règlement délégué (UE) 2021/1253](https://eur-lex.europa.eu/eli/reg_del/2021/1253/oj) sur l'intégration des préférences en matière de durabilité · Règlement général de l'AMF, livre III · Positions et recommandations de l'AMF relatives au recueil d'informations clients.
@@ -279,6 +388,43 @@ Une formulation défendable, à adapter :
 > La présente mission porte exclusivement sur l'analyse des actifs financiers déclarés par le client et sur la formulation d'une recommandation d'allocation. Elle n'inclut pas l'évaluation des actifs immobiliers, la rédaction d'actes juridiques, le conseil en matière de fiscalité professionnelle, ni l'exécution des opérations recommandées. Le conseiller est tenu à une obligation de moyens. Les projections présentées reposent sur des hypothèses explicitées et ne constituent pas un engagement de performance.
 
 Cette clause ne vous protège pas de tout. Elle établit ce sur quoi vous vous êtes engagé, ce qui est la première question posée en cas de litige.
+
+### Faire vivre la mission dans le temps
+
+Une lettre de mission signée puis oubliée pose un problème symétrique de celui d'une mission mal bornée : le périmètre réel s'écarte progressivement du périmètre écrit, et c'est cet écart qui se retourne contre vous.
+
+**L'extension de fait.** Un client vous interroge sur un sujet exclu, vous répondez par courtoisie, et la réponse devient un conseil. Deux conduites protègent : renvoyer explicitement vers le professionnel compétent, ou formaliser une extension par avenant. Répondre sans faire ni l'un ni l'autre est le cas le plus fréquent et le plus exposant.
+
+**Le renouvellement.** Une mission à durée déterminée arrivée à terme ne se prolonge pas d'elle-même. Si la relation continue, elle continue sans support contractuel, ce qui laisse la question du périmètre entièrement ouverte. Posez une échéance de revue dans votre outil au moment de la signature.
+
+**Le changement de situation du client.** Une cession d'entreprise, un divorce, une expatriation modifient la nature de la mission autant que celle du patrimoine. L'avenant est ici une protection, pas une formalité.
+
+**La fin de la relation.** Elle se formalise par écrit, avec restitution ou archivage des pièces et rappel des obligations de conservation qui vous incombent. Une relation qui s'éteint sans acte laisse subsister une ambiguïté sur ce que le client pouvait encore attendre de vous.
+
+Retenez la règle : **la lettre de mission doit décrire la relation telle qu'elle est aujourd'hui**, pas telle qu'elle était à la signature.
+
+### Questions fréquentes
+
+**La lettre de mission est-elle obligatoire ?**
+La formalisation de la relation et l'information préalable du client relèvent d'obligations encadrées par le Code monétaire et financier et le règlement général de l'AMF. Au-delà de la question réglementaire, une mission non écrite vous expose à répondre d'un périmètre que vous n'avez jamais accepté : c'est la première cause de réclamation sur ce terrain.
+
+**Quelle différence avec le document d'entrée en relation ?**
+Le document d'entrée en relation porte sur vous : statut, numéro ORIAS, association agréée, autorité de contrôle, modes de rémunération, liens avec des producteurs, procédure de réclamation. La lettre de mission porte sur la prestation : objet, périmètre, exclusions, prix, durée. Les deux sont distincts et se remettent à des moments différents.
+
+**Faut-il une lettre de mission pour une intervention ponctuelle ?**
+Oui, et c'est même là qu'elle est la plus utile. Une intervention ponctuelle est précisément celle où le périmètre risque de déraper, faute de cadre durable. Une lettre courte, bornant l'objet et listant les exclusions, suffit.
+
+**Que faire si le client demande une prestation hors périmètre ?**
+Deux options propres : décliner en orientant vers le professionnel compétent, notaire, avocat fiscaliste ou expert-comptable selon le sujet, ou accepter par avenant précisant le nouvel objet, la rémunération et les exclusions maintenues. La troisième voie, traiter le sujet sans rien écrire, est celle qui se retrouve dans les dossiers contentieux.
+
+**Faut-il une lettre de mission distincte pour le bilan initial ?**
+C'est la pratique la plus lisible. Le bilan initial est une prestation bornée, avec un livrable et un prix identifiables ; le suivi est une prestation récurrente, de nature différente. Les traiter dans un même document conduit souvent à un périmètre flou et à une facturation contestée. Deux actes, ou un acte et un avenant, clarifient ce que le client achète à chaque étape.
+
+**La lettre de mission peut-elle être signée électroniquement ?**
+Oui, et c'est l'usage courant. Tous les procédés n'ont toutefois pas la même valeur probante : pour un document engageant, un niveau avancé au minimum est recommandé, avec conservation de l'horodatage et du dossier de preuve. Vérifiez ce que votre prestataire conserve réellement et pendant combien de temps, car en cas de contestation c'est le dossier de preuve qui compte, pas le fichier signé.
+
+**Peut-on prévoir une reconduction tacite ?**
+C'est possible, mais la clause doit être encadrée avec soin, notamment au regard des règles protectrices applicables aux relations avec les consommateurs, qui imposent une information préalable et une faculté de résiliation effective. Une reconduction mal rédigée se retourne doublement : elle est inopposable au client, et elle vous laisse croire que la mission est couverte alors qu'elle ne l'est pas. Une échéance de revue posée dans votre agenda reste la solution la plus simple.
 
 ### Sources
 
@@ -346,6 +492,43 @@ Le temps ne se gagne pas en raccourcissant le raisonnement. Il se gagne en amont
 
 Un cabinet bien organisé produit une déclaration d'adéquation individualisée en une fraction du temps qu'il y consacrait, sans raccourcir la partie qui compte.
 
+### Le conseil non suivi, et le client qui décide autrement
+
+C'est la situation la plus mal traitée dans les dossiers, et elle se présente régulièrement : vous recommandez, le client fait autre chose.
+
+**Le client refuse la recommandation et n'agit pas.** Rien ne s'impose, mais la trace du conseil donné et du refus a une valeur : elle établit que l'obligation a été remplie. Une note datée au dossier suffit.
+
+**Le client demande une opération différente de celle recommandée.** La distinction est ici décisive. Si vous fournissez un conseil sur cette nouvelle opération, l'obligation d'adéquation s'applique pleinement et une déclaration doit être établie pour elle. Si le client agit de sa propre initiative, sans conseil de votre part, la situation relève d'un autre régime, et la nature de votre intervention doit être clairement documentée.
+
+Ce qui expose n'est pas le désaccord, c'est l'ambiguïté. Un dossier qui ne permet pas de déterminer si vous avez conseillé ou exécuté est un dossier indéfendable.
+
+**Le client insiste pour un produit inadapté.** Consignez l'avertissement délivré, en termes concrets plutôt que génériques : quelle caractéristique du profil est en cause, quel risque en découle. Un avertissement écrit et précis est une protection réelle ; une mention passe-partout n'en est pas une.
+
+**La recommandation devient inadaptée avec le temps.** Un profil change, un marché évolue. Sans mission de suivi, votre obligation porte sur la recommandation à la date où elle a été donnée. Avec une mission de suivi, elle s'étend, et le périmètre exact doit figurer dans la lettre de mission.
+
+### Questions fréquentes
+
+**La déclaration d'adéquation doit-elle précéder l'opération ?**
+Oui, elle est remise sur support durable avant que l'opération recommandée ne soit réalisée. Une déclaration établie après coup, même complète, ne remplit pas l'obligation et se repère immédiatement en contrôle par comparaison des dates.
+
+**Peut-on utiliser des modèles ?**
+Pour la structure, le rappel du profil, le tableau des coûts et les mentions de risque, oui, et c'est même recommandé. Pour la motivation, non : c'est précisément ce que l'obligation vise. Une bibliothèque de raisonnements que vous individualisez est une bonne pratique ; des paragraphes collés à l'identique d'un client à l'autre sont une non-conformité visible dès que deux dossiers sont comparés.
+
+**Que doit contenir la motivation ?**
+L'articulation entre chaque caractéristique du profil et la recommandation : horizon, capacité à subir des pertes, tolérance au risque, connaissance et expérience, préférences en matière de durabilité. Chaque élément recueilli doit trouver sa réponse. Les alternatives écartées et les raisons de leur mise à l'écart ne sont pas exigées en tant que telles, mais elles démontrent mieux que tout le reste la qualité du raisonnement.
+
+**Les préférences de durabilité sont-elles vraiment contrôlées ?**
+Elles font partie des informations à recueillir et à prendre en compte dans la recommandation. Les recueillir sans en tenir compte dans la motivation est plus exposant que de ne pas les recueillir du tout, puisque la preuve de l'incohérence figure alors dans votre propre dossier.
+
+**Quelle longueur pour une déclaration d'adéquation ?**
+Il n'existe aucune exigence de volume, et la longueur n'est pas un critère de qualité. Ce qui est attendu, c'est que chaque caractéristique recueillie trouve sa réponse dans la motivation. Une déclaration de deux pages réellement individualisée vaut mieux qu'un document de dix pages dont neuf sont génériques, et elle se défend infiniment mieux en contrôle, où la comparaison de plusieurs dossiers rend le copier-coller immédiatement visible.
+
+**Faut-il une déclaration pour chaque opération ?**
+Dès lors qu'un conseil en investissement est fourni à un client non professionnel, une déclaration d'adéquation est due pour la recommandation concernée, avant l'exécution. Un arbitrage ultérieur recommandé constitue une nouvelle recommandation. En pratique, la question à trancher pour chaque opération est simple : ai-je conseillé, ou le client a-t-il agi de sa propre initiative ? La réponse doit ressortir du dossier sans ambiguïté.
+
+**Qui doit signer la déclaration d'adéquation ?**
+Elle est établie et remise par le cabinet : c'est un document que vous fournissez, non un document que le client approuve. Rien n'interdit toutefois de recueillir un accusé de réception, et c'est une pratique utile, puisqu'elle date la remise et établit qu'elle est intervenue avant l'opération. Conservez cet accusé avec la déclaration elle-même : c'est le couple des deux pièces qui fait la preuve.
+
 ### Sources
 
 [Directive 2014/65/UE](https://eur-lex.europa.eu/eli/dir/2014/65/oj), article 25, paragraphe 6 · [Règlement délégué (UE) 2017/565](https://eur-lex.europa.eu/eli/reg_del/2017/565/oj), article 54 · [Règlement délégué (UE) 2021/1253](https://eur-lex.europa.eu/eli/reg_del/2021/1253/oj) · Règlement général de l'AMF, livre III · Orientations de l'ESMA sur certains aspects des exigences d'adéquation de MiFID II.
@@ -411,6 +594,42 @@ Aucune automatisation ne déplace la responsabilité professionnelle. C'est le p
 **Formez et documentez** la formation.
 
 **Interrogez vos fournisseurs** par écrit sur la qualification de leurs systèmes et sur les données qu'ils traitent, notamment au regard du RGPD.
+
+### Le dossier minimal à constituer
+
+En matière d'IA comme ailleurs, ce qui n'est pas écrit n'existe pas. Cinq pièces suffisent à constituer un dossier défendable, et elles se rassemblent en quelques heures.
+
+**L'inventaire des systèmes.** Une liste tenue à jour : quel outil, pour quelle finalité, utilisé par qui, depuis quand, sur quelles données. Incluez les outils généralistes employés par les collaborateurs, qui échappent presque toujours au recensement alors qu'ils traitent parfois des données clients.
+
+**La position du fournisseur**, obtenue par écrit : qualification qu'il retient pour son système, conformité revendiquée, documentation technique disponible, traitement des données et sous-traitances ultérieures.
+
+**La trace de l'information délivrée** aux personnes qui interagissent avec un système d'IA : capture de la mention affichée, date de mise en ligne. Vérifiez sa lisibilité réelle, un texte à faible contraste ou en très petits caractères ne remplissant pas l'obligation.
+
+**La preuve de la formation** des collaborateurs : contenu, date, participants. Le niveau de maîtrise attendu ne se présume pas, il se démontre.
+
+**La description de la supervision humaine** : qui vérifie quoi, à quel moment, selon quels critères, et ce qui déclenche une reprise en main. C'est la pièce la plus utile, parce qu'elle est aussi celle qui vous protège sur le terrain financier.
+
+Une revue annuelle de ce dossier, calée sur une échéance existante du cabinet, suffit à le maintenir vivant.
+
+### Questions fréquentes
+
+**Un cabinet est-il fournisseur ou déployeur ?**
+Déployeur dans la très grande majorité des cas, dès lors qu'il utilise un outil du marché sous sa propre autorité. La bascule vers le statut de fournisseur, aux obligations nettement plus lourdes, intervient si vous mettez un système sur le marché sous votre propre marque ou si vous en modifiez substantiellement la finalité. C'est le point à vérifier avant toute démarche de marque blanche.
+
+**Faut-il informer les clients de l'usage d'un outil d'IA ?**
+Une personne qui interagit avec un système d'IA doit en être informée. Concrètement, si un assistant conversationnel est accessible à vos clients, la mention doit être présente et lisible. Pour un usage purement interne, sans interaction du client avec le système, l'obligation de transparence à son égard ne se pose pas dans les mêmes termes, mais vos obligations en matière de données personnelles demeurent.
+
+**L'usage de l'IA en conseil patrimonial relève-t-il du haut risque ?**
+La qualification dépend de la finalité concrète du système et n'est pas évidente dans ce domaine. Ne la présumez ni dans un sens ni dans l'autre : documentez une analyse de la finalité réelle de l'outil et demandez à votre fournisseur sa position écrite. La qualité de sa réponse est en soi une information sur son sérieux.
+
+**L'IA déplace-t-elle la responsabilité de la recommandation ?**
+Non, en aucune manière. Une recommandation produite avec l'aide d'un outil reste la vôtre. L'obligation d'adéquation, l'obligation d'information et le caractère clair, exact et non trompeur des communications s'appliquent à l'identique. Aucune automatisation ne transfère la responsabilité professionnelle.
+
+**Peut-on utiliser un assistant généraliste avec des données clients ?**
+Cela suppose de vérifier trois points avant tout usage : ce que le fournisseur fait des contenus soumis, notamment s'ils alimentent l'entraînement de modèles, la localisation des traitements, et l'existence d'un contrat conforme aux exigences applicables à la sous-traitance. À défaut, la pratique la plus simple consiste à ne soumettre aucune donnée permettant d'identifier un client. C'est aussi l'usage le plus répandu dans les cabinets, et le moins recensé dans les inventaires.
+
+**Qui doit porter ce sujet dans le cabinet ?**
+Une personne désignée, même à temps très partiel, et de préférence celle qui porte déjà la conformité. L'essentiel du travail consiste à tenir l'inventaire des systèmes, à obtenir les positions écrites des fournisseurs et à conserver la trace des formations. Sans désignation explicite, ce dossier n'est porté par personne et se reconstitue dans l'urgence le jour où la question est posée.
 
 ### Sources
 

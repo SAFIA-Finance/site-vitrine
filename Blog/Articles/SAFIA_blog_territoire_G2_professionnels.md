@@ -66,6 +66,37 @@ Vous restez responsable de traitement pour les données de vos clients. Le fourn
 
 L'information du client sur l'agrégation ne se confond pas avec le consentement d'accès donné à sa banque : ce sont deux actes distincts, et les deux doivent être tracés.
 
+### Ce que l'agrégation ne couvre pas
+
+Le périmètre réel est plus étroit que ce que laissent entendre les démonstrations, et l'écart se découvre en production.
+
+**Les comptes de paiement d'abord.** Le cadre de la DSP2 organise l'accès aux comptes de paiement. Les contrats d'assurance-vie, les PER, les comptes-titres et les parts de SCPI n'entrent pas dans ce périmètre : leur récupération repose sur des connexions aux extranets producteurs ou sur des flux dédiés, dont la couverture varie fortement d'un fournisseur à l'autre. Or ce sont précisément ces actifs qui constituent l'essentiel d'un patrimoine conseillé.
+
+**La profondeur d'historique.** Beaucoup de connexions ne remontent que quelques mois. Pour reconstituer une année pleine de flux à la première connexion, il faut souvent compléter manuellement.
+
+**Les actifs non financiers.** Immobilier, parts de sociétés non cotées, actifs professionnels restent déclaratifs, et représentent souvent la part la plus lourde du patrimoine.
+
+**La continuité du service.** Une évolution de l'interface d'un établissement peut interrompre une connexion sans préavis. Un taux de connexions actives doit être suivi, faute de quoi des dossiers se périment en silence.
+
+Le réflexe utile consiste à demander au fournisseur, par écrit, la liste des établissements couverts **par type d'actif** et non par nom d'enseigne. Une banque « connectée » peut l'être pour ses comptes courants et pas pour ses contrats d'assurance.
+
+### Questions fréquentes
+
+**Le client doit-il redonner son consentement régulièrement ?**
+Oui. Le consentement d'accès est limité dans le temps et doit être renouvelé périodiquement auprès de sa banque, avec authentification forte. Ce n'est pas un défaut technique mais une exigence réglementaire : prévoyez une procédure de relance, sans quoi les données se périment sans que personne ne s'en aperçoive.
+
+**L'agrégation permet-elle d'initier des opérations ?**
+Non. L'accès aux informations sur les comptes s'exerce en lecture seule. L'initiation de paiement relève d'un service et d'un agrément distincts, qui ne se déduisent pas du premier.
+
+**Qui est responsable des données agrégées ?**
+Vous restez responsable de traitement pour les données de vos clients, le fournisseur agissant comme sous-traitant. Cela impose un contrat conforme aux exigences applicables à la sous-traitance, une information claire des clients, une durée de conservation définie et une procédure d'effacement.
+
+**Comment vérifier la fiabilité d'un agrégateur avant de s'engager ?**
+Prenez un client réel, un mois réel, et refaites le calcul à la main : revenus, dépenses, mouvements de capital. Si l'outil ne retrouve pas votre chiffre, le problème vient de sa classification, pas de votre calcul. C'est le test le plus court et le plus révélateur, et il se fait pendant la période d'essai, pas après la signature.
+
+**Combien de temps faut-il pour déployer l'agrégation sur un portefeuille ?**
+Comptez plusieurs mois, non pour des raisons techniques mais parce que chaque client doit donner son consentement et réaliser une authentification forte auprès de sa banque. Le rythme réaliste consiste à intégrer l'étape au point annuel de chaque client plutôt que de lancer une campagne isolée, dont les taux de réponse sont médiocres. Prévoyez dès le départ la procédure de renouvellement des consentements, qui deviendra une tâche récurrente et non un événement ponctuel.
+
 ### Sources
 
 [Directive (UE) 2015/2366](https://eur-lex.europa.eu/eli/dir/2015/2366/oj) dite DSP2 · [Règlement délégué (UE) 2018/389](https://eur-lex.europa.eu/eli/reg_del/2018/389/oj) sur l'authentification forte du client · [Règlement (UE) 2016/679](https://eur-lex.europa.eu/eli/reg/2016/679/oj) (RGPD), articles 28 et 32 · Code monétaire et financier, articles L. 522-1 et suivants.
@@ -129,6 +160,37 @@ Si un dossier n'est plus servi, deux issues propres existent : une offre allég�
 Ce calcul explique une réalité collective : une part importante des épargnants français n'a jamais accès à un conseil individualisé, non par refus mais par arithmétique. Or ces ménages prennent les mêmes décisions structurantes que les autres (arbitrage entre enveloppes, préparation d'une transmission, choix d'un horizon) avec des enjeux proportionnellement identiques.
 
 Toute baisse durable du coût de service déplace ce seuil. C'est le sens des chantiers d'automatisation décrits dans **Logiciel CGP : les huit fonctions qui font réellement la différence** et **Digitaliser un cabinet de gestion de patrimoine : par où commencer**.
+
+### Annoncer une segmentation sans abîmer la relation
+
+La difficulté n'est pas de concevoir une offre différenciée, c'est de la dire. Trois principes évitent que l'exercice ne soit vécu comme une relégation.
+
+**Décrire un contenu, jamais un rang.** Une offre se présente par ce qu'elle comprend : un point annuel, un accès aux ressources, une intervention à la demande. Elle ne se présente pas par ce qu'elle vaut en encours. Un client sait très bien où il se situe ; il n'a pas besoin qu'on le lui signifie.
+
+**Annoncer avant, pas après.** Une segmentation expliquée à l'avance, avec une date d'effet et un choix laissé au client, est acceptée. La même segmentation découverte par un client qui constate qu'on ne le rappelle plus produit exactement l'inverse.
+
+**Laisser une porte ouverte.** Un client dont la situation évolue, par héritage, cession ou changement professionnel, doit pouvoir accéder à l'offre supérieure. Le dire explicitement transforme un plafond en trajectoire.
+
+Sur la forme, l'écrit s'impose : un courrier décrivant le nouveau cadre, puis une mise à jour de la lettre de mission pour les clients concernés. Une segmentation appliquée sans support contractuel crée un écart entre le service rendu et le service attendu, c'est-à-dire exactement le terrain des réclamations.
+
+Reste le cas des clients qu'aucune offre ne couvre. La sortie explicite, formalisée par écrit avec restitution des pièces, est une solution propre. Le renoncement silencieux n'en est pas une.
+
+### Questions fréquentes
+
+**D'où vient le seuil de 250 000 € ?**
+D'aucun texte. Il résulte du calcul de coût de service : environ six heures de suivi annuel à un coût de revient horaire complet, rapportées à un taux de rétrocession, puis majorées de l'amortissement de l'acquisition et du bilan initial. Selon vos propres chiffres, le seuil réel se situe quelque part entre 150 000 € et 300 000 €, et il vous appartient de le calculer plutôt que de le reprendre.
+
+**Faut-il refuser les petits dossiers ?**
+Pas nécessairement. Trois leviers existent avant le refus : réduire le coût de service par l'automatisation de la préparation et de la production documentaire, facturer en honoraires une prestation ponctuelle sans engagement de suivi, ou proposer une offre allégée contractualisée. Le refus n'est que la quatrième option.
+
+**Un bilan facturé en honoraires est-il bien accepté ?**
+Mieux qu'attendu, à condition que le prix soit annoncé d'emblée et le livrable précisément décrit. La réticence vient plus souvent du cabinet que du client : beaucoup hésitent à facturer des honoraires visibles alors qu'ils prélèvent depuis toujours des frais invisibles nettement supérieurs.
+
+**Que risque-t-on à garder un client sans le suivre ?**
+Vos obligations professionnelles demeurent, tandis que les informations du dossier se périment et que la déclaration d'adéquation vieillit. Vous portez le risque sans percevoir la valeur correspondante. C'est la situation la plus courante et la plus exposante, et elle se règle par une offre allégée contractualisée ou par une sortie formalisée.
+
+**Comment fixer le prix d'un bilan patrimonial en honoraires ?**
+En partant du coût de revient, pas du marché. Chiffrez les heures réellement mobilisées, collecte, analyse, rédaction, restitution, appliquez votre coût horaire complet, et ajoutez votre marge. Vous obtenez un plancher défendable, que vous pouvez expliquer ligne à ligne si la question du prix se pose. Le piège consiste à caler son tarif sur une moyenne observée sans savoir ce qu'elle recouvre : un bilan de six heures et un bilan de vingt heures ne portent pas le même nom par hasard.
 
 ### Sources
 
@@ -198,6 +260,47 @@ Un piège classique consiste à afficher sur les supports commerciaux de la soci
 Une obligation annuelle de formation continue s'applique, dont le volume et le contenu sont encadrés. Votre association en assure le suivi et en conditionne le maintien de l'adhésion.
 
 Prévoyez-la dans le budget et dans le calendrier dès la première année : elle n'est pas optionnelle et son défaut est un motif de non-renouvellement.
+
+### Le budget et le calendrier de la première année
+
+Le parcours d'immatriculation est bien documenté ; son coût de fonctionnement l'est beaucoup moins. Six postes reviennent, et leur cumul surprend ceux qui n'ont budgété que l'adhésion.
+
+**La cotisation à l'association agréée**, annuelle, qui couvre l'instruction du dossier, l'accompagnement et le contrôle.
+
+**L'assurance de responsabilité civile professionnelle**, dont les montants minimaux de garantie sont fixés réglementairement, et dont la prime dépend de votre activité déclarée et de votre chiffre d'affaires prévisionnel.
+
+**Les frais d'immatriculation au registre unique**, annuels eux aussi.
+
+**La formation continue**, obligatoire, dont le volume est encadré : comptez le coût direct et le temps non facturable.
+
+**Les outils et la conformité** : espace de stockage structuré, modèles de documents réglementaires, dispositif de traitement des réclamations, procédures de lutte contre le blanchiment.
+
+**Les immatriculations adjacentes**, si votre activité couvre l'assurance, l'immobilier ou l'intermédiation en opérations de banque. Chacune a ses conditions, sa formation continue et son renouvellement.
+
+Sur le calendrier, retenez un ordre qui évite les impasses : contacter une association agréée **en premier**, avant tout engagement de bail, de recrutement ou de communication. C'est elle qui statue sur l'éligibilité de votre parcours, et un projet bâti sur une hypothèse d'éligibilité fausse se découvre trop tard. Comptez ensuite plusieurs semaines pour l'instruction, l'assurance et l'immatriculation, avant toute prestation.
+
+### Questions fréquentes
+
+**Par quoi commencer concrètement ?**
+Par le contact avec une association professionnelle agréée par l'AMF. C'est elle qui instruit le dossier de capacité professionnelle et confirme l'éligibilité de votre parcours. L'immatriculation à l'ORIAS vient ensuite, pas avant : la séquence inverse est la source d'erreur la plus fréquente chez les créateurs.
+
+**Peut-on exercer comme CIF sans association agréée ?**
+Non. L'adhésion est obligatoire et préalable, et son maintien conditionne celui du statut. L'association vérifie les conditions d'accès, accompagne ses membres et exerce ensuite un contrôle sur eux.
+
+**Le statut de CIF suffit-il pour placer des contrats d'assurance-vie ?**
+Non. L'intermédiation en assurance relève d'un statut distinct, courtier ou mandataire, avec sa propre immatriculation. De même pour la transaction immobilière et pour l'intermédiation en opérations de banque et services de paiement. La plupart des cabinets cumulent plusieurs immatriculations, chacune avec ses obligations propres.
+
+**Faut-il s'immatriculer à titre personnel ou au nom de la société ?**
+Les deux sont possibles, et le choix emporte des conséquences durables sur la responsabilité, l'assurance et la communication. Le piège classique consiste à afficher sur les supports d'une société un numéro détenu à titre personnel, ou l'inverse : vérifiez la concordance entre les registres et ce que vous publiez, c'est une incohérence relevée en contrôle et simple à éviter.
+
+**Peut-on exercer comme CIF en parallèle d'une autre activité ?**
+C'est possible, sous réserve de la compatibilité des activités, de l'absence de conflit d'intérêts et du respect des obligations propres à chaque statut. Deux points appellent une vigilance particulière : la clarté de l'information donnée au client sur la casquette dans laquelle vous intervenez à un instant donné, et la séparation des supports de communication. Une confusion entre une activité de conseil et une activité de distribution est précisément ce que l'information préalable vise à prévenir.
+
+**Combien de temps faut-il compter avant de pouvoir exercer ?**
+Plusieurs semaines au minimum, et le calendrier dépend du maillon le plus lent : l'instruction du dossier par l'association agréée, l'obtention de l'attestation d'assurance, puis l'immatriculation. Le point de vigilance n'est pas la durée mais l'ordre : aucune prestation ne peut être fournie avant que l'ensemble ne soit en place, et un projet qui engage un bail ou une communication avant la confirmation d'éligibilité prend un risque inutile.
+
+**L'immatriculation se renouvelle-t-elle automatiquement ?**
+Non. L'inscription au registre unique est annuelle et suppose de justifier chaque année du maintien des conditions : adhésion à l'association agréée, assurance de responsabilité civile professionnelle en cours de validité, formation continue accomplie. Un défaut sur l'un de ces éléments bloque le renouvellement. Placez les trois échéances dans le même rappel calendaire : elles ne tombent pas nécessairement à la même date, et c'est la plus discrète qui pose problème.
 
 ### Sources
 
@@ -270,6 +373,45 @@ Tenez à jour vos procédures écrites, cohérentes avec votre classification.
 
 Ce dispositif est proportionné à la taille du cabinet. Proportionné ne signifie pas inexistant : un cabinet individuel doit disposer d'une classification, de procédures et de traces, même brèves.
 
+### Les manquements les plus fréquemment relevés
+
+Les défauts constatés en contrôle sont remarquablement constants, et aucun n'est difficile à corriger en amont.
+
+**L'absence de classification des risques.** C'est le premier document demandé et le plus souvent manquant. Sans lui, aucune modulation de vigilance n'est justifiable : une vigilance allégée appliquée sans classification écrite est indéfendable, même si elle était pertinente.
+
+**Le bénéficiaire effectif non identifié.** Lorsque le client est une personne morale, l'identification du bénéficiaire effectif est une obligation distincte de celle d'identifier le représentant légal. Elle est régulièrement omise sur les structures familiales, holdings et sociétés civiles, précisément là où elle compte.
+
+**L'origine des fonds supposée plutôt que documentée.** Sur un versement significatif, une mention générique ne vaut rien. La traçabilité doit reposer sur des pièces : acte de cession, succession, justificatif d'épargne constituée.
+
+**L'examen renforcé non formalisé.** Les opérations complexes, d'un montant inhabituellement élevé ou sans justification économique apparente, doivent donner lieu à un examen dont le résultat est consigné par écrit et conservé. Un examen mené mentalement n'existe pas au dossier.
+
+**La procédure obsolète.** Des procédures rédigées à l'immatriculation et jamais actualisées, sans cohérence avec la classification ni avec l'activité réelle du cabinet.
+
+**La formation non tracée.** Elle a souvent eu lieu ; elle n'est pas prouvée. Conservez contenu, date et liste des participants.
+
+### Questions fréquentes
+
+**Faut-il déclarer un soupçon avant d'avoir des certitudes ?**
+Oui, et c'est le contresens le plus répandu. Le critère légal est le soupçon, non la preuve : il suffit de savoir, de soupçonner ou d'avoir de bonnes raisons de soupçonner. Attendre une certitude constitue une erreur d'appréciation de la norme, et elle est sanctionnée comme telle.
+
+**Peut-on prévenir le client d'une déclaration ?**
+Non, jamais. La déclaration est couverte par la confidentialité et il est interdit d'informer le client ou un tiers de son existence. En contrepartie, le déclarant de bonne foi bénéficie d'une exonération de responsabilité professionnelle, civile et pénale au titre de la déclaration.
+
+**Combien de temps conserver les pièces ?**
+Cinq ans à compter de la fin de la relation d'affaires ou de l'exécution de l'opération pour les documents d'identification et les pièces relatives aux opérations. Cette durée coexiste avec d'autres obligations de conservation issues du droit financier et avec le principe de limitation applicable aux données personnelles : documentez la durée retenue par catégorie de pièce, c'est la seule façon de tenir les deux exigences ensemble.
+
+**Un cabinet individuel est-il vraiment concerné ?**
+Oui, intégralement. Le dispositif est proportionné à la taille et à l'activité, ce qui allège son format, pas son existence. Une classification des risques, des procédures écrites, une désignation formalisée du responsable et du déclarant, et des traces de formation constituent le minimum, même pour un exercice seul.
+
+**Qui désigner responsable lorsqu'on exerce seul ?**
+Vous-même, mais la désignation doit être **formalisée** par écrit, avec l'indication des deux fonctions : responsable de la mise en œuvre du dispositif et déclarant auprès de Tracfin. L'évidence pratique ne remplace pas l'acte : en contrôle, c'est l'existence du document qui est vérifiée, et son absence est un manquement autonome, indépendant de la qualité du reste du dispositif.
+
+**À quelle fréquence actualiser la classification des risques ?**
+Au moins annuellement, et systématiquement lors d'un changement significatif : nouvelle clientèle, nouveau produit distribué, nouveau canal de distribution, nouvelle zone géographique. Datez chaque version et conservez les précédentes. Une classification non datée ne permet pas d'établir qu'elle était en vigueur au moment où une vigilance allégée a été appliquée, ce qui lui fait perdre l'essentiel de son utilité.
+
+**Que faire face à un doute qui n'atteint pas le soupçon ?**
+Deux réflexes, et ils ne s'excluent pas. Approfondir d'abord : demander les justificatifs manquants sur l'origine des fonds, documenter la réponse obtenue, et consigner l'examen mené. Conserver ensuite cette trace même si le doute se lève, car elle démontre que la vigilance a été exercée. Si le doute persiste après approfondissement, le critère légal du soupçon est très probablement atteint, et l'abstention de déclarer devient à son tour un risque.
+
 ### Sources
 
 Code monétaire et financier, articles L. 561-1 et suivants, notamment L. 561-5, L. 561-10-2, L. 561-12 et L. 561-15 · Règlement général de l'AMF, livre III · Lignes directrices de l'AMF et de Tracfin relatives à la déclaration de soupçon · [Règlement (UE) 2016/679](https://eur-lex.europa.eu/eli/reg/2016/679/oj) (RGPD), article 5 sur la limitation de conservation.
@@ -335,6 +477,40 @@ L'**exclusivité** éventuelle : sectorielle, géographique, ou absence d'exclus
 Avant de comparer les modèles, posez celle-ci : **le service que vous voulez distribuer relève-t-il de votre métier réglementé ?**
 
 Distribuer sous votre marque un outil de suivi patrimonial n'a pas les mêmes implications que distribuer un service produisant des recommandations. Dans le second cas, la frontière avec le conseil en investissement doit être analysée précisément, car c'est vous qui apparaissez comme l'auteur du service.
+
+### Évaluer le prestataire avant de l'adosser à votre nom
+
+En marque blanche, la solidité du prestataire devient votre solidité. Quatre vérifications s'imposent, et elles relèvent de la diligence ordinaire plutôt que de la défiance.
+
+**La trajectoire financière.** Comptes publiés, ancienneté, actionnariat, dépendance à un client majeur. Un prestataire qui disparaît vous oblige à migrer dans l'urgence un service que vos clients croient être le vôtre.
+
+**La robustesse opérationnelle.** Engagement de disponibilité chiffré, historique des incidents, procédure de continuité, délai de rétablissement. Demandez le bilan des douze derniers mois plutôt que la promesse contractuelle.
+
+**La conformité documentée.** Localisation des données, sous-traitances ultérieures, certifications, position écrite sur les qualifications réglementaires applicables à son service. Une réponse évasive sur ces points est en soi une information.
+
+**Les références vérifiables.** Non pas des logos, mais deux ou trois confrères utilisant le service depuis plus d'un an, que vous appelez. Les questions utiles portent sur les incidents rencontrés et sur la réactivité du support, pas sur la satisfaction générale.
+
+Ajoutez une vérification propre à ce modèle : demandez ce que devient le service **si vous cessez la relation**. Format de restitution, délai, assistance à la migration, durée d'accompagnement après résiliation. Une réversibilité négociée au moment de la signature coûte une clause ; négociée au moment du départ, elle coûte beaucoup plus.
+
+### Questions fréquentes
+
+**La marque blanche engage-t-elle davantage la responsabilité du cabinet ?**
+Elle concentre sur vous le risque de réputation et fait de vous l'interlocuteur unique du client final : une indisponibilité, une erreur de calcul ou un incident de sécurité sont perçus comme les vôtres. La répartition contractuelle des responsabilités avec le prestataire doit donc être écrite, avec des engagements de niveau de service et un mécanisme de compensation qui ne se limite pas à un avoir symbolique.
+
+**Peut-on basculer du statut de déployeur à celui de fournisseur ?**
+Oui, et c'est le point le plus souvent négligé. Diffuser un système d'intelligence artificielle sous votre propre marque, ou en modifier substantiellement la finalité, peut vous faire basculer vers le régime du fournisseur, dont les obligations sont nettement plus lourdes. Cette analyse se conduit avant la signature.
+
+**Qu'est-ce que la marque grise ?**
+Un modèle intermédiaire où les deux marques coexistent, sur le registre du « propulsé par ». Il réduit l'ambiguïté sur l'auteur du service et allège la charge de réputation, tout en conservant l'intégration à votre parcours client. C'est souvent le compromis le plus raisonnable pour un premier partenariat.
+
+**Quelle clause ne faut-il jamais laisser passer ?**
+La réversibilité, détaillée et chiffrée. Viennent ensuite la propriété des données et la garantie qu'elles ne seront pas utilisées à d'autres fins, notamment d'entraînement de modèles, sans accord exprès, puis le sort du contrat en cas de changement de contrôle du prestataire.
+
+**La marque blanche convient-elle à un petit cabinet ?**
+Elle suppose d'assumer seul le risque de réputation et le rôle d'interlocuteur unique en cas d'incident, ce qui pèse davantage sur une structure réduite. La marque grise, où les deux marques coexistent, offre souvent le meilleur rapport entre intégration et exposition pour un premier partenariat, et elle laisse la possibilité d'évoluer ensuite.
+
+**Comment sortir d'un contrat de marque blanche ?**
+Dans les conditions prévues au contrat, et c'est exactement pourquoi la réversibilité se négocie à la signature. Prévoyez le format de restitution des données, le délai, l'assistance à la migration et une durée d'accompagnement après résiliation. Anticipez aussi le volet client : un service diffusé sous votre nom change de prestataire sans que vos clients l'aient su, ce qui suppose de préparer la continuité du parcours autant que le transfert technique.
 
 ### Sources
 
@@ -405,6 +581,37 @@ Un parcours entièrement digital n'est pas interdit ; un parcours digital sans d
 Avec réservation en ligne, questionnaire et pièces collectés en amont, le premier rendez-vous devient utile immédiatement. Le délai tombe autour de **8 jours**, et un rendez-vous est économisé par dossier.
 
 Sur quarante entrées en relation par an, cela représente quarante rendez-vous libérés, et une probabilité de conclusion sensiblement meilleure.
+
+### Les frictions qui subsistent après automatisation
+
+Automatiser le parcours ne supprime pas les points de blocage : il les déplace et les rend visibles. Quatre subsistent systématiquement.
+
+**Le taux d'abandon du questionnaire.** Un recueil envoyé en amont n'est utile que s'il est rempli. Au-delà d'une vingtaine de questions, le taux de complétion chute nettement. Découpez : un premier niveau court avant le rendez-vous, l'approfondissement pendant ou après, une fois la relation engagée.
+
+**Les pièces justificatives.** C'est le premier motif de retard, et il ne se règle pas par une relance automatique supplémentaire. Ce qui fonctionne : une liste explicite et limitée, un exemple pour chaque pièce attendue, et un dépôt qui accepte la photographie prise au téléphone plutôt que le scan.
+
+**Les dossiers atypiques.** Non-résidents, personnes politiquement exposées, structures sociétaires, indivisions successorales. Le parcours standard les bloque, et ils représentent souvent les dossiers les plus intéressants. Prévoyez explicitement une voie manuelle, plutôt que de laisser ces prospects s'enliser dans un tunnel conçu pour d'autres.
+
+**La vérification d'identité à distance.** Les modalités et les mesures compensatoires doivent être définies dans vos procédures et cohérentes avec votre classification des risques. Un parcours entièrement digital sans dispositif de vérification documenté n'est pas défendable.
+
+Mesurez le délai après déploiement comme vous l'avez mesuré avant. C'est le seul moyen de savoir si vous avez raccourci le parcours ou simplement déplacé l'attente.
+
+### Questions fréquentes
+
+**La signature électronique a-t-elle la même valeur qu'une signature manuscrite ?**
+Tous les procédés ne se valent pas : le cadre européen distingue plusieurs niveaux, dont la valeur probante diffère. Pour des documents engageants, un niveau avancé au minimum est recommandé, avec conservation de l'horodatage et du dossier de preuve. Vérifiez ce que votre prestataire conserve réellement et pendant combien de temps : en cas de contestation, c'est le dossier de preuve qui compte, pas le fichier signé.
+
+**Peut-on entrer en relation entièrement à distance ?**
+Oui, sous réserve d'une vigilance appropriée. L'entrée en relation à distance appelle des modalités de vérification de l'identité et des mesures compensatoires définies dans vos procédures et cohérentes avec votre classification des risques. Ce n'est pas le canal digital qui pose difficulté, c'est l'absence de dispositif documenté.
+
+**Quand remettre le document d'entrée en relation ?**
+Avant toute prestation. Le transmettre de façon traçable au moment de la confirmation du rendez-vous remplit l'obligation et libère du temps en séance. Conservez la preuve de la remise et de sa date, qui est précisément ce qui sera vérifié.
+
+**Quel délai viser entre le premier contact et le premier rendez-vous utile ?**
+La cible dépend de votre organisation, mais l'ordre de grandeur atteignable se situe autour d'une semaine, contre trois à quatre semaines dans un parcours non organisé. Le gain vient moins de la vitesse que de la nature du rendez-vous : préparé en amont, il porte sur le fond dès la première rencontre, ce qui économise souvent un rendez-vous entier par dossier.
+
+**Cela vaut-il la peine avec peu d'entrées en relation ?**
+Oui, mais pas pour la même raison. Avec quelques dizaines d'entrées par an, le gain de temps cumulé reste modeste ; ce qui change, c'est le taux de conversion, puisque chaque prospect perdu pèse lourd. Commencez par les trois briques qui coûtent le moins : la réservation en ligne, la remise tracée des documents d'information, et la liste explicite des pièces attendues. Elles ne demandent pas d'outil métier et suppriment l'essentiel des allers-retours.
 
 ### Sources
 

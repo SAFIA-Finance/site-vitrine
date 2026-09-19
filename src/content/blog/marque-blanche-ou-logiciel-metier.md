@@ -5,12 +5,25 @@ titreSeo: "Marque blanche ou logiciel métier : quelles différences"
 description: "Deux modèles d'équipement, deux répartitions de responsabilité. Ce que la marque blanche change juridiquement, commercialement et contractuellement."
 categorie: "Professionnels"
 date: 2026-09-14
-lecture: 3
+lecture: 4
 essentiel:
   - "Le **logiciel métier** est un outil que vous utilisez ; la **marque blanche** est un service que vous distribuez sous votre nom."
   - "La différence est d'abord **juridique** : en marque blanche, vous apparaissez comme l'auteur du service auprès du client final."
   - "Elle emporte des conséquences en matière de **responsabilité**, de **conformité** et de **dépendance contractuelle**."
   - "Le choix se décide sur trois critères : qui parle au client, qui répond des défaillances, et à quelle vitesse vous pouvez changer d'avis."
+faq:
+  - q: "La marque blanche engage-t-elle davantage la responsabilité du cabinet ?"
+    r: "Elle concentre sur vous le risque de réputation et fait de vous l'interlocuteur unique du client final : une indisponibilité, une erreur de calcul ou un incident de sécurité sont perçus comme les vôtres. La répartition contractuelle des responsabilités avec le prestataire doit donc être écrite, avec des engagements de niveau de service et un mécanisme de compensation qui ne se limite pas à un avoir symbolique."
+  - q: "Peut-on basculer du statut de déployeur à celui de fournisseur ?"
+    r: "Oui, et c'est le point le plus souvent négligé. Diffuser un système d'intelligence artificielle sous votre propre marque, ou en modifier substantiellement la finalité, peut vous faire basculer vers le régime du fournisseur, dont les obligations sont nettement plus lourdes. Cette analyse se conduit avant la signature."
+  - q: "Qu'est-ce que la marque grise ?"
+    r: "Un modèle intermédiaire où les deux marques coexistent, sur le registre du « propulsé par ». Il réduit l'ambiguïté sur l'auteur du service et allège la charge de réputation, tout en conservant l'intégration à votre parcours client. C'est souvent le compromis le plus raisonnable pour un premier partenariat."
+  - q: "Quelle clause ne faut-il jamais laisser passer ?"
+    r: "La réversibilité, détaillée et chiffrée. Viennent ensuite la propriété des données et la garantie qu'elles ne seront pas utilisées à d'autres fins, notamment d'entraînement de modèles, sans accord exprès, puis le sort du contrat en cas de changement de contrôle du prestataire."
+  - q: "La marque blanche convient-elle à un petit cabinet ?"
+    r: "Elle suppose d'assumer seul le risque de réputation et le rôle d'interlocuteur unique en cas d'incident, ce qui pèse davantage sur une structure réduite. La marque grise, où les deux marques coexistent, offre souvent le meilleur rapport entre intégration et exposition pour un premier partenariat, et elle laisse la possibilité d'évoluer ensuite."
+  - q: "Comment sortir d'un contrat de marque blanche ?"
+    r: "Dans les conditions prévues au contrat, et c'est exactement pourquoi la réversibilité se négocie à la signature. Prévoyez le format de restitution des données, le délai, l'assistance à la migration et une durée d'accompagnement après résiliation. Anticipez aussi le volet client : un service diffusé sous votre nom change de prestataire sans que vos clients l'aient su, ce qui suppose de préparer la continuité du parcours autant que le transfert technique."
 pages:
   - nom: "Institutions"
     url: "/institutions/"
@@ -63,3 +76,17 @@ L'**exclusivité** éventuelle : sectorielle, géographique, ou absence d'exclus
 Avant de comparer les modèles, posez celle-ci : **le service que vous voulez distribuer relève-t-il de votre métier réglementé ?**
 
 Distribuer sous votre marque un outil de suivi patrimonial n'a pas les mêmes implications que distribuer un service produisant des recommandations. Dans le second cas, la frontière avec le conseil en investissement doit être analysée précisément, car c'est vous qui apparaissez comme l'auteur du service.
+
+## Évaluer le prestataire avant de l'adosser à votre nom
+
+En marque blanche, la solidité du prestataire devient votre solidité. Quatre vérifications s'imposent, et elles relèvent de la diligence ordinaire plutôt que de la défiance.
+
+**La trajectoire financière.** Comptes publiés, ancienneté, actionnariat, dépendance à un client majeur. Un prestataire qui disparaît vous oblige à migrer dans l'urgence un service que vos clients croient être le vôtre.
+
+**La robustesse opérationnelle.** Engagement de disponibilité chiffré, historique des incidents, procédure de continuité, délai de rétablissement. Demandez le bilan des douze derniers mois plutôt que la promesse contractuelle.
+
+**La conformité documentée.** Localisation des données, sous-traitances ultérieures, certifications, position écrite sur les qualifications réglementaires applicables à son service. Une réponse évasive sur ces points est en soi une information.
+
+**Les références vérifiables.** Non pas des logos, mais deux ou trois confrères utilisant le service depuis plus d'un an, que vous appelez. Les questions utiles portent sur les incidents rencontrés et sur la réactivité du support, pas sur la satisfaction générale.
+
+Ajoutez une vérification propre à ce modèle : demandez ce que devient le service **si vous cessez la relation**. Format de restitution, délai, assistance à la migration, durée d'accompagnement après résiliation. Une réversibilité négociée au moment de la signature coûte une clause ; négociée au moment du départ, elle coûte beaucoup plus.

@@ -5,12 +5,23 @@ titreSeo: "Onboarding client digital en cabinet CGP"
 description: "Réduire le délai entre le premier contact et le rendez-vous utile, sans dégrader la conformité. Les cinq étapes et les points de friction."
 categorie: "Professionnels"
 date: 2026-09-14
-lecture: 3
+lecture: 4
 essentiel:
   - "Le délai entre le premier contact et le premier rendez-vous **utile** est le meilleur indicateur de qualité d'un parcours d'entrée en relation."
   - "Cinq étapes le composent, et trois d'entre elles sont automatisables sans perte de conformité."
   - "La signature électronique et la collecte structurée des pièces suppriment l'essentiel des allers-retours."
   - "La conformité n'est pas l'obstacle : c'est le **désordre** de la collecte qui allonge les délais."
+faq:
+  - q: "La signature électronique a-t-elle la même valeur qu'une signature manuscrite ?"
+    r: "Tous les procédés ne se valent pas : le cadre européen distingue plusieurs niveaux, dont la valeur probante diffère. Pour des documents engageants, un niveau avancé au minimum est recommandé, avec conservation de l'horodatage et du dossier de preuve. Vérifiez ce que votre prestataire conserve réellement et pendant combien de temps : en cas de contestation, c'est le dossier de preuve qui compte, pas le fichier signé."
+  - q: "Peut-on entrer en relation entièrement à distance ?"
+    r: "Oui, sous réserve d'une vigilance appropriée. L'entrée en relation à distance appelle des modalités de vérification de l'identité et des mesures compensatoires définies dans vos procédures et cohérentes avec votre classification des risques. Ce n'est pas le canal digital qui pose difficulté, c'est l'absence de dispositif documenté."
+  - q: "Quand remettre le document d'entrée en relation ?"
+    r: "Avant toute prestation. Le transmettre de façon traçable au moment de la confirmation du rendez-vous remplit l'obligation et libère du temps en séance. Conservez la preuve de la remise et de sa date, qui est précisément ce qui sera vérifié."
+  - q: "Quel délai viser entre le premier contact et le premier rendez-vous utile ?"
+    r: "La cible dépend de votre organisation, mais l'ordre de grandeur atteignable se situe autour d'une semaine, contre trois à quatre semaines dans un parcours non organisé. Le gain vient moins de la vitesse que de la nature du rendez-vous : préparé en amont, il porte sur le fond dès la première rencontre, ce qui économise souvent un rendez-vous entier par dossier."
+  - q: "Cela vaut-il la peine avec peu d'entrées en relation ?"
+    r: "Oui, mais pas pour la même raison. Avec quelques dizaines d'entrées par an, le gain de temps cumulé reste modeste ; ce qui change, c'est le taux de conversion, puisque chaque prospect perdu pèse lourd. Commencez par les trois briques qui coûtent le moins : la réservation en ligne, la remise tracée des documents d'information, et la liste explicite des pièces attendues. Elles ne demandent pas d'outil métier et suppriment l'essentiel des allers-retours."
 pages:
   - nom: "Conseillers"
     url: "/conseillers/"
@@ -67,3 +78,17 @@ Un parcours entièrement digital n'est pas interdit ; un parcours digital sans d
 Avec réservation en ligne, questionnaire et pièces collectés en amont, le premier rendez-vous devient utile immédiatement. Le délai tombe autour de **8 jours**, et un rendez-vous est économisé par dossier.
 
 Sur quarante entrées en relation par an, cela représente quarante rendez-vous libérés, et une probabilité de conclusion sensiblement meilleure.
+
+## Les frictions qui subsistent après automatisation
+
+Automatiser le parcours ne supprime pas les points de blocage : il les déplace et les rend visibles. Quatre subsistent systématiquement.
+
+**Le taux d'abandon du questionnaire.** Un recueil envoyé en amont n'est utile que s'il est rempli. Au-delà d'une vingtaine de questions, le taux de complétion chute nettement. Découpez : un premier niveau court avant le rendez-vous, l'approfondissement pendant ou après, une fois la relation engagée.
+
+**Les pièces justificatives.** C'est le premier motif de retard, et il ne se règle pas par une relance automatique supplémentaire. Ce qui fonctionne : une liste explicite et limitée, un exemple pour chaque pièce attendue, et un dépôt qui accepte la photographie prise au téléphone plutôt que le scan.
+
+**Les dossiers atypiques.** Non-résidents, personnes politiquement exposées, structures sociétaires, indivisions successorales. Le parcours standard les bloque, et ils représentent souvent les dossiers les plus intéressants. Prévoyez explicitement une voie manuelle, plutôt que de laisser ces prospects s'enliser dans un tunnel conçu pour d'autres.
+
+**La vérification d'identité à distance.** Les modalités et les mesures compensatoires doivent être définies dans vos procédures et cohérentes avec votre classification des risques. Un parcours entièrement digital sans dispositif de vérification documenté n'est pas défendable.
+
+Mesurez le délai après déploiement comme vous l'avez mesuré avant. C'est le seul moyen de savoir si vous avez raccourci le parcours ou simplement déplacé l'attente.

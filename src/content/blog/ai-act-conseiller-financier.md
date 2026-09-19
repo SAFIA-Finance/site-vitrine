@@ -5,12 +5,25 @@ titreSeo: "AI Act : ce qui change pour un cabinet de CGP"
 description: "Transparence, supervision humaine, documentation : les obligations qui visent un cabinet utilisateur d'IA, et celles qui pèsent sur ses fournisseurs."
 categorie: "Professionnels"
 date: 2026-09-14
-lecture: 3
+lecture: 4
 essentiel:
   - "Le règlement européen distingue le **fournisseur** d'un système d'IA et son **déployeur** : un cabinet est généralement déployeur, pas fournisseur."
   - "Les obligations les plus immédiates portent sur la **transparence** et sur la **compétence des utilisateurs**."
   - "La qualification d'un usage comme « à haut risque » dépend de sa finalité, et appelle une analyse au cas par cas."
   - "Le calendrier d'application a fait l'objet d'**ajustements** : vérifiez l'état du droit avant de fonder une décision dessus."
+faq:
+  - q: "Un cabinet est-il fournisseur ou déployeur ?"
+    r: "Déployeur dans la très grande majorité des cas, dès lors qu'il utilise un outil du marché sous sa propre autorité. La bascule vers le statut de fournisseur, aux obligations nettement plus lourdes, intervient si vous mettez un système sur le marché sous votre propre marque ou si vous en modifiez substantiellement la finalité. C'est le point à vérifier avant toute démarche de marque blanche."
+  - q: "Faut-il informer les clients de l'usage d'un outil d'IA ?"
+    r: "Une personne qui interagit avec un système d'IA doit en être informée. Concrètement, si un assistant conversationnel est accessible à vos clients, la mention doit être présente et lisible. Pour un usage purement interne, sans interaction du client avec le système, l'obligation de transparence à son égard ne se pose pas dans les mêmes termes, mais vos obligations en matière de données personnelles demeurent."
+  - q: "L'usage de l'IA en conseil patrimonial relève-t-il du haut risque ?"
+    r: "La qualification dépend de la finalité concrète du système et n'est pas évidente dans ce domaine. Ne la présumez ni dans un sens ni dans l'autre : documentez une analyse de la finalité réelle de l'outil et demandez à votre fournisseur sa position écrite. La qualité de sa réponse est en soi une information sur son sérieux."
+  - q: "L'IA déplace-t-elle la responsabilité de la recommandation ?"
+    r: "Non, en aucune manière. Une recommandation produite avec l'aide d'un outil reste la vôtre. L'obligation d'adéquation, l'obligation d'information et le caractère clair, exact et non trompeur des communications s'appliquent à l'identique. Aucune automatisation ne transfère la responsabilité professionnelle."
+  - q: "Peut-on utiliser un assistant généraliste avec des données clients ?"
+    r: "Cela suppose de vérifier trois points avant tout usage : ce que le fournisseur fait des contenus soumis, notamment s'ils alimentent l'entraînement de modèles, la localisation des traitements, et l'existence d'un contrat conforme aux exigences applicables à la sous-traitance. À défaut, la pratique la plus simple consiste à ne soumettre aucune donnée permettant d'identifier un client. C'est aussi l'usage le plus répandu dans les cabinets, et le moins recensé dans les inventaires."
+  - q: "Qui doit porter ce sujet dans le cabinet ?"
+    r: "Une personne désignée, même à temps très partiel, et de préférence celle qui porte déjà la conformité. L'essentiel du travail consiste à tenir l'inventaire des systèmes, à obtenir les positions écrites des fournisseurs et à conserver la trace des formations. Sans désignation explicite, ce dossier n'est porté par personne et se reconstitue dans l'urgence le jour où la question est posée."
 pages:
   - nom: "Conseillers"
     url: "/conseillers/"
@@ -63,3 +76,19 @@ Aucune automatisation ne déplace la responsabilité professionnelle. C'est le p
 **Formez et documentez** la formation.
 
 **Interrogez vos fournisseurs** par écrit sur la qualification de leurs systèmes et sur les données qu'ils traitent, notamment au regard du RGPD.
+
+## Le dossier minimal à constituer
+
+En matière d'IA comme ailleurs, ce qui n'est pas écrit n'existe pas. Cinq pièces suffisent à constituer un dossier défendable, et elles se rassemblent en quelques heures.
+
+**L'inventaire des systèmes.** Une liste tenue à jour : quel outil, pour quelle finalité, utilisé par qui, depuis quand, sur quelles données. Incluez les outils généralistes employés par les collaborateurs, qui échappent presque toujours au recensement alors qu'ils traitent parfois des données clients.
+
+**La position du fournisseur**, obtenue par écrit : qualification qu'il retient pour son système, conformité revendiquée, documentation technique disponible, traitement des données et sous-traitances ultérieures.
+
+**La trace de l'information délivrée** aux personnes qui interagissent avec un système d'IA : capture de la mention affichée, date de mise en ligne. Vérifiez sa lisibilité réelle, un texte à faible contraste ou en très petits caractères ne remplissant pas l'obligation.
+
+**La preuve de la formation** des collaborateurs : contenu, date, participants. Le niveau de maîtrise attendu ne se présume pas, il se démontre.
+
+**La description de la supervision humaine** : qui vérifie quoi, à quel moment, selon quels critères, et ce qui déclenche une reprise en main. C'est la pièce la plus utile, parce qu'elle est aussi celle qui vous protège sur le terrain financier.
+
+Une revue annuelle de ce dossier, calée sur une échéance existante du cabinet, suffit à le maintenir vivant.

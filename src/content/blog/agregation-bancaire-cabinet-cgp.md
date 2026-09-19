@@ -5,12 +5,23 @@ titreSeo: "Agrégation bancaire en cabinet CGP : ce qu'il faut savoir"
 description: "Ce que la DSP2 permet réellement, ce que l'agrégation fait gagner à un cabinet, et les erreurs de classification qui produisent des chiffres faux."
 categorie: "Professionnels"
 date: 2026-09-14
-lecture: 3
+lecture: 4
 essentiel:
   - "L'agrégation supprime la **collecte manuelle**, qui représente la part la plus improductive de la préparation d'un rendez-vous."
   - "Le consentement du client est **limité dans le temps** : les reconnexions périodiques sont une obligation réglementaire, pas un défaut technique."
   - "La valeur ne vient pas de la donnée brute mais de sa **classification** : mal classée, elle produit des chiffres faux avec autorité."
   - "Trois questions déterminent le choix d'un fournisseur : **couverture, qualité des libellés, réversibilité**."
+faq:
+  - q: "Le client doit-il redonner son consentement régulièrement ?"
+    r: "Oui. Le consentement d'accès est limité dans le temps et doit être renouvelé périodiquement auprès de sa banque, avec authentification forte. Ce n'est pas un défaut technique mais une exigence réglementaire : prévoyez une procédure de relance, sans quoi les données se périment sans que personne ne s'en aperçoive."
+  - q: "L'agrégation permet-elle d'initier des opérations ?"
+    r: "Non. L'accès aux informations sur les comptes s'exerce en lecture seule. L'initiation de paiement relève d'un service et d'un agrément distincts, qui ne se déduisent pas du premier."
+  - q: "Qui est responsable des données agrégées ?"
+    r: "Vous restez responsable de traitement pour les données de vos clients, le fournisseur agissant comme sous-traitant. Cela impose un contrat conforme aux exigences applicables à la sous-traitance, une information claire des clients, une durée de conservation définie et une procédure d'effacement."
+  - q: "Comment vérifier la fiabilité d'un agrégateur avant de s'engager ?"
+    r: "Prenez un client réel, un mois réel, et refaites le calcul à la main : revenus, dépenses, mouvements de capital. Si l'outil ne retrouve pas votre chiffre, le problème vient de sa classification, pas de votre calcul. C'est le test le plus court et le plus révélateur, et il se fait pendant la période d'essai, pas après la signature."
+  - q: "Combien de temps faut-il pour déployer l'agrégation sur un portefeuille ?"
+    r: "Comptez plusieurs mois, non pour des raisons techniques mais parce que chaque client doit donner son consentement et réaliser une authentification forte auprès de sa banque. Le rythme réaliste consiste à intégrer l'étape au point annuel de chaque client plutôt que de lancer une campagne isolée, dont les taux de réponse sont médiocres. Prévoyez dès le départ la procédure de renouvellement des consentements, qui deviendra une tâche récurrente et non un événement ponctuel."
 pages:
   - nom: "Conseillers"
     url: "/conseillers/"
@@ -63,3 +74,17 @@ Ajoutez-y la question du **contrat** : ce que vous achetez au départ n'inclut p
 Vous restez responsable de traitement pour les données de vos clients. Le fournisseur est sous-traitant, ce qui impose un contrat conforme à l'article 28 du RGPD, une information claire des clients, une durée de conservation définie et une procédure d'effacement.
 
 L'information du client sur l'agrégation ne se confond pas avec le consentement d'accès donné à sa banque : ce sont deux actes distincts, et les deux doivent être tracés.
+
+## Ce que l'agrégation ne couvre pas
+
+Le périmètre réel est plus étroit que ce que laissent entendre les démonstrations, et l'écart se découvre en production.
+
+**Les comptes de paiement d'abord.** Le cadre de la DSP2 organise l'accès aux comptes de paiement. Les contrats d'assurance-vie, les PER, les comptes-titres et les parts de SCPI n'entrent pas dans ce périmètre : leur récupération repose sur des connexions aux extranets producteurs ou sur des flux dédiés, dont la couverture varie fortement d'un fournisseur à l'autre. Or ce sont précisément ces actifs qui constituent l'essentiel d'un patrimoine conseillé.
+
+**La profondeur d'historique.** Beaucoup de connexions ne remontent que quelques mois. Pour reconstituer une année pleine de flux à la première connexion, il faut souvent compléter manuellement.
+
+**Les actifs non financiers.** Immobilier, parts de sociétés non cotées, actifs professionnels restent déclaratifs, et représentent souvent la part la plus lourde du patrimoine.
+
+**La continuité du service.** Une évolution de l'interface d'un établissement peut interrompre une connexion sans préavis. Un taux de connexions actives doit être suivi, faute de quoi des dossiers se périment en silence.
+
+Le réflexe utile consiste à demander au fournisseur, par écrit, la liste des établissements couverts **par type d'actif** et non par nom d'enseigne. Une banque « connectée » peut l'être pour ses comptes courants et pas pour ses contrats d'assurance.

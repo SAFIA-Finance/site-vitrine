@@ -5,12 +5,25 @@ titreSeo: "Logiciel CGP : les 8 fonctions qui comptent"
 description: "Agrégation, conformité, reporting, GRC : la grille de sélection d'un outil métier pour un cabinet, et les pièges du changement d'outil."
 categorie: "Professionnels"
 date: 2026-09-14
-lecture: 3
+lecture: 4
 essentiel:
   - "Huit fonctions structurent réellement un outil métier ; les autres sont des arguments commerciaux."
   - "Le coût déterminant n'est pas la licence : c'est la **reprise de données** et le temps d'appropriation."
   - "Un outil qui ne produit pas automatiquement les **documents réglementaires** vous fera perdre le bénéfice de ce qu'il vous fait gagner ailleurs."
   - "La question à poser en premier est celle de la **réversibilité** : que récupérez-vous si vous partez ?"
+faq:
+  - q: "Un cabinet individuel a-t-il besoin d'un outil métier ?"
+    r: "La question n'est pas la taille mais le nombre de dossiers et le niveau d'exigence documentaire. En dessous d'une cinquantaine de clients, un espace de stockage structuré, un modèle de dossier unique et une discipline de classement couvrent l'essentiel du risque. Au-delà, la production documentaire manuelle devient le point faible, et c'est elle qui justifie l'investissement avant l'agrégation."
+  - q: "Combien coûte réellement un changement d'outil ?"
+    r: "La licence est rarement le poste principal. Comptez la reprise de données, facturée ou réalisée en interne, plusieurs semaines de productivité réduite pendant l'appropriation, et le temps de recette. Demandez systématiquement un devis de reprise distinct de l'abonnement : un éditeur qui refuse de le chiffrer vous transfère un risque non provisionné."
+  - q: "Que vérifier sur l'hébergement des données ?"
+    r: "La localisation, le régime juridique applicable, les sous-traitances ultérieures autorisées, la durée de conservation et la procédure de notification en cas de violation. Vous restez responsable de traitement pour les données de vos clients : le contrat doit être conforme aux exigences applicables à la sous-traitance, et la chaîne complète des sous-traitants doit vous être communiquée."
+  - q: "Peut-on faire cohabiter deux outils ?"
+    r: "Temporairement oui, pendant une migration. Durablement, c'est une mauvaise idée : la double saisie se dégrade toujours, et vous vous retrouvez avec deux vérités partielles. Si deux outils sont réellement nécessaires, l'interopérabilité doit être vérifiée avant l'achat, pas espérée après."
+  - q: "Suite intégrée ou outils spécialisés ?"
+    r: "La suite intégrée supprime les ruptures de flux et centralise la piste d'audit, au prix d'un niveau moyen sur chaque fonction et d'une dépendance forte à un éditeur unique. Les outils spécialisés offrent le meilleur sur chaque brique, mais l'intégration devient votre problème, et c'est un travail permanent. Pour un cabinet sans ressource technique interne, la suite intégrée l'emporte presque toujours : le coût d'intégration est invisible à l'achat et très visible ensuite."
+  - q: "Comment juger un éditeur récent ?"
+    r: "Sur trois éléments vérifiables plutôt que sur la démonstration : l'existence de clients comparables au vôtre depuis plus d'un an, que vous appelez ; la clarté de sa réponse écrite sur la réversibilité et l'hébergement ; et sa trajectoire financière. Un produit jeune peut être excellent, mais adossez-y une clause de réversibilité solide : c'est votre assurance si l'éditeur disparaît ou change de stratégie."
 pages:
   - nom: "Conseillers"
     url: "/conseillers/"
@@ -69,3 +82,17 @@ Pour un cabinet qui part de peu, l'ordre qui produit le plus de valeur immédiat
 D'abord la **centralisation des dossiers clients** et des pièces, qui règle un risque de conformité immédiat. Ensuite l'**agrégation**, qui libère du temps. Puis la **production documentaire**, qui réduit le risque. Enfin le **reporting** et le **suivi des rémunérations**, qui améliorent la relation et la marge.
 
 Tenter les cinq simultanément est la façon la plus sûre de ne rien déployer.
+
+## Le calendrier réaliste d'un changement d'outil
+
+Les projets échouent rarement sur le choix de la solution. Ils échouent sur le calendrier, parce que la phase de reprise est systématiquement sous-estimée.
+
+**Semaines 1 à 4 : cadrage et nettoyage.** Avant toute migration, l'état réel de vos données doit être établi : doublons de fiches clients, contrats clos restés actifs, valorisations périmées, pièces manquantes. Ce travail se fait sur l'ancien outil ou sur vos fichiers, jamais pendant la reprise. Une base sale migrée reste une base sale, avec un coût de correction multiplié.
+
+**Semaines 4 à 10 : reprise et recette.** L'éditeur importe, vous contrôlez. La recette suppose de prendre un échantillon de dossiers représentatifs et de vérifier ligne à ligne : positions, historiques, pièces, droits d'accès. Prévoyez explicitement qui réalise ce contrôle et sur quel temps.
+
+**Semaines 10 à 14 : double saisie.** Période inconfortable mais nécessaire sur les dossiers actifs, le temps de valider que le nouvel outil produit les mêmes résultats. La supprimer pour gagner trois semaines est le raccourci qui coûte le plus cher.
+
+**À partir de la semaine 14 : bascule et arrêt de l'ancien contrat.** Vérifiez avant résiliation que l'export complet est en votre possession, dans un format lisible sans l'outil d'origine.
+
+Deux règles de conduite. Ne lancez jamais une migration pendant une période de forte charge, campagne déclarative ou clôture. Et désignez une personne responsable du projet dans le cabinet : un projet porté par tout le monde n'est porté par personne.
