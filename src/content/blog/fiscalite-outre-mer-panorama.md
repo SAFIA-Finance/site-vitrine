@@ -5,12 +5,27 @@ titreSeo: "DROM, COM, Nouvelle-Calédonie : quelle fiscalité"
 description: "Les DROM appliquent le Code général des impôts ; les COM à autonomie fiscale ont le leur. Qui relève de quoi, et la règle des cinq ans de résidence."
 categorie: "Outre-mer"
 date: 2026-09-16
-lecture: 2
+lecture: 4
 essentiel:
   - "Les **DROM** appliquent le Code général des impôts. Ce ne sont pas des territoires à fiscalité dérogatoire : ce sont des départements avec des aménagements."
   - "Les **COM à autonomie fiscale** ont leur propre code et leurs propres impôts : le CGI ne s'y applique pas, sauf mention expresse."
   - "Saint-Barthélemy et Saint-Martin imposent une **condition de résidence de cinq ans** avant de reconnaître le domicile fiscal local."
   - "La **Nouvelle-Calédonie** relève d'un statut à part, et une convention fiscale la lie à l'État."
+faq:
+  - q: "Un DROM est-il un territoire à fiscalité avantageuse ?"
+    r: "Non. Le barème, le quotient familial, les prélèvements sociaux et le prélèvement forfaitaire y sont ceux de la métropole. Le seul aménagement notable en matière d'impôt sur le revenu est une réfaction plafonnée, décrite dans l'article consacré à ce mécanisme. Parler de fiscalité dérogatoire à propos des DROM est une erreur de catégorie."
+  - q: "S'installer dans une collectivité à fiscalité propre suffit-il à changer de régime ?"
+    r: "Non, et c'est le contresens le plus coûteux. À Saint-Barthélemy comme à Saint-Martin, le domicile fiscal local n'est reconnu qu'après cinq ans de résidence. Avant ce délai, la personne demeure fiscalement domiciliée en France au sens du Code général des impôts."
+  - q: "Ces collectivités échangent-elles des informations avec l'État ?"
+    r: "Oui. Les statuts organisent la transmission à l'État des informations utiles à l'application de sa réglementation fiscale et à l'exécution des clauses d'échange de renseignements des conventions conclues par la France. L'autonomie fiscale n'emporte aucune opacité."
+  - q: "Où trouver les taux applicables localement ?"
+    r: "Auprès des services fiscaux de la collectivité concernée, et nulle part ailleurs. Les codes locaux résultent de délibérations qui ne figurent pas sur Légifrance et qui évoluent régulièrement. Un chiffre repris d'un article en ligne, sans date ni source locale, n'a aucune valeur."
+  - q: "Une collectivité à fiscalité propre est-elle l'étranger au sens fiscal ?"
+    r: "Non, et l'assimilation est trompeuse. Ces collectivités font partie de la République : la répartition du droit d'imposer avec l'État ne relève pas d'une convention internationale mais d'une **convention interne**, ou d'un mécanisme prévu par le statut de la collectivité. Le vocabulaire et la méthode de lecture sont comparables à ceux d'une convention internationale, le fondement juridique ne l'est pas. Cette distinction emporte des conséquences sur les dispositifs applicables, qu'il faut examiner au cas par cas plutôt que de raisonner par analogie avec une expatriation."
+  - q: "Un résident d'un DROM dépend-il de la même administration qu'en métropole ?"
+    r: "Oui. Les départements et régions d'outre-mer relèvent du Code général des impôts et de l'administration fiscale française, avec les mêmes obligations déclaratives qu'un résident métropolitain. Les aménagements existants, dont la réfaction d'impôt plafonnée, s'appliquent à l'intérieur de ce cadre et non à côté de lui."
+  - q: "Mayotte relève-t-elle du même régime que les autres DROM ?"
+    r: "Oui quant au principe : Mayotte est un département et région d'outre-mer, régi par l'article 73 de la Constitution, et le Code général des impôts s'y applique. Le taux de réfaction qui lui est applicable est celui de 40 %, comme pour la Guyane, et non celui de 30 % retenu pour la Guadeloupe, la Martinique et La Réunion. Des adaptations propres subsistent par ailleurs sur certains impôts, notamment en matière de TVA : elles se vérifient poste par poste auprès de l'administration fiscale."
 pages:
   - nom: "Cockpit stratégique"
     url: "/cockpit/"
@@ -62,3 +77,19 @@ Elles existent notamment avec la Nouvelle-Calédonie, la Polynésie française e
 **Croire qu'il suffit de s'installer dans une COM pour changer de régime fiscal.** À Saint-Barthélemy comme à Saint-Martin, la règle des cinq ans l'interdit.
 
 **Confondre autonomie fiscale et absence de fiscalité.** Ces collectivités lèvent des impôts, simplement pas les mêmes.
+
+## Ce que le statut change, poste par poste
+
+La ligne de partage constitutionnelle produit des effets concrets, et il est utile de les prendre un par un plutôt que d'en rester au principe.
+
+**L'impôt sur le revenu.** Dans un DROM, c'est celui du Code général des impôts, avec le même barème et le même quotient familial, diminué d'une réfaction plafonnée. Dans une COM à fiscalité propre, c'est un impôt local, lorsqu'il existe : certaines collectivités reposent très largement sur la fiscalité indirecte et ne connaissent pas d'impôt sur le revenu comparable au modèle métropolitain.
+
+**Les prélèvements sociaux.** Dans les DROM, ils s'appliquent aux mêmes taux qu'en métropole, et la réfaction ne les réduit en rien. Dans les collectivités à fiscalité propre, la protection sociale et son financement relèvent de régimes locaux, ce qui est un sujet entièrement distinct.
+
+**L'IFI.** Il suit les règles françaises de territorialité. Un bien immobilier situé dans un DROM est un bien français. Pour les collectivités à fiscalité propre, la question se règle à la lumière du statut et de la convention interne.
+
+**Les droits de mutation à titre gratuit.** Identiques au CGI dans les DROM. Relevant du droit local ailleurs, ce qui est développé dans **Transmettre un patrimoine situé outre-mer**.
+
+**Les obligations déclaratives.** Un résident d'un DROM déclare à l'administration fiscale française comme un résident métropolitain. Un résident d'une collectivité à fiscalité propre déclare localement, et son éventuelle obligation française dépend de ses revenus de source française et de la convention interne.
+
+Retenir la logique plutôt que la liste : **dans un DROM on applique le droit français avec des aménagements ; dans une COM à fiscalité propre on applique un autre droit, et la convention interne organise la rencontre entre les deux.**

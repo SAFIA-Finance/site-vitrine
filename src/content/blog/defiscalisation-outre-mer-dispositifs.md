@@ -5,12 +5,25 @@ titreSeo: "Investir outre-mer : les dispositifs de réduction d'impôt"
 description: "Articles 199 undecies B et C : des niches à plafond majoré, ouvertes jusqu'en 2029 pour les investissements productifs. Et le risque de reprise."
 categorie: "Outre-mer"
 date: 2026-09-16
-lecture: 3
+lecture: 4
 essentiel:
   - "Les dispositifs outre-mer figurent parmi les **rares niches à plafond majoré** du droit fiscal français."
   - "Les principaux reposent sur les articles **199 undecies B** et **199 undecies C** du Code général des impôts, ainsi que sur des dispositifs de crédit d'impôt."
   - "Le dispositif de réduction d'impôt au titre des investissements productifs neufs est ouvert, pour les entreprises soumises à l'impôt sur le revenu, **jusqu'au 31 décembre 2029**."
   - "Ces dispositifs comportent un risque réel de **reprise** de l'avantage fiscal : c'est le point qui décide, pas le taux affiché."
+faq:
+  - q: "Quelle différence entre le dispositif de droit commun et le montage « one shot » ?"
+    r: "Dans le premier, l'investisseur conserve le bien et perçoit des loyers pendant la période d'engagement. Dans le second, il apporte des fonds à une structure qui réalise l'investissement, obtient une réduction d'impôt l'année suivante, et ne perçoit rien d'autre : son rendement est l'écart entre la réduction obtenue et la somme apportée."
+  - q: "Ces dispositifs échappent-ils au plafonnement des niches ?"
+    r: "Non, mais ils bénéficient d'un plafond majoré par rapport au plafond de droit commun. Ils s'articulent avec le plafonnement global des avantages fiscaux, ce qui impose un calcul portant sur l'ensemble des avantages du foyer, et non sur la seule opération envisagée."
+  - q: "Que vaut une garantie de bonne fin ?"
+    r: "Cela dépend entièrement de son émetteur. Une garantie accordée par une société du même groupe que le monteur n'offre qu'une protection théorique : si le groupe est en difficulté, la garantie l'est aussi. Demandez l'identité exacte du garant, sa surface financière et la portée précise de la couverture, exclusions comprises."
+  - q: "L'agrément fiscal protège-t-il du risque de reprise ?"
+    r: "Non. L'agrément valide l'éligibilité de l'opération au moment où il est délivré ; il ne garantit pas que les conditions seront respectées pendant toute la durée d'engagement. La reprise sanctionne un manquement postérieur, que l'agrément initial ne couvre pas."
+  - q: "Ces dispositifs existent-ils aussi pour les entreprises soumises à l'impôt sur les sociétés ?"
+    r: "Oui, sous une forme distincte. L'article 199 undecies B vise les réductions d'impôt sur le revenu, tandis que d'autres dispositifs, dont l'article 217 undecies et des mécanismes de crédit d'impôt, s'adressent aux entreprises soumises à l'impôt sur les sociétés ou réalisant elles-mêmes l'investissement. Les conditions, les plafonds et les obligations d'agrément diffèrent : il faut identifier le texte applicable avant toute simulation."
+  - q: "Peut-on cumuler plusieurs dispositifs la même année ?"
+    r: "Techniquement oui, mais le plafonnement global des avantages fiscaux s'applique à l'ensemble du foyer. Les dispositifs outre-mer bénéficient d'un plafond majoré par rapport au plafond de droit commun, ce qui les rend attractifs, mais le calcul doit porter sur la totalité des avantages du foyer et non sur chaque opération prise isolément. Un cumul mal calibré conduit à perdre une partie de l'avantage escompté."
 pages:
   - nom: "Cockpit stratégique"
     url: "/cockpit/"
@@ -76,3 +89,17 @@ Cette configuration s'est produite à grande échelle sur certains montages. Ell
 ## La question à se poser en premier
 
 Un investissement dont le seul intérêt est fiscal n'est pas un investissement : c'est un pari sur la solidité d'un montage. Si l'opération n'a pas de logique économique propre, l'avantage fiscal ne la rend pas bonne ; il la rend seulement attrayante.
+
+## Le calendrier d'une opération, et où se situe le risque
+
+Comprendre la chronologie explique mieux que tout pourquoi la reprise est le vrai sujet.
+
+**Année 1 : l'engagement.** L'investisseur apporte les fonds. L'opérateur acquiert le matériel ou réalise le programme, le met en exploitation et le loue à un exploitant ultramarin. Un agrément fiscal est requis au-delà de certains seuils.
+
+**Année 2 : la réduction.** L'investisseur impute la réduction d'impôt sur son imposition. C'est le moment où l'avantage se matérialise, et où beaucoup considèrent l'opération terminée.
+
+**Années 2 à 6 : la période d'engagement.** C'est ici que tout se joue. Le bien doit rester exploité, dans le secteur éligible, pendant la durée requise. L'investisseur n'a aucune prise sur cette phase : elle dépend entièrement de l'exploitant ultramarin et du monteur.
+
+**En cas de défaillance : la reprise.** Si l'exploitation cesse ou si une condition n'est pas respectée, l'administration reprend la réduction auprès de **l'investisseur**, majorée des intérêts de retard, plusieurs années après. Le recours contre un opérateur défaillant est le plus souvent illusoire.
+
+Autrement dit, l'avantage est acquis en année 2 mais reste révocable jusqu'à la fin de l'engagement. C'est un décalage que les plaquettes commerciales ne présentent jamais sous cette forme, et il est la raison pour laquelle la solidité du monteur et la réalité de la garantie comptent davantage que le taux de rendement annoncé.

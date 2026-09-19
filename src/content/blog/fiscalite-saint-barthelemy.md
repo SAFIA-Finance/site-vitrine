@@ -5,12 +5,21 @@ titreSeo: "Saint-Barthélemy : autonomie fiscale et règle des cinq ans"
 description: "Compétence fiscale propre depuis 2007, mais domicile fiscal local reconnu seulement après cinq ans de résidence. La règle découverte trop tard."
 categorie: "Outre-mer"
 date: 2026-09-16
-lecture: 4
+lecture: 5
 essentiel:
   - "Saint-Barthélemy dispose de sa **propre compétence fiscale** depuis 2007 : le Code général des impôts ne s'y applique pas, sauf mention expresse."
   - "Une personne physique ne peut être regardée comme fiscalement domiciliée à Saint-Barthélemy **qu'après cinq ans de résidence**."
   - "Avant ce délai, elle demeure fiscalement domiciliée en France au sens du Code général des impôts."
   - "C'est la règle la plus structurante de tout le dossier, et celle qui est le plus souvent découverte trop tard."
+faq:
+  - q: "Le Code général des impôts s'applique-t-il à Saint-Barthélemy ?"
+    r: "Non, sauf mention expresse. La collectivité exerce sa propre compétence fiscale depuis 2007, et son Code de contributions se substitue au CGI pour les personnes fiscalement domiciliées sur le territoire. Encore faut-il l'être, ce que la règle des cinq ans retarde."
+  - q: "Que se passe-t-il pendant les cinq premières années ?"
+    r: "La personne demeure fiscalement domiciliée en France au sens du Code général des impôts. Elle déclare ses revenus mondiaux à l'administration française et ne bénéficie pas du régime local. C'est la règle la plus structurante du dossier, et la plus souvent découverte trop tard."
+  - q: "Comment est évitée la double imposition avant l'entrée en vigueur de la convention ?"
+    r: "Par le mécanisme de crédit d'impôt prévu à l'article LO 6214-4 du Code général des collectivités territoriales, imputable sur l'impôt dû dans le territoire du domicile fiscal, à raison des revenus provenant de l'autre territoire."
+  - q: "L'exit tax peut-elle s'appliquer lors d'un transfert vers Saint-Barthélemy ?"
+    r: "La question doit être examinée spécifiquement au regard du statut de la collectivité et du champ de l'article 167 bis du Code général des impôts. Elle ne se résout pas par analogie avec un départ à l'étranger, et elle mérite un avis avant le transfert, pas après."
 pages:
   - nom: "Cockpit stratégique"
     url: "/cockpit/"
@@ -78,3 +87,17 @@ Le Code de contributions organise une fiscalité sensiblement différente de cel
 **Oublier l'exit tax.** Un transfert de domicile fiscal vers Saint-Barthélemy pose la question du champ de l'article 167 bis du CGI, qui doit être examinée spécifiquement au regard du statut de la collectivité.
 
 **Négliger la transmission.** Les règles applicables aux mutations à titre gratuit doivent être examinées à part : voir **Transmettre un patrimoine situé outre-mer**.
+
+## Les cinq ans en pratique : ce qui fait la preuve
+
+Le délai ne se décompte pas à partir d'une déclaration d'intention, mais d'une résidence effective. Ce sont donc les mêmes éléments de fait que pour toute question de domicile qui devront être établis, et il est prudent de les constituer au fil de l'eau plutôt qu'à la cinquième année.
+
+**Le logement** : titre de propriété ou bail continu, et surtout consommations d'eau, d'électricité et de télécommunications, qui démontrent une occupation réelle et non une adresse.
+
+**La présence** : titres de transport, relevés bancaires locaux montrant des dépenses courantes, adhésions, abonnements.
+
+**La famille** : scolarisation des enfants sur le territoire, résidence du conjoint.
+
+**L'activité** : exercice professionnel sur place, ou cessation documentée des activités antérieures.
+
+Deux précautions valent d'être signalées. La continuité compte : une résidence interrompue puis reprise soulève la question du point de départ du délai. Et la condition s'applique également aux **personnes morales**, avec ses propres critères de siège de direction effective et de contrôle, ce qui conditionne notamment l'appartenance à un groupe d'intégration fiscale, point sur lequel l'administration a publié un rescrit.
