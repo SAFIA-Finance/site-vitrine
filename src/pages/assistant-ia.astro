@@ -7,7 +7,7 @@ const faq = [
   },
   {
     "q": "Est-ce que c'est encadré ?",
-    "r": "Oui. L'assistant fournit de l'information et de la pédagogie. Le conseil en investissement personnalisé est une activité réglementée, que nos conseillers exercent dans le cadre d'une lettre de mission. Et tu sais toujours que tu échanges avec une IA."
+    "r": "Oui. L'assistant fournit de l'information et de la pédagogie. Le conseil en investissement personnalisé est une activité réglementée : quand ta situation le demande, un conseiller humain prend le relais et valide ce qui t'est recommandé avant que ça engage une décision. Et tu sais toujours que tu échanges avec une IA."
   },
   {
     "q": "L'IA peut-elle se tromper ?",
@@ -114,6 +114,30 @@ const fil = ["Accueil","Particuliers","Assistant IA"];
 </div>
 </section>
 
+<!-- ===== Ce qu'elle doit savoir de toi =====
+     Lot 4 : section ajoutée. Fond BLANC, insérée ENTRE « compare-bloc » et
+     « approf-bloc », toutes deux en lavande : c'était la seule paire de
+     sections de même fond du lot, soit 192 px sans rien pour les séparer.
+     Cette section répare la mise en page et porte en même temps ce qui
+     distingue vraiment SAFIA d'une IA généraliste. -->
+<section class="bloc appui-bloc">
+<div class="wrap">
+  <h2 class="titre">Ce qu'une IA patrimoniale doit savoir de toi</h2>
+  <div class="prose">
+    <p class="intro">Le reproche le plus juste qu'on puisse faire à une IA généraliste sur l'argent, c'est qu'elle ne connaît pas ta vie. Elle répond bien à une question de cours, mal à ta question. La différence ne tient pas à la puissance du modèle, elle tient à ce qu'il sait de toi et à ce qu'il a le droit d'inventer.</p>
+
+    <h3>Ta situation, pas un profil moyen</h3>
+    <p>Une même question appelle deux réponses opposées selon qui la pose. « Dois-je alimenter mon PER&#160;? » n'a pas la même réponse à 28 ans avec une tranche marginale à 11&#160;% et à 52 ans avec une tranche à 41&#160;%. SAFIA part de ton patrimoine réel, de ta tranche, de ton horizon et de ton profil de risque, parce qu'une réponse juste en général peut être une mauvaise réponse pour toi.</p>
+
+    <h3>Une mémoire qui ne repart pas de zéro</h3>
+    <p>Recommencer à chaque conversation est le défaut le plus fatigant des assistants génériques. Le tien retient ce qui compte d'une fois sur l'autre&#160;: ton contexte familial, un projet d'achat, une contrainte que tu as expliquée une fois. Tu peux aussi le façonner explicitement avec « Personnaliser mon IA », disponible en plan Smart. Cette mémoire vit dans le même cadre que le reste de tes données, hébergée dans l'Union européenne et décrite sur notre page <a class="lien" href="/securite/">sécurité et conformité</a>.</p>
+
+    <h3>Ce qu'elle n'a pas le droit d'inventer</h3>
+    <p>C'est la contrepartie indispensable. Un modèle de langage produit un texte plausible&#160;; le nôtre a l'interdiction explicite d'inventer un chiffre, un taux, un plafond ou un article de loi, et pose la question plutôt que de deviner. Chaque affirmation chiffrée renvoie à un texte officiel daté du jour de sa consultation. Une IA qui se tait quand elle ignore vaut mieux qu'une IA qui comble le trou avec assurance, et c'est ce que détaille <a class="lien" href="/methode/">notre méthode</a>.</p>
+  </div>
+</div>
+</section>
+
 <!-- ===== Ce que l'IA change, et ce qu'elle ne change pas ===== -->
 <section class="bloc approf-bloc">
 <div class="wrap">
@@ -172,7 +196,7 @@ const fil = ["Accueil","Particuliers","Assistant IA"];
   <h2 class="titre">Tes questions, nos réponses</h2>
   <div class="faq">
     <details><summary>Une IA peut-elle gérer mon patrimoine ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Elle peut t'aider à l'analyser, à repérer les points d'attention et à comprendre tes options. La gestion et la décision restent les tiennes.</p></details>
-    <details><summary>Est-ce que c'est encadré ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Oui. L'assistant fournit de l'information et de la pédagogie. Le conseil en investissement personnalisé est une activité réglementée, que nos conseillers exercent dans le cadre d'une lettre de mission. Et tu sais toujours que tu échanges avec une IA.</p></details>
+    <details><summary>Est-ce que c'est encadré ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Oui. L'assistant fournit de l'information et de la pédagogie. Le conseil en investissement personnalisé est une activité réglementée : quand ta situation le demande, un conseiller humain prend le relais et valide ce qui t'est recommandé avant que ça engage une décision. Et tu sais toujours que tu échanges avec une IA.</p></details>
     <details><summary>L'IA peut-elle se tromper ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Oui, comme toute source d'information. C'est pour ça qu'elle cite ses sources, sépare les faits des hypothèses et te renvoie vers un conseiller dès que l'enjeu le justifie.</p></details>
     <details><summary>Mes conversations sont-elles conservées ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Oui, pour assurer la continuité de tes échanges, pendant les durées indiquées dans notre politique de confidentialité.</p></details>
     <details><summary>Combien de questions puis-je poser ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Starter inclut un nombre limité de questions par jour, Smart un usage étendu.</p></details>

@@ -19,7 +19,11 @@ const faq = [
   },
   {
     "q": "Est-ce un conseil en investissement ?",
-    "r": "Les analyses de l'app sont informatives et pédagogiques. Pour un conseil personnalisé, nos conseillers peuvent t'accompagner dans le cadre d'une lettre de mission."
+    "r": "Les analyses de l'app sont informatives et pédagogiques. Quand ta situation demande un conseil personnalisé, un conseiller humain de l'équipe prend le relais et valide ce qui t'est recommandé avant que ça engage une décision."
+  },
+  {
+    "q": "Mes données bancaires sont-elles en sécurité ?",
+    "r": "La connexion passe par Powens, établissement de paiement agréé par l'ACPR, et reste en lecture seule : SAFIA ne voit jamais tes identifiants et ne peut effectuer aucune opération. Tes données sont hébergées dans l'Union européenne et tu peux déconnecter une banque à tout moment."
   }
 ];
 const fil = ["Accueil","Particuliers"];
@@ -180,6 +184,27 @@ const fil = ["Accueil","Particuliers"];
 </div>
 </section>
 
+<!-- ===== Gérer soi-même =====
+     Lot 4 : section ajoutée. Fond BLANC, entre « change » (lavande) et
+     « ne-fait-pas » (nuit), pour que l'alternance tienne. -->
+<section class="bloc appui-bloc">
+<div class="wrap">
+  <h2 class="titre">Gérer son patrimoine soi-même, sans y passer ses week-ends</h2>
+  <div class="prose">
+    <p class="intro">Gérer soi-même n'a jamais voulu dire tout faire seul. Ça veut dire décider soi-même, en comprenant ce qu'on décide. Ce qui manquait jusqu'ici n'était pas la volonté, c'était le temps et les explications.</p>
+
+    <h3>Voir avant de décider</h3>
+    <p>La première marche est la plus haute, et elle n'a rien d'intellectuel : la plupart des gens ne savent pas ce qu'ils possèdent. Un PEA ouvert il y a huit ans, une assurance-vie souscrite à l'embauche, un PER alimenté irrégulièrement, un crédit en cours, trois livrets. Séparément, chacun sait. Ensemble, presque personne. Tant que cette photo n'existe pas, toute décision se prend à l'aveugle, et c'est précisément ce que l'agrégation de comptes règle en quelques minutes.</p>
+
+    <h3>Comprendre pourquoi, pas seulement combien</h3>
+    <p>Un chiffre sans explication ne sert à rien. Savoir que ton épargne dort à 3&#160;% ne dit pas s'il faut bouger ; savoir pourquoi ce taux est en dessous de ton horizon de placement, oui. C'est la différence entre une application qui affiche et une application qui explique, et c'est ce que fait notre <a class="lien" href="/assistant-ia/">assistant IA</a>, qui cite ses sources et les date plutôt que de te demander de lui faire confiance.</p>
+
+    <h3>Décider, et garder la main</h3>
+    <p>SAFIA ne détient pas ton argent et ne passe aucun ordre. Tes comptes restent où ils sont, chez ta banque et chez ton assureur. Ce que tu gagnes, c'est de savoir ce que tu fais et pourquoi, avec ton <a class="lien" href="/adn-investisseur/">ADN investisseur</a> comme filtre et ton <a class="lien" href="/cockpit/">cockpit</a> pour voir ce qui correspond vraiment à ton profil. Quand une situation dépasse ce qu'un outil peut traiter seul, un conseiller humain prend le relais.</p>
+  </div>
+</div>
+</section>
+
 <!-- ===== Ce que SAFIA ne fait pas ===== -->
 <section class="bloc ne-fait-pas">
 <div class="wrap">
@@ -192,6 +217,26 @@ const fil = ["Accueil","Particuliers"];
 </div>
 </section>
 
+<!-- ===== Par où commencer =====
+     Lot 4 : section ajoutée. Fond LAVANDE, entre « ne-fait-pas » (nuit) et
+     la FAQ (blanc). C'est elle qui porte le maillage vers le reste du site. -->
+<section class="bloc">
+<div class="wrap">
+  <h2 class="titre">Par où commencer</h2>
+  <div class="prose">
+    <p class="intro">Il n'y a pas d'ordre obligatoire, mais il y a un ordre qui évite de se décourager. Le voici, tel que nous le conseillons.</p>
+
+    <p><b>Commence par voir.</b> Connecte tes comptes et regarde la photo. C'est gratuit, ça prend quelques minutes, et la plupart des gens y trouvent au moins une surprise : une épargne de précaution deux fois trop grosse, un contrat oublié, des frais jamais examinés. Si tu préfères ne rien connecter au début, tu peux commencer par ton profil et ajouter tes actifs à la main.</p>
+
+    <p><b>Puis comprends ce que tu vois.</b> Pose tes questions à l'assistant, en français, comme tu les poserais à quelqu'un. Si tu veux d'abord manipuler des ordres de grandeur sans rien installer, nos <a class="lien" href="/outils/">simulateurs gratuits</a> calculent dans ton navigateur, sans inscription et sans que tes chiffres partent nulle part.</p>
+
+    <p><b>Ensuite, décide.</b> Ton ADN investisseur sert de filtre, et le cockpit ne te montre que ce qui te correspond, en expliquant pourquoi. Tu restes libre du reste : SAFIA ne touche aucune commission sur les produits vers lesquels elle t'oriente, ce qui est vérifiable dans notre modèle économique plutôt que promis.</p>
+
+    <p>Deux pages complètent celle-ci si tu veux creuser avant de télécharger : <a class="lien" href="/comparatif/">ce qui distingue SAFIA d'une app de suivi ou d'une gestion pilotée</a>, et <a class="lien" href="/securite/">ce qui se passe exactement quand tu connectes une banque</a>. Les tarifs, dont ce qui reste gratuit, sont sur la page <a class="lien" href="/tarifs/">tarifs</a>.</p>
+  </div>
+</div>
+</section>
+
 <!-- ===== FAQ ===== -->
 <section class="bloc faq-bloc">
 <div class="wrap faq-grille">
@@ -201,7 +246,8 @@ const fil = ["Accueil","Particuliers"];
     <details><summary>Puis-je utiliser SAFIA sans connecter mes comptes ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Oui. Tu peux commencer par ton profil et ton ADN, et ajouter certains actifs à la main, comme un bien immobilier ou des parts de SCPI.</p></details>
     <details><summary>Quelles banques sont compatibles ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>La connexion passe par Powens, qui couvre la plupart des banques et établissements en France et en Europe.</p></details>
     <details><summary>Comment SAFIA gagne-t-elle de l'argent ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Par l'abonnement Smart et par les licences proposées aux professionnels. SAFIA ne se rémunère pas sur les produits vers lesquels elle t'oriente.</p></details>
-    <details><summary>Est-ce un conseil en investissement ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Les analyses de l'app sont informatives et pédagogiques. Pour un conseil personnalisé, nos conseillers peuvent t'accompagner dans le cadre d'une lettre de mission.</p></details>
+    <details><summary>Est-ce un conseil en investissement ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Les analyses de l'app sont informatives et pédagogiques. Quand ta situation demande un conseil personnalisé, un conseiller humain de l'équipe prend le relais et valide ce qui t'est recommandé avant que ça engage une décision.</p></details>
+    <details><summary>Mes données bancaires sont-elles en sécurité ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>La connexion passe par Powens, établissement de paiement agréé par l'ACPR, et reste en lecture seule : SAFIA ne voit jamais tes identifiants et ne peut effectuer aucune opération. Tes données sont hébergées dans l'Union européenne et tu peux déconnecter une banque à tout moment. Le détail est sur notre page <a class="lien" href="/securite/">sécurité et conformité</a>.</p></details>
   </div>
 </div>
 </section>
