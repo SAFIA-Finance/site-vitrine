@@ -5,7 +5,7 @@ titreSeo: "Déduction PER : calculer son économie d'impôt réelle"
 description: "L'économie d'impôt d'un versement PER dépend de ta tranche marginale. Le calcul exact, les effets de seuil, et pourquoi l'avantage est surestimé."
 categorie: "Retraite"
 date: 2026-09-14
-lecture: 3
+lecture: 6
 essentiel:
   - "L'économie d'impôt d'un versement est égale à **versement × tranche marginale d'imposition**."
   - "Elle est nulle si tu n'es pas imposable, et faible en tranche à 11 %."
@@ -18,6 +18,8 @@ faq:
     r: "L'excédent n'est pas déductible. Il peut être conservé en versement non déduit, ce qui allège la fiscalité à la sortie, à condition de le signaler à ton gestionnaire."
   - q: "Puis-je utiliser le plafond de mon conjoint ?"
     r: "Oui, pour les couples mariés ou pacsés, en cochant la case prévue sur la déclaration de revenus."
+  - q: "L'économie d'impôt doit-elle être réinvestie ?"
+    r: "C'est l'hypothèse implicite de toute démonstration commerciale sur le PER, et elle n'est pas toujours vérifiée dans les faits. Si l'économie est consommée, le PER revient à bloquer son épargne jusqu'à la retraite pour un gain qui se réduit au seul écart de tranche entre l'entrée et la sortie. Virer l'économie sur un support d'épargne le mois même de la restitution est ce qui transforme l'avantage affiché en avantage réel."
 pages:
   - nom: "Cockpit stratégique"
     url: "/cockpit/"
@@ -66,6 +68,41 @@ C'est le chiffre à comparer avec un versement de 8 000 € sur une assurance-vi
 Le gain net réel est l'**écart entre ta tranche aujourd'hui et ta tranche à la retraite**, pas l'économie affichée à l'entrée. Un contribuable à 30 % aujourd'hui et à 30 % demain ne gagne presque rien fiscalement, et il aura bloqué son épargne pendant vingt ans.
 
 **Ce n'est pas une réduction d'impôt.** C'est une déduction du revenu imposable. La différence est importante : une réduction s'impute sur l'impôt dû, une déduction réduit la base de calcul.
+
+## Le vrai critère : l'écart entre ta tranche d'aujourd'hui et celle de demain
+
+Puisque l'impôt est reporté et non annulé, le gain réel se mesure par différence. Le tableau suivant donne le gain fiscal net sur la part correspondant aux versements, pour 10 000 € versés.
+
+| Tranche au versement | Tranche à la sortie | Gain fiscal net sur 10 000 € versés |
+|---|---|---|
+| 41 % | 11 % | 30 points, soit 3 000 € |
+| 41 % | 30 % | 11 points, soit 1 100 € |
+| 30 % | 11 % | 19 points, soit 1 900 € |
+| 30 % | 30 % | nul |
+| 11 % | 11 % | nul |
+| 11 % | 30 % | négatif : 19 points perdus, soit 1 900 € |
+
+Deux enseignements en sortent.
+
+Le PER n'a d'intérêt marqué qu'à partir de la tranche à 30 %, et il devient franchement efficace en tranche à 41 % ou 45 %. En tranche à 11 %, le dispositif immobilise l'épargne pendant des décennies en échange d'un avantage nul ou négligeable.
+
+La dernière ligne n'a rien de théorique. Elle se produit lorsqu'une sortie en capital importante fait traverser plusieurs tranches l'année de la liquidation. Un épargnant modestement imposé pendant sa vie active peut ainsi être taxé plus lourdement à la sortie qu'il ne l'a été à l'entrée. C'est précisément le scénario que le fractionnement de la sortie sert à éviter.
+
+Ce tableau ignore volontairement deux éléments favorables au PER : l'économie d'impôt, si elle est réinvestie, produit elle-même du rendement pendant toute la durée du placement, et les gains relèvent du prélèvement forfaitaire et non du barème. Les intégrer déplace le point d'équilibre en faveur du PER, sans modifier la hiérarchie des situations.
+
+## Renoncer à la déduction, un choix qui se défend
+
+L'option est méconnue : rien ne t'oblige à déduire un versement. Tu peux demander qu'il soit enregistré comme **versement non déduit**, et l'indiquer dans ta déclaration de revenus.
+
+Trois situations où c'est le bon calcul.
+
+**Tu n'es pas imposable.** La déduction ne rapporte rien, et sans cette option la part correspondant aux versements serait tout de même imposée au barème à la sortie. Renoncer à un avantage nul pour éviter un impôt réel relève de l'arithmétique élémentaire, et c'est pourtant l'erreur la plus fréquente sur les petits versements.
+
+**Tu dépasses ton plafond.** L'excédent n'est de toute façon pas déductible. Le déclarer en versement non déduit évite qu'il soit imposé une seconde fois à la sortie.
+
+**Tu anticipes une tranche plus élevée à la retraite.** C'est rare, mais cela se rencontre chez un actif jeune faiblement imposé qui percevra plus tard des revenus fonciers, des droits d'auteur ou une pension élevée.
+
+Dans tous les cas, le choix se fait **versement par versement**, et non une fois pour toutes. Un même PER peut abriter des versements déduits et non déduits, le gestionnaire assurant le suivi séparé des deux. Encore faut-il que l'instruction soit donnée par écrit au moment du versement : la rectifier après coup est difficile, et impossible une fois la déclaration de revenus déposée.
 
 ## Optimiser le calendrier des versements
 

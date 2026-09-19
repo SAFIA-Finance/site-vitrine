@@ -5,7 +5,7 @@ titreSeo: "PER : fonctionnement complet et fiscalité 2026"
 description: "Versements déductibles, blocage, sortie en capital ou en rente : le PER expliqué, avec les plafonds 2026 et les nouveautés de la loi de finances."
 categorie: "Retraite"
 date: 2026-09-14
-lecture: 3
+lecture: 6
 essentiel:
   - "Le PER permet de **déduire les versements** du revenu imposable, dans la limite d'un plafond annuel."
   - "Les fonds sont **bloqués jusqu'à la retraite**, sauf six cas de déblocage anticipé."
@@ -60,6 +60,20 @@ Ton plafond personnel figure sur ton avis d'impôt, rubrique « plafond épargne
 
 Une possibilité reste méconnue : les plafonds sont **mutualisables entre conjoints** mariés ou pacsés, en cochant la case correspondante de la déclaration de revenus. Cela permet au conjoint disposant du plafond le plus élevé d'en faire bénéficier le foyer.
 
+## Les trois compartiments, et pourquoi ils ne se valent pas
+
+Un PER unique abrite en réalité trois poches distinctes, qui obéissent chacune à ses propres règles de sortie et de fiscalité. C'est le point le plus structurant du produit, et le plus rarement expliqué.
+
+**Le compartiment individuel** reçoit tes versements volontaires. C'est celui dont il est question dans la quasi-totalité des articles sur le PER : déduction à l'entrée, imposition au barème à la sortie, sortie libre en capital ou en rente.
+
+**Le compartiment collectif** reçoit l'épargne salariale : participation, intéressement, abondement de l'employeur, jours de compte épargne temps. Ces sommes n'ont pas été déduites, puisqu'elles bénéficiaient déjà d'un régime de faveur à l'entrée. À la sortie, la part correspondant aux versements est exonérée d'impôt sur le revenu, seuls les gains supportant les prélèvements sociaux. C'est, fiscalement, la poche la plus avantageuse des trois.
+
+**Le compartiment obligatoire** reçoit les cotisations versées au titre d'un dispositif rendu obligatoire par l'entreprise. C'est le seul qui impose une **sortie en rente** dès lors que le montant dépasse un certain seuil, sans option pour le capital.
+
+La conséquence pratique est directe : au moment de liquider, tu ne disposes pas d'un capital mais de trois, et l'ordre dans lequel tu les mobilises change l'impôt payé. Mobiliser d'abord le compartiment collectif, exonéré, avant d'entamer le compartiment individuel, imposé au barème, est le plus souvent le bon réflexe.
+
+Lors d'un transfert vers un nouveau PER, les compartiments se transfèrent à l'identique : une somme issue de l'épargne salariale conserve son régime de faveur, elle ne se transforme pas en versement volontaire. Vérifie que ton nouveau gestionnaire assure bien ce suivi par compartiment, car c'est lui qui conditionne la fiscalité à la sortie, parfois vingt ans plus tard.
+
 ## Le blocage et ses exceptions
 
 Les sommes sont indisponibles jusqu'à la retraite. Six cas de déblocage anticipé existent :
@@ -82,3 +96,18 @@ Elle dépend du choix fait à l'entrée.
 **Versements non déduits.** Si tu as renoncé à la déduction à l'entrée (ce qui est pertinent quand tu n'es pas ou peu imposable), la part correspondant aux versements ressort en franchise d'impôt, seuls les gains étant taxés.
 
 **En rente**, la fiscalité suit le régime des pensions ou celui des rentes viagères à titre onéreux, selon que les versements ont été déduits ou non.
+
+## Les frais, le poste qu'on compare rarement
+
+Le PER cumule les mêmes couches de frais qu'une assurance-vie, mais avec une durée de détention en général bien plus longue, ce qui amplifie mécaniquement leur effet.
+
+Quatre lignes à demander par écrit avant de signer :
+
+- les **frais sur versement**, qui se négocient et sont nuls chez la plupart des acteurs en ligne ;
+- les **frais de gestion du contrat**, prélevés chaque année sur l'encours ;
+- les **frais internes des supports**, prélevés en plus par les fonds eux-mêmes et invisibles sur les relevés ;
+- les **frais d'arrérages**, prélevés sur chaque versement de rente si tu choisis cette sortie.
+
+Sur trente ans, un écart de 0,5 point de frais annuels ampute le capital final d'environ 14 %. Sur un contrat de 150 000 €, cela représente près de 20 000 €, davantage que ce que produit la plupart des arbitrages de supports sur lesquels se concentre l'attention des épargnants.
+
+Un point mérite d'être vérifié spécifiquement sur le PER : les **frais de transfert**. Ils sont plafonnés après cinq ans de détention, et le plus souvent nuls au-delà. Avant cette durée, ils peuvent rendre un changement de gestionnaire coûteux, ce qui rend le choix initial plus engageant qu'il n'en a l'air.

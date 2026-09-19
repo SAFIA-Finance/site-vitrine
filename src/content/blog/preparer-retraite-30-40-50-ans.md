@@ -5,7 +5,7 @@ titreSeo: "Préparer sa retraite à 30, 40 ou 50 ans"
 description: "L'horizon change tout : l'effort, les supports, les priorités. Trois stratégies distinctes selon l'âge, avec les montants et les arbitrages correspondants."
 categorie: "Retraite"
 date: 2026-09-14
-lecture: 3
+lecture: 5
 essentiel:
   - "À **30 ans**, la variable dominante est le temps : un effort modeste et régulier suffit, et la priorité n'est pas la retraite."
   - "À **40 ans**, l'horizon reste long et la capacité d'épargne est à son maximum : c'est la décennie la plus productive."
@@ -18,6 +18,8 @@ faq:
     r: "Oui le plus souvent, les plafonds étant individuels, avec possibilité de mutualisation entre conjoints mariés ou pacsés."
   - q: "L'immobilier est-il une alternative ?"
     r: "C'est une option différente, avec ses propres contraintes de liquidité, de fiscalité et de gestion. Elle ne relève pas des mêmes arbitrages."
+  - q: "Que faire des plusieurs PER ouverts au fil des emplois ?"
+    r: "Les regrouper simplifie le suivi et réduit souvent les frais, mais l'opération n'est pas gagnante par principe. Trois points se vérifient avant de transférer : les frais de transfert, le plus souvent nuls après cinq ans de détention ; la qualité du fonds en euros du contrat d'origine, parfois supérieure à celle des contrats récents ; et la conservation des compartiments, l'épargne salariale devant garder son régime de faveur. Un contrat ancien et peu chargé mérite parfois d'être laissé tel quel."
 pages:
   - nom: "Cockpit stratégique"
     url: "/cockpit/"
@@ -65,7 +67,32 @@ Quinze ans d'horizon. C'est encore long, mais la marge d'erreur se réduit.
 
 **Les leviers de carrière deviennent chiffrables.** Rachat de trimestres, surcote, retraite progressive, cumul emploi-retraite. À cet âge, un trimestre supplémentaire a un effet mesurable et immédiat, là où une décision d'épargne met des années à produire son effet.
 
-**L'effort.** Six cents euros par mois de 50 à 65 ans, à 4 % nets, approchent **148 000 €**. L'effort mensuel est quatre fois supérieur à celui de l'épargnant de 30 ans pour un résultat comparable : c'est exactement le prix du temps perdu, et il se chiffre.
+**L'effort.** Six cents euros par mois de 50 à 65 ans, à 4 % nets, approchent **148 000 €**. L'effort mensuel est six fois supérieur à celui de l'épargnant de 30 ans pour un résultat comparable : c'est exactement le prix du temps perdu, et il se chiffre.
+
+## Et après 60 ans ?
+
+L'épargne ne fait plus grand-chose : cinq ans d'horizon ne construisent pas un capital significatif, et le risque n'est plus supportable. Trois leviers restent pourtant actifs, et ils pèsent à cet âge bien plus lourd que n'importe quelle décision de placement.
+
+**La surcote**, dont l'effet est immédiat, définitif et versé à vie. Quelques trimestres supplémentaires produisent davantage qu'une année d'épargne à cet âge.
+
+**Le versement PER de dernière minute.** Tant que tu es en activité et dans une tranche élevée, un versement reste déductible, et il peut être repris quelques années plus tard à une tranche plus basse. L'opération se joue entièrement sur l'écart de tranche, pas sur le rendement, et l'horizon court cesse d'être un handicap. Une réserve importante toutefois : depuis la loi de finances pour 2026, les versements effectués après 70 ans ne sont plus déductibles.
+
+**La préparation de la sortie.** Choisir l'année de liquidation, fractionner le capital, ordonner les compartiments dans le bon sens : sur un PER de taille moyenne, ces décisions valent davantage que dix années de surperformance des supports.
+
+Après 60 ans, la retraite ne se prépare plus en épargnant. Elle se prépare en décidant.
+
+## Les trois âges, côte à côte
+
+| | 30 ans | 40 ans | 50 ans |
+|---|---|---|---|
+| Horizon | 35 ans | 25 ans | 15 ans |
+| Variable dominante | le temps | la capacité d'épargne | la fiscalité |
+| Priorité | précaution, puis immobilier | arbitrage PER et assurance-vie | déduction et sécurisation |
+| Support dominant | forte part d'unités de compte | mixte | sécurisation progressive |
+| Effort pour un capital voisin de 150 000 € | 100 € par mois | 300 € par mois | 600 € par mois |
+| Erreur typique | vendre dans une baisse | laisser filer les augmentations | sécuriser trop tard |
+
+La ligne qui frappe est l'avant-dernière. Le rapport de un à six entre l'effort de l'épargnant de 30 ans et celui de l'épargnant de 50 ans, pour un résultat comparable, ne récompense aucune compétence particulière ni aucun placement habile. Il récompense seulement d'avoir commencé.
 
 ## La constante aux trois âges
 

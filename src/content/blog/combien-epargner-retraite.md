@@ -5,7 +5,7 @@ titreSeo: "Combien épargner par mois pour sa retraite ?"
 description: "La méthode en quatre étapes pour chiffrer l'effort mensuel réel, avec un tableau par âge de départ et les hypothèses posées explicitement."
 categorie: "Retraite"
 date: 2026-09-14
-lecture: 3
+lecture: 5
 essentiel:
   - "L'effort dépend de quatre variables : **le besoin de complément**, **l'horizon**, **le rendement retenu** et **le capital déjà constitué**."
   - "Le besoin réel est presque toujours **inférieur** à la perte de revenu, parce que les charges baissent aussi."
@@ -18,6 +18,8 @@ faq:
     r: "L'effort mensuel sera élevé et le rendement attendu plus faible, l'horizon court imposant de la prudence. D'autres leviers deviennent alors déterminants : le rachat de trimestres, le report du départ, la réduction des charges."
   - q: "Faut-il indexer ses versements ?"
     r: "Augmenter le versement en même temps que les revenus est la façon la plus indolore d'accroître l'effort."
+  - q: "Faut-il arrêter d'épargner une fois l'objectif atteint ?"
+    r: "Rarement, pour deux raisons. La première est que l'objectif a été calculé sur des hypothèses : un rendement inférieur à celui retenu suffit à le manquer, et une marge de sécurité de 15 à 20 % n'a rien d'excessif. La seconde est que le besoin lui-même évolue. La perte d'autonomie, l'aide à un enfant ou un déménagement tardif ne figurent dans aucun calcul fait à 45 ans. L'objectif sert à dimensionner l'effort au départ, pas à l'interrompre net une fois franchi : réduire le versement est un arbitrage raisonnable, l'arrêter dix ans avant l'échéance l'est beaucoup moins."
 pages:
   - nom: "Assistant IA"
     url: "/assistant-ia/"
@@ -59,6 +61,26 @@ Lecture : entre vingt et trente ans d'épargne, l'effort mensuel est presque div
 
 **L'hypothèse de 4 % nets est une hypothèse de calcul**, retenue pour illustrer la mécanique. Elle n'est pas garantie. Un placement en unités de compte peut perdre de la valeur, et un placement sans risque servira probablement moins.
 
+## Le même tableau, en euros constants
+
+Le tableau précédent raisonne en euros courants, et c'est sa faiblesse. Un capital de 150 000 € dans vingt-cinq ans n'achètera pas ce que 150 000 € achètent aujourd'hui.
+
+La correction est simple : au lieu de retenir un rendement de 4 %, retenir un rendement **net d'inflation**. Avec une inflation de 2 %, l'hypothèse de travail devient 2 % nets.
+
+Objectif : **150 000 € d'aujourd'hui**. Hypothèse : **2 % nets d'inflation**.
+
+| Durée d'épargne | Versement mensuel requis | Écart avec l'hypothèse à 4 % |
+|---|---|---|
+| 10 ans | 1 130 € | + 110 € |
+| 15 ans | 715 € | + 105 € |
+| 20 ans | 510 € | + 100 € |
+| 25 ans | 390 € | + 100 € |
+| 30 ans | 305 € | + 90 € |
+
+Lecture : sur les horizons longs, l'exigence augmente d'environ un tiers. C'est le prix de l'honnêteté du calcul.
+
+Faut-il pour autant retenir cette seconde version ? Les deux se défendent. Raisonner à 4 % courants donne une cible atteignable et évite de décourager ; raisonner à 2 % nets d'inflation donne une cible réaliste. Le compromis praticable consiste à retenir le chiffre courant comme point de départ, puis à **indexer le versement sur l'inflation** chaque année. Une augmentation annuelle de 2 % du versement produit un résultat proche d'un effort initial majoré d'un tiers, et elle est incomparablement plus facile à tenir, parce qu'elle suit la progression des revenus au lieu de la précéder.
+
 ## L'exemple complet
 
 **Exemple.** Amélie, 40 ans, 3 200 € nets par mois. Estimation de pension : 1 900 € nets.
@@ -71,6 +93,20 @@ Lecture : entre vingt et trente ans d'épargne, l'effort mensuel est presque div
 *Versement mensuel requis :* environ **135 €**.
 
 Cent trente-cinq euros. C'est le chiffre qui compte, et il n'a rien à voir avec les 1 300 € de perte de revenu qui servent habituellement à dramatiser le sujet. La méthode consiste précisément à passer de l'un à l'autre.
+
+## Quand la capacité d'épargne n'est pas régulière
+
+Le calcul d'une mensualité suppose un versement constant pendant vingt-cinq ans. Presque personne ne vit ainsi.
+
+Trois profils s'écartent du modèle, avec chacun une adaptation.
+
+**Les revenus variables**, chez les indépendants, les commerciaux ou les professions à primes. Le versement programmé se cale sur le plancher de revenu, jamais sur la moyenne, et les versements libres complètent les bonnes années. L'erreur classique consiste à programmer sur la moyenne, à suspendre à la première mauvaise année, puis à ne jamais reprendre.
+
+**Les années de charge lourde** : jeunes enfants, achat immobilier, séparation. Mieux vaut réduire temporairement le versement que le supprimer. Un prélèvement maintenu à 50 € conserve l'habitude et le contrat ; un prélèvement arrêté ne repart généralement pas.
+
+**Les rentrées exceptionnelles** : prime, héritage, cession. C'est là que se joue une part importante du résultat final. Affecter à l'épargne une fraction définie à l'avance, la moitié par exemple, évite l'arbitrage au cas par cas, lequel se conclut rarement en faveur de l'épargne.
+
+Dans les trois cas, la variable à protéger est la **continuité**, pas le montant. Un versement de 150 € tenu vingt-cinq ans produit environ **77 000 €** à 4 % nets, pour 45 000 € réellement versés. Obtenir le même capital en ne s'y mettant que huit ans avant l'échéance suppose 700 € par mois, soit **67 000 € versés** pour un résultat équivalent. Vingt-deux mille euros d'effort supplémentaire pour le même résultat : c'est le prix de la discontinuité, et aucune discipline tardive ne le rattrape.
 
 ## Les trois erreurs qui faussent tout
 

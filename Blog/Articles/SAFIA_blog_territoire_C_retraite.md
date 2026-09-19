@@ -66,6 +66,32 @@ Les simulateurs officiels produisent une estimation **non contractuelle**. Elle 
 
 Cela n'en fait pas un exercice inutile : même approximative, elle donne l'échelle du problème, et c'est l'échelle qui détermine la décision.
 
+### Les trois âges à ne pas confondre
+
+Trois âges différents circulent dans les conversations sur la retraite, et les confondre fausse toute projection.
+
+**L'âge légal de départ** est celui à partir duquel tu peux demander la liquidation. Y partir ne garantit nullement le taux plein.
+
+**L'âge d'annulation de la décote** est celui à partir duquel la minoration ne s'applique plus, quel que soit le nombre de trimestres acquis. C'est le filet de sécurité des carrières incomplètes.
+
+**L'âge auquel tu réunis la durée d'assurance requise** dépend de ta génération et de ta date d'entrée dans la vie active. Pour une carrière commencée tôt et sans interruption, il précède de plusieurs années l'âge d'annulation de la décote.
+
+Une estimation qui ne précise pas lequel de ces trois âges elle retient ne veut rien dire. Les simulateurs officiels affichent d'ailleurs plusieurs scénarios de départ, et c'est la bonne façon de lire le résultat : non pas un montant, mais une série de montants en fonction de la date de départ retenue.
+
+### Le cas des carrières passées par plusieurs régimes
+
+Changer de statut au cours d'une carrière est devenu ordinaire : salarié puis indépendant, fonctionnaire puis salarié du privé, ou quelques années sous un régime particulier en début de parcours. Chaque passage laisse des droits qui ne se lisent pas au même endroit.
+
+Le relevé de carrière les agrège, mais deux difficultés subsistent.
+
+**Les droits les plus anciens sont les plus souvent manquants.** Un emploi étudiant, six mois d'intérim à vingt ans, une année d'apprentissage : ces périodes valident parfois un ou deux trimestres, et ce sont celles qui disparaissent le plus volontiers des fichiers. Elles pèsent pourtant exactement autant qu'un trimestre acquis à cinquante ans.
+
+**La retraite complémentaire des indépendants n'obéit pas aux mêmes règles** que celle des salariés du privé. Selon l'activité exercée et la caisse dont tu relevais, l'acquisition des points et leur valeur diffèrent. Un relevé qui affiche un total de points sans préciser le régime dont ils proviennent ne permet aucune estimation fiable.
+
+La liquidation unique des régimes alignés a simplifié le traitement pour les assurés ayant relevé du régime général, du régime agricole et de l'ancien régime des indépendants : la pension est calculée une seule fois, sur l'ensemble de la carrière. Cela ne dispense pas de vérifier que chaque période a bien été transmise.
+
+**Exemple.** Nadia a été salariée dix ans, puis libérale quinze ans, puis à nouveau salariée. Son relevé reprend correctement ses années de salariat, mais deux années de début d'activité libérale, pendant lesquelles son revenu était faible, n'apparaissent pas. Elles valident pourtant trois trimestres. Comme un trimestre manquant réduit la pension deux fois, par le taux et par le prorata, ces trois trimestres retrouvés valent plusieurs dizaines d'euros de pension mensuelle, versés à vie.
+
 ### Les trois erreurs courantes
 
 **Ignorer la complémentaire.** C'est l'erreur qui fausse le plus les estimations improvisées.
@@ -84,6 +110,9 @@ Une demande de régularisation peut être déposée, pièces justificatives à l
 
 **Les années à l'étranger comptent-elles ?**
 Selon les conventions applicables et le pays concerné. C'est un point à vérifier tôt.
+
+**Un régime spécial change-t-il la méthode ?**
+Les règles de calcul lui sont propres, parfois très différentes. Le relevé de carrière reste le point de départ, mais l'estimation doit être demandée à la caisse concernée.
 
 ### Sources
 
@@ -135,6 +164,20 @@ Ton plafond personnel figure sur ton avis d'impôt, rubrique « plafond épargne
 
 Une possibilité reste méconnue : les plafonds sont **mutualisables entre conjoints** mariés ou pacsés, en cochant la case correspondante de la déclaration de revenus. Cela permet au conjoint disposant du plafond le plus élevé d'en faire bénéficier le foyer.
 
+### Les trois compartiments, et pourquoi ils ne se valent pas
+
+Un PER unique abrite en réalité trois poches distinctes, qui obéissent chacune à ses propres règles de sortie et de fiscalité. C'est le point le plus structurant du produit, et le plus rarement expliqué.
+
+**Le compartiment individuel** reçoit tes versements volontaires. C'est celui dont il est question dans la quasi-totalité des articles sur le PER : déduction à l'entrée, imposition au barème à la sortie, sortie libre en capital ou en rente.
+
+**Le compartiment collectif** reçoit l'épargne salariale : participation, intéressement, abondement de l'employeur, jours de compte épargne temps. Ces sommes n'ont pas été déduites, puisqu'elles bénéficiaient déjà d'un régime de faveur à l'entrée. À la sortie, la part correspondant aux versements est exonérée d'impôt sur le revenu, seuls les gains supportant les prélèvements sociaux. C'est, fiscalement, la poche la plus avantageuse des trois.
+
+**Le compartiment obligatoire** reçoit les cotisations versées au titre d'un dispositif rendu obligatoire par l'entreprise. C'est le seul qui impose une **sortie en rente** dès lors que le montant dépasse un certain seuil, sans option pour le capital.
+
+La conséquence pratique est directe : au moment de liquider, tu ne disposes pas d'un capital mais de trois, et l'ordre dans lequel tu les mobilises change l'impôt payé. Mobiliser d'abord le compartiment collectif, exonéré, avant d'entamer le compartiment individuel, imposé au barème, est le plus souvent le bon réflexe.
+
+Lors d'un transfert vers un nouveau PER, les compartiments se transfèrent à l'identique : une somme issue de l'épargne salariale conserve son régime de faveur, elle ne se transforme pas en versement volontaire. Vérifie que ton nouveau gestionnaire assure bien ce suivi par compartiment, car c'est lui qui conditionne la fiscalité à la sortie, parfois vingt ans plus tard.
+
 ### Le blocage et ses exceptions
 
 Les sommes sont indisponibles jusqu'à la retraite. Six cas de déblocage anticipé existent :
@@ -157,6 +200,21 @@ Elle dépend du choix fait à l'entrée.
 **Versements non déduits.** Si tu as renoncé à la déduction à l'entrée (ce qui est pertinent quand tu n'es pas ou peu imposable), la part correspondant aux versements ressort en franchise d'impôt, seuls les gains étant taxés.
 
 **En rente**, la fiscalité suit le régime des pensions ou celui des rentes viagères à titre onéreux, selon que les versements ont été déduits ou non.
+
+### Les frais, le poste qu'on compare rarement
+
+Le PER cumule les mêmes couches de frais qu'une assurance-vie, mais avec une durée de détention en général bien plus longue, ce qui amplifie mécaniquement leur effet.
+
+Quatre lignes à demander par écrit avant de signer :
+
+- les **frais sur versement**, qui se négocient et sont nuls chez la plupart des acteurs en ligne ;
+- les **frais de gestion du contrat**, prélevés chaque année sur l'encours ;
+- les **frais internes des supports**, prélevés en plus par les fonds eux-mêmes et invisibles sur les relevés ;
+- les **frais d'arrérages**, prélevés sur chaque versement de rente si tu choisis cette sortie.
+
+Sur trente ans, un écart de 0,5 point de frais annuels ampute le capital final d'environ 14 %. Sur un contrat de 150 000 €, cela représente près de 20 000 €, davantage que ce que produit la plupart des arbitrages de supports sur lesquels se concentre l'attention des épargnants.
+
+Un point mérite d'être vérifié spécifiquement sur le PER : les **frais de transfert**. Ils sont plafonnés après cinq ans de détention, et le plus souvent nuls au-delà. Avant cette durée, ils peuvent rendre un changement de gestionnaire coûteux, ce qui rend le choix initial plus engageant qu'il n'en a l'air.
 
 ### Questions fréquentes
 
@@ -228,6 +286,41 @@ Le gain net réel est l'**écart entre ta tranche aujourd'hui et ta tranche à l
 
 **Ce n'est pas une réduction d'impôt.** C'est une déduction du revenu imposable. La différence est importante : une réduction s'impute sur l'impôt dû, une déduction réduit la base de calcul.
 
+### Le vrai critère : l'écart entre ta tranche d'aujourd'hui et celle de demain
+
+Puisque l'impôt est reporté et non annulé, le gain réel se mesure par différence. Le tableau suivant donne le gain fiscal net sur la part correspondant aux versements, pour 10 000 € versés.
+
+| Tranche au versement | Tranche à la sortie | Gain fiscal net sur 10 000 € versés |
+|---|---|---|
+| 41 % | 11 % | 30 points, soit 3 000 € |
+| 41 % | 30 % | 11 points, soit 1 100 € |
+| 30 % | 11 % | 19 points, soit 1 900 € |
+| 30 % | 30 % | nul |
+| 11 % | 11 % | nul |
+| 11 % | 30 % | négatif : 19 points perdus, soit 1 900 € |
+
+Deux enseignements en sortent.
+
+Le PER n'a d'intérêt marqué qu'à partir de la tranche à 30 %, et il devient franchement efficace en tranche à 41 % ou 45 %. En tranche à 11 %, le dispositif immobilise l'épargne pendant des décennies en échange d'un avantage nul ou négligeable.
+
+La dernière ligne n'a rien de théorique. Elle se produit lorsqu'une sortie en capital importante fait traverser plusieurs tranches l'année de la liquidation. Un épargnant modestement imposé pendant sa vie active peut ainsi être taxé plus lourdement à la sortie qu'il ne l'a été à l'entrée. C'est précisément le scénario que le fractionnement de la sortie sert à éviter.
+
+Ce tableau ignore volontairement deux éléments favorables au PER : l'économie d'impôt, si elle est réinvestie, produit elle-même du rendement pendant toute la durée du placement, et les gains relèvent du prélèvement forfaitaire et non du barème. Les intégrer déplace le point d'équilibre en faveur du PER, sans modifier la hiérarchie des situations.
+
+### Renoncer à la déduction, un choix qui se défend
+
+L'option est méconnue : rien ne t'oblige à déduire un versement. Tu peux demander qu'il soit enregistré comme **versement non déduit**, et l'indiquer dans ta déclaration de revenus.
+
+Trois situations où c'est le bon calcul.
+
+**Tu n'es pas imposable.** La déduction ne rapporte rien, et sans cette option la part correspondant aux versements serait tout de même imposée au barème à la sortie. Renoncer à un avantage nul pour éviter un impôt réel relève de l'arithmétique élémentaire, et c'est pourtant l'erreur la plus fréquente sur les petits versements.
+
+**Tu dépasses ton plafond.** L'excédent n'est de toute façon pas déductible. Le déclarer en versement non déduit évite qu'il soit imposé une seconde fois à la sortie.
+
+**Tu anticipes une tranche plus élevée à la retraite.** C'est rare, mais cela se rencontre chez un actif jeune faiblement imposé qui percevra plus tard des revenus fonciers, des droits d'auteur ou une pension élevée.
+
+Dans tous les cas, le choix se fait **versement par versement**, et non une fois pour toutes. Un même PER peut abriter des versements déduits et non déduits, le gestionnaire assurant le suivi séparé des deux. Encore faut-il que l'instruction soit donnée par écrit au moment du versement : la rectifier après coup est difficile, et impossible une fois la déclaration de revenus déposée.
+
 ### Optimiser le calendrier des versements
 
 Puisque l'économie dépend de la tranche de l'année, **verse les années où ta tranche est élevée**.
@@ -248,6 +341,9 @@ L'excédent n'est pas déductible. Il peut être conservé en versement non déd
 
 **Puis-je utiliser le plafond de mon conjoint ?**
 Oui, pour les couples mariés ou pacsés, en cochant la case prévue sur la déclaration de revenus.
+
+**L'économie d'impôt doit-elle être réinvestie ?**
+C'est l'hypothèse implicite de toute démonstration commerciale sur le PER, et elle n'est pas toujours vérifiée dans les faits. Si l'économie est consommée, le PER revient à bloquer son épargne jusqu'à la retraite pour un gain qui se réduit au seul écart de tranche entre l'entrée et la sortie. Virer l'économie sur un support d'épargne le mois même de la restitution est ce qui transforme l'avantage affiché en avantage réel.
 
 ### Sources
 
@@ -313,6 +409,38 @@ Ces montants sont des ordres de grandeur, dépendants du barème applicable et d
 
 Le **taux de conversion** (le montant de rente obtenu pour 100 000 € de capital) dépend de l'âge à la liquidation, des tables de mortalité et du taux technique. Demande-le par écrit, et compare-le entre assureurs : les écarts sont significatifs.
 
+### Les sept questions à poser avant de signer une rente
+
+La conversion est irréversible. Elle mérite le même niveau d'examen qu'un achat immobilier, et les réponses doivent être obtenues par écrit.
+
+**Quel est le taux de conversion appliqué ?** Autrement dit le montant de rente annuelle servi pour 100 000 € de capital, à ton âge exact à la liquidation.
+
+**Sur quelle table de mortalité ?** Elle détermine la durée de versement anticipée par l'assureur, donc directement le montant de la rente.
+
+**Quel taux technique ?** C'est le rendement que l'assureur intègre par avance dans son calcul. Un taux technique élevé augmente la rente initiale mais réduit d'autant les revalorisations futures.
+
+**Comment la rente est-elle revalorisée ?** Une rente non indexée perd environ un quart de son pouvoir d'achat en quinze ans avec une inflation de 2 %. Sur une rente servie vingt-cinq ans, la question pèse davantage que le taux de conversion lui-même.
+
+**Quelles sont les options de réversion ?** À quel pourcentage, au profit de qui, et à quel coût sur le montant de départ.
+
+**Y a-t-il des annuités garanties ?** Elles assurent le versement pendant une durée minimale même en cas de décès précoce, ce qui répond à la principale objection faite à la rente.
+
+**Quels sont les frais d'arrérages ?** Prélevés sur chaque versement, ils réduisent la rente pendant toute sa durée.
+
+Un assureur qui ne répond pas par écrit à ces sept questions ne mérite pas la décision.
+
+### L'année de liquidation se choisit
+
+Le PER ne se liquide pas automatiquement au départ en retraite. Tu peux différer, et ce décalage constitue un levier fiscal à part entière, souvent plus rentable que n'importe quel arbitrage de supports.
+
+L'année du départ est fréquemment la pire année possible pour sortir en capital : elle cumule encore plusieurs mois de salaire, parfois une indemnité de départ, et déjà quelques mois de pension. Le revenu imposable y est anormalement élevé.
+
+L'année suivante, le revenu se limite à la pension. La même sortie en capital y traverse des tranches plus basses.
+
+**Exemple.** Patrick part en retraite fin septembre. Son revenu imposable de l'année comprend neuf mois de salaire et trois mois de pension. S'il sort 40 000 € de son PER en décembre, cette somme s'empile sur un revenu déjà presque complet et se trouve imposée en grande partie à 41 %. En attendant janvier, elle s'ajoute à un revenu constitué de la seule pension, et l'essentiel reste dans la tranche à 30 %. Un décalage de trois semaines vaut ici plusieurs milliers d'euros.
+
+Le même raisonnement joue en sens inverse pour le dernier versement déductible : il a tout intérêt à intervenir pendant la dernière année de pleine activité, quand la tranche marginale est encore haute.
+
 ### La question non fiscale à se poser
 
 As-tu d'autres revenus garantis à vie suffisants pour couvrir tes dépenses incompressibles ?
@@ -332,6 +460,9 @@ Sur les versements volontaires et l'épargne salariale, oui. Certains compartime
 
 **Y a-t-il un âge maximal pour liquider ?**
 Non, et différer la liquidation peut avoir un intérêt fiscal si tes autres revenus baissent ensuite.
+
+**Peut-on sortir une partie en capital et continuer à verser ?**
+Oui. Une liquidation totale ferme le plan, mais une sortie partielle en capital le laisse ouvert, et les versements restent possibles, avec la déduction correspondante si tu es encore imposable. C'est un intérêt du fractionnement rarement mis en avant : il ne referme pas la porte. Depuis la loi de finances pour 2026, la déductibilité s'arrête toutefois à 70 ans.
 
 ### Sources
 
@@ -382,6 +513,26 @@ Lecture : entre vingt et trente ans d'épargne, l'effort mensuel est presque div
 
 **L'hypothèse de 4 % nets est une hypothèse de calcul**, retenue pour illustrer la mécanique. Elle n'est pas garantie. Un placement en unités de compte peut perdre de la valeur, et un placement sans risque servira probablement moins.
 
+### Le même tableau, en euros constants
+
+Le tableau précédent raisonne en euros courants, et c'est sa faiblesse. Un capital de 150 000 € dans vingt-cinq ans n'achètera pas ce que 150 000 € achètent aujourd'hui.
+
+La correction est simple : au lieu de retenir un rendement de 4 %, retenir un rendement **net d'inflation**. Avec une inflation de 2 %, l'hypothèse de travail devient 2 % nets.
+
+Objectif : **150 000 € d'aujourd'hui**. Hypothèse : **2 % nets d'inflation**.
+
+| Durée d'épargne | Versement mensuel requis | Écart avec l'hypothèse à 4 % |
+|---|---|---|
+| 10 ans | 1 130 € | + 110 € |
+| 15 ans | 715 € | + 105 € |
+| 20 ans | 510 € | + 100 € |
+| 25 ans | 390 € | + 100 € |
+| 30 ans | 305 € | + 90 € |
+
+Lecture : sur les horizons longs, l'exigence augmente d'environ un tiers. C'est le prix de l'honnêteté du calcul.
+
+Faut-il pour autant retenir cette seconde version ? Les deux se défendent. Raisonner à 4 % courants donne une cible atteignable et évite de décourager ; raisonner à 2 % nets d'inflation donne une cible réaliste. Le compromis praticable consiste à retenir le chiffre courant comme point de départ, puis à **indexer le versement sur l'inflation** chaque année. Une augmentation annuelle de 2 % du versement produit un résultat proche d'un effort initial majoré d'un tiers, et elle est incomparablement plus facile à tenir, parce qu'elle suit la progression des revenus au lieu de la précéder.
+
 ### L'exemple complet
 
 **Exemple.** Amélie, 40 ans, 3 200 € nets par mois. Estimation de pension : 1 900 € nets.
@@ -394,6 +545,20 @@ Lecture : entre vingt et trente ans d'épargne, l'effort mensuel est presque div
 *Versement mensuel requis :* environ **135 €**.
 
 Cent trente-cinq euros. C'est le chiffre qui compte, et il n'a rien à voir avec les 1 300 € de perte de revenu qui servent habituellement à dramatiser le sujet. La méthode consiste précisément à passer de l'un à l'autre.
+
+### Quand la capacité d'épargne n'est pas régulière
+
+Le calcul d'une mensualité suppose un versement constant pendant vingt-cinq ans. Presque personne ne vit ainsi.
+
+Trois profils s'écartent du modèle, avec chacun une adaptation.
+
+**Les revenus variables**, chez les indépendants, les commerciaux ou les professions à primes. Le versement programmé se cale sur le plancher de revenu, jamais sur la moyenne, et les versements libres complètent les bonnes années. L'erreur classique consiste à programmer sur la moyenne, à suspendre à la première mauvaise année, puis à ne jamais reprendre.
+
+**Les années de charge lourde** : jeunes enfants, achat immobilier, séparation. Mieux vaut réduire temporairement le versement que le supprimer. Un prélèvement maintenu à 50 € conserve l'habitude et le contrat ; un prélèvement arrêté ne repart généralement pas.
+
+**Les rentrées exceptionnelles** : prime, héritage, cession. C'est là que se joue une part importante du résultat final. Affecter à l'épargne une fraction définie à l'avance, la moitié par exemple, évite l'arbitrage au cas par cas, lequel se conclut rarement en faveur de l'épargne.
+
+Dans les trois cas, la variable à protéger est la **continuité**, pas le montant. Un versement de 150 € tenu vingt-cinq ans produit environ **77 000 €** à 4 % nets, pour 45 000 € réellement versés. Obtenir le même capital en ne s'y mettant que huit ans avant l'échéance suppose 700 € par mois, soit **67 000 € versés** pour un résultat équivalent. Vingt-deux mille euros d'effort supplémentaire pour le même résultat : c'est le prix de la discontinuité, et aucune discipline tardive ne le rattrape.
 
 ### Les trois erreurs qui faussent tout
 
@@ -413,6 +578,9 @@ L'effort mensuel sera élevé et le rendement attendu plus faible, l'horizon cou
 
 **Faut-il indexer ses versements ?**
 Augmenter le versement en même temps que les revenus est la façon la plus indolore d'accroître l'effort.
+
+**Faut-il arrêter d'épargner une fois l'objectif atteint ?**
+Rarement, pour deux raisons. La première est que l'objectif a été calculé sur des hypothèses : un rendement inférieur à celui retenu suffit à le manquer, et une marge de sécurité de 15 à 20 % n'a rien d'excessif. La seconde est que le besoin lui-même évolue. La perte d'autonomie, l'aide à un enfant ou un déménagement tardif ne figurent dans aucun calcul fait à 45 ans. L'objectif sert à dimensionner l'effort au départ, pas à l'interrompre net une fois franchi : réduire le versement est un arbitrage raisonnable, l'arrêter dix ans avant l'échéance l'est beaucoup moins.
 
 ### Sources
 
@@ -477,6 +645,20 @@ Il faut aussi distinguer :
 
 Cette distinction compte pour certains dispositifs de départ anticipé, qui ne retiennent que les trimestres cotisés.
 
+### Les majorations que personne ne vérifie
+
+Au-delà des trimestres cotisés et assimilés, le système prévoit des majorations qui s'ajoutent en principe sans démarche, et qui manquent pourtant régulièrement sur les relevés.
+
+**La majoration pour enfants.** Des trimestres sont attribués au titre de la maternité ou de l'adoption, et au titre de l'éducation. Ces derniers peuvent être partagés entre les parents, sur option exercée dans un délai limité après la naissance. Passé ce délai, la répartition par défaut s'applique définitivement, et elle ne se renégocie pas quinze ans plus tard.
+
+**La majoration de pension pour trois enfants et plus.** Elle majore la pension d'un pourcentage, dans le régime de base comme dans la complémentaire. Contrairement à une idée répandue, elle est imposable.
+
+**Les périodes de congé parental**, qui peuvent valider des trimestres sans cotisation. Elles ne se cumulent pas intégralement avec la majoration pour enfants : c'est la formule la plus favorable qui est retenue, et encore faut-il que la caisse dispose de l'information.
+
+**L'assurance vieillesse des aidants**, qui permet de valider des trimestres à la personne ayant interrompu ou réduit son activité pour s'occuper d'un proche en situation de handicap ou de perte d'autonomie. C'est le dispositif le plus méconnu du système, et le moins réclamé.
+
+Le point commun de ces majorations est qu'elles reposent sur des faits que les caisses ne connaissent pas toujours : une adoption, un congé pris sans déclaration spécifique, une aidance familiale jamais formalisée. Les vérifier suppose de lire le relevé ligne à ligne plutôt que d'en regarder seulement le total.
+
 ### Les leviers disponibles
 
 **Le rachat de trimestres** permet d'acquérir des trimestres au titre des années d'études supérieures ou des années incomplètes, dans une limite fixée. Le coût dépend de l'âge et des revenus. Il est déductible du revenu imposable, ce qui en réduit le coût réel pour les contribuables fortement imposés. Le calcul de rentabilité dépend de l'effet réel sur la pension, qui peut être nul si tu atteindras de toute façon le taux plein.
@@ -484,6 +666,18 @@ Cette distinction compte pour certains dispositifs de départ anticipé, qui ne 
 **Le cumul emploi-retraite**, sous conditions, permet de percevoir sa pension et de poursuivre une activité.
 
 **La retraite progressive** permet de réduire son activité tout en percevant une fraction de sa pension.
+
+### Rachat de trimestres : les trois questions qui décident
+
+Le rachat est le seul levier permettant d'acquérir directement des trimestres. C'est aussi celui qui produit le plus de dépenses inutiles, parce que la décision se prend souvent sans les trois vérifications suivantes.
+
+**Premièrement : le trimestre racheté change-t-il quelque chose ?** Si tu atteindras le taux plein de toute façon à l'âge prévu, le rachat ne modifie ni le taux ni le prorata. Il n'achète rien du tout. C'est le cas de figure le plus fréquent de rachat inutile, et il se détecte en comparant simplement deux estimations sur le portail officiel, avec et sans les trimestres concernés.
+
+**Deuxièmement : quelle option choisis-tu ?** Le rachat peut porter sur le taux seul, ou sur le taux et la durée d'assurance. La seconde option est nettement plus chère et n'a d'intérêt que si le coefficient de proratisation est lui aussi incomplet. Payer l'option coûteuse quand la simple suffisait est le second gaspillage classique.
+
+**Troisièmement : quel est le délai de retour ?** Le coût du rachat est connu à l'avance, le gain de pension mensuel également. Le rapport des deux donne le nombre d'années nécessaires pour amortir l'opération. En dessous de dix ans, elle est généralement solide ; au-delà de quinze, elle relève du pari sur la longévité.
+
+Un élément joue fortement en faveur du rachat et s'oublie souvent : le montant versé est **déductible du revenu imposable**, sans être soumis au plafond de l'épargne retraite. En tranche à 41 %, un rachat de 15 000 € coûte réellement 8 850 €, ce qui réduit presque de moitié le délai de retour. C'est ce qui rend l'opération intéressante pour les contribuables fortement imposés, et beaucoup moins pour les autres. Le rachat se décide donc au vu de deux paramètres simultanés : l'effet réel sur la pension, et la tranche marginale de l'année du versement.
 
 ### Questions fréquentes
 
@@ -553,7 +747,32 @@ Quinze ans d'horizon. C'est encore long, mais la marge d'erreur se réduit.
 
 **Les leviers de carrière deviennent chiffrables.** Rachat de trimestres, surcote, retraite progressive, cumul emploi-retraite. À cet âge, un trimestre supplémentaire a un effet mesurable et immédiat, là où une décision d'épargne met des années à produire son effet.
 
-**L'effort.** Six cents euros par mois de 50 à 65 ans, à 4 % nets, approchent **148 000 €**. L'effort mensuel est quatre fois supérieur à celui de l'épargnant de 30 ans pour un résultat comparable : c'est exactement le prix du temps perdu, et il se chiffre.
+**L'effort.** Six cents euros par mois de 50 à 65 ans, à 4 % nets, approchent **148 000 €**. L'effort mensuel est six fois supérieur à celui de l'épargnant de 30 ans pour un résultat comparable : c'est exactement le prix du temps perdu, et il se chiffre.
+
+### Et après 60 ans ?
+
+L'épargne ne fait plus grand-chose : cinq ans d'horizon ne construisent pas un capital significatif, et le risque n'est plus supportable. Trois leviers restent pourtant actifs, et ils pèsent à cet âge bien plus lourd que n'importe quelle décision de placement.
+
+**La surcote**, dont l'effet est immédiat, définitif et versé à vie. Quelques trimestres supplémentaires produisent davantage qu'une année d'épargne à cet âge.
+
+**Le versement PER de dernière minute.** Tant que tu es en activité et dans une tranche élevée, un versement reste déductible, et il peut être repris quelques années plus tard à une tranche plus basse. L'opération se joue entièrement sur l'écart de tranche, pas sur le rendement, et l'horizon court cesse d'être un handicap. Une réserve importante toutefois : depuis la loi de finances pour 2026, les versements effectués après 70 ans ne sont plus déductibles.
+
+**La préparation de la sortie.** Choisir l'année de liquidation, fractionner le capital, ordonner les compartiments dans le bon sens : sur un PER de taille moyenne, ces décisions valent davantage que dix années de surperformance des supports.
+
+Après 60 ans, la retraite ne se prépare plus en épargnant. Elle se prépare en décidant.
+
+### Les trois âges, côte à côte
+
+| | 30 ans | 40 ans | 50 ans |
+|---|---|---|---|
+| Horizon | 35 ans | 25 ans | 15 ans |
+| Variable dominante | le temps | la capacité d'épargne | la fiscalité |
+| Priorité | précaution, puis immobilier | arbitrage PER et assurance-vie | déduction et sécurisation |
+| Support dominant | forte part d'unités de compte | mixte | sécurisation progressive |
+| Effort pour un capital voisin de 150 000 € | 100 € par mois | 300 € par mois | 600 € par mois |
+| Erreur typique | vendre dans une baisse | laisser filer les augmentations | sécuriser trop tard |
+
+La ligne qui frappe est l'avant-dernière. Le rapport de un à six entre l'effort de l'épargnant de 30 ans et celui de l'épargnant de 50 ans, pour un résultat comparable, ne récompense aucune compétence particulière ni aucun placement habile. Il récompense seulement d'avoir commencé.
 
 ### La constante aux trois âges
 
@@ -571,6 +790,9 @@ Oui le plus souvent, les plafonds étant individuels, avec possibilité de mutua
 
 **L'immobilier est-il une alternative ?**
 C'est une option différente, avec ses propres contraintes de liquidité, de fiscalité et de gestion. Elle ne relève pas des mêmes arbitrages.
+
+**Que faire des plusieurs PER ouverts au fil des emplois ?**
+Les regrouper simplifie le suivi et réduit souvent les frais, mais l'opération n'est pas gagnante par principe. Trois points se vérifient avant de transférer : les frais de transfert, le plus souvent nuls après cinq ans de détention ; la qualité du fonds en euros du contrat d'origine, parfois supérieure à celle des contrats récents ; et la conservation des compartiments, l'épargne salariale devant garder son régime de faveur. Un contrat ancien et peu chargé mérite parfois d'être laissé tel quel.
 
 ### Sources
 
