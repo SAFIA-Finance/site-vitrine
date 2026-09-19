@@ -100,7 +100,11 @@ const categorieUrl = `/blog/categorie/${slugCategorie(data.categorie)}/`;
 
   <div class="article-sources">
     <h2>Sources</h2>
-    <p>{data.sources}</p>
+    {/* « enrichir » plutôt que l'interpolation brute : les sources sont une
+        chaîne d'auteur, et la même fonction qui rend les liens de « L'essentiel »
+        et de la FAQ y transforme « [texte](url) » en lien. Inerte tant qu'une
+        source ne porte pas de lien, puisqu'elle échappe tout le reste. */}
+    <p set:html={enrichir(data.sources)} />
     <p class="article-date">Chiffres et textes vérifiés au {dateFr(data.date)}. Les taux et seuils évoluent : cet article sera daté à nouveau s'il est mis à jour.</p>
   </div>
 

@@ -4,6 +4,7 @@
 import { getCollection } from 'astro:content';
 import Base from '../../../layouts/Base.astro';
 import { slugCategorie, dateFr, dateIso, parDate } from '../../../blog.js';
+import { CATEGORIES_TEXTE } from '../../../data/categories.js';
 
 export async function getStaticPaths() {
   const articles = (await getCollection('blog', ({ data }) => !data.brouillon)).sort(parDate);
@@ -21,6 +22,9 @@ export async function getStaticPaths() {
 
 const { categorie, articles, categories } = Astro.props;
 const fil = ['Accueil', 'Le blog', categorie];
+// Absent si la clé manque : la page sort alors comme avant, avec son seul
+// comptage d'articles, plutôt que d'afficher un trou.
+const texte = CATEGORIES_TEXTE[categorie] ?? null;
 ---
 
 <Base
@@ -37,7 +41,10 @@ const fil = ['Accueil', 'Le blog', categorie];
     <a href="/blog/">Le blog</a> <span aria-hidden="true">/</span> {categorie}
   </p>
   <h1>{categorie}</h1>
-  <p class="chapo">{articles.length} article{articles.length > 1 ? 's' : ''} sur ce thème.</p>
+  <p class="chapo">{texte ? texte.chapo : `${articles.length} article${articles.length > 1 ? 's' : ''} sur ce thème.`}</p>
+  {texte && (
+    <p class="sous-actions">{articles.length} article{articles.length > 1 ? 's' : ''} sur ce thème.</p>
+  )}
 </div>
 </section>
 
@@ -67,6 +74,21 @@ const fil = ['Accueil', 'Le blog', categorie];
   </div>
 </div>
 </section>
+
+{/* La prose vient APRÈS la liste, comme sur /outils/ : ces pages servent à
+    choisir un article, et pousser la liste vers le bas pour installer du texte
+    abîmerait leur seule fonction. Fond BLANC entre « blog-bloc », qui est en
+    lavande faute de règle propre, et « final » qui est en nuit. */}
+{texte && (
+<section class="bloc appui-bloc">
+<div class="wrap">
+  <h2 class="titre">{categorie} : ce qu'il faut savoir</h2>
+  <div class="prose">
+    {texte.texte.map((p, i) => <p class={i === 0 ? 'intro' : undefined}>{p}</p>)}
+  </div>
+</div>
+</section>
+)}
 
 <section class="final">
 <div class="wrap final-simple">
