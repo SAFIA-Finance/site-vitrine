@@ -167,6 +167,20 @@ const faq = [
 </div>
 </section>
 
+{/* FAQ rendue a partir du meme tableau que le balisage FAQPage : declarer des
+    questions absentes de la page est proscrit. Fond blanc, qui repare au
+    passage la paire lavande du bloc de calcul et de « sim-apres ». */}
+<section class="bloc faq-bloc">
+<div class="wrap faq-grille">
+  <h2 class="titre">Tes questions, nos réponses</h2>
+  <div class="faq">
+    {faq.map((x) => (
+      <details><summary>{x.q}<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>{x.r}</p></details>
+    ))}
+  </div>
+</div>
+</section>
+
 <ContactOutil outil="Simulateur IFI" />
 
 <section class="final">
