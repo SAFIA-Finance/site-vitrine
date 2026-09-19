@@ -68,8 +68,7 @@ L'information du client sur l'agrégation ne se confond pas avec le consentement
 
 ### Sources
 
-Directive (UE) 2015/2366 dite DSP2 · Règlement délégué (UE) 2018/389 sur l'authentification forte du client · Règlement (UE) 2016/679 (RGPD), articles 28 et 32 · Code monétaire et financier, articles L. 522-1 et suivants.
-
+[Directive (UE) 2015/2366](https://eur-lex.europa.eu/eli/dir/2015/2366/oj) dite DSP2 · [Règlement délégué (UE) 2018/389](https://eur-lex.europa.eu/eli/reg_del/2018/389/oj) sur l'authentification forte du client · [Règlement (UE) 2016/679](https://eur-lex.europa.eu/eli/reg/2016/679/oj) (RGPD), articles 28 et 32 · Code monétaire et financier, articles L. 522-1 et suivants.
 ### Liens internes
 
 Page **Conseillers** · articles **G1** (logiciel CGP) et **E3** (agrégateur de comptes).
@@ -133,8 +132,7 @@ Toute baisse durable du coût de service déplace ce seuil. C'est le sens des ch
 
 ### Sources
 
-Code monétaire et financier, articles L. 541-1 et suivants · Règlement général de l'AMF, livre III · Directive 2014/65/UE, article 24 sur l'information relative aux coûts et aux incitations · Calculs de coût de revient établis à titre illustratif.
-
+Code monétaire et financier, articles L. 541-1 et suivants · Règlement général de l'AMF, livre III · [Directive 2014/65/UE](https://eur-lex.europa.eu/eli/dir/2014/65/oj), article 24 sur l'information relative aux coûts et aux incitations · Calculs de coût de revient établis à titre illustratif.
 ### Liens internes
 
 Page **Conseillers** · articles **G2** (digitalisation), **E5** (coût d'un conseiller) et **G1** (logiciel CGP).
@@ -274,8 +272,7 @@ Ce dispositif est proportionné à la taille du cabinet. Proportionné ne signif
 
 ### Sources
 
-Code monétaire et financier, articles L. 561-1 et suivants, notamment L. 561-5, L. 561-10-2, L. 561-12 et L. 561-15 · Règlement général de l'AMF, livre III · Lignes directrices de l'AMF et de Tracfin relatives à la déclaration de soupçon · Règlement (UE) 2016/679 (RGPD), article 5 sur la limitation de conservation.
-
+Code monétaire et financier, articles L. 561-1 et suivants, notamment L. 561-5, L. 561-10-2, L. 561-12 et L. 561-15 · Règlement général de l'AMF, livre III · Lignes directrices de l'AMF et de Tracfin relatives à la déclaration de soupçon · [Règlement (UE) 2016/679](https://eur-lex.europa.eu/eli/reg/2016/679/oj) (RGPD), article 5 sur la limitation de conservation.
 ### Liens internes
 
 Page **Sécurité et conformité** · articles **G9** (devenir CIF) et **G12** (onboarding client).
@@ -341,8 +338,7 @@ Distribuer sous votre marque un outil de suivi patrimonial n'a pas les mêmes im
 
 ### Sources
 
-Règlement (UE) 2016/679 (RGPD), articles 26 et 28 · Règlement (UE) 2024/1689 sur l'intelligence artificielle, définitions de fournisseur et de déployeur · Règlement (UE) 2022/2554 (DORA) pour les entités concernées et leurs prestataires TIC · Code monétaire et financier, articles L. 321-1 et L. 541-1.
-
+[Règlement (UE) 2016/679](https://eur-lex.europa.eu/eli/reg/2016/679/oj) (RGPD), articles 26 et 28 · [Règlement (UE) 2024/1689](https://eur-lex.europa.eu/eli/reg/2024/1689/oj) sur l'intelligence artificielle, définitions de fournisseur et de déployeur · [Règlement (UE) 2022/2554](https://eur-lex.europa.eu/eli/reg/2022/2554/oj) (DORA) pour les entités concernées et leurs prestataires TIC · Code monétaire et financier, articles L. 321-1 et L. 541-1.
 ### Liens internes
 
 Page **Institutions** · articles **G6** (AI Act) et **G1** (logiciel CGP).
@@ -412,8 +408,7 @@ Sur quarante entrées en relation par an, cela représente quarante rendez-vous 
 
 ### Sources
 
-Règlement (UE) n° 910/2014 dit eIDAS sur l'identification électronique et les services de confiance · Code monétaire et financier, articles L. 561-5 et L. 561-10 sur l'entrée en relation à distance · Règlement général de l'AMF, livre III, obligations d'information préalable · Règlement délégué (UE) 2017/565, articles 72 à 76 sur la conservation des enregistrements.
-
+Règlement (UE) n° 910/2014 dit eIDAS sur l'identification électronique et les services de confiance · Code monétaire et financier, articles L. 561-5 et L. 561-10 sur l'entrée en relation à distance · Règlement général de l'AMF, livre III, obligations d'information préalable · [Règlement délégué (UE) 2017/565](https://eur-lex.europa.eu/eli/reg_del/2017/565/oj), articles 72 à 76 sur la conservation des enregistrements.
 ### Liens internes
 
 Page **Conseillers** · articles **G3** (recueil client) et **G10** (LCB-FT).

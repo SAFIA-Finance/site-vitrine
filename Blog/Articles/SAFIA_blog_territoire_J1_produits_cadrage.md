@@ -56,6 +56,11 @@ La plupart des épargnants font l'inverse : ils choisissent un contrat parce qu'
 
 Code monétaire et financier, articles L. 221-30 et suivants (PEA), L. 224-1 et suivants (PER) · Code général des impôts, articles 125-0 A et 150-0 A · Loi de financement de la Sécurité sociale pour 2026.
 
+
+### Liens internes
+
+articles **J7** et **J6**.
+
 ---
 
 ## J2 — Les classes d'actifs expliquées par ce qu'elles font
@@ -99,6 +104,11 @@ Dernière mise en garde : les corrélations ne sont pas stables. En 2022, action
 ### Sources
 
 AMF, guides de l'épargnant sur les risques et la diversification · Documents d'informations clés des catégories de fonds · Travaux académiques sur l'allocation stratégique d'actifs.
+
+
+### Liens internes
+
+articles **J3** et **J1**.
 
 ---
 
@@ -147,6 +157,11 @@ C'est le mécanisme qui a produit les difficultés des fonds immobiliers ouverts
 
 AMF, publications sur la liquidité des fonds et la gestion des rachats · ESMA, orientations sur les outils de gestion de la liquidité · Documents d'informations clés, indicateur synthétique de risque et horizon recommandé.
 
+
+### Liens internes
+
+articles **J1** et **J7**.
+
 ---
 
 ## J4 — Comment lire un DIC en cinq minutes
@@ -189,7 +204,12 @@ Si l'un de ces cinq éléments te surprend, tu as trouvé la question à poser a
 
 ### Sources
 
-Règlement (UE) n° 1286/2014 dit PRIIPs et ses règlements délégués sur le format et le contenu du document d'informations clés · AMF, guide de lecture du DIC.
+[Règlement (UE) n° 1286/2014](https://eur-lex.europa.eu/eli/reg/2014/1286/oj) dit PRIIPs et ses règlements délégués sur le format et le contenu du document d'informations clés · AMF, guide de lecture du DIC.
+
+
+### Liens internes
+
+articles **J21** et **J20**.
 
 ---
 
@@ -230,7 +250,12 @@ SAFIA exerce le conseil en investissements financiers de manière indépendante 
 
 ### Sources
 
-Directive 2014/65/UE, articles 24 et 25, information sur les coûts et les incitations · Règlement délégué (UE) 2017/565 · Règlement (UE) n° 1286/2014 (PRIIPs) · AMF, mises en garde sur les produits complexes.
+[Directive 2014/65/UE](https://eur-lex.europa.eu/eli/dir/2014/65/oj), articles 24 et 25, information sur les coûts et les incitations · [Règlement délégué (UE) 2017/565](https://eur-lex.europa.eu/eli/reg_del/2017/565/oj) · [Règlement (UE) n° 1286/2014](https://eur-lex.europa.eu/eli/reg/2014/1286/oj) (PRIIPs) · AMF, mises en garde sur les produits complexes.
+
+
+### Liens internes
+
+articles **J4** et **J21**.
 
 ---
 
@@ -278,6 +303,11 @@ Regarde aussi la politique de distribution : un ETF **capitalisant** réinvestit
 
 Directive OPCVM et règlements applicables aux fonds indiciels cotés · AMF, guide sur les ETF · Documents d'informations clés et rapports d'écart de suivi des émetteurs · Code monétaire et financier, éligibilité au PEA · AMF, Lettre de l'Observatoire de l'épargne n° 65, avril 2026, frais moyens des placements financiers.
 
+
+### Liens internes
+
+articles **J9** et **J18**.
+
 ---
 
 ## J7 — OPCVM, SICAV, FCP : le vocabulaire et les frais réels
@@ -324,7 +354,12 @@ Sur les marchés peu couverts, les petites capitalisations, la dette émergente,
 
 ### Sources
 
-Directive 2009/65/CE (OPCVM) et directive 2011/61/UE (AIFM) · AMF, doctrine sur les commissions de surperformance · Études comparatives de performance des fonds actifs contre indices de référence · Documents d'informations clés · AMF, « Analyse des frais des fonds de droit français », mai 2024, et Lettre de l'Observatoire de l'épargne n° 65, avril 2026.
+[Directive 2009/65/CE](https://eur-lex.europa.eu/eli/dir/2009/65/oj) (OPCVM) et [directive 2011/61/UE](https://eur-lex.europa.eu/eli/dir/2011/61/oj) (AIFM) · AMF, doctrine sur les commissions de surperformance · Études comparatives de performance des fonds actifs contre indices de référence · Documents d'informations clés · AMF, « Analyse des frais des fonds de droit français », mai 2024, et Lettre de l'Observatoire de l'épargne n° 65, avril 2026.
+
+
+### Liens internes
+
+articles **J6** et **J9**.
 
 ---
 
@@ -372,6 +407,11 @@ C'est un produit lisible, à condition de respecter deux règles : **détenir ju
 ### Sources
 
 AMF, guide sur les fonds obligataires et les fonds à échéance · Documents d'informations clés, indicateur de risque et scénarios · Publications des agences de notation sur les taux de défaut historiques par catégorie.
+
+
+### Liens internes
+
+articles **J19** et **J10**.
 
 ---
 
@@ -425,6 +465,11 @@ Pour un investisseur en actions européennes à long terme, l'ordre est clair : 
 
 Code monétaire et financier, articles L. 221-30 et suivants sur le PEA · Loi de financement de la Sécurité sociale pour 2026 · AMF, études sur le comportement des investisseurs particuliers · Travaux académiques sur le biais domestique.
 
+
+### Liens internes
+
+articles **J18** et **J8**.
+
 ---
 
 ## J10 — SCPI : rendement, liquidité, fiscalité
@@ -476,6 +521,11 @@ Le taux d'occupation financier et son évolution. La répartition sectorielle et
 
 Code monétaire et financier, articles L. 214-86 et suivants sur les SCPI · AMF, documents d'information et rapports annuels des sociétés de gestion · Code général des impôts, régime des revenus fonciers · Loi de financement de la Sécurité sociale pour 2026, maintien des prélèvements sociaux à 17,2 % sur les revenus fonciers · ASPIM, statistiques annuelles du marché des SCPI, taux de distribution moyen de 4,91 % en 2025.
 
+
+### Liens internes
+
+articles **J11** et **J12**.
+
 ---
 
 ## J11 — OPCI et SCI de rendement
@@ -516,3 +566,8 @@ Chaque SCI a sa propre politique : vérifie systématiquement la composition ré
 ### Sources
 
 Code monétaire et financier, articles L. 214-33 et suivants sur les OPCI · AMF, documents d'information des véhicules · Code des assurances, unités de compte immobilières · ESMA, orientations sur les outils de gestion de la liquidité.
+
+
+### Liens internes
+
+articles **J12** et **J13**.

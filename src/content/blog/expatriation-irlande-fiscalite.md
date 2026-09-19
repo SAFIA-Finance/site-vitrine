@@ -14,10 +14,10 @@ essentiel:
 pages:
   - nom: "Cockpit stratégique"
     url: "/cockpit/"
-seoDerive: true
 articlesLies:
   - "expatriation-italie-fiscalite"
   - "expatriation-luxembourg-fiscalite"
+seoDerive: true
 sources: "Taxes Consolidation Act irlandais, dispositions relatives à la résidence, au domicile et à la remittance basis · Convention fiscale franco-irlandaise · Revenue Commissioners, guidance sur la remittance basis."
 ---
 

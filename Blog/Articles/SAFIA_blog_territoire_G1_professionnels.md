@@ -78,8 +78,7 @@ Tenter les cinq simultanément est la façon la plus sûre de ne rien déployer.
 
 ### Sources
 
-Règlement général de l'AMF, livre III, obligations des conseillers en investissements financiers · Directive 2014/65/UE, articles 16 et 25 · Règlement (UE) 2016/679 (RGPD), articles 28 et 32 sur la sous-traitance et la sécurité · Règlement (UE) 2022/2554 (DORA) pour les prestataires concernés.
-
+Règlement général de l'AMF, livre III, obligations des conseillers en investissements financiers · [Directive 2014/65/UE](https://eur-lex.europa.eu/eli/dir/2014/65/oj), articles 16 et 25 · [Règlement (UE) 2016/679](https://eur-lex.europa.eu/eli/reg/2016/679/oj) (RGPD), articles 28 et 32 sur la sous-traitance et la sécurité · [Règlement (UE) 2022/2554](https://eur-lex.europa.eu/eli/reg/2022/2554/oj) (DORA) pour les prestataires concernés.
 ### Liens internes
 
 Page **Conseillers** · articles **G2** (digitalisation) et **G7** (agrégation bancaire).
@@ -155,8 +154,7 @@ Elle ne remplacera pas une doctrine d'investissement, ni une politique de sélec
 
 ### Sources
 
-Règlement général de l'AMF, livre III · Directive 2014/65/UE, article 16 sur les exigences organisationnelles · Règlement délégué (UE) 2017/565, articles 72 à 76 sur la conservation des enregistrements · Règlement (UE) 2016/679 (RGPD).
-
+Règlement général de l'AMF, livre III · [Directive 2014/65/UE](https://eur-lex.europa.eu/eli/dir/2014/65/oj), article 16 sur les exigences organisationnelles · [Règlement délégué (UE) 2017/565](https://eur-lex.europa.eu/eli/reg_del/2017/565/oj), articles 72 à 76 sur la conservation des enregistrements · [Règlement (UE) 2016/679](https://eur-lex.europa.eu/eli/reg/2016/679/oj) (RGPD).
 ### Liens internes
 
 Page **Conseillers** · articles **G1** (logiciel CGP) et **G12** (onboarding client).
@@ -220,8 +218,7 @@ Documentez le refus. Un dossier qui mentionne explicitement que le client a refu
 
 ### Sources
 
-Directive 2014/65/UE, article 25 · Règlement délégué (UE) 2017/565, articles 54 et 55 · Règlement délégué (UE) 2021/1253 sur l'intégration des préférences en matière de durabilité · Règlement général de l'AMF, livre III · Positions et recommandations de l'AMF relatives au recueil d'informations clients.
-
+[Directive 2014/65/UE](https://eur-lex.europa.eu/eli/dir/2014/65/oj), article 25 · [Règlement délégué (UE) 2017/565](https://eur-lex.europa.eu/eli/reg_del/2017/565/oj), articles 54 et 55 · [Règlement délégué (UE) 2021/1253](https://eur-lex.europa.eu/eli/reg_del/2021/1253/oj) sur l'intégration des préférences en matière de durabilité · Règlement général de l'AMF, livre III · Positions et recommandations de l'AMF relatives au recueil d'informations clients.
 ### Liens internes
 
 Page **Conseillers** · articles **G5** (rapport d'adéquation) et **G4** (lettre de mission).
@@ -285,8 +282,7 @@ Cette clause ne vous protège pas de tout. Elle établit ce sur quoi vous vous �
 
 ### Sources
 
-Code monétaire et financier, articles L. 541-1 et suivants · Règlement général de l'AMF, livre III, notamment les dispositions relatives à l'information préalable et à la lettre de mission · Directive 2014/65/UE, article 24 sur l'information relative aux coûts et aux incitations · Code civil, articles 1231-1 et suivants sur l'obligation de moyens.
-
+Code monétaire et financier, articles L. 541-1 et suivants · Règlement général de l'AMF, livre III, notamment les dispositions relatives à l'information préalable et à la lettre de mission · [Directive 2014/65/UE](https://eur-lex.europa.eu/eli/dir/2014/65/oj), article 24 sur l'information relative aux coûts et aux incitations · Code civil, articles 1231-1 et suivants sur l'obligation de moyens.
 ### Liens internes
 
 Page **Conseillers** · articles **G3** (recueil client) et **G5** (rapport d'adéquation).
@@ -352,8 +348,7 @@ Un cabinet bien organisé produit une déclaration d'adéquation individualisée
 
 ### Sources
 
-Directive 2014/65/UE, article 25, paragraphe 6 · Règlement délégué (UE) 2017/565, article 54 · Règlement délégué (UE) 2021/1253 · Règlement général de l'AMF, livre III · Orientations de l'ESMA sur certains aspects des exigences d'adéquation de MiFID II.
-
+[Directive 2014/65/UE](https://eur-lex.europa.eu/eli/dir/2014/65/oj), article 25, paragraphe 6 · [Règlement délégué (UE) 2017/565](https://eur-lex.europa.eu/eli/reg_del/2017/565/oj), article 54 · [Règlement délégué (UE) 2021/1253](https://eur-lex.europa.eu/eli/reg_del/2021/1253/oj) · Règlement général de l'AMF, livre III · Orientations de l'ESMA sur certains aspects des exigences d'adéquation de MiFID II.
 ### Liens internes
 
 Page **Conseillers** · articles **G3** (recueil client) et **G4** (lettre de mission).
@@ -419,8 +414,7 @@ Aucune automatisation ne déplace la responsabilité professionnelle. C'est le p
 
 ### Sources
 
-Règlement (UE) 2024/1689 établissant des règles harmonisées concernant l'intelligence artificielle · Règlement (UE) 2016/679 (RGPD) · Directive 2014/65/UE, articles 24 et 25 · Règlement général de l'AMF, article 325-5 et suivants.
-
+[Règlement (UE) 2024/1689](https://eur-lex.europa.eu/eli/reg/2024/1689/oj) établissant des règles harmonisées concernant l'intelligence artificielle · [Règlement (UE) 2016/679](https://eur-lex.europa.eu/eli/reg/2016/679/oj) (RGPD) · [Directive 2014/65/UE](https://eur-lex.europa.eu/eli/dir/2014/65/oj), articles 24 et 25 · Règlement général de l'AMF, article 325-5 et suivants.
 ### Liens internes
 
 Page **Conseillers** · articles **G7** (agrégation bancaire) et **F2** (IA explicable).

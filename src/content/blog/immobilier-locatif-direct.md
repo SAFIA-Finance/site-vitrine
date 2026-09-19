@@ -14,10 +14,10 @@ essentiel:
 pages:
   - nom: "Cockpit stratégique"
     url: "/cockpit/"
-seoDerive: true
 articlesLies:
   - "investir-en-nue-propriete"
   - "crowdfunding-immobilier"
+seoDerive: true
 sources: "Code général des impôts, articles 14 à 33 quinquies (revenus fonciers), 50-0 et 155 (location meublée) · BOFiP, régimes fonciers et location meublée · Loi de financement de la Sécurité sociale pour 2026, maintien des prélèvements sociaux à 17,2 % sur les revenus fonciers."
 ---
 

@@ -14,10 +14,10 @@ essentiel:
 pages:
   - nom: "Cockpit stratégique"
     url: "/cockpit/"
-seoDerive: true
 articlesLies:
   - "expatriation-irlande-fiscalite"
   - "expatriation-italie-fiscalite"
+seoDerive: true
 sources: "Législation fiscale grecque instituant le régime des retraités étrangers (2020) et le régime non-dom · Convention fiscale franco-grecque · Règlements européens de coordination de sécurité sociale (CE) 883/2004 et 987/2009."
 ---
 

@@ -14,10 +14,10 @@ essentiel:
 pages:
   - nom: "Cockpit stratégique"
     url: "/cockpit/"
-seoDerive: true
 articlesLies:
   - "pacte-dutreil-2026"
   - "primes-manifestement-exagerees"
+seoDerive: true
 sources: "Code civil, articles 815 et suivants, notamment 815, 815-3, 815-5-1 et 815-9 · Code de procédure civile, procédure de partage judiciaire."
 ---
 

@@ -106,8 +106,7 @@ Oui, notamment si le passif dépasse l'actif. La renonciation se déclare au tri
 
 ### Sources
 
-Code général des impôts, articles 777, 779, 788 et 796-0 bis · BOFiP, mutations à titre gratuit par décès · Loi TEPA du 21 août 2007 · Loi de finances pour 2026, dispositions relatives au pacte Dutreil · Service-public.fr, fiche F14198.
-
+Code général des impôts, articles 777, 779, 788 et 796-0 bis · BOFiP, mutations à titre gratuit par décès · Loi TEPA du 21 août 2007 · Loi de finances pour 2026, dispositions relatives au pacte Dutreil · Service-public.fr, [fiche F14198](https://www.service-public.gouv.fr/particuliers/vosdroits/F14198).
 ### Liens internes
 
 Page **Cockpit stratégique** · articles **D2** (donation aux enfants) et **B5** (assurance-vie et succession).
@@ -186,8 +185,7 @@ En principe non. Certaines clauses, comme le droit de retour conventionnel, perm
 
 ### Sources
 
-Code général des impôts, articles 779 et 784 · Code civil, articles 1075 et suivants sur la donation-partage · Service-public.fr, fiche F14203, et service de déclaration en ligne des dons · BOFiP, rappel fiscal des donations antérieures.
-
+Code général des impôts, articles 779 et 784 · Code civil, articles 1075 et suivants sur la donation-partage · Service-public.fr, [fiche F14203](https://www.service-public.gouv.fr/particuliers/vosdroits/F14203), et service de déclaration en ligne des dons · BOFiP, rappel fiscal des donations antérieures.
 ### Liens internes
 
 Page **Cockpit stratégique** · articles **D3** (don familial) et **D4** (démembrement).
@@ -261,8 +259,7 @@ Non pour un don d'argent. La déclaration en ligne suffit.
 
 ### Sources
 
-Code général des impôts, article 790 G · BOFiP, exonération des dons familiaux de sommes d'argent · Service-public.fr, fiche F14203 et service de déclaration en ligne des dons, en vigueur depuis le 1er janvier 2026.
-
+Code général des impôts, article 790 G · BOFiP, exonération des dons familiaux de sommes d'argent · Service-public.fr, [fiche F14203](https://www.service-public.gouv.fr/particuliers/vosdroits/F14203) et service de déclaration en ligne des dons, en vigueur depuis le 1er janvier 2026.
 ### Liens internes
 
 Page **Cockpit stratégique** · articles **D2** (abattement de 100 000 €) et **D6** (transmettre aux petits-enfants).
@@ -509,8 +506,7 @@ Non pour un don d'argent déclaré en ligne. Oui pour un bien immobilier ou une 
 
 ### Sources
 
-Code général des impôts, articles 790 B et 790 G · Code civil, articles 913 et 1078-4 sur la donation-partage transgénérationnelle · BOFiP, abattements applicables aux donations · Service-public.fr, fiche F14203.
-
+Code général des impôts, articles 790 B et 790 G · Code civil, articles 913 et 1078-4 sur la donation-partage transgénérationnelle · BOFiP, abattements applicables aux donations · Service-public.fr, [fiche F14203](https://www.service-public.gouv.fr/particuliers/vosdroits/F14203).
 ### Liens internes
 
 Page **Cockpit stratégique** · articles **D3** (don familial) et **B5** (assurance-vie et succession).

@@ -14,10 +14,10 @@ essentiel:
 pages:
   - nom: "Notre méthode"
     url: "/methode/"
-seoDerive: true
 articlesLies:
   - "produits-complexes-questions"
   - "lire-un-dic-document-information-cle"
+seoDerive: true
 sources: "[Règlement (UE) n° 1286/2014](https://eur-lex.europa.eu/eli/reg/2014/1286/oj) (PRIIPs) et documents d'informations clés · AMF, position-recommandation relative à la commercialisation des instruments financiers complexes · Prospectus et termes définitifs de chaque émission."
 ---
 

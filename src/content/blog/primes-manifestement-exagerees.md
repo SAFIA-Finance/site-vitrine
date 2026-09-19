@@ -14,10 +14,10 @@ essentiel:
 pages:
   - nom: "Cockpit stratégique"
     url: "/cockpit/"
-seoDerive: true
 articlesLies:
   - "succession-internationale"
   - "testament-quel-type-choisir"
+seoDerive: true
 sources: "Code des assurances, articles L. 132-13 et L. 132-12 · Jurisprudence constante de la Cour de cassation sur l'appréciation du caractère manifestement exagéré des primes, notamment les arrêts de chambre mixte du 23 novembre 2004 · Code général des impôts, articles 990 I et 757 B."
 ---
 

@@ -86,7 +86,7 @@ Arrêté du 29 juillet 2026 relatif aux taux des produits d'épargne réglement�
 
 ### Liens internes
 
-Page **Particuliers** · articles **A5** (épargne de précaution) et **A2** (livret A au plafond).
+Page **Particuliers** · articles **A5** et **A6**.
 
 \---
 
@@ -153,7 +153,7 @@ Arrêté du 29 juillet 2026, Journal officiel du 31 juillet 2026 · Banque de Fr
 
 ### Liens internes
 
-Page **Cockpit stratégique** · articles **A4** (LEP) et **B1** (fiscalité de l'assurance-vie).
+Page **Cockpit stratégique** · articles **A4** et **A7**.
 
 \---
 
@@ -217,7 +217,7 @@ Arrêté du 29 juillet 2026, Journal officiel du 31 juillet 2026 · Code monéta
 
 ### Liens internes
 
-Page **Particuliers** · articles **A1** (livret A) et **A5** (épargne de précaution).
+Page **Particuliers** · articles **A1** et **A6**.
 
 \---
 
@@ -289,7 +289,7 @@ Arrêté du 29 juillet 2026, Journal officiel du 31 juillet 2026 · Communiqué 
 
 ### Liens internes
 
-Page **Particuliers** · articles **A2** (livret A au plafond) et **A5** (épargne de précaution).
+Page **Particuliers** · articles **A7** et **A5**.
 
 \---
 
@@ -358,7 +358,7 @@ Banque de France, statistiques d'épargne des ménages 2026 · Arrêté du 29 ju
 
 ### Liens internes
 
-Page **Cockpit stratégique** · articles **A2** (livret A au plafond) et **C5** (combien épargner pour la retraite).
+Page **Cockpit stratégique** · articles **A3** et **C5**.
 
 \---
 
@@ -493,5 +493,4 @@ Arrêté du 29 juillet 2026, Journal officiel du 31 juillet 2026 · Service-publ
 
 ### Liens internes
 
-Page **Particuliers** · articles **A2** (livret A au plafond) et **B1** (fiscalité de l'assurance-vie).
-
+Page **Particuliers** · articles **A2** et **A3**.

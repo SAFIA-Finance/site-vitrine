@@ -14,10 +14,10 @@ essentiel:
 pages:
   - nom: "Cockpit stratégique"
     url: "/cockpit/"
-seoDerive: true
 articlesLies:
   - "donation-dernier-vivant"
   - "transmission-concubin-pacs-mariage"
+seoDerive: true
 sources: "Code civil, articles 967 à 1001 (formes des testaments), 912 et suivants (réserve héréditaire) · Convention de Washington du 26 octobre 1973 portant loi uniforme sur la forme d'un testament international · Fichier central des dispositions de dernières volontés."
 ---
 

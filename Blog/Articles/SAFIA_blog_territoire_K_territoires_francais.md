@@ -72,7 +72,7 @@ Constitution du 4 octobre 1958, articles 73, 74 et titre XIII · Code général 
 
 ### Liens internes
 
-Page **Cockpit stratégique** · articles **K4** (réfaction d'impôt) et **K9** (transmission outre-mer).
+Page **Cockpit stratégique** · articles **K4** et **K6**.
 
 ---
 
@@ -200,6 +200,11 @@ C'est un sujet où l'improvisation coûte cher et où un conseil local est indis
 
 Code général des collectivités territoriales, article LO 6314-4, I, 1° et 1° bis · Loi n° 2007-223 du 21 février 2007 · Conseil d'État, avis du 20 novembre 2013, n° 369796 · Code général des impôts de Saint-Martin et services fiscaux de la collectivité, impots-saint-martin.fr · Convention fiscale entre l'État et la collectivité de Saint-Martin.
 
+
+### Liens internes
+
+articles **K6** et **K4**.
+
 ---
 
 ## K4 — DROM : la réfaction d'impôt de 30 % et 40 %, et son plafond
@@ -269,6 +274,11 @@ En ordre de grandeur, le plafond commence à mordre autour de 55 000 € de reve
 ### Sources
 
 Code général des impôts, article 197, I, 3 · BOFiP, BOI-IR-LIQ-20-30-10, modalités particulières d'imposition dans les départements d'outre-mer · Loi de finances pour 2019, abaissement des plafonds · impots.gouv.fr, rubrique « Impôts dus par les professionnels dans les DOM » pour la TVA et la taxe sur les salaires · Code général des impôts, article 44 quaterdecies (ZFANG).
+
+
+### Liens internes
+
+articles **K2** et **K3**.
 
 ---
 
@@ -418,6 +428,11 @@ Comme pour toutes les collectivités à fiscalité propre, aucun chiffre n'est p
 
 Constitution du 4 octobre 1958, article 74 · Loi n° 61-814 du 29 juillet 1961 conférant aux îles Wallis et Futuna le statut de territoire d'outre-mer · Loi n° 85-595 du 11 juin 1985 relative au statut de l'archipel de Saint-Pierre-et-Miquelon et textes statutaires ultérieurs · Codes locaux des impôts et services fiscaux des deux collectivités · Convention fiscale franco-canadienne.
 
+
+### Liens internes
+
+articles **K5** et **K8**.
+
 ---
 
 ## K8 — Investir outre-mer : les dispositifs de réduction d'impôt
@@ -485,6 +500,11 @@ Un investissement dont le seul intérêt est fiscal n'est pas un investissement 
 
 Code général des impôts, articles 199 undecies B, 199 undecies C, 217 undecies, 244 quater W et 44 quaterdecies · BOFiP, dispositifs d'aide fiscale à l'investissement outre-mer · impots.gouv.fr, avantages fiscaux liés à une activité dans les DOM · Code général des impôts, article 200-0 A sur le plafonnement global des avantages fiscaux.
 
+
+### Liens internes
+
+articles **K2** et **K7**.
+
 ---
 
 ## K9 — Transmettre un patrimoine situé outre-mer
@@ -546,4 +566,4 @@ Code général des impôts, article 750 ter, et articles 779, 990 I et 757 B · 
 
 ### Liens internes
 
-Page **Cockpit stratégique** · articles **K4** (réfaction d'impôt) et **K1** (panorama outre-mer).
+Page **Cockpit stratégique** · articles **K5** et **K1**.

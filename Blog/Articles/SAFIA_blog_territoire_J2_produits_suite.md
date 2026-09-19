@@ -58,6 +58,11 @@ Le passage de 4,8 % à moins de 2 % n'est pas un cas pathologique : c'est le cas
 
 Code général des impôts, articles 14 à 33 quinquies (revenus fonciers), 50-0 et 155 (location meublée) · BOFiP, régimes fonciers et location meublée · Loi de financement de la Sécurité sociale pour 2026, maintien des prélèvements sociaux à 17,2 % sur les revenus fonciers.
 
+
+### Liens internes
+
+articles **J13** et **J16**.
+
 ---
 
 ## J13 — Investir en nue-propriété
@@ -103,6 +108,11 @@ Il supprime aussi tout souci de gestion : pas de locataire, pas d'impayé, pas d
 ### Sources
 
 Code civil, articles 578 à 624 et 606 · Code général des impôts, article 669 (barème de l'usufruit) et dispositions relatives à l'IFI · BOFiP, démembrement de propriété.
+
+
+### Liens internes
+
+articles **J16** et **J17**.
 
 ---
 
@@ -157,6 +167,11 @@ Une part limitée du patrimoine financier, un horizon effectivement disponible s
 
 Code monétaire et financier, articles L. 214-28 et suivants (FCPR, FCPI, FIP) · Loi Industrie Verte et ses dispositions relatives aux actifs non cotés dans les gestions pilotées · AMF, guide sur le capital-investissement pour les particuliers · Documents d'informations clés des fonds.
 
+
+### Liens internes
+
+articles **J15** et **J5**.
+
 ---
 
 ## J15 — Produits structurés : comprendre la formule avant de signer
@@ -209,7 +224,12 @@ Le troisième scénario n'est pas exceptionnel. Sur un indice à décrément, il
 
 ### Sources
 
-Règlement (UE) n° 1286/2014 (PRIIPs) et documents d'informations clés · AMF, position-recommandation relative à la commercialisation des instruments financiers complexes · Prospectus et termes définitifs de chaque émission.
+[Règlement (UE) n° 1286/2014](https://eur-lex.europa.eu/eli/reg/2014/1286/oj) (PRIIPs) et documents d'informations clés · AMF, position-recommandation relative à la commercialisation des instruments financiers complexes · Prospectus et termes définitifs de chaque émission.
+
+
+### Liens internes
+
+articles **J5** et **J4**.
 
 ---
 
@@ -264,7 +284,12 @@ Une part modeste du patrimoine financier, répartie sur un nombre élevé de pro
 
 ### Sources
 
-Règlement (UE) 2020/1503 relatif aux prestataires européens de services de financement participatif · AMF et ACPR, registres des prestataires agréés · Statistiques annuelles publiées par les plateformes et les baromètres sectoriels.
+[Règlement (UE) 2020/1503](https://eur-lex.europa.eu/eli/reg/2020/1503/oj) relatif aux prestataires européens de services de financement participatif · AMF et ACPR, registres des prestataires agréés · Statistiques annuelles publiées par les plateformes et les baromètres sectoriels.
+
+
+### Liens internes
+
+articles **J17** et **J14**.
 
 ---
 
@@ -316,7 +341,12 @@ C'est le calcul que les simulateurs de plateformes ne présentent jamais.
 
 ### Sources
 
-Règlement (UE) 2020/1503 · Code général des impôts, article 125-00 A sur l'imputation des pertes sur prêts participatifs · Registres AMF et ACPR des prestataires agréés · Statistiques publiées par les plateformes.
+[Règlement (UE) 2020/1503](https://eur-lex.europa.eu/eli/reg/2020/1503/oj) · Code général des impôts, article 125-00 A sur l'imputation des pertes sur prêts participatifs · Registres AMF et ACPR des prestataires agréés · Statistiques publiées par les plateformes.
+
+
+### Liens internes
+
+articles **J14** et **J15**.
 
 ---
 
@@ -361,7 +391,12 @@ Si tu revends avant, le prix dépend des taux de marché et de la perception du 
 
 ### Sources
 
-Règlement (UE) 2017/1129 sur le prospectus · Prospectus et termes définitifs de chaque émission · Publications des agences de notation sur les taux de défaut historiques · AMF, mises en garde sur les titres subordonnés.
+[Règlement (UE) 2017/1129](https://eur-lex.europa.eu/eli/reg/2017/1129/oj) sur le prospectus · Prospectus et termes définitifs de chaque émission · Publications des agences de notation sur les taux de défaut historiques · AMF, mises en garde sur les titres subordonnés.
+
+
+### Liens internes
+
+articles **J8** et **J19**.
 
 ---
 
@@ -410,6 +445,11 @@ Le produit est cohérent, mais peu diffusé et parfois complexe à comparer. La 
 
 Code des assurances, articles L. 132-1 et suivants, et dispositions relatives à la provision pour participation aux bénéfices · ACPR, publications sur les fonds en euros et les taux de revalorisation · France Assureurs, statistiques de rendement.
 
+
+### Liens internes
+
+articles **J10** et **J11**.
+
 ---
 
 ## J20 — Or et métaux précieux
@@ -457,6 +497,11 @@ Selon la durée de détention et la plus-value réalisée, l'un ou l'autre est p
 
 Code général des impôts, articles 150 VI à 150 VM (taxe sur les métaux précieux) et 150 UA (plus-values sur biens meubles) · BOFiP, régime des métaux précieux · Documents d'information des produits cotés adossés aux matières premières.
 
+
+### Liens internes
+
+articles **J22** et **J2**.
+
 ---
 
 ## J21 — Crypto-actifs : cadre MiCA et fiscalité
@@ -501,7 +546,12 @@ Une activité d'achat-revente exercée à titre habituel dans des conditions pro
 
 ### Sources
 
-Règlement (UE) 2023/1114 dit MiCA · Code général des impôts, articles 150 VH bis et 1649 bis C · Loi de financement de la Sécurité sociale pour 2026 · BOFiP, régime des actifs numériques.
+[Règlement (UE) 2023/1114](https://eur-lex.europa.eu/eli/reg/2023/1114/oj) dit MiCA · Code général des impôts, articles 150 VH bis et 1649 bis C · Loi de financement de la Sécurité sociale pour 2026 · BOFiP, régime des actifs numériques.
+
+
+### Liens internes
+
+articles **J20** et **J22**.
 
 ---
 
@@ -551,3 +601,8 @@ Ces actifs se justifient quand ils combinent un intérêt patrimonial, un avanta
 ### Sources
 
 Code général des impôts, articles 793, 976 et suivants (régimes forestiers et viticoles, IFI), 150 VI à 150 VM (biens meubles et objets d'art) · BOFiP, groupements forestiers et groupements fonciers viticoles · Travaux académiques sur le biais de sélection dans les indices de marché de l'art.
+
+
+### Liens internes
+
+articles **J2** et **J3**.

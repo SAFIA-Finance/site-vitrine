@@ -248,8 +248,7 @@ Elle doit mettre à disposition un accès conforme à la réglementation.
 
 ### Sources
 
-Directive (UE) 2015/2366 dite DSP2 · Règlement délégué (UE) 2018/389 sur l'authentification forte du client · Code monétaire et financier, articles L. 522-1 et suivants · Registres des agents financiers tenus par les autorités de supervision.
-
+[Directive (UE) 2015/2366](https://eur-lex.europa.eu/eli/dir/2015/2366/oj) dite DSP2 · [Règlement délégué (UE) 2018/389](https://eur-lex.europa.eu/eli/reg_del/2018/389/oj) sur l'authentification forte du client · Code monétaire et financier, articles L. 522-1 et suivants · Registres des agents financiers tenus par les autorités de supervision.
 ### Liens internes
 
 Page **Sécurité et conformité** · articles **F4** (bilan patrimonial) et **A5** (épargne de précaution).
@@ -414,8 +413,7 @@ Le registre de l'ORIAS est public et consultable en ligne.
 
 ### Sources
 
-Code monétaire et financier, articles L. 541-1 et suivants · Règlement général de l'AMF, livre III, obligations d'information, lettre de mission et déclaration d'adéquation · Directive 2014/65/UE, article 24 sur l'information relative aux coûts et aux incitations · Registre unique de l'ORIAS.
-
+Code monétaire et financier, articles L. 541-1 et suivants · Règlement général de l'AMF, livre III, obligations d'information, lettre de mission et déclaration d'adéquation · [Directive 2014/65/UE](https://eur-lex.europa.eu/eli/dir/2014/65/oj), article 24 sur l'information relative aux coûts et aux incitations · Registre unique de l'ORIAS.
 ### Liens internes
 
 Page **Tarifs** · articles **F4** (bilan patrimonial) et **E4** (effet des frais).

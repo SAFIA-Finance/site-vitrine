@@ -14,10 +14,10 @@ essentiel:
 pages:
   - nom: "Cockpit stratégique"
     url: "/cockpit/"
-seoDerive: true
 articlesLies:
   - "expatriation-chypre-fiscalite"
   - "expatriation-emirats-dubai-fiscalite"
+seoDerive: true
 sources: "Loi de l'impôt sur le revenu canadienne, dispositions relatives à la résidence et à la disposition réputée au décès · Agence du revenu du Canada, guidance sur l'arrivée et le départ · Convention fiscale franco-canadienne · Entente fiscale entre la France et le Québec."
 ---
 

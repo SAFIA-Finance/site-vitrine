@@ -14,10 +14,10 @@ essentiel:
 pages:
   - nom: "Cockpit stratégique"
     url: "/cockpit/"
-seoDerive: true
 articlesLies:
   - "expatriation-belgique-fiscalite"
   - "expatriation-canada-fiscalite"
+seoDerive: true
 sources: "Llei de l'impost sobre la renda de les persones físiques (Andorre) · Convention fiscale entre la France et la Principauté d'Andorre, signée en 2013 · Textes andorrans relatifs à l'immigration et à la résidence passive · Code général des impôts, article 167 bis."
 ---
 

@@ -175,7 +175,7 @@ Code monétaire et financier, articles L. 224-1 et suivants · Code général de
 
 ### Liens internes
 
-Page **Cockpit stratégique** · articles **C3** (économie d'impôt), **C4** (capital ou rente) et **B8** (PER ou assurance-vie).
+Page **Cockpit stratégique** · articles **C3**, **C4**, **B8** et **C1**.
 
 ---
 
@@ -420,7 +420,7 @@ Portail info-retraite.fr, estimation indicative globale · INSEE, données sur l
 
 ### Liens internes
 
-Page **Assistant IA** · articles **C1** (estimer sa retraite), **C7** (préparer à 30, 40, 50 ans) et **B8** (PER ou assurance-vie).
+Page **Assistant IA** · articles **C1**, **C7**, **B8** et **C6**.
 
 ---
 

@@ -14,10 +14,10 @@ essentiel:
 pages:
   - nom: "Cockpit stratégique"
     url: "/cockpit/"
-seoDerive: true
 articlesLies:
   - "expatriation-canada-fiscalite"
   - "expatriation-chypre-fiscalite"
+seoDerive: true
 sources: "Code des impôts sur les revenus belge et sa doctrine sur la gestion normale d'un patrimoine privé · Codes fiscaux régionaux flamand, wallon et bruxellois en matière de successions · Convention fiscale franco-belge en matière d'impôts sur les revenus et convention en matière de successions · Code général des impôts, article 4 B."
 ---
 

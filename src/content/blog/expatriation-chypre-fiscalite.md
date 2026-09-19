@@ -14,10 +14,10 @@ essentiel:
 pages:
   - nom: "Cockpit stratégique"
     url: "/cockpit/"
-seoDerive: true
 articlesLies:
   - "expatriation-emirats-dubai-fiscalite"
   - "expatriation-espagne-fiscalite"
+seoDerive: true
 sources: "Income Tax Law chypriote et législation sur la contribution spéciale à la défense, statut de non-domicilié · Convention fiscale franco-chypriote · Code général des impôts, article 167 bis, IV, et articles 164 D, 244 bis A et 1736, IV."
 ---
 

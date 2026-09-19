@@ -60,6 +60,11 @@ La partie nord de l'île relève d'une situation politique et juridique distinct
 
 Income Tax Law chypriote et législation sur la contribution spéciale à la défense, statut de non-domicilié · Convention fiscale franco-chypriote · Code général des impôts, article 167 bis, IV, et articles 164 D, 244 bis A et 1736, IV.
 
+
+### Liens internes
+
+articles **I20** et **I10**.
+
 ---
 
 ## I18 — Irlande
@@ -105,6 +110,11 @@ Le régime de remittance fait l'objet de discussions récurrentes en Europe : le
 ### Sources
 
 Taxes Consolidation Act irlandais, dispositions relatives à la résidence, au domicile et à la remittance basis · Convention fiscale franco-irlandaise · Revenue Commissioners, guidance sur la remittance basis.
+
+
+### Liens internes
+
+articles **I8** et **I13**.
 
 ---
 
@@ -161,6 +171,11 @@ Le régime des nouveaux arrivants est récent : sa doctrine se construit.
 ### Sources
 
 Finance Act britannique portant suppression du régime des non-domiciliés à compter d'avril 2025 et instituant le régime des nouveaux arrivants · HMRC, Statutory Residence Test · Convention fiscale franco-britannique en matière d'impôts sur le revenu et convention en matière de successions · Notice DGFiP du formulaire 2074-ETD, liste des États ouvrant le sursis automatique.
+
+
+### Liens internes
+
+articles **I24** et **I12**.
 
 ---
 
@@ -220,6 +235,11 @@ L'absence de coordination européenne en matière de santé et de retraite est u
 
 Législation fédérale émirienne relative à l'impôt sur les sociétés (2023) et aux régimes de zones franches · Convention fiscale franco-émirienne · Code général des impôts, articles 4 B et 167 bis · Notice DGFiP du formulaire 2074-ETD.
 
+
+### Liens internes
+
+articles **I10** et **I26**.
+
 ---
 
 ## I21 — Maurice
@@ -269,6 +289,11 @@ L'investissement immobilier d'entrée doit être analysé pour lui-même, comme 
 
 Income Tax Act mauricien · Textes relatifs aux permis de résidence et aux programmes immobiliers agréés · Convention fiscale franco-mauricienne dans sa version en vigueur · Code général des impôts, article 167 bis.
 
+
+### Liens internes
+
+articles **I14** et **I7**.
+
 ---
 
 ## I22 — Maroc
@@ -317,6 +342,11 @@ La convention franco-marocaine est ancienne ; ses stipulations doivent être lue
 ### Sources
 
 Code général des impôts marocain, dispositions relatives aux pensions de source étrangère · Convention fiscale franco-marocaine et ses avenants · Notice DGFiP du formulaire 2074-ETD, liste des États ouvrant le sursis automatique, applicable au jour du transfert.
+
+
+### Liens internes
+
+articles **I21** et **I14**.
 
 ---
 
@@ -371,6 +401,11 @@ La doctrine sur la nouvelle interprétation se construit encore : c'est une dest
 
 Revenue Department thaïlandais, instructions relatives à l'imposition des revenus de source étrangère rapatriés, applicables à compter de 2024 · Convention fiscale franco-thaïlandaise · Réglementation thaïlandaise des visas de long séjour.
 
+
+### Liens internes
+
+articles **I15** et **I11**.
+
 ---
 
 ## I24 — Singapour
@@ -419,6 +454,11 @@ Singapour est hors liste pour le sursis automatique d'exit tax : déclaration à
 ### Sources
 
 Income Tax Act singapourien, principe de territorialité · Inland Revenue Authority of Singapore, guidance sur les revenus de source étrangère · Convention fiscale franco-singapourienne · Code général des impôts, article 167 bis.
+
+
+### Liens internes
+
+articles **I12** et **I23**.
 
 ---
 
@@ -471,6 +511,11 @@ Les obligations déclaratives canadiennes sur les biens étrangers sont étendue
 ### Sources
 
 Loi de l'impôt sur le revenu canadienne, dispositions relatives à la résidence et à la disposition réputée au décès · Agence du revenu du Canada, guidance sur l'arrivée et le départ · Convention fiscale franco-canadienne · Entente fiscale entre la France et le Québec.
+
+
+### Liens internes
+
+articles **I17** et **I20**.
 
 ---
 
@@ -532,3 +577,8 @@ Les obligations déclaratives américaines sont assorties de sanctions élevées
 ### Sources
 
 Internal Revenue Code, dispositions relatives à l'imposition des citoyens, des résidents et des non-résidents, et au régime successoral fédéral · Foreign Account Tax Compliance Act et accord intergouvernemental franco-américain · Convention fiscale franco-américaine en matière d'impôts sur le revenu et convention en matière de successions et de donations.
+
+
+### Liens internes
+
+articles **I9** et **I18**.

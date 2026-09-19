@@ -60,6 +60,11 @@ Le Portugal étant membre de l'Union européenne, l'exit tax française bénéfi
 
 Lei n.º 82/2023 de 29 de dezembro, article 263 créant l'article 58.º-A du Estatuto dos Benefícios Fiscais, et article 236 révoquant le régime des Résidents Non-Habituels · Convention fiscale franco-portugaise · Code général des impôts, article 167 bis.
 
+
+### Liens internes
+
+articles **I19** et **I24**.
+
 ---
 
 ## I8 — Italie
@@ -116,6 +121,11 @@ La fiscalité successorale italienne en ligne directe est en revanche parmi les 
 
 Legge di Bilancio 199/2025, relèvement du forfait à compter du 1er janvier 2026 · Décret-loi de 2017 instituant le régime forfaitaire des nouveaux résidents · Convention fiscale franco-italienne, y compris ses dispositions en matière de successions · Agenzia delle Entrate, procédure de ruling.
 
+
+### Liens internes
+
+articles **I13** et **I16**.
+
 ---
 
 ## I9 — Grèce
@@ -165,6 +175,11 @@ Comme partout, la nature publique ou privée de la pension change le résultat :
 ### Sources
 
 Législation fiscale grecque instituant le régime des retraités étrangers (2020) et le régime non-dom · Convention fiscale franco-grecque · Règlements européens de coordination de sécurité sociale (CE) 883/2004 et 987/2009.
+
+
+### Liens internes
+
+articles **I18** et **I8**.
 
 ---
 
@@ -216,6 +231,11 @@ Les règles régionales évoluent au rythme des alternances politiques locales.
 
 Ley del Impuesto sobre la Renta de las Personas Físicas, régime spécial des travailleurs déplacés · Réglementations des communautés autonomes en matière d'impôt sur la fortune et de successions · Convention fiscale franco-espagnole, y compris sa convention en matière de successions · Code général des impôts, article 4 B.
 
+
+### Liens internes
+
+articles **I26** et **I9**.
+
 ---
 
 ## I11 — Belgique
@@ -265,6 +285,11 @@ Les droits de succession régionaux belges peuvent être lourds, en particulier 
 ### Sources
 
 Code des impôts sur les revenus belge et sa doctrine sur la gestion normale d'un patrimoine privé · Codes fiscaux régionaux flamand, wallon et bruxellois en matière de successions · Convention fiscale franco-belge en matière d'impôts sur les revenus et convention en matière de successions · Code général des impôts, article 4 B.
+
+
+### Liens internes
+
+articles **I25** et **I17**.
 
 ---
 
@@ -320,6 +345,11 @@ Le statut de frontalier relève de règles entièrement distinctes de celles de 
 
 Loi fédérale sur l'impôt fédéral direct et lois cantonales, imposition d'après la dépense · Convention fiscale franco-suisse en matière d'impôts sur le revenu et la fortune · Code général des impôts, article 167 bis, et notice du formulaire 2074-ETD relative aux États ouvrant le sursis automatique · CJUE, arrêt Wächtler.
 
+
+### Liens internes
+
+articles **I23** et **I15**.
+
 ---
 
 ## I13 — Luxembourg
@@ -372,6 +402,11 @@ L'ouverture d'un contrat luxembourgeois suppose des montants minimaux significat
 
 Loi luxembourgeoise concernant l'impôt sur le revenu · Commissariat aux Assurances, régime de protection des preneurs d'assurance dit « triangle de sécurité » · Convention fiscale franco-luxembourgeoise · Code des assurances français pour la comparaison des régimes.
 
+
+### Liens internes
+
+articles **I16** et **I22**.
+
 ---
 
 ## I14 — Monaco
@@ -422,6 +457,11 @@ Pour un Français, l'intérêt fiscal se limite à la transmission et au patrimo
 ### Sources
 
 Convention fiscale franco-monégasque du 18 mai 1963 et ses avenants · Code général des impôts, article 4 B · Ordonnances monégasques relatives aux droits de mutation.
+
+
+### Liens internes
+
+articles **I7** et **I19**.
 
 ---
 
@@ -474,6 +514,11 @@ La taille du pays et l'isolement géographique sont des facteurs de vie réels, 
 
 Llei de l'impost sobre la renda de les persones físiques (Andorre) · Convention fiscale entre la France et la Principauté d'Andorre, signée en 2013 · Textes andorrans relatifs à l'immigration et à la résidence passive · Code général des impôts, article 167 bis.
 
+
+### Liens internes
+
+articles **I11** et **I25**.
+
 ---
 
 ## I16 — Malte
@@ -525,3 +570,8 @@ L'insularité et la taille du marché local sont des facteurs pratiques.
 ### Sources
 
 Income Tax Act maltais, dispositions relatives à la résidence, au domicile et à la base de remittance · Textes relatifs aux programmes de résidence maltais et à l'impôt minimum annuel · Convention fiscale franco-maltaise · Code général des impôts, article 167 bis.
+
+
+### Liens internes
+
+articles **I22** et **I21**.

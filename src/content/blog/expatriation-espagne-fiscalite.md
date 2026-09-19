@@ -14,10 +14,10 @@ essentiel:
 pages:
   - nom: "Cockpit stratégique"
     url: "/cockpit/"
-seoDerive: true
 articlesLies:
   - "expatriation-etats-unis-fiscalite"
   - "expatriation-grece-fiscalite"
+seoDerive: true
 sources: "Ley del Impuesto sobre la Renta de las Personas Físicas, régime spécial des travailleurs déplacés · Réglementations des communautés autonomes en matière d'impôt sur la fortune et de successions · Convention fiscale franco-espagnole, y compris sa convention en matière de successions · Code général des impôts, article 4 B."
 ---
 

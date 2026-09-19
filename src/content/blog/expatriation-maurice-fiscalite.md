@@ -14,10 +14,10 @@ essentiel:
 pages:
   - nom: "Cockpit stratégique"
     url: "/cockpit/"
-seoDerive: true
 articlesLies:
   - "expatriation-monaco-fiscalite"
   - "expatriation-portugal-fiscalite"
+seoDerive: true
 sources: "Income Tax Act mauricien · Textes relatifs aux permis de résidence et aux programmes immobiliers agréés · Convention fiscale franco-mauricienne dans sa version en vigueur · Code général des impôts, article 167 bis."
 ---
 

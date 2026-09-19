@@ -18,10 +18,10 @@ outils:
   - nom: "Impôt sur le revenu"
     url: "/outils/impot-revenu/"
     resume: "Ton impôt, ta tranche marginale et ton taux moyen, barème 2026."
-seoDerive: true
 articlesLies:
   - "fiscalite-saint-barthelemy"
   - "fiscalite-saint-martin"
+seoDerive: true
 sources: "Code général des impôts, article 197, I, 3 · BOFiP, BOI-IR-LIQ-20-30-10, modalités particulières d'imposition dans les départements d'outre-mer · Loi de finances pour 2019, abaissement des plafonds · impots.gouv.fr, rubrique « Impôts dus par les professionnels dans les DOM » pour la TVA et la taxe sur les salaires · Code général des impôts, article 44 quaterdecies (ZFANG)."
 ---
 

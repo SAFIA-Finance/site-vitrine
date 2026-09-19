@@ -81,8 +81,7 @@ Oui, plusieurs ETF et fonds éligibles au PEA appliquent des filtres ESG.
 
 ### Sources
 
-Règlement (UE) 2019/2088 dit SFDR · Référentiel du label ISR, version en vigueur depuis mars 2024, ministère de l'Économie · AMF, doctrine sur les communications des placements collectifs intégrant des approches extra-financières · Documents d'informations clés et annexes précontractuelles des fonds.
-
+[Règlement (UE) 2019/2088](https://eur-lex.europa.eu/eli/reg/2019/2088/oj) dit SFDR · Référentiel du label ISR, version en vigueur depuis mars 2024, ministère de l'Économie · AMF, doctrine sur les communications des placements collectifs intégrant des approches extra-financières · Documents d'informations clés et annexes précontractuelles des fonds.
 ### Liens internes
 
 Page **ADN Investisseur** · articles **H2** (labels) et **H5** (greenwashing).
@@ -243,8 +242,7 @@ Oui, comme à tout produit distribué dans l'Union européenne.
 
 ### Sources
 
-Règlement (UE) 2019/2088 · Proposition de révision du cadre SFDR, Commission européenne, novembre 2025 · Position du Parlement européen, mai 2026 · ESMA, orientations sur les dénominations de fonds utilisant des termes liés à la durabilité · AMF, doctrine sur l'information extra-financière.
-
+[Règlement (UE) 2019/2088](https://eur-lex.europa.eu/eli/reg/2019/2088/oj) · Proposition de révision du cadre SFDR, Commission européenne, novembre 2025 · Position du Parlement européen, mai 2026 · ESMA, orientations sur les dénominations de fonds utilisant des termes liés à la durabilité · AMF, doctrine sur l'information extra-financière.
 ### Liens internes
 
 Page **ADN Investisseur** · articles **H2** (labels) et **H4** (notation ESG).
@@ -401,8 +399,7 @@ Ton intermédiaire doit pouvoir répondre par écrit. À défaut, l'AMF dispose 
 
 ### Sources
 
-ESMA, orientations sur les dénominations de fonds utilisant des termes ESG ou liés à la durabilité · AMF, doctrine relative aux informations extra-financières des placements collectifs · Règlement (UE) 2019/2088, annexes précontractuelles · Référentiel du label ISR, mars 2024 · Code de la consommation, articles L. 121-2 et suivants.
-
+ESMA, orientations sur les dénominations de fonds utilisant des termes ESG ou liés à la durabilité · AMF, doctrine relative aux informations extra-financières des placements collectifs · [Règlement (UE) 2019/2088](https://eur-lex.europa.eu/eli/reg/2019/2088/oj), annexes précontractuelles · Référentiel du label ISR, mars 2024 · Code de la consommation, articles L. 121-2 et suivants.
 ### Liens internes
 
 Page **ADN Investisseur** · articles **H1** (investir selon ses valeurs) et **H2** (labels).

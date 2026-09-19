@@ -64,6 +64,11 @@ Ces sujets se traitent en parlant aux personnes concernées, de préférence du 
 
 Code civil, articles 757 et suivants (droits du conjoint survivant), 912 et suivants (réserve), 1094-1 (donation entre époux), 1527 (action en retranchement) · Code général des impôts, articles 777, 788 et 990 I.
 
+
+### Liens internes
+
+articles **D13** et **D11**.
+
 ---
 
 ## D9 — Concubin, PACS, mariage : trois régimes très inégaux
@@ -119,6 +124,11 @@ Un legs de 200 000 € à un concubin produit, après l'abattement de 1 594 €,
 ### Sources
 
 Code civil, articles 515-1 et suivants (PACS), 731 et suivants (ordre des héritiers), 763 (droit temporaire au logement) · Code général des impôts, articles 777, 788 et 796-0 bis · Code général des impôts, article 990 I.
+
+
+### Liens internes
+
+articles **D8** et **D13**.
 
 ---
 
@@ -177,6 +187,11 @@ Le dispositif reste extrêmement puissant. Mais il exige désormais une visibili
 
 Code général des impôts, article 787 B · Loi de finances pour 2026, dispositions portant l'engagement individuel de conservation de quatre à six ans · BOFiP, exonération partielle des transmissions d'entreprises · Jurisprudence sur la notion d'activité opérationnelle des holdings animatrices.
 
+
+### Liens internes
+
+articles **D16** et **D17**.
+
 ---
 
 ## D11 — Transmettre un bien immobilier : donation, SCI ou démembrement
@@ -222,6 +237,11 @@ La **donation-partage** fige les valeurs au jour de l'acte, à condition que tou
 
 Code général des impôts, articles 669, 779 et 784 · Code civil, articles 843, 860 et 1078 sur le rapport et la donation-partage · BOFiP, évaluation de l'usufruit et de la nue-propriété.
 
+
+### Liens internes
+
+articles **D12** et **D15**.
+
 ---
 
 ## D12 — La SCI familiale : ce qu'elle règle et ce qu'elle complique
@@ -263,6 +283,11 @@ Un patrimoine locatif de plusieurs biens, plusieurs enfants, un horizon de trans
 ### Sources
 
 Code civil, articles 1832 et suivants, et 1857 sur la responsabilité des associés · Code général des impôts, articles 8, 206 et 976 · BOFiP, sociétés civiles immobilières et évaluation des titres non cotés.
+
+
+### Liens internes
+
+articles **D15** et **D10**.
 
 ---
 
@@ -306,6 +331,11 @@ Deux outils juridiques complémentaires méritent d'être examinés avec un nota
 ### Sources
 
 Code général des impôts, articles 779, II, 199 septies et 199 septies 1° bis · Code civil, articles 1048 et suivants (libéralités graduelles et résiduelles), 477 et suivants (mandat de protection future) · Code de l'action sociale et des familles, conditions de ressources des prestations.
+
+
+### Liens internes
+
+articles **D11** et **D12**.
 
 ---
 
@@ -352,6 +382,11 @@ Le testament qui **contredit une clause bénéficiaire** d'assurance-vie, créan
 ### Sources
 
 Code civil, articles 967 à 1001 (formes des testaments), 912 et suivants (réserve héréditaire) · Convention de Washington du 26 octobre 1973 portant loi uniforme sur la forme d'un testament international · Fichier central des dispositions de dernières volontés.
+
+
+### Liens internes
+
+articles **D18** et **D9**.
 
 ---
 
@@ -404,6 +439,11 @@ La donation-partage du vivant est le seul outil qui supprime le problème à la 
 ### Sources
 
 Code civil, articles 815 et suivants, notamment 815, 815-3, 815-5-1 et 815-9 · Code de procédure civile, procédure de partage judiciaire.
+
+
+### Liens internes
+
+articles **D10** et **D16**.
 
 ---
 
@@ -461,6 +501,11 @@ L'écart entre le traitement attendu et le traitement obtenu est alors considér
 
 Code des assurances, articles L. 132-13 et L. 132-12 · Jurisprudence constante de la Cour de cassation sur l'appréciation du caractère manifestement exagéré des primes, notamment les arrêts de chambre mixte du 23 novembre 2004 · Code général des impôts, articles 990 I et 757 B.
 
+
+### Liens internes
+
+articles **D17** et **D14**.
+
 ---
 
 ## D17 — Succession internationale : quel droit s'applique à vos biens
@@ -515,6 +560,11 @@ Vérifier le sort des **contrats d'assurance-vie**, dont le traitement en droit 
 ### Sources
 
 Règlement (UE) n° 650/2012 du 4 juillet 2012 relatif aux successions et au certificat successoral européen · Code général des impôts, article 750 ter · Conventions fiscales bilatérales françaises en matière de successions · BOFiP, territorialité des droits de mutation à titre gratuit.
+
+
+### Liens internes
+
+articles **D14** et **D18**.
 
 ---
 
@@ -576,3 +626,8 @@ Elle ne règle pas la question du logement en famille recomposée, où l'usufrui
 ### Sources
 
 Code civil, articles 757 et suivants, 764 et 765-1 (droit viager au logement), 1094-1 et 1096 (donation entre époux) · Code général des impôts, articles 669 et 796-0 bis.
+
+
+### Liens internes
+
+articles **D9** et **D8**.
