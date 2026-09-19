@@ -1,22 +1,118 @@
 ---
 import Base from '../layouts/Base.astro';
+
+// Lot 4, page 2 sur 7. La page faisait 223 mots et trois sections toutes sur
+// fond nuit : elle ne pouvait se classer sur rien, alors que la page
+// /conseil-investissement-ia/ lui envoie déjà des visiteurs.
+//
+// CE QUI N'EST PAS TOUCHÉ : le bloc du programme pilote, avec son annonce de
+// la version web, et le formulaire. Le hero ne change que par son h1 et son
+// chapô. Trois sections sont insérées entre les deux, plus la grille des six
+// questions et la FAQ, de sorte que les fonds alternent nuit, lavande et
+// blanc : aucune paire voisine ne cumule plus 192 px de vide.
+//
+// REGISTRE : vouvoiement, comme cette page depuis l'origine. Le tutoiement
+// décidé au lot 3 vaut pour les pages de requête grand public, pas pour le B2B.
+//
+// MISE EN PAGE : « .prose » pour la prose suivie, sans quoi les paragraphes
+// consécutifs sortent à marge 0 ; « .tableau » à DEUX colonnes, sa grille
+// étant figée à 1fr 1fr ; « .limites » à six items, ses colonnes étant au
+// nombre de trois. Mêmes motifs que /conseil-investissement-ia/.
+//
+// Rien n'est affirmé ici qui ne figure déjà sur /securite/ : l'offre
+// professionnelle est en préparation, et la page le dit.
+const faq = [
+  {
+    "q": "SAFIA remplace-t-elle mon logiciel de gestion de patrimoine ?",
+    "r": "Non, et ce n'est pas l'intention. Un logiciel métier tient votre back-office, votre conformité et votre facturation. SAFIA travaille sur ce qui se passe avant et après le rendez-vous : la préparation du dossier, l'analyse, la trace de ce qui a été examiné."
+  },
+  {
+    "q": "Qui reste responsable du conseil délivré à mon client ?",
+    "r": "Vous. L'automatisation ne déplace pas la responsabilité, elle la laisse là où elle était, chez le professionnel enregistré qui exerce l'activité réglementée. C'est le principe de l'humain dans la boucle : l'IA prépare et propose, vous validez et vous engagez votre recommandation."
+  },
+  {
+    "q": "Mes clients et leurs données restent-ils les miens ?",
+    "r": "Oui. Vos clients sont vos clients, et nous ne prenons aucune commission sur les produits que vous conseillez. Les données sont hébergées chez Scaleway, dans l'Union européenne, et ne servent pas à entraîner les modèles de nos fournisseurs."
+  },
+  {
+    "q": "Faut-il une taille minimale de cabinet pour rejoindre le pilote ?",
+    "r": "Non. Nous cherchons des façons de travailler différentes plutôt que des encours, et un cabinet de deux personnes nous apprend autant qu'un cabinet de vingt. Le nombre de places est limité parce que nous suivons chaque pilote de près."
+  },
+  {
+    "q": "SAFIA touche-t-elle une commission sur les produits que je conseille ?",
+    "r": "Aucune. Nous ne sommes pas rémunérés par les producteurs et nous n'avons donc aucun intérêt à orienter une recommandation. C'est une condition de la crédibilité de l'analyse, pas un argument commercial."
+  },
+  {
+    "q": "Combien de temps prend la mise en route ?",
+    "r": "Cela dépend de vos outils actuels et de ce que vous voulez tester, et nous préférons le dire après le premier échange plutôt que d'annoncer un délai qui ne vaudrait rien. Ce que nous garantissons, c'est de vous dire précisément ce qui existe aujourd'hui et ce qui n'existe pas encore."
+  }
+];
+
 const fil = ["Accueil","Professionnels","Conseillers"];
 ---
 
 <Base
   chemin={"/conseillers/"}
+  faq={faq}
   fil={fil}
 >
 <section class="hero hero-page hero-pro-f">
 <div class="wrap hero-page-in hero-court">
   <p class="etiq-page">Professionnels</p>
     <p class="fil-ariane" aria-label="Fil d'Ariane"><a href="/">Accueil</a> <span aria-hidden="true">/</span> Professionnels <span aria-hidden="true">/</span> Conseillers</p>
-  <h1>Nous construisons SAFIA pour les cabinets. Avec quelques cabinets.</h1>
-  <p class="chapo">Une offre destinée aux conseillers en gestion de patrimoine est en préparation. Nous ouvrons un nombre limité de places dans le programme pilote.</p>
+  <h1>L'IA qui fait gagner du temps aux conseillers en gestion de patrimoine</h1>
+  <p class="chapo">Une offre destinée aux cabinets de conseil en gestion de patrimoine est en préparation. Nous la construisons avec quelques cabinets plutôt qu'en annonçant une feuille de route, et nous ouvrons un nombre limité de places dans le programme pilote.</p>
   <div class="actions">
     <a class="btn btn-primaire" href="#contact">Rejoindre le programme pilote</a>
   </div>
   <p class="sous-actions">SAFIA est un cabinet CIF membre de la CNCGP, fondé par un conseiller en gestion de patrimoine.</p>
+</div>
+</section>
+
+<section class="bloc">
+<div class="wrap">
+  <h2 class="titre">Ce que l'intelligence artificielle change dans un cabinet</h2>
+  <div class="prose">
+    <p class="intro">Le métier de conseiller en gestion de patrimoine n'est pas menacé par l'IA, il est encombré par tout ce qui n'est pas du conseil. Un rendez-vous de deux heures se paie en heures de préparation, de mise en forme et de justification. C'est là que l'automatisation agit, et nulle part ailleurs.</p>
+
+    <h3>Avant le rendez-vous</h3>
+    <p>Rassembler les relevés, reconstituer une situation complète, repérer ce qui manque au dossier, calculer une capacité d'épargne, projeter une fiscalité, simuler plusieurs hypothèses de sortie. Ce travail conditionne la pertinence de ce que vous proposerez, et il ne se voit jamais. L'automatiser ne change pas votre recommandation : il vous donne le temps de la penser.</p>
+
+    <h3>Pendant et après</h3>
+    <p>Produire la trace de ce qui a été examiné, avec les sources et leur date. Une recommandation se justifie au regard d'une situation à un instant donné, et cette justification se construit aujourd'hui de mémoire, après coup, dans le meilleur des cas. Un système qui cite et date ses références la produit en même temps que l'analyse. Le <a class="lien" href="/blog/rapport-adequation-cif/">rapport d'adéquation</a> cesse d'être une corvée de fin de dossier.</p>
+
+    <h3>Entre deux rendez-vous</h3>
+    <p>Repérer qu'un plafond a bougé, qu'une allocation a dérivé, qu'un profil de risque n'a pas été revu depuis trop longtemps, qu'un client a reçu une somme inhabituelle. La vigilance continue est exactement ce qu'un humain ne peut pas tenir sur trois cents dossiers, et c'est pourtant ce que vos clients croient que vous faites. C'est le poste où l'écart entre la promesse et le possible est le plus large.</p>
+
+    <p>Rien de tout cela ne consiste à conseiller à votre place. Deux articles détaillent ce basculement côté organisation : <a class="lien" href="/blog/digitaliser-cabinet-gestion-patrimoine/">digitaliser un cabinet de gestion de patrimoine</a> et <a class="lien" href="/blog/onboarding-client-digital-cgp/">l'entrée en relation à distance</a>.</p>
+  </div>
+</div>
+</section>
+
+<section class="bloc appui-bloc">
+<div class="wrap">
+  <h2 class="titre">Le temps que ça vous rend</h2>
+  <p class="intro">Quatre tâches que tout cabinet connaît, et ce que l'IA de SAFIA en fait. La colonne de gauche n'est pas une caricature : c'est la journée ordinaire d'un conseiller.</p>
+  <div class="tableau" role="table" aria-label="Quatre tâches de cabinet et ce que l'IA en fait">
+    <div class="tr entete" role="row"><div role="columnheader">La tâche, telle qu'elle se passe aujourd'hui</div><div role="columnheader">Ce que l'IA en fait</div></div>
+    <div class="tr" role="row">
+      <div role="cell">Reconstituer la situation d'un client à partir de relevés de plusieurs établissements, à la main, avant chaque point annuel.</div>
+      <div role="cell">L'agrégation des comptes remonte les encours et les mouvements, et le dossier est à jour sans ressaisie. Voir <a class="lien" href="/blog/agregation-bancaire-cabinet-cgp/">l'agrégation bancaire en cabinet</a>.</div>
+    </div>
+    <div class="tr" role="row">
+      <div role="cell">Vérifier un plafond, un abattement ou un barème dans une documentation qui a changé depuis la dernière fois.</div>
+      <div role="cell">La réponse arrive sourcée et datée, ou la question vous est posée. L'IA de SAFIA a l'interdiction explicite d'inventer un chiffre, un taux ou un article de loi.</div>
+    </div>
+    <div class="tr" role="row">
+      <div role="cell">Rédiger le compte rendu et la justification d'une recommandation, plusieurs jours après l'entretien.</div>
+      <div role="cell">La trace est constituée pendant l'analyse, avec les sources consultées. Vous relisez et vous signez au lieu de reconstituer.</div>
+    </div>
+    <div class="tr" role="row">
+      <div role="cell">Servir un client dont l'encours ne justifie pas, économiquement, un suivi annuel complet.</div>
+      <div role="cell">Le seuil d'entrée baisse, parce que ce qui coûtait cher était le temps de préparation. Voir <a class="lien" href="/blog/servir-clients-petits-encours/">servir les petits encours</a>.</div>
+    </div>
+  </div>
+  <p class="note-tab">SAFIA ne remplace pas votre logiciel métier : la frontière entre les deux, et la façon de choisir, sont traitées dans <a class="lien" href="/blog/logiciel-cgp-comment-choisir/">comment choisir un logiciel de gestion de patrimoine</a>.</p>
 </div>
 </section>
 
@@ -37,6 +133,49 @@ const fil = ["Accueil","Professionnels","Conseillers"];
   </ul>
   <p class="pilote-note">Nous vous dirons précisément ce qui existe aujourd'hui et ce qui n'existe pas encore. Et nous ne prenons aucune commission sur les produits que vous conseillez.</p>
   <a class="btn btn-primaire" href="#contact">Rejoindre le programme pilote</a>
+</div>
+</section>
+
+<section class="bloc">
+<div class="wrap">
+  <h2 class="titre">Ce que SAFIA ne fait pas à votre place</h2>
+  <div class="prose">
+    <p class="intro">Une IA qui prétendrait délivrer le conseil à votre place vous exposerait sans rien vous apporter. Le statut de conseiller en investissements financiers est porté par une personne, qui s'enregistre à l'ORIAS, adhère à une association agréée et s'assure. Un logiciel ne fait rien de cela.</p>
+
+    <p>La recommandation reste donc la vôtre, et c'est un choix d'architecture avant d'être une précaution juridique. L'IA prépare, analyse, documente et signale ; vous tranchez, parce que vous êtes le seul à connaître ce que le dossier ne dit pas et le seul à répondre de ce qui sera conseillé. C'est le principe de l'humain dans la boucle, le <em>human-in-the-loop</em>, qui valide les recommandations avant qu'elles engagent une décision.</p>
+
+    <p>Ce cadre n'est pas une opinion de SAFIA, il découle de textes qui se superposent : le règlement européen sur l'intelligence artificielle, la directive sur les marchés d'instruments financiers, le règlement sur la résilience opérationnelle numérique et le règlement général sur la protection des données. Ce qu'ils exigent, texte par texte, est détaillé sur la page <a class="lien" href="/conseil-investissement-ia/">conseil en investissement et IA</a>, et l'article <a class="lien" href="/blog/ai-act-conseiller-financier/">ce que l'AI Act change pour un cabinet</a> entre dans le détail du premier.</p>
+
+    <p>Le revers mérite d'être dit aussi clairement. Un système incapable de dire d'où vient une affirmation vous transfère la charge de vérifier chaque ligne, et fabrique une trace fausse au lieu d'une preuve. C'est pourquoi l'IA de SAFIA pose la question plutôt que de deviner, et pourquoi chaque source consultée est journalisée. Le détail de l'hébergement, du chiffrement et de notre cadre réglementaire est sur la page <a class="lien" href="/securite/">sécurité et conformité</a>, et notre façon de travailler sur <a class="lien" href="/methode/">notre méthode</a>.</p>
+  </div>
+</div>
+</section>
+
+<section class="bloc ne-fait-pas">
+<div class="wrap">
+  <h2 class="titre">Six questions à poser à un éditeur d'IA patrimoniale</h2>
+  <ul class="limites">
+    <li><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/><path d="M12 7v6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="currentColor"/></svg><p><b>Chaque réponse est-elle sourcée et datée ?</b> Sans cela, vous ne pourrez justifier aucune recommandation.</p></li>
+    <li><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/><path d="M12 7v6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="currentColor"/></svg><p><b>Que fait l'outil quand il ignore la réponse ?</b> Poser la question est un bon signe, deviner en est un très mauvais.</p></li>
+    <li><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/><path d="M12 7v6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="currentColor"/></svg><p><b>Un humain valide-t-il avant que la recommandation engage ?</b> La supervision doit être effective, pas déclarative.</p></li>
+    <li><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/><path d="M12 7v6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="currentColor"/></svg><p><b>Où sont hébergées les données de vos clients ?</b> Et sous quel droit, le jour d'un litige.</p></li>
+    <li><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/><path d="M12 7v6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="currentColor"/></svg><p><b>Vos dossiers sont-ils exportables ?</b> Y compris le jour où vous changez d'outil, sans négociation.</p></li>
+    <li><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/><path d="M12 7v6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="currentColor"/></svg><p><b>L'éditeur est-il rémunéré par les producteurs ?</b> Une commission sur les produits conseillés oriente l'analyse.</p></li>
+  </ul>
+</div>
+</section>
+
+<section class="bloc faq-bloc">
+<div class="wrap faq-grille">
+  <h2 class="titre">Vos questions, nos réponses</h2>
+  <div class="faq">
+    <details><summary>SAFIA remplace-t-elle mon logiciel de gestion de patrimoine ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Non, et ce n'est pas l'intention. Un logiciel métier tient votre back-office, votre conformité et votre facturation. SAFIA travaille sur ce qui se passe avant et après le rendez-vous : la préparation du dossier, l'analyse, la trace de ce qui a été examiné.</p></details>
+    <details><summary>Qui reste responsable du conseil délivré à mon client ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Vous. L'automatisation ne déplace pas la responsabilité, elle la laisse là où elle était, chez le professionnel enregistré qui exerce l'activité réglementée. C'est le principe de l'humain dans la boucle : l'IA prépare et propose, vous validez et vous engagez votre recommandation.</p></details>
+    <details><summary>Mes clients et leurs données restent-ils les miens ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Oui. Vos clients sont vos clients, et nous ne prenons aucune commission sur les produits que vous conseillez. Les données sont hébergées chez Scaleway, dans l'Union européenne, et ne servent pas à entraîner les modèles de nos fournisseurs.</p></details>
+    <details><summary>Faut-il une taille minimale de cabinet pour rejoindre le pilote ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Non. Nous cherchons des façons de travailler différentes plutôt que des encours, et un cabinet de deux personnes nous apprend autant qu'un cabinet de vingt. Le nombre de places est limité parce que nous suivons chaque pilote de près.</p></details>
+    <details><summary>SAFIA touche-t-elle une commission sur les produits que je conseille ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Aucune. Nous ne sommes pas rémunérés par les producteurs et nous n'avons donc aucun intérêt à orienter une recommandation. C'est une condition de la crédibilité de l'analyse, pas un argument commercial.</p></details>
+    <details><summary>Combien de temps prend la mise en route ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Cela dépend de vos outils actuels et de ce que vous voulez tester, et nous préférons le dire après le premier échange plutôt que d'annoncer un délai qui ne vaudrait rien. Ce que nous garantissons, c'est de vous dire précisément ce qui existe aujourd'hui et ce qui n'existe pas encore.</p></details>
+  </div>
 </div>
 </section>
 

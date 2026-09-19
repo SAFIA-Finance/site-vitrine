@@ -1,10 +1,56 @@
 ---
 import Base from '../layouts/Base.astro';
+
+// Lot 4, page 3 sur 7. La page faisait 183 mots et trois sections toutes sur
+// fond nuit. Même traitement que /conseillers/, avec l'angle établissement :
+// la marque blanche, la réversibilité et la sous-traitance, là où la page des
+// cabinets parle de temps gagné sur les dossiers.
+//
+// CE QUI N'EST PAS TOUCHÉ : le bloc « notre façon de travailler », avec son
+// annonce de la version web, et le formulaire. Le hero ne change que par son
+// chapô ; le h1 portait déjà « IA » et l'offre, il reste tel quel.
+//
+// FRONTIÈRE AVEC /securite/ : l'hébergement, le chiffrement et le cadre
+// réglementaire y sont détaillés. On ne les recopie pas, on y renvoie, et on
+// s'en tient ici à ce que cela implique pour un établissement.
+//
+// REGISTRE : vouvoiement, comme cette page depuis l'origine.
+//
+// MISE EN PAGE : « .prose », « .tableau » à deux colonnes, « .limites » à six
+// items. Fonds alternés nuit, lavande, blanc.
+const faq = [
+  {
+    "q": "Qu'est-ce qu'une IA patrimoniale en marque blanche ?",
+    "r": "Une expérience d'accompagnement patrimonial qui porte votre marque, vos parcours et votre charte, et dont la technologie est fournie et maintenue par un tiers. Vos clients restent vos clients : ils ne voient pas le fournisseur."
+  },
+  {
+    "q": "Où sont hébergées les données de nos clients ?",
+    "r": "Chez Scaleway, fournisseur français, dans des centres de données situés dans l'Union européenne. Les environnements de test et de production sont strictement séparés, et les données ne servent pas à entraîner les modèles de nos fournisseurs. Le détail figure sur notre page sécurité et conformité."
+  },
+  {
+    "q": "Nos clients savent-ils qu'ils échangent avec une IA ?",
+    "r": "Toujours, et ce n'est pas négociable. La transparence sur le caractère automatisé de l'échange est la première exigence du règlement européen sur l'intelligence artificielle, et la plus simple à constater pour un régulateur comme pour un client."
+  },
+  {
+    "q": "Qui porte la responsabilité du conseil délivré ?",
+    "r": "L'établissement qui exerce l'activité réglementée, et le professionnel qui délivre la recommandation. L'automatisation ne déplace pas la responsabilité. C'est la raison pour laquelle un humain valide avant que la recommandation engage une décision."
+  },
+  {
+    "q": "Que se passe-t-il si nous arrêtons le partenariat ?",
+    "r": "Vos données et l'historique des échanges sont exportables. La réversibilité fait partie des obligations de maîtrise du risque prestataire, pas des options, et une question sans réponse claire sur ce point est un signal en soi."
+  },
+  {
+    "q": "Combien de projets menez-vous en parallèle ?",
+    "r": "Un nombre volontairement limité, parce qu'un parcours en marque blanche se construit avec les équipes de l'établissement et non par paramétrage. Nous préférons le dire avant qu'après."
+  }
+];
+
 const fil = ["Accueil","Professionnels","Institutions"];
 ---
 
 <Base
   chemin={"/institutions/"}
+  faq={faq}
   fil={fil}
 >
 <section class="hero hero-page hero-pro-f">
@@ -12,11 +58,52 @@ const fil = ["Accueil","Professionnels","Institutions"];
   <p class="etiq-page">Professionnels</p>
     <p class="fil-ariane" aria-label="Fil d'Ariane"><a href="/">Accueil</a> <span aria-hidden="true">/</span> Professionnels <span aria-hidden="true">/</span> Institutions</p>
   <h1>L'expérience patrimoniale IA, à votre marque.</h1>
-  <p class="chapo">Offrir un accompagnement patrimonial digital à toute votre clientèle suppose une technologie que peu d'établissements souhaitent développer en interne. Nous travaillons sur ce sujet avec un nombre restreint d'établissements.</p>
+  <p class="chapo">Offrir un accompagnement patrimonial digital à toute votre clientèle suppose une technologie que peu de banques, d'assureurs ou de grands cabinets souhaitent développer en interne. Nous travaillons sur ce sujet avec un nombre restreint d'établissements.</p>
   <div class="actions">
     <a class="btn btn-primaire" href="#contact">Rejoindre le programme pilote</a>
   </div>
   <p class="sous-actions">Banques · Assureurs · Groupements et grands cabinets</p>
+</div>
+</section>
+
+<section class="bloc">
+<div class="wrap">
+  <h2 class="titre">Servir toute votre clientèle, pas seulement le haut de bilan</h2>
+  <div class="prose">
+    <p class="intro">Dans la plupart des établissements, l'accompagnement patrimonial complet s'arrête à un seuil. Au-dessus, un conseiller dédié et un suivi annuel. En dessous, une offre de produits et une brochure. Ce n'est pas un choix commercial, c'est une contrainte de coût : le temps de préparation d'un bilan patrimonial est le même quel que soit l'encours.</p>
+
+    <h3>Le coût est dans la préparation, pas dans la recommandation</h3>
+    <p>Reconstituer une situation, vérifier une fiscalité, projeter plusieurs hypothèses, produire la justification : ces heures se paient à l'identique sur un dossier de cinquante mille euros et sur un dossier de cinq millions. Quand elles tombent, le seuil de rentabilité descend, et une clientèle entière devient servable avec la même qualité d'analyse.</p>
+
+    <h3>Le concurrent n'est pas la banque d'en face</h3>
+    <p>C'est l'application que vos clients utilisent déjà pour agréger leurs comptes, et qui leur parle mieux de leur patrimoine que leur propre établissement. L'attente s'est déplacée, et elle ne revient pas en arrière.</p>
+
+    <h3>Ce que suppose d'y répondre</h3>
+    <p>Un modèle entraîné pour la gestion de patrimoine et le conseil en investissement, des bases documentaires réglementaires tenues à jour, un socle de sécurité, une traçabilité vérifiable et une supervision humaine effective. Cet assemblage est un métier, et il n'est pas celui d'un réseau de distribution.</p>
+  </div>
+</div>
+</section>
+
+<section class="bloc appui-bloc">
+<div class="wrap">
+  <h2 class="titre">Trois façons de s'y prendre</h2>
+  <p class="intro">Les trois se défendent selon votre taille, vos équipes et votre calendrier. Autant les mettre à plat.</p>
+  <div class="tableau" role="table" aria-label="Trois options pour proposer une expérience patrimoniale IA">
+    <div class="tr entete" role="row"><div role="columnheader">L'option</div><div role="columnheader">Ce qu'elle implique</div></div>
+    <div class="tr" role="row">
+      <div role="cell"><b>Développer en interne.</b></div>
+      <div role="cell">La maîtrise totale, et une équipe à constituer sur trois métiers à la fois : modèles, documentation réglementaire et conformité. Le délai se compte en années, et la maintenance ne s'arrête jamais.</div>
+    </div>
+    <div class="tr" role="row">
+      <div role="cell"><b>Acheter un logiciel métier.</b></div>
+      <div role="cell">Une mise en œuvre rapide sur le back-office et la conformité, mais une expérience client qui reste celle de l'éditeur, et rarement une IA conçue pour dialoguer avec l'épargnant.</div>
+    </div>
+    <div class="tr" role="row">
+      <div role="cell"><b>La marque blanche.</b></div>
+      <div role="cell">Votre marque et vos parcours, une technologie fournie et maintenue, et une dépendance à un prestataire qu'il faut encadrer : réversibilité, export des données, continuité de service.</div>
+    </div>
+  </div>
+  <p class="note-tab">Le choix entre les deux dernières options est traité en détail dans <a class="lien" href="/blog/marque-blanche-ou-logiciel-metier/">marque blanche ou logiciel métier</a>. Nous n'intervenons que sur la troisième, et nous le disons dès le premier échange.</p>
 </div>
 </section>
 
@@ -35,6 +122,53 @@ const fil = ["Accueil","Professionnels","Institutions"];
   </ul>
   <p class="pilote-note">Le reste se discute en rendez-vous, documentation à l'appui.</p>
   <a class="btn btn-primaire" href="#contact">Rejoindre le programme pilote</a>
+</div>
+</section>
+
+<section class="bloc">
+<div class="wrap">
+  <h2 class="titre">Ce qui est cadré dès la conception</h2>
+  <div class="prose">
+    <p class="intro">Un établissement n'achète pas une démonstration, il achète ce qu'il pourra montrer à son régulateur, à son contrôle interne et à ses clients. Quatre points sont donc traités en amont, et non ajoutés ensuite.</p>
+
+    <p><b>L'hébergement et la séparation.</b> Les données résident chez Scaleway, dans l'Union européenne, avec des environnements de test et de production strictement séparés. Elles servent à personnaliser les analyses et à rien d'autre : elles n'entraînent pas les modèles de nos fournisseurs. Le détail de la chaîne, de la connexion bancaire via Powens jusqu'au chiffrement, est sur la page <a class="lien" href="/securite/">sécurité et conformité</a>.</p>
+
+    <p><b>La traçabilité.</b> Chaque calcul de profil et chaque source consultée sont journalisés, et l'assistant va chercher l'information dans nos bases avant de répondre plutôt que de la produire de mémoire. Un système incapable de dire d'où vient une affirmation ne rend pas seulement la preuve difficile, il fabrique une trace fausse. L'IA de SAFIA a l'interdiction explicite d'inventer un chiffre, un taux, un plafond ou un article de loi, et pose la question plutôt que de deviner.</p>
+
+    <p><b>L'humain dans la boucle.</b> L'IA prépare, analyse et signale ; un professionnel valide les recommandations avant qu'elles engagent une décision. La supervision doit être effective, pas déclarative, et c'est aussi ce qui garde le conseil juridiquement tenable.</p>
+
+    <p><b>Le cadre réglementaire.</b> Le règlement européen sur l'intelligence artificielle, la directive sur les marchés d'instruments financiers, le règlement sur la résilience opérationnelle numérique et le règlement général sur la protection des données se superposent. Ce que chacun exige est détaillé, texte par texte, sur la page <a class="lien" href="/conseil-investissement-ia/">conseil en investissement et IA</a>. SAFIA est par ailleurs un cabinet de conseil en investissements financiers enregistré à l'ORIAS et adhérent de la CNCGP, ce qui est vérifiable par n'importe qui.</p>
+
+    <p>Notre façon de travailler sur le fond est décrite dans <a class="lien" href="/methode/">notre méthode</a>, et l'offre destinée aux cabinets indépendants sur la page <a class="lien" href="/conseillers/">Conseillers</a>.</p>
+  </div>
+</div>
+</section>
+
+<section class="bloc ne-fait-pas">
+<div class="wrap">
+  <h2 class="titre">Six questions à poser à un fournisseur d'IA patrimoniale</h2>
+  <ul class="limites">
+    <li><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/><path d="M12 7v6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="currentColor"/></svg><p><b>Qui est propriétaire des données produites ?</b> La réponse doit tenir en une phrase et figurer au contrat.</p></li>
+    <li><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/><path d="M12 7v6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="currentColor"/></svg><p><b>Comment sort-on du partenariat ?</b> La réversibilité s'organise avant la signature, jamais après.</p></li>
+    <li><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/><path d="M12 7v6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="currentColor"/></svg><p><b>Quels sous-traitants interviennent, et où ?</b> La chaîne complète, pas seulement le nom du fournisseur principal.</p></li>
+    <li><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/><path d="M12 7v6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="currentColor"/></svg><p><b>Que peut-on auditer, et comment ?</b> Un engagement de traçabilité sans accès aux journaux n'en est pas un.</p></li>
+    <li><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/><path d="M12 7v6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="currentColor"/></svg><p><b>Que se passe-t-il en cas d'incident ?</b> La continuité de service fait partie des obligations, pas des options.</p></li>
+    <li><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/><path d="M12 7v6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="currentColor"/></svg><p><b>Qui valide avant qu'une recommandation engage ?</b> Si la réponse est « personne », le sujet n'est pas la technologie.</p></li>
+  </ul>
+</div>
+</section>
+
+<section class="bloc faq-bloc">
+<div class="wrap faq-grille">
+  <h2 class="titre">Vos questions, nos réponses</h2>
+  <div class="faq">
+    <details><summary>Qu'est-ce qu'une IA patrimoniale en marque blanche ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Une expérience d'accompagnement patrimonial qui porte votre marque, vos parcours et votre charte, et dont la technologie est fournie et maintenue par un tiers. Vos clients restent vos clients : ils ne voient pas le fournisseur.</p></details>
+    <details><summary>Où sont hébergées les données de nos clients ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Chez Scaleway, fournisseur français, dans des centres de données situés dans l'Union européenne. Les environnements de test et de production sont strictement séparés, et les données ne servent pas à entraîner les modèles de nos fournisseurs. Le détail figure sur notre page <a class="lien" href="/securite/">sécurité et conformité</a>.</p></details>
+    <details><summary>Nos clients savent-ils qu'ils échangent avec une IA ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Toujours, et ce n'est pas négociable. La transparence sur le caractère automatisé de l'échange est la première exigence du règlement européen sur l'intelligence artificielle, et la plus simple à constater pour un régulateur comme pour un client.</p></details>
+    <details><summary>Qui porte la responsabilité du conseil délivré ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>L'établissement qui exerce l'activité réglementée, et le professionnel qui délivre la recommandation. L'automatisation ne déplace pas la responsabilité. C'est la raison pour laquelle un humain valide avant que la recommandation engage une décision.</p></details>
+    <details><summary>Que se passe-t-il si nous arrêtons le partenariat ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Vos données et l'historique des échanges sont exportables. La réversibilité fait partie des obligations de maîtrise du risque prestataire, pas des options, et une question sans réponse claire sur ce point est un signal en soi.</p></details>
+    <details><summary>Combien de projets menez-vous en parallèle ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Un nombre volontairement limité, parce qu'un parcours en marque blanche se construit avec les équipes de l'établissement et non par paramétrage. Nous préférons le dire avant qu'après.</p></details>
+  </div>
 </div>
 </section>
 

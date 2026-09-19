@@ -51,7 +51,7 @@
     "libelle": "Conseillers",
     "ref": "CON",
     "titre": "IA pour conseillers en gestion de patrimoine (CGP) · SAFIA",
-    "description": "Une offre destinée aux cabinets CGP et CIF est en préparation. Programme pilote ouvert à un nombre limité de cabinets."
+    "description": "IA pour cabinets de gestion de patrimoine : préparation des dossiers, réponses sourcées, traçabilité. Vous validez. Pilote ouvert à quelques cabinets."
   },
   {
     "slug": "institutions",
@@ -60,7 +60,7 @@
     "libelle": "Institutions",
     "ref": "INS",
     "titre": "IA patrimoniale en marque blanche pour banques · SAFIA",
-    "description": "IA patrimoniale en marque blanche pour banques, assureurs et grands cabinets."
+    "description": "Proposez un accompagnement patrimonial IA à toute votre clientèle, sous votre marque. Hébergement UE, traçabilité, validation humaine. Projets limités."
   },
   {
     "slug": "tarifs",
