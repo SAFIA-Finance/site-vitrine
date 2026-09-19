@@ -85,6 +85,26 @@ Vous relèverez ensuite du service des impôts des particuliers non-résidents p
 
 Cette formalité est nécessaire mais, répétons-le, non suffisante : elle enregistre votre départ, elle ne l'établit pas.
 
+### Le fractionnement de l'année du départ
+
+C'est le mécanisme le plus utile à connaître, et le plus souvent ignoré au moment de fixer une date de départ.
+
+En droit interne, la résidence s'apprécie en principe sur l'année entière. Mais la plupart des conventions permettent de **scinder l'année du départ en deux périodes** : vous êtes résident français jusqu'à la date du transfert, non-résident ensuite.
+
+La conséquence est directe. Sur la première période, vous êtes imposable en France sur vos **revenus mondiaux**, au barème. Sur la seconde, vous ne l'êtes plus que sur vos **revenus de source française**, selon les règles propres aux non-résidents et sous réserve de la convention.
+
+Autrement dit, la date du départ devient un paramètre fiscal à part entière, et le calendrier de perception de vos revenus avec elle.
+
+**Exemple.** Un cadre transfère sa résidence le 30 juin. Son employeur prévoit une prime de 80 000 €.
+
+*Versée le 15 juin*, elle tombe dans la période de résidence française : imposée au barème français, avec l'ensemble de ses autres revenus mondiaux de la période.
+
+*Versée le 15 juillet*, elle relève des règles applicables aux non-résidents et du partage prévu par la convention, qui rattache généralement la rémunération au lieu où l'activité est exercée.
+
+Un mois d'écart, deux régimes. Le raisonnement vaut pour une prime, mais aussi pour la levée d'options, le rachat d'un contrat, la distribution d'un dividende ou la cession d'un actif.
+
+Deux précautions, toutefois. Le fractionnement suppose que le transfert soit **réel et daté**, avec les preuves matérielles évoquées plus haut : il ne se décrète pas pour les besoins du calcul. Et toutes les conventions ne l'organisent pas de la même façon : vérifiez le texte applicable à votre destination avant d'arrêter un calendrier.
+
 ### Questions fréquentes
 
 **Combien de jours puis-je passer en France ?**
@@ -185,6 +205,18 @@ Le sursis prend également fin en cas de cession, rachat, remboursement ou annul
 **Le retour en France.** Il entraîne le dégrèvement de l'impôt sur les titres encore détenus. Un départ suivi d'un retour rapide n'est donc pas neutre, mais il n'est pas non plus catastrophique sur ce point précis.
 
 **La stabilité du dispositif.** Le régime du dégrèvement à 2 ou 5 ans a été maintenu dans la loi de finances pour 2026, un amendement tendant à le durcir ayant été écarté. Rien ne garantit qu'il en aille de même ultérieurement : le sujet revient à chaque discussion budgétaire.
+
+### Les trois erreurs qui font tomber le sursis
+
+Le sursis n'est pas acquis une fois pour toutes. Il s'éteint, et l'impôt devient alors exigible immédiatement, majoré des intérêts de retard. Trois causes reviennent, et toutes sont évitables.
+
+**Oublier la déclaration annuelle de suivi.** Le formulaire 2074-ETSL doit être déposé chaque année pendant toute la durée du sursis, y compris les années où rien ne s'est passé. C'est la cause de loin la plus fréquente, et la plus absurde : l'impôt devient exigible non pas parce que vous avez vendu, mais parce qu'une déclaration n'a pas été souscrite. Posez un rappel annuel dès le départ.
+
+**Céder sans mesurer l'effet.** Toute cession, tout rachat, tout remboursement ou annulation des titres met fin au sursis à proportion des titres concernés. Une opération présentée comme une simple réorganisation peut donc déclencher le paiement. Faites vérifier chaque opération sur les titres visés tant que le délai court.
+
+**Changer de destination sans vérifier la liste.** Le sursis automatique dépend de l'État de résidence. Un second déménagement, vers un État qui ne figure pas sur la liste applicable, peut transformer un sursis automatique en sursis sur option, avec déclaration, représentant fiscal et garanties à constituer. Ce point échappe presque toujours aux personnes qui enchaînent deux expatriations.
+
+Retenez la règle générale : pendant le délai de deux ou cinq ans, **toute décision touchant aux titres ou à la résidence doit être vérifiée avant d'être prise**, jamais après.
 
 ### Questions fréquentes
 
@@ -288,6 +320,26 @@ Le PEA et le compte-titres méritent un examen distinct, traité dans **Assuranc
 
 *Double imposition.* L'Espagne impose ses revenus mondiaux, mais la convention franco-espagnole prévoit l'élimination de la double imposition sur les revenus immobiliers déjà taxés en France.
 
+### Vendre son ancienne résidence principale : l'exonération à connaître
+
+C'est la disposition la plus favorable du régime des non-résidents, et elle se perd faute d'être connue à temps.
+
+Le principe général est simple : l'exonération de plus-value attachée à la résidence principale suppose que le bien soit votre résidence principale **au jour de la vente**. Un expatrié qui vend après son départ ne remplit donc plus cette condition, et bascule dans le régime de droit commun.
+
+Une exonération spécifique existe néanmoins pour la cession de l'ancienne résidence principale d'un non-résident. Elle est encadrée par plusieurs conditions cumulatives, dont il faut retenir la logique plutôt que les seuls chiffres, qui évoluent.
+
+**Un délai après le départ.** La vente doit intervenir dans un certain délai suivant le transfert de résidence. Au-delà, l'exonération tombe. C'est ce délai qui commande le calendrier de mise en vente, et qui explique pourquoi attendre « un meilleur marché » peut coûter davantage que la hausse espérée.
+
+**Un plafond de plus-value exonérée.** L'exonération n'est pas illimitée : la fraction excédant le plafond reste imposable.
+
+**Une condition tenant à l'État de résidence**, qui doit présenter un certain niveau de coopération administrative avec la France.
+
+**Une condition de libre disposition du bien**, qui suppose en pratique de ne pas l'avoir loué entre le départ et la vente. C'est le point qui surprend le plus : mettre le bien en location pendant deux ans, geste économiquement rationnel, peut faire perdre l'exonération.
+
+À défaut de remplir ces conditions, la plus-value relève du régime de droit commun, avec les abattements pour durée de détention. Selon votre État de résidence, un **représentant fiscal accrédité** peut devoir être désigné, les résidents de l'Union européenne et de l'EEE en étant dispensés.
+
+La conclusion pratique est nette : **la décision de vendre ou de conserver le logement se prend avant le départ, pas trois ans après.** Chiffrez les deux hypothèses pendant que les deux restent ouvertes.
+
 ### Questions fréquentes
 
 **Dois-je continuer à déposer une déclaration française ?**
@@ -377,6 +429,32 @@ Il n'existe **pas de transfert** d'un contrat français vers un contrat étrange
 Les contrats luxembourgeois présentent des caractéristiques propres en matière de protection de l'épargnant et d'ouverture aux non-résidents, qui expliquent leur usage en mobilité internationale.
 
 Le coût d'entrée et les minimums de souscription sont généralement plus élevés.
+
+### Le PER, le cas le plus délicat
+
+Le plan d'épargne retraite se conserve, comme les autres enveloppes. Mais il pose une difficulté propre, que ni l'assurance-vie ni le PEA ne présentent : **l'avantage a été pris à l'entrée, et l'imposition intervient à la sortie**, potentiellement dans un autre pays.
+
+Le mécanisme français repose sur une symétrie. Vous avez déduit vos versements de votre revenu imposable, ce qui a produit une économie proportionnelle à votre tranche marginale. En contrepartie, la sortie est imposée.
+
+Si la liquidation intervient alors que vous êtes non-résident, la question devient : **quel État impose cette sortie ?** La réponse dépend de la convention, et elle n'est pas uniforme. Certaines conventions attribuent l'imposition des pensions à l'État de résidence, d'autres réservent un droit à l'État de la source selon la nature du versement et son mode de constitution. Une sortie en capital et une sortie en rente peuvent d'ailleurs relever de qualifications différentes au sein d'une même convention.
+
+Deux situations opposées en découlent.
+
+*Le cas favorable.* Vous avez déduit vos versements à une tranche élevée en France, et la sortie est imposée dans un État de résidence à fiscalité plus douce. L'asymétrie joue en votre faveur, et elle est parfaitement légitime : c'est le fonctionnement normal du report d'imposition.
+
+*Le cas défavorable.* La convention réserve l'imposition à la France sur une sortie en capital, alors que vous espériez relever d'un régime local avantageux. L'avantage pris à l'entrée se paie au taux français, sans que votre nouvelle résidence n'y change rien.
+
+La vérification à faire est donc précise : **lisez l'article de la convention consacré aux pensions, et vérifiez le sort réservé à une sortie en capital**, qui est la modalité la moins bien traitée par des textes souvent rédigés à une époque où la rente dominait.
+
+### L'ordre des opérations avant le départ
+
+Trois arbitrages se posent, et tous se décident avant le transfert de résidence, jamais après.
+
+**Faut-il racheter maintenant ou plus tard ?** L'exemple ci-dessus montre qu'un rachat après le départ peut économiser les prélèvements sociaux. Mais si la convention attribue l'imposition à un État de résidence plus lourd sur ce type de revenu, l'ordre s'inverse. Chiffrez les deux, avec la convention en main.
+
+**Faut-il alimenter les contrats avant de partir ?** Souvent oui, pour une raison purement pratique : de nombreux établissements restreignent les versements des non-résidents. Un contrat que vous ne pourrez plus alimenter pendant dix ans n'a pas la même utilité.
+
+**Faut-il revoir les clauses bénéficiaires ?** C'est le point le plus négligé. Une clause rédigée pour une famille résidant en France peut produire un résultat très différent si l'assuré ou les bénéficiaires deviennent non-résidents, les régimes des articles 990 I et 757 B comportant des conditions tenant à la résidence. Cette relecture prend une heure et se fait avant le départ.
 
 ### Questions fréquentes
 
@@ -468,6 +546,44 @@ Ajoutez, selon votre situation : l'article 18 sur les **pensions**, l'article 19
 
 **Lire un résumé au lieu du texte.** Les synthèses vieillissent mal et ignorent les avenants.
 
+### Les clauses qui n'existent pas partout
+
+Une convention ne couvre que ce qu'elle mentionne. Son silence n'est pas neutre : il signifie que chaque État applique son droit interne, sans mécanisme d'élimination de la double imposition.
+
+**Les successions.** C'est le manque le plus lourd de conséquences. La France a signé un nombre limité de conventions en matière de succession, bien inférieur à celui des conventions sur le revenu. En leur absence, une même transmission peut être taxée dans les deux États, chacun appliquant ses propres règles de rattachement : la France retenant notamment la résidence du défunt, celle de l'héritier ou la situation des biens. Des mécanismes d'imputation de droit interne existent, mais ils sont plus étroits qu'une convention.
+
+Autrement dit : votre convention peut parfaitement régler l'imposition de vos revenus pendant vingt ans, et ne rien dire de la transmission de votre patrimoine. Vérifiez ce point tôt, car il oriente les décisions de structuration bien avant le décès.
+
+**La fortune.** Toutes les conventions ne comportent pas d'article sur l'imposition du capital. Pour un patrimoine immobilier important, cette clause décide de la répartition du droit d'imposer entre les deux États.
+
+**Les prélèvements sociaux.** Les conventions visent les impôts qu'elles énumèrent. La CSG et la CRDS ne figurent pas systématiquement dans cette liste, et leur traitement relève alors d'une analyse distincte, souvent appuyée sur les règlements européens de coordination plutôt que sur la convention elle-même.
+
+### Frontaliers et télétravail : le sujet qui a le plus bougé
+
+C'est aujourd'hui la question la plus fréquente, et celle sur laquelle les textes ont le plus évolué.
+
+**Le principe de l'article 15.** Les rémunérations d'activité salariée sont en principe imposables dans l'État où l'activité est **physiquement exercée**, sauf séjour de courte durée remplissant trois conditions cumulatives, dont la fameuse limite de 183 jours, qui ne s'applique que si l'employeur n'est pas établi dans l'État d'exercice et si la charge n'est pas supportée par un établissement qui s'y trouve. Cette règle des 183 jours est très largement mal citée : elle est une exception, pas le principe.
+
+**Les régimes frontaliers.** Plusieurs conventions comportent des dispositions spécifiques attribuant l'imposition à l'État de résidence pour les travailleurs résidant dans une zone frontalière et travaillant dans l'autre État. Ces régimes sont propres à chaque frontière, avec leurs propres définitions de zone et leurs propres obligations déclaratives.
+
+**Le télétravail a changé l'équation.** Travailler depuis son domicile, c'est exercer son activité dans l'État de résidence. Mécaniquement, la part de rémunération imposable bascule. Plusieurs accords bilatéraux et avenants ont introduit des tolérances, exprimées en nombre de jours ou en pourcentage du temps de travail, en deçà desquelles le régime antérieur continue de s'appliquer.
+
+Ces seuils varient d'une frontière à l'autre et ont été révisés récemment. Deux conséquences pratiques : **comptez vos jours** de télétravail, car la preuve vous incombe, et **vérifiez le seuil applicable à votre frontière** plutôt que celui dont parle un collègue travaillant dans un autre pays. La question emporte aussi l'affiliation sociale, qui suit ses propres règles européennes et ne coïncide pas nécessairement avec le traitement fiscal.
+
+### Questions fréquentes
+
+**Où trouver la convention applicable à mon pays ?**
+Sur le site de l'administration fiscale française, qui publie gratuitement le texte de toutes les conventions signées par la France, ainsi que leurs avenants. Prenez le texte consolidé et vérifiez sa date : c'est la seule version qui fasse foi.
+
+**Que se passe-t-il s'il n'existe aucune convention avec mon pays de destination ?**
+Chaque État applique son droit interne, sans répartition ni mécanisme conventionnel d'élimination de la double imposition. Le droit français prévoit certains dispositifs d'imputation unilatéraux, mais ils sont plus restreints. L'absence de convention est un critère à part entière dans le choix d'une destination.
+
+**La règle des 183 jours suffit-elle à déterminer où je suis imposé ?**
+Non, et c'est l'erreur la plus répandue. Elle n'intervient que dans une exception de l'article 15, soumise à trois conditions cumulatives, et elle ne concerne que les salaires. Elle ne dit rien de votre résidence fiscale, qui relève de l'article 4.
+
+**Une convention peut-elle m'obliger à payer plus d'impôt ?**
+Non. Une convention ne crée jamais d'imposition : elle répartit un droit d'imposer qui existe déjà en droit interne, et elle organise l'élimination de la double imposition. Elle peut en revanche vous attribuer à un État dont la fiscalité est plus lourde que celle que vous escomptiez.
+
 ### Sources
 
 Modèle de convention fiscale de l'OCDE concernant le revenu et la fortune, et ses commentaires · Conventions fiscales bilatérales signées par la France, publiées par la DGFiP · Convention multilatérale de l'OCDE pour la mise en œuvre des mesures relatives aux conventions fiscales · BOFiP, conventions internationales.
@@ -558,6 +674,22 @@ La **transmission** : la convention couvre-t-elle les successions, et quel droit
 Le **retour éventuel** : dans quelles conditions, et avec quelles conséquences fiscales ?
 
 Cette dernière question est la plus négligée. Une expatriation de retraite dure souvent quinze à vingt ans, et se termine fréquemment par un retour pour raisons de santé ou familiales. Anticiper le retour fait partie du départ.
+
+### Le certificat de vie, en pratique
+
+C'est la première cause d'interruption de pension chez les retraités expatriés, et elle n'a rien de fiscal : c'est une formalité administrative qui se règle en quelques minutes par an.
+
+Le principe : vos caisses doivent s'assurer périodiquement que vous êtes en vie avant de continuer à verser. Vous produisez donc un justificatif d'existence, établi par une autorité locale compétente, administration, mairie, consulat ou notaire selon les pays.
+
+Trois points évitent l'essentiel des incidents.
+
+**La mutualisation.** La démarche a été dématérialisée et mutualisée entre régimes : un seul justificatif vaut désormais pour l'ensemble de vos caisses, alors qu'il fallait autrefois répondre à chacune. Vérifiez néanmoins que toutes vos caisses, y compris les complémentaires, sont bien rattachées à votre dossier.
+
+**Le délai.** La suspension du versement intervient rapidement après l'échéance, et le rétablissement demande ensuite plusieurs semaines, avec régularisation rétroactive. Traitez la demande dès réception plutôt qu'à la date limite, surtout si l'autorité locale compétente impose un rendez-vous.
+
+**L'autorité compétente.** Elle varie d'un pays à l'autre, et un justificatif établi par une autorité non reconnue est rejeté. Renseignez-vous une fois, à l'arrivée, et conservez le contact.
+
+Ajoutez une règle de bon sens : **signalez tout changement d'adresse ou de compte bancaire à chacune de vos caisses**, base et complémentaires. Elles ne se transmettent pas systématiquement l'information, et un virement rejeté produit les mêmes effets qu'un certificat manquant.
 
 ### Questions fréquentes
 

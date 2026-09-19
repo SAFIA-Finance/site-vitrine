@@ -5,7 +5,7 @@ titreSeo: "Fiscalité du patrimoine français d'un non-résident"
 description: "Loyers, plus-values immobilières, IFI, dividendes, comptes bancaires : ce qui reste imposable en France après le départ, et à quel taux."
 categorie: "Expatriation"
 date: 2026-09-16
-lecture: 4
+lecture: 5
 essentiel:
   - "Devenir non-résident ne coupe pas le lien fiscal avec la France : les **revenus de source française** y restent imposables."
   - "Un **taux minimum de 20 %** s'applique aux revenus de source française, sauf à démontrer que votre taux mondial serait inférieur."
@@ -91,3 +91,23 @@ Le PEA et le compte-titres méritent un examen distinct, traité dans **Assuranc
 *IFI.* Résidente, elle aurait été imposée sur 2 400 000 €. Non-résidente, l'assiette tombe à **900 000 €**, sous le seuil de 1 300 000 € : elle n'est plus redevable.
 
 *Double imposition.* L'Espagne impose ses revenus mondiaux, mais la convention franco-espagnole prévoit l'élimination de la double imposition sur les revenus immobiliers déjà taxés en France.
+
+## Vendre son ancienne résidence principale : l'exonération à connaître
+
+C'est la disposition la plus favorable du régime des non-résidents, et elle se perd faute d'être connue à temps.
+
+Le principe général est simple : l'exonération de plus-value attachée à la résidence principale suppose que le bien soit votre résidence principale **au jour de la vente**. Un expatrié qui vend après son départ ne remplit donc plus cette condition, et bascule dans le régime de droit commun.
+
+Une exonération spécifique existe néanmoins pour la cession de l'ancienne résidence principale d'un non-résident. Elle est encadrée par plusieurs conditions cumulatives, dont il faut retenir la logique plutôt que les seuls chiffres, qui évoluent.
+
+**Un délai après le départ.** La vente doit intervenir dans un certain délai suivant le transfert de résidence. Au-delà, l'exonération tombe. C'est ce délai qui commande le calendrier de mise en vente, et qui explique pourquoi attendre « un meilleur marché » peut coûter davantage que la hausse espérée.
+
+**Un plafond de plus-value exonérée.** L'exonération n'est pas illimitée : la fraction excédant le plafond reste imposable.
+
+**Une condition tenant à l'État de résidence**, qui doit présenter un certain niveau de coopération administrative avec la France.
+
+**Une condition de libre disposition du bien**, qui suppose en pratique de ne pas l'avoir loué entre le départ et la vente. C'est le point qui surprend le plus : mettre le bien en location pendant deux ans, geste économiquement rationnel, peut faire perdre l'exonération.
+
+À défaut de remplir ces conditions, la plus-value relève du régime de droit commun, avec les abattements pour durée de détention. Selon votre État de résidence, un **représentant fiscal accrédité** peut devoir être désigné, les résidents de l'Union européenne et de l'EEE en étant dispensés.
+
+La conclusion pratique est nette : **la décision de vendre ou de conserver le logement se prend avant le départ, pas trois ans après.** Chiffrez les deux hypothèses pendant que les deux restent ouvertes.

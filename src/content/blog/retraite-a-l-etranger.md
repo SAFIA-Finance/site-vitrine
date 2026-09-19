@@ -5,7 +5,7 @@ titreSeo: "Prendre sa retraite à l'étranger : ce qu'il faut savoir"
 description: "Versement de la pension, imposition, CSG, couverture maladie : les quatre questions à régler avant de partir à la retraite."
 categorie: "Expatriation"
 date: 2026-09-16
-lecture: 4
+lecture: 6
 essentiel:
   - "Votre pension française vous est versée **où que vous résidiez**."
   - "Son imposition dépend de la convention et **de la nature de la pension** : privée ou publique."
@@ -94,3 +94,19 @@ La **transmission** : la convention couvre-t-elle les successions, et quel droit
 Le **retour éventuel** : dans quelles conditions, et avec quelles conséquences fiscales ?
 
 Cette dernière question est la plus négligée. Une expatriation de retraite dure souvent quinze à vingt ans, et se termine fréquemment par un retour pour raisons de santé ou familiales. Anticiper le retour fait partie du départ.
+
+## Le certificat de vie, en pratique
+
+C'est la première cause d'interruption de pension chez les retraités expatriés, et elle n'a rien de fiscal : c'est une formalité administrative qui se règle en quelques minutes par an.
+
+Le principe : vos caisses doivent s'assurer périodiquement que vous êtes en vie avant de continuer à verser. Vous produisez donc un justificatif d'existence, établi par une autorité locale compétente, administration, mairie, consulat ou notaire selon les pays.
+
+Trois points évitent l'essentiel des incidents.
+
+**La mutualisation.** La démarche a été dématérialisée et mutualisée entre régimes : un seul justificatif vaut désormais pour l'ensemble de vos caisses, alors qu'il fallait autrefois répondre à chacune. Vérifiez néanmoins que toutes vos caisses, y compris les complémentaires, sont bien rattachées à votre dossier.
+
+**Le délai.** La suspension du versement intervient rapidement après l'échéance, et le rétablissement demande ensuite plusieurs semaines, avec régularisation rétroactive. Traitez la demande dès réception plutôt qu'à la date limite, surtout si l'autorité locale compétente impose un rendez-vous.
+
+**L'autorité compétente.** Elle varie d'un pays à l'autre, et un justificatif établi par une autorité non reconnue est rejeté. Renseignez-vous une fois, à l'arrivée, et conservez le contact.
+
+Ajoutez une règle de bon sens : **signalez tout changement d'adresse ou de compte bancaire à chacune de vos caisses**, base et complémentaires. Elles ne se transmettent pas systématiquement l'information, et un virement rejeté produit les mêmes effets qu'un certificat manquant.

@@ -5,7 +5,7 @@ titreSeo: "Résidence fiscale : devenir non-résident français"
 description: "Foyer, séjour, activité, intérêts économiques : les quatre critères qui déterminent votre résidence fiscale, et comment un départ se conteste."
 categorie: "Expatriation"
 date: 2026-09-16
-lecture: 4
+lecture: 6
 essentiel:
   - "La résidence fiscale ne se choisit pas : elle **se constate**, sur la base de faits."
   - "Un seul des quatre critères de l'article 4 B suffit à vous rendre résident français."
@@ -87,3 +87,23 @@ Elle s'effectue auprès du service des impôts des particuliers dont vous dépen
 Vous relèverez ensuite du service des impôts des particuliers non-résidents pour vos revenus de source française.
 
 Cette formalité est nécessaire mais, répétons-le, non suffisante : elle enregistre votre départ, elle ne l'établit pas.
+
+## Le fractionnement de l'année du départ
+
+C'est le mécanisme le plus utile à connaître, et le plus souvent ignoré au moment de fixer une date de départ.
+
+En droit interne, la résidence s'apprécie en principe sur l'année entière. Mais la plupart des conventions permettent de **scinder l'année du départ en deux périodes** : vous êtes résident français jusqu'à la date du transfert, non-résident ensuite.
+
+La conséquence est directe. Sur la première période, vous êtes imposable en France sur vos **revenus mondiaux**, au barème. Sur la seconde, vous ne l'êtes plus que sur vos **revenus de source française**, selon les règles propres aux non-résidents et sous réserve de la convention.
+
+Autrement dit, la date du départ devient un paramètre fiscal à part entière, et le calendrier de perception de vos revenus avec elle.
+
+**Exemple.** Un cadre transfère sa résidence le 30 juin. Son employeur prévoit une prime de 80 000 €.
+
+*Versée le 15 juin*, elle tombe dans la période de résidence française : imposée au barème français, avec l'ensemble de ses autres revenus mondiaux de la période.
+
+*Versée le 15 juillet*, elle relève des règles applicables aux non-résidents et du partage prévu par la convention, qui rattache généralement la rémunération au lieu où l'activité est exercée.
+
+Un mois d'écart, deux régimes. Le raisonnement vaut pour une prime, mais aussi pour la levée d'options, le rachat d'un contrat, la distribution d'un dividende ou la cession d'un actif.
+
+Deux précautions, toutefois. Le fractionnement suppose que le transfert soit **réel et daté**, avec les preuves matérielles évoquées plus haut : il ne se décrète pas pour les besoins du calcul. Et toutes les conventions ne l'organisent pas de la même façon : vérifiez le texte applicable à votre destination avant d'arrêter un calendrier.

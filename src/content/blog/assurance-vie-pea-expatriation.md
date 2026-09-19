@@ -5,7 +5,7 @@ titreSeo: "Assurance-vie et PEA en expatriation : ce qui change"
 description: "Faut-il clôturer son assurance-vie ou son PEA avant de partir ? Ce que la non-résidence change sur les rachats, dividendes et transmission."
 categorie: "Expatriation"
 date: 2026-09-16
-lecture: 4
+lecture: 6
 essentiel:
   - "Contrairement à une idée répandue, **il n'y a généralement aucune raison de clôturer** son assurance-vie ou son PEA avant de partir."
   - "Clôturer, c'est perdre une **antériorité fiscale** qui ne se reconstitue pas."
@@ -86,3 +86,29 @@ Il n'existe **pas de transfert** d'un contrat français vers un contrat étrange
 Les contrats luxembourgeois présentent des caractéristiques propres en matière de protection de l'épargnant et d'ouverture aux non-résidents, qui expliquent leur usage en mobilité internationale.
 
 Le coût d'entrée et les minimums de souscription sont généralement plus élevés.
+
+## Le PER, le cas le plus délicat
+
+Le plan d'épargne retraite se conserve, comme les autres enveloppes. Mais il pose une difficulté propre, que ni l'assurance-vie ni le PEA ne présentent : **l'avantage a été pris à l'entrée, et l'imposition intervient à la sortie**, potentiellement dans un autre pays.
+
+Le mécanisme français repose sur une symétrie. Vous avez déduit vos versements de votre revenu imposable, ce qui a produit une économie proportionnelle à votre tranche marginale. En contrepartie, la sortie est imposée.
+
+Si la liquidation intervient alors que vous êtes non-résident, la question devient : **quel État impose cette sortie ?** La réponse dépend de la convention, et elle n'est pas uniforme. Certaines conventions attribuent l'imposition des pensions à l'État de résidence, d'autres réservent un droit à l'État de la source selon la nature du versement et son mode de constitution. Une sortie en capital et une sortie en rente peuvent d'ailleurs relever de qualifications différentes au sein d'une même convention.
+
+Deux situations opposées en découlent.
+
+*Le cas favorable.* Vous avez déduit vos versements à une tranche élevée en France, et la sortie est imposée dans un État de résidence à fiscalité plus douce. L'asymétrie joue en votre faveur, et elle est parfaitement légitime : c'est le fonctionnement normal du report d'imposition.
+
+*Le cas défavorable.* La convention réserve l'imposition à la France sur une sortie en capital, alors que vous espériez relever d'un régime local avantageux. L'avantage pris à l'entrée se paie au taux français, sans que votre nouvelle résidence n'y change rien.
+
+La vérification à faire est donc précise : **lisez l'article de la convention consacré aux pensions, et vérifiez le sort réservé à une sortie en capital**, qui est la modalité la moins bien traitée par des textes souvent rédigés à une époque où la rente dominait.
+
+## L'ordre des opérations avant le départ
+
+Trois arbitrages se posent, et tous se décident avant le transfert de résidence, jamais après.
+
+**Faut-il racheter maintenant ou plus tard ?** L'exemple ci-dessus montre qu'un rachat après le départ peut économiser les prélèvements sociaux. Mais si la convention attribue l'imposition à un État de résidence plus lourd sur ce type de revenu, l'ordre s'inverse. Chiffrez les deux, avec la convention en main.
+
+**Faut-il alimenter les contrats avant de partir ?** Souvent oui, pour une raison purement pratique : de nombreux établissements restreignent les versements des non-résidents. Un contrat que vous ne pourrez plus alimenter pendant dix ans n'a pas la même utilité.
+
+**Faut-il revoir les clauses bénéficiaires ?** C'est le point le plus négligé. Une clause rédigée pour une famille résidant en France peut produire un résultat très différent si l'assuré ou les bénéficiaires deviennent non-résidents, les régimes des articles 990 I et 757 B comportant des conditions tenant à la résidence. Cette relecture prend une heure et se fait avant le départ.

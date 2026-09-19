@@ -5,7 +5,7 @@ titreSeo: "Exit tax 2026 : seuils, taux et sursis de paiement"
 description: "L'exit tax impose vos plus-values latentes au départ de France, à 31,4 % en 2026. Déclenchement, sursis, dégrèvement après 2 ou 5 ans."
 categorie: "Expatriation"
 date: 2026-09-16
-lecture: 5
+lecture: 6
 essentiel:
   - "L'exit tax impose des plus-values que vous **n'avez pas réalisées**, comme si vous aviez vendu la veille du départ."
   - "Deux conditions cumulatives : l'ancienneté de résidence **et** le seuil de patrimoine en titres."
@@ -95,3 +95,15 @@ Le sursis prend également fin en cas de cession, rachat, remboursement ou annul
 **Le retour en France.** Il entraîne le dégrèvement de l'impôt sur les titres encore détenus. Un départ suivi d'un retour rapide n'est donc pas neutre, mais il n'est pas non plus catastrophique sur ce point précis.
 
 **La stabilité du dispositif.** Le régime du dégrèvement à 2 ou 5 ans a été maintenu dans la loi de finances pour 2026, un amendement tendant à le durcir ayant été écarté. Rien ne garantit qu'il en aille de même ultérieurement : le sujet revient à chaque discussion budgétaire.
+
+## Les trois erreurs qui font tomber le sursis
+
+Le sursis n'est pas acquis une fois pour toutes. Il s'éteint, et l'impôt devient alors exigible immédiatement, majoré des intérêts de retard. Trois causes reviennent, et toutes sont évitables.
+
+**Oublier la déclaration annuelle de suivi.** Le formulaire 2074-ETSL doit être déposé chaque année pendant toute la durée du sursis, y compris les années où rien ne s'est passé. C'est la cause de loin la plus fréquente, et la plus absurde : l'impôt devient exigible non pas parce que vous avez vendu, mais parce qu'une déclaration n'a pas été souscrite. Posez un rappel annuel dès le départ.
+
+**Céder sans mesurer l'effet.** Toute cession, tout rachat, tout remboursement ou annulation des titres met fin au sursis à proportion des titres concernés. Une opération présentée comme une simple réorganisation peut donc déclencher le paiement. Faites vérifier chaque opération sur les titres visés tant que le délai court.
+
+**Changer de destination sans vérifier la liste.** Le sursis automatique dépend de l'État de résidence. Un second déménagement, vers un État qui ne figure pas sur la liste applicable, peut transformer un sursis automatique en sursis sur option, avec déclaration, représentant fiscal et garanties à constituer. Ce point échappe presque toujours aux personnes qui enchaînent deux expatriations.
+
+Retenez la règle générale : pendant le délai de deux ou cinq ans, **toute décision touchant aux titres ou à la résidence doit être vérifiée avant d'être prise**, jamais après.

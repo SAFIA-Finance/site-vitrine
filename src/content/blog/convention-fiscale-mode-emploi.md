@@ -5,12 +5,21 @@ titreSeo: "Lire une convention fiscale : mode d'emploi"
 description: "Une convention fiscale se lit dans un ordre précis. Les six articles qui décident de tout, et la méthode pour trouver votre réponse en vingt minutes."
 categorie: "Expatriation"
 date: 2026-09-16
-lecture: 4
+lecture: 6
 essentiel:
   - "Une convention ne crée pas d'impôt : elle **répartit le droit d'imposer** entre deux États."
   - "Six articles concentrent l'essentiel : résidence, immobilier, dividendes, intérêts, plus-values, élimination de la double imposition."
   - "Les conventions suivent presque toutes le **modèle OCDE**, donc la même numérotation : apprendre à en lire une, c'est savoir les lire toutes."
   - "Le texte applicable est celui **de votre pays**, pas un résumé générique : il se télécharge gratuitement."
+faq:
+  - q: "Où trouver la convention applicable à mon pays ?"
+    r: "Sur le site de l'administration fiscale française, qui publie gratuitement le texte de toutes les conventions signées par la France, ainsi que leurs avenants. Prenez le texte consolidé et vérifiez sa date : c'est la seule version qui fasse foi."
+  - q: "Que se passe-t-il s'il n'existe aucune convention avec mon pays de destination ?"
+    r: "Chaque État applique son droit interne, sans répartition ni mécanisme conventionnel d'élimination de la double imposition. Le droit français prévoit certains dispositifs d'imputation unilatéraux, mais ils sont plus restreints. L'absence de convention est un critère à part entière dans le choix d'une destination."
+  - q: "La règle des 183 jours suffit-elle à déterminer où je suis imposé ?"
+    r: "Non, et c'est l'erreur la plus répandue. Elle n'intervient que dans une exception de l'article 15, soumise à trois conditions cumulatives, et elle ne concerne que les salaires. Elle ne dit rien de votre résidence fiscale, qui relève de l'article 4."
+  - q: "Une convention peut-elle m'obliger à payer plus d'impôt ?"
+    r: "Non. Une convention ne crée jamais d'imposition : elle répartit un droit d'imposer qui existe déjà en droit interne, et elle organise l'élimination de la double imposition. Elle peut en revanche vous attribuer à un État dont la fiscalité est plus lourde que celle que vous escomptiez."
 pages:
   - nom: "Notre méthode"
     url: "/methode/"
@@ -75,3 +84,27 @@ Ajoutez, selon votre situation : l'article 18 sur les **pensions**, l'article 19
 **Oublier les prélèvements sociaux.** Les conventions portent sur les impôts sur le revenu et parfois sur la fortune. La CSG et la CRDS ne sont pas toujours couvertes, et leur traitement relève d'une analyse distincte.
 
 **Lire un résumé au lieu du texte.** Les synthèses vieillissent mal et ignorent les avenants.
+
+## Les clauses qui n'existent pas partout
+
+Une convention ne couvre que ce qu'elle mentionne. Son silence n'est pas neutre : il signifie que chaque État applique son droit interne, sans mécanisme d'élimination de la double imposition.
+
+**Les successions.** C'est le manque le plus lourd de conséquences. La France a signé un nombre limité de conventions en matière de succession, bien inférieur à celui des conventions sur le revenu. En leur absence, une même transmission peut être taxée dans les deux États, chacun appliquant ses propres règles de rattachement : la France retenant notamment la résidence du défunt, celle de l'héritier ou la situation des biens. Des mécanismes d'imputation de droit interne existent, mais ils sont plus étroits qu'une convention.
+
+Autrement dit : votre convention peut parfaitement régler l'imposition de vos revenus pendant vingt ans, et ne rien dire de la transmission de votre patrimoine. Vérifiez ce point tôt, car il oriente les décisions de structuration bien avant le décès.
+
+**La fortune.** Toutes les conventions ne comportent pas d'article sur l'imposition du capital. Pour un patrimoine immobilier important, cette clause décide de la répartition du droit d'imposer entre les deux États.
+
+**Les prélèvements sociaux.** Les conventions visent les impôts qu'elles énumèrent. La CSG et la CRDS ne figurent pas systématiquement dans cette liste, et leur traitement relève alors d'une analyse distincte, souvent appuyée sur les règlements européens de coordination plutôt que sur la convention elle-même.
+
+## Frontaliers et télétravail : le sujet qui a le plus bougé
+
+C'est aujourd'hui la question la plus fréquente, et celle sur laquelle les textes ont le plus évolué.
+
+**Le principe de l'article 15.** Les rémunérations d'activité salariée sont en principe imposables dans l'État où l'activité est **physiquement exercée**, sauf séjour de courte durée remplissant trois conditions cumulatives, dont la fameuse limite de 183 jours, qui ne s'applique que si l'employeur n'est pas établi dans l'État d'exercice et si la charge n'est pas supportée par un établissement qui s'y trouve. Cette règle des 183 jours est très largement mal citée : elle est une exception, pas le principe.
+
+**Les régimes frontaliers.** Plusieurs conventions comportent des dispositions spécifiques attribuant l'imposition à l'État de résidence pour les travailleurs résidant dans une zone frontalière et travaillant dans l'autre État. Ces régimes sont propres à chaque frontière, avec leurs propres définitions de zone et leurs propres obligations déclaratives.
+
+**Le télétravail a changé l'équation.** Travailler depuis son domicile, c'est exercer son activité dans l'État de résidence. Mécaniquement, la part de rémunération imposable bascule. Plusieurs accords bilatéraux et avenants ont introduit des tolérances, exprimées en nombre de jours ou en pourcentage du temps de travail, en deçà desquelles le régime antérieur continue de s'appliquer.
+
+Ces seuils varient d'une frontière à l'autre et ont été révisés récemment. Deux conséquences pratiques : **comptez vos jours** de télétravail, car la preuve vous incombe, et **vérifiez le seuil applicable à votre frontière** plutôt que celui dont parle un collègue travaillant dans un autre pays. La question emporte aussi l'affiliation sociale, qui suit ses propres règles européennes et ne coïncide pas nécessairement avec le traitement fiscal.
