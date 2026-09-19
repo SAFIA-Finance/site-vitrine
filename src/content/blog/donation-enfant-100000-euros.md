@@ -5,7 +5,7 @@ titreSeo: "Donation aux enfants : 100 000 € tous les 15 ans"
 description: "L'abattement de 100 000 € par parent et par enfant se renouvelle tous les 15 ans. Comment il fonctionne, comment il se cumule, et pourquoi l'âge compte."
 categorie: "Donation et succession"
 date: 2026-09-14
-lecture: 3
+lecture: 5
 essentiel:
   - "**100 000 € par parent et par enfant**, en franchise totale de droits (article 779 du CGI)."
   - "L'abattement se **reconstitue tous les quinze ans**, à compter de la date de la donation déclarée."
@@ -18,6 +18,8 @@ faq:
     r: "Oui, mais le don familial de l'article 790 G exige un donataire majeur."
   - q: "Une donation peut-elle être annulée ?"
     r: "En principe non. Certaines clauses, comme le droit de retour conventionnel, permettent d'anticiper le décès du donataire."
+  - q: "Une donation peut-elle être assortie de conditions ?"
+    r: "Oui, et c'est un usage courant lorsque le donateur souhaite encadrer l'usage du bien. Plusieurs clauses existent : le droit de retour conventionnel, qui fait revenir le bien au donateur si le donataire décède avant lui ; l'interdiction d'aliéner pendant une durée déterminée, qui doit être temporaire et justifiée par un intérêt sérieux ; la charge, qui impose une obligation au donataire. Ces clauses se rédigent chez le notaire et doivent rester proportionnées, sous peine d'être écartées."
 pages:
   - nom: "Cockpit stratégique"
     url: "/cockpit/"
@@ -76,3 +78,27 @@ Le don manuel (argent, titres, bijoux remis directement) doit être **déclaré*
 L'absence de déclaration ne fait courir aucun délai de quinze ans. Autrement dit, un don non déclaré ne commence jamais à « vieillir » fiscalement, et il sera réintégré intégralement au décès.
 
 Toute donation immobilière passe obligatoirement devant notaire.
+
+## Quel bien donner en priorité
+
+À montant égal, tous les biens ne se donnent pas avec le même effet. Trois critères permettent de trancher, et ils sont rarement exposés ensemble.
+
+**La plus-value latente.** C'est le critère le plus puissant et le plus ignoré. La valeur retenue dans l'acte de donation devient le prix d'acquisition du donataire pour le calcul de sa future plus-value. Donner un bien fortement valorisé depuis son achat efface donc, pour le donataire, la plus-value accumulée jusque-là. Conserver ce bien jusqu'au décès produit d'ailleurs un effet comparable. À l'inverse, donner un bien récemment acquis, sans gain latent, ne procure aucun avantage de ce côté.
+
+**Le potentiel de valorisation future.** Un bien appelé à prendre de la valeur a intérêt à sortir tôt du patrimoine : la croissance ultérieure profite au donataire sans jamais être taxée aux droits de mutation. C'est l'argument central en faveur d'une transmission précoce des actifs de croissance.
+
+**Le besoin de revenus du donateur.** Un bien qui produit des revenus nécessaires au train de vie ne se donne pas en pleine propriété. C'est précisément la situation que le démembrement résout, en transférant la propriété tout en conservant l'usufruit.
+
+De ces trois critères découle une hiérarchie fréquente : commencer par les liquidités excédentaires et les actifs de croissance sans utilité courante, conserver ou démembrer ce qui produit du revenu, et traiter l'immobilier d'usage en dernier.
+
+## Donation simple ou donation-partage : un choix qui engage
+
+La différence paraît formelle. Elle est en réalité la principale source de conflits successoraux, vingt ans plus tard.
+
+**La donation simple** transmet un bien à un enfant. Au décès du donateur, ce bien est réévalué à sa valeur du jour pour vérifier l'égalité entre héritiers au titre de la réserve. Un appartement donné 200 000 € et valant 450 000 € au décès sera compté pour 450 000 €. L'enfant qui a reçu tôt se retrouve alors comptablement avantagé, et doit une compensation aux autres.
+
+**La donation-partage** réalise un partage anticipé entre tous les enfants, chacun recevant un lot. Elle **fige les valeurs au jour de l'acte**, à condition que tous les héritiers réservataires y participent et acceptent leur lot. Le bien donné 200 000 € restera compté 200 000 €, quelle que soit son évolution.
+
+La conséquence pratique est nette : dès qu'il y a plusieurs enfants et un bien susceptible de se valoriser, la donation-partage est presque toujours la forme à retenir. Elle coûte des émoluments supplémentaires et impose de réunir la famille. C'est exactement ce qui fait sa valeur : elle oblige à la conversation du vivant du donateur, quand il peut encore arbitrer lui-même.
+
+Une variante mérite d'être connue lorsque les générations se succèdent rapidement : la **donation-partage transgénérationnelle**, qui permet d'associer enfants et petits-enfants dans un acte unique, avec l'accord des enfants concernés.

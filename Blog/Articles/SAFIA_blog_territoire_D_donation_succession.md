@@ -90,6 +90,48 @@ Le neveu conserve moins de la moitié de ce qu'il reçoit. C'est ce cas qui just
 
 **Le pacte Dutreil** pour la transmission d'entreprise, avec une exonération de 75 % de la valeur. La loi de finances pour 2026 en a durci les conditions, en portant l'engagement individuel de conservation de quatre à six ans.
 
+### Le rappel des donations antérieures, mécanisme exact
+
+C'est la règle qui relie les donations à la succession, et elle est presque toujours résumée de travers.
+
+Au décès, les donations consenties par le défunt **moins de quinze ans** avant sont réintégrées dans le calcul des droits de succession. On parle de rappel fiscal.
+
+Cette réintégration n'a pas pour effet de taxer deux fois les mêmes sommes. Elle produit deux conséquences précises.
+
+**L'abattement est consommé à hauteur de ce qui a déjà servi.** Un enfant ayant reçu 60 000 € il y a huit ans ne dispose plus que de 40 000 € d'abattement au décès de ce parent.
+
+**Les tranches du barème ne repartent pas de zéro.** La part taxable de la succession s'ajoute à la donation rappelée pour déterminer les tranches applicables, ce qui pousse mécaniquement vers les taux supérieurs.
+
+**Les droits déjà acquittés viennent en déduction** de ceux calculés sur l'ensemble. Il n'y a donc pas double imposition, mais perte de l'avantage lié au fractionnement.
+
+Passé quinze ans, la donation est définitivement hors du calcul et l'abattement s'est intégralement reconstitué. C'est tout l'enjeu du démarrage précoce des transmissions : chaque cycle de quinze ans franchi est un abattement complet gagné.
+
+Un point de méthode en découle : la date qui compte est celle de la **déclaration** du don, non celle de sa remise matérielle. Un don manuel non déclaré ne commence jamais à courir.
+
+### Ce qui entre dans l'actif taxable, et ce qui en sort
+
+Le calcul commence par l'actif net, et plusieurs postes y échappent ou s'en déduisent.
+
+**Entrent dans l'actif** : les immeubles, les comptes bancaires, les valeurs mobilières, les véhicules, les créances détenues par le défunt, ainsi que les meubles meublants, évalués selon les modalités prévues par le Code général des impôts, qui admet notamment un forfait.
+
+**Se déduisent** : les dettes certaines à la date du décès, les frais funéraires dans la limite fixée par le texte, et les impôts restant dus.
+
+**N'entrent pas** : les capitaux d'assurance-vie, qui relèvent des articles 990 I et 757 B, et les biens exonérés au titre de dispositifs particuliers, dont le pacte Dutreil pour sa fraction exonérée.
+
+Cette distinction explique une situation fréquente : une succession peut afficher un patrimoine transmis important et un actif taxable modeste, lorsque l'essentiel a été logé en assurance-vie avant 70 ans.
+
+### Le paiement des droits
+
+Les droits sont dus au moment du dépôt de la déclaration, dans les six mois du décès pour un décès survenu en France, un an s'il est survenu à l'étranger.
+
+Deux aménagements existent, soumis à conditions et à l'accord de l'administration, avec intérêts et le plus souvent constitution de garanties.
+
+**Le paiement fractionné** permet d'échelonner le règlement sur une période déterminée.
+
+**Le paiement différé** vise principalement les transmissions en nue-propriété : le règlement peut être reporté jusqu'à l'extinction de l'usufruit.
+
+La difficulté pratique est classique : les droits sont exigibles avant que le partage ne soit réalisé et avant que les biens ne soient liquides. C'est la raison pour laquelle un contrat d'assurance-vie, versé rapidement et hors succession, joue souvent un rôle décisif en trésorerie, indépendamment de son avantage fiscal.
+
 ### Questions fréquentes
 
 **Qui paie les droits ?**
@@ -103,6 +145,12 @@ Non. Ce sont deux choses distinctes : les droits vont au Trésor, les émolument
 
 **Peut-on renoncer à une succession ?**
 Oui, notamment si le passif dépasse l'actif. La renonciation se déclare au tribunal.
+
+**Les frais funéraires sont-ils déductibles ?**
+Oui, dans la limite fixée par le Code général des impôts, et ils peuvent en outre être prélevés directement sur les comptes du défunt sur présentation de la facture, alors même que ces comptes sont bloqués. C'est souvent la première dépense à régler, et la seule qui échappe au blocage immédiat.
+
+**Le barème est-il revalorisé chaque année ?**
+Non. Les tranches et les abattements sont inchangés depuis 2012 et ne suivent pas l'inflation. À patrimoine constant en euros réels, la pression fiscale augmente donc mécaniquement d'année en année, sans qu'aucune décision n'ait été prise en ce sens.
 
 ### Sources
 
@@ -172,6 +220,30 @@ L'absence de déclaration ne fait courir aucun délai de quinze ans. Autrement d
 
 Toute donation immobilière passe obligatoirement devant notaire.
 
+### Quel bien donner en priorité
+
+À montant égal, tous les biens ne se donnent pas avec le même effet. Trois critères permettent de trancher, et ils sont rarement exposés ensemble.
+
+**La plus-value latente.** C'est le critère le plus puissant et le plus ignoré. La valeur retenue dans l'acte de donation devient le prix d'acquisition du donataire pour le calcul de sa future plus-value. Donner un bien fortement valorisé depuis son achat efface donc, pour le donataire, la plus-value accumulée jusque-là. Conserver ce bien jusqu'au décès produit d'ailleurs un effet comparable. À l'inverse, donner un bien récemment acquis, sans gain latent, ne procure aucun avantage de ce côté.
+
+**Le potentiel de valorisation future.** Un bien appelé à prendre de la valeur a intérêt à sortir tôt du patrimoine : la croissance ultérieure profite au donataire sans jamais être taxée aux droits de mutation. C'est l'argument central en faveur d'une transmission précoce des actifs de croissance.
+
+**Le besoin de revenus du donateur.** Un bien qui produit des revenus nécessaires au train de vie ne se donne pas en pleine propriété. C'est précisément la situation que le démembrement résout, en transférant la propriété tout en conservant l'usufruit.
+
+De ces trois critères découle une hiérarchie fréquente : commencer par les liquidités excédentaires et les actifs de croissance sans utilité courante, conserver ou démembrer ce qui produit du revenu, et traiter l'immobilier d'usage en dernier.
+
+### Donation simple ou donation-partage : un choix qui engage
+
+La différence paraît formelle. Elle est en réalité la principale source de conflits successoraux, vingt ans plus tard.
+
+**La donation simple** transmet un bien à un enfant. Au décès du donateur, ce bien est réévalué à sa valeur du jour pour vérifier l'égalité entre héritiers au titre de la réserve. Un appartement donné 200 000 € et valant 450 000 € au décès sera compté pour 450 000 €. L'enfant qui a reçu tôt se retrouve alors comptablement avantagé, et doit une compensation aux autres.
+
+**La donation-partage** réalise un partage anticipé entre tous les enfants, chacun recevant un lot. Elle **fige les valeurs au jour de l'acte**, à condition que tous les héritiers réservataires y participent et acceptent leur lot. Le bien donné 200 000 € restera compté 200 000 €, quelle que soit son évolution.
+
+La conséquence pratique est nette : dès qu'il y a plusieurs enfants et un bien susceptible de se valoriser, la donation-partage est presque toujours la forme à retenir. Elle coûte des émoluments supplémentaires et impose de réunir la famille. C'est exactement ce qui fait sa valeur : elle oblige à la conversation du vivant du donateur, quand il peut encore arbitrer lui-même.
+
+Une variante mérite d'être connue lorsque les générations se succèdent rapidement : la **donation-partage transgénérationnelle**, qui permet d'associer enfants et petits-enfants dans un acte unique, avec l'accord des enfants concernés.
+
 ### Questions fréquentes
 
 **Faut-il donner la même chose à chaque enfant ?**
@@ -182,6 +254,9 @@ Oui, mais le don familial de l'article 790 G exige un donataire majeur.
 
 **Une donation peut-elle être annulée ?**
 En principe non. Certaines clauses, comme le droit de retour conventionnel, permettent d'anticiper le décès du donataire.
+
+**Une donation peut-elle être assortie de conditions ?**
+Oui, et c'est un usage courant lorsque le donateur souhaite encadrer l'usage du bien. Plusieurs clauses existent : le droit de retour conventionnel, qui fait revenir le bien au donateur si le donataire décède avant lui ; l'interdiction d'aliéner pendant une durée déterminée, qui doit être temporaire et justifiée par un intérêt sérieux ; la charge, qui impose une obligation au donataire. Ces clauses se rédigent chez le notaire et doivent rester proportionnées, sous peine d'être écartées.
 
 ### Sources
 
@@ -243,6 +318,40 @@ Le don doit être déclaré par le **bénéficiaire**, dans le mois suivant sa r
 
 Cette formalité n'est pas optionnelle. C'est elle qui fait courir le délai de quinze ans et qui rend le don opposable à l'administration. Un virement familial non déclaré sera réintégré au décès, sans exonération et sans point de départ du délai.
 
+### L'ordre dans lequel utiliser les dispositifs
+
+Lorsque plusieurs dispositifs sont disponibles, l'ordre d'utilisation n'est pas neutre, parce qu'ils n'ont pas la même durée de vie.
+
+**Le don familial de l'article 790 G a une date de péremption** : il disparaît aux 80 ans du donateur. L'abattement de l'article 779, lui, n'a aucune limite d'âge.
+
+La règle qui en découle est simple : **consommer en premier ce qui expire**. Un donateur approchant de 80 ans a intérêt à mobiliser d'abord son don familial, quitte à différer l'usage de l'abattement classique, qui restera disponible et se reconstituera.
+
+Deux autres paramètres complètent la séquence.
+
+**Le cycle de quinze ans** court à compter de chaque donation déclarée, dispositif par dispositif. Démarrer tôt permet d'enchaîner les cycles ; démarrer tard n'en autorise qu'un.
+
+**La nature du bien.** Le don familial ne porte que sur des sommes d'argent. Un projet de transmission portant sur un bien immobilier ou des parts de société ne peut donc reposer que sur l'abattement de l'article 779, ce qui replace celui-ci en première ligne pour ces actifs.
+
+### Ce que le don familial ne permet pas
+
+Trois limites doivent être connues avant de bâtir un plan dessus.
+
+**Il ne porte que sur de l'argent.** Un virement, un chèque, des espèces. Ni immeuble, ni parts sociales, ni portefeuille de titres, ni bijoux. Une transmission de titres relève de l'abattement de droit commun.
+
+**Il exige un bénéficiaire majeur.** Un don destiné à un enfant ou petit-enfant mineur ne peut pas en bénéficier, alors que l'abattement de l'article 779 ne pose pas cette condition.
+
+**Il s'apprécie strictement à la date du don.** Les 80 ans du donateur se vérifient au jour du versement, sans tolérance. Un don effectué la veille de l'anniversaire ouvre droit à l'exonération, le lendemain non.
+
+### La preuve, et pourquoi elle compte autant que le montant
+
+Un don d'argent se prouve par sa déclaration, et cette preuve conditionne tout le reste.
+
+Trois pièces suffisent à constituer un dossier solide, et il est prudent de les conserver ensemble : le **justificatif du virement** mentionnant clairement l'émetteur et le bénéficiaire, l'**accusé de la déclaration** effectuée en ligne, et le cas échéant un **écrit** précisant qu'il s'agit d'une donation et non d'un prêt.
+
+Ce dernier point est plus important qu'il n'y paraît. En l'absence d'écrit, un virement familial important peut être requalifié en prêt par les autres héritiers au moment de la succession, avec obligation de restitution, ou à l'inverse considéré comme un don non déclaré par l'administration. L'ambiguïté ne profite à personne.
+
+Enfin, une donation déclarée constitue une date certaine. C'est elle qui fait courir les quinze ans, et c'est elle qui permettra, bien plus tard, d'établir qu'un don est définitivement sorti du champ du rappel fiscal.
+
 ### Questions fréquentes
 
 **Peut-on fractionner les 31 865 € ?**
@@ -256,6 +365,12 @@ L'exonération de l'article 790 G est perdue, mais l'abattement de 100 000 € r
 
 **Faut-il un notaire ?**
 Non pour un don d'argent. La déclaration en ligne suffit.
+
+**Le don familial peut-il financer un achat immobilier ?**
+Oui. L'article 790 G n'impose aucune affectation particulière : les sommes reçues peuvent servir à un apport immobilier, à des études, à la création d'une entreprise ou à toute autre destination. C'est une différence avec certains dispositifs temporaires votés ponctuellement, qui subordonnent l'exonération à un emploi déterminé et à un délai. En cas de doute sur le régime invoqué, il convient de vérifier lequel s'applique, car les conditions ne sont pas les mêmes.
+
+**Que se passe-t-il en cas de dépassement du plafond ?**
+L'exonération joue jusqu'à 31 865 € par couple donateur-bénéficiaire sur la période de quinze ans. La fraction excédentaire n'est pas perdue pour autant : elle bascule sur l'abattement de l'article 779, s'il reste disponible, et n'est taxée qu'une fois les deux dispositifs épuisés. L'ordre d'imputation se règle dans la déclaration, et il vaut mieux l'anticiper que le découvrir après coup.
 
 ### Sources
 
@@ -334,6 +449,42 @@ Le démembrement ne concerne pas que l'immobilier. Il s'applique aux parts de SC
 
 Il se rencontre également en sens inverse : l'achat en nue-propriété d'un bien immobilier, avec un usufruit temporaire cédé à un bailleur social pendant quinze à vingt ans.
 
+### Qui paie quoi pendant le démembrement
+
+C'est la première source de litige entre usufruitier et nu-propriétaire, et elle se prévient par un écrit.
+
+**L'usufruitier** supporte les charges courantes : entretien, réparations d'entretien, charges de copropriété courantes, taxe foncière, assurance. Il perçoit en contrepartie les revenus du bien et en a l'usage.
+
+**Le nu-propriétaire** supporte les **grosses réparations** énumérées à l'article 606 du Code civil : gros murs, voûtes, poutres, couvertures entières, digues, murs de soutènement et de clôture.
+
+La frontière entre entretien et grosses réparations est le terrain de désaccord classique. Une toiture reprise partiellement relève-t-elle de l'entretien ou de la couverture entière ? Une chaudière collective remplacée ? La jurisprudence tranche au cas par cas, ce qui signifie qu'en pratique, chacun peut soutenir une lecture différente pendant des années.
+
+La parade est connue et peu coûteuse : une **convention de démembrement** rédigée au moment de la donation, qui répartit explicitement les charges, prévoit qui décide des travaux et selon quelles modalités, et organise la prise de décision en cas de vente. Un notaire l'établit en même temps que l'acte.
+
+### Le quasi-usufruit, le mécanisme à connaître
+
+Lorsque le démembrement porte sur une **somme d'argent** ou sur des biens qui se consomment par l'usage, l'usufruit devient un **quasi-usufruit**.
+
+L'usufruitier peut alors disposer librement des fonds, les dépenser, les réinvestir. En contrepartie, le nu-propriétaire détient une **créance de restitution** sur la succession de l'usufruitier, égale au montant démembré.
+
+L'intérêt patrimonial est double. L'usufruitier conserve la pleine disposition économique des sommes. Et au décès, la créance de restitution constitue une **dette de la succession**, déductible de l'actif taxable, ce qui réduit d'autant les droits dus par les héritiers.
+
+Deux précautions conditionnent l'efficacité du mécanisme. La créance doit être **constatée par écrit et avoir date certaine**, faute de quoi sa déductibilité peut être refusée. Et le dispositif fait l'objet d'un encadrement en matière de dettes consenties entre proches, qui doit être vérifié au cas par cas.
+
+Le quasi-usufruit se rencontre couramment à deux endroits : lorsqu'un conjoint survivant opte pour l'usufruit de la totalité d'une succession comportant des liquidités, et dans les **clauses bénéficiaires démembrées** d'assurance-vie, où le conjoint reçoit le capital en quasi-usufruit et les enfants la nue-propriété.
+
+### Vendre un bien démembré
+
+La vente exige l'accord de l'usufruitier **et** du nu-propriétaire. Trois issues sont alors possibles, et il vaut mieux les avoir prévues avant.
+
+**La répartition du prix** entre les deux, selon le barème de l'article 669 appliqué à l'âge de l'usufruitier au jour de la vente. Chacun récupère sa quote-part et le démembrement s'éteint.
+
+**Le report du démembrement sur un autre bien**, appelé remploi : le prix est réinvesti dans un nouvel actif, lui-même démembré dans les mêmes proportions. C'est la solution qui préserve l'économie initiale de l'opération.
+
+**Le report sur une somme d'argent**, qui fait basculer dans le quasi-usufruit décrit ci-dessus.
+
+Prévoir la clause de remploi dès l'acte de donation évite d'avoir à négocier ce point au moment où l'un des deux veut vendre et l'autre non.
+
 ### Questions fréquentes
 
 **Qui déclare les revenus locatifs ?**
@@ -344,6 +495,12 @@ Oui, notamment lorsque le conjoint survivant opte pour l'usufruit de la totalit�
 
 **Peut-on démembrer temporairement ?**
 Oui, un usufruit à durée fixe est valorisé à 23 % par période de dix ans, dans la limite de la valeur de l'usufruit viager.
+
+**Le démembrement peut-il être remis en cause par l'administration ?**
+Le mécanisme est parfaitement légal et expressément prévu par le Code général des impôts : donner la nue-propriété en conservant l'usufruit n'a rien d'un montage. Ce qui est contesté, c'est le démembrement **fictif**, lorsque le donateur continue en fait de se comporter en plein propriétaire, dispose du bien à sa guise ou récupère la valeur donnée par un autre canal. La donation doit donc être réelle et produire ses effets : le nu-propriétaire est propriétaire, et cela doit se vérifier dans les faits comme dans les actes.
+
+**Que devient l'usufruit au décès de l'usufruitier ?**
+Il s'éteint automatiquement. Le nu-propriétaire devient plein propriétaire sans formalité, sans droit de mutation supplémentaire et quelle que soit la valeur du bien à cette date. C'est précisément ce qui fait l'efficacité du dispositif : toute la valorisation intervenue depuis la donation échappe aux droits.
 
 ### Sources
 
@@ -412,6 +569,40 @@ Presque jamais sur le calcul des droits. Presque toujours sur trois points.
 **Les comptes du passé.** Aides versées de son vivant à l'un des enfants, travaux payés, prêts jamais remboursés : ce sont ces sujets, non chiffrés et non écrits, qui font durer les successions des années.
 
 Anticiper une donation-partage réduit fortement ces trois risques, parce qu'elle règle le partage du vivant du donateur, en sa présence.
+
+### Ce que coûte une succession, poste par poste
+
+Trois catégories de frais se cumulent, et elles sont régulièrement confondues.
+
+**Les droits de succession**, versés au Trésor public. Ils dépendent du lien de parenté et du montant transmis, et ils sont nuls pour le conjoint survivant et le partenaire de PACS.
+
+**Les émoluments du notaire**, qui rémunèrent son intervention. Une partie est tarifée réglementairement, selon un barème proportionnel à la valeur des biens, une autre correspond à des actes distincts : acte de notoriété, attestation de propriété immobilière, déclaration de succession, acte de partage.
+
+**Les débours et frais annexes** : demandes d'état civil, publication au service de la publicité foncière, interrogation du fichier central des dispositions de dernières volontés, frais de généalogiste lorsque des héritiers doivent être recherchés.
+
+Deux conséquences pratiques. D'abord, une succession sans droits n'est jamais une succession sans frais : un conjoint exonéré acquitte néanmoins des émoluments. Ensuite, la présence d'un bien immobilier renchérit sensiblement l'ensemble, puisqu'elle déclenche plusieurs actes obligatoires.
+
+### Débloquer des fonds avant le règlement
+
+Le décès bloque les comptes du défunt, ce qui crée une difficulté immédiate quand des dépenses doivent être réglées. Trois voies existent.
+
+**Le règlement des frais funéraires** peut être prélevé directement sur les comptes du défunt, dans une limite fixée, sur présentation de la facture.
+
+**L'assurance-vie** est versée aux bénéficiaires en dehors de la succession, généralement dans un délai bien plus court que le règlement notarial. C'est souvent elle qui permet d'acquitter les droits sans avoir à vendre un bien dans l'urgence, et c'est un argument pratique qui s'ajoute à son avantage fiscal.
+
+**Le déblocage pour les petites successions** est prévu dans des conditions encadrées, permettant à un héritier de clôturer certains comptes sur attestation, en dessous d'un seuil et en l'absence de bien immobilier ou de testament.
+
+Anticiper ce point change le déroulement : une famille disposant de liquidités hors succession traite le règlement sereinement, une famille dont tout le patrimoine est immobilier subit le calendrier.
+
+### Les comptes du passé, sujet central et non fiscal
+
+Ce qui fait durer les successions n'est presque jamais le calcul des droits. Ce sont les opérations anciennes, jamais formalisées.
+
+Trois figures reviennent constamment. Les **aides régulières** versées à un enfant, que les autres découvrent au décès. Les **travaux payés** par un parent dans le logement de l'un d'eux. Les **prêts familiaux** jamais remboursés ni même écrits.
+
+Juridiquement, la ligne de partage est celle du **rapport** : les donations sont rapportables à la succession et s'imputent sur la part de l'héritier qui les a reçues, tandis que les **présents d'usage**, proportionnés à la situation du donateur et liés à un événement, ne le sont pas. Entre les deux, tout est affaire de preuve et d'interprétation, donc de conflit.
+
+La prévention est simple et rarement mise en œuvre : écrire au moment où l'opération a lieu. Un prêt familial documenté, une donation déclarée, une aide qualifiée par écrit coûtent quelques minutes sur le moment et évitent des années de contentieux.
 
 ### Questions fréquentes
 
@@ -493,6 +684,32 @@ Il existe un outil moins connu et souvent adapté : la **donation-partage transg
 
 Elle fige les valeurs, prévient les contestations, et évite une double taxation. Elle suppose un notaire et un accord familial explicite.
 
+### La représentation, qui change tout en succession
+
+Le contraste entre donation et succession est brutal pour un petit-enfant, et il tient à un seul mécanisme.
+
+**En donation**, chaque grand-parent dispose d'un abattement de 31 865 € par petit-enfant, quel que soit le contexte familial.
+
+**En succession**, un petit-enfant dont le parent est vivant n'est pas héritier : il ne reçoit rien au titre de la loi, et un legs en sa faveur ne bénéficie que de l'abattement par défaut de 1 594 €.
+
+**Sauf représentation.** Si le parent du petit-enfant est décédé avant le grand-parent, ou s'il a renoncé à la succession, le petit-enfant vient en représentation : il prend la place de son parent, hérite à sa place, et **reprend l'abattement de 100 000 €** attaché à cette place, partagé le cas échéant avec ses frères et sœurs.
+
+La conséquence est nette : sans représentation, la voie successorale est fermée aux petits-enfants, et la transmission passe nécessairement par la donation ou par l'assurance-vie. C'est précisément ce qui rend ces deux outils si importants pour cette génération.
+
+Une conséquence moins connue mérite d'être signalée : la **renonciation** d'un enfant à la succession de son parent fait jouer la représentation au profit de ses propres enfants. Un enfant déjà établi, qui n'a pas besoin du capital, peut ainsi laisser passer sa part à ses propres enfants, avec l'abattement correspondant. Cette décision est irrévocable et se prend avec un notaire.
+
+### Adapter le véhicule à l'âge du petit-enfant
+
+Le bon outil n'est pas le même selon que le petit-enfant a six ans ou vingt-cinq.
+
+**Petit-enfant mineur.** L'abattement de donation de 31 865 € s'applique, mais le don familial de l'article 790 G est exclu, faute de donataire majeur. Les biens donnés relèvent de l'administration légale des parents, ce qui peut poser une difficulté si le grand-parent souhaite précisément que le capital échappe à la gestion du parent. Un **pacte adjoint** à la donation permet alors d'encadrer l'usage des fonds, d'en fixer l'indisponibilité jusqu'à un âge déterminé et de désigner un administrateur.
+
+**Petit-enfant majeur et étudiant.** Les deux dispositifs se cumulent, soit 63 730 € par grand-parent. Le don familial, en numéraire, convient au financement d'études ou d'un premier logement.
+
+**Petit-enfant majeur et installé.** L'assurance-vie prend l'avantage : elle n'ampute pas le patrimoine du grand-parent de son vivant, elle transmet 152 500 € par bénéficiaire pour les primes versées avant 70 ans, et elle se règle rapidement.
+
+Dans les trois cas, le même réflexe s'impose : vérifier l'effet sur l'équilibre entre les branches de la famille. Un petit-enfant favorisé, c'est une part de son parent diminuée.
+
 ### Questions fréquentes
 
 **Un petit-enfant hérite-t-il automatiquement ?**
@@ -503,6 +720,12 @@ Oui pour l'abattement de 31 865 €. Le don familial exige en revanche un donata
 
 **Faut-il un notaire ?**
 Non pour un don d'argent déclaré en ligne. Oui pour un bien immobilier ou une donation-partage.
+
+**Un grand-parent peut-il payer directement les études de son petit-enfant ?**
+Oui, et ces versements ne constituent pas toujours une donation. Le financement de frais de scolarité ou d'entretien peut relever de l'obligation alimentaire ou du présent d'usage, à condition de rester proportionné aux facultés de celui qui verse et lié à une circonstance. Dans ce cas, aucun abattement n'est consommé et rien n'est rapportable à la succession. La frontière avec la donation se juge sur le montant et la régularité : des versements importants et répétés sont requalifiables, et il est prudent de les qualifier par écrit dès le départ.
+
+**Le petit-enfant doit-il déclarer lui-même le don reçu ?**
+Oui. La déclaration incombe au bénéficiaire, dans le mois suivant la réception, désormais en ligne. Pour un petit-enfant mineur, la démarche est accomplie par son représentant légal. Sans cette déclaration, le délai de quinze ans ne commence jamais à courir, et le don sera réintégré en totalité lors du règlement de la succession du grand-parent.
 
 ### Sources
 
@@ -569,6 +792,44 @@ Mais il faut alors **privilégier des bénéficiaires en ligne directe**, pour q
 
 En pratique, beaucoup de souscripteurs ouvrent **un second contrat** à 70 ans, pour isoler proprement les deux régimes et éviter les erreurs de suivi. Ce n'est pas obligatoire fiscalement, mais c'est plus lisible pour les héritiers.
 
+### Quand les deux régimes coexistent sur un même contrat
+
+C'est la situation la plus fréquente, et celle où les calculs se trompent le plus souvent.
+
+Un contrat ouvert à 60 ans et alimenté jusqu'à 85 ans comporte deux blocs de primes, soumis à deux régimes distincts. La répartition ne se fait pas au prorata du capital final, mais **prime par prime**, selon la date de chaque versement.
+
+**Exemple.** Un contrat alimenté par 150 000 € de primes avant 70 ans et 100 000 € après, valorisé 400 000 € au décès, avec deux enfants bénéficiaires à parts égales.
+
+*Bloc de l'article 990 I, primes d'avant 70 ans.* Les 150 000 € de primes et la part de gains qui s'y rattache relèvent de ce régime. Chaque bénéficiaire dispose d'un abattement de 152 500 €.
+
+*Bloc de l'article 757 B, primes d'après 70 ans.* Seules les 100 000 € de **primes** sont taxables, diminuées de l'abattement global de 30 500 €, soit 69 500 € répartis entre les deux enfants. Les gains produits par ces primes sont exonérés.
+
+*Résultat.* Chaque enfant supporte 34 750 € entrant dans sa part successorale, tandis que la totalité du bloc antérieur à 70 ans passe sous l'abattement par tête.
+
+Deux enseignements. Le régime de l'article 757 B n'est pénalisant que sur les **primes**, jamais sur ce qu'elles ont produit. Et l'abattement global de 30 500 € se partage entre bénéficiaires, contrairement aux 152 500 € qui se comptent par tête : multiplier les bénéficiaires n'apporte rien sur ce bloc.
+
+### Le cas du bénéficiaire qui n'est pas en ligne directe
+
+C'est la situation où l'écart entre les deux régimes devient brutal, et elle justifie à elle seule de réfléchir avant de verser après 70 ans.
+
+Sous l'article 990 I, un neveu, un ami ou un partenaire non marié bénéficie du **même abattement de 152 500 €** qu'un enfant. Le lien de parenté est indifférent : c'est la grande force de l'assurance-vie.
+
+Sous l'article 757 B, les primes taxables sont soumises au **barème des droits de succession selon le lien de parenté**. Un neveu supporte donc 55 %, une personne sans lien 60 %, après un abattement global déjà partagé.
+
+La règle qui en découle est simple à retenir : **les primes versées après 70 ans se destinent à des bénéficiaires en ligne directe**. Un capital destiné à un neveu, à un concubin ou à un tiers doit être logé dans les versements antérieurs à 70 ans, ou sur un contrat distinct alimenté avant cette date.
+
+Pour un couple non marié, ce point est décisif : c'est souvent l'assurance-vie qui constitue l'essentiel de la protection mutuelle, et la date des versements en détermine l'efficacité.
+
+### Pourquoi un second contrat à 70 ans
+
+Rien n'impose d'ouvrir un contrat distinct, puisque l'assureur suit la date de chaque prime dans ses registres. Trois raisons pratiques l'expliquent néanmoins.
+
+**La lisibilité pour les héritiers.** Deux contrats, deux régimes, deux clauses bénéficiaires : la lecture au décès est immédiate, alors qu'un contrat unique suppose de reconstituer l'historique des versements.
+
+**La souplesse des clauses.** Des bénéficiaires différents peuvent être désignés sur chaque contrat, ce qui permet précisément d'orienter les primes d'après 70 ans vers la ligne directe et celles d'avant vers les autres.
+
+**La simplicité des rachats.** Racheter sur le contrat postérieur à 70 ans plutôt que sur l'autre préserve le bloc le plus favorable, alors qu'un rachat sur un contrat mixte s'impute selon les règles propres du contrat.
+
 ### Questions fréquentes
 
 **Les 70 ans se comptent-ils au jour du versement ?**
@@ -579,6 +840,9 @@ Non, il reste totalement exonéré sous les deux régimes.
 
 **Les deux abattements se cumulent-ils ?**
 Oui. Un même bénéficiaire peut profiter des 152 500 € sur les primes d'avant 70 ans et d'une quote-part des 30 500 € sur celles d'après.
+
+**Comment l'assureur distingue-t-il les deux blocs de primes ?**
+Il tient cette distinction dans ses registres, versement par versement, en retenant la date de chaque prime au regard de l'âge de l'assuré. Au décès, il établit une déclaration séparant les capitaux relevant de l'article 990 I de ceux relevant de l'article 757 B. Il est utile de demander périodiquement un relevé faisant apparaître cette ventilation : c'est la pièce qui permettra aux bénéficiaires de vérifier le calcul, et elle est bien plus simple à obtenir du vivant du souscripteur.
 
 ### Sources
 

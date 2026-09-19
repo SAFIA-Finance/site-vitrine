@@ -5,7 +5,7 @@ titreSeo: "Assurance-vie après 70 ans : le régime de l'article 757 B"
 description: "Après 70 ans, l'abattement tombe à 30 500 € global, mais seules les primes sont taxées, pas les gains. Pourquoi ce régime reste souvent intéressant."
 categorie: "Donation et succession"
 date: 2026-09-14
-lecture: 3
+lecture: 5
 essentiel:
   - "Pour les primes versées **après 70 ans**, l'abattement tombe à **30 500 €**, global et partagé entre tous les bénéficiaires."
   - "Mais seules les **primes** sont taxées : **les gains sont totalement exonérés**, sans limite de montant."
@@ -18,6 +18,8 @@ faq:
     r: "Non, il reste totalement exonéré sous les deux régimes."
   - q: "Les deux abattements se cumulent-ils ?"
     r: "Oui. Un même bénéficiaire peut profiter des 152 500 € sur les primes d'avant 70 ans et d'une quote-part des 30 500 € sur celles d'après."
+  - q: "Comment l'assureur distingue-t-il les deux blocs de primes ?"
+    r: "Il tient cette distinction dans ses registres, versement par versement, en retenant la date de chaque prime au regard de l'âge de l'assuré. Au décès, il établit une déclaration séparant les capitaux relevant de l'article 990 I de ceux relevant de l'article 757 B. Il est utile de demander périodiquement un relevé faisant apparaître cette ventilation : c'est la pièce qui permettra aux bénéficiaires de vérifier le calcul, et elle est bien plus simple à obtenir du vivant du souscripteur."
 pages:
   - nom: "Cockpit stratégique"
     url: "/cockpit/"
@@ -69,3 +71,41 @@ L'exonération des gains, qui devient substantielle avec le temps. La souplesse 
 Mais il faut alors **privilégier des bénéficiaires en ligne directe**, pour qui le barème est doux, et éviter d'y loger un capital destiné à un neveu ou à un tiers.
 
 En pratique, beaucoup de souscripteurs ouvrent **un second contrat** à 70 ans, pour isoler proprement les deux régimes et éviter les erreurs de suivi. Ce n'est pas obligatoire fiscalement, mais c'est plus lisible pour les héritiers.
+
+## Quand les deux régimes coexistent sur un même contrat
+
+C'est la situation la plus fréquente, et celle où les calculs se trompent le plus souvent.
+
+Un contrat ouvert à 60 ans et alimenté jusqu'à 85 ans comporte deux blocs de primes, soumis à deux régimes distincts. La répartition ne se fait pas au prorata du capital final, mais **prime par prime**, selon la date de chaque versement.
+
+**Exemple.** Un contrat alimenté par 150 000 € de primes avant 70 ans et 100 000 € après, valorisé 400 000 € au décès, avec deux enfants bénéficiaires à parts égales.
+
+*Bloc de l'article 990 I, primes d'avant 70 ans.* Les 150 000 € de primes et la part de gains qui s'y rattache relèvent de ce régime. Chaque bénéficiaire dispose d'un abattement de 152 500 €.
+
+*Bloc de l'article 757 B, primes d'après 70 ans.* Seules les 100 000 € de **primes** sont taxables, diminuées de l'abattement global de 30 500 €, soit 69 500 € répartis entre les deux enfants. Les gains produits par ces primes sont exonérés.
+
+*Résultat.* Chaque enfant supporte 34 750 € entrant dans sa part successorale, tandis que la totalité du bloc antérieur à 70 ans passe sous l'abattement par tête.
+
+Deux enseignements. Le régime de l'article 757 B n'est pénalisant que sur les **primes**, jamais sur ce qu'elles ont produit. Et l'abattement global de 30 500 € se partage entre bénéficiaires, contrairement aux 152 500 € qui se comptent par tête : multiplier les bénéficiaires n'apporte rien sur ce bloc.
+
+## Le cas du bénéficiaire qui n'est pas en ligne directe
+
+C'est la situation où l'écart entre les deux régimes devient brutal, et elle justifie à elle seule de réfléchir avant de verser après 70 ans.
+
+Sous l'article 990 I, un neveu, un ami ou un partenaire non marié bénéficie du **même abattement de 152 500 €** qu'un enfant. Le lien de parenté est indifférent : c'est la grande force de l'assurance-vie.
+
+Sous l'article 757 B, les primes taxables sont soumises au **barème des droits de succession selon le lien de parenté**. Un neveu supporte donc 55 %, une personne sans lien 60 %, après un abattement global déjà partagé.
+
+La règle qui en découle est simple à retenir : **les primes versées après 70 ans se destinent à des bénéficiaires en ligne directe**. Un capital destiné à un neveu, à un concubin ou à un tiers doit être logé dans les versements antérieurs à 70 ans, ou sur un contrat distinct alimenté avant cette date.
+
+Pour un couple non marié, ce point est décisif : c'est souvent l'assurance-vie qui constitue l'essentiel de la protection mutuelle, et la date des versements en détermine l'efficacité.
+
+## Pourquoi un second contrat à 70 ans
+
+Rien n'impose d'ouvrir un contrat distinct, puisque l'assureur suit la date de chaque prime dans ses registres. Trois raisons pratiques l'expliquent néanmoins.
+
+**La lisibilité pour les héritiers.** Deux contrats, deux régimes, deux clauses bénéficiaires : la lecture au décès est immédiate, alors qu'un contrat unique suppose de reconstituer l'historique des versements.
+
+**La souplesse des clauses.** Des bénéficiaires différents peuvent être désignés sur chaque contrat, ce qui permet précisément d'orienter les primes d'après 70 ans vers la ligne directe et celles d'avant vers les autres.
+
+**La simplicité des rachats.** Racheter sur le contrat postérieur à 70 ans plutôt que sur l'autre préserve le bloc le plus favorable, alors qu'un rachat sur un contrat mixte s'impute selon les règles propres du contrat.

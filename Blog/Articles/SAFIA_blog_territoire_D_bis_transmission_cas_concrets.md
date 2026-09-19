@@ -365,7 +365,7 @@ articles **D11** et **D12**.
 
 **Il ne peut pas** porter atteinte à la **réserve héréditaire** des enfants. La quotité disponible est de la moitié du patrimoine avec un enfant, du tiers avec deux, du quart avec trois ou plus.
 
-**Il ne peut pas** modifier les bénéficiaires d'une assurance-vie de manière fiable : la désignation se fait dans la clause bénéficiaire du contrat. Un testament peut certes désigner un bénéficiaire, mais l'articulation avec la clause du contrat est source de contentieux. Modifie la clause auprès de l'assureur, c'est la voie sûre.
+**Il ne peut pas** modifier les bénéficiaires d'une assurance-vie de manière fiable : la désignation se fait dans la clause bénéficiaire du contrat. Un testament peut certes désigner un bénéficiaire, mais l'articulation avec la clause du contrat est source de contentieux. Modifier la clause auprès de l'assureur reste la voie sûre.
 
 ### Les cinq erreurs les plus fréquentes
 

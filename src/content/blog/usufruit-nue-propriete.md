@@ -5,7 +5,7 @@ titreSeo: "Usufruit et nue-propriété : comprendre le démembrement"
 description: "Donner la nue-propriété en gardant l'usufruit réduit la base taxable selon l'âge. Le barème de l'article 669, expliqué avec un exemple chiffré."
 categorie: "Donation et succession"
 date: 2026-09-14
-lecture: 3
+lecture: 5
 essentiel:
   - "La propriété se scinde en deux : **l'usufruit** (utiliser le bien et en percevoir les revenus) et **la nue-propriété** (en être propriétaire sans en jouir)."
   - "Donner la nue-propriété permet de **transmettre en ne payant des droits que sur une fraction** de la valeur du bien."
@@ -18,6 +18,10 @@ faq:
     r: "Oui, notamment lorsque le conjoint survivant opte pour l'usufruit de la totalité."
   - q: "Peut-on démembrer temporairement ?"
     r: "Oui, un usufruit à durée fixe est valorisé à 23 % par période de dix ans, dans la limite de la valeur de l'usufruit viager."
+  - q: "Le démembrement peut-il être remis en cause par l'administration ?"
+    r: "Le mécanisme est parfaitement légal et expressément prévu par le Code général des impôts : donner la nue-propriété en conservant l'usufruit n'a rien d'un montage. Ce qui est contesté, c'est le démembrement **fictif**, lorsque le donateur continue en fait de se comporter en plein propriétaire, dispose du bien à sa guise ou récupère la valeur donnée par un autre canal. La donation doit donc être réelle et produire ses effets : le nu-propriétaire est propriétaire, et cela doit se vérifier dans les faits comme dans les actes."
+  - q: "Que devient l'usufruit au décès de l'usufruitier ?"
+    r: "Il s'éteint automatiquement. Le nu-propriétaire devient plein propriétaire sans formalité, sans droit de mutation supplémentaire et quelle que soit la valeur du bien à cette date. C'est précisément ce qui fait l'efficacité du dispositif : toute la valorisation intervenue depuis la donation échappe aux droits."
 pages:
   - nom: "Cockpit stratégique"
     url: "/cockpit/"
@@ -81,3 +85,39 @@ Trois contreparties, à peser sérieusement.
 Le démembrement ne concerne pas que l'immobilier. Il s'applique aux parts de SCPI, aux portefeuilles de titres, et il existe des **clauses bénéficiaires démembrées** en assurance-vie, traitées dans **Clause bénéficiaire : cinq formulations et ce qu'elles produisent**.
 
 Il se rencontre également en sens inverse : l'achat en nue-propriété d'un bien immobilier, avec un usufruit temporaire cédé à un bailleur social pendant quinze à vingt ans.
+
+## Qui paie quoi pendant le démembrement
+
+C'est la première source de litige entre usufruitier et nu-propriétaire, et elle se prévient par un écrit.
+
+**L'usufruitier** supporte les charges courantes : entretien, réparations d'entretien, charges de copropriété courantes, taxe foncière, assurance. Il perçoit en contrepartie les revenus du bien et en a l'usage.
+
+**Le nu-propriétaire** supporte les **grosses réparations** énumérées à l'article 606 du Code civil : gros murs, voûtes, poutres, couvertures entières, digues, murs de soutènement et de clôture.
+
+La frontière entre entretien et grosses réparations est le terrain de désaccord classique. Une toiture reprise partiellement relève-t-elle de l'entretien ou de la couverture entière ? Une chaudière collective remplacée ? La jurisprudence tranche au cas par cas, ce qui signifie qu'en pratique, chacun peut soutenir une lecture différente pendant des années.
+
+La parade est connue et peu coûteuse : une **convention de démembrement** rédigée au moment de la donation, qui répartit explicitement les charges, prévoit qui décide des travaux et selon quelles modalités, et organise la prise de décision en cas de vente. Un notaire l'établit en même temps que l'acte.
+
+## Le quasi-usufruit, le mécanisme à connaître
+
+Lorsque le démembrement porte sur une **somme d'argent** ou sur des biens qui se consomment par l'usage, l'usufruit devient un **quasi-usufruit**.
+
+L'usufruitier peut alors disposer librement des fonds, les dépenser, les réinvestir. En contrepartie, le nu-propriétaire détient une **créance de restitution** sur la succession de l'usufruitier, égale au montant démembré.
+
+L'intérêt patrimonial est double. L'usufruitier conserve la pleine disposition économique des sommes. Et au décès, la créance de restitution constitue une **dette de la succession**, déductible de l'actif taxable, ce qui réduit d'autant les droits dus par les héritiers.
+
+Deux précautions conditionnent l'efficacité du mécanisme. La créance doit être **constatée par écrit et avoir date certaine**, faute de quoi sa déductibilité peut être refusée. Et le dispositif fait l'objet d'un encadrement en matière de dettes consenties entre proches, qui doit être vérifié au cas par cas.
+
+Le quasi-usufruit se rencontre couramment à deux endroits : lorsqu'un conjoint survivant opte pour l'usufruit de la totalité d'une succession comportant des liquidités, et dans les **clauses bénéficiaires démembrées** d'assurance-vie, où le conjoint reçoit le capital en quasi-usufruit et les enfants la nue-propriété.
+
+## Vendre un bien démembré
+
+La vente exige l'accord de l'usufruitier **et** du nu-propriétaire. Trois issues sont alors possibles, et il vaut mieux les avoir prévues avant.
+
+**La répartition du prix** entre les deux, selon le barème de l'article 669 appliqué à l'âge de l'usufruitier au jour de la vente. Chacun récupère sa quote-part et le démembrement s'éteint.
+
+**Le report du démembrement sur un autre bien**, appelé remploi : le prix est réinvesti dans un nouvel actif, lui-même démembré dans les mêmes proportions. C'est la solution qui préserve l'économie initiale de l'opération.
+
+**Le report sur une somme d'argent**, qui fait basculer dans le quasi-usufruit décrit ci-dessus.
+
+Prévoir la clause de remploi dès l'acte de donation évite d'avoir à négocier ce point au moment où l'un des deux veut vendre et l'autre non.

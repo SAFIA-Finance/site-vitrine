@@ -5,7 +5,7 @@ titreSeo: "Les étapes d'une succession : le déroulé réel"
 description: "Du décès au partage, six mois de démarches et une chronologie précise. Ce qui se passe concrètement, dans quel ordre, et où se produisent les blocages."
 categorie: "Donation et succession"
 date: 2026-09-14
-lecture: 3
+lecture: 5
 essentiel:
   - "Le compte à rebours démarre au décès : la déclaration de succession est due dans les **six mois**."
   - "Le notaire est **obligatoire** dès qu'il y a un bien immobilier, un testament ou une donation antérieure."
@@ -71,3 +71,37 @@ Presque jamais sur le calcul des droits. Presque toujours sur trois points.
 **Les comptes du passé.** Aides versées de son vivant à l'un des enfants, travaux payés, prêts jamais remboursés : ce sont ces sujets, non chiffrés et non écrits, qui font durer les successions des années.
 
 Anticiper une donation-partage réduit fortement ces trois risques, parce qu'elle règle le partage du vivant du donateur, en sa présence.
+
+## Ce que coûte une succession, poste par poste
+
+Trois catégories de frais se cumulent, et elles sont régulièrement confondues.
+
+**Les droits de succession**, versés au Trésor public. Ils dépendent du lien de parenté et du montant transmis, et ils sont nuls pour le conjoint survivant et le partenaire de PACS.
+
+**Les émoluments du notaire**, qui rémunèrent son intervention. Une partie est tarifée réglementairement, selon un barème proportionnel à la valeur des biens, une autre correspond à des actes distincts : acte de notoriété, attestation de propriété immobilière, déclaration de succession, acte de partage.
+
+**Les débours et frais annexes** : demandes d'état civil, publication au service de la publicité foncière, interrogation du fichier central des dispositions de dernières volontés, frais de généalogiste lorsque des héritiers doivent être recherchés.
+
+Deux conséquences pratiques. D'abord, une succession sans droits n'est jamais une succession sans frais : un conjoint exonéré acquitte néanmoins des émoluments. Ensuite, la présence d'un bien immobilier renchérit sensiblement l'ensemble, puisqu'elle déclenche plusieurs actes obligatoires.
+
+## Débloquer des fonds avant le règlement
+
+Le décès bloque les comptes du défunt, ce qui crée une difficulté immédiate quand des dépenses doivent être réglées. Trois voies existent.
+
+**Le règlement des frais funéraires** peut être prélevé directement sur les comptes du défunt, dans une limite fixée, sur présentation de la facture.
+
+**L'assurance-vie** est versée aux bénéficiaires en dehors de la succession, généralement dans un délai bien plus court que le règlement notarial. C'est souvent elle qui permet d'acquitter les droits sans avoir à vendre un bien dans l'urgence, et c'est un argument pratique qui s'ajoute à son avantage fiscal.
+
+**Le déblocage pour les petites successions** est prévu dans des conditions encadrées, permettant à un héritier de clôturer certains comptes sur attestation, en dessous d'un seuil et en l'absence de bien immobilier ou de testament.
+
+Anticiper ce point change le déroulement : une famille disposant de liquidités hors succession traite le règlement sereinement, une famille dont tout le patrimoine est immobilier subit le calendrier.
+
+## Les comptes du passé, sujet central et non fiscal
+
+Ce qui fait durer les successions n'est presque jamais le calcul des droits. Ce sont les opérations anciennes, jamais formalisées.
+
+Trois figures reviennent constamment. Les **aides régulières** versées à un enfant, que les autres découvrent au décès. Les **travaux payés** par un parent dans le logement de l'un d'eux. Les **prêts familiaux** jamais remboursés ni même écrits.
+
+Juridiquement, la ligne de partage est celle du **rapport** : les donations sont rapportables à la succession et s'imputent sur la part de l'héritier qui les a reçues, tandis que les **présents d'usage**, proportionnés à la situation du donateur et liés à un événement, ne le sont pas. Entre les deux, tout est affaire de preuve et d'interprétation, donc de conflit.
+
+La prévention est simple et rarement mise en œuvre : écrire au moment où l'opération a lieu. Un prêt familial documenté, une donation déclarée, une aide qualifiée par écrit coûtent quelques minutes sur le moment et évitent des années de contentieux.

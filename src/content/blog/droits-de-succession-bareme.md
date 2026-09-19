@@ -5,7 +5,7 @@ titreSeo: "Droits de succession 2026 : barème et abattements"
 description: "Abattement de 100 000 € par enfant, barème de 5 % à 45 %, exonération du conjoint : le calcul des droits de succession, avec trois exemples."
 categorie: "Donation et succession"
 date: 2026-09-14
-lecture: 3
+lecture: 6
 essentiel:
   - "Chaque enfant bénéficie d'un **abattement de 100 000 €** sur sa part, par parent."
   - "Au-delà, le barème en ligne directe est **progressif, de 5 % à 45 %**."
@@ -20,6 +20,10 @@ faq:
     r: "Non. Ce sont deux choses distinctes : les droits vont au Trésor, les émoluments au notaire."
   - q: "Peut-on renoncer à une succession ?"
     r: "Oui, notamment si le passif dépasse l'actif. La renonciation se déclare au tribunal."
+  - q: "Les frais funéraires sont-ils déductibles ?"
+    r: "Oui, dans la limite fixée par le Code général des impôts, et ils peuvent en outre être prélevés directement sur les comptes du défunt sur présentation de la facture, alors même que ces comptes sont bloqués. C'est souvent la première dépense à régler, et la seule qui échappe au blocage immédiat."
+  - q: "Le barème est-il revalorisé chaque année ?"
+    r: "Non. Les tranches et les abattements sont inchangés depuis 2012 et ne suivent pas l'inflation. À patrimoine constant en euros réels, la pression fiscale augmente donc mécaniquement d'année en année, sans qu'aucune décision n'ait été prise en ce sens."
 pages:
   - nom: "Cockpit stratégique"
     url: "/cockpit/"
@@ -96,3 +100,45 @@ Le neveu conserve moins de la moitié de ce qu'il reçoit. C'est ce cas qui just
 **Le démembrement.** Donner la nue-propriété en conservant l'usufruit réduit la base taxable selon l'âge du donateur.
 
 **Le pacte Dutreil** pour la transmission d'entreprise, avec une exonération de 75 % de la valeur. La loi de finances pour 2026 en a durci les conditions, en portant l'engagement individuel de conservation de quatre à six ans.
+
+## Le rappel des donations antérieures, mécanisme exact
+
+C'est la règle qui relie les donations à la succession, et elle est presque toujours résumée de travers.
+
+Au décès, les donations consenties par le défunt **moins de quinze ans** avant sont réintégrées dans le calcul des droits de succession. On parle de rappel fiscal.
+
+Cette réintégration n'a pas pour effet de taxer deux fois les mêmes sommes. Elle produit deux conséquences précises.
+
+**L'abattement est consommé à hauteur de ce qui a déjà servi.** Un enfant ayant reçu 60 000 € il y a huit ans ne dispose plus que de 40 000 € d'abattement au décès de ce parent.
+
+**Les tranches du barème ne repartent pas de zéro.** La part taxable de la succession s'ajoute à la donation rappelée pour déterminer les tranches applicables, ce qui pousse mécaniquement vers les taux supérieurs.
+
+**Les droits déjà acquittés viennent en déduction** de ceux calculés sur l'ensemble. Il n'y a donc pas double imposition, mais perte de l'avantage lié au fractionnement.
+
+Passé quinze ans, la donation est définitivement hors du calcul et l'abattement s'est intégralement reconstitué. C'est tout l'enjeu du démarrage précoce des transmissions : chaque cycle de quinze ans franchi est un abattement complet gagné.
+
+Un point de méthode en découle : la date qui compte est celle de la **déclaration** du don, non celle de sa remise matérielle. Un don manuel non déclaré ne commence jamais à courir.
+
+## Ce qui entre dans l'actif taxable, et ce qui en sort
+
+Le calcul commence par l'actif net, et plusieurs postes y échappent ou s'en déduisent.
+
+**Entrent dans l'actif** : les immeubles, les comptes bancaires, les valeurs mobilières, les véhicules, les créances détenues par le défunt, ainsi que les meubles meublants, évalués selon les modalités prévues par le Code général des impôts, qui admet notamment un forfait.
+
+**Se déduisent** : les dettes certaines à la date du décès, les frais funéraires dans la limite fixée par le texte, et les impôts restant dus.
+
+**N'entrent pas** : les capitaux d'assurance-vie, qui relèvent des articles 990 I et 757 B, et les biens exonérés au titre de dispositifs particuliers, dont le pacte Dutreil pour sa fraction exonérée.
+
+Cette distinction explique une situation fréquente : une succession peut afficher un patrimoine transmis important et un actif taxable modeste, lorsque l'essentiel a été logé en assurance-vie avant 70 ans.
+
+## Le paiement des droits
+
+Les droits sont dus au moment du dépôt de la déclaration, dans les six mois du décès pour un décès survenu en France, un an s'il est survenu à l'étranger.
+
+Deux aménagements existent, soumis à conditions et à l'accord de l'administration, avec intérêts et le plus souvent constitution de garanties.
+
+**Le paiement fractionné** permet d'échelonner le règlement sur une période déterminée.
+
+**Le paiement différé** vise principalement les transmissions en nue-propriété : le règlement peut être reporté jusqu'à l'extinction de l'usufruit.
+
+La difficulté pratique est classique : les droits sont exigibles avant que le partage ne soit réalisé et avant que les biens ne soient liquides. C'est la raison pour laquelle un contrat d'assurance-vie, versé rapidement et hors succession, joue souvent un rôle décisif en trésorerie, indépendamment de son avantage fiscal.
