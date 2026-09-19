@@ -14,6 +14,9 @@ essentiel:
 pages:
   - nom: "ADN Investisseur"
     url: "/adn-investisseur/"
+articlesLies:
+  - "fonds-euros-fonds-croissance"
+  - "scpi-fonctionnement-risques"
 sources: "AMF, guide sur les fonds obligataires et les fonds à échéance · Documents d'informations clés, indicateur de risque et scénarios · Publications des agences de notation sur les taux de défaut historiques par catégorie."
 ---
 

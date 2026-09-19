@@ -19,6 +19,9 @@ outils:
     url: "/outils/frais/"
     resume: "Ce qu’un point de frais annuel retire à ton capital sur vingt ans."
 seoDerive: true
+articlesLies:
+  - "etf-definition-fonctionnement"
+  - "investir-en-actions-direct"
 sources: "Directive 2009/65/CE (OPCVM) et directive 2011/61/UE (AIFM) · AMF, doctrine sur les commissions de surperformance · Études comparatives de performance des fonds actifs contre indices de référence · Documents d'informations clés · AMF, « Analyse des frais des fonds de droit français », mai 2024, et Lettre de l'Observatoire de l'épargne n° 65, avril 2026."
 ---
 

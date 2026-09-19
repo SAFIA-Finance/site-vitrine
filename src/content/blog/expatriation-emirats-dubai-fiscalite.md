@@ -15,6 +15,9 @@ pages:
   - nom: "Cockpit stratégique"
     url: "/cockpit/"
 seoDerive: true
+articlesLies:
+  - "expatriation-espagne-fiscalite"
+  - "expatriation-etats-unis-fiscalite"
 sources: "Législation fédérale émirienne relative à l'impôt sur les sociétés (2023) et aux régimes de zones franches · Convention fiscale franco-émirienne · Code général des impôts, articles 4 B et 167 bis · Notice DGFiP du formulaire 2074-ETD."
 ---
 

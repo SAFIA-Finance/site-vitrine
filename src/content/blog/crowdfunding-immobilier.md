@@ -14,6 +14,9 @@ essentiel:
 pages:
   - nom: "ADN Investisseur"
     url: "/adn-investisseur/"
+articlesLies:
+  - "crowdlending-pret-participatif"
+  - "private-equity-particuliers"
 sources: "Règlement (UE) 2020/1503 relatif aux prestataires européens de services de financement participatif · AMF et ACPR, registres des prestataires agréés · Statistiques annuelles publiées par les plateformes et les baromètres sectoriels."
 ---
 

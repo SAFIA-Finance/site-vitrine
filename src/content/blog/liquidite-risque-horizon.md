@@ -14,6 +14,9 @@ essentiel:
 pages:
   - nom: "ADN Investisseur"
     url: "/adn-investisseur/"
+articlesLies:
+  - "enveloppe-ou-support"
+  - "opcvm-sicav-fcp"
 sources: "AMF, publications sur la liquidité des fonds et la gestion des rachats · ESMA, orientations sur les outils de gestion de la liquidité · Documents d'informations clés, indicateur synthétique de risque et horizon recommandé."
 ---
 

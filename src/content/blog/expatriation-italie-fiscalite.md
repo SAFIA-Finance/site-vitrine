@@ -15,6 +15,9 @@ pages:
   - nom: "Cockpit stratégique"
     url: "/cockpit/"
 seoDerive: true
+articlesLies:
+  - "expatriation-luxembourg-fiscalite"
+  - "expatriation-malte-fiscalite"
 sources: "Legge di Bilancio 199/2025, relèvement du forfait à compter du 1er janvier 2026 · Décret-loi de 2017 instituant le régime forfaitaire des nouveaux résidents · Convention fiscale franco-italienne, y compris ses dispositions en matière de successions · Agenzia delle Entrate, procédure de ruling."
 ---
 

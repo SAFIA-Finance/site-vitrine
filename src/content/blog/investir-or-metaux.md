@@ -14,6 +14,9 @@ essentiel:
 pages:
   - nom: "ADN Investisseur"
     url: "/adn-investisseur/"
+articlesLies:
+  - "actifs-de-passion"
+  - "classes-d-actifs"
 sources: "Code général des impôts, articles 150 VI à 150 VM (taxe sur les métaux précieux) et 150 UA (plus-values sur biens meubles) · BOFiP, régime des métaux précieux · Documents d'information des produits cotés adossés aux matières premières."
 ---
 

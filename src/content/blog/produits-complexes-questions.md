@@ -14,6 +14,9 @@ essentiel:
 pages:
   - nom: "Notre méthode"
     url: "/methode/"
+articlesLies:
+  - "lire-un-dic-document-information-cle"
+  - "crypto-actifs-fiscalite"
 sources: "Directive 2014/65/UE, articles 24 et 25, information sur les coûts et les incitations · Règlement délégué (UE) 2017/565 · Règlement (UE) n° 1286/2014 (PRIIPs) · AMF, mises en garde sur les produits complexes."
 ---
 

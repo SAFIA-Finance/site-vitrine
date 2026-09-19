@@ -15,6 +15,9 @@ pages:
   - nom: "Cockpit stratégique"
     url: "/cockpit/"
 seoDerive: true
+articlesLies:
+  - "sortir-indivision-succession"
+  - "pacte-dutreil-2026"
 sources: "Code civil, articles 1832 et suivants, et 1857 sur la responsabilité des associés · Code général des impôts, articles 8, 206 et 976 · BOFiP, sociétés civiles immobilières et évaluation des titres non cotés."
 ---
 

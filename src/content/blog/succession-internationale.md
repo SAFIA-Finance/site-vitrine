@@ -14,6 +14,9 @@ essentiel:
 pages:
   - nom: "Cockpit stratégique"
     url: "/cockpit/"
+articlesLies:
+  - "testament-quel-type-choisir"
+  - "donation-dernier-vivant"
 sources: "Règlement (UE) n° 650/2012 du 4 juillet 2012 relatif aux successions et au certificat successoral européen · Code général des impôts, article 750 ter · Conventions fiscales bilatérales françaises en matière de successions · BOFiP, territorialité des droits de mutation à titre gratuit."
 ---
 

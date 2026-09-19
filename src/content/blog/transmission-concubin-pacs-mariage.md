@@ -19,6 +19,9 @@ outils:
     url: "/outils/succession/"
     resume: "Abattements et droits à payer selon le lien de parenté."
 seoDerive: true
+articlesLies:
+  - "succession-famille-recomposee"
+  - "transmission-enfant-handicape"
 sources: "Code civil, articles 515-1 et suivants (PACS), 731 et suivants (ordre des héritiers), 763 (droit temporaire au logement) · Code général des impôts, articles 777, 788 et 796-0 bis · Code général des impôts, article 990 I."
 ---
 

@@ -14,6 +14,9 @@ essentiel:
 pages:
   - nom: "ADN Investisseur"
     url: "/adn-investisseur/"
+articlesLies:
+  - "produits-structures-comprendre"
+  - "produits-complexes-questions"
 sources: "Code monétaire et financier, articles L. 214-28 et suivants (FCPR, FCPI, FIP) · Loi Industrie Verte et ses dispositions relatives aux actifs non cotés dans les gestions pilotées · AMF, guide sur le capital-investissement pour les particuliers · Documents d'informations clés des fonds."
 ---
 

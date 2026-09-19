@@ -15,6 +15,9 @@ pages:
   - nom: "Cockpit stratégique"
     url: "/cockpit/"
 seoDerive: true
+articlesLies:
+  - "expatriation-singapour-fiscalite"
+  - "expatriation-suisse-fiscalite"
 sources: "Finance Act britannique portant suppression du régime des non-domiciliés à compter d'avril 2025 et instituant le régime des nouveaux arrivants · HMRC, Statutory Residence Test · Convention fiscale franco-britannique en matière d'impôts sur le revenu et convention en matière de successions · Notice DGFiP du formulaire 2074-ETD, liste des États ouvrant le sursis automatique."
 ---
 

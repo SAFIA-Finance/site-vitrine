@@ -15,6 +15,9 @@ pages:
   - nom: "Cockpit stratégique"
     url: "/cockpit/"
 seoDerive: true
+articlesLies:
+  - "opci-sci-rendement"
+  - "immobilier-locatif-direct"
 sources: "Code monétaire et financier, articles L. 214-86 et suivants sur les SCPI · AMF, documents d'information et rapports annuels des sociétés de gestion · Code général des impôts, régime des revenus fonciers · Loi de financement de la Sécurité sociale pour 2026, maintien des prélèvements sociaux à 17,2 % sur les revenus fonciers · ASPIM, statistiques annuelles du marché des SCPI, taux de distribution moyen de 4,91 % en 2025."
 ---
 

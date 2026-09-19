@@ -14,6 +14,9 @@ essentiel:
 pages:
   - nom: "Cockpit stratégique"
     url: "/cockpit/"
+articlesLies:
+  - "primes-manifestement-exagerees"
+  - "succession-internationale"
 sources: "Code général des impôts, article 787 B · Loi de finances pour 2026, dispositions portant l'engagement individuel de conservation de quatre à six ans · BOFiP, exonération partielle des transmissions d'entreprises · Jurisprudence sur la notion d'activité opérationnelle des holdings animatrices."
 ---
 

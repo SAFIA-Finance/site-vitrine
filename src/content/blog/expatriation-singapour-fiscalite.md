@@ -15,6 +15,9 @@ pages:
   - nom: "Cockpit stratégique"
     url: "/cockpit/"
 seoDerive: true
+articlesLies:
+  - "expatriation-suisse-fiscalite"
+  - "expatriation-thailande-fiscalite"
 sources: "Income Tax Act singapourien, principe de territorialité · Inland Revenue Authority of Singapore, guidance sur les revenus de source étrangère · Convention fiscale franco-singapourienne · Code général des impôts, article 167 bis."
 ---
 

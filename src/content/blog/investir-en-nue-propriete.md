@@ -14,6 +14,9 @@ essentiel:
 pages:
   - nom: "Cockpit stratégique"
     url: "/cockpit/"
+articlesLies:
+  - "crowdfunding-immobilier"
+  - "crowdlending-pret-participatif"
 sources: "Code civil, articles 578 à 624 et 606 · Code général des impôts, article 669 (barème de l'usufruit) et dispositions relatives à l'IFI · BOFiP, démembrement de propriété."
 ---
 

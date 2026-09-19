@@ -18,6 +18,9 @@ outils:
   - nom: "Succession et donation"
     url: "/outils/succession/"
     resume: "Abattements et droits à payer selon le lien de parenté."
+articlesLies:
+  - "transmission-concubin-pacs-mariage"
+  - "succession-famille-recomposee"
 sources: "Code civil, articles 757 et suivants, 764 et 765-1 (droit viager au logement), 1094-1 et 1096 (donation entre époux) · Code général des impôts, articles 669 et 796-0 bis."
 ---
 

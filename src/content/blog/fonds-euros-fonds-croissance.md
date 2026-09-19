@@ -14,6 +14,9 @@ essentiel:
 pages:
   - nom: "ADN Investisseur"
     url: "/adn-investisseur/"
+articlesLies:
+  - "scpi-fonctionnement-risques"
+  - "opci-sci-rendement"
 sources: "Code des assurances, articles L. 132-1 et suivants, et dispositions relatives à la provision pour participation aux bénéfices · ACPR, publications sur les fonds en euros et les taux de revalorisation · France Assureurs, statistiques de rendement."
 ---
 

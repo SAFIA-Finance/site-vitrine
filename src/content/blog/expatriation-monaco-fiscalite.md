@@ -15,6 +15,9 @@ pages:
   - nom: "Cockpit stratégique"
     url: "/cockpit/"
 seoDerive: true
+articlesLies:
+  - "expatriation-portugal-fiscalite"
+  - "expatriation-royaume-uni-fiscalite"
 sources: "Convention fiscale franco-monégasque du 18 mai 1963 et ses avenants · Code général des impôts, article 4 B · Ordonnances monégasques relatives aux droits de mutation."
 ---
 

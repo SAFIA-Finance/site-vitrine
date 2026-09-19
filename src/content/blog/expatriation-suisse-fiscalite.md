@@ -15,6 +15,9 @@ pages:
   - nom: "Cockpit stratégique"
     url: "/cockpit/"
 seoDerive: true
+articlesLies:
+  - "expatriation-thailande-fiscalite"
+  - "expatriation-andorre-fiscalite"
 sources: "Loi fédérale sur l'impôt fédéral direct et lois cantonales, imposition d'après la dépense · Convention fiscale franco-suisse en matière d'impôts sur le revenu et la fortune · Code général des impôts, article 167 bis, et notice du formulaire 2074-ETD relative aux États ouvrant le sursis automatique · CJUE, arrêt Wächtler."
 ---
 

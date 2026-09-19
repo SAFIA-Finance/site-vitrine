@@ -15,6 +15,9 @@ pages:
   - nom: "Cockpit stratégique"
     url: "/cockpit/"
 seoDerive: true
+articlesLies:
+  - "expatriation-maroc-fiscalite"
+  - "expatriation-maurice-fiscalite"
 sources: "Income Tax Act maltais, dispositions relatives à la résidence, au domicile et à la base de remittance · Textes relatifs aux programmes de résidence maltais et à l'impôt minimum annuel · Convention fiscale franco-maltaise · Code général des impôts, article 167 bis."
 ---
 

@@ -15,6 +15,9 @@ pages:
   - nom: "ADN Investisseur"
     url: "/adn-investisseur/"
 seoDerive: true
+articlesLies:
+  - "liquidite-risque-horizon"
+  - "enveloppe-ou-support"
 sources: "AMF, guides de l'épargnant sur les risques et la diversification · Documents d'informations clés des catégories de fonds · Travaux académiques sur l'allocation stratégique d'actifs."
 ---
 

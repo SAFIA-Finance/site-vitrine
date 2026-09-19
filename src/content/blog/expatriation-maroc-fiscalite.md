@@ -15,6 +15,9 @@ pages:
   - nom: "Cockpit stratégique"
     url: "/cockpit/"
 seoDerive: true
+articlesLies:
+  - "expatriation-maurice-fiscalite"
+  - "expatriation-monaco-fiscalite"
 sources: "Code général des impôts marocain, dispositions relatives aux pensions de source étrangère · Convention fiscale franco-marocaine et ses avenants · Notice DGFiP du formulaire 2074-ETD, liste des États ouvrant le sursis automatique, applicable au jour du transfert."
 ---
 

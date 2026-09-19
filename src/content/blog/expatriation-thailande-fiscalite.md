@@ -15,6 +15,9 @@ pages:
   - nom: "Cockpit stratégique"
     url: "/cockpit/"
 seoDerive: true
+articlesLies:
+  - "expatriation-andorre-fiscalite"
+  - "expatriation-belgique-fiscalite"
 sources: "Revenue Department thaïlandais, instructions relatives à l'imposition des revenus de source étrangère rapatriés, applicables à compter de 2024 · Convention fiscale franco-thaïlandaise · Réglementation thaïlandaise des visas de long séjour."
 ---
 

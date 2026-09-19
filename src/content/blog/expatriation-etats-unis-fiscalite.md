@@ -15,6 +15,9 @@ pages:
   - nom: "Cockpit stratégique"
     url: "/cockpit/"
 seoDerive: true
+articlesLies:
+  - "expatriation-grece-fiscalite"
+  - "expatriation-irlande-fiscalite"
 sources: "Internal Revenue Code, dispositions relatives à l'imposition des citoyens, des résidents et des non-résidents, et au régime successoral fédéral · Foreign Account Tax Compliance Act et accord intergouvernemental franco-américain · Convention fiscale franco-américaine en matière d'impôts sur le revenu et convention en matière de successions et de donations."
 ---
 

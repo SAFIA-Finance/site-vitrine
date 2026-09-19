@@ -15,6 +15,9 @@ pages:
   - nom: "Cockpit stratégique"
     url: "/cockpit/"
 seoDerive: true
+articlesLies:
+  - "expatriation-malte-fiscalite"
+  - "expatriation-maroc-fiscalite"
 sources: "Loi luxembourgeoise concernant l'impôt sur le revenu · Commissariat aux Assurances, régime de protection des preneurs d'assurance dit « triangle de sécurité » · Convention fiscale franco-luxembourgeoise · Code des assurances français pour la comparaison des régimes."
 ---
 

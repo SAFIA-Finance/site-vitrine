@@ -14,6 +14,9 @@ essentiel:
 pages:
   - nom: "Cockpit stratégique"
     url: "/cockpit/"
+articlesLies:
+  - "immobilier-locatif-direct"
+  - "investir-en-nue-propriete"
 sources: "Code monétaire et financier, articles L. 214-33 et suivants sur les OPCI · AMF, documents d'information des véhicules · Code des assurances, unités de compte immobilières · ESMA, orientations sur les outils de gestion de la liquidité."
 ---
 

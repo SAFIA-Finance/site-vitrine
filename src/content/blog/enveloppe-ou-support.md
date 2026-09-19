@@ -14,6 +14,9 @@ essentiel:
 pages:
   - nom: "ADN Investisseur"
     url: "/adn-investisseur/"
+articlesLies:
+  - "opcvm-sicav-fcp"
+  - "etf-definition-fonctionnement"
 sources: "Code monétaire et financier, articles L. 221-30 et suivants (PEA), L. 224-1 et suivants (PER) · Code général des impôts, articles 125-0 A et 150-0 A · Loi de financement de la Sécurité sociale pour 2026."
 ---
 
