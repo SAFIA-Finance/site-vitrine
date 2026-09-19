@@ -5,7 +5,7 @@ titreSeo: "Investir selon ses valeurs : par où commencer"
 description: "Exclure, sélectionner ou financer : trois approches de l'investissement responsable, et comment identifier celle qui te correspond vraiment."
 categorie: "ESG et impact"
 date: 2026-09-14
-lecture: 3
+lecture: 4
 essentiel:
   - "« Investir responsable » recouvre **trois démarches très différentes** : exclure, sélectionner les meilleurs, ou financer directement un impact."
   - "La première question n'est pas « quel fonds choisir » mais **« qu'est-ce que je refuse de financer »**."
@@ -18,6 +18,16 @@ faq:
     r: "Depuis la réforme du label ISR de mars 2024, les fonds labellisés ISR excluent les énergies fossiles. Un fonds simplement classé article 8 n'a aucune obligation de ce type."
   - q: "Peut-on investir responsable sur un PEA ?"
     r: "Oui, plusieurs ETF et fonds éligibles au PEA appliquent des filtres ESG."
+  - q: "Faut-il accepter moins de rendement pour investir selon ses valeurs ?"
+    r: "Rien ne permet de l'affirmer de façon générale, les travaux divergent. Ce qui est certain, c'est que l'écart lié aux frais dépasse presque toujours l'écart lié à l'orientation extra-financière. Compare donc d'abord les frais, ensuite la démarche."
+  - q: "Une exclusion réduit-elle la diversification ?"
+    r: "Oui, mécaniquement, et c'est le coût réel à accepter. Écarter un secteur entier resserre l'univers d'investissement et peut accroître la sensibilité du portefeuille aux secteurs restants. L'effet reste modéré pour des exclusions étroites, il devient significatif pour des exclusions larges."
+  - q: "Par quoi commencer quand on part de zéro ?"
+    r: "Par les deux listes : ce que tu refuses de financer, ce que tu veux financer, en termes assez précis pour être vérifiables. Le choix du fonds, de l'enveloppe et du label en découle, et n'a pas de sens sans elles."
+  - q: "Les obligations vertes tiennent-elles leur promesse ?"
+    r: "Elles financent des projets identifiés et font l'objet d'un reporting d'affectation, ce qui les rend nettement plus vérifiables qu'une action. La limite est connue : le projet financé est parfois une activité que l'émetteur aurait menée de toute façon. Le document d'émission et le rapport d'affectation permettent d'en juger."
+  - q: "Peut-on investir selon ses valeurs avec de petits montants ?"
+    r: "Oui. Les fonds indiciels filtrés et l'épargne solidaire sont accessibles à partir de quelques dizaines d'euros, et l'épargne salariale propose presque toujours au moins un support solidaire. Le montant n'est pas la contrainte, la lisibilité de l'offre l'est davantage."
 pages:
   - nom: "ADN Investisseur"
     url: "/adn-investisseur/"
@@ -54,6 +64,24 @@ Elle ouvre le document d'informations clés, puis le rapport de composition trim
 Rien d'illégal ni de trompeur : le fonds promeut des caractéristiques environnementales, ce qui n'implique aucune exclusion sectorielle. Le décalage vient de ce qu'Inès a lu une étiquette et non un contenu.
 
 Ce n'est pas une exception. C'est le fonctionnement normal de la classification actuelle, et c'est précisément ce que la réforme européenne en préparation cherche à corriger.
+
+## Où ton argent a réellement un effet
+
+C'est le point que la plupart des articles sur le sujet évitent, parce qu'il oblige à nuancer une promesse agréable.
+
+Quand tu achètes une action ou une part de fonds actions, tu achètes à un autre investisseur, sur le marché secondaire. L'entreprise ne reçoit pas un euro de cette transaction. Ton refus d'acheter ne la prive d'aucun capital, et ton achat ne lui en apporte aucun.
+
+Cela ne rend pas la démarche vaine, mais cela déplace l'endroit où elle agit. Quatre canaux ont un effet direct et vérifiable.
+
+**Le marché primaire.** Une émission d'obligations vertes, une augmentation de capital, une introduction en bourse : l'argent va effectivement à l'émetteur, affecté à des projets identifiés.
+
+**Le non coté et le financement direct.** Capital-investissement, financement participatif, foncières solidaires : le capital est apporté à l'entreprise ou au projet lui-même.
+
+**L'épargne solidaire.** Une part de l'encours finance directement des structures d'utilité sociale. C'est l'objet du label Finansol.
+
+**L'engagement actionnarial.** Un gérant qui détient des titres vote en assemblée générale et dialogue avec les directions. C'est le seul canal par lequel un fonds coté agit réellement sur le comportement des entreprises, et c'est la raison pour laquelle il faut demander à un fonds qui s'en prévaut ses statistiques de vote.
+
+Reste un cinquième effet, indirect mais documenté : si un nombre suffisant d'investisseurs délaisse un secteur, son coût de financement augmente. L'effet existe, il est lent, et il ne se constate pas à l'échelle d'un portefeuille individuel.
 
 ## Comment vérifier, en trois documents
 

@@ -5,7 +5,7 @@ titreSeo: "IA explicable en finance : pourquoi les sources comptent"
 description: "Une réponse financière non sourcée est invérifiable, donc inutilisable. Ce qu'est l'explicabilité, comment la tester, et ce que la réglementation impose."
 categorie: "IA et méthode"
 date: 2026-09-14
-lecture: 3
+lecture: 5
 essentiel:
   - "Un modèle de langage produit une réponse **plausible**, ce qui n'est pas la même chose qu'une réponse **exacte**."
   - "En matière fiscale ou patrimoniale, une affirmation invérifiable est inutilisable, quelle que soit sa qualité de rédaction."
@@ -18,6 +18,14 @@ faq:
     r: "Non. L'exactitude est une condition nécessaire, pas suffisante."
   - q: "Pourquoi certaines IA inventent-elles des références ?"
     r: "Parce qu'elles produisent la forme d'une citation sans mécanisme de vérification. Une référence doit toujours être contrôlée."
+  - q: "Une réponse sourcée est-elle forcément à jour ?"
+    r: "Non. Une source authentique peut avoir été modifiée depuis. Sur les sujets fiscaux, vérifie la version en vigueur à la date qui t'intéresse : Légifrance affiche l'historique des versions d'un article, et c'est souvent là que se loge l'écart entre une réponse plausible et une réponse exacte."
+  - q: "Faut-il se méfier des chiffres ronds ?"
+    r: "Plutôt des chiffres sans unité ni date. Un seuil fiscal est presque toujours un nombre précis attaché à une année et à une condition d'application. Une réponse qui donne le nombre sans ces deux éléments est incomplète, même quand le nombre est juste."
+  - q: "Que faire quand deux sources se contredisent ?"
+    r: "Retenir la plus normative et la plus récente : un texte de loi prime un commentaire administratif, qui prime un article de presse. Si la contradiction porte sur ta situation personnelle, c'est le signe qu'il te faut un professionnel, pas une source de plus."
+  - q: "Un outil qui refuse de répondre est-il défaillant ?"
+    r: "Souvent, c'est l'inverse. Sur une question dont la réponse dépend d'un élément que tu n'as pas fourni, la bonne réponse commence par une demande de précision. Un système qui tranche systématiquement sans disposer des données nécessaires produit des réponses confiantes et inutilisables."
 pages:
   - nom: "Notre méthode"
     url: "/methode/"
@@ -66,6 +74,18 @@ Le règlement européen sur l'intelligence artificielle impose une obligation de
 Le règlement prévoit par ailleurs un régime renforcé pour certains usages considérés comme à haut risque, avec des exigences de documentation, de traçabilité et de supervision humaine. Le calendrier d'application a fait l'objet d'ajustements depuis l'adoption du texte, et la qualification exacte d'un usage donné suppose une analyse au cas par cas.
 
 Dans le domaine financier, les règles antérieures continuent de s'appliquer pleinement : une communication à caractère promotionnel doit être claire, exacte et non trompeuse, qu'elle soit rédigée par un humain ou produite par une machine. L'automatisation ne déplace pas la responsabilité.
+
+## Comment vérifier une source qu'on te cite
+
+Une source n'a d'utilité que si tu peux la retrouver. Trois réflexes suffisent, et ils prennent moins de temps qu'on ne le croit.
+
+**Pour un article de code**, va sur Légifrance et cherche la référence exacte. Un article existe ou n'existe pas, et sa version en vigueur est datée. Une citation qui donne un numéro sans préciser le code concerné est inexploitable : l'article 150-0 D du Code général des impôts et un article portant un numéro voisin dans un autre code n'ont aucun rapport.
+
+**Pour la doctrine administrative**, le BOFiP publie ses commentaires sous des identifiants normalisés. Ces identifiants sont vérifiables, et c'est précisément ce qui les rend faciles à imiter : une référence bien formée mais inexistante est le mode d'erreur le plus courant. Le seul contrôle valable consiste à ouvrir la page.
+
+**Pour un taux ou un seuil**, cherche la date d'entrée en vigueur avant de retenir le chiffre. Un taux sans date n'est pas une information, puisqu'il en existe plusieurs versions selon l'année.
+
+Un signal doit alerter immédiatement : une réponse qui cite une source à l'appui d'une affirmation, mais dont la source ne traite pas du point en question. C'est fréquent, et cela passe inaperçu tant qu'on ne va pas voir. Vérifier une source ne consiste pas à constater qu'elle existe, mais à constater qu'elle dit bien ce qu'on lui fait dire.
 
 ## Ce que l'explicabilité ne garantit pas
 

@@ -5,7 +5,7 @@ titreSeo: "Profil de risque MiFID II : à quoi sert le questionnaire"
 description: "Le questionnaire n'est pas une formalité administrative : il conditionne ce qu'on a le droit de te proposer. Ce qu'il mesure, et pourquoi il mesure mal."
 categorie: "IA et méthode"
 date: 2026-09-14
-lecture: 3
+lecture: 4
 essentiel:
   - "Le questionnaire est une **obligation légale** issue de la directive MiFID II, pas une formalité commerciale."
   - "Il évalue quatre dimensions : **connaissance et expérience, situation financière, objectifs, tolérance aux pertes**."
@@ -18,6 +18,16 @@ faq:
     r: "Le contenu obligatoire est commun, la forme varie fortement d'un établissement à l'autre."
   - q: "Combien de temps reste-t-il valable ?"
     r: "Il n'y a pas de durée fixe, mais les informations doivent rester à jour et la situation être réexaminée périodiquement."
+  - q: "Que se passe-t-il si mes réponses sont incohérentes ?"
+    r: "Le professionnel doit relever l'incohérence et la clarifier avec toi, par exemple entre un horizon court et un profil dynamique. Il ne peut pas se contenter d'enregistrer des réponses contradictoires pour justifier ensuite une recommandation."
+  - q: "Puis-je voir mon profil et le contester ?"
+    r: "Oui. Le résultat du questionnaire doit t'être communiqué, et tu peux en demander la correction si tu estimes qu'il ne reflète pas ta situation. C'est un document qui t'engage autant qu'il engage ton intermédiaire."
+  - q: "Un profil prudent m'interdit-il tout investissement en actions ?"
+    r: "Non. Il encadre ce qui peut t'être recommandé, et dans quelles proportions. Tu peux investir hors recommandation en connaissance de cause, mais tu sors alors du cadre du conseil et de la protection qui l'accompagne."
+  - q: "Le questionnaire est-il obligatoire pour un achat sans conseil ?"
+    r: "Un contrôle allégé s'applique alors : l'intermédiaire vérifie que le produit est approprié à ta connaissance et à ton expérience, sans évaluer l'adéquation d'ensemble. La protection est moindre, et la différence mérite d'être connue avant de renoncer au conseil."
+  - q: "Mon conjoint doit-il remplir le sien ?"
+    r: "Oui, dès lors qu'il est co-souscripteur ou titulaire. Le profil s'apprécie par personne, et deux conjoints peuvent avoir des tolérances très différentes. Sur un contrat commun, c'est le profil le plus prudent des deux qui devrait commander l'allocation."
 pages:
   - nom: "ADN Investisseur"
     url: "/adn-investisseur/"
@@ -66,6 +76,20 @@ C'est pourquoi remplir le questionnaire à la légère, ou accepter qu'un commer
 **Réponds par objectif, pas globalement.** Ton épargne de précaution et ton épargne retraite n'ont pas le même horizon ni le même profil. Un profil unique appliqué à tout produit des recommandations médiocres partout.
 
 **Mets-le à jour.** Une naissance, un divorce, un changement de statut professionnel, un héritage modifient la situation financière et donc le profil. Le professionnel doit d'ailleurs s'assurer de l'actualité des informations.
+
+## Les préférences de durabilité, le bloc que personne ne remplit sérieusement
+
+C'est le cinquième bloc, le plus récent, et de loin le plus mal traité en pratique.
+
+Depuis l'entrée en vigueur des dispositions correspondantes, le professionnel doit te demander si tu souhaites que tes investissements intègrent des considérations de durabilité, et selon quelles modalités. Trois voies d'expression sont prévues par les textes : une proportion minimale d'investissements alignés sur la taxonomie européenne, une proportion minimale d'investissements durables au sens du règlement SFDR, ou la prise en compte des principales incidences négatives.
+
+Le problème est que ces trois formulations sont incompréhensibles pour la quasi-totalité des personnes interrogées. La conséquence observée est mécanique : beaucoup de clients répondent qu'ils n'ont pas de préférence, non parce que c'est vrai, mais parce que c'est la seule réponse qui ne suppose pas de comprendre la question.
+
+Or cette réponse produit un effet concret : elle libère le professionnel de l'obligation d'en tenir compte dans sa recommandation.
+
+**Comment répondre utilement.** Ne pars pas des trois catégories réglementaires, pars de ce que tu refuses de financer, en termes concrets et écrits. Demande ensuite qu'on te montre où cette exigence apparaît dans les documents du produit proposé, et sous quelle forme chiffrée. Une préférence exprimée en une phrase claire vaut mieux qu'une case cochée au hasard, et elle est opposable de la même façon.
+
+**Un point pratique à connaître.** Si aucun produit disponible ne correspond aux préférences exprimées, le professionnel peut te proposer de les ajuster, à condition de le documenter et d'en expliquer la raison. Cet ajustement doit rester une exception motivée, et non une étape de routine destinée à débloquer la vente.
 
 ## Une méthode alternative de recueil
 

@@ -5,7 +5,7 @@ titreSeo: "Notation ESG : pourquoi les agences se contredisent"
 description: "Une entreprise peut être bien notée par une agence et mal par une autre. Les trois causes de cette divergence, et comment lire une note ESG."
 categorie: "ESG et impact"
 date: 2026-09-14
-lecture: 3
+lecture: 4
 essentiel:
   - "Les notations ESG de deux agences sur une même entreprise sont **faiblement corrélées**, là où les notations de crédit le sont très fortement."
   - "Trois causes : **ce qui est mesuré**, **comment c'est mesuré**, **quel poids est donné à quoi**."
@@ -18,6 +18,16 @@ faq:
     r: "Un règlement européen encadre désormais l'activité des fournisseurs de notations ESG, en imposant transparence méthodologique et gestion des conflits d'intérêts."
   - q: "Une bonne note ESG améliore-t-elle la performance ?"
     r: "Les études divergent. Aucune conclusion robuste ne permet de l'affirmer de façon générale."
+  - q: "Un particulier peut-il consulter les notations ESG ?"
+    r: "Partiellement. Certaines notes sont publiques, d'autres réservées aux abonnés professionnels. Les documents des fonds indiquent en revanche la méthodologie retenue et souvent la note moyenne du portefeuille, ce qui est la donnée la plus directement utile."
+  - q: "Pourquoi une entreprise pétrolière peut-elle être bien notée ?"
+    r: "Parce que la note mesure le plus souvent la gestion des risques liés aux enjeux de durabilité, pas l'empreinte de l'activité. Une entreprise qui pilote rigoureusement ses risques environnementaux peut être bien notée tout en exerçant une activité à forte empreinte. C'est toute la distinction entre matérialité financière et matérialité d'impact."
+  - q: "Que regarder à défaut d'une note fiable ?"
+    r: "Les données brutes plutôt que l'agrégat : intensité carbone, part du chiffre d'affaires issue d'activités que tu refuses de financer, politique de rémunération, composition du conseil. Ces éléments sont publiés et ne dépendent d'aucune pondération."
+  - q: "Les notes vont-elles s'harmoniser avec la CSRD ?"
+    r: "La directive améliore la comparabilité des données publiées par les entreprises, ce qui réduit une partie de la divergence liée à la mesure. Elle ne touche ni au choix des enjeux retenus ni à leur pondération, qui restent les deux principales sources d'écart."
+  - q: "Une note ESG peut-elle changer brutalement ?"
+    r: "Oui, pour deux raisons très différentes : une controverse qui modifie l'évaluation de l'entreprise, ou une révision de méthodologie qui déplace toutes les notes d'un coup sans que l'entreprise ait changé quoi que ce soit. La seconde cause est plus fréquente qu'on ne le suppose, et elle n'est pas toujours signalée clairement."
 pages:
   - nom: "Notre méthode"
     url: "/methode/"
@@ -62,6 +72,20 @@ Le principe de double matérialité, porté par la réglementation européenne, 
 Plutôt que de chercher qui a raison, elle regarde trois choses : **quelle agence** chaque fonds utilise, **quels indicateurs** entrent dans la note, et **quelle matérialité** est retenue. Elle constate que la première note évalue la gestion du risque et la seconde l'exposition brute. Les deux sont correctes ; elles ne disent pas la même chose.
 
 C'est la seule lecture utile : une note ESG n'est pas un jugement, c'est une réponse à une question précise, qu'il faut connaître.
+
+## Pourquoi la divergence ne disparaîtra pas
+
+On pourrait croire à un défaut de jeunesse, appelé à se corriger avec la maturité du marché. C'est peu probable, et pour une raison de fond.
+
+Une notation de crédit répond à une question dont la réponse est vérifiable : l'entreprise fera-t-elle défaut ? L'événement se produit ou non, et les méthodes se calibrent sur ce résultat observable.
+
+Une notation ESG répond à une question qui contient un jugement de valeur : cette entreprise est-elle bien gérée au regard d'enjeux environnementaux, sociaux et de gouvernance ? Le choix des enjeux retenus, leur pondération et le seuil à partir duquel une pratique devient acceptable relèvent d'arbitrages normatifs. Deux méthodologies rigoureuses peuvent diverger sans qu'aucune ne se trompe.
+
+S'y ajoute une asymétrie d'information rarement relevée : les agences ne disposent pas de la même profondeur de données sur toutes les entreprises. Une grande société cotée de longue date est évaluée sur des données publiées et auditées ; une société plus petite l'est souvent sur des estimations sectorielles. La taille influence donc la note, indépendamment des pratiques réelles.
+
+La réglementation européenne encadre désormais l'activité des fournisseurs de notations ESG, en imposant transparence méthodologique et gestion des conflits d'intérêts. C'est une avancée réelle, mais son objet est la transparence, pas l'uniformisation : elle permet de comprendre pourquoi deux notes diffèrent, elle ne les fera pas converger.
+
+Conclusion pratique : cesse de chercher la bonne note. Cherche la méthodologie dont les critères recouvrent ce qui compte pour toi, et utilise-la de façon cohérente. Une note ESG reste un outil de sélection utilisable, à condition d'être lue comme l'opinion motivée d'un acteur identifié, et non comme une mesure.
 
 ## Ce que cela implique pour ton épargne
 

@@ -52,6 +52,22 @@ Autrement dit : une IA peut expliquer, calculer, comparer. Dès qu'elle recomman
 
 Le règlement européen sur l'intelligence artificielle ajoute une exigence indépendante de celle-ci : l'utilisateur doit savoir qu'il interagit avec un système d'IA. C'est une obligation de transparence, pas une autorisation d'exercer.
 
+### La responsabilité, en pratique : qui répond de quoi
+
+C'est la question qui tranche le débat, et elle se pose rarement dans ces termes.
+
+**Un conseiller réglementé** engage sa responsabilité civile professionnelle et doit être couvert par une assurance obligatoire. En cas de recommandation inadaptée, tu disposes d'un recours identifié : la médiation de l'AMF, puis le juge, avec la déclaration d'adéquation écrite comme pièce principale du dossier.
+
+**L'éditeur d'un outil** répond de son produit sur d'autres fondements : l'exactitude de son information, l'absence de pratique commerciale trompeuse, le respect de ses conditions contractuelles. Ce n'est pas le même régime, et le préjudice à démontrer n'est pas le même.
+
+**Toi, utilisateur**, restes décisionnaire dès lors que l'outil se borne à informer. Une simulation que tu interprètes et sur laquelle tu agis seul est ta décision.
+
+La conséquence pratique est simple à énoncer : plus un service se rapproche de la recommandation personnalisée, plus il doit être adossé à un statut et à une responsabilité. Un outil qui délivrerait des recommandations individualisées sans ce cadre ferait peser le risque entièrement sur son utilisateur, et c'est exactement ce que la réglementation cherche à empêcher.
+
+C'est pourquoi la formulation compte autant que le fond. « Voici l'effet fiscal d'un versement de 5 000 € dans ta situation » est un calcul. « Tu devrais verser 5 000 € sur ce contrat » est une recommandation. Le second énoncé engage un professionnel, le premier non.
+
+Un dernier repère, utile parce qu'il est immédiatement vérifiable : le règlement européen sur l'intelligence artificielle impose d'informer l'utilisateur qu'il interagit avec un système d'IA. Une interface qui masque cette information, ou la relègue dans une mention illisible, manque à une obligation élémentaire, et c'est rarement son seul manquement.
+
 ### La répartition qui fonctionne
 
 **Exemple.** Camille, 42 ans, deux contrats d'assurance-vie, un PER, un PEA, un crédit immobilier.
@@ -72,6 +88,18 @@ Oui, et c'est pourquoi la traçabilité des sources est déterminante. Voir « I
 
 **Faut-il un conseiller quand on a un patrimoine modeste ?**
 L'accès au conseil humain reste, en pratique, corrélé au montant du patrimoine. C'est précisément le déséquilibre que les outils cherchent à réduire.
+
+**Un outil peut-il servir à préparer un rendez-vous avec un conseiller ?**
+C'est son usage le plus efficace aujourd'hui. Arriver avec un inventaire complet, les dates d'ouverture des contrats, une capacité d'épargne constatée sur douze mois et des questions écrites change la nature du rendez-vous : le temps du professionnel passe de la reconstitution du dossier à l'analyse, et c'est là que se situe sa valeur.
+
+**Une IA peut-elle signer une déclaration d'adéquation ?**
+Non. Ce document engage la responsabilité d'un professionnel identifié, immatriculé et assuré. Une machine peut en préparer les éléments, elle ne peut pas en assumer la portée juridique.
+
+**Que vérifier avant d'utiliser un assistant financier ?**
+Trois choses : qu'il indique clairement qu'il s'agit d'un système d'IA, qu'il cite des sources que tu peux ouvrir et contrôler, et qu'il dise ce qu'il ne sait pas plutôt que de produire une réponse assurée sur un point incertain.
+
+**Les données que je saisis sont-elles protégées ?**
+Cela dépend de l'outil, et c'est à vérifier avant de saisir quoi que ce soit : qui héberge les données, dans quel pays, combien de temps elles sont conservées, et si elles servent à entraîner un modèle. Ces informations figurent dans la politique de confidentialité, et leur absence est en soi une réponse.
 
 ### Sources
 
@@ -135,6 +163,18 @@ Le règlement prévoit par ailleurs un régime renforcé pour certains usages co
 
 Dans le domaine financier, les règles antérieures continuent de s'appliquer pleinement : une communication à caractère promotionnel doit être claire, exacte et non trompeuse, qu'elle soit rédigée par un humain ou produite par une machine. L'automatisation ne déplace pas la responsabilité.
 
+### Comment vérifier une source qu'on te cite
+
+Une source n'a d'utilité que si tu peux la retrouver. Trois réflexes suffisent, et ils prennent moins de temps qu'on ne le croit.
+
+**Pour un article de code**, va sur Légifrance et cherche la référence exacte. Un article existe ou n'existe pas, et sa version en vigueur est datée. Une citation qui donne un numéro sans préciser le code concerné est inexploitable : l'article 150-0 D du Code général des impôts et un article portant un numéro voisin dans un autre code n'ont aucun rapport.
+
+**Pour la doctrine administrative**, le BOFiP publie ses commentaires sous des identifiants normalisés. Ces identifiants sont vérifiables, et c'est précisément ce qui les rend faciles à imiter : une référence bien formée mais inexistante est le mode d'erreur le plus courant. Le seul contrôle valable consiste à ouvrir la page.
+
+**Pour un taux ou un seuil**, cherche la date d'entrée en vigueur avant de retenir le chiffre. Un taux sans date n'est pas une information, puisqu'il en existe plusieurs versions selon l'année.
+
+Un signal doit alerter immédiatement : une réponse qui cite une source à l'appui d'une affirmation, mais dont la source ne traite pas du point en question. C'est fréquent, et cela passe inaperçu tant qu'on ne va pas voir. Vérifier une source ne consiste pas à constater qu'elle existe, mais à constater qu'elle dit bien ce qu'on lui fait dire.
+
 ### Ce que l'explicabilité ne garantit pas
 
 Elle ne garantit pas la pertinence. Un calcul juste sur une mauvaise question reste inutile.
@@ -153,6 +193,18 @@ Non. L'exactitude est une condition nécessaire, pas suffisante.
 
 **Pourquoi certaines IA inventent-elles des références ?**
 Parce qu'elles produisent la forme d'une citation sans mécanisme de vérification. Une référence doit toujours être contrôlée.
+
+**Une réponse sourcée est-elle forcément à jour ?**
+Non. Une source authentique peut avoir été modifiée depuis. Sur les sujets fiscaux, vérifie la version en vigueur à la date qui t'intéresse : Légifrance affiche l'historique des versions d'un article, et c'est souvent là que se loge l'écart entre une réponse plausible et une réponse exacte.
+
+**Faut-il se méfier des chiffres ronds ?**
+Plutôt des chiffres sans unité ni date. Un seuil fiscal est presque toujours un nombre précis attaché à une année et à une condition d'application. Une réponse qui donne le nombre sans ces deux éléments est incomplète, même quand le nombre est juste.
+
+**Que faire quand deux sources se contredisent ?**
+Retenir la plus normative et la plus récente : un texte de loi prime un commentaire administratif, qui prime un article de presse. Si la contradiction porte sur ta situation personnelle, c'est le signe qu'il te faut un professionnel, pas une source de plus.
+
+**Un outil qui refuse de répondre est-il défaillant ?**
+Souvent, c'est l'inverse. Sur une question dont la réponse dépend d'un élément que tu n'as pas fourni, la bonne réponse commence par une demande de précision. Un système qui tranche systématiquement sans disposer des données nécessaires produit des réponses confiantes et inutilisables.
 
 ### Sources
 
@@ -216,6 +268,20 @@ C'est pourquoi remplir le questionnaire à la légère, ou accepter qu'un commer
 
 **Mets-le à jour.** Une naissance, un divorce, un changement de statut professionnel, un héritage modifient la situation financière et donc le profil. Le professionnel doit d'ailleurs s'assurer de l'actualité des informations.
 
+### Les préférences de durabilité, le bloc que personne ne remplit sérieusement
+
+C'est le cinquième bloc, le plus récent, et de loin le plus mal traité en pratique.
+
+Depuis l'entrée en vigueur des dispositions correspondantes, le professionnel doit te demander si tu souhaites que tes investissements intègrent des considérations de durabilité, et selon quelles modalités. Trois voies d'expression sont prévues par les textes : une proportion minimale d'investissements alignés sur la taxonomie européenne, une proportion minimale d'investissements durables au sens du règlement SFDR, ou la prise en compte des principales incidences négatives.
+
+Le problème est que ces trois formulations sont incompréhensibles pour la quasi-totalité des personnes interrogées. La conséquence observée est mécanique : beaucoup de clients répondent qu'ils n'ont pas de préférence, non parce que c'est vrai, mais parce que c'est la seule réponse qui ne suppose pas de comprendre la question.
+
+Or cette réponse produit un effet concret : elle libère le professionnel de l'obligation d'en tenir compte dans sa recommandation.
+
+**Comment répondre utilement.** Ne pars pas des trois catégories réglementaires, pars de ce que tu refuses de financer, en termes concrets et écrits. Demande ensuite qu'on te montre où cette exigence apparaît dans les documents du produit proposé, et sous quelle forme chiffrée. Une préférence exprimée en une phrase claire vaut mieux qu'une case cochée au hasard, et elle est opposable de la même façon.
+
+**Un point pratique à connaître.** Si aucun produit disponible ne correspond aux préférences exprimées, le professionnel peut te proposer de les ajuster, à condition de le documenter et d'en expliquer la raison. Cet ajustement doit rester une exception motivée, et non une étape de routine destinée à débloquer la vente.
+
 ### Une méthode alternative de recueil
 
 **Exemple.** Plutôt que de demander « quelle est votre appétence au risque ? », une autre approche consiste à présenter des situations concrètes et à observer les arbitrages.
@@ -234,6 +300,21 @@ Le contenu obligatoire est commun, la forme varie fortement d'un établissement 
 
 **Combien de temps reste-t-il valable ?**
 Il n'y a pas de durée fixe, mais les informations doivent rester à jour et la situation être réexaminée périodiquement.
+
+**Que se passe-t-il si mes réponses sont incohérentes ?**
+Le professionnel doit relever l'incohérence et la clarifier avec toi, par exemple entre un horizon court et un profil dynamique. Il ne peut pas se contenter d'enregistrer des réponses contradictoires pour justifier ensuite une recommandation.
+
+**Puis-je voir mon profil et le contester ?**
+Oui. Le résultat du questionnaire doit t'être communiqué, et tu peux en demander la correction si tu estimes qu'il ne reflète pas ta situation. C'est un document qui t'engage autant qu'il engage ton intermédiaire.
+
+**Un profil prudent m'interdit-il tout investissement en actions ?**
+Non. Il encadre ce qui peut t'être recommandé, et dans quelles proportions. Tu peux investir hors recommandation en connaissance de cause, mais tu sors alors du cadre du conseil et de la protection qui l'accompagne.
+
+**Le questionnaire est-il obligatoire pour un achat sans conseil ?**
+Un contrôle allégé s'applique alors : l'intermédiaire vérifie que le produit est approprié à ta connaissance et à ton expérience, sans évaluer l'adéquation d'ensemble. La protection est moindre, et la différence mérite d'être connue avant de renoncer au conseil.
+
+**Mon conjoint doit-il remplir le sien ?**
+Oui, dès lors qu'il est co-souscripteur ou titulaire. Le profil s'apprécie par personne, et deux conjoints peuvent avoir des tolérances très différentes. Sur un contrat commun, c'est le profil le plus prudent des deux qui devrait commander l'allocation.
 
 ### Sources
 
@@ -299,6 +380,22 @@ Une prestation de conseil délivrée par un professionnel réglementé suppose u
 
 Les deux sont utiles, et ils ne se substituent pas. Confondre l'un avec l'autre expose l'épargnant à croire qu'il est conseillé alors qu'il est seulement informé.
 
+### Les pièces à réunir avant de commencer
+
+L'exhaustivité étant la vraie difficulté, autant traiter le problème à la racine. Voici ce qu'il faut rassembler.
+
+**Pour l'inventaire** : les derniers relevés de chaque compte et livret, les conditions générales et le dernier relevé de situation de chaque contrat d'assurance-vie et de chaque PER, les relevés de compte-titres et de PEA, les tableaux d'amortissement des crédits en cours, et pour l'immobilier une estimation récente ainsi que le titre de propriété.
+
+**Pour les flux** : douze mois de relevés du compte principal, ce qui permet de constater la capacité d'épargne au lieu de l'estimer.
+
+**Pour la fiscalité** : les deux derniers avis d'impôt sur le revenu, qui portent à la fois la tranche marginale, le revenu fiscal de référence et le plafond d'épargne retraite disponible avec ses reports.
+
+**Pour la transmission** : le contrat de mariage s'il existe, les actes de donation antérieurs avec leur date, et la copie des clauses bénéficiaires en vigueur.
+
+Deux pièces manquent presque toujours et méritent une recherche spécifique : **la date d'ouverture exacte des contrats d'assurance-vie**, qui commande toute la fiscalité des rachats, et **les clauses bénéficiaires réellement en vigueur**, celles qui figurent au dossier de l'assureur et non celles dont on se souvient.
+
+Rassembler cet ensemble prend quelques heures. C'est le seul travail réellement pénible d'un bilan, et c'est aussi celui qui produit la plus grande part de sa valeur.
+
 ### Exemple de ce que change un bilan complet
 
 **Exemple.** Rachid, 49 ans, pense avoir une situation simple : un contrat d'assurance-vie, un PEA, un crédit immobilier.
@@ -317,6 +414,24 @@ Après tout événement significatif, et par ailleurs tous les deux à trois ans
 
 **Faut-il y inclure la résidence principale ?**
 Oui pour l'inventaire et la transmission, en gardant à l'esprit qu'elle n'est pas liquide.
+
+**Que faire si un contrat ancien reste introuvable ?**
+Un dispositif public permet de rechercher les contrats d'assurance-vie non réclamés, et les organismes professionnels du secteur proposent une procédure de recherche. Un contrat oublié chez un ancien employeur ou une ancienne banque est un cas fréquent, pas une curiosité.
+
+**Le bilan doit-il inclure les dettes familiales ?**
+Oui, notamment les prêts consentis à des enfants. Laissés hors du dossier, ils deviennent des sujets de litige au moment de la succession, et leur qualification, prêt ou donation, change entièrement le partage.
+
+**Un bilan sert-il à quelque chose si la situation est simple ?**
+Souvent davantage, parce que les situations dites simples sont celles qu'on n'examine jamais. Les trois constats les plus fréquents, épargne de précaution excessive, clause obsolète et frais inconnus, ne dépendent pas de la complexité du patrimoine.
+
+**Faut-il refaire l'inventaire à chaque fois ?**
+Non, il se met à jour. La première constitution est la plus lourde ; ensuite, seuls les éléments modifiés demandent une reprise, ce qui rend les bilans suivants beaucoup plus rapides.
+
+**Qui peut réaliser un bilan patrimonial ?**
+Un conseiller en investissements financiers, un notaire dans son domaine, un expert-comptable pour la partie professionnelle, ou toi-même avec de la méthode. Le statut devient déterminant à partir du moment où l'état des lieux débouche sur une recommandation portant sur des produits : le cadre réglementaire s'applique alors pleinement.
+
+**Un bilan peut-il révéler une mauvaise nouvelle ?**
+Régulièrement, et c'est une part de son utilité : une capacité d'épargne plus faible qu'espérée, des frais plus lourds que prévu, une clause qui ne protège pas la personne qu'on croyait protéger. Mieux vaut l'apprendre à un moment où l'on peut encore corriger.
 
 ### Sources
 

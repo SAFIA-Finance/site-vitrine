@@ -54,6 +54,24 @@ Rien d'illégal ni de trompeur : le fonds promeut des caractéristiques environn
 
 Ce n'est pas une exception. C'est le fonctionnement normal de la classification actuelle, et c'est précisément ce que la réforme européenne en préparation cherche à corriger.
 
+### Où ton argent a réellement un effet
+
+C'est le point que la plupart des articles sur le sujet évitent, parce qu'il oblige à nuancer une promesse agréable.
+
+Quand tu achètes une action ou une part de fonds actions, tu achètes à un autre investisseur, sur le marché secondaire. L'entreprise ne reçoit pas un euro de cette transaction. Ton refus d'acheter ne la prive d'aucun capital, et ton achat ne lui en apporte aucun.
+
+Cela ne rend pas la démarche vaine, mais cela déplace l'endroit où elle agit. Quatre canaux ont un effet direct et vérifiable.
+
+**Le marché primaire.** Une émission d'obligations vertes, une augmentation de capital, une introduction en bourse : l'argent va effectivement à l'émetteur, affecté à des projets identifiés.
+
+**Le non coté et le financement direct.** Capital-investissement, financement participatif, foncières solidaires : le capital est apporté à l'entreprise ou au projet lui-même.
+
+**L'épargne solidaire.** Une part de l'encours finance directement des structures d'utilité sociale. C'est l'objet du label Finansol.
+
+**L'engagement actionnarial.** Un gérant qui détient des titres vote en assemblée générale et dialogue avec les directions. C'est le seul canal par lequel un fonds coté agit réellement sur le comportement des entreprises, et c'est la raison pour laquelle il faut demander à un fonds qui s'en prévaut ses statistiques de vote.
+
+Reste un cinquième effet, indirect mais documenté : si un nombre suffisant d'investisseurs délaisse un secteur, son coût de financement augmente. L'effet existe, il est lent, et il ne se constate pas à l'échelle d'un portefeuille individuel.
+
 ### Comment vérifier, en trois documents
 
 **Le document d'informations clés**, obligatoire pour chaque fonds, qui indique l'objectif et la stratégie.
@@ -78,6 +96,21 @@ Depuis la réforme du label ISR de mars 2024, les fonds labellisés ISR excluent
 
 **Peut-on investir responsable sur un PEA ?**
 Oui, plusieurs ETF et fonds éligibles au PEA appliquent des filtres ESG.
+
+**Faut-il accepter moins de rendement pour investir selon ses valeurs ?**
+Rien ne permet de l'affirmer de façon générale, les travaux divergent. Ce qui est certain, c'est que l'écart lié aux frais dépasse presque toujours l'écart lié à l'orientation extra-financière. Compare donc d'abord les frais, ensuite la démarche.
+
+**Une exclusion réduit-elle la diversification ?**
+Oui, mécaniquement, et c'est le coût réel à accepter. Écarter un secteur entier resserre l'univers d'investissement et peut accroître la sensibilité du portefeuille aux secteurs restants. L'effet reste modéré pour des exclusions étroites, il devient significatif pour des exclusions larges.
+
+**Par quoi commencer quand on part de zéro ?**
+Par les deux listes : ce que tu refuses de financer, ce que tu veux financer, en termes assez précis pour être vérifiables. Le choix du fonds, de l'enveloppe et du label en découle, et n'a pas de sens sans elles.
+
+**Les obligations vertes tiennent-elles leur promesse ?**
+Elles financent des projets identifiés et font l'objet d'un reporting d'affectation, ce qui les rend nettement plus vérifiables qu'une action. La limite est connue : le projet financé est parfois une activité que l'émetteur aurait menée de toute façon. Le document d'émission et le rapport d'affectation permettent d'en juger.
+
+**Peut-on investir selon ses valeurs avec de petits montants ?**
+Oui. Les fonds indiciels filtrés et l'épargne solidaire sont accessibles à partir de quelques dizaines d'euros, et l'épargne salariale propose presque toujours au moins un support solidaire. Le montant n'est pas la contrainte, la lisibilité de l'offre l'est davantage.
 
 ### Sources
 
@@ -143,6 +176,20 @@ Un fonds article 9 non labellisé ne lui donne aucune garantie sur ces deux poin
 
 En contrepartie, il devra accepter un univers d'investissement plus étroit, donc une diversification moindre et, souvent, des frais plus élevés. C'est l'arbitrage réel, et personne ne peut le trancher à sa place.
 
+### Comment vérifier qu'un fonds est réellement labellisé
+
+L'affirmation est facile à écrire sur une brochure et facile à contrôler, ce qui en fait une vérification à faire systématiquement.
+
+**Consulte la liste officielle.** Chaque label publie la liste des fonds qu'il a labellisés, tenue à jour. C'est la source de référence, et elle prime sur toute mention commerciale.
+
+**Vérifie la date.** La réforme de 2024 a retiré le label ISR à un grand nombre de fonds. Une documentation commerciale ancienne, un comparateur mal actualisé ou une fiche produit non révisée peuvent encore afficher un label qui n'existe plus. La date de la liste consultée compte donc autant que son contenu.
+
+**Vérifie que c'est bien ton support.** Un même fonds se décline souvent en plusieurs parts, destinées à des publics différents et assorties de frais différents. Assure-toi que la part effectivement disponible dans ton contrat est celle qui figure dans la liste, et non une part voisine.
+
+**Distingue le label du fonds et l'offre du contrat.** Qu'un assureur propose des supports labellisés ne dit rien de ce que tu détiens : l'obligation légale porte sur la présence d'une offre, pas sur ton allocation. Le seul contrôle qui compte est celui de tes propres lignes.
+
+Une dernière remarque, rarement faite : un label a un coût, audit initial et audits de suivi compris. Ce coût est supporté par la société de gestion et se retrouve dans les frais. C'est une raison supplémentaire de vérifier que le label apporte quelque chose que tu recherches réellement, plutôt que de le traiter comme un gage de qualité générale.
+
 ### Ce qu'aucun label ne garantit
 
 Aucun ne garantit une performance financière. Aucun ne garantit que les entreprises détenues se comportent bien au quotidien : les référentiels portent sur des politiques, des seuils et des processus, pas sur une surveillance en continu.
@@ -159,6 +206,21 @@ Le label ISR a été étendu aux fonds immobiliers, avec un référentiel adapt�
 
 **Mon contrat d'assurance-vie doit-il proposer des fonds labellisés ?**
 La loi impose depuis plusieurs années une offre minimale de supports labellisés, et la loi Industrie Verte a étendu l'exigence aux mandats de gestion pilotée à compter du 1er janvier 2026.
+
+**Un fonds sans label peut-il être meilleur qu'un fonds labellisé ?**
+Oui, sur le fond comme sur les frais. Le label atteste d'un contrôle externe au regard d'un référentiel donné ; il ne classe pas les fonds entre eux et ne dit rien de leur coût. Un fonds non labellisé dont l'annexe précontractuelle affiche une part élevée d'investissements durables peut être plus engageant qu'un fonds labellisé au minimum requis.
+
+**Les labels européens valent-ils les labels français ?**
+Ils reposent sur des référentiels différents, avec des exigences propres. Le principe reste le même : ce qui compte est le contenu du référentiel et l'existence d'un contrôle par un tiers, pas la nationalité du label.
+
+**Le label garantit-il l'absence de controverse ?**
+Non. Les référentiels portent sur des politiques, des seuils et des processus, contrôlés à intervalles réguliers. Une controverse survenue entre deux audits n'est pas détectée immédiatement, et le retrait éventuel du label intervient après examen, pas le jour même.
+
+**Un label change-t-il quelque chose aux frais ?**
+Pas dans le sens espéré. L'audit initial et les audits de suivi ont un coût, et l'univers plus étroit limite les économies d'échelle. Compare les frais courants d'un fonds labellisé à ceux d'un fonds indiciel équivalent avant de considérer que le label est gratuit.
+
+**Existe-t-il un label pour l'épargne bancaire ?**
+Les livrets réglementés ne sont pas labellisés : l'emploi de leur collecte est fixé par la réglementation, et une part finance notamment le logement social. C'est une affectation d'origine publique, de nature différente d'un label de fonds, et elle ne se choisit pas.
 
 ### Sources
 
@@ -229,6 +291,24 @@ L'intention est claire : remplacer une classification interprétable par des cat
 
 Même étiquette réglementaire, deux réalités sans rapport. Trois minutes de lecture de l'annexe suffisent à les distinguer, là où l'étiquette n'apprend rien.
 
+### Ce que la réforme changera, et ce qu'il faut faire d'ici là
+
+La tentation, devant une réglementation annoncée, est d'attendre. C'est rarement le bon réflexe, et ici moins qu'ailleurs.
+
+**Ce qui va changer.** Le passage de catégories interprétables à des catégories nommées assorties de seuils chiffrés déplacera la charge de la preuve : un fonds devra atteindre un pourcentage d'allocation pour revendiquer une catégorie, là où il lui suffit aujourd'hui de déclarer une intention. Beaucoup de fonds changeront donc de catégorie, et certains changeront de nom.
+
+**Ce qui ne changera pas.** L'annexe précontractuelle restera le document de référence, et la part minimale d'investissements durables restera le chiffre à lire. Les labels, qui reposent sur un contrôle externe, garderont leur rôle propre, distinct de la classification.
+
+**Ce qu'il faut faire maintenant.** Trois choses, toutes utiles quelle que soit l'issue du texte.
+
+Note, pour chacun de tes supports, la part minimale d'investissements durables figurant à l'annexe. C'est ton point de comparaison futur, et il ne sera plus reconstituable après coup.
+
+Ne réoriente pas un portefeuille dans l'urgence pour anticiper une catégorie qui n'existe pas encore : les arbitrages ont un coût en frais et parfois en fiscalité, et la rédaction finale du texte n'est pas connue.
+
+Attends-toi à recevoir des courriers de reclassification, et lis-les. Un changement de catégorie ou de dénomination n'est pas une formalité : il signale que la promesse du fonds a été révisée, dans un sens ou dans l'autre.
+
+**Un repère de calendrier.** L'entrée en application est attendue autour de 2027-2028, et les positions de la Commission et du Parlement ne coïncident pas encore. Tout seuil chiffré cité aujourd'hui est donc provisoire, y compris ceux qui circulent le plus.
+
 ### Questions fréquentes
 
 **Un fonds article 9 est-il meilleur qu'un article 8 ?**
@@ -239,6 +319,24 @@ Sur le site de la société de gestion, jointe au prospectus, ou auprès de ton 
 
 **La classification s'applique-t-elle aux ETF ?**
 Oui, comme à tout produit distribué dans l'Union européenne.
+
+**Un fonds peut-il changer de catégorie sans me prévenir ?**
+Un changement affectant les caractéristiques du produit donne lieu à une information des porteurs, selon des modalités qui dépendent de la nature de la modification. En pratique, ces courriers sont peu lus, alors qu'ils contiennent l'information la plus directement exploitable.
+
+**La classification concerne-t-elle aussi les fonds en euros ?**
+Le règlement porte sur les produits financiers au sens large, et les assureurs publient des informations de durabilité sur leurs supports. Le fonds en euros relevant d'une gestion propre à l'assureur, la lecture n'y est pas la même que pour une unité de compte.
+
+**Où voir la part minimale d'investissements durables d'un support de mon contrat ?**
+Dans l'annexe précontractuelle du fonds concerné, que ton assureur doit tenir à disposition, et le plus souvent sur le site de la société de gestion.
+
+**Faut-il préférer un article 9 par principe ?**
+Non. La catégorie traduit une ambition déclarée, pas une qualité vérifiée, et l'univers plus restreint des fonds article 9 s'accompagne souvent de frais plus élevés et d'une diversification moindre. Compare les annexes et les frais avant les étiquettes.
+
+**Que signifie « principales incidences négatives » ?**
+C'est la mesure des effets défavorables d'un investissement sur des facteurs de durabilité, à travers une série d'indicateurs publiés. Un acteur peut déclarer les prendre en compte, ou expliquer pourquoi il ne le fait pas, ce qui rend la mention peu discriminante à elle seule.
+
+**La classification vaut-elle en dehors de l'Union européenne ?**
+Non. Un fonds domicilié hors de l'Union et non commercialisé dans l'Union n'y est pas soumis. Les comparaisons internationales sont donc à manier avec prudence, les cadres n'étant pas équivalents.
 
 ### Sources
 
@@ -298,6 +396,20 @@ Plutôt que de chercher qui a raison, elle regarde trois choses : **quelle agenc
 
 C'est la seule lecture utile : une note ESG n'est pas un jugement, c'est une réponse à une question précise, qu'il faut connaître.
 
+### Pourquoi la divergence ne disparaîtra pas
+
+On pourrait croire à un défaut de jeunesse, appelé à se corriger avec la maturité du marché. C'est peu probable, et pour une raison de fond.
+
+Une notation de crédit répond à une question dont la réponse est vérifiable : l'entreprise fera-t-elle défaut ? L'événement se produit ou non, et les méthodes se calibrent sur ce résultat observable.
+
+Une notation ESG répond à une question qui contient un jugement de valeur : cette entreprise est-elle bien gérée au regard d'enjeux environnementaux, sociaux et de gouvernance ? Le choix des enjeux retenus, leur pondération et le seuil à partir duquel une pratique devient acceptable relèvent d'arbitrages normatifs. Deux méthodologies rigoureuses peuvent diverger sans qu'aucune ne se trompe.
+
+S'y ajoute une asymétrie d'information rarement relevée : les agences ne disposent pas de la même profondeur de données sur toutes les entreprises. Une grande société cotée de longue date est évaluée sur des données publiées et auditées ; une société plus petite l'est souvent sur des estimations sectorielles. La taille influence donc la note, indépendamment des pratiques réelles.
+
+La réglementation européenne encadre désormais l'activité des fournisseurs de notations ESG, en imposant transparence méthodologique et gestion des conflits d'intérêts. C'est une avancée réelle, mais son objet est la transparence, pas l'uniformisation : elle permet de comprendre pourquoi deux notes diffèrent, elle ne les fera pas converger.
+
+Conclusion pratique : cesse de chercher la bonne note. Cherche la méthodologie dont les critères recouvrent ce qui compte pour toi, et utilise-la de façon cohérente. Une note ESG reste un outil de sélection utilisable, à condition d'être lue comme l'opinion motivée d'un acteur identifié, et non comme une mesure.
+
 ### Ce que cela implique pour ton épargne
 
 Ne choisis pas un fonds sur une note agrégée. Regarde les **critères sous-jacents**, et vérifie qu'ils recouvrent ce qui compte pour toi.
@@ -316,6 +428,21 @@ Un règlement européen encadre désormais l'activité des fournisseurs de notat
 
 **Une bonne note ESG améliore-t-elle la performance ?**
 Les études divergent. Aucune conclusion robuste ne permet de l'affirmer de façon générale.
+
+**Un particulier peut-il consulter les notations ESG ?**
+Partiellement. Certaines notes sont publiques, d'autres réservées aux abonnés professionnels. Les documents des fonds indiquent en revanche la méthodologie retenue et souvent la note moyenne du portefeuille, ce qui est la donnée la plus directement utile.
+
+**Pourquoi une entreprise pétrolière peut-elle être bien notée ?**
+Parce que la note mesure le plus souvent la gestion des risques liés aux enjeux de durabilité, pas l'empreinte de l'activité. Une entreprise qui pilote rigoureusement ses risques environnementaux peut être bien notée tout en exerçant une activité à forte empreinte. C'est toute la distinction entre matérialité financière et matérialité d'impact.
+
+**Que regarder à défaut d'une note fiable ?**
+Les données brutes plutôt que l'agrégat : intensité carbone, part du chiffre d'affaires issue d'activités que tu refuses de financer, politique de rémunération, composition du conseil. Ces éléments sont publiés et ne dépendent d'aucune pondération.
+
+**Les notes vont-elles s'harmoniser avec la CSRD ?**
+La directive améliore la comparabilité des données publiées par les entreprises, ce qui réduit une partie de la divergence liée à la mesure. Elle ne touche ni au choix des enjeux retenus ni à leur pondération, qui restent les deux principales sources d'écart.
+
+**Une note ESG peut-elle changer brutalement ?**
+Oui, pour deux raisons très différentes : une controverse qui modifie l'évaluation de l'entreprise, ou une révision de méthodologie qui déplace toutes les notes d'un coup sans que l'entreprise ait changé quoi que ce soit. La seconde cause est plus fréquente qu'on ne le suppose, et elle n'est pas toujours signalée clairement.
 
 ### Sources
 
@@ -376,6 +503,20 @@ Un fonds qui met en avant la sélection extra-financière, le dialogue actionnar
 
 **Le réflexe** : vérifie que le rapport annuel documente cet engagement : nombre de résolutions votées, dialogues engagés, résultats obtenus. Des frais élevés sans trace d'activité d'engagement signalent un supplément de prix sans contrepartie.
 
+### Signal 6. Le fonds qui ressemble trait pour trait à son indice classique
+
+C'est le test le plus révélateur, et il ne figure dans aucune brochure.
+
+Prends les dix premières lignes du fonds « responsable » que tu examines, et compare-les aux dix premières lignes de l'indice classique de la même zone géographique. Si ce sont les mêmes valeurs dans un ordre voisin, le filtre extra-financier n'a pratiquement rien retiré.
+
+Ce résultat est fréquent, et il s'explique. Une approche best-in-class conserve tous les secteurs et retient dans chacun les mieux notés ; comme les plus grandes capitalisations sont souvent les mieux dotées en moyens de reporting, donc les mieux notées, elles se retrouvent dans les deux portefeuilles. Le fonds n'a pas menti : il a appliqué sa méthode, et sa méthode change peu de choses.
+
+**Le réflexe** : demande l'écart de composition par rapport à l'indice de référence, parfois exprimé sous forme de taux de recouvrement ou d'écart de suivi. Un fonds dont la composition se distingue à peine de l'indice classique, tout en facturant un surcoût au titre de la sélection extra-financière, vend une différence qu'il ne produit pas.
+
+Un cas limite mérite d'être signalé : certains fonds affichent un écart de composition important tout en conservant un profil de risque très proche de l'indice, parce que les titres retenus appartiennent aux mêmes secteurs et réagissent de la même façon. L'écart est alors réel mais économiquement neutre. C'est pourquoi la question à poser porte sur l'intention de gestion, et pas seulement sur le pourcentage de titres communs.
+
+Ce signal ne condamne pas l'approche best-in-class, qui a sa logique : faire progresser tous les secteurs plutôt que d'en exclure certains. Il permet seulement de vérifier que tu paies pour ce que tu crois acheter.
+
 ### La méthode complète, en dix minutes
 
 1. Ouvrir le document d'informations clés et lire l'objectif en une phrase.
@@ -396,6 +537,24 @@ Le label réduit fortement le risque, sans l'éliminer. La réforme du label ISR
 
 **Comment signaler un doute ?**
 Ton intermédiaire doit pouvoir répondre par écrit. À défaut, l'AMF dispose d'un service d'information et de médiation pour les épargnants.
+
+**Un fonds indiciel peut-il être responsable ?**
+Oui, de nombreux indices intègrent des filtres extra-financiers, et leur méthodologie est publique, ce qui constitue un avantage réel : les règles de sélection sont écrites et vérifiables, là où une gestion active les laisse à l'appréciation du gérant. Reste à lire la méthodologie de l'indice, qui varie fortement d'un fournisseur à l'autre.
+
+**Le greenwashing concerne-t-il aussi les SCPI et le non coté ?**
+Oui, avec une difficulté supplémentaire : l'absence de cours et de reporting standardisé rend la vérification plus lourde. Les mêmes réflexes s'appliquent, en s'appuyant sur le rapport annuel et sur la description précise des actifs détenus.
+
+**Que vaut la mention d'un objectif de neutralité carbone ?**
+Peu de chose en soi. Un objectif à long terme n'engage pas la composition actuelle du portefeuille. Ce qui compte est la trajectoire chiffrée, l'échéance intermédiaire et la mesure publiée chaque année.
+
+**Faut-il vendre un fonds dont la promesse s'avère creuse ?**
+Pas nécessairement dans l'urgence : un arbitrage a un coût, et sur un compte-titres une fiscalité. Réorienter les versements à venir suffit souvent, et c'est la solution la moins coûteuse.
+
+**Ces documents sont-ils vraiment accessibles ?**
+Oui, et gratuitement : document d'informations clés, annexe précontractuelle et rapport périodique sont publiés par la société de gestion et doivent être mis à disposition par ton intermédiaire. Un intermédiaire qui ne les fournit pas sur demande manque à une obligation simple.
+
+**Combien de temps faut-il pour contrôler un fonds ?**
+Une dizaine de minutes la première fois, deux ou trois ensuite. Le temps se passe presque entièrement à ouvrir les bons documents ; une fois qu'on sait où regarder, la vérification tient à trois chiffres : la part minimale d'investissements durables, les frais courants, et les dix premières lignes du portefeuille.
 
 ### Sources
 

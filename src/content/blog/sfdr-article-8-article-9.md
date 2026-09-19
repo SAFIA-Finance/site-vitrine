@@ -5,7 +5,7 @@ titreSeo: "SFDR articles 6, 8 et 9 : ce que ça veut dire"
 description: "La classification SFDR est auto-déclarée et va être remplacée. Ce que recouvrent réellement les articles 8 et 9, et ce qui change avec la réforme en cours."
 categorie: "ESG et impact"
 date: 2026-09-14
-lecture: 3
+lecture: 4
 essentiel:
   - "SFDR est un règlement de **transparence**, pas un label : il oblige à publier, pas à être vertueux."
   - "**Article 6** : aucun engagement de durabilité. **Article 8** : promotion de caractéristiques environnementales ou sociales. **Article 9** : objectif d'investissement durable."
@@ -18,6 +18,18 @@ faq:
     r: "Sur le site de la société de gestion, jointe au prospectus, ou auprès de ton assureur pour une unité de compte."
   - q: "La classification s'applique-t-elle aux ETF ?"
     r: "Oui, comme à tout produit distribué dans l'Union européenne."
+  - q: "Un fonds peut-il changer de catégorie sans me prévenir ?"
+    r: "Un changement affectant les caractéristiques du produit donne lieu à une information des porteurs, selon des modalités qui dépendent de la nature de la modification. En pratique, ces courriers sont peu lus, alors qu'ils contiennent l'information la plus directement exploitable."
+  - q: "La classification concerne-t-elle aussi les fonds en euros ?"
+    r: "Le règlement porte sur les produits financiers au sens large, et les assureurs publient des informations de durabilité sur leurs supports. Le fonds en euros relevant d'une gestion propre à l'assureur, la lecture n'y est pas la même que pour une unité de compte."
+  - q: "Où voir la part minimale d'investissements durables d'un support de mon contrat ?"
+    r: "Dans l'annexe précontractuelle du fonds concerné, que ton assureur doit tenir à disposition, et le plus souvent sur le site de la société de gestion."
+  - q: "Faut-il préférer un article 9 par principe ?"
+    r: "Non. La catégorie traduit une ambition déclarée, pas une qualité vérifiée, et l'univers plus restreint des fonds article 9 s'accompagne souvent de frais plus élevés et d'une diversification moindre. Compare les annexes et les frais avant les étiquettes."
+  - q: "Que signifie « principales incidences négatives » ?"
+    r: "C'est la mesure des effets défavorables d'un investissement sur des facteurs de durabilité, à travers une série d'indicateurs publiés. Un acteur peut déclarer les prendre en compte, ou expliquer pourquoi il ne le fait pas, ce qui rend la mention peu discriminante à elle seule."
+  - q: "La classification vaut-elle en dehors de l'Union européenne ?"
+    r: "Non. Un fonds domicilié hors de l'Union et non commercialisé dans l'Union n'y est pas soumis. Les comparaisons internationales sont donc à manier avec prudence, les cadres n'étant pas équivalents."
 pages:
   - nom: "ADN Investisseur"
     url: "/adn-investisseur/"
@@ -72,3 +84,21 @@ L'intention est claire : remplacer une classification interprétable par des cat
 *Fonds Y.* Annexe précontractuelle : part minimale **40 %**. Label ISR. Exclusions : armes controversées, charbon thermique, nouveaux projets fossiles.
 
 Même étiquette réglementaire, deux réalités sans rapport. Trois minutes de lecture de l'annexe suffisent à les distinguer, là où l'étiquette n'apprend rien.
+
+## Ce que la réforme changera, et ce qu'il faut faire d'ici là
+
+La tentation, devant une réglementation annoncée, est d'attendre. C'est rarement le bon réflexe, et ici moins qu'ailleurs.
+
+**Ce qui va changer.** Le passage de catégories interprétables à des catégories nommées assorties de seuils chiffrés déplacera la charge de la preuve : un fonds devra atteindre un pourcentage d'allocation pour revendiquer une catégorie, là où il lui suffit aujourd'hui de déclarer une intention. Beaucoup de fonds changeront donc de catégorie, et certains changeront de nom.
+
+**Ce qui ne changera pas.** L'annexe précontractuelle restera le document de référence, et la part minimale d'investissements durables restera le chiffre à lire. Les labels, qui reposent sur un contrôle externe, garderont leur rôle propre, distinct de la classification.
+
+**Ce qu'il faut faire maintenant.** Trois choses, toutes utiles quelle que soit l'issue du texte.
+
+Note, pour chacun de tes supports, la part minimale d'investissements durables figurant à l'annexe. C'est ton point de comparaison futur, et il ne sera plus reconstituable après coup.
+
+Ne réoriente pas un portefeuille dans l'urgence pour anticiper une catégorie qui n'existe pas encore : les arbitrages ont un coût en frais et parfois en fiscalité, et la rédaction finale du texte n'est pas connue.
+
+Attends-toi à recevoir des courriers de reclassification, et lis-les. Un changement de catégorie ou de dénomination n'est pas une formalité : il signale que la promesse du fonds a été révisée, dans un sens ou dans l'autre.
+
+**Un repère de calendrier.** L'entrée en application est attendue autour de 2027-2028, et les positions de la Commission et du Parlement ne coïncident pas encore. Tout seuil chiffré cité aujourd'hui est donc provisoire, y compris ceux qui circulent le plus.

@@ -5,7 +5,7 @@ titreSeo: "Greenwashing : 5 signaux à repérer sur un fonds"
 description: "Vocabulaire flou, absence de seuil chiffré, exclusions cosmétiques : cinq vérifications pour repérer un fonds dont la promesse verte est du marketing."
 categorie: "ESG et impact"
 date: 2026-09-14
-lecture: 2
+lecture: 4
 essentiel:
   - "Le greenwashing n'est presque jamais un mensonge : c'est le plus souvent une **promesse vague** qui laisse croire plus qu'elle n'engage."
   - "Cinq signaux se repèrent en quelques minutes, documents en main."
@@ -18,6 +18,18 @@ faq:
     r: "Le label réduit fortement le risque, sans l'éliminer. La réforme du label ISR de 2024 a d'ailleurs été motivée par ce constat."
   - q: "Comment signaler un doute ?"
     r: "Ton intermédiaire doit pouvoir répondre par écrit. À défaut, l'AMF dispose d'un service d'information et de médiation pour les épargnants."
+  - q: "Un fonds indiciel peut-il être responsable ?"
+    r: "Oui, de nombreux indices intègrent des filtres extra-financiers, et leur méthodologie est publique, ce qui constitue un avantage réel : les règles de sélection sont écrites et vérifiables, là où une gestion active les laisse à l'appréciation du gérant. Reste à lire la méthodologie de l'indice, qui varie fortement d'un fournisseur à l'autre."
+  - q: "Le greenwashing concerne-t-il aussi les SCPI et le non coté ?"
+    r: "Oui, avec une difficulté supplémentaire : l'absence de cours et de reporting standardisé rend la vérification plus lourde. Les mêmes réflexes s'appliquent, en s'appuyant sur le rapport annuel et sur la description précise des actifs détenus."
+  - q: "Que vaut la mention d'un objectif de neutralité carbone ?"
+    r: "Peu de chose en soi. Un objectif à long terme n'engage pas la composition actuelle du portefeuille. Ce qui compte est la trajectoire chiffrée, l'échéance intermédiaire et la mesure publiée chaque année."
+  - q: "Faut-il vendre un fonds dont la promesse s'avère creuse ?"
+    r: "Pas nécessairement dans l'urgence : un arbitrage a un coût, et sur un compte-titres une fiscalité. Réorienter les versements à venir suffit souvent, et c'est la solution la moins coûteuse."
+  - q: "Ces documents sont-ils vraiment accessibles ?"
+    r: "Oui, et gratuitement : document d'informations clés, annexe précontractuelle et rapport périodique sont publiés par la société de gestion et doivent être mis à disposition par ton intermédiaire. Un intermédiaire qui ne les fournit pas sur demande manque à une obligation simple."
+  - q: "Combien de temps faut-il pour contrôler un fonds ?"
+    r: "Une dizaine de minutes la première fois, deux ou trois ensuite. Le temps se passe presque entièrement à ouvrir les bons documents ; une fois qu'on sait où regarder, la vérification tient à trois chiffres : la part minimale d'investissements durables, les frais courants, et les dix premières lignes du portefeuille."
 pages:
   - nom: "ADN Investisseur"
     url: "/adn-investisseur/"
@@ -62,6 +74,20 @@ Ouvre le rapport de composition périodique, regarde les vingt premières lignes
 Un fonds qui met en avant la sélection extra-financière, le dialogue actionnarial et l'engagement auprès des entreprises facture souvent ce travail. C'est légitime si le travail existe.
 
 **Le réflexe** : vérifie que le rapport annuel documente cet engagement : nombre de résolutions votées, dialogues engagés, résultats obtenus. Des frais élevés sans trace d'activité d'engagement signalent un supplément de prix sans contrepartie.
+
+## Signal 6. Le fonds qui ressemble trait pour trait à son indice classique
+
+C'est le test le plus révélateur, et il ne figure dans aucune brochure.
+
+Prends les dix premières lignes du fonds « responsable » que tu examines, et compare-les aux dix premières lignes de l'indice classique de la même zone géographique. Si ce sont les mêmes valeurs dans un ordre voisin, le filtre extra-financier n'a pratiquement rien retiré.
+
+Ce résultat est fréquent, et il s'explique. Une approche best-in-class conserve tous les secteurs et retient dans chacun les mieux notés ; comme les plus grandes capitalisations sont souvent les mieux dotées en moyens de reporting, donc les mieux notées, elles se retrouvent dans les deux portefeuilles. Le fonds n'a pas menti : il a appliqué sa méthode, et sa méthode change peu de choses.
+
+**Le réflexe** : demande l'écart de composition par rapport à l'indice de référence, parfois exprimé sous forme de taux de recouvrement ou d'écart de suivi. Un fonds dont la composition se distingue à peine de l'indice classique, tout en facturant un surcoût au titre de la sélection extra-financière, vend une différence qu'il ne produit pas.
+
+Un cas limite mérite d'être signalé : certains fonds affichent un écart de composition important tout en conservant un profil de risque très proche de l'indice, parce que les titres retenus appartiennent aux mêmes secteurs et réagissent de la même façon. L'écart est alors réel mais économiquement neutre. C'est pourquoi la question à poser porte sur l'intention de gestion, et pas seulement sur le pourcentage de titres communs.
+
+Ce signal ne condamne pas l'approche best-in-class, qui a sa logique : faire progresser tous les secteurs plutôt que d'en exclure certains. Il permet seulement de vérifier que tu paies pour ce que tu crois acheter.
 
 ## La méthode complète, en dix minutes
 

@@ -5,7 +5,7 @@ titreSeo: "L'IA peut-elle remplacer un conseiller patrimonial ?"
 description: "Ce qu'une IA fait mieux qu'un humain, ce qu'elle ne peut pas faire, et pourquoi le conseil en investissement reste une activité réglementée en France."
 categorie: "IA et méthode"
 date: 2026-09-14
-lecture: 3
+lecture: 4
 essentiel:
   - "Une IA est supérieure sur trois tâches : **collecter, calculer, expliquer à la demande**."
   - "Elle est structurellement faible sur trois autres : **assumer une responsabilité, arbitrer un conflit familial, dire non**."
@@ -18,6 +18,14 @@ faq:
     r: "Oui, et c'est pourquoi la traçabilité des sources est déterminante. Voir « IA explicable en finance : pourquoi une réponse sans source ne vaut rien »."
   - q: "Faut-il un conseiller quand on a un patrimoine modeste ?"
     r: "L'accès au conseil humain reste, en pratique, corrélé au montant du patrimoine. C'est précisément le déséquilibre que les outils cherchent à réduire."
+  - q: "Un outil peut-il servir à préparer un rendez-vous avec un conseiller ?"
+    r: "C'est son usage le plus efficace aujourd'hui. Arriver avec un inventaire complet, les dates d'ouverture des contrats, une capacité d'épargne constatée sur douze mois et des questions écrites change la nature du rendez-vous : le temps du professionnel passe de la reconstitution du dossier à l'analyse, et c'est là que se situe sa valeur."
+  - q: "Une IA peut-elle signer une déclaration d'adéquation ?"
+    r: "Non. Ce document engage la responsabilité d'un professionnel identifié, immatriculé et assuré. Une machine peut en préparer les éléments, elle ne peut pas en assumer la portée juridique."
+  - q: "Que vérifier avant d'utiliser un assistant financier ?"
+    r: "Trois choses : qu'il indique clairement qu'il s'agit d'un système d'IA, qu'il cite des sources que tu peux ouvrir et contrôler, et qu'il dise ce qu'il ne sait pas plutôt que de produire une réponse assurée sur un point incertain."
+  - q: "Les données que je saisis sont-elles protégées ?"
+    r: "Cela dépend de l'outil, et c'est à vérifier avant de saisir quoi que ce soit : qui héberge les données, dans quel pays, combien de temps elles sont conservées, et si elles servent à entraîner un modèle. Ces informations figurent dans la politique de confidentialité, et leur absence est en soi une réponse."
 pages:
   - nom: "Assistant IA"
     url: "/assistant-ia/"
@@ -52,6 +60,22 @@ Une information générale, une simulation ou un contenu pédagogique ne constit
 Autrement dit : une IA peut expliquer, calculer, comparer. Dès qu'elle recommande à une personne identifiée un produit adapté à sa situation, on entre dans une activité réglementée, et il faut un professionnel derrière.
 
 Le règlement européen sur l'intelligence artificielle ajoute une exigence indépendante de celle-ci : l'utilisateur doit savoir qu'il interagit avec un système d'IA. C'est une obligation de transparence, pas une autorisation d'exercer.
+
+## La responsabilité, en pratique : qui répond de quoi
+
+C'est la question qui tranche le débat, et elle se pose rarement dans ces termes.
+
+**Un conseiller réglementé** engage sa responsabilité civile professionnelle et doit être couvert par une assurance obligatoire. En cas de recommandation inadaptée, tu disposes d'un recours identifié : la médiation de l'AMF, puis le juge, avec la déclaration d'adéquation écrite comme pièce principale du dossier.
+
+**L'éditeur d'un outil** répond de son produit sur d'autres fondements : l'exactitude de son information, l'absence de pratique commerciale trompeuse, le respect de ses conditions contractuelles. Ce n'est pas le même régime, et le préjudice à démontrer n'est pas le même.
+
+**Toi, utilisateur**, restes décisionnaire dès lors que l'outil se borne à informer. Une simulation que tu interprètes et sur laquelle tu agis seul est ta décision.
+
+La conséquence pratique est simple à énoncer : plus un service se rapproche de la recommandation personnalisée, plus il doit être adossé à un statut et à une responsabilité. Un outil qui délivrerait des recommandations individualisées sans ce cadre ferait peser le risque entièrement sur son utilisateur, et c'est exactement ce que la réglementation cherche à empêcher.
+
+C'est pourquoi la formulation compte autant que le fond. « Voici l'effet fiscal d'un versement de 5 000 € dans ta situation » est un calcul. « Tu devrais verser 5 000 € sur ce contrat » est une recommandation. Le second énoncé engage un professionnel, le premier non.
+
+Un dernier repère, utile parce qu'il est immédiatement vérifiable : le règlement européen sur l'intelligence artificielle impose d'informer l'utilisateur qu'il interagit avec un système d'IA. Une interface qui masque cette information, ou la relègue dans une mention illisible, manque à une obligation élémentaire, et c'est rarement son seul manquement.
 
 ## La répartition qui fonctionne
 

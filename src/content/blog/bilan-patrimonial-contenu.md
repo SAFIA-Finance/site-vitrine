@@ -5,7 +5,7 @@ titreSeo: "Bilan patrimonial : contenu réel et limites"
 description: "Inventaire, flux, fiscalité, transmission : les quatre volets d'un bilan patrimonial, et la différence avec une lettre de mission."
 categorie: "IA et méthode"
 date: 2026-09-14
-lecture: 3
+lecture: 4
 essentiel:
   - "Un bilan patrimonial est un **état des lieux**, pas une recommandation."
   - "Il comporte quatre volets : **ce que tu possèdes, ce qui entre et sort, ce que tu paies, ce qui se transmet**."
@@ -18,6 +18,18 @@ faq:
     r: "Après tout événement significatif, et par ailleurs tous les deux à trois ans."
   - q: "Faut-il y inclure la résidence principale ?"
     r: "Oui pour l'inventaire et la transmission, en gardant à l'esprit qu'elle n'est pas liquide."
+  - q: "Que faire si un contrat ancien reste introuvable ?"
+    r: "Un dispositif public permet de rechercher les contrats d'assurance-vie non réclamés, et les organismes professionnels du secteur proposent une procédure de recherche. Un contrat oublié chez un ancien employeur ou une ancienne banque est un cas fréquent, pas une curiosité."
+  - q: "Le bilan doit-il inclure les dettes familiales ?"
+    r: "Oui, notamment les prêts consentis à des enfants. Laissés hors du dossier, ils deviennent des sujets de litige au moment de la succession, et leur qualification, prêt ou donation, change entièrement le partage."
+  - q: "Un bilan sert-il à quelque chose si la situation est simple ?"
+    r: "Souvent davantage, parce que les situations dites simples sont celles qu'on n'examine jamais. Les trois constats les plus fréquents, épargne de précaution excessive, clause obsolète et frais inconnus, ne dépendent pas de la complexité du patrimoine."
+  - q: "Faut-il refaire l'inventaire à chaque fois ?"
+    r: "Non, il se met à jour. La première constitution est la plus lourde ; ensuite, seuls les éléments modifiés demandent une reprise, ce qui rend les bilans suivants beaucoup plus rapides."
+  - q: "Qui peut réaliser un bilan patrimonial ?"
+    r: "Un conseiller en investissements financiers, un notaire dans son domaine, un expert-comptable pour la partie professionnelle, ou toi-même avec de la méthode. Le statut devient déterminant à partir du moment où l'état des lieux débouche sur une recommandation portant sur des produits : le cadre réglementaire s'applique alors pleinement."
+  - q: "Un bilan peut-il révéler une mauvaise nouvelle ?"
+    r: "Régulièrement, et c'est une part de son utilité : une capacité d'épargne plus faible qu'espérée, des frais plus lourds que prévu, une clause qui ne protège pas la personne qu'on croyait protéger. Mieux vaut l'apprendre à un moment où l'on peut encore corriger."
 pages:
   - nom: "Cockpit stratégique"
     url: "/cockpit/"
@@ -68,6 +80,22 @@ Un outil qui consolide automatiquement ton patrimoine et te montre ta situation 
 Une prestation de conseil délivrée par un professionnel réglementé suppose une **lettre de mission** (qui précise l'étendue du travail, les honoraires, les modalités de rémunération et les éventuels liens avec des producteurs) et débouche sur une recommandation écrite et motivée.
 
 Les deux sont utiles, et ils ne se substituent pas. Confondre l'un avec l'autre expose l'épargnant à croire qu'il est conseillé alors qu'il est seulement informé.
+
+## Les pièces à réunir avant de commencer
+
+L'exhaustivité étant la vraie difficulté, autant traiter le problème à la racine. Voici ce qu'il faut rassembler.
+
+**Pour l'inventaire** : les derniers relevés de chaque compte et livret, les conditions générales et le dernier relevé de situation de chaque contrat d'assurance-vie et de chaque PER, les relevés de compte-titres et de PEA, les tableaux d'amortissement des crédits en cours, et pour l'immobilier une estimation récente ainsi que le titre de propriété.
+
+**Pour les flux** : douze mois de relevés du compte principal, ce qui permet de constater la capacité d'épargne au lieu de l'estimer.
+
+**Pour la fiscalité** : les deux derniers avis d'impôt sur le revenu, qui portent à la fois la tranche marginale, le revenu fiscal de référence et le plafond d'épargne retraite disponible avec ses reports.
+
+**Pour la transmission** : le contrat de mariage s'il existe, les actes de donation antérieurs avec leur date, et la copie des clauses bénéficiaires en vigueur.
+
+Deux pièces manquent presque toujours et méritent une recherche spécifique : **la date d'ouverture exacte des contrats d'assurance-vie**, qui commande toute la fiscalité des rachats, et **les clauses bénéficiaires réellement en vigueur**, celles qui figurent au dossier de l'assureur et non celles dont on se souvient.
+
+Rassembler cet ensemble prend quelques heures. C'est le seul travail réellement pénible d'un bilan, et c'est aussi celui qui produit la plus grande part de sa valeur.
 
 ## Exemple de ce que change un bilan complet
 
