@@ -78,6 +78,32 @@ Conséquence : sur les seuls prélèvements sociaux, l'assurance-vie bénéficie
 
 Cela ne fait pas de l'assurance-vie « le meilleur placement » : la formule n'a aucun sens hors d'une situation donnée. Cela déplace un curseur, et mérite d'être intégré dans un arbitrage entre enveloppes.
 
+### Prendre date : le geste qui vaut le plus cher plus tard
+
+Puisque tout le régime favorable se déclenche au huitième anniversaire du **contrat**, et non de chaque versement, la date d'ouverture est la seule variable que tu maîtrises complètement.
+
+Ouvrir un contrat avec une somme modeste, même sans projet immédiat, met le compteur en route. Huit ans plus tard, l'abattement annuel et le taux réduit s'appliquent à la totalité du contrat, y compris aux sommes versées la veille.
+
+**Exemple.** Deux épargnants placent chacun 80 000 € à quarante ans.
+
+*Le premier* avait ouvert un contrat à vingt-cinq ans avec 500 €. Son contrat a quinze ans : ses retraits bénéficient immédiatement de l'abattement de 4 600 € et du taux de 7,5 %.
+
+*Le second* ouvre son contrat le jour du versement. Pendant huit ans, tout rachat relèvera du prélèvement forfaitaire de 30 %, sans abattement.
+
+Sur un retrait contenant 6 000 € de gains, l'écart atteint environ 800 € d'impôt sur le revenu. Le premier n'a rien fait de plus qu'ouvrir un contrat quinze ans plus tôt, pour 500 €.
+
+Deux précisions honnêtes. Le contrat doit rester **ouvert** : un rachat total le clôture et efface l'antériorité. Et prendre date n'a d'intérêt que sur un contrat dont les frais sont raisonnables : un contrat à frais élevés maintenu quinze ans coûte plus que l'avantage qu'il prépare.
+
+### Quand le barème progressif bat le forfait
+
+L'option pour le barème est peu utilisée, souvent à tort pour les foyers faiblement imposés.
+
+Elle devient avantageuse lorsque ta tranche marginale est inférieure au taux forfaitaire applicable : à 0 % ou 11 %, le barème l'emporte sur les 12,8 % du prélèvement forfaitaire avant huit ans, et peut également l'emporter sur les 7,5 % après huit ans si tu es non imposable.
+
+Trois points à connaître avant d'opter. L'option est **globale** : elle s'applique à l'ensemble des revenus de capitaux mobiliers de l'année, pas au seul rachat. Elle n'affecte pas les prélèvements sociaux, dus dans tous les cas. Et la loi de finances pour 2026 l'a rendue **révocable** pour les revenus perçus à compter du 1er janvier 2026, alors qu'elle était jusque-là définitive : c'est un assouplissement réel, qui autorise à tester le calcul sans s'enfermer.
+
+En pratique, la déclaration en ligne permet de simuler les deux hypothèses avant de valider. Fais-le : l'opération prend deux minutes et elle est la seule façon de trancher sur des chiffres plutôt que sur un principe.
+
 ### Questions fréquentes
 
 **Les huit ans se comptent-ils depuis l'ouverture ou depuis chaque versement ?**
@@ -164,6 +190,29 @@ D'abord, ce fractionnement ne fonctionne que si le calendrier du projet le perme
 
 Ensuite, l'abattement porte sur des sommes modestes. Sur un contrat de 200 000 €, il ne change pas la nature de la décision. Il ne faut pas structurer une stratégie patrimoniale autour de lui : c'est un affinage de fin de parcours, pas un principe directeur.
 
+### Le rachat programmé, pour consommer l'abattement chaque année
+
+Plutôt que de fractionner à la main, beaucoup de contrats permettent de mettre en place des **rachats partiels programmés** : un montant fixe versé chaque mois ou chaque trimestre, automatiquement.
+
+L'intérêt est double. Il évite d'oublier l'abattement, qui se perd s'il n'est pas consommé dans l'année civile. Et il lisse le retrait dans le temps, ce qui est précieux lorsque les fonds sont investis en unités de compte : tu ne vends pas tout au même moment, donc pas nécessairement au plus bas.
+
+**Exemple.** Un couple marié dont le contrat de douze ans affiche 30 % de gains met en place 2 500 € de rachat mensuel, soit 30 000 € sur l'année.
+Part de gains annuelle : 30 000 × 30 % = 9 000 €, sous l'abattement de 9 200 €.
+Impôt sur le revenu : **0 €**.
+Prélèvements sociaux : 9 000 × 17,2 % = **1 548 €**.
+
+Le couple perçoit 30 000 € par an en ne supportant que les prélèvements sociaux. C'est le mécanisme qui transforme un contrat mûr en complément de revenu, et il fonctionne d'autant mieux que la proportion de gains reste modérée.
+
+Une limite à surveiller : la proportion de gains **augmente** avec le temps si le contrat performe. Un rachat calibré aujourd'hui sous l'abattement peut le dépasser dans cinq ans. Refais le calcul chaque année, à partir du relevé.
+
+### Trois erreurs qui coûtent l'abattement
+
+**Racheter en janvier ce qu'on aurait pu scinder sur deux exercices.** Un besoin exprimé en fin d'année se traite en deux fois, décembre puis janvier, ce qui mobilise deux abattements au lieu d'un.
+
+**Oublier que l'abattement est commun au foyer.** Trois contrats de plus de huit ans ne donnent pas trois abattements : il reste de 4 600 € ou 9 200 € au total, tous contrats confondus.
+
+**Croire qu'un retrait sous abattement est exonéré.** Les prélèvements sociaux de 17,2 % restent dus dès le premier euro de gain. Annoncer un retrait « sans impôt » est inexact, et la surprise se lit sur le montant net reçu.
+
 ### Questions fréquentes
 
 **L'abattement fonctionne-t-il sur un contrat de capitalisation ?**
@@ -174,6 +223,18 @@ Aucun abattement ne s'applique, quel que soit le montant.
 
 **Faut-il déclarer le rachat même s'il est sous l'abattement ?**
 Oui. L'assureur transmet l'information et le montant figure sur ta déclaration pré-remplie.
+
+**L'abattement sert-il à quelque chose si je ne suis pas imposable ?**
+Il n'apporte alors rien de plus, puisqu'il ne réduit que l'impôt sur le revenu, déjà nul dans ton cas. Les prélèvements sociaux de 17,2 % restent dus sur la totalité des gains rachetés, abattement ou pas. Un foyer non imposable a donc intérêt à vérifier l'option pour le barème progressif, qui peut être plus favorable que le prélèvement forfaitaire, mais l'abattement lui-même ne change rien à sa situation.
+
+**Comment savoir combien de gains contient mon contrat ?**
+Ton relevé annuel indique deux chiffres : le total des primes versées et la valeur de rachat. La différence, ce sont tes gains. Divise-les par la valeur totale et tu obtiens ta part de gains, celle qui déterminera la fraction imposable de chaque retrait. Sur un contrat valant 120 000 € pour 90 000 € versés, la part de gains est de 25 % : un retrait de 10 000 € contiendra 2 500 € de gains.
+
+**Et si je rachète sur plusieurs contrats la même année ?**
+L'abattement reste unique : 4 600 € ou 9 200 € pour l'ensemble du foyer fiscal, tous contrats confondus. Répartir un retrait entre trois contrats ne multiplie rien. En revanche, cela peut avoir un intérêt tout autre : conserver l'antériorité de chacun, ou ajuster la part de gains prélevée selon la maturité respective des contrats.
+
+**Le PACS ouvre-t-il droit à l'abattement doublé ?**
+Oui. L'abattement de 9 200 € vise les couples mariés **ou pacsés** soumis à imposition commune, sans distinction entre les deux régimes. Il s'apprécie au niveau du foyer fiscal, quel que soit le membre du couple titulaire des contrats : un seul conjoint peut donc consommer la totalité des 9 200 € sur ses propres contrats. En union libre, en revanche, chacun conserve son abattement individuel de 4 600 €, applicable à ses seuls contrats.
 
 ### Sources
 
@@ -247,6 +308,28 @@ Vérifie **le calendrier civil**. Un retrait scindé entre décembre et janvier 
 
 Vérifie **l'alternative de l'avance**. Certains contrats permettent d'obtenir une avance, c'est-à-dire un prêt de l'assureur garanti par le contrat, sans déclencher d'imposition. Elle a un coût, généralement le rendement du fonds en euros majoré d'une marge, et elle doit être remboursée. Cela peut être pertinent pour un besoin court, cela ne l'est pas pour un besoin définitif.
 
+### Rachat partiel ou rachat total : ce que tu perds en clôturant
+
+La différence ne tient pas au calcul de l'impôt, identique dans les deux cas, mais à ce qui subsiste après.
+
+Un **rachat partiel** laisse le contrat vivant. Tu conserves sa date d'ouverture, donc son antériorité fiscale, et l'abattement annuel reste mobilisable les années suivantes. Le contrat continue de produire, et la clause bénéficiaire reste en place.
+
+Un **rachat total** clôture le contrat. L'antériorité disparaît définitivement : rouvrir ailleurs, c'est repartir de zéro et attendre huit ans pour retrouver l'abattement et le taux réduit.
+
+**La règle pratique qui en découle :** même lorsque tu veux sortir la quasi-totalité des fonds, laisse une somme symbolique sur le contrat plutôt que de le solder. Quelques centaines d'euros suffisent à maintenir le contrat ouvert et à préserver une antériorité qui, elle, ne se rachète pas.
+
+Une exception mérite d'être signalée : un contrat ancien aux frais élevés et à l'offre de supports pauvre ne vaut pas toujours d'être conservé. L'antériorité a de la valeur, mais elle ne compense pas indéfiniment 1 % de frais annuels excédentaires. Le calcul se pose, contrat en main.
+
+### L'effet du prorata dans le temps
+
+Un point que les simulateurs montrent mal : le coût fiscal d'un rachat **évolue** avec la maturité du contrat, même à taux inchangés.
+
+La part de gains contenue dans chaque retrait est proportionnelle à la part de gains du contrat. Un contrat récent contient peu de gains, donc chaque retrait est peu imposé. Un contrat ancien et performant en contient beaucoup, donc chaque euro retiré porte davantage de matière imposable.
+
+**Illustration.** Sur un contrat valant 100 000 € pour 90 000 € versés, un retrait de 10 000 € contient 1 000 € de gains. Sur le même contrat devenu 160 000 € pour les mêmes 90 000 € versés, le même retrait de 10 000 € en contient 4 375 €.
+
+Deux conséquences. Les premiers retraits d'un contrat sont fiscalement les moins coûteux, ce qui plaide pour commencer à consommer un contrat mûr plutôt que de le laisser grossir indéfiniment. Et l'abattement annuel couvre une somme retirée d'autant plus faible que le contrat a bien travaillé : le fractionnement devient donc plus utile avec le temps, pas moins.
+
 ### Questions fréquentes
 
 **Le rachat partiel est-il prélevé sur les unités de compte ou le fonds en euros ?**
@@ -257,6 +340,12 @@ Ils sont rares sur les contrats récents, courants sur les contrats anciens. Vé
 
 **Combien de temps pour recevoir les fonds ?**
 L'assureur dispose légalement de deux mois, mais la pratique courante est de quelques jours à deux semaines.
+
+**Puis-je demander à ne retirer que du capital ?**
+Non, et c'est une question fréquente. La règle du prorata est d'ordre fiscal : tout rachat contient nécessairement une fraction de capital et une fraction de gains, dans la proportion exacte du contrat. Aucune instruction donnée à l'assureur ne permet de désigner l'un plutôt que l'autre. Ce que tu peux choisir, en revanche, c'est le **support** sur lequel le rachat est prélevé, fonds en euros ou unités de compte : c'est une décision d'allocation, sans effet sur le calcul de l'impôt.
+
+**Un rachat peut-il me faire repasser sous le seuil de 150 000 € ?**
+Oui, et c'est un effet utile. Le seuil s'apprécie sur les primes versées **nettes des rachats** déjà effectués. Un contribuable ayant dépassé 150 000 € de primes peut donc, après des rachats significatifs, repasser sous le seuil et retrouver le taux de 7,5 % au lieu de 12,8 % sur ses retraits suivants. Sur des montants importants, cela vaut la peine de demander à l'assureur l'état exact de tes primes nettes avant de programmer un nouveau rachat.
 
 ### Sources
 
@@ -323,6 +412,26 @@ Une répartition décidée à 35 ans n'a pas vocation à tenir jusqu'à 65 ans. 
 
 Le point délicat est le rythme. Sécuriser trop tôt coûte du rendement ; sécuriser trop tard expose à un krach juste avant le besoin. Une règle répandue consiste à commencer la désensibilisation cinq à huit ans avant l'échéance, par paliers.
 
+### Les versements programmés, meilleur allié des unités de compte
+
+Investir une somme en une fois expose à un risque de calendrier : si le marché recule dans les mois qui suivent, la perte est immédiate et le moral avec.
+
+Les **versements programmés** répondent à cette difficulté sans prétendre prédire quoi que ce soit. En investissant un montant fixe à intervalle régulier, tu achètes mécaniquement plus de parts quand les cours sont bas et moins quand ils sont hauts. Le prix moyen d'acquisition s'en trouve lissé.
+
+Trois avantages pratiques s'ajoutent à l'effet mathématique. Le versement devient une **habitude** plutôt qu'une décision à reprendre chaque mois. Il supprime la question, insoluble, du bon moment pour entrer. Et il réduit le risque comportemental le plus coûteux : renoncer à investir pendant des mois en attendant un point d'entrée qui ne se reconnaît qu'après coup.
+
+Une honnêteté nécessaire : étaler n'est pas toujours supérieur. Sur longue période, investir tout de suite expose plus tôt au marché, ce qui est statistiquement favorable en moyenne. L'étalement achète de la régularité et du confort psychologique, pas un rendement supérieur. Pour un versement important, beaucoup retiennent un compromis : une part immédiate, le solde étalé sur six à douze mois.
+
+### Ce qu'un arbitrage coûte, et ce qu'il ne coûte pas
+
+C'est l'un des atouts les moins connus de l'enveloppe. Vendre une unité de compte en plus-value à l'intérieur du contrat pour en acheter une autre **ne déclenche aucune imposition**, tant que l'argent ne sort pas du contrat.
+
+Sur un compte-titres, le même arbitrage serait une cession imposable au prélèvement forfaitaire de 31,4 %. Dans l'assurance-vie, la fiscalité attend le rachat.
+
+Cela ne signifie pas que l'arbitrage est gratuit. Deux coûts subsistent : les **frais d'arbitrage** prévus au contrat, en pourcentage ou forfaitaires, souvent nuls en ligne et facturés en réseau ; et le **délai d'exécution**, généralement de quelques jours, pendant lequel les sommes ne sont investies nulle part.
+
+La conséquence pratique est nette : l'enveloppe permet de faire évoluer une allocation dans le temps sans frottement fiscal, ce qui rend la désensibilisation progressive décrite plus haut bien plus simple à mettre en œuvre que sur un compte-titres.
+
 ### Questions fréquentes
 
 **Le fonds en euros peut-il perdre de l'argent ?**
@@ -333,6 +442,12 @@ Non. Tant que l'argent reste dans le contrat, aucun impôt n'est dû, même si t
 
 **Combien d'unités de compte différentes faut-il ?**
 Peu, mais bien réparties. Multiplier les lignes crée une illusion de diversification, pas une diversification réelle.
+
+**Que se passe-t-il si mon assureur fait faillite ?**
+Un fonds de garantie propre aux assurances de personnes existe, avec un plafond d'indemnisation par assuré et par entreprise d'assurance. C'est une différence notable avec les dépôts bancaires, qui relèvent d'un dispositif distinct et d'un autre plafond. Deux conséquences pratiques : le plafond s'apprécie **par assureur**, ce qui plaide pour ne pas concentrer un patrimoine très important chez un seul, et les unités de compte que tu détiens restent des parts de fonds, dont la valeur dépend des marchés et non de la solidité de l'assureur.
+
+**Faut-il arbitrer après une forte baisse des marchés ?**
+C'est le moment où la décision se prend le plus mal. Vendre après une baisse transforme une variation en perte définitive, et prive de la reprise éventuelle. Si l'allocation avait été calibrée sur ton horizon réel, une baisse ne change rien à l'analyse. Si elle t'empêche de dormir, le problème n'est pas le marché : c'est que la part d'unités de compte dépassait ta capacité réelle à encaisser une baisse. Dans ce cas, l'ajustement se fait, mais progressivement et par décision réfléchie, pas dans l'urgence.
 
 ### Sources
 
@@ -396,6 +511,34 @@ Il ne protège pas des primes « manifestement exagérées ». Si les versements
 
 Il ne s'applique pas aux primes versées après 70 ans, qui relèvent d'un régime distinct, traité dans **Assurance-vie après 70 ans : ce que change l'article 757 B**.
 
+### Le levier des bénéficiaires, chiffré
+
+Puisque l'abattement se compte par bénéficiaire et non par contrat, le nombre de personnes désignées est le paramètre le plus puissant du dispositif, et le plus facile à ajuster.
+
+**Exemple.** Un capital de 900 000 €, versé avant 70 ans, transmis à des enfants et petits-enfants.
+
+*Un seul bénéficiaire.* Abattement : 152 500 €. Base taxable : 747 500 €. Taxation à 20 % jusqu'à 700 000 €, puis 31,25 % au-delà : environ **154 800 €** de prélèvement.
+
+*Deux enfants.* Abattement cumulé : 305 000 €. Chacun reçoit 450 000 €, dont 297 500 € taxables à 20 % : **59 500 € par enfant**, soit **119 000 €** au total.
+
+*Deux enfants et quatre petits-enfants.* Abattement cumulé : 915 000 €, supérieur au capital transmis. Prélèvement : **0 €**.
+
+L'écart entre la première et la troisième hypothèse dépasse 154 000 €, pour exactement le même capital et la même intention de transmettre à la famille. Seule la rédaction de la clause change.
+
+Deux réserves de bon sens. Désigner un petit-enfant, c'est transmettre directement en sautant une génération : l'opération diminue la part de son parent et doit être discutée en famille. Et le capital reçu par un mineur relève de l'administration légale de ses parents, ce qui peut appeler un aménagement.
+
+### Ce que « hors succession » veut dire exactement
+
+La formule est exacte mais trompeuse, et deux précisions évitent les malentendus.
+
+**Hors succession civile** signifie que le capital ne fait pas partie de l'actif à partager entre héritiers. Il revient aux bénéficiaires désignés, qui n'ont pas à être héritiers, et il échappe en principe aux règles du rapport et de la réduction.
+
+**Hors succession fiscale** signifie que les capitaux ne subissent pas le barème des droits de succession, mais un prélèvement propre, celui de l'article 990 I pour les primes versées avant 70 ans.
+
+Deux limites subsistent malgré tout. Les **primes manifestement exagérées** peuvent être réintégrées à la succession, sur appréciation du juge au cas par cas. Et les primes versées **après 70 ans** relèvent, elles, du barème successoral selon le lien de parenté, ce qui rend la date des versements déterminante.
+
+Retiens la formulation juste : l'assurance-vie n'échappe pas au droit des successions, elle suit un régime parallèle, plus favorable, dont les conditions doivent être respectées.
+
 ### Questions fréquentes
 
 **Faut-il un contrat par bénéficiaire ?**
@@ -406,6 +549,18 @@ En principe non, sauf primes manifestement exagérées.
 
 **Que se passe-t-il si aucun bénéficiaire n'est désigné ?**
 Le capital réintègre la succession et perd tout avantage fiscal. C'est l'erreur la plus coûteuse de ce sujet.
+
+**Un concubin peut-il bénéficier des 152 500 € ?**
+Oui, et c'est l'un des apports les plus puissants du dispositif. L'abattement de l'article 990 I s'applique **par bénéficiaire, sans considération du lien de parenté**. Un concubin désigné bénéficiaire reçoit donc 152 500 € exonérés, là où un legs équivalent aurait subi 60 % de droits après un abattement de 1 594 €. Pour un couple non marié et non pacsé, l'assurance-vie est de très loin le meilleur outil de protection mutuelle.
+
+**Peut-on désigner ses petits-enfants ?**
+Oui, et chacun dispose de son propre abattement de 152 500 €. C'est le levier le plus efficace pour transmettre à cette génération, puisqu'en succession classique un petit-enfant dont le parent est vivant ne dispose que de 1 594 €. Deux points à régler en amont : un capital reçu par un mineur relève de l'administration légale de ses parents, et désigner un petit-enfant diminue mécaniquement ce que recevra son propre parent.
+
+**L'abattement se compte-t-il par contrat ou par bénéficiaire ?**
+Par bénéficiaire, tous contrats du même assuré confondus. Multiplier les contrats ne multiplie donc pas les abattements : c'est le nombre de **personnes désignées** qui compte. Ouvrir trois contrats au profit du même bénéficiaire unique n'apporte rien sur ce terrain, alors que désigner trois bénéficiaires sur un contrat unique triple l'abattement disponible.
+
+**Les capitaux sont-ils versés avant le règlement de la succession ?**
+Oui, et c'est un avantage pratique considérable. L'assureur verse directement aux bénéficiaires désignés, sans attendre l'achèvement du règlement notarial, une fois le dossier complet réuni. Là où une succession se règle en six mois au mieux, les capitaux d'assurance-vie arrivent souvent en quelques semaines. C'est précisément ce qui permet aux héritiers d'acquitter les droits de succession sans avoir à vendre un bien dans l'urgence.
 
 ### Sources
 
@@ -482,6 +637,26 @@ Indique à l'assureur **où trouver les bénéficiaires**. Des capitaux non réc
 
 Fais relire les clauses démembrées ou à options par un professionnel. Ce sont des montages à effets durables.
 
+### L'acceptation du bénéficiaire, et pourquoi elle change tout
+
+C'est le point technique le plus lourd de conséquences, et il est presque toujours découvert trop tard.
+
+Tant que le bénéficiaire n'a pas **accepté** sa désignation, tu peux modifier la clause librement, par simple courrier à l'assureur. Dès qu'il l'a acceptée, dans les formes prévues par le Code des assurances, la clause devient **irrévocable sans son accord écrit**.
+
+Les conséquences dépassent la seule désignation. Un bénéficiaire acceptant peut devoir donner son accord pour un rachat, une avance ou un nantissement du contrat. Autrement dit, tu perds une partie de la libre disposition de ton propre capital.
+
+Deux situations appellent une vigilance particulière. Une acceptation intervenue dans un contexte familial apaisé peut devenir bloquante après un divorce ou une brouille. Et un bénéficiaire désigné à titre de garantie, dans le cadre d'un crédit par exemple, accepte souvent par construction : vérifie ce que cela emporte avant de signer.
+
+La règle de conduite est simple : **ne sollicite jamais l'acceptation d'un bénéficiaire sans raison précise**, et si tu la sollicites, sache exactement ce que tu renonces à pouvoir faire ensuite.
+
+### Où déposer sa clause, et comment la retrouver
+
+Une clause peut être rédigée directement sur le bulletin de souscription, modifiée par avenant, ou **déposée chez un notaire** lorsqu'elle est longue ou sensible.
+
+La clause notariée présente trois avantages : elle permet une rédaction précise sans contrainte de format, elle est conservée par un tiers de confiance, et son existence peut être signalée au fichier central des dispositions de dernières volontés. Le contrat mentionne alors simplement que la clause est déposée chez tel notaire.
+
+Quel que soit le support retenu, une précaution vaut pour tous : **quelqu'un doit savoir que le contrat existe**. Des capitaux non réclamés attendent chaque année faute de bénéficiaires identifiés ou joignables. Indiquer à l'assureur les coordonnées à jour des bénéficiaires, et laisser dans ses papiers personnels la liste de ses contrats, coûte quelques minutes et évite que le dispositif le mieux rédigé ne reste sans effet.
+
 ### Questions fréquentes
 
 **Puis-je modifier la clause à tout moment ?**
@@ -492,6 +667,12 @@ Non, et beaucoup préfèrent la discrétion. Mais il faut alors que quelqu'un sa
 
 **Peut-on désigner une association ?**
 Oui, et les organismes d'intérêt général sont exonérés de tout prélèvement.
+
+**Comment modifier concrètement sa clause bénéficiaire ?**
+Par un courrier daté et signé adressé à l'assureur, ou via l'espace client lorsque le contrat le permet. Aucun formalisme notarié n'est exigé pour une clause simple. Deux précautions : conserve la preuve de l'envoi et l'accusé de prise en compte par l'assureur, et vérifie sur ton relevé suivant que la nouvelle clause est bien celle qui figure au contrat. Une modification non enregistrée n'existe pas.
+
+**Que se passe-t-il si un bénéficiaire décède avant moi ?**
+Tout dépend de la rédaction. Si la clause prévoit « vivants ou représentés », la part du bénéficiaire prédécédé revient à ses propres descendants. À défaut de cette mention, elle est répartie entre les autres bénéficiaires désignés du même rang. Et si plus aucun bénéficiaire n'est vivant, le capital réintègre la succession avec perte totale du régime favorable. C'est exactement l'accident que la clause « mon conjoint » seule, jamais relue, provoque le plus souvent.
 
 ### Sources
 
@@ -552,6 +733,28 @@ Des frais supérieurs peuvent se défendre : accompagnement humain régulier, ac
 
 Ils ne se défendent pas quand la contrepartie est un relevé annuel et un rendez-vous tous les trois ans. La question à poser n'est pas « ces frais sont-ils élevés » mais « qu'est-ce que je reçois en échange, et l'ai-je reçu cette année ».
 
+### Les frais de la gestion pilotée, la cinquième couche
+
+Si ton contrat est en gestion pilotée, une couche supplémentaire s'ajoute aux quatre précédentes : les **frais de mandat**, qui rémunèrent le pilotage de l'allocation.
+
+Ils s'appliquent chaque année sur l'encours, en plus des frais de gestion du contrat et des frais internes des supports. Sur un contrat affichant 0,8 % de frais de gestion, 0,2 % de frais de mandat et des supports à 1 %, le coût total atteint 2 %, sans qu'aucune ligne unique ne l'affiche.
+
+La question à se poser est celle de la contrepartie réelle. Une gestion pilotée qui se limite à trois profils standards et à un rééquilibrage annuel automatique apporte peu au regard d'une allocation simple que tu tiendrais toi-même. Une gestion réellement suivie, avec des ajustements motivés et un reporting explicite, peut se défendre.
+
+Le test le plus court : demande le **détail des arbitrages réalisés sur les trois dernières années** et leur justification. Une réponse précise informe sur ce que tu paies ; une réponse évasive informe tout autant.
+
+### Reconstituer son coût total en trois minutes
+
+La méthode tient en trois lectures, et elle donne un chiffre unique comparable d'un contrat à l'autre.
+
+**Un.** Ouvre le tableau standardisé des frais publié par ton assureur depuis juin 2022, et relève les frais de gestion du contrat, sur le fonds en euros et sur les unités de compte, qui diffèrent souvent.
+
+**Deux.** Ouvre le document d'informations clés de chacun de tes supports et relève les coûts récurrents. C'est la couche invisible sur ton relevé.
+
+**Trois.** Additionne, en pondérant par la part de ton encours placée sur chaque support, et ajoute les éventuels frais de mandat.
+
+Le résultat est ton **coût annuel total**, exprimé en pourcentage. C'est la seule donnée qui permette une comparaison honnête entre deux contrats, et c'est aussi celle qui, appliquée à vingt ans, explique des écarts de plusieurs dizaines de milliers d'euros à performance brute identique.
+
 ### Questions fréquentes
 
 **Les frais sont-ils négociables ?**
@@ -562,6 +765,15 @@ Depuis la loi Pacte, un transfert est possible **au sein du même assureur**, en
 
 **Les frais sont-ils déduits avant ou après le rendement annoncé ?**
 Le rendement du fonds en euros est annoncé net de frais de gestion, mais avant prélèvements sociaux. Lis toujours la mention exacte.
+
+**Les frais sur versement se négocient-ils réellement ?**
+Oui, bien plus souvent qu'on ne le croit, et c'est la ligne la plus négociable de toutes. Sur un versement important, leur suppression ou leur forte réduction est une demande courante et fréquemment acceptée. Les frais de gestion annuels, eux, se négocient rarement : ils sont inscrits dans la structure du contrat. C'est pourquoi la comparaison entre contrats doit porter en priorité sur ces derniers, qui s'appliquent chaque année et que tu ne pourras pas faire bouger.
+
+**Un contrat en ligne est-il toujours moins cher ?**
+En général oui sur les frais, souvent nuls sur les versements et plus bas en gestion. Mais le coût total dépend aussi des supports retenus : un contrat en ligne garni de fonds à 2 % de frais internes coûte davantage qu'un contrat classique investi en supports indiciels. Compare le coût total, pas l'étiquette du distributeur.
+
+**Comment comparer deux contrats en une minute ?**
+Additionne trois chiffres pour chacun : frais de gestion annuels sur unités de compte, frais internes moyens des supports que tu comptes détenir, et frais de mandat éventuels. Le total, exprimé en pourcentage annuel, est la seule donnée comparable. Un écart de un point sur vingt ans représente des dizaines de milliers d'euros à performance brute identique, et c'est la seule variable de ton contrat qui soit connue d'avance.
 
 ### Sources
 
@@ -626,6 +838,30 @@ La loi de financement de la Sécurité sociale pour 2026 a relevé les prélève
 
 Ce différentiel de 1,4 point sur les gains ne renverse pas l'arbitrage, dominé par l'écart de tranches. Mais il joue à la marge, et il va dans le sens de l'assurance-vie.
 
+### Le piège du plafond de déduction
+
+L'avantage du PER n'est pas illimité : les versements ne sont déductibles que dans la limite d'un plafond annuel, qui dépend de tes revenus professionnels de l'année précédente et du plafond annuel de la sécurité sociale.
+
+Trois conséquences pratiques, souvent découvertes après coup.
+
+**Verser au-delà du plafond ne procure aucune déduction** sur l'excédent. Ces sommes restent dans le PER, avec son blocage, sans l'avantage qui le justifiait. Vérifie ton plafond disponible avant de verser : il figure sur ton avis d'imposition.
+
+**Les plafonds non utilisés des trois années précédentes sont reportables**, ce qui permet un versement exceptionnel plus important, par exemple l'année d'une prime ou d'une cession.
+
+**Le plafond peut être mutualisé** entre conjoints mariés ou pacsés soumis à imposition commune, sur option. C'est utile lorsque l'un dispose d'un plafond élevé et l'autre de la capacité d'épargne.
+
+Retiens la séquence : **d'abord le plafond disponible, ensuite le montant à verser.** L'inverse conduit à immobiliser de l'épargne sans contrepartie fiscale, ce qui est exactement ce que le PER doit éviter.
+
+### Sortie en capital ou en rente : deux fiscalités différentes
+
+À la retraite, le PER se dénoue en capital, en rente, ou en combinant les deux. Le choix n'est pas neutre, et il se prépare bien avant l'échéance.
+
+**En capital**, la part correspondant aux versements déduits est imposée au barème de l'impôt sur le revenu, et les gains au prélèvement forfaitaire. Une sortie en une seule fois peut te propulser dans une tranche supérieure l'année concernée : fractionner la sortie sur plusieurs exercices réduit souvent la facture, et c'est possible sur la plupart des contrats.
+
+**En rente**, les sommes sont imposées selon le régime des pensions, avec l'abattement applicable, et soumises aux prélèvements sociaux selon des modalités propres. La rente apporte une sécurité viagère que le capital n'offre pas, au prix d'une perte de disponibilité et d'un capital qui ne se transmet pas dans les mêmes conditions.
+
+Le choix dépend donc de trois éléments : ta tranche marginale à la retraite, ton besoin de sécurité viagère, et ta volonté de transmettre. Aucun n'est fiscal à lui seul, et c'est pourquoi la décision ne se prend pas sur un simulateur.
+
 ### Questions fréquentes
 
 **Peut-on avoir les deux ?**
@@ -636,6 +872,15 @@ Le capital est transmis aux bénéficiaires désignés, avec un régime qui dép
 
 **Le plafond de déduction est-il reportable ?**
 Oui, les plafonds non utilisés des trois années précédentes sont mobilisables.
+
+**Le PER est-il vraiment bloqué jusqu'à la retraite ?**
+Il l'est par principe, mais des cas de déblocage anticipé existent : acquisition de la résidence principale, invalidité, décès du conjoint ou du partenaire de PACS, surendettement, expiration des droits au chômage, cessation d'activité non salariée après liquidation judiciaire. L'achat de la résidence principale est le cas le plus mobilisé, et il change sensiblement l'appréciation du blocage pour un épargnant qui n'est pas encore propriétaire.
+
+**Que devient mon PER si je change d'employeur ?**
+Un PER individuel te suit sans difficulté : il est attaché à toi, pas à l'entreprise. Les plans d'entreprise peuvent, eux, faire l'objet d'un transfert vers un PER individuel, dans les conditions prévues par le contrat. Le réflexe utile en cas de changement d'employeur est de recenser les plans ouverts au fil des carrières : les oublis sont fréquents, et un plan oublié continue de supporter des frais.
+
+**Peut-on verser sans déduire ?**
+Oui, et c'est parfois pertinent. Renoncer à la déduction à l'entrée allège la fiscalité à la sortie, puisque seule la part des versements déduits est imposée au barème. Pour un épargnant faiblement imposé aujourd'hui mais qui anticipe une tranche plus élevée à la retraite, le calcul mérite d'être posé : c'est l'un des rares cas où le PER se conçoit sans son avantage le plus connu.
 
 ### Sources
 

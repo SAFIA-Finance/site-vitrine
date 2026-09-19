@@ -5,7 +5,7 @@ titreSeo: "Clause bénéficiaire : erreurs fréquentes et rédaction"
 description: "Une ligne mal rédigée peut annuler des années d'optimisation. Cinq formulations de clause bénéficiaire et leurs conséquences concrètes."
 categorie: "Assurance-vie"
 date: 2026-09-14
-lecture: 3
+lecture: 5
 essentiel:
   - "La clause bénéficiaire est la **seule ligne** qui détermine qui reçoit le capital et sous quel régime fiscal."
   - "La clause type des contrats est souvent adaptée, mais **pas toujours** à ta situation."
@@ -18,6 +18,10 @@ faq:
     r: "Non, et beaucoup préfèrent la discrétion. Mais il faut alors que quelqu'un sache que le contrat existe."
   - q: "Peut-on désigner une association ?"
     r: "Oui, et les organismes d'intérêt général sont exonérés de tout prélèvement."
+  - q: "Comment modifier concrètement sa clause bénéficiaire ?"
+    r: "Par un courrier daté et signé adressé à l'assureur, ou via l'espace client lorsque le contrat le permet. Aucun formalisme notarié n'est exigé pour une clause simple. Deux précautions : conserve la preuve de l'envoi et l'accusé de prise en compte par l'assureur, et vérifie sur ton relevé suivant que la nouvelle clause est bien celle qui figure au contrat. Une modification non enregistrée n'existe pas."
+  - q: "Que se passe-t-il si un bénéficiaire décède avant moi ?"
+    r: "Tout dépend de la rédaction. Si la clause prévoit « vivants ou représentés », la part du bénéficiaire prédécédé revient à ses propres descendants. À défaut de cette mention, elle est répartie entre les autres bénéficiaires désignés du même rang. Et si plus aucun bénéficiaire n'est vivant, le capital réintègre la succession avec perte totale du régime favorable. C'est exactement l'accident que la clause « mon conjoint » seule, jamais relue, provoque le plus souvent."
 pages:
   - nom: "Cockpit stratégique"
     url: "/cockpit/"
@@ -78,3 +82,23 @@ Vérifie la présence de **« vivants ou représentés »** si tu désignes tes 
 Indique à l'assureur **où trouver les bénéficiaires**. Des capitaux non réclamés attendent chaque année faute de coordonnées.
 
 Fais relire les clauses démembrées ou à options par un professionnel. Ce sont des montages à effets durables.
+
+## L'acceptation du bénéficiaire, et pourquoi elle change tout
+
+C'est le point technique le plus lourd de conséquences, et il est presque toujours découvert trop tard.
+
+Tant que le bénéficiaire n'a pas **accepté** sa désignation, tu peux modifier la clause librement, par simple courrier à l'assureur. Dès qu'il l'a acceptée, dans les formes prévues par le Code des assurances, la clause devient **irrévocable sans son accord écrit**.
+
+Les conséquences dépassent la seule désignation. Un bénéficiaire acceptant peut devoir donner son accord pour un rachat, une avance ou un nantissement du contrat. Autrement dit, tu perds une partie de la libre disposition de ton propre capital.
+
+Deux situations appellent une vigilance particulière. Une acceptation intervenue dans un contexte familial apaisé peut devenir bloquante après un divorce ou une brouille. Et un bénéficiaire désigné à titre de garantie, dans le cadre d'un crédit par exemple, accepte souvent par construction : vérifie ce que cela emporte avant de signer.
+
+La règle de conduite est simple : **ne sollicite jamais l'acceptation d'un bénéficiaire sans raison précise**, et si tu la sollicites, sache exactement ce que tu renonces à pouvoir faire ensuite.
+
+## Où déposer sa clause, et comment la retrouver
+
+Une clause peut être rédigée directement sur le bulletin de souscription, modifiée par avenant, ou **déposée chez un notaire** lorsqu'elle est longue ou sensible.
+
+La clause notariée présente trois avantages : elle permet une rédaction précise sans contrainte de format, elle est conservée par un tiers de confiance, et son existence peut être signalée au fichier central des dispositions de dernières volontés. Le contrat mentionne alors simplement que la clause est déposée chez tel notaire.
+
+Quel que soit le support retenu, une précaution vaut pour tous : **quelqu'un doit savoir que le contrat existe**. Des capitaux non réclamés attendent chaque année faute de bénéficiaires identifiés ou joignables. Indiquer à l'assureur les coordonnées à jour des bénéficiaires, et laisser dans ses papiers personnels la liste de ses contrats, coûte quelques minutes et évite que le dispositif le mieux rédigé ne reste sans effet.

@@ -66,6 +66,32 @@ L'exonération totale du livret A n'est pas nouvelle. Ce qui est nouveau, c'est 
 
 Depuis le 1er janvier 2026, la loi de financement de la Sécurité sociale a porté les prélèvements sociaux de 17,2 % à 18,6 % sur les livrets fiscalisés, le compte-titres, le PEA et l'épargne salariale. Le prélèvement forfaitaire unique atteint désormais 31,4 %. Sur un « super livret » affichant 3 % brut, il reste environ 2,06 % net. Le livret A à 1,70 % net n'en est plus très loin.
 
+### Le calendrier des versements, sur une année entière
+
+La règle des quinzaines paraît anecdotique sur une opération. Sur un rythme mensuel, elle devient une habitude qui rapporte ou qui coûte, selon la date que tu retiens.
+
+**Exemple.** Deux épargnants versent 300 € par mois pendant un an sur leur livret A, à 1,70 %.
+
+*Le premier verse le 1er de chaque mois.* Chaque versement ne produit des intérêts qu'à partir du 16, soit une demi-quinzaine perdue à chaque fois.
+
+*Le second verse le 30 ou le 31.* Chaque versement produit des intérêts dès le 1er du mois suivant.
+
+L'écart annuel se compte en quelques euros, mais il est **gratuit** : même effort d'épargne, même montant, même produit. Sur quinze ans de versements réguliers, l'habitude finit par représenter l'équivalent de plusieurs mois d'intérêts.
+
+La règle symétrique vaut pour les retraits : retire le **1er ou le 16**, jamais la veille. Retirer le 15 fait perdre les intérêts de toute la quinzaine qui s'achève, alors que retirer le 16 les conserve.
+
+Retiens la formulation courte : **verse en fin de quinzaine, retire en début de quinzaine.** C'est le seul réglage du livret A qui dépende entièrement de toi.
+
+### Ce que le livret A ne fait pas
+
+Trois limites, qui expliquent pourquoi il ne peut pas constituer une stratégie d'épargne à lui seul.
+
+**Il ne protège pas du temps.** Indexé sur l'inflation passée, il la suit avec retard. Sur longue période, il préserve à peu près le pouvoir d'achat sans le faire progresser : c'est un outil de conservation, pas de croissance.
+
+**Il plafonne.** 22 950 € de versements, et rien au-delà hormis la capitalisation des intérêts. Une épargne qui dépasse ce montant doit trouver une autre destination, ce que traite **Livret A au plafond : où placer la suite de son épargne**.
+
+**Il n'a pas d'objectif.** Un livret rempli sans raison identifiée n'est pas une épargne de précaution : c'est de l'argent en attente de décision. La question du montant utile est traitée dans **Combien garder sur son livret A ? La règle de l'épargne de précaution**.
+
 ### Questions fréquentes
 
 **Le taux de 1,70 % est-il garanti pour un an ?**
@@ -79,6 +105,12 @@ Oui, dès la naissance. Les retraits sont encadrés jusqu'à sa majorité.
 
 **Les intérêts sont-ils à déclarer aux impôts ?**
 Non. Ils n'apparaissent pas sur la déclaration de revenus.
+
+**Que se passe-t-il si je détiens deux livrets A ?**
+La détention est limitée à un seul livret par personne, et le contrôle est automatisé via le fichier FICOBA de l'administration fiscale. En cas de doublon, l'un des deux est clôturé et les intérêts qu'il a produits peuvent être perdus. Si tu découvres un ancien livret oublié dans une autre banque, signale-le et fais-en fermer un : la régularisation spontanée coûte toujours moins cher que la détection.
+
+**Faut-il fermer son livret A pour ouvrir un LEP ?**
+Non, surtout pas. Les trois livrets réglementés se cumulent : livret A, LDDS et LEP peuvent être détenus en même temps, à raison d'un exemplaire de chaque. Ce n'est pas un choix entre produits, c'est un empilement, et le LEP se remplit en premier puisqu'il rapporte davantage.
 
 ### Sources
 
@@ -136,6 +168,36 @@ Avant de choisir un produit, réponds à une seule question : **dans combien de 
 
 La faute la plus fréquente n'est pas de mal choisir son placement. C'est de laisser 40 000 € dormir sur des livrets pendant vingt ans alors que 10 000 € suffisaient à couvrir les imprévus.
 
+### L'ordre de remplissage, et pourquoi il compte
+
+Quand plusieurs enveloppes sont disponibles, l'ordre n'est pas indifférent. Deux d'entre elles ont une **condition d'accès qui peut disparaître**, les autres non.
+
+**Le LEP d'abord**, si tu y as droit. C'est le seul produit sans risque qui batte nettement l'inflation en 2026, et l'éligibilité dépend d'un revenu fiscal de référence qui peut te faire sortir du dispositif l'année suivante. Un droit ouvert se consomme.
+
+**Le LDDS ensuite**, qui sert exactement le même taux que le livret A pour le même régime fiscal. Il n'y a aucune raison de le laisser vide si le livret A est plein.
+
+**Le livret A enfin**, dont le plafond est le plus élevé et qu'aucune condition ne menace.
+
+**Exemple.** Un foyer éligible au LEP dispose de 45 000 € d'épargne disponible.
+LEP : 10 000 € à 2,50 % = **250 €** par an.
+LDDS : 12 000 € à 1,70 % = **204 €**.
+Livret A : 22 950 € à 1,70 % = **390 €**.
+Total : **844 €** par an, nets de tout impôt et de tout prélèvement social.
+
+Le même montant placé uniquement sur un livret fiscalisé à 3 % brut produirait environ 927 € bruts, soit 636 € nets après le prélèvement forfaitaire de 31,4 %. L'épargne réglementée l'emporte, et elle reste disponible à tout instant.
+
+### Au-delà de 44 950 €, la question change de nature
+
+Une fois les trois livrets saturés, il n'existe plus d'option qui combine disponibilité immédiate, capital garanti et absence de fiscalité. Le choix devient un arbitrage, et il se pose en trois temps.
+
+**Quelle part doit rester disponible sous 48 heures ?** Elle reste sur les livrets, quel que soit leur rendement. C'est leur fonction.
+
+**Quelle part est affectée à un projet daté ?** Elle se place selon l'échéance, pas selon le rendement affiché : moins de deux ans, on ne prend pas de risque de marché.
+
+**Quelle part n'a aucune échéance connue ?** C'est la seule qui puisse supporter un horizon long, donc une exposition aux marchés, et c'est généralement celle qui reste le plus longtemps sur un livret par défaut.
+
+Poser ces trois questions prend dix minutes et évite l'erreur la plus coûteuse de l'épargne française : traiter une épargne de vingt ans avec les réflexes d'une épargne de vingt jours.
+
 ### Questions fréquentes
 
 **Faut-il vider son livret A pour investir ?**
@@ -146,6 +208,15 @@ Oui, les trois sont cumulables, dans la limite d'un exemplaire de chaque par per
 
 **Le PEL est-il une bonne alternative ?**
 Les plans ouverts en 2026 rapportent 2 % brut, mais leurs intérêts sont fiscalisés depuis 2018, ce qui ramène le net autour de 1,37 %. Et les fonds sont bloqués.
+
+**Vaut-il mieux rembourser un crédit par anticipation ou placer ?**
+Compare deux taux, et un seul est certain. Rembourser un crédit te rapporte, à coup sûr, le taux de ce crédit. Placer te rapporte un rendement espéré, garanti seulement sur les livrets réglementés. Si ton crédit coûte plus que 1,70 % net, le rembourser bat mécaniquement le livret A. Deux réserves toutefois : conserve d'abord ton épargne de précaution, qu'aucun remboursement ne remplace, et vérifie les indemnités de remboursement anticipé prévues à ton contrat.
+
+**Un compte à terme est-il une bonne option au-delà des livrets ?**
+Il offre un taux connu d'avance sur une durée fixée, ce qui le rend lisible. Deux limites : les intérêts sont fiscalisés au prélèvement forfaitaire de 31,4 %, ce qui ramène un taux brut de 3 % autour de 2,06 % net, et les fonds sont immobilisés, une sortie anticipée entraînant généralement une réduction du taux servi. Il peut convenir à une somme dont la date d'utilisation est connue, jamais à une épargne de précaution.
+
+**Faut-il ouvrir une assurance-vie même sans somme à y placer ?**
+Souvent oui, pour une raison qui n'a rien à voir avec le rendement : l'antériorité fiscale se compte depuis l'ouverture du contrat, et l'abattement annuel sur les gains ne se débloque qu'après huit ans. Ouvrir tôt avec un montant modeste, c'est « prendre date » : le compteur tourne pendant que l'argent reste ailleurs. C'est l'un des rares gestes patrimoniaux dont le coût est quasi nul et dont la valeur croît mécaniquement avec le temps.
 
 ### Sources
 
@@ -200,6 +271,32 @@ Parce que les banques présentent souvent le LDDS comme un produit distinct, ave
 
 La vraie question n'est pas de choisir entre les deux, mais de savoir **combien** laisser dessus au total. Un couple peut cumuler 69 900 € sur ces deux produits. Très peu de ménages ont besoin d'une réserve de cette taille immédiatement mobilisable.
 
+### Ce que couvre réellement la garantie
+
+La formulation « garanti par l'État » circule beaucoup, et elle mérite d'être précisée, parce que les deux produits ne reposent pas sur le même mécanisme.
+
+Les sommes déposées sur le **livret A** bénéficient d'une garantie de l'État, dans les conditions prévues par le Code monétaire et financier. Celles déposées sur le **LDDS** relèvent du fonds de garantie des dépôts et de résolution, à hauteur de **100 000 € par déposant et par établissement**.
+
+Deux conséquences pratiques en découlent.
+
+La première est que le plafond de 100 000 € s'apprécie **par établissement**, tous comptes confondus : compte courant, LDDS, comptes à terme et autres dépôts du même client dans la même banque s'additionnent. Un ménage disposant de sommes importantes en dépôts a donc intérêt à les répartir sur plusieurs établissements, ce qui n'a rien à voir avec le rendement mais tout avec la protection.
+
+La seconde est que cette garantie ne couvre que des **dépôts**. Les titres, les parts de fonds et les unités de compte d'un contrat d'assurance-vie relèvent de mécanismes différents, avec leurs propres plafonds et leurs propres règles.
+
+Sur un livret réglementé, le risque de perte en capital est donc nul en pratique. C'est précisément ce qui justifie d'y loger l'épargne de précaution, et rien d'autre.
+
+### Combien laisser sur les deux, au total
+
+C'est la seule question qui mérite une réponse, puisque le choix entre les deux produits n'en est pas un.
+
+Le raisonnement ne part pas du plafond disponible mais du **besoin**. Trois à six mois de dépenses courantes, selon la stabilité des revenus et les charges fixes, ce que détaille **Combien garder sur son livret A ? La règle de l'épargne de précaution**.
+
+**Exemple.** Un couple dont les dépenses mensuelles s'élèvent à 2 800 € vise entre 8 400 € et 16 800 €. Le livret A de l'un suffit largement à loger cette somme : le second livret A et les deux LDDS restent alors disponibles pour autre chose, ou vides.
+
+L'erreur symétrique existe aussi, et elle est moins commentée : conserver une réserve trop mince par crainte de « bloquer » de l'argent, puis recourir à un crédit renouvelable au premier imprévu. Le coût de ce crédit dépasse de très loin le manque à gagner d'un livret peu rémunéré.
+
+Entre les deux excès, le bon montant se calcule une fois, se note, et se revoit lorsque la situation change.
+
 ### Questions fréquentes
 
 **Puis-je avoir deux LDDS ?**
@@ -210,6 +307,18 @@ Non, le taux est identique par construction légale.
 
 **Lequel remplir en premier ?**
 Sans importance financièrement. Par commodité, commence par celui dont le plafond est le plus élevé.
+
+**Un enfant peut-il avoir un LDDS ?**
+Non. Le LDDS est réservé aux personnes majeures fiscalement domiciliées en France, à raison d'un par contribuable. C'est l'une des trois différences réelles avec le livret A, qui peut lui être ouvert dès la naissance. Pour un mineur, les options sont donc le livret A et, à partir de douze ans, le livret jeune.
+
+**Que deviennent ces livrets au décès du titulaire ?**
+Ils sont clôturés et les sommes entrent dans la succession, où elles suivent le régime des droits de mutation comme n'importe quel autre avoir. L'exonération fiscale du livret A et du LDDS porte sur les **intérêts** pendant la vie du titulaire : elle ne confère aucun avantage successoral, contrairement à l'assurance-vie. C'est un point que beaucoup découvrent tardivement, et il explique pourquoi une épargne réglementée pleine ne remplace pas une réflexion sur la transmission.
+
+**Faut-il les répartir entre plusieurs banques ?**
+Pour le rendement, non : le taux est identique partout, fixé par l'État. Pour la protection, la question se pose au-delà de 100 000 € de dépôts dans un même établissement, plafond de la garantie applicable aux dépôts par déposant et par banque. Le livret A bénéficiant d'une garantie de l'État, le sujet concerne surtout les autres dépôts détenus dans la même enseigne.
+
+**Peut-on transférer son livret A dans une autre banque ?**
+Il n'existe pas de transfert à proprement parler : la procédure consiste à clôturer le livret dans l'ancienne banque et à en ouvrir un dans la nouvelle, le solde étant viré entre les deux. L'opération est gratuite et n'entraîne aucune perte de capital. Attention seulement au calendrier des quinzaines : organise la clôture et le nouveau versement de façon à ne pas perdre inutilement une quinzaine d'intérêts entre les deux.
 
 ### Sources
 
@@ -269,6 +378,34 @@ L'effet de nom, ensuite. « Épargne populaire » est perçu comme stigmatisant,
 
 L'auto-exclusion, enfin. Ne pars pas du principe que tu n'y as pas droit : vérifie. Un couple avec deux parts fiscales peut y prétendre avec un revenu de référence nettement plus élevé.
 
+### Comment vérifier ton éligibilité en cinq minutes
+
+La démarche est courte, et elle se fait sans se déplacer.
+
+**Étape 1. Trouve ton revenu fiscal de référence.** Il figure en première page de ton avis d'imposition, dans le cadre « Vos références ». C'est ce montant, et non ton salaire net ni ton revenu imposable, qui sert de critère.
+
+**Étape 2. Identifie le bon avis.** Ta banque examine l'avis de l'année précédente, établi sur les revenus de l'année encore antérieure. C'est la source de la plupart des confusions : un revenu qui a baissé cette année n'ouvre pas de droit immédiat, et un revenu qui a augmenté ne ferme pas la porte tout de suite.
+
+**Étape 3. Compte tes parts.** Le plafond dépend du nombre de parts du foyer fiscal. Pour une part, il s'établit à 23 028 € en 2026 ; il augmente ensuite par demi-part, selon un barème publié.
+
+**Étape 4. Compare, sur la source officielle.** Le barème complet figure sur service-public.fr, mis à jour chaque année. C'est la seule référence à utiliser, les montants circulant en ligne étant souvent périmés d'un ou deux exercices.
+
+**Étape 5. Demande l'ouverture.** Le contrôle est automatisé : ta banque interroge directement l'administration fiscale, sans que tu aies à produire ton avis.
+
+Si le doute persiste, ouvre la demande quand même. Le pire résultat est un refus, qui ne coûte rien et te renseigne définitivement.
+
+### Que se passe-t-il quand la situation change
+
+Le LEP suit tes revenus, mais avec un décalage qui joue en ta faveur.
+
+**Si tes revenus dépassent le plafond**, le livret n'est pas fermé immédiatement : tu le conserves encore un an, puis il est clôturé ou transformé si tu restes inéligible. Cette tolérance laisse le temps d'organiser le transfert des sommes vers le livret A ou le LDDS.
+
+**Si tes revenus baissent**, l'éligibilité s'ouvre l'année où l'avis correspondant est pris en compte, donc avec un délai. Une année difficile ouvre un droit l'année suivante : c'est le moment de vérifier, et beaucoup ne le font pas.
+
+**Si ta situation familiale évolue**, mariage, PACS, naissance, séparation, le nombre de parts change et le plafond avec lui. Un changement de composition du foyer justifie donc une nouvelle vérification, dans un sens comme dans l'autre.
+
+Le réflexe utile tient en une phrase : **vérifie ton éligibilité chaque année, à réception de ton avis d'imposition.** C'est le seul produit d'épargne dont le droit d'accès se réexamine annuellement, et c'est aussi le mieux rémunéré sans risque.
+
 ### Questions fréquentes
 
 **Le LEP est-il cumulable avec le livret A ?**
@@ -282,6 +419,18 @@ Tu conserves le LEP l'année suivante, puis il est clôturé ou transformé si t
 
 **Y a-t-il des frais ?**
 Aucun frais d'ouverture ni de tenue de compte sur le LEP.
+
+**Ma banque me le proposera-t-elle spontanément ?**
+Rarement, et c'est l'une des explications du très faible taux de recours. Le produit est peu rémunérateur pour l'établissement, et son nom est perçu comme stigmatisant par une partie des ayants droit. La démarche part donc presque toujours du client : demande explicitement l'ouverture d'un LEP, ta banque vérifiera l'éligibilité directement auprès de l'administration fiscale.
+
+**Chaque membre d'un couple peut-il avoir son LEP ?**
+Oui, le LEP s'apprécie par contribuable, et non par foyer : deux conjoints éligibles peuvent détenir chacun le leur, soit 20 000 € placés à 2,50 %. C'est le plafond de revenu fiscal de référence qui s'apprécie, lui, au niveau du foyer et en fonction du nombre de parts. Un couple éligible a donc tout intérêt à ouvrir les deux, et non un seul.
+
+**Que faire si le LEP est déjà plein ?**
+Poursuivre dans l'ordre logique : le livret A et le LDDS, qui servent le même taux de 1,70 % avec la même exonération totale. Les trois livrets réunis portent l'épargne défiscalisée et immédiatement disponible à 44 950 € par personne. Au-delà, il faut accepter un arbitrage entre blocage et risque, ce que traite **Livret A au plafond : où placer la suite de son épargne**.
+
+**Le plafond du LEP tient-il compte des intérêts ?**
+Comme pour le livret A, le plafond de 10 000 € porte sur les **versements**, pas sur le solde. Les intérêts continuent d'être crédités et peuvent porter le compte au-delà, sans que cela pose la moindre difficulté. Une fois le plafond de versement atteint, tu ne peux simplement plus alimenter le livret : il continue de produire ses 2,50 % sur la totalité du solde, intérêts capitalisés compris.
 
 ### Sources
 
@@ -341,6 +490,32 @@ Trois critères, dans cet ordre : disponibilité immédiate, absence de risque s
 
 Évite en revanche de la laisser sur le compte courant, où elle ne rapporte rien et se dépense sans décision consciente.
 
+### La méthode en quatre lignes
+
+Le calcul se pose une fois, sur une feuille, et se revoit quand la situation change.
+
+**Ligne 1. Tes dépenses mensuelles de croisière.** Loyer ou crédit, alimentation, énergie, transport, assurances, abonnements. Hors vacances et hors achats exceptionnels.
+
+**Ligne 2. Ton coefficient.** Trois si tes revenus sont stables et partagés, six si tu es seul apporteur, indépendant, ou propriétaire avec un crédit. Entre les deux selon ta situation.
+
+**Ligne 3. Tes risques datés mais non programmés.** Une voiture ancienne, une chaudière en fin de vie, une franchise élevée. Ajoute leur montant, pas leur probabilité.
+
+**Ligne 4. Le total, et ce que tu as réellement.** L'écart entre les deux est la vraie information, et c'est presque toujours un excédent.
+
+**Exemple.** 2 200 € de dépenses, coefficient 4, plus 3 000 € de risques identifiés : la cible s'établit à 11 800 €. Un ménage qui détient 35 000 € sur ses livrets dispose donc de 23 200 € sans fonction assignée.
+
+### Ce que devient l'excédent
+
+Il ne s'agit pas de le placer en bloc, mais de lui redonner une destination. Trois questions suffisent.
+
+**Y a-t-il un projet daté dans les deux ans ?** Apport immobilier, travaux, véhicule. Cette part reste sur un livret, quel que soit son rendement : un projet à échéance courte ne supporte aucun risque de marché.
+
+**Y a-t-il un projet à cinq ou huit ans ?** Elle peut aller vers un fonds en euros, dont le capital est garanti et la disponibilité correcte, avec une part limitée d'unités de compte selon ta tolérance.
+
+**Le reste a-t-il une échéance ?** Si la réponse est non, c'est de l'épargne de long terme, et la traiter comme une épargne de précaution lui coûte chaque année la différence entre 1,70 % et ce qu'elle aurait pu produire.
+
+Une précision honnête pour finir : rien n'oblige à investir. Conserver une réserve confortable au-delà du strict nécessaire est un choix légitime, à condition qu'il soit **choisi**. Ce qui coûte, ce n'est pas la prudence, c'est l'absence de décision.
+
 ### Questions fréquentes
 
 **Faut-il inclure les vacances et les gros achats ?**
@@ -351,6 +526,21 @@ Ton logement n'est pas liquide. Il ne remplace pas une épargne de précaution, 
 
 **Le crédit renouvelable peut-il jouer ce rôle ?**
 Non. Son coût est sans commune mesure avec le manque à gagner d'un livret peu rémunéré.
+
+**Un indépendant doit-il viser davantage ?**
+Oui, et pour deux raisons qui se cumulent. Ses revenus sont irréguliers, ce qui justifie le haut de la fourchette, six mois de dépenses au minimum. Et il supporte des échéances propres, cotisations sociales et régularisations, qui tombent sans rapport avec sa trésorerie du moment. La pratique la plus sûre consiste à tenir deux réserves distinctes : l'épargne de précaution du foyer d'un côté, la provision pour charges professionnelles de l'autre, sur des supports séparés pour ne pas les confondre.
+
+**Être propriétaire change-t-il le calcul ?**
+Oui, à la hausse. Un logement n'est pas liquide : il ne se transforme pas en trésorerie le jour d'un imprévu. Et la propriété ajoute des charges que le locataire n'a pas, travaux de copropriété, ravalement, toiture, chaudière. Ces dépenses ne sont pas des imprévus mais des échéances dont on ignore la date : elles méritent une ligne dédiée dans le calcul, en plus des mois de dépenses courantes.
+
+**Comment reconstituer une réserve entamée ?**
+Par un virement automatique programmé le lendemain de la paie, d'un montant modeste mais tenu. Le mécanisme compte plus que la somme : une épargne qui dépend d'un arbitrage mensuel finit par ne plus se faire. Et tant que la réserve n'est pas revenue à sa cible, tout excédent va en priorité vers elle, avant tout autre projet d'épargne.
+
+**Faut-il une réserve distincte par projet ?**
+Séparer aide, à condition de ne pas multiplier les comptes. Deux poches suffisent dans la plupart des cas : l'épargne de précaution, intouchable et réservée aux imprévus, et les projets datés, dont l'échéance commande le support. Les mélanger sur un même livret produit toujours le même effet : la réserve se fait grignoter par les projets, et l'imprévu arrive sur un compte vide.
+
+**Une réserve trop importante est-elle vraiment un problème ?**
+Ce n'est pas une faute, c'est un coût invisible. Une somme laissée quinze ans sur un livret à 1,70 % alors qu'elle n'avait aucune fonction de précaution a renoncé à un rendement qu'elle ne récupérera pas. La prudence n'est jamais critiquable ; ce qui l'est, c'est l'absence de décision. Chiffre ta cible une fois, compare-la à ce que tu détiens, et fais un choix conscient de ce qui dépasse.
 
 ### Sources
 
@@ -410,6 +600,31 @@ Un point mérite d'être compris : le livret A est **indexé sur l'inflation pas
 
 Sur longue période, le livret A tend donc à peu près à préserver le pouvoir d'achat, sans le faire progresser. C'est un outil de conservation, pas de croissance. Le confondre avec un placement, c'est se tromper d'objectif.
 
+### Les deux composantes, et laquelle regarder
+
+La formule combine deux grandeurs qui ne bougent ni au même rythme ni pour les mêmes raisons. Savoir laquelle domine te dit à quoi t'attendre.
+
+**L'inflation hors tabac** réagit aux prix de l'énergie, de l'alimentation et des services. Elle est publiée chaque mois par l'INSEE, ce qui permet de suivre la moyenne semestrielle en temps réel.
+
+**Le taux €STR** reflète le coût de l'argent au jour le jour entre banques de la zone euro. Il suit de très près les décisions de la Banque centrale européenne sur ses taux directeurs : quand la BCE baisse, l'€STR baisse dans les jours qui suivent.
+
+La conséquence pratique est utile à connaître. En période de désinflation avec taux directeurs encore élevés, c'est l'€STR qui soutient le taux du livret A. En période de reprise inflationniste avec taux bas, c'est l'inflation qui le tire. **Le taux ne baisse fortement que lorsque les deux reculent ensemble**, ce qui explique sa relative stabilité d'un semestre à l'autre.
+
+Un plancher légal de 0,50 % s'applique en tout état de cause, et le résultat est arrondi au dixième de point le plus proche. Cet arrondi n'est pas anodin : un calcul à 1,74 % donne 1,7 %, un calcul à 1,76 % donne 1,8 %.
+
+### Ce que la révision change pour toi, concrètement
+
+Une variation de taux ne se répercute pas le jour même sur l'ensemble de ton épargne, et la mécanique mérite d'être comprise.
+
+Le nouveau taux s'applique **à compter de la date de révision**, sur le capital présent à ce moment-là, et pour les quinzaines suivantes. Les intérêts déjà acquis au titre des quinzaines écoulées ne sont pas recalculés : ils sont définitivement acquis au taux alors en vigueur.
+
+**Exemple.** Un livret A au plafond, 22 950 €, lors d'un passage de 1,70 % à 1,50 % au 1er février.
+Sur le premier mois de l'année, les intérêts courent à 1,70 %.
+À compter du 1er février, ils courent à 1,50 %, soit environ 344 € en rythme annuel contre 390 € auparavant.
+L'écart sur l'année dépend donc de la date de révision, pas seulement de l'ampleur de la variation.
+
+Deux réflexes en découlent. Il n'y a **rien à faire** lors d'une révision : aucune démarche, aucun arbitrage à passer, le taux s'applique automatiquement. Et il est inutile de « sortir avant une baisse » : le livret A n'ayant ni valeur de part ni pénalité de sortie, une baisse de taux ne détruit aucun capital, elle réduit seulement le rendement à venir.
+
 ### Questions fréquentes
 
 **Le taux peut-il descendre à zéro ?**
@@ -420,6 +635,15 @@ Pour la stabilité, pour les épargnants comme pour les emprunteurs dont les cr�
 
 **Le taux du LDDS suit-il toujours ?**
 Oui, il est légalement aligné sur celui du livret A.
+
+**Le taux peut-il changer en dehors des deux révisions annuelles ?**
+C'est prévu à titre exceptionnel : en cas de variation importante des paramètres de la formule, une révision anticipée reste possible. Dans les faits, le calendrier des 1er février et 1er août est respecté, et c'est sur lui qu'il faut raisonner. Une annonce hors calendrier signalerait un mouvement de taux ou d'inflation de grande ampleur.
+
+**Pourquoi le LEP ne suit-il pas la même formule ?**
+Parce qu'il poursuit un objectif différent. Le livret A est un produit universel dont le coût budgétaire est massif, ce qui laisse peu de marge pour s'écarter de la formule. Le LEP est ciblé sur les ménages modestes et son encours est bien plus faible : le gouvernement peut y maintenir un taux supérieur à ce que donnerait le calcul, comme en 2026 où la formule menait vers 2,2 % et où 2,50 % ont été conservés. Cette asymétrie est instructive, et elle explique pourquoi l'écart entre les deux produits varie dans le temps.
+
+**Que faire avant une révision annoncée à la baisse ?**
+Rien, et c'est important à comprendre. Le livret A n'a ni valeur de part, ni pénalité de sortie, ni date de valeur défavorable : une baisse de taux ne détruit aucun capital, elle réduit seulement le rendement futur. Déplacer ses fonds dans l'urgence coûte des quinzaines d'intérêts et ne protège de rien.
 
 ### Sources
 
@@ -476,6 +700,30 @@ Le classement par rendement net en 2026 est simple : LEP (2,50 %), puis livret A
 
 Les PEL ouverts **avant 2018** échappent à cette logique. Certains servent 2,5 % ou plus, totalement exonérés d'impôt sur le revenu. Si tu en détiens un, ne le clôture pas sans avoir vérifié son taux et sa date d'ouverture : c'est parfois la meilleure ligne de tout un patrimoine.
 
+### Le droit à prêt, ce qu'il vaut réellement
+
+C'est le seul argument qui puisse encore justifier un PEL ouvert aujourd'hui, et il se chiffre plutôt qu'il ne se suppose.
+
+Le principe : en épargnant, tu acquiers des **droits à prêt**, c'est-à-dire la possibilité d'emprunter une certaine somme à un taux fixé d'avance, lié à celui de ton plan. Ces droits dépendent des intérêts acquis pendant la phase d'épargne, et le montant empruntable est plafonné.
+
+Sa valeur se calcule en une soustraction : **taux du droit à prêt moins taux de marché au moment où tu emprunteras**. Si le marché propose moins cher, le droit ne vaut rien. S'il propose plus cher, l'écart multiplié par le capital emprunté et par la durée donne le gain réel.
+
+Deux difficultés rendent ce calcul incertain. Tu ne connais pas les taux de marché dans quatre ou dix ans, et le montant empruntable est souvent inférieur à ce qu'exige un projet immobilier réel : le droit à prêt couvre rarement l'opération à lui seul.
+
+Ajoute une possibilité peu connue : les droits à prêt peuvent, sous conditions, être **cédés à un membre de la famille** titulaire d'un plan d'épargne logement. Cela élargit leur utilité lorsqu'ils ne servent pas à leur titulaire.
+
+### La règle de décision, produit par produit
+
+**Un PEL ouvert avant 2018 :** conserve-le, presque toujours. Vérifie son taux sur ton relevé et sa date d'ouverture. Certains servent davantage que n'importe quel placement garanti accessible aujourd'hui, avec une exonération d'impôt sur le revenu qui n'existe plus.
+
+**Un PEL ouvert en 2026 :** il ne se justifie que par le droit à prêt, et seulement si un projet immobilier est réellement envisagé dans l'horizon du plan. Comme placement, il rapporte moins que le livret A tout en bloquant les fonds et en imposant des versements.
+
+**Un CEL :** peu d'arguments à rendement net inférieur de moitié à celui du livret A. Sa souplesse et son droit à prêt modeste peuvent compléter un PEL, pas le remplacer.
+
+**Un livret jeune :** ouvre-le, même au taux minimum légal. Le plafond est faible, l'exonération totale, et l'intérêt principal n'est pas financier : c'est un compte dont un adolescent dispose lui-même, distinct de celui que ses parents ont ouvert pour lui.
+
+Dans tous les cas, la hiérarchie reste la même : **LEP, puis livret A et LDDS, puis le reste.** L'épargne logement ne se conçoit que pour ce qu'elle apporte en plus, jamais à la place des livrets pleinement défiscalisés.
+
 ### Questions fréquentes
 
 **Faut-il clôturer un vieux PEL ?**
@@ -486,6 +734,15 @@ Les fonds sont indisponibles pendant quatre ans sous peine de perdre les avantag
 
 **Peut-on cumuler PEL et CEL ?**
 Oui, dans le même établissement, et leurs droits à prêt peuvent se combiner.
+
+**Peut-on transférer un PEL dans une autre banque ?**
+Le transfert est possible, mais il n'a rien d'automatique : il suppose l'accord de l'établissement d'arrivée, des frais sont généralement prélevés, et toutes les banques ne l'acceptent pas. L'intérêt du transfert est de conserver l'antériorité du plan et son taux, particulièrement précieux sur un PEL ouvert avant 2018. Avant d'engager la démarche, fais confirmer par écrit que le taux d'origine sera maintenu.
+
+**Le livret jeune se transforme-t-il automatiquement à 25 ans ?**
+Il est clôturé au plus tard à la fin de l'année du vingt-cinquième anniversaire, et les sommes sont virées sur un autre compte du titulaire. Anticipe ce moment plutôt que de le subir : c'est l'occasion de basculer vers un livret A ou un LDDS, et souvent le premier arbitrage d'épargne réel d'un jeune adulte.
+
+**Un vieux PEL peut-il encore recevoir des versements ?**
+Cela dépend de son âge et de ses conditions d'origine, les versements n'étant possibles que pendant une durée limitée après l'ouverture. Vérifie ton relevé avant toute décision : sur un plan ancien à taux élevé, la capacité à verser encore, quand elle existe, vaut souvent mieux que n'importe quel placement garanti accessible aujourd'hui.
 
 ### Sources
 

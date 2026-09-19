@@ -5,7 +5,7 @@ titreSeo: "Livret A 2026 : taux de 1,70 %, plafond 22 950 €"
 description: "Le taux du livret A est passé à 1,70 % le 1er août 2026. Plafond, calcul par quinzaine, fiscalité : le fonctionnement avec des exemples chiffrés."
 categorie: "Épargne réglementée"
 date: 2026-09-14
-lecture: 3
+lecture: 5
 essentiel:
   - "Le taux est de **1,70 % depuis le 1er août 2026**, contre 1,50 % au premier semestre."
   - "Le **plafond de versement est de 22 950 €**, mais les intérêts peuvent porter le solde au-delà."
@@ -20,6 +20,10 @@ faq:
     r: "Oui, dès la naissance. Les retraits sont encadrés jusqu'à sa majorité."
   - q: "Les intérêts sont-ils à déclarer aux impôts ?"
     r: "Non. Ils n'apparaissent pas sur la déclaration de revenus."
+  - q: "Que se passe-t-il si je détiens deux livrets A ?"
+    r: "La détention est limitée à un seul livret par personne, et le contrôle est automatisé via le fichier FICOBA de l'administration fiscale. En cas de doublon, l'un des deux est clôturé et les intérêts qu'il a produits peuvent être perdus. Si tu découvres un ancien livret oublié dans une autre banque, signale-le et fais-en fermer un : la régularisation spontanée coûte toujours moins cher que la détection."
+  - q: "Faut-il fermer son livret A pour ouvrir un LEP ?"
+    r: "Non, surtout pas. Les trois livrets réglementés se cumulent : livret A, LDDS et LEP peuvent être détenus en même temps, à raison d'un exemplaire de chaque. Ce n'est pas un choix entre produits, c'est un empilement, et le LEP se remplit en premier puisqu'il rapporte davantage."
 pages:
   - nom: "Particuliers"
     url: "/particuliers/"
@@ -74,3 +78,29 @@ Pour comparer honnêtement, il faut regarder l'inflation. Si les prix montent de
 L'exonération totale du livret A n'est pas nouvelle. Ce qui est nouveau, c'est l'écart avec le reste.
 
 Depuis le 1er janvier 2026, la loi de financement de la Sécurité sociale a porté les prélèvements sociaux de 17,2 % à 18,6 % sur les livrets fiscalisés, le compte-titres, le PEA et l'épargne salariale. Le prélèvement forfaitaire unique atteint désormais 31,4 %. Sur un « super livret » affichant 3 % brut, il reste environ 2,06 % net. Le livret A à 1,70 % net n'en est plus très loin.
+
+## Le calendrier des versements, sur une année entière
+
+La règle des quinzaines paraît anecdotique sur une opération. Sur un rythme mensuel, elle devient une habitude qui rapporte ou qui coûte, selon la date que tu retiens.
+
+**Exemple.** Deux épargnants versent 300 € par mois pendant un an sur leur livret A, à 1,70 %.
+
+*Le premier verse le 1er de chaque mois.* Chaque versement ne produit des intérêts qu'à partir du 16, soit une demi-quinzaine perdue à chaque fois.
+
+*Le second verse le 30 ou le 31.* Chaque versement produit des intérêts dès le 1er du mois suivant.
+
+L'écart annuel se compte en quelques euros, mais il est **gratuit** : même effort d'épargne, même montant, même produit. Sur quinze ans de versements réguliers, l'habitude finit par représenter l'équivalent de plusieurs mois d'intérêts.
+
+La règle symétrique vaut pour les retraits : retire le **1er ou le 16**, jamais la veille. Retirer le 15 fait perdre les intérêts de toute la quinzaine qui s'achève, alors que retirer le 16 les conserve.
+
+Retiens la formulation courte : **verse en fin de quinzaine, retire en début de quinzaine.** C'est le seul réglage du livret A qui dépende entièrement de toi.
+
+## Ce que le livret A ne fait pas
+
+Trois limites, qui expliquent pourquoi il ne peut pas constituer une stratégie d'épargne à lui seul.
+
+**Il ne protège pas du temps.** Indexé sur l'inflation passée, il la suit avec retard. Sur longue période, il préserve à peu près le pouvoir d'achat sans le faire progresser : c'est un outil de conservation, pas de croissance.
+
+**Il plafonne.** 22 950 € de versements, et rien au-delà hormis la capitalisation des intérêts. Une épargne qui dépasse ce montant doit trouver une autre destination, ce que traite **Livret A au plafond : où placer la suite de son épargne**.
+
+**Il n'a pas d'objectif.** Un livret rempli sans raison identifiée n'est pas une épargne de précaution : c'est de l'argent en attente de décision. La question du montant utile est traitée dans **Combien garder sur son livret A ? La règle de l'épargne de précaution**.

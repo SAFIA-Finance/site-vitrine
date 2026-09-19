@@ -5,7 +5,7 @@ titreSeo: "PER ou assurance-vie : comment trancher en 2026"
 description: "Le PER déduit à l'entrée et impose à la sortie, l'assurance-vie fait l'inverse. Comment choisir selon ta tranche marginale, avec un exemple chiffré."
 categorie: "Assurance-vie"
 date: 2026-09-14
-lecture: 3
+lecture: 5
 essentiel:
   - "Le **PER** offre une déduction fiscale à l'entrée, mais bloque les fonds jusqu'à la retraite et impose la sortie."
   - "L'**assurance-vie** n'offre aucun avantage à l'entrée, mais reste disponible et bénéficie d'un régime doux après huit ans."
@@ -18,6 +18,12 @@ faq:
     r: "Le capital est transmis aux bénéficiaires désignés, avec un régime qui dépend de l'âge au décès."
   - q: "Le plafond de déduction est-il reportable ?"
     r: "Oui, les plafonds non utilisés des trois années précédentes sont mobilisables."
+  - q: "Le PER est-il vraiment bloqué jusqu'à la retraite ?"
+    r: "Il l'est par principe, mais des cas de déblocage anticipé existent : acquisition de la résidence principale, invalidité, décès du conjoint ou du partenaire de PACS, surendettement, expiration des droits au chômage, cessation d'activité non salariée après liquidation judiciaire. L'achat de la résidence principale est le cas le plus mobilisé, et il change sensiblement l'appréciation du blocage pour un épargnant qui n'est pas encore propriétaire."
+  - q: "Que devient mon PER si je change d'employeur ?"
+    r: "Un PER individuel te suit sans difficulté : il est attaché à toi, pas à l'entreprise. Les plans d'entreprise peuvent, eux, faire l'objet d'un transfert vers un PER individuel, dans les conditions prévues par le contrat. Le réflexe utile en cas de changement d'employeur est de recenser les plans ouverts au fil des carrières : les oublis sont fréquents, et un plan oublié continue de supporter des frais."
+  - q: "Peut-on verser sans déduire ?"
+    r: "Oui, et c'est parfois pertinent. Renoncer à la déduction à l'entrée allège la fiscalité à la sortie, puisque seule la part des versements déduits est imposée au barème. Pour un épargnant faiblement imposé aujourd'hui mais qui anticipe une tranche plus élevée à la retraite, le calcul mérite d'être posé : c'est l'un des rares cas où le PER se conçoit sans son avantage le plus connu."
 pages:
   - nom: "Cockpit stratégique"
     url: "/cockpit/"
@@ -70,3 +76,27 @@ Sur ce profil, le PER ressort gagnant, principalement grâce à l'écart de onze
 La loi de financement de la Sécurité sociale pour 2026 a relevé les prélèvements sociaux de 17,2 % à 18,6 % sur les revenus du capital. Les gains du PER supportent le nouveau taux, tandis que l'assurance-vie a été explicitement exclue de la hausse.
 
 Ce différentiel de 1,4 point sur les gains ne renverse pas l'arbitrage, dominé par l'écart de tranches. Mais il joue à la marge, et il va dans le sens de l'assurance-vie.
+
+## Le piège du plafond de déduction
+
+L'avantage du PER n'est pas illimité : les versements ne sont déductibles que dans la limite d'un plafond annuel, qui dépend de tes revenus professionnels de l'année précédente et du plafond annuel de la sécurité sociale.
+
+Trois conséquences pratiques, souvent découvertes après coup.
+
+**Verser au-delà du plafond ne procure aucune déduction** sur l'excédent. Ces sommes restent dans le PER, avec son blocage, sans l'avantage qui le justifiait. Vérifie ton plafond disponible avant de verser : il figure sur ton avis d'imposition.
+
+**Les plafonds non utilisés des trois années précédentes sont reportables**, ce qui permet un versement exceptionnel plus important, par exemple l'année d'une prime ou d'une cession.
+
+**Le plafond peut être mutualisé** entre conjoints mariés ou pacsés soumis à imposition commune, sur option. C'est utile lorsque l'un dispose d'un plafond élevé et l'autre de la capacité d'épargne.
+
+Retiens la séquence : **d'abord le plafond disponible, ensuite le montant à verser.** L'inverse conduit à immobiliser de l'épargne sans contrepartie fiscale, ce qui est exactement ce que le PER doit éviter.
+
+## Sortie en capital ou en rente : deux fiscalités différentes
+
+À la retraite, le PER se dénoue en capital, en rente, ou en combinant les deux. Le choix n'est pas neutre, et il se prépare bien avant l'échéance.
+
+**En capital**, la part correspondant aux versements déduits est imposée au barème de l'impôt sur le revenu, et les gains au prélèvement forfaitaire. Une sortie en une seule fois peut te propulser dans une tranche supérieure l'année concernée : fractionner la sortie sur plusieurs exercices réduit souvent la facture, et c'est possible sur la plupart des contrats.
+
+**En rente**, les sommes sont imposées selon le régime des pensions, avec l'abattement applicable, et soumises aux prélèvements sociaux selon des modalités propres. La rente apporte une sécurité viagère que le capital n'offre pas, au prix d'une perte de disponibilité et d'un capital qui ne se transmet pas dans les mêmes conditions.
+
+Le choix dépend donc de trois éléments : ta tranche marginale à la retraite, ton besoin de sécurité viagère, et ta volonté de transmettre. Aucun n'est fiscal à lui seul, et c'est pourquoi la décision ne se prend pas sur un simulateur.

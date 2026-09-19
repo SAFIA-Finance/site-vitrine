@@ -5,7 +5,7 @@ titreSeo: "LEP 2026 : 2,50 %, conditions de revenus et plafond"
 description: "Le LEP rapporte 2,50 % net en 2026, soit 0,80 point de plus que le livret A. Conditions de revenus, plafond de 10 000 €, ouverture : le mode d'emploi."
 categorie: "Épargne réglementée"
 date: 2026-09-14
-lecture: 2
+lecture: 4
 essentiel:
   - "Le LEP sert **2,50 %** net, taux maintenu jusqu'au 31 janvier 2027."
   - "Le plafond de versement est de **10 000 €**."
@@ -20,6 +20,14 @@ faq:
     r: "Tu conserves le LEP l'année suivante, puis il est clôturé ou transformé si tu restes inéligible."
   - q: "Y a-t-il des frais ?"
     r: "Aucun frais d'ouverture ni de tenue de compte sur le LEP."
+  - q: "Ma banque me le proposera-t-elle spontanément ?"
+    r: "Rarement, et c'est l'une des explications du très faible taux de recours. Le produit est peu rémunérateur pour l'établissement, et son nom est perçu comme stigmatisant par une partie des ayants droit. La démarche part donc presque toujours du client : demande explicitement l'ouverture d'un LEP, ta banque vérifiera l'éligibilité directement auprès de l'administration fiscale."
+  - q: "Chaque membre d'un couple peut-il avoir son LEP ?"
+    r: "Oui, le LEP s'apprécie par contribuable, et non par foyer : deux conjoints éligibles peuvent détenir chacun le leur, soit 20 000 € placés à 2,50 %. C'est le plafond de revenu fiscal de référence qui s'apprécie, lui, au niveau du foyer et en fonction du nombre de parts. Un couple éligible a donc tout intérêt à ouvrir les deux, et non un seul."
+  - q: "Que faire si le LEP est déjà plein ?"
+    r: "Poursuivre dans l'ordre logique : le livret A et le LDDS, qui servent le même taux de 1,70 % avec la même exonération totale. Les trois livrets réunis portent l'épargne défiscalisée et immédiatement disponible à 44 950 € par personne. Au-delà, il faut accepter un arbitrage entre blocage et risque, ce que traite **Livret A au plafond : où placer la suite de son épargne**."
+  - q: "Le plafond du LEP tient-il compte des intérêts ?"
+    r: "Comme pour le livret A, le plafond de 10 000 € porte sur les **versements**, pas sur le solde. Les intérêts continuent d'être crédités et peuvent porter le compte au-delà, sans que cela pose la moindre difficulté. Une fois le plafond de versement atteint, tu ne peux simplement plus alimenter le livret : il continue de produire ses 2,50 % sur la totalité du solde, intérêts capitalisés compris."
 pages:
   - nom: "Particuliers"
     url: "/particuliers/"
@@ -63,3 +71,31 @@ La méconnaissance, d'abord : beaucoup pensent que le LEP est réservé aux mini
 L'effet de nom, ensuite. « Épargne populaire » est perçu comme stigmatisant, et les banques n'en font pas la promotion : le produit leur rapporte peu.
 
 L'auto-exclusion, enfin. Ne pars pas du principe que tu n'y as pas droit : vérifie. Un couple avec deux parts fiscales peut y prétendre avec un revenu de référence nettement plus élevé.
+
+## Comment vérifier ton éligibilité en cinq minutes
+
+La démarche est courte, et elle se fait sans se déplacer.
+
+**Étape 1. Trouve ton revenu fiscal de référence.** Il figure en première page de ton avis d'imposition, dans le cadre « Vos références ». C'est ce montant, et non ton salaire net ni ton revenu imposable, qui sert de critère.
+
+**Étape 2. Identifie le bon avis.** Ta banque examine l'avis de l'année précédente, établi sur les revenus de l'année encore antérieure. C'est la source de la plupart des confusions : un revenu qui a baissé cette année n'ouvre pas de droit immédiat, et un revenu qui a augmenté ne ferme pas la porte tout de suite.
+
+**Étape 3. Compte tes parts.** Le plafond dépend du nombre de parts du foyer fiscal. Pour une part, il s'établit à 23 028 € en 2026 ; il augmente ensuite par demi-part, selon un barème publié.
+
+**Étape 4. Compare, sur la source officielle.** Le barème complet figure sur service-public.fr, mis à jour chaque année. C'est la seule référence à utiliser, les montants circulant en ligne étant souvent périmés d'un ou deux exercices.
+
+**Étape 5. Demande l'ouverture.** Le contrôle est automatisé : ta banque interroge directement l'administration fiscale, sans que tu aies à produire ton avis.
+
+Si le doute persiste, ouvre la demande quand même. Le pire résultat est un refus, qui ne coûte rien et te renseigne définitivement.
+
+## Que se passe-t-il quand la situation change
+
+Le LEP suit tes revenus, mais avec un décalage qui joue en ta faveur.
+
+**Si tes revenus dépassent le plafond**, le livret n'est pas fermé immédiatement : tu le conserves encore un an, puis il est clôturé ou transformé si tu restes inéligible. Cette tolérance laisse le temps d'organiser le transfert des sommes vers le livret A ou le LDDS.
+
+**Si tes revenus baissent**, l'éligibilité s'ouvre l'année où l'avis correspondant est pris en compte, donc avec un délai. Une année difficile ouvre un droit l'année suivante : c'est le moment de vérifier, et beaucoup ne le font pas.
+
+**Si ta situation familiale évolue**, mariage, PACS, naissance, séparation, le nombre de parts change et le plafond avec lui. Un changement de composition du foyer justifie donc une nouvelle vérification, dans un sens comme dans l'autre.
+
+Le réflexe utile tient en une phrase : **vérifie ton éligibilité chaque année, à réception de ton avis d'imposition.** C'est le seul produit d'épargne dont le droit d'accès se réexamine annuellement, et c'est aussi le mieux rémunéré sans risque.

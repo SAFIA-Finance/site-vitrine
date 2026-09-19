@@ -5,7 +5,7 @@ titreSeo: "Rachat partiel assurance-vie : calcul de l'impôt 2026"
 description: "La formule du rachat partiel, la part de gains, le taux applicable : trois exemples chiffrés pour savoir exactement ce que coûtera ton retrait."
 categorie: "Assurance-vie"
 date: 2026-09-14
-lecture: 3
+lecture: 5
 essentiel:
   - "Un rachat partiel contient toujours **une part de capital** (non imposée) et **une part de gains** (imposée)."
   - "La proportion se calcule au prorata : montant racheté × (gains totaux ÷ valeur du contrat)."
@@ -18,6 +18,10 @@ faq:
     r: "Ils sont rares sur les contrats récents, courants sur les contrats anciens. Vérifie tes conditions générales."
   - q: "Combien de temps pour recevoir les fonds ?"
     r: "L'assureur dispose légalement de deux mois, mais la pratique courante est de quelques jours à deux semaines."
+  - q: "Puis-je demander à ne retirer que du capital ?"
+    r: "Non, et c'est une question fréquente. La règle du prorata est d'ordre fiscal : tout rachat contient nécessairement une fraction de capital et une fraction de gains, dans la proportion exacte du contrat. Aucune instruction donnée à l'assureur ne permet de désigner l'un plutôt que l'autre. Ce que tu peux choisir, en revanche, c'est le **support** sur lequel le rachat est prélevé, fonds en euros ou unités de compte : c'est une décision d'allocation, sans effet sur le calcul de l'impôt."
+  - q: "Un rachat peut-il me faire repasser sous le seuil de 150 000 € ?"
+    r: "Oui, et c'est un effet utile. Le seuil s'apprécie sur les primes versées **nettes des rachats** déjà effectués. Un contribuable ayant dépassé 150 000 € de primes peut donc, après des rachats significatifs, repasser sous le seuil et retrouver le taux de 7,5 % au lieu de 12,8 % sur ses retraits suivants. Sur des montants importants, cela vaut la peine de demander à l'assureur l'état exact de tes primes nettes avant de programmer un nouveau rachat."
 pages:
   - nom: "Cockpit stratégique"
     url: "/cockpit/"
@@ -79,3 +83,25 @@ Vérifie **l'âge du contrat**. Si tu es à quelques mois des huit ans, attendre
 Vérifie **le calendrier civil**. Un retrait scindé entre décembre et janvier mobilise deux abattements.
 
 Vérifie **l'alternative de l'avance**. Certains contrats permettent d'obtenir une avance, c'est-à-dire un prêt de l'assureur garanti par le contrat, sans déclencher d'imposition. Elle a un coût, généralement le rendement du fonds en euros majoré d'une marge, et elle doit être remboursée. Cela peut être pertinent pour un besoin court, cela ne l'est pas pour un besoin définitif.
+
+## Rachat partiel ou rachat total : ce que tu perds en clôturant
+
+La différence ne tient pas au calcul de l'impôt, identique dans les deux cas, mais à ce qui subsiste après.
+
+Un **rachat partiel** laisse le contrat vivant. Tu conserves sa date d'ouverture, donc son antériorité fiscale, et l'abattement annuel reste mobilisable les années suivantes. Le contrat continue de produire, et la clause bénéficiaire reste en place.
+
+Un **rachat total** clôture le contrat. L'antériorité disparaît définitivement : rouvrir ailleurs, c'est repartir de zéro et attendre huit ans pour retrouver l'abattement et le taux réduit.
+
+**La règle pratique qui en découle :** même lorsque tu veux sortir la quasi-totalité des fonds, laisse une somme symbolique sur le contrat plutôt que de le solder. Quelques centaines d'euros suffisent à maintenir le contrat ouvert et à préserver une antériorité qui, elle, ne se rachète pas.
+
+Une exception mérite d'être signalée : un contrat ancien aux frais élevés et à l'offre de supports pauvre ne vaut pas toujours d'être conservé. L'antériorité a de la valeur, mais elle ne compense pas indéfiniment 1 % de frais annuels excédentaires. Le calcul se pose, contrat en main.
+
+## L'effet du prorata dans le temps
+
+Un point que les simulateurs montrent mal : le coût fiscal d'un rachat **évolue** avec la maturité du contrat, même à taux inchangés.
+
+La part de gains contenue dans chaque retrait est proportionnelle à la part de gains du contrat. Un contrat récent contient peu de gains, donc chaque retrait est peu imposé. Un contrat ancien et performant en contient beaucoup, donc chaque euro retiré porte davantage de matière imposable.
+
+**Illustration.** Sur un contrat valant 100 000 € pour 90 000 € versés, un retrait de 10 000 € contient 1 000 € de gains. Sur le même contrat devenu 160 000 € pour les mêmes 90 000 € versés, le même retrait de 10 000 € en contient 4 375 €.
+
+Deux conséquences. Les premiers retraits d'un contrat sont fiscalement les moins coûteux, ce qui plaide pour commencer à consommer un contrat mûr plutôt que de le laisser grossir indéfiniment. Et l'abattement annuel couvre une somme retirée d'autant plus faible que le contrat a bien travaillé : le fractionnement devient donc plus utile avec le temps, pas moins.

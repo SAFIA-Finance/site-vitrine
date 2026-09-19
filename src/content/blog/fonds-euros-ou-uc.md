@@ -5,7 +5,7 @@ titreSeo: "Fonds euros ou unités de compte : comment choisir"
 description: "Capital garanti contre espérance de rendement : la répartition entre fonds euros et unités de compte dépend de ton horizon, pas des performances passées."
 categorie: "Assurance-vie"
 date: 2026-09-14
-lecture: 3
+lecture: 5
 essentiel:
   - "Le **fonds en euros** garantit le capital investi net de frais d'entrée. Son rendement est connu après coup, pas avant."
   - "Les **unités de compte** n'offrent aucune garantie : leur valeur peut baisser, et la perte peut être définitive si tu vends au mauvais moment."
@@ -18,6 +18,10 @@ faq:
     r: "Non. Tant que l'argent reste dans le contrat, aucun impôt n'est dû, même si tu vends des unités de compte en plus-value. C'est un atout majeur de l'enveloppe."
   - q: "Combien d'unités de compte différentes faut-il ?"
     r: "Peu, mais bien réparties. Multiplier les lignes crée une illusion de diversification, pas une diversification réelle."
+  - q: "Que se passe-t-il si mon assureur fait faillite ?"
+    r: "Un fonds de garantie propre aux assurances de personnes existe, avec un plafond d'indemnisation par assuré et par entreprise d'assurance. C'est une différence notable avec les dépôts bancaires, qui relèvent d'un dispositif distinct et d'un autre plafond. Deux conséquences pratiques : le plafond s'apprécie **par assureur**, ce qui plaide pour ne pas concentrer un patrimoine très important chez un seul, et les unités de compte que tu détiens restent des parts de fonds, dont la valeur dépend des marchés et non de la solidité de l'assureur."
+  - q: "Faut-il arbitrer après une forte baisse des marchés ?"
+    r: "C'est le moment où la décision se prend le plus mal. Vendre après une baisse transforme une variation en perte définitive, et prive de la reprise éventuelle. Si l'allocation avait été calibrée sur ton horizon réel, une baisse ne change rien à l'analyse. Si elle t'empêche de dormir, le problème n'est pas le marché : c'est que la part d'unités de compte dépassait ta capacité réelle à encaisser une baisse. Dans ce cas, l'ajustement se fait, mais progressivement et par décision réfléchie, pas dans l'urgence."
 pages:
   - nom: "ADN Investisseur"
     url: "/adn-investisseur/"
@@ -72,3 +76,23 @@ Regarde trois lignes dans tes conditions : les frais sur versement, les frais de
 Une répartition décidée à 35 ans n'a pas vocation à tenir jusqu'à 65 ans. La pratique courante consiste à réduire progressivement la part d'unités de compte à mesure que l'échéance approche, pour sécuriser ce qui a été accumulé.
 
 Le point délicat est le rythme. Sécuriser trop tôt coûte du rendement ; sécuriser trop tard expose à un krach juste avant le besoin. Une règle répandue consiste à commencer la désensibilisation cinq à huit ans avant l'échéance, par paliers.
+
+## Les versements programmés, meilleur allié des unités de compte
+
+Investir une somme en une fois expose à un risque de calendrier : si le marché recule dans les mois qui suivent, la perte est immédiate et le moral avec.
+
+Les **versements programmés** répondent à cette difficulté sans prétendre prédire quoi que ce soit. En investissant un montant fixe à intervalle régulier, tu achètes mécaniquement plus de parts quand les cours sont bas et moins quand ils sont hauts. Le prix moyen d'acquisition s'en trouve lissé.
+
+Trois avantages pratiques s'ajoutent à l'effet mathématique. Le versement devient une **habitude** plutôt qu'une décision à reprendre chaque mois. Il supprime la question, insoluble, du bon moment pour entrer. Et il réduit le risque comportemental le plus coûteux : renoncer à investir pendant des mois en attendant un point d'entrée qui ne se reconnaît qu'après coup.
+
+Une honnêteté nécessaire : étaler n'est pas toujours supérieur. Sur longue période, investir tout de suite expose plus tôt au marché, ce qui est statistiquement favorable en moyenne. L'étalement achète de la régularité et du confort psychologique, pas un rendement supérieur. Pour un versement important, beaucoup retiennent un compromis : une part immédiate, le solde étalé sur six à douze mois.
+
+## Ce qu'un arbitrage coûte, et ce qu'il ne coûte pas
+
+C'est l'un des atouts les moins connus de l'enveloppe. Vendre une unité de compte en plus-value à l'intérieur du contrat pour en acheter une autre **ne déclenche aucune imposition**, tant que l'argent ne sort pas du contrat.
+
+Sur un compte-titres, le même arbitrage serait une cession imposable au prélèvement forfaitaire de 31,4 %. Dans l'assurance-vie, la fiscalité attend le rachat.
+
+Cela ne signifie pas que l'arbitrage est gratuit. Deux coûts subsistent : les **frais d'arbitrage** prévus au contrat, en pourcentage ou forfaitaires, souvent nuls en ligne et facturés en réseau ; et le **délai d'exécution**, généralement de quelques jours, pendant lequel les sommes ne sont investies nulle part.
+
+La conséquence pratique est nette : l'enveloppe permet de faire évoluer une allocation dans le temps sans frottement fiscal, ce qui rend la désensibilisation progressive décrite plus haut bien plus simple à mettre en œuvre que sur un compte-titres.

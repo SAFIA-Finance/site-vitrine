@@ -5,7 +5,7 @@ titreSeo: "Fiscalité assurance-vie 2026 : avant et après 8 ans"
 description: "Avant 8 ans, 30 % sur les gains. Après, un abattement de 4 600 € et un taux de 24,7 %. Le calcul complet, avec les chiffres 2026 et un exemple détaillé."
 categorie: "Assurance-vie"
 date: 2026-09-14
-lecture: 4
+lecture: 6
 essentiel:
   - "L'impôt ne porte **que sur la part de gains** contenue dans un retrait, jamais sur le capital versé."
   - "Avant huit ans : prélèvement forfaitaire unique de **30 %** (12,8 % d'impôt + 17,2 % de prélèvements sociaux)."
@@ -86,3 +86,29 @@ Mais le législateur a dressé une liste limitative d'exceptions, et **l'assuran
 Conséquence : sur les seuls prélèvements sociaux, l'assurance-vie bénéficie désormais d'un avantage de 1,4 point. Le PFU de droit commun est passé à 31,4 %, celui de l'assurance-vie avant huit ans reste à 30 %.
 
 Cela ne fait pas de l'assurance-vie « le meilleur placement » : la formule n'a aucun sens hors d'une situation donnée. Cela déplace un curseur, et mérite d'être intégré dans un arbitrage entre enveloppes.
+
+## Prendre date : le geste qui vaut le plus cher plus tard
+
+Puisque tout le régime favorable se déclenche au huitième anniversaire du **contrat**, et non de chaque versement, la date d'ouverture est la seule variable que tu maîtrises complètement.
+
+Ouvrir un contrat avec une somme modeste, même sans projet immédiat, met le compteur en route. Huit ans plus tard, l'abattement annuel et le taux réduit s'appliquent à la totalité du contrat, y compris aux sommes versées la veille.
+
+**Exemple.** Deux épargnants placent chacun 80 000 € à quarante ans.
+
+*Le premier* avait ouvert un contrat à vingt-cinq ans avec 500 €. Son contrat a quinze ans : ses retraits bénéficient immédiatement de l'abattement de 4 600 € et du taux de 7,5 %.
+
+*Le second* ouvre son contrat le jour du versement. Pendant huit ans, tout rachat relèvera du prélèvement forfaitaire de 30 %, sans abattement.
+
+Sur un retrait contenant 6 000 € de gains, l'écart atteint environ 800 € d'impôt sur le revenu. Le premier n'a rien fait de plus qu'ouvrir un contrat quinze ans plus tôt, pour 500 €.
+
+Deux précisions honnêtes. Le contrat doit rester **ouvert** : un rachat total le clôture et efface l'antériorité. Et prendre date n'a d'intérêt que sur un contrat dont les frais sont raisonnables : un contrat à frais élevés maintenu quinze ans coûte plus que l'avantage qu'il prépare.
+
+## Quand le barème progressif bat le forfait
+
+L'option pour le barème est peu utilisée, souvent à tort pour les foyers faiblement imposés.
+
+Elle devient avantageuse lorsque ta tranche marginale est inférieure au taux forfaitaire applicable : à 0 % ou 11 %, le barème l'emporte sur les 12,8 % du prélèvement forfaitaire avant huit ans, et peut également l'emporter sur les 7,5 % après huit ans si tu es non imposable.
+
+Trois points à connaître avant d'opter. L'option est **globale** : elle s'applique à l'ensemble des revenus de capitaux mobiliers de l'année, pas au seul rachat. Elle n'affecte pas les prélèvements sociaux, dus dans tous les cas. Et la loi de finances pour 2026 l'a rendue **révocable** pour les revenus perçus à compter du 1er janvier 2026, alors qu'elle était jusque-là définitive : c'est un assouplissement réel, qui autorise à tester le calcul sans s'enfermer.
+
+En pratique, la déclaration en ligne permet de simuler les deux hypothèses avant de valider. Fais-le : l'opération prend deux minutes et elle est la seule façon de trancher sur des chiffres plutôt que sur un principe.

@@ -5,7 +5,7 @@ titreSeo: "Frais d'assurance-vie : les repérer sur son relevé"
 description: "Frais d'entrée, de gestion, d'arbitrage, frais internes des fonds : les quatre couches de frais d'une assurance-vie et où les lire réellement."
 categorie: "Assurance-vie"
 date: 2026-09-14
-lecture: 3
+lecture: 4
 essentiel:
   - "Il existe **quatre couches de frais** distinctes, dont une n'apparaît pas sur ton relevé."
   - "Les **frais de gestion annuels** sont les plus structurants, car ils s'appliquent chaque année au capital entier."
@@ -18,6 +18,12 @@ faq:
     r: "Depuis la loi Pacte, un transfert est possible **au sein du même assureur**, en conservant l'antériorité fiscale. Vers un autre assureur, cela reste impossible."
   - q: "Les frais sont-ils déduits avant ou après le rendement annoncé ?"
     r: "Le rendement du fonds en euros est annoncé net de frais de gestion, mais avant prélèvements sociaux. Lis toujours la mention exacte."
+  - q: "Les frais sur versement se négocient-ils réellement ?"
+    r: "Oui, bien plus souvent qu'on ne le croit, et c'est la ligne la plus négociable de toutes. Sur un versement important, leur suppression ou leur forte réduction est une demande courante et fréquemment acceptée. Les frais de gestion annuels, eux, se négocient rarement : ils sont inscrits dans la structure du contrat. C'est pourquoi la comparaison entre contrats doit porter en priorité sur ces derniers, qui s'appliquent chaque année et que tu ne pourras pas faire bouger."
+  - q: "Un contrat en ligne est-il toujours moins cher ?"
+    r: "En général oui sur les frais, souvent nuls sur les versements et plus bas en gestion. Mais le coût total dépend aussi des supports retenus : un contrat en ligne garni de fonds à 2 % de frais internes coûte davantage qu'un contrat classique investi en supports indiciels. Compare le coût total, pas l'étiquette du distributeur."
+  - q: "Comment comparer deux contrats en une minute ?"
+    r: "Additionne trois chiffres pour chacun : frais de gestion annuels sur unités de compte, frais internes moyens des supports que tu comptes détenir, et frais de mandat éventuels. Le total, exprimé en pourcentage annuel, est la seule donnée comparable. Un écart de un point sur vingt ans représente des dizaines de milliers d'euros à performance brute identique, et c'est la seule variable de ton contrat qui soit connue d'avance."
 pages:
   - nom: "Tarifs"
     url: "/tarifs/"
@@ -66,3 +72,25 @@ Précision nécessaire : 5 % n'est pas un rendement garanti, c'est une hypothès
 Des frais supérieurs peuvent se défendre : accompagnement humain régulier, accès à des supports spécifiques, gestion sous mandat réellement pilotée, service de prévoyance associé.
 
 Ils ne se défendent pas quand la contrepartie est un relevé annuel et un rendez-vous tous les trois ans. La question à poser n'est pas « ces frais sont-ils élevés » mais « qu'est-ce que je reçois en échange, et l'ai-je reçu cette année ».
+
+## Les frais de la gestion pilotée, la cinquième couche
+
+Si ton contrat est en gestion pilotée, une couche supplémentaire s'ajoute aux quatre précédentes : les **frais de mandat**, qui rémunèrent le pilotage de l'allocation.
+
+Ils s'appliquent chaque année sur l'encours, en plus des frais de gestion du contrat et des frais internes des supports. Sur un contrat affichant 0,8 % de frais de gestion, 0,2 % de frais de mandat et des supports à 1 %, le coût total atteint 2 %, sans qu'aucune ligne unique ne l'affiche.
+
+La question à se poser est celle de la contrepartie réelle. Une gestion pilotée qui se limite à trois profils standards et à un rééquilibrage annuel automatique apporte peu au regard d'une allocation simple que tu tiendrais toi-même. Une gestion réellement suivie, avec des ajustements motivés et un reporting explicite, peut se défendre.
+
+Le test le plus court : demande le **détail des arbitrages réalisés sur les trois dernières années** et leur justification. Une réponse précise informe sur ce que tu paies ; une réponse évasive informe tout autant.
+
+## Reconstituer son coût total en trois minutes
+
+La méthode tient en trois lectures, et elle donne un chiffre unique comparable d'un contrat à l'autre.
+
+**Un.** Ouvre le tableau standardisé des frais publié par ton assureur depuis juin 2022, et relève les frais de gestion du contrat, sur le fonds en euros et sur les unités de compte, qui diffèrent souvent.
+
+**Deux.** Ouvre le document d'informations clés de chacun de tes supports et relève les coûts récurrents. C'est la couche invisible sur ton relevé.
+
+**Trois.** Additionne, en pondérant par la part de ton encours placée sur chaque support, et ajoute les éventuels frais de mandat.
+
+Le résultat est ton **coût annuel total**, exprimé en pourcentage. C'est la seule donnée qui permette une comparaison honnête entre deux contrats, et c'est aussi celle qui, appliquée à vingt ans, explique des écarts de plusieurs dizaines de milliers d'euros à performance brute identique.
