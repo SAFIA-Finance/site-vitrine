@@ -27,7 +27,12 @@ try {
     if (!fichier.endsWith('.md')) continue;
     // L'en-tête suffit : la date y figure dans les premières lignes.
     const tete = fs.readFileSync(path.join(DOSSIER_ARTICLES, fichier), 'utf8').slice(0, 2000);
-    const trouve = tete.match(/^date:\s*"?(\d{4}-\d{2}-\d{2})/m);
+    // « maj » l'emporte sur « date » : le sitemap doit dire quand le contenu a
+    // changé, pas quand il est paru. Un article jamais modifié n'a pas de
+    // « maj », et sa date de publication reste alors la seule vraie réponse.
+    const trouve =
+      tete.match(/^maj:\s*"?(\d{4}-\d{2}-\d{2})/m) ??
+      tete.match(/^date:\s*"?(\d{4}-\d{2}-\d{2})/m);
     if (trouve) datesArticles.set(`/blog/${fichier.replace(/\.md$/, '')}/`, trouve[1]);
   }
 } catch {

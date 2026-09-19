@@ -35,6 +35,19 @@ const blog = defineCollection({
     description: z.string().min(50),
     categorie: z.enum(CATEGORIES),
     date: z.coerce.date(),
+    /**
+     * Date de dernière modification RÉELLE du contenu, et rien d'autre.
+     *
+     * Facultative à dessein : sans elle, `Base.astro` fait `maj ?? date`, donc
+     * l'article déclare une date de modification égale à sa publication, ce qui
+     * est la vérité tant qu'il n'a pas changé. Renseigner ce champ sans que le
+     * texte ait bougé enverrait à Google un signal de fraîcheur faux, et un
+     * faux signal se retourne contre celui qui l'émet.
+     *
+     * Elle alimente `dateModified` du JSON-LD, `article:modified_time` et le
+     * `lastmod` du sitemap.
+     */
+    maj: z.coerce.date().optional(),
     /** Durée de lecture en minutes, calculée à la conversion. */
     lecture: z.number().int().positive(),
     /** Le résumé en quatre puces, repris en tête d'article. */

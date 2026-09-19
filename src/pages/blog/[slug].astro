@@ -45,7 +45,14 @@ const categorieUrl = `/blog/categorie/${slugCategorie(data.categorie)}/`;
   description={data.description}
   faq={data.faq}
   fil={fil}
-  article={{ titre: data.titre, categorie: data.categorie, date: dateIso(data.date) }}
+  article={{
+    titre: data.titre,
+    categorie: data.categorie,
+    date: dateIso(data.date),
+    // Absent tant que l'article n'a pas été modifié : Base.astro retombe alors
+    // sur la date de publication, qui est la seule information vraie.
+    maj: data.maj ? dateIso(data.maj) : undefined,
+  }}
   image={`/og/blog/${article.id}.png`}
 >
 <section class="hero hero-page hero-part">
