@@ -5,12 +5,23 @@ titreSeo: "Donation au dernier vivant : protéger son conjoint"
 description: "La donation au dernier vivant élargit les droits du conjoint au-delà du minimum légal et lui laisse le choix entre trois options au décès."
 categorie: "Donation et succession"
 date: 2026-09-16
-lecture: 2
+lecture: 5
 essentiel:
   - "Sans disposition, le conjoint survivant hérite selon des règles légales qui dépendent de la présence d'enfants **communs ou non**."
   - "La **donation entre époux**, dite donation au dernier vivant, élargit ses droits au-delà du minimum légal."
   - "Elle offre au survivant un **choix** entre trois options au moment du décès, ce qui permet de s'adapter à une situation inconnue à l'avance."
   - "Elle est **révocable** à tout moment, sauf si elle figure dans un contrat de mariage."
+faq:
+  - q: "La donation au dernier vivant est-elle utile si nous sommes mariés sans enfants d'un premier lit ?"
+    r: "Elle reste utile, parce qu'elle élargit les droits du conjoint au-delà du minimum légal et lui ouvre une option calibrée au moment du décès. En présence d'enfants tous communs, le conjoint dispose déjà d'un choix légal entre usufruit total et quart en pleine propriété : la donation ajoute la possibilité du quart en pleine propriété assorti des trois quarts en usufruit."
+  - q: "Est-elle révocable ?"
+    r: "Oui, unilatéralement et sans avoir à en informer le conjoint, sauf si elle figure dans un contrat de mariage, auquel cas elle devient irrévocable. C'est l'une des rares libéralités que l'on peut reprendre librement."
+  - q: "Le conjoint paie-t-il des droits sur ce qu'il reçoit ?"
+    r: "Non. Le conjoint survivant et le partenaire de PACS sont totalement exonérés de droits de succession, quel que soit le montant reçu et quelle que soit l'option retenue."
+  - q: "Remplace-t-elle un testament ?"
+    r: "Non, les deux ont des objets distincts. La donation entre époux organise les droits du conjoint ; le testament permet de gratifier d'autres personnes dans la limite de la quotité disponible. Ils se combinent, et leur cohérence doit être vérifiée par le notaire."
+  - q: "Quand la donation entre époux produit-elle ses effets ?"
+    r: "Au décès seulement, et c'est ce qui la distingue d'une donation ordinaire : elle ne dessaisit de rien du vivant des époux, qui conservent la pleine disposition de leurs biens. Elle se consent par acte notarié, à tout moment du mariage, et le survivant exerce ensuite son option au moment du règlement de la succession. C'est une protection qui ne coûte aucune liberté pendant la vie commune, ce qui explique qu'elle soit si largement recommandée."
 pages:
   - nom: "Cockpit stratégique"
     url: "/cockpit/"
@@ -65,3 +76,29 @@ Elle ne prive pas les enfants de leur réserve.
 Elle ne remplace pas une assurance-vie, qui reste le meilleur outil pour transmettre de la **liquidité** immédiatement disponible au survivant, sans attendre le règlement de la succession.
 
 Elle ne règle pas la question du logement en famille recomposée, où l'usufruit du conjoint sur un bien destiné aux enfants d'un premier lit reste un sujet de tension, quelle que soit sa validité juridique.
+
+## Choisir entre les trois options : la méthode
+
+L'intérêt de la donation entre époux tient à ce que le choix s'opère au décès, en connaissance de la situation réelle. Encore faut-il savoir sur quoi fonder ce choix. Trois critères suffisent.
+
+**L'âge du survivant.** Plus il est jeune, plus l'usufruit a de valeur économique et plus il est intéressant de l'étendre. Le barème de l'article 669 le traduit : à 68 ans, l'usufruit représente 40 % de la valeur du bien, à 78 ans 30 %. Un survivant jeune a intérêt à l'usufruit, un survivant très âgé à la pleine propriété.
+
+**Le besoin de liquidités.** L'usufruit donne des revenus et l'usage, jamais du capital disponible. Un conjoint qui doit financer une maison de retraite, aider un enfant ou faire face à des frais de santé a besoin de pleine propriété, quitte à en recevoir moins.
+
+**La composition du patrimoine.** Un patrimoine essentiellement immobilier se prête à l'usufruit, qui préserve le cadre de vie. Un patrimoine financier se prête davantage à la pleine propriété, plus simple à gérer et à arbitrer.
+
+Un quatrième élément, non financier, pèse souvent autant : la **relation avec les enfants**. L'usufruit total protège le survivant mais diffère intégralement la part des enfants, ce qui peut créer une tension durable, en particulier lorsqu'il s'agit d'enfants d'un premier lit.
+
+Le choix se formalise par une **option**, exercée dans le délai et les formes prévus, avec le notaire chargé de la succession.
+
+## Ce qu'il faut vérifier avant de signer
+
+Quatre points méritent d'être examinés au moment de consentir une donation entre époux.
+
+**L'articulation avec le régime matrimonial.** Selon le régime, une partie du patrimoine revient déjà au conjoint hors succession. La donation ne doit pas être calibrée en ignorant cet effet, sous peine de surprotéger inutilement.
+
+**La présence d'enfants non communs.** Elle change tout : le conjoint perd l'option légale pour l'usufruit total, et les enfants non communs disposent d'une action spécifique contre certains avantages matrimoniaux. C'est la configuration où la donation entre époux est la plus utile et la plus délicate.
+
+**Le caractère révocable.** La donation entre époux est révocable unilatéralement, sans information du conjoint, **sauf** lorsqu'elle est insérée dans un contrat de mariage, où elle devient irrévocable. Cette distinction est structurante et doit être comprise avant de choisir le support de l'acte.
+
+**La complémentarité avec l'assurance-vie.** La donation entre époux organise la répartition du patrimoine successoral ; elle ne fournit pas de liquidités immédiates. L'assurance-vie, versée rapidement et hors succession, joue ce rôle. Les deux outils ne se substituent pas : ils se complètent, et c'est leur combinaison qui protège réellement un conjoint.
