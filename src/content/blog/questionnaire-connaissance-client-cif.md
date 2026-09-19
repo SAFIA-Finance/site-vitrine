@@ -17,7 +17,7 @@ pages:
 articlesLies:
   - "rapport-adequation-cif"
   - "lettre-de-mission-cif"
-sources: "Directive 2014/65/UE, article 25 · Règlement délégué (UE) 2017/565, articles 54 et 55 · Règlement délégué (UE) 2021/1253 sur l'intégration des préférences en matière de durabilité · Règlement général de l'AMF, livre III · Positions et recommandations de l'AMF relatives au recueil d'informations clients."
+sources: "[Directive 2014/65/UE](https://eur-lex.europa.eu/eli/dir/2014/65/oj), article 25 · [Règlement délégué (UE) 2017/565](https://eur-lex.europa.eu/eli/reg_del/2017/565/oj), articles 54 et 55 · [Règlement délégué (UE) 2021/1253](https://eur-lex.europa.eu/eli/reg_del/2021/1253/oj) sur l'intégration des préférences en matière de durabilité · Règlement général de l'AMF, livre III · Positions et recommandations de l'AMF relatives au recueil d'informations clients."
 ---
 
 ## Ce que le texte exige

@@ -24,7 +24,7 @@ pages:
 articlesLies:
   - "ia-remplacer-conseiller-patrimoine"
   - "questionnaire-profil-de-risque-mifid"
-sources: "Règlement (UE) 2024/1689 sur l'intelligence artificielle · Règlement général de l'AMF, article 325-5 et suivants sur les communications à caractère promotionnel · Légifrance, BOFiP et service-public.fr pour la vérification des sources fiscales."
+sources: "[Règlement (UE) 2024/1689](https://eur-lex.europa.eu/eli/reg/2024/1689/oj) sur l'intelligence artificielle · Règlement général de l'AMF, article 325-5 et suivants sur les communications à caractère promotionnel · Légifrance, BOFiP et service-public.fr pour la vérification des sources fiscales."
 ---
 
 ## Le problème de fond

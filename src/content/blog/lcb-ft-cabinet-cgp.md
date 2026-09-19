@@ -17,7 +17,7 @@ pages:
 articlesLies:
   - "devenir-cif-statut-orias"
   - "onboarding-client-digital-cgp"
-sources: "Code monétaire et financier, articles L. 561-1 et suivants, notamment L. 561-5, L. 561-10-2, L. 561-12 et L. 561-15 · Règlement général de l'AMF, livre III · Lignes directrices de l'AMF et de Tracfin relatives à la déclaration de soupçon · Règlement (UE) 2016/679 (RGPD), article 5 sur la limitation de conservation."
+sources: "Code monétaire et financier, articles L. 561-1 et suivants, notamment L. 561-5, L. 561-10-2, L. 561-12 et L. 561-15 · Règlement général de l'AMF, livre III · Lignes directrices de l'AMF et de Tracfin relatives à la déclaration de soupçon · [Règlement (UE) 2016/679](https://eur-lex.europa.eu/eli/reg/2016/679/oj) (RGPD), article 5 sur la limitation de conservation."
 ---
 
 ## Bloc 1. La classification des risques

@@ -30,7 +30,7 @@ outils:
 articlesLies:
   - "donation-enfant-100000-euros"
   - "transmettre-petits-enfants"
-sources: "Code général des impôts, article 790 G · BOFiP, exonération des dons familiaux de sommes d'argent · Service-public.fr, fiche F14203 et service de déclaration en ligne des dons, en vigueur depuis le 1er janvier 2026."
+sources: "Code général des impôts, article 790 G · BOFiP, exonération des dons familiaux de sommes d'argent · Service-public.fr, [fiche F14203](https://www.service-public.gouv.fr/particuliers/vosdroits/F14203) et service de déclaration en ligne des dons, en vigueur depuis le 1er janvier 2026."
 ---
 
 ## Un dispositif distinct, pas un supplément automatique

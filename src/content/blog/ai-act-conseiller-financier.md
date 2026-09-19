@@ -17,7 +17,7 @@ pages:
 articlesLies:
   - "agregation-bancaire-cabinet-cgp"
   - "ia-explicable-finance"
-sources: "Règlement (UE) 2024/1689 établissant des règles harmonisées concernant l'intelligence artificielle · Règlement (UE) 2016/679 (RGPD) · Directive 2014/65/UE, articles 24 et 25 · Règlement général de l'AMF, article 325-5 et suivants."
+sources: "[Règlement (UE) 2024/1689](https://eur-lex.europa.eu/eli/reg/2024/1689/oj) établissant des règles harmonisées concernant l'intelligence artificielle · [Règlement (UE) 2016/679](https://eur-lex.europa.eu/eli/reg/2016/679/oj) (RGPD) · [Directive 2014/65/UE](https://eur-lex.europa.eu/eli/dir/2014/65/oj), articles 24 et 25 · Règlement général de l'AMF, article 325-5 et suivants."
 ---
 
 ## La distinction qui commande tout

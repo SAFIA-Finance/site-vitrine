@@ -24,7 +24,7 @@ pages:
 articlesLies:
   - "labels-isr-greenfin-finansol"
   - "greenwashing-signaux-fonds"
-sources: "Règlement (UE) 2019/2088 dit SFDR · Référentiel du label ISR, version en vigueur depuis mars 2024, ministère de l'Économie · AMF, doctrine sur les communications des placements collectifs intégrant des approches extra-financières · Documents d'informations clés et annexes précontractuelles des fonds."
+sources: "[Règlement (UE) 2019/2088](https://eur-lex.europa.eu/eli/reg/2019/2088/oj) dit SFDR · Référentiel du label ISR, version en vigueur depuis mars 2024, ministère de l'Économie · AMF, doctrine sur les communications des placements collectifs intégrant des approches extra-financières · Documents d'informations clés et annexes précontractuelles des fonds."
 ---
 
 ## Trois démarches que tout le monde confond

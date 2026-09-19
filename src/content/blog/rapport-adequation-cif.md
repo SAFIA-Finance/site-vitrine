@@ -17,7 +17,7 @@ pages:
 articlesLies:
   - "questionnaire-connaissance-client-cif"
   - "lettre-de-mission-cif"
-sources: "Directive 2014/65/UE, article 25, paragraphe 6 · Règlement délégué (UE) 2017/565, article 54 · Règlement délégué (UE) 2021/1253 · Règlement général de l'AMF, livre III · Orientations de l'ESMA sur certains aspects des exigences d'adéquation de MiFID II."
+sources: "[Directive 2014/65/UE](https://eur-lex.europa.eu/eli/dir/2014/65/oj), article 25, paragraphe 6 · [Règlement délégué (UE) 2017/565](https://eur-lex.europa.eu/eli/reg_del/2017/565/oj), article 54 · [Règlement délégué (UE) 2021/1253](https://eur-lex.europa.eu/eli/reg_del/2021/1253/oj) · Règlement général de l'AMF, livre III · Orientations de l'ESMA sur certains aspects des exigences d'adéquation de MiFID II."
 ---
 
 ## Ce que le texte demande

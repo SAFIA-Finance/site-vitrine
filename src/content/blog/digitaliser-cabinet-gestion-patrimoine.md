@@ -17,7 +17,7 @@ pages:
 articlesLies:
   - "logiciel-cgp-comment-choisir"
   - "onboarding-client-digital-cgp"
-sources: "Règlement général de l'AMF, livre III · Directive 2014/65/UE, article 16 sur les exigences organisationnelles · Règlement délégué (UE) 2017/565, articles 72 à 76 sur la conservation des enregistrements · Règlement (UE) 2016/679 (RGPD)."
+sources: "Règlement général de l'AMF, livre III · [Directive 2014/65/UE](https://eur-lex.europa.eu/eli/dir/2014/65/oj), article 16 sur les exigences organisationnelles · [Règlement délégué (UE) 2017/565](https://eur-lex.europa.eu/eli/reg_del/2017/565/oj), articles 72 à 76 sur la conservation des enregistrements · [Règlement (UE) 2016/679](https://eur-lex.europa.eu/eli/reg/2016/679/oj) (RGPD)."
 ---
 
 ## Le point de départ : mesurer

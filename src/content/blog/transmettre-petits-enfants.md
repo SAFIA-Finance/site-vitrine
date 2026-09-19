@@ -28,7 +28,7 @@ outils:
 articlesLies:
   - "don-familial-somme-argent"
   - "assurance-vie-succession-152500"
-sources: "Code général des impôts, articles 790 B et 790 G · Code civil, articles 913 et 1078-4 sur la donation-partage transgénérationnelle · BOFiP, abattements applicables aux donations · Service-public.fr, fiche F14203."
+sources: "Code général des impôts, articles 790 B et 790 G · Code civil, articles 913 et 1078-4 sur la donation-partage transgénérationnelle · BOFiP, abattements applicables aux donations · Service-public.fr, [fiche F14203](https://www.service-public.gouv.fr/particuliers/vosdroits/F14203)."
 ---
 
 ## Pourquoi sauter une génération a un sens fiscal

@@ -28,7 +28,7 @@ outils:
 articlesLies:
   - "don-familial-somme-argent"
   - "usufruit-nue-propriete"
-sources: "Code général des impôts, articles 779 et 784 · Code civil, articles 1075 et suivants sur la donation-partage · Service-public.fr, fiche F14203, et service de déclaration en ligne des dons · BOFiP, rappel fiscal des donations antérieures."
+sources: "Code général des impôts, articles 779 et 784 · Code civil, articles 1075 et suivants sur la donation-partage · Service-public.fr, [fiche F14203](https://www.service-public.gouv.fr/particuliers/vosdroits/F14203), et service de déclaration en ligne des dons · BOFiP, rappel fiscal des donations antérieures."
 ---
 
 ## Le mécanisme, sans jargon

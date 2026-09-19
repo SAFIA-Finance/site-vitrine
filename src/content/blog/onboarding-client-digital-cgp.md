@@ -17,7 +17,7 @@ pages:
 articlesLies:
   - "questionnaire-connaissance-client-cif"
   - "lcb-ft-cabinet-cgp"
-sources: "Règlement (UE) n° 910/2014 dit eIDAS sur l'identification électronique et les services de confiance · Code monétaire et financier, articles L. 561-5 et L. 561-10 sur l'entrée en relation à distance · Règlement général de l'AMF, livre III, obligations d'information préalable · Règlement délégué (UE) 2017/565, articles 72 à 76 sur la conservation des enregistrements."
+sources: "Règlement (UE) n° 910/2014 dit eIDAS sur l'identification électronique et les services de confiance · Code monétaire et financier, articles L. 561-5 et L. 561-10 sur l'entrée en relation à distance · Règlement général de l'AMF, livre III, obligations d'information préalable · [Règlement délégué (UE) 2017/565](https://eur-lex.europa.eu/eli/reg_del/2017/565/oj), articles 72 à 76 sur la conservation des enregistrements."
 ---
 
 ## Pourquoi mesurer ce délai

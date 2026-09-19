@@ -24,7 +24,7 @@ pages:
 articlesLies:
   - "questionnaire-profil-de-risque-mifid"
   - "frais-assurance-vie-releve"
-sources: "Code monétaire et financier, articles L. 541-1 et suivants · Règlement général de l'AMF, livre III, obligations d'information et lettre de mission des conseillers en investissements financiers · Directive 2014/65/UE, article 25 sur la déclaration d'adéquation · Loi de financement de la Sécurité sociale pour 2026."
+sources: "Code monétaire et financier, articles L. 541-1 et suivants · Règlement général de l'AMF, livre III, obligations d'information et lettre de mission des conseillers en investissements financiers · [Directive 2014/65/UE](https://eur-lex.europa.eu/eli/dir/2014/65/oj), article 25 sur la déclaration d'adéquation · Loi de financement de la Sécurité sociale pour 2026."
 ---
 
 ## Les quatre volets

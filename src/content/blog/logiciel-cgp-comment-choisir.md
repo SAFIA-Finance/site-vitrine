@@ -17,7 +17,7 @@ pages:
 articlesLies:
   - "digitaliser-cabinet-gestion-patrimoine"
   - "agregation-bancaire-cabinet-cgp"
-sources: "Règlement général de l'AMF, livre III, obligations des conseillers en investissements financiers · Directive 2014/65/UE, articles 16 et 25 · Règlement (UE) 2016/679 (RGPD), articles 28 et 32 sur la sous-traitance et la sécurité · Règlement (UE) 2022/2554 (DORA) pour les prestataires concernés."
+sources: "Règlement général de l'AMF, livre III, obligations des conseillers en investissements financiers · [Directive 2014/65/UE](https://eur-lex.europa.eu/eli/dir/2014/65/oj), articles 16 et 25 · [Règlement (UE) 2016/679](https://eur-lex.europa.eu/eli/reg/2016/679/oj) (RGPD), articles 28 et 32 sur la sous-traitance et la sécurité · [Règlement (UE) 2022/2554](https://eur-lex.europa.eu/eli/reg/2022/2554/oj) (DORA) pour les prestataires concernés."
 ---
 
 ## Les huit fonctions

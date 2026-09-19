@@ -24,7 +24,7 @@ pages:
 articlesLies:
   - "ia-explicable-finance"
   - "bilan-patrimonial-contenu"
-sources: "Code monétaire et financier, articles L. 321-1, L. 541-1 et suivants · Règlement général de l'AMF, livre III, dispositions applicables aux conseillers en investissements financiers · Règlement (UE) 2024/1689 établissant des règles harmonisées concernant l'intelligence artificielle, obligations de transparence."
+sources: "Code monétaire et financier, articles L. 321-1, L. 541-1 et suivants · Règlement général de l'AMF, livre III, dispositions applicables aux conseillers en investissements financiers · [Règlement (UE) 2024/1689](https://eur-lex.europa.eu/eli/reg/2024/1689/oj) établissant des règles harmonisées concernant l'intelligence artificielle, obligations de transparence."
 ---
 
 ## Ce qu'une IA fait mieux, objectivement

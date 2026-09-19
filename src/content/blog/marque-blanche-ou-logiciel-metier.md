@@ -17,7 +17,7 @@ pages:
 articlesLies:
   - "ai-act-conseiller-financier"
   - "logiciel-cgp-comment-choisir"
-sources: "Règlement (UE) 2016/679 (RGPD), articles 26 et 28 · Règlement (UE) 2024/1689 sur l'intelligence artificielle, définitions de fournisseur et de déployeur · Règlement (UE) 2022/2554 (DORA) pour les entités concernées et leurs prestataires TIC · Code monétaire et financier, articles L. 321-1 et L. 541-1."
+sources: "[Règlement (UE) 2016/679](https://eur-lex.europa.eu/eli/reg/2016/679/oj) (RGPD), articles 26 et 28 · [Règlement (UE) 2024/1689](https://eur-lex.europa.eu/eli/reg/2024/1689/oj) sur l'intelligence artificielle, définitions de fournisseur et de déployeur · [Règlement (UE) 2022/2554](https://eur-lex.europa.eu/eli/reg/2022/2554/oj) (DORA) pour les entités concernées et leurs prestataires TIC · Code monétaire et financier, articles L. 321-1 et L. 541-1."
 ---
 
 ## Les deux modèles

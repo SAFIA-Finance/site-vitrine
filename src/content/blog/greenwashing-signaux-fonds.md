@@ -24,7 +24,7 @@ pages:
 articlesLies:
   - "investir-selon-ses-valeurs"
   - "labels-isr-greenfin-finansol"
-sources: "ESMA, orientations sur les dénominations de fonds utilisant des termes ESG ou liés à la durabilité · AMF, doctrine relative aux informations extra-financières des placements collectifs · Règlement (UE) 2019/2088, annexes précontractuelles · Référentiel du label ISR, mars 2024 · Code de la consommation, articles L. 121-2 et suivants."
+sources: "ESMA, orientations sur les dénominations de fonds utilisant des termes ESG ou liés à la durabilité · AMF, doctrine relative aux informations extra-financières des placements collectifs · [Règlement (UE) 2019/2088](https://eur-lex.europa.eu/eli/reg/2019/2088/oj), annexes précontractuelles · Référentiel du label ISR, mars 2024 · Code de la consommation, articles L. 121-2 et suivants."
 ---
 
 ## Signal 1. Le vocabulaire sans définition

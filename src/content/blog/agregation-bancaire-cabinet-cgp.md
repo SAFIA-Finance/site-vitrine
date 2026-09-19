@@ -17,7 +17,7 @@ pages:
 articlesLies:
   - "logiciel-cgp-comment-choisir"
   - "agregateur-de-comptes-dsp2"
-sources: "Directive (UE) 2015/2366 dite DSP2 · Règlement délégué (UE) 2018/389 sur l'authentification forte du client · Règlement (UE) 2016/679 (RGPD), articles 28 et 32 · Code monétaire et financier, articles L. 522-1 et suivants."
+sources: "[Directive (UE) 2015/2366](https://eur-lex.europa.eu/eli/dir/2015/2366/oj) dite DSP2 · [Règlement délégué (UE) 2018/389](https://eur-lex.europa.eu/eli/reg_del/2018/389/oj) sur l'authentification forte du client · [Règlement (UE) 2016/679](https://eur-lex.europa.eu/eli/reg/2016/679/oj) (RGPD), articles 28 et 32 · Code monétaire et financier, articles L. 522-1 et suivants."
 ---
 
 ## Ce que le cadre permet

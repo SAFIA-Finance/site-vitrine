@@ -24,7 +24,7 @@ pages:
 articlesLies:
   - "bilan-patrimonial-contenu"
   - "epargne-de-precaution-combien"
-sources: "Directive (UE) 2015/2366 dite DSP2 · Règlement délégué (UE) 2018/389 sur l'authentification forte du client · Code monétaire et financier, articles L. 522-1 et suivants · Registres des agents financiers tenus par les autorités de supervision."
+sources: "[Directive (UE) 2015/2366](https://eur-lex.europa.eu/eli/dir/2015/2366/oj) dite DSP2 · [Règlement délégué (UE) 2018/389](https://eur-lex.europa.eu/eli/reg_del/2018/389/oj) sur l'authentification forte du client · Code monétaire et financier, articles L. 522-1 et suivants · Registres des agents financiers tenus par les autorités de supervision."
 ---
 
 ## Ce que la DSP2 a changé

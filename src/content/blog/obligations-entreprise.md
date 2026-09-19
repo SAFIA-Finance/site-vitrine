@@ -17,7 +17,7 @@ pages:
 articlesLies:
   - "fonds-obligataires-fonds-dates"
   - "fonds-euros-fonds-croissance"
-sources: "Règlement (UE) 2017/1129 sur le prospectus · Prospectus et termes définitifs de chaque émission · Publications des agences de notation sur les taux de défaut historiques · AMF, mises en garde sur les titres subordonnés."
+sources: "[Règlement (UE) 2017/1129](https://eur-lex.europa.eu/eli/reg/2017/1129/oj) sur le prospectus · Prospectus et termes définitifs de chaque émission · Publications des agences de notation sur les taux de défaut historiques · AMF, mises en garde sur les titres subordonnés."
 ---
 
 ## Le fonctionnement

@@ -24,7 +24,7 @@ pages:
 articlesLies:
   - "labels-isr-greenfin-finansol"
   - "notation-esg-divergence-agences"
-sources: "Règlement (UE) 2019/2088 · Proposition de révision du cadre SFDR, Commission européenne, novembre 2025 · Position du Parlement européen, mai 2026 · ESMA, orientations sur les dénominations de fonds utilisant des termes liés à la durabilité · AMF, doctrine sur l'information extra-financière."
+sources: "[Règlement (UE) 2019/2088](https://eur-lex.europa.eu/eli/reg/2019/2088/oj) · Proposition de révision du cadre SFDR, Commission européenne, novembre 2025 · Position du Parlement européen, mai 2026 · ESMA, orientations sur les dénominations de fonds utilisant des termes liés à la durabilité · AMF, doctrine sur l'information extra-financière."
 ---
 
 ## Ce que SFDR est, et ce qu'il n'est pas

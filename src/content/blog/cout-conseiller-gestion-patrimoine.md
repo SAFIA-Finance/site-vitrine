@@ -28,7 +28,7 @@ outils:
 articlesLies:
   - "bilan-patrimonial-contenu"
   - "frais-de-gestion-effet-20-ans"
-sources: "Code monétaire et financier, articles L. 541-1 et suivants · Règlement général de l'AMF, livre III, obligations d'information, lettre de mission et déclaration d'adéquation · Directive 2014/65/UE, article 24 sur l'information relative aux coûts et aux incitations · Registre unique de l'ORIAS."
+sources: "Code monétaire et financier, articles L. 541-1 et suivants · Règlement général de l'AMF, livre III, obligations d'information, lettre de mission et déclaration d'adéquation · [Directive 2014/65/UE](https://eur-lex.europa.eu/eli/dir/2014/65/oj), article 24 sur l'information relative aux coûts et aux incitations · Registre unique de l'ORIAS."
 ---
 
 ## Les trois modes de rémunération

@@ -17,7 +17,7 @@ pages:
 articlesLies:
   - "questionnaire-connaissance-client-cif"
   - "rapport-adequation-cif"
-sources: "Code monétaire et financier, articles L. 541-1 et suivants · Règlement général de l'AMF, livre III, notamment les dispositions relatives à l'information préalable et à la lettre de mission · Directive 2014/65/UE, article 24 sur l'information relative aux coûts et aux incitations · Code civil, articles 1231-1 et suivants sur l'obligation de moyens."
+sources: "Code monétaire et financier, articles L. 541-1 et suivants · Règlement général de l'AMF, livre III, notamment les dispositions relatives à l'information préalable et à la lettre de mission · [Directive 2014/65/UE](https://eur-lex.europa.eu/eli/dir/2014/65/oj), article 24 sur l'information relative aux coûts et aux incitations · Code civil, articles 1231-1 et suivants sur l'obligation de moyens."
 ---
 
 ## La place de la lettre de mission dans la séquence

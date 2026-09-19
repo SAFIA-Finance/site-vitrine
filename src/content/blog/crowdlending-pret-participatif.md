@@ -17,7 +17,7 @@ pages:
 articlesLies:
   - "private-equity-particuliers"
   - "produits-structures-comprendre"
-sources: "Règlement (UE) 2020/1503 · Code général des impôts, article 125-00 A sur l'imputation des pertes sur prêts participatifs · Registres AMF et ACPR des prestataires agréés · Statistiques publiées par les plateformes."
+sources: "[Règlement (UE) 2020/1503](https://eur-lex.europa.eu/eli/reg/2020/1503/oj) · Code général des impôts, article 125-00 A sur l'imputation des pertes sur prêts participatifs · Registres AMF et ACPR des prestataires agréés · Statistiques publiées par les plateformes."
 ---
 
 ## Le piège fiscal

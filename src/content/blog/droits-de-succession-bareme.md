@@ -30,7 +30,7 @@ outils:
 articlesLies:
   - "donation-enfant-100000-euros"
   - "assurance-vie-succession-152500"
-sources: "Code général des impôts, articles 777, 779, 788 et 796-0 bis · BOFiP, mutations à titre gratuit par décès · Loi TEPA du 21 août 2007 · Loi de finances pour 2026, dispositions relatives au pacte Dutreil · Service-public.fr, fiche F14198."
+sources: "Code général des impôts, articles 777, 779, 788 et 796-0 bis · BOFiP, mutations à titre gratuit par décès · Loi TEPA du 21 août 2007 · Loi de finances pour 2026, dispositions relatives au pacte Dutreil · Service-public.fr, [fiche F14198](https://www.service-public.gouv.fr/particuliers/vosdroits/F14198)."
 ---
 
 ## Les trois étapes du calcul
