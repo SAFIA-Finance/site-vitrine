@@ -16,7 +16,7 @@ pages:
     url: "/cockpit/"
 articlesLies:
   - "abattement-impot-outre-mer-drom"
-  - "transmission-patrimoine-outre-mer"
+  - "fiscalite-nouvelle-caledonie"
 sources: "Constitution du 4 octobre 1958, articles 73, 74 et titre XIII · Code général des collectivités territoriales, articles LO 6214-4 (Saint-Barthélemy) et LO 6314-4 (Saint-Martin) · Code général des impôts, article 197, I, 3 · impots.gouv.fr, rubriques relatives à l'outre-mer."
 ---
 

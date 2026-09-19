@@ -27,7 +27,7 @@ outils:
     resume: "Où sera ton épargne dans dix ans, et combien mettre de côté pour un objectif."
 articlesLies:
   - "lep-conditions-plafond"
-  - "fiscalite-assurance-vie-8-ans"
+  - "pel-cel-livret-jeune"
 sources: "Arrêté du 29 juillet 2026, Journal officiel du 31 juillet 2026 · Banque de France, statistiques d'épargne réglementée, avril 2026 · Loi de financement de la Sécurité sociale pour 2026 · Service-public.fr, conditions d'accès au LEP."
 ---
 

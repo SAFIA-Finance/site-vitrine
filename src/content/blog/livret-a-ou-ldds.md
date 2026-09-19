@@ -27,7 +27,7 @@ outils:
     resume: "Où sera ton épargne dans dix ans, et combien mettre de côté pour un objectif."
 articlesLies:
   - "livret-a-plafond-taux"
-  - "epargne-de-precaution-combien"
+  - "calcul-taux-livret-a"
 sources: "Arrêté du 29 juillet 2026, Journal officiel du 31 juillet 2026 · Code monétaire et financier, articles L. 221-1 et suivants · Service-public.fr, fiches livret A et LDDS · Fonds de garantie des dépôts et de résolution."
 ---
 

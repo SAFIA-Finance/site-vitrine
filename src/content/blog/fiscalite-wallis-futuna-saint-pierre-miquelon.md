@@ -15,7 +15,7 @@ pages:
   - nom: "Cockpit stratégique"
     url: "/cockpit/"
 articlesLies:
-  - "abattement-impot-outre-mer-drom"
+  - "fiscalite-polynesie-francaise"
   - "defiscalisation-outre-mer-dispositifs"
 sources: "Constitution du 4 octobre 1958, article 74 · Loi n° 61-814 du 29 juillet 1961 conférant aux îles Wallis et Futuna le statut de territoire d'outre-mer · Loi n° 85-595 du 11 juin 1985 relative au statut de l'archipel de Saint-Pierre-et-Miquelon et textes statutaires ultérieurs · Codes locaux des impôts et services fiscaux des deux collectivités · Convention fiscale franco-canadienne."
 ---

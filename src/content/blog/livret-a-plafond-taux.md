@@ -29,7 +29,7 @@ outils:
     resume: "Où sera ton épargne dans dix ans, et combien mettre de côté pour un objectif."
 articlesLies:
   - "epargne-de-precaution-combien"
-  - "livret-a-plein-que-faire"
+  - "calcul-taux-livret-a"
 sources: "Arrêté du 29 juillet 2026 relatif aux taux des produits d'épargne réglementée, Journal officiel du 31 juillet 2026 · Communiqué du ministère de l'Économie du 15 juillet 2026 · Banque de France, formule de calcul du taux du livret A · Loi de financement de la Sécurité sociale pour 2026, article relatif à la CSG sur les revenus du capital."
 ---
 

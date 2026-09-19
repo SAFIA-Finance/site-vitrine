@@ -24,7 +24,7 @@ pages:
   - nom: "Particuliers"
     url: "/particuliers/"
 articlesLies:
-  - "livret-a-plein-que-faire"
+  - "pel-cel-livret-jeune"
   - "epargne-de-precaution-combien"
 sources: "Arrêté du 29 juillet 2026, Journal officiel du 31 juillet 2026 · Communiqué du ministère de l'Économie du 15 juillet 2026 · Banque de France, nombre de LEP ouverts au 30 avril 2026 · Service-public.fr, plafonds de revenus du LEP."
 ---

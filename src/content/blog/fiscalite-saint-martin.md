@@ -16,7 +16,7 @@ pages:
     url: "/cockpit/"
 seoDerive: true
 articlesLies:
-  - "fiscalite-wallis-futuna-saint-pierre-miquelon"
+  - "fiscalite-nouvelle-caledonie"
   - "abattement-impot-outre-mer-drom"
 sources: "Code général des collectivités territoriales, article LO 6314-4, I, 1° et 1° bis · Loi n° 2007-223 du 21 février 2007 · Conseil d'État, avis du 20 novembre 2013, n° 369796 · Code général des impôts de Saint-Martin et services fiscaux de la collectivité, impots-saint-martin.fr · Convention fiscale entre l'État et la collectivité de Saint-Martin."
 ---

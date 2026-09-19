@@ -19,7 +19,7 @@ outils:
     url: "/outils/succession/"
     resume: "Abattements et droits à payer selon le lien de parenté."
 articlesLies:
-  - "abattement-impot-outre-mer-drom"
+  - "fiscalite-polynesie-francaise"
   - "fiscalite-outre-mer-panorama"
 seoDerive: true
 sources: "Code général des impôts, article 750 ter, et articles 779, 990 I et 757 B · Code général des collectivités territoriales, articles LO 6214-4 et LO 6314-4 · Conventions fiscales internes entre l'État et les collectivités concernées · BOFiP, territorialité des droits de mutation à titre gratuit · Codes locaux des collectivités à fiscalité propre."

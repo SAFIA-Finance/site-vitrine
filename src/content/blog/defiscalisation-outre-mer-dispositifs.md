@@ -20,7 +20,7 @@ outils:
     resume: "Ton impôt, ta tranche marginale et ton taux moyen, barème 2026."
 seoDerive: true
 articlesLies:
-  - "fiscalite-saint-martin"
+  - "fiscalite-saint-barthelemy"
   - "fiscalite-wallis-futuna-saint-pierre-miquelon"
 sources: "Code général des impôts, articles 199 undecies B, 199 undecies C, 217 undecies, 244 quater W et 44 quaterdecies · BOFiP, dispositifs d'aide fiscale à l'investissement outre-mer · impots.gouv.fr, avantages fiscaux liés à une activité dans les DOM · Code général des impôts, article 200-0 A sur le plafonnement global des avantages fiscaux."
 ---

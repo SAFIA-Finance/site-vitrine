@@ -29,6 +29,7 @@ articlesLies:
   - "deduction-per-economie-impot"
   - "per-capital-ou-rente"
   - "per-ou-assurance-vie"
+  - "estimer-sa-retraite"
 sources: "Code monétaire et financier, articles L. 224-1 et suivants · Code général des impôts, article 163 quatervicies · Loi n° 2026-103 du 19 février 2026 de finances pour 2026, article 9 · Loi de financement de la Sécurité sociale pour 2026 · Loi Pacte du 22 mai 2019 · Avis d'impôt, rubrique « plafond épargne retraite »."
 ---
 

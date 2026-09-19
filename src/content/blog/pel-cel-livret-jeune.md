@@ -27,7 +27,7 @@ outils:
     resume: "Où sera ton épargne dans dix ans, et combien mettre de côté pour un objectif."
 articlesLies:
   - "livret-a-plein-que-faire"
-  - "fiscalite-assurance-vie-8-ans"
+  - "livret-a-ou-ldds"
 sources: "Arrêté du 29 juillet 2026, Journal officiel du 31 juillet 2026 · Service-public.fr, fiches PEL, CEL et livret jeune · Loi de financement de la Sécurité sociale pour 2026, liste des revenus maintenus à 17,2 % · Code monétaire et financier, articles relatifs à l'épargne logement."
 ---
 

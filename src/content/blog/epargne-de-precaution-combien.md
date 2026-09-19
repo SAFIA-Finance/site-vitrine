@@ -26,7 +26,7 @@ outils:
     url: "/outils/simulateur-epargne/"
     resume: "Où sera ton épargne dans dix ans, et combien mettre de côté pour un objectif."
 articlesLies:
-  - "livret-a-plein-que-faire"
+  - "livret-a-ou-ldds"
   - "combien-epargner-retraite"
 sources: "Banque de France, statistiques d'épargne des ménages 2026 · Arrêté du 29 juillet 2026, Journal officiel du 31 juillet 2026 · INSEE, budget des ménages."
 ---
