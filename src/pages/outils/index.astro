@@ -3,13 +3,56 @@
 // Une carte par outil, un nom, une ligne. Les outils pas encore publiés sont
 // montrés mais ne sont pas cliquables : annoncer ce qui arrive est honnête,
 // faire cliquer vers une page inexistante ne l'est pas.
+//
+// Lot 4, page 5 sur 7. La page faisait 254 mots et ne portait aucune FAQ.
+//
+// LE PIÈGE DE CETTE PAGE : sa fonction est de se parcourir, pas de se lire.
+// Mettre de la prose au-dessus de la grille l'aurait abîmée. Toute la matière
+// ajoutée vient donc APRÈS les cartes, dans l'ordre : ce qu'un simulateur
+// sait et ne sait pas, les six erreurs qui faussent un calcul, l'aiguillage
+// vers le bon outil selon la question, puis la FAQ. Un lecteur pressé clique
+// dans les trois premières secondes et ne voit jamais le reste.
+//
+// L'aiguillage de la cinquième section renvoie vers les neuf simulateurs, qui
+// sont tous publiés à ce jour. Si l'un repassait à `publie: false`, il
+// faudrait retirer son lien ici : la grille, elle, se met à jour toute seule.
+//
+// MISE EN PAGE : fonds alternés nuit, lavande, blanc, nuit, lavande, blanc,
+// nuit. « .limites » est à trois colonnes, donc six items.
 import Base from '../../layouts/Base.astro';
 import { OUTILS } from '../../calculs/outils.js';
+
+const faq = [
+  {
+    "q": "Ces simulateurs sont-ils vraiment gratuits ?",
+    "r": "Oui, sans inscription, sans email et sans limite d'utilisation. Ils existent parce qu'une décision patrimoniale se prend mieux avec un ordre de grandeur qu'avec une intuition."
+  },
+  {
+    "q": "Mes chiffres sont-ils enregistrés quelque part ?",
+    "r": "Non. Tout le calcul se fait dans ton navigateur : les montants que tu saisis ne partent sur aucun serveur, pas même le nôtre. Tu peux fermer l'onglet, il n'en reste rien."
+  },
+  {
+    "q": "Un résultat de simulateur vaut-il un conseil ?",
+    "r": "Non, et c'est une différence de nature, pas de précision. Un simulateur applique une formule aux chiffres que tu lui donnes. Un conseil en investissement personnalisé tient compte de ta situation entière, de tes projets et de ton profil de risque, et relève d'une activité réglementée."
+  },
+  {
+    "q": "Les barèmes sont-ils à jour ?",
+    "r": "Chaque simulateur indique le millésime du barème qu'il applique. Les barèmes fiscaux changent au moins une fois par an, et un calcul fait avec les chiffres de l'an dernier donne un résultat faux, pas approximatif."
+  },
+  {
+    "q": "Pourquoi deux simulateurs donnent-ils des résultats différents ?",
+    "r": "Parce qu'ils ne font pas les mêmes hypothèses : rendement retenu, frais pris en compte ou non, fiscalité à la sortie incluse ou non, inflation déduite ou non. Un résultat sans ses hypothèses ne veut rien dire, c'est pourquoi les nôtres les affichent."
+  },
+  {
+    "q": "Par quel simulateur commencer ?",
+    "r": "Par celui qui répond à la question que tu te poses vraiment. Si tu n'en as pas encore, commence par les intérêts composés : c'est le mécanisme qui explique la plupart des écarts de patrimoine sur vingt ans."
+  }
+];
 
 const fil = ['Accueil', 'Ressources', 'Outils'];
 ---
 
-<Base chemin={'/outils/'} fil={fil}>
+<Base chemin={'/outils/'} faq={faq} fil={fil}>
 <section class="hero hero-page">
 <div class="wrap hero-page-in hero-court">
   <p class="etiq-page">Outils</p>
@@ -52,6 +95,75 @@ const fil = ['Accueil', 'Ressources', 'Outils'];
     un conseil en investissement personnalisé au sens de l'article L. 541-1 du Code monétaire et financier.
     <a class="lien-petit" href="/disclaimer/">Avertissement complet</a>
   </p>
+</div>
+</section>
+
+<section class="bloc appui-bloc">
+<div class="wrap">
+  <h2 class="titre">Ce qu'un simulateur sait faire, et ce qu'il ignore</h2>
+  <div class="prose">
+    <p class="intro">Un simulateur de calcul financier est un outil honnête tant qu'on sait ce qu'on lui demande. Il ne prédit rien : il déroule une formule, à partir d'hypothèses que tu choisis, jusqu'à un ordre de grandeur. Toute la valeur est là, et toute la limite aussi.</p>
+
+    <h3>Ce qu'il calcule bien</h3>
+    <p>Des mécanismes. La capitalisation des intérêts sur vingt ans, l'effet d'un point de frais annuel, la différence entre deux enveloppes fiscales à versement égal, le montant des droits selon un lien de parenté. Ce sont des règles écrites, applicables sans jugement, et une machine les applique mieux qu'une estimation de tête. C'est précisément ce que la plupart des gens sous-estiment : l'écart entre deux trajectoires d'épargne ne vient presque jamais du choix d'un produit, il vient du temps, des frais et de la fiscalité.</p>
+
+    <h3>Ce qu'il ne peut pas savoir</h3>
+    <p>Ta vie. Un simulateur ignore que tu changeras de travail dans trois ans, que ton épargne de précaution est trop mince, qu'un parent vieillit, que tu supporteras mal de voir ton capital baisser de 20&#160;%. Il ignore aussi les rendements futurs, que personne ne connaît : quand tu saisis un taux, tu formules une hypothèse, tu ne lis pas l'avenir. Un résultat à l'euro près donne une fausse impression de précision, et c'est le principal danger de ces outils.</p>
+
+    <h3>Pourquoi tes chiffres restent chez toi</h3>
+    <p>Nos simulateurs s'exécutent entièrement dans ton navigateur. Rien n'est transmis, rien n'est stocké, il n'y a pas de formulaire à remplir avant de voir un résultat, ni d'email à laisser pour recevoir un rapport. Ce choix technique a une conséquence simple : nous ne pouvons pas savoir ce que tu as calculé, même si nous le voulions.</p>
+  </div>
+</div>
+</section>
+
+<section class="bloc ne-fait-pas">
+<div class="wrap">
+  <h2 class="titre">Six erreurs qui faussent une simulation</h2>
+  <ul class="limites">
+    <li><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/><path d="M12 7v6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="currentColor"/></svg><p><b>Oublier l'inflation.</b> 100&#160;000&#160;€ dans vingt ans n'achètent pas ce que 100&#160;000&#160;€ achètent aujourd'hui.</p></li>
+    <li><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/><path d="M12 7v6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="currentColor"/></svg><p><b>Confondre brut et net.</b> Un rendement annoncé est rarement celui qui arrive sur ton compte.</p></li>
+    <li><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/><path d="M12 7v6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="currentColor"/></svg><p><b>Prendre le passé pour une promesse.</b> Une performance passée est une information, pas une projection.</p></li>
+    <li><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/><path d="M12 7v6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="currentColor"/></svg><p><b>Négliger les frais.</b> Un point par an paraît anodin et coûte une fraction considérable du capital sur vingt ans.</p></li>
+    <li><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/><path d="M12 7v6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="currentColor"/></svg><p><b>Oublier la sortie.</b> Ce qui compte est ce qu'il te reste après impôt, pas ce qui s'affiche sur le relevé.</p></li>
+    <li><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/><path d="M12 7v6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="currentColor"/></svg><p><b>Simuler un horizon irréaliste.</b> Bloquer vingt ans une somme dont tu auras besoin dans trois change tout.</p></li>
+  </ul>
+</div>
+</section>
+
+<section class="bloc">
+<div class="wrap">
+  <h2 class="titre">Quel simulateur pour quelle question</h2>
+  <div class="prose">
+    <p class="intro">La bonne façon d'entrer dans cette page n'est pas de parcourir les outils, c'est de partir de ce que tu cherches à savoir.</p>
+
+    <p><b>« Mon livret est plein, et après&#160;? »</b> Commence par les <a class="lien" href="/outils/interets-composes/">intérêts composés</a> pour voir ce que le temps fait à une somme, puis par le <a class="lien" href="/outils/simulateur-epargne/">simulateur d'épargne</a> pour savoir combien mettre de côté chaque mois afin d'atteindre un objectif daté.</p>
+
+    <p><b>« Combien vais-je payer d'impôt&#160;? »</b> Le simulateur d'<a class="lien" href="/outils/impot-revenu/">impôt sur le revenu</a> donne le montant, la tranche marginale et le taux moyen. La tranche marginale est le chiffre à retenir : c'est elle qui détermine si une déduction est intéressante pour toi.</p>
+
+    <p><b>« Le PER, ça vaut le coup&#160;? »</b> Le <a class="lien" href="/outils/per/">simulateur PER</a> montre les deux côtés, l'économie à l'entrée et l'imposition à la sortie, que beaucoup de comparatifs oublient. L'article <a class="lien" href="/blog/deduction-per-economie-impot/">ce que la déduction PER te fait vraiment économiser</a> explique le raisonnement.</p>
+
+    <p><b>« Mes frais sont-ils élevés&#160;? »</b> Le simulateur du <a class="lien" href="/outils/frais/">coût de tes frais</a> traduit un pourcentage annuel en euros perdus sur vingt ans. C'est souvent le calcul qui surprend le plus, et l'article <a class="lien" href="/blog/frais-de-gestion-effet-20-ans/">l'effet des frais sur vingt ans</a> le prolonge.</p>
+
+    <p><b>« PEA ou compte-titres&#160;? »</b> Le comparateur <a class="lien" href="/outils/pea-cto/">PEA ou compte-titres</a> place la même somme dans les deux enveloppes et montre ce qu'il te reste à la fin. Pour un retrait d'assurance-vie, le simulateur de <a class="lien" href="/outils/assurance-vie-rachat/">rachat</a> distingue avant et après huit ans.</p>
+
+    <p><b>« Combien mes enfants paieront-ils&#160;? »</b> Le simulateur <a class="lien" href="/outils/succession/">succession et donation</a> applique les abattements et le barème selon le lien de parenté. Si ton patrimoine immobilier est important, le <a class="lien" href="/outils/ifi/">simulateur IFI</a> calcule le seuil, les tranches et la décote.</p>
+
+    <p>Un simulateur répond à une question isolée. Quand les questions s'enchaînent et qu'elles dépendent les unes des autres, c'est le rôle de l'application&#160;: elle part de tes comptes réunis plutôt que de chiffres que tu retapes, et te répond à partir de ta situation réelle. Sa méthode est décrite dans <a class="lien" href="/methode/">notre méthode</a>.</p>
+  </div>
+</div>
+</section>
+
+<section class="bloc faq-bloc">
+<div class="wrap faq-grille">
+  <h2 class="titre">Tes questions, nos réponses</h2>
+  <div class="faq">
+    <details><summary>Ces simulateurs sont-ils vraiment gratuits ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Oui, sans inscription, sans email et sans limite d'utilisation. Ils existent parce qu'une décision patrimoniale se prend mieux avec un ordre de grandeur qu'avec une intuition.</p></details>
+    <details><summary>Mes chiffres sont-ils enregistrés quelque part ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Non. Tout le calcul se fait dans ton navigateur : les montants que tu saisis ne partent sur aucun serveur, pas même le nôtre. Tu peux fermer l'onglet, il n'en reste rien.</p></details>
+    <details><summary>Un résultat de simulateur vaut-il un conseil ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Non, et c'est une différence de nature, pas de précision. Un simulateur applique une formule aux chiffres que tu lui donnes. Un conseil en investissement personnalisé tient compte de ta situation entière, de tes projets et de ton profil de risque, et relève d'une activité réglementée.</p></details>
+    <details><summary>Les barèmes sont-ils à jour ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Chaque simulateur indique le millésime du barème qu'il applique. Les barèmes fiscaux changent au moins une fois par an, et un calcul fait avec les chiffres de l'an dernier donne un résultat faux, pas approximatif.</p></details>
+    <details><summary>Pourquoi deux simulateurs donnent-ils des résultats différents ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Parce qu'ils ne font pas les mêmes hypothèses : rendement retenu, frais pris en compte ou non, fiscalité à la sortie incluse ou non, inflation déduite ou non. Un résultat sans ses hypothèses ne veut rien dire, c'est pourquoi les nôtres les affichent.</p></details>
+    <details><summary>Par quel simulateur commencer ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Par celui qui répond à la question que tu te poses vraiment. Si tu n'en as pas encore, commence par les intérêts composés : c'est le mécanisme qui explique la plupart des écarts de patrimoine sur vingt ans.</p></details>
+  </div>
 </div>
 </section>
 
