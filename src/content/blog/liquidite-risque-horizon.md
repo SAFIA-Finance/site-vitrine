@@ -6,6 +6,7 @@ description: "Disponibilité, risque de perte, horizon minimal : trois paramètr
 categorie: "Produits d'investissement"
 date: 2026-09-16
 lecture: 5
+mots: 1067
 essentiel:
   - "Trois paramètres suffisent à situer n'importe quel placement : **disponibilité**, **risque de perte**, **horizon minimal**."
   - "Aucun produit n'est bon sur les trois : c'est le principe même du fonctionnement des marchés."

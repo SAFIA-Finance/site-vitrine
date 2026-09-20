@@ -6,6 +6,7 @@ description: "L'enfant du conjoint n'est pas héritier et reste taxé à 60 %. C
 categorie: "Donation et succession"
 date: 2026-09-16
 lecture: 4
+mots: 890
 essentiel:
   - "L'enfant du conjoint **n'est pas héritier** : sans adoption, il est fiscalement un tiers, taxé à **60 %** après un abattement de 1 594 €."
   - "Les enfants d'un premier lit sont **héritiers réservataires** : ils ne peuvent être écartés au profit du nouveau conjoint."

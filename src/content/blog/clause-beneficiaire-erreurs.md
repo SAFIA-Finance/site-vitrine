@@ -6,6 +6,7 @@ description: "Une ligne mal rédigée peut annuler des années d'optimisation. C
 categorie: "Assurance-vie"
 date: 2026-09-14
 lecture: 5
+mots: 975
 essentiel:
   - "La clause bénéficiaire est la **seule ligne** qui détermine qui reçoit le capital et sous quel régime fiscal."
   - "La clause type des contrats est souvent adaptée, mais **pas toujours** à ta situation."

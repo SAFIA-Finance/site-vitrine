@@ -6,6 +6,7 @@ description: "Les cinq blocs obligatoires du recueil d'informations, les exigenc
 categorie: "Professionnels"
 date: 2026-09-14
 lecture: 4
+mots: 720
 essentiel:
   - "Cinq blocs sont obligatoires : connaissance et expérience, situation financière, objectifs, tolérance au risque, **préférences en matière de durabilité**."
   - "Les informations doivent rester **à jour** : un recueil ancien ne protège pas."

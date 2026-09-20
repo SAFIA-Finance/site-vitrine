@@ -6,6 +6,7 @@ description: "Hors succession, 152 500 € exonérés par bénéficiaire, puis 2
 categorie: "Assurance-vie"
 date: 2026-09-14
 lecture: 4
+mots: 875
 essentiel:
   - "Les capitaux d'assurance-vie sont transmis **hors succession civile**, aux bénéficiaires désignés."
   - "Pour les primes versées **avant 70 ans** : **152 500 € exonérés par bénéficiaire**, puis 20 % jusqu'à 700 000 €, puis 31,25 %."

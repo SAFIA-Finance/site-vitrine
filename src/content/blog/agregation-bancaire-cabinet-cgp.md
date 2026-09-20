@@ -6,6 +6,7 @@ description: "Ce que la DSP2 permet réellement, ce que l'agrégation fait gagne
 categorie: "Professionnels"
 date: 2026-09-14
 lecture: 4
+mots: 843
 essentiel:
   - "L'agrégation supprime la **collecte manuelle**, qui représente la part la plus improductive de la préparation d'un rendez-vous."
   - "Le consentement du client est **limité dans le temps** : les reconnexions périodiques sont une obligation réglementaire, pas un défaut technique."

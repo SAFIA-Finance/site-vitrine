@@ -6,6 +6,7 @@ description: "Forêts, vignes, art, collection : une logique patrimoniale, pas d
 categorie: "Produits d'investissement"
 date: 2026-09-16
 lecture: 4
+mots: 885
 essentiel:
   - "Forêts, vignes, art, voitures de collection, montres : ces actifs relèvent d'une logique **patrimoniale**, pas de rendement."
   - "Certains bénéficient de **régimes fiscaux spécifiques**, notamment en matière de transmission et d'IFI."

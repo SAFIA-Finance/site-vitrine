@@ -6,6 +6,7 @@ description: "Le régime NHR est fermé depuis le 1er janvier 2024. Ce que l'IFI
 categorie: "Expatriation"
 date: 2026-09-16
 lecture: 5
+mots: 936
 essentiel:
   - "Le régime NHR est **fermé aux nouvelles demandes depuis le 1er janvier 2024**. Toute page qui le présente comme accessible est périmée."
   - "Son successeur, l'**IFICI**, est beaucoup plus étroit : il vise la recherche, la technologie et l'innovation."

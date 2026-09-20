@@ -6,6 +6,7 @@ description: "Le non-dom chypriote dure jusqu'à dix-sept ans et exonère divide
 categorie: "Expatriation"
 date: 2026-09-16
 lecture: 4
+mots: 874
 essentiel:
   - "Le statut de **non-domicilié** chypriote dure jusqu'à dix-sept ans, soit la durée la plus longue d'Europe."
   - "Il exonère d'impôt sur le revenu les **dividendes et intérêts**, ce qui en fait une destination adaptée aux revenus de capitaux."

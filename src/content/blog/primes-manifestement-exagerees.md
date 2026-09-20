@@ -6,6 +6,7 @@ description: "L'assurance-vie est hors succession, sauf primes manifestement exa
 categorie: "Donation et succession"
 date: 2026-09-16
 lecture: 4
+mots: 796
 essentiel:
   - "L'assurance-vie échappe en principe aux règles du rapport et de la réduction : elle est hors succession."
   - "**Sauf** si les primes versées sont jugées **manifestement exagérées** au regard des facultés du souscripteur."

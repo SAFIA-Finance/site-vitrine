@@ -6,6 +6,7 @@ description: "Le principe de remittance : les revenus étrangers non rapatriés 
 categorie: "Expatriation"
 date: 2026-09-16
 lecture: 4
+mots: 817
 essentiel:
   - "Malte applique le principe de **remittance** : un résident non domicilié n'est imposé sur ses revenus étrangers que s'il les rapatrie sur l'île."
   - "Un **impôt minimum annuel** s'applique généralement dans le cadre des programmes de résidence."

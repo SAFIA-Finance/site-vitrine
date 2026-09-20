@@ -6,6 +6,7 @@ description: "L'indivision naît au décès et n'a pas de durée légale. Ce qui
 categorie: "Donation et succession"
 date: 2026-09-16
 lecture: 4
+mots: 773
 essentiel:
   - "L'indivision naît automatiquement au décès et dure jusqu'au partage : elle n'a **pas de durée légale**."
   - "Les décisions les plus lourdes, dont la vente, exigent en principe l'**unanimité** : un seul indivisaire bloque tout."

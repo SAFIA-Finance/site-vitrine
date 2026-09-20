@@ -6,6 +6,7 @@ description: "Forfait à 300 000 €, flat tax de 7 % pour retraités, impatriat
 categorie: "Expatriation"
 date: 2026-09-16
 lecture: 6
+mots: 1105
 essentiel:
   - "L'Italie propose **quatre régimes distincts**, chacun visant un profil précis : c'est l'offre la plus complète d'Europe."
   - "Le forfait grands patrimoines est passé de 200 000 € à **300 000 €** au 1er janvier 2026 pour les nouveaux entrants."

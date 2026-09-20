@@ -6,6 +6,7 @@ description: "Une convention fiscale se lit dans un ordre précis. Les six artic
 categorie: "Expatriation"
 date: 2026-09-16
 lecture: 6
+mots: 1224
 essentiel:
   - "Une convention ne crée pas d'impôt : elle **répartit le droit d'imposer** entre deux États."
   - "Six articles concentrent l'essentiel : résidence, immobilier, dividendes, intérêts, plus-values, élimination de la double imposition."

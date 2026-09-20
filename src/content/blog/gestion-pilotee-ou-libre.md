@@ -6,6 +6,7 @@ description: "Déléguer ou décider soi-même : le choix se joue sur le temps, 
 categorie: "Comparaison et décision"
 date: 2026-09-14
 lecture: 5
+mots: 1025
 essentiel:
   - "La gestion **pilotée** délègue les arbitrages à un professionnel, dans le cadre d'un mandat."
   - "La gestion **libre** te laisse choisir les supports et leur répartition."

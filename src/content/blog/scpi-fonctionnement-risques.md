@@ -6,6 +6,7 @@ description: "Le taux de distribution est un rendement brut d'impôt. Le prix de
 categorie: "Produits d'investissement"
 date: 2026-09-16
 lecture: 4
+mots: 818
 essentiel:
   - "Une SCPI détient un patrimoine immobilier locatif et te reverse une quote-part des loyers."
   - "Le rendement affiché est un **rendement brut avant impôt** : la fiscalité des revenus fonciers peut en absorber une part considérable."

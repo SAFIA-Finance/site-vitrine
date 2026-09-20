@@ -6,6 +6,7 @@ description: "Le rendement brut ne veut rien dire : six postes se soustraient av
 categorie: "Produits d'investissement"
 date: 2026-09-16
 lecture: 5
+mots: 979
 essentiel:
   - "Le **rendement brut**, loyer annuel divisé par le prix, ne veut rien dire. Seul le rendement **net net** compte."
   - "Six postes se soustraient : charges non récupérables, taxe foncière, assurance, gestion, travaux, vacance."

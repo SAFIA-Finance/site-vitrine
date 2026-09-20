@@ -6,6 +6,7 @@ description: "Compétence fiscale propre depuis 2007 et même règle des cinq an
 categorie: "Outre-mer"
 date: 2026-09-16
 lecture: 3
+mots: 661
 essentiel:
   - "Saint-Martin exerce une compétence fiscale propre depuis 2007, comme Saint-Barthélemy."
   - "La même **condition de cinq ans de résidence** s'applique aux personnes arrivant d'un département de métropole ou d'outre-mer."

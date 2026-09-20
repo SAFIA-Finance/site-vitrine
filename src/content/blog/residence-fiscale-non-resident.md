@@ -6,6 +6,7 @@ description: "Foyer, séjour, activité, intérêts économiques : les quatre cr
 categorie: "Expatriation"
 date: 2026-09-16
 lecture: 6
+mots: 1137
 essentiel:
   - "La résidence fiscale ne se choisit pas : elle **se constate**, sur la base de faits."
   - "Un seul des quatre critères de l'article 4 B suffit à vous rendre résident français."

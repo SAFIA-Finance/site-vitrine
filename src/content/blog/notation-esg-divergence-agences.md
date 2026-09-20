@@ -6,6 +6,7 @@ description: "Une entreprise peut être bien notée par une agence et mal par un
 categorie: "ESG et impact"
 date: 2026-09-14
 lecture: 4
+mots: 819
 essentiel:
   - "Les notations ESG de deux agences sur une même entreprise sont **faiblement corrélées**, là où les notations de crédit le sont très fortement."
   - "Trois causes : **ce qui est mesuré**, **comment c'est mesuré**, **quel poids est donné à quoi**."

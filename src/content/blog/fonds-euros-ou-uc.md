@@ -6,6 +6,7 @@ description: "Capital garanti contre espérance de rendement : la répartition e
 categorie: "Assurance-vie"
 date: 2026-09-14
 lecture: 5
+mots: 929
 essentiel:
   - "Le **fonds en euros** garantit le capital investi net de frais d'entrée. Son rendement est connu après coup, pas avant."
   - "Les **unités de compte** n'offrent aucune garantie : leur valeur peut baisser, et la perte peut être définitive si tu vends au mauvais moment."

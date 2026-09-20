@@ -6,6 +6,7 @@ description: "Le rapport d'adéquation doit expliquer pourquoi la recommandation
 categorie: "Professionnels"
 date: 2026-09-14
 lecture: 4
+mots: 748
 essentiel:
   - "La déclaration d'adéquation doit exposer **en quoi** la recommandation correspond aux caractéristiques du client."
   - "Elle est remise **avant** l'exécution de l'opération recommandée."

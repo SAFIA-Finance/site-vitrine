@@ -6,6 +6,7 @@ description: "Abattement de 31 865 €, don familial, assurance-vie : comment un
 categorie: "Donation et succession"
 date: 2026-09-14
 lecture: 5
+mots: 901
 essentiel:
   - "En donation, chaque grand-parent dispose d'un abattement de **31 865 €** par petit-enfant, renouvelable tous les quinze ans."
   - "Il se cumule avec le **don familial de 31 865 €** si le grand-parent a moins de 80 ans et le petit-enfant est majeur : **63 730 €** par grand-parent."

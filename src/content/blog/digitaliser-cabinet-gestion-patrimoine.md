@@ -6,6 +6,7 @@ description: "Une méthode en quatre chantiers, ordonnés par rapport effort/val
 categorie: "Professionnels"
 date: 2026-09-14
 lecture: 4
+mots: 805
 essentiel:
   - "La digitalisation échoue presque toujours pour la même raison : **trop de chantiers ouverts en même temps**."
   - "L'ordre qui fonctionne part de ce qui **réduit le risque**, puis de ce qui **libère du temps**, puis de ce qui **améliore la relation**."

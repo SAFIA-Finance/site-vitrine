@@ -6,6 +6,7 @@ description: "Deux collectivités de l'article 74 à fiscalité propre : Wallis-
 categorie: "Outre-mer"
 date: 2026-09-16
 lecture: 3
+mots: 513
 essentiel:
   - "Les deux collectivités relèvent de l'**article 74** de la Constitution et disposent d'une fiscalité propre."
   - "**Wallis-et-Futuna** repose très largement sur la **fiscalité indirecte** : il n'y a pas d'impôt sur le revenu des personnes physiques comparable au modèle métropolitain."

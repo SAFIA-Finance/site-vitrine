@@ -6,6 +6,7 @@ description: "Un ETF réplique un indice au lieu de le battre. Son avantage tien
 categorie: "Produits d'investissement"
 date: 2026-09-16
 lecture: 4
+mots: 894
 essentiel:
   - "Un ETF est un fonds **coté en bourse** qui réplique un indice, au lieu de chercher à le battre."
   - "Son avantage principal n'est pas la performance : ce sont les **frais**, souvent dix fois inférieurs à ceux d'un fonds géré activement."

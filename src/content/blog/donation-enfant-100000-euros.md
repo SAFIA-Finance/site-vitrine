@@ -6,6 +6,7 @@ description: "L'abattement de 100 000 € par parent et par enfant se renouvelle
 categorie: "Donation et succession"
 date: 2026-09-14
 lecture: 5
+mots: 1062
 essentiel:
   - "**100 000 € par parent et par enfant**, en franchise totale de droits (article 779 du CGI)."
   - "L'abattement se **reconstitue tous les quinze ans**, à compter de la date de la donation déclarée."

@@ -6,6 +6,7 @@ description: "Détenir en direct supprime les frais de gestion mais transfère l
 categorie: "Produits d'investissement"
 date: 2026-09-16
 lecture: 5
+mots: 982
 essentiel:
   - "Détenir des actions en direct supprime les frais de gestion d'un fonds, mais transfère sur toi tout le travail et tout le risque de concentration."
   - "Le **biais domestique**, surpondérer les entreprises de son propre pays, est l'erreur la plus documentée de l'épargnant particulier."

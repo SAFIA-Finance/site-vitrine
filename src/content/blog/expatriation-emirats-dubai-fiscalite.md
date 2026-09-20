@@ -6,6 +6,7 @@ description: "Aucun impôt sur le revenu des personnes physiques, mais pas de su
 categorie: "Expatriation"
 date: 2026-09-16
 lecture: 5
+mots: 948
 essentiel:
   - "Les Émirats n'imposent pas les revenus des personnes physiques : c'est la réalité, et c'est ce qui explique l'attractivité."
   - "Mais ils ne figurent **pas** parmi les États ouvrant le sursis automatique d'exit tax : la procédure lourde s'applique."

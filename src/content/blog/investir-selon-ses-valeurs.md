@@ -6,6 +6,7 @@ description: "Exclure, sélectionner ou financer : trois approches de l'investis
 categorie: "ESG et impact"
 date: 2026-09-14
 lecture: 4
+mots: 835
 essentiel:
   - "« Investir responsable » recouvre **trois démarches très différentes** : exclure, sélectionner les meilleurs, ou financer directement un impact."
   - "La première question n'est pas « quel fonds choisir » mais **« qu'est-ce que je refuse de financer »**."

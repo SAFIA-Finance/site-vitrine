@@ -6,6 +6,7 @@ description: "L'enveloppe porte la fiscalité, le support porte la performance. 
 categorie: "Produits d'investissement"
 date: 2026-09-16
 lecture: 5
+mots: 1060
 essentiel:
   - "Une **enveloppe** est un contenant fiscal : assurance-vie, PEA, PER, compte-titres, PEE."
   - "Un **support** est ce que l'on met dedans : fonds euros, ETF, OPCVM, SCPI, actions, produits structurés."

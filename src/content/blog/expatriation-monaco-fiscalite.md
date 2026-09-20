@@ -6,6 +6,7 @@ description: "Monaco n'impose pas ses résidents, mais la convention de 1963 exc
 categorie: "Expatriation"
 date: 2026-09-16
 lecture: 4
+mots: 765
 essentiel:
   - "Monaco n'impose pas les revenus de ses résidents, **mais la convention de 1963 exclut les Français** de ce bénéfice."
   - "Un Français qui s'installe à Monaco reste, sauf exception historique, imposable en France sur l'ensemble de ses revenus."

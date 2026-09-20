@@ -6,6 +6,7 @@ description: "Faut-il clôturer son assurance-vie ou son PEA avant de partir ? C
 categorie: "Expatriation"
 date: 2026-09-16
 lecture: 6
+mots: 1218
 essentiel:
   - "Contrairement à une idée répandue, **il n'y a généralement aucune raison de clôturer** son assurance-vie ou son PEA avant de partir."
   - "Clôturer, c'est perdre une **antériorité fiscale** qui ne se reconstitue pas."

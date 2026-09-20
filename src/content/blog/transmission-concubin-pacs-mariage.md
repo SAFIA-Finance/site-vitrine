@@ -6,6 +6,7 @@ description: "Concubin taxé à 60 %, partenaire de PACS exonéré mais non hér
 categorie: "Donation et succession"
 date: 2026-09-16
 lecture: 4
+mots: 789
 essentiel:
   - "Le **concubin** n'est pas héritier et est taxé à **60 %** après 1 594 € d'abattement : c'est le pire traitement du droit français."
   - "Le **partenaire de PACS** est exonéré de droits de succession, mais **n'est pas héritier** : il ne reçoit rien sans testament."

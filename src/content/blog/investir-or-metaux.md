@@ -6,6 +6,7 @@ description: "L'or ne produit ni intérêt ni dividende : il diversifie, il ne r
 categorie: "Produits d'investissement"
 date: 2026-09-16
 lecture: 4
+mots: 868
 essentiel:
   - "L'or ne produit **ni intérêt ni dividende** : sa performance vient uniquement de la variation de son prix."
   - "Il est traditionnellement détenu comme **diversification** et protection contre les chocs monétaires, non comme moteur de rendement."

@@ -6,6 +6,7 @@ description: "Un point de frais annuel paraît anodin. Sur vingt ans, il absorbe
 categorie: "Comparaison et décision"
 date: 2026-09-14
 lecture: 5
+mots: 1016
 essentiel:
   - "Les frais s'appliquent **chaque année, au capital entier**, y compris les années de baisse."
   - "Ils sont la **seule variable certaine** d'un placement : connus d'avance, contrairement au rendement."

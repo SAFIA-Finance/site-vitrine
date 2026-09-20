@@ -6,6 +6,7 @@ description: "Pas de droits de succession, mais une présomption de disposition 
 categorie: "Expatriation"
 date: 2026-09-16
 lecture: 4
+mots: 844
 essentiel:
   - "Le Canada n'est pas une destination d'optimisation : il impose les **revenus mondiaux** de ses résidents."
   - "Il n'a pas de droits de succession, mais une **présomption de disposition au décès** qui impose les plus-values latentes : l'effet économique peut être proche."

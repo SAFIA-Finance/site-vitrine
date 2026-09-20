@@ -6,6 +6,7 @@ description: "L'OPCI se rachète plus vite qu'une SCPI grâce à sa poche liquid
 categorie: "Produits d'investissement"
 date: 2026-09-16
 lecture: 5
+mots: 953
 essentiel:
   - "L'**OPCI** combine une poche immobilière et une poche financière liquide, ce qui le rend plus facile à racheter qu'une SCPI."
   - "Cette poche liquide introduit en contrepartie une **volatilité** que la SCPI n'a pas."

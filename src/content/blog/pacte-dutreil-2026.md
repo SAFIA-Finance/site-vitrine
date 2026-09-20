@@ -6,6 +6,7 @@ description: "Une exonération de 75 % sur les titres transmis, contre huit ans 
 categorie: "Donation et succession"
 date: 2026-09-16
 lecture: 5
+mots: 935
 essentiel:
   - "Le pacte Dutreil permet une **exonération de 75 %** de la valeur des titres transmis, sous engagements de conservation."
   - "La loi de finances pour 2026 a **durci** le dispositif : l'engagement individuel passe de quatre à six ans."

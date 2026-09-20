@@ -6,6 +6,7 @@ description: "Versements déductibles, blocage, sortie en capital ou en rente : 
 categorie: "Retraite"
 date: 2026-09-14
 lecture: 6
+mots: 1118
 essentiel:
   - "Le PER permet de **déduire les versements** du revenu imposable, dans la limite d'un plafond annuel."
   - "Les fonds sont **bloqués jusqu'à la retraite**, sauf six cas de déblocage anticipé."

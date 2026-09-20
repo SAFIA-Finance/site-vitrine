@@ -6,6 +6,7 @@ description: "Un abattement spécifique de 159 325 €, cumulable avec celui de 
 categorie: "Donation et succession"
 date: 2026-09-16
 lecture: 4
+mots: 792
 essentiel:
   - "Un abattement spécifique de **159 325 €** s'applique, **cumulable** avec l'abattement de parenté."
   - "Un enfant handicapé recevant d'un parent bénéficie donc de **259 325 €** d'abattement total par parent."

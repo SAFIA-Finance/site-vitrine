@@ -6,6 +6,7 @@ description: "Agrégation, conformité, reporting, GRC : la grille de sélection
 categorie: "Professionnels"
 date: 2026-09-14
 lecture: 4
+mots: 772
 essentiel:
   - "Huit fonctions structurent réellement un outil métier ; les autres sont des arguments commerciaux."
   - "Le coût déterminant n'est pas la licence : c'est la **reprise de données** et le temps d'appropriation."

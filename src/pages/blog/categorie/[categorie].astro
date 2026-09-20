@@ -32,6 +32,7 @@ const texte = CATEGORIES_TEXTE[categorie] ?? null;
   titre={`${categorie} : nos articles · SAFIA`}
   description={`Nos articles sur « ${categorie} », écrits par un conseiller en gestion de patrimoine certifié AMF, sans jargon et avec les sources.`}
   fil={fil}
+  liste={articles.map((a) => ({ nom: a.data.titre, url: `/blog/${a.id}/` }))}
 >
 <section class="hero hero-page hero-part">
 <div class="wrap hero-page-in hero-court">

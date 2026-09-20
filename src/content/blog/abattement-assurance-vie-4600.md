@@ -6,6 +6,7 @@ description: "L'abattement annuel de 4 600 € ou 9 200 € ne s'applique qu'à 
 categorie: "Assurance-vie"
 date: 2026-09-14
 lecture: 4
+mots: 876
 essentiel:
   - "**4 600 €** de gains exonérés d'impôt sur le revenu par an pour une personne seule, **9 200 €** pour un couple marié ou pacsé."
   - "Il ne s'applique qu'aux contrats de **plus de huit ans**."

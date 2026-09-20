@@ -6,6 +6,7 @@ description: "Une réponse financière non sourcée est invérifiable, donc inut
 categorie: "IA et méthode"
 date: 2026-09-14
 lecture: 5
+mots: 908
 essentiel:
   - "Un modèle de langage produit une réponse **plausible**, ce qui n'est pas la même chose qu'une réponse **exacte**."
   - "En matière fiscale ou patrimoniale, une affirmation invérifiable est inutilisable, quelle que soit sa qualité de rédaction."

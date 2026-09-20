@@ -6,6 +6,7 @@ description: "La SCI rend un bien divisible et évite l'indivision, mais impose 
 categorie: "Donation et succession"
 date: 2026-09-16
 lecture: 4
+mots: 806
 essentiel:
   - "La SCI transforme un bien indivisible en **parts divisibles**, ce qui facilite la transmission progressive."
   - "Elle organise la **gouvernance** : le gérant décide, même minoritaire en capital."

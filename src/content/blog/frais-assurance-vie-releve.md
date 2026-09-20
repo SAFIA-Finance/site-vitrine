@@ -6,6 +6,7 @@ description: "Frais d'entrée, de gestion, d'arbitrage, frais internes des fonds
 categorie: "Assurance-vie"
 date: 2026-09-14
 lecture: 4
+mots: 850
 essentiel:
   - "Il existe **quatre couches de frais** distinctes, dont une n'apparaît pas sur ton relevé."
   - "Les **frais de gestion annuels** sont les plus structurants, car ils s'appliquent chaque année au capital entier."

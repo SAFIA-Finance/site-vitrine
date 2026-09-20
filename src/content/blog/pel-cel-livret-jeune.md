@@ -6,6 +6,7 @@ description: "PEL à 2 % brut mais fiscalisé, CEL à 1,25 %, livret jeune en vo
 categorie: "Épargne réglementée"
 date: 2026-09-14
 lecture: 5
+mots: 947
 essentiel:
   - "Le **PEL ouvert en 2026** sert 2 % brut, mais ses intérêts sont fiscalisés depuis 2018 : environ **1,37 % net**."
   - "Le **CEL** rapporte 1,25 % brut, également fiscalisé, soit moins que le livret A net."

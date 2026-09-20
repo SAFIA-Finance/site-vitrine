@@ -6,6 +6,7 @@ description: "Abattement de 100 000 € par enfant, barème de 5 % à 45 %, exon
 categorie: "Donation et succession"
 date: 2026-09-14
 lecture: 6
+mots: 1116
 essentiel:
   - "Chaque enfant bénéficie d'un **abattement de 100 000 €** sur sa part, par parent."
   - "Au-delà, le barème en ligne directe est **progressif, de 5 % à 45 %**."

@@ -6,6 +6,7 @@ description: "Le document d'informations clés est la seule pièce comparable d'
 categorie: "Produits d'investissement"
 date: 2026-09-16
 lecture: 5
+mots: 1004
 essentiel:
   - "Le **document d'informations clés** est obligatoire, normalisé et court : c'est la seule pièce réellement comparable d'un produit à l'autre."
   - "Cinq rubriques concentrent l'information utile : risque, scénarios, coûts, horizon, alerte de complexité."

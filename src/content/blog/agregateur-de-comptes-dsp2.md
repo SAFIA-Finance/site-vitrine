@@ -6,6 +6,7 @@ description: "Depuis la DSP2, tes banques doivent ouvrir un accès sécurisé à
 categorie: "Comparaison et décision"
 date: 2026-09-14
 lecture: 5
+mots: 943
 essentiel:
   - "La **deuxième directive sur les services de paiement** oblige les banques à donner accès à tes données de compte, avec ton consentement, via des interfaces dédiées."
   - "Un agrégateur agréé accède **en lecture seule** : il voit les soldes et les opérations, il ne peut pas initier de virement dans ce cadre."

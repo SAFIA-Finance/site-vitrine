@@ -6,6 +6,7 @@ description: "Un robo-advisor gère un portefeuille selon un profil, via un mand
 categorie: "Comparaison et décision"
 date: 2026-09-14
 lecture: 5
+mots: 982
 essentiel:
   - "Un robo-advisor est un service de **gestion sous mandat automatisée** : tu délègues les décisions d'investissement."
   - "Il repose sur trois briques : un **questionnaire de profil**, une **allocation type**, et un **rééquilibrage automatique**."

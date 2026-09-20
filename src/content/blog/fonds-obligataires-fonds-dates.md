@@ -6,6 +6,7 @@ description: "Le prix d'une obligation baisse quand les taux montent. La duratio
 categorie: "Produits d'investissement"
 date: 2026-09-16
 lecture: 4
+mots: 820
 essentiel:
   - "Le prix d'une obligation **baisse quand les taux montent** : c'est le mécanisme que beaucoup d'épargnants ont découvert en 2022."
   - "La **duration** mesure cette sensibilité : une duration de 5 signifie environ 5 % de baisse pour 1 point de hausse des taux."

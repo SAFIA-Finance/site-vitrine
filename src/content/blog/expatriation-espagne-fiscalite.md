@@ -6,6 +6,7 @@ description: "Régime Beckham, fortune et succession régionalisées : pourquoi 
 categorie: "Expatriation"
 date: 2026-09-16
 lecture: 4
+mots: 891
 essentiel:
   - "Le régime dit **Beckham** vise les salariés et dirigeants qui s'installent en Espagne pour y travailler."
   - "La fiscalité espagnole est **fortement régionalisée** : l'impôt sur la fortune et les droits de succession varient énormément selon la communauté autonome."

@@ -52,6 +52,7 @@ const categorieUrl = `/blog/categorie/${slugCategorie(data.categorie)}/`;
     // Absent tant que l'article n'a pas été modifié : Base.astro retombe alors
     // sur la date de publication, qui est la seule information vraie.
     maj: data.maj ? dateIso(data.maj) : undefined,
+    mots: data.mots,
   }}
   image={`/og/blog/${article.id}.png`}
 >

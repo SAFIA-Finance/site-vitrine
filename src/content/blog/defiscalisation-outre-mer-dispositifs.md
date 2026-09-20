@@ -6,6 +6,7 @@ description: "Articles 199 undecies B et C : des niches à plafond majoré, ouve
 categorie: "Outre-mer"
 date: 2026-09-16
 lecture: 4
+mots: 741
 essentiel:
   - "Les dispositifs outre-mer figurent parmi les **rares niches à plafond majoré** du droit fiscal français."
   - "Les principaux reposent sur les articles **199 undecies B** et **199 undecies C** du Code général des impôts, ainsi que sur des dispositifs de crédit d'impôt."

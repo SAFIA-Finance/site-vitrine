@@ -6,6 +6,7 @@ description: "Liquidités, obligations, actions, actifs réels : quatre familles
 categorie: "Produits d'investissement"
 date: 2026-09-16
 lecture: 5
+mots: 984
 essentiel:
   - "Quatre grandes familles : **liquidités, obligations, actions, actifs réels**. Tout le reste en dérive."
   - "Chaque famille se définit par la **nature du droit** qu'elle confère, pas par son étiquette commerciale."

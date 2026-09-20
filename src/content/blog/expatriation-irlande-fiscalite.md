@@ -6,6 +6,7 @@ description: "La remittance protège les revenus étrangers non rapatriés, mais
 categorie: "Expatriation"
 date: 2026-09-16
 lecture: 4
+mots: 721
 essentiel:
   - "L'Irlande applique, comme Malte et le Royaume-Uni historiquement, le principe de **remittance** aux résidents non domiciliés."
   - "Les revenus étrangers non rapatriés en Irlande échappent en principe à l'impôt irlandais."

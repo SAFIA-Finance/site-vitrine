@@ -6,6 +6,7 @@ description: "Une décote contre l'abandon des revenus pendant quinze à vingt a
 categorie: "Produits d'investissement"
 date: 2026-09-16
 lecture: 4
+mots: 825
 essentiel:
   - "Tu achètes un bien avec une **décote**, en échange de l'abandon des revenus pendant une durée fixée, souvent quinze à vingt ans."
   - "Pendant le démembrement : **aucun loyer**, donc **aucune imposition**, et le bien est **hors assiette de l'IFI** pour le nu-propriétaire."

@@ -6,6 +6,7 @@ description: "La réfaction porte sur le montant de l'impôt, pas sur le revenu 
 categorie: "Outre-mer"
 date: 2026-09-16
 lecture: 4
+mots: 858
 essentiel:
   - "La réfaction porte sur le **montant de l'impôt**, pas sur le revenu imposable. C'est la confusion la plus répandue."
   - "Elle est **plafonnée**, et le plafond est atteint plus tôt qu'on ne l'imagine."

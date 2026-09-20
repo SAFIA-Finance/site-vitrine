@@ -15,6 +15,9 @@ import ModaleTelechargement from '../components/ModaleTelechargement.astro';
 import { ClientRouter } from 'astro:transitions';
 import { SITE_URL, INDEXABLE, SOCIETE, GA_ID, RELAIS_URL, APPLICATION, RESEAUX, RESEAUX_FONDATEUR } from '../config.js';
 import pages from '../data/pages.json';
+// Le catalogue des simulateurs, pour que chaque page sous /outils/ décrive
+// l'outil qu'elle héberge sans avoir à se nommer elle-même.
+import { OUTILS_PUBLIES } from '../calculs/outils.js';
 import { depouiller } from '../blog.js';
 import '../styles/global.css';
 
@@ -25,6 +28,11 @@ const {
   noindex = false,
   // Article de blog : produit un bloc BlogPosting en plus du reste.
   article = null,
+  // Page de liste : le sommaire du blog et les onze pages de thème passent ici
+  // leurs articles, dans l'ordre où la page les affiche. Produit une ItemList.
+  // Une suite de liens ne dit pas à un moteur qu'il lit une liste, ni dans
+  // quel ordre elle se lit ; ItemList le dit.
+  liste = null,
   // Visuel de partage. Une page peut en fournir un ; sinon la carte de marque
   // est produite par outils/generer-images.mjs.
   image = '/og/defaut.png',
@@ -99,6 +107,17 @@ const organisation = {
       url: `${SITE_URL}/`,
       description:
         "Application de gestion de patrimoine assistée par intelligence artificielle explicable. SAFIA SAS est conseiller en investissements financiers enregistré à l'ORIAS.",
+      // Google demande « logo » sur une Organization pour pouvoir l'afficher
+      // dans son panneau de connaissance : sans lui, la fiche reste valide mais
+      // sort sans image. C'est `icon-512.png`, produit par `npm run images` à
+      // partir du MÊME tracé que l'icône iOS et celles du manifeste. Une seule
+      // image de marque déclinée en tailles, jamais trois dessins qui dérivent.
+      logo: {
+        '@type': 'ImageObject',
+        url: `${SITE_URL}/icon-512.png`,
+        width: 512,
+        height: 512,
+      },
       email: SOCIETE.email,
       address: {
         '@type': 'PostalAddress',
@@ -189,6 +208,71 @@ const jsonArticle = article
       mainEntityOfPage: canonique,
       author: { '@id': `${SITE_URL}/fondateur/#personne` },
       publisher: { '@id': `${SITE_URL}/#organisation` },
+      // La carte de partage propre à l'article, produite à la construction par
+      // outils/generer-og-articles.mjs et déjà passée en prop par
+      // blog/[slug].astro. Sans « image », l'article reste valide pour Google
+      // mais perd les affichages enrichis qui en dépendent.
+      image: imageAbsolue,
+      url: canonique,
+      // Compté à la conversion, en même temps que la durée de lecture. Utile
+      // aux moteurs génératifs, qui privilégient les contenus substantiels :
+      // les 123 articles dépassent tous 1 200 mots, autant le dire.
+      wordCount: article.mots,
+      // Rien n'est derrière un péage sur ce site. Le déclarer évite qu'un
+      // article soit pris pour l'extrait gratuit d'un contenu payant, ce que
+      // la présence d'une offre payante dans le même graphe pourrait suggérer.
+      isAccessibleForFree: true,
+    }
+  : null;
+
+// Simulateur : chaque page sous /outils/ décrit l'outil qu'elle héberge.
+//
+// L'outil est DÉDUIT de `chemin` et résolu dans le catalogue, exactement comme
+// la carte de partage plus haut. Deux conséquences qui valent mieux qu'une
+// prop : aucune des neuf pages n'a à se déclarer elle-même, et un outil
+// dépublié cesse d'être décrit en même temps qu'il cesse d'être lié.
+//
+// « WebApplication » plutôt que « SoftwareApplication » : c'en est une
+// sous-classe, et elle dit la chose exacte, un outil qui s'exécute dans le
+// navigateur. Rien à installer, rien à envoyer : le calcul ne quitte pas la
+// machine du visiteur, ce que `browserRequirements` et l'offre à zéro euro
+// disent ensemble.
+const outilDeLaPage = OUTILS_PUBLIES.find((o) => o.route === chemin) ?? null;
+
+const jsonOutil = outilDeLaPage
+  ? {
+      '@context': 'https://schema.org',
+      '@type': 'WebApplication',
+      name: outilDeLaPage.nom,
+      url: canonique,
+      description: outilDeLaPage.resume,
+      applicationCategory: 'FinanceApplication',
+      operatingSystem: 'Tout navigateur web',
+      browserRequirements: 'JavaScript',
+      inLanguage: 'fr-FR',
+      isAccessibleForFree: true,
+      offers: { '@type': 'Offer', price: '0', priceCurrency: 'EUR' },
+      publisher: { '@id': `${SITE_URL}/#organisation` },
+    }
+  : null;
+
+// Page de liste : le sommaire du blog et les onze pages de thème.
+//
+// L'ordre déclaré est celui de la page, qui trie du plus récent au plus ancien.
+// `depouiller` parce qu'un titre peut porter du gras : les données structurées
+// attendent du texte, pas du balisage.
+const jsonListe = liste?.length
+  ? {
+      '@context': 'https://schema.org',
+      '@type': 'ItemList',
+      itemListOrder: 'https://schema.org/ItemListOrderDescending',
+      numberOfItems: liste.length,
+      itemListElement: liste.map((e, i) => ({
+        '@type': 'ListItem',
+        position: i + 1,
+        url: new URL(e.url, SITE_URL).href,
+        name: depouiller(e.nom),
+      })),
     }
   : null;
 
@@ -293,6 +377,8 @@ const jsonFil = (() => {
     {jsonFaq && <script type="application/ld+json" set:html={JSON.stringify(jsonFaq)} />}
     {jsonFil && <script type="application/ld+json" set:html={JSON.stringify(jsonFil)} />}
     {jsonArticle && <script type="application/ld+json" set:html={JSON.stringify(jsonArticle)} />}
+    {jsonOutil && <script type="application/ld+json" set:html={JSON.stringify(jsonOutil)} />}
+    {jsonListe && <script type="application/ld+json" set:html={JSON.stringify(jsonListe)} />}
 
     <ClientRouter />
   </head>

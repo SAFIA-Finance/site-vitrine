@@ -6,6 +6,7 @@ description: "Taux plein, décote, surcote, trimestres cotisés ou assimilés : 
 categorie: "Retraite"
 date: 2026-09-14
 lecture: 6
+mots: 1132
 essentiel:
   - "Le **taux plein** est le taux maximal de la pension de base ; il s'obtient par la durée d'assurance ou par l'âge."
   - "La **décote** réduit définitivement la pension lorsqu'il manque des trimestres."

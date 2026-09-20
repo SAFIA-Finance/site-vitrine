@@ -6,6 +6,7 @@ description: "Statut propre issu de l'accord de Nouméa et compétence fiscale p
 categorie: "Outre-mer"
 date: 2026-09-16
 lecture: 3
+mots: 568
 essentiel:
   - "La Nouvelle-Calédonie relève d'un statut **propre**, inscrit au titre XIII de la Constitution et issu de l'accord de Nouméa."
   - "Elle exerce une **compétence fiscale pleine** : impôt sur le revenu local, impôt sur les sociétés local, fiscalité indirecte locale."

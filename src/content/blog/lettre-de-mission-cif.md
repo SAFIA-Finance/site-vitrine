@@ -6,6 +6,7 @@ description: "Objet, étendue, rémunération, durée : les mentions attendues d
 categorie: "Professionnels"
 date: 2026-09-14
 lecture: 3
+mots: 698
 essentiel:
   - "La lettre de mission **formalise le périmètre** de votre intervention et vous protège autant que le client."
   - "Elle doit préciser l'objet, l'étendue, les **modalités de rémunération** et la durée."

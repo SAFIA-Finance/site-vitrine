@@ -6,6 +6,7 @@ description: "Inventaire, flux, fiscalité, transmission : les quatre volets d'u
 categorie: "IA et méthode"
 date: 2026-09-14
 lecture: 4
+mots: 823
 essentiel:
   - "Un bilan patrimonial est un **état des lieux**, pas une recommandation."
   - "Il comporte quatre volets : **ce que tu possèdes, ce qui entre et sort, ce que tu paies, ce qui se transmet**."

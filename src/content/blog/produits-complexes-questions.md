@@ -6,6 +6,7 @@ description: "Six questions à poser avant de signer, dont celle sur la rémuné
 categorie: "Produits d'investissement"
 date: 2026-09-16
 lecture: 5
+mots: 1022
 essentiel:
   - "Un produit complexe n'est pas nécessairement mauvais : il est **difficile à évaluer**, ce qui est différent."
   - "Six questions suffisent à faire apparaître ce qui est habituellement passé sous silence."

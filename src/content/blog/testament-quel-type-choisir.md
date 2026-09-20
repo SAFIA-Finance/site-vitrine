@@ -6,6 +6,7 @@ description: "Olographe, authentique ou international : ce que chaque forme gara
 categorie: "Donation et succession"
 date: 2026-09-16
 lecture: 4
+mots: 729
 essentiel:
   - "Le testament **olographe** est gratuit et libre, mais il doit être **entièrement écrit à la main, daté et signé** : sinon il est nul."
   - "Le testament **authentique**, reçu par notaire, est plus sûr et plus difficile à contester."

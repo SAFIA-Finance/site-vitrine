@@ -6,6 +6,7 @@ description: "L'économie d'impôt d'un versement PER dépend de ta tranche marg
 categorie: "Retraite"
 date: 2026-09-14
 lecture: 6
+mots: 1114
 essentiel:
   - "L'économie d'impôt d'un versement est égale à **versement × tranche marginale d'imposition**."
   - "Elle est nulle si tu n'es pas imposable, et faible en tranche à 11 %."

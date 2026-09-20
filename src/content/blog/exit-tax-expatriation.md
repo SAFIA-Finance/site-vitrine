@@ -6,6 +6,7 @@ description: "L'exit tax impose vos plus-values latentes au départ de France, �
 categorie: "Expatriation"
 date: 2026-09-16
 lecture: 6
+mots: 1186
 essentiel:
   - "L'exit tax impose des plus-values que vous **n'avez pas réalisées**, comme si vous aviez vendu la veille du départ."
   - "Deux conditions cumulatives : l'ancienneté de résidence **et** le seuil de patrimoine en titres."

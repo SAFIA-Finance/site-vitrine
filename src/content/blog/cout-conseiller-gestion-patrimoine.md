@@ -6,6 +6,7 @@ description: "Honoraires, rétrocessions, frais sur encours : les trois modes de
 categorie: "Comparaison et décision"
 date: 2026-09-14
 lecture: 5
+mots: 937
 essentiel:
   - "Trois modes de rémunération coexistent : **honoraires**, **rétrocessions sur les produits**, ou **pourcentage des encours**."
   - "Chacun crée une structure d'incitation différente, et **tu dois savoir laquelle s'applique** : l'information est obligatoire."

@@ -6,6 +6,7 @@ description: "Trois à six mois de dépenses, dit la règle. Comment calculer to
 categorie: "Épargne réglementée"
 date: 2026-09-14
 lecture: 4
+mots: 822
 essentiel:
   - "La règle usuelle est de **trois à six mois de dépenses courantes**, pas de revenus."
   - "Le bon montant dépend de trois facteurs : **la stabilité de tes revenus, tes charges fixes et tes contraintes familiales**."

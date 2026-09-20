@@ -6,6 +6,7 @@ description: "Le fonds en euros réagit avec retard aux taux, car son portefeuil
 categorie: "Produits d'investissement"
 date: 2026-09-16
 lecture: 4
+mots: 844
 essentiel:
   - "Le **fonds en euros** garantit le capital net de frais d'entrée et produit un rendement connu **après coup**."
   - "Sa performance dépend d'un portefeuille obligataire constitué progressivement : il réagit avec **retard** aux mouvements de taux."

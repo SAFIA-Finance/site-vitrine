@@ -6,6 +6,7 @@ description: "Loyers, plus-values immobilières, IFI, dividendes, comptes bancai
 categorie: "Expatriation"
 date: 2026-09-16
 lecture: 5
+mots: 1096
 essentiel:
   - "Devenir non-résident ne coupe pas le lien fiscal avec la France : les **revenus de source française** y restent imposables."
   - "Un **taux minimum de 20 %** s'applique aux revenus de source française, sauf à démontrer que votre taux mondial serait inférieur."

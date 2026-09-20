@@ -6,6 +6,7 @@ description: "Réduire le délai entre le premier contact et le rendez-vous util
 categorie: "Professionnels"
 date: 2026-09-14
 lecture: 4
+mots: 822
 essentiel:
   - "Le délai entre le premier contact et le premier rendez-vous **utile** est le meilleur indicateur de qualité d'un parcours d'entrée en relation."
   - "Cinq étapes le composent, et trois d'entre elles sont automatisables sans perte de conformité."

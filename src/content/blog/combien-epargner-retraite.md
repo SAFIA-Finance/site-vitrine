@@ -6,6 +6,7 @@ description: "La méthode en quatre étapes pour chiffrer l'effort mensuel réel
 categorie: "Retraite"
 date: 2026-09-14
 lecture: 5
+mots: 1078
 essentiel:
   - "L'effort dépend de quatre variables : **le besoin de complément**, **l'horizon**, **le rendement retenu** et **le capital déjà constitué**."
   - "Le besoin réel est presque toujours **inférieur** à la perte de revenu, parce que les charges baissent aussi."

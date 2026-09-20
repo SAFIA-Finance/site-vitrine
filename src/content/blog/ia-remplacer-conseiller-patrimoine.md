@@ -6,6 +6,7 @@ description: "Ce qu'une IA fait mieux qu'un humain, ce qu'elle ne peut pas faire
 categorie: "IA et méthode"
 date: 2026-09-14
 lecture: 4
+mots: 861
 essentiel:
   - "Une IA est supérieure sur trois tâches : **collecter, calculer, expliquer à la demande**."
   - "Elle est structurellement faible sur trois autres : **assumer une responsabilité, arbitrer un conflit familial, dire non**."

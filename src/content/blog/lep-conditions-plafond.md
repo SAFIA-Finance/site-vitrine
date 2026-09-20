@@ -6,6 +6,7 @@ description: "Le LEP rapporte 2,50 % net en 2026, soit 0,80 point de plus que le
 categorie: "Épargne réglementée"
 date: 2026-09-14
 lecture: 4
+mots: 865
 essentiel:
   - "Le LEP sert **2,50 %** net, taux maintenu jusqu'au 31 janvier 2027."
   - "Le plafond de versement est de **10 000 €**."

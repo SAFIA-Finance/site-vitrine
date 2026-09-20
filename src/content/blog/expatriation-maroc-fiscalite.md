@@ -6,6 +6,7 @@ description: "Un abattement substantiel sur les pensions de source étrangère, 
 categorie: "Expatriation"
 date: 2026-09-16
 lecture: 4
+mots: 839
 essentiel:
   - "Le Maroc reste l'une des destinations les plus favorables aux **retraités** français, grâce à un abattement sur les pensions de source étrangère."
   - "L'avantage est renforcé lorsque les fonds sont **transférés à titre définitif** en dirhams non convertibles."

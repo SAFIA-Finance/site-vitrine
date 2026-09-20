@@ -6,6 +6,7 @@ description: "Deux modèles d'équipement, deux répartitions de responsabilité
 categorie: "Professionnels"
 date: 2026-09-14
 lecture: 4
+mots: 760
 essentiel:
   - "Le **logiciel métier** est un outil que vous utilisez ; la **marque blanche** est un service que vous distribuez sous votre nom."
   - "La différence est d'abord **juridique** : en marque blanche, vous apparaissez comme l'auteur du service auprès du client final."

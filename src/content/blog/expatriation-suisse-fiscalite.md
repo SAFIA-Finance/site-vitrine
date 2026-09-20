@@ -6,6 +6,7 @@ description: "Forfait négocié canton par canton, impôt sur la fortune, et sur
 categorie: "Expatriation"
 date: 2026-09-16
 lecture: 5
+mots: 1010
 essentiel:
   - "La Suisse conserve un attrait réel, mais elle est **hors de la liste ouvrant le sursis automatique d'exit tax**, ce qui change considérablement la préparation du départ."
   - "Le **forfait fiscal** est négocié canton par canton et réservé aux personnes n'exerçant pas d'activité lucrative en Suisse."

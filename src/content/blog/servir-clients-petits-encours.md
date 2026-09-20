@@ -6,6 +6,7 @@ description: "Le seuil de rentabilité d'un client se calcule. Comment segmenter
 categorie: "Professionnels"
 date: 2026-09-14
 lecture: 4
+mots: 837
 essentiel:
   - "Le seuil de 250 000 € n'est pas une règle : c'est le **résultat d'un calcul** de coût de service."
   - "Le coût complet d'un suivi annuel se chiffre, et la plupart des cabinets ne l'ont jamais fait."

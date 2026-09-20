@@ -50,6 +50,16 @@ const blog = defineCollection({
     maj: z.coerce.date().optional(),
     /** Durée de lecture en minutes, calculée à la conversion. */
     lecture: z.number().int().positive(),
+    /**
+     * Nombre de mots du corps, compté à la conversion par le même helper que
+     * `lecture`. Alimente `wordCount` des données structurées.
+     *
+     * Exigé, et non facultatif : un article sans compte de mots signalerait
+     * que la conversion n'a pas été rejouée depuis l'ajout du champ, et il
+     * vaut mieux que la construction s'arrête que de publier 123 articles
+     * dont une partie seulement porte l'information.
+     */
+    mots: z.number().int().positive(),
     /** Le résumé en quatre puces, repris en tête d'article. */
     essentiel: z.array(z.string()).min(2),
     /** Alimente le composant dépliant et le JSON-LD FAQPage. */

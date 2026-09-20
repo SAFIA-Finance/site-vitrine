@@ -6,6 +6,7 @@ description: "Le taux du livret A est passé à 1,70 % le 1er août 2026. Plafon
 categorie: "Épargne réglementée"
 date: 2026-09-14
 lecture: 5
+mots: 930
 essentiel:
   - "Le taux est de **1,70 % depuis le 1er août 2026**, contre 1,50 % au premier semestre."
   - "Le **plafond de versement est de 22 950 €**, mais les intérêts peuvent porter le solde au-delà."

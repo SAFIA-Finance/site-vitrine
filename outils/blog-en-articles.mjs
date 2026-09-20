@@ -203,8 +203,18 @@ function liens(bloc) {
   return { pages, articles, inconnus };
 }
 
+/**
+ * Nombre de mots du corps.
+ *
+ * Compté ici une seule fois pour deux usages : la durée de lecture affichée, et
+ * le `wordCount` des données structurées. Les séparer reviendrait à compter
+ * deux fois la même chose, avec le risque que les deux comptes divergent le
+ * jour où l'un des deux change de règle.
+ */
+const compterMots = (t) => t.split(/\s+/).filter(Boolean).length;
+
 /** Durée de lecture, 200 mots par minute, arrondie au supérieur. */
-const lecture = (t) => Math.max(1, Math.round(t.split(/\s+/).filter(Boolean).length / 200));
+const lecture = (t) => Math.max(1, Math.round(compterMots(t) / 200));
 
 /** Tous les .md « territoire », y compris dans les sous-dossiers de Blog/. */
 function fichiersTerritoire(dossier) {
@@ -417,6 +427,7 @@ for (const chemin of fichiers) {
       outils,
       articlesLies: lies.articles,
       lecture: lecture(corpsArticle),
+      mots: compterMots(corpsArticle),
       corps: corpsArticle,
       date: DATES[base] ?? DATE_PAR_DEFAUT,
       fichier,
@@ -464,6 +475,7 @@ for (const a of articles) {
     `categorie: ${yaml(a.categorie)}`,
     `date: ${a.date}`,
     `lecture: ${a.lecture}`,
+    `mots: ${a.mots}`,
     'essentiel:',
     ...a.essentiel.map((p) => `  - ${yaml(p)}`),
   ];

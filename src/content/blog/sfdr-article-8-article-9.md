@@ -6,6 +6,7 @@ description: "La classification SFDR est auto-déclarée et va être remplacée.
 categorie: "ESG et impact"
 date: 2026-09-14
 lecture: 4
+mots: 817
 essentiel:
   - "SFDR est un règlement de **transparence**, pas un label : il oblige à publier, pas à être vertueux."
   - "**Article 6** : aucun engagement de durabilité. **Article 8** : promotion de caractéristiques environnementales ou sociales. **Article 9** : objectif d'investissement durable."

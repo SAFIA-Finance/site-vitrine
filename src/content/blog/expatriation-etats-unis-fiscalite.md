@@ -6,6 +6,7 @@ description: "Imposition sur la nationalité, obligations FATCA, et un abattemen
 categorie: "Expatriation"
 date: 2026-09-16
 lecture: 5
+mots: 943
 essentiel:
   - "Les États-Unis imposent leurs **citoyens et détenteurs de carte verte** sur leurs revenus mondiaux, même s'ils vivent ailleurs."
   - "C'est le seul grand pays à retenir un critère de **nationalité** et non de seule résidence."

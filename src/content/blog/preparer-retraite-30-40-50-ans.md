@@ -6,6 +6,7 @@ description: "L'horizon change tout : l'effort, les supports, les priorités. Tr
 categorie: "Retraite"
 date: 2026-09-14
 lecture: 5
+mots: 1026
 essentiel:
   - "À **30 ans**, la variable dominante est le temps : un effort modeste et régulier suffit, et la priorité n'est pas la retraite."
   - "À **40 ans**, l'horizon reste long et la capacité d'épargne est à son maximum : c'est la décennie la plus productive."

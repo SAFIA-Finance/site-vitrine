@@ -6,6 +6,7 @@ description: "Sous-jacent, barrières, risque de contrepartie : les trois élém
 categorie: "Produits d'investissement"
 date: 2026-09-16
 lecture: 5
+mots: 961
 essentiel:
   - "Un produit structuré combine une composante obligataire et des options, pour produire une **formule** de remboursement conditionnelle."
   - "Il n'est ni bon ni mauvais en soi : il est **difficile à évaluer**, ce qui est le vrai problème."

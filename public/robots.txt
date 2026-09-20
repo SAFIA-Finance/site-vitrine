@@ -14,3 +14,68 @@ Sitemap: https://safia.finance/sitemap-index.xml
 # construction par outils/generer-llms.mjs : il porte, pour chaque adresse, la
 # phrase qui dit ce qu'on y trouve, ce que le sitemap ne sait pas faire.
 # https://safia.finance/llms.txt
+
+
+# ---------------------------------------------------------------------------
+# Robots des moteurs génératifs et des assistants d'IA.
+#
+# CES BLOCS NE CHANGENT RIEN AU COMPORTEMENT : « User-agent: * » plus haut
+# autorise déjà tout le monde, robots d'IA compris. Ils sont là pour deux
+# raisons.
+#
+# D'abord, plusieurs de ces robots cherchent une règle à LEUR nom avant de
+# retomber sur la règle générique. Une autorisation nommée lève toute ambiguïté
+# d'interprétation, là où le silence se lit comme on veut.
+#
+# Ensuite, ils rendent la décision explicite et datée. Le jour où quelqu'un
+# durcira « User-agent: * », ces blocs resteront et diront ce qui avait été
+# décidé, et pourquoi — plutôt que de laisser un choix se perdre dans un
+# fichier que personne ne relit.
+#
+# LA DÉCISION : SAFIA cherche à être lue et citée par les moteurs génératifs.
+# C'est l'objet même de /llms.txt. Bloquer ces robots reviendrait à publier un
+# sommaire à leur intention et à leur en refuser l'accès.
+#
+# Arbitrage de Maxime, 20 septembre 2026.
+# ---------------------------------------------------------------------------
+
+# OpenAI : exploration, recherche, et récupération à la demande d'un utilisateur.
+User-agent: GPTBot
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+Allow: /
+
+# Anthropic.
+User-agent: ClaudeBot
+User-agent: Claude-User
+User-agent: Claude-SearchBot
+Allow: /
+
+# Perplexity.
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+Allow: /
+
+# Google. « Google-Extended » ne commande PAS l'indexation classique, qui relève
+# de Googlebot : il commande la reprise dans les réponses génératives. Le
+# bloquer retirerait le site de ces réponses sans rien changer au référencement.
+User-agent: Google-Extended
+Allow: /
+
+# Apple, pour Apple Intelligence et Siri.
+User-agent: Applebot-Extended
+Allow: /
+
+# Mistral AI, dont les modèles servent l'assistant de SAFIA.
+User-agent: MistralAI-User
+Allow: /
+
+# Autres moteurs et corpus publics.
+User-agent: meta-externalagent
+User-agent: CCBot
+User-agent: Amazonbot
+User-agent: DuckAssistBot
+User-agent: YouBot
+User-agent: cohere-ai
+User-agent: Bytespider
+Allow: /

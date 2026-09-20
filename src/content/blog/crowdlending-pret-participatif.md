@@ -6,6 +6,7 @@ description: "Le rendement net dépend du taux de défaut, jamais du taux affich
 categorie: "Produits d'investissement"
 date: 2026-09-16
 lecture: 4
+mots: 760
 essentiel:
   - "Tu prêtes à des entreprises, en direct ou via une plateforme agréée, contre un intérêt."
   - "Le rendement net dépend entièrement du **taux de défaut** réel, jamais du taux affiché."

@@ -6,6 +6,7 @@ description: "Un intérêt de 8 à 12 % qui rémunère un risque réel : retard,
 categorie: "Produits d'investissement"
 date: 2026-09-16
 lecture: 4
+mots: 846
 essentiel:
   - "Tu prêtes à un promoteur pour financer une opération, contre un intérêt annuel affiché souvent entre 8 % et 12 %."
   - "Ce taux est la **rémunération d'un risque réel** : retard, dépassement de budget, défaillance du promoteur."

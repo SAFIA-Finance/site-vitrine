@@ -6,6 +6,7 @@ description: "Huit à douze ans de capital bloqué, une courbe en J normale les 
 categorie: "Produits d'investissement"
 date: 2026-09-16
 lecture: 5
+mots: 901
 essentiel:
   - "Le capital-investissement finance des entreprises **non cotées**, sur des durées de huit à douze ans."
   - "Le capital est **bloqué** : c'est la contrepartie centrale, et elle n'est pas négociable."

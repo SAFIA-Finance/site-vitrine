@@ -6,6 +6,7 @@ description: "La loi applicable est celle de la résidence habituelle du défunt
 categorie: "Donation et succession"
 date: 2026-09-16
 lecture: 5
+mots: 904
 essentiel:
   - "Depuis le règlement européen « Successions », la loi applicable est celle de la **résidence habituelle** du défunt au jour du décès, pour l'ensemble de la succession."
   - "Une **option pour la loi nationale** est possible, exprimée dans une disposition à cause de mort."

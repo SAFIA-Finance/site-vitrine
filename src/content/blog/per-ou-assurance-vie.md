@@ -6,6 +6,7 @@ description: "Le PER déduit à l'entrée et impose à la sortie, l'assurance-vi
 categorie: "Assurance-vie"
 date: 2026-09-14
 lecture: 5
+mots: 977
 essentiel:
   - "Le **PER** offre une déduction fiscale à l'entrée, mais bloque les fonds jusqu'à la retraite et impose la sortie."
   - "L'**assurance-vie** n'offre aucun avantage à l'entrée, mais reste disponible et bénéficie d'un régime doux après huit ans."

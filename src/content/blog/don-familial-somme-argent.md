@@ -6,6 +6,7 @@ description: "L'article 790 G permet de donner 31 865 € en argent, exonérés,
 categorie: "Donation et succession"
 date: 2026-09-14
 lecture: 5
+mots: 908
 essentiel:
   - "**31 865 €** exonérés, en numéraire uniquement, par donateur et par bénéficiaire."
   - "Deux conditions strictes : le donateur a **moins de 80 ans**, le bénéficiaire est **majeur**."

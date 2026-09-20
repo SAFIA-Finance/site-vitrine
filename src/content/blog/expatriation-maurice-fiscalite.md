@@ -6,6 +6,7 @@ description: "Impôt modéré, ni plus-values ni succession, mais une résidence
 categorie: "Expatriation"
 date: 2026-09-16
 lecture: 4
+mots: 771
 essentiel:
   - "Maurice combine un impôt sur le revenu modéré, l'absence d'imposition des plus-values et l'absence de droits de succession."
   - "L'accès passe le plus souvent par un **permis lié à un investissement immobilier** dans un programme agréé, ou par une activité."

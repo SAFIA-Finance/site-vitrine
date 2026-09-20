@@ -6,6 +6,7 @@ description: "Collectivité autonome de l'article 74 : le Code général des imp
 categorie: "Outre-mer"
 date: 2026-09-16
 lecture: 3
+mots: 549
 essentiel:
   - "La Polynésie française est une **collectivité d'outre-mer dotée de l'autonomie**, régie par l'article 74 de la Constitution et par sa loi organique statutaire."
   - "Elle exerce une **compétence fiscale propre** : le Code général des impôts ne s'y applique pas."

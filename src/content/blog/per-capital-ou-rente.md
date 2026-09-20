@@ -6,6 +6,7 @@ description: "Capital en une fois, fractionné ou rente viagère : trois sorties
 categorie: "Retraite"
 date: 2026-09-14
 lecture: 5
+mots: 1047
 essentiel:
   - "Trois modalités : **capital en une fois**, **capital fractionné**, ou **rente viagère**."
   - "Le capital correspondant aux versements déduits est imposé au **barème**, les gains au prélèvement forfaitaire."

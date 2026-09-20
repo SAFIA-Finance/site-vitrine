@@ -6,6 +6,7 @@ description: "Vocabulaire flou, absence de seuil chiffré, exclusions cosmétiqu
 categorie: "ESG et impact"
 date: 2026-09-14
 lecture: 4
+mots: 794
 essentiel:
   - "Le greenwashing n'est presque jamais un mensonge : c'est le plus souvent une **promesse vague** qui laisse croire plus qu'elle n'engage."
   - "Cinq signaux se repèrent en quelques minutes, documents en main."

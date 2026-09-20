@@ -6,6 +6,7 @@ description: "Le régime non-dom est supprimé depuis avril 2025. Ce qui le remp
 categorie: "Expatriation"
 date: 2026-09-16
 lecture: 5
+mots: 984
 essentiel:
   - "Le régime historique du **non-dom a été supprimé**, à compter d'avril 2025. Toute page qui le présente comme accessible est périmée."
   - "Il est remplacé par un régime destiné aux **nouveaux arrivants**, applicable pendant les premières années de résidence."

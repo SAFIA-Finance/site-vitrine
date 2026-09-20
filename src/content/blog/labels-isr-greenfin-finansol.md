@@ -6,6 +6,7 @@ description: "Trois labels français, trois promesses différentes. Ce que chacu
 categorie: "ESG et impact"
 date: 2026-09-14
 lecture: 4
+mots: 858
 essentiel:
   - "**ISR** est le label généraliste, réformé en mars 2024 avec exclusion des énergies fossiles."
   - "**Greenfin** est le plus strict sur l'environnement : il exclut les fossiles **et** le nucléaire."

@@ -6,6 +6,7 @@ description: "L'attrait belge tient aux plus-values privées, pas à l'impôt su
 categorie: "Expatriation"
 date: 2026-09-16
 lecture: 4
+mots: 810
 essentiel:
   - "L'attrait belge n'a jamais porté sur l'impôt sur le revenu, **élevé**, mais sur le traitement des **plus-values privées**."
   - "Ce point précis fait l'objet de discussions récurrentes : il doit être **vérifié à la date du projet**, et non repris de mémoire."

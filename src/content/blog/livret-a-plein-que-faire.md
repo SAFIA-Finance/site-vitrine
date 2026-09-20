@@ -6,6 +6,7 @@ description: "22 950 € atteints sur le livret A. LDDS, LEP, assurance-vie, PEA
 categorie: "Épargne réglementée"
 date: 2026-09-14
 lecture: 5
+mots: 912
 essentiel:
   - "Le réflexe logique est le **LDDS**, 12 000 € au même taux de 1,70 %, puis le **LEP** si tes revenus y donnent droit, à 2,50 %."
   - "Additionnés, ces trois livrets portent à **44 950 €** l'épargne totalement défiscalisée et disponible."

@@ -18,6 +18,7 @@ const compte = (c) => articles.filter((a) => a.data.categorie === c).length;
 <Base
   chemin={"/blog/"}
   fil={fil}
+  liste={articles.map((a) => ({ nom: a.data.titre, url: `/blog/${a.id}/` }))}
 >
 <section class="hero hero-page hero-part">
 <div class="wrap hero-page-in hero-court">

@@ -6,6 +6,7 @@ description: "Classification des risques, vigilance, conservation, déclaration 
 categorie: "Professionnels"
 date: 2026-09-14
 lecture: 4
+mots: 711
 essentiel:
   - "Quatre blocs : **classification des risques**, **vigilance à l'entrée en relation et en continu**, **conservation**, **déclaration de soupçon**."
   - "La vigilance est **modulée par le risque** : standard, allégée ou renforcée selon la situation."

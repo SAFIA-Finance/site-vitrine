@@ -6,6 +6,7 @@ description: "Un prélèvement forfaitaire de 7 % sur tous les revenus étranger
 categorie: "Expatriation"
 date: 2026-09-16
 lecture: 4
+mots: 869
 essentiel:
   - "La Grèce est, depuis 2020, la destination européenne la plus favorable aux **retraités** disposant de revenus étrangers."
   - "Le taux de **7 %** s'applique à l'ensemble des revenus de source étrangère, pension comprise."

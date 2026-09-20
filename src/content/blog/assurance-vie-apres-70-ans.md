@@ -6,6 +6,7 @@ description: "Après 70 ans, l'abattement tombe à 30 500 € global, mais seule
 categorie: "Donation et succession"
 date: 2026-09-14
 lecture: 5
+mots: 1083
 essentiel:
   - "Pour les primes versées **après 70 ans**, l'abattement tombe à **30 500 €**, global et partagé entre tous les bénéficiaires."
   - "Mais seules les **primes** sont taxées : **les gains sont totalement exonérés**, sans limite de montant."

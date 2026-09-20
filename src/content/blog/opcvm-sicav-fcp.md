@@ -6,6 +6,7 @@ description: "SICAV et FCP ne changent presque rien pour l'épargnant. La vraie 
 categorie: "Produits d'investissement"
 date: 2026-09-16
 lecture: 5
+mots: 1007
 essentiel:
   - "**OPCVM** est la catégorie ; **SICAV** et **FCP** sont deux formes juridiques qui ne changent presque rien pour l'épargnant."
   - "La vraie distinction est entre **gestion active**, qui cherche à battre un indice, et **gestion indicielle**, qui le réplique."

@@ -6,6 +6,7 @@ description: "Même taux de 1,70 %, même fiscalité nulle, même disponibilité
 categorie: "Épargne réglementée"
 date: 2026-09-14
 lecture: 4
+mots: 865
 essentiel:
   - "Les deux livrets servent **le même taux**, 1,70 % depuis août 2026, et sont indexés sur la même formule."
   - "Les deux sont **totalement exonérés** d'impôt et de prélèvements sociaux."

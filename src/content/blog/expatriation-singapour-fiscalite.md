@@ -6,6 +6,7 @@ description: "Imposition territoriale, pas de plus-values ni de droits de succes
 categorie: "Expatriation"
 date: 2026-09-16
 lecture: 4
+mots: 770
 essentiel:
   - "Singapour applique une imposition **territoriale** : les revenus de source étrangère échappent en principe à l'impôt local."
   - "Les **plus-values** ne sont en principe pas imposées, et il n'existe pas de droits de succession."

@@ -6,6 +6,7 @@ description: "Donation en pleine propriété, donation de la nue-propriété ou 
 categorie: "Donation et succession"
 date: 2026-09-16
 lecture: 4
+mots: 742
 essentiel:
   - "Trois voies : la **donation en pleine propriété**, la **donation de la nue-propriété**, ou l'apport à une **SCI** dont on donne les parts progressivement."
   - "La donation de la nue-propriété réduit immédiatement la base taxable selon l'âge, via le barème de l'article 669."

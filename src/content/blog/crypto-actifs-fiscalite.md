@@ -6,6 +6,7 @@ description: "MiCA régule les intermédiaires, pas le risque du sous-jacent. Ce
 categorie: "Produits d'investissement"
 date: 2026-09-16
 lecture: 4
+mots: 894
 essentiel:
   - "Le règlement européen **MiCA** encadre désormais les prestataires de services sur crypto-actifs : il régule les intermédiaires, **pas le risque du sous-jacent**."
   - "Pour un particulier, les cessions contre monnaie ayant cours légal relèvent du **PFU**, dont les prélèvements sociaux sont passés à 18,6 % au 1er janvier 2026."

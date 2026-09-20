@@ -6,6 +6,7 @@ description: "Transparence, supervision humaine, documentation : les obligations
 categorie: "Professionnels"
 date: 2026-09-14
 lecture: 4
+mots: 750
 essentiel:
   - "Le règlement européen distingue le **fournisseur** d'un système d'IA et son **déployeur** : un cabinet est généralement déployeur, pas fournisseur."
   - "Les obligations les plus immédiates portent sur la **transparence** et sur la **compétence des utilisateurs**."

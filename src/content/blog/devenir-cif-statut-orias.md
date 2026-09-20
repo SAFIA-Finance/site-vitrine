@@ -6,6 +6,7 @@ description: "Capacité professionnelle, adhésion à une association agréée, 
 categorie: "Professionnels"
 date: 2026-09-14
 lecture: 4
+mots: 716
 essentiel:
   - "Quatre conditions cumulatives : **capacité professionnelle**, **honorabilité**, **adhésion à une association agréée par l'AMF**, **assurance de responsabilité civile professionnelle**."
   - "L'immatriculation se fait au **registre unique de l'ORIAS**, et se renouvelle chaque année."

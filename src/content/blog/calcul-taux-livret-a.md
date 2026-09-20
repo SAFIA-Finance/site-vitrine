@@ -6,6 +6,7 @@ description: "Inflation, €STR, révision semestrielle, coup de pouce politique
 categorie: "Épargne réglementée"
 date: 2026-09-14
 lecture: 4
+mots: 887
 essentiel:
   - "Le taux résulte d'une **formule légale** : moyenne de l'inflation hors tabac et des taux interbancaires à court terme sur six mois."
   - "Il est révisé **deux fois par an**, au 1er février et au 1er août."

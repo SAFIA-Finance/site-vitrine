@@ -6,6 +6,7 @@ description: "Versement de la pension, imposition, CSG, couverture maladie : les
 categorie: "Expatriation"
 date: 2026-09-16
 lecture: 6
+mots: 1116
 essentiel:
   - "Votre pension française vous est versée **où que vous résidiez**."
   - "Son imposition dépend de la convention et **de la nature de la pension** : privée ou publique."

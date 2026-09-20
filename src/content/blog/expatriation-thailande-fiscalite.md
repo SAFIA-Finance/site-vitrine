@@ -6,6 +6,7 @@ description: "La règle du non-rapatriement a été durcie en 2024 : un revenu �
 categorie: "Expatriation"
 date: 2026-09-16
 lecture: 4
+mots: 833
 essentiel:
   - "La Thaïlande appliquait une règle très favorable : les revenus étrangers n'étaient imposés que s'ils étaient rapatriés **dans l'année** de leur perception."
   - "Cette règle a été **durcie à compter de 2024** : le rapatriement ultérieur d'un revenu étranger devient imposable."

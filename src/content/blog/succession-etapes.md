@@ -6,6 +6,7 @@ description: "Du décès au partage, six mois de démarches et une chronologie p
 categorie: "Donation et succession"
 date: 2026-09-14
 lecture: 5
+mots: 1074
 essentiel:
   - "Le compte à rebours démarre au décès : la déclaration de succession est due dans les **six mois**."
   - "Le notaire est **obligatoire** dès qu'il y a un bien immobilier, un testament ou une donation antérieure."

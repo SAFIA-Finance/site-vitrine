@@ -6,6 +6,7 @@ description: "Le questionnaire n'est pas une formalité administrative : il cond
 categorie: "IA et méthode"
 date: 2026-09-14
 lecture: 4
+mots: 875
 essentiel:
   - "Le questionnaire est une **obligation légale** issue de la directive MiFID II, pas une formalité commerciale."
   - "Il évalue quatre dimensions : **connaissance et expérience, situation financière, objectifs, tolérance aux pertes**."

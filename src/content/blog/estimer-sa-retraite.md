@@ -6,6 +6,7 @@ description: "Avant toute simulation, trois données commandent le résultat : t
 categorie: "Retraite"
 date: 2026-09-14
 lecture: 5
+mots: 1040
 essentiel:
   - "Trois données suffisent pour une première estimation : **trimestres validés**, **salaire annuel moyen**, **points de retraite complémentaire**."
   - "Elles figurent toutes sur ton **relevé de carrière**, accessible gratuitement en ligne."

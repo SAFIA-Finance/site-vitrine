@@ -6,6 +6,7 @@ description: "La formule du rachat partiel, la part de gains, le taux applicable
 categorie: "Assurance-vie"
 date: 2026-09-14
 lecture: 5
+mots: 941
 essentiel:
   - "Un rachat partiel contient toujours **une part de capital** (non imposée) et **une part de gains** (imposée)."
   - "La proportion se calcule au prorata : montant racheté × (gains totaux ÷ valeur du contrat)."

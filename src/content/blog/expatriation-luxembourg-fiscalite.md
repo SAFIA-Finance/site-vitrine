@@ -6,6 +6,7 @@ description: "Pas de régime dérogatoire pour nouveaux résidents, mais une fis
 categorie: "Expatriation"
 date: 2026-09-16
 lecture: 4
+mots: 853
 essentiel:
   - "Le Luxembourg n'est pas une destination à **régime dérogatoire** pour nouveaux résidents : il n'y a pas d'équivalent de l'IFICI ou du forfait italien."
   - "Son intérêt tient à la **structure** de sa fiscalité mobilière et à son écosystème financier."

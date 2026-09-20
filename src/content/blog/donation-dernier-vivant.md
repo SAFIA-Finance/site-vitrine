@@ -6,6 +6,7 @@ description: "La donation au dernier vivant élargit les droits du conjoint au-d
 categorie: "Donation et succession"
 date: 2026-09-16
 lecture: 5
+mots: 928
 essentiel:
   - "Sans disposition, le conjoint survivant hérite selon des règles légales qui dépendent de la présence d'enfants **communs ou non**."
   - "La **donation entre époux**, dite donation au dernier vivant, élargit ses droits au-delà du minimum légal."

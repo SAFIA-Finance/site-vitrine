@@ -6,6 +6,7 @@ description: "Avant 8 ans, 30 % sur les gains. Après, un abattement de 4 600 �
 categorie: "Assurance-vie"
 date: 2026-09-14
 lecture: 6
+mots: 1192
 essentiel:
   - "L'impôt ne porte **que sur la part de gains** contenue dans un retrait, jamais sur le capital versé."
   - "Avant huit ans : prélèvement forfaitaire unique de **30 %** (12,8 % d'impôt + 17,2 % de prélèvements sociaux)."

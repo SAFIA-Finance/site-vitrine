@@ -6,6 +6,7 @@ description: "Les DROM appliquent le Code général des impôts ; les COM à aut
 categorie: "Outre-mer"
 date: 2026-09-16
 lecture: 4
+mots: 755
 essentiel:
   - "Les **DROM** appliquent le Code général des impôts. Ce ne sont pas des territoires à fiscalité dérogatoire : ce sont des départements avec des aménagements."
   - "Les **COM à autonomie fiscale** ont leur propre code et leurs propres impôts : le CGI ne s'y applique pas, sauf mention expresse."

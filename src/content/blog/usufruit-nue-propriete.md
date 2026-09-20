@@ -6,6 +6,7 @@ description: "Donner la nue-propriété en gardant l'usufruit réduit la base ta
 categorie: "Donation et succession"
 date: 2026-09-14
 lecture: 5
+mots: 1070
 essentiel:
   - "La propriété se scinde en deux : **l'usufruit** (utiliser le bien et en percevoir les revenus) et **la nue-propriété** (en être propriétaire sans en jouir)."
   - "Donner la nue-propriété permet de **transmettre en ne payant des droits que sur une fraction** de la valeur du bien."
