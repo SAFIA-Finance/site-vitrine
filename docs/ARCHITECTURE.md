@@ -238,12 +238,19 @@ deux pages et mis en cache par le navigateur.
 | Accueil | 76 Ko | 21 Ko |
 | Fondateur | 62 Ko | 6,7 Ko |
 
-`public/apple-touch-icon.png` et `public/og/defaut.png` sont produits à partir du
-logo par `npm run images`.
+`public/apple-touch-icon.png`, `public/icon-192.png`, `public/icon-512.png` et
+`public/og/defaut.png` sont produits à partir du logo par `npm run images`.
+
+Les trois icônes carrées sortent du même tracé, à un `viewBox` constant de 180 :
+seule la surface de rendu change, jamais le cadrage. Aucune n'est déclarée
+`maskable` dans `site.webmanifest`, et c'est délibéré : le masque d'Android
+rogne jusqu'à 20 % de chaque bord, or le « S » occupe ici presque toute la
+surface. Une icône annoncée `maskable` sans cette marge est rognée en silence,
+et le défaut ne se voit que sur l'appareil.
 
 ## Ce qui a changé par rapport à la maquette
 
-Le rendu et les textes sont identiques. Ces dix-sept points sont les seuls
+Le rendu et les textes sont identiques. Ces dix-neuf points sont les seuls
 écarts, tous délibérés.
 
 | | Maquette | Site | Pourquoi |
@@ -265,6 +272,8 @@ Le rendu et les textes sont identiques. Ces dix-sept points sont les seuls
 | 15 | QR code dessiné, décoratif | QR code réel vers `/telecharger/` | Il était scannable et ne menait nulle part |
 | 16 | Barre de navigation `sticky` | `fixed`, avec `scroll-padding-top` | Hors du flux pour de bon, et ancres dégagées de la barre |
 | 17 | Piste de la bande partenaire en `.defile` | `.bandeau-piste` | Même classe que l'état défilé de la barre, qui héritait de l'animation et dérivait |
+| 18 | Pas de manifeste web | `site.webmanifest`, icônes 192 et 512 | Android posait le favicon sur l'écran d'accueil. En `display: browser` : le site ne s'installe pas, pour ne pas concurrencer la vraie application |
+| 19 | Rien à lire pour un modèle de langage | `llms.txt`, produit à la construction | Un sitemap ne porte que des URL ; un moteur génératif cite ce dont il peut lire l'inventaire décrit |
 
 Quatre méta-descriptions dépassaient la longueur affichée par Google. Deux ont
 été raccourcies, ce qui demande ta relecture : voir
@@ -280,6 +289,7 @@ Quatre méta-descriptions dépassaient la longueur affichée par Google. Deux on
 | `referencement.mjs` | **Courant.** Lancé par `npm run referencement` après relecture des titres |
 | `docx-en-pages.mjs` | **Courant.** Reconstruit les cinq pages légales depuis les documents Word |
 | `blog-en-articles.mjs` | **Courant.** Lancé par `npm run blog` après chaque écriture d'article |
+| `generer-llms.mjs` | **Courant.** Lancé par `npm run build`, écrit `dist/llms.txt` |
 | `maj-word.mjs` | **Ponctuel.** A corrigé le texte des documents Word eux-mêmes |
 | `extraire-maquette.mjs` | **Migration, usage unique.** A découpé la maquette en arborescence Astro |
 | `extraire-images.mjs` | **Migration, usage unique.** A sorti les images base64 en fichiers |

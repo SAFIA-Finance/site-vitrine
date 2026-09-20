@@ -9,7 +9,7 @@
   },
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build && node outils/generer-og-articles.mjs",
+    "build": "astro build && node outils/generer-og-articles.mjs && node outils/generer-llms.mjs",
     "preview": "astro preview",
     "check": "astro check",
     "verifier": "node outils/verifier-liens.mjs dist",
@@ -17,6 +17,7 @@
     "images": "node outils/generer-images.mjs",
     "qr": "node outils/generer-qr.mjs",
     "blog": "node outils/blog-en-articles.mjs",
+    "llms": "node outils/generer-llms.mjs",
     "notes": "node outils/relever-notes.mjs"
   },
   "devDependencies": {

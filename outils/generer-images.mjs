@@ -42,9 +42,14 @@ const POLY =
   '<polygon points="234.72 58.15 234.96 64.77 213.05 64.76 213.07 92.82 204.88 92.7 204.87 30.67 239.97 30.67 239.96 37.25 213.07 37.31 213.05 58.17 234.72 58.15"/>' +
   '<polygon points="257.95 92.61 249.78 92.7 249.78 30.81 257.94 30.77 257.95 92.61"/>';
 
-// ---- Icône iOS : le « S » seul, centré sur le fond de marque, sans coins arrondis
-// (iOS applique son propre masque et ajouterait un double arrondi).
-const icone = `<svg xmlns="http://www.w3.org/2000/svg" width="180" height="180" viewBox="0 0 180 180">
+// ---- Icône carrée : le « S » seul, centré sur le fond de marque, sans coins
+// arrondis (iOS applique son propre masque et ajouterait un double arrondi).
+//
+// Le viewBox reste à 180 quelle que soit la taille demandée : seule la surface
+// de rendu change, le tracé et son cadrage sont identiques d'une taille à
+// l'autre. C'est ce qui garantit que l'icône iOS et celles du manifeste sont
+// la même image, et non trois dessins qui dérivent.
+const iconeCarree = (taille) => `<svg xmlns="http://www.w3.org/2000/svg" width="${taille}" height="${taille}" viewBox="0 0 180 180">
   <rect width="180" height="180" fill="${ENCRE}"/>
   <g transform="translate(52 17) scale(0.59)" fill="#fff"><path d="${VAGUE}"/></g>
 </svg>`;
@@ -141,8 +146,21 @@ function cartePage(titre) {
 // ---------------------------------------------------------------------------
 fs.mkdirSync(path.join(PUBLIC, 'og'), { recursive: true });
 
-await sharp(Buffer.from(icone)).png().toFile(path.join(PUBLIC, 'apple-touch-icon.png'));
+await sharp(Buffer.from(iconeCarree(180))).png().toFile(path.join(PUBLIC, 'apple-touch-icon.png'));
 console.log('  écrit public/apple-touch-icon.png (180×180)');
+
+// Les deux icônes déclarées par public/site.webmanifest. 192 est la taille
+// qu'Android pose sur l'écran d'accueil, 512 celle que les navigateurs
+// réclament pour la fiche du site.
+//
+// AUCUNE n'est déclarée « maskable » dans le manifeste, et c'est délibéré : le
+// masque d'Android rogne jusqu'à 20 % de chaque bord, or le « S » occupe ici
+// presque toute la surface. Une icône annoncée maskable sans cette marge est
+// rognée en silence, et le défaut ne se voit que sur l'appareil.
+for (const taille of [192, 512]) {
+  await sharp(Buffer.from(iconeCarree(taille))).png().toFile(path.join(PUBLIC, `icon-${taille}.png`));
+  console.log(`  écrit public/icon-${taille}.png (${taille}×${taille})`);
+}
 
 await sharp(Buffer.from(partage)).png().toFile(path.join(PUBLIC, 'og', 'defaut.png'));
 console.log('  écrit public/og/defaut.png (1200×630)');

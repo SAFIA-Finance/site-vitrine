@@ -259,6 +259,14 @@ const jsonFil = (() => {
     <meta name="theme-color" content="#130C36" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    {/* Le manifeste déclare le nom, les couleurs et les icônes du site.
+        Il est en « display: browser » à dessein : le site ne doit PAS
+        s'installer comme une application, SAFIA en ayant une vraie sur les
+        deux magasins. En « standalone », Chrome proposerait d'installer la
+        vitrine, et un visiteur se retrouverait avec un raccourci marketing
+        en croyant tenir l'application.
+        Arbitrage de Maxime du 20 septembre 2026. */}
+    <link rel="manifest" href="/site.webmanifest" />
 
     {/* Les 123 articles se déclaraient « website », donc comme des pages
         d'accueil, aux réseaux sociaux comme aux agrégateurs. */}

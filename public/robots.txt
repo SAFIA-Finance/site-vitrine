@@ -9,3 +9,8 @@ User-agent: *
 Allow: /
 
 Sitemap: https://safia.finance/sitemap-index.xml
+
+# Le sommaire du site destiné aux modèles de langage, produit à chaque
+# construction par outils/generer-llms.mjs : il porte, pour chaque adresse, la
+# phrase qui dit ce qu'on y trouve, ce que le sitemap ne sait pas faire.
+# https://safia.finance/llms.txt
