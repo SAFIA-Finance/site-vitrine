@@ -42,9 +42,33 @@ try {
 
 const JOUR_DE_CONSTRUCTION = new Date().toISOString().slice(0, 10);
 
+// Adresses de l'ancien site, toujours indexées et toujours visitées, qui
+// renvoyaient une 404 depuis la bascule vue par Google le 15 septembre 2026.
+//
+// Relevé dans l'export Search Console du 20 septembre : « /terms/ » portait
+// encore 119 impressions et un clic, « /cfi-page/ » une impression. Laisser
+// ces adresses en 404, c'est jeter le peu d'autorité et les quelques
+// visiteurs qu'elles amènent encore.
+//
+// En sortie statique, Astro écrit pour chacune une page de renvoi. Ce n'est
+// pas une 301 servie par le serveur — GitHub Pages ne sait pas en produire —
+// mais Google la suit et transfère l'autorité vers la destination.
+//
+// Les clés sont SANS barre finale : avec `trailingSlash: 'always'` et
+// `format: 'directory'`, Astro écrit « /terms/index.html », ce qui répond
+// aussi bien à /terms qu'à /terms/.
+const REDIRECTIONS = {
+  '/terms': '/cgu/',
+  '/cfi-page': '/conseil-financier-ia/',
+};
+
+/** Les chemins produits par ces redirections, tels qu'ils sortent du build. */
+const CHEMINS_REDIRIGES = new Set(Object.keys(REDIRECTIONS).map((c) => `${c}/`));
+
 export default defineConfig({
   site: SITE_URL,
   trailingSlash: 'always',
+  redirects: REDIRECTIONS,
   build: {
     format: 'directory',
   },
@@ -59,6 +83,13 @@ export default defineConfig({
     ...(INDEXABLE
       ? [
           sitemap({
+            // Une page de redirection n'a rien à faire au sitemap : on
+            // demanderait à Google d'indexer une page dont le seul contenu
+            // est de renvoyer ailleurs. Le sitemap doit donc rester à 168
+            // adresses, et garder sa parité exacte avec llms.txt — le
+            // contrôle qui prouve que les deux inventaires disent la même
+            // chose.
+            filter: (page) => !CHEMINS_REDIRIGES.has(new URL(page).pathname),
             serialize(element) {
               // Un article porte sa date de publication ; une page fixe porte
               // celle de la construction, qui est le seul moment où son
