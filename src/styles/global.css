@@ -402,8 +402,8 @@ ul.reseaux{list-style:none;display:flex;flex-direction:row;gap:10px;margin-top:1
 /* ---------- Pages intérieures : éléments communs ---------- */
 .hero-page-in{position:relative;z-index:1;padding-top:150px;padding-bottom:80px;max-width:var(--max);margin:0 auto}
 .fil-ariane{font-size:14.5px;color:rgba(255,255,255,.7);margin-bottom:26px}
-.fil-ariane a{text-decoration:none;display:inline-block;padding:5px 0}
-.fil-ariane a:hover{text-decoration:underline}
+.fil-ariane a{color:#fff;text-decoration:underline;text-decoration-color:rgba(255,255,255,.45);text-underline-offset:3px;text-decoration-thickness:1px;display:inline-block;padding:5px 0}
+.fil-ariane a:hover{text-decoration-color:#fff}
 .fil-ariane span{margin:0 8px;opacity:.5}
 .hero-page h1{font-size:clamp(2.4rem,5.4vw,4rem);line-height:1.04;letter-spacing:-.035em;font-weight:600;max-width:17ch}
 .hero-page .chapo{margin-top:22px;font-size:clamp(1.05rem,1.6vw,1.2rem);max-width:48ch;color:rgba(255,255,255,.85)}

@@ -341,7 +341,16 @@ const jsonFil = (() => {
     {/* La couleur de la barre du navigateur sur mobile, reprise du fond
         sombre de l'en-tête pour que la barre et la page ne se démarquent pas. */}
     <meta name="theme-color" content="#130C36" />
-    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    {/* L'ORDRE COMPTE, et son absence a coûté l'icône du site dans Google.
+        Le site ne déclarait que le SVG. Or Google va chercher /favicon.ico en
+        premier et rastérise mal les SVG : faute des deux, il a continué
+        d'afficher l'icône de l'ancien site, un triangle noir hérité de
+        Next.js, des jours après la bascule. Les trois formats sont donc
+        servis, du plus attendu au plus moderne. Produits par
+        `npm run images` depuis le même tracé que public/favicon.svg. */}
+    <link rel="icon" href="/favicon.ico" sizes="48x48" />
+    <link rel="icon" href="/favicon-96.png" type="image/png" sizes="96x96" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" sizes="any" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     {/* Le manifeste déclare le nom, les couleurs et les icônes du site.
         Il est en « display: browser » à dessein : le site ne doit PAS

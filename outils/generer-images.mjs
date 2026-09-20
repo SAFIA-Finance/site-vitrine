@@ -162,6 +162,62 @@ for (const taille of [192, 512]) {
   console.log(`  écrit public/icon-${taille}.png (${taille}×${taille})`);
 }
 
+// ---- Favicon matriciel : ce que Google affiche à côté du résultat.
+//
+// POURQUOI IL EN FAUT UN, alors que public/favicon.svg existe et est correct.
+// Le site ne servait QUE ce SVG, et aucun /favicon.ico. Or Google va chercher
+// /favicon.ico en premier, et rastérise lui-même les SVG, opération où il
+// échoue souvent. Faute des deux, il a continué d'afficher l'icône de
+// l'ANCIEN site — un triangle noir hérité de Next.js — des jours après la
+// bascule du 15 septembre 2026, dans les résultats de recherche.
+//
+// Google demande un carré dont le côté est un multiple de 48 px : on produit
+// donc 48 et 96, plus un .ico qui encapsule le 48.
+//
+// Le tracé reprend celui de public/favicon.svg, coins arrondis compris, pour
+// que la version vectorielle et les matricielles soient la MÊME image, et non
+// deux dessins qui divergeront à la première retouche.
+const faviconCarre = (taille) => `<svg xmlns="http://www.w3.org/2000/svg" width="${taille}" height="${taille}" viewBox="0 0 128 128">
+  <rect width="128" height="128" rx="28" fill="${ENCRE}"/>
+  <g transform="translate(37 12) scale(0.42)"><path fill="#fff" d="${VAGUE}"/></g>
+</svg>`;
+
+const favicon48 = await sharp(Buffer.from(faviconCarre(48))).png().toBuffer();
+fs.writeFileSync(path.join(PUBLIC, 'favicon-48.png'), favicon48);
+console.log('  écrit public/favicon-48.png (48×48)');
+
+await sharp(Buffer.from(faviconCarre(96))).png().toFile(path.join(PUBLIC, 'favicon-96.png'));
+console.log('  écrit public/favicon-96.png (96×96)');
+
+/**
+ * Un .ico n'est qu'un en-tête de 22 octets posé devant une image.
+ *
+ * sharp ne sait pas écrire ce format, et ce dépôt s'en tient à quatre
+ * dépendances de développement, à dessein : on assemble donc le conteneur
+ * nous-mêmes. Le format accepte un PNG tel quel, sans bitmap à produire.
+ */
+function ico(png, cote) {
+  const entete = Buffer.alloc(6);
+  entete.writeUInt16LE(0, 0); // réservé, toujours nul
+  entete.writeUInt16LE(1, 2); // type 1 = icône
+  entete.writeUInt16LE(1, 4); // une seule image dans le fichier
+
+  const entree = Buffer.alloc(16);
+  entree[0] = cote; // largeur
+  entree[1] = cote; // hauteur
+  entree[2] = 0; // palette : aucune
+  entree[3] = 0; // réservé
+  entree.writeUInt16LE(1, 4); // plans
+  entree.writeUInt16LE(32, 6); // bits par pixel
+  entree.writeUInt32LE(png.length, 8);
+  entree.writeUInt32LE(22, 12); // décalage de l'image : 6 + 16
+
+  return Buffer.concat([entete, entree, png]);
+}
+
+fs.writeFileSync(path.join(PUBLIC, 'favicon.ico'), ico(favicon48, 48));
+console.log('  écrit public/favicon.ico (48×48, PNG encapsulé)');
+
 await sharp(Buffer.from(partage)).png().toFile(path.join(PUBLIC, 'og', 'defaut.png'));
 console.log('  écrit public/og/defaut.png (1200×630)');
 
