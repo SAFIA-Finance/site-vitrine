@@ -6,7 +6,7 @@ description: "Deux collectivités de l'article 74 à fiscalité propre : Wallis-
 categorie: "Outre-mer"
 date: 2026-09-16
 lecture: 3
-mots: 562
+mots: 520
 essentiel:
   - "Les deux collectivités relèvent de l'**article 74** de la Constitution et disposent d'une fiscalité propre."
   - "**Wallis-et-Futuna** repose très largement sur la **fiscalité indirecte** : il n'y a pas d'impôt sur le revenu des personnes physiques comparable au modèle métropolitain."
@@ -63,10 +63,6 @@ Elle ne relève pas d'une tolérance, mais du statut que la Constitution leur re
 Chacune tient ce statut d'une loi identifiée. Wallis-et-Futuna est un territoire d'outre-mer depuis la **loi n° 61-814 du 29 juillet 1961**. Saint-Pierre-et-Miquelon relève de la **loi n° 85-595 du 11 juin 1985**, qui lui a donné son statut d'archipel à fiscalité propre après une période sous régime départemental.
 
 C'est cette différence de date et de trajectoire, et non une différence de degré d'autonomie, qui explique que l'un se soit doté d'un code des impôts complet quand l'autre repose sur la fiscalité indirecte.
-
-## Le point de méthode
-
-Comme pour toutes les collectivités à fiscalité propre, aucun chiffre n'est publié ici sans vérification à la source locale. Les services fiscaux de chaque collectivité sont la référence, et les préfectures ou administrations supérieures orientent vers eux.
 
 ## Deux collectivités, deux logiques économiques
 

@@ -96,6 +96,28 @@ const QUESTIONS_COMMUNES = {
     ],
   },
 
+  // Le blog qui se regarde écrire.
+  //
+  // Relevé par Maxime le 21 septembre 2026 dans la fiche Saint-Barthélemy :
+  // « C'est la règle que ce blog s'applique à lui-même : ce texte décrit
+  // l'architecture du régime, il ne publie pas de barème local non sourcé. »
+  // Une recherche par mots-clés en a trouvé six autres, dont cinq en
+  // outre-mer. Ce n'est donc pas un accident mais un tic d'écriture, et une
+  // recherche par mots-clés ne peut pas attraper les tournures qu'on n'a pas
+  // prévues : d'où une question.
+  //
+  // Elle ne compte pas dans la note. Un article peut être excellent et porter
+  // une phrase de trop ; le défaut se corrige en coupant, pas en réécrivant.
+  parleDeLuiMeme: {
+    type: 'boolean',
+    instructions:
+      "L'article parle-t-il de LUI-MÊME, du blog qui le publie, ou des règles éditoriales que ce blog s'impose, au lieu de traiter uniquement son sujet ?",
+    criteria: {
+      true: "Le texte commente sa propre démarche : ce que ce blog publie ou ne publie pas, ce que cet article se limite à faire, la règle qu'il s'applique.",
+      false: "Le texte traite son sujet. Conseiller au lecteur de vérifier une donnée à la source n'est pas parler de soi : c'est un conseil qui lui est adressé.",
+    },
+  },
+
   simulateur: {
     type: 'choice',
     instructions: 'Quel simulateur du site prolongerait le plus naturellement cet article ?',
@@ -172,56 +194,89 @@ console.log(`${slugs.length} article(s) à évaluer.\n`);
 
 const resultats = [];
 
+// La passerelle a des ratés passagers (« Service temporarily unavailable »),
+// et le paquet réessaie déjà trois fois avant d'abandonner. Le 21 septembre
+// 2026, une passe est tout de même sortie à 119 articles sur 123 : les quatre
+// manquants n'apparaissaient nulle part, et seul le total en bas du tableau
+// trahissait leur absence. Un article invisible à l'audit est pire qu'un
+// article mal noté : on ne sait même pas qu'il faut le regarder.
+//
+// Les échoués sont donc repris à la fin, un par un, et ce qui échoue encore
+// fait sortir le script en erreur.
+const echoues = [];
+
+async function noter(a) {
+  const questions = a.terme ? { ...QUESTIONS_COMMUNES, ...QUESTION_VOCABULAIRE } : QUESTIONS_COMMUNES;
+  return { a, r: await evaluer({ model: 'typesafe-ai/jev', state: a.etat, questions }) };
+}
+
 for (let i = 0; i < slugs.length; i += SIMULTANES) {
   const lot = slugs.slice(i, i + SIMULTANES).map(lireArticle);
   const reponses = await Promise.all(
     lot.map(async (a) => {
-      const questions = a.terme
-        ? { ...QUESTIONS_COMMUNES, ...QUESTION_VOCABULAIRE }
-        : QUESTIONS_COMMUNES;
       try {
-        return { a, r: await evaluer({ model: 'typesafe-ai/jev', state: a.etat, questions }) };
-      } catch (e) {
-        console.error(`  ${a.slug} : échec (${e?.cause?.data?.error?.message ?? e.message})`);
+        return await noter(a);
+      } catch {
+        echoues.push(a);
         return null;
       }
     }),
   );
   for (const rep of reponses) {
     if (!rep) continue;
-    const { a, r } = rep;
-    const chiffres = r.answers.chiffresConcrets.score;
-    const exemple = r.answers.exempleConcret.score;
-    const pourquoi = r.answers.narrationDuPourquoi.score;
-    resultats.push({
-      code: a.code,
-      slug: a.slug,
-      titre: a.titre,
-      chiffres,
-      exemple,
-      pourquoi,
-      categorie: a.etat.categorie,
-      // LA NOTE NE RETIENT QUE LES CHIFFRES ET L'EXEMPLE.
-      //
-      // Les trois critères ont d'abord pesé pareil, Maxime les ayant cités sur
-      // le même plan. Mesuré sur les dix témoins, le résultat était moins bon
-      // qu'avec deux : l'article sur le testament, qu'il juge bon, tombait
-      // troisième en partant du bas, entre deux articles qu'il avait signalés.
-      //
-      // La raison tient à sa demande elle-même : il réclamait « l'histoire de
-      // pourquoi DANS CES TERRITOIRES la fiscalité est différente ». C'est une
-      // attente de territoire, pas une attente de blog. Un article sur le
-      // testament n'a pas à raconter l'histoire du Code civil, et le noter
-      // comme s'il le devait revient à punir tous les sujets où l'origine
-      // n'apprend rien. La note reste donc à deux critères, et l'origine est
-      // signalée à part, là seulement où elle manque vraiment.
-      moyenne: (chiffres + exemple) / 2,
-      simulateur: r.answers.simulateur.choice,
-      terme: a.terme,
-      termeJustifie: r.answers.vocabulaireJustifie?.probability ?? null,
-    });
+    resultats.push(construire(rep.a, rep.r));
   }
   process.stdout.write(`  ${Math.min(i + SIMULTANES, slugs.length)}/${slugs.length}\r`);
+}
+
+/** Met en forme une réponse de Jev. Appelée par la passe et par la reprise. */
+function construire(a, r) {
+  const chiffres = r.answers.chiffresConcrets.score;
+  const exemple = r.answers.exempleConcret.score;
+  const pourquoi = r.answers.narrationDuPourquoi.score;
+  return {
+    code: a.code,
+    slug: a.slug,
+    titre: a.titre,
+    chiffres,
+    exemple,
+    pourquoi,
+    categorie: a.etat.categorie,
+    // LA NOTE NE RETIENT QUE LES CHIFFRES ET L'EXEMPLE.
+    //
+    // Les trois critères ont d'abord pesé pareil, Maxime les ayant cités sur
+    // le même plan. Mesuré sur les dix témoins, le résultat était moins bon
+    // qu'avec deux : l'article sur le testament, qu'il juge bon, tombait
+    // troisième en partant du bas, entre deux articles qu'il avait signalés.
+    //
+    // La raison tient à sa demande elle-même : il réclamait « l'histoire de
+    // pourquoi DANS CES TERRITOIRES la fiscalité est différente ». C'est une
+    // attente de territoire, pas une attente de blog. Un article sur le
+    // testament n'a pas à raconter l'histoire du Code civil, et le noter
+    // comme s'il le devait revient à punir tous les sujets où l'origine
+    // n'apprend rien. La note reste donc à deux critères, et l'origine est
+    // signalée à part, là seulement où elle manque vraiment.
+    moyenne: (chiffres + exemple) / 2,
+    simulateur: r.answers.simulateur.choice,
+    seRegarde: r.answers.parleDeLuiMeme.probability,
+    terme: a.terme,
+    termeJustifie: r.answers.vocabulaireJustifie?.probability ?? null,
+  };
+}
+
+// La reprise : un par un, sans concurrence, la passerelle ayant déjà montré
+// qu'elle refusait sous charge.
+const perdus = [];
+if (echoues.length) {
+  console.log(`\n  reprise de ${echoues.length} article(s) mis en échec...`);
+  for (const a of echoues) {
+    try {
+      const { r } = await noter(a);
+      resultats.push(construire(a, r));
+    } catch (e) {
+      perdus.push({ slug: a.slug, cause: e?.cause?.data?.error?.message ?? e.message });
+    }
+  }
 }
 
 resultats.sort((x, y) => x.moyenne - y.moyenne);
@@ -238,6 +293,7 @@ for (const r of resultats) {
   const drapeaux = [];
   if (r.terme) drapeaux.push(r.termeJustifie > 0.5 ? '[terme justifié]' : '[TERME À RETIRER]');
   if (CATEGORIES_A_HISTOIRE.has(r.categorie) && r.pourquoi < 1) drapeaux.push('[origine absente]');
+  if (r.seRegarde > 0.5) drapeaux.push('[SE REGARDE ÉCRIRE]');
   console.log(
     `${(r.code || '').padEnd(5)} ${n(r.moyenne)}  ${n(r.chiffres)}  ${n(r.exemple)}  ${n(r.pourquoi)}  ` +
       `${r.simulateur.padEnd(18)} ${r.titre.slice(0, 46)}${drapeaux.length ? '  ' + drapeaux.join(' ') : ''}`,
@@ -249,6 +305,15 @@ const aLire = resultats.filter((r) => r.moyenne >= SEUIL && r.moyenne < 1.5);
 console.log(
   `\n${aReprendre.length} article(s) sous ${SEUIL.toFixed(2)}, ${aLire.length} entre ${SEUIL.toFixed(2)} et 1,50, sur ${resultats.length} évalué(s).`,
 );
+
+// Une passe incomplète ne doit jamais passer pour une passe complète : le
+// rapport servirait de liste de travail en laissant des articles dans l'ombre.
+if (perdus.length) {
+  console.error(`\n${perdus.length} article(s) JAMAIS ÉVALUÉ(S), même après reprise :`);
+  for (const p of perdus) console.error(`  ${p.slug} : ${p.cause}`);
+  console.error('Le rapport est donc incomplet. Relancer.');
+  process.exitCode = 1;
+}
 
 // Un tableau de 123 lignes ne se lit pas dans un terminal : il défile. Le
 // rapport est donc un document, relu comme les autres documents du dossier
@@ -265,6 +330,9 @@ if (!demandes.length) {
   const origineAbsente = resultats.filter(
     (r) => CATEGORIES_A_HISTOIRE.has(r.categorie) && r.pourquoi < 1,
   );
+  const seRegardent = resultats
+    .filter((r) => r.seRegarde > 0.5)
+    .sort((x, y) => y.seRegarde - x.seRegarde);
 
   const doc = `# Audit de contenu du blog
 
@@ -308,6 +376,13 @@ ${aLire.map(ligne).join('\n')}
 ${termeARetirer.length} article(s).
 
 ${termeARetirer.length ? termeARetirer.map((r) => `- ${r.code} · ${lien(r)}`).join('\n') : 'Aucun.'}
+
+## Le blog qui se regarde écrire
+
+${seRegardent.length} article(s). Le texte commente sa propre démarche au lieu
+de traiter son sujet. Se corrige en coupant.
+
+${seRegardent.length ? seRegardent.map((r) => `- ${r.code} · ${lien(r)} (${r.seRegarde.toFixed(2)})`).join('\n') : 'Aucun.'}
 
 ## Origine de la règle absente (outre-mer et expatriation)
 

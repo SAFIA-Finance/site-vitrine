@@ -6,7 +6,7 @@ description: "Collectivité autonome de l'article 74 : le Code général des imp
 categorie: "Outre-mer"
 date: 2026-09-16
 lecture: 3
-mots: 544
+mots: 532
 essentiel:
   - "La Polynésie française est une **collectivité d'outre-mer dotée de l'autonomie**, régie par l'article 74 de la Constitution et par sa loi organique statutaire."
   - "Elle exerce une **compétence fiscale propre** : le Code général des impôts ne s'y applique pas."
@@ -18,7 +18,7 @@ faq:
   - q: "Y a-t-il un impôt sur le revenu progressif comparable à celui de la métropole ?"
     r: "Le système ne repose pas sur ce modèle. Il combine une fiscalité indirecte importante et des contributions assises sur certains revenus, notamment les traitements et salaires. L'architecture diffère donc du modèle métropolitain, et la comparaison directe des taux n'a guère de sens."
   - q: "Où vérifier les taux applicables ?"
-    r: "Auprès de la Direction des impôts et des contributions publiques de la Polynésie française. Les taux, seuils et assiettes résultent du code local et de délibérations qui ne figurent pas sur Légifrance et évoluent régulièrement. Ce blog ne publie aucun barème polynésien chiffré qu'il n'aurait pas vérifié à cette source."
+    r: "Auprès de la Direction des impôts et des contributions publiques de la Polynésie française. Les taux, seuils et assiettes résultent du code local et de délibérations qui ne figurent pas sur Légifrance et évoluent régulièrement."
   - q: "Comment est évitée la double imposition avec la métropole ?"
     r: "Par la convention fiscale interne entre l'État et la Polynésie française, qui remplit le rôle d'une convention internationale : elle définit la résidence, répartit le droit d'imposer par catégorie de revenus et organise l'élimination de la double imposition. Sa lecture suit la même méthode que celle de n'importe quelle convention."
   - q: "Un résident polynésien est-il redevable de l'IFI ?"
@@ -48,7 +48,7 @@ La Polynésie française n'applique pas un impôt sur le revenu progressif calqu
 
 Les taux, seuils et assiettes résultent du code des impôts polynésien et des délibérations de l'Assemblée de la Polynésie française. Ils évoluent régulièrement et ne figurent pas sur Légifrance.
 
-**Ce blog ne publie donc pas de barème polynésien chiffré** sans l'avoir vérifié à la source locale. La source de référence est la Direction des impôts et des contributions publiques de la Polynésie française.
+Les barèmes polynésiens chiffrés se vérifient à la source : la Direction des impôts et des contributions publiques de la Polynésie française.
 
 ## La question qui se pose réellement à un patrimoine
 

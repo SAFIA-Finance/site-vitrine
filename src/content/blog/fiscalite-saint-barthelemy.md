@@ -6,7 +6,7 @@ description: "Compétence fiscale propre depuis 2007, mais domicile fiscal local
 categorie: "Outre-mer"
 date: 2026-09-16
 lecture: 5
-mots: 946
+mots: 916
 essentiel:
   - "Saint-Barthélemy dispose de sa **propre compétence fiscale** depuis 2007 : le Code général des impôts ne s'y applique pas, sauf mention expresse."
   - "Une personne physique ne peut être regardée comme fiscalement domiciliée à Saint-Barthélemy **qu'après cinq ans de résidence**."
@@ -75,7 +75,7 @@ Autrement dit : l'autonomie fiscale n'emporte aucune opacité.
 
 Le Code de contributions organise une fiscalité sensiblement différente de celle de la métropole. Les entreprises exerçant une activité sur l'île relèvent notamment d'une **contribution forfaitaire annuelle des entreprises**. La fiscalité locale s'applique aux bénéfices et revenus correspondant aux activités exercées sur le territoire ou aux biens qui y sont détenus.
 
-**Point de méthode important** : les taux, seuils et assiettes du Code de contributions résultent de délibérations locales et ne figurent pas sur Légifrance. Toute donnée chiffrée doit être vérifiée auprès des services fiscaux de la collectivité, et non reprise d'un article en ligne. C'est la règle que ce blog s'applique à lui-même : ce texte décrit l'architecture du régime, il ne publie pas de barème local non sourcé.
+Les taux, seuils et assiettes du Code de contributions résultent de délibérations locales et ne figurent pas sur Légifrance. Toute donnée chiffrée doit être vérifiée auprès des services fiscaux de la collectivité, et non reprise d'un article en ligne.
 
 ## Les quatre erreurs les plus courantes
 

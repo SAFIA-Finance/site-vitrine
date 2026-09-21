@@ -6,7 +6,7 @@ description: "Dans les DROM, mêmes abattements et même barème qu'en métropol
 categorie: "Outre-mer"
 date: 2026-09-16
 lecture: 3
-mots: 676
+mots: 660
 essentiel:
   - "Dans les **DROM**, les droits de mutation à titre gratuit sont ceux du Code général des impôts : mêmes abattements, même barème qu'en métropole."
   - "Dans les **COM à fiscalité propre** et en Nouvelle-Calédonie, la matière relève du droit local et des conventions internes."
@@ -53,7 +53,7 @@ La réfaction d'impôt de 30 % ou 40 %, décrite dans **DROM : la réfaction d'i
 
 À Saint-Barthélemy, à Saint-Martin, en Polynésie française, en Nouvelle-Calédonie, la matière des mutations à titre gratuit relève de la compétence locale, dans les conditions fixées par le statut de chaque collectivité et par la convention interne.
 
-Cela signifie que les abattements, le barème et les exonérations peuvent différer de ceux du CGI, voire ne pas exister sous la même forme. Là encore, ce blog renvoie au code local plutôt que de publier des chiffres non vérifiés.
+Cela signifie que les abattements, le barème et les exonérations peuvent différer de ceux du CGI, voire ne pas exister sous la même forme.
 
 ## L'article 750 ter, qu'il faut avoir en tête
 

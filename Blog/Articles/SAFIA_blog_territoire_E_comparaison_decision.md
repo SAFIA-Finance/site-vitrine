@@ -551,7 +551,7 @@ C'est ainsi que se forme un seuil de fait : non par refus explicite, mais par s�
 
 **Les organismes non commerciaux.** Certaines associations de consommateurs et structures publiques proposent une information budgétaire gratuite. Elles n'orientent pas vers des produits.
 
-**Se former.** Le coût est en temps, et le sujet est accessible : les règles fiscales sont publiques, gratuites et documentées. C'est précisément l'objet de ce blog.
+**Se former.** Le coût est en temps, et le sujet est accessible : les règles fiscales sont publiques, gratuites et documentées, et rien n'oblige à les payer pour les comprendre.
 
 ### Les questions à poser lors d'un premier rendez-vous
 

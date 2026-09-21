@@ -170,7 +170,7 @@ Autrement dit : l'autonomie fiscale n'emporte aucune opacité.
 
 Le Code de contributions organise une fiscalité sensiblement différente de celle de la métropole. Les entreprises exerçant une activité sur l'île relèvent notamment d'une **contribution forfaitaire annuelle des entreprises**. La fiscalité locale s'applique aux bénéfices et revenus correspondant aux activités exercées sur le territoire ou aux biens qui y sont détenus.
 
-**Point de méthode important** : les taux, seuils et assiettes du Code de contributions résultent de délibérations locales et ne figurent pas sur Légifrance. Toute donnée chiffrée doit être vérifiée auprès des services fiscaux de la collectivité, et non reprise d'un article en ligne. C'est la règle que ce blog s'applique à lui-même : ce texte décrit l'architecture du régime, il ne publie pas de barème local non sourcé.
+Les taux, seuils et assiettes du Code de contributions résultent de délibérations locales et ne figurent pas sur Légifrance. Toute donnée chiffrée doit être vérifiée auprès des services fiscaux de la collectivité, et non reprise d'un article en ligne.
 
 ### Les quatre erreurs les plus courantes
 
@@ -445,7 +445,7 @@ La Polynésie française n'applique pas un impôt sur le revenu progressif calqu
 
 Les taux, seuils et assiettes résultent du code des impôts polynésien et des délibérations de l'Assemblée de la Polynésie française. Ils évoluent régulièrement et ne figurent pas sur Légifrance.
 
-**Ce blog ne publie donc pas de barème polynésien chiffré** sans l'avoir vérifié à la source locale. La source de référence est la Direction des impôts et des contributions publiques de la Polynésie française.
+Les barèmes polynésiens chiffrés se vérifient à la source : la Direction des impôts et des contributions publiques de la Polynésie française.
 
 ### La question qui se pose réellement à un patrimoine
 
@@ -486,7 +486,7 @@ Non. La collectivité, dotée de l'autonomie au titre de l'article 74 de la Cons
 Le système ne repose pas sur ce modèle. Il combine une fiscalité indirecte importante et des contributions assises sur certains revenus, notamment les traitements et salaires. L'architecture diffère donc du modèle métropolitain, et la comparaison directe des taux n'a guère de sens.
 
 **Où vérifier les taux applicables ?**
-Auprès de la Direction des impôts et des contributions publiques de la Polynésie française. Les taux, seuils et assiettes résultent du code local et de délibérations qui ne figurent pas sur Légifrance et évoluent régulièrement. Ce blog ne publie aucun barème polynésien chiffré qu'il n'aurait pas vérifié à cette source.
+Auprès de la Direction des impôts et des contributions publiques de la Polynésie française. Les taux, seuils et assiettes résultent du code local et de délibérations qui ne figurent pas sur Légifrance et évoluent régulièrement.
 
 **Comment est évitée la double imposition avec la métropole ?**
 Par la convention fiscale interne entre l'État et la Polynésie française, qui remplit le rôle d'une convention internationale : elle définit la résidence, répartit le droit d'imposer par catégorie de revenus et organise l'élimination de la double imposition. Sa lecture suit la même méthode que celle de n'importe quelle convention.
@@ -551,7 +551,7 @@ Sa lecture obéit à la même méthode que celle décrite dans **Conventions fis
 
 Le cadre institutionnel néo-calédonien a connu des évolutions significatives ces dernières années. Toute affirmation sur la fiscalité locale doit être datée, et un contenu de plus de douze mois doit être revérifié avant réutilisation.
 
-Comme ailleurs dans ce territoire, ce blog ne publie pas de barème local non vérifié à la source. La source de référence est la Direction des services fiscaux de la Nouvelle-Calédonie.
+Les barèmes locaux se vérifient à la source : la Direction des services fiscaux de la Nouvelle-Calédonie.
 
 ### Lire la convention interne, article par article
 
@@ -643,10 +643,6 @@ Elle ne relève pas d'une tolérance, mais du statut que la Constitution leur re
 Chacune tient ce statut d'une loi identifiée. Wallis-et-Futuna est un territoire d'outre-mer depuis la **loi n° 61-814 du 29 juillet 1961**. Saint-Pierre-et-Miquelon relève de la **loi n° 85-595 du 11 juin 1985**, qui lui a donné son statut d'archipel à fiscalité propre après une période sous régime départemental.
 
 C'est cette différence de date et de trajectoire, et non une différence de degré d'autonomie, qui explique que l'un se soit doté d'un code des impôts complet quand l'autre repose sur la fiscalité indirecte.
-
-### Le point de méthode
-
-Comme pour toutes les collectivités à fiscalité propre, aucun chiffre n'est publié ici sans vérification à la source locale. Les services fiscaux de chaque collectivité sont la référence, et les préfectures ou administrations supérieures orientent vers eux.
 
 ### Deux collectivités, deux logiques économiques
 
@@ -827,7 +823,7 @@ La réfaction d'impôt de 30 % ou 40 %, décrite dans **DROM : la réfaction d'i
 
 À Saint-Barthélemy, à Saint-Martin, en Polynésie française, en Nouvelle-Calédonie, la matière des mutations à titre gratuit relève de la compétence locale, dans les conditions fixées par le statut de chaque collectivité et par la convention interne.
 
-Cela signifie que les abattements, le barème et les exonérations peuvent différer de ceux du CGI, voire ne pas exister sous la même forme. Là encore, ce blog renvoie au code local plutôt que de publier des chiffres non vérifiés.
+Cela signifie que les abattements, le barème et les exonérations peuvent différer de ceux du CGI, voire ne pas exister sous la même forme.
 
 ### L'article 750 ter, qu'il faut avoir en tête
 
