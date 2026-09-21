@@ -2,16 +2,17 @@
 code: "G6"
 titre: "Ce que l'AI Act change pour un cabinet qui utilise l'IA"
 titreSeo: "AI Act : ce qui change pour un cabinet de CGP"
-description: "Transparence, supervision humaine, documentation : les obligations qui visent un cabinet utilisateur d'IA, et celles qui pèsent sur ses fournisseurs."
+description: "Les pratiques interdites s'appliquent depuis février 2025, mais le haut risque a été repoussé à décembre 2027. Le calendrier réel, et les amendes."
 categorie: "Professionnels"
 date: 2026-09-14
-lecture: 4
-mots: 750
+lecture: 5
+mots: 903
 essentiel:
   - "Le règlement européen distingue le **fournisseur** d'un système d'IA et son **déployeur** : un cabinet est généralement déployeur, pas fournisseur."
-  - "Les obligations les plus immédiates portent sur la **transparence** et sur la **compétence des utilisateurs**."
+  - "Les obligations les plus immédiates portent sur la **transparence** et sur la **compétence des utilisateurs**. Elles s'appliquent déjà."
+  - "**Le haut risque a été repoussé.** Le règlement (UE) **2026/1744**, dit « Digital Omnibus IA », entré en vigueur le **27 juillet 2026**, a reporté l'application des systèmes à haut risque de l'annexe III du 2 août 2026 au **2 décembre 2027**."
+  - "Les amendes vont jusqu'à **35 millions d'euros ou 7 %** du chiffre d'affaires mondial pour les pratiques interdites, **15 millions ou 3 %** pour les manquements du déployeur."
   - "La qualification d'un usage comme « à haut risque » dépend de sa finalité, et appelle une analyse au cas par cas."
-  - "Le calendrier d'application a fait l'objet d'**ajustements** : vérifiez l'état du droit avant de fonder une décision dessus."
 faq:
   - q: "Un cabinet est-il fournisseur ou déployeur ?"
     r: "Déployeur dans la très grande majorité des cas, dès lors qu'il utilise un outil du marché sous sa propre autorité. La bascule vers le statut de fournisseur, aux obligations nettement plus lourdes, intervient si vous mettez un système sur le marché sous votre propre marque ou si vous en modifiez substantiellement la finalité. C'est le point à vérifier avant toute démarche de marque blanche."
@@ -31,8 +32,24 @@ pages:
 articlesLies:
   - "agregation-bancaire-cabinet-cgp"
   - "ia-explicable-finance"
-sources: "[Règlement (UE) 2024/1689](https://eur-lex.europa.eu/eli/reg/2024/1689/oj) établissant des règles harmonisées concernant l'intelligence artificielle · [Règlement (UE) 2016/679](https://eur-lex.europa.eu/eli/reg/2016/679/oj) (RGPD) · [Directive 2014/65/UE](https://eur-lex.europa.eu/eli/dir/2014/65/oj), articles 24 et 25 · Règlement général de l'AMF, article 325-5 et suivants."
+sources: "**Règlement (UE) 2024/1689** établissant des règles harmonisées concernant l'intelligence artificielle, articles 5, 6, 50, 86 et 99 · **Règlement (UE) 2026/1744**, dit « Digital Omnibus IA », entré en vigueur le 27 juillet 2026, reportant l'application des systèmes à haut risque de l'annexe III au 2 décembre 2027 et de l'annexe I au 2 août 2028 · [Calendrier d'application consolidé et plafonds d'amendes](https://reglementation-ia.fr/reglement-2024-1689-ai-act-explique) · Lignes directrices de la Commission européenne sur les pratiques interdites."
 ---
+
+## Le tableau de synthèse
+
+| Date | Ce qui s'applique |
+|---|---|
+| 1ᵉʳ août 2024 | Entrée en vigueur du règlement (UE) **2024/1689**, sans application pratique |
+| **2 février 2025** | Dispositions générales et **pratiques interdites** de l'article 5 |
+| **2 août 2025** | Modèles d'IA à usage général, gouvernance, sanctions |
+| **2 décembre 2027** | Application complète, dont les systèmes à **haut risque de l'annexe III**, initialement prévus au 2 août 2026 |
+| **2 août 2028** | Systèmes à haut risque intégrés aux produits de l'annexe I, initialement prévus au 2 août 2027 |
+
+| Manquement | Amende maximale |
+|---|---|
+| Pratiques interdites, article 5 | **35 millions d'euros ou 7 %** du chiffre d'affaires mondial |
+| Obligations du fournisseur ou du déployeur | **15 millions d'euros ou 3 %** |
+| Informations incorrectes aux autorités | **7,5 millions d'euros ou 1 %** |
 
 ## La distinction qui commande tout
 

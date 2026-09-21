@@ -245,6 +245,30 @@ Page **Conseillers** · articles **G1** (logiciel CGP) et **G12** (onboarding cl
 - Les informations doivent rester **à jour** : un recueil ancien ne protège pas.
 - L'exigence porte sur la **capacité à subir des pertes**, distincte de la tolérance au risque.
 - Le recueil est le premier document examiné en cas de réclamation ou de contrôle.
+- La base française est l'**article L. 541-8-1 du Code monétaire et financier**, applicable depuis le **3 janvier 2018**.
+
+### Le tableau de synthèse
+
+| | |
+|---|---|
+| Base européenne | Directive **MiFID II**, article 25, et règlement délégué **(UE) 2017/565** |
+| Base française | **Article L. 541-8-1** du Code monétaire et financier, applicable depuis le **3 janvier 2018** |
+| Blocs obligatoires | **Cinq** : connaissance et expérience, situation financière, objectifs, tolérance au risque, préférences de durabilité |
+| Les deux ajouts de MIF 2 | La **capacité à subir des pertes** et la **tolérance au risque**, qui ne figuraient pas dans le régime antérieur |
+| Conséquence d'un recueil incomplet | Le conseil ne peut pas être fourni : l'adéquation n'est pas démontrable |
+
+### Les deux blocs qui font tomber les dossiers
+
+La tolérance au risque et la capacité à subir des pertes sont souvent traitées comme une seule question. Ce sont deux choses distinctes, et c'est précisément leur confusion que les contrôles relèvent.
+
+**Un exemple.** Un client de 58 ans dispose de 500 000 € de patrimoine financier, dont **80 000 €** d'épargne de précaution, et déclare accepter une baisse de 30 % sans s'inquiéter.
+
+| | Ce que le recueil établit |
+|---|---|
+| **Tolérance au risque** | Élevée : il déclare accepter une baisse de 30 % |
+| **Capacité à subir des pertes** | Limitée : une baisse de 30 % sur 420 000 € représente **126 000 €**, soit plus que toute son épargne de précaution |
+
+Une allocation calée sur la seule tolérance déclarée serait inadéquate. C'est la capacité, objective, qui borne la recommandation, et non la tolérance, déclarative. Un recueil qui ne distingue pas les deux ne démontre rien.
 
 ### Ce que le texte exige
 
@@ -327,7 +351,7 @@ Non, mais il faut pouvoir établir qu'il était exact au moment de la recommanda
 
 ### Sources
 
-[Directive 2014/65/UE](https://eur-lex.europa.eu/eli/dir/2014/65/oj), article 25 · [Règlement délégué (UE) 2017/565](https://eur-lex.europa.eu/eli/reg_del/2017/565/oj), articles 54 et 55 · [Règlement délégué (UE) 2021/1253](https://eur-lex.europa.eu/eli/reg_del/2021/1253/oj) sur l'intégration des préférences en matière de durabilité · Règlement général de l'AMF, livre III · Positions et recommandations de l'AMF relatives au recueil d'informations clients.
+Directive **MiFID II**, article 25, et règlement délégué **(UE) 2017/565** · **Code monétaire et financier, article L. 541-8-1**, applicable depuis le 3 janvier 2018, qui ajoute la capacité à subir des pertes et la tolérance au risque · [Guide de l'AMF sur MIF 2 pour les conseillers en investissements financiers](https://www.amf-france.org/sites/institutionnel/files/contenu_simple/guide/guide_professionnel/Guide%20sur%20MIF%202%20pour%20les%20conseillers%20en%20investissements%20financiers%20(CIF).pdf) · Règlement délégué (UE) 2021/1253 pour les préférences en matière de durabilité.
 ### Liens internes
 
 Page **Conseillers** · articles **G5** (rapport d'adéquation) et **G4** (lettre de mission).
@@ -356,6 +380,38 @@ Trois documents se succèdent, et les confondre est fréquent.
 **La lettre de mission** porte sur la prestation : ce que vous allez faire, dans quel périmètre, pour quel prix, pendant combien de temps.
 
 **La déclaration d'adéquation** porte sur la recommandation elle-même, et intervient en fin de processus.
+
+### Ce que le texte exige, et ce que la pratique ajoute
+
+Les mentions obligatoires ne sont pas laissées à l'appréciation : l'**article 325-6 du règlement général de l'AMF** en énumère quatre.
+
+| | Ce que la lettre de mission doit contenir |
+|---|---|
+| 1° | La **reconnaissance de réception**, par le client, du document mentionné à l'article 325-5 |
+| 2° | La **nature et les modalités** de la prestation, adaptées au statut et aux caractéristiques principales du client |
+| 3° | Les **modalités d'information** du client, en précisant le compte rendu de l'activité de conseil |
+| 4° | Les **modalités de rémunération**, en précisant le calcul des honoraires et toute rémunération reçue des établissements promoteurs des produits |
+
+Deux conséquences pratiques, souvent manquées.
+
+La lettre **ne peut pas être le premier document remis**. Le document d'entrée en relation de l'article 325-5 doit précéder sa signature, puisque la lettre en constate la réception. Une lettre signée le même jour, sans trace de remise préalable, fragilise toute la chaîne.
+
+Et la lettre doit être **signée des deux parties**. Un document envoyé sans retour signé ne borne rien.
+
+### Ce qu'une mission mal bornée coûte, en euros
+
+Le sujet paraît formel. Il ne l'est pas, et deux chiffres suffisent à le montrer.
+
+**Votre garantie est plafonnée.** L'article D. 541-9 du Code monétaire et financier fixe la responsabilité civile professionnelle d'un CIF exerçant seul, ou en société de moins de deux salariés, à **150 000 € par sinistre et 150 000 € par année d'assurance**. Dès deux salariés, 300 000 € par sinistre et 600 000 € par an.
+
+**Votre exposition ne l'est pas.** L'action en responsabilité civile se prescrit par **cinq ans** à compter du jour où le demandeur a connu les faits, article 2224 du Code civil. Une recommandation de 2026 peut donc être contestée en 2031.
+
+| | |
+|---|---|
+| Ce que couvre votre assurance, en exercice individuel | **150 000 €** par sinistre |
+| Pendant combien de temps vous pouvez être recherché | **5 ans** à compter de la connaissance des faits |
+
+Un dossier patrimonial de 800 000 € mal conseillé sur un périmètre que vous n'aviez jamais accepté dépasse donc votre garantie, et la question de savoir si ce périmètre était couvert se tranchera sur le document que vous aurez signé cinq ans plus tôt. C'est la raison d'être du paragraphe d'exclusions, et la raison pour laquelle il est le plus important du document.
 
 ### Les mentions attendues
 
@@ -428,7 +484,7 @@ C'est possible, mais la clause doit être encadrée avec soin, notamment au rega
 
 ### Sources
 
-Code monétaire et financier, articles L. 541-1 et suivants · Règlement général de l'AMF, livre III, notamment les dispositions relatives à l'information préalable et à la lettre de mission · [Directive 2014/65/UE](https://eur-lex.europa.eu/eli/dir/2014/65/oj), article 24 sur l'information relative aux coûts et aux incitations · Code civil, articles 1231-1 et suivants sur l'obligation de moyens.
+**Règlement général de l'AMF, [article 325-6](https://www.amf-france.org/en/eli/fr/aai/amf/rg/article/325-6/20180608/notes)**, mentions obligatoires de la lettre de mission, et [article 325-5](https://www.amf-france.org/en/eli/fr/aai/amf/rg/article/325-5/20230101/notes), document remis à l'entrée en relation · [Chapitre V du règlement général de l'AMF, articles 325-1-A à 325-47](https://www.legifrance.gouv.fr/codes/section_lc/JORFTEXT000000606599/LEGISCTA000025399871/2024-04-01) · [Position-recommandation AMF DOC-2006-23](https://www.amf-france.org/sites/institutionnel/files/private/2023-10/doc-2006-23_vf7.pdf) · Code monétaire et financier, [article D. 541-9](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025440435) pour les montants de garantie, et articles L. 541-1 et suivants · Code civil, article 2224, pour la prescription quinquennale.
 ### Liens internes
 
 Page **Conseillers** · articles **G3** (recueil client) et **G5** (rapport d'adéquation).
@@ -542,14 +598,31 @@ Page **Conseillers** · articles **G3** (recueil client) et **G4** (lettre de mi
 
 **URL** : /blog/ai-act-conseiller-financier
 **Title** : AI Act : ce qui change pour un cabinet de CGP
-**Meta** : Transparence, supervision humaine, documentation : les obligations qui visent un cabinet utilisateur d'IA, et celles qui pèsent sur ses fournisseurs.
+**Meta** : Les pratiques interdites s'appliquent depuis février 2025, mais le haut risque a été repoussé à décembre 2027. Le calendrier réel, et les amendes.
+
+### Le tableau de synthèse
+
+| Date | Ce qui s'applique |
+|---|---|
+| 1ᵉʳ août 2024 | Entrée en vigueur du règlement (UE) **2024/1689**, sans application pratique |
+| **2 février 2025** | Dispositions générales et **pratiques interdites** de l'article 5 |
+| **2 août 2025** | Modèles d'IA à usage général, gouvernance, sanctions |
+| **2 décembre 2027** | Application complète, dont les systèmes à **haut risque de l'annexe III**, initialement prévus au 2 août 2026 |
+| **2 août 2028** | Systèmes à haut risque intégrés aux produits de l'annexe I, initialement prévus au 2 août 2027 |
+
+| Manquement | Amende maximale |
+|---|---|
+| Pratiques interdites, article 5 | **35 millions d'euros ou 7 %** du chiffre d'affaires mondial |
+| Obligations du fournisseur ou du déployeur | **15 millions d'euros ou 3 %** |
+| Informations incorrectes aux autorités | **7,5 millions d'euros ou 1 %** |
 
 ### L'essentiel
 
 - Le règlement européen distingue le **fournisseur** d'un système d'IA et son **déployeur** : un cabinet est généralement déployeur, pas fournisseur.
-- Les obligations les plus immédiates portent sur la **transparence** et sur la **compétence des utilisateurs**.
+- Les obligations les plus immédiates portent sur la **transparence** et sur la **compétence des utilisateurs**. Elles s'appliquent déjà.
+- **Le haut risque a été repoussé.** Le règlement (UE) **2026/1744**, dit « Digital Omnibus IA », entré en vigueur le **27 juillet 2026**, a reporté l'application des systèmes à haut risque de l'annexe III du 2 août 2026 au **2 décembre 2027**.
+- Les amendes vont jusqu'à **35 millions d'euros ou 7 %** du chiffre d'affaires mondial pour les pratiques interdites, **15 millions ou 3 %** pour les manquements du déployeur.
 - La qualification d'un usage comme « à haut risque » dépend de sa finalité, et appelle une analyse au cas par cas.
-- Le calendrier d'application a fait l'objet d'**ajustements** : vérifiez l'état du droit avant de fonder une décision dessus.
 
 ### La distinction qui commande tout
 
@@ -633,7 +706,7 @@ Une personne désignée, même à temps très partiel, et de préférence celle 
 
 ### Sources
 
-[Règlement (UE) 2024/1689](https://eur-lex.europa.eu/eli/reg/2024/1689/oj) établissant des règles harmonisées concernant l'intelligence artificielle · [Règlement (UE) 2016/679](https://eur-lex.europa.eu/eli/reg/2016/679/oj) (RGPD) · [Directive 2014/65/UE](https://eur-lex.europa.eu/eli/dir/2014/65/oj), articles 24 et 25 · Règlement général de l'AMF, article 325-5 et suivants.
+**Règlement (UE) 2024/1689** établissant des règles harmonisées concernant l'intelligence artificielle, articles 5, 6, 50, 86 et 99 · **Règlement (UE) 2026/1744**, dit « Digital Omnibus IA », entré en vigueur le 27 juillet 2026, reportant l'application des systèmes à haut risque de l'annexe III au 2 décembre 2027 et de l'annexe I au 2 août 2028 · [Calendrier d'application consolidé et plafonds d'amendes](https://reglementation-ia.fr/reglement-2024-1689-ai-act-explique) · Lignes directrices de la Commission européenne sur les pratiques interdites.
 ### Liens internes
 
 Page **Conseillers** · articles **G7** (agrégation bancaire) et **F2** (IA explicable).

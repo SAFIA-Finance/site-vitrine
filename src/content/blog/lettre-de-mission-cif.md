@@ -5,8 +5,8 @@ titreSeo: "Lettre de mission CIF : contenu obligatoire"
 description: "Objet, étendue, rémunération, durée : les mentions attendues dans une lettre de mission CIF, et les formulations à éviter."
 categorie: "Professionnels"
 date: 2026-09-14
-lecture: 3
-mots: 698
+lecture: 6
+mots: 1111
 essentiel:
   - "La lettre de mission **formalise le périmètre** de votre intervention et vous protège autant que le client."
   - "Elle doit préciser l'objet, l'étendue, les **modalités de rémunération** et la durée."
@@ -33,7 +33,7 @@ pages:
 articlesLies:
   - "questionnaire-connaissance-client-cif"
   - "rapport-adequation-cif"
-sources: "Code monétaire et financier, articles L. 541-1 et suivants · Règlement général de l'AMF, livre III, notamment les dispositions relatives à l'information préalable et à la lettre de mission · [Directive 2014/65/UE](https://eur-lex.europa.eu/eli/dir/2014/65/oj), article 24 sur l'information relative aux coûts et aux incitations · Code civil, articles 1231-1 et suivants sur l'obligation de moyens."
+sources: "**Règlement général de l'AMF, [article 325-6](https://www.amf-france.org/en/eli/fr/aai/amf/rg/article/325-6/20180608/notes)**, mentions obligatoires de la lettre de mission, et [article 325-5](https://www.amf-france.org/en/eli/fr/aai/amf/rg/article/325-5/20230101/notes), document remis à l'entrée en relation · [Chapitre V du règlement général de l'AMF, articles 325-1-A à 325-47](https://www.legifrance.gouv.fr/codes/section_lc/JORFTEXT000000606599/LEGISCTA000025399871/2024-04-01) · [Position-recommandation AMF DOC-2006-23](https://www.amf-france.org/sites/institutionnel/files/private/2023-10/doc-2006-23_vf7.pdf) · Code monétaire et financier, [article D. 541-9](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025440435) pour les montants de garantie, et articles L. 541-1 et suivants · Code civil, article 2224, pour la prescription quinquennale."
 ---
 
 ## La place de la lettre de mission dans la séquence
@@ -45,6 +45,38 @@ Trois documents se succèdent, et les confondre est fréquent.
 **La lettre de mission** porte sur la prestation : ce que vous allez faire, dans quel périmètre, pour quel prix, pendant combien de temps.
 
 **La déclaration d'adéquation** porte sur la recommandation elle-même, et intervient en fin de processus.
+
+## Ce que le texte exige, et ce que la pratique ajoute
+
+Les mentions obligatoires ne sont pas laissées à l'appréciation : l'**article 325-6 du règlement général de l'AMF** en énumère quatre.
+
+| | Ce que la lettre de mission doit contenir |
+|---|---|
+| 1° | La **reconnaissance de réception**, par le client, du document mentionné à l'article 325-5 |
+| 2° | La **nature et les modalités** de la prestation, adaptées au statut et aux caractéristiques principales du client |
+| 3° | Les **modalités d'information** du client, en précisant le compte rendu de l'activité de conseil |
+| 4° | Les **modalités de rémunération**, en précisant le calcul des honoraires et toute rémunération reçue des établissements promoteurs des produits |
+
+Deux conséquences pratiques, souvent manquées.
+
+La lettre **ne peut pas être le premier document remis**. Le document d'entrée en relation de l'article 325-5 doit précéder sa signature, puisque la lettre en constate la réception. Une lettre signée le même jour, sans trace de remise préalable, fragilise toute la chaîne.
+
+Et la lettre doit être **signée des deux parties**. Un document envoyé sans retour signé ne borne rien.
+
+## Ce qu'une mission mal bornée coûte, en euros
+
+Le sujet paraît formel. Il ne l'est pas, et deux chiffres suffisent à le montrer.
+
+**Votre garantie est plafonnée.** L'article D. 541-9 du Code monétaire et financier fixe la responsabilité civile professionnelle d'un CIF exerçant seul, ou en société de moins de deux salariés, à **150 000 € par sinistre et 150 000 € par année d'assurance**. Dès deux salariés, 300 000 € par sinistre et 600 000 € par an.
+
+**Votre exposition ne l'est pas.** L'action en responsabilité civile se prescrit par **cinq ans** à compter du jour où le demandeur a connu les faits, article 2224 du Code civil. Une recommandation de 2026 peut donc être contestée en 2031.
+
+| | |
+|---|---|
+| Ce que couvre votre assurance, en exercice individuel | **150 000 €** par sinistre |
+| Pendant combien de temps vous pouvez être recherché | **5 ans** à compter de la connaissance des faits |
+
+Un dossier patrimonial de 800 000 € mal conseillé sur un périmètre que vous n'aviez jamais accepté dépasse donc votre garantie, et la question de savoir si ce périmètre était couvert se tranchera sur le document que vous aurez signé cinq ans plus tôt. C'est la raison d'être du paragraphe d'exclusions, et la raison pour laquelle il est le plus important du document.
 
 ## Les mentions attendues
 

@@ -2,16 +2,16 @@
 code: "G10"
 titre: "LCB-FT en cabinet : les obligations qui tombent vraiment sur vous"
 titreSeo: "LCB-FT : les obligations d'un cabinet de CGP"
-description: "Classification des risques, vigilance, conservation, déclaration de soupçon : ce que la lutte contre le blanchiment impose concrètement à un cabinet."
+description: "Aucun seuil de déclaration, jusqu'à 5 millions d'euros de sanction : ce que la lutte contre le blanchiment impose concrètement à un cabinet."
 categorie: "Professionnels"
 date: 2026-09-14
-lecture: 4
-mots: 711
+lecture: 6
+mots: 1134
 essentiel:
-  - "Quatre blocs : **classification des risques**, **vigilance à l'entrée en relation et en continu**, **conservation**, **déclaration de soupçon**."
-  - "La vigilance est **modulée par le risque** : standard, allégée ou renforcée selon la situation."
-  - "La **classification des risques** du cabinet est le document fondateur : sans elle, rien de ce qui suit n'est justifiable."
-  - "L'obligation de déclaration s'apprécie sur un **soupçon**, pas sur une certitude, et elle est couverte par la confidentialité."
+  - "**Il n'existe aucun seuil.** Ni montant de transaction, ni encours géré en dessous duquel l'obligation de déclaration cesserait. Le soupçon établi, la déclaration est due."
+  - "Les procédures doivent être **écrites** : cartographie des risques, classification de la clientèle, vigilance graduée, organisation de la déclaration à Tracfin."
+  - "La sanction administrative atteint **5 millions d'euros ou 10 % du chiffre d'affaires annuel**, et le manquement expose en outre à une poursuite pénale pour complicité de blanchiment."
+  - "La déclaration de soupçon est **l'un des points les plus examinés en contrôle**, par l'AMF pour un CIF et par l'ACPR pour un courtier en assurance."
 faq:
   - q: "Faut-il déclarer un soupçon avant d'avoir des certitudes ?"
     r: "Oui, et c'est le contresens le plus répandu. Le critère légal est le soupçon, non la preuve : il suffit de savoir, de soupçonner ou d'avoir de bonnes raisons de soupçonner. Attendre une certitude constitue une erreur d'appréciation de la norme, et elle est sanctionnée comme telle."
@@ -33,8 +33,40 @@ pages:
 articlesLies:
   - "devenir-cif-statut-orias"
   - "onboarding-client-digital-cgp"
-sources: "Code monétaire et financier, articles L. 561-1 et suivants, notamment L. 561-5, L. 561-10-2, L. 561-12 et L. 561-15 · Règlement général de l'AMF, livre III · Lignes directrices de l'AMF et de Tracfin relatives à la déclaration de soupçon · [Règlement (UE) 2016/679](https://eur-lex.europa.eu/eli/reg/2016/679/oj) (RGPD), article 5 sur la limitation de conservation."
+sources: "Code monétaire et financier, **livre V, titre VI**, obligations relatives à la lutte contre le blanchiment de capitaux et le financement du terrorisme · [Lignes directrices conjointes sur l'obligation de déclaration à Tracfin](https://www.economie.gouv.fr/files/20151119-lignes-directrices-obligation-declaration-information-tracfin.pdf) · Tracfin, plateforme de télédéclaration **Ermes** · Position-recommandation de l'AMF relative aux obligations LCB-FT des conseillers en investissements financiers."
 ---
+
+## Le tableau de synthèse
+
+| | |
+|---|---|
+| Seuil de déclaration de soupçon | **Aucun.** Le soupçon établi, la déclaration est due quel que soit le montant |
+| Canal de déclaration | Plateforme sécurisée **Ermes**, sur le site de Tracfin |
+| Autorité de contrôle du CIF | L'**AMF**, via l'association professionnelle agréée |
+| Autorité de contrôle du courtier en assurance | L'**ACPR** |
+| Sanction administrative | Jusqu'à **5 millions d'euros**, ou **10 %** du chiffre d'affaires annuel |
+| Risque pénal | Poursuite pour **complicité de blanchiment** |
+| Ce que le cabinet doit écrire | Cartographie des risques, classification de la clientèle, mesures de vigilance graduées, organisation de la déclaration |
+
+## Le cas qui revient, et ce qu'il coûte
+
+Un client de longue date, dont vous gérez 300 000 €, vous annonce un versement complémentaire de **150 000 €** provenant de la vente d'un bien à l'étranger. Il ne produit ni acte, ni relevé bancaire d'origine, et devient évasif quand vous insistez.
+
+| Réflexe fréquent | Ce que dit le droit |
+|---|---|
+| « 150 000 €, c'est sous le seuil » | **Il n'y a pas de seuil.** Aucun montant ne dispense de déclarer |
+| « Je le connais depuis dix ans » | L'ancienneté de la relation n'est pas une mesure de vigilance |
+| « Je refuse l'opération, donc c'est réglé » | Le refus ne remplace pas la déclaration : le soupçon né doit être déclaré |
+| « Je vais lui demander de s'expliquer d'abord » | Informer le client de l'existence d'une déclaration est un **délit** |
+
+Ce qui est dû : une déclaration de soupçon à Tracfin par la plateforme Ermes, sans en informer le client.
+
+Ce qui est encouru à défaut : une sanction administrative pouvant atteindre **5 millions d'euros ou 10 % du chiffre d'affaires annuel**, et une poursuite pénale pour complicité de blanchiment. Rapporté à un cabinet dont le chiffre d'affaires est de 400 000 €, le plafond administratif reste très au-dessus de ce que l'activité peut absorber.
+
+- Quatre blocs : **classification des risques**, **vigilance à l'entrée en relation et en continu**, **conservation**, **déclaration de soupçon**.
+- La vigilance est **modulée par le risque** : standard, allégée ou renforcée selon la situation.
+- La **classification des risques** du cabinet est le document fondateur : sans elle, rien de ce qui suit n'est justifiable.
+- L'obligation de déclaration s'apprécie sur un **soupçon**, pas sur une certitude, et elle est couverte par la confidentialité.
 
 ## Bloc 1. La classification des risques
 

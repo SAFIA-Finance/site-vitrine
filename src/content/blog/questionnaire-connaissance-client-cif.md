@@ -5,13 +5,14 @@ titreSeo: "Recueil client MiFID II : obligations du CIF"
 description: "Les cinq blocs obligatoires du recueil d'informations, les exigences de mise à jour, et les faiblesses les plus fréquemment relevées en contrôle."
 categorie: "Professionnels"
 date: 2026-09-14
-lecture: 4
-mots: 720
+lecture: 5
+mots: 992
 essentiel:
   - "Cinq blocs sont obligatoires : connaissance et expérience, situation financière, objectifs, tolérance au risque, **préférences en matière de durabilité**."
   - "Les informations doivent rester **à jour** : un recueil ancien ne protège pas."
   - "L'exigence porte sur la **capacité à subir des pertes**, distincte de la tolérance au risque."
   - "Le recueil est le premier document examiné en cas de réclamation ou de contrôle."
+  - "La base française est l'**article L. 541-8-1 du Code monétaire et financier**, applicable depuis le **3 janvier 2018**."
 faq:
   - q: "À quelle fréquence faut-il actualiser le recueil ?"
     r: "Aucune durée fixe n'est imposée, mais l'information doit être exacte au moment de chaque recommandation. En pratique, prévoyez un réexamen à échéance régulière et systématiquement lors d'un événement significatif : changement de situation matrimoniale ou professionnelle, naissance, héritage, cession d'entreprise. Une procédure écrite et appliquée vaut mieux qu'une mise à jour au fil de l'eau sans traçabilité."
@@ -33,8 +34,31 @@ pages:
 articlesLies:
   - "rapport-adequation-cif"
   - "lettre-de-mission-cif"
-sources: "[Directive 2014/65/UE](https://eur-lex.europa.eu/eli/dir/2014/65/oj), article 25 · [Règlement délégué (UE) 2017/565](https://eur-lex.europa.eu/eli/reg_del/2017/565/oj), articles 54 et 55 · [Règlement délégué (UE) 2021/1253](https://eur-lex.europa.eu/eli/reg_del/2021/1253/oj) sur l'intégration des préférences en matière de durabilité · Règlement général de l'AMF, livre III · Positions et recommandations de l'AMF relatives au recueil d'informations clients."
+sources: "Directive **MiFID II**, article 25, et règlement délégué **(UE) 2017/565** · **Code monétaire et financier, article L. 541-8-1**, applicable depuis le 3 janvier 2018, qui ajoute la capacité à subir des pertes et la tolérance au risque · [Guide de l'AMF sur MIF 2 pour les conseillers en investissements financiers](https://www.amf-france.org/sites/institutionnel/files/contenu_simple/guide/guide_professionnel/Guide%20sur%20MIF%202%20pour%20les%20conseillers%20en%20investissements%20financiers%20(CIF).pdf) · Règlement délégué (UE) 2021/1253 pour les préférences en matière de durabilité."
 ---
+
+## Le tableau de synthèse
+
+| | |
+|---|---|
+| Base européenne | Directive **MiFID II**, article 25, et règlement délégué **(UE) 2017/565** |
+| Base française | **Article L. 541-8-1** du Code monétaire et financier, applicable depuis le **3 janvier 2018** |
+| Blocs obligatoires | **Cinq** : connaissance et expérience, situation financière, objectifs, tolérance au risque, préférences de durabilité |
+| Les deux ajouts de MIF 2 | La **capacité à subir des pertes** et la **tolérance au risque**, qui ne figuraient pas dans le régime antérieur |
+| Conséquence d'un recueil incomplet | Le conseil ne peut pas être fourni : l'adéquation n'est pas démontrable |
+
+## Les deux blocs qui font tomber les dossiers
+
+La tolérance au risque et la capacité à subir des pertes sont souvent traitées comme une seule question. Ce sont deux choses distinctes, et c'est précisément leur confusion que les contrôles relèvent.
+
+**Un exemple.** Un client de 58 ans dispose de 500 000 € de patrimoine financier, dont **80 000 €** d'épargne de précaution, et déclare accepter une baisse de 30 % sans s'inquiéter.
+
+| | Ce que le recueil établit |
+|---|---|
+| **Tolérance au risque** | Élevée : il déclare accepter une baisse de 30 % |
+| **Capacité à subir des pertes** | Limitée : une baisse de 30 % sur 420 000 € représente **126 000 €**, soit plus que toute son épargne de précaution |
+
+Une allocation calée sur la seule tolérance déclarée serait inadéquate. C'est la capacité, objective, qui borne la recommandation, et non la tolérance, déclarative. Un recueil qui ne distingue pas les deux ne démontre rien.
 
 ## Ce que le texte exige
 
