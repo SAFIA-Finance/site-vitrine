@@ -25,6 +25,25 @@ Bloc auteur et avertissement repris en fin de chaque article :
 - Le coût déterminant n'est pas la licence : c'est la **reprise de données** et le temps d'appropriation.
 - Un outil qui ne produit pas automatiquement les **documents réglementaires** vous fera perdre le bénéfice de ce qu'il vous fait gagner ailleurs.
 - La question à poser en premier est celle de la **réversibilité** : que récupérez-vous si vous partez ?
+- Un outil se juge d'abord sur ce que la **loi vous oblige à produire et à conserver**, et ces obligations ont des références et des durées précises.
+
+### Ce que la loi vous oblige à produire, et pendant combien de temps
+
+C'est la grille de sélection la plus utile, parce qu'elle ne dépend d'aucun argument commercial : ce sont des textes.
+
+| Ce que l'outil doit produire ou conserver | Référence | Durée de conservation |
+|---|---|---|
+| Document d'entrée en relation | Article **325-5** du règlement général de l'AMF | — |
+| Lettre de mission, avec ses quatre mentions obligatoires | Article **325-6** du règlement général de l'AMF | — |
+| Recueil d'informations, dont la capacité à subir des pertes | Article **L. 541-8-1** du Code monétaire et financier | — |
+| Pièces de vigilance et documents LCB-FT | Article **L. 561-12** du Code monétaire et financier | **Cinq ans** à compter de la clôture de la relation d'affaires |
+| Documents relatifs aux opérations effectuées | Article **L. 561-12** du Code monétaire et financier | **Cinq ans** à compter de leur exécution |
+
+Deux conséquences pour le choix d'un outil.
+
+**La conservation est aussi contraignante que la production.** Un logiciel qui produit bien les documents mais dont vous perdez l'accès à la résiliation vous laisse avec une obligation de conservation de cinq ans et aucun moyen de l'honorer. C'est la vraie question de réversibilité, et elle est réglementaire avant d'être commerciale.
+
+**Les cinq ans courent après la fin de la relation.** Un client parti en 2026 doit rester documenté jusqu'en 2031, y compris si vous avez changé d'outil entre-temps.
 
 ### Les huit fonctions
 
@@ -112,7 +131,7 @@ Sur trois éléments vérifiables plutôt que sur la démonstration : l'existenc
 
 ### Sources
 
-Règlement général de l'AMF, livre III, obligations des conseillers en investissements financiers · [Directive 2014/65/UE](https://eur-lex.europa.eu/eli/dir/2014/65/oj), articles 16 et 25 · [Règlement (UE) 2016/679](https://eur-lex.europa.eu/eli/reg/2016/679/oj) (RGPD), articles 28 et 32 sur la sous-traitance et la sécurité · [Règlement (UE) 2022/2554](https://eur-lex.europa.eu/eli/reg/2022/2554/oj) (DORA) pour les prestataires concernés.
+Règlement général de l'AMF, **articles 325-5 et 325-6**, documents d'entrée en relation et lettre de mission · Code monétaire et financier, **article L. 541-8-1**, recueil d'informations · [Code monétaire et financier, article L. 561-12](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000041577784), conservation pendant cinq ans des documents de vigilance et des opérations · Règlement (UE) 2016/679, article 20, droit à la portabilité des données · Règlement général de l'AMF, livre III, obligations des conseillers en investissements financiers · [Directive 2014/65/UE](https://eur-lex.europa.eu/eli/dir/2014/65/oj), articles 16 et 25 · [Règlement (UE) 2016/679](https://eur-lex.europa.eu/eli/reg/2016/679/oj) (RGPD), articles 28 et 32 sur la sous-traitance et la sécurité · [Règlement (UE) 2022/2554](https://eur-lex.europa.eu/eli/reg/2022/2554/oj) (DORA) pour les prestataires concernés.
 ### Liens internes
 
 Page **Conseillers** · articles **G2** (digitalisation) et **G7** (agrégation bancaire).

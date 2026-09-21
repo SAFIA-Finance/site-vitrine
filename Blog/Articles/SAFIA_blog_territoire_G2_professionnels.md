@@ -495,6 +495,23 @@ Page **Sécurité et conformité** · articles **G9** (devenir CIF) et **G12** (
 - La différence est d'abord **juridique** : en marque blanche, vous apparaissez comme l'auteur du service auprès du client final.
 - Elle emporte des conséquences en matière de **responsabilité**, de **conformité** et de **dépendance contractuelle**.
 - Le choix se décide sur trois critères : qui parle au client, qui répond des défaillances, et à quelle vitesse vous pouvez changer d'avis.
+- **Le point le plus coûteux est réglementaire.** Diffuser un système d'IA sous votre propre marque vous fait basculer de **déployeur** à **fournisseur** au sens du règlement (UE) 2024/1689, et l'écart d'obligations est considérable.
+
+### Ce que la bascule de déployeur à fournisseur change, en obligations et en euros
+
+C'est la conséquence la plus lourde de la marque blanche, et elle est rarement chiffrée avant la signature.
+
+| | Déployeur | Fournisseur |
+|---|---|---|
+| Qui vous êtes | Vous utilisez un système sous votre autorité | Vous le mettez sur le marché **sous votre nom** |
+| Système de gestion des risques | Non | **Oui** |
+| Documentation technique et qualité des données | Non | **Oui** |
+| Évaluation de conformité et marquage | Non | **Oui** |
+| Amende maximale en cas de manquement | **15 millions d'euros ou 3 %** du chiffre d'affaires mondial | **15 millions d'euros ou 3 %**, sur un champ d'obligations bien plus large |
+
+Le plafond d'amende est le même. Ce qui change, c'est le nombre de portes par lesquelles on peut l'encourir.
+
+**La date compte aussi.** Les obligations des systèmes à haut risque de l'annexe III, qui incluent certains usages d'évaluation de personnes, s'appliquent au **2 décembre 2027** depuis le report opéré par le règlement (UE) 2026/1744. Un contrat de marque blanche signé aujourd'hui pour trois ans traversera donc cette échéance : la répartition des obligations à cette date doit figurer au contrat, et non être découverte en 2027.
 
 ### Les deux modèles
 
@@ -512,7 +529,7 @@ Un modèle intermédiaire existe, la **marque grise**, où les deux marques coex
 
 **Le RGPD doit être cadré.** Qui est responsable de traitement, qui est sous-traitant, où sont hébergées les données, quelles sous-traitances ultérieures sont autorisées, et selon quelle procédure de notification en cas de violation.
 
-**Et, point à examiner sérieusement** : si vous diffusez un système d'intelligence artificielle sous votre propre marque, vous pouvez basculer du statut de déployeur vers celui de fournisseur au sens du règlement européen sur l'IA, avec un régime d'obligations substantiellement plus lourd. Cette question se pose avant la signature, pas après.
+**Et, point à examiner sérieusement** : si vous diffusez un système d'intelligence artificielle sous votre propre marque, vous basculez du statut de déployeur vers celui de fournisseur au sens du règlement (UE) 2024/1689, avec le régime d'obligations détaillé plus haut. Cette question se pose avant la signature, pas après.
 
 ### Les critères de décision
 
