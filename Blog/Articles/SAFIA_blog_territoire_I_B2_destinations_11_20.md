@@ -11,24 +11,43 @@ Même structure et même avertissement que la partie B1.
 
 ## I17 — Chypre
 
-**URL** : /blog/expatriation-chypre-fiscalite · **Vérifié le 16 septembre 2026**
+**URL** : /blog/expatriation-chypre-fiscalite · **Vérifié le 21 septembre 2026**
 **Meta** : Le non-dom chypriote dure jusqu'à dix-sept ans et exonère dividendes et intérêts. Membre de l'Union, Chypre ouvre le sursis automatique d'exit tax.
 
 | | |
 |---|---|
-| Statut non-dom | Jusqu'à **17 ans** |
-| Dividendes et intérêts | Exonérés de l'impôt sur le revenu pour un non-dom, sous réserve des contributions locales |
-| Plus-values mobilières | En principe non imposées, hors immobilier situé à Chypre |
-| Barème général | Progressif, avec une tranche exonérée significative |
+| Statut non-dom | **17 ans**, sur une période de 20 ans. Une option d'extension jusqu'à **27 ans** existe depuis 2026, au prix de **250 000 €** par période de cinq ans |
+| Dividendes et intérêts d'un non-dom | **0 %** de contribution spéciale à la défense, contre 5 % pour un résident domicilié depuis 2026 |
+| Barème, depuis le 1ᵉʳ janvier 2026 | Exonéré jusqu'à **22 000 €**, contre 19 500 € auparavant. Le taux de **35 %** ne s'applique plus qu'au-delà de **72 001 €**, contre 60 001 € |
+| Plus-values mobilières | **Non imposées**, hors immobilier situé à Chypre |
 | Convention avec la France | Oui |
 | Exit tax française | **Sursis automatique** (État membre de l'UE) |
 
 ### L'essentiel
 
-- Le statut de **non-domicilié** chypriote dure jusqu'à dix-sept ans, soit la durée la plus longue d'Europe.
-- Il exonère d'impôt sur le revenu les **dividendes et intérêts**, ce qui en fait une destination adaptée aux revenus de capitaux.
+- Le statut de **non-domicilié** chypriote dure **dix-sept ans** sur une période de vingt, soit la durée la plus longue d'Europe. Le régime britannique qui lui ressemblait a été ramené à quatre ans en 2025.
+- Il exonère les **dividendes et intérêts** de la contribution spéciale à la défense, ce qui en fait une destination adaptée aux revenus de capitaux.
+- **Le barème a changé au 1ᵉʳ janvier 2026** : la tranche exonérée passe de 19 500 à **22 000 €**, et le taux plein de 35 % ne s'applique plus qu'au-delà de **72 001 €**.
+- Une **option d'extension du statut non-dom jusqu'à vingt-sept ans** a été introduite, au prix de 250 000 € par période de cinq ans.
 - Chypre étant membre de l'Union européenne, le **sursis d'exit tax est automatique**, sans démarche ni garantie.
 - Ce dernier point est décisif : à avantage fiscal comparable, une destination de l'Union épargne une procédure lourde.
+
+### Le régime non-dom, chiffré
+
+Une personne résidente fiscale de Chypre pendant au moins **dix-sept des vingt années** précédentes est réputée domiciliée, et perd le bénéfice du régime. En deçà, ses dividendes et intérêts mondiaux échappent à la contribution spéciale à la défense.
+
+La réforme adoptée le **22 décembre 2025**, applicable depuis le 1ᵉʳ janvier 2026, a modifié l'écart entre les deux statuts. La contribution sur les dividendes d'un résident **domicilié** est passée de 17 % à **5 %**, tandis qu'elle reste à **0 %** pour un non-dom. L'avantage relatif du statut s'est donc réduit, sans disparaître.
+
+**Un exemple chiffré**, pour 200 000 € de dividendes annuels de source étrangère.
+
+| | Contribution sur les dividendes |
+|---|---|
+| Résident chypriote non domicilié | **0 €** |
+| Résident chypriote domicilié, depuis 2026 | **10 000 €**, au taux de 5 % |
+| Résident chypriote domicilié, avant 2026 | 34 000 €, au taux de 17 % |
+| Résident français | **60 000 €**, au prélèvement forfaitaire unique de 30 % |
+
+L'écart avec la France reste entier. Ce qui a changé, c'est le coût de la sortie du régime au bout de dix-sept ans : il est désormais nettement moins brutal.
 
 ### Ce que l'appartenance à l'Union change concrètement
 
@@ -109,7 +128,7 @@ Oui. La résidence chypriote se constate chaque année selon des critères de pr
 
 ### Sources
 
-Income Tax Law chypriote et législation sur la contribution spéciale à la défense, statut de non-domicilié · Convention fiscale franco-chypriote · Code général des impôts, article 167 bis, IV, et articles 164 D, 244 bis A et 1736, IV.
+*Income Tax Law* chypriote et législation sur la contribution spéciale à la défense, statut de non-domicilié apprécié sur dix-sept des vingt années précédentes · [Réforme fiscale adoptée le 22 décembre 2025, applicable au 1ᵉʳ janvier 2026 : relèvement de la tranche exonérée à 22 000 €, seuil du taux de 35 % porté à 72 001 €, contribution sur les dividendes des résidents domiciliés ramenée de 17 % à 5 %](https://www.chypre-conseils.com/reforme-fiscale-chypre-2026/) · Article 200 A du Code général des impôts pour le prélèvement forfaitaire unique · Convention fiscale franco-chypriote · Code général des impôts, article 167 bis, IV, et articles 164 D, 244 bis A et 1736, IV.
 
 
 ### Liens internes
@@ -252,31 +271,51 @@ articles **I8** et **I13**.
 
 ## I19 — Royaume-Uni
 
-**URL** : /blog/expatriation-royaume-uni-fiscalite · **Vérifié le 16 septembre 2026**
+**URL** : /blog/expatriation-royaume-uni-fiscalite · **Vérifié le 21 septembre 2026**
 **Meta** : Le régime non-dom est supprimé depuis avril 2025. Ce qui le remplace pour les nouveaux arrivants, et le Statutory Residence Test, chiffré et prévisible.
 
 | | |
 |---|---|
-| Statut de non-domicilié | **Supprimé en avril 2025** |
-| Régime de remplacement | Régime pour nouveaux arrivants, limité aux premières années de résidence |
-| Test de résidence | Statutory Residence Test, fondé sur des critères chiffrés |
+| Statut de non-domicilié | **Supprimé le 6 avril 2025** |
+| Régime de remplacement | **Régime FIG** : quatre ans d'exonération totale des revenus et gains étrangers |
+| Condition d'accès au FIG | **Dix années fiscales consécutives** de non-résidence britannique avant l'arrivée |
+| Contrepartie | La réclamation fait perdre l'abattement personnel et l'exonération annuelle de plus-values |
+| Barème 2026-2027 | **20 %** jusqu'à 50 270 £, **40 %** jusqu'à 125 140 £, **45 %** au-delà |
+| Abattement personnel | **12 570 £**, dégressif à partir de 100 000 £ et nul à 125 140 £ |
+| Droits de succession | **40 %** au-delà de 325 000 £, seuil gelé jusqu'au 5 avril 2031 |
+| Champ des droits de succession | Le domicile a été remplacé par la **résidence de long terme** : dix années sur les vingt précédentes |
+| Test de résidence | *Statutory Residence Test*, fondé sur des critères chiffrés |
 | Convention avec la France | Oui, y compris en matière de successions |
 | **Exit tax française** | **Sursis automatique** pour les départs 2026 |
 
 ### L'essentiel
 
-- Le régime historique du **non-dom a été supprimé**, à compter d'avril 2025. Toute page qui le présente comme accessible est périmée.
-- Il est remplacé par un régime destiné aux **nouveaux arrivants**, applicable pendant les premières années de résidence.
+- Le régime historique du **non-dom a été supprimé le 6 avril 2025**. Toute page qui le présente comme accessible est périmée.
+- Il est remplacé par le **régime FIG**, qui exonère totalement les revenus et gains étrangers pendant **quatre ans**, contre dix-sept ans pour le régime chypriote.
+- L'accès suppose **dix années fiscales consécutives** de non-résidence britannique avant l'arrivée, et la réclamation coûte l'abattement personnel de 12 570 £ et l'exonération annuelle de plus-values.
+- Les droits de succession ne suivent plus le domicile mais la **résidence de long terme** : dix années sur les vingt précédentes suffisent à faire entrer le patrimoine mondial dans le champ des **40 %**.
 - Le Royaume-Uni **figure parmi les États ouvrant le sursis automatique** d'exit tax pour les départs 2026, ce qui est notable pour un État tiers.
 - Le **Statutory Residence Test** britannique est chiffré et prévisible, contrairement à l'appréciation française qui laisse une large place aux faits.
 
-### Ce qui a changé
+### Ce qui a changé, et le calendrier qui en découle
 
-Le statut de non-domicilié, qui permettait à des résidents britanniques de n'être imposés sur leurs revenus étrangers que s'ils les rapatriaient, a été supprimé.
+Le statut de non-domicilié, qui permettait à des résidents britanniques de n'être imposés sur leurs revenus étrangers que s'ils les rapatriaient, a été supprimé au 6 avril 2025.
 
-Le dispositif qui lui succède cible les personnes devenant résidentes après une période de non-résidence, et accorde un traitement favorable des revenus et gains étrangers pendant un nombre d'années limité. Il est donc beaucoup plus court que le précédent, et sans équivalent de la durée de dix-sept ans chypriote.
+Le **régime FIG** qui lui succède, pour *Foreign Income and Gains*, exonère intégralement les revenus et gains étrangers pendant les **quatre premières années** de résidence. Il faut n'avoir été résident britannique **aucune des dix années fiscales consécutives** précédant l'arrivée. Il se réclame, source par source, et cette réclamation fait perdre l'abattement personnel et l'exonération annuelle de plus-values pour l'année concernée.
 
-Les conséquences sur la fiscalité successorale britannique ont également été revues, la notion de domicile ayant été remplacée par un critère de résidence de long terme. C'est le point le plus lourd pour les patrimoines importants et il doit être examiné spécifiquement.
+**Un exemple chiffré**, pour un Français disposant de 200 000 £ de revenus étrangers annuels et s'installant à Londres.
+
+| Période | Revenus étrangers | Patrimoine mondial et droits de succession |
+|---|---|---|
+| Années 1 à 4 | **Exonérés** sous le régime FIG | Hors champ |
+| Année 5 et au-delà | **Imposés** au barème, jusqu'à 45 % | Hors champ |
+| Année 11 et au-delà | Imposés au barème | **Dans le champ des 40 %**, au-delà de 325 000 £ |
+
+Il y a donc deux marches, pas une. La première tombe à la cinquième année, sur les revenus. La seconde à la onzième, sur la transmission, et elle est de loin la plus lourde : c'est le moment où le patrimoine mondial d'un résident devient taxable à 40 % au décès.
+
+Le seuil de 325 000 £ est **gelé jusqu'au 5 avril 2031**, ce qui signifie qu'il perd de la valeur chaque année sous l'effet de l'inflation.
+
+C'est le point le plus lourd pour les patrimoines importants, et celui qui doit commander le calendrier : une installation britannique de long terme se planifie sur onze ans, pas sur quatre.
 
 ### Le Statutory Residence Test
 
@@ -350,7 +389,7 @@ La notion de domicile, qui déterminait l'assiette des droits de succession brit
 
 ### Sources
 
-Finance Act britannique portant suppression du régime des non-domiciliés à compter d'avril 2025 et instituant le régime des nouveaux arrivants · HMRC, Statutory Residence Test · Convention fiscale franco-britannique en matière d'impôts sur le revenu et convention en matière de successions · Notice DGFiP du formulaire 2074-ETD, liste des États ouvrant le sursis automatique.
+*Finance Act* britannique portant suppression du régime des non-domiciliés au 6 avril 2025 et instituant le régime *Foreign Income and Gains* · [Norton Rose Fulbright, abolition du régime non-dom et conditions du régime FIG](https://www.nortonrosefulbright.com/en/knowledge/publications/648e7a24/abolition-of-the-non-dom-regime) · [Boodle Hatfield, *long term residence* et droits de succession britanniques](https://www.boodlehatfield.com/articles/long-term-residence-and-its-importance-for-uk-inheritance-tax-iht-purposes) · [House of Commons Library, taux et abattements 2026-2027](https://commonslibrary.parliament.uk/research-briefings/cbp-10618/) · HMRC, *Statutory Residence Test* et *nil rate band* de 325 000 £ gelé jusqu'au 5 avril 2031 · Convention fiscale franco-britannique en matière d'impôts sur le revenu et convention en matière de successions · Notice DGFiP du formulaire 2074-ETD, liste des États ouvrant le sursis automatique.
 
 
 ### Liens internes
@@ -474,30 +513,50 @@ articles **I10** et **I26**.
 
 ## I21 — Maurice
 
-**URL** : /blog/expatriation-maurice-fiscalite · **Vérifié le 16 septembre 2026**
-**Meta** : Impôt modéré, ni plus-values ni succession, mais une résidence à prix d'entrée, souvent immobilier, et aucun sursis automatique d'exit tax.
+**URL** : /blog/expatriation-maurice-fiscalite · **Vérifié le 21 septembre 2026**
+**Meta** : Ni plus-values ni droits de succession, un barème plafonné à 20 %, mais 375 000 dollars de prix d'entrée et aucun sursis automatique d'exit tax.
 
 | | |
 |---|---|
-| Impôt sur le revenu | Taux modéré, avec une majoration au-delà d'un seuil de revenu élevé |
-| Plus-values | En principe non imposées |
-| Droits de succession | Aucun |
+| Impôt sur le revenu | **0 %** jusqu'à 500 000 roupies, **10 %** de 500 000 à 1 million, **20 %** au-delà, depuis le 1ᵉʳ juillet 2025 |
+| Contribution sociale généralisée | **1,5 %** jusqu'à 50 000 roupies de revenu mensuel, **3 %** au-delà, côté salarié |
+| Plus-values | **Aucune imposition** |
+| Droits de succession | **Aucun** |
+| Prix d'entrée de la résidence | **375 000 dollars** minimum, dans un programme immobilier agréé |
+| Durée des permis | Ramenée de **dix à cinq ans** pour les investisseurs, indépendants et retraités, renouvelable sous contrôle |
 | Convention avec la France | Oui |
-| **Exit tax française** | Sursis non automatique : garanties requises |
-| Résidence | Permis liés à l'investissement immobilier ou à l'activité |
+| **Exit tax française** | **Sursis non automatique** : garanties requises |
 
 ### L'essentiel
 
-- Maurice combine un impôt sur le revenu modéré, l'absence d'imposition des plus-values et l'absence de droits de succession.
-- L'accès passe le plus souvent par un **permis lié à un investissement immobilier** dans un programme agréé, ou par une activité.
-- Le pays est **hors de la liste** ouvrant le sursis automatique d'exit tax.
-- La convention franco-mauricienne a fait l'objet d'évolutions : elle doit être lue dans sa version en vigueur.
+- Maurice ne taxe **ni les plus-values ni les successions**, et son barème plafonne à **20 %**.
+- Ce barème a été refondu au **1ᵉʳ juillet 2025** : trois tranches, 0 %, 10 % et 20 %, à la place des onze précédentes.
+- Le taux plein de 20 % est atteint dès **1 million de roupies** de revenu annuel, un seuil bas rapporté aux revenus d'un expatrié : en pratique, la plupart s'y trouvent.
+- L'accès passe le plus souvent par un **investissement immobilier d'au moins 375 000 dollars** dans un programme agréé.
+- Le pays est **hors de la liste** ouvrant le sursis automatique d'exit tax : c'est le point qui coûte le plus cher au départ.
 
-### Les voies d'accès
+### Les voies d'accès, et leur prix
 
-L'installation durable passe généralement par l'acquisition d'un bien dans un programme immobilier agréé au-delà d'un montant minimal, qui ouvre un permis de résidence, ou par un permis lié à une activité professionnelle ou à un statut de retraité justifiant de revenus réguliers.
+L'installation durable passe généralement par l'acquisition d'un bien dans un programme immobilier agréé par l'*Economic Development Board*, de type *Property Development Scheme* ou *Smart City*. Le seuil est un **prix d'acquisition d'au moins 375 000 dollars**, ou son équivalent en devise librement convertible. Le permis de résidence est alors accordé tant que le bien est détenu, et s'étend au conjoint et aux enfants de moins de 24 ans.
 
-C'est une différence importante avec les destinations européennes : à Maurice, la résidence a un **prix d'entrée**, généralement immobilier.
+Les autres voies sont le permis lié à une activité professionnelle et le permis de retraité non citoyen, qui suppose de justifier de revenus réguliers.
+
+**Un changement à connaître.** Le budget 2025-2026 a ramené la durée de validité des permis d'investisseur, d'indépendant et de retraité non citoyen de **dix à cinq ans**, avec un renouvellement soumis à vérification de conformité. La résidence mauricienne se confirme désormais deux fois plus souvent.
+
+C'est une différence importante avec les destinations européennes : à Maurice, la résidence a un **prix d'entrée**, et il est immobilier.
+
+### L'avantage réel, et ce qu'il coûte au départ
+
+**Un exemple chiffré.** Un dirigeant cède son entreprise et dégage 2 000 000 € de plus-value.
+
+| | Imposition de la plus-value |
+|---|---|
+| Résident français | **600 000 €**, au prélèvement forfaitaire unique de 30 % |
+| Résident mauricien | **0 €**, Maurice n'imposant pas les plus-values |
+
+L'écart est considérable, et c'est ce qui attire. Mais il ne se saisit pas en changeant d'adresse.
+
+**Maurice n'ouvre pas droit au sursis automatique d'exit tax.** Contrairement à un départ vers l'Union européenne, le transfert du domicile hors de France déclenche la déclaration de la plus-value latente sur les participations, et le sursis de paiement suppose de **désigner un représentant fiscal et de constituer des garanties** auprès de l'administration française. C'est une démarche, un coût et un calendrier, et elle doit être engagée **avant** le départ, pas après.
 
 ### La comparaison sur trois profils
 
@@ -569,7 +628,7 @@ Elle peut convenir, et un permis dédié existe pour les retraités justifiant d
 
 ### Sources
 
-Income Tax Act mauricien · Textes relatifs aux permis de résidence et aux programmes immobiliers agréés · Convention fiscale franco-mauricienne dans sa version en vigueur · Code général des impôts, article 167 bis.
+*Income Tax Act* mauricien et barème refondu au 1ᵉʳ juillet 2025 par le budget 2025-2026 · [Budget mauricien 2025-2026, réforme du barème, de la CSG et de la durée des permis](https://www.jwflegal.com/news/2025-mauritius-tax-financial-services-and-regulatory-reforms/) · [Economic Development Board, *Property Development Scheme* et seuil d'acquisition de 375 000 dollars](https://residency.mu/acquire/property-development-scheme/) · Convention fiscale franco-mauricienne dans sa version en vigueur · Article 200 A du Code général des impôts pour le prélèvement forfaitaire unique · Code général des impôts, article 167 bis, pour l'imposition des plus-values latentes au départ et les garanties exigées hors Union européenne.
 
 
 ### Liens internes
@@ -803,30 +862,41 @@ articles **I15** et **I11**.
 
 ## I24 — Singapour
 
-**URL** : /blog/expatriation-singapour-fiscalite · **Vérifié le 16 septembre 2026**
+**URL** : /blog/expatriation-singapour-fiscalite · **Vérifié le 21 septembre 2026**
 **Meta** : Imposition territoriale, pas de plus-values ni de droits de succession, mais un coût du logement qui absorbe une large part de l'avantage fiscal.
 
 | | |
 |---|---|
 | Principe | Imposition **territoriale** : les revenus de source étrangère ne sont en principe pas imposés |
-| Plus-values | En principe non imposées |
-| Barème sur les revenus locaux | Progressif, modéré |
-| Droits de succession | Aucun |
+| Barème sur les revenus locaux | **0 %** sur les premiers 20 000 dollars singapouriens, jusqu'à **24 %** au-delà d'un million |
+| Plus-values | **Aucune imposition** |
+| Dividendes | **Aucune imposition** entre les mains du bénéficiaire |
+| Droits de succession | **Aucun**, supprimés en 2008 |
 | Convention avec la France | Oui |
 | **Exit tax française** | Sursis non automatique : garanties requises |
 
 ### L'essentiel
 
 - Singapour applique une imposition **territoriale** : les revenus de source étrangère échappent en principe à l'impôt local.
-- Les **plus-values** ne sont en principe pas imposées, et il n'existe pas de droits de succession.
-- Le barème sur les revenus de source singapourienne est progressif mais modéré par rapport aux standards européens.
+- Ni **plus-values**, ni **dividendes**, ni **droits de succession** ne sont imposés.
+- Le barème sur les revenus de source singapourienne va de **0 %** sur les premiers 20 000 dollars singapouriens à **24 %** au-delà d'un million, très en deçà des 45 % français ou des 52 % irlandais.
 - Le coût de la vie, en particulier du logement, est parmi les plus élevés au monde et absorbe une part importante de l'avantage fiscal.
+- Singapour est **hors de la liste** ouvrant le sursis automatique d'exit tax : le départ suppose représentant fiscal et garanties.
 
 ### Le cadre
 
 L'imposition territoriale signifie que seuls les revenus produits à Singapour, ou de source étrangère reçus à Singapour dans certaines conditions, entrent dans l'assiette. Les dividendes, intérêts et gains de source étrangère perçus par un particulier en sont en pratique très largement exclus.
 
-L'absence d'imposition des plus-values et de droits de succession complète un cadre cohérent, qui explique la place de Singapour dans la gestion patrimoniale asiatique.
+**Un exemple chiffré**, pour un cadre percevant l'équivalent de 300 000 € de salaire local et 100 000 € de dividendes de source étrangère.
+
+| | Salaire local | Dividendes étrangers |
+|---|---|---|
+| Résident singapourien | Barème plafonné à **24 %** | **0 €** |
+| Résident français | Barème jusqu'à **45 %** | **30 000 €** au prélèvement forfaitaire unique |
+
+L'absence d'imposition des plus-values et des successions complète un cadre cohérent, qui explique la place de Singapour dans la gestion patrimoniale asiatique.
+
+**La contrepartie est au départ de France, pas à l'arrivée.** Singapour ne figurant pas parmi les États ouvrant le sursis automatique, un dirigeant détenant des titres au-delà du seuil d'exit tax devra désigner un représentant fiscal et constituer des garanties auprès de l'administration française. À avantage comparable, Chypre évite cette procédure.
 
 ### La comparaison sur trois profils
 
@@ -899,7 +969,7 @@ Oui, et elle joue le rôle habituel : elle ne crée aucun impôt, elle répartit
 
 ### Sources
 
-Income Tax Act singapourien, principe de territorialité · Inland Revenue Authority of Singapore, guidance sur les revenus de source étrangère · Convention fiscale franco-singapourienne · Code général des impôts, article 167 bis.
+*Income Tax Act* singapourien, principe de territorialité · [Inland Revenue Authority of Singapore, barème de l'impôt sur le revenu des personnes physiques](https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/tax-residency-and-tax-rates/individual-income-tax-rates) et guidance sur les revenus de source étrangère · Suppression des droits de succession singapouriens en 2008 · Article 200 A du Code général des impôts pour le prélèvement forfaitaire unique · Convention fiscale franco-singapourienne · Code général des impôts, article 167 bis.
 
 
 ### Liens internes

@@ -2,16 +2,17 @@
 code: "I21"
 titre: "Maurice : fiscalité de l'expatriation"
 titreSeo: "Maurice : fiscalité de l'expatriation"
-description: "Impôt modéré, ni plus-values ni succession, mais une résidence à prix d'entrée, souvent immobilier, et aucun sursis automatique d'exit tax."
+description: "Ni plus-values ni droits de succession, un barème plafonné à 20 %, mais 375 000 dollars de prix d'entrée et aucun sursis automatique d'exit tax."
 categorie: "Expatriation"
 date: 2026-09-16
-lecture: 4
-mots: 771
+lecture: 5
+mots: 1075
 essentiel:
-  - "Maurice combine un impôt sur le revenu modéré, l'absence d'imposition des plus-values et l'absence de droits de succession."
-  - "L'accès passe le plus souvent par un **permis lié à un investissement immobilier** dans un programme agréé, ou par une activité."
-  - "Le pays est **hors de la liste** ouvrant le sursis automatique d'exit tax."
-  - "La convention franco-mauricienne a fait l'objet d'évolutions : elle doit être lue dans sa version en vigueur."
+  - "Maurice ne taxe **ni les plus-values ni les successions**, et son barème plafonne à **20 %**."
+  - "Ce barème a été refondu au **1ᵉʳ juillet 2025** : trois tranches, 0 %, 10 % et 20 %, à la place des onze précédentes."
+  - "Le taux plein de 20 % est atteint dès **1 million de roupies** de revenu annuel, un seuil bas rapporté aux revenus d'un expatrié : en pratique, la plupart s'y trouvent."
+  - "L'accès passe le plus souvent par un **investissement immobilier d'au moins 375 000 dollars** dans un programme agréé."
+  - "Le pays est **hors de la liste** ouvrant le sursis automatique d'exit tax : c'est le point qui coûte le plus cher au départ."
 faq:
   - q: "Faut-il acheter un bien pour s'installer à Maurice ?"
     r: "C'est la voie la plus courante : l'acquisition dans un programme agréé au-delà d'un montant minimal ouvre un permis de résidence. D'autres voies existent, liées à une activité professionnelle ou à un statut de retraité justifiant de revenus réguliers. Dans tous les cas, la résidence a un prix d'entrée, contrairement aux destinations de l'Union européenne."
@@ -32,25 +33,44 @@ articlesLies:
   - "expatriation-monaco-fiscalite"
   - "expatriation-portugal-fiscalite"
 seoDerive: true
-sources: "Income Tax Act mauricien · Textes relatifs aux permis de résidence et aux programmes immobiliers agréés · Convention fiscale franco-mauricienne dans sa version en vigueur · Code général des impôts, article 167 bis."
+sources: "*Income Tax Act* mauricien et barème refondu au 1ᵉʳ juillet 2025 par le budget 2025-2026 · [Budget mauricien 2025-2026, réforme du barème, de la CSG et de la durée des permis](https://www.jwflegal.com/news/2025-mauritius-tax-financial-services-and-regulatory-reforms/) · [Economic Development Board, *Property Development Scheme* et seuil d'acquisition de 375 000 dollars](https://residency.mu/acquire/property-development-scheme/) · Convention fiscale franco-mauricienne dans sa version en vigueur · Article 200 A du Code général des impôts pour le prélèvement forfaitaire unique · Code général des impôts, article 167 bis, pour l'imposition des plus-values latentes au départ et les garanties exigées hors Union européenne."
 ---
 
 ## Le tableau de synthèse
 
 | | |
 |---|---|
-| Impôt sur le revenu | Taux modéré, avec une majoration au-delà d'un seuil de revenu élevé |
-| Plus-values | En principe non imposées |
-| Droits de succession | Aucun |
+| Impôt sur le revenu | **0 %** jusqu'à 500 000 roupies, **10 %** de 500 000 à 1 million, **20 %** au-delà, depuis le 1ᵉʳ juillet 2025 |
+| Contribution sociale généralisée | **1,5 %** jusqu'à 50 000 roupies de revenu mensuel, **3 %** au-delà, côté salarié |
+| Plus-values | **Aucune imposition** |
+| Droits de succession | **Aucun** |
+| Prix d'entrée de la résidence | **375 000 dollars** minimum, dans un programme immobilier agréé |
+| Durée des permis | Ramenée de **dix à cinq ans** pour les investisseurs, indépendants et retraités, renouvelable sous contrôle |
 | Convention avec la France | Oui |
-| **Exit tax française** | Sursis non automatique : garanties requises |
-| Résidence | Permis liés à l'investissement immobilier ou à l'activité |
+| **Exit tax française** | **Sursis non automatique** : garanties requises |
 
-## Les voies d'accès
+## Les voies d'accès, et leur prix
 
-L'installation durable passe généralement par l'acquisition d'un bien dans un programme immobilier agréé au-delà d'un montant minimal, qui ouvre un permis de résidence, ou par un permis lié à une activité professionnelle ou à un statut de retraité justifiant de revenus réguliers.
+L'installation durable passe généralement par l'acquisition d'un bien dans un programme immobilier agréé par l'*Economic Development Board*, de type *Property Development Scheme* ou *Smart City*. Le seuil est un **prix d'acquisition d'au moins 375 000 dollars**, ou son équivalent en devise librement convertible. Le permis de résidence est alors accordé tant que le bien est détenu, et s'étend au conjoint et aux enfants de moins de 24 ans.
 
-C'est une différence importante avec les destinations européennes : à Maurice, la résidence a un **prix d'entrée**, généralement immobilier.
+Les autres voies sont le permis lié à une activité professionnelle et le permis de retraité non citoyen, qui suppose de justifier de revenus réguliers.
+
+**Un changement à connaître.** Le budget 2025-2026 a ramené la durée de validité des permis d'investisseur, d'indépendant et de retraité non citoyen de **dix à cinq ans**, avec un renouvellement soumis à vérification de conformité. La résidence mauricienne se confirme désormais deux fois plus souvent.
+
+C'est une différence importante avec les destinations européennes : à Maurice, la résidence a un **prix d'entrée**, et il est immobilier.
+
+## L'avantage réel, et ce qu'il coûte au départ
+
+**Un exemple chiffré.** Un dirigeant cède son entreprise et dégage 2 000 000 € de plus-value.
+
+| | Imposition de la plus-value |
+|---|---|
+| Résident français | **600 000 €**, au prélèvement forfaitaire unique de 30 % |
+| Résident mauricien | **0 €**, Maurice n'imposant pas les plus-values |
+
+L'écart est considérable, et c'est ce qui attire. Mais il ne se saisit pas en changeant d'adresse.
+
+**Maurice n'ouvre pas droit au sursis automatique d'exit tax.** Contrairement à un départ vers l'Union européenne, le transfert du domicile hors de France déclenche la déclaration de la plus-value latente sur les participations, et le sursis de paiement suppose de **désigner un représentant fiscal et de constituer des garanties** auprès de l'administration française. C'est une démarche, un coût et un calendrier, et elle doit être engagée **avant** le départ, pas après.
 
 ## La comparaison sur trois profils
 

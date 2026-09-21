@@ -5,13 +5,14 @@ titreSeo: "Singapour : fiscalité de l'expatriation"
 description: "Imposition territoriale, pas de plus-values ni de droits de succession, mais un coût du logement qui absorbe une large part de l'avantage fiscal."
 categorie: "Expatriation"
 date: 2026-09-16
-lecture: 4
-mots: 770
+lecture: 5
+mots: 907
 essentiel:
   - "Singapour applique une imposition **territoriale** : les revenus de source étrangère échappent en principe à l'impôt local."
-  - "Les **plus-values** ne sont en principe pas imposées, et il n'existe pas de droits de succession."
-  - "Le barème sur les revenus de source singapourienne est progressif mais modéré par rapport aux standards européens."
+  - "Ni **plus-values**, ni **dividendes**, ni **droits de succession** ne sont imposés."
+  - "Le barème sur les revenus de source singapourienne va de **0 %** sur les premiers 20 000 dollars singapouriens à **24 %** au-delà d'un million, très en deçà des 45 % français ou des 52 % irlandais."
   - "Le coût de la vie, en particulier du logement, est parmi les plus élevés au monde et absorbe une part importante de l'avantage fiscal."
+  - "Singapour est **hors de la liste** ouvrant le sursis automatique d'exit tax : le départ suppose représentant fiscal et garanties."
 faq:
   - q: "Mes revenus étrangers sont-ils vraiment exonérés à Singapour ?"
     r: "Les revenus de source étrangère perçus par un particulier en sont très largement exclus en application du principe de territorialité, sous réserve des conditions applicables aux revenus reçus sur place. Cela ne dispense en rien du traitement français des revenus de source française."
@@ -34,7 +35,7 @@ articlesLies:
   - "expatriation-suisse-fiscalite"
   - "expatriation-thailande-fiscalite"
 seoDerive: true
-sources: "Income Tax Act singapourien, principe de territorialité · Inland Revenue Authority of Singapore, guidance sur les revenus de source étrangère · Convention fiscale franco-singapourienne · Code général des impôts, article 167 bis."
+sources: "*Income Tax Act* singapourien, principe de territorialité · [Inland Revenue Authority of Singapore, barème de l'impôt sur le revenu des personnes physiques](https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/tax-residency-and-tax-rates/individual-income-tax-rates) et guidance sur les revenus de source étrangère · Suppression des droits de succession singapouriens en 2008 · Article 200 A du Code général des impôts pour le prélèvement forfaitaire unique · Convention fiscale franco-singapourienne · Code général des impôts, article 167 bis."
 ---
 
 ## Le tableau de synthèse
@@ -42,9 +43,10 @@ sources: "Income Tax Act singapourien, principe de territorialité · Inland Rev
 | | |
 |---|---|
 | Principe | Imposition **territoriale** : les revenus de source étrangère ne sont en principe pas imposés |
-| Plus-values | En principe non imposées |
-| Barème sur les revenus locaux | Progressif, modéré |
-| Droits de succession | Aucun |
+| Barème sur les revenus locaux | **0 %** sur les premiers 20 000 dollars singapouriens, jusqu'à **24 %** au-delà d'un million |
+| Plus-values | **Aucune imposition** |
+| Dividendes | **Aucune imposition** entre les mains du bénéficiaire |
+| Droits de succession | **Aucun**, supprimés en 2008 |
 | Convention avec la France | Oui |
 | **Exit tax française** | Sursis non automatique : garanties requises |
 
@@ -52,7 +54,16 @@ sources: "Income Tax Act singapourien, principe de territorialité · Inland Rev
 
 L'imposition territoriale signifie que seuls les revenus produits à Singapour, ou de source étrangère reçus à Singapour dans certaines conditions, entrent dans l'assiette. Les dividendes, intérêts et gains de source étrangère perçus par un particulier en sont en pratique très largement exclus.
 
-L'absence d'imposition des plus-values et de droits de succession complète un cadre cohérent, qui explique la place de Singapour dans la gestion patrimoniale asiatique.
+**Un exemple chiffré**, pour un cadre percevant l'équivalent de 300 000 € de salaire local et 100 000 € de dividendes de source étrangère.
+
+| | Salaire local | Dividendes étrangers |
+|---|---|---|
+| Résident singapourien | Barème plafonné à **24 %** | **0 €** |
+| Résident français | Barème jusqu'à **45 %** | **30 000 €** au prélèvement forfaitaire unique |
+
+L'absence d'imposition des plus-values et des successions complète un cadre cohérent, qui explique la place de Singapour dans la gestion patrimoniale asiatique.
+
+**La contrepartie est au départ de France, pas à l'arrivée.** Singapour ne figurant pas parmi les États ouvrant le sursis automatique, un dirigeant détenant des titres au-delà du seuil d'exit tax devra désigner un représentant fiscal et constituer des garanties auprès de l'administration française. À avantage comparable, Chypre évite cette procédure.
 
 ## La comparaison sur trois profils
 
