@@ -11,7 +11,7 @@ essentiel:
   - "La Thaïlande appliquait une règle très favorable : les revenus étrangers n'étaient imposés que s'ils étaient rapatriés **dans l'année** de leur perception."
   - "Cette règle a été **durcie à compter de 2024** : le rapatriement ultérieur d'un revenu étranger devient imposable."
   - "L'attractivité fiscale s'en trouve fortement réduite pour les résidents de longue durée."
-  - "C'est l'illustration la plus nette de la règle du territoire : un régime attractif peut disparaître d'une année sur l'autre."
+  - "C'est l'illustration la plus nette d'une règle qui vaut pour toute expatriation fiscale : un régime attractif peut disparaître d'une année sur l'autre."
 faq:
   - q: "La Thaïlande est-elle encore intéressante fiscalement ?"
     r: "Beaucoup moins depuis 2024. Le mécanisme qui permettait d'échapper à l'impôt local en décalant le rapatriement d'une année ne fonctionne plus. Le coût de la vie reste le principal argument de la destination, mais il ne s'agit plus d'un argument fiscal."
@@ -86,7 +86,7 @@ Prenons le cas le plus fréquent, parce qu'il montre l'ampleur du changement mie
 
 Ce qui subsiste est réel mais d'une autre nature : un **coût de la vie** nettement inférieur, qui reste le premier argument de la destination. Ce qui a disparu, c'est l'argument fiscal.
 
-C'est l'illustration la plus nette de la règle qui gouverne tout ce territoire : **un régime attractif peut disparaître d'une année sur l'autre**, sans mesure transitoire, et une décision de long terme ne se fonde pas sur lui seul.
+C'est l'illustration la plus nette d'une règle qui vaut pour toute expatriation fiscale : **un régime attractif peut disparaître d'une année sur l'autre**, sans mesure transitoire, et une décision de long terme ne se fonde pas sur lui seul.
 
 ## La règle des 180 jours, et comment elle se pilote
 

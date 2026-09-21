@@ -451,37 +451,58 @@ articles **I26** et **I9**.
 
 ## I11 — Belgique
 
-**URL** : /blog/expatriation-belgique-fiscalite · **Vérifié le 16 septembre 2026**
-**Meta** : L'attrait belge tient aux plus-values privées, pas à l'impôt sur le revenu. Un point mouvant, et un risque élevé de contestation de la résidence.
+**URL** : /blog/expatriation-belgique-fiscalite · **Vérifié le 21 septembre 2026**
+**Meta** : Les plus-values privées ne sont plus exonérées depuis le 1ᵉʳ janvier 2026 : une taxe de 10 % s'applique, après une franchise de 10 000 €. Ce que cela change.
 
 | | |
 |---|---|
-| Plus-values privées sur titres | Historiquement non imposées dans le cadre de la gestion normale d'un patrimoine privé, **régime en évolution** |
-| Barème de l'impôt sur le revenu | Élevé, avec additionnels communaux |
-| Droits de succession | **Régionaux** : Flandre, Wallonie, Bruxelles, barèmes différents |
+| Plus-values sur actifs financiers | **Imposées à 10 %** depuis le 1ᵉʳ janvier 2026, après une franchise annuelle de **10 000 €** |
+| Plus-values antérieures à 2026 | **Exonérées** : seul compte l'écart avec la valeur au **31 décembre 2025** |
+| Participation importante | À partir de **20 %** des droits : exonération de **1 million d'euros** par période de cinq ans, puis barème de 1,25 % à **10 %** au-delà de 10 millions |
+| Barème de l'impôt sur le revenu | **25 %** jusqu'à 16 320 €, puis 40 % et 45 %, et **50 % au-delà de 49 840 €**, majoré des additionnels communaux |
+| Droits de succession | **Régionaux** : jusqu'à 27 % en Flandre, 30 % à Bruxelles et en Wallonie en ligne directe. Jusqu'à **55 %** et **80 %** entre personnes sans lien de parenté |
 | Convention avec la France | Oui, y compris en matière de successions |
 | Exit tax française | Sursis automatique (UE) |
 
 ### L'essentiel
 
-- L'attrait belge n'a jamais porté sur l'impôt sur le revenu, **élevé**, mais sur le traitement des **plus-values privées**.
-- Ce point précis fait l'objet de discussions récurrentes : il doit être **vérifié à la date du projet**, et non repris de mémoire.
-- Les droits de succession sont **régionaux** et globalement plus lourds qu'en France en ligne indirecte.
+- **La raison historique de partir en Belgique n'existe plus.** Les plus-values privées sur actifs financiers y sont imposées à **10 %** depuis le 1ᵉʳ janvier 2026.
+- Ce qui a été gagné **avant 2026 reste exonéré** : la taxe ne porte que sur l'écart avec la valeur au 31 décembre 2025. C'est le point le plus important pour qui détient déjà un portefeuille.
+- Une **franchise de 10 000 €** par an et par contribuable subsiste, et les montants non utilisés se reportent partiellement.
+- L'impôt sur le revenu reste **élevé** : 50 % au-delà de 49 840 €, additionnels communaux en plus.
+- Les droits de succession sont **régionaux** et atteignent 80 % hors ligne directe en Wallonie et à Bruxelles.
 - La proximité et la langue en font une destination où le risque de contestation de la résidence est élevé.
 
-### Le sujet central
+### Le sujet central : ce qui a changé le 1ᵉʳ janvier 2026
 
 Pendant des décennies, la Belgique a attiré des dirigeants français en cession parce que les plus-values réalisées dans le cadre de la gestion normale d'un patrimoine privé n'y étaient pas imposées comme telles.
 
-Ce traitement a toujours comporté des limites (spéculation caractérisée, cession de participations importantes dans certaines conditions) et il fait l'objet d'évolutions législatives régulières. C'est précisément le genre de sujet où une information datée conduit à une décision coûteuse.
+**Ce n'est plus vrai.** La loi du 6 avril 2026, publiée au Moniteur belge le 21 avril 2026, a réécrit l'article 90, § 1ᵉʳ, 9° du Code des impôts sur les revenus et institué une taxe sur les plus-values des actifs financiers. Elle s'applique aux plus-values réalisées **depuis le 1ᵉʳ janvier 2026**, soit près de quatre mois avant sa publication.
 
-La règle de méthode est donc simple : sur la Belgique, **aucune décision sans vérification de l'état du droit à la date exacte de l'opération envisagée**, auprès d'un conseil belge.
+Le régime général tient en trois chiffres. Le taux est de **10 %**, prélevé comme un précompte mobilier. Une **franchise annuelle de 10 000 €**, indexée, s'applique par contribuable. Les montants de franchise non utilisés se reportent sur cinq ans, à hauteur des premiers 1 000 € par an, ce qui porte la franchise maximale à 15 000 € pour une personne seule et 30 000 € pour un couple.
+
+**Le point décisif est ailleurs : les plus-values constituées jusqu'au 31 décembre 2025 restent exonérées.** La valeur retenue comme point de départ est celle du 31 décembre 2025, cours de clôture pour les titres cotés. Autrement dit, la taxe ne rattrape pas l'histoire d'un portefeuille, elle ne prend que ce qui est gagné à partir de 2026.
+
+**Un exemple chiffré.** Un portefeuille acheté 200 000 €, valant 500 000 € au 31 décembre 2025, revendu 560 000 € en 2027.
+
+| | Plus-value retenue | Impôt |
+|---|---|---|
+| Résident belge | 60 000 € (560 000 moins la valeur au 31/12/2025) | **5 000 €** après la franchise de 10 000 € |
+| Résident français | 360 000 € (560 000 moins le prix d'achat) | **108 000 €** au prélèvement forfaitaire unique de 30 % |
+
+L'écart vient moins du taux que de la base : la Belgique efface trente ans de plus-values latentes, la France les impose intégralement. Pour un patrimoine déjà constitué, c'est ce mécanisme de valeur de départ, et non le taux de 10 %, qui fait la différence.
+
+**Pour un dirigeant en cession**, le régime est distinct. Au-delà de **20 %** des droits dans une société, la cession relève des participations importantes : exonération de 1 million d'euros par période de cinq ans, puis un barème progressif de 1,25 % à 10 % au-delà de 10 millions. Les moins-values se déduisent des plus-values de la même année et de la même catégorie, sans report possible sur les années suivantes.
+
+La règle de méthode reste la même, et elle vient d'en faire la démonstration : sur la Belgique, **aucune décision sans vérification de l'état du droit à la date exacte de l'opération envisagée**, auprès d'un conseil belge. Un texte entré en vigueur avant d'être publié est le meilleur argument qui soit en faveur de cette prudence.
 
 ### La comparaison sur trois profils
 
-**Dirigeant en cession.** C'est le profil pour lequel la Belgique a été historiquement retenue, sous réserve du point ci-dessus et d'une installation réelle et durable.
+**Dirigeant en cession.** C'est le profil pour lequel la Belgique a été historiquement retenue, et celui que la réforme touche le plus. Le seuil de 20 % décide du régime applicable, et l'exonération d'un million d'euros par période de cinq ans reste substantielle. Mais l'exonération totale d'autrefois a disparu.
 
-**Cadre en activité.** L'impôt belge sur les revenus du travail est élevé, avec des additionnels communaux. Il n'y a pas d'avantage.
+**Cadre en activité.** L'impôt belge sur les revenus du travail est élevé : 50 % au-delà de 49 840 €, additionnels communaux en plus. Il n'y a aucun avantage, et il n'y en a jamais eu.
+
+**Détenteur d'un portefeuille déjà constitué.** C'est désormais le profil le plus favorisé, et ce n'était pas l'intention du texte. La valeur de départ au 31 décembre 2025 efface les plus-values latentes accumulées, que la France imposerait en totalité.
 
 **Retraité.** Pas de régime préférentiel. Le traitement dépend de la convention.
 
@@ -493,21 +514,17 @@ La proximité rend la contestation de résidence fréquente : le dossier doit ê
 
 Les droits de succession régionaux belges peuvent être lourds, en particulier hors ligne directe.
 
-### Un attrait à vérifier, jamais à supposer
+### Une réputation qui a survécu au régime qui la justifiait
 
-La Belgique occupe une place particulière dans l'imaginaire patrimonial français, et cette réputation est précisément ce qui la rend dangereuse.
+La Belgique occupe une place particulière dans l'imaginaire patrimonial français, et c'est aujourd'hui ce qui la rend dangereuse : la réputation a douze mois de retard sur le droit.
 
-Le raisonnement historique tenait en une phrase : l'impôt sur le revenu belge est élevé, mais les plus-values réalisées dans le cadre de la gestion normale d'un patrimoine privé échappaient à l'imposition. Pour un dirigeant cédant son entreprise, l'économie pouvait être considérable.
+Le raisonnement historique tenait en une phrase. L'impôt sur le revenu belge est élevé, mais les plus-values réalisées dans le cadre de la gestion normale d'un patrimoine privé échappaient à l'imposition. Pour un dirigeant cédant son entreprise, l'économie pouvait être totale.
 
-Trois nuances ont toujours accompagné ce principe, et elles sont rarement rappelées.
+Deux nuances accompagnaient déjà ce principe avant 2026. La **gestion normale d'un patrimoine privé** était une notion d'appréciation : une opération jugée spéculative pouvait être requalifiée, et l'exonération n'a jamais été automatique. Et les **cessions de participations importantes** obéissaient à des règles propres.
 
-**La gestion normale d'un patrimoine privé est une notion d'appréciation.** Une opération jugée spéculative, ou une cession présentant certaines caractéristiques, peut être requalifiée. Ce n'est pas une exonération automatique attachée au statut de particulier.
+La taxe de 10 % a tranché le débat. L'exonération de principe a disparu, et le chiffre à retenir n'est plus « zéro » mais « dix pour cent au-delà de 10 000 € par an ».
 
-**Les cessions de participations importantes** ont toujours obéi à des règles propres, selon l'acquéreur et les conditions de l'opération.
-
-**Le régime évolue.** Ce point fait l'objet de discussions législatives récurrentes, et c'est exactement le type de sujet sur lequel une information d'il y a deux ans conduit à une décision coûteuse aujourd'hui.
-
-D'où une règle de méthode plus stricte ici qu'ailleurs : **aucune décision sur la Belgique sans vérification de l'état du droit à la date exacte de l'opération envisagée, auprès d'un conseil belge.** Non pas une vérification du principe, mais du texte applicable au jour où vous céderez.
+Reste un point que beaucoup manquent, et qui joue dans l'autre sens : la valeur de départ fixée au 31 décembre 2025 fait que **plus un patrimoine est ancien, plus la réforme lui est indulgente**. Un portefeuille constitué il y a vingt ans arrive en Belgique avec ses plus-values latentes effacées. Ce n'est pas un détail technique, c'est souvent l'essentiel du calcul.
 
 ### Le risque de résidence, maximal
 
@@ -550,7 +567,7 @@ Le contrat se conserve : il n'y a pas lieu de le clôturer, et son antériorité
 
 ### Sources
 
-Code des impôts sur les revenus belge et sa doctrine sur la gestion normale d'un patrimoine privé · Codes fiscaux régionaux flamand, wallon et bruxellois en matière de successions · Convention fiscale franco-belge en matière d'impôts sur les revenus et convention en matière de successions · Code général des impôts, article 4 B.
+Loi du 6 avril 2026 introduisant une taxe sur les plus-values des actifs financiers, publiée au Moniteur belge le 21 avril 2026, réécrivant l'article 90, § 1ᵉʳ, 9° du Code des impôts sur les revenus 1992 · Code des impôts sur les revenus belge et sa doctrine sur la gestion normale d'un patrimoine privé · [Barème de l'impôt des personnes physiques](https://www.monsalaire-net.be/baremes-fiscaux-belgique-2026.html), revenus 2025 · [Tarifs des droits de succession par région](https://www.wikifin.be/fr/heriter/heritage-et-droits-de-succession/les-droits-de-succession/detail-des-tarifs-des-droits-de), Wikifin, service de la Banque nationale de Belgique · Codes fiscaux régionaux flamand, wallon et bruxellois en matière de successions · Convention fiscale franco-belge en matière d'impôts sur les revenus et convention en matière de successions · Article 200 A du Code général des impôts pour le prélèvement forfaitaire unique · Code général des impôts, article 4 B.
 
 
 ### Liens internes
@@ -672,13 +689,17 @@ articles **I23** et **I15**.
 
 ## I13 — Luxembourg
 
-**URL** : /blog/expatriation-luxembourg-fiscalite · **Vérifié le 16 septembre 2026**
+**URL** : /blog/expatriation-luxembourg-fiscalite · **Vérifié le 21 septembre 2026**
 **Meta** : Pas de régime dérogatoire pour nouveaux résidents, mais une fiscalité mobilière favorable et la place de référence de l'assurance-vie internationale.
 
 | | |
 |---|---|
-| Barème | Progressif, avec des tranches et un traitement du foyer spécifiques |
-| Plus-values mobilières | Traitement favorable au-delà d'un délai de détention, hors participations importantes |
+| Barème | Progressif, de **0 %** en dessous de **13 230 €** de revenu imposable à **42 %** au-delà de **234 870 €** |
+| Majoration | Contribution au fonds pour l'emploi de **7 %** de l'impôt dû, portée à **9 %** au-delà de 150 000 € de revenu imposable ajusté en classes 1 et 1a, ou 300 000 € en classe 2 |
+| Plus-values mobilières | **Exonérées** au-delà de **six mois** de détention, tant que la participation reste sous **10 %** du capital |
+| Participation importante | Plus de 10 % du capital à un moment quelconque des **cinq années** précédant la cession : imposition à la **moitié du taux global**, après un abattement de **50 000 €**, doublé pour un couple imposé collectivement |
+| Dividendes | Retenue à la source de **15 %**, et dividende exonéré à hauteur de **50 %** lorsqu'il vient d'une société luxembourgeoise pleinement imposable |
+| Régime d'attraction | **Aucun** pour les nouveaux résidents |
 | Assurance-vie | Place de référence pour les contrats à dimension internationale |
 | Convention avec la France | Oui |
 | Exit tax française | Sursis automatique (UE) |
@@ -686,15 +707,32 @@ articles **I23** et **I15**.
 ### L'essentiel
 
 - Le Luxembourg n'est pas une destination à **régime dérogatoire** pour nouveaux résidents : il n'y a pas d'équivalent de l'IFICI ou du forfait italien.
-- Son intérêt tient à la **structure** de sa fiscalité mobilière et à son écosystème financier.
-- C'est la place de référence pour l'**assurance-vie internationale**, avec un dispositif de protection de l'épargnant spécifique.
+- Son intérêt tient à sa fiscalité mobilière : une plus-value sur titres détenus **plus de six mois** n'est pas imposée, tant que la participation reste sous **10 %** du capital.
+- Le barème monte à **42 %** au-delà de 234 870 €, majoré de **7 %** ou **9 %** au titre du fonds pour l'emploi. Ce n'est donc pas un pays à bas taux sur les revenus du travail.
+- C'est la place de référence pour l'**assurance-vie internationale**, avec un dispositif de protection de l'épargnant sans plafond, là où la garantie française s'arrête à **70 000 €** par assuré et par compagnie.
 - Attention à ne pas confondre le statut de **résident** et celui de **frontalier**, qui n'ont rien de commun.
 
 ### Ce qui distingue le Luxembourg
 
 Deux éléments, essentiellement.
 
-**Le traitement des plus-values mobilières.** Au-delà d'un délai de détention, les plus-values réalisées par un particulier sur des titres bénéficient d'un traitement favorable, sous réserve des règles applicables aux participations importantes.
+**Le traitement des plus-values mobilières.** Une plus-value réalisée sur des titres détenus **depuis plus de six mois** n'est pas imposable, à la double condition que la participation cédée soit restée sous **10 %** du capital de la société et que les plus-values de l'année dépassent 500 €, en dessous desquels rien n'est dû de toute façon.
+
+Vendus avant six mois, les mêmes titres voient leur plus-value entrer dans le revenu imposable et suivre le barème progressif.
+
+Au-delà de 10 %, la cession relève du régime de la **participation importante**. Le seuil s'apprécie largement : il suffit d'avoir dépassé 10 % à un moment quelconque des cinq années précédant la vente, seul ou avec son conjoint, son partenaire et ses enfants mineurs. L'imposition se fait alors à la moitié du taux global, après un abattement de 50 000 € doublé pour un couple imposé collectivement.
+
+**Un exemple chiffré.** Un couple cède un portefeuille d'actions cotées et dégage **40 000 €** de plus-value, aucune ligne ne représentant 10 % du capital d'une société.
+
+| Situation | Impôt sur la plus-value |
+|---|---|
+| Résident français | **12 000 €** (prélèvement forfaitaire unique de 30 %) |
+| Résident luxembourgeois, titres détenus depuis plus de six mois | **0 €** |
+| Résident luxembourgeois, titres détenus depuis quatre mois | Barème progressif, jusqu'à 42 % majorés de la contribution au fonds pour l'emploi |
+
+Dans cet exemple, attendre le septième mois vaut 12 000 €. C'est la principale raison pour laquelle le pays figure dans un dossier patrimonial, bien avant l'assurance-vie.
+
+**Les dividendes, en revanche, restent imposés.** Un dividende versé par une société luxembourgeoise pleinement imposable supporte une retenue à la source de **15 %**, puis entre dans le revenu imposable pour la **moitié** de son montant brut. La fiscalité mobilière favorable porte donc sur les plus-values, pas sur les revenus distribués.
 
 **L'assurance-vie luxembourgeoise.** Elle est utilisée en mobilité internationale pour trois raisons : un mécanisme de protection de l'épargnant en cas de défaillance de l'assureur qui n'a pas d'équivalent français, une neutralité fiscale du contrat qui s'adapte à la résidence du souscripteur, et une ouverture aux non-résidents que les assureurs français pratiquent peu.
 
@@ -702,11 +740,11 @@ Ce n'est pas un contrat « moins taxé » : c'est un contrat dont la fiscalité 
 
 ### La comparaison sur trois profils
 
-**Cadre du secteur financier.** L'intérêt est d'abord professionnel, la fiscalité ordinaire n'étant pas dérogatoire.
+**Cadre du secteur financier.** L'intérêt est d'abord professionnel. Sur le salaire, le barème monte à 42 % au-delà de 234 870 €, majoré de 7 % ou 9 % : rien de dérogatoire.
 
-**Dirigeant détenteur de participations.** Le traitement des plus-values mérite un examen, en tenant compte des règles sur les participations importantes.
+**Dirigeant détenteur de participations.** C'est le profil pour lequel le calcul vaut la peine, et celui où le seuil de 10 % décide de tout. En dessous, six mois de détention suffisent à effacer l'impôt sur la plus-value. Au-dessus, la cession relève de la participation importante, avec la moitié du taux global après 50 000 € d'abattement. Le seuil se regardant sur les cinq années précédentes, une participation ramenée sous 10 % juste avant la vente ne change rien.
 
-**Retraité.** Pas de régime spécifique. Le coût du logement est élevé.
+**Retraité.** Pas de régime spécifique, contrairement à l'Italie ou à la Grèce. Le coût du logement est parmi les plus élevés d'Europe, et il suffit le plus souvent à écarter la destination.
 
 ### Points de vigilance
 
@@ -720,7 +758,9 @@ L'ouverture d'un contrat luxembourgeois suppose des montants minimaux significat
 
 C'est la première raison pour laquelle le Luxembourg figure dans un dossier d'expatriation, et elle est régulièrement mal expliquée. Trois caractéristiques la distinguent, et aucune n'est un avantage fiscal.
 
-**La protection de l'épargnant.** Le dispositif luxembourgeois, dit triangle de sécurité, impose que les actifs représentatifs des contrats soient déposés auprès d'une banque dépositaire agréée, séparés des actifs propres de l'assureur, sous la surveillance du Commissariat aux Assurances. En cas de défaillance de l'assureur, les souscripteurs bénéficient d'un rang de créancier privilégié de premier ordre sur ces actifs. Il n'existe pas d'équivalent exact en droit français, où la protection repose sur un fonds de garantie plafonné par assuré.
+**La protection de l'épargnant.** Le dispositif luxembourgeois, dit triangle de sécurité, impose que les actifs représentatifs des contrats soient déposés auprès d'une banque dépositaire agréée, séparés des actifs propres de l'assureur, sous la surveillance du Commissariat aux Assurances. En cas de défaillance de l'assureur, les souscripteurs bénéficient d'un rang de créancier privilégié de premier ordre sur ces actifs, et ce **sans plafond**.
+
+C'est là que la comparaison devient chiffrée. En France, la protection repose sur le Fonds de garantie des assurances de personnes, dont l'indemnisation est plafonnée à **70 000 € par assuré et par compagnie**, tous contrats confondus. Pour un contrat de 500 000 €, l'écart entre les deux régimes porte donc sur 430 000 €. C'est une protection contre la faillite d'un assureur, pas contre la baisse des marchés : les unités de compte gardent leur risque propre dans les deux pays.
 
 **La neutralité fiscale.** Le Luxembourg n'impose pas le contrat à raison de sa localisation : c'est la **fiscalité du pays de résidence du souscripteur** qui s'applique. Pour quelqu'un qui changera de pays deux ou trois fois dans sa vie, cela évite de racheter et de resouscrire à chaque mobilité, avec la perte d'antériorité que cela suppose.
 
@@ -736,7 +776,7 @@ La confusion est fréquente et elle fausse tout raisonnement.
 
 **Le frontalier** réside en France et travaille au Luxembourg. Il reste résident fiscal français, imposable en France sur ses revenus mondiaux, la convention organisant le traitement de son salaire luxembourgeois et l'élimination de la double imposition. Son affiliation sociale suit les règlements européens de coordination et relève en principe du pays d'activité.
 
-**Le résident** transfère son domicile au Luxembourg. Il devient non-résident français, avec toutes les conséquences examinées dans les autres articles de ce territoire.
+**Le résident** transfère son domicile au Luxembourg. Il devient non-résident français, avec toutes les conséquences examinées dans les autres articles consacrés à l'expatriation.
 
 Le télétravail a rendu la première situation plus complexe. Travailler depuis son domicile français, c'est exercer son activité en France, ce qui déplace mécaniquement le droit d'imposer la fraction correspondante du salaire. Des tolérances exprimées en nombre de jours ont été négociées et révisées entre les deux États, et elles emportent aussi des conséquences sur l'affiliation sociale, qui suit ses propres seuils.
 
@@ -769,7 +809,7 @@ Non, ce n'est ni une condition ni une nécessité. C'est un outil, pertinent dan
 
 ### Sources
 
-Loi luxembourgeoise concernant l'impôt sur le revenu · Commissariat aux Assurances, régime de protection des preneurs d'assurance dit « triangle de sécurité » · Convention fiscale franco-luxembourgeoise · Code des assurances français pour la comparaison des régimes.
+Administration des contributions directes du Luxembourg, [tarif applicable aux personnes physiques](https://impotsdirects.public.lu/fr/az/t/tarif_pers.html) et [contribution au fonds pour l'emploi](https://impotsdirects.public.lu/fr/az/f/fond_empl.html), année d'imposition 2025 · Guichet.lu, [achat et vente d'actions ou de titres](https://guichet.public.lu/fr/citoyens/fiscalite/declaration-impot-decompte/capitaux-mobiliers/banque-dividende-interets/achat-vente-actions.html) et [dividendes perçus](https://guichet.public.lu/fr/citoyens/fiscalite/declaration-impot-decompte/capitaux-mobiliers/banque-dividende-interets/identifier-declarer-dividendes.html) · Loi luxembourgeoise concernant l'impôt sur le revenu · Commissariat aux Assurances, régime de protection des preneurs d'assurance dit « triangle de sécurité » · Code des assurances français, article L. 423-2, pour le plafond de 70 000 € du Fonds de garantie des assurances de personnes · Article 200 A du Code général des impôts pour le prélèvement forfaitaire unique · Convention fiscale franco-luxembourgeoise.
 
 
 ### Liens internes

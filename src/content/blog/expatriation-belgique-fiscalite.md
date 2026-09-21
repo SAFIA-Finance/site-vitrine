@@ -2,15 +2,17 @@
 code: "I11"
 titre: "Belgique : fiscalité de l'expatriation"
 titreSeo: "Belgique : fiscalité de l'expatriation"
-description: "L'attrait belge tient aux plus-values privées, pas à l'impôt sur le revenu. Un point mouvant, et un risque élevé de contestation de la résidence."
+description: "Les plus-values privées ne sont plus exonérées depuis le 1ᵉʳ janvier 2026 : une taxe de 10 % s'applique, après une franchise de 10 000 €. Ce que cela change."
 categorie: "Expatriation"
 date: 2026-09-16
-lecture: 4
-mots: 810
+lecture: 7
+mots: 1375
 essentiel:
-  - "L'attrait belge n'a jamais porté sur l'impôt sur le revenu, **élevé**, mais sur le traitement des **plus-values privées**."
-  - "Ce point précis fait l'objet de discussions récurrentes : il doit être **vérifié à la date du projet**, et non repris de mémoire."
-  - "Les droits de succession sont **régionaux** et globalement plus lourds qu'en France en ligne indirecte."
+  - "**La raison historique de partir en Belgique n'existe plus.** Les plus-values privées sur actifs financiers y sont imposées à **10 %** depuis le 1ᵉʳ janvier 2026."
+  - "Ce qui a été gagné **avant 2026 reste exonéré** : la taxe ne porte que sur l'écart avec la valeur au 31 décembre 2025. C'est le point le plus important pour qui détient déjà un portefeuille."
+  - "Une **franchise de 10 000 €** par an et par contribuable subsiste, et les montants non utilisés se reportent partiellement."
+  - "L'impôt sur le revenu reste **élevé** : 50 % au-delà de 49 840 €, additionnels communaux en plus."
+  - "Les droits de succession sont **régionaux** et atteignent 80 % hors ligne directe en Wallonie et à Bruxelles."
   - "La proximité et la langue en font une destination où le risque de contestation de la résidence est élevé."
 faq:
   - q: "Les plus-values sont-elles exonérées en Belgique ?"
@@ -30,32 +32,51 @@ articlesLies:
   - "expatriation-canada-fiscalite"
   - "expatriation-chypre-fiscalite"
 seoDerive: true
-sources: "Code des impôts sur les revenus belge et sa doctrine sur la gestion normale d'un patrimoine privé · Codes fiscaux régionaux flamand, wallon et bruxellois en matière de successions · Convention fiscale franco-belge en matière d'impôts sur les revenus et convention en matière de successions · Code général des impôts, article 4 B."
+sources: "Loi du 6 avril 2026 introduisant une taxe sur les plus-values des actifs financiers, publiée au Moniteur belge le 21 avril 2026, réécrivant l'article 90, § 1ᵉʳ, 9° du Code des impôts sur les revenus 1992 · Code des impôts sur les revenus belge et sa doctrine sur la gestion normale d'un patrimoine privé · [Barème de l'impôt des personnes physiques](https://www.monsalaire-net.be/baremes-fiscaux-belgique-2026.html), revenus 2025 · [Tarifs des droits de succession par région](https://www.wikifin.be/fr/heriter/heritage-et-droits-de-succession/les-droits-de-succession/detail-des-tarifs-des-droits-de), Wikifin, service de la Banque nationale de Belgique · Codes fiscaux régionaux flamand, wallon et bruxellois en matière de successions · Convention fiscale franco-belge en matière d'impôts sur les revenus et convention en matière de successions · Article 200 A du Code général des impôts pour le prélèvement forfaitaire unique · Code général des impôts, article 4 B."
 ---
 
 ## Le tableau de synthèse
 
 | | |
 |---|---|
-| Plus-values privées sur titres | Historiquement non imposées dans le cadre de la gestion normale d'un patrimoine privé, **régime en évolution** |
-| Barème de l'impôt sur le revenu | Élevé, avec additionnels communaux |
-| Droits de succession | **Régionaux** : Flandre, Wallonie, Bruxelles, barèmes différents |
+| Plus-values sur actifs financiers | **Imposées à 10 %** depuis le 1ᵉʳ janvier 2026, après une franchise annuelle de **10 000 €** |
+| Plus-values antérieures à 2026 | **Exonérées** : seul compte l'écart avec la valeur au **31 décembre 2025** |
+| Participation importante | À partir de **20 %** des droits : exonération de **1 million d'euros** par période de cinq ans, puis barème de 1,25 % à **10 %** au-delà de 10 millions |
+| Barème de l'impôt sur le revenu | **25 %** jusqu'à 16 320 €, puis 40 % et 45 %, et **50 % au-delà de 49 840 €**, majoré des additionnels communaux |
+| Droits de succession | **Régionaux** : jusqu'à 27 % en Flandre, 30 % à Bruxelles et en Wallonie en ligne directe. Jusqu'à **55 %** et **80 %** entre personnes sans lien de parenté |
 | Convention avec la France | Oui, y compris en matière de successions |
 | Exit tax française | Sursis automatique (UE) |
 
-## Le sujet central
+## Le sujet central : ce qui a changé le 1ᵉʳ janvier 2026
 
 Pendant des décennies, la Belgique a attiré des dirigeants français en cession parce que les plus-values réalisées dans le cadre de la gestion normale d'un patrimoine privé n'y étaient pas imposées comme telles.
 
-Ce traitement a toujours comporté des limites (spéculation caractérisée, cession de participations importantes dans certaines conditions) et il fait l'objet d'évolutions législatives régulières. C'est précisément le genre de sujet où une information datée conduit à une décision coûteuse.
+**Ce n'est plus vrai.** La loi du 6 avril 2026, publiée au Moniteur belge le 21 avril 2026, a réécrit l'article 90, § 1ᵉʳ, 9° du Code des impôts sur les revenus et institué une taxe sur les plus-values des actifs financiers. Elle s'applique aux plus-values réalisées **depuis le 1ᵉʳ janvier 2026**, soit près de quatre mois avant sa publication.
 
-La règle de méthode est donc simple : sur la Belgique, **aucune décision sans vérification de l'état du droit à la date exacte de l'opération envisagée**, auprès d'un conseil belge.
+Le régime général tient en trois chiffres. Le taux est de **10 %**, prélevé comme un précompte mobilier. Une **franchise annuelle de 10 000 €**, indexée, s'applique par contribuable. Les montants de franchise non utilisés se reportent sur cinq ans, à hauteur des premiers 1 000 € par an, ce qui porte la franchise maximale à 15 000 € pour une personne seule et 30 000 € pour un couple.
+
+**Le point décisif est ailleurs : les plus-values constituées jusqu'au 31 décembre 2025 restent exonérées.** La valeur retenue comme point de départ est celle du 31 décembre 2025, cours de clôture pour les titres cotés. Autrement dit, la taxe ne rattrape pas l'histoire d'un portefeuille, elle ne prend que ce qui est gagné à partir de 2026.
+
+**Un exemple chiffré.** Un portefeuille acheté 200 000 €, valant 500 000 € au 31 décembre 2025, revendu 560 000 € en 2027.
+
+| | Plus-value retenue | Impôt |
+|---|---|---|
+| Résident belge | 60 000 € (560 000 moins la valeur au 31/12/2025) | **5 000 €** après la franchise de 10 000 € |
+| Résident français | 360 000 € (560 000 moins le prix d'achat) | **108 000 €** au prélèvement forfaitaire unique de 30 % |
+
+L'écart vient moins du taux que de la base : la Belgique efface trente ans de plus-values latentes, la France les impose intégralement. Pour un patrimoine déjà constitué, c'est ce mécanisme de valeur de départ, et non le taux de 10 %, qui fait la différence.
+
+**Pour un dirigeant en cession**, le régime est distinct. Au-delà de **20 %** des droits dans une société, la cession relève des participations importantes : exonération de 1 million d'euros par période de cinq ans, puis un barème progressif de 1,25 % à 10 % au-delà de 10 millions. Les moins-values se déduisent des plus-values de la même année et de la même catégorie, sans report possible sur les années suivantes.
+
+La règle de méthode reste la même, et elle vient d'en faire la démonstration : sur la Belgique, **aucune décision sans vérification de l'état du droit à la date exacte de l'opération envisagée**, auprès d'un conseil belge. Un texte entré en vigueur avant d'être publié est le meilleur argument qui soit en faveur de cette prudence.
 
 ## La comparaison sur trois profils
 
-**Dirigeant en cession.** C'est le profil pour lequel la Belgique a été historiquement retenue, sous réserve du point ci-dessus et d'une installation réelle et durable.
+**Dirigeant en cession.** C'est le profil pour lequel la Belgique a été historiquement retenue, et celui que la réforme touche le plus. Le seuil de 20 % décide du régime applicable, et l'exonération d'un million d'euros par période de cinq ans reste substantielle. Mais l'exonération totale d'autrefois a disparu.
 
-**Cadre en activité.** L'impôt belge sur les revenus du travail est élevé, avec des additionnels communaux. Il n'y a pas d'avantage.
+**Cadre en activité.** L'impôt belge sur les revenus du travail est élevé : 50 % au-delà de 49 840 €, additionnels communaux en plus. Il n'y a aucun avantage, et il n'y en a jamais eu.
+
+**Détenteur d'un portefeuille déjà constitué.** C'est désormais le profil le plus favorisé, et ce n'était pas l'intention du texte. La valeur de départ au 31 décembre 2025 efface les plus-values latentes accumulées, que la France imposerait en totalité.
 
 **Retraité.** Pas de régime préférentiel. Le traitement dépend de la convention.
 
@@ -67,21 +88,17 @@ La proximité rend la contestation de résidence fréquente : le dossier doit ê
 
 Les droits de succession régionaux belges peuvent être lourds, en particulier hors ligne directe.
 
-## Un attrait à vérifier, jamais à supposer
+## Une réputation qui a survécu au régime qui la justifiait
 
-La Belgique occupe une place particulière dans l'imaginaire patrimonial français, et cette réputation est précisément ce qui la rend dangereuse.
+La Belgique occupe une place particulière dans l'imaginaire patrimonial français, et c'est aujourd'hui ce qui la rend dangereuse : la réputation a douze mois de retard sur le droit.
 
-Le raisonnement historique tenait en une phrase : l'impôt sur le revenu belge est élevé, mais les plus-values réalisées dans le cadre de la gestion normale d'un patrimoine privé échappaient à l'imposition. Pour un dirigeant cédant son entreprise, l'économie pouvait être considérable.
+Le raisonnement historique tenait en une phrase. L'impôt sur le revenu belge est élevé, mais les plus-values réalisées dans le cadre de la gestion normale d'un patrimoine privé échappaient à l'imposition. Pour un dirigeant cédant son entreprise, l'économie pouvait être totale.
 
-Trois nuances ont toujours accompagné ce principe, et elles sont rarement rappelées.
+Deux nuances accompagnaient déjà ce principe avant 2026. La **gestion normale d'un patrimoine privé** était une notion d'appréciation : une opération jugée spéculative pouvait être requalifiée, et l'exonération n'a jamais été automatique. Et les **cessions de participations importantes** obéissaient à des règles propres.
 
-**La gestion normale d'un patrimoine privé est une notion d'appréciation.** Une opération jugée spéculative, ou une cession présentant certaines caractéristiques, peut être requalifiée. Ce n'est pas une exonération automatique attachée au statut de particulier.
+La taxe de 10 % a tranché le débat. L'exonération de principe a disparu, et le chiffre à retenir n'est plus « zéro » mais « dix pour cent au-delà de 10 000 € par an ».
 
-**Les cessions de participations importantes** ont toujours obéi à des règles propres, selon l'acquéreur et les conditions de l'opération.
-
-**Le régime évolue.** Ce point fait l'objet de discussions législatives récurrentes, et c'est exactement le type de sujet sur lequel une information d'il y a deux ans conduit à une décision coûteuse aujourd'hui.
-
-D'où une règle de méthode plus stricte ici qu'ailleurs : **aucune décision sur la Belgique sans vérification de l'état du droit à la date exacte de l'opération envisagée, auprès d'un conseil belge.** Non pas une vérification du principe, mais du texte applicable au jour où vous céderez.
+Reste un point que beaucoup manquent, et qui joue dans l'autre sens : la valeur de départ fixée au 31 décembre 2025 fait que **plus un patrimoine est ancien, plus la réforme lui est indulgente**. Un portefeuille constitué il y a vingt ans arrive en Belgique avec ses plus-values latentes effacées. Ce n'est pas un détail technique, c'est souvent l'essentiel du calcul.
 
 ## Le risque de résidence, maximal
 
