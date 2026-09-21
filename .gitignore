@@ -78,3 +78,8 @@ exports/
 # Il se régénère en deux minutes et pour quelques centimes : rien n'est perdu
 # à ne pas le versionner.
 docs/AUDIT-CONTENU.md
+
+# Même raison que docs/AUDIT-CONTENU.md ci-dessus : ce rapport nomme les
+# articles qui se concurrencent, et le dépôt est public.
+docs/AUDIT-CANNIBALISATION.md
+docs/AUDIT-GEO.md

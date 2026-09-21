@@ -338,7 +338,11 @@ if (perdus.length) {
 // rapport est donc un document, relu comme les autres documents du dossier
 // « docs/ », et qui garde la trace de ce qui a été mesuré et quand.
 if (!demandes.length) {
-  const AUJOURDHUI = new Date().toISOString().slice(0, 10);
+  // « toISOString » rend la date UTC. Lancé après 22 heures à Paris, le
+  // rapport se datait de la veille : la passe GEO du 22 septembre 2026 est
+  // sortie datée du 21. La locale suédoise formate en AAAA-MM-JJ, en heure
+  // locale.
+  const AUJOURDHUI = new Date().toLocaleDateString('sv-SE');
   const lien = (r) => `[${r.titre}](../src/content/blog/${r.slug}.md)`;
   const ligne = (r) =>
     `| ${r.code} | ${lien(r)} | ${r.categorie} | **${r.moyenne.toFixed(2)}** | ${r.chiffres.toFixed(2)} | ${r.exemple.toFixed(2)} | ${r.pourquoi.toFixed(2)} | ${r.description.toFixed(2)} | ${r.simulateur} |`;
