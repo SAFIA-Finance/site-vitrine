@@ -6,7 +6,7 @@ description: "Réduire le délai entre le premier contact et le rendez-vous util
 categorie: "Professionnels"
 date: 2026-09-14
 lecture: 4
-mots: 822
+mots: 825
 essentiel:
   - "Le délai entre le premier contact et le premier rendez-vous **utile** est le meilleur indicateur de qualité d'un parcours d'entrée en relation."
   - "Cinq étapes le composent, et trois d'entre elles sont automatisables sans perte de conformité."
@@ -50,7 +50,7 @@ Mesurez-le sur vos dix derniers dossiers. Le résultat surprend souvent.
 
 **4. Le recueil et la collecte des pièces.** C'est l'étape la plus chronophage. Un questionnaire structuré, envoyé en amont, avec une liste de pièces explicite et un dépôt sécurisé, transforme un rendez-vous de saisie en rendez-vous d'analyse.
 
-**5. La signature.** Lettre de mission signée électroniquement, avec horodatage et conservation.
+**5. La signature.** Le document qui borne la prestation, signé électroniquement, avec horodatage et conservation.
 
 ## Ce qui est automatisable, et ce qui ne l'est pas
 

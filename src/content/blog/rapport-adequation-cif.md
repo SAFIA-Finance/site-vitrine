@@ -6,7 +6,7 @@ description: "Le rapport d'adéquation doit expliquer pourquoi la recommandation
 categorie: "Professionnels"
 date: 2026-09-14
 lecture: 4
-mots: 748
+mots: 749
 essentiel:
   - "La déclaration d'adéquation doit exposer **en quoi** la recommandation correspond aux caractéristiques du client."
   - "Elle est remise **avant** l'exécution de l'opération recommandée."
@@ -92,4 +92,4 @@ Ce qui expose n'est pas le désaccord, c'est l'ambiguïté. Un dossier qui ne pe
 
 **Le client insiste pour un produit inadapté.** Consignez l'avertissement délivré, en termes concrets plutôt que génériques : quelle caractéristique du profil est en cause, quel risque en découle. Un avertissement écrit et précis est une protection réelle ; une mention passe-partout n'en est pas une.
 
-**La recommandation devient inadaptée avec le temps.** Un profil change, un marché évolue. Sans mission de suivi, votre obligation porte sur la recommandation à la date où elle a été donnée. Avec une mission de suivi, elle s'étend, et le périmètre exact doit figurer dans la lettre de mission.
+**La recommandation devient inadaptée avec le temps.** Un profil change, un marché évolue. Sans mission de suivi, votre obligation porte sur la recommandation à la date où elle a été donnée. Avec une mission de suivi, elle s'étend, et le périmètre exact doit figurer dans l'écrit qui borne la prestation.

@@ -6,7 +6,7 @@ description: "Le seuil de rentabilité d'un client se calcule. Comment segmenter
 categorie: "Professionnels"
 date: 2026-09-14
 lecture: 4
-mots: 837
+mots: 836
 essentiel:
   - "Le seuil de 250 000 € n'est pas une règle : c'est le **résultat d'un calcul** de coût de service."
   - "Le coût complet d'un suivi annuel se chiffre, et la plupart des cabinets ne l'ont jamais fait."
@@ -55,7 +55,7 @@ Si les 6 heures passent à 3 h 30, le coût annuel tombe à 315 € et le seuil 
 
 Un bilan patrimonial facturé en honoraires, sans engagement de suivi, rend économiquement viable une intervention sur un patrimoine modeste. Le client paie la valeur reçue, vous n'assumez pas un suivi non financé.
 
-Cette approche suppose deux choses : une **lettre de mission** bornant strictement le périmètre, et un discours assumé sur le prix. Beaucoup de cabinets hésitent à facturer des honoraires visibles alors qu'ils prélèvent depuis toujours des frais invisibles nettement supérieurs.
+Cette approche suppose deux choses : un **écrit bornant strictement le périmètre**, et un discours assumé sur le prix. Beaucoup de cabinets hésitent à facturer des honoraires visibles alors qu'ils prélèvent depuis toujours des frais invisibles nettement supérieurs.
 
 ## Levier 3. Assumer une offre différenciée
 
@@ -85,6 +85,6 @@ La difficulté n'est pas de concevoir une offre différenciée, c'est de la dire
 
 **Laisser une porte ouverte.** Un client dont la situation évolue, par héritage, cession ou changement professionnel, doit pouvoir accéder à l'offre supérieure. Le dire explicitement transforme un plafond en trajectoire.
 
-Sur la forme, l'écrit s'impose : un courrier décrivant le nouveau cadre, puis une mise à jour de la lettre de mission pour les clients concernés. Une segmentation appliquée sans support contractuel crée un écart entre le service rendu et le service attendu, c'est-à-dire exactement le terrain des réclamations.
+Sur la forme, l'écrit s'impose : un courrier décrivant le nouveau cadre, puis une mise à jour du document qui borne la prestation pour les clients concernés. Une segmentation appliquée sans support contractuel crée un écart entre le service rendu et le service attendu, c'est-à-dire exactement le terrain des réclamations.
 
 Reste le cas des clients qu'aucune offre ne couvre. La sortie explicite, formalisée par écrit avec restitution des pièces, est une solution propre. Le renoncement silencieux n'en est pas une.

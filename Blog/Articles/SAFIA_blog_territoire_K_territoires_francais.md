@@ -620,7 +620,7 @@ Page **Cockpit stratégique** · articles **I5** (conventions fiscales) et **K1*
 - Les deux collectivités relèvent de l'**article 74** de la Constitution et disposent d'une fiscalité propre.
 - **Wallis-et-Futuna** repose très largement sur la **fiscalité indirecte** : il n'y a pas d'impôt sur le revenu des personnes physiques comparable au modèle métropolitain.
 - **Saint-Pierre-et-Miquelon** dispose d'un **code local des impôts** propre, distinct du Code général des impôts.
-- Ces deux territoires sont les moins documentés du corpus : c'est précisément ce qui en fait une opportunité éditoriale.
+- Dans les deux cas, l'essentiel se joue sur le **patrimoine resté en métropole**, qui continue de relever des règles françaises : revenus fonciers, plus-values, IFI, assurance-vie.
 
 ### Wallis-et-Futuna
 
@@ -636,15 +636,13 @@ La collectivité dispose d'un code local des impôts, avec ses propres impôts s
 
 Sa situation géographique, à proximité immédiate du Canada, crée des situations transfrontalières spécifiques : activité, biens ou résidence partagés entre la collectivité et le Canada. Ces configurations mettent en jeu à la fois le droit local, le droit français et la convention fiscale franco-canadienne.
 
-### Pourquoi ces territoires méritent un article
+### D'où vient cette autonomie fiscale
 
-Trois raisons.
+Elle ne relève pas d'une tolérance, mais du statut que la Constitution leur reconnaît. L'**article 74** permet aux collectivités d'outre-mer de disposer d'une organisation particulière, dont découle leur compétence fiscale propre.
 
-Le contenu en ligne est **quasi inexistant**, ce qui rend le positionnement facile.
+Chacune tient ce statut d'une loi identifiée. Wallis-et-Futuna est un territoire d'outre-mer depuis la **loi n° 61-814 du 29 juillet 1961**. Saint-Pierre-et-Miquelon relève de la **loi n° 85-595 du 11 juin 1985**, qui lui a donné son statut d'archipel à fiscalité propre après une période sous régime départemental.
 
-Les résidents et les personnes qui y ont des attaches patrimoniales n'ont aucune ressource pédagogique fiable.
-
-Et les questions qu'ils se posent (où suis-je imposé, que devient mon patrimoine métropolitain, comment se règle une succession) sont exactement celles auxquelles ce blog répond ailleurs.
+C'est cette différence de date et de trajectoire, et non une différence de degré d'autonomie, qui explique que l'un se soit doté d'un code des impôts complet quand l'autre repose sur la fiscalité indirecte.
 
 ### Le point de méthode
 
