@@ -118,6 +118,23 @@ const QUESTIONS_COMMUNES = {
     },
   },
 
+  // La description dit-elle ce que l'article contient ?
+  //
+  // Ajoutée le 21 septembre 2026, après l'audit des pages fixes. Jusque-là,
+  // « npm run referencement » vérifiait que la description tient en 155
+  // signes, et personne n'avait jamais vérifié qu'elle décrit l'article. Or
+  // une description infidèle, Google ne l'affiche pas : il la remplace par un
+  // extrait de son choix, et le travail d'écriture est perdu.
+  descriptionFidele: {
+    type: 'boolean',
+    instructions:
+      'La description annoncée décrit-elle fidèlement ce que cet article contient réellement ?',
+    criteria: {
+      true: "Un lecteur qui arrive par cette description trouve ce qu'elle lui a promis.",
+      false: "La description promet autre chose, ou reste si vague qu'elle pourrait décrire n'importe quel article du blog.",
+    },
+  },
+
   simulateur: {
     type: 'choice',
     instructions: 'Quel simulateur du site prolongerait le plus naturellement cet article ?',
@@ -259,6 +276,7 @@ function construire(a, r) {
     moyenne: (chiffres + exemple) / 2,
     simulateur: r.answers.simulateur.choice,
     seRegarde: r.answers.parleDeLuiMeme.probability,
+    description: r.answers.descriptionFidele.probability,
     terme: a.terme,
     termeJustifie: r.answers.vocabulaireJustifie?.probability ?? null,
   };
@@ -294,6 +312,7 @@ for (const r of resultats) {
   if (r.terme) drapeaux.push(r.termeJustifie > 0.5 ? '[terme justifié]' : '[TERME À RETIRER]');
   if (CATEGORIES_A_HISTOIRE.has(r.categorie) && r.pourquoi < 1) drapeaux.push('[origine absente]');
   if (r.seRegarde > 0.5) drapeaux.push('[SE REGARDE ÉCRIRE]');
+  if (r.description < 0.5) drapeaux.push('[DESCRIPTION INFIDÈLE]');
   console.log(
     `${(r.code || '').padEnd(5)} ${n(r.moyenne)}  ${n(r.chiffres)}  ${n(r.exemple)}  ${n(r.pourquoi)}  ` +
       `${r.simulateur.padEnd(18)} ${r.titre.slice(0, 46)}${drapeaux.length ? '  ' + drapeaux.join(' ') : ''}`,
@@ -322,9 +341,9 @@ if (!demandes.length) {
   const AUJOURDHUI = new Date().toISOString().slice(0, 10);
   const lien = (r) => `[${r.titre}](../src/content/blog/${r.slug}.md)`;
   const ligne = (r) =>
-    `| ${r.code} | ${lien(r)} | ${r.categorie} | **${r.moyenne.toFixed(2)}** | ${r.chiffres.toFixed(2)} | ${r.exemple.toFixed(2)} | ${r.pourquoi.toFixed(2)} | ${r.simulateur} |`;
+    `| ${r.code} | ${lien(r)} | ${r.categorie} | **${r.moyenne.toFixed(2)}** | ${r.chiffres.toFixed(2)} | ${r.exemple.toFixed(2)} | ${r.pourquoi.toFixed(2)} | ${r.description.toFixed(2)} | ${r.simulateur} |`;
   const entete =
-    '| Code | Article | Catégorie | Note | Chiffres | Exemple | Origine | Simulateur |\n|---|---|---|---|---|---|---|---|';
+    '| Code | Article | Catégorie | Note | Chiffres | Exemple | Origine | Description | Simulateur |\n|---|---|---|---|---|---|---|---|---|';
 
   const termeARetirer = resultats.filter((r) => r.terme && !(r.termeJustifie > 0.5));
   const origineAbsente = resultats.filter(
@@ -376,6 +395,18 @@ ${aLire.map(ligne).join('\n')}
 ${termeARetirer.length} article(s).
 
 ${termeARetirer.length ? termeARetirer.map((r) => `- ${r.code} · ${lien(r)}`).join('\n') : 'Aucun.'}
+
+## Les descriptions les plus fragiles
+
+Aucune n'est infidèle sous le seuil de 0,50 qui lève un drapeau. Les dix plus
+basses sont celles à relire en premier le jour où l'on retouche le
+référencement.
+
+${[...resultats]
+  .sort((x, y) => x.description - y.description)
+  .slice(0, 10)
+  .map((r) => `- **${r.description.toFixed(2)}** · ${r.code} · ${lien(r)}`)
+  .join('\n')}
 
 ## Le blog qui se regarde écrire
 

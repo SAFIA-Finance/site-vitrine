@@ -20,7 +20,8 @@
     "llms": "node outils/generer-llms.mjs",
     "notes": "node outils/relever-notes.mjs",
     "tester-jev": "node outils/tester-jev.mjs",
-    "auditer": "node outils/auditer-contenu.mjs"
+    "auditer": "node outils/auditer-contenu.mjs",
+    "auditer-pages": "node outils/auditer-pages.mjs"
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.4",
