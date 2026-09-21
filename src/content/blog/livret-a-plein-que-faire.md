@@ -18,7 +18,7 @@ faq:
   - q: "Peut-on cumuler livret A, LDDS et LEP ?"
     r: "Oui, les trois sont cumulables, dans la limite d'un exemplaire de chaque par personne."
   - q: "Le PEL est-il une bonne alternative ?"
-    r: "Les plans ouverts en 2026 rapportent 2 % brut, mais leurs intérêts sont fiscalisés depuis 2018, ce qui ramène le net autour de 1,37 %. Et les fonds sont bloqués."
+    r: "Les plans ouverts en 2026 rapportent 2 % brut, mais leurs intérêts sont fiscalisés depuis 2018, ce qui ramène le net autour de 1,40 %. Et les fonds sont bloqués."
   - q: "Vaut-il mieux rembourser un crédit par anticipation ou placer ?"
     r: "Compare deux taux, et un seul est certain. Rembourser un crédit te rapporte, à coup sûr, le taux de ce crédit. Placer te rapporte un rendement espéré, garanti seulement sur les livrets réglementés. Si ton crédit coûte plus que 1,70 % net, le rembourser bat mécaniquement le livret A. Deux réserves toutefois : conserve d'abord ton épargne de précaution, qu'aucun remboursement ne remplace, et vérifie les indemnités de remboursement anticipé prévues à ton contrat."
   - q: "Un compte à terme est-il une bonne option au-delà des livrets ?"

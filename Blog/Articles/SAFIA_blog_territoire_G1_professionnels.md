@@ -626,7 +626,7 @@ Page **Conseillers** · articles **G3** (recueil client) et **G4** (lettre de mi
 | 1ᵉʳ août 2024 | Entrée en vigueur du règlement (UE) **2024/1689**, sans application pratique |
 | **2 février 2025** | Dispositions générales et **pratiques interdites** de l'article 5 |
 | **2 août 2025** | Modèles d'IA à usage général, gouvernance, sanctions |
-| **2 décembre 2027** | Application complète, dont les systèmes à **haut risque de l'annexe III**, initialement prévus au 2 août 2026 |
+| **2 décembre 2027** | Application complète, dont les systèmes à **haut risque de l'annexe III**, initialement prévus au 2 août 2026 et reportés par le **règlement (UE) 2026/1744** |
 | **2 août 2028** | Systèmes à haut risque intégrés aux produits de l'annexe I, initialement prévus au 2 août 2027 |
 
 | Manquement | Amende maximale |

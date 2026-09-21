@@ -8,7 +8,7 @@ date: 2026-09-16
 lecture: 4
 mots: 869
 essentiel:
-  - "La Grèce est, depuis 2020, la destination européenne la plus favorable aux **retraités** disposant de revenus étrangers."
+  - "La Grèce applique depuis 2020 un régime destiné aux **retraités** disposant de revenus étrangers, au taux unique de **7 %**."
   - "Le taux de **7 %** s'applique à l'ensemble des revenus de source étrangère, pension comprise."
   - "Un régime **non-dom à forfait de 100 000 €** existe en parallèle pour les grands patrimoines."
   - "Étant membre de l'Union européenne, la Grèce offre la **coordination santé** et le sursis automatique d'exit tax : deux avantages pratiques majeurs."

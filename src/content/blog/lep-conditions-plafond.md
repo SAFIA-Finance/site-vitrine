@@ -5,8 +5,8 @@ titreSeo: "LEP 2026 : 2,50 %, conditions de revenus et plafond"
 description: "Le LEP rapporte 2,50 % net en 2026, soit 0,80 point de plus que le livret A. Conditions de revenus, plafond de 10 000 €, ouverture : le mode d'emploi."
 categorie: "Épargne réglementée"
 date: 2026-09-14
-lecture: 4
-mots: 865
+lecture: 5
+mots: 931
 essentiel:
   - "Le LEP sert **2,50 %** net, taux maintenu jusqu'au 31 janvier 2027."
   - "Le plafond de versement est de **10 000 €**."
@@ -40,6 +40,8 @@ sources: "Arrêté du 29 juillet 2026, Journal officiel du 31 juillet 2026 · Co
 
 ## Le seul livret qui bat l'inflation en 2026
 
+Ce taux de **2,50 %** est acquis pour six mois : un **arrêté du 29 juillet 2026**, publié au Journal officiel le 31 juillet, le maintient **jusqu'au 31 janvier 2027**.
+
 À 2,50 % net d'impôt et de prélèvements sociaux, le LEP est le produit sans risque le mieux rémunéré du marché français. Il devance le livret A de 0,80 point et reste au-dessus de l'inflation constatée au premier semestre 2026, à 1,52 % en moyenne.
 
 Ce niveau n'est pas le produit mécanique de la formule de calcul. Celle-ci menait plutôt vers 2,2 % à l'été 2026. Le gouvernement a choisi de maintenir 2,50 %, pour protéger le pouvoir d'achat des ménages modestes. C'est un « coup de pouce » discrétionnaire, et il peut disparaître à la prochaine révision.
@@ -64,6 +66,8 @@ Le LEP est cumulable avec le livret A et le LDDS. Ce n'est pas un choix entre tr
 Le transfert lui rapporte 80 € par an, sans risque, sans blocage, pour une démarche unique. Son livret A reste ensuite disponible pour l'épargne suivante.
 
 ## Pourquoi tant d'ayants droit n'en ont pas
+
+**L'écart se mesure.** Au 30 avril 2026, **12,3 millions de LEP** étaient ouverts, pour **plus de 30 millions de Français éligibles**. Près d'un ayant droit sur deux n'ouvre donc pas le seul livret qui batte l'inflation.
 
 Trois raisons reviennent.
 

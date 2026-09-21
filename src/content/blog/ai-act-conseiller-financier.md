@@ -6,7 +6,7 @@ description: "Les pratiques interdites s'appliquent depuis février 2025, mais l
 categorie: "Professionnels"
 date: 2026-09-14
 lecture: 5
-mots: 903
+mots: 910
 essentiel:
   - "Le règlement européen distingue le **fournisseur** d'un système d'IA et son **déployeur** : un cabinet est généralement déployeur, pas fournisseur."
   - "Les obligations les plus immédiates portent sur la **transparence** et sur la **compétence des utilisateurs**. Elles s'appliquent déjà."
@@ -42,7 +42,7 @@ sources: "**Règlement (UE) 2024/1689** établissant des règles harmonisées co
 | 1ᵉʳ août 2024 | Entrée en vigueur du règlement (UE) **2024/1689**, sans application pratique |
 | **2 février 2025** | Dispositions générales et **pratiques interdites** de l'article 5 |
 | **2 août 2025** | Modèles d'IA à usage général, gouvernance, sanctions |
-| **2 décembre 2027** | Application complète, dont les systèmes à **haut risque de l'annexe III**, initialement prévus au 2 août 2026 |
+| **2 décembre 2027** | Application complète, dont les systèmes à **haut risque de l'annexe III**, initialement prévus au 2 août 2026 et reportés par le **règlement (UE) 2026/1744** |
 | **2 août 2028** | Systèmes à haut risque intégrés aux produits de l'annexe I, initialement prévus au 2 août 2027 |
 
 | Manquement | Amende maximale |

@@ -8,7 +8,7 @@ date: 2026-09-14
 lecture: 5
 mots: 947
 essentiel:
-  - "Le **PEL ouvert en 2026** sert 2 % brut, mais ses intérêts sont fiscalisés depuis 2018 : environ **1,37 % net**."
+  - "Le **PEL ouvert en 2026** sert 2 % brut, mais ses intérêts sont fiscalisés depuis 2018 : environ **1,40 % net**."
   - "Le **CEL** rapporte 1,25 % brut, également fiscalisé, soit moins que le livret A net."
   - "Le **livret jeune** conserve un taux libre supérieur ou égal à celui du livret A, sur un plafond de 1 600 €."
   - "Ces produits ne se justifient plus par leur rendement mais par **le droit à prêt** qu'ils ouvrent, dont la valeur dépend des taux de crédit du moment."

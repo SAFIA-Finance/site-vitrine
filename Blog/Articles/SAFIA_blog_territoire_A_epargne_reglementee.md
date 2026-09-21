@@ -207,7 +207,7 @@ Non. Il remplit une fonction précise, l'épargne de précaution, que rien d'aut
 Oui, les trois sont cumulables, dans la limite d'un exemplaire de chaque par personne.
 
 **Le PEL est-il une bonne alternative ?**
-Les plans ouverts en 2026 rapportent 2 % brut, mais leurs intérêts sont fiscalisés depuis 2018, ce qui ramène le net autour de 1,37 %. Et les fonds sont bloqués.
+Les plans ouverts en 2026 rapportent 2 % brut, mais leurs intérêts sont fiscalisés depuis 2018, ce qui ramène le net autour de 1,40 %. Et les fonds sont bloqués.
 
 **Vaut-il mieux rembourser un crédit par anticipation ou placer ?**
 Compare deux taux, et un seul est certain. Rembourser un crédit te rapporte, à coup sûr, le taux de ce crédit. Placer te rapporte un rendement espéré, garanti seulement sur les livrets réglementés. Si ton crédit coûte plus que 1,70 % net, le rembourser bat mécaniquement le livret A. Deux réserves toutefois : conserve d'abord ton épargne de précaution, qu'aucun remboursement ne remplace, et vérifie les indemnités de remboursement anticipé prévues à ton contrat.
@@ -345,6 +345,8 @@ Page **Particuliers** · articles **A1** et **A6**.
 
 ### Le seul livret qui bat l'inflation en 2026
 
+Ce taux de **2,50 %** est acquis pour six mois : un **arrêté du 29 juillet 2026**, publié au Journal officiel le 31 juillet, le maintient **jusqu'au 31 janvier 2027**.
+
 À 2,50 % net d'impôt et de prélèvements sociaux, le LEP est le produit sans risque le mieux rémunéré du marché français. Il devance le livret A de 0,80 point et reste au-dessus de l'inflation constatée au premier semestre 2026, à 1,52 % en moyenne.
 
 Ce niveau n'est pas le produit mécanique de la formule de calcul. Celle-ci menait plutôt vers 2,2 % à l'été 2026. Le gouvernement a choisi de maintenir 2,50 %, pour protéger le pouvoir d'achat des ménages modestes. C'est un « coup de pouce » discrétionnaire, et il peut disparaître à la prochaine révision.
@@ -369,6 +371,8 @@ Le LEP est cumulable avec le livret A et le LDDS. Ce n'est pas un choix entre tr
 Le transfert lui rapporte 80 € par an, sans risque, sans blocage, pour une démarche unique. Son livret A reste ensuite disponible pour l'épargne suivante.
 
 ### Pourquoi tant d'ayants droit n'en ont pas
+
+**L'écart se mesure.** Au 30 avril 2026, **12,3 millions de LEP** étaient ouverts, pour **plus de 30 millions de Français éligibles**. Près d'un ayant droit sur deux n'ouvre donc pas le seul livret qui batte l'inflation.
 
 Trois raisons reviennent.
 
@@ -663,7 +667,7 @@ Page **Particuliers** · articles **A1** (livret A) et **A4** (LEP).
 
 ### L'essentiel
 
-* Le **PEL ouvert en 2026** sert 2 % brut, mais ses intérêts sont fiscalisés depuis 2018 : environ **1,37 % net**.
+* Le **PEL ouvert en 2026** sert 2 % brut, mais ses intérêts sont fiscalisés depuis 2018 : environ **1,40 % net**.
 * Le **CEL** rapporte 1,25 % brut, également fiscalisé, soit moins que le livret A net.
 * Le **livret jeune** conserve un taux libre supérieur ou égal à celui du livret A, sur un plafond de 1 600 €.
 * Ces produits ne se justifient plus par leur rendement mais par **le droit à prêt** qu'ils ouvrent, dont la valeur dépend des taux de crédit du moment.

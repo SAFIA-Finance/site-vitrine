@@ -9,9 +9,9 @@ lecture: 7
 mots: 1405
 essentiel:
   - "Malte applique le principe de **remittance** : un résident non domicilié n'est imposé sur ses revenus étrangers que s'il les rapatrie sur l'île."
-  - "Les **plus-values de source étrangère ne sont jamais imposées**, même rapatriées. C'est la particularité la plus notable du système, et elle n'a pas d'équivalent dans l'Union européenne."
+  - "Les **plus-values de source étrangère ne sont jamais imposées**, même rapatriées. C'est la particularité la plus notable du système."
   - "**Le régime change au 1ᵉʳ janvier 2027** : l'impôt minimum des programmes de résidence passe de 15 000 à **35 000 €**, et le seuil de logement de 275 000 à **700 000 €**."
-  - "Un statut obtenu **avant le 31 décembre 2026** reste protégé des nouveaux seuils **jusqu'au 31 décembre 2031**. Il reste donc quelques mois."
+  - "Un statut obtenu **avant le 31 décembre 2026** reste protégé des nouveaux seuils **jusqu'au 31 décembre 2031**."
   - "Malte ne connaît **aucun droit de succession**."
   - "La contrepartie est l'exigence de **substance** : logement, présence réelle, et contribution forfaitaire."
 faq:

@@ -563,7 +563,7 @@ C'est exactement la situation que la convention de 1957 ne couvre pas, et la rai
 - La Polynésie française est une **collectivité d'outre-mer dotée de l'autonomie**, régie par l'article 74 de la Constitution et par sa loi organique statutaire.
 - Elle exerce une **compétence fiscale propre** : le Code général des impôts ne s'y applique pas.
 - Le système local repose largement sur la **fiscalité indirecte** et sur des contributions assises sur les revenus d'activité, dont l'architecture diffère de l'impôt sur le revenu métropolitain.
-- Une **convention fiscale interne** lie l'État et la Polynésie française pour éviter les doubles impositions.
+- La **convention avec l'État date de 1957** et ne couvre que les **revenus de valeurs mobilières** : ni les salaires, ni les pensions, ni les revenus immobiliers, ni les successions n'entrent dans son champ.
 
 ### Ce qu'il faut comprendre du système
 

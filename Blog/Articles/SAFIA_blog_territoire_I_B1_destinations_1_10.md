@@ -250,7 +250,7 @@ articles **I13** et **I16**.
 
 ### L'essentiel
 
-- La Grèce est, depuis 2020, la destination européenne la plus favorable aux **retraités** disposant de revenus étrangers.
+- La Grèce applique depuis 2020 un régime destiné aux **retraités** disposant de revenus étrangers, au taux unique de **7 %**.
 - Le taux de **7 %** s'applique à l'ensemble des revenus de source étrangère, pension comprise.
 - Un régime **non-dom à forfait de 100 000 €** existe en parallèle pour les grands patrimoines.
 - Étant membre de l'Union européenne, la Grèce offre la **coordination santé** et le sursis automatique d'exit tax : deux avantages pratiques majeurs.
@@ -1094,9 +1094,9 @@ articles **I11** et **I25**.
 ### L'essentiel
 
 - Malte applique le principe de **remittance** : un résident non domicilié n'est imposé sur ses revenus étrangers que s'il les rapatrie sur l'île.
-- Les **plus-values de source étrangère ne sont jamais imposées**, même rapatriées. C'est la particularité la plus notable du système, et elle n'a pas d'équivalent dans l'Union européenne.
+- Les **plus-values de source étrangère ne sont jamais imposées**, même rapatriées. C'est la particularité la plus notable du système.
 - **Le régime change au 1ᵉʳ janvier 2027** : l'impôt minimum des programmes de résidence passe de 15 000 à **35 000 €**, et le seuil de logement de 275 000 à **700 000 €**.
-- Un statut obtenu **avant le 31 décembre 2026** reste protégé des nouveaux seuils **jusqu'au 31 décembre 2031**. Il reste donc quelques mois.
+- Un statut obtenu **avant le 31 décembre 2026** reste protégé des nouveaux seuils **jusqu'au 31 décembre 2031**.
 - Malte ne connaît **aucun droit de succession**.
 - La contrepartie est l'exigence de **substance** : logement, présence réelle, et contribution forfaitaire.
 
