@@ -2,15 +2,17 @@
 code: "K3"
 titre: "Saint-Martin : fiscalité propre et règle des cinq ans"
 titreSeo: "Saint-Martin : fiscalité propre et règle des cinq ans"
-description: "Compétence fiscale propre depuis 2007 et même règle des cinq ans qu'à Saint-Barthélemy. Un code local proche du CGI, mais pas identique."
+description: "Même statut et même règle des cinq ans qu'à Saint-Barthélemy, mais un code local qui prélève l'impôt sur le revenu et les droits de succession. L'inverse."
 categorie: "Outre-mer"
 date: 2026-09-16
-lecture: 3
-mots: 656
+lecture: 5
+mots: 1067
 essentiel:
   - "Saint-Martin exerce une compétence fiscale propre depuis 2007, comme Saint-Barthélemy."
   - "La même **condition de cinq ans de résidence** s'applique aux personnes arrivant d'un département de métropole ou d'outre-mer."
-  - "Le code local reprend largement l'architecture du Code général des impôts, avec des adaptations : il ne faut donc pas raisonner par analogie complète, ni supposer une rupture totale."
+  - "Le **Code général des impôts de Saint-Martin** reprend largement l'architecture du code français, avec des adaptations : il ne faut donc pas raisonner par analogie complète, ni supposer une rupture totale."
+  - "**Saint-Martin prélève un impôt sur le revenu local**, des taxes foncières, un droit de bail, une imposition des plus-values immobilières, des droits d'enregistrement et des **droits de succession et de donation**."
+  - "Une **convention fiscale** signée le 21 décembre 2010 et en vigueur au 1ᵉʳ mai 2011 règle la double imposition et l'échange de renseignements avec l'État."
   - "La partie néerlandaise de l'île relève d'un **droit entièrement distinct** : une adresse à Sint Maarten n'est pas une adresse à Saint-Martin."
 faq:
   - q: "Saint-Martin applique-t-il le Code général des impôts ?"
@@ -34,10 +36,10 @@ articlesLies:
   - "fiscalite-nouvelle-caledonie"
   - "abattement-impot-outre-mer-drom"
 seoDerive: true
-sources: "Code général des collectivités territoriales, article LO 6314-4, I, 1° et 1° bis · Loi n° 2007-223 du 21 février 2007 · Conseil d'État, avis du 20 novembre 2013, n° 369796 · Code général des impôts de Saint-Martin et services fiscaux de la collectivité, impots-saint-martin.fr · Convention fiscale entre l'État et la collectivité de Saint-Martin."
+sources: "[Code général des collectivités territoriales, article LO 6314-4](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000021746766) · [Convention fiscale entre l'État et la collectivité de Saint-Martin, signée le 21 décembre 2010, en vigueur au 1er mai 2011](https://www.impots.gouv.fr/sites/default/files/media/10_conventions/saint-martin/saint-martin_convention-avec-saint-martin-signee-le-21.12.2010-en-vigueur-au-01.05.2011_fd_6011.pdf) · [Administration fiscale de Saint-Martin, impôts des particuliers](https://www.impots-saint-martin.fr/fr/34-impots-des-particuliers.html) · Code général des collectivités territoriales, article LO 6314-4, I, 1° et 1° bis · Loi n° 2007-223 du 21 février 2007 · Conseil d'État, avis du 20 novembre 2013, n° 369796 · Code général des impôts de Saint-Martin et services fiscaux de la collectivité, impots-saint-martin.fr · Convention fiscale entre l'État et la collectivité de Saint-Martin."
 ---
 
-**Vérifié le 16 septembre 2026**
+**Vérifié le 21 septembre 2026**
 
 ## Le tableau de synthèse
 
@@ -48,6 +50,36 @@ sources: "Code général des collectivités territoriales, article LO 6314-4, I,
 | Condition de résidence | **5 ans au moins** (art. LO 6314-4, I, 1° et 1° bis du CGCT) |
 | Convention avec l'État | Oui, réglant notamment la double imposition et l'échange de renseignements |
 | Particularité géographique | L'île est partagée avec la partie néerlandaise, **Sint Maarten**, qui relève d'un autre droit |
+| Impôt sur le revenu local | **Oui**, déclaratif et annuel |
+| Autres impôts locaux | Taxes foncières, droit de bail, plus-values immobilières, droits d'enregistrement, **droits de succession et de donation** |
+| Convention fiscale | Signée le **21 décembre 2010**, en vigueur au **1ᵉʳ mai 2011** |
+
+## Deux îles, un même statut, deux fiscalités opposées
+
+C'est l'amalgame le plus coûteux du dossier, et il est aussi le plus compréhensible : Saint-Barthélemy et Saint-Martin partagent l'article 74 de la Constitution, la même loi organique de 2007, la même règle des cinq ans, et vingt-cinq kilomètres de mer.
+
+Ce qu'elles ont fait de leur compétence fiscale n'a pourtant rien de commun.
+
+| | Saint-Barthélemy | Saint-Martin |
+|---|---|---|
+| Impôt sur le revenu local | **Aucun** | **Oui**, déclaratif et annuel |
+| Droits de succession locaux | **Aucun** | **Oui** |
+| Impôt sur la fortune local | **Aucun** | Selon le code local |
+| Ce que la collectivité prélève | Droits de mutation à 5 %, plus-values immobilières, taxe de séjour | Un code général des impôts complet, proche du modèle français |
+| Règle des cinq ans | **Identique** | **Identique** |
+
+Autrement dit, la règle des cinq ans ouvre dans un cas sur une absence d'imposition, dans l'autre sur un système fiscal complet. Le statut constitutionnel ne dit rien du résultat : seule la lecture du code local le dit.
+
+**Un exemple chiffré**, pour un contribuable fiscalement domicilié en métropole qui s'installe le 1ᵉʳ janvier 2026.
+
+| Période | À Saint-Martin | À Saint-Barthélemy |
+|---|---|---|
+| 2026 à 2030 | Domicile fiscal **français** : impôt sur le revenu, impôt sur la fortune immobilière et droits de succession français | **Identique** |
+| À partir de 2031 | Domicile fiscal **local** : impôt sur le revenu de Saint-Martin, droits de succession et de donation locaux | Domicile fiscal local : **ni impôt sur le revenu, ni impôt sur la fortune, ni droits de succession** |
+
+Les cinq premières années sont donc strictement les mêmes des deux côtés de l'île française. C'est la sixième qui sépare les deux collectivités, et l'écart y est total.
+
+Une conséquence rarement anticipée : à Saint-Martin, la bascule au bout de cinq ans ne fait pas disparaître l'impôt, elle change d'administration. Il faut alors déclarer auprès de la collectivité, selon un code qui ressemble au code français sans lui être identique, et c'est précisément cette ressemblance qui fait commettre des erreurs.
 
 ## La règle des cinq ans
 

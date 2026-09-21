@@ -17,28 +17,45 @@
 
 **URL** : /blog/fiscalite-outre-mer-panorama · **Mot-clé** : fiscalité outre-mer · **Page liée** : Cockpit stratégique
 **Title** : DROM, COM, Nouvelle-Calédonie : quelle fiscalité
-**Meta** : Les DROM appliquent le Code général des impôts ; les COM à autonomie fiscale ont le leur. Qui relève de quoi, et la règle des cinq ans de résidence.
-**Vérifié le 16 septembre 2026**
+**Meta** : Les DROM appliquent le Code général des impôts, avec une réfaction de 30 % ou 40 % plafonnée. Les COM à autonomie fiscale ont le leur. Qui relève de quoi.
+**Vérifié le 21 septembre 2026**
 
 ### Le tableau de synthèse
 
-| Territoire | Statut | Impôt sur le revenu applicable |
-|---|---|---|
-| Guadeloupe, Martinique, Guyane, La Réunion, Mayotte | DROM, article 73 de la Constitution | **Code général des impôts**, avec réfaction d'impôt |
-| Saint-Barthélemy | COM, article 74 | **Code de contributions local**, après 5 ans de résidence |
-| Saint-Martin | COM, article 74 | **Code des impôts local**, après 5 ans de résidence |
-| Saint-Pierre-et-Miquelon | COM, article 74 | Code local |
-| Polynésie française | COM, article 74, autonomie | Fiscalité locale propre |
-| Wallis-et-Futuna | COM, article 74 | Fiscalité locale propre |
-| Nouvelle-Calédonie | Statut *sui generis*, titre XIII | Fiscalité locale propre |
-| Monaco, Andorre | États souverains | Voir territoire I |
+| Territoire | Statut | Impôt sur le revenu applicable | TVA |
+|---|---|---|---|
+| Guadeloupe, Martinique, La Réunion | DROM, article 73 de la Constitution | **Code général des impôts**, réfaction de **30 %** plafonnée à **2 450 €** | **8,5 %**, taux réduit de 2,1 % |
+| Guyane, Mayotte | DROM, article 73 | **Code général des impôts**, réfaction de **40 %** plafonnée à **4 050 €** | **Non applicable** |
+| Saint-Barthélemy | COM, article 74 | **Code de contributions local**, après 5 ans de résidence | Locale |
+| Saint-Martin | COM, article 74 | **Code des impôts local**, après 5 ans de résidence | Locale |
+| Saint-Pierre-et-Miquelon | COM, article 74 | Code local | Locale |
+| Polynésie française | COM, article 74, autonomie | Fiscalité locale propre | Locale |
+| Wallis-et-Futuna | COM, article 74 | Fiscalité locale propre | Locale |
+| Nouvelle-Calédonie | Statut *sui generis*, titre XIII | Fiscalité locale propre | Locale |
+| Monaco, Andorre | États souverains | Voir territoire I | — |
 
 ### L'essentiel
 
-- Les **DROM** appliquent le Code général des impôts. Ce ne sont pas des territoires à fiscalité dérogatoire : ce sont des départements avec des aménagements.
+- Les **DROM** appliquent le Code général des impôts. Ce ne sont pas des territoires à fiscalité dérogatoire : ce sont des départements avec des aménagements, dont une **réfaction d'impôt de 30 % ou 40 %**, plafonnée.
+- Cette réfaction est **plafonnée à 2 450 €** aux Antilles et à La Réunion, **4 050 €** en Guyane et à Mayotte : au-delà d'un certain revenu, l'avantage cesse de croître.
 - Les **COM à autonomie fiscale** ont leur propre code et leurs propres impôts : le CGI ne s'y applique pas, sauf mention expresse.
 - Saint-Barthélemy et Saint-Martin imposent une **condition de résidence de cinq ans** avant de reconnaître le domicile fiscal local.
+- La **TVA n'est pas applicable en Guyane et à Mayotte**, et son taux normal est de 8,5 % dans les trois autres DROM, contre 20 % en métropole.
 - La **Nouvelle-Calédonie** relève d'un statut à part, et une convention fiscale la lie à l'État.
+
+### Ce que la réfaction change, en euros
+
+C'est le seul aménagement qui touche directement tout contribuable d'un DROM, et il est plafonné, ce qui en change la portée selon le revenu.
+
+**Un exemple chiffré.** Un contribuable dont l'impôt sur le revenu ressort à **12 000 €** au barème.
+
+| Lieu de résidence | Réfaction théorique | Réfaction retenue | Impôt dû |
+|---|---|---|---|
+| Métropole | — | — | **12 000 €** |
+| Guadeloupe, Martinique, La Réunion | 30 %, soit 3 600 € | **2 450 €**, plafond atteint | **9 550 €** |
+| Guyane, Mayotte | 40 %, soit 4 800 € | **4 050 €**, plafond atteint | **7 950 €** |
+
+Le plafond change la nature de l'avantage. Tant que l'impôt reste sous environ 8 167 € aux Antilles, la réfaction de 30 % joue pleinement. Au-delà, elle est figée : l'avantage devient un montant fixe, et non plus un pourcentage. Plus le revenu monte, plus il s'efface en proportion.
 
 ### La ligne de partage
 
@@ -107,7 +124,7 @@ Oui quant au principe : Mayotte est un département et région d'outre-mer, rég
 
 ### Sources
 
-Constitution du 4 octobre 1958, articles 73, 74 et titre XIII · Code général des collectivités territoriales, articles LO 6214-4 (Saint-Barthélemy) et LO 6314-4 (Saint-Martin) · Code général des impôts, article 197, I, 3 · impots.gouv.fr, rubriques relatives à l'outre-mer.
+Constitution du 4 octobre 1958, articles 73, 74 et titre XIII · Code général des collectivités territoriales, articles LO 6214-4 (Saint-Barthélemy) et LO 6314-4 (Saint-Martin) · **Code général des impôts, article 197, I, 3**, pour la réfaction de 30 % plafonnée à 2 450 € et de 40 % plafonnée à 4 050 € · [BOFiP, TVA dans les collectivités relevant de l'article 73, taux applicables en Guadeloupe, Martinique et à La Réunion](https://bofip.impots.gouv.fr/bofip/343-PGP.html/identifiant=BOI-TVA-GEO-20-10-20190605) · [impots.gouv.fr, taux de TVA applicables dans les DOM](https://www.impots.gouv.fr/professionnel/questions/quels-sont-les-differents-taux-de-tva-applicables-dans-les-dom) · [Direction générale des douanes, TVA dans les DOM](https://www.douane.gouv.fr/fiche/tva-dans-les-dom) · impots.gouv.fr, rubriques relatives à l'outre-mer.
 
 ### Liens internes
 
@@ -118,8 +135,8 @@ Page **Cockpit stratégique** · articles **K4** et **K6**.
 ## K2 — Saint-Barthélemy : autonomie fiscale et règle des cinq ans
 
 **URL** : /blog/fiscalite-saint-barthelemy · **Mot-clé** : fiscalité saint barthélemy · **Page liée** : Cockpit stratégique
-**Meta** : Compétence fiscale propre depuis 2007, mais domicile fiscal local reconnu seulement après cinq ans de résidence. La règle découverte trop tard.
-**Vérifié le 16 septembre 2026**
+**Meta** : Ni impôt sur le revenu, ni IFI, ni droits de succession. Mais le domicile fiscal local n'est reconnu qu'après cinq ans : une salle d'attente fiscale.
+**Vérifié le 21 septembre 2026**
 
 ### Le tableau de synthèse
 
@@ -132,13 +149,36 @@ Page **Cockpit stratégique** · articles **K4** et **K6**.
 | Condition de résidence, personnes morales | Siège de direction effective depuis **5 ans**, ou siège de direction effective et contrôle par des personnes physiques résidentes depuis 5 ans |
 | Critères de résidence retenus localement | Alignés sur ceux de l'article 4 B du CGI |
 | Échange d'informations avec l'État | Prévu par l'article LO 6214-4 du CGCT |
+| Impôt sur le revenu local | **Aucun** |
+| Impôt sur la fortune local | **Aucun** |
+| Droits de succession locaux | **Aucun** |
+| Ce que la collectivité prélève | Droits de mutation immobilière de **5 %**, imposition des plus-values immobilières sur les cessions intervenues dans les **18 ans**, taxe de séjour de **5 %** |
+| Cotisations sociales | **Compétence exclusive de l'État**, article LO 6214-4-1, 3° |
 
 ### L'essentiel
 
 - Saint-Barthélemy dispose de sa **propre compétence fiscale** depuis 2007 : le Code général des impôts ne s'y applique pas, sauf mention expresse.
 - Une personne physique ne peut être regardée comme fiscalement domiciliée à Saint-Barthélemy **qu'après cinq ans de résidence**.
 - Avant ce délai, elle demeure fiscalement domiciliée en France au sens du Code général des impôts.
-- C'est la règle la plus structurante de tout le dossier, et celle qui est le plus souvent découverte trop tard.
+- Une fois le délai passé, la collectivité ne prélève **ni impôt sur le revenu, ni impôt sur la fortune, ni droits de succession**.
+- Ce qu'elle prélève est ailleurs : des **droits de mutation immobilière de 5 %**, l'imposition des **plus-values immobilières** sur les cessions intervenant dans les dix-huit ans, et une **taxe de séjour de 5 %**.
+- Les **cotisations sociales** restent de la compétence exclusive de l'État : l'autonomie fiscale ne s'étend pas au social.
+- C'est la règle des cinq ans qui est la plus structurante de tout le dossier, et celle qui est le plus souvent découverte trop tard.
+
+### Les cinq ans : une salle d'attente, pas une formalité
+
+La règle ne retarde pas un avantage, elle maintient intégralement l'autre régime pendant cinq ans.
+
+**Un exemple chiffré.** Un cadre fiscalement domicilié en métropole s'installe à Saint-Barthélemy le 1ᵉʳ janvier 2026.
+
+| Période | Domicile fiscal | Ce qui s'applique |
+|---|---|---|
+| 2026 à 2030 | **France** | Impôt sur le revenu français, impôt sur la fortune immobilière, droits de succession français, comme s'il n'était pas parti |
+| À partir de 2031 | **Saint-Barthélemy** | Ni impôt sur le revenu, ni impôt sur la fortune, ni droits de succession locaux |
+
+La bascule est totale et elle est datée. Entre les deux, le crédit d'impôt prévu par le dispositif évite la double imposition sur les revenus de source locale, mais il ne raccourcit pas le délai d'un jour.
+
+Conséquence pratique : un projet de cession, de donation ou de transmission conçu pour bénéficier du régime local doit être calé **après** la cinquième année, pas avant. Une donation consentie la quatrième année relève du barème français.
 
 ### La règle des cinq ans, telle qu'elle est écrite
 
@@ -212,7 +252,7 @@ La question doit être examinée spécifiquement au regard du statut de la colle
 
 ### Sources
 
-Code général des collectivités territoriales, article LO 6214-4, modifié par la loi n° 2015-1485 du 17 novembre 2015, article 7 · Loi n° 2007-223 du 21 février 2007 portant dispositions statutaires et institutionnelles relatives à l'outre-mer · Code de contributions de Saint-Barthélemy, articles 2 et 4 · Conseil d'État, avis du 20 novembre 2013, n° 369796 · Rescrit publié au BOFiP le 23 octobre 2024 relatif à l'intégration fiscale des sociétés établies à Saint-Barthélemy · Services fiscaux de la collectivité de Saint-Barthélemy.
+Code général des collectivités territoriales, article LO 6214-4, modifié par la loi n° 2015-1485 du 17 novembre 2015, article 7, et article LO 6214-4-1, 3°, réservant les cotisations sociales à l'État · [Code des contributions de Saint-Barthélemy, annexé à la délibération n° 2024-038 CT](https://actes.eservices-comstbarth.fr/PJ/Deliberation%20CT/Deliberation%20CT_2024/2024_038ct_annexe.pdf) · Loi n° 2007-223 du 21 février 2007 portant dispositions statutaires et institutionnelles relatives à l'outre-mer · Code de contributions de Saint-Barthélemy, articles 2 et 4 · Conseil d'État, avis du 20 novembre 2013, n° 369796 · Rescrit publié au BOFiP le 23 octobre 2024 relatif à l'intégration fiscale des sociétés établies à Saint-Barthélemy · Services fiscaux de la collectivité de Saint-Barthélemy.
 
 ### Liens internes
 
@@ -223,8 +263,8 @@ Page **Cockpit stratégique** · articles **K9** (transmission outre-mer) et **K
 ## K3 — Saint-Martin : fiscalité propre et règle des cinq ans
 
 **URL** : /blog/fiscalite-saint-martin · **Mot-clé** : fiscalité saint martin · **Page liée** : Cockpit stratégique
-**Meta** : Compétence fiscale propre depuis 2007 et même règle des cinq ans qu'à Saint-Barthélemy. Un code local proche du CGI, mais pas identique.
-**Vérifié le 16 septembre 2026**
+**Meta** : Même statut et même règle des cinq ans qu'à Saint-Barthélemy, mais un code local qui prélève l'impôt sur le revenu et les droits de succession. L'inverse.
+**Vérifié le 21 septembre 2026**
 
 ### Le tableau de synthèse
 
@@ -235,13 +275,45 @@ Page **Cockpit stratégique** · articles **K9** (transmission outre-mer) et **K
 | Condition de résidence | **5 ans au moins** (art. LO 6314-4, I, 1° et 1° bis du CGCT) |
 | Convention avec l'État | Oui, réglant notamment la double imposition et l'échange de renseignements |
 | Particularité géographique | L'île est partagée avec la partie néerlandaise, **Sint Maarten**, qui relève d'un autre droit |
+| Impôt sur le revenu local | **Oui**, déclaratif et annuel |
+| Autres impôts locaux | Taxes foncières, droit de bail, plus-values immobilières, droits d'enregistrement, **droits de succession et de donation** |
+| Convention fiscale | Signée le **21 décembre 2010**, en vigueur au **1ᵉʳ mai 2011** |
 
 ### L'essentiel
 
 - Saint-Martin exerce une compétence fiscale propre depuis 2007, comme Saint-Barthélemy.
 - La même **condition de cinq ans de résidence** s'applique aux personnes arrivant d'un département de métropole ou d'outre-mer.
-- Le code local reprend largement l'architecture du Code général des impôts, avec des adaptations : il ne faut donc pas raisonner par analogie complète, ni supposer une rupture totale.
+- Le **Code général des impôts de Saint-Martin** reprend largement l'architecture du code français, avec des adaptations : il ne faut donc pas raisonner par analogie complète, ni supposer une rupture totale.
+- **Saint-Martin prélève un impôt sur le revenu local**, des taxes foncières, un droit de bail, une imposition des plus-values immobilières, des droits d'enregistrement et des **droits de succession et de donation**.
+- Une **convention fiscale** signée le 21 décembre 2010 et en vigueur au 1ᵉʳ mai 2011 règle la double imposition et l'échange de renseignements avec l'État.
 - La partie néerlandaise de l'île relève d'un **droit entièrement distinct** : une adresse à Sint Maarten n'est pas une adresse à Saint-Martin.
+
+### Deux îles, un même statut, deux fiscalités opposées
+
+C'est l'amalgame le plus coûteux du dossier, et il est aussi le plus compréhensible : Saint-Barthélemy et Saint-Martin partagent l'article 74 de la Constitution, la même loi organique de 2007, la même règle des cinq ans, et vingt-cinq kilomètres de mer.
+
+Ce qu'elles ont fait de leur compétence fiscale n'a pourtant rien de commun.
+
+| | Saint-Barthélemy | Saint-Martin |
+|---|---|---|
+| Impôt sur le revenu local | **Aucun** | **Oui**, déclaratif et annuel |
+| Droits de succession locaux | **Aucun** | **Oui** |
+| Impôt sur la fortune local | **Aucun** | Selon le code local |
+| Ce que la collectivité prélève | Droits de mutation à 5 %, plus-values immobilières, taxe de séjour | Un code général des impôts complet, proche du modèle français |
+| Règle des cinq ans | **Identique** | **Identique** |
+
+Autrement dit, la règle des cinq ans ouvre dans un cas sur une absence d'imposition, dans l'autre sur un système fiscal complet. Le statut constitutionnel ne dit rien du résultat : seule la lecture du code local le dit.
+
+**Un exemple chiffré**, pour un contribuable fiscalement domicilié en métropole qui s'installe le 1ᵉʳ janvier 2026.
+
+| Période | À Saint-Martin | À Saint-Barthélemy |
+|---|---|---|
+| 2026 à 2030 | Domicile fiscal **français** : impôt sur le revenu, impôt sur la fortune immobilière et droits de succession français | **Identique** |
+| À partir de 2031 | Domicile fiscal **local** : impôt sur le revenu de Saint-Martin, droits de succession et de donation locaux | Domicile fiscal local : **ni impôt sur le revenu, ni impôt sur la fortune, ni droits de succession** |
+
+Les cinq premières années sont donc strictement les mêmes des deux côtés de l'île française. C'est la sixième qui sépare les deux collectivités, et l'écart y est total.
+
+Une conséquence rarement anticipée : à Saint-Martin, la bascule au bout de cinq ans ne fait pas disparaître l'impôt, elle change d'administration. Il faut alors déclarer auprès de la collectivité, selon un code qui ressemble au code français sans lui être identique, et c'est précisément cette ressemblance qui fait commettre des erreurs.
 
 ### La règle des cinq ans
 
@@ -300,7 +372,7 @@ Un conseil ayant une pratique réelle des deux côtés de l'île, ce qui est un 
 
 ### Sources
 
-Code général des collectivités territoriales, article LO 6314-4, I, 1° et 1° bis · Loi n° 2007-223 du 21 février 2007 · Conseil d'État, avis du 20 novembre 2013, n° 369796 · Code général des impôts de Saint-Martin et services fiscaux de la collectivité, impots-saint-martin.fr · Convention fiscale entre l'État et la collectivité de Saint-Martin.
+[Code général des collectivités territoriales, article LO 6314-4](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000021746766) · [Convention fiscale entre l'État et la collectivité de Saint-Martin, signée le 21 décembre 2010, en vigueur au 1er mai 2011](https://www.impots.gouv.fr/sites/default/files/media/10_conventions/saint-martin/saint-martin_convention-avec-saint-martin-signee-le-21.12.2010-en-vigueur-au-01.05.2011_fd_6011.pdf) · [Administration fiscale de Saint-Martin, impôts des particuliers](https://www.impots-saint-martin.fr/fr/34-impots-des-particuliers.html) · Code général des collectivités territoriales, article LO 6314-4, I, 1° et 1° bis · Loi n° 2007-223 du 21 février 2007 · Conseil d'État, avis du 20 novembre 2013, n° 369796 · Code général des impôts de Saint-Martin et services fiscaux de la collectivité, impots-saint-martin.fr · Convention fiscale entre l'État et la collectivité de Saint-Martin.
 
 
 ### Liens internes
@@ -517,15 +589,59 @@ Page **Cockpit stratégique** · articles **I5** (conventions fiscales) et **K9*
 
 **URL** : /blog/fiscalite-nouvelle-caledonie · **Mot-clé** : fiscalité nouvelle-calédonie · **Page liée** : Cockpit stratégique
 **Title** : Nouvelle-Calédonie : fiscalité locale et convention
-**Meta** : Statut propre issu de l'accord de Nouméa et compétence fiscale pleine : impôts locaux sur le revenu et les sociétés, convention avec l'État.
-**Vérifié le 16 septembre 2026**
+**Meta** : La convention du 31 mars 1983 répartit le droit d'imposer entre l'État et la Nouvelle-Calédonie. Ce qu'elle prévoit, revenu par revenu, pour un patrimoine resté en métropole.
+**Vérifié le 21 septembre 2026**
+
+### Le tableau de synthèse
+
+| | |
+|---|---|
+| Statut | Propre, titre XIII de la Constitution, issu de l'accord de Nouméa |
+| Compétence fiscale | **Pleine** : impôt sur le revenu, impôt sur les sociétés et fiscalité indirecte locaux |
+| Application du Code général des impôts | **Non** |
+| Convention avec l'État | Signée le **31 mars 1983** à Nouméa et le 5 mai 1983, approuvée par la **loi n° 83-676 du 26 juillet 1983** |
+| Champ de la convention | Impôts sur le revenu, sur les sociétés, droits d'enregistrement, successions et donations |
+| Barème local | Article **136 I** du code des impôts de la Nouvelle-Calédonie, exprimé en francs CFP |
 
 ### L'essentiel
 
 - La Nouvelle-Calédonie relève d'un statut **propre**, inscrit au titre XIII de la Constitution et issu de l'accord de Nouméa.
-- Elle exerce une **compétence fiscale pleine** : impôt sur le revenu local, impôt sur les sociétés local, fiscalité indirecte locale.
-- Une **convention fiscale** lie l'État et la Nouvelle-Calédonie pour répartir le droit d'imposer et éviter les doubles impositions.
+- Elle exerce une **compétence fiscale pleine** : impôt sur le revenu local, impôt sur les sociétés local, fiscalité indirecte locale. Le Code général des impôts ne s'y applique pas.
+- Une **convention fiscale du 31 mars 1983**, approuvée par la loi du 26 juillet 1983, répartit le droit d'imposer et couvre aussi les **successions et donations**, ce qui est rare.
+- Elle plafonne notamment la retenue à la source sur les dividendes à **5 %** pour les sociétés et **15 %** pour les personnes physiques.
+- Le **barème local figure à l'article 136 I** du code des impôts calédonien : il est exprimé en francs CFP et ne peut être repris de mémoire. La Direction des services fiscaux met un simulateur officiel à disposition.
 - Le contexte institutionnel évolue : les contenus doivent être datés et révisés plus souvent qu'ailleurs.
+
+### Ce que la convention prévoit, revenu par revenu
+
+C'est la partie du dossier qui concerne directement un métropolitain installé sur le territoire, ou un Calédonien détenant un patrimoine en France. Elle est publique, datée, et son contenu ne dépend d'aucun code local.
+
+| Catégorie de revenu | Où il est imposable |
+|---|---|
+| Revenus immobiliers | Dans le territoire où le bien est **situé**, quel que soit le mode d'exploitation |
+| Dividendes | Principalement dans le territoire de **résidence du bénéficiaire**, avec une retenue à la source limitée à **5 %** pour les sociétés et **15 %** pour les personnes physiques |
+| Intérêts | **Exclusivement** dans le territoire du bénéficiaire, sans retenue à la source |
+| Pensions | **Exclusivement** dans le territoire de résidence du bénéficiaire |
+| Traitements et salaires | Dans le territoire où **l'activité s'exerce** |
+
+La double imposition s'élimine par deux méthodes selon les cas : l'**exonération** pour les revenus à imposition exclusive, l'**imputation** d'un crédit d'impôt pour les revenus partagés, limité au montant effectivement acquitté dans l'autre territoire.
+
+**Un exemple, lu dans ce tableau.** Un retraité métropolitain s'installe à Nouméa en conservant un appartement loué à Lyon.
+
+| | Où il est imposé |
+|---|---|
+| Sa pension de retraite française | **En Nouvelle-Calédonie**, exclusivement, selon le barème local |
+| Les loyers de son appartement lyonnais | **En France**, le bien y étant situé |
+
+Le cas est fréquent et souvent mal anticipé : le déménagement change le lieu d'imposition de la pension, pas celui des loyers.
+
+### Le barème local : où le trouver, et pourquoi il n'est pas reproduit ici
+
+Le barème de l'impôt sur le revenu calédonien figure à l'**article 136 I du code des impôts** de la Nouvelle-Calédonie. Il est exprimé en francs CFP et il évolue par délibérations du Congrès, qui ne sont pas publiées sur Légifrance.
+
+Une réforme portant le nombre de tranches de cinq à huit, avec un taux marginal supérieur porté à 45 %, a été annoncée par le gouvernement calédonien. Tant qu'elle n'est pas adoptée et vérifiable à la source, elle reste un projet.
+
+Le calcul se fait donc à partir du texte lui-même ou du **simulateur officiel de la Direction des services fiscaux**, et d'aucune autre source.
 
 ### Un système fiscal complet et distinct
 
@@ -600,7 +716,7 @@ Par trois vérifications, dans cet ordre. La **résidence** : à partir de quand
 
 ### Sources
 
-Constitution du 4 octobre 1958, titre XIII · Loi organique n° 99-209 du 19 mars 1999 relative à la Nouvelle-Calédonie · Code des impôts de la Nouvelle-Calédonie et délibérations du Congrès · Convention fiscale entre l'État et la Nouvelle-Calédonie · Direction des services fiscaux de la Nouvelle-Calédonie.
+[Convention fiscale entre la France et la Nouvelle-Calédonie, signée le 31 mars 1983 à Nouméa et le 5 mai 1983](https://www.impots.gouv.fr/sites/default/files/media/10_conventions/nouvelle-caledonie/nouvelle-caledonie_convention-avec-la-nouvelle-caledonie_fd_2175.pdf), approuvée par la [loi n° 83-676 du 26 juillet 1983](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000692494) · [BOI-INT-CVB-NCL, commentaire administratif de la convention](https://bofip.impots.gouv.fr/bofip/1771-PGP.html/identifiant=BOI-INT-CVB-NCL-20210224) · Code des impôts de la Nouvelle-Calédonie, **article 136 I** pour le barème de l'impôt sur le revenu · [Direction des services fiscaux de la Nouvelle-Calédonie](https://dsf.gouv.nc/particuliers-impots-et-taxes/impot-sur-le-revenu/calculer-mon-impot-sur-le-revenu) et son simulateur officiel · Constitution du 4 octobre 1958, titre XIII, et accord de Nouméa.
 
 ### Liens internes
 
@@ -697,15 +813,42 @@ articles **K5** et **K8**.
 ## K8 — Investir outre-mer : les dispositifs de réduction d'impôt
 
 **URL** : /blog/defiscalisation-outre-mer-dispositifs · **Mot-clé** : défiscalisation outre-mer · **Page liée** : Cockpit stratégique · **Outil** : Impôt sur le revenu
-**Meta** : Articles 199 undecies B et C : des niches à plafond majoré, ouvertes jusqu'en 2029 pour les investissements productifs. Et le risque de reprise.
-**Vérifié le 16 septembre 2026**
+**Meta** : Un plafond de niches porté à 18 000 €, mais qui autorise en réalité 40 909 € de réduction, voire 52 941 € sous agrément. Le mécanisme, et le risque de reprise.
+**Vérifié le 21 septembre 2026**
 
 ### L'essentiel
 
-- Les dispositifs outre-mer figurent parmi les **rares niches à plafond majoré** du droit fiscal français.
-- Les principaux reposent sur les articles **199 undecies B** et **199 undecies C** du Code général des impôts, ainsi que sur des dispositifs de crédit d'impôt.
-- Le dispositif de réduction d'impôt au titre des investissements productifs neufs est ouvert, pour les entreprises soumises à l'impôt sur le revenu, **jusqu'au 31 décembre 2029**.
+- Les dispositifs outre-mer figurent parmi les **rares niches à plafond majoré** : **18 000 €** par an, contre 10 000 € pour le droit commun.
+- Ce plafond de 18 000 € ne porte que sur la **fraction conservée** par l'investisseur. La part rétrocédée à l'exploitant ultramarin n'y entre pas, ce qui autorise une réduction de **40 909 €** en plein droit et **52 941 €** sous agrément.
+- La **rétrocession minimale** est de 56 % pour un programme inférieur à 300 000 €, et de 66 % au-delà.
+- Un **agrément de la DGFiP** est obligatoire au-delà de **250 000 €** de programme, ministériel au-delà d'un million.
+- Le taux de base de la réduction reste à **38,25 %** : l'article 7 du projet de loi de finances pour 2026, qui prévoyait de le ramener à 27,25 %, a été **retiré** au cours des débats.
+- Le dispositif de l'article 199 undecies B est ouvert, pour les entreprises soumises à l'impôt sur le revenu, **jusqu'au 31 décembre 2029**.
 - Ces dispositifs comportent un risque réel de **reprise** de l'avantage fiscal : c'est le point qui décide, pas le taux affiché.
+
+### Le plafond de 18 000 € n'est pas ce qu'il dit
+
+C'est le mécanisme le plus mal compris, et celui qui explique l'intérêt de ces dispositifs pour un contribuable fortement imposé.
+
+L'article 200-0 A du Code général des impôts plafonne à **10 000 €** par foyer et par an le total des réductions et crédits d'impôt. Les investissements outre-mer, comme les SOFICA, relèvent d'un plafond majoré de **18 000 €**.
+
+Mais la loi impose de **rétrocéder** à l'exploitant ultramarin une part de l'avantage fiscal, et cette part ne compte pas dans le plafond. Seule la fraction que l'investisseur conserve s'y impute.
+
+**Un exemple chiffré.** Un investisseur obtient 40 000 € de réduction d'impôt sur un programme de plein droit.
+
+| | Montant | Compte dans le plafond ? |
+|---|---|---|
+| Rétrocédé à l'exploitant, 56 % | 22 400 € | **Non** |
+| Conservé par l'investisseur, 44 % | 17 600 € | **Oui**, sous les 18 000 € |
+
+Le plafond de 18 000 € autorise donc, en pratique :
+
+| Régime | Rétrocession | Fraction retenue | Réduction maximale |
+|---|---|---|---|
+| Plein droit, programme sous 300 000 € | 56 % | 44 % | **40 909 €** |
+| Sous agrément, programme d'au moins 300 000 € | 66 % | 34 % | **52 941 €** |
+
+Soit quatre à cinq fois le plafond de droit commun de 10 000 €. C'est la seule niche du droit français à offrir cet écart, et c'est la raison d'être du dispositif.
 
 ### La logique des dispositifs
 
@@ -719,13 +862,19 @@ Deux familles se distinguent.
 
 ### Les principaux textes
 
-**L'article 199 undecies B** ouvre une réduction d'impôt au titre des **investissements productifs neufs** réalisés outre-mer dans certains secteurs. Pour les entreprises soumises à l'impôt sur le revenu, il est ouvert jusqu'au 31 décembre 2029.
+**L'article 199 undecies B** ouvre une réduction d'impôt au titre des **investissements productifs neufs** réalisés outre-mer dans certains secteurs, au taux de base de **38,25 %**. Pour les entreprises soumises à l'impôt sur le revenu, il est ouvert jusqu'au **31 décembre 2029**.
+
+Son alinéa 26 fixe la rétrocession minimale : **56 %** pour un programme inférieur à 300 000 €, **66 %** à partir de ce montant. L'agrément préalable de la DGFiP devient obligatoire au-delà de **250 000 €**, et l'agrément ministériel au-delà d'un million.
+
+Ces deux seuils ne coïncident pas, et c'est une source de confusion fréquente : un programme compris entre **250 000 et 300 000 €** exige un agrément tout en conservant une rétrocession de 56 %.
 
 **L'article 199 undecies C** vise le **logement social** outre-mer.
 
 **L'article 44 quaterdecies** organise l'abattement sur les bénéfices des entreprises implantées en **zone franche d'activité nouvelle génération** dans les DROM.
 
-Des **crédits d'impôt** existent par ailleurs, notamment pour les entreprises réalisant elles-mêmes les investissements.
+Des **crédits d'impôt** existent par ailleurs, notamment aux articles 244 quater W et 244 quater Y, pour les entreprises réalisant elles-mêmes les investissements.
+
+**Ce qui a failli changer en 2026.** L'article 7 du projet de loi de finances pour 2026 prévoyait de ramener le taux de base de 38,25 % à 27,25 %. Il a été retiré au cours des débats parlementaires et ne figure pas dans la loi de finances adoptée. Le taux est donc inchangé, mais l'épisode dit ce qu'il faut savoir de ces dispositifs : ils sont remis en cause à chaque loi de finances.
 
 Les taux, plafonds, conditions d'agrément et secteurs éligibles sont détaillés au BOFiP et évoluent à chaque loi de finances. Ils doivent être vérifiés à la date de l'opération.
 
@@ -791,7 +940,7 @@ Techniquement oui, mais le plafonnement global des avantages fiscaux s'applique 
 
 ### Sources
 
-Code général des impôts, articles 199 undecies B, 199 undecies C, 217 undecies, 244 quater W et 44 quaterdecies · BOFiP, dispositifs d'aide fiscale à l'investissement outre-mer · impots.gouv.fr, avantages fiscaux liés à une activité dans les DOM · Code général des impôts, article 200-0 A sur le plafonnement global des avantages fiscaux.
+Code général des impôts, articles 199 undecies B, dont l'alinéa 26 pour les taux de rétrocession, 199 undecies C, 217 undecies, 244 quater W, 244 quater Y et 44 quaterdecies · Code général des impôts, **article 200-0 A** sur le plafonnement global des avantages fiscaux, 10 000 € de droit commun et 18 000 € pour l'outre-mer · [Seuils de rétrocession, seuils d'agrément et fractions retenues pour le plafond](https://www.hagnere-patrimoine.fr/guides-patrimoine/defiscalisation/girardin-industriel/girardin-plein-droit-vs-agrement) · Projet de loi de finances pour 2026, article 7, retiré au cours des débats · BOFiP, dispositifs d'aide fiscale à l'investissement outre-mer · impots.gouv.fr, avantages fiscaux liés à une activité dans les DOM.
 
 
 ### Liens internes

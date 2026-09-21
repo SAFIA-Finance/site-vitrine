@@ -2,16 +2,19 @@
 code: "K2"
 titre: "Saint-Barthélemy : autonomie fiscale et règle des cinq ans"
 titreSeo: "Saint-Barthélemy : autonomie fiscale et règle des cinq ans"
-description: "Compétence fiscale propre depuis 2007, mais domicile fiscal local reconnu seulement après cinq ans de résidence. La règle découverte trop tard."
+description: "Ni impôt sur le revenu, ni IFI, ni droits de succession. Mais le domicile fiscal local n'est reconnu qu'après cinq ans : une salle d'attente fiscale."
 categorie: "Outre-mer"
 date: 2026-09-16
-lecture: 5
-mots: 916
+lecture: 6
+mots: 1166
 essentiel:
   - "Saint-Barthélemy dispose de sa **propre compétence fiscale** depuis 2007 : le Code général des impôts ne s'y applique pas, sauf mention expresse."
   - "Une personne physique ne peut être regardée comme fiscalement domiciliée à Saint-Barthélemy **qu'après cinq ans de résidence**."
   - "Avant ce délai, elle demeure fiscalement domiciliée en France au sens du Code général des impôts."
-  - "C'est la règle la plus structurante de tout le dossier, et celle qui est le plus souvent découverte trop tard."
+  - "Une fois le délai passé, la collectivité ne prélève **ni impôt sur le revenu, ni impôt sur la fortune, ni droits de succession**."
+  - "Ce qu'elle prélève est ailleurs : des **droits de mutation immobilière de 5 %**, l'imposition des **plus-values immobilières** sur les cessions intervenant dans les dix-huit ans, et une **taxe de séjour de 5 %**."
+  - "Les **cotisations sociales** restent de la compétence exclusive de l'État : l'autonomie fiscale ne s'étend pas au social."
+  - "C'est la règle des cinq ans qui est la plus structurante de tout le dossier, et celle qui est le plus souvent découverte trop tard."
 faq:
   - q: "Le Code général des impôts s'applique-t-il à Saint-Barthélemy ?"
     r: "Non, sauf mention expresse. La collectivité exerce sa propre compétence fiscale depuis 2007, et son Code de contributions se substitue au CGI pour les personnes fiscalement domiciliées sur le territoire. Encore faut-il l'être, ce que la règle des cinq ans retarde."
@@ -28,10 +31,10 @@ articlesLies:
   - "transmission-patrimoine-outre-mer"
   - "fiscalite-outre-mer-panorama"
 seoDerive: true
-sources: "Code général des collectivités territoriales, article LO 6214-4, modifié par la loi n° 2015-1485 du 17 novembre 2015, article 7 · Loi n° 2007-223 du 21 février 2007 portant dispositions statutaires et institutionnelles relatives à l'outre-mer · Code de contributions de Saint-Barthélemy, articles 2 et 4 · Conseil d'État, avis du 20 novembre 2013, n° 369796 · Rescrit publié au BOFiP le 23 octobre 2024 relatif à l'intégration fiscale des sociétés établies à Saint-Barthélemy · Services fiscaux de la collectivité de Saint-Barthélemy."
+sources: "Code général des collectivités territoriales, article LO 6214-4, modifié par la loi n° 2015-1485 du 17 novembre 2015, article 7, et article LO 6214-4-1, 3°, réservant les cotisations sociales à l'État · [Code des contributions de Saint-Barthélemy, annexé à la délibération n° 2024-038 CT](https://actes.eservices-comstbarth.fr/PJ/Deliberation%20CT/Deliberation%20CT_2024/2024_038ct_annexe.pdf) · Loi n° 2007-223 du 21 février 2007 portant dispositions statutaires et institutionnelles relatives à l'outre-mer · Code de contributions de Saint-Barthélemy, articles 2 et 4 · Conseil d'État, avis du 20 novembre 2013, n° 369796 · Rescrit publié au BOFiP le 23 octobre 2024 relatif à l'intégration fiscale des sociétés établies à Saint-Barthélemy · Services fiscaux de la collectivité de Saint-Barthélemy."
 ---
 
-**Vérifié le 16 septembre 2026**
+**Vérifié le 21 septembre 2026**
 
 ## Le tableau de synthèse
 
@@ -44,6 +47,26 @@ sources: "Code général des collectivités territoriales, article LO 6214-4, mo
 | Condition de résidence, personnes morales | Siège de direction effective depuis **5 ans**, ou siège de direction effective et contrôle par des personnes physiques résidentes depuis 5 ans |
 | Critères de résidence retenus localement | Alignés sur ceux de l'article 4 B du CGI |
 | Échange d'informations avec l'État | Prévu par l'article LO 6214-4 du CGCT |
+| Impôt sur le revenu local | **Aucun** |
+| Impôt sur la fortune local | **Aucun** |
+| Droits de succession locaux | **Aucun** |
+| Ce que la collectivité prélève | Droits de mutation immobilière de **5 %**, imposition des plus-values immobilières sur les cessions intervenues dans les **18 ans**, taxe de séjour de **5 %** |
+| Cotisations sociales | **Compétence exclusive de l'État**, article LO 6214-4-1, 3° |
+
+## Les cinq ans : une salle d'attente, pas une formalité
+
+La règle ne retarde pas un avantage, elle maintient intégralement l'autre régime pendant cinq ans.
+
+**Un exemple chiffré.** Un cadre fiscalement domicilié en métropole s'installe à Saint-Barthélemy le 1ᵉʳ janvier 2026.
+
+| Période | Domicile fiscal | Ce qui s'applique |
+|---|---|---|
+| 2026 à 2030 | **France** | Impôt sur le revenu français, impôt sur la fortune immobilière, droits de succession français, comme s'il n'était pas parti |
+| À partir de 2031 | **Saint-Barthélemy** | Ni impôt sur le revenu, ni impôt sur la fortune, ni droits de succession locaux |
+
+La bascule est totale et elle est datée. Entre les deux, le crédit d'impôt prévu par le dispositif évite la double imposition sur les revenus de source locale, mais il ne raccourcit pas le délai d'un jour.
+
+Conséquence pratique : un projet de cession, de donation ou de transmission conçu pour bénéficier du régime local doit être calé **après** la cinquième année, pas avant. Une donation consentie la quatrième année relève du barème français.
 
 ## La règle des cinq ans, telle qu'elle est écrite
 

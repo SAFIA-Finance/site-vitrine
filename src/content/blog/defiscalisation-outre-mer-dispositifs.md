@@ -2,15 +2,18 @@
 code: "K8"
 titre: "Investir outre-mer : les dispositifs de réduction d'impôt"
 titreSeo: "Investir outre-mer : les dispositifs de réduction d'impôt"
-description: "Articles 199 undecies B et C : des niches à plafond majoré, ouvertes jusqu'en 2029 pour les investissements productifs. Et le risque de reprise."
+description: "Un plafond de niches porté à 18 000 €, mais qui autorise en réalité 40 909 € de réduction, voire 52 941 € sous agrément. Le mécanisme, et le risque de reprise."
 categorie: "Outre-mer"
 date: 2026-09-16
-lecture: 4
-mots: 736
+lecture: 6
+mots: 1161
 essentiel:
-  - "Les dispositifs outre-mer figurent parmi les **rares niches à plafond majoré** du droit fiscal français."
-  - "Les principaux reposent sur les articles **199 undecies B** et **199 undecies C** du Code général des impôts, ainsi que sur des dispositifs de crédit d'impôt."
-  - "Le dispositif de réduction d'impôt au titre des investissements productifs neufs est ouvert, pour les entreprises soumises à l'impôt sur le revenu, **jusqu'au 31 décembre 2029**."
+  - "Les dispositifs outre-mer figurent parmi les **rares niches à plafond majoré** : **18 000 €** par an, contre 10 000 € pour le droit commun."
+  - "Ce plafond de 18 000 € ne porte que sur la **fraction conservée** par l'investisseur. La part rétrocédée à l'exploitant ultramarin n'y entre pas, ce qui autorise une réduction de **40 909 €** en plein droit et **52 941 €** sous agrément."
+  - "La **rétrocession minimale** est de 56 % pour un programme inférieur à 300 000 €, et de 66 % au-delà."
+  - "Un **agrément de la DGFiP** est obligatoire au-delà de **250 000 €** de programme, ministériel au-delà d'un million."
+  - "Le taux de base de la réduction reste à **38,25 %** : l'article 7 du projet de loi de finances pour 2026, qui prévoyait de le ramener à 27,25 %, a été **retiré** au cours des débats."
+  - "Le dispositif de l'article 199 undecies B est ouvert, pour les entreprises soumises à l'impôt sur le revenu, **jusqu'au 31 décembre 2029**."
   - "Ces dispositifs comportent un risque réel de **reprise** de l'avantage fiscal : c'est le point qui décide, pas le taux affiché."
 faq:
   - q: "Quelle différence entre le dispositif de droit commun et le montage « one shot » ?"
@@ -36,10 +39,34 @@ articlesLies:
   - "fiscalite-saint-barthelemy"
   - "fiscalite-wallis-futuna-saint-pierre-miquelon"
 seoDerive: true
-sources: "Code général des impôts, articles 199 undecies B, 199 undecies C, 217 undecies, 244 quater W et 44 quaterdecies · BOFiP, dispositifs d'aide fiscale à l'investissement outre-mer · impots.gouv.fr, avantages fiscaux liés à une activité dans les DOM · Code général des impôts, article 200-0 A sur le plafonnement global des avantages fiscaux."
+sources: "Code général des impôts, articles 199 undecies B, dont l'alinéa 26 pour les taux de rétrocession, 199 undecies C, 217 undecies, 244 quater W, 244 quater Y et 44 quaterdecies · Code général des impôts, **article 200-0 A** sur le plafonnement global des avantages fiscaux, 10 000 € de droit commun et 18 000 € pour l'outre-mer · [Seuils de rétrocession, seuils d'agrément et fractions retenues pour le plafond](https://www.hagnere-patrimoine.fr/guides-patrimoine/defiscalisation/girardin-industriel/girardin-plein-droit-vs-agrement) · Projet de loi de finances pour 2026, article 7, retiré au cours des débats · BOFiP, dispositifs d'aide fiscale à l'investissement outre-mer · impots.gouv.fr, avantages fiscaux liés à une activité dans les DOM."
 ---
 
-**Vérifié le 16 septembre 2026**
+**Vérifié le 21 septembre 2026**
+
+## Le plafond de 18 000 € n'est pas ce qu'il dit
+
+C'est le mécanisme le plus mal compris, et celui qui explique l'intérêt de ces dispositifs pour un contribuable fortement imposé.
+
+L'article 200-0 A du Code général des impôts plafonne à **10 000 €** par foyer et par an le total des réductions et crédits d'impôt. Les investissements outre-mer, comme les SOFICA, relèvent d'un plafond majoré de **18 000 €**.
+
+Mais la loi impose de **rétrocéder** à l'exploitant ultramarin une part de l'avantage fiscal, et cette part ne compte pas dans le plafond. Seule la fraction que l'investisseur conserve s'y impute.
+
+**Un exemple chiffré.** Un investisseur obtient 40 000 € de réduction d'impôt sur un programme de plein droit.
+
+| | Montant | Compte dans le plafond ? |
+|---|---|---|
+| Rétrocédé à l'exploitant, 56 % | 22 400 € | **Non** |
+| Conservé par l'investisseur, 44 % | 17 600 € | **Oui**, sous les 18 000 € |
+
+Le plafond de 18 000 € autorise donc, en pratique :
+
+| Régime | Rétrocession | Fraction retenue | Réduction maximale |
+|---|---|---|---|
+| Plein droit, programme sous 300 000 € | 56 % | 44 % | **40 909 €** |
+| Sous agrément, programme d'au moins 300 000 € | 66 % | 34 % | **52 941 €** |
+
+Soit quatre à cinq fois le plafond de droit commun de 10 000 €. C'est la seule niche du droit français à offrir cet écart, et c'est la raison d'être du dispositif.
 
 ## La logique des dispositifs
 
@@ -53,13 +80,19 @@ Deux familles se distinguent.
 
 ## Les principaux textes
 
-**L'article 199 undecies B** ouvre une réduction d'impôt au titre des **investissements productifs neufs** réalisés outre-mer dans certains secteurs. Pour les entreprises soumises à l'impôt sur le revenu, il est ouvert jusqu'au 31 décembre 2029.
+**L'article 199 undecies B** ouvre une réduction d'impôt au titre des **investissements productifs neufs** réalisés outre-mer dans certains secteurs, au taux de base de **38,25 %**. Pour les entreprises soumises à l'impôt sur le revenu, il est ouvert jusqu'au **31 décembre 2029**.
+
+Son alinéa 26 fixe la rétrocession minimale : **56 %** pour un programme inférieur à 300 000 €, **66 %** à partir de ce montant. L'agrément préalable de la DGFiP devient obligatoire au-delà de **250 000 €**, et l'agrément ministériel au-delà d'un million.
+
+Ces deux seuils ne coïncident pas, et c'est une source de confusion fréquente : un programme compris entre **250 000 et 300 000 €** exige un agrément tout en conservant une rétrocession de 56 %.
 
 **L'article 199 undecies C** vise le **logement social** outre-mer.
 
 **L'article 44 quaterdecies** organise l'abattement sur les bénéfices des entreprises implantées en **zone franche d'activité nouvelle génération** dans les DROM.
 
-Des **crédits d'impôt** existent par ailleurs, notamment pour les entreprises réalisant elles-mêmes les investissements.
+Des **crédits d'impôt** existent par ailleurs, notamment aux articles 244 quater W et 244 quater Y, pour les entreprises réalisant elles-mêmes les investissements.
+
+**Ce qui a failli changer en 2026.** L'article 7 du projet de loi de finances pour 2026 prévoyait de ramener le taux de base de 38,25 % à 27,25 %. Il a été retiré au cours des débats parlementaires et ne figure pas dans la loi de finances adoptée. Le taux est donc inchangé, mais l'épisode dit ce qu'il faut savoir de ces dispositifs : ils sont remis en cause à chaque loi de finances.
 
 Les taux, plafonds, conditions d'agrément et secteurs éligibles sont détaillés au BOFiP et évoluent à chaque loi de finances. Ils doivent être vérifiés à la date de l'opération.
 
