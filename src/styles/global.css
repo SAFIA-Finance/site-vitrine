@@ -1832,14 +1832,18 @@ main:has(.fil){position:relative}
    Le filet vertical reprend le degrade de marque, comme le rail de la frise :
    la page garde un seul langage. Classes prefixees « origine- ».
 
-   Padding-top a zero : ce bloc tombe juste apres le hero et n'a pas besoin des
-   96 px habituels, la citation doit arriver vite. */
+   Padding-top reduit : ce bloc tombe juste apres le hero et n'a pas besoin des
+   96 px habituels, la citation doit arriver vite. Mais il ne peut pas etre a
+   zero : le bloc precedent est violet, et a zero le filet degrade de la
+   citation demarre pile sur la frontiere de couleur, donc il touche le violet.
+   La citation lit alors comme un texte orphelin colle au bord. 72 px la
+   decollent sans casser l'enchainement. */
 /* Jonction origine -> constat. Mesure : 260 px de vide entre la fin de la
    citation et le titre suivant, soit deux respirations de section qui
    s'additionnent. Les deux textes se repondent : ils doivent se suivre.
    Le selecteur vise la section QUI SUIT l'origine, jamais « .bloc » en
    general, qui sert sur tout le site. */
-section.origine-bloc{padding-top:0;padding-bottom:40px}
+section.origine-bloc{padding-top:72px;padding-bottom:40px}
 section.origine-bloc + section.bloc{padding-top:0}
 .origine-cit{max-width:620px;margin:0;padding-left:26px;border-left:3px solid transparent;border-image:linear-gradient(180deg,var(--indigo),var(--rose)) 1}
 .origine-cit blockquote{margin:0}
@@ -1849,6 +1853,7 @@ section.origine-bloc + section.bloc{padding-top:0}
 .origine-role{font-size:14.5px;color:var(--encre-2)}
 .origine-suite{margin-top:26px;font-size:19px;font-weight:600;color:var(--indigo)}
 @media (max-width:760px){
+  section.origine-bloc{padding-top:56px}
   .origine-cit{max-width:none;padding-left:18px}
   .origine-cit blockquote p{font-size:1.32rem}
 }
