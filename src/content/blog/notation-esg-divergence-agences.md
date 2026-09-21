@@ -2,11 +2,11 @@
 code: "H4"
 titre: "Notation ESG : pourquoi deux agences donnent deux notes opposées"
 titreSeo: "Notation ESG : pourquoi les agences se contredisent"
-description: "Une entreprise peut être bien notée par une agence et mal par une autre. Les trois causes de cette divergence, et comment lire une note ESG."
+description: "La corrélation entre agences ESG est de 0,54, contre 0,99 entre agences de notation financière. Les trois causes, et ce que change le règlement de juillet 2026."
 categorie: "ESG et impact"
 date: 2026-09-14
-lecture: 4
-mots: 819
+lecture: 6
+mots: 1161
 essentiel:
   - "Les notations ESG de deux agences sur une même entreprise sont **faiblement corrélées**, là où les notations de crédit le sont très fortement."
   - "Trois causes : **ce qui est mesuré**, **comment c'est mesuré**, **quel poids est donné à quoi**."
@@ -35,8 +35,36 @@ pages:
 articlesLies:
   - "sfdr-article-8-article-9"
   - "greenwashing-signaux-fonds"
-sources: "Berg, Kölbel et Rigobon, *Aggregate Confusion: The Divergence of ESG Ratings*, MIT Sloan · Règlement européen sur les activités de notation ESG · Directive CSRD, principe de double matérialité · Méthodologies publiques des agences de notation extra-financière."
+sources: "[Berg, Kölbel et Rigobon, *Aggregate Confusion: The Divergence of ESG Ratings*, Review of Finance, 2022](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3438533), pour la corrélation moyenne de 0,54 et la décomposition de la divergence · [Projet *Aggregate Confusion*, MIT Sloan Sustainability Initiative](https://mitsloan.mit.edu/sustainability-initiative/aggregate-confusion-project) · [Règlement (UE) 2024/3005 du 27 novembre 2024 sur la transparence et l'intégrité des activités de notation ESG](https://eur-lex.europa.eu/eli/reg/2024/3005/oj/eng), applicable depuis le 2 juillet 2026 · [Déclaration publique de l'ESMA du 1er juillet 2026 sur la période transitoire](https://www.esma.europa.eu/sites/default/files/2026-07/ESMA84-1427279869-1396_Public_Statement_on_Publication_or_distribution_of_ESG_ratings_by_third_parties_in_the_period_from_2_July_2026_until_authorisation__recogniti.pdf) · Berg, Kölbel et Rigobon, *Aggregate Confusion: The Divergence of ESG Ratings*, MIT Sloan · Règlement européen sur les activités de notation ESG · Directive CSRD, principe de double matérialité · Méthodologies publiques des agences de notation extra-financière."
 ---
+
+## Le tableau de synthèse
+
+| | |
+|---|---|
+| Corrélation moyenne entre agences ESG | **0,54**, mesurée par Berg, Kölbel et Rigobon (2022), portée à 0,56 dans la mise à jour de 2025 |
+| Corrélation entre agences de notation financière | Proche de **0,99** |
+| Cause principale de l'écart | La **mesure** : 56 % de la divergence |
+| Deuxième cause | Le **périmètre** retenu : 38 % |
+| Troisième cause | La **pondération** des critères : 6 % |
+| Encadrement européen | Règlement **(UE) 2024/3005**, applicable depuis le **2 juillet 2026** |
+| Agrément | Délivré par l'**ESMA**. Les fournisseurs déjà actifs au 2 janvier 2025 devaient se déclarer avant le 2 août 2026 |
+
+## Ce que le chiffre dit, et ce qu'il ne dit pas
+
+Une corrélation de **0,54** signifie que deux agences classent les mêmes entreprises dans un ordre qui se ressemble à peine plus qu'une pièce lancée ne ressemble à une autre. Pour comparaison, deux agences de notation financière notant la même dette obligataire aboutissent à des classements corrélés à près de **0,99**.
+
+La différence ne tient pas au sérieux des agences ESG. Elle tient à l'objet : une notation de crédit mesure **une** probabilité, le défaut. Une notation ESG agrège des dizaines d'indicateurs dont personne ne s'accorde sur la liste.
+
+La décomposition de l'écart, établie par la même étude, est instructive parce qu'elle contredit l'intuition courante.
+
+| Source de la divergence | Part |
+|---|---|
+| **La mesure** : deux agences évaluent le même critère et n'obtiennent pas le même résultat | **56 %** |
+| **Le périmètre** : elles ne retiennent pas les mêmes critères | **38 %** |
+| **La pondération** : elles ne leur donnent pas le même poids | **6 %** |
+
+On impute spontanément la divergence aux pondérations, c'est à dire aux choix de valeurs de chaque agence. C'est la plus petite cause. **L'essentiel vient de la mesure elle-même** : sur un même critère, avec la même entreprise, deux agences n'arrivent pas au même chiffre.
 
 ## Le constat qui surprend
 

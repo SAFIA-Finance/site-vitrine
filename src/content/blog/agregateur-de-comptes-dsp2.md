@@ -5,8 +5,8 @@ titreSeo: "Agrégateur de comptes : fonctionnement et sécurité"
 description: "Depuis la DSP2, tes banques doivent ouvrir un accès sécurisé à tes données. Comment fonctionne un agrégateur, ce qu'il voit, et ce qu'il ne peut pas faire."
 categorie: "Comparaison et décision"
 date: 2026-09-14
-lecture: 5
-mots: 943
+lecture: 7
+mots: 1429
 essentiel:
   - "La **deuxième directive sur les services de paiement** oblige les banques à donner accès à tes données de compte, avec ton consentement, via des interfaces dédiées."
   - "Un agrégateur agréé accède **en lecture seule** : il voit les soldes et les opérations, il ne peut pas initier de virement dans ce cadre."
@@ -31,8 +31,48 @@ pages:
 articlesLies:
   - "bilan-patrimonial-contenu"
   - "epargne-de-precaution-combien"
-sources: "[Directive (UE) 2015/2366](https://eur-lex.europa.eu/eli/dir/2015/2366/oj) dite DSP2 · [Règlement délégué (UE) 2018/389](https://eur-lex.europa.eu/eli/reg_del/2018/389/oj) sur l'authentification forte du client · Code monétaire et financier, articles L. 522-1 et suivants · Registres des agents financiers tenus par les autorités de supervision."
+sources: "**Directive (UE) 2015/2366** du 25 novembre 2015 sur les services de paiement, dite DSP2, entrée en application le 13 janvier 2018, article 33 pour les prestataires de services d'information sur les comptes · **Règlement délégué (UE) 2018/389** sur l'authentification forte du client, applicable depuis le 14 septembre 2019 · [ACPR, directive sur les services de paiement (DSP2)](https://acpr.banque-france.fr/fr/reglementation/focus-sur-la-reglementation/bancaire-et-financiere/directive-sur-les-services-de-paiement-dsp2) · [Directive (UE) 2015/2366](https://eur-lex.europa.eu/eli/dir/2015/2366/oj) dite DSP2 · [Règlement délégué (UE) 2018/389](https://eur-lex.europa.eu/eli/reg_del/2018/389/oj) sur l'authentification forte du client · Code monétaire et financier, articles L. 522-1 et suivants · Registres des agents financiers tenus par les autorités de supervision."
 ---
+
+## Le tableau de synthèse
+
+| | |
+|---|---|
+| Texte fondateur | **Directive (UE) 2015/2366** du 25 novembre 2015, dite DSP2 |
+| Entrée en application | **13 janvier 2018** |
+| Statut de l'agrégateur | **Prestataire de services d'information sur les comptes**, créé par la directive |
+| Authentification forte | Imposée par le **règlement délégué (UE) 2018/389**, applicable depuis le **14 septembre 2019** |
+| Ce que la directive oblige les banques à faire | Ouvrir un accès à des prestataires agréés, sans contrat préalable avec elles |
+| Contrôle en France | **ACPR** |
+
+## Ce que la DSP2 a réellement changé
+
+Avant 2018, un agrégateur récupérait les données d'un compte en se connectant à la place du client, avec ses identifiants. La pratique fonctionnait, et elle était juridiquement inconfortable pour tout le monde : le client communiquait ses codes à un tiers, la banque n'avait aucune obligation de coopérer, et rien n'encadrait le prestataire.
+
+La **directive (UE) 2015/2366**, entrée en application le **13 janvier 2018**, a fait trois choses à la fois.
+
+| Ce qu'elle a créé | Effet |
+|---|---|
+| Un **statut agréé** de prestataire de services d'information sur les comptes | L'agrégateur devient un acteur régulé, contrôlé en France par l'ACPR |
+| Une **obligation d'accès** à la charge des banques | Elles doivent ouvrir un canal technique à ces prestataires, sans pouvoir exiger un contrat préalable |
+| Une **authentification forte**, imposée par le règlement délégué (UE) 2018/389 depuis le **14 septembre 2019** | Le client s'authentifie auprès de sa banque, et ne confie plus ses identifiants au prestataire |
+
+Le point souvent manqué est le deuxième. Ce n'est pas une tolérance des banques : c'est une **obligation légale** qui pèse sur elles. Un agrégateur agréé n'a pas à négocier son accès, et un établissement qui le refuse est en infraction.
+
+**Ce que ça change concrètement**, pour quelqu'un dont le patrimoine est réparti entre quatre établissements.
+
+| | Avant le 13 janvier 2018 | Aujourd'hui |
+|---|---|---|
+| Ce que vous confiez à l'agrégateur | Vos **identifiants bancaires** | Rien. Vous vous authentifiez auprès de **votre banque** |
+| Ce que la banque doit faire | Rien. Elle peut bloquer l'accès | **Ouvrir un canal technique** à tout prestataire agréé |
+| Qui contrôle le prestataire | Personne en particulier | L'**ACPR**, au titre de son agrément |
+| Ce qu'un refus d'accès constitue | Une décision commerciale | Une **infraction** |
+
+Deux limites subsistent, et elles sont souvent mal comprises.
+
+L'agrégation donne accès aux **comptes de paiement**, pas nécessairement à tout : un contrat d'assurance-vie ou un compte-titres ne relève pas du même cadre, et sa récupération dépend d'accords particuliers avec le producteur.
+
+Et le **consentement se renouvelle** : l'accès n'est pas permanent, il se ré-autorise périodiquement auprès de la banque. C'est la cause la plus fréquente des agrégations qui « décrochent » sans raison apparente.
 
 ## Ce que la DSP2 a changé
 

@@ -5,8 +5,8 @@ titreSeo: "Succession internationale : quel droit s'applique"
 description: "La loi applicable est celle de la résidence habituelle du défunt. L'option pour la loi nationale, et la confusion entre loi civile et loi fiscale."
 categorie: "Donation et succession"
 date: 2026-09-16
-lecture: 5
-mots: 904
+lecture: 7
+mots: 1496
 essentiel:
   - "Depuis le règlement européen « Successions », la loi applicable est celle de la **résidence habituelle** du défunt au jour du décès, pour l'ensemble de la succession."
   - "Une **option pour la loi nationale** est possible, exprimée dans une disposition à cause de mort."
@@ -29,8 +29,47 @@ pages:
 articlesLies:
   - "testament-quel-type-choisir"
   - "donation-dernier-vivant"
-sources: "Règlement (UE) n° 650/2012 du 4 juillet 2012 relatif aux successions et au certificat successoral européen · Code général des impôts, article 750 ter · Conventions fiscales bilatérales françaises en matière de successions · BOFiP, territorialité des droits de mutation à titre gratuit."
+sources: "[Règlement (UE) n° 650/2012 du 4 juillet 2012 sur les successions internationales](https://eur-lex.europa.eu/eli/reg/2012/650/oj?locale=fr), applicable aux successions ouvertes à compter du 17 août 2015, articles 21 pour la résidence habituelle, 22 pour la *professio juris* et 62 et suivants pour le certificat successoral européen · **Code général des impôts, article 750 ter**, pour la territorialité des droits de mutation à titre gratuit · Règlement (UE) n° 650/2012 du 4 juillet 2012 relatif aux successions et au certificat successoral européen · Code général des impôts, article 750 ter · Conventions fiscales bilatérales françaises en matière de successions · BOFiP, territorialité des droits de mutation à titre gratuit."
 ---
+
+## Le tableau de synthèse
+
+| | |
+|---|---|
+| Texte applicable | **Règlement (UE) n° 650/2012** du 4 juillet 2012, dit « Bruxelles IV » |
+| Successions concernées | Celles ouvertes à compter du **17 août 2015** |
+| Critère de rattachement | La **résidence habituelle** du défunt au jour du décès, pour l'ensemble de la succession |
+| Choix possible | La *professio juris* : désigner la **loi de sa nationalité**, par disposition à cause de mort |
+| Preuve de la qualité d'héritier | Le **certificat successoral européen**, reconnu dans tous les États membres sans procédure |
+| Ce que le règlement ne règle pas | La **fiscalité**, qui reste nationale. En France, article **750 ter** du Code général des impôts |
+
+## Le piège : le règlement règle le droit civil, pas l'impôt
+
+C'est la confusion la plus coûteuse de la matière, et elle se produit parce que le règlement paraît tout régler.
+
+**Bruxelles IV désigne une loi successorale unique** pour l'ensemble du patrimoine, meubles et immeubles confondus, là où le droit antérieur éclatait la succession entre plusieurs lois. Le critère est la **résidence habituelle** du défunt au jour du décès, et non sa nationalité.
+
+**Mais il ne dit rien de l'impôt.** La fiscalité de la transmission reste entièrement nationale, et la France applique son article 750 ter du Code général des impôts, dont les critères n'ont rien à voir avec ceux du règlement.
+
+| | Ce qui décide |
+|---|---|
+| **Quelle loi civile** règle la succession : héritiers réservataires, quotité disponible, dévolution | La **résidence habituelle** du défunt, ou la loi de sa nationalité s'il l'a choisie |
+| **Quel impôt** est dû à la France | L'article **750 ter** du CGI : domicile du défunt, situation des biens, domicile de l'héritier |
+
+Une succession peut donc être **civilement régie par une loi étrangère et fiscalement imposée en France**, ou l'inverse. Les deux questions se posent séparément, et se répondent séparément.
+
+**Un exemple.** Un Français installé au Portugal depuis huit ans décède. Il laisse un appartement à Paris valant **600 000 €**, un portefeuille de **400 000 €** ouvert à Lisbonne, et deux enfants restés en France.
+
+| Question | Réponse | Fondement |
+|---|---|---|
+| Quelle loi règle la dévolution, la réserve, la quotité disponible ? | La **loi portugaise**, résidence habituelle au jour du décès | Règlement 650/2012, article 21 |
+| Sauf s'il a choisi la loi française de son vivant | Alors la **loi française**, avec sa réserve héréditaire | Règlement 650/2012, article 22 |
+| La France impose-t-elle l'appartement parisien ? | **Oui**, le bien est situé en France | Article 750 ter du CGI |
+| La France impose-t-elle le portefeuille lisboète ? | **Oui également**, les héritiers étant domiciliés en France depuis plus de six des dix dernières années | Article 750 ter, 3° du CGI |
+
+Le résultat surprend : la succession est **civilement portugaise et fiscalement française sur la totalité**, y compris sur des actifs que le défunt détenait au Portugal. Ce n'est pas une anomalie, c'est la conséquence de deux corps de règles qui n'ont pas les mêmes critères.
+
+**Le choix de la loi nationale mérite d'être pesé.** La *professio juris* permet à un Français résidant à l'étranger de conserver le droit français, donc la réserve héréditaire. Elle permet aussi l'inverse : un binational résidant en France peut désigner une loi qui ne connaît pas la réserve. Ce choix se fait par disposition à cause de mort, de son vivant, et il ne s'improvise pas.
 
 ## La loi civile
 
