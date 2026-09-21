@@ -6,7 +6,7 @@ description: "Dans les DROM, mêmes abattements et même barème qu'en métropol
 categorie: "Outre-mer"
 date: 2026-09-16
 lecture: 3
-mots: 681
+mots: 676
 essentiel:
   - "Dans les **DROM**, les droits de mutation à titre gratuit sont ceux du Code général des impôts : mêmes abattements, même barème qu'en métropole."
   - "Dans les **COM à fiscalité propre** et en Nouvelle-Calédonie, la matière relève du droit local et des conventions internes."
@@ -40,8 +40,6 @@ articlesLies:
 seoDerive: true
 sources: "Code général des impôts, article 750 ter, et articles 779, 990 I et 757 B · Code général des collectivités territoriales, articles LO 6214-4 et LO 6314-4 · Conventions fiscales internes entre l'État et les collectivités concernées · BOFiP, territorialité des droits de mutation à titre gratuit · Codes locaux des collectivités à fiscalité propre."
 ---
-
-## Le tableau de synthèse
 
 **Vérifié le 16 septembre 2026**
 

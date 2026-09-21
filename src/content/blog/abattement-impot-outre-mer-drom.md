@@ -6,7 +6,7 @@ description: "La réfaction porte sur le montant de l'impôt, pas sur le revenu 
 categorie: "Outre-mer"
 date: 2026-09-16
 lecture: 4
-mots: 858
+mots: 853
 essentiel:
   - "La réfaction porte sur le **montant de l'impôt**, pas sur le revenu imposable. C'est la confusion la plus répandue."
   - "Elle est **plafonnée**, et le plafond est atteint plus tôt qu'on ne l'imagine."
@@ -38,8 +38,6 @@ articlesLies:
 seoDerive: true
 sources: "Code général des impôts, article 197, I, 3 · BOFiP, BOI-IR-LIQ-20-30-10, modalités particulières d'imposition dans les départements d'outre-mer · Loi de finances pour 2019, abaissement des plafonds · impots.gouv.fr, rubrique « Impôts dus par les professionnels dans les DOM » pour la TVA et la taxe sur les salaires · Code général des impôts, article 44 quaterdecies (ZFANG)."
 ---
-
-## Le tableau de synthèse
 
 **Vérifié le 16 septembre 2026**
 

@@ -323,9 +323,27 @@ for (const chemin of fichiers) {
       .map((s) => `## ${s.titre}\n\n${s.contenu}`)
       .join('\n\n');
 
-    const corpsArticle = [preambule && `## Le tableau de synthèse\n\n${preambule}`, redigees]
-      .filter(Boolean)
-      .join('\n\n');
+    // Le titre « Le tableau de synthèse » n'est posé que si le préambule
+    // contient VRAIMENT un tableau.
+    //
+    // Il l'était jusqu'au 21 septembre 2026 dès que le préambule n'était pas
+    // vide. Les neuf articles du territoire K, dont le préambule se réduit à
+    // « **Vérifié le 16 septembre 2026** », publiaient donc un titre annonçant
+    // un tableau, suivi d'une date et de rien d'autre. Quatre d'entre eux
+    // affichaient ce titre DEUX FOIS de suite, leur vrai tableau venant juste
+    // après, dans sa propre section « ### Le tableau de synthèse ».
+    //
+    // Le préambule qui n'est pas un tableau est conservé tel quel, sans titre :
+    // la date de vérification a sa place en tête d'article, c'est le titre
+    // qu'elle n'avait pas à porter.
+    const preambuleEstUnTableau = /^\s*\|/m.test(preambule);
+    const tableauDejaTitre = parties.some((s) => s.titre.toLowerCase() === 'le tableau de synthèse');
+    const entete =
+      preambuleEstUnTableau && !tableauDejaTitre
+        ? `## Le tableau de synthèse\n\n${preambule}`
+        : preambule;
+
+    const corpsArticle = [entete, redigees].filter(Boolean).join('\n\n');
 
     if (!corpsArticle.trim()) return echecs.push(`${ou} : aucune section de contenu`);
 

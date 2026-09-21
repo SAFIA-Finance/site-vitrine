@@ -6,7 +6,7 @@ description: "Les DROM appliquent le Code général des impôts ; les COM à aut
 categorie: "Outre-mer"
 date: 2026-09-16
 lecture: 4
-mots: 755
+mots: 750
 essentiel:
   - "Les **DROM** appliquent le Code général des impôts. Ce ne sont pas des territoires à fiscalité dérogatoire : ce sont des départements avec des aménagements."
   - "Les **COM à autonomie fiscale** ont leur propre code et leurs propres impôts : le CGI ne s'y applique pas, sauf mention expresse."
@@ -35,8 +35,6 @@ articlesLies:
   - "fiscalite-nouvelle-caledonie"
 sources: "Constitution du 4 octobre 1958, articles 73, 74 et titre XIII · Code général des collectivités territoriales, articles LO 6214-4 (Saint-Barthélemy) et LO 6314-4 (Saint-Martin) · Code général des impôts, article 197, I, 3 · impots.gouv.fr, rubriques relatives à l'outre-mer."
 ---
-
-## Le tableau de synthèse
 
 **Vérifié le 16 septembre 2026**
 
