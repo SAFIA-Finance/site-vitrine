@@ -2,13 +2,15 @@
 code: "G9"
 titre: "Devenir CIF : statut, ORIAS, association agréée, capacité professionnelle"
 titreSeo: "Devenir CIF : conditions et démarches"
-description: "Capacité professionnelle, adhésion à une association agréée, immatriculation ORIAS, assurance RC pro : le parcours réel pour exercer comme CIF."
+description: "Trois voies pour la capacité professionnelle, 150 000 € de RC pro minimum, adhésion obligatoire à une association agréée : le parcours réel pour exercer comme CIF."
 categorie: "Professionnels"
 date: 2026-09-14
-lecture: 4
-mots: 716
+lecture: 5
+mots: 1042
 essentiel:
   - "Quatre conditions cumulatives : **capacité professionnelle**, **honorabilité**, **adhésion à une association agréée par l'AMF**, **assurance de responsabilité civile professionnelle**."
+  - "La capacité professionnelle s'obtient par **trois voies alternatives** : un diplôme de trois années d'études supérieures, une formation de **150 heures**, ou **deux ans d'expérience** acquis dans les cinq dernières années."
+  - "Les montants de RC professionnelle ne sont pas au choix de l'assureur : l'article D. 541-9 du Code monétaire et financier les fixe à **150 000 €** par sinistre et par année pour un exercice individuel, **300 000 et 600 000 €** dès deux salariés."
   - "L'immatriculation se fait au **registre unique de l'ORIAS**, et se renouvelle chaque année."
   - "L'association agréée n'est pas une formalité : elle **contrôle** ses membres et conditionne le maintien du statut."
   - "Le statut de CIF ne couvre pas tout : l'assurance, l'immobilier et l'intermédiation en opérations de banque relèvent de statuts distincts."
@@ -33,18 +35,46 @@ pages:
 articlesLies:
   - "lcb-ft-cabinet-cgp"
   - "lettre-de-mission-cif"
-sources: "Code monétaire et financier, articles L. 541-1 à L. 541-9 et L. 546-1 · Règlement général de l'AMF, livre III, conditions de capacité professionnelle et obligations des CIF · Registre unique de l'ORIAS · Associations professionnelles agréées par l'AMF."
+sources: "Code monétaire et financier, articles **L. 541-1 et suivants** · [Code monétaire et financier, article D. 541-9](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025440435), montants minimaux de la garantie de responsabilité civile professionnelle · **Règlement général de l'AMF, article 325-1**, pour les trois voies de la capacité professionnelle · [Autorité des marchés financiers, statut de conseiller en investissements financiers](https://www.amf-france.org/en/professionals/other-professionals/financial-investment-advisor-status-fia) · ORIAS, registre unique des intermédiaires et conditions d'immatriculation."
 ---
+
+## Le tableau de synthèse
+
+| | |
+|---|---|
+| Base légale | Articles **L. 541-1 et suivants** du Code monétaire et financier |
+| Capacité professionnelle | Trois voies alternatives, article **325-1** du règlement général de l'AMF |
+| Voie du diplôme | **Trois années** d'études supérieures juridiques, économiques ou de gestion |
+| Voie de la formation | **150 heures** auprès d'un prestataire de services d'investissement, d'une association de CIF ou d'un organisme de formation |
+| Voie de l'expérience | **Deux ans** dans des fonctions liées aux opérations concernées, acquis au cours des **cinq années** précédentes |
+| RC professionnelle, personne physique ou société de moins de deux salariés | **150 000 €** par sinistre et **150 000 €** par année d'assurance |
+| RC professionnelle, société d'au moins deux salariés | **300 000 €** par sinistre et **600 000 €** par année d'assurance |
+| Immatriculation | Registre unique de l'**ORIAS**, renouvelé chaque année |
 
 ## Les quatre conditions
 
-**La capacité professionnelle.** Elle s'établit par un diplôme de niveau adéquat dans une discipline juridique, économique ou de gestion, par une expérience professionnelle d'une durée déterminée dans des fonctions pertinentes, ou par une formation professionnelle adaptée. Les modalités précises sont fixées par le règlement général de l'AMF, et votre future association vous confirmera l'éligibilité de votre parcours : c'est d'ailleurs la première démarche utile.
+**La capacité professionnelle.** L'article 325-1 du règlement général de l'AMF ouvre **trois voies alternatives**, et il suffit d'en remplir une.
+
+| Voie | Ce qu'elle exige |
+|---|---|
+| **Diplôme** | Un diplôme national sanctionnant **trois années** d'études supérieures juridiques, économiques ou de gestion, ou un titre de même niveau |
+| **Formation** | **150 heures** de formation adaptée, dispensée par un prestataire de services d'investissement, une association de CIF ou un organisme de formation |
+| **Expérience** | **Deux ans** dans des fonctions liées aux opérations concernées, acquis au cours des **cinq années** précédant l'entrée en fonction |
+
+La troisième voie est la moins connue et la plus utile aux reconversions venues de la banque ou de l'assurance : deux ans suffisent, à condition qu'ils soient récents. Votre future association confirmera l'éligibilité de votre parcours, et c'est la première démarche utile.
 
 **L'honorabilité.** Absence de condamnations et d'incapacités prévues par le Code monétaire et financier, vérifiée à l'immatriculation.
 
 **L'adhésion à une association professionnelle agréée par l'AMF.** Elle est obligatoire et préalable. L'association vérifie que vous remplissez les conditions, vous accompagne, et exerce ensuite un contrôle sur ses membres.
 
-**L'assurance de responsabilité civile professionnelle**, avec des montants minimaux de garantie fixés réglementairement.
+**L'assurance de responsabilité civile professionnelle.** Les montants minimaux sont fixés par l'article D. 541-9 du Code monétaire et financier, et ils dépendent de la structure d'exercice :
+
+| Structure | Par sinistre | Par année d'assurance |
+|---|---|---|
+| Personne physique, ou société de **moins de deux salariés** | **150 000 €** | **150 000 €** |
+| Société employant **au moins deux salariés** | **300 000 €** | **600 000 €** |
+
+Le passage du premier au second salarié quadruple donc la garantie annuelle exigée. C'est un effet de seuil à anticiper dans un plan de recrutement, et il surprend souvent.
 
 ## La séquence réelle
 
