@@ -111,7 +111,7 @@ export const PREUVES = {
    * l'emplacement du site.
    */
   notes: [
-    { magasin: 'App Store', valeur: 5, avis: 3 },
+    { magasin: 'App Store', valeur: 5, avis: 5 },
     { magasin: 'Google Play', valeur: 5, avis: 5 },
   ],
   /**
