@@ -26,12 +26,12 @@
 |---|---|---|---|
 | Guadeloupe, Martinique, La Réunion | DROM, article 73 de la Constitution | **Code général des impôts**, réfaction de **30 %** plafonnée à **2 450 €** | **8,5 %**, taux réduit de 2,1 % |
 | Guyane, Mayotte | DROM, article 73 | **Code général des impôts**, réfaction de **40 %** plafonnée à **4 050 €** | **Non applicable** |
-| Saint-Barthélemy | COM, article 74 | **Code de contributions local**, après 5 ans de résidence | Locale |
-| Saint-Martin | COM, article 74 | **Code des impôts local**, après 5 ans de résidence | Locale |
-| Saint-Pierre-et-Miquelon | COM, article 74 | Code local | Locale |
-| Polynésie française | COM, article 74, autonomie | Fiscalité locale propre | Locale |
-| Wallis-et-Futuna | COM, article 74 | Fiscalité locale propre | Locale |
-| Nouvelle-Calédonie | Statut *sui generis*, titre XIII | Fiscalité locale propre | Locale |
+| Saint-Barthélemy | COM, article 74 | **Aucun impôt sur le revenu local**, après 5 ans de résidence | **Aucune.** Droit de quai de 5 % à l'importation |
+| Saint-Martin | COM, article 74 | **Code des impôts local**, après 5 ans de résidence | **Aucune.** Territoire fiscal spécial |
+| Saint-Pierre-et-Miquelon | COM, article 74 | Code local | **Aucune.** Fiscalité indirecte locale |
+| Polynésie française | COM, article 74, autonomie | Fiscalité locale propre | **Aucune.** Fiscalité indirecte locale |
+| Wallis-et-Futuna | COM, article 74 | Fiscalité locale propre | **Aucune.** Fiscalité indirecte locale |
+| Nouvelle-Calédonie | Statut *sui generis*, titre XIII | Fiscalité locale propre | **Aucune.** Fiscalité indirecte locale |
 | Monaco, Andorre | États souverains | Voir territoire I | — |
 
 ### L'essentiel
@@ -41,6 +41,7 @@
 - Les **COM à autonomie fiscale** ont leur propre code et leurs propres impôts : le CGI ne s'y applique pas, sauf mention expresse.
 - Saint-Barthélemy et Saint-Martin imposent une **condition de résidence de cinq ans** avant de reconnaître le domicile fiscal local.
 - La **TVA n'est pas applicable en Guyane et à Mayotte**, et son taux normal est de 8,5 % dans les trois autres DROM, contre 20 % en métropole.
+- **Aucune des COM ni la Nouvelle-Calédonie n'est dans le territoire d'application de la TVA française.** Saint-Barthélemy lui substitue un droit de quai de 5 % à l'importation.
 - La **Nouvelle-Calédonie** relève d'un statut à part, et une convention fiscale la lie à l'État.
 
 ### Ce que la réfaction change, en euros
@@ -124,7 +125,7 @@ Oui quant au principe : Mayotte est un département et région d'outre-mer, rég
 
 ### Sources
 
-Constitution du 4 octobre 1958, articles 73, 74 et titre XIII · Code général des collectivités territoriales, articles LO 6214-4 (Saint-Barthélemy) et LO 6314-4 (Saint-Martin) · **Code général des impôts, article 197, I, 3**, pour la réfaction de 30 % plafonnée à 2 450 € et de 40 % plafonnée à 4 050 € · [BOFiP, TVA dans les collectivités relevant de l'article 73, taux applicables en Guadeloupe, Martinique et à La Réunion](https://bofip.impots.gouv.fr/bofip/343-PGP.html/identifiant=BOI-TVA-GEO-20-10-20190605) · [impots.gouv.fr, taux de TVA applicables dans les DOM](https://www.impots.gouv.fr/professionnel/questions/quels-sont-les-differents-taux-de-tva-applicables-dans-les-dom) · [Direction générale des douanes, TVA dans les DOM](https://www.douane.gouv.fr/fiche/tva-dans-les-dom) · impots.gouv.fr, rubriques relatives à l'outre-mer.
+Constitution du 4 octobre 1958, articles 73, 74 et titre XIII · Code général des collectivités territoriales, articles LO 6214-4 (Saint-Barthélemy) et LO 6314-4 (Saint-Martin) · **Code général des impôts, article 197, I, 3**, pour la réfaction de 30 % plafonnée à 2 450 € et de 40 % plafonnée à 4 050 € · [BOFiP, TVA dans les collectivités relevant de l'article 73, taux applicables en Guadeloupe, Martinique et à La Réunion](https://bofip.impots.gouv.fr/bofip/343-PGP.html/identifiant=BOI-TVA-GEO-20-10-20190605) · [impots.gouv.fr, taux de TVA applicables dans les DOM](https://www.impots.gouv.fr/professionnel/questions/quels-sont-les-differents-taux-de-tva-applicables-dans-les-dom) · [Direction générale des douanes, TVA dans les DOM](https://www.douane.gouv.fr/fiche/tva-dans-les-dom) · [BOI-TVA-CHAMP-20-10, définition du territoire d'application de la TVA](https://bofip.impots.gouv.fr/bofip/1340-PGP.html/identifiant=BOI-TVA-CHAMP-20-10-20230118), qui en exclut les collectivités d'outre-mer et la Nouvelle-Calédonie · impots.gouv.fr, rubriques relatives à l'outre-mer.
 
 ### Liens internes
 
@@ -152,6 +153,9 @@ Page **Cockpit stratégique** · articles **K4** et **K6**.
 | Impôt sur le revenu local | **Aucun** |
 | Impôt sur la fortune local | **Aucun** |
 | Droits de succession locaux | **Aucun** |
+| TVA | **Aucune.** L'île est hors du territoire d'application de la TVA française |
+| Ce qui la remplace | Un **droit de quai de 5 %** sur toutes les marchandises introduites dans l'île, porté à 8 % sur les véhicules terrestres à moteur |
+| Statut douanier | **PTOM** depuis le 1ᵉʳ janvier 2012, hors du territoire douanier de l'Union européenne |
 | Ce que la collectivité prélève | Droits de mutation immobilière de **5 %**, imposition des plus-values immobilières sur les cessions intervenues dans les **18 ans**, taxe de séjour de **5 %** |
 | Cotisations sociales | **Compétence exclusive de l'État**, article LO 6214-4-1, 3° |
 
@@ -160,8 +164,9 @@ Page **Cockpit stratégique** · articles **K4** et **K6**.
 - Saint-Barthélemy dispose de sa **propre compétence fiscale** depuis 2007 : le Code général des impôts ne s'y applique pas, sauf mention expresse.
 - Une personne physique ne peut être regardée comme fiscalement domiciliée à Saint-Barthélemy **qu'après cinq ans de résidence**.
 - Avant ce délai, elle demeure fiscalement domiciliée en France au sens du Code général des impôts.
-- Une fois le délai passé, la collectivité ne prélève **ni impôt sur le revenu, ni impôt sur la fortune, ni droits de succession**.
-- Ce qu'elle prélève est ailleurs : des **droits de mutation immobilière de 5 %**, l'imposition des **plus-values immobilières** sur les cessions intervenant dans les dix-huit ans, et une **taxe de séjour de 5 %**.
+- Une fois le délai passé, la collectivité ne prélève **ni impôt sur le revenu, ni impôt sur la fortune, ni droits de succession, ni TVA**. Saint-Barthélemy est hors du territoire d'application de la TVA française.
+- Ce qu'elle prélève est ailleurs, et ce n'est pas rien : un **droit de quai de 5 %** sur toutes les marchandises introduites dans l'île, des **droits de mutation immobilière de 5 %**, l'imposition des **plus-values immobilières** sur les cessions intervenant dans les dix-huit ans, et une **taxe de séjour de 5 %**.
+- « Zéro impôt » est donc exact sur le revenu, la fortune, la succession et la TVA, et faux sur le reste : l'île se finance sur les **flux**, pas sur les revenus.
 - Les **cotisations sociales** restent de la compétence exclusive de l'État : l'autonomie fiscale ne s'étend pas au social.
 - C'est la règle des cinq ans qui est la plus structurante de tout le dossier, et celle qui est le plus souvent découverte trop tard.
 
@@ -252,7 +257,7 @@ La question doit être examinée spécifiquement au regard du statut de la colle
 
 ### Sources
 
-Code général des collectivités territoriales, article LO 6214-4, modifié par la loi n° 2015-1485 du 17 novembre 2015, article 7, et article LO 6214-4-1, 3°, réservant les cotisations sociales à l'État · [Code des contributions de Saint-Barthélemy, annexé à la délibération n° 2024-038 CT](https://actes.eservices-comstbarth.fr/PJ/Deliberation%20CT/Deliberation%20CT_2024/2024_038ct_annexe.pdf) · Loi n° 2007-223 du 21 février 2007 portant dispositions statutaires et institutionnelles relatives à l'outre-mer · Code de contributions de Saint-Barthélemy, articles 2 et 4 · Conseil d'État, avis du 20 novembre 2013, n° 369796 · Rescrit publié au BOFiP le 23 octobre 2024 relatif à l'intégration fiscale des sociétés établies à Saint-Barthélemy · Services fiscaux de la collectivité de Saint-Barthélemy.
+Code général des collectivités territoriales, article LO 6214-4, modifié par la loi n° 2015-1485 du 17 novembre 2015, article 7, et article LO 6214-4-1, 3°, réservant les cotisations sociales à l'État · [Code des contributions de Saint-Barthélemy, annexé à la délibération n° 2024-038 CT](https://actes.eservices-comstbarth.fr/PJ/Deliberation%20CT/Deliberation%20CT_2024/2024_038ct_annexe.pdf) · [Direction générale des douanes, cas particuliers de Saint-Martin et de Saint-Barthélemy](https://www.douane.gouv.fr/fiche/cas-particuliers-de-lile-de-saint-martin-et-de-lile-de-saint-barthelemy), pour le statut de PTOM depuis le 1er janvier 2012 et le droit de quai de 5 % · [BOI-TVA-CHAMP-20-10, définition du territoire d'application de la TVA](https://bofip.impots.gouv.fr/bofip/1340-PGP.html/identifiant=BOI-TVA-CHAMP-20-10-20230118), qui exclut Saint-Barthélemy · Loi n° 2007-223 du 21 février 2007 portant dispositions statutaires et institutionnelles relatives à l'outre-mer · Code de contributions de Saint-Barthélemy, articles 2 et 4 · Conseil d'État, avis du 20 novembre 2013, n° 369796 · Rescrit publié au BOFiP le 23 octobre 2024 relatif à l'intégration fiscale des sociétés établies à Saint-Barthélemy · Services fiscaux de la collectivité de Saint-Barthélemy.
 
 ### Liens internes
 

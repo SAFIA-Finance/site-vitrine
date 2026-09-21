@@ -6,13 +6,14 @@ description: "Les DROM appliquent le Code général des impôts, avec une réfac
 categorie: "Outre-mer"
 date: 2026-09-16
 lecture: 5
-mots: 971
+mots: 996
 essentiel:
   - "Les **DROM** appliquent le Code général des impôts. Ce ne sont pas des territoires à fiscalité dérogatoire : ce sont des départements avec des aménagements, dont une **réfaction d'impôt de 30 % ou 40 %**, plafonnée."
   - "Cette réfaction est **plafonnée à 2 450 €** aux Antilles et à La Réunion, **4 050 €** en Guyane et à Mayotte : au-delà d'un certain revenu, l'avantage cesse de croître."
   - "Les **COM à autonomie fiscale** ont leur propre code et leurs propres impôts : le CGI ne s'y applique pas, sauf mention expresse."
   - "Saint-Barthélemy et Saint-Martin imposent une **condition de résidence de cinq ans** avant de reconnaître le domicile fiscal local."
   - "La **TVA n'est pas applicable en Guyane et à Mayotte**, et son taux normal est de 8,5 % dans les trois autres DROM, contre 20 % en métropole."
+  - "**Aucune des COM ni la Nouvelle-Calédonie n'est dans le territoire d'application de la TVA française.** Saint-Barthélemy lui substitue un droit de quai de 5 % à l'importation."
   - "La **Nouvelle-Calédonie** relève d'un statut à part, et une convention fiscale la lie à l'État."
 faq:
   - q: "Un DROM est-il un territoire à fiscalité avantageuse ?"
@@ -35,7 +36,7 @@ pages:
 articlesLies:
   - "abattement-impot-outre-mer-drom"
   - "fiscalite-nouvelle-caledonie"
-sources: "Constitution du 4 octobre 1958, articles 73, 74 et titre XIII · Code général des collectivités territoriales, articles LO 6214-4 (Saint-Barthélemy) et LO 6314-4 (Saint-Martin) · **Code général des impôts, article 197, I, 3**, pour la réfaction de 30 % plafonnée à 2 450 € et de 40 % plafonnée à 4 050 € · [BOFiP, TVA dans les collectivités relevant de l'article 73, taux applicables en Guadeloupe, Martinique et à La Réunion](https://bofip.impots.gouv.fr/bofip/343-PGP.html/identifiant=BOI-TVA-GEO-20-10-20190605) · [impots.gouv.fr, taux de TVA applicables dans les DOM](https://www.impots.gouv.fr/professionnel/questions/quels-sont-les-differents-taux-de-tva-applicables-dans-les-dom) · [Direction générale des douanes, TVA dans les DOM](https://www.douane.gouv.fr/fiche/tva-dans-les-dom) · impots.gouv.fr, rubriques relatives à l'outre-mer."
+sources: "Constitution du 4 octobre 1958, articles 73, 74 et titre XIII · Code général des collectivités territoriales, articles LO 6214-4 (Saint-Barthélemy) et LO 6314-4 (Saint-Martin) · **Code général des impôts, article 197, I, 3**, pour la réfaction de 30 % plafonnée à 2 450 € et de 40 % plafonnée à 4 050 € · [BOFiP, TVA dans les collectivités relevant de l'article 73, taux applicables en Guadeloupe, Martinique et à La Réunion](https://bofip.impots.gouv.fr/bofip/343-PGP.html/identifiant=BOI-TVA-GEO-20-10-20190605) · [impots.gouv.fr, taux de TVA applicables dans les DOM](https://www.impots.gouv.fr/professionnel/questions/quels-sont-les-differents-taux-de-tva-applicables-dans-les-dom) · [Direction générale des douanes, TVA dans les DOM](https://www.douane.gouv.fr/fiche/tva-dans-les-dom) · [BOI-TVA-CHAMP-20-10, définition du territoire d'application de la TVA](https://bofip.impots.gouv.fr/bofip/1340-PGP.html/identifiant=BOI-TVA-CHAMP-20-10-20230118), qui en exclut les collectivités d'outre-mer et la Nouvelle-Calédonie · impots.gouv.fr, rubriques relatives à l'outre-mer."
 ---
 
 **Vérifié le 21 septembre 2026**
@@ -46,12 +47,12 @@ sources: "Constitution du 4 octobre 1958, articles 73, 74 et titre XIII · Code 
 |---|---|---|---|
 | Guadeloupe, Martinique, La Réunion | DROM, article 73 de la Constitution | **Code général des impôts**, réfaction de **30 %** plafonnée à **2 450 €** | **8,5 %**, taux réduit de 2,1 % |
 | Guyane, Mayotte | DROM, article 73 | **Code général des impôts**, réfaction de **40 %** plafonnée à **4 050 €** | **Non applicable** |
-| Saint-Barthélemy | COM, article 74 | **Code de contributions local**, après 5 ans de résidence | Locale |
-| Saint-Martin | COM, article 74 | **Code des impôts local**, après 5 ans de résidence | Locale |
-| Saint-Pierre-et-Miquelon | COM, article 74 | Code local | Locale |
-| Polynésie française | COM, article 74, autonomie | Fiscalité locale propre | Locale |
-| Wallis-et-Futuna | COM, article 74 | Fiscalité locale propre | Locale |
-| Nouvelle-Calédonie | Statut *sui generis*, titre XIII | Fiscalité locale propre | Locale |
+| Saint-Barthélemy | COM, article 74 | **Aucun impôt sur le revenu local**, après 5 ans de résidence | **Aucune.** Droit de quai de 5 % à l'importation |
+| Saint-Martin | COM, article 74 | **Code des impôts local**, après 5 ans de résidence | **Aucune.** Territoire fiscal spécial |
+| Saint-Pierre-et-Miquelon | COM, article 74 | Code local | **Aucune.** Fiscalité indirecte locale |
+| Polynésie française | COM, article 74, autonomie | Fiscalité locale propre | **Aucune.** Fiscalité indirecte locale |
+| Wallis-et-Futuna | COM, article 74 | Fiscalité locale propre | **Aucune.** Fiscalité indirecte locale |
+| Nouvelle-Calédonie | Statut *sui generis*, titre XIII | Fiscalité locale propre | **Aucune.** Fiscalité indirecte locale |
 | Monaco, Andorre | États souverains | Voir territoire I | — |
 
 ## Ce que la réfaction change, en euros
