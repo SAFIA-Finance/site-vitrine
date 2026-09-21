@@ -2,15 +2,16 @@
 code: "I25"
 titre: "Canada : fiscalité de l'expatriation"
 titreSeo: "Canada : fiscalité de l'expatriation"
-description: "Pas de droits de succession, mais une présomption de disposition au décès qui impose les plus-values latentes : l'effet économique peut être proche."
+description: "Pas de droits de succession, mais au décès la moitié des plus-values latentes s'ajoute à la dernière déclaration, à un taux qui atteint 53,53 % en Ontario."
 categorie: "Expatriation"
 date: 2026-09-16
-lecture: 4
-mots: 844
+lecture: 6
+mots: 1125
 essentiel:
-  - "Le Canada n'est pas une destination d'optimisation : il impose les **revenus mondiaux** de ses résidents."
-  - "Il n'a pas de droits de succession, mais une **présomption de disposition au décès** qui impose les plus-values latentes : l'effet économique peut être proche."
-  - "Le niveau d'imposition varie fortement selon la **province**."
+  - "Le Canada n'est pas une destination d'optimisation : il impose les **revenus mondiaux** de ses résidents, à des taux marginaux qui atteignent **53,53 % en Ontario** et **53,31 % au Québec**."
+  - "Il n'a **aucun droit de succession**, mais une **disposition réputée au décès** : la moitié des plus-values latentes s'ajoute à la dernière déclaration du défunt."
+  - "L'écart entre provinces est réel : **48 % en Alberta** contre **54,8 % à Terre-Neuve-et-Labrador** sur la tranche supérieure."
+  - "Le taux d'inclusion des gains en capital reste à **50 %**. La hausse à 66,67 %, annoncée en 2024 et reportée deux fois, a été **annulée en mars 2025**."
   - "L'intérêt du Canada est professionnel, familial ou de cadre de vie, rarement fiscal."
 faq:
   - q: "Le Canada a-t-il des droits de succession ?"
@@ -32,7 +33,7 @@ articlesLies:
   - "expatriation-chypre-fiscalite"
   - "expatriation-emirats-dubai-fiscalite"
 seoDerive: true
-sources: "Loi de l'impôt sur le revenu canadienne, dispositions relatives à la résidence et à la disposition réputée au décès · Agence du revenu du Canada, guidance sur l'arrivée et le départ · Convention fiscale franco-canadienne · Entente fiscale entre la France et le Québec."
+sources: "Loi de l'impôt sur le revenu canadienne, dispositions relatives à la résidence et à la disposition réputée au décès · [Agence du revenu du Canada, gains en capital d'une personne décédée](https://www.canada.ca/fr/agence-revenu/services/impot/particuliers/evenements-vie/faire-impots-personne-decedee/preparer-declarations/declarer-revenus/gains-capital.html) · [Revenu Québec, report puis annulation de la hausse du taux d'inclusion des gains en capital](https://www.revenuquebec.ca/fr/salle-de-presse/nouvelles-fiscales/details/2025-02-05/harmonisation-avec-le-report-au-1er-janvier-2026-de-la-mise-en-oeuvre-du-changement-du-taux-dinclusion-des-gains-en-capital/) · Agence du revenu du Canada, barème fédéral 2026 et guidance sur l'arrivée et le départ · Convention fiscale franco-canadienne · Entente fiscale entre la France et le Québec."
 ---
 
 ## Le tableau de synthèse
@@ -40,8 +41,12 @@ sources: "Loi de l'impôt sur le revenu canadienne, dispositions relatives à la
 | | |
 |---|---|
 | Principe | Imposition sur les **revenus mondiaux** des résidents |
-| Niveaux d'imposition | Fédéral **et** provincial : l'écart entre provinces est significatif |
-| Succession | Pas de droits de succession, mais **présomption de disposition** au décès : les plus-values latentes sont imposées |
+| Barème fédéral | Cinq tranches, de **14 % à 33 %**, le taux plein au-delà de **258 482 $ canadiens** |
+| Taux marginal combiné le plus élevé | De **48 % en Alberta** à **54,8 % à Terre-Neuve-et-Labrador**, 53,53 % en Ontario, 53,31 % au Québec |
+| Gains en capital | **50 %** du gain entre dans le revenu imposable. La hausse à 66,67 % annoncée en 2024 a été **annulée en mars 2025** |
+| Exonération cumulative des gains en capital | **1 275 000 $** en 2026, pour les actions admissibles de petite entreprise |
+| Succession | Aucun droit de succession, mais **disposition réputée** au décès à la juste valeur marchande |
+| Roulement au conjoint | Report de l'imposition, à condition que le transfert intervienne dans les **36 mois** |
 | Convention avec la France | Oui |
 | Exit tax française | Sursis non automatique en principe, à vérifier selon la notice applicable |
 
@@ -49,19 +54,28 @@ sources: "Loi de l'impôt sur le revenu canadienne, dispositions relatives à la
 
 Beaucoup de Français retiennent que le Canada n'a pas de droits de succession et en concluent à un avantage de transmission. C'est une lecture incomplète.
 
-Au décès, le contribuable est réputé avoir disposé de l'ensemble de ses biens à leur juste valeur marchande. Les plus-values latentes deviennent imposables dans sa dernière déclaration de revenus.
+Au décès, le contribuable est réputé avoir disposé de l'ensemble de ses biens **à leur juste valeur marchande**, immédiatement avant le décès. La plus-value ainsi révélée entre pour **50 %** dans le revenu imposable de sa dernière déclaration, au barème ordinaire.
 
-Le prélèvement ne s'appelle pas droits de succession et ne se calcule pas de la même manière, mais il frappe le patrimoine au décès. Selon la composition du patrimoine et l'ampleur des plus-values accumulées, la charge peut être supérieure ou inférieure à celle qui résulterait du barème français. C'est un calcul, pas une évidence.
+**Un exemple chiffré.** Un portefeuille valant 1 000 000 $ canadiens au décès, acquis 400 000 $, transmis aux enfants d'un résident de l'Ontario.
 
-Un roulement au profit du conjoint survivant permet généralement de différer cette imposition jusqu'au second décès.
+| | Montant |
+|---|---|
+| Plus-value révélée | 600 000 $ |
+| Fraction imposable, taux d'inclusion de 50 % | **300 000 $** |
+| Impôt, au taux marginal supérieur de 53,53 % | environ **160 000 $** |
+| Droits de succession | **0 $** |
+
+Si le même portefeuille revient au **conjoint survivant** résidant au Canada, rien n'est dû : les biens sont transférés à leur coût d'acquisition et non à leur valeur, ce qui reporte l'imposition jusqu'à la revente ou au second décès. Le transfert doit intervenir dans les **36 mois** suivant le décès.
+
+**La comparaison avec la France oppose deux logiques inverses.** La France **purge** la plus-value latente au décès mais taxe la transmission. Le Canada ne taxe pas la transmission mais **révèle** la plus-value. Selon que le patrimoine est ancien et très valorisé, ou récent et peu valorisé, l'un ou l'autre coûte davantage. C'est un calcul, pas une évidence, et il dépend de la composition du patrimoine bien plus que du pays.
 
 ## La comparaison sur trois profils
 
-**Cadre ou famille en mobilité professionnelle.** C'est le cas type. La fiscalité est comparable, voire supérieure selon la province, à la fiscalité française sur les revenus du travail.
+**Cadre ou famille en mobilité professionnelle.** C'est le cas type. À 53,53 % en Ontario et 53,31 % au Québec sur la tranche supérieure, la fiscalité du travail est comparable à la française, voire supérieure. L'Alberta, à 48 %, est l'exception.
 
-**Dirigeant après cession.** Pas d'avantage : les plus-values sont imposables, avec un taux d'inclusion partiel.
+**Dirigeant après cession.** Pas d'avantage général : la moitié du gain est imposable au barème. L'exonération cumulative de **1 275 000 $** en 2026 ne vise que les actions admissibles de petite entreprise, et suppose d'en remplir les conditions.
 
-**Retraité.** Le traitement de la pension française dépend de la convention. Les régimes provinciaux de santé ont des conditions de résidence à vérifier.
+**Retraité.** Le traitement de la pension française dépend de la convention. Les régimes provinciaux de santé ont des conditions de résidence à vérifier, avec des délais de carence à l'arrivée.
 
 ## Points de vigilance
 

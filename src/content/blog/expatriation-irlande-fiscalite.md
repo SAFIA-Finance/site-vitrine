@@ -2,16 +2,18 @@
 code: "I18"
 titre: "Irlande : fiscalité de l'expatriation"
 titreSeo: "Irlande : fiscalité de l'expatriation"
-description: "La remittance protège les revenus étrangers non rapatriés, mais le barème local est élevé : une destination pour qui a des revenus étrangers."
+description: "Remittance pour les revenus étrangers, mais 52 % de taux marginal sur le salaire local. Et des droits de transmission à 33 % au-delà de 400 000 € par enfant."
 categorie: "Expatriation"
 date: 2026-09-16
-lecture: 4
-mots: 721
+lecture: 5
+mots: 1089
 essentiel:
-  - "L'Irlande applique, comme Malte et le Royaume-Uni historiquement, le principe de **remittance** aux résidents non domiciliés."
-  - "Les revenus étrangers non rapatriés en Irlande échappent en principe à l'impôt irlandais."
-  - "Le barème irlandais sur les revenus locaux est en revanche **élevé**, avec des prélèvements additionnels."
-  - "C'est une destination adaptée à ceux dont les revenus sont **étrangers**, pas à ceux qui travaillent sur place."
+  - "L'Irlande applique, comme Malte et le Royaume-Uni historiquement, le principe de **remittance** aux résidents non domiciliés : les revenus étrangers non rapatriés échappent à l'impôt irlandais."
+  - "Le barème sur les revenus **irlandais** est en revanche élevé : 40 % dès 44 000 €, auxquels s'ajoutent l'USC et la PRSI, soit environ **52 %** au taux marginal."
+  - "**Une exception importante** : le salaire d'un employeur étranger pour des fonctions exercées en Irlande ne bénéficie pas de la remittance. Le télétravail depuis Dublin pour une société française est donc pleinement imposable."
+  - "Les plus-values sont taxées à **33 %**, taux unique, sans abattement pour durée de détention."
+  - "La transmission suit un taux unique de **33 %** au-delà de **400 000 €** par enfant, contre un barème progressif jusqu'à 45 % en France."
+  - "C'est une destination adaptée à ceux dont les revenus sont **étrangers et non rapatriés**, pas à ceux qui travaillent sur place."
 faq:
   - q: "Les revenus étrangers sont-ils vraiment exonérés en Irlande ?"
     r: "Pour un résident non domicilié, ils échappent en principe à l'impôt irlandais tant qu'ils ne sont pas rapatriés sur l'île. L'exonération suppose une séparation stricte des comptes et une traçabilité complète des flux : c'est un régime de gestion, pas une exonération automatique."
@@ -36,7 +38,7 @@ articlesLies:
   - "expatriation-italie-fiscalite"
   - "expatriation-luxembourg-fiscalite"
 seoDerive: true
-sources: "Taxes Consolidation Act irlandais, dispositions relatives à la résidence, au domicile et à la remittance basis · Convention fiscale franco-irlandaise · Revenue Commissioners, guidance sur la remittance basis."
+sources: "*Taxes Consolidation Act* irlandais, dispositions relatives à la résidence, au domicile et à la *remittance basis* · [Revenue Commissioners, *Remittance basis of assessment*, partie 05-01-21a](https://www.revenue.ie/en/tax-professionals/tdm/income-tax-capital-gains-tax-corporation-tax/part-05/05-01-21a.pdf) · [Barèmes, USC et PRSI du budget 2026](https://kpmg.com/ie/en/insights/tax/budget-2026/tables.html) · *Capital Acquisitions Tax Consolidation Act*, taux de 33 % et seuil de groupe A · Article 777 du Code général des impôts pour le barème français en ligne directe, dont sont tirés les montants de comparaison · Convention fiscale franco-irlandaise."
 ---
 
 ## Le tableau de synthèse
@@ -44,8 +46,12 @@ sources: "Taxes Consolidation Act irlandais, dispositions relatives à la résid
 | | |
 |---|---|
 | Principe | **Remittance basis** pour les résidents non domiciliés |
-| Revenus étrangers non rapatriés | En principe hors champ |
-| Barème général | Progressif, avec des prélèvements additionnels |
+| Revenus étrangers non rapatriés | **Hors champ** de l'impôt irlandais |
+| Barème sur les revenus irlandais | **20 %** jusqu'à 44 000 € pour une personne seule, **40 %** au-delà |
+| Prélèvements additionnels | USC de 0,5 % à **8 %** au-delà de 70 044 €, et PRSI à **4,35 %** depuis le 1ᵉʳ octobre 2026 |
+| Taux marginal réel sur le salaire | Environ **52 %** |
+| Plus-values | **33 %**, taux unique |
+| Droits de transmission (*Capital Acquisitions Tax*) | **33 %** au-delà d'un abattement de **400 000 €** par enfant, apprécié sur toute la vie |
 | Convention avec la France | Oui |
 | Exit tax française | Sursis automatique (UE) |
 
@@ -53,15 +59,32 @@ sources: "Taxes Consolidation Act irlandais, dispositions relatives à la résid
 
 La distinction résidence / domicile permet à un nouveau résident de n'être imposé que sur ses revenus de source irlandaise et sur ses revenus étrangers effectivement rapatriés.
 
+**L'exception à connaître avant toute autre.** Lorsqu'un résident non domicilié exerce en Irlande les fonctions d'un emploi relevant d'un employeur étranger, la remittance ne s'applique pas à ce salaire. Beaucoup de dossiers construits sur l'idée « je garde mon contrat français et je vis à Dublin » tombent sur cette règle.
+
 Comme à Malte, le régime impose une discipline de flux : comptes séparés, traçabilité de l'origine des fonds rapatriés, documentation. Un rapatriement mal tracé peut contaminer une assiette entière.
+
+## La transmission : un taux unique contre un barème progressif
+
+C'est la différence structurelle avec la France, et elle change de sens selon le montant transmis.
+
+L'Irlande applique un taux unique de **33 %** au-delà d'un abattement de **400 000 €** par enfant, apprécié sur l'ensemble de la vie et non par succession. La France applique un abattement de 100 000 € par enfant, puis un barème progressif qui atteint 45 %.
+
+**Un exemple chiffré**, pour un parent transmettant à un enfant unique. Les montants français sont calculés à partir du barème en ligne directe de l'article 777 du Code général des impôts.
+
+| Patrimoine transmis | Irlande | France |
+|---|---|---|
+| 1 000 000 € | **198 000 €** | **212 962 €** |
+| 3 000 000 € | **858 000 €** | **1 067 394 €** |
+
+À un million, les deux régimes se tiennent. À trois millions, l'écart atteint 209 000 €, et il se creuse ensuite : c'est la différence entre un taux plat et un barème qui monte. L'abattement irlandais étant apprécié sur toute la vie, les donations antérieures le consomment définitivement.
 
 ## La comparaison sur trois profils
 
-**Rentier à revenus étrangers.** Le régime est adapté, sous réserve des besoins de trésorerie sur place.
+**Rentier à revenus étrangers.** Le régime est adapté, sous réserve des besoins de trésorerie sur place : seul le rapatrié est imposé, et sans impôt minimum, contrairement à Malte.
 
-**Cadre en activité.** Les revenus du travail irlandais sont pleinement imposés au barème, avec additionnels. Il n'y a pas d'avantage.
+**Cadre en activité.** Les revenus du travail irlandais sont pleinement imposés : 40 % dès 44 000 €, plus USC et PRSI. Il n'y a aucun avantage, et l'exception sur l'employeur étranger ferme la porte au montage le plus tentant.
 
-**Retraité.** Le traitement de la pension dépend de la convention et de sa nature. Le coût du logement, notamment à Dublin, est très élevé.
+**Retraité.** Le traitement de la pension dépend de la convention et de sa nature. Le coût du logement, notamment à Dublin, est très élevé et pèse davantage sur le budget réel que l'écart fiscal.
 
 ## Points de vigilance
 

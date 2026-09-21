@@ -120,37 +120,60 @@ articles **I20** et **I10**.
 
 ## I18 — Irlande
 
-**URL** : /blog/expatriation-irlande-fiscalite · **Vérifié le 16 septembre 2026**
-**Meta** : La remittance protège les revenus étrangers non rapatriés, mais le barème local est élevé : une destination pour qui a des revenus étrangers.
+**URL** : /blog/expatriation-irlande-fiscalite · **Vérifié le 21 septembre 2026**
+**Meta** : Remittance pour les revenus étrangers, mais 52 % de taux marginal sur le salaire local. Et des droits de transmission à 33 % au-delà de 400 000 € par enfant.
 
 | | |
 |---|---|
 | Principe | **Remittance basis** pour les résidents non domiciliés |
-| Revenus étrangers non rapatriés | En principe hors champ |
-| Barème général | Progressif, avec des prélèvements additionnels |
+| Revenus étrangers non rapatriés | **Hors champ** de l'impôt irlandais |
+| Barème sur les revenus irlandais | **20 %** jusqu'à 44 000 € pour une personne seule, **40 %** au-delà |
+| Prélèvements additionnels | USC de 0,5 % à **8 %** au-delà de 70 044 €, et PRSI à **4,35 %** depuis le 1ᵉʳ octobre 2026 |
+| Taux marginal réel sur le salaire | Environ **52 %** |
+| Plus-values | **33 %**, taux unique |
+| Droits de transmission (*Capital Acquisitions Tax*) | **33 %** au-delà d'un abattement de **400 000 €** par enfant, apprécié sur toute la vie |
 | Convention avec la France | Oui |
 | Exit tax française | Sursis automatique (UE) |
 
 ### L'essentiel
 
-- L'Irlande applique, comme Malte et le Royaume-Uni historiquement, le principe de **remittance** aux résidents non domiciliés.
-- Les revenus étrangers non rapatriés en Irlande échappent en principe à l'impôt irlandais.
-- Le barème irlandais sur les revenus locaux est en revanche **élevé**, avec des prélèvements additionnels.
-- C'est une destination adaptée à ceux dont les revenus sont **étrangers**, pas à ceux qui travaillent sur place.
+- L'Irlande applique, comme Malte et le Royaume-Uni historiquement, le principe de **remittance** aux résidents non domiciliés : les revenus étrangers non rapatriés échappent à l'impôt irlandais.
+- Le barème sur les revenus **irlandais** est en revanche élevé : 40 % dès 44 000 €, auxquels s'ajoutent l'USC et la PRSI, soit environ **52 %** au taux marginal.
+- **Une exception importante** : le salaire d'un employeur étranger pour des fonctions exercées en Irlande ne bénéficie pas de la remittance. Le télétravail depuis Dublin pour une société française est donc pleinement imposable.
+- Les plus-values sont taxées à **33 %**, taux unique, sans abattement pour durée de détention.
+- La transmission suit un taux unique de **33 %** au-delà de **400 000 €** par enfant, contre un barème progressif jusqu'à 45 % en France.
+- C'est une destination adaptée à ceux dont les revenus sont **étrangers et non rapatriés**, pas à ceux qui travaillent sur place.
 
 ### Le mécanisme
 
 La distinction résidence / domicile permet à un nouveau résident de n'être imposé que sur ses revenus de source irlandaise et sur ses revenus étrangers effectivement rapatriés.
 
+**L'exception à connaître avant toute autre.** Lorsqu'un résident non domicilié exerce en Irlande les fonctions d'un emploi relevant d'un employeur étranger, la remittance ne s'applique pas à ce salaire. Beaucoup de dossiers construits sur l'idée « je garde mon contrat français et je vis à Dublin » tombent sur cette règle.
+
 Comme à Malte, le régime impose une discipline de flux : comptes séparés, traçabilité de l'origine des fonds rapatriés, documentation. Un rapatriement mal tracé peut contaminer une assiette entière.
+
+### La transmission : un taux unique contre un barème progressif
+
+C'est la différence structurelle avec la France, et elle change de sens selon le montant transmis.
+
+L'Irlande applique un taux unique de **33 %** au-delà d'un abattement de **400 000 €** par enfant, apprécié sur l'ensemble de la vie et non par succession. La France applique un abattement de 100 000 € par enfant, puis un barème progressif qui atteint 45 %.
+
+**Un exemple chiffré**, pour un parent transmettant à un enfant unique. Les montants français sont calculés à partir du barème en ligne directe de l'article 777 du Code général des impôts.
+
+| Patrimoine transmis | Irlande | France |
+|---|---|---|
+| 1 000 000 € | **198 000 €** | **212 962 €** |
+| 3 000 000 € | **858 000 €** | **1 067 394 €** |
+
+À un million, les deux régimes se tiennent. À trois millions, l'écart atteint 209 000 €, et il se creuse ensuite : c'est la différence entre un taux plat et un barème qui monte. L'abattement irlandais étant apprécié sur toute la vie, les donations antérieures le consomment définitivement.
 
 ### La comparaison sur trois profils
 
-**Rentier à revenus étrangers.** Le régime est adapté, sous réserve des besoins de trésorerie sur place.
+**Rentier à revenus étrangers.** Le régime est adapté, sous réserve des besoins de trésorerie sur place : seul le rapatrié est imposé, et sans impôt minimum, contrairement à Malte.
 
-**Cadre en activité.** Les revenus du travail irlandais sont pleinement imposés au barème, avec additionnels. Il n'y a pas d'avantage.
+**Cadre en activité.** Les revenus du travail irlandais sont pleinement imposés : 40 % dès 44 000 €, plus USC et PRSI. Il n'y a aucun avantage, et l'exception sur l'employeur étranger ferme la porte au montage le plus tentant.
 
-**Retraité.** Le traitement de la pension dépend de la convention et de sa nature. Le coût du logement, notamment à Dublin, est très élevé.
+**Retraité.** Le traitement de la pension dépend de la convention et de sa nature. Le coût du logement, notamment à Dublin, est très élevé et pèse davantage sur le budget réel que l'écart fiscal.
 
 ### Points de vigilance
 
@@ -218,7 +241,7 @@ Oui, en tant qu'État membre de l'Union européenne. Le sursis joue de plein dro
 
 ### Sources
 
-Taxes Consolidation Act irlandais, dispositions relatives à la résidence, au domicile et à la remittance basis · Convention fiscale franco-irlandaise · Revenue Commissioners, guidance sur la remittance basis.
+*Taxes Consolidation Act* irlandais, dispositions relatives à la résidence, au domicile et à la *remittance basis* · [Revenue Commissioners, *Remittance basis of assessment*, partie 05-01-21a](https://www.revenue.ie/en/tax-professionals/tdm/income-tax-capital-gains-tax-corporation-tax/part-05/05-01-21a.pdf) · [Barèmes, USC et PRSI du budget 2026](https://kpmg.com/ie/en/insights/tax/budget-2026/tables.html) · *Capital Acquisitions Tax Consolidation Act*, taux de 33 % et seuil de groupe A · Article 777 du Code général des impôts pour le barème français en ligne directe, dont sont tirés les montants de comparaison · Convention fiscale franco-irlandaise.
 
 
 ### Liens internes
@@ -887,41 +910,55 @@ articles **I12** et **I23**.
 
 ## I25 — Canada
 
-**URL** : /blog/expatriation-canada-fiscalite · **Vérifié le 16 septembre 2026**
-**Meta** : Pas de droits de succession, mais une présomption de disposition au décès qui impose les plus-values latentes : l'effet économique peut être proche.
+**URL** : /blog/expatriation-canada-fiscalite · **Vérifié le 21 septembre 2026**
+**Meta** : Pas de droits de succession, mais au décès la moitié des plus-values latentes s'ajoute à la dernière déclaration, à un taux qui atteint 53,53 % en Ontario.
 
 | | |
 |---|---|
 | Principe | Imposition sur les **revenus mondiaux** des résidents |
-| Niveaux d'imposition | Fédéral **et** provincial : l'écart entre provinces est significatif |
-| Succession | Pas de droits de succession, mais **présomption de disposition** au décès : les plus-values latentes sont imposées |
+| Barème fédéral | Cinq tranches, de **14 % à 33 %**, le taux plein au-delà de **258 482 $ canadiens** |
+| Taux marginal combiné le plus élevé | De **48 % en Alberta** à **54,8 % à Terre-Neuve-et-Labrador**, 53,53 % en Ontario, 53,31 % au Québec |
+| Gains en capital | **50 %** du gain entre dans le revenu imposable. La hausse à 66,67 % annoncée en 2024 a été **annulée en mars 2025** |
+| Exonération cumulative des gains en capital | **1 275 000 $** en 2026, pour les actions admissibles de petite entreprise |
+| Succession | Aucun droit de succession, mais **disposition réputée** au décès à la juste valeur marchande |
+| Roulement au conjoint | Report de l'imposition, à condition que le transfert intervienne dans les **36 mois** |
 | Convention avec la France | Oui |
 | Exit tax française | Sursis non automatique en principe, à vérifier selon la notice applicable |
 
 ### L'essentiel
 
-- Le Canada n'est pas une destination d'optimisation : il impose les **revenus mondiaux** de ses résidents.
-- Il n'a pas de droits de succession, mais une **présomption de disposition au décès** qui impose les plus-values latentes : l'effet économique peut être proche.
-- Le niveau d'imposition varie fortement selon la **province**.
+- Le Canada n'est pas une destination d'optimisation : il impose les **revenus mondiaux** de ses résidents, à des taux marginaux qui atteignent **53,53 % en Ontario** et **53,31 % au Québec**.
+- Il n'a **aucun droit de succession**, mais une **disposition réputée au décès** : la moitié des plus-values latentes s'ajoute à la dernière déclaration du défunt.
+- L'écart entre provinces est réel : **48 % en Alberta** contre **54,8 % à Terre-Neuve-et-Labrador** sur la tranche supérieure.
+- Le taux d'inclusion des gains en capital reste à **50 %**. La hausse à 66,67 %, annoncée en 2024 et reportée deux fois, a été **annulée en mars 2025**.
 - L'intérêt du Canada est professionnel, familial ou de cadre de vie, rarement fiscal.
 
 ### Le point le plus mal compris : la fiscalité au décès
 
 Beaucoup de Français retiennent que le Canada n'a pas de droits de succession et en concluent à un avantage de transmission. C'est une lecture incomplète.
 
-Au décès, le contribuable est réputé avoir disposé de l'ensemble de ses biens à leur juste valeur marchande. Les plus-values latentes deviennent imposables dans sa dernière déclaration de revenus.
+Au décès, le contribuable est réputé avoir disposé de l'ensemble de ses biens **à leur juste valeur marchande**, immédiatement avant le décès. La plus-value ainsi révélée entre pour **50 %** dans le revenu imposable de sa dernière déclaration, au barème ordinaire.
 
-Le prélèvement ne s'appelle pas droits de succession et ne se calcule pas de la même manière, mais il frappe le patrimoine au décès. Selon la composition du patrimoine et l'ampleur des plus-values accumulées, la charge peut être supérieure ou inférieure à celle qui résulterait du barème français. C'est un calcul, pas une évidence.
+**Un exemple chiffré.** Un portefeuille valant 1 000 000 $ canadiens au décès, acquis 400 000 $, transmis aux enfants d'un résident de l'Ontario.
 
-Un roulement au profit du conjoint survivant permet généralement de différer cette imposition jusqu'au second décès.
+| | Montant |
+|---|---|
+| Plus-value révélée | 600 000 $ |
+| Fraction imposable, taux d'inclusion de 50 % | **300 000 $** |
+| Impôt, au taux marginal supérieur de 53,53 % | environ **160 000 $** |
+| Droits de succession | **0 $** |
+
+Si le même portefeuille revient au **conjoint survivant** résidant au Canada, rien n'est dû : les biens sont transférés à leur coût d'acquisition et non à leur valeur, ce qui reporte l'imposition jusqu'à la revente ou au second décès. Le transfert doit intervenir dans les **36 mois** suivant le décès.
+
+**La comparaison avec la France oppose deux logiques inverses.** La France **purge** la plus-value latente au décès mais taxe la transmission. Le Canada ne taxe pas la transmission mais **révèle** la plus-value. Selon que le patrimoine est ancien et très valorisé, ou récent et peu valorisé, l'un ou l'autre coûte davantage. C'est un calcul, pas une évidence, et il dépend de la composition du patrimoine bien plus que du pays.
 
 ### La comparaison sur trois profils
 
-**Cadre ou famille en mobilité professionnelle.** C'est le cas type. La fiscalité est comparable, voire supérieure selon la province, à la fiscalité française sur les revenus du travail.
+**Cadre ou famille en mobilité professionnelle.** C'est le cas type. À 53,53 % en Ontario et 53,31 % au Québec sur la tranche supérieure, la fiscalité du travail est comparable à la française, voire supérieure. L'Alberta, à 48 %, est l'exception.
 
-**Dirigeant après cession.** Pas d'avantage : les plus-values sont imposables, avec un taux d'inclusion partiel.
+**Dirigeant après cession.** Pas d'avantage général : la moitié du gain est imposable au barème. L'exonération cumulative de **1 275 000 $** en 2026 ne vise que les actions admissibles de petite entreprise, et suppose d'en remplir les conditions.
 
-**Retraité.** Le traitement de la pension française dépend de la convention. Les régimes provinciaux de santé ont des conditions de résidence à vérifier.
+**Retraité.** Le traitement de la pension française dépend de la convention. Les régimes provinciaux de santé ont des conditions de résidence à vérifier, avec des délais de carence à l'arrivée.
 
 ### Points de vigilance
 
@@ -991,7 +1028,7 @@ Ne le présumez pas. L'assurance-vie française est une enveloppe de droit fran�
 
 ### Sources
 
-Loi de l'impôt sur le revenu canadienne, dispositions relatives à la résidence et à la disposition réputée au décès · Agence du revenu du Canada, guidance sur l'arrivée et le départ · Convention fiscale franco-canadienne · Entente fiscale entre la France et le Québec.
+Loi de l'impôt sur le revenu canadienne, dispositions relatives à la résidence et à la disposition réputée au décès · [Agence du revenu du Canada, gains en capital d'une personne décédée](https://www.canada.ca/fr/agence-revenu/services/impot/particuliers/evenements-vie/faire-impots-personne-decedee/preparer-declarations/declarer-revenus/gains-capital.html) · [Revenu Québec, report puis annulation de la hausse du taux d'inclusion des gains en capital](https://www.revenuquebec.ca/fr/salle-de-presse/nouvelles-fiscales/details/2025-02-05/harmonisation-avec-le-report-au-1er-janvier-2026-de-la-mise-en-oeuvre-du-changement-du-taux-dinclusion-des-gains-en-capital/) · Agence du revenu du Canada, barème fédéral 2026 et guidance sur l'arrivée et le départ · Convention fiscale franco-canadienne · Entente fiscale entre la France et le Québec.
 
 
 ### Liens internes
