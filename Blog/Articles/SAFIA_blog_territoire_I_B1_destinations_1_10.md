@@ -345,39 +345,59 @@ articles **I18** et **I8**.
 
 ## I10 — Espagne
 
-**URL** : /blog/expatriation-espagne-fiscalite · **Vérifié le 16 septembre 2026**
-**Meta** : Régime Beckham, fortune et succession régionalisées : pourquoi le choix de la communauté autonome pèse plus lourd que le régime lui-même.
+**URL** : /blog/expatriation-espagne-fiscalite · **Vérifié le 21 septembre 2026**
+**Meta** : Régime Beckham à 24 % jusqu'à 600 000 €, et des droits de succession qui vont de 1 % à 30 % selon la région choisie. Le vrai arbitrage est régional.
 
 | | |
 |---|---|
-| Régime pour impatriés | **Régime Beckham** : taux réduit sur les revenus du travail espagnols, durée limitée |
-| Revenus étrangers | Hors champ du régime pour l'essentiel, sauf revenus du travail |
-| Impôt sur la fortune | Oui, **variable selon la communauté autonome**, avec un impôt de solidarité national |
-| Succession | Barèmes **régionaux**, écarts considérables d'une communauté à l'autre |
+| Régime pour impatriés (« Beckham ») | **24 %** sur les revenus du travail espagnols jusqu'à 600 000 €, **47 %** au-delà, pendant **six ans** au maximum |
+| Condition d'accès | Ne pas avoir été résident fiscal espagnol au cours des **cinq** périodes d'imposition précédentes |
+| Revenus du capital (base del ahorro) | **19 %** jusqu'à 6 000 €, puis 21 %, 23 %, 27 %, et **30 %** au-delà de 300 000 € |
+| Barème général | Taux marginal maximum à partir de 300 000 €, de **45 % à Madrid** à **53,9 % en Communauté valencienne** |
+| Impôt de solidarité sur les grandes fortunes | Au-delà de **3 millions d'euros** de patrimoine net : 1,7 %, 2,1 % puis 3,5 % |
+| Succession | **Régionale**. Bonification de **99 %** à Madrid, en Andalousie, à Murcie et en Castille-et-León pour les enfants et le conjoint |
 | Exit tax française | Sursis automatique (UE) |
 
 ### L'essentiel
 
-- Le régime dit **Beckham** vise les salariés et dirigeants qui s'installent en Espagne pour y travailler.
-- La fiscalité espagnole est **fortement régionalisée** : l'impôt sur la fortune et les droits de succession varient énormément selon la communauté autonome.
-- Choisir Madrid ou l'Andalousie plutôt que la Catalogne n'est pas un détail : c'est souvent le paramètre le plus lourd du dossier.
-- Un impôt de solidarité sur les grandes fortunes a été institué au niveau national pour limiter les effets de la concurrence entre régions.
+- Le régime dit **Beckham** impose les revenus du travail espagnols à **24 % jusqu'à 600 000 €**, pendant six ans, au lieu du barème progressif qui monte au-delà de 45 %.
+- Il suppose de **ne pas avoir été résident fiscal espagnol** dans les cinq années précédentes, et se demande par le formulaire 149.
+- La fiscalité espagnole est **fortement régionalisée** : les droits de succession et l'impôt sur la fortune varient d'une communauté autonome à l'autre dans des proportions qui dépassent tout le reste.
+- Choisir Madrid ou l'Andalousie plutôt que la Catalogne n'est pas un détail : c'est souvent **le paramètre le plus lourd du dossier**.
+- Un **impôt de solidarité national** frappe les patrimoines nets au-delà de 3 millions d'euros, précisément pour limiter cette concurrence entre régions.
 
 ### Le point vraiment décisif : la région
 
 C'est la spécificité espagnole, et elle est mal comprise depuis la France.
 
-L'impôt sur la fortune et les droits de succession relèvent largement des communautés autonomes, qui disposent d'un pouvoir de modulation étendu. Certaines appliquent des abattements très importants en ligne directe, d'autres non. Certaines ont neutralisé l'impôt sur la fortune, d'autres l'appliquent pleinement, l'État ayant répliqué par un impôt de solidarité national pour les patrimoines les plus élevés.
+Les droits de succession et l'impôt sur la fortune relèvent largement des communautés autonomes, qui disposent d'un pouvoir de modulation étendu. **Madrid, l'Andalousie, Murcie et la Castille-et-León appliquent une bonification de 99 %** sur les droits dus par les descendants, ascendants et conjoints : l'impôt existe sur le papier et ne se paie pratiquement pas. La Catalogne et les Asturies, elles, s'en tiennent à des réductions d'assiette plafonnées à 300 000 €.
 
-Conséquence pratique : un patrimoine identique, transmis dans deux communautés autonomes différentes, peut supporter des droits sans commune mesure. La région de résidence doit donc être choisie **avant** de comparer l'Espagne à la France, et non l'inverse.
+L'État a répliqué à cette concurrence par l'**impôt temporaire de solidarité sur les grandes fortunes**, applicable au-delà de 3 millions d'euros de patrimoine net, aux taux de 1,7 %, 2,1 % puis 3,5 %. Il se déclare séparément, par le formulaire 718, en juillet. Sa logique est simple : ce qu'une région renonce à prélever, l'État le reprend au-dessus de 3 millions.
+
+**Un exemple chiffré.** Un couple installé en Espagne transmet 1 000 000 € à ses deux enfants.
+
+| Communauté autonome | Traitement |
+|---|---|
+| Madrid, Andalousie, Murcie, Castille-et-León | Bonification de **99 %** de l'impôt dû : les droits deviennent symboliques |
+| Catalogne, Asturies | Réduction d'assiette plafonnée à **300 000 €**, puis barème plein |
+
+Le patrimoine est le même, la famille est la même, la facture n'a rien à voir. La région de résidence doit donc être choisie **avant** de comparer l'Espagne à la France, et non l'inverse.
+
+### Le régime Beckham, ce qu'il couvre et ce qu'il ne couvre pas
+
+Il s'adresse aux salariés, dirigeants, entrepreneurs et télétravailleurs internationaux qui s'installent en Espagne. Pendant six exercices au maximum, le bénéficiaire reste contribuable à l'impôt sur le revenu espagnol mais suit les règles de l'impôt des non-résidents : **24 % sur les revenus du travail de source espagnole jusqu'à 600 000 €, 47 % au-delà**.
+
+Les revenus étrangers autres que le travail restent pour l'essentiel hors champ. La demande passe par le formulaire 149, la déclaration annuelle par le formulaire 151.
+
+La condition d'accès est stricte et elle se vérifie avant tout le reste : **aucune résidence fiscale espagnole au cours des cinq périodes d'imposition précédant l'installation**.
 
 ### La comparaison sur trois profils
 
-**Cadre détaché ou recruté, revenus du travail espagnols.** Le régime Beckham offre une imposition réduite sur ces revenus pendant une durée limitée, et un traitement favorable des revenus étrangers.
+**Cadre détaché ou recruté, revenus du travail espagnols.** Le régime Beckham ramène l'imposition à 24 % jusqu'à 600 000 €, contre un barème qui atteint 45 % à Madrid et près de 54 % ailleurs. C'est le profil pour lequel l'écart est le plus net.
 
-**Retraité.** Pas de régime spécifique aux pensions. La pension privée est imposable en Espagne au barème, généralement moins favorable que le régime grec ou italien du Sud.
+**Retraité.** Pas de régime spécifique aux pensions, qui sont imposées au barème général. Moins favorable que le régime grec ou que le Sud de l'Italie.
 
-**Grand patrimoine.** L'arbitrage porte moins sur l'impôt sur le revenu que sur l'impôt sur la fortune et sur la transmission, donc sur la communauté autonome.
+**Grand patrimoine.** L'arbitrage ne porte pas sur l'impôt sur le revenu mais sur la transmission et sur l'impôt de solidarité. Au-delà de 3 millions d'euros nets, la bonification régionale ne protège plus de l'impôt d'État.
 
 ### Points de vigilance
 
@@ -440,7 +460,7 @@ Pour l'essentiel, non. Il est construit autour des revenus du travail perçus en
 
 ### Sources
 
-Ley del Impuesto sobre la Renta de las Personas Físicas, régime spécial des travailleurs déplacés · Réglementations des communautés autonomes en matière d'impôt sur la fortune et de successions · Convention fiscale franco-espagnole, y compris sa convention en matière de successions · Code général des impôts, article 4 B.
+*Ley del Impuesto sobre la Renta de las Personas Físicas*, article 93, régime spécial des travailleurs déplacés, et formulaires 149 et 151 · [Agencia Tributaria, gravamen de la base liquidable del ahorro](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2025/c15-calculo-impuesto-determinacion-cuotas-integras/gravamen-base-liquidable-ahorro.html) · [Agencia Tributaria, impôt temporaire de solidarité sur les grandes fortunes](https://sede.agenciatributaria.gob.es/Sede/todas-noticias/2026/junio/29/modificacion-impuesto-temporal-solidaridad-grandes-fortunas.html), formulaire 718 · Réglementations des communautés autonomes en matière d'impôt sur la fortune et de successions, notamment les bonifications de 99 % de Madrid, d'Andalousie, de Murcie et de Castille-et-León · Convention fiscale franco-espagnole, y compris sa convention en matière de successions · Code général des impôts, article 4 B.
 
 
 ### Liens internes
@@ -1038,49 +1058,85 @@ articles **I11** et **I25**.
 
 ## I16 — Malte
 
-**URL** : /blog/expatriation-malte-fiscalite · **Vérifié le 16 septembre 2026**
-**Meta** : Le principe de remittance : les revenus étrangers non rapatriés échappent à l'impôt maltais. Impôt minimum, substance exigée et sursis d'exit tax.
+**URL** : /blog/expatriation-malte-fiscalite · **Vérifié le 21 septembre 2026**
+**Meta** : Les plus-values étrangères ne sont jamais imposées à Malte, même rapatriées. Mais l'impôt minimum passe de 15 000 à 35 000 € au 1ᵉʳ janvier 2027.
 
 | | |
 |---|---|
 | Principe | Imposition sur base de **remittance** pour les résidents non domiciliés |
-| Revenus étrangers non rapatriés | En principe hors champ, sous réserve d'un impôt minimum annuel |
-| Programmes de résidence | Plusieurs, avec conditions de logement, d'investissement et contribution |
+| Revenus étrangers non rapatriés | **Hors champ** de l'impôt maltais |
+| Plus-values de source étrangère | **Jamais imposées**, même rapatriées sur l'île |
+| Barème ordinaire | Progressif de 0 à **35 %**, le taux plein au-delà de 60 000 € |
+| Impôt minimum, non-domicilié ordinaire | **5 000 €** par an dès 35 000 € de revenus étrangers non intégralement rapatriés |
+| Programme de résidence, jusqu'au 31/12/2026 | **15 %** sur les revenus étrangers rapatriés, minimum **15 000 €** par an |
+| À partir du 01/01/2027 | Minimum porté à **35 000 €**, logement à **700 000 €** à l'achat ou 14 000 € de loyer annuel |
+| Droits de succession | **Aucun**. Un droit de 5 % s'applique aux seuls immeubles maltais transmis |
 | Convention avec la France | Oui |
 | Exit tax française | Sursis automatique (UE) |
 
 ### L'essentiel
 
 - Malte applique le principe de **remittance** : un résident non domicilié n'est imposé sur ses revenus étrangers que s'il les rapatrie sur l'île.
-- Un **impôt minimum annuel** s'applique généralement dans le cadre des programmes de résidence.
-- Étant membre de l'Union européenne, Malte offre la coordination santé et le sursis automatique d'exit tax.
-- La contrepartie est l'exigence de **substance** : logement, présence, et le cas échéant contribution forfaitaire.
+- Les **plus-values de source étrangère ne sont jamais imposées**, même rapatriées. C'est la particularité la plus notable du système, et elle n'a pas d'équivalent dans l'Union européenne.
+- **Le régime change au 1ᵉʳ janvier 2027** : l'impôt minimum des programmes de résidence passe de 15 000 à **35 000 €**, et le seuil de logement de 275 000 à **700 000 €**.
+- Un statut obtenu **avant le 31 décembre 2026** reste protégé des nouveaux seuils **jusqu'au 31 décembre 2031**. Il reste donc quelques mois.
+- Malte ne connaît **aucun droit de succession**.
+- La contrepartie est l'exigence de **substance** : logement, présence réelle, et contribution forfaitaire.
 
 ### Le mécanisme de remittance
 
-Le système distingue la résidence et le domicile, notion héritée du droit britannique. Un résident non domicilié à Malte est imposé sur ses revenus de source maltaise et sur ses revenus étrangers **rapatriés** à Malte, mais pas sur ses revenus étrangers laissés à l'extérieur.
+Le système distingue la résidence et le domicile, notion héritée du droit britannique. Un résident non domicilié à Malte est imposé sur ses revenus de source maltaise et sur ses revenus étrangers **rapatriés** à Malte, mais pas sur ses revenus étrangers laissés à l'extérieur. C'est l'article 4(1) de l'*Income Tax Act*.
 
-Les plus-values de source étrangère ne sont en principe pas imposées, même rapatriées : c'est la particularité la plus notable du système.
+**Les plus-values de source étrangère échappent à l'impôt maltais même lorsqu'elles sont rapatriées.** C'est le point central, et il est souvent confondu avec le traitement des revenus, qui lui dépend du rapatriement.
 
-En pratique, cela suppose une discipline de flux : séparer les comptes, tracer ce qui entre sur l'île, et documenter l'origine des sommes rapatriées. C'est un régime de gestion, pas un régime passif.
+Un impôt minimum existe en dehors de tout programme : l'article 56(27) prévoit **5 000 € par an** dès lors que les revenus étrangers atteignent 35 000 € et ne sont pas intégralement rapatriés.
+
+**Un exemple chiffré.** Un rentier dispose de 150 000 € de revenus de placements étrangers et n'a besoin que de 60 000 € pour vivre sur l'île.
+
+| | Base imposée | Impôt |
+|---|---|---|
+| Résident maltais, programme de résidence | 60 000 € rapatriés, à 15 % | **15 000 €**, le minimum du programme étant supérieur aux 9 000 € calculés |
+| Résident français | 150 000 € | **45 000 €** au prélèvement forfaitaire unique de 30 % |
+
+Les 90 000 € laissés à l'étranger ne sont pas imposés à Malte. Et une plus-value de cession, elle, ne l'est pas du tout, rapatriée ou non.
+
+En pratique, cela suppose une discipline de flux : séparer les comptes, tracer ce qui entre sur l'île, documenter l'origine des sommes rapatriées. C'est un régime de gestion, pas un régime passif.
+
+### Ce qui change le 1ᵉʳ janvier 2027
+
+C'est le point le plus important pour qui envisage Malte aujourd'hui, et il est récent.
+
+Le *Legal Notice 195 of 2026* fusionne les trois programmes existants, le *Residence Programme*, le *Global Residence Programme* et le *Malta Retirement Programme*, en un dispositif unique à quatre catégories. Les montants changent nettement.
+
+| | Jusqu'au 31/12/2026 | À partir du 01/01/2027 |
+|---|---|---|
+| Impôt minimum, résident global | 15 000 € | **35 000 €** |
+| Impôt minimum, retraité | 7 500 € + 500 € par personne à charge | **15 000 €**, sans supplément |
+| Logement à l'acquisition | 220 000 à 275 000 € selon la localité | **700 000 €**, partout |
+| Logement en location | 8 750 à 9 600 € par an | **14 000 €** par an |
+| Frais de dossier | 2 500 ou 6 000 € | **8 500 €** |
+
+**La disposition à connaître est transitoire.** Un statut accordé avant le 31 décembre 2026 reste protégé des nouveaux seuils **jusqu'au 31 décembre 2031**. Pour un dossier déjà avancé, la différence entre un statut obtenu en décembre 2026 et un statut obtenu en janvier 2027 est de 20 000 € par an pendant cinq ans, soit 100 000 €.
+
+Cela ne justifie pas de précipiter une expatriation, qui se décide sur bien d'autres critères. Cela justifie de savoir que le calendrier compte.
 
 ### La comparaison sur trois profils
 
-**Rentier disposant de revenus étrangers importants et de besoins de trésorerie limités sur place.** C'est le profil pour lequel le système est le plus efficace.
+**Rentier disposant de revenus étrangers importants et de besoins de trésorerie limités sur place.** C'est le profil pour lequel le système est le plus efficace : seul le rapatrié est imposé, avec un plancher.
 
-**Dirigeant après cession.** Le traitement des plus-values étrangères est l'atout central.
+**Dirigeant après cession.** Le traitement des plus-values étrangères est l'atout central, et le seul du panorama à être total plutôt que partiel.
 
-**Retraité.** Un programme dédié existe, avec ses conditions propres. La coordination santé européenne s'applique.
+**Retraité.** Le programme dédié exigeait 7 500 € par an, il en exigera 15 000 à partir de 2027. Il suppose 90 jours de présence par an en moyenne sur cinq ans, et de ne pas séjourner plus de 183 jours dans un autre pays. La coordination santé européenne s'applique.
 
 ### Points de vigilance
 
-L'impôt minimum annuel doit être intégré au calcul : le régime n'est pas gratuit.
+L'impôt minimum doit être intégré au calcul : le régime n'est pas gratuit, et il devient nettement plus cher en 2027.
 
-Les programmes de résidence maltais ont fait l'objet d'un examen attentif au niveau européen ; leurs conditions évoluent.
+Les programmes de résidence maltais ont fait l'objet d'un examen attentif au niveau européen, et la réforme de 2027 en est la conséquence directe. Leurs conditions peuvent encore évoluer.
 
 La substance est exigée : un logement adapté et une présence réelle.
 
-L'insularité et la taille du marché local sont des facteurs pratiques.
+L'insularité et la taille du marché local sont des facteurs pratiques, souvent sous-estimés dans les dossiers construits sur le seul argument fiscal.
 
 ### La remittance, une discipline de flux avant d'être un avantage
 
@@ -1136,7 +1192,7 @@ Elle peut convenir, et un programme dédié existe avec ses conditions propres. 
 
 ### Sources
 
-Income Tax Act maltais, dispositions relatives à la résidence, au domicile et à la base de remittance · Textes relatifs aux programmes de résidence maltais et à l'impôt minimum annuel · Convention fiscale franco-maltaise · Code général des impôts, article 167 bis.
+*Income Tax Act* maltais, articles 4(1) pour la base de remittance et 56(27) pour l'impôt minimum des résidents non domiciliés · *Legal Notice 195 of 2026*, fusion des programmes de résidence et nouveaux seuils au 1ᵉʳ janvier 2027, avec protection des statuts accordés avant le 31 décembre 2026 jusqu'au 31 décembre 2031 · [Malta Tax and Customs Administration, barème applicable en 2026](https://mtca.gov.mt/docs/default-source/documents/2026-tax-rates.pdf) · [Malta Tax and Customs Administration, droits sur les successions](https://mtca.gov.mt/personal-tax/inheritance/general-information-of-duty) · Textes relatifs au *Global Residence Programme* et au *Malta Retirement Programme* · Article 200 A du Code général des impôts pour le prélèvement forfaitaire unique · Convention fiscale franco-maltaise · Code général des impôts, article 167 bis.
 
 
 ### Liens internes

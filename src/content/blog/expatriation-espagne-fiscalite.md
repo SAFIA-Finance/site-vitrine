@@ -2,16 +2,17 @@
 code: "I10"
 titre: "Espagne : fiscalité de l'expatriation"
 titreSeo: "Espagne : fiscalité de l'expatriation"
-description: "Régime Beckham, fortune et succession régionalisées : pourquoi le choix de la communauté autonome pèse plus lourd que le régime lui-même."
+description: "Régime Beckham à 24 % jusqu'à 600 000 €, et des droits de succession qui vont de 1 % à 30 % selon la région choisie. Le vrai arbitrage est régional."
 categorie: "Expatriation"
 date: 2026-09-16
-lecture: 4
-mots: 891
+lecture: 6
+mots: 1254
 essentiel:
-  - "Le régime dit **Beckham** vise les salariés et dirigeants qui s'installent en Espagne pour y travailler."
-  - "La fiscalité espagnole est **fortement régionalisée** : l'impôt sur la fortune et les droits de succession varient énormément selon la communauté autonome."
-  - "Choisir Madrid ou l'Andalousie plutôt que la Catalogne n'est pas un détail : c'est souvent le paramètre le plus lourd du dossier."
-  - "Un impôt de solidarité sur les grandes fortunes a été institué au niveau national pour limiter les effets de la concurrence entre régions."
+  - "Le régime dit **Beckham** impose les revenus du travail espagnols à **24 % jusqu'à 600 000 €**, pendant six ans, au lieu du barème progressif qui monte au-delà de 45 %."
+  - "Il suppose de **ne pas avoir été résident fiscal espagnol** dans les cinq années précédentes, et se demande par le formulaire 149."
+  - "La fiscalité espagnole est **fortement régionalisée** : les droits de succession et l'impôt sur la fortune varient d'une communauté autonome à l'autre dans des proportions qui dépassent tout le reste."
+  - "Choisir Madrid ou l'Andalousie plutôt que la Catalogne n'est pas un détail : c'est souvent **le paramètre le plus lourd du dossier**."
+  - "Un **impôt de solidarité national** frappe les patrimoines nets au-delà de 3 millions d'euros, précisément pour limiter cette concurrence entre régions."
 faq:
   - q: "Le régime Beckham s'applique-t-il à un retraité ?"
     r: "Non. Il vise les personnes qui s'installent en Espagne pour y exercer une activité, salariée ou dirigeante. Un retraité relève du barème ordinaire, ce qui rend l'Espagne moins favorable que la Grèce ou le sud de l'Italie pour ce profil."
@@ -30,34 +31,53 @@ articlesLies:
   - "expatriation-etats-unis-fiscalite"
   - "expatriation-grece-fiscalite"
 seoDerive: true
-sources: "Ley del Impuesto sobre la Renta de las Personas Físicas, régime spécial des travailleurs déplacés · Réglementations des communautés autonomes en matière d'impôt sur la fortune et de successions · Convention fiscale franco-espagnole, y compris sa convention en matière de successions · Code général des impôts, article 4 B."
+sources: "*Ley del Impuesto sobre la Renta de las Personas Físicas*, article 93, régime spécial des travailleurs déplacés, et formulaires 149 et 151 · [Agencia Tributaria, gravamen de la base liquidable del ahorro](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2025/c15-calculo-impuesto-determinacion-cuotas-integras/gravamen-base-liquidable-ahorro.html) · [Agencia Tributaria, impôt temporaire de solidarité sur les grandes fortunes](https://sede.agenciatributaria.gob.es/Sede/todas-noticias/2026/junio/29/modificacion-impuesto-temporal-solidaridad-grandes-fortunas.html), formulaire 718 · Réglementations des communautés autonomes en matière d'impôt sur la fortune et de successions, notamment les bonifications de 99 % de Madrid, d'Andalousie, de Murcie et de Castille-et-León · Convention fiscale franco-espagnole, y compris sa convention en matière de successions · Code général des impôts, article 4 B."
 ---
 
 ## Le tableau de synthèse
 
 | | |
 |---|---|
-| Régime pour impatriés | **Régime Beckham** : taux réduit sur les revenus du travail espagnols, durée limitée |
-| Revenus étrangers | Hors champ du régime pour l'essentiel, sauf revenus du travail |
-| Impôt sur la fortune | Oui, **variable selon la communauté autonome**, avec un impôt de solidarité national |
-| Succession | Barèmes **régionaux**, écarts considérables d'une communauté à l'autre |
+| Régime pour impatriés (« Beckham ») | **24 %** sur les revenus du travail espagnols jusqu'à 600 000 €, **47 %** au-delà, pendant **six ans** au maximum |
+| Condition d'accès | Ne pas avoir été résident fiscal espagnol au cours des **cinq** périodes d'imposition précédentes |
+| Revenus du capital (base del ahorro) | **19 %** jusqu'à 6 000 €, puis 21 %, 23 %, 27 %, et **30 %** au-delà de 300 000 € |
+| Barème général | Taux marginal maximum à partir de 300 000 €, de **45 % à Madrid** à **53,9 % en Communauté valencienne** |
+| Impôt de solidarité sur les grandes fortunes | Au-delà de **3 millions d'euros** de patrimoine net : 1,7 %, 2,1 % puis 3,5 % |
+| Succession | **Régionale**. Bonification de **99 %** à Madrid, en Andalousie, à Murcie et en Castille-et-León pour les enfants et le conjoint |
 | Exit tax française | Sursis automatique (UE) |
 
 ## Le point vraiment décisif : la région
 
 C'est la spécificité espagnole, et elle est mal comprise depuis la France.
 
-L'impôt sur la fortune et les droits de succession relèvent largement des communautés autonomes, qui disposent d'un pouvoir de modulation étendu. Certaines appliquent des abattements très importants en ligne directe, d'autres non. Certaines ont neutralisé l'impôt sur la fortune, d'autres l'appliquent pleinement, l'État ayant répliqué par un impôt de solidarité national pour les patrimoines les plus élevés.
+Les droits de succession et l'impôt sur la fortune relèvent largement des communautés autonomes, qui disposent d'un pouvoir de modulation étendu. **Madrid, l'Andalousie, Murcie et la Castille-et-León appliquent une bonification de 99 %** sur les droits dus par les descendants, ascendants et conjoints : l'impôt existe sur le papier et ne se paie pratiquement pas. La Catalogne et les Asturies, elles, s'en tiennent à des réductions d'assiette plafonnées à 300 000 €.
 
-Conséquence pratique : un patrimoine identique, transmis dans deux communautés autonomes différentes, peut supporter des droits sans commune mesure. La région de résidence doit donc être choisie **avant** de comparer l'Espagne à la France, et non l'inverse.
+L'État a répliqué à cette concurrence par l'**impôt temporaire de solidarité sur les grandes fortunes**, applicable au-delà de 3 millions d'euros de patrimoine net, aux taux de 1,7 %, 2,1 % puis 3,5 %. Il se déclare séparément, par le formulaire 718, en juillet. Sa logique est simple : ce qu'une région renonce à prélever, l'État le reprend au-dessus de 3 millions.
+
+**Un exemple chiffré.** Un couple installé en Espagne transmet 1 000 000 € à ses deux enfants.
+
+| Communauté autonome | Traitement |
+|---|---|
+| Madrid, Andalousie, Murcie, Castille-et-León | Bonification de **99 %** de l'impôt dû : les droits deviennent symboliques |
+| Catalogne, Asturies | Réduction d'assiette plafonnée à **300 000 €**, puis barème plein |
+
+Le patrimoine est le même, la famille est la même, la facture n'a rien à voir. La région de résidence doit donc être choisie **avant** de comparer l'Espagne à la France, et non l'inverse.
+
+## Le régime Beckham, ce qu'il couvre et ce qu'il ne couvre pas
+
+Il s'adresse aux salariés, dirigeants, entrepreneurs et télétravailleurs internationaux qui s'installent en Espagne. Pendant six exercices au maximum, le bénéficiaire reste contribuable à l'impôt sur le revenu espagnol mais suit les règles de l'impôt des non-résidents : **24 % sur les revenus du travail de source espagnole jusqu'à 600 000 €, 47 % au-delà**.
+
+Les revenus étrangers autres que le travail restent pour l'essentiel hors champ. La demande passe par le formulaire 149, la déclaration annuelle par le formulaire 151.
+
+La condition d'accès est stricte et elle se vérifie avant tout le reste : **aucune résidence fiscale espagnole au cours des cinq périodes d'imposition précédant l'installation**.
 
 ## La comparaison sur trois profils
 
-**Cadre détaché ou recruté, revenus du travail espagnols.** Le régime Beckham offre une imposition réduite sur ces revenus pendant une durée limitée, et un traitement favorable des revenus étrangers.
+**Cadre détaché ou recruté, revenus du travail espagnols.** Le régime Beckham ramène l'imposition à 24 % jusqu'à 600 000 €, contre un barème qui atteint 45 % à Madrid et près de 54 % ailleurs. C'est le profil pour lequel l'écart est le plus net.
 
-**Retraité.** Pas de régime spécifique aux pensions. La pension privée est imposable en Espagne au barème, généralement moins favorable que le régime grec ou italien du Sud.
+**Retraité.** Pas de régime spécifique aux pensions, qui sont imposées au barème général. Moins favorable que le régime grec ou que le Sud de l'Italie.
 
-**Grand patrimoine.** L'arbitrage porte moins sur l'impôt sur le revenu que sur l'impôt sur la fortune et sur la transmission, donc sur la communauté autonome.
+**Grand patrimoine.** L'arbitrage ne porte pas sur l'impôt sur le revenu mais sur la transmission et sur l'impôt de solidarité. Au-delà de 3 millions d'euros nets, la bonification régionale ne protège plus de l'impôt d'État.
 
 ## Points de vigilance
 
