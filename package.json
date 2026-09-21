@@ -23,7 +23,8 @@
     "auditer": "node outils/auditer-contenu.mjs",
     "auditer-pages": "node outils/auditer-pages.mjs",
     "cannibalisation": "node outils/auditer-cannibalisation.mjs",
-    "geo": "node outils/auditer-geo.mjs"
+    "geo": "node outils/auditer-geo.mjs",
+    "mots-cles": "node outils/auditer-mots-cles.mjs"
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.4",
