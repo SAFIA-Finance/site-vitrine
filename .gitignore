@@ -46,3 +46,35 @@ Blog/Resources et étude de marché SEO/
 Export Search Console*/
 Exports/
 exports/
+
+# Clés d'API : le fichier local lu par les outils, et tout document qui en
+# porte une.
+#
+# Le dépôt est PUBLIC. Le 21 septembre 2026, la clé de l'AI Gateway est
+# arrivée à la racine du projet dans « API KEY AI GATEWAY.docx ». Le fichier
+# n'était couvert par AUCUNE règle : les .docx sont versionnés dans ce dépôt
+# (« reference/pages-legales/ »), donc l'extension ne protégeait rien. Un seul
+# « git add -A » aurait publié la clé sur GitHub. Même cause et même remède
+# que pour les exports Search Console ci-dessus : la règle est écrite avant
+# toute autre opération.
+#
+# La règle porte sur le NOM et non sur l'extension, parce qu'une clé se range
+# indifféremment dans un .docx, un .txt ou une capture d'écran.
+.env.local
+.env.*.local
+*API*KEY*
+*api*key*
+*CLE*API*
+
+# Le rapport d'audit du contenu, produit par « npm run auditer ».
+#
+# Le dépôt est PUBLIC. Ce document classe les 123 articles du plus faible au
+# plus solide et nomme ceux qui manquent de chiffres : c'est exactement le type
+# de raisonnement interne qu'on venait de retirer de l'article Wallis-et-Futuna
+# le 21 septembre 2026, où il était parti en production. Il n'a pas plus sa
+# place dans le dépôt que sur une page. Même logique que les exports Search
+# Console ci-dessus.
+#
+# Il se régénère en deux minutes et pour quelques centimes : rien n'est perdu
+# à ne pas le versionner.
+docs/AUDIT-CONTENU.md

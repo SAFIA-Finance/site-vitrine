@@ -18,11 +18,14 @@
     "qr": "node outils/generer-qr.mjs",
     "blog": "node outils/blog-en-articles.mjs",
     "llms": "node outils/generer-llms.mjs",
-    "notes": "node outils/relever-notes.mjs"
+    "notes": "node outils/relever-notes.mjs",
+    "tester-jev": "node outils/tester-jev.mjs",
+    "auditer": "node outils/auditer-contenu.mjs"
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.4",
     "@astrojs/sitemap": "^3.2.1",
+    "ai": "^7.0.107",
     "astro": "^5.1.1",
     "qrcode": "^1.5.4",
     "typescript": "^5.7.2"
