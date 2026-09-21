@@ -443,6 +443,32 @@ articles **D12** et **D15**.
 **URL** : /blog/sci-familiale-transmission · **Mot-clé** : sci familiale
 **Meta** : La SCI rend un bien divisible et évite l'indivision, mais impose comptabilité et assemblées. Ce qu'elle règle vraiment, et ce qu'elle complique.
 
+### Le levier chiffré : le démembrement des parts
+
+C'est ce qui rend la SCI familiale intéressante en transmission, et ce que la détention en direct ne permet pas aussi finement.
+
+Donner la nue-propriété des parts en conservant l'usufruit fait porter les droits de donation sur la seule valeur de la nue-propriété. Cette valeur n'est pas négociée : elle résulte du **barème de l'article 669 du Code général des impôts**, qui la fixe selon l'âge de l'usufruitier au jour de la donation.
+
+| Âge de l'usufruitier | Valeur de l'usufruit | Valeur de la nue-propriété |
+|---|---|---|
+| Moins de 51 ans | 50 % | **50 %** |
+| De 51 à 60 ans | 40 % | **60 %** |
+| De 61 à 70 ans | 30 % | **70 %** |
+| De 71 à 80 ans | 20 % | **80 %** |
+| De 81 à 90 ans | 10 % | **90 %** |
+| Plus de 91 ans | 5 % | 95 % |
+
+**Un exemple chiffré.** Des parents de 62 ans détiennent une SCI dont les parts valent **600 000 €** et veulent transmettre à leurs deux enfants.
+
+| | Base taxable | Droits dus |
+|---|---|---|
+| Donation en pleine propriété | 600 000 €, moins 100 000 € d'abattement par parent et par enfant | Base de **200 000 €** après les quatre abattements |
+| Donation de la **seule nue-propriété** | 70 % de 600 000 €, soit **420 000 €** | Base de **20 000 €** après les mêmes abattements |
+
+Deux effets se cumulent. Le barème de l'article 669 réduit l'assiette de 30 % à cet âge. Et **l'usufruit s'éteint au décès sans droits supplémentaires** : les enfants deviennent pleins propriétaires sans que la valeur de l'usufruit soit taxée.
+
+Deux limites à connaître. L'abattement de 100 000 € par parent et par enfant se reconstitue **tous les quinze ans**, ce qui fait du calendrier un paramètre à part entière. Et l'article **751** du Code général des impôts présume la pleine propriété au décès lorsque l'usufruit appartenait au défunt et la nue-propriété à son héritier, sauf à prouver la sincérité de l'opération : la donation doit être régulière, enregistrée et antérieure de plus de trois mois au décès.
+
 ### L'essentiel
 
 - La SCI transforme un bien indivisible en **parts divisibles**, ce qui facilite la transmission progressive.
@@ -520,7 +546,7 @@ Les statuts décident. C'est précisément leur intérêt : ils fixent les règl
 
 ### Sources
 
-Code civil, articles 1832 et suivants, et 1857 sur la responsabilité des associés · Code général des impôts, articles 8, 206 et 976 · BOFiP, sociétés civiles immobilières et évaluation des titres non cotés.
+**Code général des impôts, article 669**, barème de l'usufruit et de la nue-propriété selon l'âge de l'usufruitier · **Code général des impôts, article 751**, présomption de propriété en cas de démembrement entre le défunt et son héritier · Code général des impôts, article 779 pour l'abattement de 100 000 € et article 784 pour son rappel sur quinze ans · Code civil, articles 1832 et suivants, et 1857 sur la responsabilité des associés · Code général des impôts, articles 8, 206 et 976 · BOFiP, sociétés civiles immobilières et évaluation des titres non cotés.
 
 
 ### Liens internes

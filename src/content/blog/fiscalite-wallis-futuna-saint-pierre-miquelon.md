@@ -5,8 +5,8 @@ titreSeo: "Wallis-et-Futuna et Saint-Pierre-et-Miquelon : fiscalité"
 description: "Deux collectivités de l'article 74 à fiscalité propre : Wallis-et-Futuna sans impôt sur le revenu, Saint-Pierre-et-Miquelon avec son code local."
 categorie: "Outre-mer"
 date: 2026-09-16
-lecture: 3
-mots: 520
+lecture: 4
+mots: 896
 essentiel:
   - "Les deux collectivités relèvent de l'**article 74** de la Constitution et disposent d'une fiscalité propre."
   - "**Wallis-et-Futuna** repose très largement sur la **fiscalité indirecte** : il n'y a pas d'impôt sur le revenu des personnes physiques comparable au modèle métropolitain."
@@ -37,10 +37,37 @@ pages:
 articlesLies:
   - "fiscalite-polynesie-francaise"
   - "defiscalisation-outre-mer-dispositifs"
-sources: "Constitution du 4 octobre 1958, article 74 · Loi n° 61-814 du 29 juillet 1961 conférant aux îles Wallis et Futuna le statut de territoire d'outre-mer · Loi n° 85-595 du 11 juin 1985 relative au statut de l'archipel de Saint-Pierre-et-Miquelon et textes statutaires ultérieurs · Codes locaux des impôts et services fiscaux des deux collectivités · Convention fiscale franco-canadienne."
+sources: "[Convention fiscale entre l'État et Saint-Pierre-et-Miquelon, signée le 30 mai 1988](https://www.impots.gouv.fr/sites/default/files/media/10_conventions/saint-pierre-et-miquelon/saint-pierre-et-miquelon_convention-avec-saint-pierre-et-miquelon_fd_2184.pdf), approuvée par la loi n° 88-1263 du 30 décembre 1988 · [BOI-INT-CVB-SPM, commentaire administratif de la convention](https://bofip.impots.gouv.fr/bofip/947-PGP.html/identifiant=BOI-INT-CVB-SPM-20120912) · [Liste des conventions fiscales publiée par l'administration fiscale](https://www.impots.gouv.fr/les-conventions-internationales), qui ne comporte pas Wallis-et-Futuna · Constitution du 4 octobre 1958, article 74 · Loi n° 61-814 du 29 juillet 1961 conférant aux îles Wallis et Futuna le statut de territoire d'outre-mer · Loi n° 85-595 du 11 juin 1985 relative au statut de l'archipel de Saint-Pierre-et-Miquelon et textes statutaires ultérieurs · Codes locaux des impôts et services fiscaux des deux collectivités · Convention fiscale franco-canadienne."
 ---
 
 **Vérifié le 16 septembre 2026**
+
+## Le tableau de synthèse
+
+| | Wallis-et-Futuna | Saint-Pierre-et-Miquelon |
+|---|---|---|
+| Statut | COM de l'article 74 | COM de l'article 74 |
+| Loi statutaire | Loi n° **61-814** du 29 juillet 1961 | Loi n° **85-595** du 11 juin 1985 |
+| Fiscalité locale | Principalement **indirecte**, pas d'impôt sur le revenu comparable au modèle métropolitain | **Code local des impôts** complet, avec impôt sur le revenu et sur les sociétés |
+| Convention fiscale avec l'État | **Aucune** ne figure dans la liste publiée par l'administration fiscale | **Oui**, du **30 mai 1988**, approuvée par la loi n° 88-1263 du 30 décembre 1988 |
+| Champ de cette convention | — | Revenus, droits d'enregistrement, **successions et donations** |
+| Établissement stable | — | Bénéfices imposables dans l'autre territoire, au taux maximal de **10 %** |
+| TVA française | **Non applicable** | **Non applicable** |
+
+## La différence qui commande tout : la convention
+
+Réunir ces deux collectivités dans un même article tient à leur statut commun. Sur le point qui décide d'un dossier patrimonial, elles s'opposent.
+
+**Saint-Pierre-et-Miquelon est couvert par une convention complète.** Signée le 30 mai 1988 à Saint-Pierre et approuvée par la loi du 30 décembre 1988, elle règle la double imposition en matière de revenus, de droits d'enregistrement et, ce qui est rare, de **successions et de donations**. Son article 4 définit la résidence fiscale. Les bénéfices d'un établissement stable y sont imposables dans l'autre territoire à un taux plafonné à **10 %**.
+
+**Wallis-et-Futuna ne l'est pas.** Aucune convention avec l'État ne figure dans la liste des conventions publiée par l'administration fiscale. Il n'existe donc aucune règle conventionnelle de répartition du droit d'imposer, ni d'élimination de la double imposition, entre la France et ce territoire.
+
+| | Ce sur quoi s'appuyer |
+|---|---|
+| Pour Saint-Pierre-et-Miquelon | La **convention du 30 mai 1988**, catégorie de revenu par catégorie de revenu |
+| Pour Wallis-et-Futuna | Les **règles unilatérales** de chaque territoire, sans filet conventionnel |
+
+Cette asymétrie est le premier élément à établir dans un projet d'installation, et elle passe avant toute question de barème local. Une succession ouverte à Saint-Pierre-et-Miquelon dispose d'un cadre conventionnel ; la même succession ouverte à Wallis-et-Futuna n'en a pas.
 
 ## Wallis-et-Futuna
 

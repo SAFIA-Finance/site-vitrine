@@ -5,8 +5,8 @@ titreSeo: "Polynésie française : fiscalité propre et autonomie"
 description: "Collectivité autonome de l'article 74 : le Code général des impôts ne s'y applique pas. Fiscalité indirecte dominante et convention avec l'État."
 categorie: "Outre-mer"
 date: 2026-09-16
-lecture: 3
-mots: 532
+lecture: 6
+mots: 1202
 essentiel:
   - "La Polynésie française est une **collectivité d'outre-mer dotée de l'autonomie**, régie par l'article 74 de la Constitution et par sa loi organique statutaire."
   - "Elle exerce une **compétence fiscale propre** : le Code général des impôts ne s'y applique pas."
@@ -35,10 +35,61 @@ pages:
 articlesLies:
   - "convention-fiscale-mode-emploi"
   - "transmission-patrimoine-outre-mer"
-sources: "Constitution du 4 octobre 1958, article 74 · Loi organique n° 2004-192 du 27 février 2004 portant statut d'autonomie de la Polynésie française · Code des impôts de la Polynésie française et délibérations de l'Assemblée de la Polynésie française · Convention fiscale entre l'État et la Polynésie française · Direction des impôts et des contributions publiques de la Polynésie française."
+sources: "[Convention fiscale entre la France et la Polynésie française des 28 mars et 28 mai 1957](https://www.impots.gouv.fr/sites/default/files/media/10_conventions/polynesie-francaise/polynesie-francaise_convention-avec-la-polynesie-francaise_fd_1994.pdf), approuvée par le décret n° 57-924 du 1er août 1957, limitée aux revenus de valeurs mobilières · [BOI-INT-CVB-PYF, commentaire administratif de la convention](https://bofip.impots.gouv.fr/bofip/2452-PGP.html/identifiant%3DBOI-INT-CVB-PYF-20120912) · [Question écrite n° 19970 à l'Assemblée nationale sur la double imposition des Français établis en Polynésie française](https://questions.assemblee-nationale.fr/q15/15-19970QE.htm) · [Direction des impôts et des contributions publiques de Polynésie française](https://www.impot-polynesie.gov.pf/faq/les-conventions-fiscales) · Code général des impôts, **articles 197 A** pour le taux minimum des non-résidents, **244 bis A** pour les plus-values immobilières et **750 ter** pour les droits de mutation · Constitution du 4 octobre 1958, article 74 · Loi organique n° 2004-192 du 27 février 2004 portant statut d'autonomie de la Polynésie française · Code des impôts de la Polynésie française et délibérations de l'Assemblée de la Polynésie française · Convention fiscale entre l'État et la Polynésie française · Direction des impôts et des contributions publiques de la Polynésie française."
 ---
 
 **Vérifié le 16 septembre 2026**
+
+## Le tableau de synthèse
+
+| | |
+|---|---|
+| Statut | COM de l'article 74, dotée de l'autonomie, loi organique du 27 février 2004 |
+| Compétence fiscale | **Pleine.** Le Code général des impôts ne s'y applique pas |
+| Convention avec la France | **Oui, mais très limitée** : celle des 28 mars et 28 mai 1957, approuvée par le décret n° 57-924 du 1ᵉʳ août 1957 |
+| Champ de cette convention | Les seuls **revenus de valeurs mobilières**, et l'assistance administrative |
+| Ce qu'elle ne couvre pas | Les salaires, les pensions, les revenus immobiliers, les successions |
+| TVA française | **Non applicable** |
+| Barème local | Fixé par le code local et par délibérations, non publiées sur Légifrance |
+
+## Le point décisif : une convention de 1957, et rien d'autre
+
+C'est la particularité polynésienne, et elle est très mal connue. Les trois grandes collectivités du Pacifique ne sont pas logées à la même enseigne.
+
+| Territoire | Convention avec l'État | Ce qu'elle couvre |
+|---|---|---|
+| **Nouvelle-Calédonie** | 31 mars 1983 | Revenus, sociétés, droits d'enregistrement, **successions et donations** |
+| **Saint-Pierre-et-Miquelon** | 30 mai 1988 | Revenus et droits d'enregistrement, **successions et donations** |
+| **Polynésie française** | **1957** | Les seuls **revenus de valeurs mobilières** |
+| **Wallis-et-Futuna** | **Aucune** | — |
+
+La convention franco-polynésienne date des 28 mars et 28 mai 1957. Elle a été approuvée par le décret n° 57-924 du 1ᵉʳ août 1957 et est entrée en vigueur le 19 septembre 1957. Son objet, énoncé dans son intitulé, est d'éliminer les doubles impositions et d'organiser l'assistance administrative **en matière d'impôts sur les revenus de valeurs mobilières**.
+
+**Tout le reste est hors de son champ.** Les traitements et salaires, les pensions, les revenus fonciers, les plus-values, les successions ne font l'objet d'aucune règle de répartition conventionnelle entre la France et la Polynésie.
+
+La conséquence est directe, et elle a fait l'objet de questions parlementaires : un Français établi en Polynésie qui conserve des revenus de source métropolitaine peut se trouver **imposé des deux côtés**, sans mécanisme conventionnel pour l'en protéger. Il ne reste alors que les règles unilatérales de chaque territoire.
+
+C'est le point à vérifier en premier dans un projet d'installation, avant tout calcul de barème : **savoir si la catégorie de revenu concernée entre, ou non, dans le champ de la convention de 1957.**
+
+## Ce que la France applique, faute de convention
+
+Quand la catégorie de revenu sort du champ de la convention, ce sont les règles unilatérales françaises qui s'appliquent au résident polynésien, comme à n'importe quel non-résident. Elles sont, elles, entièrement publiées.
+
+| Revenu de source française | Ce que la France prélève | Référence |
+|---|---|---|
+| Revenus fonciers et autres revenus imposables au barème | Un **taux minimum de 20 %**, porté à **30 %** au-delà d'un seuil révisé chaque année | Article **197 A** du CGI |
+| Si le taux moyen mondial est plus favorable | Le contribuable peut demander l'application de ce **taux moyen** sur ses seuls revenus français | Article 197 A du CGI |
+| Plus-value de cession d'un immeuble situé en France | **19 %**, auxquels s'ajoutent les prélèvements sociaux | Article **244 bis A** du CGI |
+| Transmission d'un bien situé en France | Droits de mutation français | Article **750 ter** du CGI |
+
+**Un exemple.** Un résident polynésien conserve un appartement loué à Bordeaux, dégageant **18 000 €** de revenus fonciers nets par an.
+
+| | Montant |
+|---|---|
+| Imposition française, au taux minimum de 20 % | **3 600 €** |
+| Imposition polynésienne éventuelle sur le même revenu | Selon le code local, **sans mécanisme conventionnel d'élimination** |
+
+C'est exactement la situation que la convention de 1957 ne couvre pas, et la raison pour laquelle le sujet a fait l'objet de questions parlementaires. Le contribuable peut demander l'application du taux moyen s'il lui est plus favorable, mais il ne dispose d'aucun crédit d'impôt conventionnel.
 
 ## Ce qu'il faut comprendre du système
 

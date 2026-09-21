@@ -507,6 +507,57 @@ articles **K2** et **K3**.
 **Meta** : Collectivité autonome de l'article 74 : le Code général des impôts ne s'y applique pas. Fiscalité indirecte dominante et convention avec l'État.
 **Vérifié le 16 septembre 2026**
 
+### Le tableau de synthèse
+
+| | |
+|---|---|
+| Statut | COM de l'article 74, dotée de l'autonomie, loi organique du 27 février 2004 |
+| Compétence fiscale | **Pleine.** Le Code général des impôts ne s'y applique pas |
+| Convention avec la France | **Oui, mais très limitée** : celle des 28 mars et 28 mai 1957, approuvée par le décret n° 57-924 du 1ᵉʳ août 1957 |
+| Champ de cette convention | Les seuls **revenus de valeurs mobilières**, et l'assistance administrative |
+| Ce qu'elle ne couvre pas | Les salaires, les pensions, les revenus immobiliers, les successions |
+| TVA française | **Non applicable** |
+| Barème local | Fixé par le code local et par délibérations, non publiées sur Légifrance |
+
+### Le point décisif : une convention de 1957, et rien d'autre
+
+C'est la particularité polynésienne, et elle est très mal connue. Les trois grandes collectivités du Pacifique ne sont pas logées à la même enseigne.
+
+| Territoire | Convention avec l'État | Ce qu'elle couvre |
+|---|---|---|
+| **Nouvelle-Calédonie** | 31 mars 1983 | Revenus, sociétés, droits d'enregistrement, **successions et donations** |
+| **Saint-Pierre-et-Miquelon** | 30 mai 1988 | Revenus et droits d'enregistrement, **successions et donations** |
+| **Polynésie française** | **1957** | Les seuls **revenus de valeurs mobilières** |
+| **Wallis-et-Futuna** | **Aucune** | — |
+
+La convention franco-polynésienne date des 28 mars et 28 mai 1957. Elle a été approuvée par le décret n° 57-924 du 1ᵉʳ août 1957 et est entrée en vigueur le 19 septembre 1957. Son objet, énoncé dans son intitulé, est d'éliminer les doubles impositions et d'organiser l'assistance administrative **en matière d'impôts sur les revenus de valeurs mobilières**.
+
+**Tout le reste est hors de son champ.** Les traitements et salaires, les pensions, les revenus fonciers, les plus-values, les successions ne font l'objet d'aucune règle de répartition conventionnelle entre la France et la Polynésie.
+
+La conséquence est directe, et elle a fait l'objet de questions parlementaires : un Français établi en Polynésie qui conserve des revenus de source métropolitaine peut se trouver **imposé des deux côtés**, sans mécanisme conventionnel pour l'en protéger. Il ne reste alors que les règles unilatérales de chaque territoire.
+
+C'est le point à vérifier en premier dans un projet d'installation, avant tout calcul de barème : **savoir si la catégorie de revenu concernée entre, ou non, dans le champ de la convention de 1957.**
+
+### Ce que la France applique, faute de convention
+
+Quand la catégorie de revenu sort du champ de la convention, ce sont les règles unilatérales françaises qui s'appliquent au résident polynésien, comme à n'importe quel non-résident. Elles sont, elles, entièrement publiées.
+
+| Revenu de source française | Ce que la France prélève | Référence |
+|---|---|---|
+| Revenus fonciers et autres revenus imposables au barème | Un **taux minimum de 20 %**, porté à **30 %** au-delà d'un seuil révisé chaque année | Article **197 A** du CGI |
+| Si le taux moyen mondial est plus favorable | Le contribuable peut demander l'application de ce **taux moyen** sur ses seuls revenus français | Article 197 A du CGI |
+| Plus-value de cession d'un immeuble situé en France | **19 %**, auxquels s'ajoutent les prélèvements sociaux | Article **244 bis A** du CGI |
+| Transmission d'un bien situé en France | Droits de mutation français | Article **750 ter** du CGI |
+
+**Un exemple.** Un résident polynésien conserve un appartement loué à Bordeaux, dégageant **18 000 €** de revenus fonciers nets par an.
+
+| | Montant |
+|---|---|
+| Imposition française, au taux minimum de 20 % | **3 600 €** |
+| Imposition polynésienne éventuelle sur le même revenu | Selon le code local, **sans mécanisme conventionnel d'élimination** |
+
+C'est exactement la situation que la convention de 1957 ne couvre pas, et la raison pour laquelle le sujet a fait l'objet de questions parlementaires. Le contribuable peut demander l'application du taux moyen s'il lui est plus favorable, mais il ne dispose d'aucun crédit d'impôt conventionnel.
+
 ### L'essentiel
 
 - La Polynésie française est une **collectivité d'outre-mer dotée de l'autonomie**, régie par l'article 74 de la Constitution et par sa loi organique statutaire.
@@ -582,7 +633,7 @@ Par les critères retenus par le droit local, dont l'articulation avec l'article
 
 ### Sources
 
-Constitution du 4 octobre 1958, article 74 · Loi organique n° 2004-192 du 27 février 2004 portant statut d'autonomie de la Polynésie française · Code des impôts de la Polynésie française et délibérations de l'Assemblée de la Polynésie française · Convention fiscale entre l'État et la Polynésie française · Direction des impôts et des contributions publiques de la Polynésie française.
+[Convention fiscale entre la France et la Polynésie française des 28 mars et 28 mai 1957](https://www.impots.gouv.fr/sites/default/files/media/10_conventions/polynesie-francaise/polynesie-francaise_convention-avec-la-polynesie-francaise_fd_1994.pdf), approuvée par le décret n° 57-924 du 1er août 1957, limitée aux revenus de valeurs mobilières · [BOI-INT-CVB-PYF, commentaire administratif de la convention](https://bofip.impots.gouv.fr/bofip/2452-PGP.html/identifiant%3DBOI-INT-CVB-PYF-20120912) · [Question écrite n° 19970 à l'Assemblée nationale sur la double imposition des Français établis en Polynésie française](https://questions.assemblee-nationale.fr/q15/15-19970QE.htm) · [Direction des impôts et des contributions publiques de Polynésie française](https://www.impot-polynesie.gov.pf/faq/les-conventions-fiscales) · Code général des impôts, **articles 197 A** pour le taux minimum des non-résidents, **244 bis A** pour les plus-values immobilières et **750 ter** pour les droits de mutation · Constitution du 4 octobre 1958, article 74 · Loi organique n° 2004-192 du 27 février 2004 portant statut d'autonomie de la Polynésie française · Code des impôts de la Polynésie française et délibérations de l'Assemblée de la Polynésie française · Convention fiscale entre l'État et la Polynésie française · Direction des impôts et des contributions publiques de la Polynésie française.
 
 ### Liens internes
 
@@ -736,6 +787,33 @@ Page **Cockpit stratégique** · articles **I5** (conventions fiscales) et **K1*
 **Meta** : Deux collectivités de l'article 74 à fiscalité propre : Wallis-et-Futuna sans impôt sur le revenu, Saint-Pierre-et-Miquelon avec son code local.
 **Vérifié le 16 septembre 2026**
 
+### Le tableau de synthèse
+
+| | Wallis-et-Futuna | Saint-Pierre-et-Miquelon |
+|---|---|---|
+| Statut | COM de l'article 74 | COM de l'article 74 |
+| Loi statutaire | Loi n° **61-814** du 29 juillet 1961 | Loi n° **85-595** du 11 juin 1985 |
+| Fiscalité locale | Principalement **indirecte**, pas d'impôt sur le revenu comparable au modèle métropolitain | **Code local des impôts** complet, avec impôt sur le revenu et sur les sociétés |
+| Convention fiscale avec l'État | **Aucune** ne figure dans la liste publiée par l'administration fiscale | **Oui**, du **30 mai 1988**, approuvée par la loi n° 88-1263 du 30 décembre 1988 |
+| Champ de cette convention | — | Revenus, droits d'enregistrement, **successions et donations** |
+| Établissement stable | — | Bénéfices imposables dans l'autre territoire, au taux maximal de **10 %** |
+| TVA française | **Non applicable** | **Non applicable** |
+
+### La différence qui commande tout : la convention
+
+Réunir ces deux collectivités dans un même article tient à leur statut commun. Sur le point qui décide d'un dossier patrimonial, elles s'opposent.
+
+**Saint-Pierre-et-Miquelon est couvert par une convention complète.** Signée le 30 mai 1988 à Saint-Pierre et approuvée par la loi du 30 décembre 1988, elle règle la double imposition en matière de revenus, de droits d'enregistrement et, ce qui est rare, de **successions et de donations**. Son article 4 définit la résidence fiscale. Les bénéfices d'un établissement stable y sont imposables dans l'autre territoire à un taux plafonné à **10 %**.
+
+**Wallis-et-Futuna ne l'est pas.** Aucune convention avec l'État ne figure dans la liste des conventions publiée par l'administration fiscale. Il n'existe donc aucune règle conventionnelle de répartition du droit d'imposer, ni d'élimination de la double imposition, entre la France et ce territoire.
+
+| | Ce sur quoi s'appuyer |
+|---|---|
+| Pour Saint-Pierre-et-Miquelon | La **convention du 30 mai 1988**, catégorie de revenu par catégorie de revenu |
+| Pour Wallis-et-Futuna | Les **règles unilatérales** de chaque territoire, sans filet conventionnel |
+
+Cette asymétrie est le premier élément à établir dans un projet d'installation, et elle passe avant toute question de barème local. Une succession ouverte à Saint-Pierre-et-Miquelon dispose d'un cadre conventionnel ; la même succession ouverte à Wallis-et-Futuna n'en a pas.
+
 ### L'essentiel
 
 - Les deux collectivités relèvent de l'**article 74** de la Constitution et disposent d'une fiscalité propre.
@@ -806,7 +884,7 @@ Quatre, qui structurent ensuite tout le dossier. À partir de quand serai-je con
 
 ### Sources
 
-Constitution du 4 octobre 1958, article 74 · Loi n° 61-814 du 29 juillet 1961 conférant aux îles Wallis et Futuna le statut de territoire d'outre-mer · Loi n° 85-595 du 11 juin 1985 relative au statut de l'archipel de Saint-Pierre-et-Miquelon et textes statutaires ultérieurs · Codes locaux des impôts et services fiscaux des deux collectivités · Convention fiscale franco-canadienne.
+[Convention fiscale entre l'État et Saint-Pierre-et-Miquelon, signée le 30 mai 1988](https://www.impots.gouv.fr/sites/default/files/media/10_conventions/saint-pierre-et-miquelon/saint-pierre-et-miquelon_convention-avec-saint-pierre-et-miquelon_fd_2184.pdf), approuvée par la loi n° 88-1263 du 30 décembre 1988 · [BOI-INT-CVB-SPM, commentaire administratif de la convention](https://bofip.impots.gouv.fr/bofip/947-PGP.html/identifiant=BOI-INT-CVB-SPM-20120912) · [Liste des conventions fiscales publiée par l'administration fiscale](https://www.impots.gouv.fr/les-conventions-internationales), qui ne comporte pas Wallis-et-Futuna · Constitution du 4 octobre 1958, article 74 · Loi n° 61-814 du 29 juillet 1961 conférant aux îles Wallis et Futuna le statut de territoire d'outre-mer · Loi n° 85-595 du 11 juin 1985 relative au statut de l'archipel de Saint-Pierre-et-Miquelon et textes statutaires ultérieurs · Codes locaux des impôts et services fiscaux des deux collectivités · Convention fiscale franco-canadienne.
 
 
 ### Liens internes
