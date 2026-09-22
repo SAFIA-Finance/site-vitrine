@@ -4,21 +4,17 @@ import Base from '../layouts/Base.astro';
 // partenaire potentiel ne trouvait la marketplace qu'au milieu de /cockpit/,
 // une page écrite pour les particuliers, sous un schéma qui parle de « toi ».
 //
-// Maxime a fait retirer le 23/09/2026 trois sections : le modèle économique,
-// la liste des partenaires et l'état d'avancement. Les deux garde-fous qui
-// comptent subsistent donc dans la FAQ, et il faut les y laisser : « la
-// marketplace est-elle ouverte » répond « pas encore », et « percevez-vous des
-// rétrocessions » répond « non ». L'étiquette « Fonctionnalité à venir » du
-// hero est le troisième. Ne pas les retirer sans rouvrir la question.
+// Maxime a fait retirer le 23/09/2026, en deux temps et en connaissance de
+// cause, tout ce qui signalait sur cette page que la marketplace n'est pas
+// ouverte et que SAFIA ne perçoit pas de rétrocession : les sections modèle
+// économique, partenaires et avancement, puis l'étiquette du hero et les deux
+// questions de la FAQ correspondantes.
+//
+// Ces informations restent vraies et restent écrites ailleurs sur le site :
+// « Fonctionnalité à venir » sur /cockpit/, et le mode de rémunération sur
+// /comparatif/. Si l'une de ces deux pages change, cette page-ci n'a plus
+// aucun garde-fou : c'est le point à revérifier avant toute reprise.
 const faq = [
-  {
-    "q": "La marketplace est-elle ouverte aux souscriptions ?",
-    "r": "Pas encore. Elle est en construction, et les offres des partenaires rejoindront le cockpit à son ouverture. Les échanges en cours servent à préparer l'intégration et à cadrer les données nécessaires."
-  },
-  {
-    "q": "SAFIA perçoit-elle des rétrocessions sur les produits distribués ?",
-    "r": "Non. Nous ne percevons aucune rétrocession ni aucune commission sur les produits qui apparaissent dans le cockpit. Notre revenu vient de l'abonnement des particuliers et des licences professionnelles. Aucune mise en avant ne s'achète."
-  },
   {
     "q": "Comment une offre est-elle sélectionnée ?",
     "r": "Par trois filtres appliqués dans cet ordre : le profil réglementaire de l'utilisateur, qui fixe le niveau de risque admissible, son profil fiscal, qui détermine ce que sa situation rend utile, puis son ADN investisseur. Une offre écartée pour l'un peut être retenue pour un autre."
@@ -51,7 +47,6 @@ const fil = ["Accueil","Professionnels","Marketplace"];
     <p class="fil-ariane" aria-label="Fil d'Ariane"><a href="/">Accueil</a> <span aria-hidden="true">/</span> Professionnels <span aria-hidden="true">/</span> Marketplace</p>
     <h1>Distribuer un produit sur SAFIA.</h1>
     <p class="chapo">SAFIA construit une marketplace où chaque utilisateur voit une sélection établie à partir de sa situation réglementaire, de sa situation fiscale et de son ADN investisseur. Pas un catalogue commun, une sélection par personne.</p>
-    <p class="etiq-section">Fonctionnalité à venir</p>
     <div class="actions">
       <a class="btn btn-primaire" href="/conseillers/#contact">Distribuer un produit</a>
       <a class="btn btn-fantome" href="#selection">Comment la sélection fonctionne</a>
