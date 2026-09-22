@@ -31,7 +31,7 @@ outils:
 articlesLies:
   - "rachat-partiel-assurance-vie"
   - "abattement-assurance-vie-4600"
-sources: "Code général des impôts, article 125-0 A · BOFiP, fiscalité des produits des contrats d'assurance-vie · Loi de financement de la Sécurité sociale pour 2026, article relatif à la CSG sur les revenus du capital · Loi de finances pour 2026, révocabilité de l'option pour le barème."
+sources: "Code général des impôts, article 125-0 A · [BOFiP, fiscalité des produits des contrats d'assurance-vie](https://bofip.impots.gouv.fr/bofip/3951-PGP.html/identifiant=BOI-RPPM-RCM-20-10-20-50-20220630) · Loi de financement de la Sécurité sociale pour 2026, article relatif à la CSG sur les revenus du capital · Loi de finances pour 2026, révocabilité de l'option pour le barème."
 ---
 
 ## Le principe que tout le reste découle

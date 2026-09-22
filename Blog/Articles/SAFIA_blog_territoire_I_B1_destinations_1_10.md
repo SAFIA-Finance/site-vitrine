@@ -112,7 +112,7 @@ La question se tranche avant le départ, pas après. Vendre en étant encore ré
 
 ### Sources
 
-Lei n.º 82/2023 de 29 de dezembro, article 263 créant l'article 58.º-A du Estatuto dos Benefícios Fiscais, et article 236 révoquant le régime des Résidents Non-Habituels · Convention fiscale franco-portugaise · Code général des impôts, article 167 bis.
+Lei n.º 82/2023 de 29 de dezembro, article 263 créant l'article 58.º-A du Estatuto dos Benefícios Fiscais, et article 236 révoquant le régime des Résidents Non-Habituels · [Convention fiscale franco-portugaise](https://www.impots.gouv.fr/les-conventions-internationales) · Code général des impôts, article 167 bis.
 
 
 ### Liens internes
@@ -227,7 +227,7 @@ C'est l'argument le moins connu en faveur de l'Italie : la fiscalité successora
 
 ### Sources
 
-Legge di Bilancio 199/2025, relèvement du forfait à compter du 1er janvier 2026 · Décret-loi de 2017 instituant le régime forfaitaire des nouveaux résidents · Convention fiscale franco-italienne, y compris ses dispositions en matière de successions · Agenzia delle Entrate, procédure de ruling.
+Legge di Bilancio 199/2025, relèvement du forfait à compter du 1er janvier 2026 · Décret-loi de 2017 instituant le régime forfaitaire des nouveaux résidents · [Convention fiscale franco-italienne, y compris ses dispositions en matière de successions](https://www.impots.gouv.fr/les-conventions-internationales) · Agenzia delle Entrate, procédure de ruling.
 
 
 ### Liens internes
@@ -335,7 +335,7 @@ Vous redevenez résident fiscal français dès lors que l'un des critères de l'
 
 ### Sources
 
-Législation fiscale grecque instituant le régime des retraités étrangers (2020) et le régime non-dom · Convention fiscale franco-grecque · Règlements européens de coordination de sécurité sociale (CE) 883/2004 et 987/2009.
+Législation fiscale grecque instituant le régime des retraités étrangers (2020) et le régime non-dom · [Convention fiscale franco-grecque](https://www.impots.gouv.fr/les-conventions-internationales) · Règlements européens de coordination de sécurité sociale (CE) 883/2004 et 987/2009.
 
 
 ### Liens internes
@@ -461,7 +461,7 @@ Pour l'essentiel, non. Il est construit autour des revenus du travail perçus en
 
 ### Sources
 
-*Ley del Impuesto sobre la Renta de las Personas Físicas*, article 93, régime spécial des travailleurs déplacés, et formulaires 149 et 151 · [Agencia Tributaria, gravamen de la base liquidable del ahorro](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2025/c15-calculo-impuesto-determinacion-cuotas-integras/gravamen-base-liquidable-ahorro.html) · [Agencia Tributaria, impôt temporaire de solidarité sur les grandes fortunes](https://sede.agenciatributaria.gob.es/Sede/todas-noticias/2026/junio/29/modificacion-impuesto-temporal-solidaridad-grandes-fortunas.html), formulaire 718 · Réglementations des communautés autonomes en matière d'impôt sur la fortune et de successions, notamment les bonifications de 99 % de Madrid, d'Andalousie, de Murcie et de Castille-et-León · Convention fiscale franco-espagnole, y compris sa convention en matière de successions · Code général des impôts, article 4 B.
+*Ley del Impuesto sobre la Renta de las Personas Físicas*, article 93, régime spécial des travailleurs déplacés, et formulaires 149 et 151 · [Agencia Tributaria, gravamen de la base liquidable del ahorro](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2025/c15-calculo-impuesto-determinacion-cuotas-integras/gravamen-base-liquidable-ahorro.html) · [Agencia Tributaria, impôt temporaire de solidarité sur les grandes fortunes](https://sede.agenciatributaria.gob.es/Sede/todas-noticias/2026/junio/29/modificacion-impuesto-temporal-solidaridad-grandes-fortunas.html), formulaire 718 · Réglementations des communautés autonomes en matière d'impôt sur la fortune et de successions, notamment les bonifications de 99 % de Madrid, d'Andalousie, de Murcie et de Castille-et-León · [Convention fiscale franco-espagnole, y compris sa convention en matière de successions](https://www.impots.gouv.fr/les-conventions-internationales) · Code général des impôts, article 4 B.
 
 
 ### Liens internes
@@ -588,7 +588,7 @@ Le contrat se conserve : il n'y a pas lieu de le clôturer, et son antériorité
 
 ### Sources
 
-Loi du 6 avril 2026 introduisant une taxe sur les plus-values des actifs financiers, publiée au Moniteur belge le 21 avril 2026, réécrivant l'article 90, § 1ᵉʳ, 9° du Code des impôts sur les revenus 1992 · Code des impôts sur les revenus belge et sa doctrine sur la gestion normale d'un patrimoine privé · [Barème de l'impôt des personnes physiques](https://www.monsalaire-net.be/baremes-fiscaux-belgique-2026.html), revenus 2025 · [Tarifs des droits de succession par région](https://www.wikifin.be/fr/heriter/heritage-et-droits-de-succession/les-droits-de-succession/detail-des-tarifs-des-droits-de), Wikifin, service de la Banque nationale de Belgique · Codes fiscaux régionaux flamand, wallon et bruxellois en matière de successions · Convention fiscale franco-belge en matière d'impôts sur les revenus et convention en matière de successions · Article 200 A du Code général des impôts pour le prélèvement forfaitaire unique · Code général des impôts, article 4 B.
+Loi du 6 avril 2026 introduisant une taxe sur les plus-values des actifs financiers, publiée au Moniteur belge le 21 avril 2026, réécrivant l'article 90, § 1ᵉʳ, 9° du Code des impôts sur les revenus 1992 · Code des impôts sur les revenus belge et sa doctrine sur la gestion normale d'un patrimoine privé · [Barème de l'impôt des personnes physiques](https://www.monsalaire-net.be/baremes-fiscaux-belgique-2026.html), revenus 2025 · [Tarifs des droits de succession par région](https://www.wikifin.be/fr/heriter/heritage-et-droits-de-succession/les-droits-de-succession/detail-des-tarifs-des-droits-de), Wikifin, service de la Banque nationale de Belgique · Codes fiscaux régionaux flamand, wallon et bruxellois en matière de successions · [Convention fiscale franco-belge en matière d'impôts sur les revenus et convention en matière de successions](https://www.impots.gouv.fr/les-conventions-internationales) · Article 200 A du Code général des impôts pour le prélèvement forfaitaire unique · Code général des impôts, article 4 B.
 
 
 ### Liens internes
@@ -699,7 +699,7 @@ C'est le point à traiter en priorité. La convention franco-suisse en matière 
 
 ### Sources
 
-Loi fédérale sur l'impôt fédéral direct et lois cantonales, imposition d'après la dépense · Convention fiscale franco-suisse en matière d'impôts sur le revenu et la fortune · Code général des impôts, article 167 bis, et notice du formulaire 2074-ETD relative aux États ouvrant le sursis automatique · CJUE, arrêt Wächtler.
+Loi fédérale sur l'impôt fédéral direct et lois cantonales, imposition d'après la dépense · [Convention fiscale franco-suisse en matière d'impôts sur le revenu et la fortune](https://www.impots.gouv.fr/les-conventions-internationales) · Code général des impôts, article 167 bis, et notice du formulaire 2074-ETD relative aux États ouvrant le sursis automatique · CJUE, arrêt Wächtler.
 
 
 ### Liens internes
@@ -830,7 +830,7 @@ Non, ce n'est ni une condition ni une nécessité. C'est un outil, pertinent dan
 
 ### Sources
 
-Administration des contributions directes du Luxembourg, [tarif applicable aux personnes physiques](https://impotsdirects.public.lu/fr/az/t/tarif_pers.html) et [contribution au fonds pour l'emploi](https://impotsdirects.public.lu/fr/az/f/fond_empl.html), année d'imposition 2025 · Guichet.lu, [achat et vente d'actions ou de titres](https://guichet.public.lu/fr/citoyens/fiscalite/declaration-impot-decompte/capitaux-mobiliers/banque-dividende-interets/achat-vente-actions.html) et [dividendes perçus](https://guichet.public.lu/fr/citoyens/fiscalite/declaration-impot-decompte/capitaux-mobiliers/banque-dividende-interets/identifier-declarer-dividendes.html) · Loi luxembourgeoise concernant l'impôt sur le revenu · Commissariat aux Assurances, régime de protection des preneurs d'assurance dit « triangle de sécurité » · Code des assurances français, article L. 423-2, pour le plafond de 70 000 € du Fonds de garantie des assurances de personnes · Article 200 A du Code général des impôts pour le prélèvement forfaitaire unique · Convention fiscale franco-luxembourgeoise.
+Administration des contributions directes du Luxembourg, [tarif applicable aux personnes physiques](https://impotsdirects.public.lu/fr/az/t/tarif_pers.html) et [contribution au fonds pour l'emploi](https://impotsdirects.public.lu/fr/az/f/fond_empl.html), année d'imposition 2025 · Guichet.lu, [achat et vente d'actions ou de titres](https://guichet.public.lu/fr/citoyens/fiscalite/declaration-impot-decompte/capitaux-mobiliers/banque-dividende-interets/achat-vente-actions.html) et [dividendes perçus](https://guichet.public.lu/fr/citoyens/fiscalite/declaration-impot-decompte/capitaux-mobiliers/banque-dividende-interets/identifier-declarer-dividendes.html) · Loi luxembourgeoise concernant l'impôt sur le revenu · Commissariat aux Assurances, régime de protection des preneurs d'assurance dit « triangle de sécurité » · Code des assurances français, article L. 423-2, pour le plafond de 70 000 € du Fonds de garantie des assurances de personnes · Article 200 A du Code général des impôts pour le prélèvement forfaitaire unique · [Convention fiscale franco-luxembourgeoise](https://www.impots.gouv.fr/les-conventions-internationales).
 
 
 ### Liens internes
@@ -1065,7 +1065,7 @@ C'est possible, mais c'est le montage le plus exposé. Deux conditions doivent �
 
 ### Sources
 
-Llei de l'impost sobre la renda de les persones físiques (Andorre) · Convention fiscale entre la France et la Principauté d'Andorre, signée en 2013 · Textes andorrans relatifs à l'immigration et à la résidence passive · Code général des impôts, article 167 bis.
+Llei de l'impost sobre la renda de les persones físiques (Andorre) · [Convention fiscale entre la France et la Principauté d'Andorre, signée en 2013](https://www.impots.gouv.fr/les-conventions-internationales) · Textes andorrans relatifs à l'immigration et à la résidence passive · Code général des impôts, article 167 bis.
 
 
 ### Liens internes
@@ -1210,7 +1210,7 @@ Elle peut convenir, et un programme dédié existe avec ses conditions propres. 
 
 ### Sources
 
-*Income Tax Act* maltais, articles 4(1) pour la base de remittance et 56(27) pour l'impôt minimum des résidents non domiciliés · [*Legal Notice 195 of 2026*](https://legislation.mt/eli/ln/2026/195/eng), fusion des programmes de résidence et nouveaux seuils au 1ᵉʳ janvier 2027, avec protection des statuts accordés avant le 31 décembre 2026 jusqu'au 31 décembre 2031 · [Malta Tax and Customs Administration, barème applicable en 2026](https://mtca.gov.mt/docs/default-source/documents/2026-tax-rates.pdf) · [Malta Tax and Customs Administration, droits sur les successions](https://mtca.gov.mt/personal-tax/inheritance/general-information-of-duty) · Textes relatifs au *Global Residence Programme* et au *Malta Retirement Programme* · Article 200 A du Code général des impôts pour le prélèvement forfaitaire unique · Convention fiscale franco-maltaise · Code général des impôts, article 167 bis.
+*Income Tax Act* maltais, articles 4(1) pour la base de remittance et 56(27) pour l'impôt minimum des résidents non domiciliés · [*Legal Notice 195 of 2026*](https://legislation.mt/eli/ln/2026/195/eng), fusion des programmes de résidence et nouveaux seuils au 1ᵉʳ janvier 2027, avec protection des statuts accordés avant le 31 décembre 2026 jusqu'au 31 décembre 2031 · [Malta Tax and Customs Administration, barème applicable en 2026](https://mtca.gov.mt/docs/default-source/documents/2026-tax-rates.pdf) · [Malta Tax and Customs Administration, droits sur les successions](https://mtca.gov.mt/personal-tax/inheritance/general-information-of-duty) · Textes relatifs au *Global Residence Programme* et au *Malta Retirement Programme* · Article 200 A du Code général des impôts pour le prélèvement forfaitaire unique · [Convention fiscale franco-maltaise](https://www.impots.gouv.fr/les-conventions-internationales) · Code général des impôts, article 167 bis.
 
 
 ### Liens internes

@@ -37,7 +37,7 @@ outils:
 articlesLies:
   - "fiscalite-assurance-vie-8-ans"
   - "rachat-partiel-assurance-vie"
-sources: "Code général des impôts, article 125-0 A, I bis · BOFiP, produits des contrats d'assurance-vie, abattement annuel · Loi de financement de la Sécurité sociale pour 2026."
+sources: "Code général des impôts, article 125-0 A, I bis · [BOFiP, produits des contrats d'assurance-vie, abattement annuel](https://bofip.impots.gouv.fr/bofip/3951-PGP.html/identifiant=BOI-RPPM-RCM-20-10-20-50-20220630) · Loi de financement de la Sécurité sociale pour 2026."
 ---
 
 ## Ce que l'abattement efface, et ce qu'il n'efface pas

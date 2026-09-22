@@ -28,7 +28,7 @@ articlesLies:
   - "expatriation-thailande-fiscalite"
   - "expatriation-andorre-fiscalite"
 seoDerive: true
-sources: "Loi fédérale sur l'impôt fédéral direct et lois cantonales, imposition d'après la dépense · Convention fiscale franco-suisse en matière d'impôts sur le revenu et la fortune · Code général des impôts, article 167 bis, et notice du formulaire 2074-ETD relative aux États ouvrant le sursis automatique · CJUE, arrêt Wächtler."
+sources: "Loi fédérale sur l'impôt fédéral direct et lois cantonales, imposition d'après la dépense · [Convention fiscale franco-suisse en matière d'impôts sur le revenu et la fortune](https://www.impots.gouv.fr/les-conventions-internationales) · Code général des impôts, article 167 bis, et notice du formulaire 2074-ETD relative aux États ouvrant le sursis automatique · CJUE, arrêt Wächtler."
 ---
 
 ## Le tableau de synthèse

@@ -27,7 +27,7 @@ pages:
 articlesLies:
   - "residence-fiscale-non-resident"
   - "patrimoine-francais-non-resident"
-sources: "Code général des impôts, article 167 bis · Loi de financement de la Sécurité sociale pour 2026, relèvement de la CSG sur les revenus du capital · Notices des formulaires 2074-ETD et 2074-ETSL, DGFiP · BOFiP, imposition des plus-values latentes en cas de transfert du domicile fiscal hors de France · CJUE, arrêt Wächtler, sur la compatibilité des dispositifs de sortie avec les libertés de circulation."
+sources: "Code général des impôts, article 167 bis · Loi de financement de la Sécurité sociale pour 2026, relèvement de la CSG sur les revenus du capital · Notices des formulaires 2074-ETD et 2074-ETSL, DGFiP · [BOFiP, imposition des plus-values latentes en cas de transfert du domicile fiscal hors de France](https://bofip.impots.gouv.fr/bofip/8018-PGP.html/identifiant=BOI-RPPM-PVBMI-50-10-30-20130326) · CJUE, arrêt Wächtler, sur la compatibilité des dispositifs de sortie avec les libertés de circulation."
 ---
 
 ## Le tableau de synthèse

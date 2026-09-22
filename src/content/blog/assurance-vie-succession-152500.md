@@ -33,7 +33,7 @@ pages:
 articlesLies:
   - "clause-beneficiaire-erreurs"
   - "assurance-vie-apres-70-ans"
-sources: "Code général des impôts, article 990 I · BOFiP, prélèvement sur les capitaux décès · Code des assurances, articles L. 132-12 et L. 132-13 · Loi TEPA du 21 août 2007 pour l'exonération du conjoint."
+sources: "Code général des impôts, article 990 I · [BOFiP, prélèvement sur les capitaux décès](https://bofip.impots.gouv.fr/bofip/1335-PGP.html/identifiant=BOI-TCAS-AUT-60-20230330) · Code des assurances, articles L. 132-12 et L. 132-13 · Loi TEPA du 21 août 2007 pour l'exonération du conjoint."
 ---
 
 ## Pourquoi l'assurance-vie occupe cette place

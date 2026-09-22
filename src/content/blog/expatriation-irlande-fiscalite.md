@@ -38,7 +38,7 @@ articlesLies:
   - "expatriation-italie-fiscalite"
   - "expatriation-luxembourg-fiscalite"
 seoDerive: true
-sources: "*Taxes Consolidation Act* irlandais, dispositions relatives à la résidence, au domicile et à la *remittance basis* · [Revenue Commissioners, *Remittance basis of assessment*, partie 05-01-21a](https://www.revenue.ie/en/tax-professionals/tdm/income-tax-capital-gains-tax-corporation-tax/part-05/05-01-21a.pdf) · [Barèmes, USC et PRSI du budget 2026](https://kpmg.com/ie/en/insights/tax/budget-2026/tables.html) · *Capital Acquisitions Tax Consolidation Act*, taux de 33 % et seuil de groupe A · Article 777 du Code général des impôts pour le barème français en ligne directe, dont sont tirés les montants de comparaison · Convention fiscale franco-irlandaise."
+sources: "*Taxes Consolidation Act* irlandais, dispositions relatives à la résidence, au domicile et à la *remittance basis* · [Revenue Commissioners, *Remittance basis of assessment*, partie 05-01-21a](https://www.revenue.ie/en/tax-professionals/tdm/income-tax-capital-gains-tax-corporation-tax/part-05/05-01-21a.pdf) · [Barèmes, USC et PRSI du budget 2026](https://kpmg.com/ie/en/insights/tax/budget-2026/tables.html) · *Capital Acquisitions Tax Consolidation Act*, taux de 33 % et seuil de groupe A · Article 777 du Code général des impôts pour le barème français en ligne directe, dont sont tirés les montants de comparaison · [Convention fiscale franco-irlandaise](https://www.impots.gouv.fr/les-conventions-internationales)."
 ---
 
 ## Le tableau de synthèse

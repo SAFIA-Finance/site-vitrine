@@ -370,7 +370,7 @@ Non, mais il faut pouvoir établir qu'il était exact au moment de la recommanda
 
 ### Sources
 
-Directive **MiFID II**, article 25, et règlement délégué **(UE) 2017/565** · **Code monétaire et financier, article L. 541-8-1**, applicable depuis le 3 janvier 2018, qui ajoute la capacité à subir des pertes et la tolérance au risque · [Guide de l'AMF sur MIF 2 pour les conseillers en investissements financiers](https://www.amf-france.org/sites/institutionnel/files/contenu_simple/guide/guide_professionnel/Guide%20sur%20MIF%202%20pour%20les%20conseillers%20en%20investissements%20financiers%20(CIF).pdf) · Règlement délégué (UE) 2021/1253 pour les préférences en matière de durabilité.
+Directive **MiFID II**, article 25, et règlement délégué **(UE) 2017/565** · **Code monétaire et financier, article L. 541-8-1**, applicable depuis le 3 janvier 2018, qui ajoute la capacité à subir des pertes et la tolérance au risque · [Guide de l'AMF sur MIF 2 pour les conseillers en investissements financiers](https://www.amf-france.org/sites/institutionnel/files/contenu_simple/guide/guide_professionnel/Guide%20sur%20MIF%202%20pour%20les%20conseillers%20en%20investissements%20financiers%20%28CIF%29.pdf.pdf) · Règlement délégué (UE) 2021/1253 pour les préférences en matière de durabilité.
 ### Liens internes
 
 Page **Conseillers** · articles **G5** (rapport d'adéquation) et **G4** (lettre de mission).

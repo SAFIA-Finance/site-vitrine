@@ -39,7 +39,7 @@ articlesLies:
   - "fiscalite-saint-barthelemy"
   - "fiscalite-wallis-futuna-saint-pierre-miquelon"
 seoDerive: true
-sources: "Code général des impôts, articles 199 undecies B, dont l'alinéa 26 pour les taux de rétrocession, 199 undecies C, 217 undecies, 244 quater W, 244 quater Y et 44 quaterdecies · Code général des impôts, **article 200-0 A** sur le plafonnement global des avantages fiscaux, 10 000 € de droit commun et 18 000 € pour l'outre-mer · [Seuils de rétrocession, seuils d'agrément et fractions retenues pour le plafond](https://www.hagnere-patrimoine.fr/guides-patrimoine/defiscalisation/girardin-industriel/girardin-plein-droit-vs-agrement) · Projet de loi de finances pour 2026, article 7, retiré au cours des débats · BOFiP, dispositifs d'aide fiscale à l'investissement outre-mer · impots.gouv.fr, avantages fiscaux liés à une activité dans les DOM."
+sources: "Code général des impôts, articles 199 undecies B, dont l'alinéa 26 pour les taux de rétrocession, 199 undecies C, 217 undecies, 244 quater W, 244 quater Y et 44 quaterdecies · Code général des impôts, **article 200-0 A** sur le plafonnement global des avantages fiscaux, 10 000 € de droit commun et 18 000 € pour l'outre-mer · [Seuils de rétrocession, seuils d'agrément et fractions retenues pour le plafond](https://www.hagnere-patrimoine.fr/guides-patrimoine/defiscalisation/girardin-industriel/girardin-plein-droit-vs-agrement) · Projet de loi de finances pour 2026, article 7, retiré au cours des débats · [BOFiP, dispositifs d'aide fiscale à l'investissement outre-mer](https://bofip.impots.gouv.fr/bofip/6716-PGP.html/identifiant=BOI-IR-RICI-80-20230622) · impots.gouv.fr, avantages fiscaux liés à une activité dans les DOM."
 ---
 
 **Vérifié le 21 septembre 2026**

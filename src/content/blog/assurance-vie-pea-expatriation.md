@@ -29,7 +29,7 @@ outils:
 articlesLies:
   - "patrimoine-francais-non-resident"
   - "fiscalite-assurance-vie-8-ans"
-sources: "Code général des impôts, articles 125-0 A, 990 I, 757 B et 244 bis · Code monétaire et financier, articles L. 221-30 et suivants sur le PEA · BOFiP, produits versés à des non-résidents et prélèvements sociaux · Conventions fiscales bilatérales applicables."
+sources: "Code général des impôts, articles 125-0 A, 990 I, 757 B et 244 bis · Code monétaire et financier, articles L. 221-30 et suivants sur le PEA · BOFiP, produits versés à des non-résidents et prélèvements sociaux · [Conventions fiscales internationales conclues par la France](https://www.impots.gouv.fr/les-conventions-internationales)"
 ---
 
 ## Le tableau de synthèse

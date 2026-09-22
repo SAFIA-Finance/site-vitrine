@@ -234,7 +234,7 @@ Le sursis automatique, non. Le sursis sur option suppose des garanties, dont le 
 
 ### Sources
 
-Code général des impôts, article 167 bis · Loi de financement de la Sécurité sociale pour 2026, relèvement de la CSG sur les revenus du capital · Notices des formulaires 2074-ETD et 2074-ETSL, DGFiP · BOFiP, imposition des plus-values latentes en cas de transfert du domicile fiscal hors de France · CJUE, arrêt Wächtler, sur la compatibilité des dispositifs de sortie avec les libertés de circulation.
+Code général des impôts, article 167 bis · Loi de financement de la Sécurité sociale pour 2026, relèvement de la CSG sur les revenus du capital · Notices des formulaires 2074-ETD et 2074-ETSL, DGFiP · [BOFiP, imposition des plus-values latentes en cas de transfert du domicile fiscal hors de France](https://bofip.impots.gouv.fr/bofip/8018-PGP.html/identifiant=BOI-RPPM-PVBMI-50-10-30-20130326) · CJUE, arrêt Wächtler, sur la compatibilité des dispositifs de sortie avec les libertés de circulation.
 
 ### Liens internes
 
@@ -353,7 +353,7 @@ Oui, mais votre banque doit être informée du changement de résidence, qui mod
 
 ### Sources
 
-Code général des impôts, articles 164 A à 197 A, 244 bis A, 964 et suivants · BOFiP, revenus de source française et taux minimum d'imposition · CJUE, arrêt de Ruyter, et suites françaises sur les prélèvements sociaux des affiliés à un régime européen · Conventions fiscales bilatérales applicables.
+Code général des impôts, articles 164 A à 197 A, 244 bis A, 964 et suivants · BOFiP, revenus de source française et taux minimum d'imposition · CJUE, arrêt de Ruyter, et suites françaises sur les prélèvements sociaux des affiliés à un régime européen · [Conventions fiscales internationales conclues par la France](https://www.impots.gouv.fr/les-conventions-internationales)
 
 ### Liens internes
 
@@ -469,7 +469,7 @@ Oui. Le traitement de la sortie dépend de la convention applicable au moment de
 
 ### Sources
 
-Code général des impôts, articles 125-0 A, 990 I, 757 B et 244 bis · Code monétaire et financier, articles L. 221-30 et suivants sur le PEA · BOFiP, produits versés à des non-résidents et prélèvements sociaux · Conventions fiscales bilatérales applicables.
+Code général des impôts, articles 125-0 A, 990 I, 757 B et 244 bis · Code monétaire et financier, articles L. 221-30 et suivants sur le PEA · BOFiP, produits versés à des non-résidents et prélèvements sociaux · [Conventions fiscales internationales conclues par la France](https://www.impots.gouv.fr/les-conventions-internationales)
 
 ### Liens internes
 

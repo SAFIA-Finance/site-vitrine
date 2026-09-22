@@ -33,7 +33,7 @@ articlesLies:
   - "preparer-retraite-30-40-50-ans"
   - "per-ou-assurance-vie"
   - "decote-surcote-trimestres"
-sources: "Portail info-retraite.fr, estimation indicative globale · INSEE, données sur l'évolution des dépenses des ménages selon l'âge · Hypothèses de rendement retenues à titre illustratif, sans valeur d'engagement."
+sources: "Portail info-retraite.fr, estimation indicative globale · INSEE, données sur l'évolution des dépenses des ménages selon l'âge"
 ---
 
 ## La méthode en quatre étapes

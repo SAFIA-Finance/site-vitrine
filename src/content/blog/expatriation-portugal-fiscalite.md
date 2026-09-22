@@ -30,7 +30,7 @@ articlesLies:
   - "expatriation-royaume-uni-fiscalite"
   - "expatriation-singapour-fiscalite"
 seoDerive: true
-sources: "Lei n.º 82/2023 de 29 de dezembro, article 263 créant l'article 58.º-A du Estatuto dos Benefícios Fiscais, et article 236 révoquant le régime des Résidents Non-Habituels · Convention fiscale franco-portugaise · Code général des impôts, article 167 bis."
+sources: "Lei n.º 82/2023 de 29 de dezembro, article 263 créant l'article 58.º-A du Estatuto dos Benefícios Fiscais, et article 236 révoquant le régime des Résidents Non-Habituels · [Convention fiscale franco-portugaise](https://www.impots.gouv.fr/les-conventions-internationales) · Code général des impôts, article 167 bis."
 ---
 
 ## Le tableau de synthèse

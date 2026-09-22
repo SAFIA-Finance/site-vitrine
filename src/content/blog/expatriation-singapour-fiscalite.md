@@ -35,7 +35,7 @@ articlesLies:
   - "expatriation-suisse-fiscalite"
   - "expatriation-thailande-fiscalite"
 seoDerive: true
-sources: "*Income Tax Act* singapourien, principe de territorialité · [Inland Revenue Authority of Singapore, barème de l'impôt sur le revenu des personnes physiques](https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/tax-residency-and-tax-rates/individual-income-tax-rates) et guidance sur les revenus de source étrangère · Suppression des droits de succession singapouriens en 2008 · Article 200 A du Code général des impôts pour le prélèvement forfaitaire unique · Convention fiscale franco-singapourienne · Code général des impôts, article 167 bis."
+sources: "*Income Tax Act* singapourien, principe de territorialité · [Inland Revenue Authority of Singapore, barème de l'impôt sur le revenu des personnes physiques](https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/tax-residency-and-tax-rates/individual-income-tax-rates) et guidance sur les revenus de source étrangère · Suppression des droits de succession singapouriens en 2008 · Article 200 A du Code général des impôts pour le prélèvement forfaitaire unique · [Convention fiscale franco-singapourienne](https://www.impots.gouv.fr/les-conventions-internationales) · Code général des impôts, article 167 bis."
 ---
 
 ## Le tableau de synthèse

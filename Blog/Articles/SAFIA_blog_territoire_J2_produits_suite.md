@@ -1210,7 +1210,7 @@ Oui, des fonds et des groupements existent, et ils règlent deux difficultés r�
 
 ### Sources
 
-Code général des impôts, articles 793, 976 et suivants (régimes forestiers et viticoles, IFI), 150 VI à 150 VM (biens meubles et objets d'art) · BOFiP, groupements forestiers et groupements fonciers viticoles · Travaux académiques sur le biais de sélection dans les indices de marché de l'art.
+Code général des impôts, articles 793, 976 et suivants (régimes forestiers et viticoles, IFI), 150 VI à 150 VM (biens meubles et objets d'art) · [BOFiP, groupements forestiers et groupements fonciers viticoles](https://bofip.impots.gouv.fr/bofip/11383-PGP.html/identifiant=BOI-PAT-IFI-30-20-20180608) · Travaux académiques sur le biais de sélection dans les indices de marché de l'art.
 
 
 ### Liens internes

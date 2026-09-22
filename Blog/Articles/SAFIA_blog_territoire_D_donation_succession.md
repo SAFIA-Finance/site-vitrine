@@ -154,7 +154,7 @@ Non. Les tranches et les abattements sont inchangés depuis 2012 et ne suivent p
 
 ### Sources
 
-Code général des impôts, articles 777, 779, 788 et 796-0 bis · BOFiP, mutations à titre gratuit par décès · Loi TEPA du 21 août 2007 · Loi de finances pour 2026, dispositions relatives au pacte Dutreil · Service-public.fr, [fiche F14198](https://www.service-public.gouv.fr/particuliers/vosdroits/F14198).
+Code général des impôts, articles 777, 779, 788 et 796-0 bis · [BOFiP, mutations à titre gratuit par décès](https://bofip.impots.gouv.fr/bofip/3369-PGP.html/identifiant=BOI-ENR-DMTG-10-50-20-20230524) · Loi TEPA du 21 août 2007 · Loi de finances pour 2026, dispositions relatives au pacte Dutreil · Service-public.fr, [fiche F14198](https://www.service-public.gouv.fr/particuliers/vosdroits/F14198).
 ### Liens internes
 
 Page **Cockpit stratégique** · articles **D2** (donation aux enfants) et **B5** (assurance-vie et succession).
@@ -260,7 +260,7 @@ Oui, et c'est un usage courant lorsque le donateur souhaite encadrer l'usage du 
 
 ### Sources
 
-Code général des impôts, articles 779 et 784 · Code civil, articles 1075 et suivants sur la donation-partage · Service-public.fr, [fiche F14203](https://www.service-public.gouv.fr/particuliers/vosdroits/F14203), et service de déclaration en ligne des dons · BOFiP, rappel fiscal des donations antérieures.
+Code général des impôts, articles 779 et 784 · Code civil, articles 1075 et suivants sur la donation-partage · Service-public.fr, [fiche F14203](https://www.service-public.gouv.fr/particuliers/vosdroits/F14203), et service de déclaration en ligne des dons · [BOFiP, rappel fiscal des donations antérieures](https://bofip.impots.gouv.fr/bofip/1767-PGP.html/identifiant=BOI-ENR-DMTG-10-50-50-20230711).
 ### Liens internes
 
 Page **Cockpit stratégique** · articles **D3** (don familial) et **D4** (démembrement).
@@ -374,7 +374,7 @@ L'exonération joue jusqu'à 31 865 € par couple donateur-bénéficiaire sur l
 
 ### Sources
 
-Code général des impôts, article 790 G · BOFiP, exonération des dons familiaux de sommes d'argent · Service-public.fr, [fiche F14203](https://www.service-public.gouv.fr/particuliers/vosdroits/F14203) et service de déclaration en ligne des dons, en vigueur depuis le 1er janvier 2026.
+Code général des impôts, article 790 G · [BOFiP, exonération des dons familiaux de sommes d'argent](https://bofip.impots.gouv.fr/bofip/3362-PGP.html/identifiant=BOI-ENR-DMTG-20-20-20-20250904) · Service-public.fr, [fiche F14203](https://www.service-public.gouv.fr/particuliers/vosdroits/F14203) et service de déclaration en ligne des dons, en vigueur depuis le 1er janvier 2026.
 ### Liens internes
 
 Page **Cockpit stratégique** · articles **D2** (abattement de 100 000 €) et **D6** (transmettre aux petits-enfants).
@@ -729,7 +729,7 @@ Oui. La déclaration incombe au bénéficiaire, dans le mois suivant la récepti
 
 ### Sources
 
-Code général des impôts, articles 790 B et 790 G · Code civil, articles 913 et 1078-4 sur la donation-partage transgénérationnelle · BOFiP, abattements applicables aux donations · Service-public.fr, [fiche F14203](https://www.service-public.gouv.fr/particuliers/vosdroits/F14203).
+Code général des impôts, articles 790 B et 790 G · Code civil, articles 913 et 1078-4 sur la donation-partage transgénérationnelle · [BOFiP, abattements applicables aux donations](https://bofip.impots.gouv.fr/bofip/3351-PGP.html/identifiant=BOI-ENR-DMTG-20-30-20-20-20210406) · Service-public.fr, [fiche F14203](https://www.service-public.gouv.fr/particuliers/vosdroits/F14203).
 ### Liens internes
 
 Page **Cockpit stratégique** · articles **D3** (don familial) et **B5** (assurance-vie et succession).
@@ -846,7 +846,7 @@ Il tient cette distinction dans ses registres, versement par versement, en reten
 
 ### Sources
 
-Code général des impôts, articles 757 B et 990 I · BOFiP, assurance-vie et droits de mutation par décès · Code des assurances, article L. 132-12.
+Code général des impôts, articles 757 B et 990 I · [BOFiP, assurance-vie et droits de mutation par décès](https://bofip.impots.gouv.fr/bofip/3456-PGP.html/identifiant=BOI-ENR-DMTG-10-10-20-20-20230330) · Code des assurances, article L. 132-12.
 
 ### Liens internes
 

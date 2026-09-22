@@ -584,7 +584,7 @@ Rarement, pour deux raisons. La première est que l'objectif a été calculé su
 
 ### Sources
 
-Portail info-retraite.fr, estimation indicative globale · INSEE, données sur l'évolution des dépenses des ménages selon l'âge · Hypothèses de rendement retenues à titre illustratif, sans valeur d'engagement.
+Portail info-retraite.fr, estimation indicative globale · INSEE, données sur l'évolution des dépenses des ménages selon l'âge
 
 ### Liens internes
 
@@ -796,7 +796,7 @@ Les regrouper simplifie le suivi et réduit souvent les frais, mais l'opération
 
 ### Sources
 
-Code général des impôts, article 163 quatervicies · Loi n° 2026-103 du 19 février 2026, article 9 · Portail info-retraite.fr · Hypothèses de rendement retenues à titre illustratif, sans valeur d'engagement.
+Code général des impôts, article 163 quatervicies · Loi n° 2026-103 du 19 février 2026, article 9 · Portail info-retraite.fr
 
 ### Liens internes
 

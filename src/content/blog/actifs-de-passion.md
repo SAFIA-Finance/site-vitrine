@@ -29,7 +29,7 @@ pages:
 articlesLies:
   - "classes-d-actifs"
   - "liquidite-risque-horizon"
-sources: "Code général des impôts, articles 793, 976 et suivants (régimes forestiers et viticoles, IFI), 150 VI à 150 VM (biens meubles et objets d'art) · BOFiP, groupements forestiers et groupements fonciers viticoles · Travaux académiques sur le biais de sélection dans les indices de marché de l'art."
+sources: "Code général des impôts, articles 793, 976 et suivants (régimes forestiers et viticoles, IFI), 150 VI à 150 VM (biens meubles et objets d'art) · [BOFiP, groupements forestiers et groupements fonciers viticoles](https://bofip.impots.gouv.fr/bofip/11383-PGP.html/identifiant=BOI-PAT-IFI-30-20-20180608) · Travaux académiques sur le biais de sélection dans les indices de marché de l'art."
 ---
 
 ## Les principaux actifs et leur logique

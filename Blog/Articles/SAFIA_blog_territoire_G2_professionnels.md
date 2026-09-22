@@ -194,7 +194,7 @@ En partant du coût de revient, pas du marché. Chiffrez les heures réellement 
 
 ### Sources
 
-Code monétaire et financier, articles L. 541-1 et suivants · Règlement général de l'AMF, livre III · [Directive 2014/65/UE](https://eur-lex.europa.eu/eli/dir/2014/65/oj), article 24 sur l'information relative aux coûts et aux incitations · Calculs de coût de revient établis à titre illustratif.
+Code monétaire et financier, articles L. 541-1 et suivants · Règlement général de l'AMF, livre III · [Directive 2014/65/UE](https://eur-lex.europa.eu/eli/dir/2014/65/oj), article 24 sur l'information relative aux coûts et aux incitations
 ### Liens internes
 
 Page **Conseillers** · articles **G2** (digitalisation), **E5** (coût d'un conseiller) et **G1** (logiciel CGP).

@@ -28,7 +28,7 @@ articlesLies:
   - "expatriation-luxembourg-fiscalite"
   - "expatriation-malte-fiscalite"
 seoDerive: true
-sources: "Legge di Bilancio 199/2025, relèvement du forfait à compter du 1er janvier 2026 · Décret-loi de 2017 instituant le régime forfaitaire des nouveaux résidents · Convention fiscale franco-italienne, y compris ses dispositions en matière de successions · Agenzia delle Entrate, procédure de ruling."
+sources: "Legge di Bilancio 199/2025, relèvement du forfait à compter du 1er janvier 2026 · Décret-loi de 2017 instituant le régime forfaitaire des nouveaux résidents · [Convention fiscale franco-italienne, y compris ses dispositions en matière de successions](https://www.impots.gouv.fr/les-conventions-internationales) · Agenzia delle Entrate, procédure de ruling."
 ---
 
 ## Le tableau de synthèse

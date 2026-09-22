@@ -27,7 +27,7 @@ pages:
 articlesLies:
   - "assurance-vie-succession-152500"
   - "droits-de-succession-bareme"
-sources: "Code général des impôts, articles 757 B et 990 I · BOFiP, assurance-vie et droits de mutation par décès · Code des assurances, article L. 132-12."
+sources: "Code général des impôts, articles 757 B et 990 I · [BOFiP, assurance-vie et droits de mutation par décès](https://bofip.impots.gouv.fr/bofip/3456-PGP.html/identifiant=BOI-ENR-DMTG-10-10-20-20-20230330) · Code des assurances, article L. 132-12."
 ---
 
 ## Deux régimes, un seul contrat

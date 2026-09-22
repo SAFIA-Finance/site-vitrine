@@ -120,7 +120,7 @@ Même mécanique de calcul, mais le contrat est clôturé et l'antériorité fis
 
 ### Sources
 
-Code général des impôts, article 125-0 A · BOFiP, fiscalité des produits des contrats d'assurance-vie · Loi de financement de la Sécurité sociale pour 2026, article relatif à la CSG sur les revenus du capital · Loi de finances pour 2026, révocabilité de l'option pour le barème.
+Code général des impôts, article 125-0 A · [BOFiP, fiscalité des produits des contrats d'assurance-vie](https://bofip.impots.gouv.fr/bofip/3951-PGP.html/identifiant=BOI-RPPM-RCM-20-10-20-50-20220630) · Loi de financement de la Sécurité sociale pour 2026, article relatif à la CSG sur les revenus du capital · Loi de finances pour 2026, révocabilité de l'option pour le barème.
 
 ### Liens internes
 
@@ -238,7 +238,7 @@ Oui. L'abattement de 9 200 € vise les couples mariés **ou pacsés** soumis à
 
 ### Sources
 
-Code général des impôts, article 125-0 A, I bis · BOFiP, produits des contrats d'assurance-vie, abattement annuel · Loi de financement de la Sécurité sociale pour 2026.
+Code général des impôts, article 125-0 A, I bis · [BOFiP, produits des contrats d'assurance-vie, abattement annuel](https://bofip.impots.gouv.fr/bofip/3951-PGP.html/identifiant=BOI-RPPM-RCM-20-10-20-50-20220630) · Loi de financement de la Sécurité sociale pour 2026.
 
 ### Liens internes
 
@@ -349,7 +349,7 @@ Oui, et c'est un effet utile. Le seuil s'apprécie sur les primes versées **net
 
 ### Sources
 
-Code général des impôts, article 125-0 A · BOFiP, modalités de calcul des produits en cas de rachat partiel · Code des assurances, article L. 132-21 sur les délais de versement.
+Code général des impôts, article 125-0 A · [BOFiP, modalités de calcul des produits en cas de rachat partiel](https://bofip.impots.gouv.fr/bofip/3951-PGP.html/identifiant=BOI-RPPM-RCM-20-10-20-50-20220630) · Code des assurances, article L. 132-21 sur les délais de versement.
 
 ### Liens internes
 
@@ -564,7 +564,7 @@ Oui, et c'est un avantage pratique considérable. L'assureur verse directement a
 
 ### Sources
 
-Code général des impôts, article 990 I · BOFiP, prélèvement sur les capitaux décès · Code des assurances, articles L. 132-12 et L. 132-13 · Loi TEPA du 21 août 2007 pour l'exonération du conjoint.
+Code général des impôts, article 990 I · [BOFiP, prélèvement sur les capitaux décès](https://bofip.impots.gouv.fr/bofip/1335-PGP.html/identifiant=BOI-TCAS-AUT-60-20230330) · Code des assurances, articles L. 132-12 et L. 132-13 · Loi TEPA du 21 août 2007 pour l'exonération du conjoint.
 
 ### Liens internes
 

@@ -128,7 +128,7 @@ Oui. La résidence chypriote se constate chaque année selon des critères de pr
 
 ### Sources
 
-*Income Tax Law* chypriote et législation sur la contribution spéciale à la défense, statut de non-domicilié apprécié sur dix-sept des vingt années précédentes · [Réforme fiscale adoptée le 22 décembre 2025, applicable au 1ᵉʳ janvier 2026 : relèvement de la tranche exonérée à 22 000 €, seuil du taux de 35 % porté à 72 001 €, contribution sur les dividendes des résidents domiciliés ramenée de 17 % à 5 %](https://www.chypre-conseils.com/reforme-fiscale-chypre-2026/) · Article 200 A du Code général des impôts pour le prélèvement forfaitaire unique · Convention fiscale franco-chypriote · Code général des impôts, article 167 bis, IV, et articles 164 D, 244 bis A et 1736, IV.
+*Income Tax Law* chypriote et législation sur la contribution spéciale à la défense, statut de non-domicilié apprécié sur dix-sept des vingt années précédentes · [Réforme fiscale adoptée le 22 décembre 2025, applicable au 1ᵉʳ janvier 2026 : relèvement de la tranche exonérée à 22 000 €, seuil du taux de 35 % porté à 72 001 €, contribution sur les dividendes des résidents domiciliés ramenée de 17 % à 5 %](https://www.chypre-conseils.com/reforme-fiscale-chypre-2026/) · Article 200 A du Code général des impôts pour le prélèvement forfaitaire unique · [Convention fiscale franco-chypriote](https://www.impots.gouv.fr/les-conventions-internationales) · Code général des impôts, article 167 bis, IV, et articles 164 D, 244 bis A et 1736, IV.
 
 
 ### Liens internes
@@ -260,7 +260,7 @@ Oui, en tant qu'État membre de l'Union européenne. Le sursis joue de plein dro
 
 ### Sources
 
-*Taxes Consolidation Act* irlandais, dispositions relatives à la résidence, au domicile et à la *remittance basis* · [Revenue Commissioners, *Remittance basis of assessment*, partie 05-01-21a](https://www.revenue.ie/en/tax-professionals/tdm/income-tax-capital-gains-tax-corporation-tax/part-05/05-01-21a.pdf) · [Barèmes, USC et PRSI du budget 2026](https://kpmg.com/ie/en/insights/tax/budget-2026/tables.html) · *Capital Acquisitions Tax Consolidation Act*, taux de 33 % et seuil de groupe A · Article 777 du Code général des impôts pour le barème français en ligne directe, dont sont tirés les montants de comparaison · Convention fiscale franco-irlandaise.
+*Taxes Consolidation Act* irlandais, dispositions relatives à la résidence, au domicile et à la *remittance basis* · [Revenue Commissioners, *Remittance basis of assessment*, partie 05-01-21a](https://www.revenue.ie/en/tax-professionals/tdm/income-tax-capital-gains-tax-corporation-tax/part-05/05-01-21a.pdf) · [Barèmes, USC et PRSI du budget 2026](https://kpmg.com/ie/en/insights/tax/budget-2026/tables.html) · *Capital Acquisitions Tax Consolidation Act*, taux de 33 % et seuil de groupe A · Article 777 du Code général des impôts pour le barème français en ligne directe, dont sont tirés les montants de comparaison · [Convention fiscale franco-irlandaise](https://www.impots.gouv.fr/les-conventions-internationales).
 
 
 ### Liens internes
@@ -389,7 +389,7 @@ La notion de domicile, qui déterminait l'assiette des droits de succession brit
 
 ### Sources
 
-*Finance Act* britannique portant suppression du régime des non-domiciliés au 6 avril 2025 et instituant le régime *Foreign Income and Gains* · [Norton Rose Fulbright, abolition du régime non-dom et conditions du régime FIG](https://www.nortonrosefulbright.com/en/knowledge/publications/648e7a24/abolition-of-the-non-dom-regime) · [Boodle Hatfield, *long term residence* et droits de succession britanniques](https://www.boodlehatfield.com/articles/long-term-residence-and-its-importance-for-uk-inheritance-tax-iht-purposes) · [House of Commons Library, taux et abattements 2026-2027](https://commonslibrary.parliament.uk/research-briefings/cbp-10618/) · HMRC, *Statutory Residence Test* et *nil rate band* de 325 000 £ gelé jusqu'au 5 avril 2031 · Convention fiscale franco-britannique en matière d'impôts sur le revenu et convention en matière de successions · Notice DGFiP du formulaire 2074-ETD, liste des États ouvrant le sursis automatique.
+*Finance Act* britannique portant suppression du régime des non-domiciliés au 6 avril 2025 et instituant le régime *Foreign Income and Gains* · [Norton Rose Fulbright, abolition du régime non-dom et conditions du régime FIG](https://www.nortonrosefulbright.com/en/knowledge/publications/648e7a24/abolition-of-the-non-dom-regime) · [Boodle Hatfield, *long term residence* et droits de succession britanniques](https://www.boodlehatfield.com/articles/long-term-residence-and-its-importance-for-uk-inheritance-tax-iht-purposes) · [House of Commons Library, taux et abattements 2026-2027](https://commonslibrary.parliament.uk/research-briefings/cbp-10618/) · HMRC, *Statutory Residence Test* et *nil rate band* de 325 000 £ gelé jusqu'au 5 avril 2031 · [Convention fiscale franco-britannique en matière d'impôts sur le revenu et convention en matière de successions](https://www.impots.gouv.fr/les-conventions-internationales) · Notice DGFiP du formulaire 2074-ETD, liste des États ouvrant le sursis automatique.
 
 
 ### Liens internes
@@ -502,7 +502,7 @@ Pas par la France : il n'existe pas de coordination de sécurité sociale au sen
 
 ### Sources
 
-Législation fédérale émirienne relative à l'impôt sur les sociétés (2023) et aux régimes de zones franches · Convention fiscale franco-émirienne · Code général des impôts, articles 4 B et 167 bis · Notice DGFiP du formulaire 2074-ETD.
+Législation fédérale émirienne relative à l'impôt sur les sociétés (2023) et aux régimes de zones franches · [Convention fiscale franco-émirienne](https://www.impots.gouv.fr/les-conventions-internationales) · Code général des impôts, articles 4 B et 167 bis · Notice DGFiP du formulaire 2074-ETD.
 
 
 ### Liens internes
@@ -629,7 +629,7 @@ Elle peut convenir, et un permis dédié existe pour les retraités justifiant d
 
 ### Sources
 
-*Income Tax Act* mauricien et barème refondu au 1ᵉʳ juillet 2025 par le budget 2025-2026 · [Budget mauricien 2025-2026, réforme du barème, de la CSG et de la durée des permis](https://www.jwflegal.com/news/2025-mauritius-tax-financial-services-and-regulatory-reforms/) · [Economic Development Board, *Property Development Scheme* et seuil d'acquisition de 375 000 dollars](https://residency.mu/acquire/property-development-scheme/) · Convention fiscale franco-mauricienne dans sa version en vigueur · Article 200 A du Code général des impôts pour le prélèvement forfaitaire unique · Code général des impôts, article 167 bis, pour l'imposition des plus-values latentes au départ et les garanties exigées hors Union européenne.
+*Income Tax Act* mauricien et barème refondu au 1ᵉʳ juillet 2025 par le budget 2025-2026 · [Budget mauricien 2025-2026, réforme du barème, de la CSG et de la durée des permis](https://www.jwflegal.com/news/2025-mauritius-tax-financial-services-and-regulatory-reforms/) · [Economic Development Board, *Property Development Scheme* et seuil d'acquisition de 375 000 dollars](https://residency.mu/acquire/property-development-scheme/) · [Convention fiscale franco-mauricienne dans sa version en vigueur](https://www.impots.gouv.fr/les-conventions-internationales) · Article 200 A du Code général des impôts pour le prélèvement forfaitaire unique · Code général des impôts, article 167 bis, pour l'imposition des plus-values latentes au départ et les garanties exigées hors Union européenne.
 
 
 ### Liens internes
@@ -738,7 +738,7 @@ Non, et c'est l'arbitrage central de cette destination. L'abattement majoré sup
 
 ### Sources
 
-Code général des impôts marocain, dispositions relatives aux pensions de source étrangère · Convention fiscale franco-marocaine et ses avenants · Notice DGFiP du formulaire 2074-ETD, liste des États ouvrant le sursis automatique, applicable au jour du transfert.
+Code général des impôts marocain, dispositions relatives aux pensions de source étrangère · [Convention fiscale franco-marocaine et ses avenants](https://www.impots.gouv.fr/les-conventions-internationales) · Notice DGFiP du formulaire 2074-ETD, liste des États ouvrant le sursis automatique, applicable au jour du transfert.
 
 
 ### Liens internes
@@ -852,7 +852,7 @@ Elle l'organise, ce qui n'est pas la même chose que la supprimer. La convention
 
 ### Sources
 
-Revenue Department thaïlandais, instructions relatives à l'imposition des revenus de source étrangère rapatriés, applicables à compter de 2024 · Convention fiscale franco-thaïlandaise · Réglementation thaïlandaise des visas de long séjour.
+Revenue Department thaïlandais, instructions relatives à l'imposition des revenus de source étrangère rapatriés, applicables à compter de 2024 · [Convention fiscale franco-thaïlandaise](https://www.impots.gouv.fr/les-conventions-internationales) · [Réglementation thaïlandaise des visas de long séjour](https://www.thaievisa.go.th/)
 
 
 ### Liens internes
@@ -970,7 +970,7 @@ Oui, et elle joue le rôle habituel : elle ne crée aucun impôt, elle répartit
 
 ### Sources
 
-*Income Tax Act* singapourien, principe de territorialité · [Inland Revenue Authority of Singapore, barème de l'impôt sur le revenu des personnes physiques](https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/tax-residency-and-tax-rates/individual-income-tax-rates) et guidance sur les revenus de source étrangère · Suppression des droits de succession singapouriens en 2008 · Article 200 A du Code général des impôts pour le prélèvement forfaitaire unique · Convention fiscale franco-singapourienne · Code général des impôts, article 167 bis.
+*Income Tax Act* singapourien, principe de territorialité · [Inland Revenue Authority of Singapore, barème de l'impôt sur le revenu des personnes physiques](https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/tax-residency-and-tax-rates/individual-income-tax-rates) et guidance sur les revenus de source étrangère · Suppression des droits de succession singapouriens en 2008 · Article 200 A du Code général des impôts pour le prélèvement forfaitaire unique · [Convention fiscale franco-singapourienne](https://www.impots.gouv.fr/les-conventions-internationales) · Code général des impôts, article 167 bis.
 
 
 ### Liens internes
@@ -1099,7 +1099,7 @@ Ne le présumez pas. L'assurance-vie française est une enveloppe de droit fran�
 
 ### Sources
 
-Loi de l'impôt sur le revenu canadienne, dispositions relatives à la résidence et à la disposition réputée au décès · [Agence du revenu du Canada, gains en capital d'une personne décédée](https://www.canada.ca/fr/agence-revenu/services/impot/particuliers/evenements-vie/faire-impots-personne-decedee/preparer-declarations/declarer-revenus/gains-capital.html) · [Revenu Québec, report puis annulation de la hausse du taux d'inclusion des gains en capital](https://www.revenuquebec.ca/fr/salle-de-presse/nouvelles-fiscales/details/2025-02-05/harmonisation-avec-le-report-au-1er-janvier-2026-de-la-mise-en-oeuvre-du-changement-du-taux-dinclusion-des-gains-en-capital/) · Agence du revenu du Canada, barème fédéral 2026 et guidance sur l'arrivée et le départ · Convention fiscale franco-canadienne · Entente fiscale entre la France et le Québec.
+Loi de l'impôt sur le revenu canadienne, dispositions relatives à la résidence et à la disposition réputée au décès · [Agence du revenu du Canada, gains en capital d'une personne décédée](https://www.canada.ca/fr/agence-revenu/services/impot/particuliers/evenements-vie/faire-impots-personne-decedee/preparer-declarations/declarer-revenus/gains-capital.html) · [Revenu Québec, report puis annulation de la hausse du taux d'inclusion des gains en capital](https://www.revenuquebec.ca/fr/salle-de-presse/nouvelles-fiscales/details/2025-02-05/harmonisation-avec-le-report-au-1er-janvier-2026-de-la-mise-en-oeuvre-du-changement-du-taux-dinclusion-des-gains-en-capital/) · Agence du revenu du Canada, barème fédéral 2026 et guidance sur l'arrivée et le départ · [Convention fiscale franco-canadienne](https://www.impots.gouv.fr/les-conventions-internationales) · Entente fiscale entre la France et le Québec.
 
 
 ### Liens internes
@@ -1228,7 +1228,7 @@ Oui, la procédure existe et elle est encadrée. Elle n'est ni immédiate ni neu
 
 ### Sources
 
-Internal Revenue Service, [Estate tax for nonresidents not citizens of the United States](https://www.irs.gov/businesses/small-businesses-self-employed/estate-tax-for-nonresidents-not-citizens-of-the-united-states), pour le seuil de 60 000 $ et le formulaire 706-NA · Internal Revenue Service, [Foreign earned income exclusion](https://www.irs.gov/individuals/international-taxpayers/foreign-earned-income-exclusion) · Internal Revenue Code, section 877A, pour l'imposition de sortie des *covered expatriates* · Internal Revenue Code, dispositions relatives à l'imposition des citoyens, des résidents et des non-résidents, et au régime successoral fédéral · [Convention franco-américaine du 24 novembre 1978 en matière de successions et de donations](https://www.impots.gouv.fr/10conventionsetats-unisetats-unisconvention-avec-les-etats-unis-successions-donationsfd1836pdf), modifiée en 2004, article 12, et [BOI-INT-CVB-USA-20](https://bofip.impots.gouv.fr/bofip/2660-PGP.html/identifiant=BOI-INT-CVB-USA-20-20120912) · Foreign Account Tax Compliance Act et accord intergouvernemental franco-américain · Convention fiscale franco-américaine en matière d'impôts sur le revenu.
+Internal Revenue Service, [Estate tax for nonresidents not citizens of the United States](https://www.irs.gov/businesses/small-businesses-self-employed/estate-tax-for-nonresidents-not-citizens-of-the-united-states), pour le seuil de 60 000 $ et le formulaire 706-NA · Internal Revenue Service, [Foreign earned income exclusion](https://www.irs.gov/individuals/international-taxpayers/foreign-earned-income-exclusion) · Internal Revenue Code, section 877A, pour l'imposition de sortie des *covered expatriates* · Internal Revenue Code, dispositions relatives à l'imposition des citoyens, des résidents et des non-résidents, et au régime successoral fédéral · [Convention franco-américaine du 24 novembre 1978 en matière de successions et de donations](https://www.impots.gouv.fr/10conventionsetats-unisetats-unisconvention-avec-les-etats-unis-successions-donationsfd1836pdf), modifiée en 2004, article 12, et [BOI-INT-CVB-USA-20](https://bofip.impots.gouv.fr/bofip/2660-PGP.html/identifiant=BOI-INT-CVB-USA-20-20120912) · Foreign Account Tax Compliance Act et accord intergouvernemental franco-américain · [Convention fiscale franco-américaine en matière d'impôts sur le revenu](https://www.impots.gouv.fr/les-conventions-internationales).
 
 
 ### Liens internes

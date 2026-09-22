@@ -32,7 +32,7 @@ articlesLies:
   - "expatriation-emirats-dubai-fiscalite"
   - "expatriation-espagne-fiscalite"
 seoDerive: true
-sources: "*Income Tax Law* chypriote et législation sur la contribution spéciale à la défense, statut de non-domicilié apprécié sur dix-sept des vingt années précédentes · [Réforme fiscale adoptée le 22 décembre 2025, applicable au 1ᵉʳ janvier 2026 : relèvement de la tranche exonérée à 22 000 €, seuil du taux de 35 % porté à 72 001 €, contribution sur les dividendes des résidents domiciliés ramenée de 17 % à 5 %](https://www.chypre-conseils.com/reforme-fiscale-chypre-2026/) · Article 200 A du Code général des impôts pour le prélèvement forfaitaire unique · Convention fiscale franco-chypriote · Code général des impôts, article 167 bis, IV, et articles 164 D, 244 bis A et 1736, IV."
+sources: "*Income Tax Law* chypriote et législation sur la contribution spéciale à la défense, statut de non-domicilié apprécié sur dix-sept des vingt années précédentes · [Réforme fiscale adoptée le 22 décembre 2025, applicable au 1ᵉʳ janvier 2026 : relèvement de la tranche exonérée à 22 000 €, seuil du taux de 35 % porté à 72 001 €, contribution sur les dividendes des résidents domiciliés ramenée de 17 % à 5 %](https://www.chypre-conseils.com/reforme-fiscale-chypre-2026/) · Article 200 A du Code général des impôts pour le prélèvement forfaitaire unique · [Convention fiscale franco-chypriote](https://www.impots.gouv.fr/les-conventions-internationales) · Code général des impôts, article 167 bis, IV, et articles 164 D, 244 bis A et 1736, IV."
 ---
 
 ## Le tableau de synthèse

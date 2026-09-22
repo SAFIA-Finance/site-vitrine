@@ -33,7 +33,7 @@ articlesLies:
   - "expatriation-monaco-fiscalite"
   - "expatriation-portugal-fiscalite"
 seoDerive: true
-sources: "*Income Tax Act* mauricien et barème refondu au 1ᵉʳ juillet 2025 par le budget 2025-2026 · [Budget mauricien 2025-2026, réforme du barème, de la CSG et de la durée des permis](https://www.jwflegal.com/news/2025-mauritius-tax-financial-services-and-regulatory-reforms/) · [Economic Development Board, *Property Development Scheme* et seuil d'acquisition de 375 000 dollars](https://residency.mu/acquire/property-development-scheme/) · Convention fiscale franco-mauricienne dans sa version en vigueur · Article 200 A du Code général des impôts pour le prélèvement forfaitaire unique · Code général des impôts, article 167 bis, pour l'imposition des plus-values latentes au départ et les garanties exigées hors Union européenne."
+sources: "*Income Tax Act* mauricien et barème refondu au 1ᵉʳ juillet 2025 par le budget 2025-2026 · [Budget mauricien 2025-2026, réforme du barème, de la CSG et de la durée des permis](https://www.jwflegal.com/news/2025-mauritius-tax-financial-services-and-regulatory-reforms/) · [Economic Development Board, *Property Development Scheme* et seuil d'acquisition de 375 000 dollars](https://residency.mu/acquire/property-development-scheme/) · [Convention fiscale franco-mauricienne dans sa version en vigueur](https://www.impots.gouv.fr/les-conventions-internationales) · Article 200 A du Code général des impôts pour le prélèvement forfaitaire unique · Code général des impôts, article 167 bis, pour l'imposition des plus-values latentes au départ et les garanties exigées hors Union européenne."
 ---
 
 ## Le tableau de synthèse

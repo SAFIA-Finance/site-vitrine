@@ -30,7 +30,7 @@ articlesLies:
   - "digitaliser-cabinet-gestion-patrimoine"
   - "cout-conseiller-gestion-patrimoine"
   - "logiciel-cgp-comment-choisir"
-sources: "Code monétaire et financier, articles L. 541-1 et suivants · Règlement général de l'AMF, livre III · [Directive 2014/65/UE](https://eur-lex.europa.eu/eli/dir/2014/65/oj), article 24 sur l'information relative aux coûts et aux incitations · Calculs de coût de revient établis à titre illustratif."
+sources: "Code monétaire et financier, articles L. 541-1 et suivants · Règlement général de l'AMF, livre III · [Directive 2014/65/UE](https://eur-lex.europa.eu/eli/dir/2014/65/oj), article 24 sur l'information relative aux coûts et aux incitations"
 ---
 
 ## Posez d'abord le calcul
