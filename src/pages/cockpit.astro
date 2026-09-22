@@ -115,7 +115,7 @@ const fil = ["Accueil","Particuliers","Cockpit stratégique"];
 <div class="wrap">
   <p class="etiq-section">Fonctionnalité à venir</p>
   <h2 class="titre">Toutes les offres du marché, filtrées pour toi seul.</h2>
-  <p class="intro">Une banque privée sélectionne pour ses clients parmi ce que le marché propose. Le cockpit fait la même chose, pour tout le monde, à partir de deux éléments que personne d'autre ne croise : ton profil réglementaire et ton ADN investisseur. Ce privilège réservé à quelques-uns a une histoire, que raconte <a class="lien" href="/histoire-gestion-de-patrimoine/">notre récit de la gestion de patrimoine</a>.</p>
+  <p class="intro">Une banque privée sélectionne pour ses clients parmi ce que le marché propose. Le cockpit fait la même chose, pour tout le monde, à partir de trois éléments que personne d'autre ne croise : ton profil réglementaire, ton profil fiscal et ton ADN investisseur. Ce privilège réservé à quelques-uns a une histoire, que raconte <a class="lien" href="/histoire-gestion-de-patrimoine/">notre récit de la gestion de patrimoine</a>.</p>
 
   <!-- Deux familles à gauche : les produits, puis les dispositifs fiscaux, teintés
        de rose pour qu'on ne les lise pas comme des produits de plus. Trois
@@ -252,16 +252,71 @@ const fil = ["Accueil","Particuliers","Cockpit stratégique"];
 
   <p class="schema-note">Exemple illustratif. Le filtre applique le risque en premier : rien ne t'est proposé au-delà de ton profil. L'alignement avec ton ADN vient ensuite.</p>
 
+  <!-- Les deux exemples suivent le chemin du schéma, dans le même ordre : les
+       deux profils, l'ADN sur ses trois piliers, la sélection, ce qui est
+       écarté et pourquoi, puis ce que ça rapporte. Chaque écart renvoie à un
+       élément visible plus haut dans la carte, pour que le lecteur voie le
+       filtre travailler. Exemples illustratifs, pas des clients. -->
   <div class="deux-users">
     <article>
       <span class="du-tag">Utilisateur A</span>
-      <p class="du-profil">Profil 2 sur 5 · Horizon 5 ans · Tient à l'industrie française, refuse les énergies fossiles</p>
-      <ul><li>Fonds actions Europe, filtre d'exclusion charbon</li><li>Fonds euros, pour la part sécurisée</li><li>SCPI de bureaux en France</li></ul>
+      <p class="du-qui">34 ans, prépare l'achat de sa résidence principale</p>
+      <dl class="du-profils">
+        <div><dt>Profil réglementaire</dt><dd>Prudent, 2 sur 5<br />Horizon 5 ans</dd></div>
+        <div><dt>Profil fiscal</dt><dd>Tranche à 11 %<br />Pas d'IFI</dd></div>
+      </dl>
+      <div class="du-adn">
+        <p class="du-adn-tit">ADN investisseur</p>
+        <ul>
+          <li><b>Finance traditionnelle</b><span>Constituer un apport sans le mettre en danger</span></li>
+          <li><b>Finance à impact</b><span>Tient à l'industrie française, refuse les énergies fossiles</span></li>
+          <li><b>Finance comportementale</b><span>Tenté de tout vendre dès 10 % de baisse</span></li>
+        </ul>
+      </div>
+      <p class="du-sous">Sa sélection</p>
+      <ul class="du-sel">
+        <li>Fonds euros, pour l'essentiel de l'apport</li>
+        <li>Fonds obligataire daté, échéance alignée sur son projet</li>
+        <li>Fonds actions Europe, exclusion charbon, en petite part</li>
+        <li>Assurance-vie ouverte dès maintenant, pour prendre date</li>
+      </ul>
+      <p class="du-sous">Écarté</p>
+      <ul class="du-ecart">
+        <li><b>Private equity</b> : argent bloqué 8 à 10 ans, au-delà de son horizon</li>
+        <li><b>Girardin industriel</b> : impôt trop faible pour en tirer parti</li>
+        <li><b>Fonds pétrole et gaz</b> : contraire à son ADN</li>
+      </ul>
+      <p class="du-gain"><b>Ce que ça lui apporte</b>Un apport qui progresse sans mettre le projet en danger, et une part d'actions assez petite pour ne pas céder à la panique.</p>
     </article>
     <article>
       <span class="du-tag">Utilisateur B</span>
-      <p class="du-profil">Profil 4 sur 5 · Horizon 15 ans · Tient aux énergies renouvelables et à l'égalité au travail</p>
-      <ul><li>ETF monde, hors énergies fossiles</li><li>Fonds thématique transition énergétique</li><li>Private equity, part minoritaire</li></ul>
+      <p class="du-qui">52 ans, prépare sa retraite et sa transmission</p>
+      <dl class="du-profils">
+        <div><dt>Profil réglementaire</dt><dd>Dynamique, 4 sur 5<br />Horizon 15 ans</dd></div>
+        <div><dt>Profil fiscal</dt><dd>Tranche à 41 %<br />Redevable de l'IFI</dd></div>
+      </dl>
+      <div class="du-adn">
+        <p class="du-adn-tit">ADN investisseur</p>
+        <ul>
+          <li><b>Finance traditionnelle</b><span>Préparer la retraite, transmettre aux enfants</span></li>
+          <li><b>Finance à impact</b><span>Énergies renouvelables, égalité au travail</span></li>
+          <li><b>Finance comportementale</b><span>Reste investi quand les marchés baissent</span></li>
+        </ul>
+      </div>
+      <p class="du-sous">Sa sélection</p>
+      <ul class="du-sel">
+        <li>ETF monde, hors énergies fossiles</li>
+        <li>Fonds thématique transition énergétique</li>
+        <li>Versements PER, déductibles à sa tranche de 41 %</li>
+        <li>Groupement forestier, pour l'IFI et la transmission</li>
+      </ul>
+      <p class="du-sous">Écarté</p>
+      <ul class="du-ecart">
+        <li><b>SOFICA</b> : plafond des niches fiscales déjà atteint</li>
+        <li><b>Fonds euros en majorité</b> : trop prudent sur 15 ans</li>
+        <li><b>Fonds sans politique d'égalité</b> : contraire à son ADN</li>
+      </ul>
+      <p class="du-gain"><b>Ce que ça lui apporte</b>Moins d'impôt chaque année, et un capital retraite qui travaille, aligné sur ses convictions.</p>
     </article>
   </div>
   <p class="schema-note">Même marché, même moteur, deux résultats. C'est la différence entre une offre standard et du sur-mesure. Ici les produits ne sont pas spécifiés, dans l'application tu retrouveras les produits exacts recommandés, les performances attendues, les frais si pertinents.</p>
