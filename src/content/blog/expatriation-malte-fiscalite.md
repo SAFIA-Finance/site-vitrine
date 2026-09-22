@@ -6,7 +6,7 @@ description: "Les plus-values étrangères ne sont jamais imposées à Malte, m�
 categorie: "Expatriation"
 date: 2026-09-16
 lecture: 7
-mots: 1405
+mots: 1424
 essentiel:
   - "Malte applique le principe de **remittance** : un résident non domicilié n'est imposé sur ses revenus étrangers que s'il les rapatrie sur l'île."
   - "Les **plus-values de source étrangère ne sont jamais imposées**, même rapatriées. C'est la particularité la plus notable du système."
@@ -34,7 +34,7 @@ articlesLies:
   - "expatriation-maroc-fiscalite"
   - "expatriation-maurice-fiscalite"
 seoDerive: true
-sources: "*Income Tax Act* maltais, articles 4(1) pour la base de remittance et 56(27) pour l'impôt minimum des résidents non domiciliés · *Legal Notice 195 of 2026*, fusion des programmes de résidence et nouveaux seuils au 1ᵉʳ janvier 2027, avec protection des statuts accordés avant le 31 décembre 2026 jusqu'au 31 décembre 2031 · [Malta Tax and Customs Administration, barème applicable en 2026](https://mtca.gov.mt/docs/default-source/documents/2026-tax-rates.pdf) · [Malta Tax and Customs Administration, droits sur les successions](https://mtca.gov.mt/personal-tax/inheritance/general-information-of-duty) · Textes relatifs au *Global Residence Programme* et au *Malta Retirement Programme* · Article 200 A du Code général des impôts pour le prélèvement forfaitaire unique · Convention fiscale franco-maltaise · Code général des impôts, article 167 bis."
+sources: "*Income Tax Act* maltais, articles 4(1) pour la base de remittance et 56(27) pour l'impôt minimum des résidents non domiciliés · [*Legal Notice 195 of 2026*](https://legislation.mt/eli/ln/2026/195/eng), fusion des programmes de résidence et nouveaux seuils au 1ᵉʳ janvier 2027, avec protection des statuts accordés avant le 31 décembre 2026 jusqu'au 31 décembre 2031 · [Malta Tax and Customs Administration, barème applicable en 2026](https://mtca.gov.mt/docs/default-source/documents/2026-tax-rates.pdf) · [Malta Tax and Customs Administration, droits sur les successions](https://mtca.gov.mt/personal-tax/inheritance/general-information-of-duty) · Textes relatifs au *Global Residence Programme* et au *Malta Retirement Programme* · Article 200 A du Code général des impôts pour le prélèvement forfaitaire unique · Convention fiscale franco-maltaise · Code général des impôts, article 167 bis."
 ---
 
 ## Le tableau de synthèse
@@ -75,7 +75,7 @@ En pratique, cela suppose une discipline de flux : séparer les comptes, tracer 
 
 C'est le point le plus important pour qui envisage Malte aujourd'hui, et il est récent.
 
-Le *Legal Notice 195 of 2026* fusionne les trois programmes existants, le *Residence Programme*, le *Global Residence Programme* et le *Malta Retirement Programme*, en un dispositif unique à quatre catégories. Les montants changent nettement.
+Le *Legal Notice 195 of 2026*, intitulé *Individual Tax Programme Rules, 2026* et publié à la *Government Gazette* n° 21 686 du 14 juillet 2026, fusionne les trois programmes existants, le *Residence Programme*, le *Global Residence Programme* et le *Malta Retirement Programme*, en un dispositif unique à quatre catégories. Les montants changent nettement.
 
 | | Jusqu'au 31/12/2026 | À partir du 01/01/2027 |
 |---|---|---|

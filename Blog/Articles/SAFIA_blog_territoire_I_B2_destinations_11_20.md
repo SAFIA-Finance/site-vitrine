@@ -11,7 +11,7 @@ Même structure et même avertissement que la partie B1.
 
 ## I17 — Chypre
 
-**URL** : /blog/expatriation-chypre-fiscalite · **Vérifié le 21 septembre 2026**
+**URL** : /blog/expatriation-chypre-fiscalite · **Vérifié le 23 septembre 2026**
 **Meta** : Le non-dom chypriote dure jusqu'à dix-sept ans et exonère dividendes et intérêts. Membre de l'Union, Chypre ouvre le sursis automatique d'exit tax.
 
 | | |
@@ -139,7 +139,7 @@ articles **I20** et **I10**.
 
 ## I18 — Irlande
 
-**URL** : /blog/expatriation-irlande-fiscalite · **Vérifié le 21 septembre 2026**
+**URL** : /blog/expatriation-irlande-fiscalite · **Vérifié le 23 septembre 2026**
 **Meta** : Remittance pour les revenus étrangers, mais 52 % de taux marginal sur le salaire local. Et des droits de transmission à 33 % au-delà de 400 000 € par enfant.
 
 | | |
@@ -271,7 +271,7 @@ articles **I8** et **I13**.
 
 ## I19 — Royaume-Uni
 
-**URL** : /blog/expatriation-royaume-uni-fiscalite · **Vérifié le 21 septembre 2026**
+**URL** : /blog/expatriation-royaume-uni-fiscalite · **Vérifié le 23 septembre 2026**
 **Meta** : Le régime non-dom est supprimé depuis avril 2025. Ce qui le remplace pour les nouveaux arrivants, et le Statutory Residence Test, chiffré et prévisible.
 
 | | |
@@ -400,7 +400,7 @@ articles **I24** et **I12**.
 
 ## I20 — Émirats arabes unis
 
-**URL** : /blog/expatriation-emirats-dubai-fiscalite · **Vérifié le 16 septembre 2026**
+**URL** : /blog/expatriation-emirats-dubai-fiscalite · **Vérifié le 23 septembre 2026**
 **Meta** : Aucun impôt sur le revenu des personnes physiques, mais pas de sursis automatique d'exit tax et une résidence française fréquemment contestée.
 
 | | |
@@ -513,13 +513,14 @@ articles **I10** et **I26**.
 
 ## I21 — Maurice
 
-**URL** : /blog/expatriation-maurice-fiscalite · **Vérifié le 21 septembre 2026**
+**URL** : /blog/expatriation-maurice-fiscalite · **Vérifié le 23 septembre 2026**
 **Meta** : Ni plus-values ni droits de succession, un barème plafonné à 20 %, mais 375 000 dollars de prix d'entrée et aucun sursis automatique d'exit tax.
 
 | | |
 |---|---|
 | Impôt sur le revenu | **0 %** jusqu'à 500 000 roupies, **10 %** de 500 000 à 1 million, **20 %** au-delà, depuis le 1ᵉʳ juillet 2025 |
 | Contribution sociale généralisée | **1,5 %** jusqu'à 50 000 roupies de revenu mensuel, **3 %** au-delà, côté salarié |
+| Fair Share Contribution | **15 %** sur la fraction du revenu dépassant **12 millions de roupies**, du 1ᵉʳ juillet 2025 au 30 juin 2028 |
 | Plus-values | **Aucune imposition** |
 | Droits de succession | **Aucun** |
 | Prix d'entrée de la résidence | **375 000 dollars** minimum, dans un programme immobilier agréé |
@@ -639,7 +640,7 @@ articles **I14** et **I7**.
 
 ## I22 — Maroc
 
-**URL** : /blog/expatriation-maroc-fiscalite · **Vérifié le 16 septembre 2026**
+**URL** : /blog/expatriation-maroc-fiscalite · **Vérifié le 23 septembre 2026**
 **Meta** : Un abattement substantiel sur les pensions de source étrangère, majoré en dirhams non convertibles : la destination la plus favorable aux retraités.
 
 | | |
@@ -748,7 +749,7 @@ articles **I21** et **I14**.
 
 ## I23 — Thaïlande
 
-**URL** : /blog/expatriation-thailande-fiscalite · **Vérifié le 16 septembre 2026**
+**URL** : /blog/expatriation-thailande-fiscalite · **Vérifié le 23 septembre 2026**
 **Meta** : La règle du non-rapatriement a été durcie en 2024 : un revenu étranger rapatrié plus tard devient imposable. L'attrait fiscal en est très réduit.
 
 | | |
@@ -862,7 +863,7 @@ articles **I15** et **I11**.
 
 ## I24 — Singapour
 
-**URL** : /blog/expatriation-singapour-fiscalite · **Vérifié le 21 septembre 2026**
+**URL** : /blog/expatriation-singapour-fiscalite · **Vérifié le 23 septembre 2026**
 **Meta** : Imposition territoriale, pas de plus-values ni de droits de succession, mais un coût du logement qui absorbe une large part de l'avantage fiscal.
 
 | | |
@@ -980,7 +981,7 @@ articles **I12** et **I23**.
 
 ## I25 — Canada
 
-**URL** : /blog/expatriation-canada-fiscalite · **Vérifié le 21 septembre 2026**
+**URL** : /blog/expatriation-canada-fiscalite · **Vérifié le 23 septembre 2026**
 **Meta** : Pas de droits de succession, mais au décès la moitié des plus-values latentes s'ajoute à la dernière déclaration, à un taux qui atteint 53,53 % en Ontario.
 
 | | |
@@ -1109,7 +1110,7 @@ articles **I17** et **I20**.
 
 ## I26 — États-Unis
 
-**URL** : /blog/expatriation-etats-unis-fiscalite · **Vérifié le 21 septembre 2026**
+**URL** : /blog/expatriation-etats-unis-fiscalite · **Vérifié le 23 septembre 2026**
 **Meta** : Un abattement successoral de 60 000 $ pour le non-résident détenant des titres américains, contre 15 millions pour un résident. Le piège le plus coûteux du panorama.
 
 | | |

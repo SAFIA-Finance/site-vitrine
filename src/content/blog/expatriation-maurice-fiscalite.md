@@ -5,8 +5,8 @@ titreSeo: "Maurice : fiscalité de l'expatriation"
 description: "Ni plus-values ni droits de succession, un barème plafonné à 20 %, mais 375 000 dollars de prix d'entrée et aucun sursis automatique d'exit tax."
 categorie: "Expatriation"
 date: 2026-09-16
-lecture: 5
-mots: 1075
+lecture: 6
+mots: 1101
 essentiel:
   - "Maurice ne taxe **ni les plus-values ni les successions**, et son barème plafonne à **20 %**."
   - "Ce barème a été refondu au **1ᵉʳ juillet 2025** : trois tranches, 0 %, 10 % et 20 %, à la place des onze précédentes."
@@ -42,6 +42,7 @@ sources: "*Income Tax Act* mauricien et barème refondu au 1ᵉʳ juillet 2025 p
 |---|---|
 | Impôt sur le revenu | **0 %** jusqu'à 500 000 roupies, **10 %** de 500 000 à 1 million, **20 %** au-delà, depuis le 1ᵉʳ juillet 2025 |
 | Contribution sociale généralisée | **1,5 %** jusqu'à 50 000 roupies de revenu mensuel, **3 %** au-delà, côté salarié |
+| Fair Share Contribution | **15 %** sur la fraction du revenu dépassant **12 millions de roupies**, du 1ᵉʳ juillet 2025 au 30 juin 2028 |
 | Plus-values | **Aucune imposition** |
 | Droits de succession | **Aucun** |
 | Prix d'entrée de la résidence | **375 000 dollars** minimum, dans un programme immobilier agréé |

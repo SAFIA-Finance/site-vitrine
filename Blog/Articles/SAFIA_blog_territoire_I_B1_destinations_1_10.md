@@ -13,13 +13,14 @@ Auteur : Maxime Bouché, CIF · Rédigés le 16 septembre 2026
 
 ## I7 — Portugal
 
-**URL** : /blog/expatriation-portugal-fiscalite · **Vérifié le 16 septembre 2026**
+**URL** : /blog/expatriation-portugal-fiscalite · **Vérifié le 23 septembre 2026**
 **Meta** : Le régime NHR est fermé depuis le 1er janvier 2024. Ce que l'IFICI couvre réellement, et pourquoi les retraités ont perdu l'avantage portugais.
 
 | | |
 |---|---|
 | Régime pour nouveaux résidents | **IFICI** : 20 % sur les revenus portugais d'activités éligibles, 10 ans |
-| Revenus étrangers | Majoritairement exonérés sous IFICI, à déclarer malgré tout |
+| Condition d'accès | Ne pas avoir été résident fiscal au Portugal les **cinq années** précédentes, ni avoir bénéficié d'un régime équivalent |
+| Revenus étrangers | Majoritairement exonérés sous IFICI, à déclarer malgré tout. Exception : les dividendes venant de juridictions à fiscalité privilégiée subissent une retenue de **35 %** |
 | Retraités | **Plus d'avantage** : barème progressif, jusqu'à 48 % |
 | Barème général | Progressif, 9 tranches, sommet à 48 % |
 | Convention avec la France | Oui |
@@ -122,13 +123,13 @@ articles **I19** et **I24**.
 
 ## I8 — Italie
 
-**URL** : /blog/expatriation-italie-fiscalite · **Vérifié le 16 septembre 2026**
+**URL** : /blog/expatriation-italie-fiscalite · **Vérifié le 23 septembre 2026**
 **Meta** : Forfait à 300 000 €, flat tax de 7 % pour retraités, impatriati : les quatre régimes italiens, et la taxe sur les actifs détenus hors d'Italie.
 
 | | |
 |---|---|
 | Forfait grands patrimoines | **300 000 €/an** sur les revenus étrangers depuis le 1er janvier 2026 (200 000 € auparavant) |
-| Durée | Jusqu'à 15 ans · extension familiale à 50 000 €/personne |
+| Durée | Jusqu'à 15 ans · extension familiale à **50 000 €/personne** pour un transfert à compter du 1ᵉʳ janvier 2026, **25 000 €** pour les transferts antérieurs |
 | Condition | Non-résident italien 9 des 10 années précédentes |
 | Régime impatriati | Exonération de 50 %, 5 ans, profils qualifiés |
 | Retraités | Flat tax **7 %**, 10 ans, communes de moins de 20 000 habitants du Sud |
@@ -345,7 +346,7 @@ articles **I18** et **I8**.
 
 ## I10 — Espagne
 
-**URL** : /blog/expatriation-espagne-fiscalite · **Vérifié le 21 septembre 2026**
+**URL** : /blog/expatriation-espagne-fiscalite · **Vérifié le 23 septembre 2026**
 **Meta** : Régime Beckham à 24 % jusqu'à 600 000 €, et des droits de succession qui vont de 1 % à 30 % selon la région choisie. Le vrai arbitrage est régional.
 
 | | |
@@ -471,12 +472,12 @@ articles **I26** et **I9**.
 
 ## I11 — Belgique
 
-**URL** : /blog/expatriation-belgique-fiscalite · **Vérifié le 21 septembre 2026**
+**URL** : /blog/expatriation-belgique-fiscalite · **Vérifié le 23 septembre 2026**
 **Meta** : Les plus-values privées ne sont plus exonérées depuis le 1ᵉʳ janvier 2026 : une taxe de 10 % s'applique, après une franchise de 10 000 €. Ce que cela change.
 
 | | |
 |---|---|
-| Plus-values sur actifs financiers | **Imposées à 10 %** depuis le 1ᵉʳ janvier 2026, après une franchise annuelle de **10 000 €** |
+| Plus-values sur actifs financiers | **Imposées à 10 %** depuis le 1ᵉʳ janvier 2026, après une franchise annuelle de **10 000 €**, indexée et portée à **15 000 €** sous conditions |
 | Plus-values antérieures à 2026 | **Exonérées** : seul compte l'écart avec la valeur au **31 décembre 2025** |
 | Participation importante | À partir de **20 %** des droits : exonération de **1 million d'euros** par période de cinq ans, puis barème de 1,25 % à **10 %** au-delà de 10 millions |
 | Barème de l'impôt sur le revenu | **25 %** jusqu'à 16 320 €, puis 40 % et 45 %, et **50 % au-delà de 49 840 €**, majoré des additionnels communaux |
@@ -598,7 +599,7 @@ articles **I25** et **I17**.
 
 ## I12 — Suisse
 
-**URL** : /blog/expatriation-suisse-fiscalite · **Vérifié le 16 septembre 2026**
+**URL** : /blog/expatriation-suisse-fiscalite · **Vérifié le 23 septembre 2026**
 **Meta** : Forfait négocié canton par canton, impôt sur la fortune, et surtout : hors sursis automatique d'exit tax, ce qui alourdit la préparation du départ.
 
 | | |
@@ -709,7 +710,7 @@ articles **I23** et **I15**.
 
 ## I13 — Luxembourg
 
-**URL** : /blog/expatriation-luxembourg-fiscalite · **Vérifié le 21 septembre 2026**
+**URL** : /blog/expatriation-luxembourg-fiscalite · **Vérifié le 23 septembre 2026**
 **Meta** : Pas de régime dérogatoire pour nouveaux résidents, mais une fiscalité mobilière favorable et la place de référence de l'assurance-vie internationale.
 
 | | |
@@ -840,7 +841,7 @@ articles **I16** et **I22**.
 
 ## I14 — Monaco
 
-**URL** : /blog/expatriation-monaco-fiscalite · **Vérifié le 21 septembre 2026**
+**URL** : /blog/expatriation-monaco-fiscalite · **Vérifié le 23 septembre 2026**
 **Meta** : Un Français installé à Monaco reste imposable en France : c'est l'article 7 de la convention de 1963. L'exception, et ce qui reste malgré tout.
 
 | | |
@@ -968,7 +969,7 @@ articles **I7** et **I19**.
 
 ## I15 — Andorre
 
-**URL** : /blog/expatriation-andorre-fiscalite · **Vérifié le 16 septembre 2026**
+**URL** : /blog/expatriation-andorre-fiscalite · **Vérifié le 23 septembre 2026**
 **Meta** : Impôt sur le revenu plafonné à 10 %, ni fortune ni succession, mais des obligations de résidence réelles et pas de sursis automatique d'exit tax.
 
 | | |
@@ -978,7 +979,7 @@ articles **I7** et **I19**.
 | Droits de succession | Aucun |
 | Convention avec la France | Oui, depuis 2013 |
 | **Exit tax française** | **Pas de sursis automatique** : garanties requises |
-| Résidence | Passive ou active, avec obligations d'investissement ou d'activité et de présence |
+| Résidence | Passive ou active, avec obligations d'investissement ou d'activité et de présence. L'investissement minimal pour la résidence passive a été porté à **800 000 €**, contre 600 000 € auparavant |
 
 ### L'essentiel
 
@@ -1075,7 +1076,7 @@ articles **I11** et **I25**.
 
 ## I16 — Malte
 
-**URL** : /blog/expatriation-malte-fiscalite · **Vérifié le 21 septembre 2026**
+**URL** : /blog/expatriation-malte-fiscalite · **Vérifié le 23 septembre 2026**
 **Meta** : Les plus-values étrangères ne sont jamais imposées à Malte, même rapatriées. Mais l'impôt minimum passe de 15 000 à 35 000 € au 1ᵉʳ janvier 2027.
 
 | | |
@@ -1123,7 +1124,7 @@ En pratique, cela suppose une discipline de flux : séparer les comptes, tracer 
 
 C'est le point le plus important pour qui envisage Malte aujourd'hui, et il est récent.
 
-Le *Legal Notice 195 of 2026* fusionne les trois programmes existants, le *Residence Programme*, le *Global Residence Programme* et le *Malta Retirement Programme*, en un dispositif unique à quatre catégories. Les montants changent nettement.
+Le *Legal Notice 195 of 2026*, intitulé *Individual Tax Programme Rules, 2026* et publié à la *Government Gazette* n° 21 686 du 14 juillet 2026, fusionne les trois programmes existants, le *Residence Programme*, le *Global Residence Programme* et le *Malta Retirement Programme*, en un dispositif unique à quatre catégories. Les montants changent nettement.
 
 | | Jusqu'au 31/12/2026 | À partir du 01/01/2027 |
 |---|---|---|
@@ -1209,7 +1210,7 @@ Elle peut convenir, et un programme dédié existe avec ses conditions propres. 
 
 ### Sources
 
-*Income Tax Act* maltais, articles 4(1) pour la base de remittance et 56(27) pour l'impôt minimum des résidents non domiciliés · *Legal Notice 195 of 2026*, fusion des programmes de résidence et nouveaux seuils au 1ᵉʳ janvier 2027, avec protection des statuts accordés avant le 31 décembre 2026 jusqu'au 31 décembre 2031 · [Malta Tax and Customs Administration, barème applicable en 2026](https://mtca.gov.mt/docs/default-source/documents/2026-tax-rates.pdf) · [Malta Tax and Customs Administration, droits sur les successions](https://mtca.gov.mt/personal-tax/inheritance/general-information-of-duty) · Textes relatifs au *Global Residence Programme* et au *Malta Retirement Programme* · Article 200 A du Code général des impôts pour le prélèvement forfaitaire unique · Convention fiscale franco-maltaise · Code général des impôts, article 167 bis.
+*Income Tax Act* maltais, articles 4(1) pour la base de remittance et 56(27) pour l'impôt minimum des résidents non domiciliés · [*Legal Notice 195 of 2026*](https://legislation.mt/eli/ln/2026/195/eng), fusion des programmes de résidence et nouveaux seuils au 1ᵉʳ janvier 2027, avec protection des statuts accordés avant le 31 décembre 2026 jusqu'au 31 décembre 2031 · [Malta Tax and Customs Administration, barème applicable en 2026](https://mtca.gov.mt/docs/default-source/documents/2026-tax-rates.pdf) · [Malta Tax and Customs Administration, droits sur les successions](https://mtca.gov.mt/personal-tax/inheritance/general-information-of-duty) · Textes relatifs au *Global Residence Programme* et au *Malta Retirement Programme* · Article 200 A du Code général des impôts pour le prélèvement forfaitaire unique · Convention fiscale franco-maltaise · Code général des impôts, article 167 bis.
 
 
 ### Liens internes

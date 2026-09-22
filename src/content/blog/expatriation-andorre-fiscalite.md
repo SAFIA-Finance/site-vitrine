@@ -6,7 +6,7 @@ description: "Impôt sur le revenu plafonné à 10 %, ni fortune ni succession, 
 categorie: "Expatriation"
 date: 2026-09-16
 lecture: 4
-mots: 798
+mots: 816
 essentiel:
   - "Andorre combine un impôt sur le revenu plafonné à **10 %**, l'absence d'impôt sur la fortune et l'absence de droits de succession."
   - "Ce n'est pas un paradis sans règles : une **convention fiscale** lie la France et Andorre depuis 2013, et les échanges d'informations existent."
@@ -46,7 +46,7 @@ sources: "Llei de l'impost sobre la renda de les persones físiques (Andorre) ·
 | Droits de succession | Aucun |
 | Convention avec la France | Oui, depuis 2013 |
 | **Exit tax française** | **Pas de sursis automatique** : garanties requises |
-| Résidence | Passive ou active, avec obligations d'investissement ou d'activité et de présence |
+| Résidence | Passive ou active, avec obligations d'investissement ou d'activité et de présence. L'investissement minimal pour la résidence passive a été porté à **800 000 €**, contre 600 000 € auparavant |
 
 ## Les deux voies de résidence
 

@@ -6,7 +6,7 @@ description: "Les plus-values privées ne sont plus exonérées depuis le 1ᵉʳ
 categorie: "Expatriation"
 date: 2026-09-16
 lecture: 7
-mots: 1375
+mots: 1384
 essentiel:
   - "**La raison historique de partir en Belgique n'existe plus.** Les plus-values privées sur actifs financiers y sont imposées à **10 %** depuis le 1ᵉʳ janvier 2026."
   - "Ce qui a été gagné **avant 2026 reste exonéré** : la taxe ne porte que sur l'écart avec la valeur au 31 décembre 2025. C'est le point le plus important pour qui détient déjà un portefeuille."
@@ -39,7 +39,7 @@ sources: "Loi du 6 avril 2026 introduisant une taxe sur les plus-values des acti
 
 | | |
 |---|---|
-| Plus-values sur actifs financiers | **Imposées à 10 %** depuis le 1ᵉʳ janvier 2026, après une franchise annuelle de **10 000 €** |
+| Plus-values sur actifs financiers | **Imposées à 10 %** depuis le 1ᵉʳ janvier 2026, après une franchise annuelle de **10 000 €**, indexée et portée à **15 000 €** sous conditions |
 | Plus-values antérieures à 2026 | **Exonérées** : seul compte l'écart avec la valeur au **31 décembre 2025** |
 | Participation importante | À partir de **20 %** des droits : exonération de **1 million d'euros** par période de cinq ans, puis barème de 1,25 % à **10 %** au-delà de 10 millions |
 | Barème de l'impôt sur le revenu | **25 %** jusqu'à 16 320 €, puis 40 % et 45 %, et **50 % au-delà de 49 840 €**, majoré des additionnels communaux |

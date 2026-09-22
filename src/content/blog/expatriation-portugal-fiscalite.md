@@ -6,7 +6,7 @@ description: "Le régime NHR est fermé depuis le 1er janvier 2024. Ce que l'IFI
 categorie: "Expatriation"
 date: 2026-09-16
 lecture: 5
-mots: 936
+mots: 975
 essentiel:
   - "Le régime NHR est **fermé aux nouvelles demandes depuis le 1er janvier 2024**. Toute page qui le présente comme accessible est périmée."
   - "Son successeur, l'**IFICI**, est beaucoup plus étroit : il vise la recherche, la technologie et l'innovation."
@@ -38,7 +38,8 @@ sources: "Lei n.º 82/2023 de 29 de dezembro, article 263 créant l'article 58.�
 | | |
 |---|---|
 | Régime pour nouveaux résidents | **IFICI** : 20 % sur les revenus portugais d'activités éligibles, 10 ans |
-| Revenus étrangers | Majoritairement exonérés sous IFICI, à déclarer malgré tout |
+| Condition d'accès | Ne pas avoir été résident fiscal au Portugal les **cinq années** précédentes, ni avoir bénéficié d'un régime équivalent |
+| Revenus étrangers | Majoritairement exonérés sous IFICI, à déclarer malgré tout. Exception : les dividendes venant de juridictions à fiscalité privilégiée subissent une retenue de **35 %** |
 | Retraités | **Plus d'avantage** : barème progressif, jusqu'à 48 % |
 | Barème général | Progressif, 9 tranches, sommet à 48 % |
 | Convention avec la France | Oui |
