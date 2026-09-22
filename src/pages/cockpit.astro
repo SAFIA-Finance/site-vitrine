@@ -117,8 +117,14 @@ const fil = ["Accueil","Particuliers","Cockpit stratégique"];
   <h2 class="titre">Toutes les offres du marché, filtrées pour toi seul.</h2>
   <p class="intro">Une banque privée sélectionne pour ses clients parmi ce que le marché propose. Le cockpit fait la même chose, pour tout le monde, à partir de deux éléments que personne d'autre ne croise : ton profil réglementaire et ton ADN investisseur. Ce privilège réservé à quelques-uns a une histoire, que raconte <a class="lien" href="/histoire-gestion-de-patrimoine/">notre récit de la gestion de patrimoine</a>.</p>
 
-  <div class="schema" role="img" aria-label="Schéma : les offres du marché passent par un filtre construit sur votre profil réglementaire et votre ADN investisseur, pour produire une sélection propre à chaque utilisateur.">
-    <svg viewBox="0 0 980 434" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+  <!-- Deux familles à gauche : les produits, puis les dispositifs fiscaux, teintés
+       de rose pour qu'on ne les lise pas comme des produits de plus. Trois
+       entrées au centre : le profil réglementaire et le profil fiscal au-dessus,
+       parce qu'ils filtrent en premier (le risque, puis ce que ta fiscalité rend
+       utile), l'ADN et ses trois piliers en dessous. La finance comportementale
+       est une fonctionnalité à venir, comme toute la marketplace. -->
+  <div class="schema" role="img" aria-label="Schéma : les offres du marché et les dispositifs fiscaux passent par un filtre construit sur ton profil réglementaire, ton profil fiscal et ton ADN investisseur, qui réunit finance traditionnelle, finance à impact et finance comportementale, pour produire une sélection propre à chaque utilisateur.">
+    <svg viewBox="0 0 980 752" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
       <defs>
         <linearGradient id="gCentre" x1="0" y1="0" x2="1" y2="1">
           <stop offset="0" stop-color="#3B2CF2"/><stop offset="1" stop-color="#8A3CF0"/>
@@ -126,55 +132,120 @@ const fil = ["Accueil","Particuliers","Cockpit stratégique"];
         <linearGradient id="gFlux" x1="0" y1="0" x2="1" y2="0">
           <stop offset="0" stop-color="#8A3CF0" stop-opacity=".15"/><stop offset="1" stop-color="#E48BEF" stop-opacity=".55"/>
         </linearGradient>
+        <linearGradient id="gAdnBord" gradientUnits="userSpaceOnUse" x1="370" y1="500" x2="682" y2="680">
+          <stop offset="0" stop-color="#6B5CFF"/><stop offset=".55" stop-color="#A45CF5"/><stop offset="1" stop-color="#E48BEF"/>
+        </linearGradient>
+        <linearGradient id="gAdnFond" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="#3B2CF2" stop-opacity=".34"/><stop offset="1" stop-color="#8A3CF0" stop-opacity=".2"/>
+        </linearGradient>
       </defs>
 
       <!-- Colonne 1 : le marché -->
       <text x="30" y="36" class="s-tit">Les offres du marché</text>
       <g class="s-chip">
-        <rect x="30" y="56" width="200" height="40" rx="12"/><text x="48" y="81">Fonds, ETF et OPCVM</text>
-        <rect x="30" y="104" width="200" height="40" rx="12"/><text x="48" y="129">Actions et obligations</text>
-        <rect x="30" y="152" width="200" height="40" rx="12"/><text x="48" y="177">Private equity et FCPR</text>
-        <rect x="30" y="200" width="200" height="40" rx="12"/><text x="48" y="225">Produits structurés</text>
-        <rect x="30" y="248" width="200" height="40" rx="12"/><text x="48" y="273">SCPI et immobilier</text>
-        <rect x="30" y="296" width="200" height="40" rx="12"/><text x="48" y="321">Or, métaux et crypto</text>
-        <rect x="30" y="344" width="200" height="40" rx="12"/><text x="48" y="369">Forêts, vignes et art</text>
+        <rect x="30" y="52" width="262" height="34" rx="11"/><text x="46" y="74">Fonds, ETF et OPCVM</text>
+        <rect x="30" y="94" width="262" height="34" rx="11"/><text x="46" y="116">Actions et obligations</text>
+        <rect x="30" y="136" width="262" height="34" rx="11"/><text x="46" y="158">Private equity et FCPR</text>
+        <rect x="30" y="178" width="262" height="34" rx="11"/><text x="46" y="200">Produits structurés</text>
+        <rect x="30" y="220" width="262" height="34" rx="11"/><text x="46" y="242">SCPI et immobilier</text>
+        <rect x="30" y="262" width="262" height="34" rx="11"/><text x="46" y="284">Or, métaux et crypto</text>
+        <rect x="30" y="304" width="262" height="34" rx="11"/><text x="46" y="326">Forêts, vignes et art</text>
       </g>
-      <text x="30" y="404" class="s-note">Tous producteurs confondus.</text>
-      <text x="30" y="421" class="s-note">Dans l'enveloppe adaptée : assurance-vie, PER, PEA, compte-titres.</text>
+
+      <!-- Colonne 1 bis : les dispositifs fiscaux -->
+      <text x="30" y="378" class="s-tit">Les dispositifs fiscaux</text>
+      <g class="s-disp">
+        <rect x="30" y="394" width="262" height="34" rx="11"/><text x="46" y="416">Girardin industriel et social</text>
+        <rect x="30" y="436" width="262" height="34" rx="11"/><text x="46" y="458">Malraux, monuments historiques</text>
+        <rect x="30" y="478" width="262" height="34" rx="11"/><text x="46" y="500">Déficit foncier et LMNP</text>
+        <rect x="30" y="520" width="262" height="34" rx="11"/><text x="46" y="542">Denormandie, Loc'Avantages</text>
+        <rect x="30" y="562" width="262" height="34" rx="11"/><text x="46" y="584">FCPI, FIP et IR-PME</text>
+        <rect x="30" y="604" width="262" height="34" rx="11"/><text x="46" y="626">SOFICA</text>
+        <rect x="30" y="646" width="262" height="34" rx="11"/><text x="46" y="668">Groupements forestiers et viticoles</text>
+      </g>
+      <text x="30" y="736" class="s-note">Tous producteurs confondus, dans l'enveloppe adaptée : assurance-vie, PER, PEA, compte-titres.</text>
 
       <!-- Flux entrant -->
-      <path d="M238 200 C 300 200, 320 210, 372 210" class="s-flux"/>
+      <path d="M300 360 C 340 360, 360 368, 402 368" class="s-flux"/>
 
-      <!-- Centre : l'humain -->
-      <circle cx="470" cy="210" r="96" fill="url(#gCentre)"/>
-      <circle cx="470" cy="210" r="112" class="s-halo"/>
+      <!-- Centre : l'humain. Le cercle est centré entre la colonne du marché
+           (qui finit à 292) et celle de la sélection (qui commence à 712), et
+           le pictogramme avec « Toi » est centré dans le cercle : la tête
+           commence 64 unités au-dessus du centre, le mot finit 64 en dessous. -->
+      <circle cx="502" cy="360" r="96" fill="url(#gCentre)"/>
+      <circle cx="502" cy="360" r="112" class="s-halo"/>
       <g class="s-centre">
-        <path d="M470 168a24 24 0 1 1 0 48 24 24 0 0 1 0-48z" fill="#fff" opacity=".95"/>
-        <path d="M428 262c4-24 20-36 42-36s38 12 42 36z" fill="#fff" opacity=".95"/>
+        <path d="M502 296a24 24 0 1 1 0 48 24 24 0 0 1 0-48z" fill="#fff" opacity=".95"/>
+        <path d="M460 390c4-24 20-36 42-36s38 12 42 36z" fill="#fff" opacity=".95"/>
       </g>
-      <text x="470" y="296" class="s-centre-lab">Toi</text>
+      <text x="502" y="422" class="s-centre-lab">Toi</text>
 
-      <!-- Deux entrées du filtre -->
+      <!-- Les entrées du filtre : deux profils au-dessus, l'ADN en dessous -->
       <g class="s-entree">
-        <rect x="352" y="42" width="236" height="52" rx="14"/><text x="470" y="66">Profil réglementaire</text><text x="470" y="84" class="s-sub">Objectifs, horizon, tolérance au risque</text>
-        <rect x="352" y="330" width="236" height="52" rx="14"/><text x="470" y="354">ADN investisseur</text><text x="470" y="372" class="s-sub">Secteurs, convictions, critères ESG</text>
+        <rect x="372" y="36" width="260" height="52" rx="14"/><text x="502" y="60">Profil réglementaire</text><text x="502" y="78" class="s-sub">Objectifs, horizon, tolérance au risque</text>
+        <rect x="372" y="100" width="260" height="52" rx="14"/><text x="502" y="124">Profil fiscal</text><text x="502" y="142" class="s-sub">Tranche d'imposition, IFI, plafonds</text>
       </g>
-      <path d="M470 94 L470 112" class="s-lien"/>
-      <path d="M470 308 L470 330" class="s-lien"/>
 
-      <!-- Flux sortant -->
-      <path d="M568 210 C 620 210, 640 200, 700 200" class="s-flux"/>
+      <!-- L'ADN investisseur : la brique propriétaire de SAFIA. Il doit se lire
+           comme la pièce maîtresse du schéma, pas comme un encadré parmi
+           d'autres : contour au dégradé de marque, fond teinté, halo, et une
+           pastille à cadenas. Le cadenas dit « protégé » sans avancer de
+           statut juridique (brevet, dépôt) que le texte n'a pas à affirmer. -->
+      <g class="s-adn">
+        <rect x="338" y="492" width="328" height="196" rx="20" class="s-adn-halo"/>
+        <rect x="346" y="500" width="312" height="180" rx="16" class="s-adn-cadre"/>
+        <text x="502" y="540" class="s-adn-tit">ADN investisseur</text>
+        <text x="368" y="566" class="s-pil">Finance traditionnelle</text>
+        <text x="368" y="583" class="s-pil-sub">Stratégie financière et patrimoniale</text>
+        <text x="368" y="606" class="s-pil">Finance à impact</text>
+        <text x="368" y="623" class="s-pil-sub">Secteurs, convictions, critères ESG</text>
+        <text x="368" y="646" class="s-pil">Finance comportementale</text>
+        <text x="368" y="663" class="s-pil-sub">Tes réactions face au risque et aux pertes</text>
+        <rect x="397" y="487" width="210" height="26" rx="13" fill="url(#gCentre)"/>
+        <g transform="translate(413 493)">
+          <path d="M3 6V4.5a4 4 0 0 1 8 0V6" fill="none" stroke="#fff" stroke-width="1.7" stroke-linecap="round"/>
+          <rect x="1" y="6" width="12" height="9" rx="2" fill="#fff"/>
+        </g>
+        <text x="515" y="505" class="s-adn-badge">Brique propriétaire SAFIA</text>
+      </g>
+      <path d="M502 152 L502 248" class="s-lien"/>
+      <path d="M502 472 L502 487" class="s-lien"/>
+
+      <!-- Flux sortant : il remonte vers le milieu de la sélection, qui occupe
+           maintenant le haut de la colonne pour laisser la place au bloc de
+           la valeur ajoutée en dessous. -->
+      <path d="M602 368 C 650 368, 668 210, 708 210" class="s-flux"/>
 
       <!-- Colonne 3 : la sélection -->
-      <text x="700" y="36" class="s-tit">Ta sélection</text>
+      <text x="712" y="36" class="s-tit">Ta sélection</text>
       <g class="s-res">
-        <rect x="700" y="56" width="250" height="52" rx="12"/><text x="718" y="80">Aligné avec ton ADN</text><text x="718" y="98" class="s-sub-g">Compatible avec ton profil 3 sur 5</text>
-        <rect x="700" y="120" width="250" height="52" rx="12"/><text x="718" y="144">Aligné avec ton ADN</text><text x="718" y="162" class="s-sub-g">Frais inférieurs à la moyenne</text>
-        <rect x="700" y="184" width="250" height="52" rx="12"/><text x="718" y="208">Neutre</text><text x="718" y="226" class="s-sub-g">Critères non renseignés</text>
+        <rect x="712" y="56" width="256" height="52" rx="12"/><text x="730" y="80">Aligné avec ton ADN</text><text x="730" y="98" class="s-sub-g">Compatible avec ton profil 3 sur 5</text>
+        <rect x="712" y="120" width="256" height="52" rx="12"/><text x="730" y="144">Aligné avec ton ADN</text><text x="730" y="162" class="s-sub-g">Frais inférieurs à la moyenne</text>
+        <rect x="712" y="184" width="256" height="52" rx="12"/><text x="730" y="208">Neutre</text><text x="730" y="226" class="s-sub-g">Critères non renseignés</text>
       </g>
       <g class="s-ecarte">
-        <rect x="700" y="252" width="250" height="52" rx="12"/><text x="718" y="276">Écarté</text><text x="718" y="294" class="s-sub-g">Risque supérieur à ton profil</text>
-        <rect x="700" y="316" width="250" height="52" rx="12"/><text x="718" y="340">Écarté</text><text x="718" y="358" class="s-sub-g">Frais jugés superflus</text>
+        <rect x="712" y="248" width="256" height="52" rx="12"/><text x="730" y="272">Écarté</text><text x="730" y="290" class="s-sub-g">Risque supérieur à ton profil</text>
+        <rect x="712" y="312" width="256" height="52" rx="12"/><text x="730" y="336">Écarté</text><text x="730" y="354" class="s-sub-g">Plafond fiscal déjà atteint</text>
+      </g>
+      <path d="M840 368 L840 388" class="s-lien"/>
+
+      <!-- Colonne 3 bis : ce que la sélection rapporte. Décidé par Maxime le
+           22/09/2026 : la marketplace est à venir, ce bloc montre ce qu'elle
+           vise pour le client, pas ce qu'elle garantit. -->
+      <text x="712" y="408" class="s-tit">Ce que tu y gagnes</text>
+      <g class="s-gain">
+        <rect x="712" y="424" width="256" height="72" rx="12"/>
+        <text x="730" y="448" class="s-gain-tit">Fiscalité optimisée</text>
+        <text x="730" y="467" class="s-gain-sub">Le bon dispositif, au bon moment,</text>
+        <text x="730" y="483" class="s-gain-sub">sans dépasser tes plafonds</text>
+        <rect x="712" y="506" width="256" height="72" rx="12"/>
+        <text x="730" y="530" class="s-gain-tit">Investissement performant</text>
+        <text x="730" y="549" class="s-gain-sub">Moins de frais, une allocation</text>
+        <text x="730" y="565" class="s-gain-sub">qui travaille pour toi</text>
+        <rect x="712" y="588" width="256" height="72" rx="12"/>
+        <text x="730" y="612" class="s-gain-tit">Investissement impactant</text>
+        <text x="730" y="631" class="s-gain-sub">Ton argent finance ce</text>
+        <text x="730" y="647" class="s-gain-sub">en quoi tu crois</text>
       </g>
     </svg>
   </div>

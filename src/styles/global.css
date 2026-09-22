@@ -921,17 +921,28 @@ ul.reseaux{list-style:none;display:flex;flex-direction:row;gap:10px;margin-top:1
 .schema .s-note{font-size:13px;fill:rgba(255,255,255,.6)}
 .schema .s-chip rect{fill:rgba(255,255,255,.08);stroke:rgba(255,255,255,.18)}
 .schema .s-chip text{font-size:14px;fill:rgba(255,255,255,.9)}
+.schema .s-disp rect{fill:rgba(228,139,239,.08);stroke:rgba(228,139,239,.32)}
+.schema .s-disp text{font-size:14px;fill:rgba(255,255,255,.9)}
 .schema .s-flux{stroke:url(#gFlux);stroke-width:26;fill:none;stroke-linecap:round}
 .schema .s-halo{fill:none;stroke:rgba(228,139,239,.35);stroke-width:1.5}
 .schema .s-centre-lab{font-size:18px;font-weight:700;fill:#fff;text-anchor:middle}
 .schema .s-entree rect{fill:rgba(255,255,255,.1);stroke:rgba(255,255,255,.24)}
 .schema .s-entree text{font-size:14.5px;font-weight:600;fill:#fff;text-anchor:middle}
 .schema .s-entree .s-sub{font-size:12.5px;font-weight:400;fill:rgba(255,255,255,.7)}
+.schema .s-adn-halo{fill:none;stroke:rgba(164,92,245,.28);stroke-width:1.5}
+.schema .s-adn-cadre{fill:url(#gAdnFond);stroke:url(#gAdnBord);stroke-width:2.5}
+.schema .s-adn-tit{font-size:17px;font-weight:700;fill:#fff;text-anchor:middle}
+.schema .s-adn-badge{font-size:12px;font-weight:700;fill:#fff;text-anchor:middle;letter-spacing:.02em}
+.schema .s-adn .s-pil{font-size:13px;font-weight:600;fill:#fff}
+.schema .s-adn .s-pil-sub{font-size:12px;font-weight:400;fill:rgba(255,255,255,.78)}
 .schema .s-lien{stroke:rgba(255,255,255,.35);stroke-width:2;stroke-dasharray:4 4}
 .schema .s-res rect{fill:rgba(60,214,143,.14);stroke:rgba(60,214,143,.45)}
 .schema .s-res text{font-size:14px;font-weight:600;fill:#7BEBB6}
 .schema .s-ecarte rect{fill:rgba(255,255,255,.05);stroke:rgba(255,255,255,.16)}
 .schema .s-ecarte text{font-size:14px;font-weight:600;fill:rgba(255,255,255,.55)}
+.schema .s-gain rect{fill:rgba(228,139,239,.12);stroke:rgba(228,139,239,.5)}
+.schema .s-gain-tit{font-size:14.5px;font-weight:700;fill:#F6C9FA}
+.schema .s-gain-sub{font-size:12.5px;font-weight:400;fill:rgba(255,255,255,.78)}
 .schema .s-sub-g{font-size:12.5px;font-weight:400;fill:rgba(255,255,255,.65)}
 .schema-note{margin-top:20px;font-size:14.5px;color:rgba(255,255,255,.75);max-width:78ch;line-height:1.6}
 .deux-users{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:40px}
