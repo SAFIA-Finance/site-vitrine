@@ -127,4 +127,14 @@ export const CATEGORIES_TEXTE = {
       "Les articles de ce thème donnent d'abord le panorama, puis entrent territoire par territoire, en distinguant à chaque fois ce qui relève de l'impôt sur le revenu, de la transmission et des dispositifs d'investissement. La question de la résidence fiscale y revient souvent, comme pour l'expatriation, et pour les mêmes raisons.",
     ],
   },
+
+  'Dispositifs fiscaux': {
+    chapo:
+      "Ce que ta situation fiscale rend utile, et ce qu'elle rend inutile. Taux, plafonds, contreparties.",
+    texte: [
+      "Un dispositif fiscal ne répond pas à la question « où placer mon argent » mais à une autre, plus étroite : « qu'est-ce que ma situation fiscale rend utile ». La réponse dépend de la tranche d'imposition, de l'impôt réellement payé et du plafond de niches déjà consommé. Le même dispositif peut donc être excellent pour l'un et sans aucun intérêt pour l'autre, à patrimoine identique.",
+      "Tous fonctionnent sur le même échange : l'État prend en charge une partie de la dépense, en contrepartie d'un engagement de durée. Cet engagement est la vraie contrepartie, et c'est lui qu'il faut évaluer, parce qu'il survit longtemps à l'avantage fiscal et qu'il se retourne en reprise lorsqu'il n'est pas tenu.",
+      "Ces dispositifs sont enfin les plus instables du droit fiscal : ils sont rediscutés à chaque loi de finances, et certains disparaissent d'une année sur l'autre. Chaque article porte donc sa date de vérification et renvoie au texte qui le fonde, pour que tu puisses contrôler ce qui vaut encore à la date où tu le lis.",
+    ],
+  },
 };

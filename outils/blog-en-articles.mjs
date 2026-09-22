@@ -62,6 +62,7 @@ const CATEGORIES = {
   I: 'Expatriation',
   J: "Produits d'investissement",
   K: 'Outre-mer',
+  L: 'Dispositifs fiscaux',
 };
 
 /** Les pages du site citées en fin d'article, sous leur nom courant. */
@@ -247,7 +248,7 @@ for (const chemin of fichiers) {
 
   // Chaque article commence à « ## A1 — Titre ». Ce qui précède le premier est
   // le préambule du territoire (chiffres de référence, bloc auteur commun).
-  const re = /^## +([A-K]\d+) +[—-] +(.+)$/gm;
+  const re = /^## +([A-L]\d+) +[—-] +(.+)$/gm;
   const marques = [];
   let m;
   while ((m = re.exec(brut))) marques.push({ code: m[1], titre: m[2].trim(), debut: m.index, finTitre: re.lastIndex });

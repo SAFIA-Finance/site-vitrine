@@ -20,13 +20,14 @@ export const CATEGORIES = [
   'Expatriation',
   "Produits d'investissement",
   'Outre-mer',
+  'Dispositifs fiscaux',
 ] as const;
 
 const blog = defineCollection({
   loader: glob({ pattern: '**/*.md', base: './src/content/blog' }),
   schema: z.object({
     /** Référence du plan éditorial : A1, B3, G12, I26, J22, K9… */
-    code: z.string().regex(/^[A-K]\d+$/),
+    code: z.string().regex(/^[A-L]\d+$/),
     /** Le H1 de l'article et le titre de sa carte. */
     titre: z.string().min(10),
     /** Le titre affiché par Google. Au-delà de 60 signes, il est tronqué. */
