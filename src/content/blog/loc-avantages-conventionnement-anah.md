@@ -36,6 +36,7 @@ outils:
     url: "/outils/impot-revenu/"
     resume: "Ton impôt, ta tranche marginale et ton taux moyen, barème 2026."
 articlesLies:
+  - "denormandie-renovation-ancien"
   - "immobilier-locatif-direct"
 seoDerive: true
 sources: "Code général des impôts, **article 199 tricies** · Loi n° 2021-1900 du 30 décembre 2021 de finances pour 2022, article 67, création du dispositif · Loi n° 2025-127 du 14 février 2025 de finances pour 2025, article 88, prorogation jusqu'au 31 décembre 2027 · [BOFiP, modalités d'application de Loc'Avantages, dont le tableau des taux](https://bofip.impots.gouv.fr/bofip/13978-PGP.html/identifiant=BOI-IR-RICI-400-30-20250306) · [BOFiP, création et prorogation du dispositif](https://bofip.impots.gouv.fr/bofip/14377-PGP.html/ACTU-2024-00178)"

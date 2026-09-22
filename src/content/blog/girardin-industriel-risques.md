@@ -6,13 +6,14 @@ description: "Girardin industriel : 38,25 % en direct, 45,30 % via une structure
 categorie: "Dispositifs fiscaux"
 date: 2026-09-14
 lecture: 4
-mots: 835
+mots: 867
 essentiel:
   - "Le Girardin industriel finance du **matériel productif neuf** exploité outre-mer. L'investisseur apporte des fonds, obtient une réduction d'impôt l'année suivante, et ne perçoit rien d'autre."
   - "Le taux de base est de **38,25 %** pour un investissement réalisé en direct, et de **45,30 %** lorsqu'il passe par une structure de portage."
   - "Une part de l'avantage doit être **rétrocédée à l'exploitant ultramarin** : au moins **56 %** pour un programme inférieur à 300 000 €, **66 %** au-delà."
   - "Cette part rétrocédée **n'entre pas dans le plafond de niches**, ce qui autorise une réduction bien supérieure aux 18 000 € affichés. Le mécanisme est détaillé dans notre article sur les dispositifs outre-mer."
   - "Un **agrément de la DGFiP** est obligatoire au-delà de 250 000 € de programme. Les seuils d'agrément et de rétrocession ne coïncident pas, ce qui est une source d'erreur fréquente."
+  - "Le dispositif est ouvert **jusqu'au 31 décembre 2029** pour les entreprises soumises à l'impôt sur le revenu."
   - "Le risque déterminant n'est pas économique mais juridique : c'est la **reprise** de la réduction si une condition n'est pas tenue pendant la période d'engagement."
   - "Ce risque pèse sur l'investisseur, des années après, et le recours contre un opérateur défaillant est le plus souvent illusoire."
 faq:
@@ -37,11 +38,12 @@ outils:
     resume: "Ton impôt, ta tranche marginale et ton taux moyen, barème 2026."
 articlesLies:
   - "defiscalisation-outre-mer-dispositifs"
+  - "malraux-reduction-impot"
 seoDerive: true
-sources: "Code général des impôts, **article 199 undecies B**, dont l'alinéa relatif aux taux de rétrocession, et **article 200-0 A** sur le plafonnement global · [impots.gouv.fr, réduction ou déduction au titre des investissements productifs neufs, taux de 38,25 % et 45,30 %](https://www.impots.gouv.fr/professionnel/reduction-ou-deduction-au-titre-des-investissements-productifs-neufs) · [BOFiP, réduction d'impôt au titre des investissements réalisés outre-mer par les personnes physiques](https://bofip.impots.gouv.fr/bofip/6716-PGP.html/identifiant=BOI-IR-RICI-80-20230622) · [BOFiP, plafonnement des réductions d'impôt outre-mer](https://bofip.impots.gouv.fr/bofip/6725-PGP) · [BOFiP, prorogation jusqu'au 31 décembre 2029 des dispositifs des articles 199 undecies C, 244 quater X et 244 quater Y](https://bofip.impots.gouv.fr/bofip/13912-PGP.html/ACTU-2023-00074)"
+sources: "Code général des impôts, **article 199 undecies B**, dont l'alinéa relatif aux taux de rétrocession, et **article 200-0 A** sur le plafonnement global · [impots.gouv.fr, réduction ou déduction au titre des investissements productifs neufs, taux de 38,25 % et 45,30 %](https://www.impots.gouv.fr/professionnel/reduction-ou-deduction-au-titre-des-investissements-productifs-neufs) · [BOFiP, réduction d'impôt au titre des investissements réalisés outre-mer par les personnes physiques](https://bofip.impots.gouv.fr/bofip/6716-PGP.html/identifiant=BOI-IR-RICI-80-20230622) · [BOFiP, plafonnement des réductions d'impôt outre-mer](https://bofip.impots.gouv.fr/bofip/6725-PGP) · [impots.gouv.fr, avantages fiscaux liés à une activité dans les DOM, ouverture jusqu'au 31 décembre 2029](https://www.impots.gouv.fr/professionnel/questions/puis-je-beneficier-davantages-fiscaux-specifiques-en-exercant-une-activite) · [BOFiP, prorogation des dispositifs des articles 199 undecies C, 244 quater X et 244 quater Y](https://bofip.impots.gouv.fr/bofip/13912-PGP.html/ACTU-2023-00074)"
 ---
 
-**Vérifié le 22 septembre 2026**
+**Vérifié le 23 septembre 2026**
 
 ## Le tableau de synthèse
 
@@ -53,6 +55,7 @@ sources: "Code général des impôts, **article 199 undecies B**, dont l'alinéa
 | Rétrocession minimale | **56 %** sous 300 000 €, **66 %** au-delà |
 | Agrément de la DGFiP | Obligatoire au-delà de **250 000 €** de programme |
 | Plafond de niches applicable | **18 000 €**, au lieu de 10 000 € |
+| Ouvert jusqu'au | **31 décembre 2029**, pour les entreprises soumises à l'impôt sur le revenu |
 | Risque principal | La **reprise** de l'avantage plusieurs années après |
 
 ## Ce que l'on achète réellement
@@ -99,8 +102,8 @@ Le décalage temporel est le cœur du problème. L'avantage est obtenu en année
 
 **Le plafonnement**, calculé sur l'ensemble des avantages fiscaux du foyer et non sur la seule opération.
 
-## Une réserve de méthode
+## Jusqu'à quand, et pour combien de temps encore
 
-La date de fermeture du dispositif mérite une vérification à la date de l'opération. La prorogation **jusqu'au 31 décembre 2029** est établie pour les dispositifs des articles 199 undecies C, 244 quater X et 244 quater Y, par l'article 13 de la loi de finances pour 2023. Pour l'article 199 undecies B lui-même, je n'ai pas trouvé de confirmation directe à une source officielle, et je ne l'affirme donc pas ici.
+Le dispositif est ouvert **jusqu'au 31 décembre 2029** pour les entreprises soumises à l'impôt sur le revenu. L'administration l'écrit sans ambiguïté : la réduction s'applique « jusqu'au 31 décembre 2029 [...] selon les dispositions de l'article 199 undecies B ». Une condition s'y ajoute dans les DROM : les entreprises ayant réalisé un chiffre d'affaires d'au moins dix millions d'euros au titre du dernier exercice clos en sont exclues.
 
-C'est d'ailleurs la caractéristique première de ces dispositifs : ils sont rediscutés à chaque loi de finances. L'article 7 du projet de loi de finances pour 2026 prévoyait ainsi de ramener le taux de base de 38,25 % à 27,25 % ; il a été retiré au cours des débats.
+Cette date ne doit pas être lue comme une garantie de stabilité. Ces dispositifs sont rediscutés à chaque loi de finances : l'article 7 du projet de loi de finances pour 2026 prévoyait ainsi de ramener le taux de base de 38,25 % à 27,25 %, avant d'être retiré au cours des débats. Une prorogation votée ne protège pas d'une modification de taux.

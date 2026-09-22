@@ -197,7 +197,7 @@ function liens(bloc) {
   const inconnus = [];
   for (const m of bloc.matchAll(/\*\*([^*]+)\*\*/g)) {
     const nom = m[1].trim();
-    if (/^[A-K]\d+$/.test(nom)) articles.push(nom);
+    if (/^[A-L]\d+$/.test(nom)) articles.push(nom);
     else if (PAGES[nom]) pages.push({ nom, url: PAGES[nom] });
     else inconnus.push(nom);
   }

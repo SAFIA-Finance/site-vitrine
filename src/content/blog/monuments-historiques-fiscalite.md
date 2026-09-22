@@ -36,6 +36,7 @@ outils:
     url: "/outils/impot-revenu/"
     resume: "Ton impôt, ta tranche marginale et ton taux moyen, barème 2026."
 articlesLies:
+  - "malraux-reduction-impot"
   - "immobilier-locatif-direct"
 seoDerive: true
 sources: "Code général des impôts, **article 156** et **article 200-0 A** · [BOFiP, régime des monuments historiques et assimilés](https://bofip.impots.gouv.fr/bofip/1817-PGP.html/identifiant=BOI-RFPI-SPEC-30-20160621) · [BOFiP, conditions d'application, dont l'engagement de conservation de quinze ans](https://bofip.impots.gouv.fr/bofip/1935-PGP.html/identifiant=BOI-RFPI-SPEC-30-30-20181219) · [BOFiP, immeuble ne procurant aucune recette imposable, 50 % ou 100 % selon l'ouverture au public](https://bofip.impots.gouv.fr/bofip/3429-PGP.html/identifiant=BOI-RFPI-SPEC-30-20-20-20181219) · [BOFiP, charges déductibles du revenu brut global](https://bofip.impots.gouv.fr/bofip/5430-PGP.html/identifiant=BOI-IR-BASE-20-40-20140417)"

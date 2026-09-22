@@ -37,6 +37,7 @@ outils:
     resume: "Ton impôt, ta tranche marginale et ton taux moyen, barème 2026."
 articlesLies:
   - "private-equity-particuliers"
+  - "sofica-cinema-reduction-impot"
 seoDerive: true
 sources: "Code général des impôts, **article 199 terdecies-0 A** et **article 200-0 A** · [BOFiP, mise à jour des commentaires sur la réduction d'impôt au titre des souscriptions au capital de PME, de FCPI, de FIP et d'ESUS](https://bofip.impots.gouv.fr/bofip/15199-PGP.html/ACTU-2026-00156) · [BOFiP, souscriptions de parts de FCPI investis en titres de jeunes entreprises innovantes](https://bofip.impots.gouv.fr/bofip/15161-PGP.html/identifiant=BOI-IR-RICI-110-10-20-20260827) · [BOFiP, FCPI, FIP, FIP Corse et FIP outre-mer, calcul et remise en cause](https://bofip.impots.gouv.fr/bofip/13189-PGP.html/identifiant=BOI-IR-RICI-100-20-20260827) · [BOFiP, réduction au titre des souscriptions au capital de PME, modalités de calcul](https://bofip.impots.gouv.fr/bofip/7446-PGP.html/identifiant=BOI-IR-RICI-90-20-20-20260827)"
 ---

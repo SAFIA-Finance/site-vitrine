@@ -37,6 +37,7 @@ outils:
     resume: "Impôt sur la fortune immobilière : seuil, barème par tranches et décote."
 articlesLies:
   - "actifs-de-passion"
+  - "malraux-reduction-impot"
 seoDerive: true
 sources: "Code général des impôts, **article 793**, **article 793 bis** et **article 976** · Loi n° 2018-1317 du 28 décembre 2018 de finances pour 2019, article 46, seuil porté à 300 000 € · Loi n° 2025-127 du 14 février 2025 de finances pour 2025, article 70, seuil porté à 600 000 € · [BOFiP, IFI, bois et forêts, parts de groupements forestiers et de groupements fonciers agricoles](https://bofip.impots.gouv.fr/bofip/11383-PGP.html/identifiant=BOI-PAT-IFI-30-20-20180608) · [BOFiP, successions, exonération des bois et forêts et des parts de groupements forestiers](https://bofip.impots.gouv.fr/bofip/2237-PGP.html/identifiant=BOI-ENR-DMTG-10-20-30-10-20190502) · [BOFiP, successions, parts de groupements fonciers agricoles](https://bofip.impots.gouv.fr/bofip/3397-PGP.html/identifiant=BOI-ENR-DMTG-10-20-30-30-20190301) · [BOFiP, hausse du seuil de 300 000 € à 600 000 €](https://bofip.impots.gouv.fr/bofip/14662-PGP.html/ACTU-2025-00072)"
 ---

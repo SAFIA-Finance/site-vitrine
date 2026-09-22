@@ -36,6 +36,7 @@ outils:
     url: "/outils/impot-revenu/"
     resume: "Ton impôt, ta tranche marginale et ton taux moyen, barème 2026."
 articlesLies:
+  - "loc-avantages-conventionnement-anah"
   - "immobilier-locatif-direct"
 seoDerive: true
 sources: "Code général des impôts, **article 199 novovicies** · [Service-public, investissement locatif « Denormandie »](https://www.service-public.gouv.fr/particuliers/vosdroits/F35011) · [Service-public, panorama des dispositifs d'investissement locatif et leurs dates](https://www.service-public.gouv.fr/particuliers/vosdroits/F35782) · [BOFiP, dispositif « Denormandie ancien », champ d'application](https://bofip.impots.gouv.fr/bofip/11938-PGP.html/identifiant=BOI-IR-RICI-365-10-20240328)"

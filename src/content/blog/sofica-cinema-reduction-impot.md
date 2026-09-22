@@ -35,6 +35,9 @@ outils:
   - nom: "Impôt sur le revenu"
     url: "/outils/impot-revenu/"
     resume: "Ton impôt, ta tranche marginale et ton taux moyen, barème 2026."
+articlesLies:
+  - "girardin-industriel-risques"
+  - "ir-pme-capital-investissement"
 seoDerive: true
 sources: "Code général des impôts, **article 199 unvicies** et **article 200-0 A** · [BOFiP, modalités d'application de la réduction d'impôt SOFICA](https://bofip.impots.gouv.fr/bofip/1371-PGP.html/identifiant=BOI-IR-RICI-180-20-20240229) · [BOFiP, économie du dispositif de financement des œuvres cinématographiques ou audiovisuelles](https://bofip.impots.gouv.fr/bofip/13195-PGP.html/identifiant=BOI-IR-RICI-180-10-20210706) · [BOFiP, majoration du taux à 48 %](https://bofip.impots.gouv.fr/bofip/10808-PGP.html/identifiant=ACTU-2017-00100)"
 ---

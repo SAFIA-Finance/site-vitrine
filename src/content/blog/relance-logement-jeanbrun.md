@@ -35,6 +35,9 @@ outils:
   - nom: "Impôt sur le revenu"
     url: "/outils/impot-revenu/"
     resume: "Ton impôt, ta tranche marginale et ton taux moyen, barème 2026."
+articlesLies:
+  - "denormandie-renovation-ancien"
+  - "loc-avantages-conventionnement-anah"
 seoDerive: true
 sources: "[Service-public, investissement locatif « Relance logement » (Jeanbrun)](https://www.service-public.gouv.fr/particuliers/vosdroits/F39735) · [Service-public, panorama des dispositifs d'investissement locatif et leurs dates](https://www.service-public.gouv.fr/particuliers/vosdroits/F35782) · [economie.gouv.fr, ce qu'il faut savoir sur le dispositif « Relance logement »](https://www.economie.gouv.fr/particuliers/gerer-mon-argent/investir-dans-limmobilier/investissement-locatif-ce-quil-faut-savoir-sur-le-nouveau-dispositif-relance-logement)"
 ---
