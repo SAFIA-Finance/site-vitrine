@@ -68,7 +68,7 @@ const SECTIONS_PAGES = [
       'comparatif',
     ],
   },
-  { titre: 'Pour les professionnels', slugs: ['conseillers', 'institutions'] },
+  { titre: 'Pour les professionnels', slugs: ['conseillers', 'institutions', 'marketplace'] },
   {
     titre: "L'IA en gestion de patrimoine",
     slugs: [

@@ -23,8 +23,8 @@
     "route": "/adn-investisseur/",
     "libelle": "ADN Investisseur",
     "ref": "ADN",
-    "titre": "Investir selon ses valeurs : ton ADN Investisseur · SAFIA",
-    "description": "Critères ESG, ISR, exclusions : découvre en quelques questions ce qui compte pour toi, et vois si ton portefeuille y correspond."
+    "titre": "ADN Investisseur : trois dimensions de ton profil · SAFIA",
+    "description": "Stratégie patrimoniale, convictions et critères ESG, comportement face au risque : les trois piliers de l'ADN investisseur SAFIA."
   },
   {
     "slug": "assistant-ia",
@@ -61,6 +61,15 @@
     "ref": "INS",
     "titre": "IA patrimoniale en marque blanche pour banques · SAFIA",
     "description": "Proposez un accompagnement patrimonial IA à toute votre clientèle, sous votre marque. Hébergement UE, traçabilité, validation humaine. Projets limités."
+  },
+  {
+    "slug": "marketplace",
+    "fichier": "marketplace.astro",
+    "route": "/marketplace/",
+    "libelle": "Marketplace",
+    "ref": "MKT",
+    "titre": "Marketplace : distribuer un produit · SAFIA",
+    "description": "Faites distribuer vos produits aux investisseurs qu'ils concernent : profil réglementaire, profil fiscal et ADN. Sans rétrocession ni mise en avant."
   },
   {
     "slug": "tarifs",

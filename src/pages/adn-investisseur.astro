@@ -2,6 +2,18 @@
 import Base from '../layouts/Base.astro';
 const faq = [
   {
+    "q": "Que contient exactement l'ADN investisseur ?",
+    "r": "Trois piliers mesurés séparément : la finance traditionnelle, c'est-à-dire ta stratégie financière et patrimoniale ; la finance à impact, tes valeurs, tes convictions et tes critères ESG ; et la finance comportementale, tes biais et ta discipline face aux marchés. Ce troisième pilier est une fonctionnalité à venir."
+  },
+  {
+    "q": "L'ADN remplace-t-il mon profil de risque ?",
+    "r": "Non, et il ne peut pas. Le profil réglementaire est une obligation légale et il filtre en premier : rien ne t'est proposé au-delà de ton niveau de risque. L'ADN intervient ensuite, pour choisir parmi ce qui reste admissible."
+  },
+  {
+    "q": "Pourquoi mesurer le comportement ?",
+    "r": "Parce que la façon de réagir à une baisse pèse souvent davantage sur le résultat final que le choix du produit. Vendre au plus bas annule des années de bonne allocation. Cette dimension est mesurée pour en tenir compte dans ce qui t'est proposé, pas pour te juger."
+  },
+  {
     "q": "C'est quoi, les critères ESG ?",
     "r": "Trois familles de critères, environnementaux, sociaux et de gouvernance, qui permettent d'évaluer les pratiques d'une entreprise au-delà de ses chiffres financiers."
   },
@@ -39,8 +51,8 @@ const fil = ["Accueil","Particuliers","ADN Investisseur"];
   <div>
     <p class="etiq-page">Particuliers</p>
     <p class="fil-ariane" aria-label="Fil d'Ariane"><a href="/">Accueil</a> <span aria-hidden="true">/</span> <a href="/particuliers/">Particuliers</a> <span aria-hidden="true">/</span> ADN Investisseur</p>
-    <h1>Ton ADN Investisseur : investir selon ce qui compte pour toi.</h1>
-    <p class="chapo">En quelques swipes, SAFIA apprend tes convictions et tes priorités. Combinées à ton profil de risque, tes objectifs, ton parcours, elle te montre ensuite si tes placements y correspondent vraiment.</p>
+    <h1>Ton ADN Investisseur : trois dimensions, une seule signature.</h1>
+    <p class="chapo">Ta stratégie patrimoniale, tes convictions et ta façon de réagir aux marchés. SAFIA réunit ces trois dimensions dans un profil qui lui est propre, puis s'en sert pour filtrer ce que le marché propose et te montrer où tu en es.</p>
     <div class="actions">
       <a class="btn btn-primaire" href="/telecharger/" data-app>Révéler mon ADN</a>
       <a class="btn btn-fantome" href="#esg">Comprendre l'ESG et l'ISR</a>
@@ -109,8 +121,60 @@ const fil = ["Accueil","Particuliers","ADN Investisseur"];
 <!-- ===== Pourquoi ===== -->
 <section class="bloc">
 <div class="wrap constat">
-  <h2 class="titre">Ton épargne finance quelque chose. Encore faut-il savoir quoi.</h2>
-  <p>Ton argent placé finance des entreprises, des États et des projets. La plupart des épargnants ne savent pas lesquels, parce que personne ne le leur montre. Ton ADN rend ce lien visible, puis te permet d'en tenir compte dans tes choix. Analyser ligne par ligne ce que contient un portefeuille prenait des heures : c'est l'une des choses que change la <a class="lien" href="/gestion-de-patrimoine-ia/">gestion de patrimoine assistée par IA</a>.</p>
+  <h2 class="titre">Deux investisseurs identiques sur le papier ne font pas les mêmes choix.</h2>
+  <p>Même âge, même patrimoine, même profil de risque : l'un tient à ne financer aucune énergie fossile, l'autre veut d'abord réduire son impôt, et le troisième vend tout au premier trou d'air. Un questionnaire réglementaire ne voit aucune de ces trois différences, alors qu'elles décident du résultat. L'ADN investisseur existe pour les mesurer et en tenir compte. Analyser ligne par ligne ce que contient un portefeuille prenait des heures : c'est l'une des choses que change la <a class="lien" href="/gestion-de-patrimoine-ia/">gestion de patrimoine assistée par IA</a>.</p>
+</div>
+</section>
+
+
+<!-- ===== Les trois piliers =====
+     Le coeur de la refonte du 22 septembre 2026. L'ADN ne se réduit plus aux
+     convictions ESG : il porte trois dimensions, et le schéma de /cockpit/ les
+     affiche dans le même ordre. La finance comportementale est une
+     fonctionnalité à venir : elle est étiquetée comme telle, ici et ailleurs. -->
+<section class="bloc piliers-bloc" id="piliers">
+<div class="wrap">
+  <p class="etiq-section">Brique propriétaire SAFIA</p>
+  <h2 class="titre">Trois piliers, mesurés séparément</h2>
+  <p class="intro">Chacun répond à une question différente. Pris ensemble, ils expliquent pourquoi deux personnes au même profil de risque ne devraient pas recevoir les mêmes propositions.</p>
+  <div class="piliers">
+    <article>
+      <h3>Finance traditionnelle</h3>
+      <p class="pil-quoi">Stratégie financière et patrimoniale</p>
+      <p>Ce que tu veux construire, dans quel ordre et à quelle échéance. C'est la dimension que le conseil patrimonial traite depuis toujours, et la seule que la plupart des outils regardent.</p>
+      <ul class="pil-liste">
+        <li>Objectifs et horizon de chaque projet</li>
+        <li>Structure du patrimoine déjà constitué</li>
+        <li>Capacité d'épargne et besoins de liquidité</li>
+      </ul>
+    </article>
+    <article>
+      <h3>Finance à impact</h3>
+      <p class="pil-quoi">Valeurs, convictions, critères ESG</p>
+      <p>Ce que tu acceptes de financer, et ce que tu refuses. Ton argent placé finance des entreprises, des États et des projets : cette dimension rend le lien visible et te permet d'en tenir compte.</p>
+      <ul class="pil-liste">
+        <li>Secteurs recherchés et secteurs exclus</li>
+        <li>Critères environnementaux, sociaux et de gouvernance</li>
+        <li>Niveau d'exigence sur les labels et les étiquettes</li>
+      </ul>
+      <p class="pil-lien"><a class="lien" href="#esg">Le détail des critères ESG et ISR</a></p>
+    </article>
+    <article>
+      <h3>Finance comportementale</h3>
+      <p class="pil-quoi">Biais, émotions, discipline</p>
+      <p>Ta façon de réagir quand les marchés baissent. C'est la dimension la moins mesurée du conseil patrimonial, alors que c'est souvent elle qui détermine le résultat final d'un placement.</p>
+      <ul class="pil-liste">
+        <li>Réaction face à une baisse et tentation de vendre</li>
+        <li>Biais de familiarité, d'ancrage, d'excès de confiance</li>
+        <li>Régularité réelle des versements dans la durée</li>
+      </ul>
+      <p class="pil-venir">Fonctionnalité à venir</p>
+    </article>
+  </div>
+  <div class="garde-fou">
+    <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3l8 3.5v5C20 16.4 16.6 20.5 12 22 7.4 20.5 4 16.4 4 11.5v-5L12 3z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+    <p><strong>L'ADN n'est pas ton profil de risque.</strong> Le profil réglementaire, fait d'objectifs, d'horizon et de tolérance au risque, reste une obligation légale et filtre en premier : rien ne t'est proposé au-delà. L'ADN vient ensuite, et ne sert jamais à contourner ce plafond. Le fonctionnement complet du filtre est décrit sur la page <a class="lien" href="/cockpit/">cockpit stratégique</a>.</p>
+  </div>
 </div>
 </section>
 
@@ -203,6 +267,20 @@ const fil = ["Accueil","Particuliers","ADN Investisseur"];
 </section>
 
 <!-- ===== FAQ ===== -->
+<!-- ===== La boucle ===== -->
+<section class="bloc boucle-bloc">
+<div class="wrap">
+  <h2 class="titre">Un profil qui suit ta vie, pas une photo</h2>
+  <p class="intro">Un questionnaire rempli une fois vieillit mal. L'ADN se recalcule, et ce qui en découle avec lui.</p>
+  <ol class="boucle">
+    <li><b>01</b><h3>La vie change</h3><p>Un enfant, un achat immobilier, une hausse de revenus, un départ à l'étranger.</p></li>
+    <li><b>02</b><h3>L'ADN évolue</h3><p>Tes réponses et ta situation le font bouger, sur les trois piliers à la fois.</p></li>
+    <li><b>03</b><h3>Les recommandations suivent</h3><p>La sélection est recalculée : ce qui convenait hier peut sortir, ce qui était écarté peut entrer.</p></li>
+    <li><b>04</b><h3>De nouveaux leviers s'ouvrent</h3><p>Un changement de tranche d'imposition, par exemple, rend pertinents des dispositifs qui ne l'étaient pas.</p></li>
+  </ol>
+</div>
+</section>
+
 <!-- ===== Sources ===== -->
 <section class="bloc sources-bloc" id="sources">
 <div class="wrap">
@@ -218,6 +296,9 @@ const fil = ["Accueil","Particuliers","ADN Investisseur"];
 <div class="wrap faq-grille">
   <h2 class="titre">Tes questions, nos réponses</h2>
   <div class="faq">
+    <details><summary>Que contient exactement l'ADN investisseur ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Trois piliers mesurés séparément : la finance traditionnelle, c'est-à-dire ta stratégie financière et patrimoniale ; la finance à impact, tes valeurs, tes convictions et tes critères ESG ; et la finance comportementale, tes biais et ta discipline face aux marchés. Ce troisième pilier est une fonctionnalité à venir.</p></details>
+    <details><summary>L'ADN remplace-t-il mon profil de risque ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Non, et il ne peut pas. Le profil réglementaire est une obligation légale et il filtre en premier : rien ne t'est proposé au-delà de ton niveau de risque. L'ADN intervient ensuite, pour choisir parmi ce qui reste admissible.</p></details>
+    <details><summary>Pourquoi mesurer le comportement ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Parce que la façon de réagir à une baisse pèse souvent davantage sur le résultat final que le choix du produit. Vendre au plus bas annule des années de bonne allocation. Cette dimension est mesurée pour en tenir compte dans ce qui t'est proposé, pas pour te juger.</p></details>
     <details><summary>C'est quoi, les critères ESG ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Trois familles de critères, environnementaux, sociaux et de gouvernance, qui permettent d'évaluer les pratiques d'une entreprise au-delà de ses chiffres financiers.</p></details>
     <details><summary>Quelle différence entre ESG et ISR ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>L'ESG désigne les critères. L'ISR est une démarche d'investissement qui les prend en compte pour choisir ses placements.</p></details>
     <details><summary>Investir selon ses valeurs, ça rapporte moins ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Il n'y a pas de règle générale : les résultats varient selon les périodes et les méthodes. SAFIA ne promet aucune performance. Elle t'aide à savoir ce que tu finances.</p></details>

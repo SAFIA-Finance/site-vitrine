@@ -1890,3 +1890,30 @@ section.origine-bloc + section.bloc{padding-top:0}
   .origine-cit{max-width:none;padding-left:18px}
   .origine-cit blockquote p{font-size:1.32rem}
 }
+
+/* ADN investisseur, les trois piliers -------------------------------------
+   Grille a TROIS colonnes pour TROIS articles : ajouter un quatrieme pilier
+   sans toucher la grille laisserait une carte seule sur sa ligne. La finance
+   comportementale porte une etiquette « a venir » poussee en bas de carte,
+   pour que les trois cartes se terminent a la meme hauteur. */
+.piliers{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:34px}
+.piliers article{display:flex;flex-direction:column;padding:26px;border-radius:var(--r-l);background:var(--blanc);box-shadow:inset 0 0 0 1px var(--ligne)}
+.piliers h3{font-size:19px;letter-spacing:-.01em}
+.pil-quoi{margin-top:4px;font-size:14px;font-weight:600;color:var(--indigo)}
+.piliers p{margin-top:12px;font-size:15.5px;line-height:1.6}
+.pil-liste{list-style:none;margin-top:16px;padding-top:14px;border-top:1px solid var(--ligne);display:flex;flex-direction:column;gap:8px}
+.pil-liste li{position:relative;padding-left:22px;font-size:15px;line-height:1.5;color:var(--encre-2)}
+.pil-liste li::before{content:"";position:absolute;left:0;top:8px;width:6px;height:6px;border-radius:50%;background:var(--indigo)}
+.pil-lien{margin-top:16px;font-size:15px}
+.pil-venir{margin-top:auto;padding-top:18px;font-size:12.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--encre-2)}
+@media (max-width:980px){.piliers{grid-template-columns:1fr}}
+
+/* La boucle : quatre temps qui se repondent. En ligne sur ordinateur, empiles
+   sous 900 px, sans fleche decorative qui perdrait son sens une fois empile. */
+.boucle{list-style:none;margin-top:30px;display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.boucle li{padding:20px 22px;border-radius:var(--r-m);background:var(--blanc);box-shadow:inset 0 0 0 1px var(--ligne)}
+.boucle b{display:block;font-size:12.5px;font-weight:700;letter-spacing:.06em;color:var(--indigo)}
+.boucle h3{margin-top:6px;font-size:16.5px}
+.boucle p{margin-top:8px;font-size:14.5px;line-height:1.55;color:var(--encre-2)}
+@media (max-width:900px){.boucle{grid-template-columns:1fr 1fr}}
+@media (max-width:560px){.boucle{grid-template-columns:1fr}}

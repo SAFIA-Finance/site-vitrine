@@ -1,0 +1,182 @@
+---
+import Base from '../layouts/Base.astro';
+// Page adressée aux PRODUCTEURS, pas aux épargnants. Elle existe parce qu'un
+// partenaire potentiel ne trouvait la marketplace qu'au milieu de /cockpit/,
+// une page écrite pour les particuliers, sous un schéma qui parle de « toi ».
+//
+// Deux règles tiennent toute la page. La marketplace est À VENIR : rien ici ne
+// doit laisser croire qu'elle est ouverte, d'où l'étiquette du hero et la
+// section calendrier. Et SAFIA ne perçoit aucune rétrocession : c'est écrit sur
+// /comparatif/ et dans la FAQ de /cockpit/, donc c'est écrit ici aussi, au même
+// endroit que l'offre faite aux partenaires. Une page de recrutement qui tait
+// son modèle économique se fait relire de travers.
+//
+// Les six partenaires nommés ont donné leur accord (confirmé par Maxime le
+// 22/09/2026). ELVEST n'est pas confirmé : ne pas l'ajouter sans son accord.
+const faq = [
+  {
+    "q": "La marketplace est-elle ouverte aux souscriptions ?",
+    "r": "Pas encore. Elle est en construction, et les offres des partenaires rejoindront le cockpit à son ouverture. Les échanges en cours servent à préparer l'intégration et à cadrer les données nécessaires."
+  },
+  {
+    "q": "SAFIA perçoit-elle des rétrocessions sur les produits distribués ?",
+    "r": "Non. Nous ne percevons aucune rétrocession ni aucune commission sur les produits qui apparaissent dans le cockpit. Notre revenu vient de l'abonnement des particuliers et des licences professionnelles. Aucune mise en avant ne s'achète."
+  },
+  {
+    "q": "Comment une offre est-elle sélectionnée ?",
+    "r": "Par trois filtres appliqués dans cet ordre : le profil réglementaire de l'utilisateur, qui fixe le niveau de risque admissible, son profil fiscal, qui détermine ce que sa situation rend utile, puis son ADN investisseur. Une offre écartée pour l'un peut être retenue pour un autre."
+  },
+  {
+    "q": "Quel volume de distribution peut-on attendre ?",
+    "r": "Nous ne promettons aucun volume. La logique de la marketplace est de qualifier, pas de diffuser : chaque utilisateur voit une sélection propre à sa situation, et non un catalogue commun. C'est une différence de nature avec une plateforme de distribution classique."
+  },
+  {
+    "q": "Quelles données faut-il fournir pour être intégré ?",
+    "r": "Les caractéristiques structurantes de l'offre : nature du produit, enveloppe d'accueil, niveau de risque, frais, horizon, conditions d'éligibilité et, le cas échéant, dispositif fiscal associé et plafonds applicables. Ce sont les critères sur lesquels le moteur travaille."
+  },
+  {
+    "q": "Comment nous soumettre un produit ?",
+    "r": "Par le formulaire de contact des pages professionnelles, en décrivant le produit et le segment d'investisseurs visé. Nous revenons vers vous sous 48 heures ouvrées pour un échange de cadrage."
+  }
+];
+const fil = ["Accueil","Professionnels","Marketplace"];
+const partenaires = ['Trail Finance', 'Silex', '6AM', 'PEQAN', 'PAMS', 'CMF'];
+---
+
+<Base
+  chemin={"/marketplace/"}
+  faq={faq}
+  fil={fil}
+>
+<section class="hero hero-page hero-part">
+<div class="wrap hero-page-in">
+  <div>
+    <p class="etiq-page">Professionnels</p>
+    <p class="fil-ariane" aria-label="Fil d'Ariane"><a href="/">Accueil</a> <span aria-hidden="true">/</span> Professionnels <span aria-hidden="true">/</span> Marketplace</p>
+    <h1>Distribuer un produit sur SAFIA.</h1>
+    <p class="chapo">SAFIA construit une marketplace où chaque utilisateur voit une sélection établie à partir de sa situation réglementaire, de sa situation fiscale et de son ADN investisseur. Pas un catalogue commun, une sélection par personne.</p>
+    <p class="etiq-section">Fonctionnalité à venir</p>
+    <div class="actions">
+      <a class="btn btn-primaire" href="/conseillers/#contact">Distribuer un produit</a>
+      <a class="btn btn-fantome" href="#selection">Comment la sélection fonctionne</a>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- ===== Le principe ===== -->
+<section class="bloc">
+<div class="wrap constat">
+  <h2 class="titre">Une plateforme de distribution diffuse. Celle-ci qualifie.</h2>
+  <p>La différence tient en une phrase, et elle change ce que vous pouvez en attendre. Une plateforme classique expose un catalogue au plus grand nombre, et la qualification du client se fait après, quand elle se fait. Ici, le filtre passe avant : une offre n'est présentée qu'aux utilisateurs dont le profil de risque, la situation fiscale et les convictions la rendent pertinente. Le volume est plus faible, la pertinence beaucoup plus élevée. Le fonctionnement complet est décrit sur la page <a class="lien" href="/cockpit/">cockpit stratégique</a>.</p>
+</div>
+</section>
+
+<!-- ===== Comment la sélection fonctionne ===== -->
+<section class="bloc volets-bloc" id="selection">
+<div class="wrap">
+  <h2 class="titre">Trois filtres, dans cet ordre</h2>
+  <p class="intro">L'ordre n'est pas indifférent. Le risque est vérifié avant tout le reste : rien n'est proposé au-delà du profil de l'utilisateur, quelle que soit la qualité de l'offre.</p>
+  <ol class="etapes">
+      <li>
+        <h3>Le profil réglementaire</h3>
+        <p>Objectifs, horizon, tolérance au risque. Il fixe le plafond de risque admissible et écarte tout ce qui le dépasse. C'est une obligation, pas une préférence.</p>
+      </li>
+      <li>
+        <h3>Le profil fiscal</h3>
+        <p>Tranche d'imposition, redevabilité à l'IFI, plafonds de niches déjà consommés. Il détermine ce que la situation de l'utilisateur rend réellement utile : un dispositif de réduction d'impôt n'a aucun intérêt pour qui paie peu d'impôt.</p>
+      </li>
+      <li>
+        <h3>L'ADN investisseur</h3>
+        <p>Notre brique propriétaire, décrite sur la page <a class="lien" href="/adn-investisseur/">ADN investisseur</a>. Elle réunit la stratégie financière et patrimoniale, les convictions et critères ESG, et la dimension comportementale.</p>
+      </li>
+  </ol>
+</div>
+</section>
+
+<!-- ===== Ce que ça change pour un producteur ===== -->
+<section class="bloc volets-bloc">
+<div class="wrap">
+  <h2 class="titre">Ce que ça change pour vous</h2>
+  <div class="volets">
+    <article>
+      <span class="volet-num" aria-hidden="true">01</span>
+      <h3>Des dossiers déjà qualifiés</h3>
+      <p>L'utilisateur qui voit votre offre a un profil de risque compatible, une situation fiscale qui la rend pertinente et des convictions qui ne la contredisent pas. Les trois vérifications sont faites avant l'affichage.</p>
+      <ul>
+        <li>Le motif de sélection est affiché à l'utilisateur, pas dissimulé.</li>
+        <li>Les offres écartées le sont pour un motif explicite, qui vous est utile aussi.</li>
+        <li>Aucune mise en avant ne s'achète : votre offre concourt sur ses caractéristiques.</li>
+      </ul>
+    </article>
+    <article>
+      <span class="volet-num" aria-hidden="true">02</span>
+      <h3>Un accès à une population peu servie</h3>
+      <p>SAFIA s'adresse à des particuliers que le conseil patrimonial traditionnel n'atteint pas, faute d'un encours suffisant. C'est un segment large, mal équipé, et généralement absent des circuits de distribution existants.</p>
+      <ul>
+        <li>Des investisseurs accompagnés, pas laissés seuls devant une fiche produit.</li>
+        <li>Une information structurée : frais, risque, horizon, conditions d'éligibilité.</li>
+        <li>Un cadre pédagogique, avec le blog et les simulateurs en appui.</li>
+      </ul>
+    </article>
+  </div>
+</div>
+</section>
+
+<!-- ===== Notre modèle, dit avant qu'on le demande ===== -->
+<section class="bloc">
+<div class="wrap constat">
+  <h2 class="titre">Ce que nous ne faisons pas</h2>
+  <p><strong>Nous ne percevons aucune rétrocession ni aucune commission</strong> sur les produits présentés dans le cockpit. Notre revenu vient de l'abonnement des particuliers et des licences professionnelles. Aucune position dans une sélection ne s'achète, et aucun partenariat commercial ne modifie l'ordre d'affichage. Cette règle est la condition de crédibilité de toute la démarche : une sélection qui se vend n'est plus une sélection. Elle figure aussi sur notre <a class="lien" href="/comparatif/">comparatif</a>, où nous expliquons comment SAFIA se rémunère.</p>
+</div>
+</section>
+
+<!-- ===== Partenaires ===== -->
+<section class="bloc">
+<div class="wrap">
+  <h2 class="titre">Ils nous accompagnent déjà</h2>
+  <p class="intro">Ces partenaires préparent avec nous l'ouverture de la marketplace. Leurs offres rejoindront le cockpit à son lancement.</p>
+  <div class="partenaires-marche">
+    <ul class="pm-liste">
+      {partenaires.map((p) => <li>{p}</li>)}
+    </ul>
+  </div>
+</div>
+</section>
+
+<!-- ===== Calendrier ===== -->
+<section class="bloc">
+<div class="wrap constat">
+  <h2 class="titre">Où nous en sommes</h2>
+  <p>La marketplace n'est pas ouverte. Le cockpit stratégique fonctionne aujourd'hui sur deux volets, les recommandations alignées et l'audit patrimonial ; la marketplace en constitue le troisième, et elle est en construction. Les échanges engagés avec les partenaires servent à cadrer les données nécessaires, les formats d'intégration et les obligations de chacun. Si vous voulez être présent à l'ouverture, c'est maintenant que cela se prépare.</p>
+</div>
+</section>
+
+<!-- ===== FAQ ===== -->
+<section class="bloc faq-bloc">
+<div class="wrap faq-grille">
+  <h2 class="titre">Vos questions</h2>
+  <div class="faq">
+    {faq.map((f) => (
+      <details><summary>{f.q}<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>{f.r}</p></details>
+    ))}
+  </div>
+</div>
+</section>
+
+<!-- ===== Contact =====
+     Pas de formulaire propre a cette page : les producteurs passent par le
+     meme contact que les autres pages professionnelles, pour que toutes les
+     demandes arrivent au meme endroit. -->
+<section class="final" id="contact">
+<div class="wrap final-simple">
+  <h2>Distribuer un produit</h2>
+  <p>Décrivez le produit et le segment d'investisseurs qu'il vise. Nous revenons vers vous sous 48 heures ouvrées pour un échange de cadrage.</p>
+  <div class="actions">
+    <a class="btn btn-primaire" href="/conseillers/#contact">Nous contacter</a>
+    <a class="btn btn-fantome" href="/cockpit/">Voir le fonctionnement</a>
+  </div>
+</div>
+</section>
+</Base>
+
