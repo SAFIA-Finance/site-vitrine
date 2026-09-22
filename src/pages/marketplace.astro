@@ -4,15 +4,12 @@ import Base from '../layouts/Base.astro';
 // partenaire potentiel ne trouvait la marketplace qu'au milieu de /cockpit/,
 // une page écrite pour les particuliers, sous un schéma qui parle de « toi ».
 //
-// Deux règles tiennent toute la page. La marketplace est À VENIR : rien ici ne
-// doit laisser croire qu'elle est ouverte, d'où l'étiquette du hero et la
-// section calendrier. Et SAFIA ne perçoit aucune rétrocession : c'est écrit sur
-// /comparatif/ et dans la FAQ de /cockpit/, donc c'est écrit ici aussi, au même
-// endroit que l'offre faite aux partenaires. Une page de recrutement qui tait
-// son modèle économique se fait relire de travers.
-//
-// Les six partenaires nommés ont donné leur accord (confirmé par Maxime le
-// 22/09/2026). ELVEST n'est pas confirmé : ne pas l'ajouter sans son accord.
+// Maxime a fait retirer le 23/09/2026 trois sections : le modèle économique,
+// la liste des partenaires et l'état d'avancement. Les deux garde-fous qui
+// comptent subsistent donc dans la FAQ, et il faut les y laisser : « la
+// marketplace est-elle ouverte » répond « pas encore », et « percevez-vous des
+// rétrocessions » répond « non ». L'étiquette « Fonctionnalité à venir » du
+// hero est le troisième. Ne pas les retirer sans rouvrir la question.
 const faq = [
   {
     "q": "La marketplace est-elle ouverte aux souscriptions ?",
@@ -40,7 +37,6 @@ const faq = [
   }
 ];
 const fil = ["Accueil","Professionnels","Marketplace"];
-const partenaires = ['Trail Finance', 'Silex', '6AM', 'PEQAN', 'PAMS', 'CMF'];
 ---
 
 <Base
@@ -120,35 +116,6 @@ const partenaires = ['Trail Finance', 'Silex', '6AM', 'PEQAN', 'PAMS', 'CMF'];
       </ul>
     </article>
   </div>
-</div>
-</section>
-
-<!-- ===== Notre modèle, dit avant qu'on le demande ===== -->
-<section class="bloc">
-<div class="wrap constat">
-  <h2 class="titre">Ce que nous ne faisons pas</h2>
-  <p><strong>Nous ne percevons aucune rétrocession ni aucune commission</strong> sur les produits présentés dans le cockpit. Notre revenu vient de l'abonnement des particuliers et des licences professionnelles. Aucune position dans une sélection ne s'achète, et aucun partenariat commercial ne modifie l'ordre d'affichage. Cette règle est la condition de crédibilité de toute la démarche : une sélection qui se vend n'est plus une sélection. Elle figure aussi sur notre <a class="lien" href="/comparatif/">comparatif</a>, où nous expliquons comment SAFIA se rémunère.</p>
-</div>
-</section>
-
-<!-- ===== Partenaires ===== -->
-<section class="bloc">
-<div class="wrap">
-  <h2 class="titre">Ils nous accompagnent déjà</h2>
-  <p class="intro">Ces partenaires préparent avec nous l'ouverture de la marketplace. Leurs offres rejoindront le cockpit à son lancement.</p>
-  <div class="partenaires-marche">
-    <ul class="pm-liste">
-      {partenaires.map((p) => <li>{p}</li>)}
-    </ul>
-  </div>
-</div>
-</section>
-
-<!-- ===== Calendrier ===== -->
-<section class="bloc">
-<div class="wrap constat">
-  <h2 class="titre">Où nous en sommes</h2>
-  <p>La marketplace n'est pas ouverte. Le cockpit stratégique fonctionne aujourd'hui sur deux volets, les recommandations alignées et l'audit patrimonial ; la marketplace en constitue le troisième, et elle est en construction. Les échanges engagés avec les partenaires servent à cadrer les données nécessaires, les formats d'intégration et les obligations de chacun. Si vous voulez être présent à l'ouverture, c'est maintenant que cela se prépare.</p>
 </div>
 </section>
 
