@@ -11,8 +11,8 @@ essentiel:
   - "Denormandie est le **successeur du Pinel dans l'ancien**, et le Pinel, lui, est **fermé depuis le 1ᵉʳ janvier 2025**. C'est aujourd'hui l'un des rares dispositifs de réduction d'impôt encore ouverts sur l'immobilier locatif."
   - "Le taux dépend uniquement de la **durée d'engagement de location** : 12 % sur six ans, 18 % sur neuf ans, 21 % sur douze ans."
   - "La réduction porte sur le **prix du bien travaux compris**, dans la limite de **300 000 €** et de **5 500 € par m²**."
-  - "Les travaux doivent représenter au moins **25 % du coût total de l'opération**. C'est la condition la plus mal anticipée, et la première cause de requalification."
-  - "Le logement doit se trouver dans une **commune éligible**, ce qui exclut la plupart des marchés tendus où la revente est facile."
+  - "Les travaux doivent représenter au moins **25 % du coût total de l'opération**. Deux erreurs reviennent : la calculer sur le seul prix d'achat, et compter des travaux non éligibles."
+  - "Le logement doit se trouver dans une **commune désignée** : villes « Cœur de ville », territoires sous convention de revitalisation. Ce sont rarement des marchés liquides, et la revente à douze ans en dépend."
   - "Le dispositif est **soumis au plafonnement global** des avantages fiscaux, contrairement à Malraux. Un foyer déjà proche des 10 000 € n'en tirera qu'une partie de l'avantage."
   - "L'opération se juge d'abord comme un investissement locatif dans une ville moyenne, ensuite seulement comme un avantage fiscal."
 faq:

@@ -283,8 +283,8 @@ articles **L1** et **J12**.
 - Denormandie est le **successeur du Pinel dans l'ancien**, et le Pinel, lui, est **fermé depuis le 1ᵉʳ janvier 2025**. C'est aujourd'hui l'un des rares dispositifs de réduction d'impôt encore ouverts sur l'immobilier locatif.
 - Le taux dépend uniquement de la **durée d'engagement de location** : 12 % sur six ans, 18 % sur neuf ans, 21 % sur douze ans.
 - La réduction porte sur le **prix du bien travaux compris**, dans la limite de **300 000 €** et de **5 500 € par m²**.
-- Les travaux doivent représenter au moins **25 % du coût total de l'opération**. C'est la condition la plus mal anticipée, et la première cause de requalification.
-- Le logement doit se trouver dans une **commune éligible**, ce qui exclut la plupart des marchés tendus où la revente est facile.
+- Les travaux doivent représenter au moins **25 % du coût total de l'opération**. Deux erreurs reviennent : la calculer sur le seul prix d'achat, et compter des travaux non éligibles.
+- Le logement doit se trouver dans une **commune désignée** : villes « Cœur de ville », territoires sous convention de revitalisation. Ce sont rarement des marchés liquides, et la revente à douze ans en dépend.
 - Le dispositif est **soumis au plafonnement global** des avantages fiscaux, contrairement à Malraux. Un foyer déjà proche des 10 000 € n'en tirera qu'une partie de l'avantage.
 - L'opération se juge d'abord comme un investissement locatif dans une ville moyenne, ensuite seulement comme un avantage fiscal.
 
@@ -485,7 +485,7 @@ articles **L3** et **J12**.
 ## L5 — Relance logement : l'amortissement revenu dans le droit français
 
 **URL** : /blog/relance-logement-jeanbrun · **Mot-clé** : dispositif Relance logement · **Page liée** : Cockpit stratégique · **Outil** : Impôt sur le revenu
-**Meta** : Relance logement amortit le bien sur neuf ans et déduit jusqu'à 12 000 € par an des revenus fonciers. Ce n'est pas une réduction d'impôt.
+**Meta** : Relance logement amortit 80 % du prix sur neuf ans et déduit 8 000 € par an des revenus fonciers, 12 000 € en logement social. Pas une réduction d'impôt.
 **Vérifié le 22 septembre 2026**
 
 ### Le tableau de synthèse
@@ -850,9 +850,9 @@ articles **J14** et **L8**.
 - Les sommes versées sont retenues dans une **double limite** : 25 % du revenu net global **et** 18 000 €. C'est la plus basse des deux qui s'applique.
 - Les titres doivent être conservés jusqu'au **31 décembre de la cinquième année** suivant le versement. Une cession anticipée fait tomber l'avantage.
 - La SOFICA relève du **plafond de niches majoré à 18 000 €**, comme les investissements outre-mer, et non du plafond de droit commun de 10 000 €.
-- Le taux de 48 % n'est pas un cadeau : il rémunère un engagement de la société sur des investissements plus risqués, notamment le développement d'œuvres.
+- Le taux de 48 % suppose que la société consacre au moins **10 %** de ses investissements à des dépenses de développement d'œuvres, dont les séries de fiction, de documentaire et d'animation.
 - La contrepartie est une **sortie incertaine**. Le capital n'est pas garanti, et la valeur de rachat des parts au terme dépend de la performance des œuvres financées.
-- Le produit est distribué en quantité limitée chaque année, sur agrément, ce qui crée une rareté commerciale qu'il ne faut pas confondre avec une qualité d'investissement.
+- La valeur de sortie n'est ni garantie ni connue à l'avance, et les frais prélevés sur la durée la grèvent directement. Un rendement final négatif reste possible, même à 48 % de réduction.
 
 ### Le mécanisme
 

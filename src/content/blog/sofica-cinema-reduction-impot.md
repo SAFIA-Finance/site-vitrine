@@ -12,9 +12,9 @@ essentiel:
   - "Les sommes versées sont retenues dans une **double limite** : 25 % du revenu net global **et** 18 000 €. C'est la plus basse des deux qui s'applique."
   - "Les titres doivent être conservés jusqu'au **31 décembre de la cinquième année** suivant le versement. Une cession anticipée fait tomber l'avantage."
   - "La SOFICA relève du **plafond de niches majoré à 18 000 €**, comme les investissements outre-mer, et non du plafond de droit commun de 10 000 €."
-  - "Le taux de 48 % n'est pas un cadeau : il rémunère un engagement de la société sur des investissements plus risqués, notamment le développement d'œuvres."
+  - "Le taux de 48 % suppose que la société consacre au moins **10 %** de ses investissements à des dépenses de développement d'œuvres, dont les séries de fiction, de documentaire et d'animation."
   - "La contrepartie est une **sortie incertaine**. Le capital n'est pas garanti, et la valeur de rachat des parts au terme dépend de la performance des œuvres financées."
-  - "Le produit est distribué en quantité limitée chaque année, sur agrément, ce qui crée une rareté commerciale qu'il ne faut pas confondre avec une qualité d'investissement."
+  - "La valeur de sortie n'est ni garantie ni connue à l'avance, et les frais prélevés sur la durée la grèvent directement. Un rendement final négatif reste possible, même à 48 % de réduction."
 faq:
   - q: "Quel est le taux réel d'une SOFICA ?"
     r: "30 % en base, 36 % ou 48 % selon les engagements pris par la société sur la nature de ses investissements. Un taux plus élevé signale un engagement sur des investissements plus risqués, pas une meilleure affaire."

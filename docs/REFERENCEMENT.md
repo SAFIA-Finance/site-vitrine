@@ -21,7 +21,7 @@ directement, c'est un fichier texte.
 
 ---
 
-## Les 29 pages publiques
+## Les 31 pages publiques
 
 ### Accueil · `/`
 
@@ -35,8 +35,8 @@ directement, c'est un fichier texte.
 
 ### ADN Investisseur · `/adn-investisseur/`
 
-- **Titre** (57) : Investir selon ses valeurs : ton ADN Investisseur · SAFIA
-- **Description** (128) : Critères ESG, ISR, exclusions : découvre en quelques questions ce qui compte pour toi, et vois si ton portefeuille y correspond.
+- **Titre** (57) : ADN Investisseur : trois dimensions de ton profil · SAFIA
+- **Description** (129) : Stratégie patrimoniale, convictions et critères ESG, comportement face au risque : les trois piliers de l'ADN investisseur SAFIA.
 
 ### Assistant IA · `/assistant-ia/`
 
@@ -52,12 +52,17 @@ directement, c'est un fichier texte.
 ### Conseillers · `/conseillers/`
 
 - **Titre** (58) : IA pour conseillers en gestion de patrimoine (CGP) · SAFIA
-- **Description** (118) : Une offre destinée aux cabinets CGP et CIF est en préparation. Programme pilote ouvert à un nombre limité de cabinets.
+- **Description** (150) : IA pour cabinets de gestion de patrimoine : préparation des dossiers, réponses sourcées, traçabilité. Vous validez. Pilote ouvert à quelques cabinets.
 
 ### Institutions · `/institutions/`
 
 - **Titre** (54) : IA patrimoniale en marque blanche pour banques · SAFIA
-- **Description** (77) : IA patrimoniale en marque blanche pour banques, assureurs et grands cabinets.
+- **Description** (151) : Proposez un accompagnement patrimonial IA à toute votre clientèle, sous votre marque. Hébergement UE, traçabilité, validation humaine. Projets limités.
+
+### Marketplace · `/marketplace/`
+
+- **Titre** (43) : Marketplace : distribuer un produit · SAFIA
+- **Description** (148) : Faites distribuer vos produits aux investisseurs qu'ils concernent : profil réglementaire, profil fiscal et ADN. Sans rétrocession ni mise en avant.
 
 ### Tarifs · `/tarifs/`
 
@@ -74,6 +79,31 @@ directement, c'est un fichier texte.
 
 - **Titre** (58) : Finary, Yomoni, Nalo, Ramify ou SAFIA : le comparatif 2026
 - **Description** (139) : Agrégateur, gestion pilotée, banque privée : qui fait quoi, à quel coût, et comment chacun se rémunère. Comparatif daté, sources à l'appui.
+
+### Applications de gestion de patrimoine · `/application-gestion-patrimoine/`
+
+- **Titre** (48) : Choisir une application de gestion de patrimoine
+- **Description** (145) : Ce qu'une application fait de tes comptes, ce qu'il faut vérifier avant de les connecter, et comment son éditeur gagne sa vie. Six vérifications.
+
+### Conseil en investissement et IA · `/conseil-investissement-ia/`
+
+- **Titre** (56) : Conseil en investissement et IA : ce que le cadre impose
+- **Description** (136) : AI Act, MIF 2, DORA, RGPD : ce que la réglementation exige quand une IA intervient dans le conseil, et ce que ça change pour un cabinet.
+
+### Une histoire de la gestion de patrimoine · `/histoire-gestion-de-patrimoine/`
+
+- **Titre** (54) : Du conseiller de famille à l'intelligence artificielle
+- **Description** (146) : Deux histoires avancent séparément, celle d'un métier réservé à quelques-uns et celle d'une discipline née en 1956. Elles se croisent aujourd'hui.
+
+### Gestion de patrimoine et IA · `/gestion-de-patrimoine-ia/`
+
+- **Titre** (48) : Gestion de patrimoine par IA : ce qu'elle change
+- **Description** (151) : Réunir tes comptes, analyser ce que tu détiens, expliquer tes options : ce qu'une IA fait bien en patrimoine, ce qu'elle fait mal, et comment la juger.
+
+### Conseil financier et IA · `/conseil-financier-ia/`
+
+- **Titre** (53) : Conseil financier par IA : ce qu'on peut lui demander
+- **Description** (140) : Une IA peut informer, expliquer et préparer ta décision. Elle ne peut pas délivrer de conseil personnalisé : c'est une activité réglementée.
 
 ### Le blog · `/blog/`
 
@@ -187,13 +217,17 @@ titre et leur description de résultat de recherche se règlent ici comme les au
 
 ## Ce qu'il faut regarder en priorité
 
-1. **Cockpit et Fondateur** : les quatre textes sont de moi, pas de toi. Ce sont
-   les seuls que tu n'as jamais relus.
-2. **Les quatre dépassements** : Accueil (191), Blog (162), Méthode (159), et les
-   titres du Cockpit et des Institutions (62). Les raccourcir coûterait du sens,
-   d'où le statu quo, mais c'est ton arbitrage.
-3. **Le titre est aussi une promesse commerciale** : c'est la première phrase que
-   lit quelqu'un qui ne connaît pas SAFIA.
+1. **Aucun dépassement** au 23 septembre 2026 : les 36 titres tiennent sous 60
+   caractères, les 36 descriptions sous 155. Les plus proches de la limite sont
+   le titre des Conseillers (58), celui du Comparatif (58) et la description du
+   Cockpit (152).
+2. **Cockpit, Marketplace et Fondateur** : ces textes sont de moi, pas de toi.
+   Ce sont les seuls que tu n'as jamais relus.
+3. **Le titre est aussi une promesse commerciale** : c'est la première phrase
+   que lit quelqu'un qui ne connaît pas SAFIA.
 
-Rappel : tant que le site est en préversion, il est en `noindex` et ces textes ne
-sont vus de personne. Ils comptent à partir de la bascule sur `safia.finance`.
+Ce document est la surface de relecture, et `npm run referencement` le reporte
+vers `src/data/pages.json`. Le sens va du document vers le code : une page
+ajoutée au code sans être inscrite ici échappe au contrôle, et une correction
+faite dans le code finit écrasée. Six pages avaient ainsi glissé, dont cinq de
+celles qui visent nos requêtes cibles. Remises en place le 23 septembre 2026.
