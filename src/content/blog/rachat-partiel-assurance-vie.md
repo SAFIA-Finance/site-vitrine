@@ -31,6 +31,7 @@ outils:
     url: "/outils/assurance-vie-rachat/"
     resume: "Ce que l'impôt prend sur un retrait, avant et après huit ans."
 articlesLies:
+  - "fiscalite-assurance-vie-8-ans"
   - "abattement-assurance-vie-4600"
   - "frais-assurance-vie-releve"
 sources: "Code général des impôts, article 125-0 A · [BOFiP, modalités de calcul des produits en cas de rachat partiel](https://bofip.impots.gouv.fr/bofip/3951-PGP.html/identifiant=BOI-RPPM-RCM-20-10-20-50-20220630) · Code des assurances, article L. 132-21 sur les délais de versement."

@@ -353,7 +353,7 @@ Code général des impôts, article 125-0 A · [BOFiP, modalités de calcul des 
 
 ### Liens internes
 
-Page **Cockpit stratégique** · articles **B2** (abattement) et **B7** (frais).
+Page **Cockpit stratégique** · articles **B1** (fiscalité avant et après huit ans), **B2** (abattement) et **B7** (frais).
 
 ---
 

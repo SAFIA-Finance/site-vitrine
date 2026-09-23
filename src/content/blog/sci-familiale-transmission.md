@@ -29,6 +29,7 @@ pages:
   - nom: "Cockpit stratégique"
     url: "/cockpit/"
 articlesLies:
+  - "transmettre-bien-immobilier"
   - "sortir-indivision-succession"
   - "pacte-dutreil-2026"
 seoDerive: true

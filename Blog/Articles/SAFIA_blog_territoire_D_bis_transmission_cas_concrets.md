@@ -551,7 +551,7 @@ Les statuts décident. C'est précisément leur intérêt : ils fixent les règl
 
 ### Liens internes
 
-articles **D15** et **D10**.
+articles **D11** (donation, SCI ou démembrement), **D15** et **D10**.
 
 ---
 

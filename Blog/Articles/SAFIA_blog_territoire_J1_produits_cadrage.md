@@ -561,7 +561,7 @@ Il faut refuser tout produit dont tu ne peux pas expliquer le mécanisme de pert
 
 ### Liens internes
 
-articles **J4** et **J21**.
+articles **J15** (produits structurés), **J4** et **J21**.
 
 ---
 
