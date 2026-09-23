@@ -68,6 +68,21 @@ export const APPLICATION = {
 };
 
 /**
+ * L'identifiant numérique de la fiche App Store, extrait de son adresse.
+ *
+ * Il sert à la « Smart App Banner » d'iOS : la bannière que Safari affiche en
+ * haut d'une page quand le site déclare une application. Elle ne prend pas une
+ * adresse mais cet identifiant, d'où l'extraction plutôt qu'une seconde
+ * constante, qui finirait par diverger de `APPLICATION.ios`.
+ *
+ * Ce que la bannière apporte au référencement de l'application : elle est le
+ * seul lien direct entre le site et la fiche App Store qu'Apple reconnaisse, et
+ * elle convertit un visiteur iPhone sans qu'il ait à chercher SAFIA dans le
+ * magasin, là où il trouverait d'abord la concurrence.
+ */
+export const APP_ID_IOS = (APPLICATION.ios.match(/\/id(\d+)/) ?? [, ''])[1];
+
+/**
  * Chiffres d'usage affichés dans le hero de l'accueil.
  *
  * Ils engagent SAFIA : ce sont des affirmations publiques sur le site d'un

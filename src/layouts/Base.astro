@@ -13,7 +13,7 @@ import ModaleTelechargement from '../components/ModaleTelechargement.astro';
 // site.js se rebranche sur « astro:page-load » ; les scripts de page portent
 // « data-astro-rerun », qui les rejoue. Voir les commentaires de site.js.
 import { ClientRouter } from 'astro:transitions';
-import { SITE_URL, INDEXABLE, SOCIETE, GA_ID, RELAIS_URL, APPLICATION, RESEAUX, RESEAUX_FONDATEUR } from '../config.js';
+import { SITE_URL, INDEXABLE, SOCIETE, GA_ID, RELAIS_URL, APPLICATION, APP_ID_IOS, RESEAUX, RESEAUX_FONDATEUR } from '../config.js';
 import pages from '../data/pages.json';
 // Le catalogue des simulateurs, pour que chaque page sous /outils/ décrive
 // l'outil qu'elle héberge sans avoir à se nommer elle-même.
@@ -171,6 +171,11 @@ const organisation = {
           recognizedBy: { '@type': 'Organization', name: 'Autorité des marchés financiers' },
         },
       ],
+      // La page qui fait autorité sur cette personne. Sans elle, « sameAs »
+      // renvoie vers des profils extérieurs sans jamais désigner la page du
+      // site qui décrit Maxime : le graphe de connaissances rattache alors la
+      // personne à LinkedIn plutôt qu'à safia.finance.
+      url: `${SITE_URL}/fondateur/`,
       sameAs: RESEAUX_FONDATEUR.map((r) => r.url),
     },
   ],
@@ -325,6 +330,12 @@ const jsonFil = (() => {
     <meta name="safia-relais" content={RELAIS_URL} />
     <meta name="safia-app-ios" content={APPLICATION.ios} />
     <meta name="safia-app-android" content={APPLICATION.android} />
+    {/* Smart App Banner : Safari sur iPhone affiche une bandeau vers la fiche
+        App Store en haut de la page. Seul lien entre le site et le magasin
+        qu'Apple reconnaisse, et il epargne au visiteur une recherche dans
+        l'App Store, ou il trouverait d'abord la concurrence. Sans effet
+        hors iOS : les autres navigateurs ignorent cette balise. */}
+    <meta name="apple-itunes-app" content={`app-id=${APP_ID_IOS}`} />
     <link rel="canonical" href={canonique} />
     {/* Le latin seul est préchargé : c'est le jeu dont chaque page a besoin.
         Les deux jeux de la famille vivaient en base64 dans la feuille de
