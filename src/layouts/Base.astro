@@ -146,6 +146,13 @@ const organisation = {
       applicationCategory: 'FinanceApplication',
       operatingSystem: 'iOS, Android',
       publisher: { '@id': `${SITE_URL}/#organisation` },
+      // Les deux fiches de magasin, qui manquaient. Sans elles, rien ne relie
+      // l'application décrite ici à celle qui existe sur l'App Store et sur
+      // Google Play : un moteur lit la description d'un produit dont il ne
+      // peut vérifier l'existence nulle part. Les fiches de magasin, elles,
+      // sont indexées et font autorité sur ce point.
+      downloadUrl: [APPLICATION.ios, APPLICATION.android],
+      sameAs: [APPLICATION.ios, APPLICATION.android],
       offers: [
         { '@type': 'Offer', name: 'Starter', price: '0', priceCurrency: 'EUR' },
         { '@type': 'Offer', name: 'Smart mensuel', price: '29.99', priceCurrency: 'EUR' },
