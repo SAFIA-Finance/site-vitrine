@@ -19,6 +19,14 @@ import Base from '../layouts/Base.astro';
 
 const faq = [
   {
+    "q": "Qu'est-ce qu'une application de gestion de patrimoine avec IA ?",
+    "r": "Une application qui réunit tes comptes et emploie un modèle de langage pour expliquer ta situation en français, plutôt que de se limiter à des graphiques. L'étiquette « IA » couvre trois usages distincts : classer automatiquement les opérations, ce que les agrégateurs font depuis des années ; répondre à une question en langue naturelle, ce qui est récent ; et recommander un placement, ce qu'aucune application ne peut faire par son seul algorithme, car c'est une activité réglementée."
+  },
+  {
+    "q": "Une application IA peut-elle me dire quoi acheter ?",
+    "r": "Non, pas par le seul jeu de son algorithme. Recommander un placement précis à une personne précise est un acte de conseil en investissement, réglementé en France et soumis au statut de conseiller en investissements financiers. Une application peut informer, expliquer, comparer et préparer ta décision. La recommandation personnalisée suppose un cadre réglementaire, pas seulement un modèle performant."
+  },
+  {
     "q": "Est-ce risqué de connecter mes comptes bancaires ?",
     "r": "La connexion se fait en lecture seule et par un intermédiaire agréé, dans le cadre européen de la DSP2. L'application voit les soldes et les opérations que ta banque met à disposition. Elle ne peut ni virer, ni acheter, ni vendre."
   },
@@ -57,8 +65,8 @@ const fil = ["Accueil", "Ressources", "Applications de gestion de patrimoine"];
 <div class="wrap hero-page-in hero-court">
   <p class="etiq-page">Comprendre</p>
   <p class="fil-ariane" aria-label="Fil d'Ariane"><a href="/">Accueil</a> <span aria-hidden="true">/</span> Ressources <span aria-hidden="true">/</span> Applications de gestion de patrimoine</p>
-  <h1>Choisir une application de gestion de patrimoine</h1>
-  <p class="chapo">Une application de gestion de patrimoine réunit tes comptes, calcule ce que tu possèdes vraiment, et t'aide à comprendre tes options. Toutes ne font pas la même chose, et surtout, toutes ne gagnent pas leur vie de la même manière. C'est ce second point qui mérite le plus d'attention.</p>
+  <h1>Choisir une application IA de gestion de patrimoine</h1>
+  <p class="chapo">Une application de gestion de patrimoine réunit tes comptes, calcule ce que tu possèdes vraiment, et t'aide à comprendre tes options. Toutes ne font pas la même chose, toutes n'emploient pas l'IA pour la même chose, et surtout, toutes ne gagnent pas leur vie de la même manière. C'est ce dernier point qui mérite le plus d'attention.</p>
 </div>
 </section>
 
@@ -136,6 +144,31 @@ const fil = ["Accueil", "Ressources", "Applications de gestion de patrimoine"];
 </div>
 </section>
 
+<section class="bloc appui-bloc">
+<div class="wrap">
+  <h2 class="titre">Ce que l'IA change dans une application de gestion de patrimoine</h2>
+  <div class="prose">
+    <p class="intro">« Application de gestion de patrimoine avec IA » est devenu un argument de vente, et l'étiquette recouvre trois choses très différentes. Une seule est récente, et une seule relève du droit plutôt que du logiciel.</p>
+
+    <h3>Classer les opérations, ce que les agrégateurs font depuis des années</h3>
+    <p>Ranger une dépense en « courses » ou « énergie », reconnaître un virement de salaire, rapprocher deux lignes d'un même contrat : c'est de l'apprentissage automatique, et il équipe les agrégateurs bien avant que le mot IA ne devienne vendeur. C'est utile, c'est même indispensable, mais ce n'est pas ce que tu as en tête quand tu lis « IA » aujourd'hui.</p>
+
+    <h3>Répondre en langue naturelle, ce qui est nouveau</h3>
+    <p>Poser une question et recevoir une explication rédigée, c'est l'apport des modèles de langage. La différence entre deux applications ne tient pas à la réponse, qui sera fluide partout, mais à ce qui l'accompagne. Une explication sans source ni date n'est pas vérifiable, et sur un sujet fiscal elle vieillit en quelques mois : un taux, un plafond ou un abattement changent d'une loi de finances à l'autre.</p>
+
+    <h3>Recommander un placement, ce qui n'est pas une fonction logicielle</h3>
+    <p>Dire « souscris ce contrat » est un acte réglementé, pas une option d'interface. Aucune application ne peut le faire par le seul jeu de son algorithme, quel que soit le modèle qu'elle emploie. Ce que le cadre autorise, et où passe exactement la frontière entre informer et conseiller, est détaillé sur <a class="lien" href="/conseil-financier-ia/">peut-on demander un conseil financier à une IA</a>.</p>
+
+    <h3>Trois questions qui séparent une fonction réelle d'une étiquette</h3>
+    <p><b>La réponse est-elle datée et sourcée ?</b> Une règle change ; une réponse qui ne dit pas de quand elle date ne peut pas être vérifiée, et tu n'as aucun moyen de savoir si elle a vieilli.</p>
+    <p><b>Le raisonnement est-il visible ?</b> Un résultat sans chemin ne se discute pas. C'est l'enjeu de <a class="lien" href="/blog/ia-explicable-finance/">l'IA explicable en finance</a>, et c'est aussi ce que la réglementation européenne attend d'un système utilisé dans ce domaine.</p>
+    <p><b>L'IA connaît-elle ta situation ?</b> Une réponse générique sur le PER ne demande pas une application : un moteur de recherche suffit. L'intérêt commence quand la réponse tient compte de ce que tu possèdes déjà, de ta tranche d'imposition et de ton horizon.</p>
+
+    <p>Ce qu'une intelligence artificielle fait bien sur un patrimoine, ce qu'elle fait mal, et les six critères pour évaluer une solution sont traités en détail sur <a class="lien" href="/gestion-de-patrimoine-ia/">la gestion de patrimoine par IA</a>.</p>
+  </div>
+</div>
+</section>
+
 <section class="bloc">
 <div class="wrap">
   <h2 class="titre">Quelle application pour quelle situation</h2>
@@ -160,6 +193,8 @@ const fil = ["Accueil", "Ressources", "Applications de gestion de patrimoine"];
 <div class="wrap faq-grille">
   <h2 class="titre">Tes questions, nos réponses</h2>
   <div class="faq">
+    <details><summary>Qu'est-ce qu'une application de gestion de patrimoine avec IA ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Une application qui réunit tes comptes et emploie un modèle de langage pour expliquer ta situation en français, plutôt que de se limiter à des graphiques. L'étiquette « IA » couvre trois usages distincts : classer automatiquement les opérations, ce que les agrégateurs font depuis des années ; répondre à une question en langue naturelle, ce qui est récent ; et recommander un placement, ce qu'aucune application ne peut faire par son seul algorithme, car c'est une activité réglementée.</p></details>
+    <details><summary>Une application IA peut-elle me dire quoi acheter ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Non, pas par le seul jeu de son algorithme. Recommander un placement précis à une personne précise est un acte de conseil en investissement, réglementé en France et soumis au statut de conseiller en investissements financiers. Une application peut informer, expliquer, comparer et préparer ta décision. La recommandation personnalisée suppose un cadre réglementaire, pas seulement un modèle performant.</p></details>
     <details><summary>Est-ce risqué de connecter mes comptes bancaires ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>La connexion se fait en lecture seule et par un intermédiaire agréé, dans le cadre européen de la DSP2. L'application voit les soldes et les opérations que ta banque met à disposition. Elle ne peut ni virer, ni acheter, ni vendre.</p></details>
     <details><summary>Que voit exactement l'application ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Les comptes que tu as explicitement connectés, leurs soldes et l'historique des opérations transmis par l'établissement. Rien d'autre, et rien tant que tu n'as pas donné ton accord compte par compte.</p></details>
     <details><summary>Faut-il un patrimoine important pour que ce soit utile ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Non. L'intérêt d'une application est justement de rendre l'analyse accessible sans seuil d'entrée. SAFIA est utile dès le premier livret, et l'agrégation est gratuite.</p></details>

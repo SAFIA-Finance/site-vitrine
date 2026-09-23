@@ -30,7 +30,40 @@ const bloc =
 
 const entrees = [...doc.matchAll(bloc)];
 if (entrees.length !== pages.length) {
-  console.error(`Document illisible : ${entrees.length} entrées pour ${pages.length} pages.`);
+  // Ce message disait seulement « 30 entrées pour 36 pages », et il a fallu
+  // écrire un script pour savoir lesquelles. Six pages avaient glissé hors du
+  // document entre leur création et le 23 septembre 2026, dont cinq de celles
+  // qui visent nos requêtes cibles : elles échappaient au contrôle des
+  // longueurs sans que rien ne le signale. Le message nomme donc les pages.
+  console.error(`Document illisible : ${entrees.length} entrées pour ${pages.length} pages.\n`);
+
+  const routesDoc = new Set(entrees.map((e) => e.groups.route));
+  const absentes = pages.filter((p) => !routesDoc.has(p.route));
+  if (absentes.length) {
+    console.error(`${absentes.length} page(s) du code absente(s) du document :`);
+    for (const p of absentes) console.error(`  ${p.route}  (${p.libelle})`);
+    console.error("\nAjouter pour chacune, dans la section qui convient :\n");
+    for (const p of absentes) {
+      console.error(`### ${p.libelle} · \`${p.route}\`\n`);
+      console.error(`- **Titre** (${p.titre.length}) : ${p.titre}`);
+      console.error(`- **Description** (${p.description.length}) : ${p.description}\n`);
+    }
+  }
+
+  const routesCode = new Set(pages.map((p) => p.route));
+  const fantomes = [...routesDoc].filter((r) => !routesCode.has(r));
+  if (fantomes.length) {
+    console.error(`${fantomes.length} route(s) du document absente(s) du code :`);
+    for (const r of fantomes) console.error(`  ${r}`);
+  }
+
+  // Ni l'une ni l'autre : le document est mal formé, pas désynchronisé.
+  if (!absentes.length && !fantomes.length) {
+    console.error(
+      "Les routes correspondent : c'est la mise en forme d'un bloc qui ne se\n" +
+        'laisse pas lire. Vérifier les lignes « Titre » et « Description ».',
+    );
+  }
   process.exit(1);
 }
 

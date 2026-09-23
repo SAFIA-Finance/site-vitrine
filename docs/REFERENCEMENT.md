@@ -82,8 +82,8 @@ directement, c'est un fichier texte.
 
 ### Applications de gestion de patrimoine · `/application-gestion-patrimoine/`
 
-- **Titre** (48) : Choisir une application de gestion de patrimoine
-- **Description** (145) : Ce qu'une application fait de tes comptes, ce qu'il faut vérifier avant de les connecter, et comment son éditeur gagne sa vie. Six vérifications.
+- **Titre** (57) : Application IA de gestion de patrimoine : comment choisir
+- **Description** (141) : Ce qu'une application de gestion de patrimoine avec IA fait de tes comptes, les trois usages derrière l'étiquette, et ce qu'il faut vérifier.
 
 ### Conseil en investissement et IA · `/conseil-investissement-ia/`
 

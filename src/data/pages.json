@@ -104,8 +104,8 @@
     "route": "/application-gestion-patrimoine/",
     "libelle": "Applications de gestion de patrimoine",
     "ref": "AGP",
-    "titre": "Choisir une application de gestion de patrimoine",
-    "description": "Ce qu'une application fait de tes comptes, ce qu'il faut vérifier avant de les connecter, et comment son éditeur gagne sa vie. Six vérifications."
+    "titre": "Application IA de gestion de patrimoine : comment choisir",
+    "description": "Ce qu'une application de gestion de patrimoine avec IA fait de tes comptes, les trois usages derrière l'étiquette, et ce qu'il faut vérifier."
   },
   {
     "slug": "conseil-investissement-ia",
