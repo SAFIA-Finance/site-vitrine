@@ -40,15 +40,15 @@ const fil = ["Accueil","Ressources","Comparatif"];
   <p class="fil-ariane" aria-label="Fil d'Ariane"><a href="/">Accueil</a> <span aria-hidden="true">/</span> Ressources <span aria-hidden="true">/</span> Comparatif</p>
   <h1>Finary, Yomoni, Nalo, Ramify, banque privée : qui fait quoi, et à quel prix ?</h1>
   <p class="chapo">La rigueur d'une banque privée, sans son ticket d'entrée ni ses droits d'entrée. Ces solutions ne font pas le même métier : avant de comparer des tarifs, il faut savoir ce que chacune prend en charge, et surtout comment elle se rémunère.</p>
-  <p class="maj">Dernière vérification des tarifs : <time datetime="2026-09-15">15 septembre 2026</time>. <a class="lien" href="#sources">Voir les sources</a></p>
+  <p class="maj">Dernière vérification des tarifs : <time datetime="2026-09-23">23 septembre 2026</time>. <a class="lien" href="#sources">Voir les sources</a></p>
 </div>
 </section>
 
 <!-- ===== Les familles ===== -->
 <section class="bloc familles-bloc">
 <div class="wrap">
-  <h2 class="titre">Quatre métiers différents</h2>
-  <p class="intro">Comparer un agrégateur et une gestion pilotée n'a pas de sens : l'un affiche, l'autre investit. Première étape, remettre chaque acteur dans sa catégorie. Aucun de ces quatre métiers n'existait sous cette forme il y a vingt ans, et <a class="lien" href="/histoire-gestion-de-patrimoine/">l'histoire de la gestion de patrimoine</a> explique comment on en est arrivé là.</p>
+  <h2 class="titre">Cinq métiers différents</h2>
+  <p class="intro">Comparer un agrégateur et une gestion pilotée n'a pas de sens : l'un affiche, l'autre investit. Première étape, remettre chaque acteur dans sa catégorie. Aucun de ces cinq métiers n'existait sous cette forme il y a vingt ans, et <a class="lien" href="/histoire-gestion-de-patrimoine/">l'histoire de la gestion de patrimoine</a> explique comment on en est arrivé là.</p>
   <div class="familles">
     <article>
       <span class="fam-etiq">Ils gèrent à ta place</span>
@@ -60,7 +60,14 @@ const fil = ["Accueil","Ressources","Comparatif"];
       <span class="fam-etiq">Il affiche, puis il distribue</span>
       <h3>L'agrégateur de patrimoine</h3>
       <p><b>Finary.</b> Une application qui rassemble tes comptes sur un seul écran. L'agrégation complète et les outils d'analyse relèvent des formules payantes. Finary distribue par ailleurs ses propres produits d'investissement, et propose une offre de gestion privée avec conseiller dédié, réservée à partir d'un certain niveau de patrimoine. Ce que recouvre exactement une <a class="lien" href="/application-gestion-patrimoine/">application de gestion de patrimoine</a> varie beaucoup d'un acteur à l'autre, et c'est la première chose à vérifier.</p>
-      <p class="fam-qui"><b>Rémunération :</b> l'abonnement, et les revenus liés aux produits distribués. L'agrégateur est aussi une porte d'entrée vers ces produits.</p>
+      <p><b>Linxo, Fidurian.</b> Deux autres manières d'être gratuit, très différentes l'une de l'autre. L'application Linxo Lab ne coûte rien, mais le métier de Linxo Group est de vendre de l'infrastructure d'open banking aux établissements financiers, et le groupe est détenu majoritairement par le Crédit Agricole depuis juin 2020<sup>8</sup> : le particulier n'est pas le client. Fidurian ne connecte aucun compte, la saisie est manuelle, et déclare ne vendre aucun produit et ne percevoir aucune commission<sup>9</sup>.</p>
+      <p class="fam-qui"><b>Rémunération :</b> l'abonnement, et les revenus liés aux produits distribués. L'agrégateur est aussi une porte d'entrée vers ces produits. Quand il est gratuit, la question utile n'est pas « combien ça coûte » mais « qui paie ».</p>
+    </article>
+    <article>
+      <span class="fam-etiq">Il conseille, le producteur le paie</span>
+      <h3>Le conseiller rémunéré par les produits</h3>
+      <p><b>Grisbee, et la majorité des cabinets de gestion de patrimoine.</b> Un conseiller en investissements financiers, immatriculé à l'ORIAS comme nous, t'accompagne sans te facturer d'honoraires. Grisbee l'écrit sur son site : «&#160;nos conseillers vous accompagnent sans frais ni honoraires&#160;», et «&#160;nous sommes rémunérés par les établissements financiers&#160;»<sup>10</sup>. C'est le modèle dominant en France, et de loin.</p>
+      <p class="fam-qui"><b>Rémunération :</b> une rétrocession, c'est-à-dire une part des frais de gestion du produit reversée au distributeur. Elle n'apparaît sur aucune facture à ton nom : elle est prélevée sur l'encours du contrat. Le conseil est gratuit, le produit ne l'est pas.</p>
     </article>
     <article>
       <span class="fam-etiq">Elle bancarise</span>
@@ -96,6 +103,9 @@ const fil = ["Accueil","Ressources","Comparatif"];
     <div class="ct-l"><span class="nom">Ramify</span><span>Gestion pilotée</span><span>Pourcentage de l'encours</span><span class="val">Environ 1,2 à 1,6 % par an tout compris, selon la formule<sup>3</sup></span></div>
     <div class="ct-l"><span class="nom">Goodvest</span><span>Gestion pilotée</span><span>Pourcentage de l'encours</span><span class="val">Environ 1,7 à 1,9 % par an tout compris<sup>4</sup></span></div>
     <div class="ct-l"><span class="nom">Finary</span><span>Agrégateur, puis distributeur</span><span>Abonnement, et distribution de sa propre assurance vie<sup>7</sup></span><span class="val">Version gratuite limitée à quelques comptes et quelques fonctionnalités. Formule Plus à 20 € par mois ou 120 € par an.<sup>5</sup> Offre de gestion privée sur devis, à partir d'un certain patrimoine</span></div>
+    <div class="ct-l"><span class="nom">Linxo</span><span>Agrégateur, activité B2B</span><span>Application grand public gratuite, infrastructure vendue aux banques<sup>8</sup></span><span class="val">Linxo Lab gratuit. Le groupe appartient majoritairement au Crédit Agricole depuis juin 2020</span></div>
+    <div class="ct-l"><span class="nom">Fidurian</span><span>Suivi de patrimoine</span><span>Non indiqué sur le site<sup>9</sup></span><span class="val">Gratuit, saisie manuelle, aucune connexion bancaire. Ni tarif ni statut réglementaire affichés</span></div>
+    <div class="ct-l"><span class="nom">Grisbee</span><span>Conseiller rémunéré par les produits</span><span>Rétrocessions versées par les établissements financiers<sup>10</sup></span><span class="val">Aucun honoraire, aucun abonnement. Le coût est dans les frais des produits souscrits</span></div>
     <div class="ct-l ct-alerte"><span class="nom">Banque privée</span><span>Établissement de crédit</span><span>Droits d'entrée, encours, rétrocessions</span><span class="val"><b>Jusqu'à 5 % de droits d'entrée sur chaque versement</b><sup>6</sup>, auxquels s'ajoutent les frais annuels. Variable selon l'établissement et le mandat</span></div>
     <div class="ct-l ct-safia"><span class="nom">SAFIA</span><span>Conseil par abonnement</span><span>Abonnement seul, aucune rétrocession</span><span class="val">Starter gratuit, agrégation illimitée comprise. Smart à 29,99 € par mois, ou 299 € par an. Aucun droit d'entrée, aucun seuil de patrimoine</span></div>
   </div>
@@ -125,6 +135,11 @@ const fil = ["Accueil","Ressources","Comparatif"];
       <h3>SAFIA et Finary</h3>
       <p class="plus"><b>Ce que Finary fait :</b> l'agrégation. Couverture très large, une interface reconnue, et une base d'utilisateurs considérable en France. Un modèle qui tend désormais vers la banque privée.</p>
       <p class="diff"><b>Ce que nous faisons différemment :</b> chez Finary, l'agrégation complète est payante. Chez SAFIA, elle est comprise dans l'offre gratuite, comptes illimités. Surtout, leur application mène à leurs propres produits et à leur offre de gestion privée, réservée aux patrimoines importants. Nous ne distribuons aucun produit maison, nous ne percevons aucune rétrocession, et nous n'imposons aucun seuil.</p>
+    </article>
+    <article>
+      <h3>SAFIA et Grisbee</h3>
+      <p class="plus"><b>Ce que Grisbee fait :</b> c'est de tous les acteurs cités celui dont le statut est le plus proche du nôtre, conseiller en investissements financiers immatriculé à l'ORIAS. Il met en face de toi un conseiller humain dédié, joignable en visioconférence, par téléphone ou dans ses bureaux, et met son outil de suivi à disposition sans frais.</p>
+      <p class="diff"><b>Ce que nous faisons différemment :</b> la rémunération, et elle change tout. Grisbee indique être rémunéré par les établissements financiers dont il distribue les produits. Nous ne percevons aucune rétrocession : SAFIA est payée par l'abonnement de ses utilisateurs, et par rien d'autre. Un conseil gratuit est toujours payé par quelqu'un, et savoir par qui est la première question à poser, à nous comme à n'importe qui.</p>
     </article>
     <article>
       <h3>SAFIA et Yomoni</h3>
@@ -214,7 +229,7 @@ const fil = ["Accueil","Ressources","Comparatif"];
       <p>Si vous représentez l'un des acteurs cités et qu'une information vous paraît inexacte ou périmée, écrivez-nous à <a class="lien" href="mailto:hello@safia.finance">hello@safia.finance</a>. Nous corrigeons et nous datons la correction.</p>
     </article>
   </div>
-  <h3 class="sources-titre" id="sources-tarifs">Sources des tarifs, consultées le 15 septembre 2026</h3>
+  <h3 class="sources-titre" id="sources-tarifs">Sources des tarifs, consultées le 15 septembre 2026 et complétées le 23</h3>
   <ol class="sources-liste">
     <li>Yomoni, « Tarifs », <a href="https://www.yomoni.fr/tarifs" target="_blank" rel="noopener">yomoni.fr/tarifs</a> : frais de gestion de 0,7 %, frais de l'assureur de 0,6 % et frais des ETF de 0,3 %, soit 1,6 % par an au maximum.</li>
     <li>Nalo, « Notre tarif », <a href="https://www.nalo.fr/notre-tarif" target="_blank" rel="noopener">nalo.fr/notre-tarif</a> : 1,65 % par an au maximum, frais des ETF compris.</li>
@@ -223,8 +238,11 @@ const fil = ["Accueil","Ressources","Comparatif"];
     <li>Finary, « Finary Plus », <a href="https://finary.com/fr/fr/finary-plus" target="_blank" rel="noopener">finary.com</a> : 20 € par mois, ou 120 € par an.</li>
     <li>La finance pour tous, Institut pour l'éducation financière du public, « Assurance vie : quels sont les frais prélevés ? », <a href="https://www.lafinancepourtous.com/pratique/placements/assurance-vie/quels-sont-les-frais-preleves/" target="_blank" rel="noopener">lafinancepourtous.com</a> : les frais sur versements peuvent atteindre 5 % de la somme placée.</li>
     <li>Finary, « Frais Finary Life », <a href="https://finary.com/en/invest/assurance-vie/finary-life-fees" target="_blank" rel="noopener">finary.com</a> : Finary SAS, courtier en assurance immatriculé à l'ORIAS sous le n° 21001279, distribue l'assurance vie Finary Life, assurée par Generali Vie, avec 0,5 % de frais de gestion par an sur les unités de compte.</li>
+    <li><i>Consultée le 23 septembre 2026.</i> Linxo, <a href="https://www.linxo.com/" target="_blank" rel="noopener">linxo.com</a> : l'application Linxo Lab est présentée comme gratuite, et Linxo se décrit comme établissement de paiement agréé par l'ACPR, dont l'offre professionnelle d'agrégation est vendue aux établissements financiers. Crédit Agricole, communiqué de presse, <a href="https://presse.credit-agricole.com/actualites/le-groupe-credit-agricole-finalise-lacquisition-de-linxo-group-la-fintech-leader-en-france-des-services-dagregation-de-comptes-et-dinitiation-de-paiements-8f95-9ed05.html" target="_blank" rel="noopener">presse.credit-agricole.com</a> : acquisition d'une participation majoritaire dans Linxo Group, finalisée en juin 2020 après autorisation de l'ACPR.</li>
+    <li><i>Consultée le 23 septembre 2026.</i> Fidurian, <a href="https://fidurian.com/" target="_blank" rel="noopener">fidurian.com</a> : service présenté comme « gratuit, sans engagement, sans connexion bancaire », avec la mention « Fidurian ne vend aucun produit financier. Nous ne touchons aucune commission. » Ni tarif, ni modèle de rémunération, ni immatriculation à l'ORIAS ne figurent sur le site à cette date.</li>
+    <li><i>Consultée le 23 septembre 2026.</i> Grisbee, <a href="https://www.grisbee.fr/tarifs" target="_blank" rel="noopener">grisbee.fr/tarifs</a> : « nos conseillers vous accompagnent sans frais ni honoraires », « notre outil de gestion de patrimoine en ligne est mis à votre disposition gratuitement », « nous sommes rémunérés par les établissements financiers ». Grisbee Gestion Privée est conseiller en investissements financiers, immatriculé à l'ORIAS sous le n° 16004389.</li>
   </ol>
-  <p class="note-tab">Les tarifs et les caractéristiques évoluent. Les informations de cette page ont été vérifiées le 15 septembre 2026 et ne constituent ni un conseil en investissement, ni une recommandation d'un acteur plutôt qu'un autre. Vérifie toujours les conditions en vigueur auprès de l'acteur concerné avant toute décision. Les marques citées appartiennent à leurs titulaires respectifs.</p>
+  <p class="note-tab">Les tarifs et les caractéristiques évoluent. Les informations de cette page ont été vérifiées le 15 septembre 2026, et complétées le 23 septembre et ne constituent ni un conseil en investissement, ni une recommandation d'un acteur plutôt qu'un autre. Vérifie toujours les conditions en vigueur auprès de l'acteur concerné avant toute décision. Les marques citées appartiennent à leurs titulaires respectifs.</p>
 </div>
 </section>
 

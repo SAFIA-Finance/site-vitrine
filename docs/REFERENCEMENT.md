@@ -78,7 +78,7 @@ directement, c'est un fichier texte.
 ### Comparatif · `/comparatif/`
 
 - **Titre** (58) : Finary, Yomoni, Nalo, Ramify ou SAFIA : le comparatif 2026
-- **Description** (139) : Agrégateur, gestion pilotée, banque privée : qui fait quoi, à quel coût, et comment chacun se rémunère. Comparatif daté, sources à l'appui.
+- **Description** (149) : Cinq métiers, cinq façons de se rémunérer : agrégateur, gestion pilotée, conseiller payé par rétrocession, banque privée. Qui fait quoi, et qui paie.
 
 ### Applications de gestion de patrimoine · `/application-gestion-patrimoine/`
 
