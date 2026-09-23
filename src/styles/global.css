@@ -526,7 +526,11 @@ ul.reseaux{list-style:none;display:flex;flex-direction:row;gap:10px;margin-top:1
 .seg .actif{background:rgba(255,255,255,.2);color:#fff;font-weight:600}
 .ruban{position:absolute;top:-21px;right:2px;font-size:10.5px;font-weight:600;padding:3px 8px;letter-spacing:.01em;border-radius:6px;background:linear-gradient(90deg,#8A3CF0,#C13BE8)}
 .app-bas{display:flex;justify-content:space-between;gap:2px;margin:auto 10px 10px;padding:9px 6px;border-radius:26px;background:rgba(255,255,255,.07);box-shadow:inset 0 0 0 1px rgba(255,255,255,.09)}
-.app-bas span{flex:1;text-align:center;font-size:11px;color:rgba(255,255,255,.45);display:flex;flex-direction:column;align-items:center;gap:4px}
+/* .55 et non .45 : sur le fond #150726, un blanc a 45 % donne un contraste
+   de 4,46 pour 4,5 exiges par le WCAG AA. Un echec a 0,04 pres, sur un texte
+   de 11 px, qui est justement la taille ou il se voit. A .55 le rapport passe
+   a 6,18 et l etiquette reste discrete. */
+.app-bas span{flex:1;text-align:center;font-size:11px;color:rgba(255,255,255,.55);display:flex;flex-direction:column;align-items:center;gap:4px}
 .app-bas b{width:15px;height:15px;border-radius:50%;background:rgba(255,255,255,.3);display:block}
 .app-bas .actif{color:#fff;font-weight:600}
 .app-bas .actif b{background:#fff}
