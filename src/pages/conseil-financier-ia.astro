@@ -30,6 +30,10 @@ import Base from '../layouts/Base.astro';
 // en <details> plus bas pour l'affichage. C'est la convention du site.
 const faq = [
   {
+    "q": "Un conseiller financier IA, ça existe vraiment ?",
+    "r": "Oui, mais pas au sens où un algorithme détiendrait le droit de recommander. Ce qu'on appelle un conseiller financier IA est un assistant qui explique un mécanisme, retrouve une règle applicable à ta situation et prépare ta décision, adossé à une entreprise qui porte un statut réglementé. Chez SAFIA, ce statut est celui de conseiller en investissements financiers, porté par SAFIA SAS, enregistrée à l'ORIAS sous le n° 26008152. L'IA prépare et cite ses sources, la responsabilité reste humaine."
+  },
+  {
     "q": "ChatGPT peut-il me conseiller sur mes placements ?",
     "r": "Il peut t'expliquer un mécanisme, pas te conseiller. Une IA généraliste ne connaît ni ta situation, ni tes contrats, ni la date de la règle qu'elle cite. Et elle n'engage personne sur ce qu'elle affirme."
   },
@@ -72,7 +76,7 @@ const fil = ["Accueil", "Ressources", "Conseil financier et IA"];
       coupait après « IA » et laissait le « ? » seul sur une troisième ligne à
       1440 px. U+00A0 et non U+202F : l'espace fine, essayée d'abord, rendait
       « IA? » presque collé à cette taille d'affichage. */}
-  <h1>Peut-on demander un conseil financier à une IA&#160;?</h1>
+  <h1>Peut-on avoir un conseiller financier IA&#160;?</h1>
   {/* La réponse est donnée dès le chapô, en une phrase autonome : c'est ce
       qu'un moteur génératif extrait, et ce qu'un lecteur pressé retient. */}
   <p class="chapo">Oui pour comprendre, non pour décider à ta place. Une intelligence artificielle peut t'expliquer un mécanisme, retrouver une règle et préparer ta décision. Elle ne peut pas délivrer un conseil en investissement personnalisé : en France, c'est une activité réglementée, qui engage la responsabilité de celui qui l'exerce.</p>
@@ -170,6 +174,10 @@ const fil = ["Accueil", "Ressources", "Conseil financier et IA"];
     <h3>Aucun agent conversationnel n'a ce statut</h3>
     <p>Un logiciel ne s'enregistre pas et ne s'assure pas. C'est l'entreprise qui l'exploite qui porte le statut, et elle seule. La question utile n'est donc pas «&#160;cette IA est-elle bonne&#160;?&#160;» mais «&#160;qui répond de ce qu'elle dit&#160;?&#160;». L'AMF suit de près les outils d'aide à la décision qui s'approchent du conseil, en particulier le risque qu'un algorithme reproduise un biais à grande échelle. C'est une raison de plus pour qu'une réponse automatisée soit traçable, datée et vérifiable.</p>
 
+    <h3>Alors, un «&#160;conseiller financier IA&#160;», ça existe&#160;?</h3>
+    <p>L'expression désigne quelque chose de réel, mais pas ce qu'elle laisse croire. Ce qu'on appelle aujourd'hui un conseiller financier IA, c'est un assistant qui répond à tes questions, explique un mécanisme, retrouve une règle applicable à ta situation et prépare ta décision, adossé à une entreprise qui, elle, porte un statut. Ce n'est jamais un algorithme qui détiendrait lui-même le droit de recommander et répondrait de son erreur.</p>
+    <p>La distinction n'est pas théorique, elle se vérifie. Chez SAFIA, le statut de conseiller en investissements financiers est porté par SAFIA SAS, enregistrée à l'ORIAS sous le n°&#160;26008152, adhérente d'une association agréée par l'AMF. L'intelligence artificielle prépare, cite ses sources et les date&#160;; la responsabilité reste humaine. Un service qui emploie le mot «&#160;conseiller&#160;» sans pouvoir désigner qui porte ce statut te dit quelque chose d'important sur lui-même.</p>
+
     <h3>Le conseil hybride, plutôt qu'un faux débat</h3>
     <p>Opposer l'intelligence artificielle et le conseiller n'a pas de sens : chacun est meilleur là où l'autre est faible. La machine lit vite une grande quantité d'informations, retrouve une règle et l'applique à un cas précis, repère une incohérence dans un portefeuille, reste disponible à toute heure et garde la trace de ce qui a été dit. Le conseiller, lui, comprend une situation familiale, entend ce qui n'est pas dit, arbitre entre des objectifs qui se contredisent, engage sa responsabilité et coordonne un notaire ou un avocat quand il le faut.</p>
 
@@ -184,6 +192,7 @@ const fil = ["Accueil", "Ressources", "Conseil financier et IA"];
 <div class="wrap faq-grille">
   <h2 class="titre">Tes questions, nos réponses</h2>
   <div class="faq">
+    <details><summary>Un conseiller financier IA, ça existe vraiment ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Oui, mais pas au sens où un algorithme détiendrait le droit de recommander. Ce qu'on appelle un conseiller financier IA est un assistant qui explique un mécanisme, retrouve une règle applicable à ta situation et prépare ta décision, adossé à une entreprise qui porte un statut réglementé. Chez SAFIA, ce statut est celui de conseiller en investissements financiers, porté par SAFIA SAS, enregistrée à l'ORIAS sous le n°&#160;26008152. L'IA prépare et cite ses sources, la responsabilité reste humaine.</p></details>
     <details><summary>ChatGPT peut-il me conseiller sur mes placements ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Il peut t'expliquer un mécanisme, pas te conseiller. Une IA généraliste ne connaît ni ta situation, ni tes contrats, ni la date de la règle qu'elle cite. Et elle n'engage personne sur ce qu'elle affirme.</p></details>
     <details><summary>Un conseil donné par une IA engage-t-il quelqu'un ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Non, sauf s'il est délivré dans un cadre réglementé. En France, le conseil en investissement est une activité réservée à des professionnels enregistrés, qui engagent leur responsabilité et sont couverts par une assurance professionnelle.</p></details>
     <details><summary>Comment vérifier une réponse donnée par une IA ?<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M3 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary><p>Demande-lui sa source et sa date. Une réponse financière sans référence datée ne vaut rien : les taux, plafonds et barèmes changent chaque année, parfois en cours d'année.</p></details>

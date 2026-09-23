@@ -140,8 +140,8 @@
     "route": "/conseil-financier-ia/",
     "libelle": "Conseil financier et IA",
     "ref": "CFI",
-    "titre": "Conseil financier par IA : ce qu'on peut lui demander",
-    "description": "Une IA peut informer, expliquer et préparer ta décision. Elle ne peut pas délivrer de conseil personnalisé : c'est une activité réglementée."
+    "titre": "Conseiller financier IA : ce qu'on peut lui demander",
+    "description": "Un conseiller financier IA informe, explique et prépare ta décision. Le conseil personnalisé, lui, reste réservé à un professionnel enregistré."
   },
   {
     "slug": "blog",

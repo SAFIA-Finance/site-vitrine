@@ -102,8 +102,8 @@ directement, c'est un fichier texte.
 
 ### Conseil financier et IA · `/conseil-financier-ia/`
 
-- **Titre** (53) : Conseil financier par IA : ce qu'on peut lui demander
-- **Description** (140) : Une IA peut informer, expliquer et préparer ta décision. Elle ne peut pas délivrer de conseil personnalisé : c'est une activité réglementée.
+- **Titre** (52) : Conseiller financier IA : ce qu'on peut lui demander
+- **Description** (143) : Un conseiller financier IA informe, explique et prépare ta décision. Le conseil personnalisé, lui, reste réservé à un professionnel enregistré.
 
 ### Le blog · `/blog/`
 
