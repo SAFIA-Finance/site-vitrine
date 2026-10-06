@@ -5,6 +5,7 @@ titreSeo: "Succession internationale : quel droit s'applique"
 description: "La loi applicable est celle de la résidence habituelle du défunt. L'option pour la loi nationale, et la confusion entre loi civile et loi fiscale."
 categorie: "Donation et succession"
 date: 2026-09-16
+maj: 2026-09-21
 lecture: 7
 mots: 1496
 essentiel:

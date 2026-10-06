@@ -5,6 +5,7 @@ titreSeo: "Produits structurés : comprendre la formule avant de signer"
 description: "Sous-jacent, barrières, risque de contrepartie : les trois éléments qui décident. La protection annoncée est conditionnelle, le rendement plafonné."
 categorie: "Produits d'investissement"
 date: 2026-09-16
+maj: 2026-09-19
 lecture: 5
 mots: 961
 essentiel:

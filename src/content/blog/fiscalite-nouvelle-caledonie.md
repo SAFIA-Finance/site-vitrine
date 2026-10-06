@@ -5,6 +5,7 @@ titreSeo: "Nouvelle-Calédonie : fiscalité locale et convention"
 description: "La convention du 31 mars 1983 répartit le droit d'imposer entre l'État et la Nouvelle-Calédonie : ce qu'elle prévoit pour un patrimoine resté en métropole."
 categorie: "Outre-mer"
 date: 2026-09-16
+maj: 2026-09-21
 lecture: 5
 mots: 1046
 essentiel:

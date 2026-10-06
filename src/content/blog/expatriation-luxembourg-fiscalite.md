@@ -5,6 +5,7 @@ titreSeo: "Luxembourg : fiscalité de l'expatriation"
 description: "Pas de régime dérogatoire pour nouveaux résidents, mais une fiscalité mobilière favorable et la place de référence de l'assurance-vie internationale."
 categorie: "Expatriation"
 date: 2026-09-16
+maj: 2026-09-21
 lecture: 7
 mots: 1432
 essentiel:

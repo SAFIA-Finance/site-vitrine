@@ -5,6 +5,7 @@ titreSeo: "Digitaliser son cabinet de CGP : par où commencer"
 description: "Une méthode en quatre chantiers, ordonnés par rapport effort/valeur, pour digitaliser un cabinet sans interrompre l'activité ni dégrader la conformité."
 categorie: "Professionnels"
 date: 2026-09-14
+maj: 2026-09-19
 lecture: 4
 mots: 805
 essentiel:

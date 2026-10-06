@@ -5,6 +5,7 @@ titreSeo: "Espagne : fiscalité de l'expatriation"
 description: "Régime Beckham à 24 % jusqu'à 600 000 €, et des droits de succession qui vont de 1 % à 30 % selon la région choisie. Le vrai arbitrage est régional."
 categorie: "Expatriation"
 date: 2026-09-16
+maj: 2026-09-21
 lecture: 6
 mots: 1254
 essentiel:

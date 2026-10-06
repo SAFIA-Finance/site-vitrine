@@ -5,6 +5,7 @@ titreSeo: "Polynésie française : fiscalité propre et autonomie"
 description: "Collectivité autonome de l'article 74 : le Code général des impôts ne s'y applique pas. Fiscalité indirecte dominante et convention avec l'État."
 categorie: "Outre-mer"
 date: 2026-09-16
+maj: 2026-09-21
 lecture: 6
 mots: 1202
 essentiel:

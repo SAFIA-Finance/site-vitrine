@@ -5,6 +5,7 @@ titreSeo: "Bien immobilier : donation, SCI ou démembrement"
 description: "Donation en pleine propriété, donation de la nue-propriété ou apport à une SCI : les trois voies comparées, et leur effet sur la base taxable."
 categorie: "Donation et succession"
 date: 2026-09-16
+maj: 2026-09-19
 lecture: 4
 mots: 742
 essentiel:

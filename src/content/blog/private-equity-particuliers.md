@@ -5,6 +5,7 @@ titreSeo: "Private equity et FCPR ouverts aux particuliers"
 description: "Huit à douze ans de capital bloqué, une courbe en J normale les premières années : ce que l'ouverture aux particuliers rend accessible, pas adapté."
 categorie: "Produits d'investissement"
 date: 2026-09-16
+maj: 2026-09-19
 lecture: 5
 mots: 901
 essentiel:

@@ -5,6 +5,7 @@ titreSeo: "LCB-FT : les obligations d'un cabinet de CGP"
 description: "Aucun seuil de déclaration, jusqu'à 5 millions d'euros de sanction : ce que la lutte contre le blanchiment impose concrètement à un cabinet."
 categorie: "Professionnels"
 date: 2026-09-14
+maj: 2026-09-21
 lecture: 6
 mots: 1134
 essentiel:

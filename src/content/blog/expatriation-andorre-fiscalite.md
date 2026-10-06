@@ -5,6 +5,7 @@ titreSeo: "Andorre : fiscalité de l'expatriation"
 description: "Impôt sur le revenu plafonné à 10 %, ni fortune ni succession, mais des obligations de résidence réelles et pas de sursis automatique d'exit tax."
 categorie: "Expatriation"
 date: 2026-09-16
+maj: 2026-09-19
 lecture: 4
 mots: 816
 essentiel:

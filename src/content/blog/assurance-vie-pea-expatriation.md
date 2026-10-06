@@ -5,6 +5,7 @@ titreSeo: "Assurance-vie et PEA en expatriation : ce qui change"
 description: "Faut-il clôturer son assurance-vie ou son PEA avant de partir ? Ce que la non-résidence change sur les rachats, dividendes et transmission."
 categorie: "Expatriation"
 date: 2026-09-16
+maj: 2026-09-19
 lecture: 6
 mots: 1218
 essentiel:

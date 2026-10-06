@@ -5,6 +5,7 @@ titreSeo: "Clause bénéficiaire : erreurs fréquentes et rédaction"
 description: "Une ligne mal rédigée peut annuler des années d'optimisation. Cinq formulations de clause bénéficiaire et leurs conséquences concrètes."
 categorie: "Assurance-vie"
 date: 2026-09-14
+maj: 2026-09-19
 lecture: 5
 mots: 975
 essentiel:

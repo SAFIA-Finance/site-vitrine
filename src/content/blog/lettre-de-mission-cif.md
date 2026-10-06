@@ -5,6 +5,7 @@ titreSeo: "Lettre de mission CIF : contenu obligatoire"
 description: "Objet, étendue, rémunération, durée : les mentions attendues dans une lettre de mission CIF, et les formulations à éviter."
 categorie: "Professionnels"
 date: 2026-09-14
+maj: 2026-09-21
 lecture: 6
 mots: 1111
 essentiel:

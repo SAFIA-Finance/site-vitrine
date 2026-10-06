@@ -5,6 +5,7 @@ titreSeo: "Famille recomposée : protéger son conjoint et ses enfants"
 description: "L'enfant du conjoint n'est pas héritier et reste taxé à 60 %. Comment protéger le survivant sans entamer la réserve des enfants d'un premier lit."
 categorie: "Donation et succession"
 date: 2026-09-16
+maj: 2026-09-19
 lecture: 4
 mots: 890
 essentiel:

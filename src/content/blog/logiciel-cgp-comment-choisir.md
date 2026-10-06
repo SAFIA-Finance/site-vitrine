@@ -5,6 +5,7 @@ titreSeo: "Logiciel CGP : les 8 fonctions qui comptent"
 description: "Agrégation, conformité, reporting, GRC : la grille de sélection d'un outil métier pour un cabinet, et les pièges du changement d'outil."
 categorie: "Professionnels"
 date: 2026-09-14
+maj: 2026-09-21
 lecture: 5
 mots: 1019
 essentiel:

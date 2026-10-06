@@ -5,6 +5,7 @@ titreSeo: "Les classes d'actifs expliquées par ce qu'elles font"
 description: "Liquidités, obligations, actions, actifs réels : quatre familles définies par le droit qu'elles confèrent, et ce que diversifier veut dire."
 categorie: "Produits d'investissement"
 date: 2026-09-16
+maj: 2026-09-19
 lecture: 5
 mots: 984
 essentiel:

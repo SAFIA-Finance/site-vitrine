@@ -5,6 +5,7 @@ titreSeo: "Chypre : fiscalité de l'expatriation"
 description: "Le non-dom chypriote dure jusqu'à dix-sept ans et exonère dividendes et intérêts. Membre de l'Union, Chypre ouvre le sursis automatique d'exit tax."
 categorie: "Expatriation"
 date: 2026-09-16
+maj: 2026-09-21
 lecture: 6
 mots: 1131
 essentiel:

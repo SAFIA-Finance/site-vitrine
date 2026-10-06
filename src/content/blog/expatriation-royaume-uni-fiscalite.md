@@ -5,6 +5,7 @@ titreSeo: "Royaume-Uni : fiscalité de l'expatriation"
 description: "Le régime non-dom est supprimé depuis avril 2025. Ce qui le remplace pour les nouveaux arrivants, et le Statutory Residence Test, chiffré et prévisible."
 categorie: "Expatriation"
 date: 2026-09-16
+maj: 2026-09-21
 lecture: 6
 mots: 1278
 essentiel:

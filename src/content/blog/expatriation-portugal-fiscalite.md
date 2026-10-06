@@ -5,6 +5,7 @@ titreSeo: "Portugal : fiscalité de l'expatriation"
 description: "Le régime NHR est fermé depuis le 1er janvier 2024. Ce que l'IFICI couvre réellement, et pourquoi les retraités ont perdu l'avantage portugais."
 categorie: "Expatriation"
 date: 2026-09-16
+maj: 2026-09-19
 lecture: 5
 mots: 975
 essentiel:

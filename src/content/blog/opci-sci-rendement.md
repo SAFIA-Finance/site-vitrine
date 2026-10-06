@@ -5,6 +5,7 @@ titreSeo: "OPCI et SCI de rendement : la différence avec la SCPI"
 description: "L'OPCI se rachète plus vite qu'une SCPI grâce à sa poche liquide, mais il fluctue avec les marchés. Les SCI de rendement passent par un contrat."
 categorie: "Produits d'investissement"
 date: 2026-09-16
+maj: 2026-09-19
 lecture: 5
 mots: 953
 essentiel:

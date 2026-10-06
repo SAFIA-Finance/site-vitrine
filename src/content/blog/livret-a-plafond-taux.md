@@ -5,6 +5,7 @@ titreSeo: "Livret A 2026 : taux de 1,70 %, plafond 22 950 €"
 description: "Le taux du livret A est passé à 1,70 % le 1er août 2026. Plafond, calcul par quinzaine, fiscalité : le fonctionnement avec des exemples chiffrés."
 categorie: "Épargne réglementée"
 date: 2026-09-14
+maj: 2026-09-19
 lecture: 5
 mots: 930
 essentiel:

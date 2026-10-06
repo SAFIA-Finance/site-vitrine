@@ -5,6 +5,7 @@ titreSeo: "Devenir CIF : conditions et démarches"
 description: "Trois voies pour la capacité professionnelle, 150 000 € de RC pro minimum, adhésion à une association agréée : le parcours réel pour exercer comme CIF."
 categorie: "Professionnels"
 date: 2026-09-14
+maj: 2026-09-21
 lecture: 5
 mots: 1042
 essentiel:

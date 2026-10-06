@@ -5,6 +5,7 @@ titreSeo: "Grèce : fiscalité de l'expatriation"
 description: "Un prélèvement forfaitaire de 7 % sur tous les revenus étrangers, pension comprise, depuis 2020. Le régime non-dom et le sursis d'exit tax."
 categorie: "Expatriation"
 date: 2026-09-16
+maj: 2026-09-19
 lecture: 4
 mots: 869
 essentiel:

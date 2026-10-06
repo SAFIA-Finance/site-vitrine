@@ -5,6 +5,7 @@ titreSeo: "IA explicable en finance : pourquoi les sources comptent"
 description: "Une réponse financière non sourcée est invérifiable, donc inutilisable. Ce qu'est l'explicabilité, comment la tester, et ce que la réglementation impose."
 categorie: "IA et méthode"
 date: 2026-09-14
+maj: 2026-09-19
 lecture: 5
 mots: 908
 essentiel:

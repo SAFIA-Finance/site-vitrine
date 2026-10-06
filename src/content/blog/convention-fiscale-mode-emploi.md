@@ -5,6 +5,7 @@ titreSeo: "Lire une convention fiscale : mode d'emploi"
 description: "Une convention fiscale se lit dans un ordre précis. Les six articles qui décident de tout, et la méthode pour trouver votre réponse en vingt minutes."
 categorie: "Expatriation"
 date: 2026-09-16
+maj: 2026-09-19
 lecture: 6
 mots: 1224
 essentiel:

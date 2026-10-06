@@ -5,6 +5,7 @@ titreSeo: "Déduction PER : calculer son économie d'impôt réelle"
 description: "L'économie d'impôt d'un versement PER dépend de ta tranche marginale. Le calcul exact, les effets de seuil, et pourquoi l'avantage est surestimé."
 categorie: "Retraite"
 date: 2026-09-14
+maj: 2026-09-19
 lecture: 6
 mots: 1114
 essentiel:

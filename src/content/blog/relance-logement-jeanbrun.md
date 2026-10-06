@@ -4,7 +4,7 @@ titre: "Relance logement : l'amortissement revenu dans le droit français"
 titreSeo: "Relance logement : l'amortissement revenu dans le droit"
 description: "Relance logement amortit 80 % du prix sur neuf ans et déduit 8 000 € par an des revenus fonciers, 12 000 € en logement social. Pas une réduction d'impôt."
 categorie: "Dispositifs fiscaux"
-date: 2026-09-14
+date: 2026-09-22
 lecture: 5
 mots: 945
 essentiel:

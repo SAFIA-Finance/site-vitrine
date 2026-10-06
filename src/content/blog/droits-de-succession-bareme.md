@@ -5,6 +5,7 @@ titreSeo: "Droits de succession 2026 : barème et abattements"
 description: "Abattement de 100 000 € par enfant, barème de 5 % à 45 %, exonération du conjoint : le calcul des droits de succession, avec trois exemples."
 categorie: "Donation et succession"
 date: 2026-09-14
+maj: 2026-09-19
 lecture: 6
 mots: 1116
 essentiel:

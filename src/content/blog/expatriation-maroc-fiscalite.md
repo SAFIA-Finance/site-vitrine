@@ -5,6 +5,7 @@ titreSeo: "Maroc : fiscalité de l'expatriation"
 description: "Un abattement substantiel sur les pensions de source étrangère, majoré en dirhams non convertibles : la destination la plus favorable aux retraités."
 categorie: "Expatriation"
 date: 2026-09-16
+maj: 2026-09-19
 lecture: 4
 mots: 839
 essentiel:

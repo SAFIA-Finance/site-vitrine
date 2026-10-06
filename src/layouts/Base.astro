@@ -75,6 +75,11 @@ const robots = !INDEXABLE || noindex ? 'noindex, nofollow' : 'index, follow';
 const carteDeLaPage = fiche?.slug && chemin.startsWith('/outils/') ? `/og/${fiche.slug}.png` : null;
 const visuel = Astro.props.image ?? carteDeLaPage ?? image;
 const imageAbsolue = visuel ? new URL(visuel, SITE_URL).href : null;
+// Texte de remplacement de la carte de partage. Une carte propre à la page
+// (article, simulateur) porte son titre en toutes lettres : c'est donc lui qui
+// la décrit. La carte de marque, elle, ne montre que le logo et la promesse.
+const altVisuel =
+  Astro.props.image || carteDeLaPage ? titre : 'SAFIA, gestion de patrimoine assistée par intelligence artificielle';
 
 // Fiche d'identité de l'éditeur, identique sur toutes les pages.
 const organisation = {
@@ -119,6 +124,17 @@ const organisation = {
         height: 512,
       },
       email: SOCIETE.email,
+      // Le point de contact, tel que la page /contact/ le donne. Les magasins
+      // d'applications et les moteurs y lisent la même chose : une adresse, et
+      // une page où écrire.
+      contactPoint: {
+        '@type': 'ContactPoint',
+        contactType: 'customer support',
+        email: SOCIETE.email,
+        url: `${SITE_URL}/contact/`,
+        availableLanguage: 'French',
+        areaServed: 'FR',
+      },
       address: {
         '@type': 'PostalAddress',
         streetAddress: SOCIETE.rue,
@@ -183,6 +199,15 @@ const organisation = {
       // site qui décrit Maxime : le graphe de connaissances rattache alors la
       // personne à LinkedIn plutôt qu'à safia.finance.
       url: `${SITE_URL}/fondateur/`,
+      // Le portrait affiché sur /fondateur/ et sous chaque article. En JPEG et
+      // non en WebP : c'est le format que tout lecteur de données structurées
+      // sait ouvrir.
+      image: {
+        '@type': 'ImageObject',
+        url: `${SITE_URL}/images/fondateur-14710607.jpg`,
+        width: 560,
+        height: 700,
+      },
       sameAs: RESEAUX_FONDATEUR.map((r) => r.url),
     },
   ],
@@ -394,11 +419,13 @@ const jsonFil = (() => {
     {imageAbsolue && <meta property="og:image" content={imageAbsolue} />}
     {imageAbsolue && <meta property="og:image:width" content="1200" />}
     {imageAbsolue && <meta property="og:image:height" content="630" />}
+    {imageAbsolue && <meta property="og:image:alt" content={altVisuel} />}
 
     <meta name="twitter:card" content={imageAbsolue ? 'summary_large_image' : 'summary'} />
     <meta name="twitter:title" content={titre} />
     <meta name="twitter:description" content={description} />
     {imageAbsolue && <meta name="twitter:image" content={imageAbsolue} />}
+    {imageAbsolue && <meta name="twitter:image:alt" content={altVisuel} />}
 
     <script type="application/ld+json" set:html={JSON.stringify(organisation)} />
     {jsonFaq && <script type="application/ld+json" set:html={JSON.stringify(jsonFaq)} />}

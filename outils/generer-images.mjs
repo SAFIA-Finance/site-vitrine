@@ -250,3 +250,32 @@ for (const p of pages) {
   }
 }
 if (retirees) console.log(`  retiré ${retirees} carte(s) devenue(s) inutile(s)`);
+
+// ---------------------------------------------------------------------------
+// Le portrait du fondateur, décliné.
+//
+// L'original est un JPEG de 560×700 et 51,6 Ko. Il était servi tel quel à deux
+// endroits qui n'en demandaient pas tant : en grand sur l'accueil et sur
+// /fondateur/, et surtout en pastille de 72 px sous chacun des articles, soit
+// 51,6 Ko téléchargés pour afficher 72 pixels.
+//
+// Trois dérivés, tous tirés du même fichier pour qu'aucun ne dérive :
+//   - 560 px en AVIF et en WebP, pour les deux grands portraits ;
+//   - 144 px en WebP, carré, pour la pastille (72 px affichés, écran double).
+//
+// Le recadrage carré est centré : c'est ce que faisait déjà le CSS
+// (« object-fit: cover », sans position), la pastille montre donc exactement
+// le même visage qu'avant.
+//
+// Le JPEG d'origine reste dans le dépôt : il sert de repli dans « picture »,
+// et les données structurées le désignent, le JPEG étant le seul format que
+// tout lecteur sait ouvrir.
+// ---------------------------------------------------------------------------
+const PORTRAIT = path.join(PUBLIC, 'images', 'fondateur-14710607.jpg');
+await sharp(PORTRAIT).avif({ quality: 55, effort: 6 }).toFile(path.join(PUBLIC, 'images', 'fondateur-560.avif'));
+await sharp(PORTRAIT).webp({ quality: 78, effort: 6 }).toFile(path.join(PUBLIC, 'images', 'fondateur-560.webp'));
+await sharp(PORTRAIT)
+  .resize(144, 144, { fit: 'cover', position: 'centre' })
+  .webp({ quality: 80, effort: 6 })
+  .toFile(path.join(PUBLIC, 'images', 'fondateur-144.webp'));
+console.log('  écrit le portrait en 560 px (AVIF, WebP) et en 144 px (WebP)');

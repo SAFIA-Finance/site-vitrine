@@ -5,6 +5,7 @@ titreSeo: "Assurance-vie et succession : 152 500 € par bénéficiaire"
 description: "Hors succession, 152 500 € exonérés par bénéficiaire, puis 20 % : le régime de l'article 990 I expliqué avec un exemple de transmission chiffré."
 categorie: "Assurance-vie"
 date: 2026-09-14
+maj: 2026-09-19
 lecture: 4
 mots: 875
 essentiel:

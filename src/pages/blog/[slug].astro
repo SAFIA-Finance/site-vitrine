@@ -66,6 +66,7 @@ const categorieUrl = `/blog/categorie/${slugCategorie(data.categorie)}/`;
   <h1>{data.titre}</h1>
   <p class="maj">
     <time datetime={dateIso(data.date)}>{dateFr(data.date)}</time>
+    {data.maj && <Fragment><span aria-hidden="true"> · </span>Mis à jour le <time datetime={dateIso(data.maj)}>{dateFr(data.maj)}</time></Fragment>}
     <span aria-hidden="true"> · </span>{data.lecture} min de lecture
     <span aria-hidden="true"> · </span><a class="lien" href={categorieUrl}>{data.categorie}</a>
   </p>
@@ -110,7 +111,7 @@ const categorieUrl = `/blog/categorie/${slugCategorie(data.categorie)}/`;
   </div>
 
   <div class="article-auteur">
-    <img src="/images/fondateur-14710607.jpg" width="72" height="72" alt="" />
+    <img src="/images/fondateur-144.webp" width="72" height="72" alt="" loading="lazy" decoding="async" />
     <div>
       <p class="article-auteur-nom">Maxime Bouché</p>
       <p>Conseiller en investissements financiers, immatriculé à l'ORIAS sous le n° {SOCIETE.orias}, membre de la CNCGP. Fondateur de SAFIA.</p>

@@ -5,6 +5,7 @@ titreSeo: "Profil de risque MiFID II : à quoi sert le questionnaire"
 description: "Le questionnaire n'est pas une formalité administrative : il conditionne ce qu'on a le droit de te proposer. Ce qu'il mesure, et pourquoi il mesure mal."
 categorie: "IA et méthode"
 date: 2026-09-14
+maj: 2026-09-19
 lecture: 4
 mots: 875
 essentiel:

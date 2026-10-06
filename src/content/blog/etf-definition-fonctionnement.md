@@ -5,6 +5,7 @@ titreSeo: "ETF : réplication, frais, écarts de suivi"
 description: "Un ETF réplique un indice au lieu de le battre. Son avantage tient aux frais, et la réplication synthétique loge des indices mondiaux dans un PEA."
 categorie: "Produits d'investissement"
 date: 2026-09-16
+maj: 2026-09-19
 lecture: 4
 mots: 894
 essentiel:

@@ -5,6 +5,7 @@ titreSeo: "Maurice : fiscalité de l'expatriation"
 description: "Ni plus-values ni droits de succession, un barème plafonné à 20 %, mais 375 000 dollars de prix d'entrée et aucun sursis automatique d'exit tax."
 categorie: "Expatriation"
 date: 2026-09-16
+maj: 2026-09-21
 lecture: 6
 mots: 1101
 essentiel:

@@ -5,6 +5,7 @@ titreSeo: "Les étapes d'une succession : le déroulé réel"
 description: "Du décès au partage, six mois de démarches et une chronologie précise. Ce qui se passe concrètement, dans quel ordre, et où se produisent les blocages."
 categorie: "Donation et succession"
 date: 2026-09-14
+maj: 2026-09-19
 lecture: 5
 mots: 1074
 essentiel:

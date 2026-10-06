@@ -5,6 +5,7 @@ titreSeo: "PER : fonctionnement complet et fiscalité 2026"
 description: "Versements déductibles, blocage, sortie en capital ou en rente : le PER expliqué, avec les plafonds 2026 et les nouveautés de la loi de finances."
 categorie: "Retraite"
 date: 2026-09-14
+maj: 2026-09-19
 lecture: 6
 mots: 1118
 essentiel:

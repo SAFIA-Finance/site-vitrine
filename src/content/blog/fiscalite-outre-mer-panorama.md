@@ -5,6 +5,7 @@ titreSeo: "DROM, COM, Nouvelle-Calédonie : quelle fiscalité"
 description: "Les DROM appliquent le Code général des impôts, avec une réfaction de 30 % ou 40 % plafonnée. Les COM à autonomie fiscale ont le leur. Qui relève de quoi."
 categorie: "Outre-mer"
 date: 2026-09-16
+maj: 2026-09-21
 lecture: 5
 mots: 996
 essentiel:

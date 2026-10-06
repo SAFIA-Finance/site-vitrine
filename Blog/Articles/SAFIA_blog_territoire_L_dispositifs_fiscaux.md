@@ -139,7 +139,7 @@ Code général des impôts, **article 199 tervicies** · Code général des imp�
 
 ### Liens internes
 
-articles **J12** et **K8**.
+articles **L2** et **K8**.
 
 ---
 
@@ -368,7 +368,7 @@ Code général des impôts, **article 199 novovicies** · [Service-public, inves
 
 ### Liens internes
 
-articles **L4** et **J12**.
+articles **L4** et **L5**.
 
 ---
 
@@ -938,7 +938,7 @@ Code général des impôts, **article 199 unvicies** et **article 200-0 A** · [
 
 ### Liens internes
 
-articles **L6** et **L7**.
+articles **L9** et **L7**.
 
 ---
 
@@ -1038,4 +1038,4 @@ Code général des impôts, **article 793**, **article 793 bis** et **article 97
 
 ### Liens internes
 
-articles **J22** et **L1**.
+articles **J22** et **L6**.

@@ -4,7 +4,7 @@ titre: "Malraux : ce que la réduction d'impôt exige vraiment"
 titreSeo: "Malraux : ce que la réduction d'impôt exige vraiment"
 description: "Malraux : 22 % ou 30 % des travaux, 400 000 € sur quatre ans, et hors plafond des niches. En contrepartie, neuf ans de location nue."
 categorie: "Dispositifs fiscaux"
-date: 2026-09-14
+date: 2026-09-22
 lecture: 6
 mots: 1206
 essentiel:
@@ -36,7 +36,7 @@ outils:
     url: "/outils/impot-revenu/"
     resume: "Ton impôt, ta tranche marginale et ton taux moyen, barème 2026."
 articlesLies:
-  - "immobilier-locatif-direct"
+  - "monuments-historiques-fiscalite"
   - "defiscalisation-outre-mer-dispositifs"
 seoDerive: true
 sources: "Code général des impôts, **article 199 tervicies** · Code général des impôts, **article 200-0 A** sur le plafonnement global des avantages fiscaux · Loi n° 2012-1509 du 29 décembre 2012 de finances pour 2013, article 73 I, qui exclut Malraux du plafonnement global · Loi n° 2016-1917 du 29 décembre 2016, article 40, pour le plafond pluriannuel de 400 000 € et le report du solde sur trois ans · [BOFiP, modalités d'application de la réduction Malraux](https://bofip.impots.gouv.fr/bofip/8771-PGP.html/identifiant=BOI-IR-RICI-200-30-20200227) · [BOFiP, conditions d'application et engagement de location](https://bofip.impots.gouv.fr/bofip/8770-PGP.html/identifiant=BOI-IR-RICI-200-20-20170905) · [BOFiP, remise en cause de la réduction d'impôt](https://bofip.impots.gouv.fr/bofip/8772-PGP.html/identifiant=BOI-IR-RICI-200-40-20170905)"

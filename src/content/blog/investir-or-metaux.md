@@ -5,6 +5,7 @@ titreSeo: "Or et métaux précieux : fiscalité et rôle réel"
 description: "L'or ne produit ni intérêt ni dividende : il diversifie, il ne rapporte pas. Deux fiscalités coexistent, et le support choisi change l'imposition."
 categorie: "Produits d'investissement"
 date: 2026-09-16
+maj: 2026-09-19
 lecture: 4
 mots: 868
 essentiel:

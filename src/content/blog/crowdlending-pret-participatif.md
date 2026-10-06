@@ -5,6 +5,7 @@ titreSeo: "Crowdlending : le rendement dépend du taux de défaut"
 description: "Le rendement net dépend du taux de défaut, jamais du taux affiché. Les pertes en capital ne compensent pas automatiquement les intérêts imposés."
 categorie: "Produits d'investissement"
 date: 2026-09-16
+maj: 2026-09-19
 lecture: 4
 mots: 760
 essentiel:

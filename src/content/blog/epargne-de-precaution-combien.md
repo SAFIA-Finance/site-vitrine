@@ -5,6 +5,7 @@ titreSeo: "Épargne de précaution : combien garder en 2026 ?"
 description: "Trois à six mois de dépenses, dit la règle. Comment calculer ton montant réel, et pourquoi l'excès d'épargne de précaution coûte cher."
 categorie: "Épargne réglementée"
 date: 2026-09-14
+maj: 2026-09-19
 lecture: 4
 mots: 822
 essentiel:

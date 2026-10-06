@@ -5,6 +5,7 @@ titreSeo: "Malte : fiscalité de l'expatriation"
 description: "Les plus-values étrangères ne sont jamais imposées à Malte, même rapatriées. Mais l'impôt minimum passe de 15 000 à 35 000 € au 1ᵉʳ janvier 2027."
 categorie: "Expatriation"
 date: 2026-09-16
+maj: 2026-09-21
 lecture: 7
 mots: 1424
 essentiel:

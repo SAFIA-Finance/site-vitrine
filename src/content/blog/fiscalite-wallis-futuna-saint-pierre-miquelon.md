@@ -5,6 +5,7 @@ titreSeo: "Wallis-et-Futuna et Saint-Pierre-et-Miquelon : fiscalité"
 description: "Deux collectivités de l'article 74 à fiscalité propre : Wallis-et-Futuna sans impôt sur le revenu, Saint-Pierre-et-Miquelon avec son code local."
 categorie: "Outre-mer"
 date: 2026-09-16
+maj: 2026-09-21
 lecture: 4
 mots: 896
 essentiel:

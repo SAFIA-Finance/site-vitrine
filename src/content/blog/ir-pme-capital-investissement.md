@@ -4,7 +4,7 @@ titre: "Capital-investissement : ce qui reste après la suppression des FCPI"
 titreSeo: "Capital-investissement : ce qui reste après la suppression"
 description: "Les FCPI et FIP classiques sont supprimés. Restent l'IR-PME, les jeunes entreprises innovantes et les FIP Corse et outre-mer."
 categorie: "Dispositifs fiscaux"
-date: 2026-09-14
+date: 2026-09-22
 lecture: 4
 mots: 893
 essentiel:

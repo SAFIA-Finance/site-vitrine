@@ -5,6 +5,7 @@ titreSeo: "Usufruit et nue-propriété : comprendre le démembrement"
 description: "Donner la nue-propriété en gardant l'usufruit réduit la base taxable selon l'âge. Le barème de l'article 669, expliqué avec un exemple chiffré."
 categorie: "Donation et succession"
 date: 2026-09-14
+maj: 2026-09-19
 lecture: 5
 mots: 1070
 essentiel:

@@ -5,6 +5,7 @@ titreSeo: "Produits complexes : six questions avant de signer"
 description: "Six questions à poser avant de signer, dont celle sur la rémunération de ton interlocuteur. Sans réponse écrite aux six, la réponse est non."
 categorie: "Produits d'investissement"
 date: 2026-09-16
+maj: 2026-09-19
 lecture: 5
 mots: 1022
 essentiel:

@@ -5,6 +5,7 @@ titreSeo: "Fonds obligataires : l'effet des taux et le fonds daté"
 description: "Le prix d'une obligation baisse quand les taux montent. La duration mesure cette sensibilité, et le fonds daté rend le rendement plus prévisible."
 categorie: "Produits d'investissement"
 date: 2026-09-16
+maj: 2026-09-19
 lecture: 4
 mots: 820
 essentiel:

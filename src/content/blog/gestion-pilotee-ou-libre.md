@@ -5,6 +5,7 @@ titreSeo: "Gestion pilotée ou gestion libre : comment choisir"
 description: "Déléguer ou décider soi-même : le choix se joue sur le temps, la discipline et le coût, pas sur une supposée supériorité de performance."
 categorie: "Comparaison et décision"
 date: 2026-09-14
+maj: 2026-09-19
 lecture: 5
 mots: 1025
 essentiel:

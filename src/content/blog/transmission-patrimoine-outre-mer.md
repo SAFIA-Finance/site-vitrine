@@ -5,6 +5,7 @@ titreSeo: "Transmettre un patrimoine situé outre-mer"
 description: "Dans les DROM, mêmes abattements et même barème qu'en métropole. Ailleurs, droit local. L'article 750 ter et le piège de la résidence de l'héritier."
 categorie: "Outre-mer"
 date: 2026-09-16
+maj: 2026-09-19
 lecture: 3
 mots: 660
 essentiel:

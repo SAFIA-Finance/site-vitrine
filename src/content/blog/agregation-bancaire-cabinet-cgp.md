@@ -5,6 +5,7 @@ titreSeo: "Agrégation bancaire en cabinet CGP : ce qu'il faut savoir"
 description: "Ce que la DSP2 permet réellement, ce que l'agrégation fait gagner à un cabinet, et les erreurs de classification qui produisent des chiffres faux."
 categorie: "Professionnels"
 date: 2026-09-14
+maj: 2026-09-19
 lecture: 4
 mots: 843
 essentiel:

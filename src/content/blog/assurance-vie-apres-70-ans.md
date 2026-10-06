@@ -5,6 +5,7 @@ titreSeo: "Assurance-vie après 70 ans : le régime de l'article 757 B"
 description: "Après 70 ans, l'abattement tombe à 30 500 € global, mais seules les primes sont taxées, pas les gains. Pourquoi ce régime reste souvent intéressant."
 categorie: "Donation et succession"
 date: 2026-09-14
+maj: 2026-09-19
 lecture: 5
 mots: 1083
 essentiel:

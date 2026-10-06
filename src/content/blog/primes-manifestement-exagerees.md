@@ -5,6 +5,7 @@ titreSeo: "Assurance-vie contestée : les primes manifestement exagérées"
 description: "L'assurance-vie est hors succession, sauf primes manifestement exagérées. Les critères d'appréciation et les effets d'une réintégration."
 categorie: "Donation et succession"
 date: 2026-09-16
+maj: 2026-09-19
 lecture: 4
 mots: 796
 essentiel:

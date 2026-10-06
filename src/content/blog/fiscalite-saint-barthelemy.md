@@ -5,6 +5,7 @@ titreSeo: "Saint-Barthélemy : autonomie fiscale et règle des cinq ans"
 description: "Ni impôt sur le revenu, ni IFI, ni droits de succession. Mais le domicile fiscal local n'est reconnu qu'après cinq ans : une salle d'attente fiscale."
 categorie: "Outre-mer"
 date: 2026-09-16
+maj: 2026-09-21
 lecture: 6
 mots: 1230
 essentiel:

@@ -4,7 +4,7 @@ titre: "Monuments historiques : le seul régime qui déduit du revenu global"
 titreSeo: "Monuments historiques : le seul régime qui déduit du revenu"
 description: "Les monuments historiques déduisent les charges du revenu global, sans plafond de niches. En contrepartie, quinze ans de conservation."
 categorie: "Dispositifs fiscaux"
-date: 2026-09-14
+date: 2026-09-22
 lecture: 4
 mots: 872
 essentiel:

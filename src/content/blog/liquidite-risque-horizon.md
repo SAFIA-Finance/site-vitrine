@@ -5,6 +5,7 @@ titreSeo: "Liquidité, risque, horizon : situer tout placement"
 description: "Disponibilité, risque de perte, horizon minimal : trois paramètres situent tout placement. Aucun produit n'est bon sur les trois à la fois."
 categorie: "Produits d'investissement"
 date: 2026-09-16
+maj: 2026-09-19
 lecture: 5
 mots: 1067
 essentiel:

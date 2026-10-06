@@ -5,6 +5,7 @@ titreSeo: "Livret A plein : où placer son épargne ensuite ?"
 description: "22 950 € atteints sur le livret A. LDDS, LEP, assurance-vie, PEA : comment choisir la suite selon ton horizon, avec les taux et la fiscalité de 2026."
 categorie: "Épargne réglementée"
 date: 2026-09-14
+maj: 2026-09-19
 lecture: 5
 mots: 912
 essentiel:

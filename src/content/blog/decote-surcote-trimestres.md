@@ -5,6 +5,7 @@ titreSeo: "Décote et surcote : le vocabulaire de la retraite"
 description: "Taux plein, décote, surcote, trimestres cotisés ou assimilés : les termes qui déterminent le montant de ta pension, expliqués sans jargon."
 categorie: "Retraite"
 date: 2026-09-14
+maj: 2026-09-19
 lecture: 6
 mots: 1132
 essentiel:

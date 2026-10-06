@@ -5,6 +5,7 @@ titreSeo: "Concubin, PACS, mariage : trois régimes très inégaux"
 description: "Concubin taxé à 60 %, partenaire de PACS exonéré mais non héritier, conjoint marié protégé : trois statuts, trois résultats très différents."
 categorie: "Donation et succession"
 date: 2026-09-16
+maj: 2026-09-19
 lecture: 4
 mots: 789
 essentiel:

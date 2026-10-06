@@ -5,6 +5,7 @@ titreSeo: "Frais de gestion : l'effet de 1 % sur 20 ans"
 description: "Un point de frais annuel paraît anodin. Sur vingt ans, il absorbe une fraction considérable du capital final. Le calcul complet, sans hypothèse optimiste."
 categorie: "Comparaison et décision"
 date: 2026-09-14
+maj: 2026-09-19
 lecture: 5
 mots: 1016
 essentiel:

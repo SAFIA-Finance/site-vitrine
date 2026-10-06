@@ -5,6 +5,7 @@ titreSeo: "Clients à faible encours : rentabilité en cabinet CGP"
 description: "Le seuil de rentabilité d'un client se calcule. Comment segmenter, industrialiser ce qui peut l'être, et traiter les dossiers sous le seuil."
 categorie: "Professionnels"
 date: 2026-09-14
+maj: 2026-09-19
 lecture: 4
 mots: 836
 essentiel:

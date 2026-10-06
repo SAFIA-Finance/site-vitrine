@@ -5,6 +5,7 @@ titreSeo: "Canada : fiscalité de l'expatriation"
 description: "Pas de droits de succession, mais au décès la moitié des plus-values latentes s'ajoute à la dernière déclaration, à un taux qui atteint 53,53 % en Ontario."
 categorie: "Expatriation"
 date: 2026-09-16
+maj: 2026-09-21
 lecture: 6
 mots: 1125
 essentiel:

@@ -5,6 +5,7 @@ titreSeo: "Livret A ou LDDS : quelle différence réelle en 2026 ?"
 description: "Même taux de 1,70 %, même fiscalité nulle, même disponibilité. Ce qui sépare vraiment le livret A du LDDS, et pourquoi la question du choix ne se pose pas."
 categorie: "Épargne réglementée"
 date: 2026-09-14
+maj: 2026-09-19
 lecture: 4
 mots: 865
 essentiel:

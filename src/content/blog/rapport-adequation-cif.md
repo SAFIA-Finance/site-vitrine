@@ -5,6 +5,7 @@ titreSeo: "Déclaration d'adéquation : contenu et méthode"
 description: "Le rapport d'adéquation doit expliquer pourquoi la recommandation convient à ce client. Structure, mentions attendues et méthode de production."
 categorie: "Professionnels"
 date: 2026-09-14
+maj: 2026-09-19
 lecture: 4
 mots: 749
 essentiel:

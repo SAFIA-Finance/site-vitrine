@@ -5,6 +5,7 @@ titreSeo: "Irlande : fiscalité de l'expatriation"
 description: "Remittance pour les revenus étrangers, mais 52 % de taux marginal sur le salaire local, et 33 % de droits de transmission au-delà de 400 000 € par enfant."
 categorie: "Expatriation"
 date: 2026-09-16
+maj: 2026-09-21
 lecture: 5
 mots: 1089
 essentiel:

@@ -5,6 +5,7 @@ titreSeo: "Crowdfunding immobilier : rendement, risque, défauts"
 description: "Un intérêt de 8 à 12 % qui rémunère un risque réel : retard, dépassement, défaillance du promoteur. Les défauts ont augmenté depuis 2023."
 categorie: "Produits d'investissement"
 date: 2026-09-16
+maj: 2026-09-19
 lecture: 4
 mots: 846
 essentiel:

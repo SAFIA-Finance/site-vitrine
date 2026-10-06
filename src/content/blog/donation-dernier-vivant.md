@@ -5,6 +5,7 @@ titreSeo: "Donation au dernier vivant : protéger son conjoint"
 description: "La donation au dernier vivant élargit les droits du conjoint au-delà du minimum légal et lui laisse le choix entre trois options au décès."
 categorie: "Donation et succession"
 date: 2026-09-16
+maj: 2026-09-19
 lecture: 5
 mots: 928
 essentiel:

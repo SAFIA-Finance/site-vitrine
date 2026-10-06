@@ -5,6 +5,7 @@ titreSeo: "Suisse : fiscalité de l'expatriation"
 description: "Forfait négocié canton par canton, impôt sur la fortune, et surtout : hors sursis automatique d'exit tax, ce qui alourdit la préparation du départ."
 categorie: "Expatriation"
 date: 2026-09-16
+maj: 2026-09-19
 lecture: 5
 mots: 1010
 essentiel:

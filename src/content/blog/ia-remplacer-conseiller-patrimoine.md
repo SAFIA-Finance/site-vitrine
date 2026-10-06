@@ -5,6 +5,7 @@ titreSeo: "L'IA peut-elle remplacer un conseiller patrimonial ?"
 description: "Ce qu'une IA fait mieux qu'un humain, ce qu'elle ne peut pas faire, et pourquoi le conseil en investissement reste une activité réglementée en France."
 categorie: "IA et méthode"
 date: 2026-09-14
+maj: 2026-09-19
 lecture: 4
 mots: 861
 essentiel:

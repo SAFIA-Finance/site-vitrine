@@ -5,6 +5,7 @@ titreSeo: "Onboarding client digital en cabinet CGP"
 description: "Réduire le délai entre le premier contact et le rendez-vous utile, sans dégrader la conformité. Les cinq étapes et les points de friction."
 categorie: "Professionnels"
 date: 2026-09-14
+maj: 2026-09-19
 lecture: 4
 mots: 825
 essentiel:

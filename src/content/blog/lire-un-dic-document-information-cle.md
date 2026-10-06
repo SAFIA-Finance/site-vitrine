@@ -5,6 +5,7 @@ titreSeo: "Comment lire un DIC en cinq minutes"
 description: "Le document d'informations clés est la seule pièce comparable d'un produit à l'autre. Les cinq rubriques utiles, et l'indicateur de risque de 1 à 7."
 categorie: "Produits d'investissement"
 date: 2026-09-16
+maj: 2026-09-19
 lecture: 5
 mots: 1004
 essentiel:

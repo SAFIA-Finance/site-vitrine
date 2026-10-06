@@ -5,6 +5,7 @@ titreSeo: "Investir en nue-propriété : décote, IFI et horizon"
 description: "Une décote contre l'abandon des revenus pendant quinze à vingt ans : aucune imposition, hors assiette IFI, et un rendement entièrement différé."
 categorie: "Produits d'investissement"
 date: 2026-09-16
+maj: 2026-09-19
 lecture: 4
 mots: 825
 essentiel:

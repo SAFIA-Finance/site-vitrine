@@ -5,6 +5,7 @@ titreSeo: "DROM : la réfaction d'impôt de 30 % et 40 %, et son plafond"
 description: "La réfaction porte sur le montant de l'impôt, pas sur le revenu imposable. Son plafond, son exclusion du PFU, et la date qui fixe la domiciliation."
 categorie: "Outre-mer"
 date: 2026-09-16
+maj: 2026-09-19
 lecture: 4
 mots: 853
 essentiel:

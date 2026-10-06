@@ -5,6 +5,7 @@ titreSeo: "Labels ISR, Greenfin, Finansol : que valent-ils ?"
 description: "Trois labels français, trois promesses différentes. Ce que chacun exige réellement, ce qu'il n'exige pas, et comment les utiliser sans se tromper."
 categorie: "ESG et impact"
 date: 2026-09-14
+maj: 2026-09-19
 lecture: 4
 mots: 858
 essentiel:

@@ -5,6 +5,7 @@ titreSeo: "Robo-advisor : définition, fonctionnement, limites"
 description: "Un robo-advisor gère un portefeuille selon un profil, via un mandat. Comment il fonctionne réellement, ce qu'il coûte, et dans quels cas il convient."
 categorie: "Comparaison et décision"
 date: 2026-09-14
+maj: 2026-09-19
 lecture: 5
 mots: 982
 essentiel:

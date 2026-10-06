@@ -4,7 +4,7 @@ titre: "Denormandie : rénover dans l'ancien, jusqu'à 21 % de réduction"
 titreSeo: "Denormandie : rénover dans l'ancien, jusqu'à 21 % de"
 description: "Denormandie : 12, 18 ou 21 % selon la durée de location, 300 000 € de plafond, et au moins 25 % de travaux. Ouvert jusqu'à fin 2027."
 categorie: "Dispositifs fiscaux"
-date: 2026-09-14
+date: 2026-09-22
 lecture: 4
 mots: 869
 essentiel:
@@ -37,7 +37,7 @@ outils:
     resume: "Ton impôt, ta tranche marginale et ton taux moyen, barème 2026."
 articlesLies:
   - "loc-avantages-conventionnement-anah"
-  - "immobilier-locatif-direct"
+  - "relance-logement-jeanbrun"
 seoDerive: true
 sources: "Code général des impôts, **article 199 novovicies** · [Service-public, investissement locatif « Denormandie »](https://www.service-public.gouv.fr/particuliers/vosdroits/F35011) · [Service-public, panorama des dispositifs d'investissement locatif et leurs dates](https://www.service-public.gouv.fr/particuliers/vosdroits/F35782) · [BOFiP, dispositif « Denormandie ancien », champ d'application](https://bofip.impots.gouv.fr/bofip/11938-PGP.html/identifiant=BOI-IR-RICI-365-10-20240328)"
 ---

@@ -5,6 +5,7 @@ titreSeo: "AI Act : ce qui change pour un cabinet de CGP"
 description: "Les pratiques interdites s'appliquent depuis février 2025, mais le haut risque a été repoussé à décembre 2027. Le calendrier réel, et les amendes."
 categorie: "Professionnels"
 date: 2026-09-14
+maj: 2026-09-21
 lecture: 5
 mots: 910
 essentiel:

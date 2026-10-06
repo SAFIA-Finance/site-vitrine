@@ -5,6 +5,7 @@ titreSeo: "Transmettre à ses petits-enfants : 3 outils en 2026"
 description: "Abattement de 31 865 €, don familial, assurance-vie : comment un grand-parent transmet sans droits, et pourquoi sauter une génération a un intérêt fiscal."
 categorie: "Donation et succession"
 date: 2026-09-14
+maj: 2026-09-19
 lecture: 5
 mots: 901
 essentiel:

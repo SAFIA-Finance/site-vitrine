@@ -5,6 +5,7 @@ titreSeo: "SFDR articles 6, 8 et 9 : ce que ça veut dire"
 description: "La classification SFDR est auto-déclarée et va être remplacée. Ce que recouvrent réellement les articles 8 et 9, et ce qui change avec la réforme en cours."
 categorie: "ESG et impact"
 date: 2026-09-14
+maj: 2026-09-19
 lecture: 4
 mots: 817
 essentiel:

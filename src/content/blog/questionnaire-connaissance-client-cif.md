@@ -5,6 +5,7 @@ titreSeo: "Recueil client MiFID II : obligations du CIF"
 description: "Les cinq blocs obligatoires du recueil d'informations, les exigences de mise à jour, et les faiblesses les plus fréquemment relevées en contrôle."
 categorie: "Professionnels"
 date: 2026-09-14
+maj: 2026-09-21
 lecture: 5
 mots: 992
 essentiel:

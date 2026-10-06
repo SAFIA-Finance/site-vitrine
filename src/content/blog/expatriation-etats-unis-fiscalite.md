@@ -5,6 +5,7 @@ titreSeo: "États-Unis : fiscalité de l'expatriation"
 description: "Un abattement successoral de 60 000 $ pour le non-résident détenant des titres américains, contre 15 millions pour un résident. Le piège le plus coûteux."
 categorie: "Expatriation"
 date: 2026-09-16
+maj: 2026-09-21
 lecture: 7
 mots: 1350
 essentiel:

@@ -5,6 +5,7 @@ titreSeo: "Forêts, vignes, art : ce que ces actifs coûtent vraiment"
 description: "Forêts, vignes, art, collection : une logique patrimoniale, pas de rendement. Les performances publiées surestiment, et le coût de détention s'oublie."
 categorie: "Produits d'investissement"
 date: 2026-09-16
+maj: 2026-09-19
 lecture: 4
 mots: 885
 essentiel:

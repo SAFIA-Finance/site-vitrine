@@ -5,6 +5,7 @@ titreSeo: "Saint-Martin : fiscalité propre et règle des cinq ans"
 description: "Même statut et même règle des cinq ans qu'à Saint-Barthélemy, mais un code local qui prélève l'impôt sur le revenu et les droits de succession. L'inverse."
 categorie: "Outre-mer"
 date: 2026-09-16
+maj: 2026-09-21
 lecture: 5
 mots: 1067
 essentiel:

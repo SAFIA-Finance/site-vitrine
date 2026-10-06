@@ -5,6 +5,7 @@ titreSeo: "Testament : olographe, authentique, international"
 description: "Olographe, authentique ou international : ce que chaque forme garantit, ses causes de nullité, et pourquoi l'inscrire au fichier central."
 categorie: "Donation et succession"
 date: 2026-09-16
+maj: 2026-09-19
 lecture: 4
 mots: 729
 essentiel:

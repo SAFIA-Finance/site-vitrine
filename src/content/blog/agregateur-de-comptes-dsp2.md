@@ -5,6 +5,7 @@ titreSeo: "Agrégateur de comptes : fonctionnement et sécurité"
 description: "Depuis la DSP2, tes banques doivent ouvrir un accès sécurisé à tes données. Comment fonctionne un agrégateur, ce qu'il voit, et ce qu'il ne peut pas faire."
 categorie: "Comparaison et décision"
 date: 2026-09-14
+maj: 2026-09-21
 lecture: 7
 mots: 1429
 essentiel:

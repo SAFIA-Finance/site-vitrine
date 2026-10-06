@@ -5,6 +5,7 @@ titreSeo: "SCPI : rendement, liquidité, fiscalité"
 description: "Le taux de distribution est un rendement brut d'impôt. Le prix des parts peut baisser, et la liquidité disparaît quand tout le monde veut sortir."
 categorie: "Produits d'investissement"
 date: 2026-09-16
+maj: 2026-09-19
 lecture: 4
 mots: 818
 essentiel:

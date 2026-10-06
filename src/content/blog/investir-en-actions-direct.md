@@ -5,6 +5,7 @@ titreSeo: "Actions en direct : diversification, biais domestique, PEA"
 description: "Détenir en direct supprime les frais de gestion mais transfère le risque de concentration. Le biais domestique, et le PEA après cinq ans."
 categorie: "Produits d'investissement"
 date: 2026-09-16
+maj: 2026-09-19
 lecture: 5
 mots: 982
 essentiel:

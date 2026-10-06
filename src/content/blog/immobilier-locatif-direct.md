@@ -5,6 +5,7 @@ titreSeo: "Immobilier locatif en direct : le rendement net réel"
 description: "Le rendement brut ne veut rien dire : six postes se soustraient avant la fiscalité. Le calcul du net net, et ce que le LMNP change à l'équation."
 categorie: "Produits d'investissement"
 date: 2026-09-16
+maj: 2026-09-19
 lecture: 5
 mots: 979
 essentiel:

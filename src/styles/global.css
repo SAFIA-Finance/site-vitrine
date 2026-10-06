@@ -159,6 +159,11 @@ body.bloque{overflow:hidden}
 .seq{opacity:0;transform:translateY(8px);transition:opacity .45s ease,transform .45s ease}
 .seq.vu{opacity:1;transform:none}
 @media (prefers-reduced-motion:reduce){.seq{opacity:1;transform:none;transition:none}.frappe{display:none!important}}
+/* Sans JavaScript, rien ne viendrait jamais poser « vu » : la conversation du
+   hero resterait invisible. L'etat par defaut d'un contenu doit etre son etat
+   final, et c'est le script qui le masque pour le mettre en scene, pas
+   l'inverse. « scripting » est lu par Chrome 120, Firefox 113 et Safari 17. */
+@media (scripting:none){.seq{opacity:1;transform:none;transition:none}.frappe{display:none!important}}
 
 /* ---------- Aiguillage ---------- */
 .aiguillage{position:relative;z-index:1;padding-bottom:56px}
@@ -265,6 +270,10 @@ section.bloc{padding:96px 0}
 
 /* Fondateur */
 .fondateur{display:grid;grid-template-columns:.75fr 1.25fr;gap:56px;align-items:center}
+/* « picture » ne sert qu'a choisir le format : il ne doit pas devenir une boite
+   de plus dans la mise en page, sans quoi l'image cesse d'etre l'enfant direct
+   de sa grille. */
+picture{display:contents}
 .portrait{width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;border-radius:var(--r-l);display:block;box-shadow:0 20px 50px rgba(19,12,54,.18)}
 
 blockquote p{font-size:clamp(1.5rem,3vw,2.2rem);line-height:1.28;letter-spacing:-.02em;font-weight:500;max-width:28ch}

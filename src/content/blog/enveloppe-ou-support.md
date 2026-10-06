@@ -5,6 +5,7 @@ titreSeo: "Enveloppe et support : comprendre la distinction"
 description: "L'enveloppe porte la fiscalité, le support porte la performance. Confondre les deux produit les erreurs de placement les plus coûteuses."
 categorie: "Produits d'investissement"
 date: 2026-09-16
+maj: 2026-09-19
 lecture: 5
 mots: 1060
 essentiel:

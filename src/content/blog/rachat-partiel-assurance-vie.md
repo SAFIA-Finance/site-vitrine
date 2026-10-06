@@ -5,6 +5,7 @@ titreSeo: "Rachat partiel assurance-vie : calcul de l'impôt 2026"
 description: "La formule du rachat partiel, la part de gains, le taux applicable : trois exemples chiffrés pour savoir exactement ce que coûtera ton retrait."
 categorie: "Assurance-vie"
 date: 2026-09-14
+maj: 2026-09-19
 lecture: 5
 mots: 941
 essentiel:

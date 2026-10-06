@@ -5,6 +5,7 @@ titreSeo: "Investir outre-mer : les dispositifs de réduction d'impôt"
 description: "Un plafond de niches porté à 18 000 €, qui autorise en réalité 40 909 € de réduction, voire 52 941 € sous agrément. Le mécanisme et le risque de reprise."
 categorie: "Outre-mer"
 date: 2026-09-16
+maj: 2026-09-21
 lecture: 6
 mots: 1161
 essentiel:

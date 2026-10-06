@@ -5,6 +5,7 @@ titreSeo: "Italie : fiscalité de l'expatriation"
 description: "Forfait à 300 000 €, flat tax de 7 % pour retraités, impatriati : les quatre régimes italiens, et la taxe sur les actifs détenus hors d'Italie."
 categorie: "Expatriation"
 date: 2026-09-16
+maj: 2026-09-19
 lecture: 6
 mots: 1121
 essentiel:

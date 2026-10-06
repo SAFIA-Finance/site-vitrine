@@ -5,6 +5,7 @@ titreSeo: "Investir selon ses valeurs : par où commencer"
 description: "Exclure, sélectionner ou financer : trois approches de l'investissement responsable, et comment identifier celle qui te correspond vraiment."
 categorie: "ESG et impact"
 date: 2026-09-14
+maj: 2026-09-19
 lecture: 4
 mots: 835
 essentiel:

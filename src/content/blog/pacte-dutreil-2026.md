@@ -5,6 +5,7 @@ titreSeo: "Pacte Dutreil 2026 : transmettre son entreprise"
 description: "Une exonération de 75 % sur les titres transmis, contre huit ans de conservation depuis la réforme 2026. Conditions, cumuls et pièges du pacte Dutreil."
 categorie: "Donation et succession"
 date: 2026-09-16
+maj: 2026-09-19
 lecture: 5
 mots: 935
 essentiel:

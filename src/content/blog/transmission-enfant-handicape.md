@@ -5,6 +5,7 @@ titreSeo: "Enfant handicapé : protection et transmission"
 description: "Un abattement spécifique de 159 325 €, cumulable avec celui de parenté : un enfant handicapé reçoit donc 259 325 € par parent avant barème."
 categorie: "Donation et succession"
 date: 2026-09-16
+maj: 2026-09-19
 lecture: 4
 mots: 792
 essentiel:

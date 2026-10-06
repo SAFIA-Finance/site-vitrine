@@ -109,7 +109,30 @@ const DATES = {
   SAFIA_blog_territoire_J1_produits_cadrage: '2026-09-16',
   SAFIA_blog_territoire_J2_produits_suite: '2026-09-16',
   SAFIA_blog_territoire_K_territoires_francais: '2026-09-16',
+  // Le territoire L a été écrit et publié le 22 septembre 2026. Sans cette
+  // ligne, ses neuf articles prenaient la date par défaut et se déclaraient
+  // publiés le 14, huit jours avant d'exister.
+  SAFIA_blog_territoire_L_dispositifs_fiscaux: '2026-09-22',
 };
+
+// ---------------------------------------------------------------------------
+// Dates de mise à jour.
+//
+// src/data/maj-articles.json dit, article par article, quand son CONTENU a
+// changé pour la dernière fois : le corps, « l'essentiel » ou la FAQ, de
+// quarante mots au moins. Il a été établi le 6 octobre 2026 à partir de
+// l'historique git, et il se tient ensuite à la main.
+//
+// LA RÈGLE, qui ne souffre pas d'exception : on n'y inscrit une date que si le
+// texte lu par le visiteur a réellement changé. Lier une source, raccourcir une
+// description, corriger une faute ou déplacer un lien ne rend pas un article
+// plus frais. Un faux signal de fraîcheur se retourne contre celui qui l'émet,
+// et sur des sujets d'argent Google y est particulièrement attentif.
+//
+// Une date qui ne dépasse pas la date de publication est ignorée : l'article
+// n'a alors, en vérité, pas été mis à jour.
+// ---------------------------------------------------------------------------
+const MAJ = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'src', 'data', 'maj-articles.json'), 'utf8'));
 
 /** Les fichiers de Maxime échappent certains caractères Markdown. */
 const desechapper = (t) =>
@@ -493,6 +516,7 @@ for (const a of articles) {
     `description: ${yaml(a.description)}`,
     `categorie: ${yaml(a.categorie)}`,
     `date: ${a.date}`,
+    ...(MAJ[a.slug] && MAJ[a.slug] > a.date ? [`maj: ${MAJ[a.slug]}`] : []),
     `lecture: ${a.lecture}`,
     `mots: ${a.mots}`,
     'essentiel:',

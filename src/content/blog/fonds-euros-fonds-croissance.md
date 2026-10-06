@@ -5,6 +5,7 @@ titreSeo: "Fonds euros : pourquoi le rendement réagit avec retard"
 description: "Le fonds en euros réagit avec retard aux taux, car son portefeuille obligataire se constitue lentement. Ce que les fonds croissance changent."
 categorie: "Produits d'investissement"
 date: 2026-09-16
+maj: 2026-09-19
 lecture: 4
 mots: 844
 essentiel:

@@ -5,6 +5,7 @@ titreSeo: "LEP 2026 : 2,50 %, conditions de revenus et plafond"
 description: "Le LEP rapporte 2,50 % net en 2026, soit 0,80 point de plus que le livret A. Conditions de revenus, plafond de 10 000 €, ouverture : le mode d'emploi."
 categorie: "Épargne réglementée"
 date: 2026-09-14
+maj: 2026-09-22
 lecture: 5
 mots: 931
 essentiel:

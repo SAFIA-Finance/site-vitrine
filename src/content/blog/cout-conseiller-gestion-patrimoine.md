@@ -5,6 +5,7 @@ titreSeo: "Prix d'un conseiller en gestion de patrimoine 2026"
 description: "Honoraires, rétrocessions, frais sur encours : les trois modes de rémunération d'un CGP, et le seuil de patrimoine à partir duquel on est servi."
 categorie: "Comparaison et décision"
 date: 2026-09-14
+maj: 2026-09-19
 lecture: 5
 mots: 940
 essentiel:

@@ -5,6 +5,7 @@ titreSeo: "PER : sortir en capital ou en rente ? Comparatif"
 description: "Capital en une fois, fractionné ou rente viagère : trois sorties, trois fiscalités. Le comparatif chiffré et les critères non fiscaux."
 categorie: "Retraite"
 date: 2026-09-14
+maj: 2026-09-19
 lecture: 5
 mots: 1047
 essentiel:

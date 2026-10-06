@@ -5,6 +5,7 @@ titreSeo: "Don familial de 31 865 € : conditions et cumul"
 description: "L'article 790 G permet de donner 31 865 € en argent, exonérés, en plus de l'abattement de 100 000 €. Conditions d'âge, bénéficiaires, déclaration."
 categorie: "Donation et succession"
 date: 2026-09-14
+maj: 2026-09-19
 lecture: 5
 mots: 908
 essentiel:

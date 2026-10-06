@@ -4,7 +4,8 @@ titre: "Girardin industriel : le rendement n'est pas le sujet"
 titreSeo: "Girardin industriel : le rendement n'est pas le sujet"
 description: "Girardin industriel : 38,25 % en direct, 45,30 % via une structure de portage. Le vrai sujet n'est pas le taux, c'est le risque de reprise."
 categorie: "Dispositifs fiscaux"
-date: 2026-09-14
+date: 2026-09-22
+maj: 2026-09-23
 lecture: 4
 mots: 867
 essentiel:

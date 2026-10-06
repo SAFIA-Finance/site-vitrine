@@ -5,6 +5,7 @@ titreSeo: "PEL, CEL, livret jeune : que valent-ils en 2026 ?"
 description: "PEL à 2 % brut mais fiscalisé, CEL à 1,25 %, livret jeune en voie de disparition : l'état réel des produits d'épargne réglementée oubliés."
 categorie: "Épargne réglementée"
 date: 2026-09-14
+maj: 2026-09-19
 lecture: 5
 mots: 947
 essentiel:

@@ -5,6 +5,7 @@ titreSeo: "Marque blanche ou logiciel métier : quelles différences"
 description: "Deux modèles d'équipement, deux répartitions de responsabilité. Ce que la marque blanche change juridiquement, commercialement et contractuellement."
 categorie: "Professionnels"
 date: 2026-09-14
+maj: 2026-09-21
 lecture: 5
 mots: 974
 essentiel:

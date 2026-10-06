@@ -5,6 +5,7 @@ titreSeo: "Bilan patrimonial : contenu réel et limites"
 description: "Inventaire, flux, fiscalité, transmission : les quatre volets d'un bilan patrimonial, et la différence avec une lettre de mission."
 categorie: "IA et méthode"
 date: 2026-09-14
+maj: 2026-09-19
 lecture: 4
 mots: 823
 essentiel:

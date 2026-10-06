@@ -5,6 +5,7 @@ titreSeo: "Prendre sa retraite à l'étranger : ce qu'il faut savoir"
 description: "Versement de la pension, imposition, CSG, couverture maladie : les quatre questions à régler avant de partir à la retraite."
 categorie: "Expatriation"
 date: 2026-09-16
+maj: 2026-09-19
 lecture: 6
 mots: 1116
 essentiel:

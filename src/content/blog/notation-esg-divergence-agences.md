@@ -5,6 +5,7 @@ titreSeo: "Notation ESG : pourquoi les agences se contredisent"
 description: "La corrélation entre agences ESG est de 0,54, contre 0,99 entre agences de notation financière. Les trois causes, et ce que change le règlement de 2026."
 categorie: "ESG et impact"
 date: 2026-09-14
+maj: 2026-09-21
 lecture: 6
 mots: 1161
 essentiel:

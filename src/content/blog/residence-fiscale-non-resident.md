@@ -5,6 +5,7 @@ titreSeo: "Résidence fiscale : devenir non-résident français"
 description: "Foyer, séjour, activité, intérêts économiques : les quatre critères qui déterminent votre résidence fiscale, et comment un départ se conteste."
 categorie: "Expatriation"
 date: 2026-09-16
+maj: 2026-09-19
 lecture: 6
 mots: 1137
 essentiel:

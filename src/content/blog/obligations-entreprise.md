@@ -5,6 +5,7 @@ titreSeo: "Obligations d'entreprise : coupon, défaut et revente"
 description: "Prêter à une entreprise identifiée, pour une durée et un coupon connus. Deux risques : le défaut de l'émetteur, et le prix si tu revends avant terme."
 categorie: "Produits d'investissement"
 date: 2026-09-16
+maj: 2026-09-19
 lecture: 4
 mots: 829
 essentiel:

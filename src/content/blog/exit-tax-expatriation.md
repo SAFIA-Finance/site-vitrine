@@ -5,6 +5,7 @@ titreSeo: "Exit tax 2026 : seuils, taux et sursis de paiement"
 description: "L'exit tax impose vos plus-values latentes au départ de France, à 31,4 % en 2026. Déclenchement, sursis, dégrèvement après 2 ou 5 ans."
 categorie: "Expatriation"
 date: 2026-09-16
+maj: 2026-09-19
 lecture: 6
 mots: 1186
 essentiel:

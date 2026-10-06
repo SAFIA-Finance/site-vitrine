@@ -5,6 +5,7 @@ titreSeo: "Donation aux enfants : 100 000 € tous les 15 ans"
 description: "L'abattement de 100 000 € par parent et par enfant se renouvelle tous les 15 ans. Comment il fonctionne, comment il se cumule, et pourquoi l'âge compte."
 categorie: "Donation et succession"
 date: 2026-09-14
+maj: 2026-09-19
 lecture: 5
 mots: 1062
 essentiel:

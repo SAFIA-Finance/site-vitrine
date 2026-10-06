@@ -5,6 +5,7 @@ titreSeo: "Frais d'assurance-vie : les repérer sur son relevé"
 description: "Frais d'entrée, de gestion, d'arbitrage, frais internes des fonds : les quatre couches de frais d'une assurance-vie et où les lire réellement."
 categorie: "Assurance-vie"
 date: 2026-09-14
+maj: 2026-09-19
 lecture: 4
 mots: 850
 essentiel:

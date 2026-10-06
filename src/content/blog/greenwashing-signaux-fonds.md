@@ -5,6 +5,7 @@ titreSeo: "Greenwashing : 5 signaux à repérer sur un fonds"
 description: "Vocabulaire flou, absence de seuil chiffré, exclusions cosmétiques : cinq vérifications pour repérer un fonds dont la promesse verte est du marketing."
 categorie: "ESG et impact"
 date: 2026-09-14
+maj: 2026-09-19
 lecture: 4
 mots: 794
 essentiel:

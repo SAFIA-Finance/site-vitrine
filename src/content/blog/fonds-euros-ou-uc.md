@@ -5,6 +5,7 @@ titreSeo: "Fonds euros ou unités de compte : comment choisir"
 description: "Capital garanti contre espérance de rendement : la répartition entre fonds euros et unités de compte dépend de ton horizon, pas des performances passées."
 categorie: "Assurance-vie"
 date: 2026-09-14
+maj: 2026-09-19
 lecture: 5
 mots: 929
 essentiel:
