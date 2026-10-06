@@ -1,0 +1,74 @@
+---
+import Base from '../layouts/Base.astro';
+import { SOCIETE } from '../config.js';
+// Page exigée par les magasins d'applications : Apple demande une adresse de
+// support joignable (App Review, 1.5), Google Play une adresse de contact
+// publique pour un compte d'organisation. C'est donc l'URL déclarée dans les
+// deux fiches, et elle doit rester accessible sans compte ni formulaire.
+//
+// Pas de formulaire ici, et c'est délibéré : le seul formulaire du site vise
+// les professionnels et passe par le relais Brevo. En ouvrir un second côté
+// particuliers reviendrait à collecter des données patrimoniales, ce qui ne se
+// décide pas en passant. Le même raisonnement est écrit dans ContactOutil.astro.
+//
+// Les coordonnées viennent toutes de config.js : si le siège ou l'adresse de
+// contact changent, cette page suit sans qu'on ait à y penser.
+const fil = ['Accueil', 'Contact'];
+---
+
+<Base chemin={"/contact/"} fil={fil}>
+<section class="hero hero-page hero-propos">
+<div class="wrap hero-page-in hero-court">
+  <p class="etiq-page">Contact</p>
+  <p class="fil-ariane" aria-label="Fil d'Ariane"><a href="/">Accueil</a> <span aria-hidden="true">/</span> Contact</p>
+  <h1>Nous contacter</h1>
+  <p class="chapo">Une question sur l'application, sur ton compte ou sur un contenu du site ? Une personne de l'équipe te répond, sous 48 heures ouvrées.</p>
+</div>
+</section>
+
+<!-- ===== Les trois voies ===== -->
+<section class="bloc appui-bloc">
+<div class="wrap">
+  <h2 class="titre">Trois façons de nous joindre</h2>
+  <p class="intro" style="margin-bottom:36px">L'email est la voie la plus rapide, et celle que nous suivons tous les jours ouvrés. Les deux autres existent parce qu'une demande n'a pas toujours la même nature.</p>
+  <div class="appuis">
+    <article>
+      <h3>Par email</h3>
+      <p>Pour toute question sur l'application, un compte, une facturation ou un contenu publié. Écris à <a class="lien" href={`mailto:${SOCIETE.email}`}>{SOCIETE.email}</a>. Réponse sous 48 heures ouvrées, du lundi au vendredi.</p>
+    </article>
+    <article>
+      <h3>Par courrier</h3>
+      <p>{SOCIETE.raisonSociale}, {SOCIETE.rue}, {SOCIETE.codePostal} {SOCIETE.ville}, France. C'est le siège social, et l'adresse à utiliser pour tout envoi qui doit garder une trace écrite.</p>
+    </article>
+    <article>
+      <h3>Tu es un professionnel</h3>
+      <p>Conseiller en gestion de patrimoine, institution ou producteur qui souhaite distribuer un produit : passe par le <a class="lien" href="/conseillers/#contact">formulaire dédié</a>, qui nous donne d'emblée le contexte de la demande.</p>
+    </article>
+  </div>
+</div>
+</section>
+
+<!-- ===== Trois précisions ===== -->
+<section class="bloc">
+<div class="wrap">
+  <h2 class="titre">Avant de nous écrire</h2>
+  <div class="prose" style="margin-top:26px">
+    <h3>Ne nous envoie jamais d'identifiants ni de coordonnées bancaires</h3>
+    <p>Un email n'est pas un canal sûr, et nous ne te demanderons jamais ton mot de passe, un code reçu par SMS ou le relevé d'identité bancaire d'un compte. Si un message prétend venir de SAFIA et te réclame l'un des trois, il ne vient pas de nous : signale-le à cette même adresse. Ce que nous faisons pour protéger tes données est décrit sur la page <a class="lien" href="/securite/">sécurité et conformité</a>.</p>
+    <h3>Un échange par email n'est pas un conseil personnalisé</h3>
+    <p>Nous répondons volontiers à une question de fonctionnement ou de compréhension, mais le conseil en investissement est une activité réglementée, qui se délivre dans un cadre dédié par un conseiller habilité. La distinction est détaillée dans notre <a class="lien" href="/disclaimer/">avertissement</a>.</p>
+    <h3>Pour une réclamation</h3>
+    <p>Une réclamation s'adresse d'abord à nous, par écrit, à l'adresse ci-dessus. Si le litige n'est pas résolu à l'amiable, les voies de recours gratuites, dont le Médiateur de l'AMF, sont listées dans nos <a class="lien" href="/mentions-legales/">mentions légales</a>.</p>
+  </div>
+</div>
+</section>
+
+<section class="final">
+<div class="wrap final-simple">
+  <h2>Écris-nous.</h2>
+  <p>Une personne de l'équipe lit chaque message et te répond sous 48 heures ouvrées.</p>
+  <a class="btn btn-primaire" href={`mailto:${SOCIETE.email}`}>{SOCIETE.email}</a>
+  <small>Tes données servent uniquement à traiter ta demande. <a href="/politique-de-confidentialite/">Politique de confidentialité</a></small>
+</div>
+</section>
+</Base>

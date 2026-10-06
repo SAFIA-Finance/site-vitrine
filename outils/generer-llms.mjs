@@ -94,7 +94,7 @@ const SECTIONS_PAGES = [
       'outils-pea-cto',
     ],
   },
-  { titre: "L'entreprise", slugs: ['fondateur'] },
+  { titre: "L'entreprise", slugs: ['fondateur', 'contact'] },
 ];
 
 // Le sommaire du blog, placé entre les pages fixes et les mentions légales.

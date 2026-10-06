@@ -90,6 +90,15 @@
     "description": "L'application SAFIA est gratuite sur l'App Store et sur Google Play. Réunis tes comptes, découvre ton ADN investisseur et interroge l'assistant IA."
   },
   {
+    "slug": "contact",
+    "fichier": "contact.astro",
+    "route": "/contact/",
+    "libelle": "Contact",
+    "ref": "CTC",
+    "titre": "Contact · SAFIA",
+    "description": "Contacter SAFIA : hello@safia.finance, réponse sous 48 heures ouvrées, et l'adresse du siège social à Paris. Support de l'application et réclamations."
+  },
+  {
     "slug": "comparatif",
     "fichier": "comparatif.astro",
     "route": "/comparatif/",
