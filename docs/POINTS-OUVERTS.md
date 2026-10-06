@@ -29,7 +29,6 @@ décision de Maxime et dit qui a la main.
 | Sujet | Ce qu'il faut | Qui |
 |---|---|---|
 | **Politique de confidentialité, formulaire de contact** | Le formulaire de `/contact/` est en ligne depuis le 06/10/2026 et la politique ne le couvre pas. Deux ajouts à faire **dans le `.docx`**, puis reconvertir : à l'article 9, Brevo reçoit aussi les messages du formulaire de contact, et plus seulement la newsletter et les demandes de démonstration ; à l'article 11, la durée de conservation de ces messages, **arrêtée à 12 mois après le dernier échange**, comme les demandes de rendez-vous. | Maxime |
-| **Bandeau, logo de l'IÉSEG Incubateur** | L'incubateur est en toutes lettres faute de logo détouré : le fichier officiel embarque un cartouche blanc opaque, qui donne un rectangle plein sur le fond nuit. Il faut un SVG ou un PNG détouré, en version blanche si elle existe. | Maxime fournit le fichier |
 | **Sources du blog, 80 citations à lier** | 172 citations liées sur 582. Restent à faire les 62 citations d'autorités françaises et les 18 du BOFiP, une adresse vérifiée par citation, jamais construite au jugé. | Claude |
 | **Titres datés, échéance du 1er janvier 2027** | 25 titres et descriptions portent « 2026 » et deviendront faux ensemble. `npm run titres-dates` donne la liste exacte le jour venu. À traiter fin décembre. | Claude, fin décembre |
 | **Dépendances, trois alertes restantes** | `npm audit` en signalait sept le 06/10/2026 ; quatre sont corrigées. Les trois restantes (astro, esbuild, sharp) demandent Astro 7, soit deux versions majeures. Elles touchent l'outil de construction, pas les pages servies. Chantier à part. | À planifier |
@@ -41,6 +40,7 @@ décision de Maxime et dit qui a la main.
 | Sujet | Décision |
 |---|---|
 | **Préversion** | Recréée : `npm run recette` publie le dossier de travail sur `safia-recette.safia-finance.workers.dev`, en noindex. Voir [DEPLOIEMENT.md](DEPLOIEMENT.md). |
+| **Logo de l'IÉSEG** | Dans le bandeau depuis le 06/10/2026. Détouré à partir du tracé vectoriel déjà présent dans le dépôt, en retirant son cartouche blanc : `ieseg-blanc.svg`. |
 | **Logo de la CNCGP** | Reste en toutes lettres, définitivement. Son usage demande une autorisation préalable que Maxime ne sollicite pas. |
 | **Trois fiches d'expatriation non vérifiables** | Grèce, Chypre et Malte restent en l'état. Leurs administrations bloquent l'accès automatisé ; aucune erreur n'a été trouvée sur les 23 fiches confrontées aux sources. |
 | **Audits de contenu (Jev)** | En sommeil. Vercel a retiré le modèle de son offre gratuite ; le chantier s'était terminé le 21/09/2026 avec zéro article sous le seuil. Les outils ne peuvent plus écraser un rapport par un rapport vide. Voir [OUTILS.md](OUTILS.md). |

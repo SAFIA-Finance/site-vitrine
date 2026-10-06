@@ -14,14 +14,20 @@ const note = noteConsolidee();
 // rattrapent les écarts de poids optique, un logo à deux lignes ayant besoin
 // de plus de hauteur qu'un mot seul.
 //
-// L'IÉSEG et la CNCGP restent en toutes lettres : leur logo officiel embarque
-// un cartouche blanc opaque, qui sur le fond nuit du bandeau donne un
-// rectangle plein. Voir docs/POINTS-OUVERTS.md.
+// La CNCGP reste en toutes lettres, et c'est définitif : l'usage de son logo
+// demande une autorisation préalable que Maxime ne sollicite pas.
+//
+// L'IÉSEG a son logo depuis le 6 octobre 2026. Le fichier officiel embarque un
+// cartouche blanc opaque, qui sous le filtre du bandeau devenait un rectangle
+// plein : « ieseg-blanc.svg » est le même tracé sans ce cartouche, cadré au
+// plus juste. Ne pas le remplacer par « ieseg.svg », qui sert la page
+// fondateur sur fond clair et a besoin, lui, de son cartouche.
 const partenaires = [
   { nom: 'Scaleway', logo: '/images/logos/scaleway.svg', l: 135, h: 26 },
   { nom: 'Mistral AI', logo: '/images/logos/mistral.svg', l: 115, h: 26 },
   { nom: 'Powens', logo: '/images/logos/powens.svg', l: 116, h: 22 },
-  { nom: 'IÉSEG Incubateur' },
+  // Deux lignes, dont une petite : il lui faut plus de hauteur qu'un mot seul.
+  { nom: 'IÉSEG Incubateur', logo: '/images/logos/ieseg-blanc.svg', l: 109, h: 34 },
   // Plus haut que ses voisins à dessein : « bpifrance » s'écrit tout en bas
   // de casse, sans capitale ni hampe, et pesait deux fois moins à hauteur
   // égale. La mesure était pourtant conforme, seul le rendu le montrait.
