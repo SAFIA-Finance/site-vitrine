@@ -52,7 +52,7 @@ function demarrerPage() {
         message: champ('c-msg').value,
         site: formulaire.elements.site.value,
       });
-      signaler('Message envoyé. Nous te répondons sous 48 heures ouvrées.');
+      signaler('Message envoyé. Nous te répondons dans les meilleurs délais.');
       formulaire.reset();
     } catch (err) {
       signaler(err.message, true);

@@ -30,9 +30,10 @@ const fil = ['Accueil', 'Contact'];
      et cette section sont tous deux sombres, mais avec des dégradés différents,
      ce qui dessinait une ligne horizontale franche à leur jonction. Les réunir
      supprime ce raccord et met le formulaire dans le premier écran.
-     Le padding haut de 150 px reprend celui de .hero-page-in : l'en-tête est en
-     position fixe et passerait sinon par-dessus le fil d'Ariane. -->
-<section class="final" id="formulaire" style="padding-top:150px">
+     La classe « final-tete » donne à la section la marge haute d'un hero,
+     150 px puis 120 px sous 980 px de large : l'en-tête est en position fixe et
+     passerait sinon par-dessus le fil d'Ariane. -->
+<section class="final final-tete" id="formulaire">
 <div class="wrap">
   <p class="etiq-page">Contact</p>
   <p class="fil-ariane" aria-label="Fil d'Ariane"><a href="/">Accueil</a> <span aria-hidden="true">/</span> Contact</p>
@@ -40,7 +41,7 @@ const fil = ['Accueil', 'Contact'];
 <div class="wrap demo-grille">
   <div>
     <h1>Nous contacter</h1>
-    <p class="demo-chapo">Une personne de l'équipe lit chaque message et te répond sous 48 heures ouvrées, du lundi au vendredi.</p>
+    <p class="demo-chapo">Une personne de l'équipe lit chaque message et te répond dans les meilleurs délais.</p>
     <p class="demo-chapo"><a class="lien" href={`mailto:${SOCIETE.email}`}>{SOCIETE.email}</a><br />{SOCIETE.raisonSociale}, {SOCIETE.rue}, {SOCIETE.codePostal} {SOCIETE.ville}<br />Conseiller ou producteur ? <a class="lien" href="/conseillers/#contact">Formulaire professionnels</a></p>
   </div>
   <form class="form-demo" id="fcontact" novalidate>

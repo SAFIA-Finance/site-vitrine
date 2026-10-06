@@ -414,6 +414,11 @@ ul.reseaux{list-style:none;display:flex;flex-direction:row;gap:10px;margin-top:1
 .final-simple p{color:rgba(255,255,255,.8);font-size:18px}
 .final-simple .btn{margin-top:14px}
 @media (max-width:980px){.hero-page-in{padding-top:120px;padding-bottom:60px}}
+/* Une section « final » placée en tête de page, sans hero au-dessus : elle prend
+   la marge haute d'un hero pour dégager l'en-tête fixe. Deux classes, pour passer
+   devant le « .final{padding:72px 0} » des petits écrans. */
+.final.final-tete{padding-top:150px}
+@media (max-width:980px){.final.final-tete{padding-top:120px}}
 
 
 /* ================= V2 : ajouts ================= */

@@ -78,7 +78,7 @@ directement, c'est un fichier texte.
 ### Contact · `/contact/`
 
 - **Titre** (15) : Contact · SAFIA
-- **Description** (143) : Écrire à SAFIA : formulaire de contact, hello@safia.finance, réponse sous 48 heures ouvrées. Support de l'application et suppression de compte.
+- **Description** (135) : Écrire à SAFIA : formulaire de contact et adresse hello@safia.finance. Support de l'application, réclamations et suppression de compte.
 - *Page ajoutée le 6 octobre 2026, exigée par l'App Store et Google Play. Textes de moi, jamais relus par toi.*
 
 ### Comparatif · `/comparatif/`
