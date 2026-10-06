@@ -197,8 +197,15 @@ ${resultats
   .map((r) => `| ${r.p.toFixed(2)} | ${r.a.categorie} | ${lien(r.a)} | ${lien(r.b)} |`)
   .join('\n')}
 `;
-fs.writeFileSync(RAPPORT, doc, 'utf8');
-console.log(`\nRapport écrit dans docs/AUDIT-CANNIBALISATION.md`);
+// Garde-fou pose le 6 octobre 2026. Ce jour-la Jev a refuse tous les appels
+// (modele retire de l'offre gratuite de Vercel) et l'outil a ecrit un rapport
+// vide par-dessus le precedent, qui n'est pas suivi par git : perdu. Sans
+// aucun resultat, on n'ecrit rien et le rapport existant reste en place.
+if (!resultats.length) {
+  console.error('Aucun résultat : le rapport existant est conservé.');
+  process.exitCode = 1;
+} else fs.writeFileSync(RAPPORT, doc, 'utf8');
+if (resultats.length) console.log(`\nRapport écrit dans docs/AUDIT-CANNIBALISATION.md`);
 
 if (perdues.length) {
   console.error(`\n${perdues.length} paire(s) JAMAIS COMPARÉE(S) :`);

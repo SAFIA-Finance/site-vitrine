@@ -26,7 +26,8 @@
     "geo": "node outils/auditer-geo.mjs",
     "mots-cles": "node outils/auditer-mots-cles.mjs",
     "donnees-structurees": "node outils/donnees-structurees.mjs",
-    "titres-dates": "node outils/titres-dates.mjs"
+    "titres-dates": "node outils/titres-dates.mjs",
+    "recette": "node outils/recette.mjs"
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.4",

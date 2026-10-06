@@ -2,7 +2,7 @@
 code: "H4"
 titre: "Notation ESG : pourquoi deux agences donnent deux notes opposées"
 titreSeo: "Notation ESG : pourquoi les agences se contredisent"
-description: "La corrélation entre agences ESG est de 0,54, contre 0,99 entre agences de notation financière. Les trois causes, et ce que change le règlement de juillet 2026."
+description: "La corrélation entre agences ESG est de 0,54, contre 0,99 entre agences de notation financière. Les trois causes, et ce que change le règlement de 2026."
 categorie: "ESG et impact"
 date: 2026-09-14
 lecture: 6

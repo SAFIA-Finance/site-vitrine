@@ -351,7 +351,7 @@ Page **ADN Investisseur** · articles **H2** (labels) et **H4** (notation ESG).
 
 **URL** : /blog/notation-esg-divergence-agences
 **Title** : Notation ESG : pourquoi les agences se contredisent
-**Meta** : La corrélation entre agences ESG est de 0,54, contre 0,99 entre agences de notation financière. Les trois causes, et ce que change le règlement de juillet 2026.
+**Meta** : La corrélation entre agences ESG est de 0,54, contre 0,99 entre agences de notation financière. Les trois causes, et ce que change le règlement de 2026.
 
 ### Le tableau de synthèse
 

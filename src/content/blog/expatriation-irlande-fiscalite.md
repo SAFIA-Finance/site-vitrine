@@ -2,7 +2,7 @@
 code: "I18"
 titre: "Irlande : fiscalité de l'expatriation"
 titreSeo: "Irlande : fiscalité de l'expatriation"
-description: "Remittance pour les revenus étrangers, mais 52 % de taux marginal sur le salaire local. Et des droits de transmission à 33 % au-delà de 400 000 € par enfant."
+description: "Remittance pour les revenus étrangers, mais 52 % de taux marginal sur le salaire local, et 33 % de droits de transmission au-delà de 400 000 € par enfant."
 categorie: "Expatriation"
 date: 2026-09-16
 lecture: 5

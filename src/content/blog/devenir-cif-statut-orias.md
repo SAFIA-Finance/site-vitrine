@@ -2,7 +2,7 @@
 code: "G9"
 titre: "Devenir CIF : statut, ORIAS, association agréée, capacité professionnelle"
 titreSeo: "Devenir CIF : conditions et démarches"
-description: "Trois voies pour la capacité professionnelle, 150 000 € de RC pro minimum, adhésion obligatoire à une association agréée : le parcours réel pour exercer comme CIF."
+description: "Trois voies pour la capacité professionnelle, 150 000 € de RC pro minimum, adhésion à une association agréée : le parcours réel pour exercer comme CIF."
 categorie: "Professionnels"
 date: 2026-09-14
 lecture: 5

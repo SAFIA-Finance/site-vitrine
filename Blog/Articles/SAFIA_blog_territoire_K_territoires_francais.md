@@ -645,7 +645,7 @@ Page **Cockpit stratégique** · articles **I5** (conventions fiscales) et **K9*
 
 **URL** : /blog/fiscalite-nouvelle-caledonie · **Mot-clé** : fiscalité nouvelle-calédonie · **Page liée** : Cockpit stratégique
 **Title** : Nouvelle-Calédonie : fiscalité locale et convention
-**Meta** : La convention du 31 mars 1983 répartit le droit d'imposer entre l'État et la Nouvelle-Calédonie. Ce qu'elle prévoit, revenu par revenu, pour un patrimoine resté en métropole.
+**Meta** : La convention du 31 mars 1983 répartit le droit d'imposer entre l'État et la Nouvelle-Calédonie : ce qu'elle prévoit pour un patrimoine resté en métropole.
 **Vérifié le 21 septembre 2026**
 
 ### Le tableau de synthèse
@@ -896,7 +896,7 @@ articles **K5** et **K8**.
 ## K8 — Investir outre-mer : les dispositifs de réduction d'impôt
 
 **URL** : /blog/defiscalisation-outre-mer-dispositifs · **Mot-clé** : défiscalisation outre-mer · **Page liée** : Cockpit stratégique · **Outil** : Impôt sur le revenu
-**Meta** : Un plafond de niches porté à 18 000 €, mais qui autorise en réalité 40 909 € de réduction, voire 52 941 € sous agrément. Le mécanisme, et le risque de reprise.
+**Meta** : Un plafond de niches porté à 18 000 €, qui autorise en réalité 40 909 € de réduction, voire 52 941 € sous agrément. Le mécanisme et le risque de reprise.
 **Vérifié le 21 septembre 2026**
 
 ### L'essentiel

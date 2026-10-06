@@ -473,7 +473,7 @@ articles **I26** et **I9**.
 ## I11 — Belgique
 
 **URL** : /blog/expatriation-belgique-fiscalite · **Vérifié le 23 septembre 2026**
-**Meta** : Les plus-values privées ne sont plus exonérées depuis le 1ᵉʳ janvier 2026 : une taxe de 10 % s'applique, après une franchise de 10 000 €. Ce que cela change.
+**Meta** : Les plus-values privées ne sont plus exonérées depuis le 1ᵉʳ janvier 2026 : une taxe de 10 % s'applique après une franchise de 10 000 €. Ce que ça change.
 
 | | |
 |---|---|

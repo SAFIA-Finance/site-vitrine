@@ -205,7 +205,7 @@ Page **Conseillers** · articles **G2** (digitalisation), **E5** (coût d'un con
 
 **URL** : /blog/devenir-cif-statut-orias
 **Title** : Devenir CIF : conditions et démarches
-**Meta** : Trois voies pour la capacité professionnelle, 150 000 € de RC pro minimum, adhésion obligatoire à une association agréée : le parcours réel pour exercer comme CIF.
+**Meta** : Trois voies pour la capacité professionnelle, 150 000 € de RC pro minimum, adhésion à une association agréée : le parcours réel pour exercer comme CIF.
 
 ### Le tableau de synthèse
 

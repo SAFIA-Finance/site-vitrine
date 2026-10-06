@@ -140,7 +140,7 @@ articles **I20** et **I10**.
 ## I18 — Irlande
 
 **URL** : /blog/expatriation-irlande-fiscalite · **Vérifié le 23 septembre 2026**
-**Meta** : Remittance pour les revenus étrangers, mais 52 % de taux marginal sur le salaire local. Et des droits de transmission à 33 % au-delà de 400 000 € par enfant.
+**Meta** : Remittance pour les revenus étrangers, mais 52 % de taux marginal sur le salaire local, et 33 % de droits de transmission au-delà de 400 000 € par enfant.
 
 | | |
 |---|---|
@@ -1111,7 +1111,7 @@ articles **I17** et **I20**.
 ## I26 — États-Unis
 
 **URL** : /blog/expatriation-etats-unis-fiscalite · **Vérifié le 23 septembre 2026**
-**Meta** : Un abattement successoral de 60 000 $ pour le non-résident détenant des titres américains, contre 15 millions pour un résident. Le piège le plus coûteux du panorama.
+**Meta** : Un abattement successoral de 60 000 $ pour le non-résident détenant des titres américains, contre 15 millions pour un résident. Le piège le plus coûteux.
 
 | | |
 |---|---|

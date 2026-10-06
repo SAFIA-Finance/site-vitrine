@@ -1,8 +1,8 @@
 # Points ouverts
 
-**État au 18 septembre 2026. La bascule est faite : le site est en ligne sur
+**Mis à jour le 6 octobre 2026.** La bascule du 18 septembre est faite : le site est en ligne sur
 `safia.finance`, indexable, et la préversion `sitev2.safia.finance` est
-supprimée.** Voir [DEPLOIEMENT.md](DEPLOIEMENT.md) pour la procédure suivie et
+supprimée. Voir [DEPLOIEMENT.md](DEPLOIEMENT.md) pour la procédure suivie et
 le piège qui a coûté treize minutes de coupure.
 
 Deux sources : les questions `Q-01` à `Q-32` du fichier de textes V9, et ce qui
@@ -21,14 +21,32 @@ Les deux points qui figuraient ici sont faits, et la bascule a eu lieu.
 
 ---
 
-## À faire maintenant que le site est public
+## Ouvert au 6 octobre 2026
 
-| Sujet | Ce qu'il faut |
+État repris après l'audit complet du 6 octobre 2026. Chaque ligne porte la
+décision de Maxime et dit qui a la main.
+
+| Sujet | Ce qu'il faut | Qui |
+|---|---|---|
+| **Politique de confidentialité, formulaire de contact** | Le formulaire de `/contact/` est en ligne depuis le 06/10/2026 et la politique ne le couvre pas. Deux ajouts à faire **dans le `.docx`**, puis reconvertir : à l'article 9, Brevo reçoit aussi les messages du formulaire de contact, et plus seulement la newsletter et les demandes de démonstration ; à l'article 11, la durée de conservation de ces messages, **arrêtée à 12 mois après le dernier échange**, comme les demandes de rendez-vous. | Maxime |
+| **Bandeau, logo de l'IÉSEG Incubateur** | L'incubateur est en toutes lettres faute de logo détouré : le fichier officiel embarque un cartouche blanc opaque, qui donne un rectangle plein sur le fond nuit. Il faut un SVG ou un PNG détouré, en version blanche si elle existe. | Maxime fournit le fichier |
+| **Sources du blog, 80 citations à lier** | 172 citations liées sur 582. Restent à faire les 62 citations d'autorités françaises et les 18 du BOFiP, une adresse vérifiée par citation, jamais construite au jugé. | Claude |
+| **Titres datés, échéance du 1er janvier 2027** | 25 titres et descriptions portent « 2026 » et deviendront faux ensemble. `npm run titres-dates` donne la liste exacte le jour venu. À traiter fin décembre. | Claude, fin décembre |
+| **Dépendances, trois alertes restantes** | `npm audit` en signalait sept le 06/10/2026 ; quatre sont corrigées. Les trois restantes (astro, esbuild, sharp) demandent Astro 7, soit deux versions majeures. Elles touchent l'outil de construction, pas les pages servies. Chantier à part. | À planifier |
+| **En-têtes de sécurité et vraies 301** | GitHub Pages ne pose ni HSTS, ni CSP, ni anti-cadre, et ne sait pas servir de 301 : `/privacy-policy/` et `/terms/` répondent 200 puis renvoient. Le remède est le proxy Cloudflare, donc une manipulation DNS sur la production. **Décision du 06/10/2026 : ne rien changer pour l'instant.** | En attente |
+| **Fiche Google Play** | Le titre « Safia Finance » tient 13 caractères sur 30 et ne porte aucun mot-clé. Proposition non validée : « SAFIA : gestion de patrimoine ». **Remis à plus tard le 06/10/2026.** | En attente |
+
+### Clos le 6 octobre 2026, sur décision de Maxime
+
+| Sujet | Décision |
 |---|---|
-| **Plus aucune préversion** | `sitev2` supprimé : **tout ce qui part sur `main` va directement en production**, sans endroit où vérifier avant. Remettre un sous-domaine de recette demande une variable d'Actions et un enregistrement DNS. C'est le seul risque créé par la bascule. |
-| **Politique de confidentialité, formulaire de contact** | Le formulaire de `/contact/` est en ligne depuis le 06/10/2026 et la politique ne le couvre pas. Deux ajouts à faire **dans le `.docx`**, puis reconvertir : à l'article 9, Brevo reçoit aussi les messages du formulaire de contact, et plus seulement la newsletter et les demandes de démonstration ; à l'article 11, la durée de conservation de ces messages, **arrêtée par Maxime à 12 mois après le dernier échange**, comme les demandes de rendez-vous. Maxime modifie le document lui-même. |
-| **Bandeau, deux logos manquants** | Le bandeau de l'accueil est passé du texte aux logos le 18/09/2026. Cinq y sont : Scaleway, Mistral AI, Powens, Bpifrance et la Région Île-de-France. **L'IÉSEG Incubateur et la CNCGP restent en toutes lettres.** Même cause pour les deux : leur logo officiel embarque un cartouche blanc opaque, qui sur le fond nuit du bandeau donne un rectangle plein, et aucune version détourée n'est publiée. Le domaine `incubateur.ieseg.fr` ne résout plus, et la CNCGP ne diffuse aucun fichier sur son site. **La CNCGP soumet de plus l'usage de son logo par ses adhérents à une charte de communication et à une autorisation préalable** : à demander avant toute mise en ligne. Il faut, pour chacun, un SVG ou un PNG détouré, en version blanche si elle existe. Pour Mistral, le fichier blanc officiel existe mais son serveur répond 403 : on affiche donc le SVG du site passé au monochrome, ce que sa charte prévoit pour les fonds chargés. |
-| **Blog, trois fiches non vérifiables à la source** | Ramené le 23/09/2026 à ce seul reliquat. Les 23 fiches ont été confrontées aux sources officielles, **sans qu'aucune erreur soit trouvée**. Trois administrations bloquent l'accès automatisé et laissent donc des chiffres non confirmés. **Grèce** : l'AADE renvoie 403 sur ses pages comme sur ses PDF, et les replis (Commission européenne, OCDE, ministère grec) ne détaillent pas les articles 5A et 5B ; le taux de 7 % des retraités et le forfait de 100 000 € restent non confirmés, et la fiche garde sa date de vérification d'origine. **Chypre** : `mof.gov.cy` présente un certificat invalide ; `gov.cy` a permis de confirmer l'exonération portée à 22 000 €, mais le seuil de 35 % à 72 001 € et l'extension du statut non-dom à 27 ans contre 250 000 € restent non confirmés. **Malte** : `mtca.gov.mt` renvoie 403 ; le minimum de 15 000 € est confirmé par les lignes directrices du programme. Ces trois points se vérifient à la main depuis un navigateur, qui n'est pas bloqué. |
+| **Préversion** | Recréée : `npm run recette` publie le dossier de travail sur `safia-recette.safia-finance.workers.dev`, en noindex. Voir [DEPLOIEMENT.md](DEPLOIEMENT.md). |
+| **Logo de la CNCGP** | Reste en toutes lettres, définitivement. Son usage demande une autorisation préalable que Maxime ne sollicite pas. |
+| **Trois fiches d'expatriation non vérifiables** | Grèce, Chypre et Malte restent en l'état. Leurs administrations bloquent l'accès automatisé ; aucune erreur n'a été trouvée sur les 23 fiches confrontées aux sources. |
+| **Audits de contenu (Jev)** | En sommeil. Vercel a retiré le modèle de son offre gratuite ; le chantier s'était terminé le 21/09/2026 avec zéro article sous le seuil. Les outils ne peuvent plus écraser un rapport par un rapport vide. Voir [OUTILS.md](OUTILS.md). |
+| **« Investissement performant »** | Le schéma du cockpit le promet alors que la page dit plus bas « il ne promet aucune performance ». Maxime a demandé de ne pas y toucher : le point est clos, pas en suspens. |
+| **Lien mort du comparatif** | Le communiqué du Crédit Agricole sur le rachat de Linxo a disparu de son site de presse, et aucune source officielle de remplacement n'a été trouvée. La mention reste, datée du 17 juin 2020, sans lien. |
+| **Relais des formulaires** | L'origine `sitev2`, domaine supprimé, est retirée. Le relais reste sur son adresse `workers.dev`. |
 
 ---
 

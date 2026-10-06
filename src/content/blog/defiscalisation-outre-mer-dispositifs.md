@@ -2,7 +2,7 @@
 code: "K8"
 titre: "Investir outre-mer : les dispositifs de réduction d'impôt"
 titreSeo: "Investir outre-mer : les dispositifs de réduction d'impôt"
-description: "Un plafond de niches porté à 18 000 €, mais qui autorise en réalité 40 909 € de réduction, voire 52 941 € sous agrément. Le mécanisme, et le risque de reprise."
+description: "Un plafond de niches porté à 18 000 €, qui autorise en réalité 40 909 € de réduction, voire 52 941 € sous agrément. Le mécanisme et le risque de reprise."
 categorie: "Outre-mer"
 date: 2026-09-16
 lecture: 6

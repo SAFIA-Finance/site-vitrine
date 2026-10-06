@@ -924,6 +924,9 @@ ul.reseaux{list-style:none;display:flex;flex-direction:row;gap:10px;margin-top:1
 .marche-bloc .titre{color:var(--blanc);max-width:20ch}
 .marche-bloc .intro{color:rgba(255,255,255,.82);margin-top:18px;max-width:74ch}
 .etiq-section{display:inline-flex;align-items:center;gap:8px;font-size:12.5px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:var(--rose);margin-bottom:14px}
+/* Le rose n'est lisible que sur fond nuit (cockpit). Sur le fond clair de la
+   page ADN il tombait a 2,03 de contraste : l'indigo le porte au-dela de 4,5. */
+.piliers-bloc .etiq-section{color:var(--indigo)}
 .schema{margin-top:44px;padding:26px;border-radius:var(--r-l);background:rgba(255,255,255,.05);box-shadow:inset 0 0 0 1px rgba(255,255,255,.14);overflow-x:auto}
 .schema svg{width:100%;min-width:760px;height:auto;display:block}
 .schema .s-tit{font-size:14px;font-weight:700;fill:rgba(255,255,255,.75);letter-spacing:.05em;text-transform:uppercase}
@@ -1480,6 +1483,19 @@ ul.reseaux{list-style:none;display:flex;flex-direction:row;gap:10px;margin-top:1
 .legal h2,.article h2{margin:40px 0 12px;font-size:clamp(1.12rem,2.1vw,1.4rem);line-height:1.25;letter-spacing:-.01em;font-weight:600;color:var(--encre)}
 .legal h2:first-child,.article h2:first-child{margin-top:0}
 .legal p,.article p{margin:0 0 14px;color:var(--encre-2)}
+/* Tableaux des articles. Ils n'avaient AUCUNE regle jusqu'au 6 octobre 2026 :
+   pas de filet, pas de marge interne, les cellules se touchaient, et un tableau
+   plus large que l'ecran elargissait toute la page sur mobile.
+   « display:block » fait du tableau son propre cadre de defilement : au-dela de
+   la largeur disponible, c'est lui qui glisse, pas la page. Le markdown ne
+   produit aucun conteneur autour d'un tableau, d'ou ce choix plutot qu'un
+   « div » de defilement. La largeur minimale des cellules empeche un tableau a
+   six colonnes de s'ecraser en mots empiles avant de consentir a defiler. */
+.article table{display:block;width:max-content;max-width:100%;overflow-x:auto;margin:22px 0 26px;border-collapse:collapse;background:var(--blanc);border-radius:var(--r-m);box-shadow:inset 0 0 0 1px var(--ligne);font-size:15.5px;line-height:1.45;font-variant-numeric:tabular-nums}
+.article th,.article td{padding:12px 16px;min-width:128px;text-align:left;vertical-align:top;border-bottom:1px solid var(--ligne);color:var(--encre-2)}
+.article thead th{font-size:13.5px;font-weight:600;color:var(--encre);vertical-align:bottom}
+.article tbody tr:last-child td,.article tbody tr:last-child th{border-bottom:0}
+.article td:first-child,.article tbody th{font-weight:600;color:var(--encre)}
 .legal ul,.article ul{margin:0 0 18px;padding-left:22px;display:grid;gap:7px;color:var(--encre-2)}
 .legal strong,.article strong{color:var(--encre);font-weight:600}
 .legal a,.article a{color:inherit;text-decoration:underline;text-underline-offset:3px}
@@ -1529,7 +1545,8 @@ ul.reseaux{list-style:none;display:flex;flex-direction:row;gap:10px;margin-top:1
 /* Sommaire : titres cliquables, compteurs, retour de recherche. */
 .art-titre{color:inherit;text-decoration:none}
 .art-titre:hover{text-decoration:underline;text-underline-offset:4px}
-.f-nb{opacity:.55;font-variant-numeric:tabular-nums}
+/* .55 donnait 2,79 de contraste sur le bouton blanc, sous le seuil AA de 4,5. */
+.f-nb{opacity:.8;font-variant-numeric:tabular-nums}
 .resultat-recherche{margin-top:18px;font-size:15px;color:var(--encre-2)}
 /* Le même retour, mais sous le champ de recherche, dans le hero sombre. */
 .recherche-retour{margin-top:14px;font-size:15px;font-weight:600;color:rgba(255,255,255,.88)}

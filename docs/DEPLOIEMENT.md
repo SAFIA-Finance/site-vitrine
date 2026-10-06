@@ -316,6 +316,41 @@ l'enregistrement DNS, soit tu le rediriges en 301 vers `safia.finance`.
 
 ---
 
+## La préversion : `npm run recette`
+
+Recréée le 6 octobre 2026. Depuis la suppression de `sitev2` le 18 septembre,
+tout ce qui partait sur `main` allait directement en production, sans endroit
+où regarder un changement sur un téléphone ni essayer un formulaire.
+
+```
+npm run recette
+```
+
+construit le **dossier de travail**, commité ou non, et le publie sur
+**https://safia-recette.safia-finance.workers.dev**. Il faut être connecté à
+Cloudflare (`npx wrangler login`). Le premier envoi prend quatre à cinq
+minutes, à cause des 132 cartes de partage ; les suivants n'envoient que ce
+qui a changé.
+
+| | Préversion | Production |
+|---|---|---|
+| Hébergeur | Cloudflare, configuration dans `recette/` | GitHub Pages |
+| Publiée par | `npm run recette`, à la main | une poussée sur `main` |
+| `INDEXABLE` | `false` : toutes les pages en `noindex`, pas de sitemap | `true` |
+| `SITE_URL` | l'adresse `workers.dev` | `https://safia.finance` |
+| Formulaires | fonctionnent : l'adresse est dans les origines du relais | fonctionnent |
+
+**Ce n'est pas GitHub Pages.** GitHub ne sert qu'un site par dépôt, d'où
+Cloudflare. Deux écarts à connaître : la préversion sait rendre de vraies
+redirections et des en-têtes que la production n'a pas, donc un comportement
+de serveur vu ici ne vaut pas preuve pour la production. Le rendu des pages,
+lui, est le même.
+
+**Après un `npm run recette`, le dossier `dist` est celui de la préversion**,
+en `noindex`. Relancer `npm run build` avec `INDEXABLE=true` avant tout audit
+local. La production n'est pas concernée : GitHub Actions reconstruit tout à
+chaque poussée.
+
 ## Revenir en arrière
 
 Le déploiement précédent reste disponible. **Actions → le workflow réussi

@@ -11,7 +11,9 @@
 
   "vars": {
     // Sites autorisés à appeler le relais.
-    "ORIGINES": "https://sitev2.safia.finance,https://safia.finance,http://localhost:4321",
+    // La preversion (npm run recette) y figure pour que ses formulaires
+    // puissent etre essayes avant publication.
+    "ORIGINES": "https://safia.finance,https://safia-recette.safia-finance.workers.dev,http://localhost:4321",
     // Destinataire des alertes de demande de démo.
     "ALERTE_EMAIL": "hello@safia.finance",
     // Doit être un expéditeur validé dans Brevo.

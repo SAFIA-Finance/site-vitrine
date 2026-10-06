@@ -285,3 +285,21 @@ utilisés sont reportables **trois ans**, tandis que plusieurs sources secondair
 annoncent pour 2026 un report porté à **cinq ans** ainsi qu'une fin de
 déductibilité après 70 ans. À trancher sur le texte de la loi de finances, pas
 sur du secondaire. Le champ `aVerifier` du bloc `per` le rappelle.
+
+## Audits de contenu : en sommeil depuis le 6 octobre 2026
+
+Les cinq commandes appuyées sur Jev (`auditer`, `auditer-pages`, `geo`,
+`cannibalisation`, `mots-cles`) ne fonctionnent plus : Vercel a retiré le
+modèle de son offre gratuite, et chaque appel répond « Free tier users do not
+have access to this model ». Les relancer demande des crédits payants sur le
+compte Vercel. Décision de Maxime : les laisser en sommeil, le chantier s'étant
+terminé le 21 septembre avec zéro article sous le seuil.
+
+Ce jour-là, `npm run auditer` a écrit un rapport vide par-dessus
+`docs/AUDIT-CONTENU.md`, qui n'est pas suivi par git : la passe du 21 septembre
+est perdue. Les quatre outils qui écrivent un rapport refusent désormais de le
+faire sans aucun résultat, et laissent le rapport existant en place.
+
+Les contrôles qui ne dépendent pas de Jev restent valables et suffisent à un
+audit technique : `verifier`, `referencement`, `donnees-structurees` et
+`titres-dates`.

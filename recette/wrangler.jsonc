@@ -1,0 +1,14 @@
+// Préversion du site : le dossier « dist » servi tel quel par Cloudflare.
+// Publiée par « npm run recette » (outils/recette.mjs), jamais par un push.
+{
+  "name": "safia-recette",
+  "compatibility_date": "2026-09-01",
+  "workers_dev": true,
+  "assets": {
+    "directory": "../dist",
+    // Comme GitHub Pages : /contact redirige vers /contact/, et une adresse
+    // inconnue rend la page 404 du site avec le code 404.
+    "html_handling": "force-trailing-slash",
+    "not_found_handling": "404-page"
+  }
+}

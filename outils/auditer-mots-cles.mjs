@@ -207,7 +207,14 @@ const tableau = (l) =>
     )
     .join('\n');
 
-fs.writeFileSync(
+// Garde-fou pose le 6 octobre 2026. Ce jour-la Jev a refuse tous les appels
+// (modele retire de l'offre gratuite de Vercel) et l'outil a ecrit un rapport
+// vide par-dessus le precedent, qui n'est pas suivi par git : perdu. Sans
+// aucun resultat, on n'ecrit rien et le rapport existant reste en place.
+if (!resultats.length) {
+  console.error('Aucun résultat : le rapport existant est conservé.');
+  process.exitCode = 1;
+} else fs.writeFileSync(
   RAPPORT,
   `# Mots-clés visés : l'article tient-il sa cible ?
 
@@ -250,7 +257,7 @@ ${tableau(resultats)}
 `,
   'utf8',
 );
-console.log('Rapport écrit dans docs/AUDIT-MOTS-CLES.md');
+if (resultats.length) console.log('Rapport écrit dans docs/AUDIT-MOTS-CLES.md');
 
 if (perdus.length) {
   console.error(`\n${perdus.length} article(s) JAMAIS ÉVALUÉ(S) :`);

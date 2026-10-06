@@ -14,7 +14,7 @@ extrait de la page. Les dépassements sont signalés ci-dessous par ⚠️.
 « Blog → description : … ». Tu peux aussi modifier `src/data/pages.json`
 directement, c'est un fichier texte.
 
-> **Les 123 pages du blog ne sont pas listées ici.** Leur titre et leur
+> **Les 132 pages du blog ne sont pas listées ici.** Leur titre et leur
 > description vivent dans l'en-tête de chaque article, champs `Title` et `Meta`
 > des fichiers de `Blog/`. Les recopier ici créerait deux vérités pour un même
 > texte. Voir [BLOG.md](BLOG.md).
@@ -62,7 +62,7 @@ directement, c'est un fichier texte.
 ### Marketplace · `/marketplace/`
 
 - **Titre** (43) : Marketplace : distribuer un produit · SAFIA
-- **Description** (148) : Faites distribuer vos produits aux investisseurs qu'ils concernent : profil réglementaire, profil fiscal et ADN. Sans rétrocession ni mise en avant.
+- **Description** (154) : Distribuez vos produits aux investisseurs qu'ils concernent : une sélection par profil réglementaire, profil fiscal et ADN investisseur, pas un catalogue.
 
 ### Tarifs · `/tarifs/`
 

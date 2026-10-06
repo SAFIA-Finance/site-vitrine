@@ -2,7 +2,7 @@
 code: "I11"
 titre: "Belgique : fiscalité de l'expatriation"
 titreSeo: "Belgique : fiscalité de l'expatriation"
-description: "Les plus-values privées ne sont plus exonérées depuis le 1ᵉʳ janvier 2026 : une taxe de 10 % s'applique, après une franchise de 10 000 €. Ce que cela change."
+description: "Les plus-values privées ne sont plus exonérées depuis le 1ᵉʳ janvier 2026 : une taxe de 10 % s'applique après une franchise de 10 000 €. Ce que ça change."
 categorie: "Expatriation"
 date: 2026-09-16
 lecture: 7
