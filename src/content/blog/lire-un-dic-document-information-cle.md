@@ -28,7 +28,7 @@ articlesLies:
   - "crypto-actifs-fiscalite"
   - "investir-or-metaux"
 seoDerive: true
-sources: "[Règlement (UE) n° 1286/2014](https://eur-lex.europa.eu/eli/reg/2014/1286/oj) dit PRIIPs et ses règlements délégués sur le format et le contenu du document d'informations clés · AMF, guide de lecture du DIC."
+sources: "[Règlement (UE) n° 1286/2014](https://eur-lex.europa.eu/eli/reg/2014/1286/oj) dit PRIIPs et ses règlements délégués sur le format et le contenu du document d'informations clés · [AMF, guide de lecture du DIC](https://www.amf-france.org/sites/institutionnel/files/contenu_simple/guide/guide_pedagogique/Comprendre%20le%20document%20d%27informations%20cles%20%28DIC%29.pdf)."
 ---
 
 ## Les cinq rubriques à lire

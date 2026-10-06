@@ -29,7 +29,7 @@ pages:
 articlesLies:
   - "testament-quel-type-choisir"
   - "donation-dernier-vivant"
-sources: "[Règlement (UE) n° 650/2012 du 4 juillet 2012 sur les successions internationales](https://eur-lex.europa.eu/eli/reg/2012/650/oj?locale=fr), applicable aux successions ouvertes à compter du 17 août 2015, articles 21 pour la résidence habituelle, 22 pour la *professio juris* et 62 et suivants pour le certificat successoral européen · **Code général des impôts, article 750 ter**, pour la territorialité des droits de mutation à titre gratuit · Règlement (UE) n° 650/2012 du 4 juillet 2012 relatif aux successions et au certificat successoral européen · Code général des impôts, article 750 ter · Conventions fiscales bilatérales françaises en matière de successions · BOFiP, territorialité des droits de mutation à titre gratuit."
+sources: "[Règlement (UE) n° 650/2012 du 4 juillet 2012 sur les successions internationales](https://eur-lex.europa.eu/eli/reg/2012/650/oj?locale=fr), applicable aux successions ouvertes à compter du 17 août 2015, articles 21 pour la résidence habituelle, 22 pour la *professio juris* et 62 et suivants pour le certificat successoral européen · **Code général des impôts, article 750 ter**, pour la territorialité des droits de mutation à titre gratuit · Règlement (UE) n° 650/2012 du 4 juillet 2012 relatif aux successions et au certificat successoral européen · Code général des impôts, article 750 ter · Conventions fiscales bilatérales françaises en matière de successions · [BOFiP, territorialité des droits de mutation à titre gratuit](https://bofip.impots.gouv.fr/bofip/3543-PGP.html/identifiant=BOI-ENR-DMTG-10-10-30-20120912)."
 ---
 
 ## Le tableau de synthèse

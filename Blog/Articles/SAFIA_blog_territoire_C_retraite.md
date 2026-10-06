@@ -116,7 +116,7 @@ Les règles de calcul lui sont propres, parfois très différentes. Le relevé d
 
 ### Sources
 
-Portail info-retraite.fr, relevé de carrière et estimation indicative globale · Code de la sécurité sociale, articles L. 351-1 et suivants · Caisse nationale d'assurance vieillesse, modalités de calcul de la pension · Agirc-Arrco, valeur du point et acquisition des droits.
+[Portail info-retraite.fr](https://www.info-retraite.fr/), relevé de carrière et estimation indicative globale · Code de la sécurité sociale, articles L. 351-1 et suivants · Caisse nationale d'assurance vieillesse, modalités de calcul de la pension · [Agirc-Arrco, valeur du point et acquisition des droits](https://reglementation.agirc-arrco.fr/home/baremes/listes-area/baremes-1/valeur-de-service-du-point-agirc-arrco.html).
 
 ### Liens internes
 
@@ -347,7 +347,7 @@ C'est l'hypothèse implicite de toute démonstration commerciale sur le PER, et 
 
 ### Sources
 
-Code général des impôts, article 163 quatervicies · Loi n° 2026-103 du 19 février 2026, article 9 · BOFiP, épargne retraite et plafond de déduction · Avis d'impôt sur le revenu, rubrique « plafond épargne retraite ».
+Code général des impôts, article 163 quatervicies · Loi n° 2026-103 du 19 février 2026, article 9 · [BOFiP, épargne retraite et plafond de déduction](https://bofip.impots.gouv.fr/bofip/1124-PGP.html/identifiant=BOI-IR-BASE-20-50-20-20260810) · Avis d'impôt sur le revenu, rubrique « plafond épargne retraite ».
 
 ### Liens internes
 
@@ -466,7 +466,7 @@ Oui. Une liquidation totale ferme le plan, mais une sortie partielle en capital 
 
 ### Sources
 
-Code monétaire et financier, articles L. 224-1 et suivants · Code général des impôts, articles 158 et 163 quatervicies · Loi de financement de la Sécurité sociale pour 2026 · BOFiP, régime fiscal des prestations d'épargne retraite.
+Code monétaire et financier, articles L. 224-1 et suivants · Code général des impôts, articles 158 et 163 quatervicies · Loi de financement de la Sécurité sociale pour 2026 · [BOFiP, régime fiscal des prestations d'épargne retraite](https://bofip.impots.gouv.fr/bofip/7456-PGP.html/identifiant=BOI-RSA-PENS-30-10-20-20260810).
 
 ### Liens internes
 
@@ -584,7 +584,7 @@ Rarement, pour deux raisons. La première est que l'objectif a été calculé su
 
 ### Sources
 
-Portail info-retraite.fr, estimation indicative globale · INSEE, données sur l'évolution des dépenses des ménages selon l'âge
+[Portail info-retraite.fr](https://www.info-retraite.fr/), estimation indicative globale · INSEE, données sur l'évolution des dépenses des ménages selon l'âge
 
 ### Liens internes
 
@@ -692,7 +692,7 @@ Non. Il ne l'est que s'il change effectivement le taux ou la durée retenue.
 
 ### Sources
 
-Code de la sécurité sociale, articles L. 351-1 et suivants et R. 351-9 · Portail info-retraite.fr, paramètres applicables par génération · Caisse nationale d'assurance vieillesse, conditions de validation des trimestres et rachat au titre des articles L. 351-14-1.
+Code de la sécurité sociale, articles L. 351-1 et suivants et R. 351-9 · [Portail info-retraite.fr](https://www.info-retraite.fr/), paramètres applicables par génération · Caisse nationale d'assurance vieillesse, conditions de validation des trimestres et rachat au titre des articles L. 351-14-1.
 
 ### Liens internes
 
@@ -796,7 +796,7 @@ Les regrouper simplifie le suivi et réduit souvent les frais, mais l'opération
 
 ### Sources
 
-Code général des impôts, article 163 quatervicies · Loi n° 2026-103 du 19 février 2026, article 9 · Portail info-retraite.fr
+Code général des impôts, article 163 quatervicies · Loi n° 2026-103 du 19 février 2026, article 9 · [Portail info-retraite.fr](https://www.info-retraite.fr/)
 
 ### Liens internes
 

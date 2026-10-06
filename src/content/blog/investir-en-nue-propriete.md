@@ -31,7 +31,7 @@ pages:
 articlesLies:
   - "crowdfunding-immobilier"
   - "crowdlending-pret-participatif"
-sources: "Code civil, articles 578 à 624 et 606 · Code général des impôts, article 669 (barème de l'usufruit) et dispositions relatives à l'IFI · BOFiP, démembrement de propriété."
+sources: "Code civil, articles 578 à 624 et 606 · Code général des impôts, article 669 (barème de l'usufruit) et dispositions relatives à l'IFI · [BOFiP, démembrement de propriété](https://bofip.impots.gouv.fr/bofip/2323-PGP.html/identifiant=BOI-ENR-DMTG-10-40-10-50-20131223)."
 ---
 
 ## Le mécanisme

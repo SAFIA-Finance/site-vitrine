@@ -31,7 +31,7 @@ outils:
 articlesLies:
   - "combien-epargner-retraite"
   - "decote-surcote-trimestres"
-sources: "Portail info-retraite.fr, relevé de carrière et estimation indicative globale · Code de la sécurité sociale, articles L. 351-1 et suivants · Caisse nationale d'assurance vieillesse, modalités de calcul de la pension · Agirc-Arrco, valeur du point et acquisition des droits."
+sources: "[Portail info-retraite.fr](https://www.info-retraite.fr/), relevé de carrière et estimation indicative globale · Code de la sécurité sociale, articles L. 351-1 et suivants · Caisse nationale d'assurance vieillesse, modalités de calcul de la pension · [Agirc-Arrco, valeur du point et acquisition des droits](https://reglementation.agirc-arrco.fr/home/baremes/listes-area/baremes-1/valeur-de-service-du-point-agirc-arrco.html)."
 ---
 
 ## Où trouver tes données

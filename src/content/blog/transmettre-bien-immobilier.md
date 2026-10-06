@@ -37,7 +37,7 @@ outils:
 articlesLies:
   - "sci-familiale-transmission"
   - "sortir-indivision-succession"
-sources: "Code général des impôts, articles 669, 779 et 784 · Code civil, articles 843, 860 et 1078 sur le rapport et la donation-partage · BOFiP, évaluation de l'usufruit et de la nue-propriété."
+sources: "Code général des impôts, articles 669, 779 et 784 · Code civil, articles 843, 860 et 1078 sur le rapport et la donation-partage · [BOFiP, évaluation de l'usufruit et de la nue-propriété](https://bofip.impots.gouv.fr/bofip/2323-PGP.html/identifiant=BOI-ENR-DMTG-10-40-10-50-20131223)."
 ---
 
 ## Comparaison des trois voies

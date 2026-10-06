@@ -448,7 +448,7 @@ Avant, et sans la personne qui te le propose. Les cinq minutes que demande sa le
 
 ### Sources
 
-[Règlement (UE) n° 1286/2014](https://eur-lex.europa.eu/eli/reg/2014/1286/oj) dit PRIIPs et ses règlements délégués sur le format et le contenu du document d'informations clés · AMF, guide de lecture du DIC.
+[Règlement (UE) n° 1286/2014](https://eur-lex.europa.eu/eli/reg/2014/1286/oj) dit PRIIPs et ses règlements délégués sur le format et le contenu du document d'informations clés · [AMF, guide de lecture du DIC](https://www.amf-france.org/sites/institutionnel/files/contenu_simple/guide/guide_pedagogique/Comprendre%20le%20document%20d%27informations%20cles%20%28DIC%29.pdf).
 
 
 ### Liens internes
@@ -662,7 +662,7 @@ Les deux se défendent, pour des raisons différentes. Investir en une fois expo
 
 ### Sources
 
-Directive OPCVM et règlements applicables aux fonds indiciels cotés · AMF, guide sur les ETF · Documents d'informations clés et rapports d'écart de suivi des émetteurs · Code monétaire et financier, éligibilité au PEA · AMF, Lettre de l'Observatoire de l'épargne n° 65, avril 2026, frais moyens des placements financiers.
+Directive OPCVM et règlements applicables aux fonds indiciels cotés · AMF, guide sur les ETF · Documents d'informations clés et rapports d'écart de suivi des émetteurs · Code monétaire et financier, éligibilité au PEA · [AMF, Lettre de l'Observatoire de l'épargne n° 65, avril 2026, frais moyens des placements financiers](https://www.amf-france.org/fr/actualites-publications/publications/observatoire-de-lepargne/lettres-de-lobservatoire-de-lepargne/lettre-de-lobservatoire-de-lepargne-de-lamf-ndeg65-avril-2026).
 
 
 ### Liens internes
@@ -780,7 +780,7 @@ Non, elles sont autorisées et doivent être communiquées. Un conseil déclaré
 
 ### Sources
 
-[Directive 2009/65/CE](https://eur-lex.europa.eu/eli/dir/2009/65/oj) (OPCVM) et [directive 2011/61/UE](https://eur-lex.europa.eu/eli/dir/2011/61/oj) (AIFM) · AMF, doctrine sur les commissions de surperformance · Études comparatives de performance des fonds actifs contre indices de référence · Documents d'informations clés · AMF, « Analyse des frais des fonds de droit français », mai 2024, et Lettre de l'Observatoire de l'épargne n° 65, avril 2026.
+[Directive 2009/65/CE](https://eur-lex.europa.eu/eli/dir/2009/65/oj) (OPCVM) et [directive 2011/61/UE](https://eur-lex.europa.eu/eli/dir/2011/61/oj) (AIFM) · AMF, doctrine sur les commissions de surperformance · Études comparatives de performance des fonds actifs contre indices de référence · Documents d'informations clés · AMF, [« Analyse des frais des fonds de droit français », mai 2024](https://www.amf-france.org/sites/institutionnel/files/private/2024-05/etude-analyse-des-frais_fr_0.pdf), et [Lettre de l'Observatoire de l'épargne n° 65, avril 2026](https://www.amf-france.org/fr/actualites-publications/publications/observatoire-de-lepargne/lettres-de-lobservatoire-de-lepargne/lettre-de-lobservatoire-de-lepargne-de-lamf-ndeg65-avril-2026).
 
 
 ### Liens internes

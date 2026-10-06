@@ -108,7 +108,7 @@ Suffisamment pour amortir les frais d'acquisition, qui représentent environ 8 %
 
 ### Sources
 
-Code général des impôts, articles 14 à 33 quinquies (revenus fonciers), 50-0 et 155 (location meublée) · BOFiP, régimes fonciers et location meublée · Loi de financement de la Sécurité sociale pour 2026, maintien des prélèvements sociaux à 17,2 % sur les revenus fonciers.
+Code général des impôts, articles 14 à 33 quinquies (revenus fonciers), 50-0 et 155 (location meublée) · BOFiP, [régimes fonciers](https://bofip.impots.gouv.fr/bofip/7382-PGP.html/identifiant=BOI-RFPI-20240228) et [location meublée](https://bofip.impots.gouv.fr/bofip/3615-PGP.html/identifiant=BOI-BIC-CHAMP-40-10-20260415) · Loi de financement de la Sécurité sociale pour 2026, maintien des prélèvements sociaux à 17,2 % sur les revenus fonciers.
 
 
 ### Liens internes
@@ -213,7 +213,7 @@ Oui, mais l'équation diffère d'un investissement locatif classique : aucun loy
 
 ### Sources
 
-Code civil, articles 578 à 624 et 606 · Code général des impôts, article 669 (barème de l'usufruit) et dispositions relatives à l'IFI · BOFiP, démembrement de propriété.
+Code civil, articles 578 à 624 et 606 · Code général des impôts, article 669 (barème de l'usufruit) et dispositions relatives à l'IFI · [BOFiP, démembrement de propriété](https://bofip.impots.gouv.fr/bofip/2323-PGP.html/identifiant=BOI-ENR-DMTG-10-40-10-50-20131223).
 
 
 ### Liens internes
@@ -432,7 +432,7 @@ Généralement oui, mais au prix de rachat calculé par l'émetteur, qui dépend
 
 ### Sources
 
-[Règlement (UE) n° 1286/2014](https://eur-lex.europa.eu/eli/reg/2014/1286/oj) (PRIIPs) et documents d'informations clés · AMF, position-recommandation relative à la commercialisation des instruments financiers complexes · Prospectus et termes définitifs de chaque émission.
+[Règlement (UE) n° 1286/2014](https://eur-lex.europa.eu/eli/reg/2014/1286/oj) (PRIIPs) et documents d'informations clés · [AMF, position-recommandation relative à la commercialisation des instruments financiers complexes](https://www.amf-france.org/fr/reglementation/doctrine/doc-2010-05) · Prospectus et termes définitifs de chaque émission.
 
 
 ### Liens internes
@@ -992,7 +992,7 @@ Oui, sur deux points pratiques. Les pièces d'investissement portent une prime, 
 
 ### Sources
 
-Code général des impôts, articles 150 VI à 150 VM (taxe sur les métaux précieux) et 150 UA (plus-values sur biens meubles) · BOFiP, régime des métaux précieux · Documents d'information des produits cotés adossés aux matières premières.
+Code général des impôts, articles 150 VI à 150 VM (taxe sur les métaux précieux) et 150 UA (plus-values sur biens meubles) · [BOFiP, régime des métaux précieux](https://bofip.impots.gouv.fr/bofip/3721-PGP.html/identifiant=BOI-RPPM-PVBMC-20-20140401) · Documents d'information des produits cotés adossés aux matières premières.
 
 
 ### Liens internes
@@ -1101,7 +1101,7 @@ Non, et c'est une confusion coûteuse. La mécanique de prorata décrite ici con
 
 ### Sources
 
-[Règlement (UE) 2023/1114](https://eur-lex.europa.eu/eli/reg/2023/1114/oj) dit MiCA · Code général des impôts, articles 150 VH bis et 1649 bis C · Loi de financement de la Sécurité sociale pour 2026 · BOFiP, régime des actifs numériques.
+[Règlement (UE) 2023/1114](https://eur-lex.europa.eu/eli/reg/2023/1114/oj) dit MiCA · Code général des impôts, articles 150 VH bis et 1649 bis C · Loi de financement de la Sécurité sociale pour 2026 · [BOFiP, régime des actifs numériques](https://bofip.impots.gouv.fr/bofip/11967-PGP.html/identifiant=BOI-RPPM-PVBMC-30-10-20190902).
 
 
 ### Liens internes

@@ -35,7 +35,7 @@ outils:
 articlesLies:
   - "livret-a-plein-que-faire"
   - "livret-a-ou-ldds"
-sources: "Arrêté du 29 juillet 2026, Journal officiel du 31 juillet 2026 · Service-public.fr, fiches PEL, CEL et livret jeune · Loi de financement de la Sécurité sociale pour 2026, liste des revenus maintenus à 17,2 % · Code monétaire et financier, articles relatifs à l'épargne logement."
+sources: "Arrêté du 29 juillet 2026, Journal officiel du 31 juillet 2026 · Service-public.fr, fiches [PEL](https://www.service-public.gouv.fr/particuliers/vosdroits/F16140), [CEL](https://www.service-public.gouv.fr/particuliers/vosdroits/F16136) et livret jeune · Loi de financement de la Sécurité sociale pour 2026, liste des revenus maintenus à 17,2 % · Code monétaire et financier, articles relatifs à l'épargne logement."
 ---
 
 ## Le PEL : un produit devenu technique

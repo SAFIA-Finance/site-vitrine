@@ -25,7 +25,7 @@ pages:
 articlesLies:
   - "estimer-sa-retraite"
   - "preparer-retraite-30-40-50-ans"
-sources: "Code de la sécurité sociale, articles L. 351-1 et suivants et R. 351-9 · Portail info-retraite.fr, paramètres applicables par génération · Caisse nationale d'assurance vieillesse, conditions de validation des trimestres et rachat au titre des articles L. 351-14-1."
+sources: "Code de la sécurité sociale, articles L. 351-1 et suivants et R. 351-9 · [Portail info-retraite.fr](https://www.info-retraite.fr/), paramètres applicables par génération · Caisse nationale d'assurance vieillesse, conditions de validation des trimestres et rachat au titre des articles L. 351-14-1."
 ---
 
 ## Le taux plein

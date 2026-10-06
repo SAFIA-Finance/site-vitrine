@@ -103,7 +103,7 @@ Cela dépend de l'outil, et c'est à vérifier avant de saisir quoi que ce soit 
 
 ### Sources
 
-Code monétaire et financier, articles L. 321-1, L. 541-1 et suivants · Règlement général de l'AMF, livre III, dispositions applicables aux conseillers en investissements financiers · [Règlement (UE) 2024/1689](https://eur-lex.europa.eu/eli/reg/2024/1689/oj) établissant des règles harmonisées concernant l'intelligence artificielle, obligations de transparence.
+Code monétaire et financier, articles L. 321-1, L. 541-1 et suivants · [Règlement général de l'AMF, livre III](https://www.amf-france.org/fr/eli/fr/aai/amf/rg/livre/3/notes), dispositions applicables aux conseillers en investissements financiers · [Règlement (UE) 2024/1689](https://eur-lex.europa.eu/eli/reg/2024/1689/oj) établissant des règles harmonisées concernant l'intelligence artificielle, obligations de transparence.
 ### Liens internes
 
 Page **Assistant IA** · articles **F2** (IA explicable) et **F4** (bilan patrimonial).
@@ -208,7 +208,7 @@ Souvent, c'est l'inverse. Sur une question dont la réponse dépend d'un éléme
 
 ### Sources
 
-[Règlement (UE) 2024/1689](https://eur-lex.europa.eu/eli/reg/2024/1689/oj) sur l'intelligence artificielle · Règlement général de l'AMF, article 325-5 et suivants sur les communications à caractère promotionnel · Légifrance, BOFiP et service-public.fr pour la vérification des sources fiscales.
+[Règlement (UE) 2024/1689](https://eur-lex.europa.eu/eli/reg/2024/1689/oj) sur l'intelligence artificielle · [Règlement général de l'AMF, article 325-5 et suivants](https://www.amf-france.org/fr/eli/fr/aai/amf/rg/article/325-5/20230101/notes) sur les communications à caractère promotionnel · Légifrance, BOFiP et service-public.fr pour la vérification des sources fiscales.
 ### Liens internes
 
 Page **Notre méthode** · articles **F1** (IA et conseiller) et **F3** (profil de risque).
@@ -318,7 +318,7 @@ Oui, dès lors qu'il est co-souscripteur ou titulaire. Le profil s'apprécie par
 
 ### Sources
 
-[Directive 2014/65/UE](https://eur-lex.europa.eu/eli/dir/2014/65/oj) dite MiFID II, article 25 · [Règlement délégué (UE) 2017/565](https://eur-lex.europa.eu/eli/reg_del/2017/565/oj), articles 54 et 55 · [Règlement délégué (UE) 2021/1253](https://eur-lex.europa.eu/eli/reg_del/2021/1253/oj) sur les préférences en matière de durabilité · AMF, positions-recommandations sur le recueil des informations clients · Kahneman et Tversky, théorie des perspectives, sur l'aversion aux pertes.
+[Directive 2014/65/UE](https://eur-lex.europa.eu/eli/dir/2014/65/oj) dite MiFID II, article 25 · [Règlement délégué (UE) 2017/565](https://eur-lex.europa.eu/eli/reg_del/2017/565/oj), articles 54 et 55 · [Règlement délégué (UE) 2021/1253](https://eur-lex.europa.eu/eli/reg_del/2021/1253/oj) sur les préférences en matière de durabilité · [AMF, positions-recommandations sur le recueil des informations clients](https://www.amf-france.org/fr/reglementation/doctrine/doc-2013-02) · Kahneman et Tversky, théorie des perspectives, sur l'aversion aux pertes.
 ### Liens internes
 
 Page **ADN Investisseur** · articles **F4** (bilan patrimonial) et **H1** (investir selon ses valeurs).
@@ -435,7 +435,7 @@ Régulièrement, et c'est une part de son utilité : une capacité d'épargne pl
 
 ### Sources
 
-Code monétaire et financier, articles L. 541-1 et suivants · Règlement général de l'AMF, livre III, obligations d'information et lettre de mission des conseillers en investissements financiers · [Directive 2014/65/UE](https://eur-lex.europa.eu/eli/dir/2014/65/oj), article 25 sur la déclaration d'adéquation · Loi de financement de la Sécurité sociale pour 2026.
+Code monétaire et financier, articles L. 541-1 et suivants · [Règlement général de l'AMF, livre III](https://www.amf-france.org/fr/eli/fr/aai/amf/rg/livre/3/notes), obligations d'information et lettre de mission des conseillers en investissements financiers · [Directive 2014/65/UE](https://eur-lex.europa.eu/eli/dir/2014/65/oj), article 25 sur la déclaration d'adéquation · Loi de financement de la Sécurité sociale pour 2026.
 ### Liens internes
 
 Page **Cockpit stratégique** · articles **F3** (profil de risque) et **B7** (frais).

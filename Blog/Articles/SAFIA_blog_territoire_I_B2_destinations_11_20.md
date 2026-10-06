@@ -389,7 +389,7 @@ La notion de domicile, qui déterminait l'assiette des droits de succession brit
 
 ### Sources
 
-*Finance Act* britannique portant suppression du régime des non-domiciliés au 6 avril 2025 et instituant le régime *Foreign Income and Gains* · [Norton Rose Fulbright, abolition du régime non-dom et conditions du régime FIG](https://www.nortonrosefulbright.com/en/knowledge/publications/648e7a24/abolition-of-the-non-dom-regime) · [Boodle Hatfield, *long term residence* et droits de succession britanniques](https://www.boodlehatfield.com/articles/long-term-residence-and-its-importance-for-uk-inheritance-tax-iht-purposes) · [House of Commons Library, taux et abattements 2026-2027](https://commonslibrary.parliament.uk/research-briefings/cbp-10618/) · HMRC, *Statutory Residence Test* et *nil rate band* de 325 000 £ gelé jusqu'au 5 avril 2031 · [Convention fiscale franco-britannique en matière d'impôts sur le revenu et convention en matière de successions](https://www.impots.gouv.fr/les-conventions-internationales) · Notice DGFiP du formulaire 2074-ETD, liste des États ouvrant le sursis automatique.
+*Finance Act* britannique portant suppression du régime des non-domiciliés au 6 avril 2025 et instituant le régime *Foreign Income and Gains* · [Norton Rose Fulbright, abolition du régime non-dom et conditions du régime FIG](https://www.nortonrosefulbright.com/en/knowledge/publications/648e7a24/abolition-of-the-non-dom-regime) · [Boodle Hatfield, *long term residence* et droits de succession britanniques](https://www.boodlehatfield.com/articles/long-term-residence-and-its-importance-for-uk-inheritance-tax-iht-purposes) · [House of Commons Library, taux et abattements 2026-2027](https://commonslibrary.parliament.uk/research-briefings/cbp-10618/) · HMRC, *Statutory Residence Test* et *nil rate band* de 325 000 £ gelé jusqu'au 5 avril 2031 · [Convention fiscale franco-britannique en matière d'impôts sur le revenu et convention en matière de successions](https://www.impots.gouv.fr/les-conventions-internationales) · [Notice DGFiP du formulaire 2074-ETD](https://www.impots.gouv.fr/sites/default/files/formulaires/2074-etd/2026/2074-etd_5518.pdf), liste des États ouvrant le sursis automatique.
 
 
 ### Liens internes
@@ -502,7 +502,7 @@ Pas par la France : il n'existe pas de coordination de sécurité sociale au sen
 
 ### Sources
 
-Législation fédérale émirienne relative à l'impôt sur les sociétés (2023) et aux régimes de zones franches · [Convention fiscale franco-émirienne](https://www.impots.gouv.fr/les-conventions-internationales) · Code général des impôts, articles 4 B et 167 bis · Notice DGFiP du formulaire 2074-ETD.
+Législation fédérale émirienne relative à l'impôt sur les sociétés (2023) et aux régimes de zones franches · [Convention fiscale franco-émirienne](https://www.impots.gouv.fr/les-conventions-internationales) · Code général des impôts, articles 4 B et 167 bis · [Notice DGFiP du formulaire 2074-ETD](https://www.impots.gouv.fr/sites/default/files/formulaires/2074-etd/2026/2074-etd_5518.pdf).
 
 
 ### Liens internes
@@ -738,7 +738,7 @@ Non, et c'est l'arbitrage central de cette destination. L'abattement majoré sup
 
 ### Sources
 
-Code général des impôts marocain, dispositions relatives aux pensions de source étrangère · [Convention fiscale franco-marocaine et ses avenants](https://www.impots.gouv.fr/les-conventions-internationales) · Notice DGFiP du formulaire 2074-ETD, liste des États ouvrant le sursis automatique, applicable au jour du transfert.
+Code général des impôts marocain, dispositions relatives aux pensions de source étrangère · [Convention fiscale franco-marocaine et ses avenants](https://www.impots.gouv.fr/les-conventions-internationales) · [Notice DGFiP du formulaire 2074-ETD](https://www.impots.gouv.fr/sites/default/files/formulaires/2074-etd/2026/2074-etd_5518.pdf), liste des États ouvrant le sursis automatique, applicable au jour du transfert.
 
 
 ### Liens internes

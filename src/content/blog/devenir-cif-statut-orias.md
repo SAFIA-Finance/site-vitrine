@@ -35,7 +35,7 @@ pages:
 articlesLies:
   - "lcb-ft-cabinet-cgp"
   - "lettre-de-mission-cif"
-sources: "Code monétaire et financier, articles **L. 541-1 et suivants** · [Code monétaire et financier, article D. 541-9](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025440435), montants minimaux de la garantie de responsabilité civile professionnelle · **Règlement général de l'AMF, article 325-1**, pour les trois voies de la capacité professionnelle · [Autorité des marchés financiers, statut de conseiller en investissements financiers](https://www.amf-france.org/en/professionals/other-professionals/financial-investment-advisor-status-fia) · ORIAS, registre unique des intermédiaires et conditions d'immatriculation."
+sources: "Code monétaire et financier, articles **L. 541-1 et suivants** · [Code monétaire et financier, article D. 541-9](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025440435), montants minimaux de la garantie de responsabilité civile professionnelle · **[Règlement général de l'AMF, article 325-1](https://www.amf-france.org/fr/eli/fr/aai/amf/rg/article/325-1/20180608/notes)**, pour les trois voies de la capacité professionnelle · [Autorité des marchés financiers, statut de conseiller en investissements financiers](https://www.amf-france.org/en/professionals/other-professionals/financial-investment-advisor-status-fia) · [ORIAS, registre unique des intermédiaires et conditions d'immatriculation](https://www.orias.fr/)."
 ---
 
 ## Le tableau de synthèse

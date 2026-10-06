@@ -114,7 +114,7 @@ Oui. Les fonds indiciels filtrés et l'épargne solidaire sont accessibles à pa
 
 ### Sources
 
-[Règlement (UE) 2019/2088](https://eur-lex.europa.eu/eli/reg/2019/2088/oj) dit SFDR · Référentiel du label ISR, version en vigueur depuis mars 2024, ministère de l'Économie · AMF, doctrine sur les communications des placements collectifs intégrant des approches extra-financières · Documents d'informations clés et annexes précontractuelles des fonds.
+[Règlement (UE) 2019/2088](https://eur-lex.europa.eu/eli/reg/2019/2088/oj) dit SFDR · [Référentiel du label ISR, version en vigueur depuis mars 2024, ministère de l'Économie](https://www.lelabelisr.fr/wp-content/uploads/Referentiel-Label-ISR-mars24.pdf) · [AMF, doctrine sur les communications des placements collectifs intégrant des approches extra-financières](https://www.amf-france.org/fr/reglementation/doctrine/doc-2020-03) · Documents d'informations clés et annexes précontractuelles des fonds.
 ### Liens internes
 
 Page **ADN Investisseur** · articles **H2** (labels) et **H5** (greenwashing).
@@ -224,7 +224,7 @@ Les livrets réglementés ne sont pas labellisés : l'emploi de leur collecte es
 
 ### Sources
 
-Référentiel du label ISR, version applicable depuis mars 2024, ministère de l'Économie · Référentiel du label Greenfin, ministère de la Transition écologique · Association Fair, référentiel Finansol · Loi Industrie Verte, dispositions applicables au 1er janvier 2026 · Code des assurances, article L. 131-1-2.
+[Référentiel du label ISR, version applicable depuis mars 2024, ministère de l'Économie](https://www.lelabelisr.fr/wp-content/uploads/Referentiel-Label-ISR-mars24.pdf) · Référentiel du label Greenfin, ministère de la Transition écologique · Association Fair, référentiel Finansol · Loi Industrie Verte, dispositions applicables au 1er janvier 2026 · Code des assurances, article L. 131-1-2.
 
 ### Liens internes
 
@@ -340,7 +340,7 @@ Non. Un fonds domicilié hors de l'Union et non commercialisé dans l'Union n'y 
 
 ### Sources
 
-[Règlement (UE) 2019/2088](https://eur-lex.europa.eu/eli/reg/2019/2088/oj) · Proposition de révision du cadre SFDR, Commission européenne, novembre 2025 · Position du Parlement européen, mai 2026 · ESMA, orientations sur les dénominations de fonds utilisant des termes liés à la durabilité · AMF, doctrine sur l'information extra-financière.
+[Règlement (UE) 2019/2088](https://eur-lex.europa.eu/eli/reg/2019/2088/oj) · Proposition de révision du cadre SFDR, Commission européenne, novembre 2025 · Position du Parlement européen, mai 2026 · ESMA, orientations sur les dénominations de fonds utilisant des termes liés à la durabilité · [AMF, doctrine sur l'information extra-financière](https://www.amf-france.org/fr/reglementation/doctrine/doc-2020-03).
 ### Liens internes
 
 Page **ADN Investisseur** · articles **H2** (labels) et **H4** (notation ESG).
@@ -586,7 +586,7 @@ Une dizaine de minutes la première fois, deux ou trois ensuite. Le temps se pas
 
 ### Sources
 
-ESMA, orientations sur les dénominations de fonds utilisant des termes ESG ou liés à la durabilité · AMF, doctrine relative aux informations extra-financières des placements collectifs · [Règlement (UE) 2019/2088](https://eur-lex.europa.eu/eli/reg/2019/2088/oj), annexes précontractuelles · Référentiel du label ISR, mars 2024 · Code de la consommation, articles L. 121-2 et suivants.
+ESMA, orientations sur les dénominations de fonds utilisant des termes ESG ou liés à la durabilité · [AMF, doctrine relative aux informations extra-financières des placements collectifs](https://www.amf-france.org/fr/reglementation/doctrine/doc-2020-03) · [Règlement (UE) 2019/2088](https://eur-lex.europa.eu/eli/reg/2019/2088/oj), annexes précontractuelles · Référentiel du label ISR, mars 2024 · Code de la consommation, articles L. 121-2 et suivants.
 ### Liens internes
 
 Page **ADN Investisseur** · articles **H1** (investir selon ses valeurs) et **H2** (labels).

@@ -27,7 +27,7 @@ pages:
 articlesLies:
   - "primes-manifestement-exagerees"
   - "succession-internationale"
-sources: "Code général des impôts, article 787 B · Loi de finances pour 2026, dispositions portant l'engagement individuel de conservation de quatre à six ans · BOFiP, exonération partielle des transmissions d'entreprises · Jurisprudence sur la notion d'activité opérationnelle des holdings animatrices."
+sources: "Code général des impôts, article 787 B · Loi de finances pour 2026, dispositions portant l'engagement individuel de conservation de quatre à six ans · [BOFiP, exonération partielle des transmissions d'entreprises](https://bofip.impots.gouv.fr/bofip/6509-PGP.html/identifiant=BOI-ENR-DMTG-10-20-40-10-20260810) · Jurisprudence sur la notion d'activité opérationnelle des holdings animatrices."
 ---
 
 ## Le mécanisme

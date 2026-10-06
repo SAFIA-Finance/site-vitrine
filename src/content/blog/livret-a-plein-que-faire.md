@@ -35,7 +35,7 @@ outils:
 articlesLies:
   - "lep-conditions-plafond"
   - "pel-cel-livret-jeune"
-sources: "Arrêté du 29 juillet 2026, Journal officiel du 31 juillet 2026 · Banque de France, statistiques d'épargne réglementée, avril 2026 · Loi de financement de la Sécurité sociale pour 2026 · Service-public.fr, conditions d'accès au LEP."
+sources: "Arrêté du 29 juillet 2026, Journal officiel du 31 juillet 2026 · Banque de France, statistiques d'épargne réglementée, avril 2026 · Loi de financement de la Sécurité sociale pour 2026 · [Service-public.fr, conditions d'accès au LEP](https://www.service-public.gouv.fr/particuliers/vosdroits/F2367)."
 ---
 
 ## Étape 1 : saturer ce qui reste défiscalisé

@@ -25,7 +25,7 @@ pages:
 articlesLies:
   - "exit-tax-expatriation"
   - "convention-fiscale-mode-emploi"
-sources: "Code général des impôts, article 4 B · Convention modèle OCDE, article 4 sur la résidence, et conventions bilatérales applicables · BOFiP, domicile fiscal · Jurisprudence du Conseil d'État sur le centre des intérêts économiques."
+sources: "Code général des impôts, article 4 B · Convention modèle OCDE, article 4 sur la résidence, et conventions bilatérales applicables · [BOFiP, domicile fiscal](https://bofip.impots.gouv.fr/bofip/1911-PGP.html/identifiant=BOI-IR-CHAMP-10-20160728) · Jurisprudence du Conseil d'État sur le centre des intérêts économiques."
 ---
 
 ## Le tableau de synthèse

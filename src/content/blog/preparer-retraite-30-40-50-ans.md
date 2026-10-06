@@ -31,7 +31,7 @@ outils:
 articlesLies:
   - "combien-epargner-retraite"
   - "per-fonctionnement"
-sources: "Code général des impôts, article 163 quatervicies · Loi n° 2026-103 du 19 février 2026, article 9 · Portail info-retraite.fr"
+sources: "Code général des impôts, article 163 quatervicies · Loi n° 2026-103 du 19 février 2026, article 9 · [Portail info-retraite.fr](https://www.info-retraite.fr/)"
 ---
 
 ## À 30 ans : prendre date sans se contraindre

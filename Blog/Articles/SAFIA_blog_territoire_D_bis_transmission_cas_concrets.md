@@ -332,7 +332,7 @@ Plusieurs mois au minimum, et idéalement plusieurs années. Il faut vérifier l
 
 ### Sources
 
-Code général des impôts, article 787 B · Loi de finances pour 2026, dispositions portant l'engagement individuel de conservation de quatre à six ans · BOFiP, exonération partielle des transmissions d'entreprises · Jurisprudence sur la notion d'activité opérationnelle des holdings animatrices.
+Code général des impôts, article 787 B · Loi de finances pour 2026, dispositions portant l'engagement individuel de conservation de quatre à six ans · [BOFiP, exonération partielle des transmissions d'entreprises](https://bofip.impots.gouv.fr/bofip/6509-PGP.html/identifiant=BOI-ENR-DMTG-10-20-40-10-20260810) · Jurisprudence sur la notion d'activité opérationnelle des holdings animatrices.
 
 
 ### Liens internes
@@ -429,7 +429,7 @@ Oui, par deux voies. La **réserve d'usufruit** permet de conserver l'usage du b
 
 ### Sources
 
-Code général des impôts, articles 669, 779 et 784 · Code civil, articles 843, 860 et 1078 sur le rapport et la donation-partage · BOFiP, évaluation de l'usufruit et de la nue-propriété.
+Code général des impôts, articles 669, 779 et 784 · Code civil, articles 843, 860 et 1078 sur le rapport et la donation-partage · [BOFiP, évaluation de l'usufruit et de la nue-propriété](https://bofip.impots.gouv.fr/bofip/2323-PGP.html/identifiant=BOI-ENR-DMTG-10-40-10-50-20131223).
 
 
 ### Liens internes
@@ -1108,7 +1108,7 @@ Un document délivré par l'autorité compétente, en France le notaire, qui per
 
 ### Sources
 
-[Règlement (UE) n° 650/2012 du 4 juillet 2012 sur les successions internationales](https://eur-lex.europa.eu/eli/reg/2012/650/oj?locale=fr), applicable aux successions ouvertes à compter du 17 août 2015, articles 21 pour la résidence habituelle, 22 pour la *professio juris* et 62 et suivants pour le certificat successoral européen · **Code général des impôts, article 750 ter**, pour la territorialité des droits de mutation à titre gratuit · Règlement (UE) n° 650/2012 du 4 juillet 2012 relatif aux successions et au certificat successoral européen · Code général des impôts, article 750 ter · Conventions fiscales bilatérales françaises en matière de successions · BOFiP, territorialité des droits de mutation à titre gratuit.
+[Règlement (UE) n° 650/2012 du 4 juillet 2012 sur les successions internationales](https://eur-lex.europa.eu/eli/reg/2012/650/oj?locale=fr), applicable aux successions ouvertes à compter du 17 août 2015, articles 21 pour la résidence habituelle, 22 pour la *professio juris* et 62 et suivants pour le certificat successoral européen · **Code général des impôts, article 750 ter**, pour la territorialité des droits de mutation à titre gratuit · Règlement (UE) n° 650/2012 du 4 juillet 2012 relatif aux successions et au certificat successoral européen · Code général des impôts, article 750 ter · Conventions fiscales bilatérales françaises en matière de successions · [BOFiP, territorialité des droits de mutation à titre gratuit](https://bofip.impots.gouv.fr/bofip/3543-PGP.html/identifiant=BOI-ENR-DMTG-10-10-30-20120912).
 
 
 ### Liens internes

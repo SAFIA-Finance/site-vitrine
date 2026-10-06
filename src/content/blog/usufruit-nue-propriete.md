@@ -29,7 +29,7 @@ pages:
 articlesLies:
   - "donation-enfant-100000-euros"
   - "clause-beneficiaire-erreurs"
-sources: "Code général des impôts, article 669 · Code civil, articles 578 à 624 et article 606 · BOFiP, évaluation de l'usufruit et de la nue-propriété."
+sources: "Code général des impôts, article 669 · Code civil, articles 578 à 624 et article 606 · [BOFiP, évaluation de l'usufruit et de la nue-propriété](https://bofip.impots.gouv.fr/bofip/2323-PGP.html/identifiant=BOI-ENR-DMTG-10-40-10-50-20131223)."
 ---
 
 ## Les deux moitiés d'un droit de propriété

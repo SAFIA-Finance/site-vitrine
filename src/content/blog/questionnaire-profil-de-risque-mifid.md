@@ -35,7 +35,7 @@ pages:
 articlesLies:
   - "bilan-patrimonial-contenu"
   - "investir-selon-ses-valeurs"
-sources: "[Directive 2014/65/UE](https://eur-lex.europa.eu/eli/dir/2014/65/oj) dite MiFID II, article 25 · [Règlement délégué (UE) 2017/565](https://eur-lex.europa.eu/eli/reg_del/2017/565/oj), articles 54 et 55 · [Règlement délégué (UE) 2021/1253](https://eur-lex.europa.eu/eli/reg_del/2021/1253/oj) sur les préférences en matière de durabilité · AMF, positions-recommandations sur le recueil des informations clients · Kahneman et Tversky, théorie des perspectives, sur l'aversion aux pertes."
+sources: "[Directive 2014/65/UE](https://eur-lex.europa.eu/eli/dir/2014/65/oj) dite MiFID II, article 25 · [Règlement délégué (UE) 2017/565](https://eur-lex.europa.eu/eli/reg_del/2017/565/oj), articles 54 et 55 · [Règlement délégué (UE) 2021/1253](https://eur-lex.europa.eu/eli/reg_del/2021/1253/oj) sur les préférences en matière de durabilité · [AMF, positions-recommandations sur le recueil des informations clients](https://www.amf-france.org/fr/reglementation/doctrine/doc-2013-02) · Kahneman et Tversky, théorie des perspectives, sur l'aversion aux pertes."
 ---
 
 ## Ce que la loi demande

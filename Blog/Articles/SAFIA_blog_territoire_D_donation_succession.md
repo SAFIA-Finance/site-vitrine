@@ -504,7 +504,7 @@ Il s'éteint automatiquement. Le nu-propriétaire devient plein propriétaire sa
 
 ### Sources
 
-Code général des impôts, article 669 · Code civil, articles 578 à 624 et article 606 · BOFiP, évaluation de l'usufruit et de la nue-propriété.
+Code général des impôts, article 669 · Code civil, articles 578 à 624 et article 606 · [BOFiP, évaluation de l'usufruit et de la nue-propriété](https://bofip.impots.gouv.fr/bofip/2323-PGP.html/identifiant=BOI-ENR-DMTG-10-40-10-50-20131223).
 
 ### Liens internes
 

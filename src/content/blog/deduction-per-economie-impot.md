@@ -31,7 +31,7 @@ outils:
 articlesLies:
   - "per-fonctionnement"
   - "per-ou-assurance-vie"
-sources: "Code général des impôts, article 163 quatervicies · Loi n° 2026-103 du 19 février 2026, article 9 · BOFiP, épargne retraite et plafond de déduction · Avis d'impôt sur le revenu, rubrique « plafond épargne retraite »."
+sources: "Code général des impôts, article 163 quatervicies · Loi n° 2026-103 du 19 février 2026, article 9 · [BOFiP, épargne retraite et plafond de déduction](https://bofip.impots.gouv.fr/bofip/1124-PGP.html/identifiant=BOI-IR-BASE-20-50-20-20260810) · Avis d'impôt sur le revenu, rubrique « plafond épargne retraite »."
 ---
 
 ## La formule, et sa seule difficulté

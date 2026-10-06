@@ -114,7 +114,7 @@ Non, surtout pas. Les trois livrets réglementés se cumulent : livret A, LDDS e
 
 ### Sources
 
-Arrêté du 29 juillet 2026 relatif aux taux des produits d'épargne réglementée, Journal officiel du 31 juillet 2026 · Communiqué du ministère de l'Économie du 15 juillet 2026 · Banque de France, formule de calcul du taux du livret A · Loi de financement de la Sécurité sociale pour 2026, article relatif à la CSG sur les revenus du capital.
+Arrêté du 29 juillet 2026 relatif aux taux des produits d'épargne réglementée, Journal officiel du 31 juillet 2026 · [Communiqué du ministère de l'Économie du 15 juillet 2026](https://presse.economie.gouv.fr/epargne-reglementee-le-livret-a-passe-a-17-et-le-lep-se-maintient-a-25-a-compter-du-1er-aout-2026/) · Banque de France, formule de calcul du taux du livret A · Loi de financement de la Sécurité sociale pour 2026, article relatif à la CSG sur les revenus du capital.
 
 ### Liens internes
 
@@ -220,7 +220,7 @@ Souvent oui, pour une raison qui n'a rien à voir avec le rendement : l'antério
 
 ### Sources
 
-Arrêté du 29 juillet 2026, Journal officiel du 31 juillet 2026 · Banque de France, statistiques d'épargne réglementée, avril 2026 · Loi de financement de la Sécurité sociale pour 2026 · Service-public.fr, conditions d'accès au LEP.
+Arrêté du 29 juillet 2026, Journal officiel du 31 juillet 2026 · Banque de France, statistiques d'épargne réglementée, avril 2026 · Loi de financement de la Sécurité sociale pour 2026 · [Service-public.fr, conditions d'accès au LEP](https://www.service-public.gouv.fr/particuliers/vosdroits/F2367).
 
 ### Liens internes
 
@@ -322,7 +322,7 @@ Il n'existe pas de transfert à proprement parler : la procédure consiste à cl
 
 ### Sources
 
-Arrêté du 29 juillet 2026, Journal officiel du 31 juillet 2026 · Code monétaire et financier, articles L. 221-1 et suivants · Service-public.fr, fiches livret A et LDDS · Fonds de garantie des dépôts et de résolution.
+Arrêté du 29 juillet 2026, Journal officiel du 31 juillet 2026 · Code monétaire et financier, articles L. 221-1 et suivants · Service-public.fr, fiches [livret A](https://www.service-public.gouv.fr/particuliers/vosdroits/F2365) et [LDDS](https://www.service-public.gouv.fr/particuliers/vosdroits/F2368) · Fonds de garantie des dépôts et de résolution.
 
 ### Liens internes
 
@@ -438,7 +438,7 @@ Comme pour le livret A, le plafond de 10 000 € porte sur les **versements**, p
 
 ### Sources
 
-Arrêté du 29 juillet 2026, Journal officiel du 31 juillet 2026 · Communiqué du ministère de l'Économie du 15 juillet 2026 · Banque de France, nombre de LEP ouverts au 30 avril 2026 · Service-public.fr, plafonds de revenus du LEP.
+Arrêté du 29 juillet 2026, Journal officiel du 31 juillet 2026 · [Communiqué du ministère de l'Économie du 15 juillet 2026](https://presse.economie.gouv.fr/epargne-reglementee-le-livret-a-passe-a-17-et-le-lep-se-maintient-a-25-a-compter-du-1er-aout-2026/) · Banque de France, nombre de LEP ouverts au 30 avril 2026 · [Service-public.fr, plafonds de revenus du LEP](https://www.service-public.gouv.fr/particuliers/vosdroits/F2367).
 
 ### Liens internes
 
@@ -651,7 +651,7 @@ Rien, et c'est important à comprendre. Le livret A n'a ni valeur de part, ni p�
 
 ### Sources
 
-Banque de France, méthode de calcul du taux du livret A · INSEE, indice des prix à la consommation hors tabac, premier semestre 2026 · Arrêté du 29 juillet 2026, Journal officiel du 31 juillet 2026 · Communiqué du ministère de l'Économie du 15 juillet 2026.
+Banque de France, méthode de calcul du taux du livret A · INSEE, indice des prix à la consommation hors tabac, premier semestre 2026 · Arrêté du 29 juillet 2026, Journal officiel du 31 juillet 2026 · [Communiqué du ministère de l'Économie du 15 juillet 2026](https://presse.economie.gouv.fr/epargne-reglementee-le-livret-a-passe-a-17-et-le-lep-se-maintient-a-25-a-compter-du-1er-aout-2026/).
 
 ### Liens internes
 
@@ -750,7 +750,7 @@ Cela dépend de son âge et de ses conditions d'origine, les versements n'étant
 
 ### Sources
 
-Arrêté du 29 juillet 2026, Journal officiel du 31 juillet 2026 · Service-public.fr, fiches PEL, CEL et livret jeune · Loi de financement de la Sécurité sociale pour 2026, liste des revenus maintenus à 17,2 % · Code monétaire et financier, articles relatifs à l'épargne logement.
+Arrêté du 29 juillet 2026, Journal officiel du 31 juillet 2026 · Service-public.fr, fiches [PEL](https://www.service-public.gouv.fr/particuliers/vosdroits/F16140), [CEL](https://www.service-public.gouv.fr/particuliers/vosdroits/F16136) et livret jeune · Loi de financement de la Sécurité sociale pour 2026, liste des revenus maintenus à 17,2 % · Code monétaire et financier, articles relatifs à l'épargne logement.
 
 ### Liens internes
 

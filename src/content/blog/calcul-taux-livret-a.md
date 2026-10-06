@@ -31,7 +31,7 @@ pages:
 articlesLies:
   - "livret-a-plafond-taux"
   - "lep-conditions-plafond"
-sources: "Banque de France, méthode de calcul du taux du livret A · INSEE, indice des prix à la consommation hors tabac, premier semestre 2026 · Arrêté du 29 juillet 2026, Journal officiel du 31 juillet 2026 · Communiqué du ministère de l'Économie du 15 juillet 2026."
+sources: "Banque de France, méthode de calcul du taux du livret A · INSEE, indice des prix à la consommation hors tabac, premier semestre 2026 · Arrêté du 29 juillet 2026, Journal officiel du 31 juillet 2026 · [Communiqué du ministère de l'Économie du 15 juillet 2026](https://presse.economie.gouv.fr/epargne-reglementee-le-livret-a-passe-a-17-et-le-lep-se-maintient-a-25-a-compter-du-1er-aout-2026/)."
 ---
 
 ## La formule, dite simplement

@@ -194,7 +194,7 @@ En partant du coût de revient, pas du marché. Chiffrez les heures réellement 
 
 ### Sources
 
-Code monétaire et financier, articles L. 541-1 et suivants · Règlement général de l'AMF, livre III · [Directive 2014/65/UE](https://eur-lex.europa.eu/eli/dir/2014/65/oj), article 24 sur l'information relative aux coûts et aux incitations
+Code monétaire et financier, articles L. 541-1 et suivants · [Règlement général de l'AMF, livre III](https://www.amf-france.org/fr/eli/fr/aai/amf/rg/livre/3/notes) · [Directive 2014/65/UE](https://eur-lex.europa.eu/eli/dir/2014/65/oj), article 24 sur l'information relative aux coûts et aux incitations
 ### Liens internes
 
 Page **Conseillers** · articles **G2** (digitalisation), **E5** (coût d'un conseiller) et **G1** (logiciel CGP).
@@ -334,7 +334,7 @@ Non. L'inscription au registre unique est annuelle et suppose de justifier chaqu
 
 ### Sources
 
-Code monétaire et financier, articles **L. 541-1 et suivants** · [Code monétaire et financier, article D. 541-9](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025440435), montants minimaux de la garantie de responsabilité civile professionnelle · **Règlement général de l'AMF, article 325-1**, pour les trois voies de la capacité professionnelle · [Autorité des marchés financiers, statut de conseiller en investissements financiers](https://www.amf-france.org/en/professionals/other-professionals/financial-investment-advisor-status-fia) · ORIAS, registre unique des intermédiaires et conditions d'immatriculation.
+Code monétaire et financier, articles **L. 541-1 et suivants** · [Code monétaire et financier, article D. 541-9](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025440435), montants minimaux de la garantie de responsabilité civile professionnelle · **[Règlement général de l'AMF, article 325-1](https://www.amf-france.org/fr/eli/fr/aai/amf/rg/article/325-1/20180608/notes)**, pour les trois voies de la capacité professionnelle · [Autorité des marchés financiers, statut de conseiller en investissements financiers](https://www.amf-france.org/en/professionals/other-professionals/financial-investment-advisor-status-fia) · [ORIAS, registre unique des intermédiaires et conditions d'immatriculation](https://www.orias.fr/).
 
 ### Liens internes
 
@@ -694,7 +694,7 @@ Oui, mais pas pour la même raison. Avec quelques dizaines d'entrées par an, le
 
 ### Sources
 
-Règlement (UE) n° 910/2014 dit eIDAS sur l'identification électronique et les services de confiance · Code monétaire et financier, articles L. 561-5 et L. 561-10 sur l'entrée en relation à distance · Règlement général de l'AMF, livre III, obligations d'information préalable · [Règlement délégué (UE) 2017/565](https://eur-lex.europa.eu/eli/reg_del/2017/565/oj), articles 72 à 76 sur la conservation des enregistrements.
+Règlement (UE) n° 910/2014 dit eIDAS sur l'identification électronique et les services de confiance · Code monétaire et financier, articles L. 561-5 et L. 561-10 sur l'entrée en relation à distance · [Règlement général de l'AMF, livre III](https://www.amf-france.org/fr/eli/fr/aai/amf/rg/livre/3/notes), obligations d'information préalable · [Règlement délégué (UE) 2017/565](https://eur-lex.europa.eu/eli/reg_del/2017/565/oj), articles 72 à 76 sur la conservation des enregistrements.
 ### Liens internes
 
 Page **Conseillers** · articles **G3** (recueil client) et **G10** (LCB-FT).

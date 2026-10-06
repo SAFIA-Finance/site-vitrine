@@ -25,7 +25,7 @@ pages:
 articlesLies:
   - "assurance-vie-pea-expatriation"
   - "convention-fiscale-mode-emploi"
-sources: "Code général des impôts, articles 164 A à 197 A, 244 bis A, 964 et suivants · BOFiP, revenus de source française et taux minimum d'imposition · CJUE, arrêt de Ruyter, et suites françaises sur les prélèvements sociaux des affiliés à un régime européen · [Conventions fiscales internationales conclues par la France](https://www.impots.gouv.fr/les-conventions-internationales)"
+sources: "Code général des impôts, articles 164 A à 197 A, 244 bis A, 964 et suivants · [BOFiP, revenus de source française et taux minimum d'imposition](https://bofip.impots.gouv.fr/bofip/1173-PGP.html/identifiant=BOI-IR-DOMIC-10-20-10-20170406) · CJUE, arrêt de Ruyter, et suites françaises sur les prélèvements sociaux des affiliés à un régime européen · [Conventions fiscales internationales conclues par la France](https://www.impots.gouv.fr/les-conventions-internationales)"
 ---
 
 ## Le tableau de synthèse

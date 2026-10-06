@@ -131,7 +131,7 @@ Sur trois éléments vérifiables plutôt que sur la démonstration : l'existenc
 
 ### Sources
 
-Règlement général de l'AMF, **articles 325-5 et 325-6**, documents d'entrée en relation et lettre de mission · Code monétaire et financier, **article L. 541-8-1**, recueil d'informations · [Code monétaire et financier, article L. 561-12](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000041577784), conservation pendant cinq ans des documents de vigilance et des opérations · Règlement (UE) 2016/679, article 20, droit à la portabilité des données · Règlement général de l'AMF, livre III, obligations des conseillers en investissements financiers · [Directive 2014/65/UE](https://eur-lex.europa.eu/eli/dir/2014/65/oj), articles 16 et 25 · [Règlement (UE) 2016/679](https://eur-lex.europa.eu/eli/reg/2016/679/oj) (RGPD), articles 28 et 32 sur la sous-traitance et la sécurité · [Règlement (UE) 2022/2554](https://eur-lex.europa.eu/eli/reg/2022/2554/oj) (DORA) pour les prestataires concernés.
+Règlement général de l'AMF, **articles [325-5](https://www.amf-france.org/fr/eli/fr/aai/amf/rg/article/325-5/20230101/notes) et [325-6](https://www.amf-france.org/fr/eli/fr/aai/amf/rg/article/325-6/20180608/notes)**, documents d'entrée en relation et lettre de mission · Code monétaire et financier, **article L. 541-8-1**, recueil d'informations · [Code monétaire et financier, article L. 561-12](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000041577784), conservation pendant cinq ans des documents de vigilance et des opérations · Règlement (UE) 2016/679, article 20, droit à la portabilité des données · [Règlement général de l'AMF, livre III](https://www.amf-france.org/fr/eli/fr/aai/amf/rg/livre/3/notes), obligations des conseillers en investissements financiers · [Directive 2014/65/UE](https://eur-lex.europa.eu/eli/dir/2014/65/oj), articles 16 et 25 · [Règlement (UE) 2016/679](https://eur-lex.europa.eu/eli/reg/2016/679/oj) (RGPD), articles 28 et 32 sur la sous-traitance et la sécurité · [Règlement (UE) 2022/2554](https://eur-lex.europa.eu/eli/reg/2022/2554/oj) (DORA) pour les prestataires concernés.
 ### Liens internes
 
 Page **Conseillers** · articles **G2** (digitalisation) et **G7** (agrégation bancaire).
@@ -245,7 +245,7 @@ Oui, et il doit inclure trois lignes que les cabinets oublient : le temps intern
 
 ### Sources
 
-Règlement général de l'AMF, livre III · [Directive 2014/65/UE](https://eur-lex.europa.eu/eli/dir/2014/65/oj), article 16 sur les exigences organisationnelles · [Règlement délégué (UE) 2017/565](https://eur-lex.europa.eu/eli/reg_del/2017/565/oj), articles 72 à 76 sur la conservation des enregistrements · [Règlement (UE) 2016/679](https://eur-lex.europa.eu/eli/reg/2016/679/oj) (RGPD).
+[Règlement général de l'AMF, livre III](https://www.amf-france.org/fr/eli/fr/aai/amf/rg/livre/3/notes) · [Directive 2014/65/UE](https://eur-lex.europa.eu/eli/dir/2014/65/oj), article 16 sur les exigences organisationnelles · [Règlement délégué (UE) 2017/565](https://eur-lex.europa.eu/eli/reg_del/2017/565/oj), articles 72 à 76 sur la conservation des enregistrements · [Règlement (UE) 2016/679](https://eur-lex.europa.eu/eli/reg/2016/679/oj) (RGPD).
 ### Liens internes
 
 Page **Conseillers** · articles **G1** (logiciel CGP) et **G12** (onboarding client).
@@ -606,7 +606,7 @@ Elle est établie et remise par le cabinet : c'est un document que vous fourniss
 
 ### Sources
 
-[Directive 2014/65/UE](https://eur-lex.europa.eu/eli/dir/2014/65/oj), article 25, paragraphe 6 · [Règlement délégué (UE) 2017/565](https://eur-lex.europa.eu/eli/reg_del/2017/565/oj), article 54 · [Règlement délégué (UE) 2021/1253](https://eur-lex.europa.eu/eli/reg_del/2021/1253/oj) · Règlement général de l'AMF, livre III · Orientations de l'ESMA sur certains aspects des exigences d'adéquation de MiFID II.
+[Directive 2014/65/UE](https://eur-lex.europa.eu/eli/dir/2014/65/oj), article 25, paragraphe 6 · [Règlement délégué (UE) 2017/565](https://eur-lex.europa.eu/eli/reg_del/2017/565/oj), article 54 · [Règlement délégué (UE) 2021/1253](https://eur-lex.europa.eu/eli/reg_del/2021/1253/oj) · [Règlement général de l'AMF, livre III](https://www.amf-france.org/fr/eli/fr/aai/amf/rg/livre/3/notes) · Orientations de l'ESMA sur certains aspects des exigences d'adéquation de MiFID II.
 ### Liens internes
 
 Page **Conseillers** · articles **G3** (recueil client) et **G4** (lettre de mission).

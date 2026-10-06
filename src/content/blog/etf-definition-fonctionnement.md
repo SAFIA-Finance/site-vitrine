@@ -34,7 +34,7 @@ articlesLies:
   - "investir-en-actions-direct"
   - "obligations-entreprise"
 seoDerive: true
-sources: "Directive OPCVM et règlements applicables aux fonds indiciels cotés · AMF, guide sur les ETF · Documents d'informations clés et rapports d'écart de suivi des émetteurs · Code monétaire et financier, éligibilité au PEA · AMF, Lettre de l'Observatoire de l'épargne n° 65, avril 2026, frais moyens des placements financiers."
+sources: "Directive OPCVM et règlements applicables aux fonds indiciels cotés · AMF, guide sur les ETF · Documents d'informations clés et rapports d'écart de suivi des émetteurs · Code monétaire et financier, éligibilité au PEA · [AMF, Lettre de l'Observatoire de l'épargne n° 65, avril 2026, frais moyens des placements financiers](https://www.amf-france.org/fr/actualites-publications/publications/observatoire-de-lepargne/lettres-de-lobservatoire-de-lepargne/lettre-de-lobservatoire-de-lepargne-de-lamf-ndeg65-avril-2026)."
 ---
 
 ## Comment ça fonctionne

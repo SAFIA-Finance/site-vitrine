@@ -30,7 +30,7 @@ articlesLies:
   - "expatriation-maurice-fiscalite"
   - "expatriation-monaco-fiscalite"
 seoDerive: true
-sources: "Code général des impôts marocain, dispositions relatives aux pensions de source étrangère · [Convention fiscale franco-marocaine et ses avenants](https://www.impots.gouv.fr/les-conventions-internationales) · Notice DGFiP du formulaire 2074-ETD, liste des États ouvrant le sursis automatique, applicable au jour du transfert."
+sources: "Code général des impôts marocain, dispositions relatives aux pensions de source étrangère · [Convention fiscale franco-marocaine et ses avenants](https://www.impots.gouv.fr/les-conventions-internationales) · [Notice DGFiP du formulaire 2074-ETD](https://www.impots.gouv.fr/sites/default/files/formulaires/2074-etd/2026/2074-etd_5518.pdf), liste des États ouvrant le sursis automatique, applicable au jour du transfert."
 ---
 
 ## Le tableau de synthèse

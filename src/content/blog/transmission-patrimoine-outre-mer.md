@@ -38,7 +38,7 @@ articlesLies:
   - "fiscalite-polynesie-francaise"
   - "fiscalite-outre-mer-panorama"
 seoDerive: true
-sources: "Code général des impôts, article 750 ter, et articles 779, 990 I et 757 B · Code général des collectivités territoriales, articles LO 6214-4 et LO 6314-4 · Conventions fiscales internes entre l'État et les collectivités concernées · BOFiP, territorialité des droits de mutation à titre gratuit · Codes locaux des collectivités à fiscalité propre."
+sources: "Code général des impôts, article 750 ter, et articles 779, 990 I et 757 B · Code général des collectivités territoriales, articles LO 6214-4 et LO 6314-4 · Conventions fiscales internes entre l'État et les collectivités concernées · [BOFiP, territorialité des droits de mutation à titre gratuit](https://bofip.impots.gouv.fr/bofip/3543-PGP.html/identifiant=BOI-ENR-DMTG-10-10-30-20120912) · Codes locaux des collectivités à fiscalité propre."
 ---
 
 **Vérifié le 16 septembre 2026**

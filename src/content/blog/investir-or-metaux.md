@@ -29,7 +29,7 @@ pages:
 articlesLies:
   - "actifs-de-passion"
   - "classes-d-actifs"
-sources: "Code général des impôts, articles 150 VI à 150 VM (taxe sur les métaux précieux) et 150 UA (plus-values sur biens meubles) · BOFiP, régime des métaux précieux · Documents d'information des produits cotés adossés aux matières premières."
+sources: "Code général des impôts, articles 150 VI à 150 VM (taxe sur les métaux précieux) et 150 UA (plus-values sur biens meubles) · [BOFiP, régime des métaux précieux](https://bofip.impots.gouv.fr/bofip/3721-PGP.html/identifiant=BOI-RPPM-PVBMC-20-20140401) · Documents d'information des produits cotés adossés aux matières premières."
 ---
 
 ## Les formes de détention

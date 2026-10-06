@@ -118,7 +118,7 @@ Oui. Disposer d'un logement n'est pas en soi un critère de résidence, mais un 
 
 ### Sources
 
-Code général des impôts, article 4 B · Convention modèle OCDE, article 4 sur la résidence, et conventions bilatérales applicables · BOFiP, domicile fiscal · Jurisprudence du Conseil d'État sur le centre des intérêts économiques.
+Code général des impôts, article 4 B · Convention modèle OCDE, article 4 sur la résidence, et conventions bilatérales applicables · [BOFiP, domicile fiscal](https://bofip.impots.gouv.fr/bofip/1911-PGP.html/identifiant=BOI-IR-CHAMP-10-20160728) · Jurisprudence du Conseil d'État sur le centre des intérêts économiques.
 
 ### Liens internes
 
@@ -353,7 +353,7 @@ Oui, mais votre banque doit être informée du changement de résidence, qui mod
 
 ### Sources
 
-Code général des impôts, articles 164 A à 197 A, 244 bis A, 964 et suivants · BOFiP, revenus de source française et taux minimum d'imposition · CJUE, arrêt de Ruyter, et suites françaises sur les prélèvements sociaux des affiliés à un régime européen · [Conventions fiscales internationales conclues par la France](https://www.impots.gouv.fr/les-conventions-internationales)
+Code général des impôts, articles 164 A à 197 A, 244 bis A, 964 et suivants · [BOFiP, revenus de source française et taux minimum d'imposition](https://bofip.impots.gouv.fr/bofip/1173-PGP.html/identifiant=BOI-IR-DOMIC-10-20-10-20170406) · CJUE, arrêt de Ruyter, et suites françaises sur les prélèvements sociaux des affiliés à un régime européen · [Conventions fiscales internationales conclues par la France](https://www.impots.gouv.fr/les-conventions-internationales)
 
 ### Liens internes
 
@@ -586,7 +586,7 @@ Non. Une convention ne crée jamais d'imposition : elle répartit un droit d'imp
 
 ### Sources
 
-Modèle de convention fiscale de l'OCDE concernant le revenu et la fortune, et ses commentaires · Conventions fiscales bilatérales signées par la France, publiées par la DGFiP · Convention multilatérale de l'OCDE pour la mise en œuvre des mesures relatives aux conventions fiscales · BOFiP, conventions internationales.
+Modèle de convention fiscale de l'OCDE concernant le revenu et la fortune, et ses commentaires · [Conventions fiscales bilatérales signées par la France, publiées par la DGFiP](https://www.impots.gouv.fr/les-conventions-internationales) · Convention multilatérale de l'OCDE pour la mise en œuvre des mesures relatives aux conventions fiscales · [BOFiP, conventions internationales](https://bofip.impots.gouv.fr/bofip/3021-PGP.html/identifiant=BOI-INT-CVB-20200226).
 
 ### Liens internes
 
@@ -704,7 +704,7 @@ Non, et le conserver facilite la perception de la pension et la gestion du patri
 
 ### Sources
 
-Règlements européens (CE) n° 883/2004 et n° 987/2009 de coordination des systèmes de sécurité sociale · Code de la sécurité sociale, dispositions relatives aux cotisations d'assurance maladie sur les pensions des non-résidents · Conventions fiscales bilatérales, articles 18 et 19 · Caisse des Français de l'étranger · Portail info-retraite.fr, certificat de vie.
+Règlements européens (CE) n° 883/2004 et n° 987/2009 de coordination des systèmes de sécurité sociale · Code de la sécurité sociale, dispositions relatives aux cotisations d'assurance maladie sur les pensions des non-résidents · Conventions fiscales bilatérales, articles 18 et 19 · Caisse des Français de l'étranger · [Portail info-retraite.fr](https://www.info-retraite.fr/), certificat de vie.
 
 ### Liens internes
 

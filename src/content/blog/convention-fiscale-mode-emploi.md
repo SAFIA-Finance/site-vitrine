@@ -27,7 +27,7 @@ pages:
 articlesLies:
   - "residence-fiscale-non-resident"
   - "retraite-a-l-etranger"
-sources: "Modèle de convention fiscale de l'OCDE concernant le revenu et la fortune, et ses commentaires · Conventions fiscales bilatérales signées par la France, publiées par la DGFiP · Convention multilatérale de l'OCDE pour la mise en œuvre des mesures relatives aux conventions fiscales · BOFiP, conventions internationales."
+sources: "Modèle de convention fiscale de l'OCDE concernant le revenu et la fortune, et ses commentaires · [Conventions fiscales bilatérales signées par la France, publiées par la DGFiP](https://www.impots.gouv.fr/les-conventions-internationales) · Convention multilatérale de l'OCDE pour la mise en œuvre des mesures relatives aux conventions fiscales · [BOFiP, conventions internationales](https://bofip.impots.gouv.fr/bofip/3021-PGP.html/identifiant=BOI-INT-CVB-20200226)."
 ---
 
 ## Ce qu'une convention fait, et ne fait pas

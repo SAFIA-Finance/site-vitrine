@@ -491,7 +491,7 @@ Non. La réfaction est attachée à la **domiciliation du contribuable**, appré
 
 ### Sources
 
-Code général des impôts, article 197, I, 3 · BOFiP, BOI-IR-LIQ-20-30-10, modalités particulières d'imposition dans les départements d'outre-mer · Loi de finances pour 2019, abaissement des plafonds · impots.gouv.fr, rubrique « Impôts dus par les professionnels dans les DOM » pour la TVA et la taxe sur les salaires · Code général des impôts, article 44 quaterdecies (ZFANG).
+Code général des impôts, article 197, I, 3 · [BOFiP, BOI-IR-LIQ-20-30-10, modalités particulières d'imposition dans les départements d'outre-mer](https://bofip.impots.gouv.fr/bofip/4618-PGP.html/identifiant=BOI-IR-LIQ-20-30-10-20190226) · Loi de finances pour 2019, abaissement des plafonds · impots.gouv.fr, rubrique « Impôts dus par les professionnels dans les DOM » pour la TVA et la taxe sur les salaires · Code général des impôts, article 44 quaterdecies (ZFANG).
 
 
 ### Liens internes
@@ -1023,7 +1023,7 @@ Techniquement oui, mais le plafonnement global des avantages fiscaux s'applique 
 
 ### Sources
 
-Code général des impôts, articles 199 undecies B, dont l'alinéa 26 pour les taux de rétrocession, 199 undecies C, 217 undecies, 244 quater W, 244 quater Y et 44 quaterdecies · Code général des impôts, **article 200-0 A** sur le plafonnement global des avantages fiscaux, 10 000 € de droit commun et 18 000 € pour l'outre-mer · [Seuils de rétrocession, seuils d'agrément et fractions retenues pour le plafond](https://www.hagnere-patrimoine.fr/guides-patrimoine/defiscalisation/girardin-industriel/girardin-plein-droit-vs-agrement) · Projet de loi de finances pour 2026, article 7, retiré au cours des débats · [BOFiP, dispositifs d'aide fiscale à l'investissement outre-mer](https://bofip.impots.gouv.fr/bofip/6716-PGP.html/identifiant=BOI-IR-RICI-80-20230622) · impots.gouv.fr, avantages fiscaux liés à une activité dans les DOM.
+Code général des impôts, articles 199 undecies B, dont l'alinéa 26 pour les taux de rétrocession, 199 undecies C, 217 undecies, 244 quater W, 244 quater Y et 44 quaterdecies · Code général des impôts, **article 200-0 A** sur le plafonnement global des avantages fiscaux, 10 000 € de droit commun et 18 000 € pour l'outre-mer · [Seuils de rétrocession, seuils d'agrément et fractions retenues pour le plafond](https://www.hagnere-patrimoine.fr/guides-patrimoine/defiscalisation/girardin-industriel/girardin-plein-droit-vs-agrement) · Projet de loi de finances pour 2026, article 7, retiré au cours des débats · [BOFiP, dispositifs d'aide fiscale à l'investissement outre-mer](https://bofip.impots.gouv.fr/bofip/6716-PGP.html/identifiant=BOI-IR-RICI-80-20230622) · [impots.gouv.fr, avantages fiscaux liés à une activité dans les DOM](https://www.impots.gouv.fr/professionnel/questions/puis-je-beneficier-davantages-fiscaux-specifiques-en-exercant-une-activite).
 
 
 ### Liens internes
@@ -1122,7 +1122,7 @@ Oui, systématiquement. L'éloignement, le décalage horaire, l'intervention de 
 
 ### Sources
 
-Code général des impôts, article 750 ter, et articles 779, 990 I et 757 B · Code général des collectivités territoriales, articles LO 6214-4 et LO 6314-4 · Conventions fiscales internes entre l'État et les collectivités concernées · BOFiP, territorialité des droits de mutation à titre gratuit · Codes locaux des collectivités à fiscalité propre.
+Code général des impôts, article 750 ter, et articles 779, 990 I et 757 B · Code général des collectivités territoriales, articles LO 6214-4 et LO 6314-4 · Conventions fiscales internes entre l'État et les collectivités concernées · [BOFiP, territorialité des droits de mutation à titre gratuit](https://bofip.impots.gouv.fr/bofip/3543-PGP.html/identifiant=BOI-ENR-DMTG-10-10-30-20120912) · Codes locaux des collectivités à fiscalité propre.
 
 ### Liens internes
 

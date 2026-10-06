@@ -35,7 +35,7 @@ pages:
 articlesLies:
   - "pel-cel-livret-jeune"
   - "epargne-de-precaution-combien"
-sources: "Arrêté du 29 juillet 2026, Journal officiel du 31 juillet 2026 · Communiqué du ministère de l'Économie du 15 juillet 2026 · Banque de France, nombre de LEP ouverts au 30 avril 2026 · Service-public.fr, plafonds de revenus du LEP."
+sources: "Arrêté du 29 juillet 2026, Journal officiel du 31 juillet 2026 · [Communiqué du ministère de l'Économie du 15 juillet 2026](https://presse.economie.gouv.fr/epargne-reglementee-le-livret-a-passe-a-17-et-le-lep-se-maintient-a-25-a-compter-du-1er-aout-2026/) · Banque de France, nombre de LEP ouverts au 30 avril 2026 · [Service-public.fr, plafonds de revenus du LEP](https://www.service-public.gouv.fr/particuliers/vosdroits/F2367)."
 ---
 
 ## Le seul livret qui bat l'inflation en 2026

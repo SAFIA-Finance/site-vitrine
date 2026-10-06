@@ -28,7 +28,7 @@ articlesLies:
   - "investir-en-nue-propriete"
   - "crowdfunding-immobilier"
 seoDerive: true
-sources: "Code général des impôts, articles 14 à 33 quinquies (revenus fonciers), 50-0 et 155 (location meublée) · BOFiP, régimes fonciers et location meublée · Loi de financement de la Sécurité sociale pour 2026, maintien des prélèvements sociaux à 17,2 % sur les revenus fonciers."
+sources: "Code général des impôts, articles 14 à 33 quinquies (revenus fonciers), 50-0 et 155 (location meublée) · BOFiP, [régimes fonciers](https://bofip.impots.gouv.fr/bofip/7382-PGP.html/identifiant=BOI-RFPI-20240228) et [location meublée](https://bofip.impots.gouv.fr/bofip/3615-PGP.html/identifiant=BOI-BIC-CHAMP-40-10-20260415) · Loi de financement de la Sécurité sociale pour 2026, maintien des prélèvements sociaux à 17,2 % sur les revenus fonciers."
 ---
 
 ## Du brut au net net

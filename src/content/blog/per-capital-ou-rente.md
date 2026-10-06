@@ -31,7 +31,7 @@ outils:
 articlesLies:
   - "per-fonctionnement"
   - "preparer-retraite-30-40-50-ans"
-sources: "Code monétaire et financier, articles L. 224-1 et suivants · Code général des impôts, articles 158 et 163 quatervicies · Loi de financement de la Sécurité sociale pour 2026 · BOFiP, régime fiscal des prestations d'épargne retraite."
+sources: "Code monétaire et financier, articles L. 224-1 et suivants · Code général des impôts, articles 158 et 163 quatervicies · Loi de financement de la Sécurité sociale pour 2026 · [BOFiP, régime fiscal des prestations d'épargne retraite](https://bofip.impots.gouv.fr/bofip/7456-PGP.html/identifiant=BOI-RSA-PENS-30-10-20-20260810)."
 ---
 
 ## Les trois modalités

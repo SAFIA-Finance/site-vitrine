@@ -30,7 +30,7 @@ articlesLies:
   - "investir-or-metaux"
   - "actifs-de-passion"
 seoDerive: true
-sources: "[Règlement (UE) 2023/1114](https://eur-lex.europa.eu/eli/reg/2023/1114/oj) dit MiCA · Code général des impôts, articles 150 VH bis et 1649 bis C · Loi de financement de la Sécurité sociale pour 2026 · BOFiP, régime des actifs numériques."
+sources: "[Règlement (UE) 2023/1114](https://eur-lex.europa.eu/eli/reg/2023/1114/oj) dit MiCA · Code général des impôts, articles 150 VH bis et 1649 bis C · Loi de financement de la Sécurité sociale pour 2026 · [BOFiP, régime des actifs numériques](https://bofip.impots.gouv.fr/bofip/11967-PGP.html/identifiant=BOI-RPPM-PVBMC-30-10-20190902)."
 ---
 
 ## Le cadre MiCA

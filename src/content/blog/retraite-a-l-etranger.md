@@ -25,7 +25,7 @@ pages:
 articlesLies:
   - "convention-fiscale-mode-emploi"
   - "patrimoine-francais-non-resident"
-sources: "Règlements européens (CE) n° 883/2004 et n° 987/2009 de coordination des systèmes de sécurité sociale · Code de la sécurité sociale, dispositions relatives aux cotisations d'assurance maladie sur les pensions des non-résidents · Conventions fiscales bilatérales, articles 18 et 19 · Caisse des Français de l'étranger · Portail info-retraite.fr, certificat de vie."
+sources: "Règlements européens (CE) n° 883/2004 et n° 987/2009 de coordination des systèmes de sécurité sociale · Code de la sécurité sociale, dispositions relatives aux cotisations d'assurance maladie sur les pensions des non-résidents · Conventions fiscales bilatérales, articles 18 et 19 · Caisse des Français de l'étranger · [Portail info-retraite.fr](https://www.info-retraite.fr/), certificat de vie."
 ---
 
 ## Le tableau de synthèse

@@ -35,7 +35,7 @@ pages:
 articlesLies:
   - "sfdr-article-8-article-9"
   - "greenwashing-signaux-fonds"
-sources: "Référentiel du label ISR, version applicable depuis mars 2024, ministère de l'Économie · Référentiel du label Greenfin, ministère de la Transition écologique · Association Fair, référentiel Finansol · Loi Industrie Verte, dispositions applicables au 1er janvier 2026 · Code des assurances, article L. 131-1-2."
+sources: "[Référentiel du label ISR, version applicable depuis mars 2024, ministère de l'Économie](https://www.lelabelisr.fr/wp-content/uploads/Referentiel-Label-ISR-mars24.pdf) · Référentiel du label Greenfin, ministère de la Transition écologique · Association Fair, référentiel Finansol · Loi Industrie Verte, dispositions applicables au 1er janvier 2026 · Code des assurances, article L. 131-1-2."
 ---
 
 ## Pourquoi un label vaut mieux qu'une classification

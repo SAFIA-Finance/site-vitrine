@@ -37,7 +37,7 @@ outils:
 articlesLies:
   - "livret-a-plafond-taux"
   - "calcul-taux-livret-a"
-sources: "Arrêté du 29 juillet 2026, Journal officiel du 31 juillet 2026 · Code monétaire et financier, articles L. 221-1 et suivants · Service-public.fr, fiches livret A et LDDS · Fonds de garantie des dépôts et de résolution."
+sources: "Arrêté du 29 juillet 2026, Journal officiel du 31 juillet 2026 · Code monétaire et financier, articles L. 221-1 et suivants · Service-public.fr, fiches [livret A](https://www.service-public.gouv.fr/particuliers/vosdroits/F2365) et [LDDS](https://www.service-public.gouv.fr/particuliers/vosdroits/F2368) · Fonds de garantie des dépôts et de résolution."
 ---
 
 ## Ce qui est strictement identique
