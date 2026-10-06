@@ -46,6 +46,7 @@ décision de Maxime et dit qui a la main.
 | **Audits de contenu (Jev)** | En sommeil. Vercel a retiré le modèle de son offre gratuite ; le chantier s'était terminé le 21/09/2026 avec zéro article sous le seuil. Les outils ne peuvent plus écraser un rapport par un rapport vide. Voir [OUTILS.md](OUTILS.md). |
 | **« Investissement performant »** | Le schéma du cockpit le promet alors que la page dit plus bas « il ne promet aucune performance ». Maxime a demandé de ne pas y toucher : le point est clos, pas en suspens. |
 | **Lien mort du comparatif** | Le communiqué du Crédit Agricole sur le rachat de Linxo a disparu de son site de presse, et aucune source officielle de remplacement n'a été trouvée. La mention reste, datée du 17 juin 2020, sans lien. |
+| **Arrêté sur les taux de l'épargne réglementée** | Sept articles citent « l'arrêté du 29 juillet 2026, Journal officiel du 31 juillet » pour tous les taux. Deux sites de veille juridique indiquent que cet arrêté ne fixe que le taux du LEP, le livret A, le LDDS et le CEL relevant d'un arrêté du 28 juillet paru le 29. Non vérifié au Journal officiel, Légifrance bloquant l'accès automatisé. Les taux publiés sont justes. **Décision : laisser en l'état.** |
 | **Relais des formulaires** | L'origine `sitev2`, domaine supprimé, est retirée. Le relais reste sur son adresse `workers.dev`. |
 
 ---

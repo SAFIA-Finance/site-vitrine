@@ -617,7 +617,7 @@ Un paiement fractionné ou différé est possible dans certains cas, notamment e
 
 ### Sources
 
-Code civil, articles 768 à 807 sur l'option successorale · Code général des impôts, article 641 sur les délais de déclaration · Service-public.fr, fiches F1199 et F16303 · Conseil supérieur du notariat, déroulement d'un règlement de succession.
+Code civil, articles 768 à 807 sur l'option successorale · Code général des impôts, article 641 sur les délais de déclaration · Service-public.fr, fiches [F1199](https://www.service-public.gouv.fr/particuliers/vosdroits/F1199) et [F14198](https://www.service-public.gouv.fr/particuliers/vosdroits/F14198) · Conseil supérieur du notariat, déroulement d'un règlement de succession.
 
 ### Liens internes
 
