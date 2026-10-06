@@ -1,6 +1,6 @@
 # Points ouverts
 
-**Mis à jour le 6 octobre 2026.** La bascule du 18 septembre est faite : le site est en ligne sur
+**Mis à jour le 7 octobre 2026.** La bascule du 18 septembre est faite : le site est en ligne sur
 `safia.finance`, indexable, et la préversion `sitev2.safia.finance` est
 supprimée. Voir [DEPLOIEMENT.md](DEPLOIEMENT.md) pour la procédure suivie et
 le piège qui a coûté treize minutes de coupure.
@@ -34,7 +34,8 @@ décision de Maxime et dit qui a la main.
 | **Titres datés, échéance du 1er janvier 2027** | 25 titres et descriptions portent « 2026 » et deviendront faux ensemble. `npm run titres-dates` donne la liste exacte le jour venu. À traiter fin décembre. | Claude, fin décembre |
 | **Dépendances, trois alertes restantes** | `npm audit` en signalait sept le 06/10/2026 ; quatre sont corrigées. Les trois restantes (astro, esbuild, sharp) demandent Astro 7, soit deux versions majeures. Elles touchent l'outil de construction, pas les pages servies. Chantier à part. | À planifier |
 | **En-têtes de sécurité et vraies 301** | GitHub Pages ne pose ni HSTS, ni CSP, ni anti-cadre, et ne sait pas servir de 301 : `/privacy-policy/` et `/terms/` répondent 200 puis renvoient. Le remède est le proxy Cloudflare, donc une manipulation DNS sur la production. **Décision du 06/10/2026 : ne rien changer pour l'instant.** | En attente |
-| **Fiche Google Play** | Le titre « Safia Finance » tient 13 caractères sur 30 et ne porte aucun mot-clé. Proposition non validée : « SAFIA : gestion de patrimoine ». **Remis à plus tard le 06/10/2026.** | En attente |
+| **Fiche Google Play** | Le titre « Safia Finance » tient 13 caractères sur 30 et ne porte aucun mot-clé. **Titre validé par Maxime le 07/10/2026 : « SAFIA : gestion de patrimoine »** (29 caractères), le nom du développeur restant « Safia Finance ». À faire quand le code de l'application aura été récupéré et que le travail sur l'application commencera. La capture avant et après est prête. | En attente, chantier application |
+| **Fiche d'établissement Google** | À créer comme entreprise de services, **adresse masquée** : le siège est un domicile. Nom « SAFIA », catégorie conseiller financier, zone desservie France. La validation demande une vidéo tournée sur place, et Maxime n'est pas à Paris avant décembre 2026 ou janvier 2027. À vérifier avant de la créer : Google réserve ces fiches aux entreprises qui rencontrent leurs clients en personne. | Maxime, décembre ou janvier |
 
 ### Clos le 6 octobre 2026, sur décision de Maxime
 
