@@ -7,6 +7,13 @@
 //   POST /newsletter  { email, source }                         → liste newsletter
 //   POST /demo        { nom, structure, email, fonction?,
 //                       clients?, message?, source }             → liste démo + e-mail d'alerte
+//   POST /contact     { nom, email, sujet, message, source }     → e-mail d'alerte SEULEMENT
+//
+// La différence entre /demo et /contact n'est pas de forme, elle est de fond :
+// une demande de démo est une piste commerciale, qui a sa place dans une liste
+// Brevo ; un message de support ne l'est pas. L'inscrire dans une liste
+// reviendrait à transformer « j'ai un souci avec mon compte » en consentement
+// commercial. /contact n'écrit donc dans aucune liste et ne fait qu'alerter.
 //
 // Le champ « site » est un pot de miel : invisible pour un humain, rempli par les robots.
 
@@ -49,6 +56,7 @@ export default {
     try {
       if (chemin === '/newsletter') return await newsletter(donnees, env, cors);
       if (chemin === '/demo') return await demo(donnees, env, cors);
+      if (chemin === '/contact') return await contact(donnees, env, cors);
       return repondre({ erreur: 'inconnu' }, 404, cors);
     } catch (e) {
       console.error(chemin, e.message);
@@ -118,6 +126,40 @@ async function demo(d, env, cors) {
       '<p>Nouvelle demande reçue depuis le site.</p><table cellpadding="6">' +
       lignes.map(([k, v]) => `<tr><td><b>${echapper(k)}</b></td><td>${echapper(v)}</td></tr>`).join('') +
       '</table><p>Répondre à cet e-mail écrit directement au demandeur.</p>',
+  });
+
+  return repondre({ ok: true }, 200, cors);
+}
+
+async function contact(d, env, cors) {
+  const demande = {
+    nom: texte(d.nom, 120),
+    email: texte(d.email, 254).toLowerCase(),
+    sujet: texte(d.sujet, 80) || 'Message',
+    message: texte(d.message, 4000),
+    source: texte(d.source, 60) || 'site',
+  };
+
+  if (!demande.nom || !demande.message) return repondre({ erreur: 'champs' }, 422, cors);
+  if (!EMAIL.test(demande.email)) return repondre({ erreur: 'email' }, 422, cors);
+
+  const lignes = [
+    ['Page', demande.source],
+    ['Nom', demande.nom],
+    ['Email', demande.email],
+    ['Sujet', demande.sujet],
+  ];
+
+  await brevo(env, '/smtp/email', {
+    sender: { email: env.EXPEDITEUR_EMAIL, name: 'Site SAFIA' },
+    to: [{ email: env.ALERTE_EMAIL }],
+    replyTo: { email: demande.email, name: demande.nom },
+    subject: `Contact · ${demande.sujet}`,
+    htmlContent:
+      '<p>Message reçu depuis le formulaire de contact.</p><table cellpadding="6">' +
+      lignes.map(([k, v]) => `<tr><td><b>${echapper(k)}</b></td><td>${echapper(v)}</td></tr>`).join('') +
+      `</table><p><b>Message</b></p><p>${echapper(demande.message).replace(/\n/g, '<br>')}</p>` +
+      '<p>Répondre à cet e-mail écrit directement à l\'expéditeur.</p>',
   });
 
   return repondre({ ok: true }, 200, cors);

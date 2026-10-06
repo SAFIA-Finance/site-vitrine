@@ -1,6 +1,6 @@
 # Formulaires
 
-Le site a quatre formulaires :
+Le site a cinq formulaires :
 
 | Formulaire | Page | Action | Destination |
 |---|---|---|---|
@@ -8,6 +8,12 @@ Le site a quatre formulaires :
 | Newsletter | Blog | `newsletter` | Liste Brevo « Newsletter SAFIA » |
 | Programme pilote | Conseillers | `demo` | Liste Brevo « Demandes de démo » + e-mail d'alerte |
 | Programme pilote | Institutions | `demo` | Liste Brevo « Demandes de démo » + e-mail d'alerte |
+| Contact | Contact | `contact` | E-mail d'alerte **seulement**, aucune liste |
+
+`contact` n'écrit dans aucune liste Brevo, et c'est délibéré : une demande de
+démo est une piste commerciale, un message de support ne l'est pas. L'inscrire
+dans une liste reviendrait à transformer « j'ai un souci avec mon compte » en
+consentement commercial.
 
 ## Pourquoi un relais
 
@@ -40,6 +46,7 @@ L'offre gratuite de Cloudflare Workers couvre 100 000 appels par jour.
 | `relais/wrangler.jsonc` | Nom, origines autorisées, destinataire, identifiants des listes |
 | `src/scripts/formulaires.js` | Envoi côté navigateur et messages d'erreur (tu / vous) |
 | `src/scripts/demo.js` | Formulaire programme pilote, commun à Conseillers et Institutions |
+| `src/scripts/pages/contact.js` | Formulaire de la page Contact |
 | `src/scripts/pages/accueil.js`, `blog.js` | Formulaires newsletter |
 | `src/config.js` → `RELAIS_URL` | Adresse du relais, posée dans le `<head>` |
 

@@ -3,96 +3,76 @@ import Base from '../layouts/Base.astro';
 import { SOCIETE } from '../config.js';
 // Page exigée par les magasins d'applications : Apple demande une adresse de
 // support joignable (App Review, 1.5), Google Play une adresse de contact
-// publique pour un compte d'organisation. C'est donc l'URL déclarée dans les
-// deux fiches, et elle doit rester accessible sans compte ni formulaire.
+// publique et une adresse où demander la suppression du compte. C'est l'URL
+// déclarée dans les deux fiches, et elle doit rester joignable sans compte.
 //
-// Pas de formulaire ici, et c'est délibéré : le seul formulaire du site vise
-// les professionnels et passe par le relais Brevo. En ouvrir un second côté
-// particuliers reviendrait à collecter des données patrimoniales, ce qui ne se
-// décide pas en passant. Le même raisonnement est écrit dans ContactOutil.astro.
+// Trois sections, pas davantage. La première version en comptait cinq et
+// pesait 582 mots, dont 69 % de mentions légales : une page de contact où
+// l'on ne pouvait pas écrire. Ce qui a été retiré vit ailleurs et y est lié :
+// la sécurité sur /securite/, le périmètre du conseil sur /disclaimer/, les
+// réclamations sur /mentions-legales/. Ne pas les réimporter ici.
 //
-// Les coordonnées viennent toutes de config.js : si le siège ou l'adresse de
-// contact changent, cette page suit sans qu'on ait à y penser.
+// Le formulaire est servi par l'action /contact du relais (dossier relais/),
+// qui n'inscrit dans AUCUNE liste Brevo : un message de support n'est pas un
+// consentement commercial. Les styles de formulaire (.demo-grille, .form-demo,
+// .champs) sont écrits pour un fond sombre, d'où la section « final ».
+//
+// L'ancre #suppression est déclarée telle quelle dans la fiche Google Play :
+// ne pas renommer cet identifiant, et ne pas déplacer la section hors de cette
+// page sans prévenir. Son contenu résume l'article 12 de la politique de
+// confidentialité ; si cet article change, celui-ci doit suivre.
 const fil = ['Accueil', 'Contact'];
 ---
 
 <Base chemin={"/contact/"} fil={fil}>
-<section class="hero hero-page hero-propos">
-<div class="wrap hero-page-in hero-court">
+<!-- ===== Titre et formulaire, dans un seul bloc =====
+     Pas de section « hero » séparée ici, et c'est un choix de rendu : le hero
+     et cette section sont tous deux sombres, mais avec des dégradés différents,
+     ce qui dessinait une ligne horizontale franche à leur jonction. Les réunir
+     supprime ce raccord et met le formulaire dans le premier écran.
+     Le padding haut de 150 px reprend celui de .hero-page-in : l'en-tête est en
+     position fixe et passerait sinon par-dessus le fil d'Ariane. -->
+<section class="final" id="formulaire" style="padding-top:150px">
+<div class="wrap">
   <p class="etiq-page">Contact</p>
   <p class="fil-ariane" aria-label="Fil d'Ariane"><a href="/">Accueil</a> <span aria-hidden="true">/</span> Contact</p>
-  <h1>Nous contacter</h1>
-  <p class="chapo">Une question sur l'application, sur ton compte ou sur un contenu du site ? Une personne de l'équipe te répond, sous 48 heures ouvrées.</p>
 </div>
-</section>
-
-<!-- ===== Les trois voies ===== -->
-<section class="bloc appui-bloc">
-<div class="wrap">
-  <h2 class="titre">Trois façons de nous joindre</h2>
-  <p class="intro" style="margin-bottom:36px">L'email est la voie la plus rapide, et celle que nous suivons tous les jours ouvrés. Les deux autres existent parce qu'une demande n'a pas toujours la même nature.</p>
-  <div class="appuis">
-    <article>
-      <h3>Par email</h3>
-      <p>Pour toute question sur l'application, un compte, une facturation ou un contenu publié. Écris à <a class="lien" href={`mailto:${SOCIETE.email}`}>{SOCIETE.email}</a>. Réponse sous 48 heures ouvrées, du lundi au vendredi.</p>
-    </article>
-    <article>
-      <h3>Par courrier</h3>
-      <p>{SOCIETE.raisonSociale}, {SOCIETE.rue}, {SOCIETE.codePostal} {SOCIETE.ville}, France. C'est le siège social, et l'adresse à utiliser pour tout envoi qui doit garder une trace écrite.</p>
-    </article>
-    <article>
-      <h3>Tu es un professionnel</h3>
-      <p>Conseiller en gestion de patrimoine, institution ou producteur qui souhaite distribuer un produit : passe par le <a class="lien" href="/conseillers/#contact">formulaire dédié</a>, qui nous donne d'emblée le contexte de la demande.</p>
-    </article>
+<div class="wrap demo-grille">
+  <div>
+    <h1>Nous contacter</h1>
+    <p class="demo-chapo">Une personne de l'équipe lit chaque message et te répond sous 48 heures ouvrées, du lundi au vendredi.</p>
+    <p class="demo-chapo"><a class="lien" href={`mailto:${SOCIETE.email}`}>{SOCIETE.email}</a><br />{SOCIETE.raisonSociale}, {SOCIETE.rue}, {SOCIETE.codePostal} {SOCIETE.ville}<br />Conseiller ou producteur ? <a class="lien" href="/conseillers/#contact">Formulaire professionnels</a></p>
   </div>
+  <form class="form-demo" id="fcontact" novalidate>
+    <p class="pot" aria-hidden="true"><label for="site-contact">Laisser vide</label><input id="site-contact" name="site" type="text" tabindex="-1" autocomplete="off"></p>
+    <div class="champs">
+      <p><label for="c-nom">Nom et prénom</label><input id="c-nom" name="nom" type="text" autocomplete="name" required></p>
+      <p><label for="c-mail">Email</label><input id="c-mail" name="email" type="email" autocomplete="email" required></p>
+      <p class="large"><label for="c-sujet">Sujet</label>
+        <select id="c-sujet" name="sujet"><option>Une question sur l'application</option><option>Un problème technique</option><option>Supprimer mon compte et mes données</option><option>Une réclamation</option><option>Autre</option></select>
+      </p>
+      <p class="large"><label for="c-msg">Message</label><textarea id="c-msg" name="message" rows="5" required></textarea></p>
+    </div>
+    <button class="btn btn-primaire" type="submit">Envoyer</button>
+    <p class="form-retour" id="cretour" role="status" hidden></p>
+    <small>Tes données servent uniquement à traiter ta demande. Ne nous envoie ni mot de passe ni coordonnées bancaires. <a href="/politique-de-confidentialite/">Confidentialité</a> · <a href="/disclaimer/">Avertissement</a> · <a href="/mentions-legales/">Réclamations</a></small>
+  </form>
 </div>
 </section>
 
-<!-- ===== Suppression du compte =====
-     Section exigée par Google Play, qui demande pour tout compte utilisateur une
-     adresse publique où en demander la suppression, avec la procédure et ce qui
-     reste conservé. C'est l'ancre #suppression qui est déclarée dans la fiche,
-     pas la page nue : ne pas renommer cet identifiant.
-     Le contenu résume l'article 12 de la politique de confidentialité. Si cet
-     article change, celui-ci doit suivre : deux textes qui divergent sur une
-     durée de conservation, c'est exactement ce qu'un contrôle vient chercher. -->
-<section class="bloc" id="suppression">
+<!-- ===== Suppression du compte ===== -->
+<section class="bloc detail-bloc" id="suppression">
 <div class="wrap">
   <h2 class="titre">Supprimer ton compte et tes données</h2>
-  <div class="prose" style="margin-top:26px">
-    <p class="intro">La demande se fait par email, à <a class="lien" href={`mailto:${SOCIETE.email}?subject=${encodeURIComponent('Suppression de mon compte SAFIA')}`}>{SOCIETE.email}</a>, depuis l'adresse associée au compte. Elle n'a pas à être motivée, et nous ne cherchons pas à t'en dissuader.</p>
-    <h3>Ce qui se passe immédiatement</h3>
-    <p>Le compte est désactivé : tu ne peux plus t'y connecter, et les traitements en cours s'arrêtent, qu'il s'agisse de la synchronisation bancaire, des notifications ou de l'accès à l'assistant. Les autorisations accordées aux services d'agrégation bancaire sont révoquées sur-le-champ.</p>
-    <h3>Ce qui est supprimé sous 30 jours</h3>
-    <p>Profil, données patrimoniales, conversations et préférences sont effacés définitivement à l'issue d'un délai de trente jours. Ce délai n'est pas une rétention commerciale : il couvre les demandes faites par erreur et les litiges de facturation encore ouverts.</p>
-    <h3>Ce que la loi nous oblige à conserver</h3>
-    <p>Certaines données doivent être gardées au titre d'une obligation légale, notamment la réglementation du conseil en investissements financiers et les obligations comptables. Au même terme de trente jours, elles sont isolées dans un espace d'archivage séparé de la base active, hors de tout usage courant, et ne sont plus consultables qu'à des fins de preuve, d'audit ou de réponse à une autorité. Elles disparaissent à l'expiration du délai légal propre à chaque catégorie. Nos sauvegardes techniques, elles, sont purgées en 90 jours au plus.</p>
-    <p>Le détail complet figure à l'article 12 de notre <a class="lien" href="/politique-de-confidentialite/">politique de confidentialité</a>, avec les durées applicables à chaque catégorie de données.</p>
+  <div class="prose" style="margin-top:22px">
+    <p>Choisis « Supprimer mon compte et mes données » dans le formulaire ci-dessus, ou écris à <a class="lien" href={`mailto:${SOCIETE.email}?subject=${encodeURIComponent('Suppression de mon compte SAFIA')}`}>{SOCIETE.email}</a> depuis l'adresse du compte. La demande n'a pas à être motivée.</p>
+    <p><b>Immédiatement :</b> le compte est désactivé, les traitements s'arrêtent et les accès bancaires sont révoqués. <b>Sous 30 jours :</b> profil, données patrimoniales, conversations et préférences sont effacés définitivement. <b>Au-delà :</b> ce que la loi impose de conserver est isolé hors de la base active, puis supprimé à l'expiration du délai légal. Les sauvegardes techniques sont purgées en 90 jours au plus.</p>
+    <p>Le détail figure à l'article 12 de notre <a class="lien" href="/politique-de-confidentialite/">politique de confidentialité</a>.</p>
   </div>
-</div>
-</section>
-
-<!-- ===== Trois précisions ===== -->
-<section class="bloc detail-bloc">
-<div class="wrap">
-  <h2 class="titre">Avant de nous écrire</h2>
-  <div class="prose" style="margin-top:26px">
-    <h3>Ne nous envoie jamais d'identifiants ni de coordonnées bancaires</h3>
-    <p>Un email n'est pas un canal sûr, et nous ne te demanderons jamais ton mot de passe, un code reçu par SMS ou le relevé d'identité bancaire d'un compte. Si un message prétend venir de SAFIA et te réclame l'un des trois, il ne vient pas de nous : signale-le à cette même adresse. Ce que nous faisons pour protéger tes données est décrit sur la page <a class="lien" href="/securite/">sécurité et conformité</a>.</p>
-    <h3>Un échange par email n'est pas un conseil personnalisé</h3>
-    <p>Nous répondons volontiers à une question de fonctionnement ou de compréhension, mais le conseil en investissement est une activité réglementée, qui se délivre dans un cadre dédié par un conseiller habilité. La distinction est détaillée dans notre <a class="lien" href="/disclaimer/">avertissement</a>.</p>
-    <h3>Pour une réclamation</h3>
-    <p>Une réclamation s'adresse d'abord à nous, par écrit, à l'adresse ci-dessus. Si le litige n'est pas résolu à l'amiable, les voies de recours gratuites, dont le Médiateur de l'AMF, sont listées dans nos <a class="lien" href="/mentions-legales/">mentions légales</a>.</p>
-  </div>
-</div>
-</section>
-
-<section class="final">
-<div class="wrap final-simple">
-  <h2>Écris-nous.</h2>
-  <p>Une personne de l'équipe lit chaque message et te répond sous 48 heures ouvrées.</p>
-  <a class="btn btn-primaire" href={`mailto:${SOCIETE.email}`}>{SOCIETE.email}</a>
-  <small>Tes données servent uniquement à traiter ta demande. <a href="/politique-de-confidentialite/">Politique de confidentialité</a></small>
 </div>
 </section>
 </Base>
+
+<script>
+  import '../scripts/pages/contact.js';
+</script>

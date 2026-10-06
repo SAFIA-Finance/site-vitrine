@@ -999,7 +999,7 @@ ul.reseaux{list-style:none;display:flex;flex-direction:row;gap:10px;margin-top:1
 
 /* Formulaire */
 .demo-grille{display:grid;grid-template-columns:.9fr 1.1fr;gap:56px;align-items:start}
-.demo-grille h2{font-size:clamp(2rem,4.4vw,3.2rem);line-height:1.05;letter-spacing:-.03em;font-weight:600;max-width:14ch}
+.demo-grille h1,.demo-grille h2{font-size:clamp(2rem,4.4vw,3.2rem);line-height:1.05;letter-spacing:-.03em;font-weight:600;max-width:14ch}
 .demo-chapo{margin-top:18px;color:rgba(255,255,255,.8);font-size:18px;max-width:38ch}
 .form-demo{padding:30px;border-radius:var(--r-l);background:rgba(19,12,54,.5);box-shadow:inset 0 0 0 1px rgba(255,255,255,.2)}
 .champs{display:grid;grid-template-columns:1fr 1fr;gap:16px}
