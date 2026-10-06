@@ -60,6 +60,12 @@ const JOUR_DE_CONSTRUCTION = new Date().toISOString().slice(0, 10);
 const REDIRECTIONS = {
   '/terms': '/cgu/',
   '/cfi-page': '/conseil-financier-ia/',
+  // Adresse de l'ancien site, declaree telle quelle dans les fiches App Store
+  // et Google Play. Les magasins exigent une page de confidentialite joignable :
+  // tant que ce lien repond, la fiche reste valide meme si elle n'a pas encore
+  // ete mise a jour. Ne pas retirer cette redirection sans verifier d'abord que
+  // les deux fiches pointent vers /politique-de-confidentialite/.
+  '/privacy-policy': '/politique-de-confidentialite/',
 };
 
 /** Les chemins produits par ces redirections, tels qu'ils sortent du build. */

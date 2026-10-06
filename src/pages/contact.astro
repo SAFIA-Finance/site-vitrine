@@ -48,8 +48,32 @@ const fil = ['Accueil', 'Contact'];
 </div>
 </section>
 
+<!-- ===== Suppression du compte =====
+     Section exigée par Google Play, qui demande pour tout compte utilisateur une
+     adresse publique où en demander la suppression, avec la procédure et ce qui
+     reste conservé. C'est l'ancre #suppression qui est déclarée dans la fiche,
+     pas la page nue : ne pas renommer cet identifiant.
+     Le contenu résume l'article 12 de la politique de confidentialité. Si cet
+     article change, celui-ci doit suivre : deux textes qui divergent sur une
+     durée de conservation, c'est exactement ce qu'un contrôle vient chercher. -->
+<section class="bloc" id="suppression">
+<div class="wrap">
+  <h2 class="titre">Supprimer ton compte et tes données</h2>
+  <div class="prose" style="margin-top:26px">
+    <p class="intro">La demande se fait par email, à <a class="lien" href={`mailto:${SOCIETE.email}?subject=${encodeURIComponent('Suppression de mon compte SAFIA')}`}>{SOCIETE.email}</a>, depuis l'adresse associée au compte. Elle n'a pas à être motivée, et nous ne cherchons pas à t'en dissuader.</p>
+    <h3>Ce qui se passe immédiatement</h3>
+    <p>Le compte est désactivé : tu ne peux plus t'y connecter, et les traitements en cours s'arrêtent, qu'il s'agisse de la synchronisation bancaire, des notifications ou de l'accès à l'assistant. Les autorisations accordées aux services d'agrégation bancaire sont révoquées sur-le-champ.</p>
+    <h3>Ce qui est supprimé sous 30 jours</h3>
+    <p>Profil, données patrimoniales, conversations et préférences sont effacés définitivement à l'issue d'un délai de trente jours. Ce délai n'est pas une rétention commerciale : il couvre les demandes faites par erreur et les litiges de facturation encore ouverts.</p>
+    <h3>Ce que la loi nous oblige à conserver</h3>
+    <p>Certaines données doivent être gardées au titre d'une obligation légale, notamment la réglementation du conseil en investissements financiers et les obligations comptables. Au même terme de trente jours, elles sont isolées dans un espace d'archivage séparé de la base active, hors de tout usage courant, et ne sont plus consultables qu'à des fins de preuve, d'audit ou de réponse à une autorité. Elles disparaissent à l'expiration du délai légal propre à chaque catégorie. Nos sauvegardes techniques, elles, sont purgées en 90 jours au plus.</p>
+    <p>Le détail complet figure à l'article 12 de notre <a class="lien" href="/politique-de-confidentialite/">politique de confidentialité</a>, avec les durées applicables à chaque catégorie de données.</p>
+  </div>
+</div>
+</section>
+
 <!-- ===== Trois précisions ===== -->
-<section class="bloc">
+<section class="bloc detail-bloc">
 <div class="wrap">
   <h2 class="titre">Avant de nous écrire</h2>
   <div class="prose" style="margin-top:26px">
