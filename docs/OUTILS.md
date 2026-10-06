@@ -243,9 +243,10 @@ préfixe.
 réserves et l'appel final. Il prend un `outil` en propriété, repris dans l'objet
 du courriel : le conseiller sait d'où vient la question avant de l'avoir lue.
 
-**Pas de formulaire, à dessein.** Le seul formulaire du site vise les
-professionnels et passe par le relais Brevo ; en ouvrir un second pour les
-particuliers signifierait collecter des données patrimoniales, ce qui ne se
+**Pas de formulaire, à dessein.** Le site en a deux, celui des professionnels
+et celui de `/contact/`, qui ne demande qu'un nom, une adresse et un message.
+Sous un simulateur, le visiteur vient de saisir des montants : y ouvrir un
+formulaire signifierait collecter des données patrimoniales, ce qui ne se
 décide pas au détour d'un simulateur. Un lien `mailto` n'expose rien.
 
 Le composant **porte sa propre `<section>` et son propre `.wrap`**, parce qu'il

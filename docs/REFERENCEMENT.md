@@ -21,7 +21,7 @@ directement, c'est un fichier texte.
 
 ---
 
-## Les 31 pages publiques
+## Les 32 pages publiques
 
 ### Accueil · `/`
 
@@ -74,6 +74,12 @@ directement, c'est un fichier texte.
 - **Titre** (45) : Télécharger l'app SAFIA sur iPhone et Android
 - **Description** (147) : L'application SAFIA est gratuite sur l'App Store et sur Google Play. Réunis tes comptes, découvre ton ADN investisseur et interroge l'assistant IA.
 - *Page ajoutée le 16 septembre 2026, avec les liens vers les magasins. Textes de moi, jamais relus par toi.*
+
+### Contact · `/contact/`
+
+- **Titre** (15) : Contact · SAFIA
+- **Description** (143) : Écrire à SAFIA : formulaire de contact, hello@safia.finance, réponse sous 48 heures ouvrées. Support de l'application et suppression de compte.
+- *Page ajoutée le 6 octobre 2026, exigée par l'App Store et Google Play. Textes de moi, jamais relus par toi.*
 
 ### Comparatif · `/comparatif/`
 

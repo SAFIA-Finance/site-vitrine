@@ -5,10 +5,12 @@
 // compte des dizaines. Ce bloc dit exactement cela, et propose les deux suites
 // possibles : écrire à un conseiller, ou passer par l'application.
 //
-// Pas de formulaire ici. Le seul formulaire du site vise les professionnels et
-// passe par le relais Brevo ; en ouvrir un second pour les particuliers
-// signifierait collecter des données patrimoniales, ce qui ne se fait pas à la
-// légère. Un lien mailto suffit, et n'expose rien.
+// Pas de formulaire ici. Le site en a deux qui passent par le relais Brevo :
+// celui des professionnels, et celui de /contact/, qui ne demande qu'un nom,
+// une adresse et un message. Sous un simulateur la situation est autre : le
+// visiteur vient de saisir des montants, et un formulaire à cet endroit
+// reviendrait à collecter des données patrimoniales, ce qui ne se fait pas à
+// la légère. Un lien mailto suffit, et n'expose rien.
 import { SOCIETE } from '../config.js';
 
 interface Props {

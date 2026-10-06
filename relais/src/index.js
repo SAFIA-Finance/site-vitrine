@@ -2,7 +2,7 @@
 //
 // Le site est statique et public : une clé API Brevo placée dans son code serait
 // lisible par n'importe qui. Ce Worker Cloudflare garde la clé côté serveur et
-// n'expose que deux actions, limitées aux origines du site.
+// n'expose que trois actions, limitées aux origines du site.
 //
 //   POST /newsletter  { email, source }                         → liste newsletter
 //   POST /demo        { nom, structure, email, fonction?,
@@ -133,9 +133,11 @@ async function demo(d, env, cors) {
 
 async function contact(d, env, cors) {
   const demande = {
-    nom: texte(d.nom, 120),
+    // Nom et sujet finissent dans l'objet et le « répondre à » du courriel :
+    // on les ramène sur une ligne, un retour chariot n'ayant rien à y faire.
+    nom: texte(d.nom, 120).replace(/\s+/g, ' '),
     email: texte(d.email, 254).toLowerCase(),
-    sujet: texte(d.sujet, 80) || 'Message',
+    sujet: texte(d.sujet, 80).replace(/\s+/g, ' ') || 'Message',
     message: texte(d.message, 4000),
     source: texte(d.source, 60) || 'site',
   };
