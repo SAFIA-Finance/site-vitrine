@@ -137,4 +137,14 @@ export const CATEGORIES_TEXTE = {
       "Ces dispositifs sont enfin les plus instables du droit fiscal : ils sont rediscutés à chaque loi de finances, et certains disparaissent d'une année sur l'autre. Chaque article porte donc sa date de vérification et renvoie au texte qui le fonde, pour que tu puisses contrôler ce qui vaut encore à la date où tu le lis.",
     ],
   },
+
+  'Saint-Barthélemy': {
+    chapo:
+      "Le Code des contributions de l'île, taxe par taxe : qui paie quoi, sur quelle base, avec des cas chiffrés.",
+    texte: [
+      "Saint-Barthélemy lève ses propres impôts depuis 2007. Le Code général des impôts ne s'y applique pas : un texte local, le Code des contributions, le remplace, et il est modifié par délibérations du conseil territorial. Il ne ressemble à rien de ce que connaît un contribuable de métropole. L'île ne taxe pas ce que l'on gagne, elle taxe ce qui entre, ce qui se vend et ce qui se transmet.",
+      "Cette logique explique presque tout. Une marchandise paie à son arrivée sur le quai. Un bien immobilier paie quand il change de mains, à l'achat comme à la revente. Une entreprise paie un forfait annuel sans rapport avec son bénéfice. Et la plupart des règles dépendent d'une question préalable, celle du domicile fiscal, dont les conditions sont plus strictes qu'on ne le croit en arrivant.",
+      "Les articles de ce thème suivent le code chapitre par chapitre et citent l'article sur lequel repose chaque règle. Chacun déroule un cas fictif, chiffré ligne à ligne, pour montrer ce que la règle donne sur une situation réelle. Commence par la vue d'ensemble et par le domicile fiscal : les autres sujets en découlent.",
+    ],
+  },
 };

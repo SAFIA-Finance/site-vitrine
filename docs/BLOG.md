@@ -1,6 +1,7 @@
 # Le blog : écrire et publier
 
-Le blog compte **123 articles**, répartis en onze territoires. Chaque article a sa
+Le blog compte **150 articles**, répartis en treize territoires (les onze
+d'origine, puis L le 22 septembre 2026 et M le 7 octobre 2026). Chaque article a sa
 page, son adresse, son référencement et ses données structurées.
 
 | | |
@@ -148,6 +149,8 @@ code (`A1` → Épargne réglementée). Une lettre inconnue arrête la conversio
 | I | Expatriation | 26 |
 | J | Produits d'investissement | 22 |
 | K | Outre-mer | 9 |
+| L | Dispositifs fiscaux | 9 |
+| M | Saint-Barthélemy | 18 |
 
 Pour ajouter un territoire : une entrée dans `CATEGORIES` de
 `outils/blog-en-articles.mjs`, la même dans `src/content.config.ts`, et la

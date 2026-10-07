@@ -261,7 +261,7 @@ Code général des collectivités territoriales, article LO 6214-4, modifié par
 
 ### Liens internes
 
-Page **Cockpit stratégique** · articles **K9** (transmission outre-mer) et **K1** (panorama outre-mer).
+Page **Cockpit stratégique** · articles **K9** (transmission outre-mer), **K1** (panorama outre-mer) et **M1** (code des contributions).
 
 ---
 

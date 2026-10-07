@@ -32,6 +32,7 @@ pages:
 articlesLies:
   - "transmission-patrimoine-outre-mer"
   - "fiscalite-outre-mer-panorama"
+  - "code-des-contributions-saint-barthelemy"
 seoDerive: true
 sources: "Code général des collectivités territoriales, article LO 6214-4, modifié par la loi n° 2015-1485 du 17 novembre 2015, article 7, et article LO 6214-4-1, 3°, réservant les cotisations sociales à l'État · [Code des contributions de Saint-Barthélemy, annexé à la délibération n° 2024-038 CT](https://actes.eservices-comstbarth.fr/PJ/Deliberation%20CT/Deliberation%20CT_2024/2024_038ct_annexe.pdf) · [Direction générale des douanes, cas particuliers de Saint-Martin et de Saint-Barthélemy](https://www.douane.gouv.fr/fiche/cas-particuliers-de-lile-de-saint-martin-et-de-lile-de-saint-barthelemy), pour le statut de PTOM depuis le 1er janvier 2012 et le droit de quai de 5 % · [BOI-TVA-CHAMP-20-10, définition du territoire d'application de la TVA](https://bofip.impots.gouv.fr/bofip/1340-PGP.html/identifiant=BOI-TVA-CHAMP-20-10-20230118), qui exclut Saint-Barthélemy · Loi n° 2007-223 du 21 février 2007 portant dispositions statutaires et institutionnelles relatives à l'outre-mer · Code de contributions de Saint-Barthélemy, articles 2 et 4 · Conseil d'État, avis du 20 novembre 2013, n° 369796 · Rescrit publié au BOFiP le 23 octobre 2024 relatif à l'intégration fiscale des sociétés établies à Saint-Barthélemy · Services fiscaux de la collectivité de Saint-Barthélemy."
 ---
