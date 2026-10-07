@@ -182,7 +182,7 @@ export function noteConsolidee(notes = PREUVES.notes) {
  * Mettre à null retire le bloc de la page du fondateur.
  */
 export const RENDEZ_VOUS = {
-  url: 'https://calendly.com/maximebouche-safia/30min',
+  url: 'https://calendly.com/maximebouche-safia/premier-rdv-patrimoine',
   duree: '30 minutes',
   // À TENIR IDENTIQUE au nom de l'événement dans Calendly, que le visiteur lit
   // dès que le calendrier s'affiche. Il s'intitule aujourd'hui « Premier
