@@ -182,7 +182,11 @@ export function noteConsolidee(notes = PREUVES.notes) {
  * Mettre à null retire le bloc de la page du fondateur.
  */
 export const RENDEZ_VOUS = {
-  url: 'https://calendly.com/maximebouche-safia/premier-rdv-patrimoine',
+  // NE JAMAIS MODIFIER CETTE ADRESSE : elle est imprimée en QR code sur des
+  // cartes de visite. Changée le 2026-10-07 puis rétablie le lendemain, le
+  // bouton ayant été cassé en production entre-temps. Si l'événement doit
+  // évoluer, le renommer dans Calendly en gardant l'adresse « /30min ».
+  url: 'https://calendly.com/maximebouche-safia/30min',
   duree: '30 minutes',
   // À TENIR IDENTIQUE au nom de l'événement dans Calendly, que le visiteur lit
   // dès que le calendrier s'affiche. Il s'intitule aujourd'hui « Premier
