@@ -88,3 +88,8 @@ docs/AUDIT-MOTS-CLES.md
 # Le releve nomme les concurrents, leurs positions et nos absences.
 # Meme raison que les rapports d audit : le depot est public.
 docs/RELEVE-IA.md
+
+# Skills de design tiers, essayés en préversion à partir du 8 octobre 2026.
+# Le dépôt est PUBLIC et ces fichiers ne sont pas de SAFIA : copie locale
+# figée, non versionnée.
+.claude/

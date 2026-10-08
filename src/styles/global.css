@@ -1955,3 +1955,283 @@ section.origine-bloc + section.bloc{padding-top:0}
 .boucle p{margin-top:8px;font-size:14.5px;line-height:1.55;color:var(--encre-2)}
 @media (max-width:900px){.boucle{grid-template-columns:1fr 1fr}}
 @media (max-width:560px){.boucle{grid-template-columns:1fr}}
+
+/* Passe de design, 2026-10-08 ---------------------------------------------
+   Essayee puis validee par Maxime sur la preversion, page par page. Supprimer
+   ce bloc d'un seul tenant ramene le site a son etat precedent, a une
+   exception pres : la fonction apparitions() de site.js, qui ne fait alors
+   plus rien.
+
+   Trois skills ont servi de grille de lecture (.claude/skills/) :
+   redesign-existing-projects, design-taste-frontend et high-end-visual-design.
+   La palette, la police, les rayons et les sections sombres sont l'identite
+   de SAFIA : aucune regle de ces skills qui les remet en cause n'est suivie.
+
+   Le bloc est en fin de feuille a dessein. A specificite egale c'est la regle
+   la plus basse qui gagne, et il ne retouche ainsi aucune regle existante. */
+
+/* 1. Lignes orphelines. Un mot seul sur la derniere ligne d'un titre (« Tes
+   questions, nos / reponses ») se voyait sur presque toutes les sections.
+   Amelioration progressive : un navigateur qui ignore la propriete garde le
+   retour a la ligne actuel.
+
+   LIMITE A L'ACCUEIL, et c'est une mesure, pas une prudence. Pose sur tout
+   le site le 8 octobre, l'equilibrage a ete compare a « main » sur 39 pages
+   et deux largeurs : 9 ponctuations orphelines en moins, 36 en plus. La
+   cause est typographique. Les textes portent une espace ordinaire devant
+   « : ; ? ! », donc secable ; dans un titre du type « Monuments historiques :
+   la suite », la coupure qui equilibre le mieux tombe juste avant les deux
+   points, qui se retrouvent en debut de ligne. Sur l'accueil la mesure n'en
+   releve aucune. L'etendre suppose d'abord des espaces insecables devant la
+   ponctuation double, sur tout le site. « text-wrap:pretty » sur les
+   paragraphes, qui deplacait le meme defaut, est retire pour la meme raison. */
+body:has(.hero-in) :is(h1,h2,h3,.titre,.vie-question,blockquote p){text-wrap:balance}
+
+/* 2. Une seule courbe d'acceleration, a la place du « ease » par defaut.
+   Depart franc, arrivee longue : le geste parait pese plutot que mecanique.
+   Sous « no-preference » et pas ailleurs, sinon ces regles, placees plus bas,
+   retabliraient les transitions que le mouvement reduit coupe plus haut. */
+:root{--doux:cubic-bezier(.16,1,.3,1)}
+@media (prefers-reduced-motion:no-preference){
+  .btn{transition:transform .28s var(--doux),background .28s var(--doux),box-shadow .28s var(--doux)}
+  .btn:hover{transform:translateY(-1px)}
+  .btn:active{transform:scale(.98)}
+  /* Un bouton en cours d'envoi ne repond plus : il ne doit pas se soulever. */
+  .btn:disabled{transform:none}
+  .voie,a.sim-choix-carte,.magasin{transition:background .28s var(--doux),transform .28s var(--doux),box-shadow .28s var(--doux)}
+  .faq summary svg,.chevron{transition:transform .32s var(--doux)}
+  .seq{transition:opacity .6s var(--doux),transform .6s var(--doux)}
+  .vie-liste.anime li{transition:opacity .7s var(--doux),transform .7s var(--doux)}
+}
+
+/* 3. Hero. Le titre demarrait 204 px sous le haut de page : sur un portable
+   de 13 pouces les deux boutons tombaient sous la ligne de flottaison. 52 px
+   de moins les y ramenent, sans toucher a l'ordre des blocs ni aux chiffres,
+   dont la place sous les boutons a ete mesuree le 16 septembre.
+   La pastille rose devant la mention de beta n'indiquait aucun etat : meme
+   raisonnement que le trait retire devant les etiquettes le 18 septembre. */
+@media (min-width:981px){
+  .hero-in{padding-top:124px}
+  .hero-in > div:first-child{margin-top:28px}
+  /* Le chapo tenait sur cinq lignes dans une colonne qui en autorise quatre :
+     une ligne de moins, ce sont 31 px rendus aux boutons.
+     « .hero-in » et non « .hero » : les pages interieures portent aussi la
+     classe « hero », et leur chapo, regle a 48ch, serait retreci au passage. */
+  .hero-in .chapo{max-width:40ch}
+}
+.beta::before{content:none}
+
+/* 4. Les trois piliers. Trois colonnes egales, suivies de trois colonnes
+   egales (« Trois etapes »), elles-memes precedees de trois colonnes egales
+   (« Tu es… ») : la page repetait trois fois la meme grille. Le premier
+   pilier prend toute la largeur, les deux autres se partagent la ligne
+   suivante. Trois contenus, trois cases, aucune vide.
+   Sous 981 px rien ne change : les piliers s'empilent deja. */
+@media (min-width:981px){
+  .triade{grid-template-columns:1fr 1fr;row-gap:44px}
+  .triade .pilier:first-child{grid-column:1/-1;display:grid;grid-template-columns:1.3fr 1fr;grid-template-rows:1fr auto 1fr;column-gap:52px}
+  .triade .pilier:first-child .vignette{grid-row:1/-1;height:300px;padding:32px}
+  .triade .pilier:first-child h3{margin-top:0;align-self:end;font-size:28px;line-height:1.15;letter-spacing:-.02em}
+  .triade .pilier:first-child p{margin-top:12px;font-size:19px;line-height:1.6}
+  .triade .pilier:first-child .lien{align-self:start;justify-self:start}
+  .triade .pilier:first-child .v-label{font-size:14px}
+  .triade .pilier:first-child .v-montant{font-size:46px;margin-top:4px}
+  .triade .pilier:first-child .barre{height:14px;margin-top:30px}
+  .triade .pilier:first-child .legende{grid-template-columns:repeat(4,auto);justify-content:start;gap:6px 24px;margin-top:18px;font-size:13.5px}
+  /* Les deux vignettes du bas passent de 350 a 566 px de large : sans
+     plafond, la carte a balayer suivrait et deviendrait un panneau. */
+  .triade .carte-swipe{max-width:250px}
+  .triade .carte-fond{max-width:234px}
+  .triade .v-reponse{max-width:46ch;font-size:15px}
+}
+
+/* 5. La frise de vie. Six moments en une seule colonne occupaient 1 500 px
+   de haut sur la moitie gauche de l'ecran, la droite restant vide. Deux
+   colonnes de trois, lues de haut en bas puis de gauche a droite : le rail
+   de gauche va de l'indigo au violet, celui de droite reprend au violet et
+   finit au rose, pour que les deux se lisent comme un seul trait. */
+@media (min-width:981px){
+  .vie-liste{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:repeat(3,auto);grid-auto-flow:column;column-gap:64px}
+  .vie-liste::before{background:linear-gradient(180deg,var(--indigo),var(--violet))}
+  .vie-liste::after{content:"";position:absolute;left:calc(50% + 43px);top:8px;bottom:8px;width:2px;background:linear-gradient(180deg,var(--violet),var(--rose))}
+  .vie-liste li:nth-child(3){padding-bottom:0}
+}
+
+/* 6. Les offres. La liste de Starter commencait 28 px plus haut que celle de
+   Smart, qui porte une ligne de plus sous son prix : les deux listes partent
+   maintenant du meme niveau. Limite a l'accueil (#offres), la page Tarifs
+   ayant deja cette ligne des deux cotes.
+   Le double bord des offres, d'abord pose ici, est parti dans le bloc des
+   trois points, plus bas, avec celui des autres cartes. */
+/* 29,2 px et non 28 : la ligne de Smart fait 14,5 px de corps a 1,6
+   d'interligne, soit 23,2 px, plus ses 6 px de marge. A 28, les deux listes
+   gardaient 1,2 px d'ecart, mesure au pixel le 8 octobre. */
+@media (min-width:981px){
+  #offres .offre:not(.offre-smart) .prix{margin-bottom:29.2px}
+}
+
+/* 7. Apparition au defilement. L'etat VISIBLE est l'etat par defaut, comme
+   partout sur ce site : la classe « apparait » n'est posee que par le script,
+   donc sans JavaScript, sans IntersectionObserver ou en mouvement reduit le
+   contenu est simplement la. Seuls transform et opacity bougent. */
+.apparait{opacity:0;transform:translateY(18px);transition:opacity .8s var(--doux) var(--retard,0s),transform .8s var(--doux) var(--retard,0s)}
+.apparait.apparu{opacity:1;transform:none}
+@media print{.apparait{opacity:1;transform:none}}
+
+/* 8. La question survolee se signale, sur fond blanc uniquement. */
+.faq-bloc .faq summary{transition:color .2s}
+.faq-bloc .faq summary:hover{color:var(--indigo)}
+
+/* Les trois points valides par Maxime le 8 octobre, sur tout le site -------
+   D'abord essayes sur la seule page
+   d'accueil, puis etendus : double bord des cartes, fleche des boutons, barre
+   de navigation flottante. Ils viennent du skill high-end-visual-design.
+   Rien n'est ajoute au HTML : la fleche des boutons est un pseudo-element.
+   Chaque point est independant des deux autres. */
+
+/* Point 1. Le double bord : un lisere de 6 px dans la teinte du fond, ferme
+   par un filet. Il concerne les cartes au grand rayon (--r-l), pas les bandes
+   fines ni les encarts au rayon moyen : autour d'un element de 60 px de haut
+   le cadre peserait plus que le contenu.
+
+   box-shadow n'a qu'une valeur : chaque regle REPREND donc l'ombre que la
+   carte avait deja, puis ajoute le cadre. D'ou trois familles sur fond clair
+   (sans ombre, avec filet, cas particuliers) et autant sur fond sombre.
+   AJOUTER UNE CARTE AU SITE : la ranger dans la famille qui correspond a son
+   ombre d'origine, sinon elle la perd. */
+:root{
+  --cadre-clair:0 0 0 6px rgba(59,44,242,.045),0 0 0 7px rgba(28,22,68,.06);
+  --cadre-sombre:0 0 0 6px rgba(255,255,255,.04),0 0 0 7px rgba(255,255,255,.1);
+}
+.align-visuel,.appuis,.volets article,.familles article,.illustration,.certifs,.eq-principal,.sim-choix,.sim-resultat,.secu,.passerelles,.suite-liens{box-shadow:var(--cadre-clair)}
+.approf article,.esg article,.deux-notions > div,.piliers article,.tableau,.compare-tab,.comp-tab,.cout-tab,.faces article,.sources-bloc .methode article,.convictions article,.eq-board,.sim-contact,.sim-form,.sim-notes,.obt,.tab-prix,.une,.article-sources,.essentiel,.offre{box-shadow:inset 0 0 0 1px var(--ligne),var(--cadre-clair)}
+.offre-smart{box-shadow:inset 0 1px 0 rgba(255,255,255,.16),0 0 0 6px rgba(59,44,242,.1),0 0 0 7px rgba(59,44,242,.16)}
+.triade .vignette{box-shadow:inset 0 1px 0 rgba(255,255,255,.14),0 0 0 6px rgba(59,44,242,.07),0 0 0 7px rgba(28,22,68,.08)}
+/* « .nuance » coupe son ombre avec !important : il en faut un pour la rendre,
+   sans quoi la carte sombre resterait seule sans cadre a cote de sa voisine. */
+.deux-notions > .nuance{box-shadow:inset 0 1px 0 rgba(255,255,255,.14),0 0 0 6px rgba(59,44,242,.07),0 0 0 7px rgba(28,22,68,.08)!important}
+.vie-suite{box-shadow:inset 0 1px 0 var(--blanc),var(--cadre-clair)}
+.fondateur .portrait{box-shadow:var(--cadre-clair),0 20px 50px rgba(19,12,54,.18)}
+.limites,.cas,.bientot,.confiance .garde{box-shadow:var(--cadre-sombre)}
+.deux-users article{box-shadow:inset 0 0 0 1px rgba(255,255,255,.16),var(--cadre-sombre)}
+.schema{box-shadow:inset 0 0 0 1px rgba(255,255,255,.14),var(--cadre-sombre)}
+.form-demo{box-shadow:inset 0 0 0 1px rgba(255,255,255,.2),var(--cadre-sombre)}
+.newsletter{box-shadow:inset 0 0 0 1px rgba(255,255,255,.18),var(--cadre-sombre)}
+.portrait-grand{box-shadow:var(--cadre-sombre),0 26px 60px rgba(10,5,40,.45)}
+/* Deux cartes voisines portent chacune 7 px de cadre : a 20 px d'ecart il
+   n'en resterait que 6 entre les deux filets. */
+.offres,.deux-notions,.esg,.piliers,.deux-users,.convictions,.sources-bloc .methode,.equipe{gap:30px}
+
+/* Point 2. La fleche dans un rond, au bout du bouton principal de chaque
+   bloc : les liens pleins, blancs ou encre. Elle ne s'ajoute ni aux boutons
+   fantomes, ni au bouton de la barre, ni aux boutons de formulaire, qui sont
+   des <button> et non des liens. « main » ecarte la barre, le panneau mobile
+   et la fenetre de telechargement.
+   Les marges negatives du rond l'empechent d'agrandir le bouton. */
+main a.btn-primaire,main a.btn-encre{padding-right:8px;gap:12px}
+main a.btn-primaire::after,main a.btn-encre::after{content:"";flex:none;width:32px;height:32px;margin:-4px 0;border-radius:50%;background:rgba(19,12,54,.09) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none'%3E%3Cpath d='M3 8h10M9 4l4 4-4 4' stroke='%23130C36' stroke-width='1.7' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center/16px no-repeat}
+main a.btn-encre::after{background-color:rgba(255,255,255,.15);background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none'%3E%3Cpath d='M3 8h10M9 4l4 4-4 4' stroke='%23fff' stroke-width='1.7' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E")}
+@media (prefers-reduced-motion:no-preference){
+  main a.btn::after{transition:transform .32s var(--doux)}
+  main a.btn:hover::after{transform:translateX(3px)}
+}
+/* LA FLECHE NE DOIT JAMAIS CHANGER LA MISE EN PAGE. Elle elargit un bouton de
+   30 px : pose a cote d'un second bouton, il le fait passer a la ligne plus
+   tot qu'avant. Mesure le 8 octobre sur 14 pages, tous les 20 px de 320 a
+   1 300 : dix-neuf bandes de largeur ou deux boutons s'empilaient alors
+   qu'ils tenaient cote a cote sur « main », jusqu'a 1 060 px sur la page
+   Particuliers. D'ou deux regles, dans cet ordre :
+
+   1. Dans un groupe de PLUSIEURS boutons, la fleche n'existe qu'a partir de
+      1 100 px, largeur au-dela de laquelle la mesure ne releve plus aucun
+      ecart. En dessous, le bouton retrouve exactement son remplissage
+      d'origine, donc exactement ses passages a la ligne d'origine.
+   2. Sous 360 px, plus aucune fleche : un bouton seul au libelle long
+      (« Rejoindre le programme pilote ») y passait sur deux lignes.
+
+   « :has » n'est pas compris d'un navigateur ancien : la regle 1 y est alors
+   ignoree, et le seul effet est un empilement un peu plus precoce. */
+@media (max-width:1099px){
+  main :has(> .btn ~ .btn) > a.btn-primaire,main :has(> .btn ~ .btn) > a.btn-encre{padding-right:22px;gap:10px}
+  main :has(> .btn ~ .btn) > a.btn::after{content:none}
+}
+@media (max-width:359px){
+  main a.btn-primaire,main a.btn-encre{padding-right:22px;gap:10px}
+  main a.btn::after{content:none}
+}
+/* « Choisir un creneau sur Calendly » est le plus long libelle du site : avec
+   la fleche il passait sur deux lignes sur telephone. Sous 480 px ce bouton
+   la perd et retrouve son remplissage d'origine. */
+@media (max-width:480px){
+  main a.rdv-bouton{padding-right:22px;gap:10px}
+  main a.rdv-bouton::after{content:none}
+}
+/* Au-dela de 1 100 px, reste le hero de l'accueil : la fleche elargit son
+   bouton de 30 px et la colonne de texte n'en avait que 3 de reserve, le
+   second bouton passait a la ligne. La colonne gagne donc 32 px sur celle du
+   telephone, qui n'en occupe que 330 sur 479. Le seuil sous lequel les deux
+   boutons s'empilent reste celui d'avant, autour de 1 150 px de large. */
+@media (min-width:1100px){.hero-in{grid-template-columns:1.16fr .84fr}}
+
+/* Point 3. La barre de navigation flottante, sur ordinateur seulement. Sous
+   981 px la barre garde sa forme : le panneau mobile s'ouvre a 68 px du haut,
+   juste sous elle, et la detacher laisserait voir la page entre les deux.
+   Pas de transform pour la centrer : left/right et des marges automatiques
+   suffisent.
+   Le menu deroulant descend de 16 px : colle a la barre, son coin blanc
+   mordrait sur l'arrondi. Il s'ouvre au clic, l'ecart ne coupe aucun survol. */
+@media (min-width:981px){
+  .nav{top:14px;left:16px;right:16px;max-width:var(--max);margin:0 auto;border:1px solid rgba(255,255,255,.12);border-radius:999px;background:rgba(19,12,54,.5);box-shadow:inset 0 1px 0 rgba(255,255,255,.1),0 12px 34px rgba(10,5,40,.26)}
+  .nav.defile{background:rgba(15,9,44,.9);border-color:rgba(255,255,255,.16);box-shadow:inset 0 1px 0 rgba(255,255,255,.1),0 14px 40px rgba(10,5,40,.42)}
+  .nav-in{height:60px;padding:0 8px 0 24px}
+  .sous{top:calc(100% + 16px)}
+}
+
+/* Les heros des pages interieures, meme correction que sur l'accueil : leur
+   contenu demarrait 150 px sous le haut de page, soit 75 px de vide sous la
+   barre, et le titre n'arrivait qu'a 254 px. */
+@media (min-width:981px){.hero-page-in{padding-top:112px}}
+
+
+/* Passe accessibilite, 2026-10-08 -----------------------------------------
+   Mesures faites sur 39 pages
+   en 1280 et en 375 px, avec la grille de regles de ui-ux-pro-max
+   (.claude/skills/). Deux defauts reels, tous deux hors du champ de l'audit
+   du 16 septembre, qui ne mesurait ni les contrastes ni le focus.
+
+   A. L'anneau de focus. Rose sur fond nuit, il se voit a 8 contre 1. Sur la
+   lavande et sur le blanc, soit la majorite des pages, il tombe a 2 contre 1,
+   sous le seuil de 3 exige pour un indicateur de focus (WCAG 1.4.11).
+   Plutot que de recenser les zones sombres, et d'en oublier une, l'anneau
+   rose est pris entre deux traits nuit : l'un comble l'ecart de 3 px entre
+   l'element et l'anneau, l'autre le borde a l'exterieur. Sur fond sombre les
+   traits nuit se confondent avec le fond et l'anneau est celui d'avant. Sur
+   fond clair ils le detourent, y compris autour d'un bouton sombre, ou un
+   seul trait nuit se serait fondu dans le bouton. Aucune liste a tenir.
+   Les traits nuit passent par box-shadow : pendant le focus clavier, et
+   seulement la, un element perd donc son ombre propre.
+   !important, et c'est voulu : « :focus-visible » ne pese qu'une classe, et
+   toute regle plus precise qui pose une ombre (le bouton actif de la bascule
+   Mensuel / Annuel, par exemple) l'emportait et ne laissait que l'anneau
+   rose, soit le defaut de depart. Un indicateur de focus ne doit pas
+   dependre de l'ordre des regles. */
+/* Sauf la ou le focus est POSE PAR LE SCRIPT sur un conteneur : le lien
+   « Aller au contenu » le porte sur <main tabindex="-1">, et un cadre nuit de
+   8 px ferait le tour de toute la page. Ces cibles gardent l'anneau rose seul,
+   comme avant. */
+:focus-visible:not([tabindex="-1"]){box-shadow:0 0 0 8px var(--nuit)!important}
+
+/* B. Le halo rose du hero, sur telephone. Sa taille etait relative au hero :
+   sur un ecran etroit le hero s'allonge, et le halo descendait avec lui
+   jusque sous le texte. Mesure a 375 px : 3,2 contre 1 pour le chapo de
+   l'accueil et 3,3 pour le fil d'Ariane des pages interieures, au lieu des
+   4,5 requis. La couleur et son intensite ne changent pas : seule la hauteur
+   du halo devient fixe, pour qu'il reste dans le coin haut droit, au-dessus
+   du texte. Les deux autres halos sont repris a l'identique. */
+@media (max-width:760px){
+  .hero{background:
+    radial-gradient(80% 300px at 100% 0,rgba(228,139,239,.85) 0%,rgba(228,139,239,0) 60%),
+    radial-gradient(70% 90% at 0% 30%,#3B2CF2 0%,rgba(59,44,242,0) 70%),
+    radial-gradient(50% 60% at 60% 60%,rgba(138,60,240,.75) 0%,rgba(138,60,240,0) 70%),
+    var(--nuit)}
+}

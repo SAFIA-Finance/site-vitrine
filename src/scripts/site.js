@@ -411,6 +411,87 @@ function etapesProgressives() {
   });
 }
 
+// ---- Les blocs apparaissent à mesure qu'on descend ----
+// D'abord sur l'accueil, puis sur les pages de présentation. Posé le
+// 8 octobre 2026 : voir le bloc « Passe de design » à la fin de global.css.
+//
+// Même contrat que les étapes ci-dessus : l'état VISIBLE est l'état par défaut,
+// et la classe « apparait » n'est posée que si ce code tourne. Le hero n'est
+// pas concerné : ce qui est à l'écran au chargement ne doit jamais attendre.
+//
+// Chaque sélecteur désigne des blocs sans transition propre. La classe
+// « apparait » en impose une, qui écraserait celle d'un élément survolable.
+const BLOCS_APPARAISSANTS = [
+  '.origine-cit',
+  '.constat',
+  '.triade-titre',
+  '.triade .pilier',
+  '.vie-suite',
+  '.confiance .garde',
+  '.confiance .registre',
+  '#offres .offre',
+  '#fondateur .fondateur',
+  '.faq-grille',
+];
+
+// Hors de l'accueil, c'est le contenu de chaque section qui apparaît d'un
+// bloc : les pages intérieures partagent leurs composants, et dresser une
+// liste par page reviendrait à en oublier une à la première page ajoutée.
+const SECTIONS_APPARAISSANTES = ['main > section.bloc > .wrap'];
+
+// Pas d'apparition là où l'on vient LIRE ou SAISIR : un article, une page
+// légale, un simulateur ou un formulaire doivent être là tout de suite.
+const SANS_APPARITION =
+  /^\/(blog|outils)(\/|$)|^\/(cgu|mentions-legales|politique-cookies|politique-de-confidentialite|disclaimer|privacy-policy|terms|cfi-page|contact|telecharger)\/?$|^\/404/;
+
+function apparitions() {
+  const chemin = location.pathname;
+  if (SANS_APPARITION.test(chemin)) return;
+  const selecteurs = chemin === '/' ? BLOCS_APPARAISSANTS : SECTIONS_APPARAISSANTES;
+  if (!('IntersectionObserver' in window)) return;
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+  const observateur = new IntersectionObserver(
+    (entrees) => {
+      entrees.forEach((e) => {
+        if (!e.isIntersecting) return;
+        e.target.classList.add('apparu');
+        observateur.unobserve(e.target);
+      });
+    },
+    // La marge haute est démesurée à dessein : elle fait compter comme « vu »
+    // tout bloc situé AU-DESSUS de l'écran. Sans elle, un visiteur qui arrive
+    // par une ancre ou saute en bas de page passe par-dessus des blocs qui
+    // n'ont jamais croisé l'écran, et les retrouverait masqués en remontant.
+    //
+    // La marge basse est en PIXELS, pas en pourcentage. Un robot d'indexation
+    // rend la page dans une fenêtre aussi haute qu'elle : 12 % de cette
+    // hauteur faisaient plus de 1 400 px, et les derniers blocs de l'accueil,
+    // dont la FAQ, restaient masqués dans ce qu'il voyait. Mesuré le
+    // 8 octobre dans une fenêtre de 12 000 px.
+    { rootMargin: '100000px 0px -80px 0px' },
+  );
+
+  selecteurs.forEach((selecteur) => {
+    document.querySelectorAll(selecteur).forEach((bloc, rang) => {
+      if (!lier(bloc, 'Apparition')) return;
+      // Ce qui est DÉJÀ à l'écran, ou au-dessus, ne se masque jamais. Le
+      // script tourne après le premier affichage : masquer un bloc visible
+      // pour le faire réapparaître produisait un clignotement au chargement,
+      // et retardait d'autant le plus grand élément affiché, que Google
+      // chronomètre. Seul ce qui attend sous l'écran reçoit la classe.
+      if (bloc.getBoundingClientRect().top < window.innerHeight) return;
+      // Les blocs d'une même grille se suivent à 90 ms : assez pour lire un
+      // ordre, trop peu pour faire attendre le dernier. Les sections des
+      // pages intérieures, elles, n'attendent pas : chacune arrive à son tour
+      // au défilement, un retard cumulé ferait patienter la dernière.
+      bloc.style.setProperty('--retard', (chemin === '/' ? rang * 0.09 : 0) + 's');
+      bloc.classList.add('apparait');
+      observateur.observe(bloc);
+    });
+  });
+}
+
 // ---------------------------------------------------------------------------
 function demarrer() {
   menusDeroulants();
@@ -422,6 +503,7 @@ function demarrer() {
   boutonsTelechargement();
   etapesProgressives();
   filProgressif();
+  apparitions();
 }
 
 demarrer();
