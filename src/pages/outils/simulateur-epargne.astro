@@ -22,7 +22,7 @@ const enveloppes = [
     nom: p.nom,
     taux: p.taux,
     plafond: p.plafond,
-    note: `Taux officiel en vigueur depuis le 1er août 2026. Plafond de versements : ${p.plafond.toLocaleString('fr-FR')} €, intérêts exonérés d'impôt.`,
+    note: `Taux officiel en vigueur depuis le 1er août 2026. Plafond de versements : ${p.plafond.toLocaleString('fr-FR')} €, intérêts exonérés d'impôt.`,
   })),
   {
     cle: 'fonds-euros',
@@ -31,7 +31,7 @@ const enveloppes = [
     plafond: null,
     note: fondsEuros.precision,
   },
-  { cle: 'libre', nom: 'Taux personnalisé', taux: 0.05, plafond: null, note: 'Taux libre : à toi de poser ton hypothèse.' },
+  { cle: 'libre', nom: 'Taux personnalisé', taux: 0.05, plafond: null, note: 'Taux libre : à toi de poser ton hypothèse.' },
 ];
 
 const faq = [

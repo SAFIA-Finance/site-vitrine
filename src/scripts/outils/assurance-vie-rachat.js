@@ -73,7 +73,7 @@ function demarrerPage() {
       ecrire(
         'sim-synthese',
         r.rachat > 0
-          ? `Sur ${euros(r.rachat)} retirés, seuls ${euros(r.produits)} sont des gains imposables : ` +
+          ? `Sur ${euros(r.rachat)} retirés, seuls ${euros(r.produits)} sont des gains imposables\u00A0: ` +
               `${euros(r.capitalRembourse)} sont du capital que tu récupères en franchise d'impôt. ` +
               `Le rachat coûte ${euros(r.total)}, soit ${pourcent(r.tauxReel, 2)} du montant retiré.`
           : 'Saisis un montant de rachat pour voir ce qu’il coûterait.',

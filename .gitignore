@@ -93,3 +93,8 @@ docs/RELEVE-IA.md
 # Le dépôt est PUBLIC et ces fichiers ne sont pas de SAFIA : copie locale
 # figée, non versionnée.
 .claude/
+
+# Relevés et captures de « npm run examen ». Même raison que les rapports
+# d'audit : ils nomment les pages faibles, et le dépôt est PUBLIC. Ils se
+# régénèrent en vingt minutes.
+.examen/

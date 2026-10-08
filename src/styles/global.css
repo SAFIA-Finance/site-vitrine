@@ -1985,7 +1985,13 @@ section.origine-bloc + section.bloc{padding-top:0}
    releve aucune. L'etendre suppose d'abord des espaces insecables devant la
    ponctuation double, sur tout le site. « text-wrap:pretty » sur les
    paragraphes, qui deplacait le meme defaut, est retire pour la meme raison. */
-body:has(.hero-in) :is(h1,h2,h3,.titre,.vie-question,blockquote p){text-wrap:balance}
+/* LEVEE le 8 octobre au soir : la construction pose desormais une espace
+   insecable devant « : ; ? ! » et a l'interieur des guillemets
+   (outils/espaces-insecables.mjs). La ponctuation ne peut plus se retrouver
+   en debut de ligne, quel que soit l'endroit ou le titre se coupe, et
+   l'equilibrage vaut pour tout le site. Si ce script sort un jour de la
+   construction, revenir a la limite ci-dessus. */
+h1,h2,h3,.titre,.vie-question,blockquote p{text-wrap:balance}
 
 /* 2. Une seule courbe d'acceleration, a la place du « ease » par defaut.
    Depart franc, arrivee longue : le geste parait pese plutot que mecanique.
@@ -2235,3 +2241,27 @@ main a.btn-encre::after{background-color:rgba(255,255,255,.15);background-image:
     radial-gradient(50% 60% at 60% 60%,rgba(138,60,240,.75) 0%,rgba(138,60,240,0) 70%),
     var(--nuit)}
 }
+
+/* Trois defauts anciens, releves par l'examen du 8 octobre -----------------
+   Aucun ne venait de la passe de design : ils etaient en production avant
+   elle, et l'examen complet les a fait remonter au passage.
+
+   1. Le telephone du hero. L'indicateur de frappe occupait sa propre ligne
+   puis disparaissait a l'arrivee de la reponse : 43 px de moins en cours de
+   route, et sur telephone toute la page remontait sous le lecteur. Il est
+   maintenant pose par-dessus l'emplacement de la reponse, hors du flux : la
+   hauteur du telephone ne bouge plus. Voir « .tour-ia » dans index.astro. */
+.tour-ia{position:relative}
+.tour-ia > .frappe{position:absolute;top:0;left:0}
+
+/* 2. Le bloc newsletter depassait de 7 px a 320 px de large. Un champ de
+   saisie a une largeur naturelle d'une vingtaine de caracteres ; dans une
+   grille, un enfant ne retrecit pas sous sa largeur naturelle tant qu'on ne
+   le lui permet pas. */
+.newsletter{min-width:0}
+
+/* 3. Au premier passage, le bandeau cookies recouvrait le bas du menu mobile
+   ouvert : les derniers liens et le bouton de telechargement restaient
+   dessous, sans moyen de les faire remonter. Tant que le bandeau est la, le
+   panneau reserve sa hauteur en bas et se laisse defiler jusqu'au bout. */
+body:has(.cookies:not([hidden])) .panneau{padding-bottom:250px}

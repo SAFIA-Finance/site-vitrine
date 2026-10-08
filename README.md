@@ -38,6 +38,8 @@ npm run dev     # http://localhost:4321
 | `npm run qr` | Régénère le QR code de téléchargement (à relancer si `SITE_URL` change) |
 | `npm run blog` | Découpe les fichiers de `Blog/Articles/` en articles dans `src/content/blog/` |
 | `npm run notes` | Relève la note de l'App Store et la reporte dans `src/config.js` |
+| `npm run examen` | Compare le dossier de travail à la production, sur toutes les pages, avant un changement visuel |
+| `npm run examen-en-ligne` | Contrôle la préversion telle qu'elle est servie, ou la production si on lui donne son adresse |
 
 `npm run build` puis `npm run verifier` est la vérification à faire avant de
 pousser. La même paire tourne automatiquement dans GitHub Actions et bloque le
@@ -82,6 +84,7 @@ docs/                          Documentation du projet
 | [docs/FORMULAIRES.md](docs/FORMULAIRES.md) | Newsletter et demandes de démonstration : le relais vers Brevo |
 | [docs/PAGES-LEGALES.md](docs/PAGES-LEGALES.md) | Les cinq pages produites à partir des documents Word |
 | [docs/AUDIT-UX.md](docs/AUDIT-UX.md) | Audit d'interface et de conversion, et propositions à arbitrer |
+| [docs/EXAMEN.md](docs/EXAMEN.md) | L'examen avant publication : ce qu'il mesure, ses règles de design et d'accessibilité, ses limites |
 | [docs/BLOG.md](docs/BLOG.md) | Écrire un article, le convertir, le publier |
 | [docs/VERIFICATION-CHIFFRES.md](docs/VERIFICATION-CHIFFRES.md) | Les chiffres du blog vérifiés, et ce qui reste ouvert |
 

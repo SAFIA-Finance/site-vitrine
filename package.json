@@ -9,7 +9,7 @@
   },
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build && node outils/generer-og-articles.mjs && node outils/generer-llms.mjs",
+    "build": "astro build && node outils/espaces-insecables.mjs dist && node outils/generer-og-articles.mjs && node outils/generer-llms.mjs",
     "preview": "astro preview",
     "check": "astro check",
     "verifier": "node outils/verifier-liens.mjs dist",
@@ -27,7 +27,9 @@
     "mots-cles": "node outils/auditer-mots-cles.mjs",
     "donnees-structurees": "node outils/donnees-structurees.mjs",
     "titres-dates": "node outils/titres-dates.mjs",
-    "recette": "node outils/recette.mjs"
+    "recette": "node outils/recette.mjs",
+    "examen": "node outils/examen.mjs",
+    "examen-en-ligne": "node outils/examen/en-ligne.mjs"
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.4",

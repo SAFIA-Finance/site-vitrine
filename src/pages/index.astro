@@ -128,6 +128,12 @@ const faq = [
       <div class="conv-app">
         <span class="heure seq" data-seq="0" aria-hidden="true">15:30</span>
         <div class="b-user seq" data-seq="0">Dans quoi investir ?</div>
+        <!-- L'indicateur de frappe et la réponse partagent le même emplacement :
+             l'indicateur est posé PAR-DESSUS, hors du flux. Avant le 8 octobre
+             2026 il occupait sa propre ligne, puis disparaissait à l'arrivée de
+             la réponse : le téléphone perdait 43 px de haut en cours de route,
+             et sur téléphone toute la page remontait d'autant sous le lecteur. -->
+        <div class="tour-ia">
         <div class="b-ia frappe seq" data-seq="1" aria-hidden="true"><i></i><i></i><i></i></div>
         <div class="seq" data-seq="2">
           <svg class="etincelle" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 2.5l1.9 5.6 5.6 1.9-5.6 1.9L12 17.5l-1.9-5.6L4.5 10l5.6-1.9L12 2.5z" fill="#fff"/></svg>
@@ -148,6 +154,7 @@ const faq = [
                  il est mis en scène au lieu d'être noyé en bas de bulle. -->
             <p class="src-bulle seq" data-seq="3">Sources : tes comptes connectés au 13/09/2026 · Méthodologie SAFIA · Réglementation française.</p>
           </div>
+        </div>
         </div>
       </div>
       <div class="champ-msg" aria-hidden="true"><span class="plus">+</span><span>Tape ton message ici</span><i class="envoi"></i></div>

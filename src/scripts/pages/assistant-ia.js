@@ -12,7 +12,7 @@ function demarrerPage() {
 (function(){
   var D={
     livret:{
-      q:"Mon livret A est plein, je fais quoi ?",
+      q:"Mon livret A est plein, je fais quoi\u00A0?",
       r:["Bonne base : ton épargne de précaution couvre environ 9 mois de dépenses, au-delà des 3 à 6 mois généralement recommandés.","Tu peux donc regarder des placements de plus long terme."],
       v:[["Horizon","Un placement en private equity se pense sur 5 ans ou plus."],["Risque","Contrairement au Livret A (hors inflation), il peut perdre de la valeur et peut présenter des risques de liquidité."]],
       d:[["Pourquoi cette réponse",["Dépenses moyennes : 2 380 € par mois (3 derniers mois)","Épargne disponible : 22 950 € sur ton Livret A","Ton profil : niveau 3 sur 5, horizon 8 ans"]],
@@ -20,7 +20,7 @@ function demarrerPage() {
       s:"Sources : service-public.fr, fiche Livret A, consultée le 13/09/2026 · Méthodologie SAFIA, épargne de précaution"
     },
     per:{
-      q:"Comment fonctionne la déduction du PER ?",
+      q:"Comment fonctionne la déduction du PER\u00A0?",
       r:["Les versements sur un PER individuel peuvent être déduits de ton revenu imposable, dans la limite d'un plafond annuel propre à ta situation.","L'économie d'impôt dépend donc de ta tranche marginale : plus elle est élevée, plus la déduction pèse."],
       v:[["Contrepartie","L'épargne est bloquée jusqu'à la retraite, sauf cas de déblocage prévus par la loi."],["À la sortie","Ce qui a été déduit à l'entrée est imposé à la sortie."]],
       d:[["Ce que j'ai utilisé",["Ta tranche marginale déclarée : 30 %","Plafond disponible que tu as saisi : 4 200 €","Je n'ai pas ton avis d'imposition : le plafond réel peut différer"]],
@@ -28,7 +28,7 @@ function demarrerPage() {
       s:"Sources : BOFiP, régime du plan d'épargne retraite, consulté le 13/09/2026 · Ton profil SAFIA"
     },
     secteur:{
-      q:"Est-ce que je suis trop exposé à un seul secteur ?",
+      q:"Est-ce que je suis trop exposé à un seul secteur\u00A0?",
       r:["Oui, sur un point : 41 % de ton portefeuille actions est investi sur la technologie américaine.","Si ce secteur baisse, une grande partie de ton épargne baisse en même temps."],
       v:[["Concentration","Une seule zone et un seul secteur portent la moitié de ton risque."],["Devise","Cette part est en dollars : son rendement dépend aussi du taux de change."]],
       d:[["D'où vient ce chiffre",["3 lignes analysées sur tes comptes connectés","Composition sectorielle des fonds au 31/08/2026","Ta poche obligataire et tes livrets sont exclus du calcul"]],
@@ -36,7 +36,7 @@ function demarrerPage() {
       s:"Sources : documents d'information clé des fonds détenus, au 31/08/2026 · Méthodologie SAFIA, diversification"
     },
     holding:{
-      q:"Je vends ma société, faut-il passer par une holding ?",
+      q:"Je vends ma société, faut-il passer par une holding\u00A0?",
       r:["Une holding est une société qui détient les titres d'autres sociétés. Dans une cession, le montage classique s'appelle l'apport-cession : tu apportes les titres de ta société à une holding que tu contrôles, <strong>avant</strong> la vente. La plus-value d'apport n'est alors pas imposée immédiatement, elle est placée en report.",
          "Concrètement, c'est la holding qui vend, et c'est elle qui encaisse le prix. Tu réinvestis donc avec la totalité du produit de cession, sans que l'impôt ait été prélevé au passage."],
       b:[["Ce que ça peut t'apporter",
