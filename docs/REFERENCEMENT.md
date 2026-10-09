@@ -130,7 +130,7 @@ directement, c'est un fichier texte.
 ### Sécurité et conformité · `/securite/`
 
 - **Titre** (52) : Sécurité et conformité : où vont tes données · SAFIA
-- **Description** (145) : Connexion bancaire en lecture seule, hébergement dans l'UE, accès chiffrés, statut CIF : tout ce qui protège ton argent et tes données sur SAFIA.
+- **Description** (153) : Connexion bancaire en lecture seule, hébergement dans l'UE, accès chiffrés, statuts CIF et COA : tout ce qui protège ton argent et tes données sur SAFIA.
 
 ### Page introuvable · `/404`
 
@@ -197,7 +197,7 @@ titre et leur description de résultat de recherche se règlent ici comme les au
 ### Mentions légales · `/mentions-legales/`
 
 - **Titre** (24) : Mentions légales · SAFIA
-- **Description** (127) : Éditeur, directeur de la publication, hébergeur et statut réglementaire de SAFIA SAS, conseiller en investissements financiers.
+- **Description** (152) : Éditeur, directeur de la publication, hébergeur et statut réglementaire de SAFIA SAS, conseiller en investissements financiers et courtier en assurance.
 
 ### Politique de confidentialité · `/politique-de-confidentialite/`
 

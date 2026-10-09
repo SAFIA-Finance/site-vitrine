@@ -1,6 +1,6 @@
 # Points ouverts
 
-**Mis à jour le 7 octobre 2026.** La bascule du 18 septembre est faite : le site est en ligne sur
+**Mis à jour le 9 octobre 2026.** La bascule du 18 septembre est faite : le site est en ligne sur
 `safia.finance`, indexable, et la préversion `sitev2.safia.finance` est
 supprimée. Voir [DEPLOIEMENT.md](DEPLOIEMENT.md) pour la procédure suivie et
 le piège qui a coûté treize minutes de coupure.
@@ -28,6 +28,7 @@ décision de Maxime et dit qui a la main.
 
 | Sujet | Ce qu'il faut | Qui |
 |---|---|---|
+| **Statut COA et rémunération** | SAFIA SAS est courtier en assurance (COA) depuis le 9 octobre 2026, en plus de CIF : mentions légales, CGU, avertissement, pied de page et pages de statut mis à jour ce jour-là. Hypothèse retenue par Maxime : **aucune commission d'assureur**. Le site l'affirme une vingtaine de fois, sur dix pages (comparatif, tarifs, cockpit, fondateur, conseillers, particuliers, histoire, simulateur de frais). **Le jour où une commission d'assurance est perçue, ces phrases sont à réécrire avant tout**, et les mentions légales à compléter sur la nature de la rémunération. Deux phrases volontairement absentes des mentions : l'absence d'encaissement de fonds et l'absence de lien capitalistique avec un assureur. | Maxime décide, Claude exécute |
 | **Politique de confidentialité, formulaire de contact** | Le formulaire de `/contact/` est en ligne depuis le 06/10/2026 et la politique ne le couvre pas. Deux ajouts à faire **dans le `.docx`**, puis reconvertir : à l'article 9, Brevo reçoit aussi les messages du formulaire de contact, et plus seulement la newsletter et les demandes de démonstration ; à l'article 11, la durée de conservation de ces messages, **arrêtée à 12 mois après le dernier échange**, comme les demandes de rendez-vous. | Maxime |
 | **Sources du blog** | **228 citations liées sur 582** au 06/10/2026, contre 172 la veille : 56 citations d'autorités françaises et du BOFiP, chaque adresse ouverte et son titre lu. Restent sans lien : 172 renvois aux codes (Légifrance bloque l'accès automatisé), 121 citations à trier, et une quarantaine de citations trop vagues pour désigner une page précise (« AMF, guide sur les ETF », « INSEE, budget des ménages »). Les lier demanderait de les réécrire. | En attente |
 | **Liens depuis les sites des partenaires** | Trois sites seulement pointent vers safia.finance. Demander un lien aux partenaires déjà affichés sur le site : IÉSEG Incubateur, CNCGP, Powens, Scaleway, Mistral AI, Bpifrance. Claude rédige les demandes, Maxime les envoie. **Remis à plus tard le 06/10/2026.** | En attente |

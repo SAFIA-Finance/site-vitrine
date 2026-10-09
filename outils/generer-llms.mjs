@@ -184,7 +184,7 @@ lignes.push(
   "> SAFIA est un service français de gestion de patrimoine assistée par intelligence artificielle : réunir ses comptes, comprendre ce qu'on détient et décider en connaissance de cause.",
 );
 lignes.push(
-  '> Les contenus de ce site sont rédigés par Maxime Bouché, conseiller en investissements financiers immatriculé à l\'ORIAS sous le n° 26008152 et membre de la CNCGP. Ils sont datés, sourcés, et ne constituent pas un conseil en investissement personnalisé.',
+  '> Les contenus de ce site sont rédigés par Maxime Bouché, conseiller en investissements financiers et courtier en assurance, immatriculé à l\'ORIAS sous le n° 26008152 et membre de la CNCGP. Ils sont datés, sourcés, et ne constituent pas un conseil en investissement personnalisé.',
 );
 lignes.push('');
 // Les thèmes réellement pourvus. Compté plutôt qu'écrit : un thème vidé de ses
