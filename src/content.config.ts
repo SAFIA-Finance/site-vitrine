@@ -22,13 +22,14 @@ export const CATEGORIES = [
   'Outre-mer',
   'Dispositifs fiscaux',
   'Saint-Barthélemy',
+  'Fiscalité comparée',
 ] as const;
 
 const blog = defineCollection({
   loader: glob({ pattern: '**/*.md', base: './src/content/blog' }),
   schema: z.object({
     /** Référence du plan éditorial : A1, B3, G12, I26, J22, K9… */
-    code: z.string().regex(/^[A-M]\d+$/),
+    code: z.string().regex(/^[A-N]\d+$/),
     /** Le H1 de l'article et le titre de sa carte. */
     titre: z.string().min(10),
     /** Le titre affiché par Google. Au-delà de 60 signes, il est tronqué. */

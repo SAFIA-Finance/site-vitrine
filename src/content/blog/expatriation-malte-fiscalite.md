@@ -66,7 +66,7 @@ Un impôt minimum existe en dehors de tout programme : l'article 56(27) prévoit
 | | Base imposée | Impôt |
 |---|---|---|
 | Résident maltais, programme de résidence | 60 000 € rapatriés, à 15 % | **15 000 €**, le minimum du programme étant supérieur aux 9 000 € calculés |
-| Résident français | 150 000 € | **45 000 €** au prélèvement forfaitaire unique de 30 % |
+| Résident français | 150 000 € | **47 100 €** au prélèvement forfaitaire unique de 31,4 % |
 
 Les 90 000 € laissés à l'étranger ne sont pas imposés à Malte. Et une plus-value de cession, elle, ne l'est pas du tout, rapatriée ou non.
 

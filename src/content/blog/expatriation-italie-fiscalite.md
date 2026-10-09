@@ -5,9 +5,9 @@ titreSeo: "Italie : fiscalité de l'expatriation"
 description: "Forfait à 300 000 €, flat tax de 7 % pour retraités, impatriati : les quatre régimes italiens, et la taxe sur les actifs détenus hors d'Italie."
 categorie: "Expatriation"
 date: 2026-09-16
-maj: 2026-09-19
+maj: 2026-10-09
 lecture: 6
-mots: 1121
+mots: 1247
 essentiel:
   - "L'Italie propose **quatre régimes distincts**, chacun visant un profil précis : c'est l'offre la plus complète d'Europe."
   - "Le forfait grands patrimoines est passé de 200 000 € à **300 000 €** au 1er janvier 2026 pour les nouveaux entrants."
@@ -17,11 +17,11 @@ faq:
   - q: "Le forfait à 300 000 € s'applique-t-il aux entrants antérieurs ?"
     r: "Les personnes entrées dans le régime avant le relèvement conservent en principe le montant en vigueur à leur entrée. Le point mérite une vérification individuelle, car c'est exactement le type de disposition transitoire qui se lit mal de l'extérieur."
   - q: "L'Italie taxe-t-elle mes comptes restés en France ?"
-    r: "Oui, indirectement. L'IVIE frappe l'immobilier détenu hors d'Italie et l'IVAFE les comptes et placements financiers étrangers. Ces prélèvements sont modestes en taux mais annuels, et ils portent sur des actifs que la plupart des candidats au départ oublient de compter."
+    r: "Oui, indirectement. L'IVIE frappe l'immobilier détenu hors d'Italie et l'IVAFE les comptes et placements financiers étrangers. Ces prélèvements sont modestes en taux mais annuels, et ils portent sur des actifs que la plupart des candidats au départ oublient de compter. Celui qui opte pour le forfait des nouveaux résidents en est exonéré, avec les membres de sa famille."
   - q: "La flat tax de 7 % concerne-t-elle toutes les pensions ?"
     r: "Elle vise les revenus de source étrangère des retraités remplissant les conditions, dont la résidence dans une commune éligible du Sud. Comme partout, une pension publique française restera le plus souvent imposable en France au titre de la convention : vérifiez d'abord la nature de votre pension."
   - q: "Que devient la transmission de mon patrimoine ?"
-    r: "C'est l'argument le moins connu en faveur de l'Italie : la fiscalité successorale en ligne directe y figure parmi les plus légères d'Europe. La convention franco-italienne comporte des stipulations en matière de successions, qu'il faut lire avant de conclure, notamment pour les biens restés en France."
+    r: "C'est l'argument le moins connu en faveur de l'Italie : la fiscalité successorale en ligne directe y figure parmi les plus légères d'Europe. Une convention franco-italienne distincte, signée à Rome le 20 décembre 1990, traite des successions : il faut la lire avant de conclure, notamment pour les biens restés en France."
 pages:
   - nom: "Cockpit stratégique"
     url: "/cockpit/"
@@ -29,7 +29,7 @@ articlesLies:
   - "expatriation-luxembourg-fiscalite"
   - "expatriation-malte-fiscalite"
 seoDerive: true
-sources: "Legge di Bilancio 199/2025, relèvement du forfait à compter du 1er janvier 2026 · Décret-loi de 2017 instituant le régime forfaitaire des nouveaux résidents · [Convention fiscale franco-italienne, y compris ses dispositions en matière de successions](https://www.impots.gouv.fr/les-conventions-internationales) · Agenzia delle Entrate, procédure de ruling."
+sources: "Legge di Bilancio 199/2025, relèvement du forfait à compter du 1er janvier 2026 · Loi n° 232 du 11 décembre 2016 (loi de finances pour 2017), article 1, alinéa 152, instituant le régime forfaitaire des nouveaux résidents · [Convention fiscale franco-italienne et, pour les successions, convention distincte signée à Rome le 20 décembre 1990](https://www.impots.gouv.fr/les-conventions-internationales) · Agenzia delle Entrate, procédure de ruling."
 ---
 
 ## Le tableau de synthèse
@@ -40,8 +40,8 @@ sources: "Legge di Bilancio 199/2025, relèvement du forfait à compter du 1er j
 | Durée | Jusqu'à 15 ans · extension familiale à **50 000 €/personne** pour un transfert à compter du 1ᵉʳ janvier 2026, **25 000 €** pour les transferts antérieurs |
 | Condition | Non-résident italien 9 des 10 années précédentes |
 | Régime impatriati | Exonération de 50 %, 5 ans, profils qualifiés |
-| Retraités | Flat tax **7 %**, 10 ans, communes de moins de 20 000 habitants du Sud |
-| Impôts sur actifs étrangers | IVIE 0,76 % (immobilier) · IVAFE 0,2 % (comptes et titres) |
+| Retraités | Flat tax **7 %**, 10 ans, communes de 30 000 habitants au plus du Sud |
+| Impôts sur actifs étrangers | IVIE 1,06 % (immobilier) · IVAFE 0,2 % (comptes et titres), dus au régime ordinaire ou impatrié ; l'optant au forfait et les membres de sa famille en sont exonérés |
 | Exit tax française | Sursis automatique (UE) |
 
 ## Les quatre régimes
@@ -50,7 +50,7 @@ sources: "Legge di Bilancio 199/2025, relèvement du forfait à compter du 1er j
 
 **Le régime impatriati.** Exonération de 50 % des revenus d'activité, pendant cinq ans, pour des profils qualifiés s'installant en Italie. Plus large que l'IFICI portugais en termes de professions couvertes, mais moins avantageux en taux et plus court.
 
-**La flat tax de 7 % pour retraités étrangers.** Elle s'applique aux revenus de source étrangère des retraités s'installant dans une commune de moins de 20 000 habitants des régions du Sud, pendant dix ans. C'est l'équivalent italien de ce que le Portugal a supprimé.
+**La flat tax de 7 % pour retraités étrangers.** Elle s'applique aux revenus de source étrangère des retraités s'installant dans une commune de 30 000 habitants au plus des régions du Sud, pendant dix ans. Ce seuil s'applique depuis le 7 avril 2026 (loi n° 34 du 11 mars 2026, article 26) ; il était de 20 000 habitants auparavant. C'est l'équivalent italien de ce que le Portugal a supprimé.
 
 **Le régime forfaitaire des indépendants**, qui vise les petites activités et relève d'une logique différente.
 
@@ -60,13 +60,13 @@ sources: "Legge di Bilancio 199/2025, relèvement du forfait à compter du 1er j
 
 **Cadre qualifié, 90 000 €.** Sous impatriati, la moitié du revenu échappe à l'impôt, ce qui ramène le taux effectif nettement en dessous du barème italien, lui-même atteignant 43 % dès 50 000 €.
 
-**Retraité, 30 000 € de pension.** Sous le régime du Sud, 7 %, soit 2 100 €, sous réserve de s'installer effectivement dans une commune éligible, condition géographique contraignante qui doit être acceptée pour ce qu'elle est.
+**Retraité, 30 000 € de pension.** Sous le régime du Sud, 7 %, soit 2 100 €, sous réserve de s'installer effectivement dans une commune éligible, condition géographique contraignante qui doit être acceptée pour ce qu'elle est. Une réserve : selon l'article 18, paragraphe 2, de la convention franco-italienne, les pensions versées en application de la législation de sécurité sociale d'un État restent imposables dans cet État ; l'exemple vaut pour une pension qui n'en relève pas.
 
 ## Points de vigilance
 
 Le forfait a changé de montant en 2026 : il peut changer encore. Les entrants antérieurs conservent en principe leur montant d'origine, mais le point doit être vérifié.
 
-L'IVIE et l'IVAFE frappent les actifs étrangers, y compris les comptes et contrats conservés en France. Ce coût annuel doit entrer dans la comparaison.
+L'IVIE et l'IVAFE frappent les actifs étrangers, y compris les comptes et contrats conservés en France. Ce coût annuel doit entrer dans la comparaison, sauf sous le forfait des nouveaux résidents, qui en exonère l'optant et sa famille.
 
 Le barème ordinaire italien atteint sa tranche haute très tôt, à 50 000 €. Hors régime spécial, l'Italie n'est pas une destination fiscalement douce.
 
@@ -86,7 +86,7 @@ Le forfait grands patrimoines est un montant fixe : son intérêt dépend donc e
 
 Le raisonnement est donc inverse de l'intuition. Un forfait n'est pas un avantage en soi : c'est un **plafond**, et il ne vaut que si vos revenus étrangers dépassent largement le point où le montant fixe devient proportionnellement faible. Posez ce calcul avant toute autre considération.
 
-Ajoutez deux paramètres. L'**extension familiale** à 50 000 € par personne, qui améliore l'équation pour un couple disposant chacun de revenus étrangers. Et l'**IVIE et l'IVAFE**, qui frappent les actifs détenus hors d'Italie, y compris vos comptes et contrats restés en France : ce coût annuel s'ajoute au forfait et doit entrer dans le total.
+Ajoutez deux paramètres. L'**extension familiale** à 50 000 € par personne, qui améliore l'équation pour un couple disposant chacun de revenus étrangers. Et l'**IVIE et l'IVAFE**, qui frappent les actifs détenus hors d'Italie, y compris vos comptes et contrats restés en France : ces deux impôts ne s'ajoutent pas au forfait, l'optant et les membres de sa famille en étant exonérés (loi n° 232 du 11 décembre 2016, article 1, alinéa 153). Ils restent dus par un résident au régime ordinaire ou impatrié.
 
 ## Quatre régimes, quatre profils : lequel vous concerne
 
@@ -96,7 +96,7 @@ L'Italie est le seul pays d'Europe à proposer une offre aussi segmentée, ce qu
 
 **Vous êtes salarié ou cadre qualifié et vous venez travailler en Italie** : le régime impatriati, qui exonère la moitié de vos revenus d'activité pendant cinq ans. Plus court que le forfait, mais adapté à un revenu de travail.
 
-**Vous êtes retraité** : la flat tax de 7 % pendant dix ans, à condition de vous installer dans une commune de moins de 20 000 habitants des régions du Sud. La contrainte géographique est réelle et doit être acceptée pour ce qu'elle est : elle oriente le choix du lieu de vie avant celui du régime.
+**Vous êtes retraité** : la flat tax de 7 % pendant dix ans, à condition de vous installer dans une commune de 30 000 habitants au plus des régions du Sud. La contrainte géographique est réelle et doit être acceptée pour ce qu'elle est : elle oriente le choix du lieu de vie avant celui du régime.
 
 **Vous exercez une petite activité indépendante** : le régime forfaitaire des indépendants, qui relève d'une logique distincte.
 

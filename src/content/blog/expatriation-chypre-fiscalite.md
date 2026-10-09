@@ -5,13 +5,13 @@ titreSeo: "Chypre : fiscalité de l'expatriation"
 description: "Le non-dom chypriote dure jusqu'à dix-sept ans et exonère dividendes et intérêts. Membre de l'Union, Chypre ouvre le sursis automatique d'exit tax."
 categorie: "Expatriation"
 date: 2026-09-16
-maj: 2026-09-21
+maj: 2026-10-09
 lecture: 6
-mots: 1131
+mots: 1210
 essentiel:
   - "Le statut de **non-domicilié** chypriote dure **dix-sept ans** sur une période de vingt, soit la durée la plus longue d'Europe. Le régime britannique qui lui ressemblait a été ramené à quatre ans en 2025."
   - "Il exonère les **dividendes et intérêts** de la contribution spéciale à la défense, ce qui en fait une destination adaptée aux revenus de capitaux."
-  - "**Le barème a changé au 1ᵉʳ janvier 2026** : la tranche exonérée passe de 19 500 à **22 000 €**, et le taux plein de 35 % ne s'applique plus qu'au-delà de **72 001 €**."
+  - "**Le barème a changé au 1ᵉʳ janvier 2026** : la tranche exonérée passe de 19 500 à **22 000 €**, et le taux plein de 35 % ne s'applique plus qu'à partir de **72 001 €**."
   - "Une **option d'extension du statut non-dom jusqu'à vingt-sept ans** a été introduite, au prix de 250 000 € par période de cinq ans."
   - "Chypre étant membre de l'Union européenne, le **sursis d'exit tax est automatique**, sans démarche ni garantie."
   - "Ce dernier point est décisif : à avantage fiscal comparable, une destination de l'Union épargne une procédure lourde."
@@ -33,7 +33,7 @@ articlesLies:
   - "expatriation-emirats-dubai-fiscalite"
   - "expatriation-espagne-fiscalite"
 seoDerive: true
-sources: "*Income Tax Law* chypriote et législation sur la contribution spéciale à la défense, statut de non-domicilié apprécié sur dix-sept des vingt années précédentes · [Réforme fiscale adoptée le 22 décembre 2025, applicable au 1ᵉʳ janvier 2026 : relèvement de la tranche exonérée à 22 000 €, seuil du taux de 35 % porté à 72 001 €, contribution sur les dividendes des résidents domiciliés ramenée de 17 % à 5 %](https://www.chypre-conseils.com/reforme-fiscale-chypre-2026/) · Article 200 A du Code général des impôts pour le prélèvement forfaitaire unique · [Convention fiscale franco-chypriote](https://www.impots.gouv.fr/les-conventions-internationales) · Code général des impôts, article 167 bis, IV, et articles 164 D, 244 bis A et 1736, IV."
+sources: "*Income Tax Law* chypriote et législation sur la contribution spéciale à la défense, statut de non-domicilié apprécié sur dix-sept des vingt années précédentes · [Réforme fiscale adoptée le 22 décembre 2025, applicable au 1ᵉʳ janvier 2026 : relèvement de la tranche exonérée à 22 000 €, seuil du taux de 35 % porté à 72 001 €, contribution sur les dividendes des résidents domiciliés ramenée de 17 % à 5 %](https://www.chypre-conseils.com/reforme-fiscale-chypre-2026/) · Article 200 A du Code général des impôts pour le prélèvement forfaitaire unique · [Convention fiscale franco-chypriote du 18 décembre 1981, seule applicable en 2026, la convention signée le 11 décembre 2023 n'étant pas en vigueur](https://www.impots.gouv.fr/les-conventions-internationales) · Code général des impôts, article 167 bis, IV, et articles 164 D, 244 bis A et 1736, IV."
 ---
 
 ## Le tableau de synthèse
@@ -41,17 +41,17 @@ sources: "*Income Tax Law* chypriote et législation sur la contribution spécia
 | | |
 |---|---|
 | Statut non-dom | **17 ans**, sur une période de 20 ans. Une option d'extension jusqu'à **27 ans** existe depuis 2026, au prix de **250 000 €** par période de cinq ans |
-| Dividendes et intérêts d'un non-dom | **0 %** de contribution spéciale à la défense, contre 5 % pour un résident domicilié depuis 2026 |
-| Barème, depuis le 1ᵉʳ janvier 2026 | Exonéré jusqu'à **22 000 €**, contre 19 500 € auparavant. Le taux de **35 %** ne s'applique plus qu'au-delà de **72 001 €**, contre 60 001 € |
+| Dividendes et intérêts d'un non-dom | **0 %** de contribution spéciale à la défense, contre 5 % sur les dividendes tirés de bénéfices de 2026 et après, et 17 % sur les intérêts, pour un résident domicilié |
+| Barème, depuis le 1ᵉʳ janvier 2026 | Exonéré jusqu'à **22 000 €**, contre 19 500 € auparavant. Le taux de **35 %** ne s'applique plus qu'à partir de **72 001 €**, contre 60 001 € |
 | Plus-values mobilières | **Non imposées**, hors immobilier situé à Chypre |
-| Convention avec la France | Oui |
+| Convention avec la France | Oui : celle du 18 décembre 1981. La nouvelle, signée le 11 décembre 2023, n'est pas en vigueur |
 | Exit tax française | **Sursis automatique** (État membre de l'UE) |
 
 ## Le régime non-dom, chiffré
 
 Une personne résidente fiscale de Chypre pendant au moins **dix-sept des vingt années** précédentes est réputée domiciliée, et perd le bénéfice du régime. En deçà, ses dividendes et intérêts mondiaux échappent à la contribution spéciale à la défense.
 
-La réforme adoptée le **22 décembre 2025**, applicable depuis le 1ᵉʳ janvier 2026, a modifié l'écart entre les deux statuts. La contribution sur les dividendes d'un résident **domicilié** est passée de 17 % à **5 %**, tandis qu'elle reste à **0 %** pour un non-dom. L'avantage relatif du statut s'est donc réduit, sans disparaître.
+La réforme adoptée le **22 décembre 2025**, applicable depuis le 1ᵉʳ janvier 2026, a modifié l'écart entre les deux statuts. La contribution sur les dividendes d'un résident **domicilié** est passée de 17 % à **5 %**, tandis qu'elle reste à **0 %** pour un non-dom. Ce taux de 5 % vaut pour les bénéfices de 2026 et des années suivantes : les dividendes qu'une société chypriote distribue sur des bénéfices antérieurs restent à 17 % jusqu'au 31 décembre 2031, et la contribution sur les intérêts reste à 17 % pour un domicilié. L'avantage relatif du statut s'est donc réduit, sans disparaître.
 
 **Un exemple chiffré**, pour 200 000 € de dividendes annuels de source étrangère.
 
@@ -60,7 +60,7 @@ La réforme adoptée le **22 décembre 2025**, applicable depuis le 1ᵉʳ janvi
 | Résident chypriote non domicilié | **0 €** |
 | Résident chypriote domicilié, depuis 2026 | **10 000 €**, au taux de 5 % |
 | Résident chypriote domicilié, avant 2026 | 34 000 €, au taux de 17 % |
-| Résident français | **60 000 €**, au prélèvement forfaitaire unique de 30 % |
+| Résident français | **62 800 €**, au prélèvement forfaitaire unique de 31,4 % |
 
 L'écart avec la France reste entier. Ce qui a changé, c'est le coût de la sortie du régime au bout de dix-sept ans : il est désormais nettement moins brutal.
 

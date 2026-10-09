@@ -63,7 +63,7 @@ Le régime général tient en trois chiffres. Le taux est de **10 %**, prélevé
 | | Plus-value retenue | Impôt |
 |---|---|---|
 | Résident belge | 60 000 € (560 000 moins la valeur au 31/12/2025) | **5 000 €** après la franchise de 10 000 € |
-| Résident français | 360 000 € (560 000 moins le prix d'achat) | **108 000 €** au prélèvement forfaitaire unique de 30 % |
+| Résident français | 360 000 € (560 000 moins le prix d'achat) | **113 040 €** au prélèvement forfaitaire unique de 31,4 % |
 
 L'écart vient moins du taux que de la base : la Belgique efface trente ans de plus-values latentes, la France les impose intégralement. Pour un patrimoine déjà constitué, c'est ce mécanisme de valeur de départ, et non le taux de 10 %, qui fait la différence.
 

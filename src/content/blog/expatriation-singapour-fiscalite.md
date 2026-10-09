@@ -7,7 +7,7 @@ categorie: "Expatriation"
 date: 2026-09-16
 maj: 2026-09-21
 lecture: 5
-mots: 907
+mots: 910
 essentiel:
   - "Singapour applique une imposition **territoriale** : les revenus de source étrangère échappent en principe à l'impôt local."
   - "Ni **plus-values**, ni **dividendes**, ni **droits de succession** ne sont imposés."
@@ -60,7 +60,7 @@ L'imposition territoriale signifie que seuls les revenus produits à Singapour, 
 | | Salaire local | Dividendes étrangers |
 |---|---|---|
 | Résident singapourien | Barème plafonné à **24 %** | **0 €** |
-| Résident français | Barème jusqu'à **45 %** | **30 000 €** au prélèvement forfaitaire unique |
+| Résident français | Barème jusqu'à **45 %** | **31 400 €** au prélèvement forfaitaire unique de 31,4 % |
 
 L'absence d'imposition des plus-values et des successions complète un cadre cohérent, qui explique la place de Singapour dans la gestion patrimoniale asiatique.
 

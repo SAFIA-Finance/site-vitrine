@@ -67,7 +67,7 @@ C'est une différence importante avec les destinations européennes : à Maurice
 
 | | Imposition de la plus-value |
 |---|---|
-| Résident français | **600 000 €**, au prélèvement forfaitaire unique de 30 % |
+| Résident français | **628 000 €**, au prélèvement forfaitaire unique de 31,4 % |
 | Résident mauricien | **0 €**, Maurice n'imposant pas les plus-values |
 
 L'écart est considérable, et c'est ce qui attire. Mais il ne se saisit pas en changeant d'adresse.

@@ -5,9 +5,9 @@ titreSeo: "Monaco : fiscalité de l'expatriation"
 description: "Un Français installé à Monaco reste imposable en France : c'est l'article 7 de la convention de 1963. L'exception, et ce qui reste malgré tout."
 categorie: "Expatriation"
 date: 2026-09-16
-maj: 2026-09-21
+maj: 2026-10-09
 lecture: 6
-mots: 1115
+mots: 1272
 essentiel:
   - "Monaco n'impose les revenus d'**aucun** de ses résidents. Mais la convention de 1963 **exclut les Français** de ce bénéfice."
   - "Un Français qui s'installe à Monaco reste imposable en France **sur l'ensemble de ses revenus**, comme s'il n'était jamais parti."
@@ -16,11 +16,11 @@ essentiel:
   - "Ce qui reste pour un Français tient à la **transmission** : **0 %** de droits en ligne directe et entre époux, mais sur les seuls biens situés à Monaco."
 faq:
   - q: "Un Français installé à Monaco paie-t-il l'impôt en France ?"
-    r: "Oui, sur ses revenus, en application de la convention de 1963, et dans les mêmes conditions que s'il résidait en France. Seules les personnes justifiant d'une résidence monégasque habituelle antérieure au 13 octobre 1957 échappent à cette règle."
+    r: "Oui, sur ses revenus, en application de la convention de 1963, et dans les mêmes conditions que s'il résidait en France. Y échappent les personnes justifiant d'une résidence monégasque habituelle antérieure au 13 octobre 1957 et quelques cas étroits, dont aucun n'est ouvert à qui s'installe aujourd'hui."
   - q: "Monaco présente-t-il un intérêt pour un Français ?"
     r: "Sur l'impôt sur le revenu, non. Sur la transmission en ligne directe, sur l'absence d'impôt monégasque sur la fortune et sur le cadre de vie, oui. L'analyse doit donc porter sur le patrimoine et la succession, pas sur le revenu."
   - q: "L'IFI s'applique-t-il à un résident monégasque ?"
-    r: "Vos biens immobiliers situés en France restent soumis aux règles françaises de territorialité de l'IFI au-delà du seuil. L'absence d'impôt monégasque sur la fortune ne fait pas disparaître l'imposition française sur les biens français."
+    r: "Oui, si vous êtes français et que vous vous êtes installé à Monaco à compter du 1ᵉʳ janvier 1989 : l'IFI porte sur l'ensemble de vos biens imposables, en France et hors de France, Monaco compris, au-delà du seuil (article 7, paragraphe 3, de la convention ; BOFiP). L'absence d'impôt monégasque sur la fortune ne fait pas disparaître l'imposition française."
   - q: "Faut-il acheter un logement pour obtenir la résidence ?"
     r: "La location est admise, à condition que le logement soit adapté à la composition du foyer. Compte tenu du niveau des loyers, cette condition constitue en pratique le principal filtre à l'entrée."
   - q: "Dois-je continuer à déclarer mes revenus en France ?"
@@ -47,7 +47,7 @@ sources: "[Convention fiscale franco-monégasque du 18 mai 1963](https://www.imp
 | Régime des Français | **Article 7-1 de la convention du 18 mai 1963** : imposition en France comme s'ils y résidaient |
 | L'exception | Justifier de **cinq ans de résidence habituelle** à Monaco au 13 octobre 1962, soit une installation avant le **13 octobre 1957** |
 | Droits de succession monégasques | **0 %** en ligne directe et entre époux, **8 %** entre frères et sœurs, **10 %** entre oncles, tantes, neveux et nièces, **13 %** entre autres collatéraux, **16 %** entre non-parents |
-| Assiette des droits monégasques | **Les seuls biens situés à Monaco.** La nationalité et la résidence du défunt sont sans effet |
+| Assiette des droits monégasques | **Les seuls biens situés à Monaco.** La nationalité et la résidence du défunt sont sans effet, sous réserve de la convention franco-monégasque du 1ᵉʳ avril 1950 |
 | Impôt sur la fortune | Aucun à Monaco |
 | Convention avec la France | Convention fiscale du 18 mai 1963 |
 
@@ -59,7 +59,7 @@ C'est l'idée reçue la plus répandue et la plus coûteuse : « je m'installe �
 
 Concrètement, cela vise toute personne installée après le **13 octobre 1957**, c'est-à-dire la quasi-totalité des candidats d'aujourd'hui. Pour eux, l'installation à Monaco ne produit **aucun effet** sur l'impôt sur le revenu français.
 
-Une exception étroite subsiste pour les fonctionnaires et agents des services publics monégasques installés entre le 13 octobre 1957 et le 13 octobre 1962, maintenue lors de leur retraite mais perdue s'ils quittent ces fonctions.
+Quelques cas étroits restent hors champ : les fonctionnaires et agents des services publics monégasques installés entre le 13 octobre 1957 et le 13 octobre 1962 (exception maintenue lors de leur retraite mais perdue s'ils quittent ces fonctions), les personnes relevant de la maison souveraine, les Français nés à Monaco et y ayant constamment résidé, les conjoints de Monégasques sous conditions et certains binationaux installés avant le 29 décembre 1995. Aucun n'ouvre de porte à qui s'installe aujourd'hui.
 
 **Un exemple chiffré.** Deux voisins d'un même immeuble monégasque, disposant chacun de 300 000 € de revenus de source française.
 
@@ -74,7 +74,7 @@ Le logement est le même, l'adresse est la même, le traitement fiscal n'a rien 
 
 **La transmission, et c'est le point réellement favorable.** Monaco n'applique aucun droit de succession en **ligne directe et entre époux**. Entre frères et sœurs, le taux est de 8 % ; entre oncles, tantes, neveux et nièces, 10 % ; entre autres collatéraux, 13 % ; entre personnes sans lien de parenté, 16 %.
 
-Deux règles d'assiette commandent tout le reste. Les droits monégasques ne frappent **que les biens situés dans la Principauté**. Et la nationalité comme la résidence du défunt sont **sans effet** : un appartement monégasque transmis en ligne directe ne supporte aucun droit, que son propriétaire ait vécu à Monaco ou ailleurs.
+Deux règles d'assiette commandent tout le reste. Les droits monégasques ne frappent **que les biens situés dans la Principauté**. Et la nationalité comme la résidence du défunt sont **sans effet** : un appartement monégasque transmis en ligne directe ne supporte aucun droit, que son propriétaire ait vécu à Monaco ou ailleurs. Cette règle joue sous réserve de la convention franco-monégasque du 1ᵉʳ avril 1950 sur les successions : un Français n'est tenu pour domicilié à Monaco au jour de son décès que s'il y résidait habituellement depuis cinq ans au moins. Les valeurs mobilières et les créances ne sont imposables que dans l'État du domicile du défunt. Cette convention ne couvre pas les donations.
 
 La contrepartie est symétrique : les biens restés en France relèvent du droit français et de son barème, jusqu'à 45 % en ligne directe. L'avantage monégasque porte donc sur ce qui est à Monaco, pas sur le patrimoine dans son ensemble.
 
@@ -96,7 +96,7 @@ Reprenons précisément, parce que c'est la seule chose qui compte pour un lecte
 
 La convention franco-monégasque du 18 mai 1963 prévoit que les personnes de nationalité française ayant transféré leur domicile à Monaco à compter d'une date de référence demeurent assujetties à l'impôt sur le revenu français **dans les mêmes conditions que si elles avaient leur domicile en France**.
 
-Il ne s'agit pas d'une imposition partielle, ni d'un mécanisme de crédit d'impôt. C'est une assimilation complète : pour l'impôt sur le revenu, vous êtes traité comme un résident français.
+Il ne s'agit pas d'une imposition partielle, ni d'un mécanisme de crédit d'impôt. C'est une assimilation complète : pour l'impôt sur le revenu, vous êtes traité comme un résident français. Elle ne vaut que pour cet impôt : les prélèvements sociaux ne sont pas dus sur ce seul fondement (BOI-INT-CVB-MCO-10, § 230).
 
 **L'exception** vise les personnes justifiant d'une résidence habituelle à Monaco depuis avant le 13 octobre 1957. Autant dire qu'elle ne concerne plus, aujourd'hui, qu'un nombre très restreint de situations, généralement héritées d'une installation familiale ancienne.
 
@@ -110,7 +110,7 @@ Trois éléments, qui ne sont pas négligeables mais qui ne relèvent pas de l'i
 
 **La transmission.** La fiscalité monégasque des successions est très favorable en ligne directe. Les règles de territorialité et les stipulations applicables doivent toutefois être examinées, en particulier pour les biens restés en France, qui suivent leur propre régime.
 
-**L'absence d'impôt monégasque sur la fortune.** Attention cependant : l'IFI français continue de s'appliquer selon les règles de territorialité qui lui sont propres, et vos biens immobiliers français y demeurent soumis au-delà du seuil.
+**L'absence d'impôt monégasque sur la fortune.** Attention cependant : si vous vous êtes installé à Monaco à compter du 1ᵉʳ janvier 1989, l'IFI français porte sur l'ensemble de vos biens imposables, en France et hors de France, Monaco compris, au-delà du seuil (article 7, paragraphe 3, de la convention ; BOI-INT-CVB-MCO-10, § 380).
 
 **Le cadre juridique, bancaire et sécuritaire**, qui constitue en pratique la première raison d'installation pour une large part des résidents, bien avant l'argument fiscal.
 

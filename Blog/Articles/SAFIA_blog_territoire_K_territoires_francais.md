@@ -136,7 +136,7 @@ Page **Cockpit stratégique** · articles **K4** et **K6**.
 ## K2 — Saint-Barthélemy : autonomie fiscale et règle des cinq ans
 
 **URL** : /blog/fiscalite-saint-barthelemy · **Mot-clé** : fiscalité saint barthélemy · **Page liée** : Cockpit stratégique
-**Meta** : Ni impôt sur le revenu, ni IFI, ni droits de succession. Mais le domicile fiscal local n'est reconnu qu'après cinq ans : une salle d'attente fiscale.
+**Meta** : Aucun impôt local sur le revenu, la fortune ou la succession. Mais le domicile fiscal n'est reconnu qu'après cinq ans, et la France garde des droits.
 **Vérifié le 21 septembre 2026**
 
 ### Le tableau de synthèse
@@ -157,7 +157,7 @@ Page **Cockpit stratégique** · articles **K4** et **K6**.
 | Ce qui la remplace | Un **droit de quai de 5 %** sur toutes les marchandises introduites dans l'île, porté à 8 % sur les véhicules terrestres à moteur |
 | Statut douanier | **PTOM** depuis le 1ᵉʳ janvier 2012, hors du territoire douanier de l'Union européenne |
 | Ce que la collectivité prélève | Droits de mutation immobilière de **5 %**, imposition des plus-values immobilières sur les cessions intervenues dans les **18 ans**, taxe de séjour de **5 %** |
-| Cotisations sociales | **Compétence exclusive de l'État**, article LO 6214-4-1, 3° |
+| Cotisations sociales | **Compétence exclusive de l'État**, article LO 6214-4, I, 3° |
 
 ### L'essentiel
 
@@ -167,6 +167,7 @@ Page **Cockpit stratégique** · articles **K4** et **K6**.
 - Une fois le délai passé, la collectivité ne prélève **ni impôt sur le revenu, ni impôt sur la fortune, ni droits de succession, ni TVA**. Saint-Barthélemy est hors du territoire d'application de la TVA française.
 - Ce qu'elle prélève est ailleurs, et ce n'est pas rien : un **droit de quai de 5 %** sur toutes les marchandises introduites dans l'île, des **droits de mutation immobilière de 5 %**, l'imposition des **plus-values immobilières** sur les cessions intervenant dans les dix-huit ans, et une **taxe de séjour de 5 %**.
 - « Zéro impôt » est donc exact sur le revenu, la fortune, la succession et la TVA, et faux sur le reste : l'île se finance sur les **flux**, pas sur les revenus.
+- Une réserve : le statut local ne couvre que les revenus de source locale. La France garde ses droits sur les revenus de source française, les immeubles situés en France et les héritiers domiciliés en France.
 - Les **cotisations sociales** restent de la compétence exclusive de l'État : l'autonomie fiscale ne s'étend pas au social.
 - C'est la règle des cinq ans qui est la plus structurante de tout le dossier, et celle qui est le plus souvent découverte trop tard.
 
@@ -182,6 +183,8 @@ La règle ne retarde pas un avantage, elle maintient intégralement l'autre rég
 | À partir de 2031 | **Saint-Barthélemy** | Ni impôt sur le revenu, ni impôt sur la fortune, ni droits de succession locaux |
 
 La bascule est totale et elle est datée. Entre les deux, le crédit d'impôt prévu par le dispositif évite la double imposition sur les revenus de source locale, mais il ne raccourcit pas le délai d'un jour.
+
+Une réserve, toutefois : à partir de 2031, le statut local ne couvre que les revenus de source locale. La France garde ses droits sur les revenus de source française, sur les immeubles situés en France et sur les héritiers domiciliés en France, s'ils l'ont été au moins six des dix dernières années (article 750 ter du Code général des impôts).
 
 Conséquence pratique : un projet de cession, de donation ou de transmission conçu pour bénéficier du régime local doit être calé **après** la cinquième année, pas avant. Une donation consentie la quatrième année relève du barème français.
 
@@ -257,7 +260,7 @@ La question doit être examinée spécifiquement au regard du statut de la colle
 
 ### Sources
 
-Code général des collectivités territoriales, article LO 6214-4, modifié par la loi n° 2015-1485 du 17 novembre 2015, article 7, et article LO 6214-4-1, 3°, réservant les cotisations sociales à l'État · [Code des contributions de Saint-Barthélemy, annexé à la délibération n° 2024-038 CT](https://actes.eservices-comstbarth.fr/PJ/Deliberation%20CT/Deliberation%20CT_2024/2024_038ct_annexe.pdf) · [Direction générale des douanes, cas particuliers de Saint-Martin et de Saint-Barthélemy](https://www.douane.gouv.fr/fiche/cas-particuliers-de-lile-de-saint-martin-et-de-lile-de-saint-barthelemy), pour le statut de PTOM depuis le 1er janvier 2012 et le droit de quai de 5 % · [BOI-TVA-CHAMP-20-10, définition du territoire d'application de la TVA](https://bofip.impots.gouv.fr/bofip/1340-PGP.html/identifiant=BOI-TVA-CHAMP-20-10-20230118), qui exclut Saint-Barthélemy · Loi n° 2007-223 du 21 février 2007 portant dispositions statutaires et institutionnelles relatives à l'outre-mer · Code de contributions de Saint-Barthélemy, articles 2 et 4 · Conseil d'État, avis du 20 novembre 2013, n° 369796 · Rescrit publié au BOFiP le 23 octobre 2024 relatif à l'intégration fiscale des sociétés établies à Saint-Barthélemy · Services fiscaux de la collectivité de Saint-Barthélemy.
+Code général des collectivités territoriales, article LO 6214-4, modifié par la loi n° 2015-1485 du 17 novembre 2015, article 7, et article LO 6214-4, I, 3°, réservant les cotisations sociales à l'État · [Code des contributions de Saint-Barthélemy, annexé à la délibération n° 2024-038 CT](https://actes.eservices-comstbarth.fr/PJ/Deliberation%20CT/Deliberation%20CT_2024/2024_038ct_annexe.pdf) · [Direction générale des douanes, cas particuliers de Saint-Martin et de Saint-Barthélemy](https://www.douane.gouv.fr/fiche/cas-particuliers-de-lile-de-saint-martin-et-de-lile-de-saint-barthelemy), pour le statut de PTOM depuis le 1er janvier 2012 et le droit de quai de 5 % · [BOI-TVA-CHAMP-20-10, définition du territoire d'application de la TVA](https://bofip.impots.gouv.fr/bofip/1340-PGP.html/identifiant=BOI-TVA-CHAMP-20-10-20230118), qui exclut Saint-Barthélemy · Loi n° 2007-223 du 21 février 2007 portant dispositions statutaires et institutionnelles relatives à l'outre-mer · Code de contributions de Saint-Barthélemy, articles 2 et 4 · Conseil d'État, avis du 20 novembre 2013, n° 369796 · Rescrit publié au BOFiP le 23 octobre 2024 relatif à l'intégration fiscale des sociétés établies à Saint-Barthélemy · Services fiscaux de la collectivité de Saint-Barthélemy.
 
 ### Liens internes
 
@@ -316,7 +319,7 @@ Autrement dit, la règle des cinq ans ouvre dans un cas sur une absence d'imposi
 | 2026 à 2030 | Domicile fiscal **français** : impôt sur le revenu, impôt sur la fortune immobilière et droits de succession français | **Identique** |
 | À partir de 2031 | Domicile fiscal **local** : impôt sur le revenu de Saint-Martin, droits de succession et de donation locaux | Domicile fiscal local : **ni impôt sur le revenu, ni impôt sur la fortune, ni droits de succession** |
 
-Les cinq premières années sont donc strictement les mêmes des deux côtés de l'île française. C'est la sixième qui sépare les deux collectivités, et l'écart y est total.
+Les cinq premières années sont donc strictement les mêmes des deux côtés de l'île française. C'est la sixième qui sépare les deux collectivités, et l'écart y est total. Dans un cas comme dans l'autre, la France garde ses droits de succession et de donation sur les biens situés en France et sur ce que reçoivent les héritiers domiciliés en France (article 750 ter du Code général des impôts).
 
 Une conséquence rarement anticipée : à Saint-Martin, la bascule au bout de cinq ans ne fait pas disparaître l'impôt, elle change d'administration. Il faut alors déclarer auprès de la collectivité, selon un code qui ressemble au code français sans lui être identique, et c'est précisément cette ressemblance qui fait commettre des erreurs.
 

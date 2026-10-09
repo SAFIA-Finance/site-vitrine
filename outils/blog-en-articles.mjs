@@ -64,6 +64,7 @@ const CATEGORIES = {
   K: 'Outre-mer',
   L: 'Dispositifs fiscaux',
   M: 'Saint-Barthélemy',
+  N: 'Fiscalité comparée',
 };
 
 /** Les pages du site citées en fin d'article, sous leur nom courant. */
@@ -95,6 +96,7 @@ const PAGE_PAR_TERRITOIRE = {
   I: 'Cockpit stratégique',
   K: 'Cockpit stratégique',
   M: 'Cockpit stratégique',
+  N: 'Cockpit stratégique',
 };
 
 /**
@@ -117,6 +119,8 @@ const DATES = {
   SAFIA_blog_territoire_L_dispositifs_fiscaux: '2026-09-22',
   // Le territoire M, consacré au Code des contributions de Saint-Barthélemy.
   SAFIA_blog_territoire_M_saint_barthelemy: '2026-10-07',
+  // Le territoire N, qui compare la fiscalité de dix territoires.
+  SAFIA_blog_territoire_N_fiscalite_comparee: '2026-10-09',
 };
 
 // ---------------------------------------------------------------------------
@@ -224,7 +228,7 @@ function liens(bloc) {
   const inconnus = [];
   for (const m of bloc.matchAll(/\*\*([^*]+)\*\*/g)) {
     const nom = m[1].trim();
-    if (/^[A-M]\d+$/.test(nom)) articles.push(nom);
+    if (/^[A-N]\d+$/.test(nom)) articles.push(nom);
     else if (PAGES[nom]) pages.push({ nom, url: PAGES[nom] });
     else inconnus.push(nom);
   }
@@ -275,7 +279,7 @@ for (const chemin of fichiers) {
 
   // Chaque article commence à « ## A1 — Titre ». Ce qui précède le premier est
   // le préambule du territoire (chiffres de référence, bloc auteur commun).
-  const re = /^## +([A-M]\d+) +[—-] +(.+)$/gm;
+  const re = /^## +([A-N]\d+) +[—-] +(.+)$/gm;
   const marques = [];
   let m;
   while ((m = re.exec(brut))) marques.push({ code: m[1], titre: m[2].trim(), debut: m.index, finTitre: re.lastIndex });

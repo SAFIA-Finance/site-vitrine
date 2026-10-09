@@ -5,9 +5,9 @@ titreSeo: "Saint-Martin : fiscalité propre et règle des cinq ans"
 description: "Même statut et même règle des cinq ans qu'à Saint-Barthélemy, mais un code local qui prélève l'impôt sur le revenu et les droits de succession. L'inverse."
 categorie: "Outre-mer"
 date: 2026-09-16
-maj: 2026-09-21
-lecture: 5
-mots: 1067
+maj: 2026-10-09
+lecture: 6
+mots: 1107
 essentiel:
   - "Saint-Martin exerce une compétence fiscale propre depuis 2007, comme Saint-Barthélemy."
   - "La même **condition de cinq ans de résidence** s'applique aux personnes arrivant d'un département de métropole ou d'outre-mer."
@@ -78,7 +78,7 @@ Autrement dit, la règle des cinq ans ouvre dans un cas sur une absence d'imposi
 | 2026 à 2030 | Domicile fiscal **français** : impôt sur le revenu, impôt sur la fortune immobilière et droits de succession français | **Identique** |
 | À partir de 2031 | Domicile fiscal **local** : impôt sur le revenu de Saint-Martin, droits de succession et de donation locaux | Domicile fiscal local : **ni impôt sur le revenu, ni impôt sur la fortune, ni droits de succession** |
 
-Les cinq premières années sont donc strictement les mêmes des deux côtés de l'île française. C'est la sixième qui sépare les deux collectivités, et l'écart y est total.
+Les cinq premières années sont donc strictement les mêmes des deux côtés de l'île française. C'est la sixième qui sépare les deux collectivités, et l'écart y est total. Dans un cas comme dans l'autre, la France garde ses droits de succession et de donation sur les biens situés en France et sur ce que reçoivent les héritiers domiciliés en France (article 750 ter du Code général des impôts).
 
 Une conséquence rarement anticipée : à Saint-Martin, la bascule au bout de cinq ans ne fait pas disparaître l'impôt, elle change d'administration. Il faut alors déclarer auprès de la collectivité, selon un code qui ressemble au code français sans lui être identique, et c'est précisément cette ressemblance qui fait commettre des erreurs.
 

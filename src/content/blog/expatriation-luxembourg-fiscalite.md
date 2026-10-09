@@ -63,11 +63,11 @@ Au-delà de 10 %, la cession relève du régime de la **participation importante
 
 | Situation | Impôt sur la plus-value |
 |---|---|
-| Résident français | **12 000 €** (prélèvement forfaitaire unique de 30 %) |
+| Résident français | **12 560 €** (prélèvement forfaitaire unique de 31,4 %) |
 | Résident luxembourgeois, titres détenus depuis plus de six mois | **0 €** |
 | Résident luxembourgeois, titres détenus depuis quatre mois | Barème progressif, jusqu'à 42 % majorés de la contribution au fonds pour l'emploi |
 
-Dans cet exemple, attendre le septième mois vaut 12 000 €. C'est la principale raison pour laquelle le pays figure dans un dossier patrimonial, bien avant l'assurance-vie.
+Dans cet exemple, attendre le septième mois vaut 12 560 €. C'est la principale raison pour laquelle le pays figure dans un dossier patrimonial, bien avant l'assurance-vie.
 
 **Les dividendes, en revanche, restent imposés.** Un dividende versé par une société luxembourgeoise pleinement imposable supporte une retenue à la source de **15 %**, puis entre dans le revenu imposable pour la **moitié** de son montant brut. La fiscalité mobilière favorable porte donc sur les plus-values, pas sur les revenus distribués.
 

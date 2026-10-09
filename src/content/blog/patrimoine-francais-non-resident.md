@@ -6,8 +6,8 @@ description: "Loyers, plus-values immobilières, IFI, dividendes, comptes bancai
 categorie: "Expatriation"
 date: 2026-09-16
 maj: 2026-09-19
-lecture: 5
-mots: 1096
+lecture: 6
+mots: 1115
 essentiel:
   - "Devenir non-résident ne coupe pas le lien fiscal avec la France : les **revenus de source française** y restent imposables."
   - "Un **taux minimum de 20 %** s'applique aux revenus de source française, sauf à démontrer que votre taux mondial serait inférieur."
@@ -70,7 +70,7 @@ Attention toutefois à certaines conventions, qui peuvent attribuer différemmen
 
 ## Les revenus mobiliers
 
-Les dividendes de sociétés françaises supportent une retenue à la source, dont le taux de droit interne est réduit par la plupart des conventions, souvent à 15 %. Les intérêts et les plus-values mobilières suivent des règles propres, généralement favorables au non-résident.
+Les dividendes de sociétés françaises supportent une retenue à la source de 12,8 % pour une personne physique (taux de droit interne au 1er janvier 2026), sous réserve de la convention : ce taux est déjà inférieur au plafond de 15 % que fixent souvent les conventions. Les intérêts et les plus-values mobilières suivent des règles propres, généralement favorables au non-résident.
 
 Le PEA et le compte-titres méritent un examen distinct, traité dans **Assurance-vie et PEA quand on s'expatrie : ce qui change vraiment**.
 

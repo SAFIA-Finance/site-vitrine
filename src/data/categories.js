@@ -147,4 +147,14 @@ export const CATEGORIES_TEXTE = {
       "Les articles de ce thème suivent le code chapitre par chapitre et citent l'article sur lequel repose chaque règle. Chacun déroule un cas fictif, chiffré ligne à ligne, pour montrer ce que la règle donne sur une situation réelle. Commence par la vue d'ensemble et par le domicile fiscal : les autres sujets en découlent.",
     ],
   },
+
+  'Fiscalité comparée': {
+    chapo:
+      "Dix territoires face à face, impôt par impôt : France, Saint-Barthélemy, Monaco, Italie, Chypre, Monténégro, Dubaï, Floride, Texas et New York.",
+    texte: [
+      "Comparer deux fiscalités, ce n'est pas comparer deux taux. Un impôt sur le revenu à 0 % ne dit rien des droits de succession, de la taxe foncière ou de l'impôt sur les sociétés. Et il ne dit rien de ce que la France continue de prélever après le départ : les revenus de source française, l'immobilier resté en France, les titres d'un dirigeant qui s'en va, les héritiers qui n'ont pas bougé.",
+      "Trois règles surprennent presque toujours. Un Français qui s'installe à Monaco reste imposé en France sur ses revenus, par l'effet d'une convention de 1963. Saint-Barthélemy n'accorde son statut fiscal qu'après cinq ans de résidence. Les États-Unis imposent leurs citoyens et leurs résidents permanents sur leurs revenus du monde entier, quel que soit l'État où ils vivent, Floride et Texas compris.",
+      "Les articles de ce thème prennent les dix territoires un impôt à la fois, avec les barèmes de 2026, le texte qui fonde chaque chiffre et un exemple calculé ligne à ligne. Ce qui n'a pas pu être vérifié sur une source officielle y est signalé comme tel. Commence par la vue d'ensemble, puis va vers l'impôt qui te concerne.",
+    ],
+  },
 };

@@ -123,7 +123,7 @@ articles **I19** et **I24**.
 
 ## I8 — Italie
 
-**URL** : /blog/expatriation-italie-fiscalite · **Vérifié le 23 septembre 2026**
+**URL** : /blog/expatriation-italie-fiscalite · **Vérifié le 9 octobre 2026**
 **Meta** : Forfait à 300 000 €, flat tax de 7 % pour retraités, impatriati : les quatre régimes italiens, et la taxe sur les actifs détenus hors d'Italie.
 
 | | |
@@ -132,8 +132,8 @@ articles **I19** et **I24**.
 | Durée | Jusqu'à 15 ans · extension familiale à **50 000 €/personne** pour un transfert à compter du 1ᵉʳ janvier 2026, **25 000 €** pour les transferts antérieurs |
 | Condition | Non-résident italien 9 des 10 années précédentes |
 | Régime impatriati | Exonération de 50 %, 5 ans, profils qualifiés |
-| Retraités | Flat tax **7 %**, 10 ans, communes de moins de 20 000 habitants du Sud |
-| Impôts sur actifs étrangers | IVIE 0,76 % (immobilier) · IVAFE 0,2 % (comptes et titres) |
+| Retraités | Flat tax **7 %**, 10 ans, communes de 30 000 habitants au plus du Sud |
+| Impôts sur actifs étrangers | IVIE 1,06 % (immobilier) · IVAFE 0,2 % (comptes et titres), dus au régime ordinaire ou impatrié ; l'optant au forfait et les membres de sa famille en sont exonérés |
 | Exit tax française | Sursis automatique (UE) |
 
 ### L'essentiel
@@ -149,7 +149,7 @@ articles **I19** et **I24**.
 
 **Le régime impatriati.** Exonération de 50 % des revenus d'activité, pendant cinq ans, pour des profils qualifiés s'installant en Italie. Plus large que l'IFICI portugais en termes de professions couvertes, mais moins avantageux en taux et plus court.
 
-**La flat tax de 7 % pour retraités étrangers.** Elle s'applique aux revenus de source étrangère des retraités s'installant dans une commune de moins de 20 000 habitants des régions du Sud, pendant dix ans. C'est l'équivalent italien de ce que le Portugal a supprimé.
+**La flat tax de 7 % pour retraités étrangers.** Elle s'applique aux revenus de source étrangère des retraités s'installant dans une commune de 30 000 habitants au plus des régions du Sud, pendant dix ans. Ce seuil s'applique depuis le 7 avril 2026 (loi n° 34 du 11 mars 2026, article 26) ; il était de 20 000 habitants auparavant. C'est l'équivalent italien de ce que le Portugal a supprimé.
 
 **Le régime forfaitaire des indépendants**, qui vise les petites activités et relève d'une logique différente.
 
@@ -159,13 +159,13 @@ articles **I19** et **I24**.
 
 **Cadre qualifié, 90 000 €.** Sous impatriati, la moitié du revenu échappe à l'impôt, ce qui ramène le taux effectif nettement en dessous du barème italien, lui-même atteignant 43 % dès 50 000 €.
 
-**Retraité, 30 000 € de pension.** Sous le régime du Sud, 7 %, soit 2 100 €, sous réserve de s'installer effectivement dans une commune éligible, condition géographique contraignante qui doit être acceptée pour ce qu'elle est.
+**Retraité, 30 000 € de pension.** Sous le régime du Sud, 7 %, soit 2 100 €, sous réserve de s'installer effectivement dans une commune éligible, condition géographique contraignante qui doit être acceptée pour ce qu'elle est. Une réserve : selon l'article 18, paragraphe 2, de la convention franco-italienne, les pensions versées en application de la législation de sécurité sociale d'un État restent imposables dans cet État ; l'exemple vaut pour une pension qui n'en relève pas.
 
 ### Points de vigilance
 
 Le forfait a changé de montant en 2026 : il peut changer encore. Les entrants antérieurs conservent en principe leur montant d'origine, mais le point doit être vérifié.
 
-L'IVIE et l'IVAFE frappent les actifs étrangers, y compris les comptes et contrats conservés en France. Ce coût annuel doit entrer dans la comparaison.
+L'IVIE et l'IVAFE frappent les actifs étrangers, y compris les comptes et contrats conservés en France. Ce coût annuel doit entrer dans la comparaison, sauf sous le forfait des nouveaux résidents, qui en exonère l'optant et sa famille.
 
 Le barème ordinaire italien atteint sa tranche haute très tôt, à 50 000 €. Hors régime spécial, l'Italie n'est pas une destination fiscalement douce.
 
@@ -185,7 +185,7 @@ Le forfait grands patrimoines est un montant fixe : son intérêt dépend donc e
 
 Le raisonnement est donc inverse de l'intuition. Un forfait n'est pas un avantage en soi : c'est un **plafond**, et il ne vaut que si vos revenus étrangers dépassent largement le point où le montant fixe devient proportionnellement faible. Posez ce calcul avant toute autre considération.
 
-Ajoutez deux paramètres. L'**extension familiale** à 50 000 € par personne, qui améliore l'équation pour un couple disposant chacun de revenus étrangers. Et l'**IVIE et l'IVAFE**, qui frappent les actifs détenus hors d'Italie, y compris vos comptes et contrats restés en France : ce coût annuel s'ajoute au forfait et doit entrer dans le total.
+Ajoutez deux paramètres. L'**extension familiale** à 50 000 € par personne, qui améliore l'équation pour un couple disposant chacun de revenus étrangers. Et l'**IVIE et l'IVAFE**, qui frappent les actifs détenus hors d'Italie, y compris vos comptes et contrats restés en France : ces deux impôts ne s'ajoutent pas au forfait, l'optant et les membres de sa famille en étant exonérés (loi n° 232 du 11 décembre 2016, article 1, alinéa 153). Ils restent dus par un résident au régime ordinaire ou impatrié.
 
 ### Quatre régimes, quatre profils : lequel vous concerne
 
@@ -195,7 +195,7 @@ L'Italie est le seul pays d'Europe à proposer une offre aussi segmentée, ce qu
 
 **Vous êtes salarié ou cadre qualifié et vous venez travailler en Italie** : le régime impatriati, qui exonère la moitié de vos revenus d'activité pendant cinq ans. Plus court que le forfait, mais adapté à un revenu de travail.
 
-**Vous êtes retraité** : la flat tax de 7 % pendant dix ans, à condition de vous installer dans une commune de moins de 20 000 habitants des régions du Sud. La contrainte géographique est réelle et doit être acceptée pour ce qu'elle est : elle oriente le choix du lieu de vie avant celui du régime.
+**Vous êtes retraité** : la flat tax de 7 % pendant dix ans, à condition de vous installer dans une commune de 30 000 habitants au plus des régions du Sud. La contrainte géographique est réelle et doit être acceptée pour ce qu'elle est : elle oriente le choix du lieu de vie avant celui du régime.
 
 **Vous exercez une petite activité indépendante** : le régime forfaitaire des indépendants, qui relève d'une logique distincte.
 
@@ -217,17 +217,17 @@ La coordination européenne de sécurité sociale s'applique, et le sursis d'exi
 Les personnes entrées dans le régime avant le relèvement conservent en principe le montant en vigueur à leur entrée. Le point mérite une vérification individuelle, car c'est exactement le type de disposition transitoire qui se lit mal de l'extérieur.
 
 **L'Italie taxe-t-elle mes comptes restés en France ?**
-Oui, indirectement. L'IVIE frappe l'immobilier détenu hors d'Italie et l'IVAFE les comptes et placements financiers étrangers. Ces prélèvements sont modestes en taux mais annuels, et ils portent sur des actifs que la plupart des candidats au départ oublient de compter.
+Oui, indirectement. L'IVIE frappe l'immobilier détenu hors d'Italie et l'IVAFE les comptes et placements financiers étrangers. Ces prélèvements sont modestes en taux mais annuels, et ils portent sur des actifs que la plupart des candidats au départ oublient de compter. Celui qui opte pour le forfait des nouveaux résidents en est exonéré, avec les membres de sa famille.
 
 **La flat tax de 7 % concerne-t-elle toutes les pensions ?**
 Elle vise les revenus de source étrangère des retraités remplissant les conditions, dont la résidence dans une commune éligible du Sud. Comme partout, une pension publique française restera le plus souvent imposable en France au titre de la convention : vérifiez d'abord la nature de votre pension.
 
 **Que devient la transmission de mon patrimoine ?**
-C'est l'argument le moins connu en faveur de l'Italie : la fiscalité successorale en ligne directe y figure parmi les plus légères d'Europe. La convention franco-italienne comporte des stipulations en matière de successions, qu'il faut lire avant de conclure, notamment pour les biens restés en France.
+C'est l'argument le moins connu en faveur de l'Italie : la fiscalité successorale en ligne directe y figure parmi les plus légères d'Europe. Une convention franco-italienne distincte, signée à Rome le 20 décembre 1990, traite des successions : il faut la lire avant de conclure, notamment pour les biens restés en France.
 
 ### Sources
 
-Legge di Bilancio 199/2025, relèvement du forfait à compter du 1er janvier 2026 · Décret-loi de 2017 instituant le régime forfaitaire des nouveaux résidents · [Convention fiscale franco-italienne, y compris ses dispositions en matière de successions](https://www.impots.gouv.fr/les-conventions-internationales) · Agenzia delle Entrate, procédure de ruling.
+Legge di Bilancio 199/2025, relèvement du forfait à compter du 1er janvier 2026 · Loi n° 232 du 11 décembre 2016 (loi de finances pour 2017), article 1, alinéa 152, instituant le régime forfaitaire des nouveaux résidents · [Convention fiscale franco-italienne et, pour les successions, convention distincte signée à Rome le 20 décembre 1990](https://www.impots.gouv.fr/les-conventions-internationales) · Agenzia delle Entrate, procédure de ruling.
 
 
 ### Liens internes
@@ -509,7 +509,7 @@ Le régime général tient en trois chiffres. Le taux est de **10 %**, prélevé
 | | Plus-value retenue | Impôt |
 |---|---|---|
 | Résident belge | 60 000 € (560 000 moins la valeur au 31/12/2025) | **5 000 €** après la franchise de 10 000 € |
-| Résident français | 360 000 € (560 000 moins le prix d'achat) | **108 000 €** au prélèvement forfaitaire unique de 30 % |
+| Résident français | 360 000 € (560 000 moins le prix d'achat) | **113 040 €** au prélèvement forfaitaire unique de 31,4 % |
 
 L'écart vient moins du taux que de la base : la Belgique efface trente ans de plus-values latentes, la France les impose intégralement. Pour un patrimoine déjà constitué, c'est ce mécanisme de valeur de départ, et non le taux de 10 %, qui fait la différence.
 
@@ -747,11 +747,11 @@ Au-delà de 10 %, la cession relève du régime de la **participation importante
 
 | Situation | Impôt sur la plus-value |
 |---|---|
-| Résident français | **12 000 €** (prélèvement forfaitaire unique de 30 %) |
+| Résident français | **12 560 €** (prélèvement forfaitaire unique de 31,4 %) |
 | Résident luxembourgeois, titres détenus depuis plus de six mois | **0 €** |
 | Résident luxembourgeois, titres détenus depuis quatre mois | Barème progressif, jusqu'à 42 % majorés de la contribution au fonds pour l'emploi |
 
-Dans cet exemple, attendre le septième mois vaut 12 000 €. C'est la principale raison pour laquelle le pays figure dans un dossier patrimonial, bien avant l'assurance-vie.
+Dans cet exemple, attendre le septième mois vaut 12 560 €. C'est la principale raison pour laquelle le pays figure dans un dossier patrimonial, bien avant l'assurance-vie.
 
 **Les dividendes, en revanche, restent imposés.** Un dividende versé par une société luxembourgeoise pleinement imposable supporte une retenue à la source de **15 %**, puis entre dans le revenu imposable pour la **moitié** de son montant brut. La fiscalité mobilière favorable porte donc sur les plus-values, pas sur les revenus distribués.
 
@@ -841,7 +841,7 @@ articles **I16** et **I22**.
 
 ## I14 — Monaco
 
-**URL** : /blog/expatriation-monaco-fiscalite · **Vérifié le 23 septembre 2026**
+**URL** : /blog/expatriation-monaco-fiscalite · **Vérifié le 9 octobre 2026**
 **Meta** : Un Français installé à Monaco reste imposable en France : c'est l'article 7 de la convention de 1963. L'exception, et ce qui reste malgré tout.
 
 | | |
@@ -850,7 +850,7 @@ articles **I16** et **I22**.
 | Régime des Français | **Article 7-1 de la convention du 18 mai 1963** : imposition en France comme s'ils y résidaient |
 | L'exception | Justifier de **cinq ans de résidence habituelle** à Monaco au 13 octobre 1962, soit une installation avant le **13 octobre 1957** |
 | Droits de succession monégasques | **0 %** en ligne directe et entre époux, **8 %** entre frères et sœurs, **10 %** entre oncles, tantes, neveux et nièces, **13 %** entre autres collatéraux, **16 %** entre non-parents |
-| Assiette des droits monégasques | **Les seuls biens situés à Monaco.** La nationalité et la résidence du défunt sont sans effet |
+| Assiette des droits monégasques | **Les seuls biens situés à Monaco.** La nationalité et la résidence du défunt sont sans effet, sous réserve de la convention franco-monégasque du 1ᵉʳ avril 1950 |
 | Impôt sur la fortune | Aucun à Monaco |
 | Convention avec la France | Convention fiscale du 18 mai 1963 |
 
@@ -870,7 +870,7 @@ C'est l'idée reçue la plus répandue et la plus coûteuse : « je m'installe �
 
 Concrètement, cela vise toute personne installée après le **13 octobre 1957**, c'est-à-dire la quasi-totalité des candidats d'aujourd'hui. Pour eux, l'installation à Monaco ne produit **aucun effet** sur l'impôt sur le revenu français.
 
-Une exception étroite subsiste pour les fonctionnaires et agents des services publics monégasques installés entre le 13 octobre 1957 et le 13 octobre 1962, maintenue lors de leur retraite mais perdue s'ils quittent ces fonctions.
+Quelques cas étroits restent hors champ : les fonctionnaires et agents des services publics monégasques installés entre le 13 octobre 1957 et le 13 octobre 1962 (exception maintenue lors de leur retraite mais perdue s'ils quittent ces fonctions), les personnes relevant de la maison souveraine, les Français nés à Monaco et y ayant constamment résidé, les conjoints de Monégasques sous conditions et certains binationaux installés avant le 29 décembre 1995. Aucun n'ouvre de porte à qui s'installe aujourd'hui.
 
 **Un exemple chiffré.** Deux voisins d'un même immeuble monégasque, disposant chacun de 300 000 € de revenus de source française.
 
@@ -885,7 +885,7 @@ Le logement est le même, l'adresse est la même, le traitement fiscal n'a rien 
 
 **La transmission, et c'est le point réellement favorable.** Monaco n'applique aucun droit de succession en **ligne directe et entre époux**. Entre frères et sœurs, le taux est de 8 % ; entre oncles, tantes, neveux et nièces, 10 % ; entre autres collatéraux, 13 % ; entre personnes sans lien de parenté, 16 %.
 
-Deux règles d'assiette commandent tout le reste. Les droits monégasques ne frappent **que les biens situés dans la Principauté**. Et la nationalité comme la résidence du défunt sont **sans effet** : un appartement monégasque transmis en ligne directe ne supporte aucun droit, que son propriétaire ait vécu à Monaco ou ailleurs.
+Deux règles d'assiette commandent tout le reste. Les droits monégasques ne frappent **que les biens situés dans la Principauté**. Et la nationalité comme la résidence du défunt sont **sans effet** : un appartement monégasque transmis en ligne directe ne supporte aucun droit, que son propriétaire ait vécu à Monaco ou ailleurs. Cette règle joue sous réserve de la convention franco-monégasque du 1ᵉʳ avril 1950 sur les successions : un Français n'est tenu pour domicilié à Monaco au jour de son décès que s'il y résidait habituellement depuis cinq ans au moins. Les valeurs mobilières et les créances ne sont imposables que dans l'État du domicile du défunt. Cette convention ne couvre pas les donations.
 
 La contrepartie est symétrique : les biens restés en France relèvent du droit français et de son barème, jusqu'à 45 % en ligne directe. L'avantage monégasque porte donc sur ce qui est à Monaco, pas sur le patrimoine dans son ensemble.
 
@@ -907,7 +907,7 @@ Reprenons précisément, parce que c'est la seule chose qui compte pour un lecte
 
 La convention franco-monégasque du 18 mai 1963 prévoit que les personnes de nationalité française ayant transféré leur domicile à Monaco à compter d'une date de référence demeurent assujetties à l'impôt sur le revenu français **dans les mêmes conditions que si elles avaient leur domicile en France**.
 
-Il ne s'agit pas d'une imposition partielle, ni d'un mécanisme de crédit d'impôt. C'est une assimilation complète : pour l'impôt sur le revenu, vous êtes traité comme un résident français.
+Il ne s'agit pas d'une imposition partielle, ni d'un mécanisme de crédit d'impôt. C'est une assimilation complète : pour l'impôt sur le revenu, vous êtes traité comme un résident français. Elle ne vaut que pour cet impôt : les prélèvements sociaux ne sont pas dus sur ce seul fondement (BOI-INT-CVB-MCO-10, § 230).
 
 **L'exception** vise les personnes justifiant d'une résidence habituelle à Monaco depuis avant le 13 octobre 1957. Autant dire qu'elle ne concerne plus, aujourd'hui, qu'un nombre très restreint de situations, généralement héritées d'une installation familiale ancienne.
 
@@ -921,7 +921,7 @@ Trois éléments, qui ne sont pas négligeables mais qui ne relèvent pas de l'i
 
 **La transmission.** La fiscalité monégasque des successions est très favorable en ligne directe. Les règles de territorialité et les stipulations applicables doivent toutefois être examinées, en particulier pour les biens restés en France, qui suivent leur propre régime.
 
-**L'absence d'impôt monégasque sur la fortune.** Attention cependant : l'IFI français continue de s'appliquer selon les règles de territorialité qui lui sont propres, et vos biens immobiliers français y demeurent soumis au-delà du seuil.
+**L'absence d'impôt monégasque sur la fortune.** Attention cependant : si vous vous êtes installé à Monaco à compter du 1ᵉʳ janvier 1989, l'IFI français porte sur l'ensemble de vos biens imposables, en France et hors de France, Monaco compris, au-delà du seuil (article 7, paragraphe 3, de la convention ; BOI-INT-CVB-MCO-10, § 380).
 
 **Le cadre juridique, bancaire et sécuritaire**, qui constitue en pratique la première raison d'installation pour une large part des résidents, bien avant l'argument fiscal.
 
@@ -936,13 +936,13 @@ La résidence doit ensuite être **effective**, la carte étant renouvelable et 
 ### Questions fréquentes
 
 **Un Français installé à Monaco paie-t-il l'impôt en France ?**
-Oui, sur ses revenus, en application de la convention de 1963, et dans les mêmes conditions que s'il résidait en France. Seules les personnes justifiant d'une résidence monégasque habituelle antérieure au 13 octobre 1957 échappent à cette règle.
+Oui, sur ses revenus, en application de la convention de 1963, et dans les mêmes conditions que s'il résidait en France. Y échappent les personnes justifiant d'une résidence monégasque habituelle antérieure au 13 octobre 1957 et quelques cas étroits, dont aucun n'est ouvert à qui s'installe aujourd'hui.
 
 **Monaco présente-t-il un intérêt pour un Français ?**
 Sur l'impôt sur le revenu, non. Sur la transmission en ligne directe, sur l'absence d'impôt monégasque sur la fortune et sur le cadre de vie, oui. L'analyse doit donc porter sur le patrimoine et la succession, pas sur le revenu.
 
 **L'IFI s'applique-t-il à un résident monégasque ?**
-Vos biens immobiliers situés en France restent soumis aux règles françaises de territorialité de l'IFI au-delà du seuil. L'absence d'impôt monégasque sur la fortune ne fait pas disparaître l'imposition française sur les biens français.
+Oui, si vous êtes français et que vous vous êtes installé à Monaco à compter du 1ᵉʳ janvier 1989 : l'IFI porte sur l'ensemble de vos biens imposables, en France et hors de France, Monaco compris, au-delà du seuil (article 7, paragraphe 3, de la convention ; BOFiP). L'absence d'impôt monégasque sur la fortune ne fait pas disparaître l'imposition française.
 
 **Faut-il acheter un logement pour obtenir la résidence ?**
 La location est admise, à condition que le logement soit adapté à la composition du foyer. Compte tenu du niveau des loyers, cette condition constitue en pratique le principal filtre à l'entrée.
@@ -1114,7 +1114,7 @@ Un impôt minimum existe en dehors de tout programme : l'article 56(27) prévoit
 | | Base imposée | Impôt |
 |---|---|---|
 | Résident maltais, programme de résidence | 60 000 € rapatriés, à 15 % | **15 000 €**, le minimum du programme étant supérieur aux 9 000 € calculés |
-| Résident français | 150 000 € | **45 000 €** au prélèvement forfaitaire unique de 30 % |
+| Résident français | 150 000 € | **47 100 €** au prélèvement forfaitaire unique de 31,4 % |
 
 Les 90 000 € laissés à l'étranger ne sont pas imposés à Malte. Et une plus-value de cession, elle, ne l'est pas du tout, rapatriée ou non.
 
