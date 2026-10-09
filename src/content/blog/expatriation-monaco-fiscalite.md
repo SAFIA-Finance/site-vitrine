@@ -7,10 +7,10 @@ categorie: "Expatriation"
 date: 2026-09-16
 maj: 2026-10-09
 lecture: 6
-mots: 1272
+mots: 1267
 essentiel:
   - "Monaco n'impose les revenus d'**aucun** de ses résidents. Mais la convention de 1963 **exclut les Français** de ce bénéfice."
-  - "Un Français qui s'installe à Monaco reste imposable en France **sur l'ensemble de ses revenus**, comme s'il n'était jamais parti."
+  - "Un Français qui s'installe à Monaco reste imposable en France **sur l'ensemble de ses revenus**, comme s'il y résidait encore pour l'impôt sur le revenu."
   - "L'exception est historique et pratiquement fermée : il faut cinq ans de résidence habituelle à Monaco **au 13 octobre 1962**."
   - "Cette règle est **propre à la France**. Un Italien, un Britannique ou un Suédois installé à Monaco ne la subit pas."
   - "Ce qui reste pour un Français tient à la **transmission** : **0 %** de droits en ligne directe et entre époux, mais sur les seuls biens situés à Monaco."
@@ -68,7 +68,7 @@ Quelques cas étroits restent hors champ : les fonctionnaires et agents des serv
 | Résident italien, britannique ou suédois | **0 €** à Monaco |
 | Résident **français** installé après 1957 | **Le barème français**, comme s'il vivait à Paris |
 
-Le logement est le même, l'adresse est la même, le traitement fiscal n'a rien à voir. C'est la seule convention française qui retient ce critère de nationalité, et c'est très exactement ce pour quoi elle a été signée en 1963.
+Le logement est le même, l'adresse est la même, le traitement fiscal n'a rien à voir. Le critère est la nationalité, et c'est très exactement ce pour quoi la convention a été signée en 1963.
 
 ## Ce qui reste malgré tout
 

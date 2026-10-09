@@ -2,7 +2,7 @@
 
 Articles · Auteur : Maxime Bouché, CIF · Rédigés à partir du 9 octobre 2026
 
-**Pourquoi ce territoire.** Les fiches du territoire I décrivent un pays à la fois, et le territoire M détaille Saint-Barthélemy. Aucun article ne mettait plusieurs territoires face à face sur un même impôt. Ce territoire le fait pour dix d'entre eux : France, Saint-Barthélemy, Monaco, Italie, Chypre, Monténégro, Émirats arabes unis (Dubaï), Floride, Texas et New York. N1 donne la vue d'ensemble, N2 à N7 prennent un impôt ou une question à la fois, N8 et N9 comblent les deux fiches qui manquaient (Monténégro, États américains).
+**Pourquoi ce territoire.** Les fiches du territoire I décrivent un pays à la fois, et le territoire M détaille Saint-Barthélemy. Aucun article ne mettait plusieurs territoires face à face sur un même impôt. Ce territoire le fait pour dix d'entre eux : France, Saint-Barthélemy, Monaco, Italie, Chypre, Monténégro, Émirats arabes unis (Dubaï), Floride, Texas et New York. N1 donne la vue d'ensemble, N2 à N7 prennent un impôt ou une question à la fois, N8 et N9 comblent les deux fiches qui manquaient (Monténégro, États américains). À partir de N10, des duels mettent deux territoires face à face.
 
 **Sources de travail.** Cinq fiches de recherche établies le 9 octobre 2026, une par groupe de territoires, puis un référentiel qui les consolide : chaque chiffre y porte le texte qui le fonde, l'adresse de la source réellement ouverte et un statut (source officielle, article déjà publié, source secondaire, non vérifié). Chaque article a été relu par un relecteur indépendant, chiffre par chiffre, contre ce référentiel et contre les fiches.
 
@@ -1345,3 +1345,450 @@ Oui, tant que son statut n'a pas été abandonné par écrit ou retiré : il res
 ### Liens internes
 
 Page **Cockpit stratégique** · articles **N1**, **I26**, **N4** et **N7**.
+
+---
+
+## N10 — Saint-Barthélemy ou Monaco : la durée d'un côté, la nationalité de l'autre
+
+**URL** : /blog/saint-barthelemy-ou-monaco-fiscalite · **Mot-clé** : saint-barthélemy ou monaco fiscalité · **Page liée** : Cockpit stratégique
+**Title** : Saint-Barthélemy ou Monaco : fiscalité comparée en 2026
+**Meta** : Ni Saint-Barthélemy ni Monaco n'imposent le revenu. Un Français attend pourtant 5 ans sur l'île, et l'article 7 de la convention de 1963 le suit à Monaco.
+**Vérifié le 9 octobre 2026**
+
+### Le tableau de synthèse
+
+| | Saint-Barthélemy | Monaco |
+|---|---|---|
+| Impôt sur le revenu | Aucun impôt local | Aucun, sauf Français de l'article 7 |
+| Dividendes, plus-values mobilières | Aucun impôt local | Pas d'impôt sur le revenu ; rien d'exprès sur les plus-values |
+| Impôt sur la fortune, taxe foncière | Ni l'un ni l'autre ; **3 %** par an sur les immeubles des sociétés | Ni l'un ni l'autre |
+| Succession et donation | Succession exonérée d'impôt local ; donation d'immeuble de l'île à **25 %** en famille | Succession : **0 %** en ligne directe, **16 %** entre non-parents, sur les biens situés à Monaco ; aucun barème de donation trouvé |
+| Plus-value immobilière | **35 %** avant la huitième année de détention, **20 %** au-delà | Aucune règle officielle trouvée |
+| Droits à l'achat d'un bien | **5 %** du prix | **4,5 %** ou **7,5 %** |
+| Sociétés | Aucun impôt local sur les bénéfices ; **350 €** par an | **25 %**, selon le chiffre d'affaires hors Monaco |
+| TVA ou droit de quai | Pas de TVA ; droit de quai de **5 %** | TVA aux tarifs français, **20 %** |
+| Condition pour en bénéficier | **Cinq ans** de résidence, pour toute personne physique | Ne pas être un Français visé par l'article 7 |
+| Convention ou statut | Article LO 6214-4 du CGCT ; aucune convention internationale | Conventions du 18 mai 1963 et du 1er avril 1950 |
+
+### L'essentiel
+
+- Saint-Barthélemy et Monaco n'ont **aucun impôt sur le revenu** des personnes physiques, mais le Français qui s'y installe continue de payer l'impôt français.
+- À Saint-Barthélemy, la limite est une **durée** : **cinq ans** de résidence avant d'y avoir son domicile fiscal (article LO 6214-4 du CGCT), pour toute personne physique.
+- À Monaco, c'est une **nationalité** : l'**article 7** de la convention du 18 mai 1963 impose en France le Français qui s'y installe, sans limite de durée.
+- L'IFI français porte sur le patrimoine immobilier mondial pendant **cinq ans** à Saint-Barthélemy, et pour le Français installé à Monaco depuis le **1er janvier 1989**.
+- Saint-Barthélemy taxe la plus-value immobilière à **35 %** puis **20 %** ; Monaco perçoit **4,5 %** ou **7,5 %** de droits à l'achat.
+- Dans les deux cas, la France garde les revenus de source française, l'immobilier français et les droits de l'**article 750 ter**.
+
+### Le revenu : une même absence d'impôt, deux règles
+
+**Saint-Barthélemy.** Le Code des contributions ne prévoit pas d'impôt sur le revenu. Mais l'article LO 6214-4 du Code général des collectivités territoriales dispose : « Les personnes physiques ne peuvent être considérées comme ayant leur domicile fiscal à Saint-Barthélemy qu'après y avoir résidé pendant cinq ans au moins. » Jusque-là, réputées domiciliées en métropole, elles paient l'impôt français au barème sur leurs revenus mondiaux, y compris ceux tirés de l'île. Ensuite, le statut local ne couvre que les revenus des activités exercées sur l'île, ceux des biens qui y sont détenus et les revenus de remplacement (article 3 du code).
+
+**Monaco.** La Principauté ne prélève pas d'impôt sur le revenu des personnes physiques. Mais l'article 7 de la convention du 18 mai 1963 assujettit à l'impôt sur le revenu en France les personnes de nationalité française qui transportent à Monaco leur domicile ou leur résidence, « dans les mêmes conditions que si elles avaient leur domicile ou leur résidence en France ». Selon le BOFiP (BOI-INT-CVB-MCO-10, § 220), l'imposition porte sur l'ensemble des revenus, « de source française, étrangère ou monégasque ». Les prélèvements sociaux ne sont dus que si un critère de l'article 4 B du CGI est rempli (Conseil d'État, avis du 10 novembre 2004). Les dérogations, liées notamment à la naissance à Monaco ou à des installations anciennes, ne sont pas ouvertes à un départ décidé aujourd'hui.
+
+**L'écart.** La première règle vise toute personne physique et se franchit avec le temps ; la seconde ne vise que les Français et ne s'efface pas avec les années.
+
+**Dividendes et plus-values.** Aucun impôt local ne les frappe à Saint-Barthélemy ; pendant les cinq premières années, leur traitement en France se fait confirmer par un fiscaliste. À Monaco, le Français de l'article 7 est imposé en France comme un résident.
+
+### L'immobilier : un impôt de plus-value à Saint-Barthélemy
+
+**Saint-Barthélemy** taxe la plus-value de tout vendeur d'un bien situé sur l'île, domicilié ou non (article 100 du code) : 35 % avant la huitième année de détention, 20 % au-delà (article 101). Un abattement de 10 % par année au-delà de la huitième mène à l'exonération après dix-huit ans (article 103). La résidence principale n'est pas exonérée.
+
+À l'achat, le droit de mutation est de 5 % du prix (article 56), dû dès le premier jour, quel que soit le domicile fiscal. Les immeubles détenus par une société, un trust ou un groupement supportent une taxe annuelle de 3 % de leur valeur vénale, dont une déclaration annuelle exonère les entités établies en France, dans l'Union européenne ou dans un État conventionné (articles 110 à 112).
+
+**Monaco.** Selon le Gouvernement princier, les ventes immobilières supportent des droits d'enregistrement de 4,5 % quand l'acquéreur répond aux critères de transparence de la loi, de 7,5 % dans les autres cas. Sur la plus-value immobilière, les pages officielles consultées ne disent rien.
+
+### La fortune : l'IFI français reste dû
+
+Aucun des deux territoires n'a d'impôt local sur la fortune, mais l'IFI français, dû au-delà de 1 300 000 € de patrimoine immobilier net, reste en jeu.
+
+À Saint-Barthélemy, la personne installée depuis moins de cinq ans y reste soumise sur son patrimoine immobilier mondial, villa de l'île comprise. Ensuite, sa limitation aux biens situés en France est une lecture à faire confirmer.
+
+À Monaco, le Français installé depuis le 1er janvier 1989 y est assujetti comme s'il résidait en France (convention de 1963, article 7, paragraphe 3). Selon le BOFiP (§ 380), l'impôt porte sur l'ensemble de ses biens, « qu'ils soient situés en France ou à l'étranger, y compris à Monaco ».
+
+### La transmission : exonération locale, barème monégasque
+
+**Saint-Barthélemy.** L'article 89 du code exonère la succession de toute imposition locale. Seules sont taxées les donations d'immeubles de l'île, de droits immobiliers et de titres d'entités fiscalement immobilières (article 91) : 25 % en famille, après un abattement de 150 000 € en ligne directe, 40 % entre non-parents (articles 96 et 97), et 0 % en ligne directe et entre époux contre un engagement de conservation de dix ans. Pendant les cinq premières années de résidence, les droits français s'appliquent comme si la personne n'était pas partie.
+
+**Monaco.** Les droits portent sur les biens situés dans la Principauté, quels que soient le domicile, la résidence ou la nationalité du défunt ou du donateur. Le barème publié par le Gouvernement princier : 0 % en ligne directe et entre époux, 8 % entre frères et sœurs, 10 % ou 13 % pour les autres collatéraux, 16 % entre non-parents.
+
+Cette règle joue sous réserve de la convention franco-monégasque du 1er avril 1950, qui pose elle aussi une durée : un Français n'est tenu pour domicilié à Monaco à son décès que s'il y a « résidé habituellement en fait depuis 5 années au moins » (article 1er). Les immeubles sont imposés dans l'État où ils sont situés, les titres, parts et créances dans celui du domicile du défunt. Les donations ne sont pas couvertes.
+
+### Les sociétés : cinq ans là aussi, ou 25 %
+
+**Saint-Barthélemy** n'a pas d'impôt sur les bénéfices, seulement une contribution forfaitaire de 350 € par an, plus 100 € par salarié (article 9). La règle des cinq ans vaut aussi pour les sociétés : le domicile fiscal local suppose un siège de direction effective sur l'île depuis cinq années au moins au 1er janvier de l'année d'imposition, ou, avec ce siège, un contrôle par des personnes physiques qui y résident depuis cinq ans au moins. À défaut, la société est « soumise en métropole à l'impôt sur les sociétés dans les conditions de droit commun » (rescrit BOI-RES-IS-000158 du 23 octobre 2024), soit 25 % au taux normal.
+
+**Monaco** perçoit un impôt sur les bénéfices de 25 % pour les exercices ouverts à compter du 1er janvier 2022. L'article 2 de la convention de 1963 y soumet les entreprises dont le chiffre d'affaires provient, « à concurrence de 25 p. cent au moins », d'opérations faites hors de Monaco.
+
+### Ce que la France garde dans les deux cas
+
+- **Les revenus de source française.** Pour un non-résident, le taux minimum est de 20 % jusqu'à 29 579 € de revenu net imposable et de 30 % au-delà, pour les revenus de 2025 (article 197 A du CGI). Le Français de Monaco reste imposé sur tous ses revenus ; pour le résident de Saint-Barthélemy installé depuis plus de cinq ans, l'application de ces taux reste à faire confirmer.
+- **L'immobilier situé en France.** IFI au-delà de 1 300 000 €, plus-value du non-résident à 19 % d'impôt et 17,2 % de prélèvements sociaux (article 244 bis A). Ces règles sont celles des non-résidents : leur application au résident de Saint-Barthélemy installé depuis plus de cinq ans reste à faire confirmer, et le Français de Monaco relevant de l'article 7 est imposé comme un résident de France.
+- **La transmission.** L'article 750 ter du CGI maintient les droits français sur les biens situés en France et sur tout ce que reçoit un héritier domicilié en France au moins six des dix dernières années. Pour ces droits, Saint-Barthélemy est hors de France ; pour Monaco, la convention de 1950 répartit ensuite le droit d'imposer selon les biens.
+- **L'exit tax** (article 167 bis du CGI). Pour un Français qui part à Monaco, la notice 2074-ETD indique qu'il n'y a pas de transfert hors de France. Vers Saint-Barthélemy, elle précise que « le transfert de domicile n'intervient pas lors du transfert physique du foyer d'habitation vers ces COM mais au terme de la 5ème année de résidence dans ces COM. Ce délai est apprécié de date à date ». Seul l'impôt sur le revenu est alors dû (12,8 %, ou le barème sur option), sans prélèvements sociaux ; l'île figure dans la liste du sursis de paiement automatique publiée pour les transferts à compter du 1er janvier 2025.
+
+La date de bascule a donc deux lectures : au 1er janvier de l'année d'imposition pour le code local, de date à date pour la notice de l'exit tax.
+
+### Ce qu'aucune source officielle n'établit
+
+- **Plus-values à Monaco**, mobilières ou immobilières : aucune page officielle n'en traite expressément.
+- **Dépôt bancaire à Monaco** : la page officielle de la carte de séjour demande une attestation d'une banque monégasque, sans montant. Les 500 000 € cités par la presse (Monaco Tribune, janvier 2026) sont avancés sans texte à l'appui.
+- **Donations à Monaco** : ni barème distinct ni abattement n'ont été trouvés.
+- **Prélèvements sociaux à Saint-Barthélemy après cinq ans** : la notice les écarte pour l'exit tax ; leur sort sur les revenus du capital d'un résident de l'île reste à établir.
+
+Ces points se vérifient auprès d'un fiscaliste local.
+
+### Un exemple chiffré : le même revenu, deux installations
+
+Mathilde Rivière, personnage fictif, Française et célibataire, s'installe le 15 mars 2022 et tire d'une activité exercée sur place un revenu net imposable de 120 000 € par an. Seul le barème 2026, appliqué aux revenus de 2025, permet un calcul : cette année-là, sa quatrième, l'impôt français est le même dans les deux territoires.
+
+| Tranche du barème 2026, une part | Fraction taxée | Impôt |
+|---|---|---|
+| Jusqu'à 11 600 € | 11 600 € à 0 % | 0 € |
+| De 11 601 € à 29 579 € | 17 979 € à 11 % | 1 977,69 € |
+| De 29 580 € à 84 577 € | 54 998 € à 30 % | 16 499,40 € |
+| De 84 578 € à 120 000 € | 35 423 € à 41 % | 14 523,43 € |
+| **Impôt français sur les revenus de 2025** | **120 000 €** | **33 000,52 €** |
+
+| Revenus de l'année | Installée à Saint-Barthélemy | Installée à Monaco |
+|---|---|---|
+| 2022 à 2026 | Impôt français dû : domicile fiscal en métropole | Impôt français dû : article 7 |
+| 2027 | Dû selon le code local, qui apprécie les cinq années au 1er janvier : elles ne sont atteintes que le 15 mars | Dû |
+| 2028 et suivantes | Plus d'impôt français sur ce revenu d'activité locale ; aucun impôt local sur le revenu | Dû, sans limite de durée |
+
+Le calcul part d'un revenu net imposable et laisse de côté les cotisations et prélèvements sociaux, les barèmes des autres années et tout revenu de source française, imposable en France dans les deux cas. Pour l'exit tax, la notice compte de date à date : le 15 mars 2027.
+
+### Questions fréquentes
+
+**Saint-Barthélemy ou Monaco : où un Français cesse-t-il de payer l'impôt sur le revenu français ?**
+À Saint-Barthélemy, après cinq ans de résidence au moins (article LO 6214-4 du CGCT), pour ses revenus de source locale. À Monaco, l'article 7 de la convention du 18 mai 1963 maintient l'impôt français sur l'ensemble des revenus, sans limite de durée. Dans les deux cas, les revenus de source française restent imposables en France.
+
+**Combien de temps faut-il résider à Saint-Barthélemy pour y avoir son domicile fiscal ?**
+Cinq ans au moins (article LO 6214-4 du CGCT). Le code local apprécie ce délai au 1er janvier de l'année d'imposition, la notice de l'exit tax de date à date : les deux lectures coexistent.
+
+**Un Français installé à Monaco paie-t-il l'IFI ?**
+Oui, s'il s'y est installé depuis le 1er janvier 1989 (convention du 18 mai 1963, article 7). Selon le BOFiP (BOI-INT-CVB-MCO-10, § 380), l'impôt porte sur ses biens situés en France et hors de France, Monaco compris. Installé avant cette date, il n'est imposable que sur ses biens situés en France (§ 390).
+
+**Quel impôt sur la plus-value immobilière à Saint-Barthélemy et à Monaco ?**
+À Saint-Barthélemy, 35 % avant la huitième année de détention et 20 % au-delà, pour tout vendeur (articles 100 et 101 du Code des contributions). Pour Monaco, aucune règle officielle n'a été trouvée.
+
+**Les droits de succession sont-ils dus à Saint-Barthélemy et à Monaco ?**
+Saint-Barthélemy exonère la succession de toute imposition locale (article 89 du Code des contributions), et Monaco applique 0 % en ligne directe sur les biens situés dans la Principauté. L'article 750 ter du CGI maintient toutefois les droits français sur les biens situés en France et sur ce que reçoit un héritier domicilié en France au moins six des dix dernières années, sous réserve, pour Monaco, de la convention de 1950. Pendant les cinq premières années de résidence à Saint-Barthélemy, les droits français s'appliquent comme si la personne n'était pas partie.
+
+**L'exit tax s'applique-t-elle en partant à Saint-Barthélemy ou à Monaco ?**
+Pour un Français qui part à Monaco, la notice 2074-ETD ne voit pas de transfert hors de France. Vers Saint-Barthélemy, le transfert intervient au terme de la cinquième année de résidence, de date à date : seul l'impôt sur le revenu de 12,8 % est dû, et l'île figure dans la liste du sursis de paiement automatique publiée pour les transferts à compter du 1er janvier 2025.
+
+### Sources
+
+[Code général des collectivités territoriales, article LO 6214-4](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000031492089) · Code des contributions de Saint-Barthélemy, articles 3, 9, 13, 56, 89, 91, 96, 97, 100, 101, 103 et 110 à 112, et [annexe à la délibération n° 2024-038 CT du 26 septembre 2024](https://actes.eservices-comstbarth.fr/PJ/Deliberation%20CT/Deliberation%20CT_2024/2024_038ct_annexe.pdf) · [BOFiP, rescrit BOI-RES-IS-000158 du 23 octobre 2024](https://bofip.impots.gouv.fr/bofip/14338-PGP.html/identifiant=BOI-RES-IS-000158-20241023) · [BOFiP, BOI-TVA-CHAMP-20-10](https://bofip.impots.gouv.fr/bofip/1340-PGP.html/identifiant=BOI-TVA-CHAMP-20-10-20230118) · [Convention fiscale franco-monégasque du 18 mai 1963](https://www.impots.gouv.fr/sites/default/files/media/10_conventions/monaco/monaco_convention-avec-monaco_fd_1967.pdf), articles 2, 7 et 15 · [BOFiP, BOI-INT-CVB-MCO-10](https://bofip.impots.gouv.fr/bofip/12995-PGP.html/identifiant=BOI-INT-CVB-MCO-10-20210602), § 220, 230, 380 et 390 · [Convention franco-monégasque du 1er avril 1950 sur les successions](https://www.impots.gouv.fr/sites/default/files/media/10_conventions/monaco/monaco_convention-avec-monaco-successions_fd_1968.pdf) · Gouvernement princier : [« La fiscalité monégasque »](https://monservicepublic.gouv.mc/thematiques/fiscalite/informations-sur-la-fiscalite/informations-generales/la-fiscalite-monegasque), [« Droits de succession »](https://monservicepublic.gouv.mc/thematiques/fiscalite/informations-sur-la-fiscalite/informations-generales/droits-de-succession), [« Droits d'enregistrement »](https://monservicepublic.gouv.mc/thematiques/fiscalite/informations-sur-la-fiscalite/informations-generales/droits-d-enregistrement), [« Impôt sur les bénéfices »](https://monentreprise.gouv.mc/thematiques/obligations-legales-et-fiscalite/fiscalite/autres-impots-et-taxes/impot-sur-les-benefices) et [« Demander une carte de séjour »](https://monservicepublic.gouv.mc/thematiques/nationalite-et-residence/residence/nouveaux-arrivants/demander-une-carte-de-sejour) · [Monaco Tribune, janvier 2026](https://www.monaco-tribune.com/2026/01/sinstaller-a-monaco-logement-finances-et-casier-judiciaire-parmi-les-criteres-dacces/) · [DGFiP, notice n° 2074-ETD-NOT](https://www.impots.gouv.fr/sites/default/files/formulaires/2074-etd/2026/2074-etd_5518.pdf) · Code général des impôts, articles 4 B, 167 bis, 197, 197 A, 244 bis A, 964 et [750 ter](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000024453202) · [Service-public, barème de l'impôt sur le revenu](https://www.service-public.gouv.fr/particuliers/vosdroits/F1419) · [impots.gouv.fr, non-résidents, modalités de calcul](https://www.impots.gouv.fr/international-particulier/modalites-de-calcul)
+
+### Liens internes
+
+Page **Cockpit stratégique** · articles **N1**, **N7**, **I14** et **M2**.
+
+---
+
+## N11 — Dubaï ou Chypre : deux fiscalités, et ce que la France garde
+
+**URL** : /blog/dubai-ou-chypre-fiscalite · **Mot-clé** : dubaï ou chypre fiscalité · **Page liée** : Cockpit stratégique
+**Title** : Dubaï ou Chypre : la fiscalité comparée pour un Français
+**Meta** : Aucun impôt sur le revenu à Dubaï, 35 % à Chypre, 0 % sur les dividendes du non-domicilié plus 2,65 %. Et l'exit tax, sans sursis automatique vers Dubaï.
+**Vérifié le 9 octobre 2026**
+
+### Le tableau de synthèse
+
+| Sujet | Dubaï (Émirats arabes unis) | Chypre |
+|---|---|---|
+| Impôt sur le revenu | **Aucun** | Barème jusqu'à **35 %**, à partir de 72 001 € |
+| Dividendes | Aucun impôt | Domicilié : **5 %** (bénéfices de 2026 et après) ; non-domicilié : 0 % |
+| Intérêts | Aucun impôt | Domicilié : **17 %** ; non-domicilié : 0 % |
+| Plus-values sur titres | Aucun impôt | Exonérées, sauf exception immobilière |
+| Contribution santé | Aucune cotisation pour un salarié étranger, selon PwC | **2,65 %** (GESY), même pour un non-domicilié |
+| Fortune | Aucun impôt, selon PwC | Aucun impôt relevé |
+| Succession | Aucun droit, selon PwC | Aucun droit depuis 2000 |
+| Impôt sur les sociétés | **9 %** au-delà de 375 000 AED de bénéfice | **15 %** depuis 2026 |
+| TVA | **5 %** | **19 %** |
+| Condition de résidence | **183 jours**, ou **90 jours** sous conditions | Plus de **183 jours**, ou **60 jours** sous conditions |
+| Régime des nouveaux résidents | Sans objet | Non-domicilié, **17 ans sur 20** ; hauts salaires exonérés à **50 %** |
+| Convention avec la France | 19 juillet 1989 | 18 décembre 1981 ; celle de 2023 n'est pas en vigueur |
+| Exit tax au départ | Pas de sursis automatique | Sursis automatique |
+
+### L'essentiel
+
+- Les Émirats arabes unis ne lèvent **aucun impôt sur le revenu** des personnes physiques ; le barème chypriote atteint **35 %**.
+- À Chypre, le non-domicilié ne paie pas la contribution spéciale à la défense sur ses dividendes et intérêts, mais doit la contribution santé de **2,65 %**.
+- Les sociétés paient **9 %** au-delà de 375 000 AED de bénéfice aux Émirats, **15 %** à Chypre depuis 2026.
+- L'exit tax, **31,4 %** pour un départ en 2026, bénéficie du sursis de paiement automatique vers Chypre, pas vers les Émirats.
+- La convention franco-émirienne laisse à la France la plus-value sur une participation de **plus de 25 %** ; dans les deux cas, la France garde l'immobilier français et, sous réserve des conventions, les droits de succession de l'article 750 ter.
+
+### Aucun impôt sur le revenu à Dubaï, un barème à Chypre
+
+Le portail fédéral des Émirats est net : « The UAE does not levy income tax on individuals ». Selon PwC, seuls les nationaux des Émirats et du Golfe y paient des cotisations sociales.
+
+Chypre applique aux revenus de 2026 le barème de la loi N.244(I)/2025 : 0 % jusqu'à 22 000 €, 20 % jusqu'à 32 000 €, 25 % jusqu'à 42 000 €, 30 % jusqu'à 72 000 €, 35 % à partir de 72 001 €. S'ajoute la contribution santé (GESY) : 2,65 % sur les salaires, 4 % pour les indépendants, jusqu'à 180 000 € de revenus par an.
+
+Les hauts salaires ont leur exonération (article 8(23A)) : la moitié de la rémunération d'un premier emploi exercé à Chypre échappe à l'impôt jusqu'à dix-sept années fiscales, si elle dépasse 55 000 € par an, si l'emploi a débuté le 1er janvier 2022 ou après et si la personne n'a pas résidé à Chypre pendant les quinze années consécutives précédentes.
+
+### Dividendes et intérêts : le statut de non-domicilié fait l'écart
+
+Aux Émirats, dividendes, intérêts et plus-values sur titres perçus à titre privé ne sont pas imposés.
+
+À Chypre, dividendes et intérêts relèvent de la contribution spéciale à la défense (SDC), qui ne frappe que les résidents domiciliés. Depuis la réforme du 1er janvier 2026, le domicilié paie 5 % sur les dividendes tirés de bénéfices de 2026 et après, 17 % jusqu'au 31 décembre 2031 sur ceux qu'une société chypriote tire de bénéfices antérieurs, et 17 % sur les intérêts. Le non-domicilié est à 0 %.
+
+Est réputée domiciliée la personne résidente fiscale de Chypre au moins 17 des 20 années précédentes : un nouvel arrivant échappe donc à la SDC. Depuis 2026, le statut se prolonge deux fois cinq ans, contre 250 000 € par période, pour qui n'a pas de domicile d'origine à Chypre.
+
+La GESY de 2,65 % reste due, même par un non-domicilié, jusqu'à 180 000 € de revenus par an. L'exonération des dividendes à l'impôt sur le revenu est rapportée par PwC ; celle des intérêts figure dans la loi.
+
+Les plus-values sur titres sont exonérées à Chypre, sauf actions de sociétés détenant de l'immobilier chypriote.
+
+### Activité et sociétés : 9 % aux Émirats, 15 % à Chypre
+
+Aux Émirats, l'impôt sur les sociétés (décret-loi fédéral n° 47 de 2022) est de 0 % jusqu'à 375 000 AED de bénéfice imposable, de 9 % au-delà. Il atteint aussi la personne physique dont l'activité commerciale ou professionnelle dépasse 1 000 000 AED de chiffre d'affaires par année civile ; salaires, placements personnels et investissement immobilier privé n'entrent pas dans ce seuil.
+
+En zone franche, une « Qualifying Free Zone Person » est imposée à 0 % sur ses revenus qualifiants et à 9 % sur le reste, sous conditions, de substance notamment.
+
+À Chypre, l'impôt sur les bénéfices est passé de 12,5 % à 15 % au 1er janvier 2026.
+
+### TVA et loyer : les prélèvements du quotidien
+
+Aux Émirats, la TVA est de 5 %, sans taux réduit. À Dubaï, le locataire paie à la municipalité 5 % de son loyer annuel ; la règle du propriétaire occupant reste à vérifier.
+
+À Chypre, le taux normal de TVA est de 19 %, avec des taux réduits de 9 %, 5 % et 3 %. La taxe immobilière annuelle est supprimée depuis le 1er janvier 2017 ; les taxes communales restent à vérifier.
+
+### Combien de jours passer sur place
+
+Aux Émirats, la décision du Cabinet n° 85 de 2022 tient pour résidente la personne qui y a sa résidence habituelle et le centre de ses intérêts, ou y a été présente 183 jours ou plus sur douze mois, ou 90 jours ou plus avec un permis de résidence valide et un logement permanent, un emploi ou une activité. Un visa n'est donc pas une résidence fiscale ; le Golden Visa immobilier (bien d'au moins 2 000 000 AED) dure 10 ans selon les autorités de Dubaï, 5 ans selon le portail fédéral : sa durée n'est pas établie.
+
+À Chypre, est résident celui qui séjourne plus de 183 jours dans l'année, ou 60 jours au moins s'il ne réside pas plus de 183 jours dans un autre pays, exerce à Chypre une activité, un emploi ou un mandat et y dispose d'une résidence permanente. Depuis 2026, cette règle joue même pour le résident fiscal d'un autre État : un Français peut l'être des deux pays, et la convention départage.
+
+Côté français, aucun seuil de jours ne suffit : en droit interne, un seul des trois critères de l'article 4 B du CGI maintient le domicile fiscal.
+
+### Deux conventions, deux répartitions
+
+**Avec les Émirats**, la convention du 19 juillet 1989 comporte deux clauses à connaître. L'article 19 laisse imposable en France, « nonobstant toute autre disposition », le résident des Émirats resté fiscalement domicilié en France au sens du droit français. L'article 11 laisse à la France la plus-value de cession des titres d'une société française quand le cédant a droit, directement ou indirectement, à plus de 25 % de ses bénéfices. À l'inverse, l'article 8 écarte toute retenue française sur les dividendes versés à un résident des Émirats.
+
+**Avec Chypre**, la convention du 18 décembre 1981 s'applique encore : celle du 11 décembre 2023, dont le Sénat a voté l'approbation le 19 février 2026, n'était pas en vigueur au 9 octobre 2026. Le texte de 1981 plafonne à 15 % la retenue française sur les dividendes, dont le taux interne est de 12,8 %, et réserve les plus-values de titres à l'État de résidence, sans clause de participation substantielle ; l'effet de la convention multilatérale sur ce point reste à vérifier.
+
+### L'exit tax, avec ou sans sursis automatique
+
+L'article 167 bis du CGI vise le contribuable domicilié en France au moins six des dix années précédant son départ, dont les titres excèdent 800 000 € ou donnent droit à 50 % au moins des bénéfices d'une société. Pour un départ en 2026, la plus-value latente supporte 12,8 % d'impôt et 18,6 % de prélèvements sociaux, soit 31,4 %.
+
+Le calcul est le même vers les deux destinations ; le paiement diffère. Vers Chypre, État membre de l'Union européenne, le sursis de paiement est automatique. Vers les Émirats, absents de la liste de la notice 2074-ETD publiée pour les transferts à compter du 1er janvier 2025, il se demande dans les 90 jours précédant le départ, avec un représentant fiscal établi en France et des garanties. Le dégrèvement intervient après deux ans sous 2 570 000 € de titres, cinq ans au-delà.
+
+### Revenus français, immobilier et prélèvements sociaux
+
+Les deux conventions laissent à la France les loyers et les plus-values des immeubles français : barème avec un taux minimum de 20 %, puis 30 %, pour les loyers ; prélèvement de 19 % sur la plus-value ; prélèvements sociaux de 17,2 % dans les deux cas.
+
+La personne affiliée à un régime de sécurité sociale de l'Espace économique européen est toutefois exonérée de CSG et de CRDS sur ses loyers français, et ne doit que le prélèvement de solidarité de 7,5 %. L'affiliation à Chypre ou aux Émirats, comme la couverture sociale, reste à vérifier avant le départ.
+
+L'IFI reste dû au-delà de 1 300 000 € d'immobilier français net. L'article 16 A de la convention franco-émirienne vise l'ancien impôt de solidarité sur la fortune : sa transposition à l'IFI reste à vérifier.
+
+### Transmettre : ce que l'article 750 ter maintient
+
+Chypre a abrogé ses droits de succession depuis le 1er janvier 2000, indique le Tax Department. Aux Émirats, il n'existe ni droits de succession ni impôt sur la fortune selon PwC, sans page officielle à l'appui.
+
+L'article 750 ter du CGI maintient pourtant les droits français dans trois cas : le défunt domicilié en France, pour tous ses biens ; les biens situés en France ; l'héritier domicilié en France au jour de la transmission et au moins six des dix années précédentes, pour tout ce qu'il reçoit. En droit interne, partir ne règle que le premier cas.
+
+L'article 17 de la convention franco-émirienne attribue les immeubles à l'État où ils sont situés, les meubles et les titres à l'État de résidence du défunt ; son articulation avec l'article 750 ter quand l'héritier vit en France reste à vérifier, comme l'existence d'une convention successorale avec Chypre.
+
+Quant à la dévolution, le décret-loi fédéral émirien n° 41 de 2022 laisse aux résidents non musulmans le choix de la loi de leur pays d'origine ; les règles applicables sans testament restent à vérifier, comme la réserve héréditaire à Chypre.
+
+### Un exemple chiffré : 100 000 € de dividendes étrangers
+
+Inès Carpentier, personnage fictif, a quitté la France depuis longtemps et reçoit 100 000 € de dividendes d'une société étrangère, tirés de bénéfices de 2026, selon trois hypothèses de résidence.
+
+| | Émirats arabes unis | Chypre, non-domiciliée | Chypre, domiciliée |
+|---|---|---|---|
+| Dividendes reçus | 100 000 € | 100 000 € | 100 000 € |
+| Impôt sur le revenu | Aucun | Exonérés, selon PwC | Exonérés, selon PwC |
+| Contribution spéciale à la défense | Sans objet | 0 % | 5 %, soit 5 000 € |
+| Contribution santé (GESY) | Sans objet | 2,65 %, soit 2 650 € | 2,65 %, soit 2 650 € |
+| **Prélèvements locaux** | **0 €** | **2 650 €** | **7 650 €** |
+
+Le calcul suppose le plafond de la GESY non atteint. Il laisse de côté la retenue à la source du pays de la société (si elle est française : 12,8 %, soit 12 800 €, pour la résidente de Chypre, sans chiffrer l'élimination de la double imposition ; rien pour celle des Émirats), le taux de 17 % sur les bénéfices anciens des sociétés chypriotes, et l'exit tax due au départ de France.
+
+### Questions fréquentes
+
+**Y a-t-il un impôt sur le revenu à Dubaï et à Chypre ?**
+Les Émirats arabes unis n'en lèvent aucun sur les personnes physiques. Chypre applique un barème de 0 % jusqu'à 22 000 € à 35 % à partir de 72 001 € (loi N.244(I)/2025).
+
+**Comment sont imposés les dividendes à Chypre et à Dubaï ?**
+Aux Émirats, ils ne sont pas imposés. À Chypre, le non-domicilié doit la contribution santé de 2,65 %, les dividendes étant exonérés d'impôt sur le revenu selon PwC ; le domicilié y ajoute 5 % de contribution spéciale à la défense sur les dividendes tirés de bénéfices de 2026 et après.
+
+**Combien de temps dure le statut de non-domicilié à Chypre ?**
+Jusqu'à ce que la personne ait été résidente fiscale de Chypre 17 des 20 années précédentes. Depuis 2026, deux prolongations de cinq ans s'obtiennent contre 250 000 € chacune.
+
+**Combien de jours passer à Dubaï ou à Chypre pour y être résident fiscal ?**
+Aux Émirats, 183 jours ou plus sur douze mois, ou 90 jours ou plus sous conditions. À Chypre, plus de 183 jours dans l'année, ou 60 jours sous conditions. Aucun de ces seuils ne rompt à lui seul la résidence française.
+
+**L'exit tax s'applique-t-elle à un départ vers Dubaï ou vers Chypre ?**
+Oui, aux conditions de l'article 167 bis du CGI : 31,4 % en 2026 sur les plus-values latentes de titres dont la valeur excède 800 000 €. Le sursis de paiement est automatique vers Chypre ; vers les Émirats, il se demande, avec représentant fiscal et garanties.
+
+**Y a-t-il des droits de succession à Dubaï et à Chypre ?**
+Chypre n'en prélève plus depuis le 1er janvier 2000 ; aux Émirats, PwC n'en relève aucun, sans confirmation officielle. En droit interne, l'article 750 ter du CGI maintient les droits français sur les biens situés en France et sur ce que reçoit un héritier domicilié en France six des dix années précédentes ; l'effet de l'article 17 de la convention franco-émirienne reste à vérifier.
+
+### Sources
+
+Code général des impôts, articles 4 B, 119 bis, 167 bis, 187, 197 A, 244 bis A et 750 ter · [Notice 2074-ETD](https://www.impots.gouv.fr/sites/default/files/formulaires/2074-etd/2026/2074-etd_5518.pdf) · [Convention France-Émirats du 19 juillet 1989](https://www.impots.gouv.fr/sites/default/files/media/10_conventions/emirats_arabes_unis/emirats-arabes-unis_convention-avec-les-emirats-arabes-unis_fd_2138.pdf) · [Convention France-Chypre du 18 décembre 1981](https://www.impots.gouv.fr/sites/default/files/media/10_conventions/chypre/chypre_convention-avec-chypre_fd_1818.pdf) · [Conventions fiscales de la France](https://www.impots.gouv.fr/les-conventions-internationales) · Chypre, Tax Department : [« Tax Residency/Domicility »](https://www.gov.cy/mof-tax/en/documents/tax-residency-domicility/), [contribution spéciale à la défense](https://www.gov.cy/mof-tax/documents/ektakti-amyntiki-eisfora-eae/), [GESY](https://www.gov.cy/mof-tax/documents/geniko-systima-ygeias-gesy/), [successions](https://www.gov.cy/mof-tax/documents/diacheirisi-apoviosanton/) et [présentation de la loi N.244(I)/2025](https://www.gov.cy/media/sites/167/2026/03/2026-ΦορΜεταρρύθμιση-Φόρος-Εισοδήματος.pdf) · [Union européenne, taux de TVA](https://europa.eu/youreurope/business/finance-and-tax/vat/vat-rules-rates/index_en.htm) · [Émirats, portail fédéral, « Taxation »](https://u.ae/en/information-and-services/finance-and-investment/taxation) · [Federal Tax Authority, « Taxation of Natural Persons »](https://tax.gov.ae/Datafolder/Files/Guides/CT/Taxation%20of%20natural%20persons%20-%2025%2011%202023.pdf) · [Décision du Cabinet n° 85 de 2022](https://tax.gov.ae/Datafolder/Files/Legislation/Corporate%20Tax/Cabinet%20Decision%2085%20of%202022%20-%20For%20publishing.pdf) · PwC : [Émirats, autres impôts des particuliers](https://taxsummaries.pwc.com/united-arab-emirates/individual/other-taxes) et [Chypre, détermination du revenu](https://taxsummaries.pwc.com/cyprus/individual/income-determination)
+
+### Liens internes
+
+Page **Cockpit stratégique** · articles **N1**, **N3**, **I17** et **I20**.
+
+---
+
+## N12 — Miami ou New York : même impôt fédéral, deux fiscalités locales
+
+**URL** : /blog/miami-ou-new-york-fiscalite · **Mot-clé** : miami ou new york fiscalité · **Page liée** : Cockpit stratégique
+**Title** : Miami ou New York : la fiscalité comparée en 2026
+**Meta** : Même impôt fédéral, de 10 % à 37 %. New York ajoute 3,90 % à 10,9 % pour l'État et jusqu'à 3,876 % pour la ville. La Floride n'ajoute rien sur le revenu.
+**Vérifié le 9 octobre 2026**
+
+### Le tableau de synthèse
+
+| | Miami (Floride) | New York (État et ville) |
+|---|---|---|
+| Impôt fédéral sur le revenu | **10 % à 37 %** | **10 % à 37 %**, identique |
+| Impôt d'État sur le revenu | Aucun | **3,90 % à 10,9 %** |
+| Impôt de la ville sur le revenu | Aucun, par déduction du texte constitutionnel | **3,078 % à 3,876 %** |
+| Plus-values à long terme | Fédéral seul : **20 %** au plus, plus 3,8 % | Fédéral, plus les deux barèmes locaux, sans taux réduit |
+| Succession | Fédéral seul : **40 %** au plus | Fédéral, plus **3,06 % à 16 %** pour l'État |
+| Impôt sur les sociétés | Fédéral **21 %**, puis **5,5 %** | Fédéral **21 %**, puis **6,5 %** (État) et **8,85 %** (ville) |
+| Taxe sur les ventes | **6 %**, plus 1 % dans le comté de Miami-Dade | **8,875 %** au total |
+| Taxe foncière | Locale ; 0,81 % dans le comté de Miami-Dade | Locale ; 0,71 % à Manhattan, borne basse |
+| Règle de résidence | Aucun test d'État pour l'impôt sur le revenu | Domicile, ou logement permanent et **plus de 183 jours** |
+
+Règles de 2026. Les taux fonciers sont des moyennes de la Tax Foundation (données 2024), source secondaire.
+
+### L'essentiel
+
+- L'**impôt fédéral** ne change pas d'une ville à l'autre : **10 % à 37 %** sur le revenu en 2026, **20 %** au plus sur les plus-values à long terme, plus **3,8 %**.
+- **New York** y ajoute un impôt d'État de **3,90 % à 10,9 %** et, pour les résidents de la ville, un impôt municipal de **3,078 % à 3,876 %**, plus-values comprises.
+- La **Floride** n'ajoute ni impôt sur le revenu ni droits de succession : l'article VII, section 5 de sa Constitution l'exclut. On y paie **6 %** sur les ventes, plus **1 %** à Miami, une taxe foncière locale et **5,5 %** sur les bénéfices des sociétés.
+- L'État de New York prélève des **droits de succession de 3,06 % à 16 %**, après un abattement de **7 350 000 $** en 2026 qui disparaît par un effet de falaise.
+- Garder un logement permanent à New York et y passer **plus de 183 jours** dans l'année suffit à en rester résident, quelle que soit l'adresse en Floride.
+- Revenu mondial, carte verte, déclarations et conventions franco-américaines ne dépendent pas de la ville.
+
+### Le même impôt fédéral dans les deux villes
+
+Le barème fédéral de 2026 compte sept taux, de 10 % à 37 % (Revenue Procedure 2025-32). Pour un célibataire, 12 % s'appliquent au-delà de 12 400 $ de revenu imposable, 22 % au-delà de 50 400 $, 24 % au-delà de 105 700 $ et 37 % au-delà de 640 600 $.
+
+Les plus-values à long terme, sur des titres détenus plus d'un an, sont imposées à 0 %, 15 % ou 20 %, ce dernier taux au-delà de 545 500 $ de revenu imposable pour un célibataire. La Net Investment Income Tax de 3,8 % s'y ajoute quand son revenu dépasse 200 000 $.
+
+Au décès, les droits fédéraux vont jusqu'à 40 %, une fois dépassé l'abattement de 15 000 000 $ par personne prévu pour 2026. Les sociétés paient un impôt fédéral de 21 % sur leur bénéfice imposable.
+
+### Ce que New York ajoute sur le revenu
+
+**Le barème de l'État.** Neuf taux pour un célibataire : 3,90 % dès le premier dollar, 4,40 % au-delà de 8 500 $, 5,15 % au-delà de 11 700 $, 5,40 % au-delà de 13 900 $, 5,90 % au-delà de 80 650 $, 6,85 % au-delà de 215 400 $, 9,65 % au-delà de 1 077 550 $, 10,3 % au-delà de 5 000 000 $ et 10,9 % au-delà de 25 000 000 $. Ces chiffres viennent des instructions d'acomptes de 2026 (formulaire IT-2105) : les tables annuelles de 2026 n'étaient pas publiées au 9 octobre 2026. Une baisse de 0,2 point au total est étalée sur 2026 et 2027 pour les revenus jusqu'à 215 400 $.
+
+**L'impôt de la ville.** Il ne vise que les résidents de la ville de New York. Quatre taux pour un célibataire, tirés des mêmes instructions : 3,078 % dès le premier dollar, 3,762 % au-delà de 12 000 $, 3,819 % au-delà de 25 000 $ et 3,876 % au-delà de 50 000 $.
+
+**Les plus-values.** La section 612 de la Tax Law définit le revenu brut ajusté de l'État comme le revenu brut ajusté fédéral, corrigé par une série de modifications ; aucune de celles relevées ne retranche les plus-values à long terme ni les dividendes qualifiés. Ils passent donc aux deux barèmes, sans taux réduit.
+
+**L'indépendant.** La ville prélève en outre une unincorporated business tax de 4 % du revenu imposable affecté à la ville, sur les activités exercées par une personne, une société de personnes ou une LLC. La Floride n'a pas d'équivalent.
+
+### Des droits de succession d'État, avec un effet de falaise
+
+Les droits de succession de l'État de New York s'ajoutent aux droits fédéraux. Leur barème va de 3,06 % à 16 %, ce dernier taux au-delà de 10 100 000 $ de succession taxable (Tax Law, section 952). L'abattement est de 7 350 000 $ pour les décès de 2026.
+
+Le crédit qui neutralise l'impôt sous l'abattement se réduit entre 100 % et 105 % de l'abattement, puis disparaît : au-delà, l'impôt porte sur la totalité de la succession. Les instructions du formulaire ET-706 donnent les bornes de 2025, 7 160 000 $ et 7 518 000 $. Celles de 2026 n'étaient pas en ligne au 9 octobre 2026 : la même règle appliquée à l'abattement de 2026 donnerait 7 717 500 $ (7 350 000 $ × 1,05), résultat d'un calcul et non chiffre officiel.
+
+### Ce que la Floride n'ajoute pas, et pourquoi
+
+L'absence d'impôt sur le revenu tient à la Constitution de Floride. Son article VII, section 5(a) interdit de lever, « by the state, or under its authority », un impôt sur les successions ou sur le revenu des personnes physiques résidentes ou citoyennes de l'État qui dépasserait ce qui peut s'imputer sur un impôt de même nature levé par les États-Unis ou par un État. L'interdiction est indirecte ; en pratique, l'impôt est nul.
+
+Elle vaut pour les salaires, les dividendes, les intérêts et les plus-values d'une personne physique, comme pour les successions et les donations.
+
+Aucun texte propre à la ville de Miami n'a été relevé : l'absence d'impôt municipal sur le revenu se déduit des mots « under its authority ».
+
+### Ce que la Floride prélève autrement
+
+**La taxe foncière.** Elle est entièrement locale, la Constitution interdisant à l'État d'en lever une (article VII, section 1). La résidence principale, où le propriétaire doit avoir sa résidence permanente, est exonérée de 25 000 $ de valeur pour toutes les taxes, puis, hors taxes scolaires, de 26 411 $ en 2026 sur la valeur au-delà de 50 000 $. Sa valeur imposable ne peut augmenter de plus de 3 % par an, ou de l'inflation si elle est inférieure ; elle est remise à la valeur de marché après un changement de propriétaire. Pour une résidence secondaire ou un bien loué, cas du Français non résident propriétaire à Miami, la hausse annuelle de la valeur imposable est plafonnée à 10 %, hors taxes scolaires.
+
+Aucun taux effectif officiel n'a été relevé pour la Floride. Selon la Tax Foundation, source secondaire, sur des données de 2024, la taxe représente 0,81 % de la valeur des logements occupés par leur propriétaire dans le comté de Miami-Dade, contre 0,71 % à Manhattan et 0,56 % à Brooklyn. Le chiffre de Manhattan est une borne basse, la source y plafonnant l'impôt médian.
+
+En Floride, un amendement constitutionnel relatif à la taxe foncière est soumis au vote le 3 novembre 2026 ; son résultat n'est pas connu au 9 octobre 2026. À New York, le budget signé le 28 mai 2026 crée une surtaxe sur les résidences secondaires de la ville valant 5 000 000 $ ou plus, dont le barème et la date d'effet restent à vérifier.
+
+**La taxe sur les ventes.** L'État de Floride prélève 6 %, et le comté de Miami-Dade une surtaxe de 1 % en 2026, soit 7 % par addition. À New York, le Department of Finance de la ville affiche 8,875 % au total.
+
+**L'impôt sur les sociétés.** La Floride prélève 5,5 % du bénéfice, après une exonération de 50 000 $ de revenu net. À New York, l'État prélève 6,5 % dans le cas général et la ville 8,85 %. Les taux de New York ne s'additionnent pas tels quels à l'impôt fédéral de 21 %, les impôts locaux étant déductibles de la base fédérale.
+
+Aucun de ces trois postes n'est propre à la Floride : New York taxe aussi le foncier, les ventes et les sociétés. Ce qui n'existe que d'un côté, c'est l'impôt local sur le revenu, plus-values comprises, et les droits de succession d'État.
+
+### S'installer à Miami ne suffit pas toujours à quitter New York
+
+La section 605 de la Tax Law ouvre deux portes d'entrée dans la résidence de l'État. La première est le domicile. La seconde, la résidence statutaire, vise celui qui maintient dans l'État un logement permanent et y passe au total plus de 183 jours dans l'année.
+
+Selon l'administration de l'État, le logement permanent est une résidence maintenue de façon permanente, que l'on en soit propriétaire ou non, utilisable toute l'année et conservée pendant la quasi-totalité de celle-ci. Le seuil est de 184 jours ou plus : 183 jours ne suffisent pas. La définition du résident de la ville reprend celle de l'État.
+
+La Floride, elle, n'a aucun test de résidence pour un impôt sur le revenu qu'elle ne lève pas. Un contribuable installé à Miami qui garde un appartement à Manhattan et y passe plus de 183 jours dans l'année est imposé comme résident par l'État et par la ville. Ce décompte annuel est distinct du test fédéral de présence, qui porte sur trois années.
+
+Quatre points restent à faire préciser par un fiscaliste local : la façon dont le domicile s'apprécie après un départ, les exceptions prévues pour la personne domiciliée dans l'État, le décompte d'une journée incomplète et la preuve du nombre de jours.
+
+### Ce qui ne dépend pas de la ville
+
+Plusieurs règles qui comptent pour un Français sont fédérales ou françaises, donc identiques dans les deux villes.
+
+**Le revenu mondial.** Les citoyens et les résidents des États-Unis sont imposables sur leurs revenus de toutes sources. La résidence fédérale s'acquiert par la carte verte, tant que le statut n'a pas été abandonné par écrit ou retiré, ou par le test de présence substantielle : au moins 31 jours dans l'année et 183 jours sur trois ans, les deux années précédentes comptant pour un tiers et un sixième.
+
+**Les déclarations.** Le résident déclare ses comptes financiers étrangers (FBAR) quand leur total dépasse 10 000 $ à un moment de l'année. Le formulaire 8938 s'y ajoute, pour un célibataire, au-delà de 50 000 $ au dernier jour de l'année ou de 75 000 $ à un moment de l'année.
+
+**Les conventions.** La convention du 31 août 1994 ne couvre, côté américain, que des impôts fédéraux (article 2), et sa clause de sauvegarde (article 29) laisse les États-Unis imposer leurs résidents et leurs citoyens « comme si la Convention n'existait pas ». Celle du 24 novembre 1978 ne couvre de même que les droits fédéraux de succession et de donation. L'impôt sur le revenu de l'État et de la ville de New York, et les droits de succession de l'État, restent hors du champ des deux textes.
+
+**La succession du non-résident.** Pour un défunt ni résident ni citoyen, le formulaire 706-NA doit être déposé dès que ses biens situés aux États-Unis, immeubles compris, dépassent 60 000 $ ; le crédit d'impôt est de 13 000 $ au plus.
+
+**Ce que la France garde.** Les revenus de source française du non-résident restent imposables en France, sous réserve de la convention. Son patrimoine immobilier français net de plus de 1 300 000 € reste soumis à l'IFI, et l'exit tax (CGI, article 167 bis) peut s'appliquer au départ quand les titres excèdent 800 000 €.
+
+### Un exemple chiffré : 100 000 $ de revenu imposable à Miami, puis à New York
+
+Camille Renaud, personnage fictif, est célibataire, salariée et résidente fiscale américaine. Son salaire laisse, après déductions, 100 000 $ de revenu imposable. Par hypothèse, la même base est retenue aux trois niveaux, et Camille Renaud réside toute l'année dans la même ville.
+
+| | Miami | New York (ville) |
+|---|---|---|
+| Fédéral, 10 % de 12 400 $ | 1 240 $ | 1 240 $ |
+| Fédéral, 12 % de 38 000 $ | 4 560 $ | 4 560 $ |
+| Fédéral, 22 % de 49 600 $ | 10 912 $ | 10 912 $ |
+| **Impôt fédéral** | **16 712 $** | **16 712 $** |
+| État, 3,90 % de 8 500 $ | Aucun | 331,50 $ |
+| État, 4,40 % de 3 200 $ | Aucun | 140,80 $ |
+| État, 5,15 % de 2 200 $ | Aucun | 113,30 $ |
+| État, 5,40 % de 66 750 $ | Aucun | 3 604,50 $ |
+| État, 5,90 % de 19 350 $ | Aucun | 1 141,65 $ |
+| **Impôt de l'État** | **Aucun** | **5 331,75 $** |
+| Ville, 3,078 % de 12 000 $ | Sans objet | 369,36 $ |
+| Ville, 3,762 % de 13 000 $ | Sans objet | 489,06 $ |
+| Ville, 3,819 % de 25 000 $ | Sans objet | 954,75 $ |
+| Ville, 3,876 % de 50 000 $ | Sans objet | 1 938,00 $ |
+| **Impôt de la ville** | **Sans objet** | **3 751,17 $** |
+| **Total** | **16 712 $** | **25 794,92 $** |
+
+L'impôt fédéral est identique. L'écart, 9 082,92 $, vient de New York seul : un peu plus de 9 % du revenu imposable.
+
+Ce calcul par tranches ne reprend ni les déductions propres à chaque niveau (la déduction forfaitaire fédérale d'un célibataire est de 16 100 $ en 2026), ni les crédits d'impôt, ni les cotisations sociales, ni la déduction fédérale des impôts d'État et locaux, plafonnée à 40 400 $ en 2026. Il ne reprend pas non plus le mécanisme de rattrapage que les instructions de New York prévoient pour les revenus élevés. Le montant dû à New York est à faire confirmer sur les tables annuelles de 2026, une fois publiées.
+
+### Questions fréquentes
+
+**Paie-t-on un impôt sur le revenu à Miami ?**
+L'impôt fédéral, oui : de 10 % à 37 % en 2026. La Floride n'y ajoute aucun impôt d'État sur le revenu des personnes physiques, l'article VII, section 5 de sa Constitution l'excluant en pratique. L'absence d'impôt municipal à Miami se déduit du même texte.
+
+**Quel impôt sur le revenu paie un résident de la ville de New York en 2026 ?**
+Trois impôts se cumulent : le barème fédéral, de 10 % à 37 %, celui de l'État, de 3,90 % à 10,9 %, et celui de la ville, de 3,078 % à 3,876 %. Les barèmes de l'État et de la ville viennent des instructions d'acomptes IT-2105 de 2026, les tables annuelles n'étant pas publiées au 9 octobre 2026.
+
+**Suffit-il de déménager à Miami pour ne plus être imposé par New York ?**
+Non. La section 605 de la Tax Law tient pour résident celui qui maintient un logement permanent dans l'État et y passe plus de 183 jours dans l'année, soit 184 jours ou plus selon l'administration. Celui qui garde un appartement à Manhattan et dépasse ce seuil reste imposé par l'État et par la ville. Le domicile est l'autre critère de résidence.
+
+**Les plus-values sont-elles imposées différemment à Miami et à New York ?**
+Le niveau fédéral est le même : 20 % au plus sur une plus-value à long terme, plus 3,8 %. La Floride n'ajoute rien. L'État et la ville de New York appliquent leurs barèmes, jusqu'à 10,9 % et 3,876 %, sans taux réduit.
+
+**Quels sont les droits de succession à New York et en Floride ?**
+Les droits fédéraux s'appliquent dans les deux cas : 40 % au plus, après un abattement de 15 000 000 $ en 2026. La Floride n'en prélève aucun. L'État de New York impose de 3,06 % à 16 %, avec un abattement de 7 350 000 $ en 2026 qui disparaît quand la succession dépasse 105 % de ce montant.
+
+**La taxe sur les ventes et la taxe foncière sont-elles plus lourdes à Miami ?**
+La taxe sur les ventes est de 6 % plus 1 % à Miami, contre 8,875 % au total à New York selon le Department of Finance de la ville. Pour la taxe foncière, la Tax Foundation (données 2024) relève 0,81 % dans le comté de Miami-Dade et 0,71 % à Manhattan, ce dernier chiffre étant une borne basse.
+
+### Sources
+
+[Revenue Procedure 2025-32](https://www.irs.gov/pub/irs-drop/rp-25-32.pdf) · [IRS, Topic no. 559, Net investment income tax](https://www.irs.gov/taxtopics/tc559) · [IRS, instructions du formulaire 706](https://www.irs.gov/instructions/i706) · [Constitution de l'État de Floride](https://www.leg.state.fl.us/Statutes/index.cfm?Mode=Constitution&Submenu=3&Tab=statutes), article VII, sections 1, 4, 5 et 6 · [Florida Department of Revenue, Sales and use tax](https://floridarevenue.com/taxes/taxesfees/Pages/sales_tax.aspx) · [Florida Department of Revenue, surtaxes de comté pour 2026 (formulaire DR-15DSS)](https://floridarevenue.com/Forms_library/current/dr15dss_26.pdf) · [État de New York, instructions IT-2105 pour 2026](https://www.tax.ny.gov/pdf/current_forms/it/it2105i.pdf) · [Tax Law de New York, section 605](https://www.nysenate.gov/legislation/laws/TAX/605) · [Tax Law de New York, section 952](https://www.nysenate.gov/legislation/laws/TAX/952) · [État de New York, droits de succession, abattement de 2026](https://www.tax.ny.gov/pit/estate/etidx.htm) · [État de New York, instructions du formulaire ET-706](https://www.tax.ny.gov/pdf/current_forms/et/et706i.pdf) · [Ville de New York, Department of Finance, taxe sur les ventes](https://www.nyc.gov/site/finance/business/business-nys-sales-tax.page) · [Tax Foundation, Property taxes by state and county](https://taxfoundation.org/data/all/state/property-taxes-by-state-county/), données 2024, source secondaire · [Convention franco-américaine du 31 août 1994](https://www.impots.gouv.fr/sites/default/files/media/10_conventions/etats-unis/etats-unis_convention-avec-les-etats-unis-impot-sur-le-revenu-impot-sur-la-fortune_fd_1835.pdf), articles 2 et 29 · [Convention franco-américaine du 24 novembre 1978](https://www.impots.gouv.fr/sites/default/files/media/10_conventions/etats-unis/etats-unis_convention-avec-les-etats-unis-successions-donations_fd_1836.pdf), article 2
+
+### Liens internes
+
+Page **Cockpit stratégique** · articles **N1**, **N9**, **N2** et **I26**.

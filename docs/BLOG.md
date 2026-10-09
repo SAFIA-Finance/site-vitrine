@@ -151,7 +151,7 @@ code (`A1` → Épargne réglementée). Une lettre inconnue arrête la conversio
 | K | Outre-mer | 9 |
 | L | Dispositifs fiscaux | 9 |
 | M | Saint-Barthélemy | 18 |
-| N | Fiscalité comparée | 9 |
+| N | Fiscalité comparée | 12 |
 
 Pour ajouter un territoire : une entrée dans `CATEGORIES` de
 `outils/blog-en-articles.mjs`, la même dans `src/content.config.ts`, et la
