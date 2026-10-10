@@ -1,0 +1,54 @@
+# En-têtes posés par Cloudflare sur les fichiers du site.
+#
+# Ce fichier n'est pas publié : Cloudflare le lit au déploiement et l'applique.
+# Il reproduit ce que GitHub Pages envoyait jusqu'en octobre 2026, là où
+# Cloudflare fait autrement par défaut. Chaque bloc dit quel écart il comble.
+#
+# Limite de Cloudflare : 100 règles. Une règle par page est donc exclue, d'où
+# les motifs par profondeur ci-dessous.
+
+# L'encodage. Cloudflare sert « text/html » sans préciser « utf-8 ». Un
+# navigateur lit la balise <meta charset> et s'en sort, mais un robot qui s'en
+# tient à l'en-tête lit les accents de travers. Une page est une adresse qui
+# finit par une barre, et aucun autre fichier n'en finit : un motif par
+# profondeur les couvre toutes (la plus profonde : /blog/categorie/<nom>/).
+/
+  Content-Type: text/html; charset=utf-8
+
+/:a/
+  Content-Type: text/html; charset=utf-8
+
+/:a/:b/
+  Content-Type: text/html; charset=utf-8
+
+/:a/:b/:c/
+  Content-Type: text/html; charset=utf-8
+
+# Même écart pour les deux fichiers texte, qui n'ont pas de balise pour se
+# rattraper. « llms.txt » est écrit pour des robots : c'est le plus exposé.
+/llms.txt
+  Content-Type: text/plain; charset=utf-8
+
+/robots.txt
+  Content-Type: text/plain; charset=utf-8
+
+# GitHub Pages l'envoyait sur tout le site. Rien ici n'est confidentiel.
+/*
+  Access-Control-Allow-Origin: *
+
+# Le cache. Par défaut, Cloudflare demande au navigateur de revalider chaque
+# fichier à chaque page. C'est voulu pour les pages : une correction publiée se
+# voit tout de suite. Les fichiers de « _astro » portent une empreinte dans leur
+# nom et ne changent donc jamais : ils se gardent un an. Polices et images
+# gardent les dix minutes de GitHub Pages.
+/_astro/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/fonts/*
+  Cache-Control: public, max-age=600
+
+/images/*
+  Cache-Control: public, max-age=600
+
+/og/*
+  Cache-Control: public, max-age=600

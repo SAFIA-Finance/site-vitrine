@@ -1,0 +1,11 @@
+// Renvoi de « www.safia.finance » vers « safia.finance » (voir src/index.js).
+// Déployé une fois, à la main, le jour de la bascule : une poussée sur « main »
+// ne le redéploie pas. Déploiement : voir docs/DEPLOIEMENT.md.
+{
+  "name": "safia-www",
+  "main": "src/index.js",
+  "compatibility_date": "2026-09-01",
+  "workers_dev": false,
+  "preview_urls": false,
+  "routes": [{ "pattern": "www.safia.finance", "custom_domain": true }]
+}

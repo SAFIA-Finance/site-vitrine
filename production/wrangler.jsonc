@@ -1,0 +1,29 @@
+// Le site de production : le dossier « dist » servi tel quel par Cloudflare.
+// Publié par GitHub Actions à chaque poussée sur « main » (voir
+// .github/workflows/deploy.yml et docs/DEPLOIEMENT.md), jamais à la main.
+//
+// Les en-têtes et les redirections ne sont pas ici : Cloudflare les lit dans
+// « dist/_headers » (public/_headers) et « dist/_redirects »
+// (outils/generer-redirections.mjs).
+{
+  "name": "safia-site",
+  "compatibility_date": "2026-09-01",
+  // Le site ne répond que sur son domaine. Une adresse en « workers.dev »
+  // serait un duplicata indexable de tout le site.
+  "workers_dev": false,
+  "preview_urls": false,
+  "routes": [
+    // RÉPÉTITION. Adresse d'essai, le temps de comparer Cloudflare à GitHub
+    // Pages page par page. Elle cède la place à « safia.finance » le jour de
+    // la bascule, en présence de Maxime : attacher le domaine remplace ses
+    // enregistrements DNS, et seul lui peut les remettre.
+    { "pattern": "essai.safia.finance", "custom_domain": true }
+  ],
+  "assets": {
+    "directory": "../dist",
+    // Comme GitHub Pages : une adresse inconnue rend la page 404 du site avec
+    // le code 404, et /contact/index.html renvoie vers /contact/.
+    "html_handling": "force-trailing-slash",
+    "not_found_handling": "404-page"
+  }
+}

@@ -9,7 +9,7 @@
   },
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build && node outils/espaces-insecables.mjs dist && node outils/generer-og-articles.mjs && node outils/generer-llms.mjs",
+    "build": "astro build && node outils/espaces-insecables.mjs dist && node outils/generer-og-articles.mjs && node outils/generer-llms.mjs && node outils/generer-redirections.mjs dist",
     "preview": "astro preview",
     "check": "astro check",
     "verifier": "node outils/verifier-liens.mjs dist",

@@ -66,6 +66,19 @@ jobs:
       - name: Vérifier les liens internes
         run: npm run verifier
 
+      # Publication sur Cloudflare (configuration dans production/). Le jeton
+      # vit dans Settings > Secrets and variables > Actions > Secrets ; sa
+      # création est décrite dans docs/DEPLOIEMENT.md.
+      #
+      # TRANSITION. Tant que GitHub Pages sert encore safia.finance, les deux
+      # hébergements sont publiés à chaque poussée, pour que Cloudflare porte
+      # exactement le même site le jour de la bascule.
+      - name: Publier sur Cloudflare
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: npx --yes wrangler@4 deploy --config production/wrangler.jsonc
+
       - uses: actions/upload-pages-artifact@v5
         with:
           path: dist

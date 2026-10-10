@@ -71,3 +71,6 @@ jobs:
       pages: write
       id-token: write
     uses: ./.github/workflows/deploy.yml
+    # Sans cette ligne, un workflow appelé ne reçoit aucun secret : le
+    # déploiement partirait sans le jeton Cloudflare et échouerait.
+    secrets: inherit
