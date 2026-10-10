@@ -13,11 +13,16 @@
   "workers_dev": false,
   "preview_urls": false,
   "routes": [
-    // RÉPÉTITION. Adresse d'essai, le temps de comparer Cloudflare à GitHub
-    // Pages page par page. Elle cède la place à « safia.finance » le jour de
-    // la bascule, en présence de Maxime : attacher le domaine remplace ses
-    // enregistrements DNS, et seul lui peut les remettre.
-    { "pattern": "essai.safia.finance", "custom_domain": true }
+    // Une ROUTE, pas un « custom domain ». Cloudflare refuse d'attacher un
+    // domaine qui porte déjà des enregistrements DNS (erreur 100117, constatée
+    // le 10 octobre 2026), et les supprimer d'abord aurait coupé le site. Une
+    // route, elle, se pose d'avance et ne touche pas au DNS : elle prend effet
+    // dès que l'enregistrement du domaine passe en « Proxied » (nuage orange).
+    //
+    // CONSÉQUENCE. L'enregistrement DNS de « safia.finance » doit exister et
+    // rester en nuage orange. Repassé en gris, le site n'est plus servi par
+    // Cloudflare. « www » n'est pas ici : il a son renvoi, dans renvoi-www/.
+    { "pattern": "safia.finance/*", "zone_name": "safia.finance" }
   ],
   "assets": {
     "directory": "../dist",
